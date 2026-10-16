@@ -1,6 +1,6 @@
 {
   "story_id": "the-pol-pot-episodes-how-a-nice-quiet-kid-murdered-his-country",
-  "taxonomy_version": "0.4.0",
+  "taxonomy_version": "0.5.0",
   "tagged_by": {
     "agent": "btb-tagger",
     "model": "claude-opus-5-5",
@@ -44,7 +44,8 @@
       "war-war-crimes",
       "colonialism-imperialism",
       "propaganda-media",
-      "racism-white-supremacy"
+      "racism-white-supremacy",
+      "civil-war"
     ]
   },
   "regions": {

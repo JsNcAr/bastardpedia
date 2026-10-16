@@ -4,11 +4,17 @@
   ],
   "how-l-ron-hubbard-lied-his-way-to-godhood": ["Updated for 0.4.0: no field changed."],
   "how-nestle-starved-a-bunch-of-babies": ["Updated for 0.4.0: other themes changed."],
-  "kissinger": ["Updated for 0.4.0: other themes, content warnings changed."],
+  "kissinger": [
+    "Updated for 0.5.0: Civil war added to other themes (Angola about 25 minutes, the Bangladesh secession war).",
+    "Updated for 0.4.0: other themes, content warnings changed."
+  ],
   "percy-fawcett-real-life-indiana-jones-or-deluded-psychic-racist": [
     "Updated for 0.4.0: other themes, content warnings changed."
   ],
-  "constructing-the-crack-epidemic": ["Updated for 0.4.0: other themes changed."],
+  "constructing-the-crack-epidemic": [
+    "Updated for 0.5.0: Civil war added to other themes (the Contra war, about 5%).",
+    "Updated for 0.4.0: other themes changed."
+  ],
   "steven-seagal-wrote-a-book-we-read-it": [
     "Updated for 0.4.0: subjects, content warnings changed."
   ]

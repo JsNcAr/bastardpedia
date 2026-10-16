@@ -1,6 +1,6 @@
 {
   "story_id": "how-heinrich-himmler-went-from-nerdy-boy-to-master-of-the-ss",
-  "taxonomy_version": "0.4.0",
+  "taxonomy_version": "0.5.0",
   "tagged_by": {
     "agent": "btb-tagger",
     "model": "claude-opus-5-5",

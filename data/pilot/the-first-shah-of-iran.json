@@ -1,6 +1,6 @@
 {
   "story_id": "the-first-shah-of-iran",
-  "taxonomy_version": "0.4.0",
+  "taxonomy_version": "0.5.0",
   "tagged_by": {
     "agent": "btb-tagger",
     "model": "claude-opus-5-5",
@@ -53,7 +53,8 @@
       "corporate-malfeasance",
       "monarchy-empire",
       "war-war-crimes",
-      "diplomacy-foreign-policy"
+      "diplomacy-foreign-policy",
+      "civil-war"
     ]
   },
   "regions": {
@@ -145,12 +146,6 @@
     },
     {
       "facet": "themes",
-      "part": 1,
-      "at": "00:46:06",
-      "note": "Cossack Brigade shells parliament in 1908; foreign-backed shahs and coups"
-    },
-    {
-      "facet": "themes",
       "part": 2,
       "at": "00:48:13",
       "note": "Persianization campaign and massacre of Lurs under his rule"
@@ -184,6 +179,12 @@
       "part": 2,
       "at": "00:14:31",
       "note": "Curzon's Anglo-Persian Treaty, bribes and its defeat in the Majlis"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:02:36",
+      "note": "Russian Civil War spills into Persia: Soviet republic in the north vs Whites, British, Cossacks"
     }
   ],
   "notes": "Primary theme could be colonialism-imperialism: Part 1 is almost all British/Russian Great Game meddling before Reza appears. covered_span starts at the 1785 Qajar rise (secondary subject, several minutes); the 1828 treaty or the Great Game (1840) would be an alternative start. Opening ties to the 2026 US-Iran war are framing only, so reaches_present is false. Great Persian Famine (WWI) gets a long segment."

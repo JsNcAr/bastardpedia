@@ -19,6 +19,7 @@
     "Updated for 0.4.0: other themes, content warnings changed."
   ],
   "general-butt-naked-and-the-liberian-civil-war": [
+    "Updated for 0.5.0: Civil war is now the main theme (War & war crimes moved to other themes).",
     "Updated for 0.4.0: other themes, content warnings changed."
   ],
   "how-eliza-fraser-survived-a-shipwreck-and-sparked-a-genocide": [
@@ -32,6 +33,7 @@
     "Updated for 0.4.0: other themes changed."
   ],
   "in-honor-of-our-new-monarchy-let-s-talk-about-versailles": [
+    "Updated for 0.5.0: Civil war added to other themes for the Fronde (about 8 minutes, the reason Versailles was built).",
     "Updated for 0.4.0: other themes, polities/scope changed."
   ],
   "king-leopold-ii-the-first-modern-bastard": [
@@ -41,6 +43,7 @@
     "Updated for 0.4.0: other themes, content warnings changed."
   ],
   "robert-e-lee-a-lifetime-of-failure": [
+    "Updated for 0.5.0: Civil war added to other themes (secession and the war fill most of parts 3 and 4).",
     "Updated for 0.4.0: other themes, content warnings changed.",
     "Your fix: slavery warning added. The Lost Cause myth now also carries the folklore theme."
   ],
@@ -50,11 +53,15 @@
   "the-bastard-who-invented-the-lobotomy": [
     "Updated for 0.4.0: other themes, content warnings changed."
   ],
-  "the-first-shah-of-iran": ["Updated for 0.4.0: other themes, content warnings changed."],
+  "the-first-shah-of-iran": [
+    "Updated for 0.5.0: Civil war added to other themes (the 1908-09 uprising and the Russian Civil War in Persia, about 7%).",
+    "Updated for 0.4.0: other themes, content warnings changed."
+  ],
   "the-man-who-invented-fascism": [
     "Updated for 0.4.0: other themes, polities/scope, content warnings changed."
   ],
   "the-pol-pot-episodes-how-a-nice-quiet-kid-murdered-his-country": [
+    "Updated for 0.5.0: Civil war added to other themes (the 1970-75 war against Lon Nol, over 10 minutes).",
     "Updated for 0.4.0: other themes, content warnings changed."
   ],
   "the-slavery-loving-fascist-who-built-modern-japan": [
