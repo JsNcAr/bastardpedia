@@ -86,6 +86,23 @@ groups:
         label: War & war crimes
         definition: The conduct of wars, military leaders, atrocities in war and military failure.
         examples: ['Francisco Solano López', 'Oskar Dirlewanger', 'Lawrence of Arabia']
+        see_also: [civil-war]
+      - id: civil-war
+        label: Civil war
+        definition: >-
+          Wars fought inside one country between its own people, factions or regions, including
+          wars of secession, and the warlords and armies they produce.
+        examples:
+          [
+            'Robert E. Lee (US Civil War)',
+            'General Butt Naked (Liberian civil wars)',
+            'Behind the Insurrections: How Fascism Won the Spanish Civil War',
+          ]
+        include_when:
+          [
+            'Use it with war-war-crimes when the story also covers how the war was fought or its atrocities.',
+          ]
+        see_also: [war-war-crimes, coups-insurrections]
       - id: terrorism
         label: Terrorism & political violence
         definition: 'Non-state political violence: bombings, assassinations, militant groups.'

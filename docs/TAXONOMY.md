@@ -5,7 +5,7 @@ How stories are classified, and why. The vocabularies themselves live in
 instructions are in [`tagging/PROMPT.md`](../tagging/PROMPT.md), and the record structure is in
 [`shared/schemas/story-tags.ts`](../shared/schemas/story-tags.ts).
 
-Current version: see `tagging/taxonomy/VERSION` (0.4.0, draft).
+Current version: see `tagging/taxonomy/VERSION` (0.5.0, draft).
 
 ## The unit: a story, not an episode
 
@@ -25,7 +25,7 @@ never duplicates another.
 | `format`              | What kind of episode?                     | agent       | `formats.yaml`: 7 values                                                               |
 | `subjects`            | Who or what is it about?                  | agent       | free names + `subject-kinds.yaml`                                                      |
 | `roles`               | What were the people?                     | agent       | `roles.yaml`: 33 roles in 7 groups                                                     |
-| `themes`              | What is the story about?                  | agent       | `themes.yaml`: 48 themes in 7 groups                                                   |
+| `themes`              | What is the story about?                  | agent       | `themes.yaml`: 49 themes in 7 groups                                                   |
 | `regions`             | Where are they from, where did it happen? | agent       | ISO 3166-1/-2 + `polities.yaml`                                                        |
 | `time`                | When did the main events happen?          | agent       | integer years                                                                          |
 | continent / subregion | Where, broadly?                           | **derived** | UN M49 table                                                                           |
@@ -189,6 +189,8 @@ carry chosen warnings.
   `ethnic-group`; org type `criminal-org` (party paramilitaries go under military); polities
   Kingdom of France and Kingdom of Italy; the lifetime rule covers live shows;
   `medical-malpractice` includes ableist and gendered medical abuse.
+
+- 2026-10-16 (0.5.0): theme `civil-war`, requested during the pilot review.
 
 ## Open questions
 
