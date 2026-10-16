@@ -552,11 +552,13 @@
           "facet": {
             "type": "string",
             "enum": [
+              "format",
               "subjects",
               "roles",
               "themes",
               "regions",
-              "time"
+              "time",
+              "content_warnings"
             ]
           },
           "part": {

@@ -123,7 +123,15 @@ export function makeStoryTagsSchema(v: Vocabularies) {
       evidence: z
         .array(
           z.object({
-            facet: z.enum(['subjects', 'roles', 'themes', 'regions', 'time']),
+            facet: z.enum([
+              'format',
+              'subjects',
+              'roles',
+              'themes',
+              'regions',
+              'time',
+              'content_warnings',
+            ]),
             part: z.number().int().min(1),
             at: z.string().regex(/^\d{2}:\d{2}:\d{2}$/, 'HH:MM:SS'),
             note: z.string().max(120),

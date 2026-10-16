@@ -74,7 +74,9 @@ values:
   - id: crossover
     label: Crossover / promo
     definition: >-
-      An episode from, or promoting, another podcast, re-published in the BtB feed.
+      An episode from, or promoting, another podcast, re-published in the BtB feed. A BtB series
+      whose parts are co-produced with another show (Cracktoberfest with Hood Politics) stays a
+      deep-dive.
     examples:
       - 'Better Offline'
       - 'Hood Politics with Prop'

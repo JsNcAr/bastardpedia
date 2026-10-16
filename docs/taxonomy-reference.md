@@ -12,7 +12,7 @@ The reasoning behind these lists is in [TAXONOMY.md](TAXONOMY.md).
 | `media-reading` | Reading / watching | The hosts read, watch or review a book, novel, manual, TV show or other media made by a bastard, and the episode is structured around that work. | Steven Seagal Wrote a Book (We Read It); Let's Read the Proud Boys Membership Manual; The Religion War, by Scott Adams (with Matt Lieb) |
 | `hero` | Hero episode | An episode explicitly about a good person or group: Christmas "non-bastard" and hero specials. | Special X-Mas Non-Bastard: Raoul Wallenberg, History's Greatest Hero; Christmas non-Bastard: The Tupamaros of Uruguay; X-Mas Special: The Heroes Who Ended The Slave Trade |
 | `live-show` | Live show | An episode recorded in front of a live audience. | The Terrible Secret of Sea Monkeys (Live Show); The Liver King (A Live Show); Behind the Bastards Live Show: The Ballad of Bo Gritz |
-| `crossover` | Crossover / promo | An episode from, or promoting, another podcast, re-published in the BtB feed. | Better Offline; Hood Politics with Prop; Behind the Bastards Presents: Weird Little Guys |
+| `crossover` | Crossover / promo | An episode from, or promoting, another podcast, re-published in the BtB feed. A BtB series whose parts are co-produced with another show (Cracktoberfest with Hood Politics) stays a deep-dive. | Better Offline; Hood Politics with Prop; Behind the Bastards Presents: Weird Little Guys |
 | `meta` | Meta | Q&A, listener questions, year-end specials and other episodes about the show itself. | Behind the Bastards Q&A: Year's End Edition; Behind the Bastards Q&A: 2026 Edition |
 
 ## Subject kinds (8)

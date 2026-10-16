@@ -1,0 +1,54 @@
+{
+  "story_id": "heinrich-schliemann-the-archaeologist-who-destroyed-troy",
+  "taxonomy_version": "0.3.0",
+  "tagged_by": { "agent": "btb-tagger-blind-2", "model": "claude-opus-5-5", "date": "2026-10-16" },
+  "format": "deep-dive",
+  "subjects": [
+    { "name": "Heinrich Schliemann", "kind": "person", "role": "primary", "lifespan": { "start": 1822, "end": 1890 } },
+    { "name": "Giuseppe Ferlini", "kind": "person", "role": "secondary", "lifespan": { "start": 1797, "end": 1870 } },
+    { "name": "Frank Calvert", "kind": "person", "role": "secondary", "lifespan": { "start": 1828, "end": 1908 } },
+    { "name": "Sophia Schliemann", "kind": "person", "role": "secondary", "lifespan": { "start": 1852, "end": 1932 } }
+  ],
+  "roles": ["explorer-adventurer", "scientist-scholar", "business-executive"],
+  "themes": {
+    "primary": "cultural-heritage-looting",
+    "secondary": ["science-exploration", "fraud-grift"]
+  },
+  "regions": {
+    "origin": ["DE"],
+    "setting": ["TR", "SD", "GR", "RU", "US", "IT"],
+    "subdivisions": [],
+    "polities": ["ottoman-empire", "russian-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1868, "end": 1890 },
+    "covered_span": { "start": 1797, "end": 1890 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "German merchant turned amateur archaeologist Heinrich Schliemann tore through the mound at Hisarlik in Ottoman Turkey in the 1870s, destroying much of the Troy he sought and smuggling out treasure; the story opens with Giuseppe Ferlini wrecking a pyramid at Meroe.",
+  "content_warnings": [],
+  "keywords": ["Troy", "Hisarlik", "Priam's Treasure", "Mask of Agamemnon", "Mycenae", "Meroe", "Pyramid of Amanishakheto", "Wilhelm Dörpfeld", "California Gold Rush", "Crimean War"],
+  "guests": ["Kristen Conger"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:06:47", "note": "Ferlini introduced, born 1797 in Bologna; long secondary segment opens the story" },
+    { "facet": "regions", "part": 1, "at": "00:16:26", "note": "Ferlini's 1834 expedition to the Meroe pyramids in present-day Sudan" },
+    { "facet": "time", "part": 1, "at": "00:28:23", "note": "Schliemann born January 1822 in Mecklenburg" },
+    { "facet": "themes", "part": 1, "at": "00:44:49", "note": "short-weighting gold dust in California, flees the US" },
+    { "facet": "regions", "part": 1, "at": "00:42:18", "note": "builds his fortune as a merchant in St. Petersburg, incl. Crimean War profiteering" },
+    { "facet": "time", "part": 2, "at": "00:01:37", "note": "1868 first amateur dig in Greece; start of the archaeological career" },
+    { "facet": "themes", "part": 2, "at": "00:19:50", "note": "giant trench through Hisarlik without records, destroying later Troy layers" },
+    { "facet": "regions", "part": 2, "at": "00:28:47", "note": "Ottoman legal case over smuggled Priam's treasure; Mycenae dig in 1876" },
+    { "facet": "themes", "part": 2, "at": "00:30:19", "note": "forgery and planting allegations around the Mycenae mask and Troy finds" },
+    { "facet": "time", "part": 2, "at": "00:41:35", "note": "dies in Naples on 26 December 1890" }
+  ],
+  "notes": "Ferlini's death year (1870) and Calvert/Sophia lifespans from general knowledge, not stated. Marriage to 17-year-old Sophia (description: 'child bride') gets a few minutes; child-abuse theme left out as not the focus. Brief coda on artifacts held in Russia and ongoing Turkish restoration judged too short for reaches_present. Racism mentioned only briefly. No theme for war profiteering."
+}

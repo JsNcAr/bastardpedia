@@ -47,12 +47,14 @@ the story is about.
 
 - `primary`: the subject(s) named in the title or that the story is built around. Usually one.
   Use several only when the story gives them equal weight (e.g. "Ronald and Nancy Reagan").
-  For a `media-reading`, both the work being read and its author are primary.
+  For a `media-reading`, both the work being read and its author are primary; a co-author or
+  foreword writer is secondary unless the episode treats them as equally central.
 - `secondary`: subjects that get a substantial segment of their own (Fawcett's rival explorers,
   Hubbard's successor). Do not list everyone mentioned.
 - `kind` comes from `subject-kinds.yaml`. Organizations need an `org_type`.
 - Use the most common English name in full ("Heinrich Schliemann", not "Schliemann").
-- `lifespan` (person subjects only): birth and death years; `null` for unknown; `end: null` if alive.
+- `lifespan` (person subjects only): birth and death years; `null` for unknown; `end: null` if
+  alive today. A subject who died after the episode aired keeps their real death year.
 - `wikidata`: include the QID only if you are certain of it. A wrong QID is worse than none, and
   every QID is checked by a script.
 
@@ -88,7 +90,9 @@ Nestlé gets no roles even though Henri Nestlé appears.
   `scope` is `online`. **Order by importance**: first the places where the main harm or the main
   events happened, then the rest by how much of the story they take. A company's headquarters,
   a courtroom or a hearing ranks below the place where people were hurt (Nestlé: the African
-  countries where babies died come before the US).
+  countries where babies died come before the US). When more than six places qualify, keep the
+  harm places with the most airtime first, then the subject's home country only if it has a real
+  segment of its own and there is room.
 - **Always map historical places to the modern country that contains them**: Prussia → DE,
   Troy/Hisarlik → TR, Ceylon → LK, Rhodesia → ZW, Leningrad → RU, the Congo Free State → CD.
 - `subdivisions`: ISO 3166-2 codes (e.g. `US-OR`, `US-TX`, `GB-SCT`) only when a single state or
@@ -111,8 +115,8 @@ Do **not** choose eras. The app works them out from your years. There are two sp
      Schliemann's covered years start with the looter Giuseppe Ferlini, a secondary subject
      with a long segment. General background the host gives before the story begins (how wet
      nursing worked in the 1700s, the Great Migration) does not count;
-  2. it takes a real share of the airtime: a few minutes or more, roughly 5% of the story or
-     more. A passing mention does not count.
+  2. it takes a real share of the airtime: a few minutes or more, roughly 5% of the whole story
+     (all parts together) or more. A passing mention does not count.
 
   Leave out epilogues about other people searching for, reinterpreting or memorialising the
   subject (modern expeditions retracing an explorer, a recent film): those set

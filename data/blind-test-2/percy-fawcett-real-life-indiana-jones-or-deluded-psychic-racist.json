@@ -1,0 +1,53 @@
+{
+  "story_id": "percy-fawcett-real-life-indiana-jones-or-deluded-psychic-racist",
+  "taxonomy_version": "0.3.0",
+  "tagged_by": { "agent": "btb-tagger-blind-2", "model": "claude-opus-5-5", "date": "2026-10-16" },
+  "format": "deep-dive",
+  "subjects": [
+    { "name": "Percy Fawcett", "kind": "person", "role": "primary", "lifespan": { "start": 1867, "end": 1925 } },
+    { "name": "Jack Fawcett", "kind": "person", "role": "secondary", "lifespan": { "start": 1903, "end": 1925 } },
+    { "name": "Edward Douglas Fawcett", "kind": "person", "role": "secondary", "lifespan": { "start": 1866, "end": 1960 } }
+  ],
+  "roles": ["explorer-adventurer", "military-officer"],
+  "themes": {
+    "primary": "science-exploration",
+    "secondary": ["occult-esoteric", "racism-white-supremacy", "colonialism-imperialism"]
+  },
+  "regions": {
+    "origin": ["GB"],
+    "setting": ["BR", "BO", "LK", "GB", "FR"],
+    "subdivisions": [],
+    "polities": ["british-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1906, "end": 1925 },
+    "covered_span": { "start": 1867, "end": 1925 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "British artillery officer and Theosophist Percy Fawcett surveyed Bolivian borders, inflated his exploits, shot an Indigenous man and covered it up, then vanished in Brazil in 1925 with his son while seeking an occult lost city.",
+  "content_warnings": [],
+  "keywords": ["Lost City of Z", "David Grann", "Theosophy", "Helena Blavatsky", "Ceylon", "Heath River", "Xingu", "Ouija board", "Raleigh Rimell", "Havelock Work"],
+  "guests": ["Miriam"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:13:30", "note": "Birth in Torquay in 1867 and family background" },
+    { "facet": "regions", "part": 1, "at": "00:32:31", "note": "Teenage posting in Ceylon, Buddhist mysticism and treasure dig" },
+    { "facet": "subjects", "part": 1, "at": "00:41:56", "note": "Brother Edward's Theosophy, work on The Secret Doctrine and Buddhist conversion" },
+    { "facet": "themes", "part": 1, "at": "00:16:49", "note": "Long segment on cricket and schools as training for imperial service" },
+    { "facet": "time", "part": 2, "at": "00:11:01", "note": "1906 RGS commission to survey Bolivian borders starts main span" },
+    { "facet": "themes", "part": 2, "at": "00:25:06", "note": "Racist descriptions of Indigenous people and concealed shooting of a man" },
+    { "facet": "regions", "part": 2, "at": "00:35:32", "note": "WWI counter-battery post on the Western Front using a Ouija board" },
+    { "facet": "themes", "part": 2, "at": "00:55:12", "note": "Psychic reading of the idol frames Z as Atlantis remnant" },
+    { "facet": "time", "part": 2, "at": "01:04:20", "note": "1925 final expedition with Jack and Raleigh Rimell; disappearance" },
+    { "facet": "time", "part": 2, "at": "01:10:20", "note": "Modern LIDAR findings and reappraisal of his lost-city theory" }
+  ],
+  "notes": "Occult-esoteric is nearly co-equal with exploration as the pitch; chose science-exploration as primary. FR placed for the WWI Western Front segment (exact sector not stated). Morocco spy mission and Malta/Hong Kong postings were brief, so excluded. Grann's 2009 book and the 2016 film are critiqued throughout but treated as reappraisal (reaches_present), not covered years."
+}

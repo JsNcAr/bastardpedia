@@ -1,0 +1,149 @@
+{
+  "story_id": "constructing-the-crack-epidemic",
+  "taxonomy_version": "0.3.0",
+  "tagged_by": {
+    "agent": "btb-tagger-blind-2",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Crack epidemic",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Central Intelligence Agency",
+      "kind": "organization",
+      "org_type": "intelligence",
+      "role": "primary",
+      "wikidata": "Q37230"
+    },
+    {
+      "name": "Iran-Contra affair",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Oliver North",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1943, "end": null }
+    },
+    {
+      "name": "Gary Webb",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1955, "end": 2004 }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "drugs",
+    "secondary": [
+      "intelligence-covert-ops",
+      "moral-panics",
+      "propaganda-media",
+      "racism-white-supremacy"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "NI", "IR", "LB", "SV", "PA"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1981, "end": 1996 },
+    "covered_span": { "start": 1979, "end": 2004 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "How crack spread through US inner cities from 1981, how the CIA and NSC let Contra-linked traffickers move cocaine to fund the Contras amid Iran-Contra, and how media panic and later attacks on Gary Webb compounded the harm.",
+  "content_warnings": ["suicide-self-harm"],
+  "keywords": [
+    "Dark Alliance",
+    "San Jose Mercury News",
+    "Freeway Rick Ross",
+    "Danilo Blandón",
+    "Contras",
+    "Sandinistas",
+    "crack babies",
+    "100-to-1 sentencing disparity",
+    "Manuel Noriega",
+    "Kerry Committee"
+  ],
+  "guests": ["Propaganda"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:41:17",
+      "note": "crack said to enter US inner cities in 1981, first in southern California"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:46:29",
+      "note": "start of the crack-baby moral panic driven by press coverage of a small study"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:57:58",
+      "note": "100-to-1 crack sentencing rule and racial incarceration disparities"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:10:29",
+      "note": "Webb's Dark Alliance series published August 1996"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:03:06",
+      "note": "Sandinista revolution in 1979 and US backing of the Contras"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:39:09",
+      "note": "cocaine flights from Ilopango air base in San Salvador tied to North's hangar"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:25:00",
+      "note": "Beirut barracks bombing and Hezbollah hostages in Lebanon start the arms-for-hostages track"
+    },
+    {
+      "facet": "regions",
+      "part": 5,
+      "at": "00:01:06",
+      "note": "North's dealings with Panamanian dictator Noriega to aid the Contras"
+    },
+    {
+      "facet": "themes",
+      "part": 5,
+      "at": "00:25:45",
+      "note": "LA Times, Post and NYT campaign to discredit Webb, welcomed by the CIA"
+    },
+    {
+      "facet": "time",
+      "part": 5,
+      "at": "00:49:52",
+      "note": "Webb's career destroyed; his suicide in December 2004"
+    }
+  ],
+  "notes": "Five-part crossover series with Hood Politics (parts 3-4 are Prop's Iran-Contra episodes); tagged as one deep-dive per formats.yaml example. CIA heroin history (1947-1970s) and cocaine/Great Migration background are brief and excluded from covered_span. drugs vs intelligence-covert-ops as primary is a close call. Setting kept to 6; FR/LA/TH/HN mentioned briefly."
+}
