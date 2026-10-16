@@ -22,7 +22,7 @@ export interface ValidationContext {
 }
 
 /** Formats whose covered years must include the protagonist's whole life. */
-export const LIFETIME_FORMATS = ['deep-dive', 'hero'];
+export const LIFETIME_FORMATS = ['deep-dive', 'hero', 'live-show'];
 
 /** Story id -> release year of its last part. */
 export function releaseYearsOf(

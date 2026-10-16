@@ -6,6 +6,7 @@ import {
   centuryLabel,
   formatDuration,
   formatSpan,
+  formatYear,
   partsLabel,
   storyPeriod,
 } from '@/features/catalog/format';
@@ -119,7 +120,11 @@ export function StoryDetail({
               <span className="subject-meta">
                 {s.org_type ? labels.orgType(s.org_type) : labels.subjectKind(s.kind)}
                 {s.role === 'secondary' ? ', secondary' : ''}
-                {s.lifespan ? ` · ${formatSpan(s.lifespan)}` : ''}
+                {s.lifespan && (s.lifespan.start !== null || s.lifespan.end !== null)
+                  ? ` · ${formatSpan(s.lifespan)}`
+                  : s.floruit !== undefined
+                    ? ` · active ${formatYear(s.floruit)}`
+                    : ''}
               </span>
             </li>
           ))}

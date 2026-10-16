@@ -21,7 +21,9 @@ export interface Vocabularies {
 export const LIMITS = {
   subjects: 5,
   roles: 3,
-  secondaryThemes: 4,
+  secondaryThemes: 8,
+  /** The prompt asks for 4-5 secondary themes; 8 is the hard cap. */
+  suggestedSecondaryThemes: 5,
   origin: 4,
   setting: 6,
   subdivisions: 6,
@@ -55,6 +57,8 @@ export function makeStoryTagsSchema(v: Vocabularies) {
       org_type: z.enum(v.orgTypes).optional(),
       role: z.enum(['primary', 'secondary']),
       lifespan: z.object({ start: year.nullable(), end: year.nullable() }).optional(),
+      /** A year the person is known to have been active, when birth and death are unknown. */
+      floruit: year.optional(),
       wikidata: z
         .string()
         .regex(/^Q\d+$/)
@@ -69,6 +73,9 @@ export function makeStoryTagsSchema(v: Vocabularies) {
       }
       if (s.lifespan && s.kind !== 'person') {
         ctx.addIssue({ code: 'custom', message: 'lifespan is only for person subjects' });
+      }
+      if (s.floruit !== undefined && s.kind !== 'person') {
+        ctx.addIssue({ code: 'custom', message: 'floruit is only for person subjects' });
       }
     });
 

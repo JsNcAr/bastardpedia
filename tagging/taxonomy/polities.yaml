@@ -52,3 +52,5 @@ values:
       end: 1994,
       modern: [ZA],
     }
+  - { id: kingdom-of-france, label: Kingdom of France, start: 987, end: 1792, modern: [FR] }
+  - { id: kingdom-of-italy, label: Kingdom of Italy, start: 1861, end: 1946, modern: [IT] }

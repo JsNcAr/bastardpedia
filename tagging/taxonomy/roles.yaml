@@ -177,3 +177,7 @@ groups:
         definition: Organized a political or social movement, campaign or militia (bastard or hero).
         examples:
           ['Phyllis Schlafly', 'George Lincoln Rockwell', 'Elizabeth Dilling', 'Aaron Swartz']
+      - id: rescuer-humanitarian
+        label: Rescuer / humanitarian
+        definition: Saved, sheltered or defended people at risk; mostly the subjects of hero episodes.
+        examples: ['Raoul Wallenberg', 'The Heroes Who Ended The Slave Trade']

@@ -5,7 +5,7 @@ How stories are classified, and why. The vocabularies themselves live in
 instructions are in [`tagging/PROMPT.md`](../tagging/PROMPT.md), and the record structure is in
 [`shared/schemas/story-tags.ts`](../shared/schemas/story-tags.ts).
 
-Current version: see `tagging/taxonomy/VERSION` (0.3.0, draft).
+Current version: see `tagging/taxonomy/VERSION` (0.4.0, draft).
 
 ## The unit: a story, not an episode
 
@@ -24,8 +24,8 @@ never duplicates another.
 | --------------------- | ----------------------------------------- | ----------- | -------------------------------------------------------------------------------------- |
 | `format`              | What kind of episode?                     | agent       | `formats.yaml`: 7 values                                                               |
 | `subjects`            | Who or what is it about?                  | agent       | free names + `subject-kinds.yaml`                                                      |
-| `roles`               | What were the people?                     | agent       | `roles.yaml`: 32 roles in 7 groups                                                     |
-| `themes`              | What is the story about?                  | agent       | `themes.yaml`: 47 themes in 7 groups                                                   |
+| `roles`               | What were the people?                     | agent       | `roles.yaml`: 33 roles in 7 groups                                                     |
+| `themes`              | What is the story about?                  | agent       | `themes.yaml`: 48 themes in 7 groups                                                   |
 | `regions`             | Where are they from, where did it happen? | agent       | ISO 3166-1/-2 + `polities.yaml`                                                        |
 | `time`                | When did the main events happen?          | agent       | integer years                                                                          |
 | continent / subregion | Where, broadly?                           | **derived** | UN M49 table                                                                           |
@@ -76,10 +76,10 @@ are meant to point you in the right direction, not to draw exact lines. There ar
 
 Each story records two spans:
 
-| Span                | What it is                                                                                                                                                                                                                                                            | Used for                                                                   |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| `time.covered_span` | Everything the story covers at real length: part of the subject's own story and a real share of the airtime (a few minutes, roughly 5%, or more). For deep-dive and hero stories about a person, at least their whole life, up to the release year if they were alive | **All period filters**                                                     |
-| `time.main_span`    | The core: the years a two-sentence encyclopedia summary would cover                                                                                                                                                                                                   | Chronological sorting, the story page, a possible strict filter mode later |
+| Span                | What it is                                                                                                                                                                                                                                                                       | Used for                                                                   |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| `time.covered_span` | Everything the story covers at real length: part of the subject's own story and a real share of the airtime (a few minutes, roughly 5%, or more). For deep-dive, hero and live-show stories about a person, at least their whole life, up to the release year if they were alive | **All period filters**                                                     |
+| `time.main_span`    | The core: the years a two-sentence encyclopedia summary would cover                                                                                                                                                                                                              | Chronological sorting, the story page, a possible strict filter mode later |
 
 Epilogues about other people retracing or reinterpreting the subject (modern searches for
 Fawcett's lost city) don't extend the covered years. They set `reaches_present`. Consequences the
@@ -128,7 +128,7 @@ The app can hide the non-deep-dive formats by default. Precedence when several a
    quackery, cults vs organized religion…).
 3. **A fixed procedure.** `PROMPT.md` makes the agent decide format → subjects → roles →
    themes → regions → time → summary, in that order, with tie-break rules for each step.
-4. **Limits.** At most 5 subjects, 3 roles, 1 + 4 themes, 6 settings, 6 content warnings
+4. **Limits.** At most 5 subjects, 3 roles, 1 + 8 themes (4–5 suggested), 6 settings, 6 content warnings
    and 10 keywords. Caps
    force the agent to choose, which keeps filters meaningful.
 5. **Confidence and evidence.** Each facet carries a confidence, and non-obvious choices cite
@@ -159,10 +159,10 @@ Vocabulary gaps reported in agents' `notes` are the main input for minor version
 
 ## Content warnings
 
-An optional facet (`content-warnings.yaml`, 0–6 per story). A warning applies only when the story
-**describes the thing in detail**. A passing mention doesn't count. Since every BtB story involves
-terrible people, a warning marks unusually graphic material, not just the topic. The app shows
-the warnings on the story page and can hide stories that carry chosen warnings.
+An optional facet (`content-warnings.yaml`, 0–6 per story). A warning applies when the story
+**spends real time** on the thing: several minutes, or a vivid or explicit account. A passing
+mention doesn't count. The app shows the warnings on the story page and can hide stories that
+carry chosen warnings.
 
 ## Decisions log
 
@@ -181,6 +181,14 @@ the warnings on the story page and can hide stories that carry chosen warnings.
   `moral-panics`, `domestic-abuse`, `cultural-heritage-looting`; `racism-white-supremacy` widened
   to all racism and religious bigotry; `weapons-arms-trade` widened to arms races and nuclear
   strategy; setting order is by where the harm happened.
+
+- 2026-10-16 (0.4.0, after the pilot review): up to 8 other themes, 4–5 suggested; theme
+  `folklore-legend`; warning `slavery`; warnings apply when the story spends real time on the
+  thing, not only for graphic detail; comparisons from other eras don't extend covered years;
+  `floruit` for people with unknown dates; role `rescuer-humanitarian`; subject kind
+  `ethnic-group`; org type `criminal-org` (party paramilitaries go under military); polities
+  Kingdom of France and Kingdom of Italy; the lifetime rule covers live shows;
+  `medical-malpractice` includes ableist and gendered medical abuse.
 
 ## Open questions
 

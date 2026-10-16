@@ -40,6 +40,13 @@ values:
     definition: A location whose history is the story itself.
     examples: ['The Darién Gap', 'Oregon', 'Versailles']
 
+  - id: ethnic-group
+    label: People or ethnic group
+    definition: >-
+      A people, nation or ethnic community treated as a subject in its own right, usually as the
+      victims at the centre of a story.
+    examples: ['The Butchulla (Eliza Fraser)', 'The Taino (Christopher Columbus)']
+
   - id: media-work
     label: Media work
     definition: A book, show, film, magazine or game that is itself the subject.
@@ -65,7 +72,7 @@ org_types:
   - {
       id: military,
       label: Military,
-      definition: 'Armed forces, military units, mercenary companies.',
+      definition: 'Armed forces, military units, mercenary companies and party paramilitaries (the SS).',
     }
   - {
       id: intelligence,
@@ -101,4 +108,9 @@ org_types:
       id: ngo,
       label: Non-profit / NGO,
       definition: 'A charity, foundation or non-governmental organization.',
+    }
+  - {
+      id: criminal-org,
+      label: Criminal organization,
+      definition: 'A gang, mafia, cartel or other organized-crime group (the Yakuza, the Medellin cartel).',
     }

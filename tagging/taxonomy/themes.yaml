@@ -1,10 +1,10 @@
-# What the story is ABOUT. Exactly 1 primary + 0-4 secondary themes.
+# What the story is ABOUT. Exactly 1 primary + 0-8 secondary themes (aim for 4-5).
 # primary = the answer to "what is this story's one-line pitch about?"
 # secondary = other themes that take up a real segment of the story (several minutes of
 #             discussion, not a passing joke or one-sentence mention).
 # Disambiguation rules for confusable pairs are listed under each theme as exclude_when/see_also.
 facet: themes
-cardinality: '1 primary + 0-4 secondary'
+cardinality: '1 primary + 0-8 secondary (aim for 4-5)'
 groups:
   - id: power
     label: Power and politics
@@ -118,7 +118,10 @@ groups:
     values:
       - id: medical-malpractice
         label: Medical abuse & malpractice
-        definition: Harm done by licensed medical professionals or institutions practising real medicine.
+        definition: >-
+          Harm done by licensed medical professionals or institutions practising real medicine,
+          including ableist and gendered medical abuse (forced sterilisation, lobotomies of women
+          and disabled people, experiments on patients who could not consent).
         examples: ['J. Marion Sims', 'Josef Mengele', 'The Dalkon Shield', 'Vioxx']
         exclude_when: ['The treatment itself is fake (use quackery-pseudoscience).']
       - id: quackery-pseudoscience
@@ -146,6 +149,14 @@ groups:
   - id: belief
     label: Belief
     values:
+      - id: folklore-legend
+        label: Folklore, myth & legend
+        definition: >-
+          Legends, myths and literary creations built around real people or events, and how they
+          grew: the real figure behind a legend, a myth's origins, a story that took on a life of
+          its own.
+        examples: ['The True Story of Dracula', 'Percy Fawcett and the Lost City of Z']
+        see_also: [occult-esoteric, conspiracy-theories]
       - id: cults-new-religions
         label: Cults & new religions
         definition: High-control groups, new religious movements and their leaders.

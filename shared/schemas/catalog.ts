@@ -72,6 +72,7 @@ export const CatalogStorySchema = z.object({
       lifespan: z
         .object({ start: z.number().int().nullable(), end: z.number().int().nullable() })
         .optional(),
+      floruit: z.number().int().optional(),
       wikidata: z.string().optional(),
     }),
   ),

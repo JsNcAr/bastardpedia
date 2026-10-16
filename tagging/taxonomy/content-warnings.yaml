@@ -1,6 +1,7 @@
-# Optional warnings for unusually graphic material. 0-6 per story.
-# Apply a warning only when the story DESCRIBES the thing in detail (an extended or explicit
-# account). A passing mention, or the topic merely existing in the background, is not enough.
+# Optional warnings for hard material. 0-6 per story.
+# Apply a warning when the story spends real time on the thing (several minutes, or a vivid or
+# explicit account). A passing mention, or the topic merely existing in the background, is not
+# enough.
 facet: content_warnings
 cardinality: 0-6
 values:
@@ -13,6 +14,9 @@ values:
   - id: child-death
     label: Death of children
     definition: Detailed accounts of children or infants dying, including from starvation, neglect or disease.
+  - id: slavery
+    label: Slavery
+    definition: Extended accounts of enslavement and of how enslaved people were treated and punished.
   - id: graphic-violence
     label: Graphic violence
     definition: Explicit descriptions of killing, mutilation or injury.

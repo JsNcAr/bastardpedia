@@ -55,6 +55,9 @@ the story is about.
 - Use the most common English name in full ("Heinrich Schliemann", not "Schliemann").
 - `lifespan` (person subjects only): birth and death years; `null` for unknown; `end: null` if
   alive today. A subject who died after the episode aired keeps their real death year.
+- `floruit` (person subjects only): when birth and death are both unknown, a year the person is
+  known to have been active (Guacanagarí, the Taino chief who met Columbus: 1492). Use it instead
+  of leaving the person with no dates.
 - `wikidata`: include the QID only if you are certain of it. A wrong QID is worse than none, and
   every QID is checked by a script.
 
@@ -72,7 +75,9 @@ Nestlé gets no roles even though Henri Nestlé appears.
 ### Step 4. Themes
 
 - `primary`: exactly one id answering "what is this story's one-line pitch about?"
-- `secondary`: 0-4 more themes, each taking up a real segment of the story.
+- `secondary`: other themes that each take up a real segment of the story. **Aim for 4-5**; go up
+  to 8 only when the story genuinely spends real time on more. Don't pad with themes from passing
+  mentions.
 - Read the `exclude_when` and `see_also` notes. They settle the common confusions:
   - nazism vs fascism-far-right
   - medical-malpractice vs quackery-pseudoscience
@@ -114,7 +119,10 @@ Do **not** choose eras. The app works them out from your years. There are two sp
      or consequences they directly caused (a later lawsuit over the same harm counts).
      Schliemann's covered years start with the looter Giuseppe Ferlini, a secondary subject
      with a long segment. General background the host gives before the story begins (how wet
-     nursing worked in the 1700s, the Great Migration) does not count;
+     nursing worked in the 1700s, the Great Migration) does not count, and neither do
+     **comparisons**: examples from other times brought in to compare or illustrate (a survey
+     episode on the destruction of Carthage that also discusses Rwanda in 1994 covers the
+     ancient story, not 1994);
   2. it takes a real share of the airtime: a few minutes or more, roughly 5% of the whole story
      (all parts together) or more. A passing mention does not count.
 
@@ -122,7 +130,8 @@ Do **not** choose eras. The app works them out from your years. There are two sp
   subject (modern expeditions retracing an explorer, a recent film): those set
   `reaches_present` instead.
 
-  **Lifetime rule** for `deep-dive` and `hero` stories whose primary subject is a person: the
+  **Lifetime rule** for `deep-dive`, `hero` and `live-show` stories whose primary subject is a
+  person: the
   covered span must include that person's whole life, from birth to death, or to the release
   year of the last part if they were still alive when it aired. The validator checks this
   against `lifespan`. It does not apply to other formats: a reading of a 2018 book covers the
@@ -156,9 +165,10 @@ Do **not** choose eras. The app works them out from your years. There are two sp
 
 ### Step 8. Content warnings
 
-0-6 ids from `content-warnings.yaml`. Add a warning only when the story **describes** the thing in
-detail (an extended or explicit account). Every BtB story involves terrible people, so the topic
-existing in the background is not enough. When unsure, leave it out.
+0-6 ids from `content-warnings.yaml`. Add a warning when the story **spends real time** on the
+thing: several minutes of discussion, or a vivid or explicit account. A passing mention, or the
+topic merely existing in the background, is not enough. A story about the architect of the
+Holocaust gets `mass-atrocity`; a biography of a slaveholding general gets `slavery`.
 
 ### Step 9. Confidence, evidence, notes
 

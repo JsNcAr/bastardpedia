@@ -169,7 +169,11 @@ function valueOf(key, r) {
   if (!r) return '<span class="empty">missing</span>';
   switch (key) {
     case 'format': return chips([r.format], (f) => chip(lab(f), f, true));
-    case 'subjects': return chips(r.subjects, (s) => chip(`${s.name}${s.lifespan ? ` (${yr(s.lifespan.start)} to ${s.lifespan.end == null ? '' : yr(s.lifespan.end)})` : ''}`, [s.kind, s.org_type, s.role, s.wikidata].filter(Boolean).join(' · '), s.role === 'primary'));
+    case 'subjects': return chips(r.subjects, (s) => {
+      const known = s.lifespan && (s.lifespan.start != null || s.lifespan.end != null);
+      const dates = known ? ` (${s.lifespan.start == null ? '?' : yr(s.lifespan.start)} to ${s.lifespan.end == null ? '' : yr(s.lifespan.end)})` : s.floruit != null ? ` (active ${yr(s.floruit)})` : '';
+      return chip(`${s.name}${dates}`, [s.kind, s.org_type, s.role, s.wikidata].filter(Boolean).join(' · '), s.role === 'primary');
+    });
     case 'roles': return chips(r.roles, (x, i) => chip(lab(x), x, i === 0));
     case 'theme_primary': return chips([r.themes?.primary], (x) => chip(lab(x), x, true));
     case 'theme_secondary': return chips(r.themes?.secondary, (x) => chip(lab(x), x));
