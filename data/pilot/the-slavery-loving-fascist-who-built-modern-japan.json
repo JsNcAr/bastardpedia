@@ -1,37 +1,114 @@
 {
   "story_id": "the-slavery-loving-fascist-who-built-modern-japan",
-  "taxonomy_version": "0.3.0",
-  "tagged_by": { "agent": "btb-tagger", "model": "claude-opus-5-5", "date": "2026-10-16" },
+  "taxonomy_version": "0.4.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
   "format": "deep-dive",
   "subjects": [
-    { "name": "Nobusuke Kishi", "kind": "person", "role": "primary", "lifespan": { "start": 1896, "end": 1987 } },
-    { "name": "Manchukuo", "kind": "place", "role": "secondary" },
-    { "name": "Yoshio Kodama", "kind": "person", "role": "secondary", "lifespan": { "start": 1911, "end": 1984 } },
-    { "name": "Liberal Democratic Party", "kind": "organization", "org_type": "political-org", "role": "secondary" },
-    { "name": "Anpo protests", "kind": "event", "role": "secondary" }
+    {
+      "name": "Nobusuke Kishi",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1896,
+        "end": 1987
+      }
+    },
+    {
+      "name": "Manchukuo",
+      "kind": "place",
+      "role": "secondary"
+    },
+    {
+      "name": "Yoshio Kodama",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1911,
+        "end": 1984
+      }
+    },
+    {
+      "name": "Liberal Democratic Party",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Anpo protests",
+      "kind": "event",
+      "role": "secondary"
+    }
   ],
-  "roles": ["politician-official", "colonial-administrator"],
+  "roles": [
+    "politician-official",
+    "colonial-administrator"
+  ],
   "themes": {
     "primary": "fascism-far-right",
-    "secondary": ["slavery-forced-labor", "colonialism-imperialism", "sexual-abuse", "electoral-politics"]
+    "secondary": [
+      "slavery-forced-labor",
+      "colonialism-imperialism",
+      "sexual-abuse",
+      "child-abuse",
+      "electoral-politics",
+      "drugs",
+      "intelligence-covert-ops"
+    ]
   },
   "regions": {
-    "origin": ["JP"],
-    "setting": ["CN", "JP", "KR"],
+    "origin": [
+      "JP"
+    ],
+    "setting": [
+      "CN",
+      "JP",
+      "KR"
+    ],
     "subdivisions": [],
-    "polities": ["empire-of-japan"],
+    "polities": [
+      "empire-of-japan"
+    ],
     "scope": "international"
   },
   "time": {
-    "main_span": { "start": 1936, "end": 1960 },
-    "covered_span": { "start": 1896, "end": 1987 },
+    "main_span": {
+      "start": 1936,
+      "end": 1960
+    },
+    "covered_span": {
+      "start": 1896,
+      "end": 1987
+    },
     "reaches_present": true,
     "approximate": false
   },
   "summary": "Japanese bureaucrat Nobusuke Kishi ran a forced-labor war economy in occupied Manchuria and Japan's wartime munitions, escaped war-crimes trial, then built the Liberal Democratic Party with CIA money and served as prime minister from 1957 to 1960.",
-  "content_warnings": ["sexual-violence", "child-abuse", "torture", "graphic-violence"],
-  "keywords": ["Mukden Incident", "comfort women", "Yakuza", "Sugamo Prison", "Ministry of Munitions", "US-Japan Security Treaty", "Shinzo Abe", "Dulles brothers", "Unification Church", "Lockheed bribery"],
-  "guests": ["Mia Wong"],
+  "content_warnings": [
+    "slavery",
+    "sexual-violence",
+    "child-abuse",
+    "torture",
+    "graphic-violence"
+  ],
+  "keywords": [
+    "Mukden Incident",
+    "comfort women",
+    "Yakuza",
+    "Sugamo Prison",
+    "Ministry of Munitions",
+    "US-Japan Security Treaty",
+    "Shinzo Abe",
+    "Dulles brothers",
+    "Unification Church",
+    "Lockheed bribery"
+  ],
+  "guests": [
+    "Mia Wong"
+  ],
   "confidence": {
     "subjects": "high",
     "roles": "medium",
@@ -40,16 +117,66 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:09:30", "note": "born the year after Japan won the First Sino-Japanese War, so 1896" },
-    { "facet": "time", "part": 1, "at": "00:33:46", "note": "takes interest in Manchukuo around 1934 and drafts its first five-year plan" },
-    { "facet": "time", "part": 3, "at": "00:40:43", "note": "forced to resign as prime minister in July 1960 after the treaty protests" },
-    { "facet": "time", "part": 3, "at": "00:44:51", "note": "long epilogue on grandson Shinzo Abe, Nippon Kaigi and Yasukuni visits" },
-    { "facet": "themes", "part": 1, "at": "00:52:26", "note": "signs law enslaving POWs, later anyone labelled a bandit" },
-    { "facet": "themes", "part": 2, "at": "00:06:21", "note": "extended segment on the military sexual slavery system" },
-    { "facet": "themes", "part": 3, "at": "00:14:39", "note": "Kishi engineers the merger that creates the LDP, with CIA backing" },
-    { "facet": "regions", "part": 2, "at": "00:03:12", "note": "Korean conscription and forced labor, some brought to Japan" },
-    { "facet": "subjects", "part": 3, "at": "00:05:22", "note": "Kishi's cellmate Kodama, yakuza boss turned US intelligence asset" },
-    { "facet": "content_warnings", "part": 2, "at": "00:14:02", "note": "detailed testimony of a girl abducted at 13, raped and tortured for years" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:09:30",
+      "note": "born the year after Japan won the First Sino-Japanese War, so 1896"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:33:46",
+      "note": "takes interest in Manchukuo around 1934 and drafts its first five-year plan"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "00:40:43",
+      "note": "forced to resign as prime minister in July 1960 after the treaty protests"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "00:44:51",
+      "note": "long epilogue on grandson Shinzo Abe, Nippon Kaigi and Yasukuni visits"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:52:26",
+      "note": "signs law enslaving POWs, later anyone labelled a bandit"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:06:21",
+      "note": "extended segment on the military sexual slavery system"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:14:39",
+      "note": "Kishi engineers the merger that creates the LDP, with CIA backing"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:03:12",
+      "note": "Korean conscription and forced labor, some brought to Japan"
+    },
+    {
+      "facet": "subjects",
+      "part": 3,
+      "at": "00:05:22",
+      "note": "Kishi's cellmate Kodama, yakuza boss turned US intelligence asset"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:14:02",
+      "note": "detailed testimony of a girl abducted at 13, raped and tortured for years"
+    }
   ],
-  "notes": "Transcript calls the narrator Christopher Wong; descriptions say Mia Wong (same person), so Mia Wong is used. Birth and death years not stated outright; filled from knowledge. child-abuse fits the comfort women segment (victims as young as 11) but was left out to stay within the 4-secondary-theme cap; drugs and intelligence-covert-ops also had real segments. main_span starts at the 1936 Manchukuo posting."
+  "notes": "Transcript calls the narrator Christopher Wong; descriptions say Mia Wong (same person), so Mia Wong is used. Birth and death years not stated outright; filled from knowledge. child-abuse added for the comfort women segment (victims as young as 11); drugs (Yakuza opium trade, meth for forced laborers) and intelligence-covert-ops (G-2, CIA funding of the LDP) each get real segments. main_span starts at the 1936 Manchukuo posting."
 }

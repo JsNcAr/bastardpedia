@@ -1,48 +1,184 @@
 {
   "story_id": "mark-zuckerberg-the-worst-person-of-the-21st-century-so-far",
-  "taxonomy_version": "0.3.0",
-  "tagged_by": { "agent": "btb-tagger", "model": "claude-opus-5-5", "date": "2026-10-16" },
+  "taxonomy_version": "0.4.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
   "format": "deep-dive",
   "subjects": [
-    { "name": "Mark Zuckerberg", "kind": "person", "role": "primary", "lifespan": { "start": 1984, "end": null }, "wikidata": "Q36215" },
-    { "name": "Facebook", "kind": "organization", "org_type": "company", "role": "secondary", "wikidata": "Q355" },
-    { "name": "Eduardo Saverin", "kind": "person", "role": "secondary", "lifespan": { "start": 1982, "end": null } },
-    { "name": "Rohingya genocide", "kind": "event", "role": "secondary" }
+    {
+      "name": "Mark Zuckerberg",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1984,
+        "end": null
+      },
+      "wikidata": "Q36215"
+    },
+    {
+      "name": "Facebook",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary",
+      "wikidata": "Q355"
+    },
+    {
+      "name": "Eduardo Saverin",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1982,
+        "end": null
+      }
+    },
+    {
+      "name": "Rohingya genocide",
+      "kind": "event",
+      "role": "secondary"
+    }
   ],
-  "roles": ["tech-founder"],
+  "roles": [
+    "tech-founder"
+  ],
   "themes": {
     "primary": "tech-internet",
-    "secondary": ["corporate-malfeasance", "propaganda-media", "genocide-mass-killing"]
+    "secondary": [
+      "corporate-malfeasance",
+      "propaganda-media",
+      "genocide-mass-killing",
+      "racism-white-supremacy",
+      "labor-exploitation"
+    ]
   },
   "regions": {
-    "origin": ["US"],
-    "setting": ["MM", "US", "LK", "IN"],
+    "origin": [
+      "US"
+    ],
+    "setting": [
+      "MM",
+      "US",
+      "LK",
+      "IN"
+    ],
     "subdivisions": [],
     "polities": [],
     "scope": "global"
   },
   "time": {
-    "main_span": { "start": 2003, "end": null },
-    "covered_span": { "start": 1984, "end": 2019 },
+    "main_span": {
+      "start": 2003,
+      "end": null
+    },
+    "covered_span": {
+      "start": 1984,
+      "end": 2019
+    },
     "reaches_present": true,
     "approximate": false
   },
   "summary": "Facebook founder Mark Zuckerberg, from Facemash at Harvard to a global platform, cheated early partners, disregarded user privacy and expanded into countries like Myanmar where Facebook fueled ethnic violence.",
-  "content_warnings": [],
-  "keywords": ["Facemash", "The Accidental Billionaires", "The Social Network", "Winklevoss twins", "Sheryl Sandberg", "Beacon", "Cambridge Analytica", "Internet.org", "Rohingya", "move fast and break things"],
-  "guests": ["Jamie Loftus", "Maggie Mae Fish"],
-  "confidence": { "subjects": "high", "roles": "high", "themes": "medium", "regions": "medium", "time": "high" },
-  "evidence": [
-    { "facet": "time", "part": 1, "at": "00:04:44", "note": "birth in White Plains, NY; year garbled in transcript, read as 1984" },
-    { "facet": "time", "part": 1, "at": "00:15:40", "note": "Facemash at Harvard, first consequential act" },
-    { "facet": "subjects", "part": 1, "at": "00:40:46", "note": "Saverin's stake diluted and his lawsuit and settlement" },
-    { "facet": "themes", "part": 2, "at": "00:31:22", "note": "Beacon opt-out purchase broadcasting and class action" },
-    { "facet": "themes", "part": 2, "at": "00:36:42", "note": "Cambridge Analytica data harvesting and misleading timeline" },
-    { "facet": "themes", "part": 3, "at": "00:12:02", "note": "inflated video metrics behind the digital media crash" },
-    { "facet": "regions", "part": 3, "at": "00:15:10", "note": "Facebook's role in the Rohingya ethnic cleansing in Myanmar" },
-    { "facet": "themes", "part": 3, "at": "00:16:41", "note": "Myanmar military fake pages spreading anti-Muslim propaganda" },
-    { "facet": "regions", "part": 3, "at": "00:24:35", "note": "Internet.org rollout in Zambia, India, Philippines, Sri Lanka, Myanmar" },
-    { "facet": "regions", "part": 3, "at": "00:30:45", "note": "anti-Muslim incitement in Colombo, Sri Lanka not removed" }
+  "content_warnings": [
+    "mass-atrocity"
   ],
-  "notes": "Transcript garbles birth year ('nineteen four'); used 1984 from general knowledge. Facebook tagged org_type company; media-outlet (platform) also defensible. Myanmar violence is described but not in extended graphic detail, so no mass-atrocity warning. Indonesia, Philippines, Mexico mentioned only briefly."
+  "keywords": [
+    "Facemash",
+    "The Accidental Billionaires",
+    "The Social Network",
+    "Winklevoss twins",
+    "Sheryl Sandberg",
+    "Beacon",
+    "Cambridge Analytica",
+    "Internet.org",
+    "Rohingya",
+    "move fast and break things"
+  ],
+  "guests": [
+    "Jamie Loftus",
+    "Maggie Mae Fish"
+  ],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:04:44",
+      "note": "birth in White Plains, NY; year garbled in transcript, read as 1984"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:15:40",
+      "note": "Facemash at Harvard, first consequential act"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:40:46",
+      "note": "Saverin's stake diluted and his lawsuit and settlement"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:31:22",
+      "note": "Beacon opt-out purchase broadcasting and class action"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:36:42",
+      "note": "Cambridge Analytica data harvesting and misleading timeline"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:12:02",
+      "note": "inflated video metrics behind the digital media crash"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:15:10",
+      "note": "Facebook's role in the Rohingya ethnic cleansing in Myanmar"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:16:41",
+      "note": "Myanmar military fake pages spreading anti-Muslim propaganda"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:24:35",
+      "note": "Internet.org rollout in Zambia, India, Philippines, Sri Lanka, Myanmar"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:30:45",
+      "note": "anti-Muslim incitement in Colombo, Sri Lanka not removed"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:30:45",
+      "note": "anti-Muslim incitement and Holocaust-denial moderation policy discussed at length"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:26:06",
+      "note": "cult-like workplace, quota-based reviews; later digital media layoffs"
+    }
+  ],
+  "notes": "Transcript garbles birth year ('nineteen four'); used 1984 from general knowledge. Facebook tagged org_type company; media-outlet also defensible. mass-atrocity added under 0.4.0 rule: several minutes on Myanmar ethnic cleansing. Rohingya kept as an event subject rather than ethnic-group. Indonesia, Philippines, Mexico mentioned only briefly."
 }

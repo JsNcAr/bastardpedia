@@ -1,34 +1,96 @@
 {
   "story_id": "francis-galton-inventor-of-eugenics",
-  "taxonomy_version": "0.3.0",
-  "tagged_by": { "agent": "btb-tagger", "model": "claude-opus-5-5", "date": "2026-10-16" },
+  "taxonomy_version": "0.4.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
   "format": "deep-dive",
   "subjects": [
-    { "name": "Francis Galton", "kind": "person", "role": "primary", "lifespan": { "start": 1822, "end": 1911 } },
-    { "name": "Eugenics", "kind": "movement-or-ideology", "role": "secondary" }
+    {
+      "name": "Francis Galton",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1822,
+        "end": 1911
+      }
+    },
+    {
+      "name": "Eugenics",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    }
   ],
-  "roles": ["scientist-scholar", "explorer-adventurer"],
+  "roles": [
+    "scientist-scholar",
+    "explorer-adventurer"
+  ],
   "themes": {
     "primary": "eugenics-scientific-racism",
-    "secondary": ["racism-white-supremacy", "colonialism-imperialism", "science-exploration", "policing-incarceration"]
+    "secondary": [
+      "racism-white-supremacy",
+      "colonialism-imperialism",
+      "science-exploration",
+      "policing-incarceration",
+      "nazism",
+      "medical-malpractice",
+      "sexual-abuse"
+    ]
   },
   "regions": {
-    "origin": ["GB"],
-    "setting": ["GB", "NA", "US", "DE", "EG", "TR"],
+    "origin": [
+      "GB"
+    ],
+    "setting": [
+      "GB",
+      "NA",
+      "US",
+      "DE",
+      "EG",
+      "TR"
+    ],
     "subdivisions": [],
-    "polities": ["british-empire", "ottoman-empire"],
+    "polities": [
+      "british-empire",
+      "ottoman-empire"
+    ],
     "scope": "global"
   },
   "time": {
-    "main_span": { "start": 1850, "end": 1911 },
-    "covered_span": { "start": 1822, "end": 1945 },
+    "main_span": {
+      "start": 1850,
+      "end": 1911
+    },
+    "covered_span": {
+      "start": 1822,
+      "end": 1945
+    },
     "reaches_present": true,
     "approximate": false
   },
   "summary": "Victorian scientist and Africa explorer Francis Galton pioneered statistics and fingerprinting, coined eugenics in 1883 and urged that the poor and non-white be bred out, inspiring sterilization laws in Britain, the US and Nazi Germany.",
-  "content_warnings": ["hate-speech"],
-  "keywords": ["Hereditary Genius", "Anthropometric Laboratory", "The Art of Travel", "composite photography", "fingerprints", "Charles Darwin", "Alfred Russel Wallace", "Charles Davenport", "Buck v. Bell", "Herero"],
-  "guests": ["David Christopher Bell"],
+  "content_warnings": [
+    "hate-speech",
+    "slavery",
+    "sexual-violence"
+  ],
+  "keywords": [
+    "Hereditary Genius",
+    "Anthropometric Laboratory",
+    "The Art of Travel",
+    "composite photography",
+    "fingerprints",
+    "Charles Darwin",
+    "Alfred Russel Wallace",
+    "Charles Davenport",
+    "Buck v. Bell",
+    "Herero"
+  ],
+  "guests": [
+    "David Christopher Bell"
+  ],
   "confidence": {
     "subjects": "high",
     "roles": "high",
@@ -37,18 +99,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:07:51", "note": "Galton born 1822 near Birmingham" },
-    { "facet": "regions", "part": 1, "at": "00:41:34", "note": "Constantinople slave market visit during 1840 trip" },
-    { "facet": "regions", "part": 1, "at": "00:59:01", "note": "travels via Cairo to Khartoum in the 1840s" },
-    { "facet": "time", "part": 2, "at": "00:12:24", "note": "1850 expedition to southwest Africa marks start of main span" },
-    { "facet": "regions", "part": 2, "at": "00:14:48", "note": "contact with Nama, Herero and Ovambo peoples (modern Namibia)" },
-    { "facet": "themes", "part": 2, "at": "00:39:04", "note": "1865 Hereditary Talent and Character, first eugenic writing" },
-    { "facet": "themes", "part": 3, "at": "00:53:00", "note": "felon-face composites from prison photos supplied by prison inspector" },
-    { "facet": "themes", "part": 4, "at": "00:09:43", "note": "fingerprint classification and forensic work" },
-    { "facet": "time", "part": 4, "at": "00:32:06", "note": "Galton dies 1911" },
-    { "facet": "regions", "part": 4, "at": "00:39:54", "note": "US compulsory sterilization laws, Buck v. Bell, 60,000+ sterilized" },
-    { "facet": "time", "part": 4, "at": "00:45:29", "note": "German race hygiene through Nazi era sets covered end at 1945" },
-    { "facet": "time", "part": 3, "at": "00:26:15", "note": "eugenics ideas in modern effective altruism circles, basis for reaches_present" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:07:51",
+      "note": "Galton born 1822 near Birmingham"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:41:34",
+      "note": "Constantinople slave market visit during 1840 trip"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:59:01",
+      "note": "travels via Cairo to Khartoum in the 1840s"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:12:24",
+      "note": "1850 expedition to southwest Africa marks start of main span"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:14:48",
+      "note": "contact with Nama, Herero and Ovambo peoples (modern Namibia)"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:39:04",
+      "note": "1865 Hereditary Talent and Character, first eugenic writing"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:53:00",
+      "note": "felon-face composites from prison photos supplied by prison inspector"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:09:43",
+      "note": "fingerprint classification and forensic work"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "00:32:06",
+      "note": "Galton dies 1911"
+    },
+    {
+      "facet": "regions",
+      "part": 4,
+      "at": "00:39:54",
+      "note": "US compulsory sterilization laws, Buck v. Bell, 60,000+ sterilized"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "00:45:29",
+      "note": "German race hygiene through Nazi era sets covered end at 1945"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "00:26:15",
+      "note": "eugenics ideas in modern effective altruism circles, basis for reaches_present"
+    }
   ],
-  "notes": "Covered end 1945 bundles the post-1911 legacy (1913 Act, US sterilizations, Nazi race hygiene); each piece is short but together they take a real share. Last US sterilization (1981) is a one-liner, not counted. reaches_present rests on the EA segment, which is arguably a modern comparison. Fourth theme was close between policing-incarceration, nazism and sexual-abuse (inferred abuse of enslaved women, not detailed)."
+  "notes": "Covered end 1945 bundles the post-1911 legacy (1913 Act, US sterilizations, Nazi race hygiene); last US sterilization (1981) is a one-liner. reaches_present rests on the EA segment, which is arguably a comparison. 0.4.0: added nazism, medical-malpractice (forced sterilisation, Buck v. Bell) and sexual-abuse (inferred abuse of enslaved women, sextant episode); warnings slavery and sexual-violence for the minutes spent on slave markets and enslaved women."
 }

@@ -1,6 +1,6 @@
 {
   "story_id": "in-honor-of-our-new-monarchy-let-s-talk-about-versailles",
-  "taxonomy_version": "0.3.0",
+  "taxonomy_version": "0.4.0",
   "tagged_by": { "agent": "btb-tagger", "model": "claude-opus-5-5", "date": "2026-10-16" },
   "format": "deep-dive",
   "subjects": [
@@ -12,13 +12,13 @@
   "roles": [],
   "themes": {
     "primary": "monarchy-empire",
-    "secondary": ["propaganda-media", "occult-esoteric", "labor-exploitation"]
+    "secondary": ["propaganda-media", "occult-esoteric", "labor-exploitation", "war-war-crimes"]
   },
   "regions": {
     "origin": ["FR"],
     "setting": ["FR"],
     "subdivisions": ["FR-IDF"],
-    "polities": [],
+    "polities": ["kingdom-of-france"],
     "scope": "national"
   },
   "time": {
@@ -46,7 +46,8 @@
     { "facet": "themes", "part": 1, "at": "01:14:06", "note": "Court trade in charms, black masses and poisons to win the king's favour" },
     { "facet": "themes", "part": 2, "at": "00:25:10", "note": "Police investigation and Burning Chamber tribunal of 1679 over poisoners" },
     { "facet": "themes", "part": 2, "at": "00:30:45", "note": "Long segment on Paris news ecosystem: newsmongers, libels, gossip songs" },
+    { "facet": "themes", "part": 2, "at": "01:16:47", "note": "War of Austrian Succession: costly Lawfeld battle, unpopular peace and war taxes" },
     { "facet": "time", "part": 2, "at": "01:29:36", "note": "Louis XV's silent reception at Notre Dame in 1751 is the last event covered at length" }
   ],
-  "notes": "Louis XIV dominates both parts but the host names the Versailles system as the bastard, so the palace/court is primary (place) and Louis XIV secondary; with a place primary, roles stay empty. Covered span ends 1751; Louis XVI, Marie Antoinette and 1789 are only previewed. No polity id for the Kingdom of France. Modern Trump/Musk oligarchy framing treated as commentary, not reaches_present."
+  "notes": "Louis XIV dominates both parts but the host names the Versailles system as the bastard, so the palace/court is primary (place) and Louis XIV secondary; with a place primary, roles stay empty. Covered span ends 1751; Louis XVI, Marie Antoinette and 1789 are only previewed. Modern Trump/Musk oligarchy framing treated as commentary, not reaches_present."
 }

@@ -1,49 +1,190 @@
 {
   "story_id": "the-first-shah-of-iran",
-  "taxonomy_version": "0.3.0",
-  "tagged_by": { "agent": "btb-tagger", "model": "claude-opus-5-5", "date": "2026-10-16" },
+  "taxonomy_version": "0.4.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
   "format": "deep-dive",
   "subjects": [
-    { "name": "Reza Shah Pahlavi", "kind": "person", "role": "primary", "lifespan": { "start": 1878, "end": 1944 } },
-    { "name": "Persian Cossack Brigade", "kind": "organization", "org_type": "military", "role": "secondary" },
-    { "name": "Anglo-Persian Oil Company", "kind": "organization", "org_type": "company", "role": "secondary" },
-    { "name": "Qajar dynasty", "kind": "group", "role": "secondary" },
-    { "name": "Great Persian Famine", "kind": "event", "role": "secondary" }
+    {
+      "name": "Reza Shah Pahlavi",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1878,
+        "end": 1944
+      }
+    },
+    {
+      "name": "Persian Cossack Brigade",
+      "kind": "organization",
+      "org_type": "military",
+      "role": "secondary"
+    },
+    {
+      "name": "Anglo-Persian Oil Company",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Qajar dynasty",
+      "kind": "group",
+      "role": "secondary"
+    },
+    {
+      "name": "Great Persian Famine",
+      "kind": "event",
+      "role": "secondary"
+    }
   ],
-  "roles": ["dictator-autocrat", "monarch-royal", "military-officer"],
+  "roles": [
+    "dictator-autocrat",
+    "monarch-royal",
+    "military-officer"
+  ],
   "themes": {
     "primary": "authoritarianism",
-    "secondary": ["colonialism-imperialism", "coups-insurrections", "corporate-malfeasance", "monarchy-empire"]
+    "secondary": [
+      "colonialism-imperialism",
+      "coups-insurrections",
+      "corporate-malfeasance",
+      "monarchy-empire",
+      "war-war-crimes",
+      "diplomacy-foreign-policy"
+    ]
   },
   "regions": {
-    "origin": ["IR"],
-    "setting": ["IR", "GB", "RU"],
+    "origin": [
+      "IR"
+    ],
+    "setting": [
+      "IR",
+      "GB",
+      "RU"
+    ],
     "subdivisions": [],
-    "polities": ["british-empire", "russian-empire", "soviet-union"],
+    "polities": [
+      "british-empire",
+      "russian-empire",
+      "soviet-union"
+    ],
     "scope": "international"
   },
   "time": {
-    "main_span": { "start": 1921, "end": 1941 },
-    "covered_span": { "start": 1785, "end": 1944 },
+    "main_span": {
+      "start": 1921,
+      "end": 1941
+    },
+    "covered_span": {
+      "start": 1785,
+      "end": 1944
+    },
     "reaches_present": false,
     "approximate": false
   },
   "summary": "Cossack officer Reza Khan seized power in Persia in a British-backed 1921 coup, crowned himself Reza Shah Pahlavi and ruled Iran as a brutal autocrat until the Allies forced him to abdicate in 1941.",
-  "content_warnings": ["graphic-violence"],
-  "keywords": ["Great Game", "Peacock Throne", "1921 Persian coup", "Anglo-Persian Treaty", "Edmund Ironside", "George Curzon", "William Knox D'Arcy", "Morgan Shuster", "Pahlavi dynasty", "Majlis"],
-  "guests": ["Kaveh Hoda"],
-  "confidence": { "subjects": "high", "roles": "high", "themes": "medium", "regions": "medium", "time": "medium" },
+  "content_warnings": [
+    "graphic-violence",
+    "mass-atrocity"
+  ],
+  "keywords": [
+    "Great Game",
+    "Peacock Throne",
+    "1921 Persian coup",
+    "Anglo-Persian Treaty",
+    "Edmund Ironside",
+    "George Curzon",
+    "William Knox D'Arcy",
+    "Morgan Shuster",
+    "Pahlavi dynasty",
+    "Majlis"
+  ],
+  "guests": [
+    "Kaveh Hoda"
+  ],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:15:26", "note": "Qajar dynasty's 1785 rise and Fath Ali Shah begin the narrative of the secondary subject" },
-    { "facet": "time", "part": 1, "at": "00:55:40", "note": "Reza Khan born March 1878 in Alasht, Mazandaran" },
-    { "facet": "time", "part": 2, "at": "00:26:50", "note": "February 1921 march on Tehran with Cossacks starts the coup" },
-    { "facet": "time", "part": 2, "at": "01:01:09", "note": "Allied invasion forces abdication in 1941; dies in Johannesburg 1944" },
-    { "facet": "themes", "part": 2, "at": "00:11:00", "note": "oil company segregates and sidelines Persian workers, imports Indian labour" },
-    { "facet": "themes", "part": 1, "at": "00:46:06", "note": "Cossack Brigade shells parliament in 1908; foreign-backed shahs and coups" },
-    { "facet": "themes", "part": 2, "at": "00:48:13", "note": "Persianization campaign and massacre of Lurs under his rule" },
-    { "facet": "regions", "part": 1, "at": "01:02:49", "note": "British Admiralty decision in London to switch navy to Persian oil" },
-    { "facet": "regions", "part": 1, "at": "00:29:58", "note": "Tsar's Cossacks and Russian influence shape the Persian brigade" },
-    { "facet": "content_warnings", "part": 2, "at": "00:48:43", "note": "explicit account of beheadings and cauterized necks" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:15:26",
+      "note": "Qajar dynasty's 1785 rise and Fath Ali Shah begin the narrative of the secondary subject"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:55:40",
+      "note": "Reza Khan born March 1878 in Alasht, Mazandaran"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:26:50",
+      "note": "February 1921 march on Tehran with Cossacks starts the coup"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:01:09",
+      "note": "Allied invasion forces abdication in 1941; dies in Johannesburg 1944"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:11:00",
+      "note": "oil company segregates and sidelines Persian workers, imports Indian labour"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:46:06",
+      "note": "Cossack Brigade shells parliament in 1908; foreign-backed shahs and coups"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:48:13",
+      "note": "Persianization campaign and massacre of Lurs under his rule"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:02:49",
+      "note": "British Admiralty decision in London to switch navy to Persian oil"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:29:58",
+      "note": "Tsar's Cossacks and Russian influence shape the Persian brigade"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:48:43",
+      "note": "explicit account of beheadings and cauterized necks"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:04:09",
+      "note": "WWI armies fight over neutral Persia, seize food and housing; famine follows"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:14:31",
+      "note": "Curzon's Anglo-Persian Treaty, bribes and its defeat in the Majlis"
+    }
   ],
   "notes": "Primary theme could be colonialism-imperialism: Part 1 is almost all British/Russian Great Game meddling before Reza appears. covered_span starts at the 1785 Qajar rise (secondary subject, several minutes); the 1828 treaty or the Great Game (1840) would be an alternative start. Opening ties to the 2026 US-Iran war are framing only, so reaches_present is false. Great Persian Famine (WWI) gets a long segment."
 }

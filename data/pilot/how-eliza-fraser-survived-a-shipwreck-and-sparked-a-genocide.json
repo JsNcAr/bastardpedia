@@ -1,35 +1,101 @@
 {
   "story_id": "how-eliza-fraser-survived-a-shipwreck-and-sparked-a-genocide",
-  "taxonomy_version": "0.3.0",
-  "tagged_by": { "agent": "btb-tagger", "model": "claude-opus-5-5", "date": "2026-10-16" },
+  "taxonomy_version": "0.4.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
   "format": "deep-dive",
   "subjects": [
-    { "name": "Eliza Fraser", "kind": "person", "role": "primary", "lifespan": { "start": 1798, "end": 1858 } },
-    { "name": "Native Police", "kind": "organization", "org_type": "police", "role": "secondary" },
-    { "name": "John Graham", "kind": "person", "role": "secondary", "lifespan": { "start": null, "end": null } }
+    {
+      "name": "Eliza Fraser",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1798,
+        "end": 1858
+      }
+    },
+    {
+      "name": "Butchulla",
+      "kind": "ethnic-group",
+      "role": "secondary"
+    },
+    {
+      "name": "Native Police",
+      "kind": "organization",
+      "org_type": "police",
+      "role": "secondary"
+    },
+    {
+      "name": "John Graham",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1836
+    }
   ],
-  "roles": ["con-artist"],
+  "roles": [
+    "con-artist"
+  ],
   "themes": {
     "primary": "genocide-mass-killing",
-    "secondary": ["colonialism-imperialism", "racism-white-supremacy", "propaganda-media", "fraud-grift"]
+    "secondary": [
+      "colonialism-imperialism",
+      "racism-white-supremacy",
+      "propaganda-media",
+      "fraud-grift",
+      "folklore-legend"
+    ]
   },
   "regions": {
-    "origin": ["GB"],
-    "setting": ["AU", "GB"],
-    "subdivisions": ["AU-QLD"],
-    "polities": ["british-empire"],
+    "origin": [
+      "GB"
+    ],
+    "setting": [
+      "AU",
+      "GB"
+    ],
+    "subdivisions": [
+      "AU-QLD"
+    ],
+    "polities": [
+      "british-empire"
+    ],
     "scope": "international"
   },
   "time": {
-    "main_span": { "start": 1836, "end": 1851 },
-    "covered_span": { "start": 1798, "end": 1897 },
+    "main_span": {
+      "start": 1836,
+      "end": 1851
+    },
+    "covered_span": {
+      "start": 1798,
+      "end": 1897
+    },
     "reaches_present": true,
     "approximate": true
   },
   "summary": "British woman Eliza Fraser, shipwrecked off K'gari (Fraser Island) in 1836 and sheltered by the Butchulla, spread embellished tales of cannibal savagery for money that fed colonial violence and the 1851 massacre.",
-  "content_warnings": ["mass-atrocity"],
-  "keywords": ["K'gari", "Fraser Island", "Stirling Castle", "Butchulla", "Moreton Bay", "Daisy Bates", "Archibald Meston", "Fiona Foley", "John Curtis", "Robert Darge"],
-  "guests": ["Jack O'Brien"],
+  "content_warnings": [
+    "mass-atrocity",
+    "hate-speech"
+  ],
+  "keywords": [
+    "K'gari",
+    "Fraser Island",
+    "Stirling Castle",
+    "Moreton Bay",
+    "Daisy Bates",
+    "Archibald Meston",
+    "Fiona Foley",
+    "John Curtis",
+    "Robert Darge",
+    "Annihilation of the Blacks"
+  ],
+  "guests": [
+    "Jack O'Brien"
+  ],
   "confidence": {
     "subjects": "medium",
     "roles": "low",
@@ -38,16 +104,72 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:40:30", "note": "possibly born Elizabeth Slack in Derbyshire, baptised 1798; birthplace disputed" },
-    { "facet": "time", "part": 1, "at": "00:43:36", "note": "leaves London October 1835; ship wrecks on reef May 1836" },
-    { "facet": "time", "part": 2, "at": "00:55:47", "note": "Native Police assault on the island August 1851, final clearing Christmas Eve 1851" },
-    { "facet": "time", "part": 2, "at": "01:02:34", "note": "Meston-era Opium Act removes Butchulla to a mission on K'gari in the late 1800s" },
-    { "facet": "time", "part": 2, "at": "01:03:04", "note": "Native Title Act 1993 and 2023 renaming to K'gari bring legacy to the present" },
-    { "facet": "regions", "part": 2, "at": "00:33:24", "note": "London inquiry hears her third version; she later retires to New Zealand" },
-    { "facet": "themes", "part": 2, "at": "00:29:50", "note": "London press accuses her of grifting by fundraising twice on a changed story" },
-    { "facet": "themes", "part": 2, "at": "00:38:57", "note": "1841 children's book retells her story and voices a wish to exterminate the islanders" },
-    { "facet": "themes", "part": 1, "at": "00:26:06", "note": "long segment on how fabricated cannibalism claims justified violence" },
-    { "facet": "subjects", "part": 2, "at": "00:19:18", "note": "convict John Graham, once adopted by islanders, leads her rescue" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:40:30",
+      "note": "possibly born Elizabeth Slack in Derbyshire, baptised 1798; birthplace disputed"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:43:36",
+      "note": "leaves London October 1835; ship wrecks on reef May 1836"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:55:47",
+      "note": "Native Police assault on the island August 1851, final clearing Christmas Eve 1851"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:02:34",
+      "note": "Meston-era Opium Act removes Butchulla to a mission on K'gari in the late 1800s"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:03:04",
+      "note": "Native Title Act 1993 and 2023 renaming to K'gari bring legacy to the present"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:33:24",
+      "note": "London inquiry hears her third version; she later retires to New Zealand"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:29:50",
+      "note": "London press accuses her of grifting by fundraising twice on a changed story"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:38:57",
+      "note": "1841 children's book retells her story and voices a wish to exterminate the islanders"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:26:06",
+      "note": "long segment on how fabricated cannibalism claims justified violence"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:19:18",
+      "note": "convict John Graham, once adopted by islanders, leads her rescue"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:44:21",
+      "note": "story grows into pamphlets, plays and 1880s London sideshows with an Eliza impersonator"
+    }
   ],
-  "notes": "Death year 1858 from general knowledge; transcript only says she retired to New Zealand. Covered span starts at her birth, leaving out Cook (1770) and Flinders (1799-1802) contact as background. Daisy Bates gets a segment but is a background digression, so she is a keyword, not a subject. No role fits a shipwreck survivor who profited from false accounts; con-artist is the closest fit. Butchulla people not listed as a subject: no kind fits an ethnic group."
+  "notes": "Death year 1858 from general knowledge; transcript only says she retired to New Zealand. Covered span starts at her birth, leaving out Cook (1770) and Flinders (1799-1802) contact as background. Daisy Bates gets a segment but is a background digression, so she is a keyword, not a subject. No role fits a shipwreck survivor who profited from false accounts; con-artist is the closest fit."
 }

@@ -1,6 +1,6 @@
 {
   "story_id": "percy-fawcett-real-life-indiana-jones-or-deluded-psychic-racist",
-  "taxonomy_version": "0.3.0",
+  "taxonomy_version": "0.4.0",
   "tagged_by": {
     "agent": "gold-draft",
     "model": "claude-opus-5-5",
@@ -29,7 +29,12 @@
   "roles": ["explorer-adventurer", "military-officer"],
   "themes": {
     "primary": "science-exploration",
-    "secondary": ["occult-esoteric", "colonialism-imperialism", "eugenics-scientific-racism"]
+    "secondary": [
+      "occult-esoteric",
+      "folklore-legend",
+      "colonialism-imperialism",
+      "eugenics-scientific-racism"
+    ]
   },
   "regions": {
     "origin": ["GB"],
@@ -45,7 +50,7 @@
     "approximate": false
   },
   "summary": "British artillery officer and explorer Percy Fawcett surveyed Bolivian river borders from 1906, inflated his exploits, hid the shooting of an indigenous man, and in 1925 led his son to death in the Amazon chasing a lost city drawn from his Theosophist beliefs.",
-  "content_warnings": [],
+  "content_warnings": ["child-abuse"],
   "keywords": [
     "Lost City of Z",
     "David Grann",

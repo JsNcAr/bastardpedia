@@ -1,6 +1,6 @@
 {
   "story_id": "king-leopold-ii-the-first-modern-bastard",
-  "taxonomy_version": "0.3.0",
+  "taxonomy_version": "0.4.0",
   "tagged_by": { "agent": "btb-tagger", "model": "claude-opus-5-5", "date": "2026-10-16" },
   "format": "deep-dive",
   "subjects": [
@@ -11,7 +11,7 @@
   "roles": ["monarch-royal", "colonial-administrator"],
   "themes": {
     "primary": "colonialism-imperialism",
-    "secondary": ["genocide-mass-killing", "slavery-forced-labor", "propaganda-media", "fraud-grift"]
+    "secondary": ["genocide-mass-killing", "slavery-forced-labor", "propaganda-media", "fraud-grift", "monarchy-empire"]
   },
   "regions": {
     "origin": ["BE"],
@@ -27,7 +27,7 @@
     "approximate": false
   },
   "summary": "King Leopold II of Belgium used sham philanthropic associations and fraudulent treaties to make the Congo Free State his personal property, then ran it as a forced-labor rubber operation that killed millions while he bought favorable press.",
-  "content_warnings": ["graphic-violence", "mass-atrocity", "torture"],
+  "content_warnings": ["graphic-violence", "mass-atrocity", "torture", "slavery"],
   "keywords": ["Force Publique", "Berlin Conference", "rubber", "severed hands", "chicotte", "King Leopold's Ghost", "Adam Hochschild", "E. D. Morel", "George Washington Williams", "Congo Reform Association"],
   "guests": ["Andrew Ti"],
   "confidence": {

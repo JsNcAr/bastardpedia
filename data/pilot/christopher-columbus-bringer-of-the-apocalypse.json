@@ -1,51 +1,109 @@
 {
   "story_id": "christopher-columbus-bringer-of-the-apocalypse",
-  "taxonomy_version": "0.3.0",
-  "tagged_by": { "agent": "btb-tagger", "model": "claude-opus-5-5", "date": "2026-10-16" },
+  "taxonomy_version": "0.4.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
   "format": "deep-dive",
   "subjects": [
     {
       "name": "Christopher Columbus",
       "kind": "person",
       "role": "primary",
-      "lifespan": { "start": 1451, "end": 1506 },
+      "lifespan": {
+        "start": 1451,
+        "end": 1506
+      },
       "wikidata": "Q7322"
     },
     {
       "name": "Carol Delaney",
       "kind": "person",
       "role": "secondary",
-      "lifespan": { "start": null, "end": null }
+      "floruit": 2011
     },
     {
       "name": "Guacanagarí",
       "kind": "person",
       "role": "secondary",
-      "lifespan": { "start": null, "end": null }
+      "floruit": 1492
+    },
+    {
+      "name": "Taíno",
+      "kind": "ethnic-group",
+      "role": "secondary"
     }
   ],
-  "roles": ["explorer-adventurer", "colonial-administrator"],
+  "roles": [
+    "explorer-adventurer",
+    "colonial-administrator"
+  ],
   "themes": {
     "primary": "colonialism-imperialism",
-    "secondary": ["genocide-mass-killing", "slavery-forced-labor", "organized-religion", "sexual-abuse"]
+    "secondary": [
+      "genocide-mass-killing",
+      "slavery-forced-labor",
+      "organized-religion",
+      "sexual-abuse",
+      "child-abuse"
+    ]
   },
   "regions": {
-    "origin": ["IT"],
-    "setting": ["DO", "HT", "BS", "ES", "PT", "IT"],
+    "origin": [
+      "IT"
+    ],
+    "setting": [
+      "DO",
+      "HT",
+      "BS",
+      "ES",
+      "PT",
+      "IT"
+    ],
     "subdivisions": [],
-    "polities": ["spanish-empire", "portuguese-empire"],
+    "polities": [
+      "spanish-empire",
+      "portuguese-empire"
+    ],
     "scope": "international"
   },
   "time": {
-    "main_span": { "start": 1492, "end": 1500 },
-    "covered_span": { "start": 1451, "end": 1506 },
+    "main_span": {
+      "start": 1492,
+      "end": 1500
+    },
+    "covered_span": {
+      "start": 1451,
+      "end": 1506
+    },
     "reaches_present": true,
     "approximate": false
   },
   "summary": "Genoese navigator Christopher Columbus reached the Caribbean for Spain in 1492, then as governor of Hispaniola enslaved and taxed the Taíno to death, driven by a messianic plan to fund the reconquest of Jerusalem.",
-  "content_warnings": ["mass-atrocity", "suicide-self-harm", "sexual-violence", "graphic-violence"],
-  "keywords": ["Hispaniola", "La Navidad", "Taíno", "Caribs", "Columbus and the Quest for Jerusalem", "Bartolomé de las Casas", "Laurence Bergreen", "Genoa", "Santa Maria", "Francisco de Bobadilla"],
-  "guests": ["Michael Swaim"],
+  "content_warnings": [
+    "mass-atrocity",
+    "slavery",
+    "suicide-self-harm",
+    "sexual-violence",
+    "graphic-violence"
+  ],
+  "keywords": [
+    "Hispaniola",
+    "La Navidad",
+    "Caribs",
+    "Columbus and the Quest for Jerusalem",
+    "Bartolomé de las Casas",
+    "Laurence Bergreen",
+    "Genoa",
+    "Santa Maria",
+    "Francisco de Bobadilla",
+    "Isabella settlement"
+  ],
+  "guests": [
+    "Michael Swaim"
+  ],
   "confidence": {
     "subjects": "medium",
     "roles": "medium",
@@ -54,18 +112,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:21:21", "note": "born near Genoa in summer 1451" },
-    { "facet": "time", "part": 3, "at": "01:18:11", "note": "stripped of viceroyalty and sent to Castile in chains (main_span end)" },
-    { "facet": "time", "part": 3, "at": "01:19:15", "note": "dies May 1506" },
-    { "facet": "time", "part": 3, "at": "00:02:08", "note": "correction segment on surviving Taino descendants and revival today" },
-    { "facet": "regions", "part": 1, "at": "00:51:56", "note": "while based in Lisbon he enslaves and ships families from Guinea to Portugal" },
-    { "facet": "regions", "part": 2, "at": "00:41:41", "note": "Santa Maria wrecks off modern Haiti, leading to the Navidad fort" },
-    { "facet": "regions", "part": 3, "at": "00:58:07", "note": "main gold mines worked by forced labor lie in today's Dominican Republic" },
-    { "facet": "themes", "part": 1, "at": "00:20:50", "note": "host frames his motive as messianic Catholic zeal to retake Jerusalem" },
-    { "facet": "themes", "part": 3, "at": "00:52:26", "note": "five hundred captives shipped for sale in Castile after a punitive campaign" },
-    { "facet": "themes", "part": 3, "at": "00:33:13", "note": "Navidad garrison rapes and kidnaps local women and girls" },
-    { "facet": "themes", "part": 3, "at": "01:21:47", "note": "mass suicide and population collapse on Hispaniola" },
-    { "facet": "subjects", "part": 1, "at": "00:11:04", "note": "Delaney's rehabilitating biography introduced as a running counterpoint" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:21:21",
+      "note": "born near Genoa in summer 1451"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "01:18:11",
+      "note": "stripped of viceroyalty and sent to Castile in chains (main_span end)"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "01:19:15",
+      "note": "dies May 1506"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "00:02:08",
+      "note": "correction segment on surviving Taino descendants and revival today"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:51:56",
+      "note": "while based in Lisbon he enslaves and ships families from Guinea to Portugal"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:41:41",
+      "note": "Santa Maria wrecks off modern Haiti, leading to the Navidad fort"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:58:07",
+      "note": "main gold mines worked by forced labor lie in today's Dominican Republic"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:20:50",
+      "note": "host frames his motive as messianic Catholic zeal to retake Jerusalem"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:52:26",
+      "note": "five hundred captives shipped for sale in Castile after a punitive campaign"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:33:13",
+      "note": "Navidad garrison rapes and kidnaps local women and girls"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "01:21:47",
+      "note": "mass suicide and population collapse on Hispaniola"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:11:04",
+      "note": "Delaney's rehabilitating biography introduced as a running counterpoint"
+    }
   ],
-  "notes": "Delaney's book is critiqued throughout, so she is listed as secondary; no theme fits historiography/whitewashing. reaches_present rests on the Taino-descendants correction and modern right-wing rehabilitation. CU, VI (St Croix) and GH (Portuguese Gold Coast trip) also appear but were cut for the six-code limit. Victims include girls, so child-abuse could also apply."
+  "notes": "Delaney's book (Columbus and the Quest for Jerusalem, floruit 2011) is critiqued throughout, so she is secondary; no theme fits historiography/whitewashing. reaches_present rests on the Taino-descendants correction and modern right-wing rehabilitation. CU, VI (St Croix) and GH also appear but were cut for the six-code limit. child-abuse covers the Genoese trade in girls and Navidad's abuse of girls."
 }

@@ -1,37 +1,106 @@
 {
   "story_id": "behind-the-bastards-presents-better-offline",
-  "taxonomy_version": "0.3.0",
-  "tagged_by": { "agent": "btb-tagger", "model": "claude-opus-5-5", "date": "2026-10-16" },
+  "taxonomy_version": "0.4.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
   "format": "crossover",
   "subjects": [
-    { "name": "Prabhakar Raghavan", "kind": "person", "role": "primary", "lifespan": { "start": null, "end": null } },
-    { "name": "Sam Altman", "kind": "person", "role": "primary", "lifespan": { "start": 1985, "end": null } },
-    { "name": "Google", "kind": "organization", "org_type": "company", "role": "secondary", "wikidata": "Q95" },
-    { "name": "OpenAI", "kind": "organization", "org_type": "company", "role": "secondary" },
-    { "name": "Ben Gomes", "kind": "person", "role": "secondary", "lifespan": { "start": null, "end": null } }
+    {
+      "name": "Prabhakar Raghavan",
+      "kind": "person",
+      "role": "primary",
+      "floruit": 2019
+    },
+    {
+      "name": "Sam Altman",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1985,
+        "end": null
+      }
+    },
+    {
+      "name": "Google",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary",
+      "wikidata": "Q95"
+    },
+    {
+      "name": "OpenAI",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Ben Gomes",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2019
+    }
   ],
-  "roles": ["tech-founder", "financier-investor"],
+  "roles": [
+    "tech-founder",
+    "financier-investor"
+  ],
   "themes": {
     "primary": "tech-internet",
-    "secondary": ["artificial-intelligence", "corporate-malfeasance", "propaganda-media"]
+    "secondary": [
+      "artificial-intelligence",
+      "corporate-malfeasance",
+      "propaganda-media",
+      "labor-exploitation",
+      "finance-crypto"
+    ]
   },
   "regions": {
-    "origin": ["US", "IN"],
-    "setting": ["US"],
-    "subdivisions": ["US-CA"],
+    "origin": [
+      "US",
+      "IN"
+    ],
+    "setting": [
+      "US"
+    ],
+    "subdivisions": [
+      "US-CA"
+    ],
     "polities": [],
     "scope": "global"
   },
   "time": {
-    "main_span": { "start": 2019, "end": 2024 },
-    "covered_span": { "start": 2005, "end": 2024 },
+    "main_span": {
+      "start": 2019,
+      "end": 2024
+    },
+    "covered_span": {
+      "start": 2005,
+      "end": 2024
+    },
     "reaches_present": true,
     "approximate": false
   },
   "summary": "Compilation of three Better Offline episodes in which Ed Zitron blames Google executive Prabhakar Raghavan for degrading Google Search, profiles OpenAI CEO Sam Altman as a manipulative hype man, and indicts the tech industry and press.",
   "content_warnings": [],
-  "keywords": ["Better Offline", "rot economy", "Code Yellow", "Yahoo Search", "ChatGPT", "Y Combinator", "Helen Toner", "Paul Graham", "Sundar Pichai", "Foundering (Bloomberg podcast)"],
-  "guests": ["Ed Zitron", "Ellen Huet"],
+  "keywords": [
+    "Better Offline",
+    "rot economy",
+    "Code Yellow",
+    "Yahoo Search",
+    "ChatGPT",
+    "Y Combinator",
+    "Helen Toner",
+    "Paul Graham",
+    "Sundar Pichai",
+    "Foundering (Bloomberg podcast)"
+  ],
+  "guests": [
+    "Ed Zitron",
+    "Ellen Huet"
+  ],
   "confidence": {
     "subjects": "medium",
     "roles": "medium",
@@ -40,14 +109,66 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:01:11", "note": "Google search story opens with the February 2019 Code Yellow over search revenue" },
-    { "facet": "time", "part": 1, "at": "00:15:23", "note": "Raghavan ran Yahoo Search from 2005 to 2012, the earliest period covered at length" },
-    { "facet": "time", "part": 1, "at": "00:42:36", "note": "Altman's arrival in Silicon Valley around 2005 and his Y Combinator start" },
-    { "facet": "themes", "part": 1, "at": "00:08:45", "note": "March 2019 core update and ad redesign framed as making search worse for revenue" },
-    { "facet": "themes", "part": 1, "at": "00:32:43", "note": "OpenAI safety resignations, board firing and AI hype discussed at length" },
-    { "facet": "themes", "part": 1, "at": "01:28:18", "note": "third episode argues legacy media failed to hold tech and the powerful to account" },
-    { "facet": "subjects", "part": 1, "at": "00:39:58", "note": "Bloomberg reporter on the Foundering season about Altman joins as interview guest" },
-    { "facet": "regions", "part": 1, "at": "01:16:04", "note": "effects framed as global: search and AI products used by billions" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:01:11",
+      "note": "Google search story opens with the February 2019 Code Yellow over search revenue"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:15:23",
+      "note": "Raghavan ran Yahoo Search from 2005 to 2012, the earliest period covered at length"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:42:36",
+      "note": "Altman's arrival in Silicon Valley around 2005 and his Y Combinator start"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:08:45",
+      "note": "March 2019 core update and ad redesign framed as making search worse for revenue"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:32:43",
+      "note": "OpenAI safety resignations, board firing and AI hype discussed at length"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:28:18",
+      "note": "third episode argues legacy media failed to hold tech and the powerful to account"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:39:58",
+      "note": "Bloomberg reporter on the Foundering season about Altman joins as interview guest"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:16:04",
+      "note": "effects framed as global: search and AI products used by billions"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:26:18",
+      "note": "extended rant on managers versus workers; later blames layoffs and 'lazy worker' coverage"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:20:30",
+      "note": "AI bubble, venture capital disconnection and Altman's angel-investing wealth discussed at length"
+    }
   ],
-  "notes": "Crossover of three Better Offline episodes (Raghavan/Google Search, Altman/OpenAI, post-election 'rot society' essay); Robert Evans only introduces. Third episode has no single subject. Guest name transcribed as 'Ellen Hewett'; Ellen Huet of Bloomberg assumed. Raghavan's birth year and India origin from general knowledge, birth year left null. Roles optional for crossover; filled anyway."
+  "notes": "Crossover of three Better Offline episodes (Raghavan/Google Search, Altman/OpenAI, post-election 'rot society' essay); Robert Evans only introduces. Third episode has no single subject. Guest name transcribed as 'Ellen Hewett'; Ellen Huet of Bloomberg assumed. Raghavan's India origin from general knowledge; birth years unknown, so floruit 2019 (Code Yellow) for Raghavan and Gomes. Roles optional for crossover; filled anyway."
 }

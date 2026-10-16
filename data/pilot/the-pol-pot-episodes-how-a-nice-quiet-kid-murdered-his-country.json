@@ -1,35 +1,102 @@
 {
   "story_id": "the-pol-pot-episodes-how-a-nice-quiet-kid-murdered-his-country",
-  "taxonomy_version": "0.3.0",
-  "tagged_by": { "agent": "btb-tagger", "model": "claude-opus-5-5", "date": "2026-10-16" },
+  "taxonomy_version": "0.4.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
   "format": "deep-dive",
   "subjects": [
-    { "name": "Pol Pot", "kind": "person", "role": "primary", "lifespan": { "start": 1925, "end": 1998 } },
-    { "name": "Khmer Rouge", "kind": "organization", "org_type": "political-org", "role": "secondary" },
-    { "name": "Malcolm Caldwell", "kind": "person", "role": "secondary", "lifespan": { "start": 1931, "end": 1978 } }
+    {
+      "name": "Pol Pot",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1925,
+        "end": 1998
+      }
+    },
+    {
+      "name": "Khmer Rouge",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Malcolm Caldwell",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1931,
+        "end": 1978
+      }
+    }
   ],
-  "roles": ["dictator-autocrat", "mercenary-warlord"],
+  "roles": [
+    "dictator-autocrat",
+    "mercenary-warlord"
+  ],
   "themes": {
     "primary": "communism-state-socialism",
-    "secondary": ["genocide-mass-killing", "war-war-crimes", "colonialism-imperialism", "propaganda-media"]
+    "secondary": [
+      "genocide-mass-killing",
+      "war-war-crimes",
+      "colonialism-imperialism",
+      "propaganda-media",
+      "racism-white-supremacy"
+    ]
   },
   "regions": {
-    "origin": ["KH"],
-    "setting": ["KH", "FR", "VN", "HR"],
+    "origin": [
+      "KH"
+    ],
+    "setting": [
+      "KH",
+      "FR",
+      "VN",
+      "HR"
+    ],
     "subdivisions": [],
-    "polities": ["french-colonial-empire"],
+    "polities": [
+      "french-colonial-empire"
+    ],
     "scope": "international"
   },
   "time": {
-    "main_span": { "start": 1963, "end": 1998 },
-    "covered_span": { "start": 1925, "end": 1998 },
+    "main_span": {
+      "start": 1963,
+      "end": 1998
+    },
+    "covered_span": {
+      "start": 1925,
+      "end": 1998
+    },
     "reaches_present": false,
     "approximate": true
   },
   "summary": "Saloth Sar, a privileged, polite Cambodian student radicalised in 1950s Paris, became Pol Pot, led the Khmer Rouge and ruled Cambodia from 1975 to 1979, when his Year Zero policies killed around two million people.",
-  "content_warnings": ["mass-atrocity", "torture", "child-abuse"],
-  "keywords": ["Saloth Sar", "Year Zero", "Democratic Kampuchea", "Tuol Sleng (S-21)", "Killing Fields", "Phnom Penh", "Ieng Sary", "Lon Nol", "Norodom Sihanouk", "Nate Thayer"],
-  "guests": ["Andrew Ti"],
+  "content_warnings": [
+    "mass-atrocity",
+    "torture",
+    "child-abuse",
+    "graphic-violence"
+  ],
+  "keywords": [
+    "Saloth Sar",
+    "Year Zero",
+    "Democratic Kampuchea",
+    "Tuol Sleng (S-21)",
+    "Killing Fields",
+    "Phnom Penh",
+    "Ieng Sary",
+    "Lon Nol",
+    "Norodom Sihanouk",
+    "Nate Thayer"
+  ],
+  "guests": [
+    "Andrew Ti"
+  ],
   "confidence": {
     "subjects": "high",
     "roles": "medium",
@@ -38,18 +105,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:10:00", "note": "birth year disputed; Short gives March 1925, others 1927" },
-    { "facet": "time", "part": 2, "at": "00:48:40", "note": "becomes party leader in 1963 after Tou Samouth's killing" },
-    { "facet": "time", "part": 3, "at": "01:23:36", "note": "dies under house arrest in 1998" },
-    { "facet": "regions", "part": 1, "at": "00:52:58", "note": "leaves for Paris on scholarship in 1949; Paris years fill most of part 2" },
-    { "facet": "regions", "part": 2, "at": "00:07:08", "note": "labour-brigade trip to Yugoslavia, Zagreb, shapes his ideas" },
-    { "facet": "regions", "part": 3, "at": "01:18:59", "note": "Vietnam invades in December 1978 and ends the regime" },
-    { "facet": "themes", "part": 1, "at": "00:13:32", "note": "French protectorate, Japanese takeover and independence movement" },
-    { "facet": "themes", "part": 3, "at": "00:09:11", "note": "long segment on the US bombing of Cambodia and civil war" },
-    { "facet": "themes", "part": 3, "at": "00:35:09", "note": "toxification propaganda that primed cadres for mass killing" },
-    { "facet": "themes", "part": 3, "at": "00:58:56", "note": "Western apologists: Caldwell, Chomsky debate, regime propaganda" },
-    { "facet": "content_warnings", "part": 1, "at": "00:36:42", "note": "explicit account of his sexual abuse as a boy in the palace" },
-    { "facet": "content_warnings", "part": 3, "at": "00:55:41", "note": "S-21 interrogation, torture and execution described" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:10:00",
+      "note": "birth year disputed; Short gives March 1925, others 1927"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:48:40",
+      "note": "becomes party leader in 1963 after Tou Samouth's killing"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "01:23:36",
+      "note": "dies under house arrest in 1998"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:52:58",
+      "note": "leaves for Paris on scholarship in 1949; Paris years fill most of part 2"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:07:08",
+      "note": "labour-brigade trip to Yugoslavia, Zagreb, shapes his ideas"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:43:19",
+      "note": "ethnic Vietnamese, Chinese and Muslim Cham targeted; builds on anti-Vietnamese prejudice from part 1"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:13:32",
+      "note": "French protectorate, Japanese takeover and independence movement"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:09:11",
+      "note": "long segment on the US bombing of Cambodia and civil war"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:35:09",
+      "note": "toxification propaganda that primed cadres for mass killing"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:58:56",
+      "note": "Western apologists: Caldwell, Chomsky debate, regime propaganda"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:36:42",
+      "note": "explicit account of his sexual abuse as a boy in the palace"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 3,
+      "at": "00:55:41",
+      "note": "S-21 interrogation, torture and execution described"
+    }
   ],
-  "notes": "Primary theme follows the taxonomy example naming Pol Pot under communism-state-socialism; genocide-mass-killing is a close alternative. Racism (anti-Vietnamese prejudice, Cham and Vietnamese genocides) also has real airtime but was cut at the 4-secondary cap. main_span starts at 1963 party leadership; 1952 return to Cambodia is a defensible alternative. HR stands for the Yugoslavia work trip (Zagreb)."
+  "notes": "Primary theme follows the taxonomy example naming Pol Pot under communism-state-socialism; genocide-mass-killing is a close alternative. main_span starts at 1963 party leadership; 1952 return to Cambodia is a defensible alternative. HR stands for the Yugoslavia work trip (Zagreb). graphic-violence covers the death-march corpses and the liver-eating account in part 3."
 }

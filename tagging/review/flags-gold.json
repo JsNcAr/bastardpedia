@@ -1,34 +1,15 @@
 {
   "heinrich-schliemann-the-archaeologist-who-destroyed-troy": [
-    "Updated for 0.3.0: covered years added (1797 to 1890), and the new theme Looting & heritage destruction added as a secondary theme.",
-    "Covered years start in 1797, the birth of the secondary subject Giuseppe Ferlini, whose looting of the Meroe pyramids takes about 20 minutes. That also lists the story under the 18th century. Mark Fix if you prefer 1822 (Schliemann's birth).",
-    "Roles: scientist-scholar kept although he had no real credentials (alternative: con-artist)."
+    "Updated for 0.4.0: other themes changed."
   ],
+  "how-l-ron-hubbard-lied-his-way-to-godhood": ["Updated for 0.4.0: no field changed."],
+  "how-nestle-starved-a-bunch-of-babies": ["Updated for 0.4.0: other themes changed."],
+  "kissinger": ["Updated for 0.4.0: other themes, content warnings changed."],
   "percy-fawcett-real-life-indiana-jones-or-deluded-psychic-racist": [
-    "Updated for 0.3.0: covered years added (1867 to 1925, his whole life). The modern LIDAR searches stay out, as you asked; they only set 'follows legacy to the present'.",
-    "Kept eugenics-scientific-racism rather than the widened racism theme: his racism in the story is pseudo-scientific hierarchy."
+    "Updated for 0.4.0: other themes, content warnings changed."
   ],
-  "how-l-ron-hubbard-lied-his-way-to-godhood": [
-    "Updated for 0.3.0: covered years now 1911 to 1986 (his whole life), as you asked. Main events stay 1934 to 1975.",
-    "New secondary theme Domestic & partner abuse: kidnapping and strangling his wife takes about 10 minutes of Part 2."
-  ],
-  "how-nestle-starved-a-bunch-of-babies": [
-    "Updated for 0.3.0: setting reordered so the places babies were harmed come first (Ivory Coast, Nigeria, Jamaica, Philippines, Malawi, then the US). Switzerland dropped: it was only the headquarters.",
-    "New content warning Death of children for the long starving-infant accounts (around 00:49 and 00:53).",
-    "Covered years 1867 to 2018: from Henri Nestle's formula (about 10% of the episode) to the 2018 case, as you suggested."
-  ],
-  "constructing-the-crack-epidemic": [
-    "Updated for 0.3.0: covered years 1981 to 1998 (ends with the CIA inspector general review in Part 5).",
-    "Secondary themes re-picked with the new vocabulary: Moral panics (the crack-baby panic) and the widened Racism (housing and sentencing policy) replace Weapons and Policing.",
-    "Parts 3 and 4 are Hood Politics co-productions; kept as deep-dive rather than crossover."
-  ],
+  "constructing-the-crack-epidemic": ["Updated for 0.4.0: other themes changed."],
   "steven-seagal-wrote-a-book-we-read-it": [
-    "Updated for 0.3.0: covered years 1990 to 2019, because the opening rundown of Seagal's career and misconduct takes about 10% of the episode. Main years stay the book's 2017 to 2018. The whole-life rule does not apply to readings.",
-    "New secondary theme Immigration & borders; the widened Racism theme now covers the book's Islamophobia."
-  ],
-  "kissinger": [
-    "Updated for 0.3.0: covered years 1923 to 2022 (birth to the release year; he was alive when it aired). Main events stay 1968 to 1977.",
-    "New secondary theme Diplomacy & foreign policy replaces Propaganda & media. War crimes stays the main theme.",
-    "Polities unchanged: polities are only for states that country codes cannot express. The US is already in origin and setting, and scope is global."
+    "Updated for 0.4.0: subjects, content warnings changed."
   ]
 }

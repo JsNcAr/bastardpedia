@@ -1,6 +1,6 @@
 {
   "story_id": "kissinger",
-  "taxonomy_version": "0.3.0",
+  "taxonomy_version": "0.4.0",
   "tagged_by": {
     "agent": "gold-draft",
     "model": "claude-opus-5-5",
@@ -46,7 +46,9 @@
       "genocide-mass-killing",
       "intelligence-covert-ops",
       "electoral-politics",
-      "diplomacy-foreign-policy"
+      "diplomacy-foreign-policy",
+      "propaganda-media",
+      "weapons-arms-trade"
     ]
   },
   "regions": {
@@ -69,7 +71,7 @@
     "approximate": false
   },
   "summary": "German-born US national security adviser and secretary of state Henry Kissinger, who from 1968 to 1977 helped prolong the Vietnam War, secretly directed the bombing of Cambodia and Laos, and backed mass killing by allied regimes in Pakistan and Indonesia.",
-  "content_warnings": ["mass-atrocity"],
+  "content_warnings": ["mass-atrocity", "hate-speech"],
   "keywords": [
     "Operation Menu",
     "Operation Speedy Express",
@@ -164,5 +166,5 @@
       "note": "After 1977: consulting firm, Tiananmen stance, Iraq, legal pursuits, ties to modern politicians"
     }
   ],
-  "notes": "Setting ordered harm first (Cambodia, Vietnam, Bangladesh, Angola), then US and DE by airtime: LA, CN, PK, IN, EG, IL, ZW, TL, IQ dropped by the 6 cap. DE kept for ~40 min of childhood and occupation. Lifespan end 2023 from own knowledge (alive at release). scientist-scholar vs writer-intellectual for his Harvard career is a judgment call. diplomacy-foreign-policy replaced propaganda-media; weapons-arms-trade (nuclear strategy, part 2) cut by the 4 cap."
+  "notes": "Setting order set by reviewer; LA, CN, PK, IN, EG, IL, ZW, TL, IQ dropped by the 6 cap. Lifespan end 2023 from own knowledge (alive at release). scientist-scholar vs writer-intellectual is a judgment call. Chile explicitly skipped by host. weapons-arms-trade = nuclear-strategy/missile-gap segment of part 2. hate-speech for repeated quoting of Nixon's and Kissinger's slurs (parts 4, 6); sexual-violence left out, Bangladesh rapes get only brief figures."
 }

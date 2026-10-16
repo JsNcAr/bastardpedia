@@ -1,6 +1,6 @@
 {
   "story_id": "robert-e-lee-a-lifetime-of-failure",
-  "taxonomy_version": "0.3.0",
+  "taxonomy_version": "0.4.0",
   "tagged_by": {
     "agent": "btb-tagger",
     "model": "claude-opus-5-5",
@@ -12,13 +12,19 @@
       "name": "Robert E. Lee",
       "kind": "person",
       "role": "primary",
-      "lifespan": { "start": 1807, "end": 1870 }
+      "lifespan": {
+        "start": 1807,
+        "end": 1870
+      }
     },
     {
       "name": "Henry \"Light-Horse Harry\" Lee III",
       "kind": "person",
       "role": "secondary",
-      "lifespan": { "start": 1756, "end": 1818 }
+      "lifespan": {
+        "start": 1756,
+        "end": 1818
+      }
     },
     {
       "name": "Lost Cause of the Confederacy",
@@ -31,31 +37,51 @@
       "role": "secondary"
     }
   ],
-  "roles": ["military-officer"],
+  "roles": [
+    "military-officer"
+  ],
   "themes": {
     "primary": "war-war-crimes",
     "secondary": [
       "slavery-forced-labor",
       "racism-white-supremacy",
       "coups-insurrections",
-      "propaganda-media"
+      "propaganda-media",
+      "folklore-legend"
     ]
   },
   "regions": {
-    "origin": ["US"],
-    "setting": ["US"],
-    "subdivisions": ["US-VA"],
-    "polities": ["confederate-states"],
+    "origin": [
+      "US"
+    ],
+    "setting": [
+      "US"
+    ],
+    "subdivisions": [
+      "US-VA"
+    ],
+    "polities": [
+      "confederate-states"
+    ],
     "scope": "national"
   },
   "time": {
-    "main_span": { "start": 1857, "end": 1870 },
-    "covered_span": { "start": 1773, "end": 1870 },
+    "main_span": {
+      "start": 1857,
+      "end": 1870
+    },
+    "covered_span": {
+      "start": 1773,
+      "end": 1870
+    },
     "reaches_present": true,
     "approximate": false
   },
   "summary": "Virginia-born US Army officer Robert E. Lee had enslaved people at Arlington whipped, broke his oath to lead Confederate armies to defeat in the Civil War, and after 1865 opposed civil rights for freed Black Americans.",
-  "content_warnings": ["torture"],
+  "content_warnings": [
+    "slavery",
+    "torture"
+  ],
   "keywords": [
     "Light-Horse Harry",
     "Army of Northern Virginia",
@@ -68,7 +94,9 @@
     "Arlington National Cemetery",
     "Traveller"
   ],
-  "guests": ["Jason Petty (Prop)"],
+  "guests": [
+    "Jason Petty (Prop)"
+  ],
   "confidence": {
     "subjects": "high",
     "roles": "high",
@@ -77,18 +105,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:25:56", "note": "Father Henry Lee III finishes law school in 1773, then a long segment on his Revolutionary War career" },
-    { "facet": "time", "part": 1, "at": "00:41:14", "note": "Lee born January 1807 at Stratford Hall" },
-    { "facet": "themes", "part": 2, "at": "00:37:43", "note": "Father-in-law Custis dies in 1857; Lee takes over Arlington and hires out enslaved people to pay debts" },
-    { "facet": "content_warnings", "part": 2, "at": "00:47:51", "note": "Lee orders recaptured escapees stripped and lashed; press report says he whipped Mary Norris himself" },
-    { "facet": "themes", "part": 2, "at": "00:25:03", "note": "Lee's letters show casual racism, including a slur" },
-    { "facet": "themes", "part": 3, "at": "00:02:05", "note": "Whole part covers his decision to break his oath and join the secessionist rebellion" },
-    { "facet": "themes", "part": 1, "at": "00:04:10", "note": "Lost Cause portrayals, from a children's biography onward, recur through every part" },
-    { "facet": "regions", "part": 3, "at": "00:52:51", "note": "Lee made commander of Virginia's forces in Richmond before joining the Confederacy" },
-    { "facet": "themes", "part": 4, "at": "00:31:20", "note": "Long assessment of his generalship as Confederate war leader, through Gettysburg and surrender" },
-    { "facet": "themes", "part": 4, "at": "01:13:01", "note": "After the war Lee lobbies against laws protecting freed Black Americans" },
-    { "facet": "time", "part": 4, "at": "01:21:48", "note": "Lee dies in October 1870 after a stroke" },
-    { "facet": "time", "part": 2, "at": "00:54:39", "note": "2017 newspaper column defending Lee shows the myth still active today" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:25:56",
+      "note": "Father Henry Lee III finishes law school in 1773, then a long segment on his Revolutionary War career"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:41:14",
+      "note": "Lee born January 1807 at Stratford Hall"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:37:43",
+      "note": "Father-in-law Custis dies in 1857; Lee takes over Arlington and hires out enslaved people to pay debts"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:47:51",
+      "note": "Lee orders recaptured escapees stripped and lashed; press report says he whipped Mary Norris himself"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:25:03",
+      "note": "Lee's letters show casual racism, including a slur"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:02:05",
+      "note": "Whole part covers his decision to break his oath and join the secessionist rebellion"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:04:10",
+      "note": "Lost Cause myth of Lee, from a children's biography onward, is examined in every part"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:52:51",
+      "note": "Lee made commander of Virginia's forces in Richmond before joining the Confederacy"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:31:20",
+      "note": "Long assessment of his generalship as Confederate war leader, through Gettysburg and surrender"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "01:13:01",
+      "note": "After the war Lee lobbies against laws protecting freed Black Americans"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "01:21:48",
+      "note": "Lee dies in October 1870 after a stroke"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:54:39",
+      "note": "2017 newspaper column defending Lee shows the myth still active today"
+    }
   ],
-  "notes": "Covered span starts 1773 with father Light-Horse Harry's career (secondary subject, most of part 1); Norman-era and colonial family lore treated as background. Mexican-American War (MX) and Cortina raids get only a few minutes, so MX left out of setting. propaganda-media chosen for Lost Cause myth-making; no closer theme for historical memory or memorialisation. Secession tagged coups-insurrections."
+  "notes": "Covered span starts 1773 with father Light-Horse Harry's career (secondary subject, most of part 1); Norman-era and colonial family lore treated as background. Mexican-American War (MX) and Cortina raids get only a few minutes, so MX left out of setting. Lost Cause tagged folklore-legend (myth growth) plus propaganda-media (hagiographies, 2017 op-ed). Secession tagged coups-insurrections. graphic-violence and hate-speech considered but kept out: segments are short."
 }

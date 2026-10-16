@@ -1,36 +1,105 @@
 {
   "story_id": "how-the-southern-baptist-convention-was-taken-over-by-republicans-and-child-molesters",
-  "taxonomy_version": "0.3.0",
-  "tagged_by": { "agent": "btb-tagger", "model": "claude-opus-5-5", "date": "2026-10-16" },
+  "taxonomy_version": "0.4.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
   "format": "deep-dive",
   "subjects": [
-    { "name": "Southern Baptist Convention", "kind": "organization", "org_type": "religious-body", "role": "primary" },
-    { "name": "Paige Patterson", "kind": "person", "role": "secondary", "lifespan": { "start": 1942, "end": null } },
-    { "name": "Paul Pressler", "kind": "person", "role": "secondary", "lifespan": { "start": 1930, "end": 2024 } },
-    { "name": "International Mission Board", "kind": "organization", "org_type": "religious-body", "role": "secondary" }
+    {
+      "name": "Southern Baptist Convention",
+      "kind": "organization",
+      "org_type": "religious-body",
+      "role": "primary"
+    },
+    {
+      "name": "Paige Patterson",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1942,
+        "end": null
+      }
+    },
+    {
+      "name": "Paul Pressler",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1930,
+        "end": 2024
+      }
+    },
+    {
+      "name": "International Mission Board",
+      "kind": "organization",
+      "org_type": "religious-body",
+      "role": "secondary"
+    }
   ],
   "roles": [],
   "themes": {
     "primary": "organized-religion",
-    "secondary": ["child-abuse", "sexual-abuse", "religious-right-culture-war", "racism-white-supremacy"]
+    "secondary": [
+      "child-abuse",
+      "sexual-abuse",
+      "religious-right-culture-war",
+      "racism-white-supremacy",
+      "slavery-forced-labor"
+    ]
   },
   "regions": {
-    "origin": ["US"],
-    "setting": ["US", "ID", "KE", "BW", "MW"],
+    "origin": [
+      "US"
+    ],
+    "setting": [
+      "US",
+      "ID",
+      "KE",
+      "BW",
+      "MW"
+    ],
     "subdivisions": [],
-    "polities": ["confederate-states"],
+    "polities": [
+      "confederate-states"
+    ],
     "scope": "international"
   },
   "time": {
-    "main_span": { "start": 1979, "end": 2022 },
-    "covered_span": { "start": 1845, "end": 2022 },
+    "main_span": {
+      "start": 1979,
+      "end": 2022
+    },
+    "covered_span": {
+      "start": 1845,
+      "end": 2022
+    },
     "reaches_present": true,
     "approximate": true
   },
   "summary": "The Southern Baptist Convention, America's largest Protestant denomination, was founded in 1845 to defend slavery, captured by fundamentalists from 1979, and for decades shielded clergy and missionaries who sexually abused children and women.",
-  "content_warnings": ["child-abuse", "sexual-violence"],
-  "keywords": ["Conservative Resurgence", "Baptist Faith and Message", "Houston Chronicle investigation", "complementarianism", "Darryl Gilyard", "Debbie Vasquez", "August Boto", "Southern Baptist Theological Seminary", "J. D. Greear", "Bart Barber"],
-  "guests": ["Katy Stoll", "Cody Johnston"],
+  "content_warnings": [
+    "child-abuse",
+    "sexual-violence"
+  ],
+  "keywords": [
+    "Conservative Resurgence",
+    "Baptist Faith and Message",
+    "Houston Chronicle investigation",
+    "complementarianism",
+    "Darryl Gilyard",
+    "Debbie Vasquez",
+    "August Boto",
+    "Southern Baptist Theological Seminary",
+    "J. D. Greear",
+    "Bart Barber"
+  ],
+  "guests": [
+    "Katy Stoll",
+    "Cody Johnston"
+  ],
   "confidence": {
     "subjects": "high",
     "roles": "high",
@@ -39,16 +108,66 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:20:04", "note": "SBC founded at Augusta, Georgia in 1845 over slaveholding missionaries" },
-    { "facet": "themes", "part": 1, "at": "00:30:10", "note": "seminary donor's convict-lease labor and Jim Crow support discussed at length" },
-    { "facet": "regions", "part": 1, "at": "00:26:24", "note": "SBC resolutions pledging support to the Confederacy in 1863" },
-    { "facet": "time", "part": 1, "at": "00:40:09", "note": "1979 trigger for the anti-abortion push; Patterson and Pressler organise the takeover" },
-    { "facet": "themes", "part": 1, "at": "00:48:42", "note": "complementarian family article added to the faith statement" },
-    { "facet": "themes", "part": 1, "at": "00:57:13", "note": "Gilyard accused by adult women; Patterson backs him" },
-    { "facet": "regions", "part": 2, "at": "00:24:55", "note": "missionary Wade abuses daughter while posted in Kenya and Botswana" },
-    { "facet": "regions", "part": 2, "at": "00:34:25", "note": "McElrath molests colleagues' children in Indonesia for decades" },
-    { "facet": "regions", "part": 2, "at": "00:41:37", "note": "missionary Kingsley assaults a colleague in Malawi in 1984" },
-    { "facet": "time", "part": 2, "at": "00:57:07", "note": "2022 convention election of a reform candidate closes the story" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:20:04",
+      "note": "SBC founded at Augusta, Georgia in 1845 over slaveholding missionaries"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:30:10",
+      "note": "seminary donor's convict-lease labor and Jim Crow support discussed at length"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:26:24",
+      "note": "SBC resolutions pledging support to the Confederacy in 1863"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:40:09",
+      "note": "1979 trigger for the anti-abortion push; Patterson and Pressler organise the takeover"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:48:42",
+      "note": "complementarian family article added to the faith statement"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:57:13",
+      "note": "Gilyard accused by adult women; Patterson backs him"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:24:55",
+      "note": "missionary Wade abuses daughter while posted in Kenya and Botswana"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:34:25",
+      "note": "McElrath molests colleagues' children in Indonesia for decades"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:41:37",
+      "note": "missionary Kingsley assaults a colleague in Malawi in 1984"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:57:07",
+      "note": "2022 convention election of a reform candidate closes the story"
+    }
   ],
-  "notes": "Covered span starts at the 1845 founding; the 1609 Amsterdam/English origins of the Baptist faith (about ten minutes) treated as background, so GB/NL left out of setting. Slavery-forced-labor also had a real segment but secondary themes were capped at four; racism-white-supremacy chosen as broader. Pressler's 2024 death year is from outside knowledge."
+  "notes": "Covered span starts at the 1845 founding; the 1609 Amsterdam/English origins of the Baptist faith (about ten minutes) treated as background, so GB/NL left out of setting. Slavery warning not applied: slavery is discussed as SBC doctrine, not as extended accounts of enslaved people's treatment. Misogyny folded into religious-right-culture-war. Pressler's 2024 death year is from outside knowledge."
 }
