@@ -1,0 +1,93 @@
+{
+  "ancient-genocide-and-the-war-on-carthage": [
+    "Covered years reach back to 5000 BCE (the earliest year the schema allows) because the episode surveys prehistoric massacres such as Nataruk (about 8000 BCE). That lists the story under every ancient period. Fix if you would rather it start at the Punic Wars.",
+    "Primary subject is the Third Punic War; Cato could also be primary."
+  ],
+  "the-true-story-of-dracula": [
+    "No theme covers folklore or literary origins, so the main theme is the closest fit (propaganda & media). Low confidence.",
+    "Covered years run to 1897 through Bram Stoker and the vampire panics, although Vlad died in 1476."
+  ],
+  "christopher-columbus-bringer-of-the-apocalypse": [
+    "Setting capped at 6: Cuba, St Croix and Ghana were dropped."
+  ],
+  "in-honor-of-our-new-monarchy-let-s-talk-about-versailles": [
+    "The palace and court system is the primary subject and Louis XIV is secondary, so there are no roles and no lifetime rule. Fix if Louis XIV should be primary.",
+    "No polity exists for the Kingdom of France."
+  ],
+  "robert-e-lee-a-lifetime-of-failure": [
+    "Covered years start in 1773 with his father, Henry Lee III, as a secondary subject."
+  ],
+  "francis-galton-inventor-of-eugenics": [
+    "Covered years end in 1945, adding up several short legacy segments; reaches the present through the effective-altruism segment."
+  ],
+  "king-leopold-ii-the-first-modern-bastard": [
+    "Main theme colonialism; the taxonomy's own examples list Leopold under genocide, which is a secondary theme here."
+  ],
+  "the-slavery-loving-fascist-who-built-modern-japan": [
+    "Child abuse left out because of the 4-secondary-theme cap.",
+    "No organisation type fits criminal groups such as the Yakuza."
+  ],
+  "the-man-who-invented-fascism": [
+    "The primary subject is Gabriele D'Annunzio, not Mussolini (the themes list wrongly used this episode as a Mussolini example; that will be corrected)."
+  ],
+  "how-heinrich-himmler-went-from-nerdy-boy-to-master-of-the-ss": [
+    "Six parts, so the tagger saw evenly spaced blocks rather than the full transcript.",
+    "The lifetime rule pushes covered years to 1945 although the series stops around 1939 to 1941.",
+    "No organisation type fits the SS (political-org used)."
+  ],
+  "the-pol-pot-episodes-how-a-nice-quiet-kid-murdered-his-country": [
+    "Main theme close between communist regimes and genocide; racism dropped by the 4-secondary cap."
+  ],
+  "general-butt-naked-and-the-liberian-civil-war": [
+    "Occult & esoteric used as the closest fit for ritual killing.",
+    "Main years end in 2008 (the truth commission), from the tagger's own knowledge."
+  ],
+  "how-eliza-fraser-survived-a-shipwreck-and-sparked-a-genocide": [
+    "Role con-artist is only the closest fit. Low confidence.",
+    "No subject kind for ethnic groups such as the Butchulla."
+  ],
+  "the-first-shah-of-iran": [
+    "Covered years start with the Qajars' rise in 1785; the 1828 treaty or 1840 were also possible.",
+    "Main theme authoritarianism, although Part 1 is mostly about imperialism."
+  ],
+  "the-triangle-shirtwaist-fire": [
+    "The factory owners are secondary subjects to the fire, so there are no roles. Fix if the owners should be primary.",
+    "Background countries (Moldova, Ukraine, Russia, Italy) are kept in the setting."
+  ],
+  "the-bastard-who-invented-the-lobotomy": [
+    "Main years end in 1967 (operating privileges revoked) rather than his death in 1972.",
+    "No theme fits ableism or gendered medical abuse."
+  ],
+  "how-the-southern-baptist-convention-was-taken-over-by-republicans-and-child-molesters": [
+    "Covered years start in 1845; the 1609 founding of the Baptist faith was treated as background.",
+    "Slavery dropped by the 4-secondary cap, racism kept."
+  ],
+  "elan-school-the-worst-troubled-teen-facility": [
+    "Elan is the only primary subject; its founder could be co-primary.",
+    "Cults & new religions rests on the Synanon segment."
+  ],
+  "mark-zuckerberg-the-worst-person-of-the-21st-century-so-far": [
+    "Facebook tagged as a company rather than a media outlet."
+  ],
+  "the-zizians-how-harry-potter-fanfic-inspired-a-death-cult": [
+    "Ziz LaSota's role is influencer-online; neither that nor writer-intellectual clearly fits a blogger.",
+    "Main years end in 2025 with the arrests."
+  ],
+  "what-s-new-with-alex-jones": [
+    "Current-affairs update. Guests' surnames came from the tagger's own knowledge.",
+    "No theme fits litigation or defamation."
+  ],
+  "the-terrible-secret-of-sea-monkeys-live-show": [
+    "Live show of a biography: the lifetime rule for covered years does not apply to live shows yet (proposed change).",
+    "Main theme close between Nazism and racism; Christian Identity fits neither cleanly."
+  ],
+  "special-x-mas-non-bastard-raoul-wallenberg-history-s-greatest-hero": [
+    "No role for a rescuer or humanitarian, and no hero theme; Nazism is the main theme. His death year (1947) is uncertain."
+  ],
+  "behind-the-bastards-presents-better-offline": [
+    "Crossover of three Better Offline episodes; subject choice is loose. Ed Zitron (the other show's host) treated as a guest."
+  ],
+  "behind-the-bastards-q-a-year-s-end-edition": [
+    "Meta episode: no theme fits a show about itself, so propaganda & media was borrowed. Low confidence. Producer Sophie co-hosts but is not listed as a guest."
+  ]
+}

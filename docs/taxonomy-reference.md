@@ -120,7 +120,7 @@ The reasoning behind these lists is in [TAXONOMY.md](TAXONOMY.md).
 | id | label | definition | examples |
 |---|---|---|---|
 | `authoritarianism` | Dictatorship & authoritarianism | How autocrats take, hold and abuse state power. | Turkmenbashi; Rafael Trujillo; Alfredo Stroessner |
-| `fascism-far-right` | Fascism & the far right | Fascist, neo-fascist and far-right movements, thinkers and regimes other than German Nazism. | Mussolini (The Man Who Invented Fascism); Antonio Salazar; Proud Boys; Carl Schmitt |
+| `fascism-far-right` | Fascism & the far right | Fascist, neo-fascist and far-right movements, thinkers and regimes other than German Nazism. | Gabriele D'Annunzio (The Man Who Invented Fascism); Antonio Salazar; Proud Boys; Carl Schmitt |
 | `nazism` | Nazism & the Holocaust | The German Nazi party and regime (1920-1945), its people and crimes, and explicitly Nazi movements after it. | Heinrich Himmler; Adolf Eichmann; George Lincoln Rockwell; Coco Chanel |
 | `communism-state-socialism` | Communist regimes | Abuses by communist or state-socialist regimes and their leaders. | Stalin; Pol Pot; Beria; Kim Jong Un; Nicolae Ceaușescu |
 | `coups-insurrections` | Coups & insurrections | Attempts to seize power illegally: coups, putsches, insurrections, plots. | Beer Hall Putsch; The Business Plot; The Dumbest Coup in World History |

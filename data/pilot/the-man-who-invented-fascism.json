@@ -1,0 +1,62 @@
+{
+  "story_id": "the-man-who-invented-fascism",
+  "taxonomy_version": "0.3.0",
+  "tagged_by": { "agent": "btb-tagger", "model": "claude-opus-5-5", "date": "2026-10-16" },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Gabriele D'Annunzio",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1863, "end": 1938 }
+    },
+    {
+      "name": "Occupation of Fiume",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["writer-intellectual", "dictator-autocrat", "military-officer"],
+  "themes": {
+    "primary": "fascism-far-right",
+    "secondary": ["war-war-crimes", "coups-insurrections", "propaganda-media", "sexual-abuse"]
+  },
+  "regions": {
+    "origin": ["IT"],
+    "setting": ["IT", "HR", "FR"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1914, "end": 1921 },
+    "covered_span": { "start": 1863, "end": 1938 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Italian poet and celebrity Gabriele D'Annunzio raped servant women, agitated Italy into World War I in 1915 and seized Fiume in 1919, ruling it as a dictator with rituals and a salute later copied by Mussolini's fascists.",
+  "content_warnings": ["sexual-violence"],
+  "keywords": ["Fiume", "Rijeka", "Benito Mussolini", "Lucy Hughes-Hallett", "Il Piacere", "Notturno", "Trieste air raid", "Roman salute", "Arditi", "Pescara"],
+  "guests": ["Shereen Lani Younes"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:03:09", "note": "born March 1863 in Pescara" },
+    { "facet": "themes", "part": 1, "at": "00:37:42", "note": "rape of a peasant girl and lifelong pattern of raping servant women" },
+    { "facet": "roles", "part": 1, "at": "01:02:20", "note": "runs for parliament in 1897, serves one term" },
+    { "facet": "regions", "part": 1, "at": "01:04:58", "note": "flees debts to Paris in 1910, then visits the Reims front" },
+    { "facet": "time", "part": 1, "at": "01:08:12", "note": "1914 Reims article starts his push for Italian intervention" },
+    { "facet": "themes", "part": 1, "at": "01:19:07", "note": "Italy declares war in May 1915 after his Rome speeches" },
+    { "facet": "roles", "part": 2, "at": "00:02:03", "note": "attached to the Third Army; bombing and leaflet raids" },
+    { "facet": "themes", "part": 2, "at": "00:15:27", "note": "marches on Fiume with Arditi in September 1919 and seizes it" },
+    { "facet": "themes", "part": 2, "at": "00:28:40", "note": "sets up a press office to send communiques worldwide" },
+    { "facet": "time", "part": 2, "at": "00:33:23", "note": "Italian siege ends his rule of Fiume in January 1921" },
+    { "facet": "time", "part": 2, "at": "00:38:05", "note": "dies in 1938 under Mussolini's patronage" }
+  ],
+  "notes": "main_span 1914-1921 (interventionism to Fiume); poetry fame from 1879 could argue an earlier start. Transcript dates differ from known facts: L'Innocente given as 1882 (1892), Fiume plebiscite as 1916 (1920). Mussolini gets no standalone segment so is a keyword. No polity id for the Kingdom of Italy. themes.yaml lists this episode under fascism-far-right as 'Mussolini', though the subject is D'Annunzio."
+}

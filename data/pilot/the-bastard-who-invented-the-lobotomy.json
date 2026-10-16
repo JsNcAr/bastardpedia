@@ -1,0 +1,92 @@
+{
+  "story_id": "the-bastard-who-invented-the-lobotomy",
+  "taxonomy_version": "0.3.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Walter Freeman",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1895, "end": 1972 }
+    },
+    {
+      "name": "Lobotomy",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    },
+    {
+      "name": "James W. Watts",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1904, "end": 1994 }
+    },
+    {
+      "name": "Rosemary Kennedy",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1918, "end": 2005 }
+    },
+    {
+      "name": "Howard Dully",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1948, "end": null }
+    }
+  ],
+  "roles": ["physician-surgeon", "psychiatrist-psychologist"],
+  "themes": {
+    "primary": "medical-malpractice",
+    "secondary": ["child-abuse"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1936, "end": 1967 },
+    "covered_span": { "start": 1895, "end": 1972 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "American neurologist Walter Freeman popularized the lobotomy in the US from 1936 to 1967, performing thousands of crude ice-pick operations, including on Rosemary Kennedy and a young boy, that killed or disabled many patients.",
+  "content_warnings": ["medical-horror"],
+  "keywords": [
+    "transorbital lobotomy",
+    "ice pick lobotomy",
+    "St. Elizabeths Hospital",
+    "George Washington University",
+    "Egas Moniz",
+    "Joseph P. Kennedy Sr.",
+    "Frances Farmer",
+    "Helen Mortensen",
+    "The Lobotomist",
+    "Jack El-Hai"
+  ],
+  "guests": ["Daniel Van Kirk"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:04:42", "note": "Birth in Philadelphia; year garbled in transcript, 1895 from general knowledge" },
+    { "facet": "roles", "part": 1, "at": "00:32:53", "note": "Runs private practice and becomes neurology professor at George Washington University" },
+    { "facet": "time", "part": 1, "at": "00:41:11", "note": "First lobotomy, on Miss Hammett, scheduled September 1936" },
+    { "facet": "subjects", "part": 1, "at": "00:49:27", "note": "Long segment on the Freeman-Watts partnership and their later split" },
+    { "facet": "subjects", "part": 2, "at": "00:01:05", "note": "Extended segment on Rosemary Kennedy and her lobotomy" },
+    { "facet": "regions", "part": 2, "at": "00:12:36", "note": "Freeman operates in 55 hospitals across 23 US states" },
+    { "facet": "themes", "part": 2, "at": "00:28:17", "note": "Howard Dully, abused by his stepmother, lobotomized as a child in 1960" },
+    { "facet": "time", "part": 2, "at": "00:35:31", "note": "1967 fatal operation on Helen Mortensen ends his privileges; death in 1972" }
+  ],
+  "notes": "Transcript calls Dully eleven; he was 12. Garbled birth date; 1895 from knowledge. main_span ends 1967 (privileges revoked, last lobotomy) rather than death in 1972. Short segments on the CIA report, press-courting and women lobotomized at husbands' request were left out as themes. No theme fits ableism/disability abuse or gendered medical abuse (misogyny-manosphere covers organized movements only). Europe (PT, FR, GB) mentioned only briefly."
+}

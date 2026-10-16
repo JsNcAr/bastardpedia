@@ -1,0 +1,56 @@
+{
+  "story_id": "how-heinrich-himmler-went-from-nerdy-boy-to-master-of-the-ss",
+  "taxonomy_version": "0.3.0",
+  "tagged_by": { "agent": "btb-tagger", "model": "claude-opus-5-5", "date": "2026-10-16" },
+  "format": "deep-dive",
+  "subjects": [
+    { "name": "Heinrich Himmler", "kind": "person", "role": "primary", "lifespan": { "start": 1900, "end": 1945 } },
+    { "name": "Schutzstaffel (SS)", "kind": "organization", "org_type": "political-org", "role": "secondary" },
+    { "name": "Guido von List", "kind": "person", "role": "secondary", "lifespan": { "start": 1848, "end": 1919 } },
+    { "name": "Jörg Lanz von Liebenfels", "kind": "person", "role": "secondary", "lifespan": { "start": 1874, "end": 1954 } },
+    { "name": "Karl Maria Wiligut", "kind": "person", "role": "secondary", "lifespan": { "start": 1866, "end": 1946 } }
+  ],
+  "roles": ["politician-official", "police-lawman", "activist-organizer"],
+  "themes": {
+    "primary": "nazism",
+    "secondary": ["occult-esoteric", "eugenics-scientific-racism", "racism-white-supremacy", "policing-incarceration"]
+  },
+  "regions": {
+    "origin": ["DE"],
+    "setting": ["DE", "AT"],
+    "subdivisions": ["DE-BY"],
+    "polities": ["german-empire", "weimar-republic", "nazi-germany"],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1923, "end": 1945 },
+    "covered_span": { "start": 1888, "end": 1945 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "Biography of Heinrich Himmler, a Munich-born former schoolboy steeped in völkisch occultism who rose through the Nazi Party to lead the SS from 1929, building it into a racial order that ran Germany's police and concentration camps.",
+  "content_warnings": ["hate-speech"],
+  "keywords": ["Wewelsburg", "Dachau", "Beer Hall Putsch", "Night of the Long Knives", "Ernst Röhm", "Reinhard Heydrich", "Gregor Strasser", "Ostara", "Order of the New Templars", "Marga Himmler"],
+  "guests": ["Prop"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:13:21", "note": "Himmler born October 1900 in Munich to an upper-middle-class Bavarian family" },
+    { "facet": "time", "part": 3, "at": "00:21:20", "note": "joins Röhm's Freikorps unit and then the NSDAP around 1922-23" },
+    { "facet": "time", "part": 3, "at": "01:06:02", "note": "becomes Reichsführer-SS after the previous leader is ousted" },
+    { "facet": "time", "part": 6, "at": "01:15:44", "note": "series narrative stops around the outbreak of WWII and the early war years" },
+    { "facet": "subjects", "part": 4, "at": "00:17:48", "note": "long segment on Lanz von Liebenfels, born 1874 in Vienna, and his New Templars" },
+    { "facet": "regions", "part": 4, "at": "00:30:27", "note": "Liebenfels buys Werfenstein castle in Austria as his order's headquarters" },
+    { "facet": "subjects", "part": 6, "at": "00:07:07", "note": "extended segment on Wiligut, his Irminist visions and asylum committal" },
+    { "facet": "themes", "part": 3, "at": "00:49:38", "note": "Himmler's Mein Kampf notes on undoing racial mixing; SS as a breeding project" },
+    { "facet": "themes", "part": 4, "at": "01:04:51", "note": "Himmler models the SS on occult secret societies and the Knights Templar" },
+    { "facet": "themes", "part": 5, "at": "00:50:24", "note": "protective custody, Dachau handed to the SS, Himmler takes over state police forces" },
+    { "facet": "content_warnings", "part": 4, "at": "00:42:48", "note": "host reads out Liebenfels's race-war propaganda at length" }
+  ],
+  "notes": "Series ends around 1939-41; covered_span.end is 1945 only because of the lifetime rule. covered_span.start 1888 is an estimate for the List/Liebenfels background segments (secondary subjects). main_span starts with joining the NSDAP/Beer Hall Putsch, although childhood is a large share. Ernst Röhm also gets a big segment but the subject cap was reached. No role fits a party paramilitary chief well."
+}

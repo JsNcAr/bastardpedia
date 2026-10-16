@@ -1,0 +1,52 @@
+{
+  "story_id": "what-s-new-with-alex-jones",
+  "taxonomy_version": "0.3.0",
+  "tagged_by": { "agent": "btb-tagger", "model": "claude-opus-5-5", "date": "2026-10-16" },
+  "format": "current-affairs",
+  "subjects": [
+    { "name": "Alex Jones", "kind": "person", "role": "primary", "lifespan": { "start": 1974, "end": null } },
+    { "name": "Infowars", "kind": "organization", "org_type": "media-outlet", "role": "secondary" },
+    { "name": "Owen Shroyer", "kind": "person", "role": "secondary", "lifespan": { "start": 1989, "end": null } }
+  ],
+  "roles": ["conspiracy-theorist", "media-personality"],
+  "themes": {
+    "primary": "conspiracy-theories",
+    "secondary": ["coups-insurrections", "public-health", "propaganda-media"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2020, "end": null },
+    "covered_span": { "start": 2012, "end": 2022 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Update on US conspiracy broadcaster Alex Jones: his Infowars coverage of COVID-19, January 6 and Russia's invasion of Ukraine, and the Sandy Hook defamation suits over his promotion of harassment of grieving families, as of 2022.",
+  "content_warnings": [],
+  "keywords": ["Sandy Hook", "Knowledge Fight", "January 6", "Stop the Steal", "Steve Pieczenik", "Wolfgang Halbig", "Mark Bankston", "Neil Heslin", "Free Speech Systems", "Russian invasion of Ukraine"],
+  "guests": ["Dan Friesen", "Jordan Holmes"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "themes", "part": 1, "at": "00:07:28", "note": "start of long segment on Jones's early COVID-19 bioweapon claims and product sales" },
+    { "facet": "themes", "part": 1, "at": "00:37:18", "note": "January 6 segment: lead-up rallies, guests urging a Capitol occupation, Infowars coverage" },
+    { "facet": "themes", "part": 1, "at": "01:03:06", "note": "Ukraine segment: Jones's pro-Putin predictions and atrocity denial" },
+    { "facet": "regions", "part": 2, "at": "00:04:39", "note": "Sandy Hook suits in Texas and Connecticut, plus Gilmore and Fontaine cases" },
+    { "facet": "time", "part": 2, "at": "00:06:44", "note": "2017 Shroyer video on Neil Heslin, re-aired by Jones, opened the Texas case" },
+    { "facet": "time", "part": 2, "at": "00:08:18", "note": "Infowars promoted Halbig's harassment of Newtown families after 2012" },
+    { "facet": "subjects", "part": 2, "at": "00:27:26", "note": "Infowars corporate representatives' failed depositions led to default judgments" },
+    { "facet": "subjects", "part": 2, "at": "00:41:06", "note": "extended segment on Owen Shroyer's own deposition" },
+    { "facet": "time", "part": 2, "at": "01:14:30", "note": "2022 coda: bankruptcy filing postponed the Texas trial" }
+  ],
+  "notes": "Guests named only as Dan and Jordan of Knowledge Fight; surnames from general knowledge. No theme for litigation/defamation, so the legal half maps only to conspiracy-theories. Ukraine coverage (~15 min) was left out of themes/setting since events happen on Jones's US show. main_span end null as Jones was active at release."
+}
