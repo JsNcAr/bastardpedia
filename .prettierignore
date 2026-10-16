@@ -12,3 +12,4 @@ public/data/
 tagging/schema/
 docs/taxonomy-reference.md
 scripts/build_tokens.mjs
+tagging/review/review.html

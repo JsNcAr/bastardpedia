@@ -1,0 +1,367 @@
+<title>Bastardpedia Tag Review</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap">
+<style>
+/* ds-allow-hardcode: standalone claude.ai review artifact, outside the app build. Colours are tokens in :root; sizes and spacing are local to this one page. */
+/* Layout: story ledger on the left, one record at a time on the right, every field judged OK or Fix. */
+:root {
+  --page: #F7F3EC; --raised: #FFFDF9; --sunken: #EFE9DE; --selected: #FBF1EF;
+  --ink: #1F1C18; --ink-2: #5A5247; --ink-3: #6F675A;
+  --rule: #E2DACB; --rule-2: #CFC5B3;
+  --accent: #852D23; --accent-ink: #6B241C; --on-accent: #FFFDF9; --focus: #9E3B2E;
+  --ok: #3D5A2A; --ok-bg: #E8EEDD; --fix: #8A4B08; --fix-bg: #F8EAD6;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --page: #151310; --raised: #1F1C18; --sunken: #0F0D0B; --selected: #3A140F;
+    --ink: #EFE9DE; --ink-2: #CFC5B3; --ink-3: #A89E8C;
+    --rule: #2E2A25; --rule-2: #453F37;
+    --accent: #D3877A; --accent-ink: #E6B5AC; --on-accent: #151310; --focus: #D3877A;
+    --ok: #A9C98F; --ok-bg: #22301A; --fix: #E9B26F; --fix-bg: #3A2A12;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --page: #151310; --raised: #1F1C18; --sunken: #0F0D0B; --selected: #3A140F;
+  --ink: #EFE9DE; --ink-2: #CFC5B3; --ink-3: #A89E8C;
+  --rule: #2E2A25; --rule-2: #453F37;
+  --accent: #D3877A; --accent-ink: #E6B5AC; --on-accent: #151310; --focus: #D3877A;
+  --ok: #A9C98F; --ok-bg: #22301A; --fix: #E9B26F; --fix-bg: #3A2A12;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--page); color: var(--ink); font: 15px/1.5 var(--sans);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 20px 48px;
+}
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+button { font: inherit; color: inherit; cursor: pointer; }
+.wrap { max-width: 1320px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+
+header.top { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px 24px; border-bottom: 1px solid var(--rule-2); padding-bottom: 16px; }
+header.top h1 { font: 600 1.75rem/1.15 var(--serif); margin: 0; text-wrap: balance; }
+header.top p { margin: 4px 0 0; color: var(--ink-2); max-width: 62ch; }
+.batches { display: flex; flex-wrap: wrap; gap: 8px; }
+.batch { border: 1px solid var(--rule-2); background: var(--raised); border-radius: 6px; padding: 8px 12px; display: flex; flex-direction: column; align-items: start; gap: 2px; min-width: 9rem; }
+.batch[aria-pressed="true"] { border-color: var(--accent); background: var(--selected); }
+.batch b { font-weight: 600; }
+.batch small { color: var(--ink-3); font-variant-numeric: tabular-nums; }
+
+.grid { display: grid; grid-template-columns: minmax(16rem, 22rem) minmax(0, 1fr); gap: 24px; align-items: start; }
+@media (max-width: 860px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+
+.ledger { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; border: 1px solid var(--rule); border-radius: 8px; background: var(--raised); overflow: hidden; }
+.ledger li + li { border-top: 1px solid var(--rule); }
+.ledger button { width: 100%; text-align: left; background: none; border: 0; padding: 10px 14px; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 2px 10px; }
+.ledger button:hover { background: var(--sunken); }
+.ledger button[aria-current="true"] { background: var(--selected); box-shadow: inset 3px 0 0 var(--accent); }
+.ledger .t { font-weight: 500; min-width: 0; overflow-wrap: anywhere; }
+.ledger .m { grid-column: 2; color: var(--ink-3); font-size: 0.8rem; }
+.dot { width: 10px; height: 10px; border-radius: 50%; margin-top: 6px; border: 2px solid var(--rule-2); }
+.dot.approved { background: var(--ok); border-color: var(--ok); }
+.dot.changes { background: var(--fix); border-color: var(--fix); }
+.dot.partial { border-color: var(--fix); }
+
+.record { background: var(--raised); border: 1px solid var(--rule); border-radius: 8px; min-width: 0; }
+.record > * { padding-inline: 20px; }
+.rhead { padding-block: 18px 14px; border-bottom: 1px solid var(--rule); display: flex; flex-direction: column; gap: 6px; }
+.rhead h2 { font: 600 1.4rem/1.2 var(--serif); margin: 0; text-wrap: balance; }
+.meta { color: var(--ink-3); font-size: 0.82rem; display: flex; flex-wrap: wrap; gap: 4px 14px; }
+.meta code { font-family: var(--mono); font-size: 0.78rem; }
+.parts { margin: 2px 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 0.86rem; }
+.parts a { color: var(--accent-ink); }
+.callout { margin: 14px 0 0; padding: 10px 12px; border-left: 3px solid var(--fix); background: var(--fix-bg); border-radius: 0 6px 6px 0; font-size: 0.9rem; }
+.callout b { display: block; font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--fix); }
+
+.fields { list-style: none; margin: 0; padding: 0; }
+.field { display: grid; grid-template-columns: 9.5rem minmax(0, 1fr) auto; gap: 8px 16px; padding-block: 14px; border-bottom: 1px solid var(--rule); align-items: start; }
+@media (max-width: 640px) { .field { grid-template-columns: minmax(0, 1fr) auto; } .field .val { grid-column: 1 / -1; grid-row: 2; } }
+.flabel { font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3); font-weight: 600; padding-top: 3px; display: flex; flex-direction: column; gap: 4px; }
+.conf { font-size: 0.7rem; letter-spacing: 0.03em; text-transform: none; font-weight: 500; }
+.conf.low { color: var(--fix); }
+.val { min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { border: 1px solid var(--rule-2); border-radius: 999px; padding: 2px 10px; font-size: 0.86rem; background: var(--page); }
+.chip.primary { border-color: var(--accent); color: var(--accent-ink); background: var(--selected); }
+.chip i { font-style: normal; color: var(--ink-3); font-size: 0.74rem; margin-left: 4px; font-family: var(--mono); }
+.empty { color: var(--ink-3); font-style: italic; }
+.prose { max-width: 70ch; margin: 0; }
+.sub { color: var(--ink-2); font-size: 0.85rem; }
+.gold { font-size: 0.84rem; padding: 6px 10px; border-radius: 6px; background: var(--sunken); }
+.gold.match { box-shadow: inset 3px 0 0 var(--ok); }
+.gold.miss { box-shadow: inset 3px 0 0 var(--fix); }
+details.ev summary { cursor: pointer; color: var(--ink-3); font-size: 0.8rem; width: fit-content; }
+details.ev ul { margin: 6px 0 0; padding-left: 18px; font-size: 0.84rem; color: var(--ink-2); }
+details.ev code { font-family: var(--mono); font-size: 0.78rem; }
+
+.verdict { display: inline-flex; border: 1px solid var(--rule-2); border-radius: 6px; overflow: hidden; }
+.verdict button { border: 0; background: var(--raised); padding: 6px 12px; font-size: 0.85rem; font-weight: 500; min-height: 32px; }
+.verdict button + button { border-left: 1px solid var(--rule-2); }
+.verdict button[aria-pressed="true"][data-v="ok"] { background: var(--ok-bg); color: var(--ok); }
+.verdict button[aria-pressed="true"][data-v="fix"] { background: var(--fix-bg); color: var(--fix); }
+.fixnote { grid-column: 2 / -1; }
+@media (max-width: 640px) { .fixnote { grid-column: 1 / -1; } }
+textarea { width: 100%; font: inherit; font-size: 0.9rem; color: var(--ink); background: var(--page); border: 1px solid var(--rule-2); border-radius: 6px; padding: 8px 10px; resize: vertical; min-height: 2.6rem; }
+label.lbl { display: block; font-size: 0.78rem; color: var(--ink-2); margin-bottom: 4px; }
+
+.decision { padding-block: 18px 20px; display: flex; flex-direction: column; gap: 12px; }
+.decision .row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.btn { border: 1px solid var(--rule-2); background: var(--raised); border-radius: 6px; padding: 8px 16px; font-weight: 500; min-height: 38px; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.status { font-size: 0.86rem; color: var(--ink-2); }
+.saved { font-size: 0.78rem; color: var(--ink-3); margin-left: auto; }
+.state { padding: 40px 20px; text-align: center; color: var(--ink-2); }
+.state h2 { font: 600 1.2rem var(--serif); color: var(--ink); margin: 0 0 6px; }
+@media (prefers-reduced-motion: no-preference) { .ledger button, .verdict button, .btn { transition: background-color 120ms ease; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Tag review</h1>
+      <p>Mark every field OK or Fix. A fix needs a short note saying what it should be. Your answers save automatically and Claude reads them back.</p>
+    </div>
+    <div class="batches" id="batches" role="group" aria-label="Batch"></div>
+  </header>
+  <div class="grid">
+    <nav aria-label="Stories"><ul class="ledger" id="ledger"></ul></nav>
+    <main class="record" id="record">
+      <div class="state"><h2>Loading records</h2><p>Connecting to the review store.</p></div>
+    </main>
+  </div>
+</div>
+
+<script>
+const FIELDS = [
+  { key: 'format', label: 'Format', facet: null },
+  { key: 'subjects', label: 'Subjects', facet: 'subjects' },
+  { key: 'roles', label: 'Roles', facet: 'roles' },
+  { key: 'theme_primary', label: 'Main theme', facet: 'themes' },
+  { key: 'theme_secondary', label: 'Other themes', facet: 'themes' },
+  { key: 'origin', label: 'From', facet: 'regions' },
+  { key: 'setting', label: 'Happens in', facet: 'regions' },
+  { key: 'polities', label: 'Polities, scope', facet: 'regions' },
+  { key: 'time', label: 'Main years', facet: 'time' },
+  { key: 'content_warnings', label: 'Content warnings', facet: null },
+  { key: 'summary', label: 'Summary', facet: null },
+  { key: 'keywords', label: 'Keywords, guests', facet: null },
+];
+
+const state = { db: null, records: [], reviews: {}, vocab: { labels: {}, countries: {} }, batch: null, current: null, saving: {}, savedAt: null };
+
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const lab = (id) => state.vocab.labels[id] || id;
+const country = (c) => state.vocab.countries[c] || c;
+const yr = (y) => (y == null ? 'present' : y < 0 ? `${-y} BCE` : String(y));
+const chip = (text, id, primary) => `<span class="chip${primary ? ' primary' : ''}">${esc(text)}${id && id !== text ? `<i>${esc(id)}</i>` : ''}</span>`;
+const chips = (arr, fn) => (arr && arr.length ? `<div class="chips">${arr.map(fn).join('')}</div>` : '<span class="empty">none</span>');
+
+function valueOf(key, r) {
+  if (!r) return '<span class="empty">missing</span>';
+  switch (key) {
+    case 'format': return chips([r.format], (f) => chip(lab(f), f, true));
+    case 'subjects': return chips(r.subjects, (s) => chip(`${s.name}${s.lifespan ? ` (${yr(s.lifespan.start)} to ${s.lifespan.end == null ? '' : yr(s.lifespan.end)})` : ''}`, [s.kind, s.org_type, s.role, s.wikidata].filter(Boolean).join(' · '), s.role === 'primary'));
+    case 'roles': return chips(r.roles, (x, i) => chip(lab(x), x, i === 0));
+    case 'theme_primary': return chips([r.themes?.primary], (x) => chip(lab(x), x, true));
+    case 'theme_secondary': return chips(r.themes?.secondary, (x) => chip(lab(x), x));
+    case 'origin': return chips(r.regions?.origin, (c) => chip(country(c), c));
+    case 'setting': return chips(r.regions?.setting, (c, i) => chip(country(c), c, i === 0)) + (r.regions?.subdivisions?.length ? `<span class="sub">Subdivisions: ${esc(r.regions.subdivisions.join(', '))}</span>` : '');
+    case 'polities': return chips([...(r.regions?.polities || []).map((p) => ['p', p]), ['s', r.regions?.scope]], ([t, x]) => chip(t === 'p' ? lab(x) : `scope: ${x}`, t === 'p' ? x : ''));
+    case 'time': {
+      if (!r.time) return '<span class="empty">no time (crossover or meta)</span>';
+      const t = r.time; const d = r._derived || {};
+      return `<div><b>${esc(yr(t.main_span.start))} to ${esc(t.main_span.end == null ? 'ongoing' : yr(t.main_span.end))}</b>${t.approximate ? ' <span class="sub">(approximate)</span>' : ''}${t.reaches_present ? ' <span class="sub">· follows legacy to the present</span>' : ''}</div>`
+        + (d.eras ? `<span class="sub">Periods it will appear under: ${esc([...(d.centuries || []).map((c) => (c < 0 ? `${-c}th c. BCE` : `${c}th c.`)), ...d.eras.map(lab)].join(', ') || 'none')}</span>` : '');
+    }
+    case 'content_warnings': return chips(r.content_warnings, (x) => chip(lab(x), x));
+    case 'summary': return `<p class="prose">${esc(r.summary)}</p>`;
+    case 'keywords': return chips(r.keywords, (k) => chip(k)) + `<span class="sub">Guests: ${esc((r.guests || []).join(', ') || 'none')}</span>`;
+  }
+  return '';
+}
+
+function compareKey(key, r) {
+  if (!r) return null;
+  const j = (x) => JSON.stringify(x ?? null);
+  switch (key) {
+    case 'format': return j(r.format);
+    case 'roles': return j(r.roles?.[0]);
+    case 'theme_primary': return j(r.themes?.primary);
+    case 'setting': return j(r.regions?.setting?.[0]);
+    default: return null;
+  }
+}
+
+async function boot() {
+  let db = null;
+  try { db = await window.claude?.use?.('db'); } catch { db = null; }
+  if (!db) {
+    document.getElementById('record').innerHTML = '<div class="state"><h2>Review store unavailable</h2><p>Open this page on claude.ai while signed in to load the records and save your review.</p></div>';
+    return;
+  }
+  state.db = db;
+  db.doc('meta/vocab').onSnapshot((s) => { if (s.exists) { state.vocab = { labels: {}, countries: {}, ...s.data() }; render(); } }, () => {});
+  db.collection('records').onSnapshot((snap) => {
+    state.records = snap.docs.map((d) => ({ id: d.id, ...d.data() })).sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
+    const batches = [...new Set(state.records.map((r) => r.batch))];
+    if (!state.batch || !batches.includes(state.batch)) state.batch = batches[batches.length - 1] || null;
+    render();
+  }, showError);
+  db.collection('reviews').onSnapshot((snap) => {
+    for (const d of snap.docs) if (!state.saving[d.id]) state.reviews[d.id] = structuredClone(d.data());
+    render();
+  }, showError);
+}
+
+function showError() {
+  document.getElementById('record').innerHTML = '<div class="state"><h2>Lost the connection</h2><p>Reload the page to reconnect. Answers already saved are kept.</p></div>';
+}
+
+function reviewFor(id) {
+  if (!state.reviews[id]) state.reviews[id] = { status: 'pending', fields: {}, comment: '' };
+  return state.reviews[id];
+}
+
+function progress(id) {
+  const rv = state.reviews[id];
+  if (!rv) return 'pending';
+  if (rv.status === 'approved') return 'approved';
+  if (rv.status === 'changes') return 'changes';
+  return Object.keys(rv.fields || {}).length ? 'partial' : 'pending';
+}
+
+function render() {
+  const inBatch = state.records.filter((r) => r.batch === state.batch);
+  const batches = [...new Set(state.records.map((r) => r.batch))];
+  document.getElementById('batches').innerHTML = batches.map((b) => {
+    const rs = state.records.filter((r) => r.batch === b);
+    const done = rs.filter((r) => ['approved', 'changes'].includes(progress(r.id))).length;
+    const label = rs[0]?.batch_label || b;
+    return `<button class="batch" data-batch="${esc(b)}" aria-pressed="${b === state.batch}"><b>${esc(label)}</b><small>${done} of ${rs.length} reviewed</small></button>`;
+  }).join('');
+
+  if (!state.records.length) {
+    document.getElementById('ledger').innerHTML = '';
+    document.getElementById('record').innerHTML = '<div class="state"><h2>No records yet</h2><p>Claude adds records here when a batch is ready for review.</p></div>';
+    return;
+  }
+  if (!inBatch.some((r) => r.id === state.current)) state.current = inBatch[0]?.id ?? null;
+  document.getElementById('ledger').innerHTML = inBatch.map((r) => {
+    const p = progress(r.id);
+    const words = { approved: 'Approved', changes: 'Needs changes', partial: 'In progress', pending: 'Not started' }[p];
+    return `<li><button data-story="${esc(r.id)}" aria-current="${r.id === state.current}"><span class="dot ${p}" aria-hidden="true"></span><span class="t">${esc(r.title)}</span><span class="m">${words} · ${r.parts?.length || 1} part${(r.parts?.length || 1) > 1 ? 's' : ''}${r.flags?.length ? ` · ${r.flags.length} flag${r.flags.length > 1 ? 's' : ''}` : ''}</span></button></li>`;
+  }).join('');
+  renderRecord();
+}
+
+function renderRecord() {
+  const el = document.getElementById('record');
+  const r = state.records.find((x) => x.id === state.current);
+  if (!r) { el.innerHTML = '<div class="state"><h2>Pick a story</h2></div>'; return; }
+  const focusId = document.activeElement?.id;
+  const rec = r.record || {};
+  const rv = reviewFor(r.id);
+  const conf = rec.confidence || {};
+  const evidence = rec.evidence || [];
+  const anyFix = FIELDS.some((f) => rv.fields?.[f.key]?.verdict === 'fix');
+  const allJudged = FIELDS.every((f) => rv.fields?.[f.key]?.verdict);
+  const flags = [...(r.flags || []), ...(rec.notes ? [`Tagger notes: ${rec.notes}`] : [])];
+
+  el.innerHTML = `
+    <div class="rhead">
+      <h2>${esc(r.title)}</h2>
+      <div class="meta"><code>${esc(r.id)}</code><span>${esc(rec.tagged_by?.agent || '')}${rec.tagged_by?.model ? ` · ${esc(rec.tagged_by.model)}` : ''}</span><span>taxonomy ${esc(rec.taxonomy_version || '?')}</span></div>
+      ${r.parts?.length ? `<ul class="parts">${r.parts.map((p) => `<li>${p.link ? `<a href="${esc(p.link)}" target="_blank" rel="noopener">Part ${p.part}</a>` : `Part ${p.part}`}</li>`).join('')}</ul>` : ''}
+      ${flags.length ? `<div class="callout"><b>Check first</b>${flags.map((f) => `<div>${esc(f)}</div>`).join('')}</div>` : ''}
+    </div>
+    <ul class="fields">
+      ${FIELDS.map((f) => {
+        const fv = rv.fields?.[f.key] || {};
+        const ev = f.facet ? evidence.filter((e) => e.facet === f.facet) : [];
+        const c = f.facet ? conf[f.facet] : null;
+        const gk = r.compare ? compareKey(f.key, r.compare) : null;
+        const mk = gk !== null ? compareKey(f.key, rec) : null;
+        return `<li class="field">
+          <div class="flabel">${esc(f.label)}${c ? `<span class="conf ${c === 'low' ? 'low' : ''}">confidence: ${esc(c)}</span>` : ''}</div>
+          <div class="val">${valueOf(f.key, rec)}
+            ${r.compare ? `<div class="gold ${gk === null ? '' : gk === mk ? 'match' : 'miss'}"><span class="sub">Gold:</span> ${valueOf(f.key, r.compare)}</div>` : ''}
+            ${ev.length ? `<details class="ev"><summary>Evidence (${ev.length})</summary><ul>${ev.map((e) => `<li><code>Part ${e.part} · ${esc(e.at)}</code> ${esc(e.note)}</li>`).join('')}</ul></details>` : ''}
+          </div>
+          <div class="verdict" role="group" aria-label="${esc(f.label)} verdict">
+            <button data-field="${f.key}" data-v="ok" aria-pressed="${fv.verdict === 'ok'}">OK</button>
+            <button data-field="${f.key}" data-v="fix" aria-pressed="${fv.verdict === 'fix'}">Fix</button>
+          </div>
+          ${fv.verdict === 'fix' ? `<div class="fixnote"><label class="lbl" for="note-${f.key}">What should it be?</label><textarea id="note-${f.key}" data-note="${f.key}" rows="2">${esc(fv.note || '')}</textarea></div>` : ''}
+        </li>`;
+      }).join('')}
+    </ul>
+    <div class="decision">
+      <div><label class="lbl" for="comment">Comment on the whole record (optional)</label><textarea id="comment" data-comment rows="2">${esc(rv.comment || '')}</textarea></div>
+      <div class="row">
+        <button class="btn" data-mark-all>Mark unjudged fields OK</button>
+        <button class="btn primary" data-status="approved" ${anyFix || !allJudged ? 'disabled' : ''}>Approve record</button>
+        <button class="btn" data-status="changes" ${anyFix ? '' : 'disabled'}>Send back with fixes</button>
+        <span class="status">${{ approved: 'Approved.', changes: 'Sent back with fixes.', pending: anyFix ? 'Has fixes. Send it back when done.' : allJudged ? 'All fields judged. Approve when ready.' : 'Judge each field.' }[rv.status] || ''}</span>
+        <span class="saved" aria-live="polite">${state.savedAt ? `Saved ${state.savedAt}` : ''}</span>
+      </div>
+    </div>`;
+  if (focusId) { const f = document.getElementById(focusId); if (f) { f.focus(); if (f.setSelectionRange) f.setSelectionRange(f.value.length, f.value.length); } }
+}
+
+let timers = {};
+let chains = {};
+function save(id, delay = 0) {
+  clearTimeout(timers[id]);
+  state.saving[id] = true;
+  timers[id] = setTimeout(() => {
+    const body = structuredClone(reviewFor(id));
+    body.updatedAt = new Date().toISOString();
+    chains[id] = (chains[id] || Promise.resolve()).then(() => state.db.doc('reviews/' + id).set(body)).then(() => {
+      state.saving[id] = false;
+      state.savedAt = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+      const s = document.querySelector('.saved'); if (s) s.textContent = `Saved ${state.savedAt}`;
+    }).catch((e) => {
+      state.saving[id] = false;
+      const s = document.querySelector('.saved'); if (s) s.textContent = e?.code === 'invalid_argument' ? 'You can view this review but not change it.' : 'Not saved. Check your connection and try again.';
+    });
+  }, delay);
+}
+
+document.addEventListener('click', (e) => {
+  const t = e.target.closest('button');
+  if (!t) return;
+  if (t.dataset.batch) { state.batch = t.dataset.batch; state.current = null; render(); return; }
+  if (t.dataset.story) { state.current = t.dataset.story; render(); document.getElementById('record').scrollIntoView({ block: 'start' }); return; }
+  const id = state.current; if (!id) return;
+  const rv = reviewFor(id);
+  rv.fields = rv.fields || {};
+  if (t.dataset.field) {
+    const prev = rv.fields[t.dataset.field] || {};
+    rv.fields[t.dataset.field] = prev.verdict === t.dataset.v ? {} : { ...prev, verdict: t.dataset.v };
+    if (!rv.fields[t.dataset.field].verdict) delete rv.fields[t.dataset.field];
+    if (rv.status !== 'pending') rv.status = 'pending';
+    save(id); render();
+    if (t.dataset.v === 'fix' && rv.fields[t.dataset.field]) document.getElementById('note-' + t.dataset.field)?.focus();
+    return;
+  }
+  if ('markAll' in t.dataset) { for (const f of FIELDS) if (!rv.fields[f.key]) rv.fields[f.key] = { verdict: 'ok' }; save(id); render(); return; }
+  if (t.dataset.status) { rv.status = t.dataset.status; save(id); render(); }
+});
+
+document.addEventListener('input', (e) => {
+  const id = state.current; if (!id) return;
+  const rv = reviewFor(id);
+  if (e.target.dataset.note) { rv.fields[e.target.dataset.note] = { ...rv.fields[e.target.dataset.note], note: e.target.value }; save(id, 700); }
+  if ('comment' in e.target.dataset) { rv.comment = e.target.value; save(id, 700); }
+});
+
+boot();
+</script>

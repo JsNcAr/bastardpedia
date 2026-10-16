@@ -40,3 +40,4 @@ npm-debug.log*
 
 # Python (phase-0 scripts)
 __pycache__/
+data/review/

@@ -3,30 +3,35 @@
  *
  *   node pipeline/validate-tags.ts            # every record
  *   node pipeline/validate-tags.ts <id>...    # only these stories
+ *   node pipeline/validate-tags.ts --dir tagging/examples [<id>...]
  *
  * Exits 1 when any record has errors. Warnings (e.g. an older minor taxonomy
  * version) are printed but do not fail.
  */
 import { existsSync, readdirSync } from 'node:fs';
-import { basename, join } from 'node:path';
+import { basename, join, resolve } from 'node:path';
 import { loadStories, readJson } from './lib/io.ts';
 import { TAGS_DIR } from './lib/paths.ts';
 import { loadTaxonomy } from './lib/taxonomy.ts';
 import { makeValidator } from './lib/validate.ts';
 
 function main(): void {
-  const ids = process.argv.slice(2).filter((a) => !a.startsWith('--'));
+  const argv = process.argv.slice(2);
+  const dirAt = argv.indexOf('--dir');
+  const dirArg = dirAt >= 0 ? argv[dirAt + 1] : undefined;
+  const dir = dirArg ? resolve(dirArg) : TAGS_DIR;
+  const ids = argv.filter((a, i) => !a.startsWith('--') && (dirAt < 0 || i !== dirAt + 1));
   const files = ids.length
-    ? ids.map((id) => join(TAGS_DIR, `${id}.json`))
-    : existsSync(TAGS_DIR)
-      ? readdirSync(TAGS_DIR)
+    ? ids.map((id) => join(dir, `${id}.json`))
+    : existsSync(dir)
+      ? readdirSync(dir)
           .filter((f) => f.endsWith('.json'))
           .sort()
-          .map((f) => join(TAGS_DIR, f))
+          .map((f) => join(dir, f))
       : [];
 
   if (!files.length) {
-    console.log('tags:validate: no tag records in data/tags/ yet; nothing to check.');
+    console.log(`tags:validate: no tag records in ${dir} yet; nothing to check.`);
     return;
   }
 

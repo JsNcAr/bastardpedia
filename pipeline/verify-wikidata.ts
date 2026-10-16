@@ -8,7 +8,7 @@
  * or unknown QID. Agents are told a wrong QID is worse than none; this enforces it.
  */
 import { existsSync, readdirSync } from 'node:fs';
-import { basename, join } from 'node:path';
+import { basename, join, resolve } from 'node:path';
 import { z } from 'zod';
 import { readJson, sleep } from './lib/io.ts';
 import { TAGS_DIR } from './lib/paths.ts';
@@ -72,13 +72,17 @@ async function fetchNames(qids: string[]): Promise<Map<string, string[] | null>>
 }
 
 async function main(): Promise<void> {
-  const ids = process.argv.slice(2);
+  const argv = process.argv.slice(2);
+  const dirAt = argv.indexOf('--dir');
+  const dirArg = dirAt >= 0 ? argv[dirAt + 1] : undefined;
+  const dir = dirArg ? resolve(dirArg) : TAGS_DIR;
+  const ids = argv.filter((a, i) => !a.startsWith('--') && (dirAt < 0 || i !== dirAt + 1));
   const files = ids.length
-    ? ids.map((id) => join(TAGS_DIR, `${id}.json`))
-    : existsSync(TAGS_DIR)
-      ? readdirSync(TAGS_DIR)
+    ? ids.map((id) => join(dir, `${id}.json`))
+    : existsSync(dir)
+      ? readdirSync(dir)
           .filter((f) => f.endsWith('.json'))
-          .map((f) => join(TAGS_DIR, f))
+          .map((f) => join(dir, f))
       : [];
 
   const refs: { story: string; name: string; qid: string }[] = [];
