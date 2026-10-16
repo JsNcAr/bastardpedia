@@ -3,9 +3,13 @@
  *
  *   node pipeline/packet.ts <story-id>     # writes data/packets/<story-id>.md and prints the path
  *
- * Contents: ids and versions, every part's title and description, transcript excerpts
- * (the first PART_ONE_WORDS words of part 1, the first LATER_PART_WORDS of each later
- * part), and the full taxonomy YAML. Missing transcripts are downloaded first.
+ * Contents: ids and versions, every part's title and description, the transcripts, and
+ * the full taxonomy YAML. Missing transcripts are downloaded first.
+ *
+ * Transcripts go in whole while the story fits in PACKET_WORDS. A longer story gets an
+ * equal share per part, filled with evenly spaced blocks of about BLOCK_WORDS words from
+ * the start to the end of each part, so the tagger sees every period the story covers
+ * (the first blind test showed that cutting later parts short made taggers guess).
  */
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
@@ -15,8 +19,10 @@ import { PACKETS_DIR } from './lib/paths.ts';
 import { loadTaxonomy } from './lib/taxonomy.ts';
 import { ensureTranscript, readTranscript } from './lib/transcripts.ts';
 
-export const PART_ONE_WORDS = 15_000;
-export const LATER_PART_WORDS = 2_000;
+export const PACKET_WORDS = 60_000;
+export const BLOCK_WORDS = 600;
+
+const wordCount = (text: string) => text.match(/\S+/g)?.length ?? 0;
 
 /** The first `n` words of a transcript, keeping its line breaks and timestamps. */
 export function firstWords(text: string, n: number): { excerpt: string; truncated: boolean } {
@@ -29,6 +35,40 @@ export function firstWords(text: string, n: number): { excerpt: string; truncate
       return { excerpt: text.slice(0, m.index + m[0].length), truncated: re.exec(text) !== null };
   }
   return { excerpt: text, truncated: false };
+}
+
+/**
+ * At most about `n` words of a transcript: all of it if it fits, otherwise evenly spaced
+ * blocks of consecutive paragraphs (each starting with its timestamp), first block included.
+ */
+export function sampleWords(text: string, n: number): { excerpt: string; sampled: boolean } {
+  if (wordCount(text) <= n) return { excerpt: text.trim(), sampled: false };
+  const paragraphs = text.trim().split(/\n{2,}/);
+  const blocks: string[][] = [];
+  let current: string[] = [];
+  let words = 0;
+  for (const p of paragraphs) {
+    current.push(p);
+    words += wordCount(p);
+    if (words >= BLOCK_WORDS) {
+      blocks.push(current);
+      current = [];
+      words = 0;
+    }
+  }
+  if (current.length) blocks.push(current);
+  const keep = Math.max(1, Math.floor(n / BLOCK_WORDS));
+  const picked = new Set<number>();
+  for (let i = 0; i < keep; i++)
+    picked.add(Math.round((i * (blocks.length - 1)) / Math.max(1, keep - 1)));
+  const out: string[] = [];
+  let last = -1;
+  for (const i of [...picked].sort((a, b) => a - b)) {
+    if (last >= 0 && i > last + 1) out.push('[... part of the transcript skipped ...]');
+    out.push((blocks[i] ?? []).join('\n\n'));
+    last = i;
+  }
+  return { excerpt: out.join('\n\n'), sampled: true };
 }
 
 async function main(): Promise<void> {
@@ -64,27 +104,37 @@ async function main(): Promise<void> {
     );
   }
 
-  out.push(
-    '## Transcript excerpts',
-    '',
-    'Speakers are labelled generically. Timestamps are HH:MM:SS from the start of each part.',
-    '',
-  );
+  const texts = new Map<number, string | null>();
   for (const part of story.parts) {
     const ep = episodes.get(part.guid);
     if (ep) await ensureTranscript(ep);
-    const text = readTranscript(part.guid);
-    const limit = part.part === 1 ? PART_ONE_WORDS : LATER_PART_WORDS;
-    out.push(`### Part ${part.part} (first ${limit.toLocaleString('en')} words)`, '');
+    texts.set(part.part, readTranscript(part.guid));
+  }
+  const total = [...texts.values()].reduce((sum, t) => sum + (t ? wordCount(t) : 0), 0);
+  const perPart = total <= PACKET_WORDS ? Infinity : Math.floor(PACKET_WORDS / story.parts.length);
+
+  out.push(
+    '## Transcripts',
+    '',
+    'Speakers are labelled generically. Timestamps are HH:MM:SS from the start of each part.',
+    total <= PACKET_WORDS
+      ? 'Every transcript is complete.'
+      : `The story is long (${total.toLocaleString('en')} words), so each part is shown as evenly spaced blocks from start to end; gaps are marked.`,
+    '',
+  );
+  for (const part of story.parts) {
+    const text = texts.get(part.part);
     if (!text) {
-      out.push('(no transcript available for this part)', '');
+      out.push(`### Part ${part.part}`, '', '(no transcript available for this part)', '');
       continue;
     }
-    const { excerpt, truncated } = firstWords(text, limit);
+    const { excerpt, sampled } = sampleWords(text, perPart);
     out.push(
+      `### Part ${part.part} (${sampled ? 'sampled' : 'complete'}, ${wordCount(text).toLocaleString('en')} words in full)`,
+      '',
       '```text',
-      excerpt.trim(),
-      truncated ? '[... transcript continues ...]' : '[end of transcript]',
+      excerpt,
+      '[end of part]',
       '```',
       '',
     );

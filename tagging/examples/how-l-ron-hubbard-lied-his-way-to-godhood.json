@@ -54,8 +54,8 @@
       "end": 1986
     },
     "main_span": {
-      "start": 1934,
-      "end": 1975
+      "start": 1950,
+      "end": 1986
     },
     "reaches_present": false,
     "approximate": false
@@ -87,13 +87,13 @@
       "facet": "time",
       "part": 1,
       "at": "00:23:58",
-      "note": "1934 pulp-magazine boom starts his writing career, taken as start of main span"
+      "note": "1934 pulp-magazine boom starts his writing career, covered at length"
     },
     {
       "facet": "time",
       "part": 3,
       "at": "00:52:35",
-      "note": "1975 he comes ashore in Florida; series stops here, leaving his last 11 years untold"
+      "note": "1975 he comes ashore in Florida; series stops here, his last years are summarised"
     },
     {
       "facet": "subjects",
@@ -156,5 +156,5 @@
       "note": "small boy confined in the chain locker for two days; teen messengers wield punishment power"
     }
   ],
-  "notes": "Source .txt transcripts carry only a 00:00:00 stamp; times come from the episodes' SRT files. Span 1934-1975 follows what the series narrates (his death in 1986 is outside it); 1950 start was the alternative. GB = English manor, UK ban, Royal Scotman. Content warnings: Susan Meister suicide (p3 00:45:02) and a child-confinement account. Not taken: military-officer (WWII Navy segment is comic) and quack-fake-healer. domestic-abuse: wife kidnapped and strangled (p2 ~00:23-00:33, ~10 min)."
+  "notes": "Source .txt transcripts carry only a 00:00:00 stamp; times come from the episodes' SRT files. Main span 1950 (Dianetics) to 1986 (death), per the encyclopedia test and the reviewer; covered span is his whole life. GB = English manor, UK ban, Royal Scotman. Content warnings: Susan Meister suicide (p3 00:45:02) and a child-confinement account. Not taken: military-officer (WWII Navy segment is comic) and quack-fake-healer. domestic-abuse: wife kidnapped and strangled (p2 ~00:23-00:33, ~10 min)."
 }

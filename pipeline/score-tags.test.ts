@@ -31,4 +31,12 @@ describe('scoreStory', () => {
     expect(s.key.main_years.ok).toBe(false);
     expect(s.key.theme_primary).toMatchObject({ ok: false, got: 'occult-esoteric' });
   });
+
+  it('counts a main-theme swap as a match', () => {
+    const got = copy();
+    const [first, ...rest] = gold.themes.secondary;
+    if (!first) throw new Error('fixture needs a secondary theme');
+    got.themes = { primary: first, secondary: [gold.themes.primary, ...rest] };
+    expect(scoreStory(got, gold).key.theme_primary.ok).toBe(true);
+  });
 });

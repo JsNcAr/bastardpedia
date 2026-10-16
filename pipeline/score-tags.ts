@@ -4,11 +4,13 @@
  *   node pipeline/score-tags.ts --dir data/blind-test --gold tagging/examples \
  *     [--gold tagging/examples/unreviewed] [--flags data/review/blind-flags.json]
  *
- * Key fields are pass/fail: format, main theme, first role, first setting country,
- * and covered and main years within +-5 years. Overlap of secondary themes, roles,
- * settings and content warnings is reported for reading, not scored. The bar: every
- * format right, and each other key field right in all but at most one story of the
- * first --gold folder (the approved set). Exits 1 when the bar is missed.
+ * Key fields are pass/fail: format, main theme, first role, first setting country, and
+ * covered years within +-5 years. A main-theme swap counts as a match (each side's main
+ * theme is among the other's themes): the app's theme filter treats main and other themes
+ * alike. Main years and the overlap of other themes, roles, settings and content warnings
+ * are reported for reading, not scored; main years no longer drive any filter. The bar:
+ * every format right, and each other key field right in all but at most one story of
+ * the first --gold folder (the approved set). Exits 1 when the bar is missed.
  */
 import { existsSync, mkdirSync, readdirSync, writeFileSync } from 'node:fs';
 import { basename, dirname, join, resolve } from 'node:path';
@@ -24,9 +26,9 @@ export const KEY_FIELDS = [
   'role_first',
   'setting_first',
   'covered_years',
-  'main_years',
 ] as const;
-export type KeyField = (typeof KEY_FIELDS)[number];
+export type KeyField = (typeof KEY_FIELDS)[number] | 'main_years';
+const REPORTED_FIELDS: readonly KeyField[] = [...KEY_FIELDS, 'main_years'];
 
 export interface StoryScore {
   id: string;
@@ -62,7 +64,9 @@ export function scoreStory(got: StoryTags, gold: StoryTags): StoryScore {
     key: {
       format: field(got.format === gold.format, got.format, gold.format),
       theme_primary: field(
-        got.themes.primary === gold.themes.primary,
+        got.themes.primary === gold.themes.primary ||
+          (gold.themes.secondary.includes(got.themes.primary) &&
+            got.themes.secondary.includes(gold.themes.primary)),
         got.themes.primary,
         gold.themes.primary,
       ),
@@ -143,13 +147,14 @@ function main(): void {
       '',
     );
     lines.push(`| Field | Matches | Bar |`, '|---|---|---|');
-    for (const k of KEY_FIELDS) {
+    for (const k of REPORTED_FIELDS) {
       const ok = g.scores.filter((s) => s.key[k].ok).length;
+      const scored = gi === 0 && k !== 'main_years';
       const bar = k === 'format' ? n : n - 1;
       const met = ok >= bar;
-      if (gi === 0 && !met) pass = false;
+      if (scored && !met) pass = false;
       lines.push(
-        `| ${LABELS[k]} | ${ok}/${n} | ${gi === 0 ? `${bar}/${n} ${met ? 'met' : 'MISSED'}` : 'not scored'} |`,
+        `| ${LABELS[k]} | ${ok}/${n} | ${scored ? `${bar}/${n} ${met ? 'met' : 'MISSED'}` : 'for information'} |`,
       );
     }
     const avg = (k: keyof StoryScore['overlap']) =>
@@ -160,7 +165,7 @@ function main(): void {
       '',
     );
     for (const s of g.scores) {
-      const misses = KEY_FIELDS.filter((k) => !s.key[k].ok);
+      const misses = REPORTED_FIELDS.filter((k) => !s.key[k].ok);
       lines.push(
         `- **${s.id}**: ${misses.length ? misses.map((k) => `${LABELS[k]} ${s.key[k].got} (gold ${s.key[k].gold})`).join('; ') : 'all key fields match'}`,
       );

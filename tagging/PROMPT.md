@@ -47,6 +47,7 @@ the story is about.
 
 - `primary`: the subject(s) named in the title or that the story is built around. Usually one.
   Use several only when the story gives them equal weight (e.g. "Ronald and Nancy Reagan").
+  For a `media-reading`, both the work being read and its author are primary.
 - `secondary`: subjects that get a substantial segment of their own (Fawcett's rival explorers,
   Hubbard's successor). Do not list everyone mentioned.
 - `kind` comes from `subject-kinds.yaml`. Organizations need an `org_type`.
@@ -57,9 +58,10 @@ the story is about.
 
 ### Step 3. Roles
 
-For person or group subjects: 1-3 ids from `roles.yaml` describing **what they were**, ordered
-by importance to the story. Cover the primary subject first. Leave roles empty only when no
-primary subject is a person or group.
+For **primary** person or group subjects only: 1-3 ids from `roles.yaml` describing **what they
+were**, ordered by importance to the story. Secondary people get no roles, however large their
+segment. Leave roles empty when no primary subject is a person or group (a company, an event):
+Nestlé gets no roles even though Henri Nestlé appears.
 
 - Pick by what they _did_ in the story, not their job title: Schliemann made a fortune as a
   merchant, but the story is about his digs, so `explorer-adventurer`, `scientist-scholar`,
@@ -104,8 +106,11 @@ Do **not** choose eras. The app works them out from your years. There are two sp
 
 - `covered_span`: the years the story **covers**, from the earliest to the latest period it
   discusses at real length. A period counts when both hold:
-  1. it is part of the subject's own story: their life, their actions, or consequences they
-     directly caused (a later lawsuit over the same harm counts);
+  1. it is part of the story itself: the life and actions of a primary **or secondary** subject,
+     or consequences they directly caused (a later lawsuit over the same harm counts).
+     Schliemann's covered years start with the looter Giuseppe Ferlini, a secondary subject
+     with a long segment. General background the host gives before the story begins (how wet
+     nursing worked in the 1700s, the Great Migration) does not count;
   2. it takes a real share of the airtime: a few minutes or more, roughly 5% of the story or
      more. A passing mention does not count.
 
@@ -143,7 +148,7 @@ Do **not** choose eras. The app works them out from your years. There are two sp
   "Mato Grosso"), named events, works, nicknames ("Lost City of Z"), and associated people
   who are not subjects.
 - `guests`: names of the guest(s) and co-host(s) other than the main host Robert Evans, taken from
-  the descriptions or transcript.
+  the descriptions or transcript. Producers who chime in on air (such as Sophie) are not guests.
 
 ### Step 8. Content warnings
 

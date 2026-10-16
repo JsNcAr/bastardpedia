@@ -51,7 +51,7 @@
   },
   "regions": {
     "origin": ["DE", "US"],
-    "setting": ["US", "KH", "VN", "BD", "DE", "AO"],
+    "setting": ["KH", "VN", "BD", "AO", "US", "DE"],
     "subdivisions": [],
     "polities": ["nazi-germany"],
     "scope": "global"
@@ -164,5 +164,5 @@
       "note": "After 1977: consulting firm, Tiananmen stance, Iraq, legal pursuits, ties to modern politicians"
     }
   ],
-  "notes": "Setting ranked by airtime: LA, CN, PK, IN, EG, IL, ZW, TL, IQ dropped by the 6 cap (LA and CN were closest). DE kept for ~40 min of childhood and occupation. Lifespan end 2023 from own knowledge (alive at release). scientist-scholar vs writer-intellectual for his Harvard career is a judgment call. Chile is explicitly skipped by the host. diplomacy-foreign-policy replaced propaganda-media (press coverage is the thinnest strand); weapons-arms-trade (nuclear strategy, part 2) cut by the 4 cap."
+  "notes": "Setting ordered harm first (Cambodia, Vietnam, Bangladesh, Angola), then US and DE by airtime: LA, CN, PK, IN, EG, IL, ZW, TL, IQ dropped by the 6 cap. DE kept for ~40 min of childhood and occupation. Lifespan end 2023 from own knowledge (alive at release). scientist-scholar vs writer-intellectual for his Harvard career is a judgment call. diplomacy-foreign-policy replaced propaganda-media; weapons-arms-trade (nuclear strategy, part 2) cut by the 4 cap."
 }
