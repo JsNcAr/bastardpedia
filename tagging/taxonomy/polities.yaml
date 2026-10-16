@@ -1,0 +1,54 @@
+# Historical states and empires that modern ISO country codes can't express.
+# Optional, 0-3 per story. Use only when the polity itself matters to the story
+# (the subject served it, ruled it, fought for it, or the story happens inside it).
+# Always ALSO give modern ISO codes in regions.origin / regions.setting.
+facet: regions.polities
+cardinality: 0-3
+values:
+  - { id: roman-republic, label: Roman Republic, start: -509, end: -27, modern: [IT] }
+  - { id: roman-empire, label: Roman Empire, start: -27, end: 476, modern: [IT] }
+  - { id: carthage, label: Carthage, start: -814, end: -146, modern: [TN] }
+  - { id: holy-roman-empire, label: Holy Roman Empire, start: 800, end: 1806, modern: [DE, AT, CZ] }
+  - { id: ottoman-empire, label: Ottoman Empire, start: 1299, end: 1922, modern: [TR] }
+  - { id: spanish-empire, label: Spanish Empire, start: 1492, end: 1898, modern: [ES] }
+  - { id: portuguese-empire, label: Portuguese Empire, start: 1415, end: 1999, modern: [PT] }
+  - { id: british-empire, label: British Empire, start: 1583, end: 1997, modern: [GB] }
+  - {
+      id: french-colonial-empire,
+      label: French colonial empire,
+      start: 1534,
+      end: 1980,
+      modern: [FR],
+    }
+  - { id: russian-empire, label: Russian Empire, start: 1721, end: 1917, modern: [RU] }
+  - { id: qing-china, label: Qing China, start: 1644, end: 1912, modern: [CN] }
+  - { id: empire-of-japan, label: Empire of Japan, start: 1868, end: 1947, modern: [JP] }
+  - { id: german-empire, label: German Empire, start: 1871, end: 1918, modern: [DE] }
+  - { id: austria-hungary, label: Austria-Hungary, start: 1867, end: 1918, modern: [AT, HU] }
+  - {
+      id: congo-free-state,
+      label: Congo Free State / Belgian Congo,
+      start: 1885,
+      end: 1960,
+      modern: [CD],
+    }
+  - {
+      id: confederate-states,
+      label: Confederate States of America,
+      start: 1861,
+      end: 1865,
+      modern: [US],
+    }
+  - { id: weimar-republic, label: Weimar Republic, start: 1918, end: 1933, modern: [DE] }
+  - { id: nazi-germany, label: Nazi Germany, start: 1933, end: 1945, modern: [DE] }
+  - { id: soviet-union, label: Soviet Union, start: 1922, end: 1991, modern: [RU] }
+  - { id: yugoslavia, label: Yugoslavia, start: 1918, end: 1992, modern: [RS, HR, BA, SI, MK, ME] }
+  - { id: east-germany, label: East Germany (GDR), start: 1949, end: 1990, modern: [DE] }
+  - { id: rhodesia, label: Rhodesia, start: 1965, end: 1979, modern: [ZW] }
+  - {
+      id: apartheid-south-africa,
+      label: Apartheid South Africa,
+      start: 1948,
+      end: 1994,
+      modern: [ZA],
+    }

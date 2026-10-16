@@ -1,0 +1,579 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "story_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "taxonomy_version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "tagged_by": {
+      "type": "object",
+      "properties": {
+        "agent": {
+          "type": "string",
+          "minLength": 1
+        },
+        "model": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string",
+          "format": "date",
+          "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+        }
+      },
+      "required": [
+        "agent",
+        "date"
+      ],
+      "additionalProperties": false
+    },
+    "format": {
+      "type": "string",
+      "enum": [
+        "deep-dive",
+        "current-affairs",
+        "media-reading",
+        "hero",
+        "live-show",
+        "crossover",
+        "meta"
+      ]
+    },
+    "subjects": {
+      "minItems": 1,
+      "maxItems": 5,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "person",
+              "group",
+              "organization",
+              "movement-or-ideology",
+              "event",
+              "practice-or-pseudoscience",
+              "place",
+              "media-work"
+            ]
+          },
+          "org_type": {
+            "type": "string",
+            "enum": [
+              "company",
+              "government-agency",
+              "police",
+              "military",
+              "intelligence",
+              "religious-body",
+              "cult",
+              "school-or-facility",
+              "media-outlet",
+              "political-org",
+              "ngo"
+            ]
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "primary",
+              "secondary"
+            ]
+          },
+          "lifespan": {
+            "type": "object",
+            "properties": {
+              "start": {
+                "anyOf": [
+                  {
+                    "type": "integer",
+                    "minimum": -5000,
+                    "maximum": 2100
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "end": {
+                "anyOf": [
+                  {
+                    "type": "integer",
+                    "minimum": -5000,
+                    "maximum": 2100
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "start",
+              "end"
+            ],
+            "additionalProperties": false
+          },
+          "wikidata": {
+            "type": "string",
+            "pattern": "^Q\\d+$"
+          }
+        },
+        "required": [
+          "name",
+          "kind",
+          "role"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "roles": {
+      "maxItems": 3,
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "dictator-autocrat",
+          "monarch-royal",
+          "politician-official",
+          "political-operative",
+          "colonial-administrator",
+          "military-officer",
+          "mercenary-warlord",
+          "police-lawman",
+          "spy-intelligence",
+          "explorer-adventurer",
+          "scientist-scholar",
+          "physician-surgeon",
+          "psychiatrist-psychologist",
+          "quack-fake-healer",
+          "inventor-engineer",
+          "business-executive",
+          "tech-founder",
+          "financier-investor",
+          "con-artist",
+          "religious-leader",
+          "cult-leader",
+          "occultist-guru",
+          "conspiracy-theorist",
+          "media-personality",
+          "journalist-propagandist",
+          "writer-intellectual",
+          "entertainer-artist",
+          "athlete-sports",
+          "influencer-online",
+          "criminal-killer",
+          "terrorist-militant",
+          "activist-organizer"
+        ]
+      }
+    },
+    "themes": {
+      "type": "object",
+      "properties": {
+        "primary": {
+          "type": "string",
+          "enum": [
+            "authoritarianism",
+            "fascism-far-right",
+            "nazism",
+            "communism-state-socialism",
+            "coups-insurrections",
+            "monarchy-empire",
+            "electoral-politics",
+            "religious-right-culture-war",
+            "genocide-mass-killing",
+            "war-war-crimes",
+            "terrorism",
+            "colonialism-imperialism",
+            "slavery-forced-labor",
+            "policing-incarceration",
+            "intelligence-covert-ops",
+            "medical-malpractice",
+            "quackery-pseudoscience",
+            "eugenics-scientific-racism",
+            "public-health",
+            "drugs",
+            "science-exploration",
+            "cults-new-religions",
+            "organized-religion",
+            "conspiracy-theories",
+            "occult-esoteric",
+            "fraud-grift",
+            "corporate-malfeasance",
+            "finance-crypto",
+            "labor-exploitation",
+            "environmental-destruction",
+            "weapons-arms-trade",
+            "racism-white-supremacy",
+            "misogyny-manosphere",
+            "sexual-abuse",
+            "child-abuse",
+            "propaganda-media",
+            "entertainment-celebrity",
+            "sports",
+            "education",
+            "wellness-self-help",
+            "tech-internet",
+            "artificial-intelligence"
+          ]
+        },
+        "secondary": {
+          "maxItems": 4,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "authoritarianism",
+              "fascism-far-right",
+              "nazism",
+              "communism-state-socialism",
+              "coups-insurrections",
+              "monarchy-empire",
+              "electoral-politics",
+              "religious-right-culture-war",
+              "genocide-mass-killing",
+              "war-war-crimes",
+              "terrorism",
+              "colonialism-imperialism",
+              "slavery-forced-labor",
+              "policing-incarceration",
+              "intelligence-covert-ops",
+              "medical-malpractice",
+              "quackery-pseudoscience",
+              "eugenics-scientific-racism",
+              "public-health",
+              "drugs",
+              "science-exploration",
+              "cults-new-religions",
+              "organized-religion",
+              "conspiracy-theories",
+              "occult-esoteric",
+              "fraud-grift",
+              "corporate-malfeasance",
+              "finance-crypto",
+              "labor-exploitation",
+              "environmental-destruction",
+              "weapons-arms-trade",
+              "racism-white-supremacy",
+              "misogyny-manosphere",
+              "sexual-abuse",
+              "child-abuse",
+              "propaganda-media",
+              "entertainment-celebrity",
+              "sports",
+              "education",
+              "wellness-self-help",
+              "tech-internet",
+              "artificial-intelligence"
+            ]
+          }
+        }
+      },
+      "required": [
+        "primary",
+        "secondary"
+      ],
+      "additionalProperties": false
+    },
+    "regions": {
+      "type": "object",
+      "properties": {
+        "origin": {
+          "maxItems": 4,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z]{2}$"
+          }
+        },
+        "setting": {
+          "maxItems": 6,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z]{2}$"
+          }
+        },
+        "subdivisions": {
+          "maxItems": 6,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z]{2}-[A-Z0-9]{1,3}$"
+          }
+        },
+        "polities": {
+          "maxItems": 3,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "roman-republic",
+              "roman-empire",
+              "carthage",
+              "holy-roman-empire",
+              "ottoman-empire",
+              "spanish-empire",
+              "portuguese-empire",
+              "british-empire",
+              "french-colonial-empire",
+              "russian-empire",
+              "qing-china",
+              "empire-of-japan",
+              "german-empire",
+              "austria-hungary",
+              "congo-free-state",
+              "confederate-states",
+              "weimar-republic",
+              "nazi-germany",
+              "soviet-union",
+              "yugoslavia",
+              "east-germany",
+              "rhodesia",
+              "apartheid-south-africa"
+            ]
+          }
+        },
+        "scope": {
+          "type": "string",
+          "enum": [
+            "local",
+            "national",
+            "international",
+            "global",
+            "online"
+          ]
+        }
+      },
+      "required": [
+        "origin",
+        "setting",
+        "subdivisions",
+        "polities",
+        "scope"
+      ],
+      "additionalProperties": false
+    },
+    "time": {
+      "anyOf": [
+        {
+          "type": "object",
+          "properties": {
+            "main_span": {
+              "type": "object",
+              "properties": {
+                "start": {
+                  "type": "integer",
+                  "minimum": -5000,
+                  "maximum": 2100
+                },
+                "end": {
+                  "anyOf": [
+                    {
+                      "type": "integer",
+                      "minimum": -5000,
+                      "maximum": 2100
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "start",
+                "end"
+              ],
+              "additionalProperties": false
+            },
+            "reaches_present": {
+              "type": "boolean"
+            },
+            "approximate": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "main_span",
+            "reaches_present",
+            "approximate"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 40,
+      "maxLength": 300
+    },
+    "content_warnings": {
+      "maxItems": 6,
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "sexual-violence",
+          "child-abuse",
+          "graphic-violence",
+          "torture",
+          "mass-atrocity",
+          "suicide-self-harm",
+          "medical-horror",
+          "animal-cruelty",
+          "drug-use",
+          "hate-speech"
+        ]
+      }
+    },
+    "keywords": {
+      "maxItems": 10,
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 60
+      }
+    },
+    "guests": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "confidence": {
+      "type": "object",
+      "properties": {
+        "subjects": {
+          "type": "string",
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "roles": {
+          "type": "string",
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "themes": {
+          "type": "string",
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "regions": {
+          "type": "string",
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "time": {
+          "type": "string",
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        }
+      },
+      "required": [
+        "subjects",
+        "roles",
+        "themes",
+        "regions",
+        "time"
+      ],
+      "additionalProperties": false
+    },
+    "evidence": {
+      "maxItems": 12,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "facet": {
+            "type": "string",
+            "enum": [
+              "subjects",
+              "roles",
+              "themes",
+              "regions",
+              "time"
+            ]
+          },
+          "part": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 9007199254740991
+          },
+          "at": {
+            "type": "string",
+            "pattern": "^\\d{2}:\\d{2}:\\d{2}$"
+          },
+          "note": {
+            "type": "string",
+            "maxLength": 120
+          }
+        },
+        "required": [
+          "facet",
+          "part",
+          "at",
+          "note"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "notes": {
+      "type": "string",
+      "maxLength": 500
+    }
+  },
+  "required": [
+    "story_id",
+    "taxonomy_version",
+    "tagged_by",
+    "format",
+    "subjects",
+    "roles",
+    "themes",
+    "regions",
+    "time",
+    "summary",
+    "content_warnings",
+    "keywords",
+    "guests",
+    "confidence",
+    "evidence"
+  ],
+  "additionalProperties": false,
+  "$id": "https://bastardpedia.ramsus.site/schema/story-tags.schema.json",
+  "title": "StoryTags (taxonomy 0.2.0)",
+  "description": "Generated by `npm run tags:schema` from shared/schemas/story-tags.ts and tagging/taxonomy/. Do not edit. Cross-field rules (a primary person needs a role, a setting is required unless scope is online, start <= end, no duplicate ids, org_type only on organizations) cannot be expressed here: run `npm run tags:validate` for the full check."
+}

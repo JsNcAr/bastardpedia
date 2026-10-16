@@ -1,0 +1,36 @@
+# Optional warnings for unusually graphic material. 0-6 per story.
+# Apply a warning only when the story DESCRIBES the thing in detail (an extended or explicit
+# account). A passing mention, or the topic merely existing in the background, is not enough.
+facet: content_warnings
+cardinality: 0-6
+values:
+  - id: sexual-violence
+    label: Sexual violence
+    definition: Detailed accounts of rape, sexual assault or sexual coercion of adults.
+  - id: child-abuse
+    label: Child abuse
+    definition: Detailed accounts of physical, sexual or emotional abuse of children.
+  - id: graphic-violence
+    label: Graphic violence
+    definition: Explicit descriptions of killing, mutilation or injury.
+  - id: torture
+    label: Torture
+    definition: Detailed descriptions of torture or deliberate cruelty against captives.
+  - id: mass-atrocity
+    label: Mass atrocity
+    definition: Detailed accounts of massacres, genocide or death camps.
+  - id: suicide-self-harm
+    label: Suicide & self-harm
+    definition: Discussion of a specific suicide, suicide method or self-harm.
+  - id: medical-horror
+    label: Medical horror
+    definition: Graphic descriptions of surgery, experimentation on people or medical injury.
+  - id: animal-cruelty
+    label: Animal cruelty
+    definition: Detailed descriptions of animals being harmed or killed.
+  - id: drug-use
+    label: Drug use & overdose
+    definition: Detailed accounts of drug use, addiction or fatal overdose.
+  - id: hate-speech
+    label: Hateful language
+    definition: Extended reading or quoting of racist, antisemitic or other slurs and hate propaganda.

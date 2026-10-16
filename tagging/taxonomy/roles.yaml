@@ -1,0 +1,179 @@
+# What the person subjects WERE: their occupation or position in the story.
+# Applies only to subjects of kind `person` or `group`.
+# Pick 1-3 roles describing what made them matter in the story, most important first.
+# A role is about what someone did, not what the story is about: "explorer" is a role,
+# "colonialism" is a theme. Fawcett = explorer-adventurer + military-officer.
+facet: roles
+cardinality: 0-3
+required_when: 'format is deep-dive or media-reading AND at least one primary subject is a person or group'
+groups:
+  - id: power
+    label: Power and state
+    values:
+      - id: dictator-autocrat
+        label: Dictator / autocrat
+        definition: Ruled a state without meaningful democratic constraint (including elected leaders who became autocrats).
+        examples: ['Turkmenbashi', 'Rafael Trujillo', 'Alexander Lukashenko']
+        see_also: [monarch-royal, politician-official]
+      - id: monarch-royal
+        label: Monarch / royal
+        definition: A king, emperor, tsar, kaiser, shah or prince, or a member of a royal family, whose royal status is central.
+        examples:
+          ['King Leopold II', 'Kaiser Wilhelm II', 'Tsar Nicholas II', 'Mohammed bin Salman']
+        exclude_when:
+          ['Choose dictator-autocrat instead only if the royal title is incidental to their rule.']
+      - id: politician-official
+        label: Politician / official
+        definition: >-
+          Held or sought public office, elected or not: legislators, ministers, governors, mayors,
+          diplomats and senior civil servants whose state role is the story.
+        examples: ['Ron DeSantis', 'Rebecca Felton', 'Henry Kissinger', 'the Dulles brothers']
+        see_also: [dictator-autocrat, political-operative]
+      - id: political-operative
+        label: Political operative
+        definition: Worked behind politicians as a strategist, fixer, lobbyist, lawyer or dirty-tricks specialist.
+        examples: ['Roger Stone', 'Lee Atwater', 'Roy Cohn', 'Paul Manafort']
+      - id: colonial-administrator
+        label: Colonial figure
+        definition: Ran, governed or profited from a colony as an official, company man or settler leader.
+        examples: ['Cecil Rhodes', 'Ian Smith']
+
+  - id: force
+    label: Force and security
+    values:
+      - id: military-officer
+        label: Military officer / soldier
+        definition: Served in a state armed force, and that service matters to the story.
+        examples: ['Robert E. Lee', 'Richard Marcinko', 'Percy Fawcett']
+      - id: mercenary-warlord
+        label: Mercenary / warlord
+        definition: Led or fought in a non-state or private armed force.
+        examples: ['Erik Prince', 'Nestor Makhno', 'General Butt-Naked']
+      - id: police-lawman
+        label: Police / lawman
+        definition: Police officer, sheriff, prison official, border agent or police trainer.
+        examples: ['Daryl Gates', 'Buford Pusser', 'Mark Fuhrman', 'Greg Bovino']
+      - id: spy-intelligence
+        label: Spy / intelligence officer
+        definition: Worked for an intelligence service or ran covert operations.
+        examples: ['G. Gordon Liddy', 'Lavrentiy Beria']
+
+  - id: knowledge
+    label: Knowledge and medicine
+    values:
+      - id: explorer-adventurer
+        label: Explorer / adventurer
+        definition: Travelled to places unknown to their own society, led expeditions, or built a reputation on adventure.
+        examples: ['Percy Fawcett', 'Henry Morton Stanley', 'Heinrich Schliemann']
+      - id: scientist-scholar
+        label: Scientist / scholar
+        definition: Worked as a researcher, academic, archaeologist or naturalist (real credentials, whatever the ethics).
+        examples: ['Francis Galton', 'Heinrich Schliemann', 'John James Audubon', 'Fritz Haber']
+        see_also: [quack-fake-healer]
+      - id: physician-surgeon
+        label: Physician / surgeon
+        definition: Licensed medical doctor or surgeon practising mainstream medicine.
+        examples: ['Josef Mengele', 'J. Marion Sims', 'Peter Attia', 'Dr. Oz']
+      - id: psychiatrist-psychologist
+        label: Psychiatrist / psychologist
+        definition: Mental-health professional, therapist or self-styled psychology expert.
+        examples: ['Bruno Bettelheim', 'Dr. Phil', 'Dr. Laura', 'Harry Bailey (Dr. Sleep)']
+      - id: quack-fake-healer
+        label: Quack / fake healer
+        definition: Sold treatments or cures without a scientific basis, with or without credentials.
+        examples: ['John R. Brinkley', 'Andrew Wakefield', 'Gary Young', 'John of God']
+      - id: inventor-engineer
+        label: Inventor / engineer
+        definition: Designed machines, weapons or technology, and the invention is central.
+        examples: ['Hiram Maxim', 'Gerald Bull', 'Stockton Rush']
+
+  - id: money
+    label: Money
+    values:
+      - id: business-executive
+        label: Business owner / executive
+        definition: Founded, owned or ran a non-tech business.
+        examples: ['Charles Koch', 'Jack Welch', 'Frank Lorenzo', 'Coco Chanel']
+      - id: tech-founder
+        label: Tech founder / executive
+        definition: Founded or ran a technology or internet company.
+        examples: ['Mark Zuckerberg', 'Elon Musk', 'Elizabeth Holmes', 'Alex Karp']
+      - id: financier-investor
+        label: Financier / investor
+        definition: Made their mark through finance, banking, speculation, crypto or investing.
+        examples:
+          [
+            'Sam Bankman-Fried',
+            'Peter Thiel',
+            'Sam Zell',
+            'Basil Zaharoff (arms dealer -> also business-executive)',
+          ]
+      - id: con-artist
+        label: Con artist / grifter
+        definition: Their main occupation was deceiving people for money or status.
+        examples: ['Victor Lustig', 'Jacob Wohl', 'Jack Idema']
+
+  - id: belief
+    label: Belief
+    values:
+      - id: religious-leader
+        label: Religious leader / preacher
+        definition: Clergy, preacher, televangelist or leader within an established religion.
+        examples: ['Jerry Falwell', 'Jim Bakker', 'TB Joshua', 'Martin Niemöller']
+      - id: cult-leader
+        label: Cult leader
+        definition: Founded or led a high-control group or new religious movement.
+        examples: ['L. Ron Hubbard', 'David Berg', 'Sun Myung Moon', 'Ziz LaSota']
+      - id: occultist-guru
+        label: Occultist / guru / spiritual teacher
+        definition: Taught esoteric, occult, New Age or wellness spirituality outside an organized cult.
+        examples: ['Helena Blavatsky', 'Rudolf Steiner', 'Savitri Devi', 'Wim Hof']
+      - id: conspiracy-theorist
+        label: Conspiracy theorist
+        definition: Built a following by promoting conspiracy theories.
+        examples: ['Alex Jones', 'Bill Cooper', 'Mike Adams']
+
+  - id: culture
+    label: Culture and media
+    values:
+      - id: media-personality
+        label: Media personality / broadcaster
+        definition: Radio, TV or podcast host or pundit.
+        examples: ['Rush Limbaugh', 'Joe Pyne', 'Morton Downey Jr.']
+      - id: journalist-propagandist
+        label: Journalist / propagandist
+        definition: Worked in journalism, PR, advertising or state propaganda.
+        examples: ['Edward Bernays', 'Julius Streicher', 'Lord Haw-Haw', "James O'Keefe"]
+      - id: writer-intellectual
+        label: Writer / intellectual
+        definition: Author, philosopher or ideologue whose writing is their main influence.
+        examples: ['Curtis Yarvin', 'Carl Schmitt', 'Napoleon Hill', 'Ragnar Redbeard']
+      - id: entertainer-artist
+        label: Entertainer / artist
+        definition: Actor, director, musician, comedian, painter, cartoonist, fashion designer or other artist.
+        examples: ['Alfred Hitchcock', 'Phil Spector', 'Thomas Kinkade', 'John Wayne']
+      - id: athlete-sports
+        label: Athlete / sports figure
+        definition: Player, coach, team owner or sports official.
+        examples: ['Bobby Fischer', 'Avery Brundage', 'Uday Hussein (as FIFA team owner)']
+      - id: influencer-online
+        label: Influencer / online figure
+        definition: Built influence mainly through social media, forums or online video.
+        examples: ['Andrew Tate', 'Liver King', 'Nature Boy']
+
+  - id: violence
+    label: Violence and crime
+    values:
+      - id: criminal-killer
+        label: Criminal / killer
+        definition: Committed serious crimes (murder, trafficking, abuse, organized crime) as a central part of the story.
+        examples: ['Albert Fish', 'Griselda Blanco', 'Jeffrey Epstein', 'Jimmy Savile']
+      - id: terrorist-militant
+        label: Terrorist / militant
+        definition: Carried out or organized political violence outside state forces.
+        examples: ['Carlos the Jackal', 'John Brown', 'The Order founders']
+      - id: activist-organizer
+        label: Activist / organizer
+        definition: Organized a political or social movement, campaign or militia (bastard or hero).
+        examples:
+          ['Phyllis Schlafly', 'George Lincoln Rockwell', 'Elizabeth Dilling', 'Aaron Swartz']

@@ -1,0 +1,203 @@
+/*
+ * Phone first. Wider layouts are layered on with min-width queries.
+ * Breakpoints cannot read custom properties: 48rem is the tablet step and
+ * 68.75rem (1100px, token size.wide) is where the three panes appear. The
+ * same 68.75rem lives in src/app/useMediaQuery.ts.
+ */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-header);
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  min-height: var(--size-header);
+  padding: 0 var(--space-4);
+  background: var(--color-surface-page);
+  border-bottom: var(--size-hairline) solid var(--color-border-subtle);
+}
+
+.brand {
+  font-family: var(--font-serif);
+  font-size: var(--text-xl);
+  font-weight: var(--weight-bold);
+  color: var(--color-text-primary);
+  text-decoration: none;
+  letter-spacing: -0.01em;
+}
+
+.brand:hover {
+  color: var(--color-accent-text);
+}
+
+.site-nav {
+  display: flex;
+  gap: var(--space-1);
+  margin-inline-start: auto;
+}
+
+.site-nav-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--size-tap);
+  padding: 0 var(--space-2);
+  color: var(--color-text-secondary);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  text-decoration: none;
+  border-radius: var(--radius-sm);
+}
+
+.site-nav-link:hover {
+  color: var(--color-text-primary);
+  background: var(--color-surface-hover);
+}
+
+.site-nav-link[aria-current='page'] {
+  color: var(--color-accent-text);
+  text-decoration: underline;
+  text-decoration-thickness: var(--size-focus-ring);
+  text-underline-offset: 0.4em;
+}
+
+.site-header .segmented {
+  display: none;
+}
+
+.site-main:focus {
+  outline: none;
+}
+
+/* On phones the header has no room for the theme switch; it lives here instead. */
+.site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding: var(--space-4);
+  border-top: var(--size-hairline) solid var(--color-border-subtle);
+}
+
+.site-footer-label {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+}
+
+/* Keep result lines at a readable length when no story pane takes the room. */
+.results-head,
+.results,
+.catalog-results > .state {
+  max-width: 56rem;
+}
+
+.page {
+  padding: var(--space-6) var(--space-4) var(--space-16);
+}
+
+.page-narrow {
+  max-width: calc(var(--size-measure) + var(--space-8));
+  margin-inline: auto;
+}
+
+.page-title {
+  font-size: var(--text-2xl);
+  letter-spacing: -0.015em;
+}
+
+.page-lead {
+  margin-top: var(--space-2);
+  color: var(--color-text-secondary);
+  font-size: var(--text-lg);
+}
+
+.page-state {
+  padding: var(--space-12) var(--space-4);
+}
+
+/* Catalogue: the results list alone on a phone. */
+.catalog-results {
+  padding: var(--space-6) var(--space-4) var(--space-16);
+  min-width: 0;
+}
+
+.catalog-rail,
+.catalog-pane {
+  min-width: 0;
+}
+
+.story-page {
+  padding: var(--space-4) var(--space-4) var(--space-16);
+  max-width: calc(var(--size-measure) + var(--space-8));
+  margin-inline: auto;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: var(--size-tap);
+  margin-bottom: var(--space-4);
+  font-weight: var(--weight-medium);
+}
+
+@media (min-width: 48rem) {
+  .site-header {
+    padding: 0 var(--space-6);
+    gap: var(--space-6);
+  }
+
+  .site-header .segmented {
+    display: inline-flex;
+  }
+
+  .site-footer {
+    display: none;
+  }
+
+  .site-nav-link {
+    padding: 0 var(--space-3);
+  }
+
+  .page-title {
+    font-size: var(--text-display);
+  }
+
+  .catalog-results,
+  .page {
+    padding-inline: var(--space-8);
+  }
+}
+
+@media (min-width: 68.75rem) {
+  .catalog {
+    display: grid;
+    grid-template-columns: var(--size-rail) minmax(var(--size-list-min), 1fr);
+    height: calc(100dvh - var(--size-header));
+  }
+
+  .catalog[data-has-story='true'] {
+    grid-template-columns: var(--size-rail) minmax(var(--size-list-min), 1fr) minmax(
+        0,
+        var(--size-pane)
+      );
+  }
+
+  .catalog-rail,
+  .catalog-results,
+  .catalog-pane {
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+
+  .catalog-rail {
+    background: var(--color-surface-sunken);
+    border-inline-end: var(--size-hairline) solid var(--color-border-subtle);
+  }
+
+  .catalog-pane {
+    background: var(--color-surface-raised);
+    border-inline-start: var(--size-hairline) solid var(--color-border-subtle);
+    padding: var(--space-8) var(--space-8) var(--space-16);
+  }
+}

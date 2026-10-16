@@ -1,0 +1,15 @@
+{
+  "$comment": "The single rename point. Change these, then run `npm run deploy:config` and commit the regenerated deploy/Caddyfile.",
+  "name": "Bastardpedia",
+  "slug": "bastardpedia",
+  "shortName": "Bastardpedia",
+  "description": "Find Behind the Bastards stories by topic, region and historical period.",
+  "host": "bastardpedia.ramsus.site",
+  "deployPath": "/opt/bastardpedia",
+  "gitlab": {
+    "url": "https://gitlab.apollyon.lat",
+    "project": "apollyon/personal/bastardpedia",
+    "sshPort": 2222
+  },
+  "private": true
+}

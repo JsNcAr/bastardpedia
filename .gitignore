@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.npm/
+
+# Build output
+dist/
+*.local
+*.tsbuildinfo
+
+# Generated (rebuilt by npm scripts; never edit by hand)
+src/styles/theme-*.css
+src/icons/sprite.generated.ts
+public/data/catalog.json
+
+# Raw feed and transcripts: large, and transcripts are copyrighted (docs/adr/0007)
+data/raw/
+data/transcripts/
+data/packets/
+
+# Test artifacts
+coverage/
+playwright-report/
+test-results/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Editors / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Python (phase-0 scripts)
+__pycache__/

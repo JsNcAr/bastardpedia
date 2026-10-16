@@ -1,0 +1,103 @@
+{
+  "name": "bastardpedia",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Find Behind the Bastards stories by topic, region and historical period.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "predev": "npm run --silent tokens && npm run --silent icons",
+    "dev": "vite",
+    "prebuild": "npm run --silent tokens && npm run --silent icons",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "tokens": "node scripts/build_theme.mjs",
+    "icons": "node scripts/build_icons.mjs",
+    "typecheck": "tsc -b --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "playwright test",
+    "verify": "npm run typecheck && npm run lint && npm test",
+    "prepare": "husky",
+    "pipeline:ingest": "node pipeline/ingest.ts",
+    "pipeline:group": "node pipeline/group.ts",
+    "pipeline:sync": "node pipeline/ingest.ts && node pipeline/group.ts && node pipeline/status.ts",
+    "pipeline:transcripts": "node pipeline/fetch-transcripts.ts",
+    "pipeline:status": "node pipeline/status.ts",
+    "tags:packet": "node pipeline/packet.ts",
+    "tags:validate": "node pipeline/validate-tags.ts",
+    "tags:verify-wikidata": "node pipeline/verify-wikidata.ts",
+    "tags:schema": "node pipeline/export-schema.ts",
+    "taxonomy:doc": "node pipeline/taxonomy-doc.ts",
+    "build:catalog": "node pipeline/build-catalog.ts",
+    "deploy:config": "node scripts/deploy-config.mjs",
+    "release": "node scripts/release.mjs prepare"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.3.0",
+    "@fontsource-variable/source-serif-4": "^5.3.1",
+    "@tanstack/react-query": "^5.104.3",
+    "dexie": "^4.4.6",
+    "dexie-react-hooks": "^4.4.0",
+    "lucide-react": "^1.58.0",
+    "minisearch": "^7.2.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router": "^8.4.0",
+    "zod": "^4.6.7",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.3",
+    "@commitlint/config-conventional": "^21.2.3",
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.64.1",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.8",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "eslint": "^10.13.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.7",
+    "fake-indexeddb": "^6.2.6",
+    "fast-xml-parser": "^5.11.2",
+    "globals": "^17.13.0",
+    "husky": "^9.1.7",
+    "jsdom": "^30.1.3",
+    "lint-staged": "^17.6.0",
+    "prettier": "^3.9.10",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.71.2",
+    "vite": "^8.3.4",
+    "vite-plugin-pwa": "^2.0.0",
+    "vitest": "^5.0.5",
+    "world-countries": "^5.1.0",
+    "yaml": "^2.9.1"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,css,md,html,yaml,yml}": [
+      "prettier --write"
+    ]
+  },
+  "overrides": {
+    "eslint-plugin-jsx-a11y": {
+      "eslint": "$eslint"
+    }
+  }
+}

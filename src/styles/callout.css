@@ -1,0 +1,19 @@
+/* Full hairline border on every side; status carried by icon and text, never colour alone. */
+.callout {
+  display: flex;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  border: var(--size-hairline) solid var(--color-border-strong);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-sunken);
+  font-size: var(--text-sm);
+}
+
+.callout > .icon {
+  color: var(--color-accent-text);
+  margin-top: var(--space-1);
+}
+
+.callout-title {
+  font-weight: var(--weight-semibold);
+}

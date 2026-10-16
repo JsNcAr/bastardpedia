@@ -1,0 +1,30 @@
+export default {
+  extends: ['@commitlint/config-conventional'],
+  rules: {
+    'scope-enum': [
+      2,
+      'always',
+      [
+        'app',
+        'catalog',
+        'story',
+        'library',
+        'data',
+        'ui',
+        'tokens',
+        'pipeline',
+        'tagging',
+        'taxonomy',
+        'tags',
+        'docs',
+        'ci',
+        'deploy',
+        'deps',
+        'repo',
+      ],
+    ],
+    'subject-case': [2, 'never', ['upper-case', 'pascal-case', 'start-case']],
+    'header-max-length': [2, 'always', 72],
+    'body-max-line-length': [2, 'always', 100],
+  },
+};

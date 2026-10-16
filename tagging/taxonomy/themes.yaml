@@ -1,0 +1,270 @@
+# What the story is ABOUT. Exactly 1 primary + 0-4 secondary themes.
+# primary = the answer to "what is this story's one-line pitch about?"
+# secondary = other themes that take up a real segment of the story (several minutes of
+#             discussion, not a passing joke or one-sentence mention).
+# Disambiguation rules for confusable pairs are listed under each theme as exclude_when/see_also.
+facet: themes
+cardinality: '1 primary + 0-4 secondary'
+groups:
+  - id: power
+    label: Power and politics
+    values:
+      - id: authoritarianism
+        label: Dictatorship & authoritarianism
+        definition: How autocrats take, hold and abuse state power.
+        examples: ['Turkmenbashi', 'Rafael Trujillo', 'Alfredo Stroessner']
+        exclude_when:
+          [
+            "The regime's defining trait is fascism or Nazism: use those (authoritarianism may be secondary).",
+          ]
+      - id: fascism-far-right
+        label: Fascism & the far right
+        definition: Fascist, neo-fascist and far-right movements, thinkers and regimes other than German Nazism.
+        examples:
+          [
+            'Mussolini (The Man Who Invented Fascism)',
+            'Antonio Salazar',
+            'Proud Boys',
+            'Carl Schmitt',
+          ]
+        see_also: [nazism, racism-white-supremacy]
+      - id: nazism
+        label: Nazism & the Holocaust
+        definition: The German Nazi party and regime (1920-1945), its people and crimes, and explicitly Nazi movements after it.
+        examples: ['Heinrich Himmler', 'Adolf Eichmann', 'George Lincoln Rockwell', 'Coco Chanel']
+        exclude_when:
+          ['Non-German fascism (use fascism-far-right).', 'A brief Nazi comparison or joke.']
+      - id: communism-state-socialism
+        label: Communist regimes
+        definition: Abuses by communist or state-socialist regimes and their leaders.
+        examples: ['Stalin', 'Pol Pot', 'Beria', 'Kim Jong Un', 'Nicolae Ceaușescu']
+      - id: coups-insurrections
+        label: Coups & insurrections
+        definition: 'Attempts to seize power illegally: coups, putsches, insurrections, plots.'
+        examples: ['Beer Hall Putsch', 'The Business Plot', 'The Dumbest Coup in World History']
+      - id: monarchy-empire
+        label: Monarchy & royalty
+        definition: Kings, emperors, courts and dynasties as institutions of power.
+        examples: ['Kaiser Wilhelm', 'Tsar Nicholas II', 'Versailles', 'Napoleon III']
+        see_also: [colonialism-imperialism]
+      - id: electoral-politics
+        label: Elections & party politics
+        definition: Campaigns, parties, elected officials, political operatives and dirty tricks in democracies.
+        examples: ['Lee Atwater', 'Roger Stone', 'Ron DeSantis', 'Trump University']
+      - id: religious-right-culture-war
+        label: Religious right & culture wars
+        definition: Organized campaigns over religion, sexuality, gender, family and "values" in politics.
+        examples: ['Jerry Falwell', 'Phyllis Schlafly', 'Focus on the Family', 'The Satanic Panic']
+        see_also: [organized-religion]
+
+  - id: violence
+    label: Violence and war
+    values:
+      - id: genocide-mass-killing
+        label: Genocide & mass killing
+        definition: Deliberate killing of large numbers of civilians or of a people.
+        examples:
+          ['King Leopold II', 'Radovan Karadžić', 'Ancient Genocide and the War on Carthage']
+      - id: war-war-crimes
+        label: War & war crimes
+        definition: The conduct of wars, military leaders, atrocities in war and military failure.
+        examples: ['Francisco Solano López', 'Oskar Dirlewanger', 'Lawrence of Arabia']
+      - id: terrorism
+        label: Terrorism & political violence
+        definition: 'Non-state political violence: bombings, assassinations, militant groups.'
+        examples: ['Carlos the Jackal', 'The Golden Age of Terrorism', 'John Brown']
+      - id: colonialism-imperialism
+        label: Colonialism & empire
+        definition: Conquest, colonization and exploitation of other peoples' lands by empires, companies and settlers.
+        examples:
+          ['Cecil Rhodes', 'Christopher Columbus', 'The Andaman Islands', 'Chagos (Diego Garcia)']
+      - id: slavery-forced-labor
+        label: Slavery & forced labor
+        definition: Chattel slavery, slave trading, convict leasing and other forced labor.
+        examples:
+          [
+            'Thomas Thistlewood',
+            "Volkswagen's slave plantation in Brazil",
+            'The Heroes Who Ended The Slave Trade',
+          ]
+      - id: policing-incarceration
+        label: Policing & prisons
+        definition: Police, sheriffs, prisons, border enforcement, detention and the legal machinery around them.
+        examples: ['Behind the Police series', 'Daryl Gates', 'Joe Arpaio', 'Excited Delirium']
+      - id: intelligence-covert-ops
+        label: Intelligence & covert operations
+        definition: Spy agencies, covert operations, surveillance and state secrets.
+        examples: ['MKUltra', 'The Dulles Brothers', 'Cracktoberfest', 'The Finders']
+
+  - id: body
+    label: Medicine and science
+    values:
+      - id: medical-malpractice
+        label: Medical abuse & malpractice
+        definition: Harm done by licensed medical professionals or institutions practising real medicine.
+        examples: ['J. Marion Sims', 'Josef Mengele', 'The Dalkon Shield', 'Vioxx']
+        exclude_when: ['The treatment itself is fake (use quackery-pseudoscience).']
+      - id: quackery-pseudoscience
+        label: Quackery & pseudoscience
+        definition: Fake cures, fraudulent treatments and pseudoscientific fields.
+        examples: ['Homeopathy', 'Laetrile', 'Goat-gland transplants', 'Fake autism cures']
+        see_also: [fraud-grift, medical-malpractice]
+      - id: eugenics-scientific-racism
+        label: Eugenics & scientific racism
+        definition: Pseudo-scientific claims of racial or hereditary hierarchy and policies built on them.
+        examples: ['Francis Galton', 'Phrenology', 'The Population Control Movement']
+      - id: public-health
+        label: Public health & pharma
+        definition: Epidemics, drug regulation, pharmaceutical companies, vaccines and health systems.
+        examples: ['The Sackler Family', 'The FDA', 'Thalidomide', 'Covid-era grifters']
+      - id: drugs
+        label: Drugs & the drug war
+        definition: Illegal drugs, drug trafficking, addiction and drug policy.
+        examples: ['The Cocaine Queen of Miami', 'Cracktoberfest', "Hitler's Drug Problem"]
+      - id: science-exploration
+        label: Science, archaeology & exploration
+        definition: Expeditions, discovery, archaeology and scientific research as an enterprise.
+        examples: ['Heinrich Schliemann', 'Percy Fawcett', 'Henry Morton Stanley', 'De-extinction']
+
+  - id: belief
+    label: Belief
+    values:
+      - id: cults-new-religions
+        label: Cults & new religions
+        definition: High-control groups, new religious movements and their leaders.
+        examples: ['Scientology', 'The Moonies', 'The Zizians', 'Synanon', '12 Tribes']
+        exclude_when: ['Mainstream denominations (use organized-religion).']
+      - id: organized-religion
+        label: Organized religion
+        definition: Abuse, corruption or politics within established churches and religions.
+        examples: ['The Catholic Church in Ireland', 'The Southern Baptist Convention', 'TB Joshua']
+      - id: conspiracy-theories
+        label: Conspiracy theories
+        definition: The spread, makers and consequences of conspiracy theories.
+        examples: ['QAnon / Nesara', 'The Illuminati', 'Flat Earth', 'Alex Jones']
+      - id: occult-esoteric
+        label: Occult, esoteric & New Age
+        definition: Occultism, mysticism, Theosophy, astrology, psychics and New Age spirituality.
+        examples:
+          [
+            'Helena Blavatsky',
+            'The Reagan astrologer',
+            'Sylvia Browne',
+            'Percy Fawcett (psychic beliefs)',
+          ]
+
+  - id: money
+    label: Money
+    values:
+      - id: fraud-grift
+        label: Fraud & grift
+        definition: Swindles, con jobs, scams, fake credentials and grifting.
+        examples: ['Victor Lustig', 'Trump University', 'We Build the Wall', 'Elizabeth Holmes']
+      - id: corporate-malfeasance
+        label: Corporate crimes
+        definition: 'Companies or executives causing harm for profit: dangerous products, cover-ups, union-busting.'
+        examples: ['Nestle', 'Union Carbide (Bhopal)', 'Hobby Lobby', "eBay's private spies"]
+      - id: finance-crypto
+        label: Finance, real estate & crypto
+        definition: Banking, speculation, debt, real estate, private equity and cryptocurrency.
+        examples: ['Sam Bankman-Fried', 'Payday loans', 'Sam Zell', 'Activist investors']
+      - id: labor-exploitation
+        label: Labor & workers
+        definition: Exploitation and killing of workers, strikes, labor disasters, union struggles.
+        examples: ['Triangle Shirtwaist Fire', 'The Pullman Strike', 'Jack Welch']
+      - id: environmental-destruction
+        label: Environment & climate
+        definition: Pollution, ecological destruction and climate denial.
+        examples: ['Exxon and climate denial', 'Patient Zero of Climate Denial', 'The Audubon guy']
+      - id: weapons-arms-trade
+        label: Weapons & arms dealing
+        definition: Arms manufacturers, arms dealers, gun lobbies and weapons inventors.
+        examples: ['Basil Zaharoff', 'Hiram Maxim', 'The NRA', 'Fake bomb detectors']
+
+  - id: society
+    label: Society
+    values:
+      - id: racism-white-supremacy
+        label: Racism & white supremacy
+        definition: Racist movements, segregation, lynching and white-supremacist organizing.
+        examples:
+          ['The KKK', "Oregon's white-supremacist history", 'Rebecca Felton', 'Mark Fuhrman']
+        see_also: [fascism-far-right, eugenics-scientific-racism]
+      - id: misogyny-manosphere
+        label: Misogyny & the manosphere
+        definition: Organized misogyny, masculinity grifters, incels and anti-feminist movements.
+        examples: ['Andrew Tate', 'The Manosphere', 'Incel evolution', 'Ragnar Redbeard']
+      - id: sexual-abuse
+        label: Sexual abuse of adults
+        definition: Rape, sexual assault, sexual coercion and sex trafficking where the victims are adults.
+        examples: ['Harvey Weinstein', 'Peter Nygard', 'R. Kelly', 'P. Diddy']
+        include_when: ['Victims are adults, or both adults and minors (then also add child-abuse).']
+        exclude_when: ['All victims are minors: use child-abuse only.']
+        see_also: [child-abuse]
+      - id: child-abuse
+        label: Abuse of children
+        definition: >-
+          Any abuse of minors, sexual or not: child sexual abuse, troubled-teen facilities,
+          residential schools, child prisons, baby trafficking, cruelty by parents or institutions.
+        examples: ['Elan School', 'Residential Schools', 'Cash for Kids', 'Jimmy Savile']
+        include_when: ['The victims are under 18, whatever the kind of abuse.']
+        see_also: [sexual-abuse, education]
+      - id: propaganda-media
+        label: Propaganda & media
+        definition: Propaganda, PR, news media, talk radio and manipulation of public opinion.
+        examples: ['Edward Bernays', 'Rush Limbaugh', 'Fox News', 'Julius Streicher']
+      - id: entertainment-celebrity
+        label: Entertainment & celebrity
+        definition: Hollywood, music, TV, fashion and celebrity culture.
+        examples: ['Alfred Hitchcock', 'P. Diddy', 'Vince McMahon', 'The Twilight Zone movie']
+        exclude_when: ['Competitive sport, athletes, teams and sports bodies: use sports.']
+      - id: sports
+        label: Sports
+        definition: Athletes, teams, owners, sports bodies and competitions, including the Olympics and chess.
+        examples:
+          [
+            'Bobby Fischer',
+            'Avery Brundage and the 1936 Olympics',
+            'Uday Hussein',
+            'The Evilest Football Player of All Time',
+          ]
+        see_also: [entertainment-celebrity]
+      - id: education
+        label: Education & schools
+        definition: >-
+          Schools, universities, teachers, curricula and education movements, including
+          for-profit and fake schools.
+        examples:
+          [
+            'Trump University',
+            'The Deadliest School in History',
+            'Rudolf Steiner (Waldorf schools)',
+            'The Class that made 200 Child Nazis',
+          ]
+        exclude_when:
+          [
+            'Facilities that only call themselves schools but exist to confine or punish minors (troubled-teen camps): use child-abuse, with education secondary at most.',
+          ]
+      - id: wellness-self-help
+        label: Wellness & self-help
+        definition: Self-help, fitness, diet, longevity and lifestyle gurus.
+        examples: ['Napoleon Hill', 'Wim Hof', 'Liver King', 'Peter Attia']
+        see_also: [quackery-pseudoscience]
+
+  - id: tech
+    label: Technology
+    values:
+      - id: tech-internet
+        label: Tech industry & the internet
+        definition: Tech companies, online platforms, internet subcultures and Silicon Valley ideology.
+        examples:
+          ['Mark Zuckerberg', '8chan', 'Peter Thiel', 'How YouTube Became a Perpetual Nazi Machine']
+      - id: artificial-intelligence
+        label: Artificial intelligence
+        definition: AI companies, AI hype and harms caused by AI systems.
+        examples:
+          [
+            'AI Is Coming for Your Children',
+            'Tech Bros Have Built A Cult Around AI',
+            'AI chatbots as cult leaders',
+          ]

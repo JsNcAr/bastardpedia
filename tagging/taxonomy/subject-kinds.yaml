@@ -1,0 +1,104 @@
+# What each entry in `subjects` is. One kind per subject.
+facet: subjects.kind
+values:
+  - id: person
+    label: Person
+    definition: A single named human being.
+    examples: ['Percy Fawcett', 'Elizabeth Holmes', 'Rodrigo Duterte']
+
+  - id: group
+    label: Group of people
+    definition: >-
+      Two or more named people treated as one subject: a couple, a family, siblings, a gang
+      or crew. List each person separately instead if the story treats them as distinct bastards.
+    examples: ['The Sackler Family', 'The Winklevoss Twins', 'The Dulles Brothers']
+
+  - id: organization
+    label: Organization
+    definition: >-
+      A formal body with a name and structure. Requires `org_type`.
+    examples: ['Nestle', 'The John Birch Society', 'Elan School', 'The CIA']
+
+  - id: movement-or-ideology
+    label: Movement or ideology
+    definition: >-
+      A diffuse movement, subculture or set of ideas without one controlling organization.
+    examples: ['The anti-vaccine movement', 'The manosphere', 'QAnon', 'Eugenics']
+
+  - id: event
+    label: Event
+    definition: 'A bounded happening with a start and end: a disaster, war, coup, scandal, crime.'
+    examples: ['The Triangle Shirtwaist Fire', 'The Iran-Contra Affair', 'The Business Plot']
+
+  - id: practice-or-pseudoscience
+    label: Practice or pseudoscience
+    definition: A method, treatment, technology or field (real or fake) whose history is the story.
+    examples: ['Phrenology', 'The lobotomy', 'Homeopathy', 'Chiropractic', 'Forensic science']
+
+  - id: place
+    label: Place
+    definition: A location whose history is the story itself.
+    examples: ['The Darién Gap', 'Oregon', 'Versailles']
+
+  - id: media-work
+    label: Media work
+    definition: A book, show, film, magazine or game that is itself the subject.
+    examples:
+      ['Soldier of Fortune magazine', 'The Twilight Zone movie', 'Unintended Consequences (novel)']
+
+org_types:
+  - {
+      id: company,
+      label: Company,
+      definition: 'A for-profit business, including family firms and conglomerates.',
+    }
+  - {
+      id: government-agency,
+      label: Government agency,
+      definition: 'A civilian state body (FDA, Border Patrol, ICE). Use police / military / intelligence when those fit better.',
+    }
+  - {
+      id: police,
+      label: Police,
+      definition: "Police forces, sheriffs' offices, police unions, prison and detention systems.",
+    }
+  - {
+      id: military,
+      label: Military,
+      definition: 'Armed forces, military units, mercenary companies.',
+    }
+  - {
+      id: intelligence,
+      label: Intelligence agency,
+      definition: 'CIA, KGB, FBI (when the story is about its intelligence/covert role) and similar.',
+    }
+  - {
+      id: religious-body,
+      label: Religious body,
+      definition: 'An established church, denomination or religious institution (Catholic Church, Southern Baptist Convention).',
+    }
+  - {
+      id: cult,
+      label: Cult or new religious movement,
+      definition: 'A high-control group or new religion (Scientology, the Moonies, the 12 Tribes, Synanon).',
+    }
+  - {
+      id: school-or-facility,
+      label: School or facility,
+      definition: 'A school, residential program, hospital, asylum, camp or troubled-teen facility.',
+    }
+  - {
+      id: media-outlet,
+      label: Media outlet,
+      definition: 'A newspaper, network, magazine, website or platform as an institution (Fox News, YouTube, 8chan).',
+    }
+  - {
+      id: political-org,
+      label: Political organization,
+      definition: 'A party, pressure group, militia, think tank or lobby (NRA, Proud Boys, John Birch Society).',
+    }
+  - {
+      id: ngo,
+      label: Non-profit / NGO,
+      definition: 'A charity, foundation or non-governmental organization.',
+    }

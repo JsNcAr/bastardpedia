@@ -1,0 +1,14 @@
+dist/
+node_modules/
+coverage/
+playwright-report/
+test-results/
+src/styles/theme-*.css
+src/icons/sprite.generated.ts
+CHANGELOG.md
+.npm/
+data/
+public/data/
+tagging/schema/
+docs/taxonomy-reference.md
+scripts/build_tokens.mjs

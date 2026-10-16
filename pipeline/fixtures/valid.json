@@ -1,0 +1,49 @@
+{
+  "story_id": "percy-fawcett-real-life-indiana-jones-or-deluded-psychic-racist",
+  "taxonomy_version": "0.2.0",
+  "tagged_by": { "agent": "fixture", "date": "2026-10-16" },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Percy Fawcett",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1867, "end": 1925 }
+    },
+    {
+      "name": "Royal Geographical Society",
+      "kind": "organization",
+      "org_type": "ngo",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["explorer-adventurer", "military-officer"],
+  "themes": {
+    "primary": "science-exploration",
+    "secondary": ["colonialism-imperialism", "occult-esoteric"]
+  },
+  "regions": {
+    "origin": ["GB"],
+    "setting": ["BR", "BO"],
+    "subdivisions": ["BR-MT"],
+    "polities": ["british-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1906, "end": 1925 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Test fixture: a British officer turned Amazon explorer who vanished in 1925 searching for a lost city.",
+  "content_warnings": [],
+  "keywords": ["Lost City of Z"],
+  "guests": [],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [{ "facet": "time", "part": 1, "at": "00:20:00", "note": "fixture" }]
+}

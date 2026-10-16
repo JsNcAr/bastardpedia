@@ -1,0 +1,92 @@
+# What kind of episode a story is. Exactly one per story.
+# Decide this first: it changes which other facets are required (see PROMPT.md, step 1).
+facet: format
+cardinality: exactly-one
+values:
+  - id: deep-dive
+    label: Deep dive
+    definition: >-
+      The standard Behind the Bastards story: the host tells the history of a person,
+      organization, movement, event or practice, usually across one or more parts.
+    include_when:
+      - The bulk of the episode is researched narrative history or biography.
+      - The subject is a living person but the episode tells their life story (e.g. Elon Musk, Peter Thiel).
+    exclude_when:
+      - The episode is mostly reacting to recent news about a previously covered subject (use current-affairs).
+      - The episode is mostly reading a book or watching a show aloud (use media-reading).
+    examples:
+      - 'Heinrich Schliemann: The Archaeologist Who Destroyed Troy'
+      - 'How Nestle Starved A Bunch of Babies'
+      - 'Cracktoberfest (five parts on the CIA, crack and Iran-Contra)'
+
+  - id: current-affairs
+    label: Current affairs
+    definition: >-
+      An episode about events happening at or near the time of release, or an update
+      on what a previously covered subject has done since.
+    include_when:
+      - Titles like "What's Alex Jones Up To Now?", "Andrew Tate Update", "Why Steve Bannon Got Arrested".
+      - Reporting from protests, elections or a news event in progress.
+    exclude_when:
+      - A full biography of a contemporary figure (use deep-dive).
+    examples:
+      - "What's New with Alex Jones?"
+      - 'The Bastards of the 2018 Midterm Election'
+      - 'How ICE Is Targeting Students for Deportation'
+
+  - id: media-reading
+    label: Reading / watching
+    definition: >-
+      The hosts read, watch or review a book, novel, manual, TV show or other media
+      made by a bastard, and the episode is structured around that work.
+    include_when:
+      - Ben Shapiro's novel, Steven Seagal's book, Scott Adams' books, the Proud Boys manual, Jordan Peterson's show.
+    exclude_when:
+      - A biography that quotes the subject's writing along the way (use deep-dive).
+    examples:
+      - 'Steven Seagal Wrote a Book (We Read It)'
+      - "Let's Read the Proud Boys Membership Manual"
+      - 'The Religion War, by Scott Adams (with Matt Lieb)'
+
+  - id: hero
+    label: Hero episode
+    definition: >-
+      An episode explicitly about a good person or group: Christmas "non-bastard" and hero specials.
+    include_when:
+      - The title or description says hero, non-bastard, or cool people.
+    examples:
+      - "Special X-Mas Non-Bastard: Raoul Wallenberg, History's Greatest Hero"
+      - 'Christmas non-Bastard: The Tupamaros of Uruguay'
+      - 'X-Mas Special: The Heroes Who Ended The Slave Trade'
+
+  - id: live-show
+    label: Live show
+    definition: An episode recorded in front of a live audience.
+    include_when:
+      - Title or description says live show / recorded live.
+    exclude_when:
+      - A normal studio episode that mentions an upcoming live show.
+    examples:
+      - 'The Terrible Secret of Sea Monkeys (Live Show)'
+      - 'The Liver King (A Live Show)'
+      - 'Behind the Bastards Live Show: The Ballad of Bo Gritz'
+
+  - id: crossover
+    label: Crossover / promo
+    definition: >-
+      An episode from, or promoting, another podcast, re-published in the BtB feed.
+    examples:
+      - 'Better Offline'
+      - 'Hood Politics with Prop'
+      - 'Behind the Bastards Presents: Weird Little Guys'
+
+  - id: meta
+    label: Meta
+    definition: Q&A, listener questions, year-end specials and other episodes about the show itself.
+    examples:
+      - "Behind the Bastards Q&A: Year's End Edition"
+      - 'Behind the Bastards Q&A: 2026 Edition'
+
+# Precedence when more than one applies:
+# live-show > media-reading > hero > crossover > meta > current-affairs > deep-dive
+# (A live show where they read a book is live-show; the reading shows up in themes/keywords.)

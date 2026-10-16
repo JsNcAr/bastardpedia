@@ -1,0 +1,1695 @@
+{
+  "schema": "catalog/1",
+  "generated_at": "2026-10-16T00:00:00+00:00",
+  "taxonomy_version": "0.2.0",
+  "vocab": {
+    "formats": [
+      {
+        "id": "deep-dive",
+        "label": "Deep dive",
+        "definition": "The standard Behind the Bastards story: the host tells the history of a person, organization, movement, event or practice, usually across one or more parts."
+      },
+      {
+        "id": "current-affairs",
+        "label": "Current affairs",
+        "definition": "An episode about events happening at or near the time of release, or an update on what a previously covered subject has done since."
+      },
+      {
+        "id": "media-reading",
+        "label": "Reading / watching",
+        "definition": "The hosts read, watch or review a book, novel, manual, TV show or other media made by a bastard, and the episode is structured around that work."
+      },
+      {
+        "id": "hero",
+        "label": "Hero episode",
+        "definition": "An episode explicitly about a good person or group: Christmas \"non-bastard\" and hero specials."
+      },
+      {
+        "id": "live-show",
+        "label": "Live show",
+        "definition": "An episode recorded in front of a live audience."
+      },
+      {
+        "id": "crossover",
+        "label": "Crossover / promo",
+        "definition": "An episode from, or promoting, another podcast, re-published in the BtB feed."
+      },
+      {
+        "id": "meta",
+        "label": "Meta",
+        "definition": "Q&A, listener questions, year-end specials and other episodes about the show itself."
+      }
+    ],
+    "roles": [
+      {
+        "id": "dictator-autocrat",
+        "label": "Dictator / autocrat",
+        "definition": "Ruled a state without meaningful democratic constraint (including elected leaders who became autocrats).",
+        "group": "Power and state"
+      },
+      {
+        "id": "monarch-royal",
+        "label": "Monarch / royal",
+        "definition": "A king, emperor, tsar, kaiser, shah or prince, or a member of a royal family, whose royal status is central.",
+        "group": "Power and state"
+      },
+      {
+        "id": "politician-official",
+        "label": "Politician / official",
+        "definition": "Held or sought public office, elected or not: legislators, ministers, governors, mayors, diplomats and senior civil servants whose state role is the story.",
+        "group": "Power and state"
+      },
+      {
+        "id": "political-operative",
+        "label": "Political operative",
+        "definition": "Worked behind politicians as a strategist, fixer, lobbyist, lawyer or dirty-tricks specialist.",
+        "group": "Power and state"
+      },
+      {
+        "id": "colonial-administrator",
+        "label": "Colonial figure",
+        "definition": "Ran, governed or profited from a colony as an official, company man or settler leader.",
+        "group": "Power and state"
+      },
+      {
+        "id": "military-officer",
+        "label": "Military officer / soldier",
+        "definition": "Served in a state armed force, and that service matters to the story.",
+        "group": "Force and security"
+      },
+      {
+        "id": "mercenary-warlord",
+        "label": "Mercenary / warlord",
+        "definition": "Led or fought in a non-state or private armed force.",
+        "group": "Force and security"
+      },
+      {
+        "id": "police-lawman",
+        "label": "Police / lawman",
+        "definition": "Police officer, sheriff, prison official, border agent or police trainer.",
+        "group": "Force and security"
+      },
+      {
+        "id": "spy-intelligence",
+        "label": "Spy / intelligence officer",
+        "definition": "Worked for an intelligence service or ran covert operations.",
+        "group": "Force and security"
+      },
+      {
+        "id": "explorer-adventurer",
+        "label": "Explorer / adventurer",
+        "definition": "Travelled to places unknown to their own society, led expeditions, or built a reputation on adventure.",
+        "group": "Knowledge and medicine"
+      },
+      {
+        "id": "scientist-scholar",
+        "label": "Scientist / scholar",
+        "definition": "Worked as a researcher, academic, archaeologist or naturalist (real credentials, whatever the ethics).",
+        "group": "Knowledge and medicine"
+      },
+      {
+        "id": "physician-surgeon",
+        "label": "Physician / surgeon",
+        "definition": "Licensed medical doctor or surgeon practising mainstream medicine.",
+        "group": "Knowledge and medicine"
+      },
+      {
+        "id": "psychiatrist-psychologist",
+        "label": "Psychiatrist / psychologist",
+        "definition": "Mental-health professional, therapist or self-styled psychology expert.",
+        "group": "Knowledge and medicine"
+      },
+      {
+        "id": "quack-fake-healer",
+        "label": "Quack / fake healer",
+        "definition": "Sold treatments or cures without a scientific basis, with or without credentials.",
+        "group": "Knowledge and medicine"
+      },
+      {
+        "id": "inventor-engineer",
+        "label": "Inventor / engineer",
+        "definition": "Designed machines, weapons or technology, and the invention is central.",
+        "group": "Knowledge and medicine"
+      },
+      {
+        "id": "business-executive",
+        "label": "Business owner / executive",
+        "definition": "Founded, owned or ran a non-tech business.",
+        "group": "Money"
+      },
+      {
+        "id": "tech-founder",
+        "label": "Tech founder / executive",
+        "definition": "Founded or ran a technology or internet company.",
+        "group": "Money"
+      },
+      {
+        "id": "financier-investor",
+        "label": "Financier / investor",
+        "definition": "Made their mark through finance, banking, speculation, crypto or investing.",
+        "group": "Money"
+      },
+      {
+        "id": "con-artist",
+        "label": "Con artist / grifter",
+        "definition": "Their main occupation was deceiving people for money or status.",
+        "group": "Money"
+      },
+      {
+        "id": "religious-leader",
+        "label": "Religious leader / preacher",
+        "definition": "Clergy, preacher, televangelist or leader within an established religion.",
+        "group": "Belief"
+      },
+      {
+        "id": "cult-leader",
+        "label": "Cult leader",
+        "definition": "Founded or led a high-control group or new religious movement.",
+        "group": "Belief"
+      },
+      {
+        "id": "occultist-guru",
+        "label": "Occultist / guru / spiritual teacher",
+        "definition": "Taught esoteric, occult, New Age or wellness spirituality outside an organized cult.",
+        "group": "Belief"
+      },
+      {
+        "id": "conspiracy-theorist",
+        "label": "Conspiracy theorist",
+        "definition": "Built a following by promoting conspiracy theories.",
+        "group": "Belief"
+      },
+      {
+        "id": "media-personality",
+        "label": "Media personality / broadcaster",
+        "definition": "Radio, TV or podcast host or pundit.",
+        "group": "Culture and media"
+      },
+      {
+        "id": "journalist-propagandist",
+        "label": "Journalist / propagandist",
+        "definition": "Worked in journalism, PR, advertising or state propaganda.",
+        "group": "Culture and media"
+      },
+      {
+        "id": "writer-intellectual",
+        "label": "Writer / intellectual",
+        "definition": "Author, philosopher or ideologue whose writing is their main influence.",
+        "group": "Culture and media"
+      },
+      {
+        "id": "entertainer-artist",
+        "label": "Entertainer / artist",
+        "definition": "Actor, director, musician, comedian, painter, cartoonist, fashion designer or other artist.",
+        "group": "Culture and media"
+      },
+      {
+        "id": "athlete-sports",
+        "label": "Athlete / sports figure",
+        "definition": "Player, coach, team owner or sports official.",
+        "group": "Culture and media"
+      },
+      {
+        "id": "influencer-online",
+        "label": "Influencer / online figure",
+        "definition": "Built influence mainly through social media, forums or online video.",
+        "group": "Culture and media"
+      },
+      {
+        "id": "criminal-killer",
+        "label": "Criminal / killer",
+        "definition": "Committed serious crimes (murder, trafficking, abuse, organized crime) as a central part of the story.",
+        "group": "Violence and crime"
+      },
+      {
+        "id": "terrorist-militant",
+        "label": "Terrorist / militant",
+        "definition": "Carried out or organized political violence outside state forces.",
+        "group": "Violence and crime"
+      },
+      {
+        "id": "activist-organizer",
+        "label": "Activist / organizer",
+        "definition": "Organized a political or social movement, campaign or militia (bastard or hero).",
+        "group": "Violence and crime"
+      }
+    ],
+    "themes": [
+      {
+        "id": "authoritarianism",
+        "label": "Dictatorship & authoritarianism",
+        "definition": "How autocrats take, hold and abuse state power.",
+        "group": "Power and politics"
+      },
+      {
+        "id": "fascism-far-right",
+        "label": "Fascism & the far right",
+        "definition": "Fascist, neo-fascist and far-right movements, thinkers and regimes other than German Nazism.",
+        "group": "Power and politics"
+      },
+      {
+        "id": "nazism",
+        "label": "Nazism & the Holocaust",
+        "definition": "The German Nazi party and regime (1920-1945), its people and crimes, and explicitly Nazi movements after it.",
+        "group": "Power and politics"
+      },
+      {
+        "id": "communism-state-socialism",
+        "label": "Communist regimes",
+        "definition": "Abuses by communist or state-socialist regimes and their leaders.",
+        "group": "Power and politics"
+      },
+      {
+        "id": "coups-insurrections",
+        "label": "Coups & insurrections",
+        "definition": "Attempts to seize power illegally: coups, putsches, insurrections, plots.",
+        "group": "Power and politics"
+      },
+      {
+        "id": "monarchy-empire",
+        "label": "Monarchy & royalty",
+        "definition": "Kings, emperors, courts and dynasties as institutions of power.",
+        "group": "Power and politics"
+      },
+      {
+        "id": "electoral-politics",
+        "label": "Elections & party politics",
+        "definition": "Campaigns, parties, elected officials, political operatives and dirty tricks in democracies.",
+        "group": "Power and politics"
+      },
+      {
+        "id": "religious-right-culture-war",
+        "label": "Religious right & culture wars",
+        "definition": "Organized campaigns over religion, sexuality, gender, family and \"values\" in politics.",
+        "group": "Power and politics"
+      },
+      {
+        "id": "genocide-mass-killing",
+        "label": "Genocide & mass killing",
+        "definition": "Deliberate killing of large numbers of civilians or of a people.",
+        "group": "Violence and war"
+      },
+      {
+        "id": "war-war-crimes",
+        "label": "War & war crimes",
+        "definition": "The conduct of wars, military leaders, atrocities in war and military failure.",
+        "group": "Violence and war"
+      },
+      {
+        "id": "terrorism",
+        "label": "Terrorism & political violence",
+        "definition": "Non-state political violence: bombings, assassinations, militant groups.",
+        "group": "Violence and war"
+      },
+      {
+        "id": "colonialism-imperialism",
+        "label": "Colonialism & empire",
+        "definition": "Conquest, colonization and exploitation of other peoples' lands by empires, companies and settlers.",
+        "group": "Violence and war"
+      },
+      {
+        "id": "slavery-forced-labor",
+        "label": "Slavery & forced labor",
+        "definition": "Chattel slavery, slave trading, convict leasing and other forced labor.",
+        "group": "Violence and war"
+      },
+      {
+        "id": "policing-incarceration",
+        "label": "Policing & prisons",
+        "definition": "Police, sheriffs, prisons, border enforcement, detention and the legal machinery around them.",
+        "group": "Violence and war"
+      },
+      {
+        "id": "intelligence-covert-ops",
+        "label": "Intelligence & covert operations",
+        "definition": "Spy agencies, covert operations, surveillance and state secrets.",
+        "group": "Violence and war"
+      },
+      {
+        "id": "medical-malpractice",
+        "label": "Medical abuse & malpractice",
+        "definition": "Harm done by licensed medical professionals or institutions practising real medicine.",
+        "group": "Medicine and science"
+      },
+      {
+        "id": "quackery-pseudoscience",
+        "label": "Quackery & pseudoscience",
+        "definition": "Fake cures, fraudulent treatments and pseudoscientific fields.",
+        "group": "Medicine and science"
+      },
+      {
+        "id": "eugenics-scientific-racism",
+        "label": "Eugenics & scientific racism",
+        "definition": "Pseudo-scientific claims of racial or hereditary hierarchy and policies built on them.",
+        "group": "Medicine and science"
+      },
+      {
+        "id": "public-health",
+        "label": "Public health & pharma",
+        "definition": "Epidemics, drug regulation, pharmaceutical companies, vaccines and health systems.",
+        "group": "Medicine and science"
+      },
+      {
+        "id": "drugs",
+        "label": "Drugs & the drug war",
+        "definition": "Illegal drugs, drug trafficking, addiction and drug policy.",
+        "group": "Medicine and science"
+      },
+      {
+        "id": "science-exploration",
+        "label": "Science, archaeology & exploration",
+        "definition": "Expeditions, discovery, archaeology and scientific research as an enterprise.",
+        "group": "Medicine and science"
+      },
+      {
+        "id": "cults-new-religions",
+        "label": "Cults & new religions",
+        "definition": "High-control groups, new religious movements and their leaders.",
+        "group": "Belief"
+      },
+      {
+        "id": "organized-religion",
+        "label": "Organized religion",
+        "definition": "Abuse, corruption or politics within established churches and religions.",
+        "group": "Belief"
+      },
+      {
+        "id": "conspiracy-theories",
+        "label": "Conspiracy theories",
+        "definition": "The spread, makers and consequences of conspiracy theories.",
+        "group": "Belief"
+      },
+      {
+        "id": "occult-esoteric",
+        "label": "Occult, esoteric & New Age",
+        "definition": "Occultism, mysticism, Theosophy, astrology, psychics and New Age spirituality.",
+        "group": "Belief"
+      },
+      {
+        "id": "fraud-grift",
+        "label": "Fraud & grift",
+        "definition": "Swindles, con jobs, scams, fake credentials and grifting.",
+        "group": "Money"
+      },
+      {
+        "id": "corporate-malfeasance",
+        "label": "Corporate crimes",
+        "definition": "Companies or executives causing harm for profit: dangerous products, cover-ups, union-busting.",
+        "group": "Money"
+      },
+      {
+        "id": "finance-crypto",
+        "label": "Finance, real estate & crypto",
+        "definition": "Banking, speculation, debt, real estate, private equity and cryptocurrency.",
+        "group": "Money"
+      },
+      {
+        "id": "labor-exploitation",
+        "label": "Labor & workers",
+        "definition": "Exploitation and killing of workers, strikes, labor disasters, union struggles.",
+        "group": "Money"
+      },
+      {
+        "id": "environmental-destruction",
+        "label": "Environment & climate",
+        "definition": "Pollution, ecological destruction and climate denial.",
+        "group": "Money"
+      },
+      {
+        "id": "weapons-arms-trade",
+        "label": "Weapons & arms dealing",
+        "definition": "Arms manufacturers, arms dealers, gun lobbies and weapons inventors.",
+        "group": "Money"
+      },
+      {
+        "id": "racism-white-supremacy",
+        "label": "Racism & white supremacy",
+        "definition": "Racist movements, segregation, lynching and white-supremacist organizing.",
+        "group": "Society"
+      },
+      {
+        "id": "misogyny-manosphere",
+        "label": "Misogyny & the manosphere",
+        "definition": "Organized misogyny, masculinity grifters, incels and anti-feminist movements.",
+        "group": "Society"
+      },
+      {
+        "id": "sexual-abuse",
+        "label": "Sexual abuse of adults",
+        "definition": "Rape, sexual assault, sexual coercion and sex trafficking where the victims are adults.",
+        "group": "Society"
+      },
+      {
+        "id": "child-abuse",
+        "label": "Abuse of children",
+        "definition": "Any abuse of minors, sexual or not: child sexual abuse, troubled-teen facilities, residential schools, child prisons, baby trafficking, cruelty by parents or institutions.",
+        "group": "Society"
+      },
+      {
+        "id": "propaganda-media",
+        "label": "Propaganda & media",
+        "definition": "Propaganda, PR, news media, talk radio and manipulation of public opinion.",
+        "group": "Society"
+      },
+      {
+        "id": "entertainment-celebrity",
+        "label": "Entertainment & celebrity",
+        "definition": "Hollywood, music, TV, fashion and celebrity culture.",
+        "group": "Society"
+      },
+      {
+        "id": "sports",
+        "label": "Sports",
+        "definition": "Athletes, teams, owners, sports bodies and competitions, including the Olympics and chess.",
+        "group": "Society"
+      },
+      {
+        "id": "education",
+        "label": "Education & schools",
+        "definition": "Schools, universities, teachers, curricula and education movements, including for-profit and fake schools.",
+        "group": "Society"
+      },
+      {
+        "id": "wellness-self-help",
+        "label": "Wellness & self-help",
+        "definition": "Self-help, fitness, diet, longevity and lifestyle gurus.",
+        "group": "Society"
+      },
+      {
+        "id": "tech-internet",
+        "label": "Tech industry & the internet",
+        "definition": "Tech companies, online platforms, internet subcultures and Silicon Valley ideology.",
+        "group": "Technology"
+      },
+      {
+        "id": "artificial-intelligence",
+        "label": "Artificial intelligence",
+        "definition": "AI companies, AI hype and harms caused by AI systems.",
+        "group": "Technology"
+      }
+    ],
+    "polities": [
+      {
+        "id": "roman-republic",
+        "label": "Roman Republic",
+        "definition": "Roman Republic (-509 to -27)"
+      },
+      {
+        "id": "roman-empire",
+        "label": "Roman Empire",
+        "definition": "Roman Empire (-27 to 476)"
+      },
+      {
+        "id": "carthage",
+        "label": "Carthage",
+        "definition": "Carthage (-814 to -146)"
+      },
+      {
+        "id": "holy-roman-empire",
+        "label": "Holy Roman Empire",
+        "definition": "Holy Roman Empire (800 to 1806)"
+      },
+      {
+        "id": "ottoman-empire",
+        "label": "Ottoman Empire",
+        "definition": "Ottoman Empire (1299 to 1922)"
+      },
+      {
+        "id": "spanish-empire",
+        "label": "Spanish Empire",
+        "definition": "Spanish Empire (1492 to 1898)"
+      },
+      {
+        "id": "portuguese-empire",
+        "label": "Portuguese Empire",
+        "definition": "Portuguese Empire (1415 to 1999)"
+      },
+      {
+        "id": "british-empire",
+        "label": "British Empire",
+        "definition": "British Empire (1583 to 1997)"
+      },
+      {
+        "id": "french-colonial-empire",
+        "label": "French colonial empire",
+        "definition": "French colonial empire (1534 to 1980)"
+      },
+      {
+        "id": "russian-empire",
+        "label": "Russian Empire",
+        "definition": "Russian Empire (1721 to 1917)"
+      },
+      {
+        "id": "qing-china",
+        "label": "Qing China",
+        "definition": "Qing China (1644 to 1912)"
+      },
+      {
+        "id": "empire-of-japan",
+        "label": "Empire of Japan",
+        "definition": "Empire of Japan (1868 to 1947)"
+      },
+      {
+        "id": "german-empire",
+        "label": "German Empire",
+        "definition": "German Empire (1871 to 1918)"
+      },
+      {
+        "id": "austria-hungary",
+        "label": "Austria-Hungary",
+        "definition": "Austria-Hungary (1867 to 1918)"
+      },
+      {
+        "id": "congo-free-state",
+        "label": "Congo Free State / Belgian Congo",
+        "definition": "Congo Free State / Belgian Congo (1885 to 1960)"
+      },
+      {
+        "id": "confederate-states",
+        "label": "Confederate States of America",
+        "definition": "Confederate States of America (1861 to 1865)"
+      },
+      {
+        "id": "weimar-republic",
+        "label": "Weimar Republic",
+        "definition": "Weimar Republic (1918 to 1933)"
+      },
+      {
+        "id": "nazi-germany",
+        "label": "Nazi Germany",
+        "definition": "Nazi Germany (1933 to 1945)"
+      },
+      {
+        "id": "soviet-union",
+        "label": "Soviet Union",
+        "definition": "Soviet Union (1922 to 1991)"
+      },
+      {
+        "id": "yugoslavia",
+        "label": "Yugoslavia",
+        "definition": "Yugoslavia (1918 to 1992)"
+      },
+      {
+        "id": "east-germany",
+        "label": "East Germany (GDR)",
+        "definition": "East Germany (GDR) (1949 to 1990)"
+      },
+      {
+        "id": "rhodesia",
+        "label": "Rhodesia",
+        "definition": "Rhodesia (1965 to 1979)"
+      },
+      {
+        "id": "apartheid-south-africa",
+        "label": "Apartheid South Africa",
+        "definition": "Apartheid South Africa (1948 to 1994)"
+      }
+    ],
+    "content_warnings": [
+      {
+        "id": "sexual-violence",
+        "label": "Sexual violence",
+        "definition": "Detailed accounts of rape, sexual assault or sexual coercion of adults."
+      },
+      {
+        "id": "child-abuse",
+        "label": "Child abuse",
+        "definition": "Detailed accounts of physical, sexual or emotional abuse of children."
+      },
+      {
+        "id": "graphic-violence",
+        "label": "Graphic violence",
+        "definition": "Explicit descriptions of killing, mutilation or injury."
+      },
+      {
+        "id": "torture",
+        "label": "Torture",
+        "definition": "Detailed descriptions of torture or deliberate cruelty against captives."
+      },
+      {
+        "id": "mass-atrocity",
+        "label": "Mass atrocity",
+        "definition": "Detailed accounts of massacres, genocide or death camps."
+      },
+      {
+        "id": "suicide-self-harm",
+        "label": "Suicide & self-harm",
+        "definition": "Discussion of a specific suicide, suicide method or self-harm."
+      },
+      {
+        "id": "medical-horror",
+        "label": "Medical horror",
+        "definition": "Graphic descriptions of surgery, experimentation on people or medical injury."
+      },
+      {
+        "id": "animal-cruelty",
+        "label": "Animal cruelty",
+        "definition": "Detailed descriptions of animals being harmed or killed."
+      },
+      {
+        "id": "drug-use",
+        "label": "Drug use & overdose",
+        "definition": "Detailed accounts of drug use, addiction or fatal overdose."
+      },
+      {
+        "id": "hate-speech",
+        "label": "Hateful language",
+        "definition": "Extended reading or quoting of racist, antisemitic or other slurs and hate propaganda."
+      }
+    ],
+    "subject_kinds": [
+      {
+        "id": "person",
+        "label": "Person",
+        "definition": "A single named human being."
+      },
+      {
+        "id": "group",
+        "label": "Group of people",
+        "definition": "Two or more named people treated as one subject: a couple, a family, siblings, a gang or crew. List each person separately instead if the story treats them as distinct bastards."
+      },
+      {
+        "id": "organization",
+        "label": "Organization",
+        "definition": "A formal body with a name and structure. Requires `org_type`."
+      },
+      {
+        "id": "movement-or-ideology",
+        "label": "Movement or ideology",
+        "definition": "A diffuse movement, subculture or set of ideas without one controlling organization."
+      },
+      {
+        "id": "event",
+        "label": "Event",
+        "definition": "A bounded happening with a start and end: a disaster, war, coup, scandal, crime."
+      },
+      {
+        "id": "practice-or-pseudoscience",
+        "label": "Practice or pseudoscience",
+        "definition": "A method, treatment, technology or field (real or fake) whose history is the story."
+      },
+      {
+        "id": "place",
+        "label": "Place",
+        "definition": "A location whose history is the story itself."
+      },
+      {
+        "id": "media-work",
+        "label": "Media work",
+        "definition": "A book, show, film, magazine or game that is itself the subject."
+      }
+    ],
+    "org_types": [
+      {
+        "id": "company",
+        "label": "Company",
+        "definition": "A for-profit business, including family firms and conglomerates."
+      },
+      {
+        "id": "government-agency",
+        "label": "Government agency",
+        "definition": "A civilian state body (FDA, Border Patrol, ICE). Use police / military / intelligence when those fit better."
+      },
+      {
+        "id": "police",
+        "label": "Police",
+        "definition": "Police forces, sheriffs' offices, police unions, prison and detention systems."
+      },
+      {
+        "id": "military",
+        "label": "Military",
+        "definition": "Armed forces, military units, mercenary companies."
+      },
+      {
+        "id": "intelligence",
+        "label": "Intelligence agency",
+        "definition": "CIA, KGB, FBI (when the story is about its intelligence/covert role) and similar."
+      },
+      {
+        "id": "religious-body",
+        "label": "Religious body",
+        "definition": "An established church, denomination or religious institution (Catholic Church, Southern Baptist Convention)."
+      },
+      {
+        "id": "cult",
+        "label": "Cult or new religious movement",
+        "definition": "A high-control group or new religion (Scientology, the Moonies, the 12 Tribes, Synanon)."
+      },
+      {
+        "id": "school-or-facility",
+        "label": "School or facility",
+        "definition": "A school, residential program, hospital, asylum, camp or troubled-teen facility."
+      },
+      {
+        "id": "media-outlet",
+        "label": "Media outlet",
+        "definition": "A newspaper, network, magazine, website or platform as an institution (Fox News, YouTube, 8chan)."
+      },
+      {
+        "id": "political-org",
+        "label": "Political organization",
+        "definition": "A party, pressure group, militia, think tank or lobby (NRA, Proud Boys, John Birch Society)."
+      },
+      {
+        "id": "ngo",
+        "label": "Non-profit / NGO",
+        "definition": "A charity, foundation or non-governmental organization."
+      }
+    ]
+  },
+  "eras": [
+    {
+      "id": "ancient",
+      "label": "Ancient world",
+      "start": -3000,
+      "end": 499,
+      "scope": "global"
+    },
+    {
+      "id": "medieval",
+      "label": "Middle Ages",
+      "start": 500,
+      "end": 1499,
+      "scope": "global"
+    },
+    {
+      "id": "age-of-exploration",
+      "label": "Age of Exploration",
+      "start": 1415,
+      "end": 1650,
+      "scope": "global"
+    },
+    {
+      "id": "early-modern",
+      "label": "Early modern",
+      "start": 1500,
+      "end": 1788,
+      "scope": "global"
+    },
+    {
+      "id": "age-of-revolutions",
+      "label": "Age of Revolutions",
+      "start": 1775,
+      "end": 1848,
+      "scope": "global"
+    },
+    {
+      "id": "modern",
+      "label": "Modern era",
+      "start": 1789,
+      "end": null,
+      "scope": "global"
+    },
+    {
+      "id": "long-19th-century",
+      "label": "Long 19th century",
+      "start": 1789,
+      "end": 1914,
+      "scope": "global"
+    },
+    {
+      "id": "new-imperialism",
+      "label": "New Imperialism",
+      "start": 1870,
+      "end": 1914,
+      "scope": "global"
+    },
+    {
+      "id": "world-war-i",
+      "label": "World War I",
+      "start": 1914,
+      "end": 1918,
+      "scope": "global"
+    },
+    {
+      "id": "interwar",
+      "label": "Interwar years",
+      "start": 1918,
+      "end": 1939,
+      "scope": "global"
+    },
+    {
+      "id": "great-depression",
+      "label": "Great Depression",
+      "start": 1929,
+      "end": 1939,
+      "scope": "global"
+    },
+    {
+      "id": "world-war-ii",
+      "label": "World War II",
+      "start": 1939,
+      "end": 1945,
+      "scope": "global"
+    },
+    {
+      "id": "cold-war",
+      "label": "Cold War",
+      "start": 1947,
+      "end": 1991,
+      "scope": "global"
+    },
+    {
+      "id": "decolonization",
+      "label": "Decolonization",
+      "start": 1945,
+      "end": 1975,
+      "scope": "global"
+    },
+    {
+      "id": "post-cold-war",
+      "label": "Post-Cold War",
+      "start": 1991,
+      "end": 2001,
+      "scope": "global"
+    },
+    {
+      "id": "war-on-terror",
+      "label": "War on Terror",
+      "start": 2001,
+      "end": 2021,
+      "scope": "global"
+    },
+    {
+      "id": "contemporary",
+      "label": "Contemporary",
+      "start": 2010,
+      "end": null,
+      "scope": "global"
+    },
+    {
+      "id": "roman-republic",
+      "label": "Roman Republic",
+      "start": -509,
+      "end": -27,
+      "scope": "regional",
+      "region_hint": "Rome"
+    },
+    {
+      "id": "roman-empire",
+      "label": "Roman Empire",
+      "start": -27,
+      "end": 476,
+      "scope": "regional",
+      "region_hint": "Rome"
+    },
+    {
+      "id": "victorian",
+      "label": "Victorian era",
+      "start": 1837,
+      "end": 1901,
+      "scope": "regional",
+      "region_hint": "UK"
+    },
+    {
+      "id": "edwardian",
+      "label": "Edwardian era",
+      "start": 1901,
+      "end": 1914,
+      "scope": "regional",
+      "region_hint": "UK"
+    },
+    {
+      "id": "antebellum",
+      "label": "Antebellum",
+      "start": 1815,
+      "end": 1861,
+      "scope": "regional",
+      "region_hint": "US"
+    },
+    {
+      "id": "us-civil-war",
+      "label": "American Civil War",
+      "start": 1861,
+      "end": 1865,
+      "scope": "regional",
+      "region_hint": "US"
+    },
+    {
+      "id": "reconstruction",
+      "label": "Reconstruction",
+      "start": 1865,
+      "end": 1877,
+      "scope": "regional",
+      "region_hint": "US"
+    },
+    {
+      "id": "gilded-age",
+      "label": "Gilded Age",
+      "start": 1870,
+      "end": 1900,
+      "scope": "regional",
+      "region_hint": "US"
+    },
+    {
+      "id": "progressive-era",
+      "label": "Progressive Era",
+      "start": 1896,
+      "end": 1917,
+      "scope": "regional",
+      "region_hint": "US"
+    },
+    {
+      "id": "jim-crow",
+      "label": "Jim Crow era",
+      "start": 1877,
+      "end": 1965,
+      "scope": "regional",
+      "region_hint": "US"
+    },
+    {
+      "id": "roaring-twenties",
+      "label": "Roaring Twenties",
+      "start": 1920,
+      "end": 1929,
+      "scope": "regional",
+      "region_hint": "US"
+    },
+    {
+      "id": "civil-rights-era",
+      "label": "Civil Rights era",
+      "start": 1954,
+      "end": 1968,
+      "scope": "regional",
+      "region_hint": "US"
+    },
+    {
+      "id": "reagan-era",
+      "label": "Reagan era",
+      "start": 1981,
+      "end": 1989,
+      "scope": "regional",
+      "region_hint": "US"
+    },
+    {
+      "id": "belle-epoque",
+      "label": "Belle Époque",
+      "start": 1871,
+      "end": 1914,
+      "scope": "regional",
+      "region_hint": "France / Europe"
+    },
+    {
+      "id": "scramble-for-africa",
+      "label": "Scramble for Africa",
+      "start": 1881,
+      "end": 1914,
+      "scope": "regional",
+      "region_hint": "Africa"
+    },
+    {
+      "id": "meiji",
+      "label": "Meiji era",
+      "start": 1868,
+      "end": 1912,
+      "scope": "regional",
+      "region_hint": "Japan"
+    },
+    {
+      "id": "weimar",
+      "label": "Weimar Republic",
+      "start": 1918,
+      "end": 1933,
+      "scope": "regional",
+      "region_hint": "Germany"
+    },
+    {
+      "id": "third-reich",
+      "label": "Nazi Germany",
+      "start": 1933,
+      "end": 1945,
+      "scope": "regional",
+      "region_hint": "Germany"
+    },
+    {
+      "id": "soviet-era",
+      "label": "Soviet era",
+      "start": 1917,
+      "end": 1991,
+      "scope": "regional",
+      "region_hint": "Russia / USSR"
+    },
+    {
+      "id": "vietnam-war",
+      "label": "Vietnam War",
+      "start": 1955,
+      "end": 1975,
+      "scope": "regional",
+      "region_hint": "Southeast Asia / US"
+    }
+  ],
+  "countries": [
+    {
+      "code": "BO",
+      "name": "Bolivia",
+      "continent": "Americas",
+      "subregion": "South America"
+    },
+    {
+      "code": "BR",
+      "name": "Brazil",
+      "continent": "Americas",
+      "subregion": "South America"
+    },
+    {
+      "code": "CD",
+      "name": "DR Congo",
+      "continent": "Africa",
+      "subregion": "Middle Africa"
+    },
+    {
+      "code": "CH",
+      "name": "Switzerland",
+      "continent": "Europe",
+      "subregion": "Western Europe"
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "continent": "Europe",
+      "subregion": "Western Europe"
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "continent": "Europe",
+      "subregion": "Northern Europe"
+    },
+    {
+      "code": "GR",
+      "name": "Greece",
+      "continent": "Europe",
+      "subregion": "Southern Europe"
+    },
+    {
+      "code": "KE",
+      "name": "Kenya",
+      "continent": "Africa",
+      "subregion": "Eastern Africa"
+    },
+    {
+      "code": "NG",
+      "name": "Nigeria",
+      "continent": "Africa",
+      "subregion": "Western Africa"
+    },
+    {
+      "code": "RO",
+      "name": "Romania",
+      "continent": "Europe",
+      "subregion": "Eastern Europe"
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "continent": "Europe",
+      "subregion": "Eastern Europe"
+    },
+    {
+      "code": "TR",
+      "name": "Turkey",
+      "continent": "Asia",
+      "subregion": "Western Asia"
+    },
+    {
+      "code": "TZ",
+      "name": "Tanzania",
+      "continent": "Africa",
+      "subregion": "Eastern Africa"
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "continent": "Americas",
+      "subregion": "North America"
+    }
+  ],
+  "stories": [
+    {
+      "id": "sample-heinrich-schliemann",
+      "title": "Heinrich Schliemann: The Archaeologist Who Destroyed Troy",
+      "format": "deep-dive",
+      "first_published": "2026-10-06T09:00:00+00:00",
+      "parts": [
+        {
+          "title": "Part One: Heinrich Schliemann: The Archaeologist Who Destroyed Troy",
+          "part": 1,
+          "published": "2026-10-06T09:00:00+00:00",
+          "duration_s": 4500,
+          "link": null
+        },
+        {
+          "title": "Part Two: Heinrich Schliemann: The Archaeologist Who Destroyed Troy",
+          "part": 2,
+          "published": "2026-10-06T09:00:00+00:00",
+          "duration_s": 4500,
+          "link": null
+        }
+      ],
+      "total_duration_s": 9000,
+      "guests": [],
+      "summary": "A German merchant who got rich in Russia and California, then dug through the real site of Troy looking for Homer and wrecked the layers he was after. (sample data)",
+      "subjects": [
+        {
+          "name": "Heinrich Schliemann",
+          "kind": "person",
+          "role": "primary",
+          "lifespan": {
+            "start": 1822,
+            "end": 1890
+          }
+        }
+      ],
+      "roles": ["explorer-adventurer", "scientist-scholar", "business-executive"],
+      "themes": {
+        "primary": "science-exploration",
+        "secondary": ["fraud-grift"]
+      },
+      "regions": {
+        "origin": ["DE"],
+        "setting": ["TR", "GR", "RU", "US"],
+        "subdivisions": [],
+        "polities": [],
+        "scope": "international"
+      },
+      "time": {
+        "main_span": {
+          "start": 1846,
+          "end": 1890
+        },
+        "reaches_present": false,
+        "approximate": false
+      },
+      "content_warnings": [],
+      "keywords": ["Troy", "Hisarlik", "Mycenae", "Priam's Treasure"],
+      "derived": {
+        "centuries": [19],
+        "eras": [
+          "age-of-revolutions",
+          "modern",
+          "long-19th-century",
+          "new-imperialism",
+          "victorian",
+          "antebellum",
+          "us-civil-war",
+          "reconstruction",
+          "gilded-age",
+          "jim-crow",
+          "belle-epoque",
+          "scramble-for-africa",
+          "meiji"
+        ],
+        "continents": ["Europe", "Asia", "Americas"],
+        "subregions": [
+          "Western Europe",
+          "Western Asia",
+          "Southern Europe",
+          "Eastern Europe",
+          "North America"
+        ]
+      }
+    },
+    {
+      "id": "sample-percy-fawcett",
+      "title": "Percy Fawcett: Real-Life Indiana Jones, or Deluded Psychic Racist?",
+      "format": "deep-dive",
+      "first_published": "2026-09-08T09:00:00+00:00",
+      "parts": [
+        {
+          "title": "Part One: Percy Fawcett: Real-Life Indiana Jones, or Deluded Psychic Racist?",
+          "part": 1,
+          "published": "2026-09-08T09:00:00+00:00",
+          "duration_s": 4300,
+          "link": null
+        },
+        {
+          "title": "Part Two: Percy Fawcett: Real-Life Indiana Jones, or Deluded Psychic Racist?",
+          "part": 2,
+          "published": "2026-09-08T09:00:00+00:00",
+          "duration_s": 4300,
+          "link": null
+        }
+      ],
+      "total_duration_s": 8600,
+      "guests": [],
+      "summary": "A British officer who surveyed South American borders, then vanished in the Amazon in 1925 hunting a lost city his occult beliefs promised him. (sample data)",
+      "subjects": [
+        {
+          "name": "Percy Fawcett",
+          "kind": "person",
+          "role": "primary",
+          "lifespan": {
+            "start": 1867,
+            "end": 1925
+          }
+        }
+      ],
+      "roles": ["explorer-adventurer", "military-officer"],
+      "themes": {
+        "primary": "science-exploration",
+        "secondary": ["colonialism-imperialism", "occult-esoteric", "racism-white-supremacy"]
+      },
+      "regions": {
+        "origin": ["GB"],
+        "setting": ["BR", "BO"],
+        "subdivisions": [],
+        "polities": ["british-empire"],
+        "scope": "international"
+      },
+      "time": {
+        "main_span": {
+          "start": 1906,
+          "end": 1925
+        },
+        "reaches_present": true,
+        "approximate": false
+      },
+      "content_warnings": [],
+      "keywords": ["Lost City of Z", "Mato Grosso", "Amazon"],
+      "derived": {
+        "centuries": [20],
+        "eras": [
+          "modern",
+          "long-19th-century",
+          "new-imperialism",
+          "world-war-i",
+          "interwar",
+          "edwardian",
+          "progressive-era",
+          "jim-crow",
+          "roaring-twenties",
+          "belle-epoque",
+          "scramble-for-africa",
+          "meiji",
+          "weimar",
+          "soviet-era"
+        ],
+        "continents": ["Europe", "Americas"],
+        "subregions": ["Northern Europe", "South America"]
+      }
+    },
+    {
+      "id": "sample-henry-morton-stanley",
+      "title": "Henry Morton Stanley: The Explorer Who Shot His Way Through Africa",
+      "format": "deep-dive",
+      "first_published": "2020-04-14T09:00:00+00:00",
+      "parts": [
+        {
+          "title": "Henry Morton Stanley: The Explorer Who Shot His Way Through Africa",
+          "part": 1,
+          "published": "2020-04-14T09:00:00+00:00",
+          "duration_s": 4100,
+          "link": null
+        }
+      ],
+      "total_duration_s": 4100,
+      "guests": [],
+      "summary": "A Welsh-born journalist who found Livingstone, then led violent expeditions that opened the Congo to King Leopold II. (sample data)",
+      "subjects": [
+        {
+          "name": "Henry Morton Stanley",
+          "kind": "person",
+          "role": "primary",
+          "lifespan": {
+            "start": 1841,
+            "end": 1904
+          }
+        }
+      ],
+      "roles": ["explorer-adventurer", "journalist-propagandist"],
+      "themes": {
+        "primary": "colonialism-imperialism",
+        "secondary": ["science-exploration", "genocide-mass-killing"]
+      },
+      "regions": {
+        "origin": ["GB"],
+        "setting": ["CD", "TZ", "US"],
+        "subdivisions": [],
+        "polities": ["congo-free-state"],
+        "scope": "international"
+      },
+      "time": {
+        "main_span": {
+          "start": 1867,
+          "end": 1890
+        },
+        "reaches_present": false,
+        "approximate": false
+      },
+      "content_warnings": ["graphic-violence"],
+      "keywords": ["Livingstone", "Congo Free State"],
+      "derived": {
+        "centuries": [19],
+        "eras": [
+          "modern",
+          "long-19th-century",
+          "new-imperialism",
+          "victorian",
+          "reconstruction",
+          "gilded-age",
+          "jim-crow",
+          "belle-epoque",
+          "scramble-for-africa",
+          "meiji"
+        ],
+        "continents": ["Europe", "Africa", "Americas"],
+        "subregions": ["Northern Europe", "Middle Africa", "Eastern Africa", "North America"]
+      }
+    },
+    {
+      "id": "sample-l-ron-hubbard",
+      "title": "How L. Ron Hubbard Lied His Way to Godhood",
+      "format": "deep-dive",
+      "first_published": "2018-08-07T09:00:00+00:00",
+      "parts": [
+        {
+          "title": "Part One: How L. Ron Hubbard Lied His Way to Godhood",
+          "part": 1,
+          "published": "2018-08-07T09:00:00+00:00",
+          "duration_s": 3900,
+          "link": null
+        },
+        {
+          "title": "Part Two: How L. Ron Hubbard Lied His Way to Godhood",
+          "part": 2,
+          "published": "2018-08-07T09:00:00+00:00",
+          "duration_s": 3900,
+          "link": null
+        },
+        {
+          "title": "Part Three: How L. Ron Hubbard Lied His Way to Godhood",
+          "part": 3,
+          "published": "2018-08-07T09:00:00+00:00",
+          "duration_s": 3900,
+          "link": null
+        }
+      ],
+      "total_duration_s": 11700,
+      "guests": [],
+      "summary": "A pulp science-fiction writer who turned a self-help book into Scientology and ran it from a private fleet. (sample data)",
+      "subjects": [
+        {
+          "name": "L. Ron Hubbard",
+          "kind": "person",
+          "role": "primary",
+          "lifespan": {
+            "start": 1911,
+            "end": 1986
+          }
+        },
+        {
+          "name": "Church of Scientology",
+          "kind": "organization",
+          "org_type": "cult",
+          "role": "secondary"
+        }
+      ],
+      "roles": ["cult-leader", "writer-intellectual", "con-artist"],
+      "themes": {
+        "primary": "cults-new-religions",
+        "secondary": ["fraud-grift"]
+      },
+      "regions": {
+        "origin": ["US"],
+        "setting": ["US", "GB"],
+        "subdivisions": [],
+        "polities": [],
+        "scope": "international"
+      },
+      "time": {
+        "main_span": {
+          "start": 1950,
+          "end": 1986
+        },
+        "reaches_present": false,
+        "approximate": false
+      },
+      "content_warnings": [],
+      "keywords": ["Dianetics", "Sea Org"],
+      "derived": {
+        "centuries": [20],
+        "eras": [
+          "modern",
+          "cold-war",
+          "decolonization",
+          "jim-crow",
+          "civil-rights-era",
+          "reagan-era",
+          "soviet-era",
+          "vietnam-war"
+        ],
+        "continents": ["Americas", "Europe"],
+        "subregions": ["North America", "Northern Europe"]
+      }
+    },
+    {
+      "id": "sample-nestle",
+      "title": "How Nestle Starved A Bunch of Babies",
+      "format": "deep-dive",
+      "first_published": "2021-09-21T09:00:00+00:00",
+      "parts": [
+        {
+          "title": "How Nestle Starved A Bunch of Babies",
+          "part": 1,
+          "published": "2021-09-21T09:00:00+00:00",
+          "duration_s": 4000,
+          "link": null
+        }
+      ],
+      "total_duration_s": 4000,
+      "guests": [],
+      "summary": "A Swiss food company that marketed infant formula to poor mothers where clean water was scarce, and the boycott that followed. (sample data)",
+      "subjects": [
+        {
+          "name": "Nestlé",
+          "kind": "organization",
+          "org_type": "company",
+          "role": "primary"
+        }
+      ],
+      "roles": [],
+      "themes": {
+        "primary": "corporate-malfeasance",
+        "secondary": ["public-health"]
+      },
+      "regions": {
+        "origin": ["CH"],
+        "setting": ["KE", "NG", "US"],
+        "subdivisions": [],
+        "polities": [],
+        "scope": "global"
+      },
+      "time": {
+        "main_span": {
+          "start": 1970,
+          "end": 1984
+        },
+        "reaches_present": false,
+        "approximate": false
+      },
+      "content_warnings": [],
+      "keywords": ["infant formula", "Nestlé boycott"],
+      "derived": {
+        "centuries": [20],
+        "eras": ["modern", "cold-war", "decolonization", "reagan-era", "soviet-era", "vietnam-war"],
+        "continents": ["Europe", "Africa", "Americas"],
+        "subregions": ["Western Europe", "Eastern Africa", "Western Africa", "North America"]
+      }
+    },
+    {
+      "id": "sample-steven-seagal-book",
+      "title": "Steven Seagal Wrote a Book (We Read It)",
+      "format": "media-reading",
+      "first_published": "2021-07-20T09:00:00+00:00",
+      "parts": [
+        {
+          "title": "Part One: Steven Seagal Wrote a Book (We Read It)",
+          "part": 1,
+          "published": "2021-07-20T09:00:00+00:00",
+          "duration_s": 3600,
+          "link": null
+        },
+        {
+          "title": "Part Two: Steven Seagal Wrote a Book (We Read It)",
+          "part": 2,
+          "published": "2021-07-20T09:00:00+00:00",
+          "duration_s": 3600,
+          "link": null
+        }
+      ],
+      "total_duration_s": 7200,
+      "guests": [],
+      "summary": "The hosts read an action star's spy novel aloud and take apart what it says about its author. (sample data)",
+      "subjects": [
+        {
+          "name": "Steven Seagal",
+          "kind": "person",
+          "role": "primary",
+          "lifespan": {
+            "start": 1952,
+            "end": null
+          }
+        },
+        {
+          "name": "The Way of the Shadow Wolves",
+          "kind": "media-work",
+          "role": "secondary"
+        }
+      ],
+      "roles": ["entertainer-artist", "writer-intellectual"],
+      "themes": {
+        "primary": "entertainment-celebrity",
+        "secondary": []
+      },
+      "regions": {
+        "origin": ["US"],
+        "setting": ["US"],
+        "subdivisions": [],
+        "polities": [],
+        "scope": "national"
+      },
+      "time": {
+        "main_span": {
+          "start": 2021,
+          "end": 2021
+        },
+        "reaches_present": false,
+        "approximate": false
+      },
+      "content_warnings": [],
+      "keywords": [],
+      "derived": {
+        "centuries": [21],
+        "eras": ["modern", "war-on-terror", "contemporary"],
+        "continents": ["Americas"],
+        "subregions": ["North America"]
+      }
+    },
+    {
+      "id": "sample-triangle-shirtwaist-fire",
+      "title": "The Triangle Shirtwaist Fire",
+      "format": "deep-dive",
+      "first_published": "2021-05-25T09:00:00+00:00",
+      "parts": [
+        {
+          "title": "The Triangle Shirtwaist Fire",
+          "part": 1,
+          "published": "2021-05-25T09:00:00+00:00",
+          "duration_s": 3800,
+          "link": null
+        }
+      ],
+      "total_duration_s": 3800,
+      "guests": [],
+      "summary": "A New York garment factory fire that killed 146 workers behind locked doors, and the owners who walked free. (sample data)",
+      "subjects": [
+        {
+          "name": "Triangle Shirtwaist Factory fire",
+          "kind": "event",
+          "role": "primary"
+        },
+        {
+          "name": "Max Blanck and Isaac Harris",
+          "kind": "group",
+          "role": "secondary"
+        }
+      ],
+      "roles": ["business-executive"],
+      "themes": {
+        "primary": "labor-exploitation",
+        "secondary": ["corporate-malfeasance"]
+      },
+      "regions": {
+        "origin": ["US"],
+        "setting": ["US"],
+        "subdivisions": ["US-NY"],
+        "polities": [],
+        "scope": "local"
+      },
+      "time": {
+        "main_span": {
+          "start": 1909,
+          "end": 1914
+        },
+        "reaches_present": false,
+        "approximate": false
+      },
+      "content_warnings": ["graphic-violence"],
+      "keywords": [],
+      "derived": {
+        "centuries": [20],
+        "eras": [
+          "modern",
+          "long-19th-century",
+          "new-imperialism",
+          "world-war-i",
+          "edwardian",
+          "progressive-era",
+          "jim-crow",
+          "belle-epoque",
+          "scramble-for-africa",
+          "meiji"
+        ],
+        "continents": ["Americas"],
+        "subregions": ["North America"]
+      }
+    },
+    {
+      "id": "sample-andrew-tate-update",
+      "title": "Andrew Tate Update",
+      "format": "current-affairs",
+      "first_published": "2023-03-07T09:00:00+00:00",
+      "parts": [
+        {
+          "title": "Andrew Tate Update",
+          "part": 1,
+          "published": "2023-03-07T09:00:00+00:00",
+          "duration_s": 3500,
+          "link": null
+        }
+      ],
+      "total_duration_s": 3500,
+      "guests": [],
+      "summary": "An update on a manosphere influencer's arrest in Romania on trafficking charges and the movement around him. (sample data)",
+      "subjects": [
+        {
+          "name": "Andrew Tate",
+          "kind": "person",
+          "role": "primary",
+          "lifespan": {
+            "start": 1986,
+            "end": null
+          }
+        }
+      ],
+      "roles": ["influencer-online", "con-artist"],
+      "themes": {
+        "primary": "misogyny-manosphere",
+        "secondary": ["sexual-abuse"]
+      },
+      "regions": {
+        "origin": ["GB", "US"],
+        "setting": ["RO", "GB"],
+        "subdivisions": [],
+        "polities": [],
+        "scope": "international"
+      },
+      "time": {
+        "main_span": {
+          "start": 2022,
+          "end": null
+        },
+        "reaches_present": true,
+        "approximate": false
+      },
+      "content_warnings": ["sexual-violence"],
+      "keywords": [],
+      "derived": {
+        "centuries": [21],
+        "eras": ["modern", "contemporary"],
+        "continents": ["Europe", "Americas"],
+        "subregions": ["Northern Europe", "North America", "Eastern Europe"]
+      }
+    }
+  ]
+}

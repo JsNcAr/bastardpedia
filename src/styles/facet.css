@@ -1,0 +1,119 @@
+.facet-rail {
+  padding-bottom: var(--space-12);
+}
+
+.facet-group {
+  border-top: var(--size-hairline) solid var(--color-border-subtle);
+}
+
+.facet-summary {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: var(--size-tap);
+  padding: var(--space-2) var(--space-4);
+  cursor: pointer;
+  list-style: none;
+}
+
+.facet-summary::-webkit-details-marker {
+  display: none;
+}
+
+.facet-summary:hover {
+  background: var(--color-surface-hover);
+}
+
+.facet-summary:focus-visible {
+  outline-offset: calc(var(--size-focus-ring) * -1);
+}
+
+.facet-title {
+  font-weight: var(--weight-semibold);
+}
+
+.facet-selected {
+  font-size: var(--text-xs);
+  font-weight: var(--weight-medium);
+  color: var(--color-accent-text);
+}
+
+.facet-chevron {
+  display: inline-flex;
+  margin-inline-start: auto;
+  color: var(--color-text-tertiary);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .facet-chevron {
+    transition: transform var(--duration-fast) var(--ease-out);
+  }
+}
+
+.facet-group[open] .facet-chevron {
+  transform: rotate(180deg);
+}
+
+.facet-body {
+  padding: 0 var(--space-4) var(--space-4);
+}
+
+.facet-subgroup + .facet-subgroup {
+  margin-top: var(--space-3);
+}
+
+.facet-subtitle {
+  margin-bottom: var(--space-1);
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semibold);
+  color: var(--color-text-secondary);
+}
+
+.facet-hint {
+  margin-bottom: var(--space-2);
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+}
+
+.facet-option {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: calc(var(--size-tap) - var(--space-2));
+  padding: 0 var(--space-2);
+  margin-inline: calc(var(--space-2) * -1);
+  border-radius: var(--radius-sm);
+  font-size: var(--text-sm);
+  cursor: pointer;
+}
+
+.facet-option:hover {
+  background: var(--color-surface-hover);
+}
+
+.facet-option:has(input:checked) {
+  background: var(--color-surface-selected);
+  color: var(--color-accent-text);
+  font-weight: var(--weight-medium);
+}
+
+.facet-option:has(input:focus-visible) {
+  outline: var(--size-focus-ring) solid var(--color-border-focus);
+  outline-offset: 0;
+}
+
+.facet-option input:focus-visible {
+  outline: none;
+}
+
+.facet-option-label {
+  flex: 1;
+  min-width: 0;
+}
+
+.facet-option-count {
+  font-variant-numeric: tabular-nums;
+  font-size: var(--text-xs);
+  color: var(--color-text-tertiary);
+}
