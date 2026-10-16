@@ -66,9 +66,16 @@ function main(): void {
     for (const code of [...record.regions.origin, ...record.regions.setting]) {
       countries[code] = countryInfo(code)?.name ?? code;
     }
-    const span = record.time?.main_span;
+    const span = record.time?.covered_span;
+    const place = {
+      countries: [...record.regions.origin, ...record.regions.setting],
+      polities: record.regions.polities,
+    };
     const derived = span
-      ? { centuries: centuriesOf(span), eras: erasOf(span, taxonomy.eras) }
+      ? {
+          centuries: centuriesOf(span),
+          eras: erasOf(span, taxonomy.eras, new Date().getFullYear(), place),
+        }
       : { centuries: [], eras: [] };
     const compareFile = compareDir ? join(compareDir, file) : undefined;
     const compare =

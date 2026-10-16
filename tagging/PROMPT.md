@@ -82,8 +82,11 @@ primary subject is a person or group.
 
 - `origin`: modern countries (ISO 3166-1 alpha-2) the **primary subjects come from**: birthplace
   or nationality for people, founding country or headquarters for organizations. 0-4 codes.
-- `setting`: modern countries where the story's events **happen**, most important first. 1-6
-  codes; empty only if `scope` is `online`.
+- `setting`: modern countries where the story's events **happen**, 1-6 codes; empty only if
+  `scope` is `online`. **Order by importance**: first the places where the main harm or the main
+  events happened, then the rest by how much of the story they take. A company's headquarters,
+  a courtroom or a hearing ranks below the place where people were hurt (Nestlé: the African
+  countries where babies died come before the US).
 - **Always map historical places to the modern country that contains them**: Prussia → DE,
   Troy/Hisarlik → TR, Ceylon → LK, Rhodesia → ZW, Leningrad → RU, the Congo Free State → CD.
 - `subdivisions`: ISO 3166-2 codes (e.g. `US-OR`, `US-TX`, `GB-SCT`) only when a single state or
@@ -96,20 +99,41 @@ primary subject is a person or group.
 
 ### Step 6. Time
 
-Do **not** choose eras. The app works them out from your years.
+Do **not** choose eras. The app works them out from your years. There are two spans:
+`covered_span` drives every period filter, and `main_span` is the core of the story.
+
+- `covered_span`: the years the story **covers**, from the earliest to the latest period it
+  discusses at real length. A period counts when both hold:
+  1. it is part of the subject's own story: their life, their actions, or consequences they
+     directly caused (a later lawsuit over the same harm counts);
+  2. it takes a real share of the airtime: a few minutes or more, roughly 5% of the story or
+     more. A passing mention does not count.
+
+  Leave out epilogues about other people searching for, reinterpreting or memorialising the
+  subject (modern expeditions retracing an explorer, a recent film): those set
+  `reaches_present` instead.
+
+  **Lifetime rule** for `deep-dive` and `hero` stories whose primary subject is a person: the
+  covered span must include that person's whole life, from birth to death, or to the release
+  year of the last part if they were still alive when it aired. The validator checks this
+  against `lifespan`. It does not apply to other formats: a reading of a 2018 book covers the
+  book's years, not its author's life.
+
+  `covered_span.end` is always a year, never `null`.
 
 - `main_span`: the years of the **main events**. Use this test: _if you wrote a two-sentence
   encyclopedia summary of why this subject matters, which years would those sentences cover?_
   - For a person, start at the first consequential act the story is about, **not** at birth,
     unless the childhood is itself a major part of the story ("The Childhood of Joseph Stalin").
   - End at the last consequential event: death, downfall, disappearance, conviction.
-  - For organizations, movements and events, cover the period the story actually narrates.
+  - For organizations, movements and events, cover the core period the story narrates.
+  - For a living subject still active at release, set `end: null`.
+  - `main_span` must lie inside `covered_span`.
 - `reaches_present`: `true` if the story spends real time following the subject's legacy or
   consequences up to the release date (e.g. the anti-vaccine movement continuing into the 2010s).
   A one-line coda does not count.
-- `approximate`: `true` if either end is an estimate ("the 1870s" → 1870).
+- `approximate`: `true` if either end of either span is an estimate ("the 1870s" → 1870).
 - BCE years are negative: the Third Punic War is `{ "start": -149, "end": -146 }`.
-- For a living subject still active at release, set `end: null`.
 
 ### Step 7. Summary, keywords, guests
 
@@ -156,7 +180,7 @@ Story: _Part One / Part Two: Percy Fawcett: Real-Life Indiana Jones, or Deluded 
 ```json
 {
   "story_id": "percy-fawcett-real-life-indiana-jones-or-deluded-psychic-racist",
-  "taxonomy_version": "0.2.0",
+  "taxonomy_version": "0.3.0",
   "tagged_by": {
     "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
@@ -191,6 +215,7 @@ Story: _Part One / Part Two: Percy Fawcett: Real-Life Indiana Jones, or Deluded 
   },
   "time": {
     "main_span": { "start": 1906, "end": 1925 },
+    "covered_span": { "start": 1867, "end": 1925 },
     "reaches_present": true,
     "approximate": false
   },
@@ -218,6 +243,8 @@ Story: _Part One / Part Two: Percy Fawcett: Real-Life Indiana Jones, or Deluded 
 ```
 
 Why this shape: Fawcett's encyclopedia summary is "explorer who surveyed South American borders
-from 1906 and disappeared in 1925", so `main_span` is 1906-1925 even though he was born in 1867.
+from 1906 and disappeared in 1925", so `main_span` is 1906-1925. The lifetime rule makes
+`covered_span` 1867-1925; the modern searches for his lost city are an epilogue, so they set
+`reaches_present` instead of extending the covered years.
 His Ceylon posting puts LK in the setting only if the story spends real time there. The
 search for him after he vanished, still going today, makes `reaches_present` true.

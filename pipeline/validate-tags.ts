@@ -13,7 +13,7 @@ import { basename, join, resolve } from 'node:path';
 import { loadStories, readJson } from './lib/io.ts';
 import { TAGS_DIR } from './lib/paths.ts';
 import { loadTaxonomy } from './lib/taxonomy.ts';
-import { makeValidator } from './lib/validate.ts';
+import { makeValidator, releaseYearsOf } from './lib/validate.ts';
 
 function main(): void {
   const argv = process.argv.slice(2);
@@ -36,12 +36,12 @@ function main(): void {
   }
 
   const taxonomy = loadTaxonomy();
-  const episodeStoryIds = new Set(
-    loadStories()
-      .filter((s) => s.kind === 'episode')
-      .map((s) => s.id),
-  );
-  const validate = makeValidator({ taxonomy, episodeStoryIds });
+  const episodeStories = loadStories().filter((s) => s.kind === 'episode');
+  const validate = makeValidator({
+    taxonomy,
+    episodeStoryIds: new Set(episodeStories.map((s) => s.id)),
+    releaseYears: releaseYearsOf(episodeStories),
+  });
 
   let failed = 0;
   let warned = 0;

@@ -42,6 +42,11 @@ const span = z
   .object({ start: year, end: year.nullable() })
   .refine((s) => s.end === null || s.start <= s.end, 'start must be <= end');
 
+/** Covered years always end in a concrete year: the release year for living subjects. */
+const closedSpan = z
+  .object({ start: year, end: year })
+  .refine((s) => s.start <= s.end, 'start must be <= end');
+
 export function makeStoryTagsSchema(v: Vocabularies) {
   const subject = z
     .object({
@@ -93,9 +98,16 @@ export function makeStoryTagsSchema(v: Vocabularies) {
       time: z
         .object({
           main_span: span,
+          covered_span: closedSpan,
           reaches_present: z.boolean(),
           approximate: z.boolean(),
         })
+        .refine(
+          (t) =>
+            t.covered_span.start <= t.main_span.start &&
+            (t.main_span.end === null || t.covered_span.end >= t.main_span.end),
+          { message: 'covered_span must contain main_span', path: ['covered_span'] },
+        )
         .nullable(),
       summary: z.string().min(LIMITS.summaryMin).max(LIMITS.summaryMax),
       content_warnings: z.array(z.enum(v.contentWarnings)).max(LIMITS.contentWarnings),

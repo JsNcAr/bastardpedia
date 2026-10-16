@@ -56,3 +56,55 @@ describe('regions', () => {
     });
   });
 });
+
+describe('erasOf with a place (regional eras)', () => {
+  const regional = [
+    {
+      id: 'victorian',
+      start: 1837,
+      end: 1901,
+      match: { continents: ['Europe'], polities: ['british-empire'] },
+    },
+    {
+      id: 'meiji',
+      start: 1868,
+      end: 1912,
+      match: { countries: ['JP'], polities: ['empire-of-japan'] },
+    },
+    { id: 'jim-crow', start: 1877, end: 1965, match: { countries: ['US'] } },
+    {
+      id: 'third-reich',
+      start: 1933,
+      end: 1945,
+      match: { countries: ['DE', 'AT'], polities: ['nazi-germany'] },
+    },
+    { id: 'cold-war', start: 1947, end: 1991 },
+  ];
+
+  it('keeps Victorian for a German archaeologist in Turkey, drops Meiji and Jim Crow', () => {
+    const place = { countries: ['DE', 'TR', 'GR'], polities: ['ottoman-empire'] };
+    expect(erasOf({ start: 1822, end: 1890 }, regional, 2026, place)).toEqual(['victorian']);
+  });
+
+  it('keeps Victorian through a polity alone', () => {
+    const place = { countries: ['BR', 'BO'], polities: ['british-empire'] };
+    expect(erasOf({ start: 1867, end: 1925 }, regional, 2026, place)).toEqual(['victorian']);
+  });
+
+  it('does not put an American cult leader under Nazi Germany', () => {
+    const place = { countries: ['US', 'ES', 'GR'], polities: [] };
+    expect(erasOf({ start: 1911, end: 1986 }, regional, 2026, place)).toEqual([
+      'jim-crow',
+      'cold-war',
+    ]);
+  });
+
+  it('matches by time only without a place', () => {
+    expect(erasOf({ start: 1911, end: 1986 }, regional)).toEqual([
+      'meiji',
+      'jim-crow',
+      'third-reich',
+      'cold-war',
+    ]);
+  });
+});

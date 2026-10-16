@@ -1,7 +1,7 @@
 /** Generate docs/taxonomy-reference.md from tagging/taxonomy/*.yaml. Never edit the output by hand. */
 import { writeFileSync } from 'node:fs';
 import { join } from 'node:path';
-import type { TermDef } from '../shared/taxonomy.ts';
+import type { EraDef, TermDef } from '../shared/taxonomy.ts';
 import { ROOT } from './lib/paths.ts';
 import { loadTaxonomy } from './lib/taxonomy.ts';
 
@@ -26,6 +26,13 @@ function termTable(terms: TermDef[], grouped: boolean): string[] {
     );
   }
   return grouped ? rows : ['| id | label | definition | examples |', '|---|---|---|---|', ...rows];
+}
+
+function matchText(m: EraDef['match']): string {
+  if (!m) return '';
+  return [m.countries?.join(', '), m.continents?.join(', '), m.polities?.join(', ')]
+    .filter(Boolean)
+    .join('; ');
 }
 
 function main(): void {
@@ -70,13 +77,13 @@ function main(): void {
     '',
     `## Eras (${t.eras.length})`,
     '',
-    'Derived from `time.main_span` by overlap; never chosen by the agent. Centuries are computed and not listed.',
+    'Derived from `time.covered_span` by overlap; regional eras also need a matching place (`match`). Never chosen by the agent. Centuries are computed and not listed.',
     '',
-    '| id | label | years | scope | region hint |',
-    '|---|---|---|---|---|',
+    '| id | label | years | scope | region hint | story must touch |',
+    '|---|---|---|---|---|---|',
     ...t.eras.map(
       (e) =>
-        `| \`${e.id}\` | ${e.label} | ${year(e.start)} to ${year(e.end)} | ${e.scope} | ${e.region_hint ?? ''} |`,
+        `| \`${e.id}\` | ${e.label} | ${year(e.start)} to ${year(e.end)} | ${e.scope} | ${e.region_hint ?? ''} | ${matchText(e.match)} |`,
     ),
     '',
   ];

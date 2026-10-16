@@ -22,6 +22,14 @@ export interface EraWindow {
   id: string;
   start: number;
   end: number | null;
+  /** Regional eras only: the story must touch one of these to belong to the era. */
+  match?: { countries?: string[]; continents?: string[]; polities?: string[] } | undefined;
+}
+
+/** Where a story is from or happens: origin + setting countries, plus polities. */
+export interface Place {
+  countries: readonly string[];
+  polities: readonly string[];
 }
 
 /** Year -> century number. 1906 -> 20, 1900 -> 19, -149 -> -2, -1 -> -1. There is no year 0. */
@@ -51,14 +59,32 @@ export function centuryLabel(century: number): string {
   return `${n}${suffix} century${century < 0 ? ' BCE' : ''}`;
 }
 
-/** Ids of the eras whose window overlaps the span (inclusive), in era order. */
+function placeMatches(match: NonNullable<EraWindow['match']>, place: Place): boolean {
+  if (match.polities?.some((p) => place.polities.includes(p))) return true;
+  if (match.countries?.some((c) => place.countries.includes(c))) return true;
+  if (match.continents) {
+    const continents = place.countries.map((c) => COUNTRIES.get(c)?.continent);
+    if (match.continents.some((c) => continents.includes(c))) return true;
+  }
+  return false;
+}
+
+/**
+ * Ids of the eras whose window overlaps the span (inclusive), in era order.
+ * With a `place`, an era that declares `match` (a regional era) also needs the
+ * story to touch its region: Meiji only for stories tied to Japan.
+ */
 export function erasOf(
   span: Span,
   eras: readonly EraWindow[],
   now = new Date().getFullYear(),
+  place?: Place,
 ): string[] {
   const end = resolveEnd(span, now);
-  return eras.filter((e) => span.start <= (e.end ?? now) && e.start <= end).map((e) => e.id);
+  return eras
+    .filter((e) => span.start <= (e.end ?? now) && e.start <= end)
+    .filter((e) => !place || !e.match || placeMatches(e.match, place))
+    .map((e) => e.id);
 }
 
 export interface CountryInfo {

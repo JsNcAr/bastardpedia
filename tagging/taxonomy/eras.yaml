@@ -1,159 +1,251 @@
 # Named time windows. NOT chosen by the tagging agent: the app derives them by
-# checking whether a story's time span overlaps [start, end].
+# checking whether a story's time.covered_span overlaps [start, end].
 #   - `end: null` means "to the present".
 #   - Years are integers; negative = BCE.
-#   - `region_hint` is only a UI label ("Victorian (UK)"); matching is by time only,
-#     so "Victorian" also finds a German archaeologist working in Turkey in the 1870s.
+#   - Global eras match by time only.
+#   - Regional eras also need the story to touch their region: `match` lists the
+#     countries, continents (UN regions: Africa, Americas, Asia, Europe, Oceania) or
+#     polities of which at least one must appear in the story's origin, setting or
+#     polities. So Meiji only applies to stories tied to Japan, while Victorian
+#     (Europe or the British Empire) still finds a German archaeologist in the 1870s.
+#   - `region_hint` is the UI label ("Victorian (UK)").
 #   - `scope: global` eras show in the main era picker; `scope: regional` eras show
 #     grouped under their region hint.
 #   - Centuries ("19th century", "1st century BCE") are NOT listed here: the app computes
 #     them from the years.
-#   - Matching uses time.main_span only. These filters are orientative, not exact.
+#   - Matching uses time.covered_span. These filters are orientative, not exact.
 facet: eras
 derived: true
 values:
   # Global
-  - { id: ancient, label: Ancient world, start: -3000, end: 499, scope: global }
-  - { id: medieval, label: Middle Ages, start: 500, end: 1499, scope: global }
-  - { id: age-of-exploration, label: Age of Exploration, start: 1415, end: 1650, scope: global }
-  - { id: early-modern, label: Early modern, start: 1500, end: 1788, scope: global }
-  - { id: age-of-revolutions, label: Age of Revolutions, start: 1775, end: 1848, scope: global }
-  - { id: modern, label: Modern era, start: 1789, end: null, scope: global }
-  - { id: long-19th-century, label: Long 19th century, start: 1789, end: 1914, scope: global }
-  - { id: new-imperialism, label: New Imperialism, start: 1870, end: 1914, scope: global }
-  - { id: world-war-i, label: World War I, start: 1914, end: 1918, scope: global }
-  - { id: interwar, label: Interwar years, start: 1918, end: 1939, scope: global }
-  - { id: great-depression, label: Great Depression, start: 1929, end: 1939, scope: global }
-  - { id: world-war-ii, label: World War II, start: 1939, end: 1945, scope: global }
-  - { id: cold-war, label: Cold War, start: 1947, end: 1991, scope: global }
-  - { id: decolonization, label: Decolonization, start: 1945, end: 1975, scope: global }
-  - { id: post-cold-war, label: Post-Cold War, start: 1991, end: 2001, scope: global }
-  - { id: war-on-terror, label: War on Terror, start: 2001, end: 2021, scope: global }
-  - { id: contemporary, label: Contemporary, start: 2010, end: null, scope: global }
+  - id: ancient
+    label: Ancient world
+    start: -3000
+    end: 499
+    scope: global
+  - id: medieval
+    label: Middle Ages
+    start: 500
+    end: 1499
+    scope: global
+  - id: age-of-exploration
+    label: Age of Exploration
+    start: 1415
+    end: 1650
+    scope: global
+  - id: early-modern
+    label: Early modern
+    start: 1500
+    end: 1788
+    scope: global
+  - id: age-of-revolutions
+    label: Age of Revolutions
+    start: 1775
+    end: 1848
+    scope: global
+  - id: modern
+    label: Modern era
+    start: 1789
+    end: null
+    scope: global
+  - id: long-19th-century
+    label: Long 19th century
+    start: 1789
+    end: 1914
+    scope: global
+  - id: new-imperialism
+    label: New Imperialism
+    start: 1870
+    end: 1914
+    scope: global
+  - id: world-war-i
+    label: World War I
+    start: 1914
+    end: 1918
+    scope: global
+  - id: interwar
+    label: Interwar years
+    start: 1918
+    end: 1939
+    scope: global
+  - id: great-depression
+    label: Great Depression
+    start: 1929
+    end: 1939
+    scope: global
+  - id: world-war-ii
+    label: World War II
+    start: 1939
+    end: 1945
+    scope: global
+  - id: cold-war
+    label: Cold War
+    start: 1947
+    end: 1991
+    scope: global
+  - id: decolonization
+    label: Decolonization
+    start: 1945
+    end: 1975
+    scope: global
+  - id: post-cold-war
+    label: Post-Cold War
+    start: 1991
+    end: 2001
+    scope: global
+  - id: war-on-terror
+    label: War on Terror
+    start: 2001
+    end: 2021
+    scope: global
+  - id: contemporary
+    label: Contemporary
+    start: 2010
+    end: null
+    scope: global
 
   # Regional
-  - {
-      id: roman-republic,
-      label: Roman Republic,
-      start: -509,
-      end: -27,
-      scope: regional,
-      region_hint: Rome,
-    }
-  - {
-      id: roman-empire,
-      label: Roman Empire,
-      start: -27,
-      end: 476,
-      scope: regional,
-      region_hint: Rome,
-    }
-  - {
-      id: victorian,
-      label: Victorian era,
-      start: 1837,
-      end: 1901,
-      scope: regional,
-      region_hint: UK,
-    }
-  - {
-      id: edwardian,
-      label: Edwardian era,
-      start: 1901,
-      end: 1914,
-      scope: regional,
-      region_hint: UK,
-    }
-  - { id: antebellum, label: Antebellum, start: 1815, end: 1861, scope: regional, region_hint: US }
-  - {
-      id: us-civil-war,
-      label: American Civil War,
-      start: 1861,
-      end: 1865,
-      scope: regional,
-      region_hint: US,
-    }
-  - {
-      id: reconstruction,
-      label: Reconstruction,
-      start: 1865,
-      end: 1877,
-      scope: regional,
-      region_hint: US,
-    }
-  - { id: gilded-age, label: Gilded Age, start: 1870, end: 1900, scope: regional, region_hint: US }
-  - {
-      id: progressive-era,
-      label: Progressive Era,
-      start: 1896,
-      end: 1917,
-      scope: regional,
-      region_hint: US,
-    }
-  - { id: jim-crow, label: Jim Crow era, start: 1877, end: 1965, scope: regional, region_hint: US }
-  - {
-      id: roaring-twenties,
-      label: Roaring Twenties,
-      start: 1920,
-      end: 1929,
-      scope: regional,
-      region_hint: US,
-    }
-  - {
-      id: civil-rights-era,
-      label: Civil Rights era,
-      start: 1954,
-      end: 1968,
-      scope: regional,
-      region_hint: US,
-    }
-  - { id: reagan-era, label: Reagan era, start: 1981, end: 1989, scope: regional, region_hint: US }
-  - {
-      id: belle-epoque,
-      label: Belle Époque,
-      start: 1871,
-      end: 1914,
-      scope: regional,
-      region_hint: France / Europe,
-    }
-  - {
-      id: scramble-for-africa,
-      label: Scramble for Africa,
-      start: 1881,
-      end: 1914,
-      scope: regional,
-      region_hint: Africa,
-    }
-  - { id: meiji, label: Meiji era, start: 1868, end: 1912, scope: regional, region_hint: Japan }
-  - {
-      id: weimar,
-      label: Weimar Republic,
-      start: 1918,
-      end: 1933,
-      scope: regional,
-      region_hint: Germany,
-    }
-  - {
-      id: third-reich,
-      label: Nazi Germany,
-      start: 1933,
-      end: 1945,
-      scope: regional,
-      region_hint: Germany,
-    }
-  - {
-      id: soviet-era,
-      label: Soviet era,
-      start: 1917,
-      end: 1991,
-      scope: regional,
-      region_hint: Russia / USSR,
-    }
-  - {
-      id: vietnam-war,
-      label: Vietnam War,
-      start: 1955,
-      end: 1975,
-      scope: regional,
-      region_hint: Southeast Asia / US,
-    }
+  - id: roman-republic
+    label: Roman Republic
+    start: -509
+    end: -27
+    scope: regional
+    region_hint: Rome
+    match: { countries: [IT], polities: [roman-republic, carthage] }
+  - id: roman-empire
+    label: Roman Empire
+    start: -27
+    end: 476
+    scope: regional
+    region_hint: Rome
+    match: { countries: [IT], polities: [roman-empire] }
+  - id: victorian
+    label: Victorian era
+    start: 1837
+    end: 1901
+    scope: regional
+    region_hint: UK
+    match: { continents: [Europe], polities: [british-empire] }
+  - id: edwardian
+    label: Edwardian era
+    start: 1901
+    end: 1914
+    scope: regional
+    region_hint: UK
+    match: { continents: [Europe], polities: [british-empire] }
+  - id: antebellum
+    label: Antebellum
+    start: 1815
+    end: 1861
+    scope: regional
+    region_hint: US
+    match: { countries: [US] }
+  - id: us-civil-war
+    label: American Civil War
+    start: 1861
+    end: 1865
+    scope: regional
+    region_hint: US
+    match: { countries: [US], polities: [confederate-states] }
+  - id: reconstruction
+    label: Reconstruction
+    start: 1865
+    end: 1877
+    scope: regional
+    region_hint: US
+    match: { countries: [US], polities: [confederate-states] }
+  - id: gilded-age
+    label: Gilded Age
+    start: 1870
+    end: 1900
+    scope: regional
+    region_hint: US
+    match: { countries: [US] }
+  - id: progressive-era
+    label: Progressive Era
+    start: 1896
+    end: 1917
+    scope: regional
+    region_hint: US
+    match: { countries: [US] }
+  - id: jim-crow
+    label: Jim Crow era
+    start: 1877
+    end: 1965
+    scope: regional
+    region_hint: US
+    match: { countries: [US] }
+  - id: roaring-twenties
+    label: Roaring Twenties
+    start: 1920
+    end: 1929
+    scope: regional
+    region_hint: US
+    match: { countries: [US] }
+  - id: civil-rights-era
+    label: Civil Rights era
+    start: 1954
+    end: 1968
+    scope: regional
+    region_hint: US
+    match: { countries: [US] }
+  - id: reagan-era
+    label: Reagan era
+    start: 1981
+    end: 1989
+    scope: regional
+    region_hint: US
+    match: { countries: [US] }
+  - id: belle-epoque
+    label: Belle Époque
+    start: 1871
+    end: 1914
+    scope: regional
+    region_hint: France / Europe
+    match: { continents: [Europe] }
+  - id: scramble-for-africa
+    label: Scramble for Africa
+    start: 1881
+    end: 1914
+    scope: regional
+    region_hint: Africa
+    match: { continents: [Africa], polities: [congo-free-state] }
+  - id: meiji
+    label: Meiji era
+    start: 1868
+    end: 1912
+    scope: regional
+    region_hint: Japan
+    match: { countries: [JP], polities: [empire-of-japan] }
+  - id: weimar
+    label: Weimar Republic
+    start: 1918
+    end: 1933
+    scope: regional
+    region_hint: Germany
+    match: { countries: [DE], polities: [weimar-republic] }
+  - id: third-reich
+    label: Nazi Germany
+    start: 1933
+    end: 1945
+    scope: regional
+    region_hint: Germany
+    match: { countries: [DE, AT], polities: [nazi-germany] }
+  - id: soviet-era
+    label: Soviet era
+    start: 1917
+    end: 1991
+    scope: regional
+    region_hint: Russia / USSR
+    match:
+      {
+        countries: [RU, UA, BY, MD, EE, LV, LT, GE, AM, AZ, KZ, UZ, TM, KG, TJ],
+        polities: [soviet-union],
+      }
+  - id: vietnam-war
+    label: Vietnam War
+    start: 1955
+    end: 1975
+    scope: regional
+    region_hint: Southeast Asia / US
+    match: { countries: [VN, LA, KH] }

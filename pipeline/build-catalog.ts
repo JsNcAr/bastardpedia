@@ -24,7 +24,7 @@ import { loadEpisodes, loadStories, readJson } from './lib/io.ts';
 import { deepMerge } from './lib/merge.ts';
 import { CATALOG_FILE, OVERRIDES_DIR, TAGS_DIR } from './lib/paths.ts';
 import { loadTaxonomy } from './lib/taxonomy.ts';
-import { makeValidator } from './lib/validate.ts';
+import { makeValidator, releaseYearsOf } from './lib/validate.ts';
 
 const GUEST_RE =
   /\b(?:is|are)?\s*joined(?: again| once again)? by ([^.;]+?)(?= to | for | in |\.|,|;|$)/i;
@@ -70,7 +70,12 @@ function toCatalogStory(
           ),
         ),
       ];
-  const span = tags.time?.main_span;
+  // Period filters use the covered years (docs/TAXONOMY.md); regional eras also need the place.
+  const span = tags.time?.covered_span;
+  const place = {
+    countries: [...tags.regions.origin, ...tags.regions.setting],
+    polities: tags.regions.polities,
+  };
   const { continents, subregions } = regionsOf([...tags.regions.origin, ...tags.regions.setting]);
   const taxonomy = loadTaxonomy();
   return {
@@ -91,7 +96,7 @@ function toCatalogStory(
     keywords: tags.keywords,
     derived: {
       centuries: span ? centuriesOf(span, now) : [],
-      eras: span ? erasOf(span, taxonomy.eras, now) : [],
+      eras: span ? erasOf(span, taxonomy.eras, now, place) : [],
       continents,
       subregions,
     },
@@ -102,7 +107,11 @@ export function buildCatalog(now = new Date()): { catalog: Catalog; failed: stri
   const taxonomy = loadTaxonomy();
   const stories = loadStories().filter((s) => s.kind === 'episode');
   const episodes = new Map(loadEpisodes().map((e) => [e.guid, e]));
-  const validate = makeValidator({ taxonomy, episodeStoryIds: new Set(stories.map((s) => s.id)) });
+  const validate = makeValidator({
+    taxonomy,
+    episodeStoryIds: new Set(stories.map((s) => s.id)),
+    releaseYears: releaseYearsOf(stories),
+  });
 
   const out: CatalogStory[] = [];
   const failed: string[] = [];

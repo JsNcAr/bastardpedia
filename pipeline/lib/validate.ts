@@ -17,6 +17,20 @@ export interface ValidationContext {
   taxonomy: Taxonomy;
   /** Ids of stories with kind === 'episode'. */
   episodeStoryIds: ReadonlySet<string>;
+  /** Story id -> year its last part was released. Enables the covered-years lifetime rule. */
+  releaseYears?: ReadonlyMap<string, number>;
+}
+
+/** Formats whose covered years must include the protagonist's whole life. */
+export const LIFETIME_FORMATS = ['deep-dive', 'hero'];
+
+/** Story id -> release year of its last part. */
+export function releaseYearsOf(
+  stories: readonly { id: string; parts: readonly { published: string }[] }[],
+): Map<string, number> {
+  return new Map(
+    stories.map((s) => [s.id, Math.max(...s.parts.map((p) => Number(p.published.slice(0, 4))))]),
+  );
 }
 
 function major(version: string): string {
@@ -55,6 +69,24 @@ export function makeValidator(ctx: ValidationContext) {
       if (!isCountryCode(country))
         errors.push(`regions.subdivisions.${i}: "${code}" does not start with a real country code`);
     });
+
+    const released = ctx.releaseYears?.get(t.story_id);
+    if (t.time && released !== undefined && LIFETIME_FORMATS.includes(t.format)) {
+      const covered = t.time.covered_span;
+      for (const s of t.subjects) {
+        if (s.role !== 'primary' || s.kind !== 'person' || !s.lifespan) continue;
+        const { start, end } = s.lifespan;
+        if (start !== null && covered.start > start)
+          errors.push(
+            `time.covered_span.start ${covered.start} must reach back to ${s.name}'s birth (${start})`,
+          );
+        const needed = end === null ? released : Math.min(end, released);
+        if (covered.end < needed)
+          errors.push(
+            `time.covered_span.end ${covered.end} must reach ${needed} (${s.name}'s ${end === null || end > released ? 'life up to the release year' : 'death'})`,
+          );
+      }
+    }
 
     if (t.taxonomy_version !== ctx.taxonomy.version) {
       const msg = `taxonomy_version ${t.taxonomy_version} differs from the current ${ctx.taxonomy.version}`;

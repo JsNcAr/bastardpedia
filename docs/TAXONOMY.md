@@ -5,7 +5,7 @@ How stories are classified, and why. The vocabularies themselves live in
 instructions are in [`tagging/PROMPT.md`](../tagging/PROMPT.md), and the record structure is in
 [`shared/schemas/story-tags.ts`](../shared/schemas/story-tags.ts).
 
-Current version: see `tagging/taxonomy/VERSION` (0.2.0, draft).
+Current version: see `tagging/taxonomy/VERSION` (0.3.0, draft).
 
 ## The unit: a story, not an episode
 
@@ -20,16 +20,16 @@ never tagged on their own.
 Each facet answers one question. The facets are designed not to overlap, so a filter on one
 never duplicates another.
 
-| Facet                 | Question                                  | Filled by   | Vocabulary                                        |
-| --------------------- | ----------------------------------------- | ----------- | ------------------------------------------------- |
-| `format`              | What kind of episode?                     | agent       | `formats.yaml`: 7 values                          |
-| `subjects`            | Who or what is it about?                  | agent       | free names + `subject-kinds.yaml`                 |
-| `roles`               | What were the people?                     | agent       | `roles.yaml`: 32 roles in 7 groups                |
-| `themes`              | What is the story about?                  | agent       | `themes.yaml`: 42 themes in 7 groups              |
-| `regions`             | Where are they from, where did it happen? | agent       | ISO 3166-1/-2 + `polities.yaml`                   |
-| `time`                | When did the main events happen?          | agent       | integer years                                     |
-| continent / subregion | Where, broadly?                           | **derived** | UN M49 table                                      |
-| periods               | Which period?                             | **derived** | `eras.yaml`: 37 time windows + computed centuries |
+| Facet                 | Question                                  | Filled by   | Vocabulary                                                                             |
+| --------------------- | ----------------------------------------- | ----------- | -------------------------------------------------------------------------------------- |
+| `format`              | What kind of episode?                     | agent       | `formats.yaml`: 7 values                                                               |
+| `subjects`            | Who or what is it about?                  | agent       | free names + `subject-kinds.yaml`                                                      |
+| `roles`               | What were the people?                     | agent       | `roles.yaml`: 32 roles in 7 groups                                                     |
+| `themes`              | What is the story about?                  | agent       | `themes.yaml`: 47 themes in 7 groups                                                   |
+| `regions`             | Where are they from, where did it happen? | agent       | ISO 3166-1/-2 + `polities.yaml`                                                        |
+| `time`                | When did the main events happen?          | agent       | integer years                                                                          |
+| continent / subregion | Where, broadly?                           | **derived** | UN M49 table                                                                           |
+| periods               | Which period?                             | **derived** | `eras.yaml`: 37 time windows (regional ones matched by place too) + computed centuries |
 
 ### Roles vs themes
 
@@ -62,35 +62,49 @@ keeps filtering simple. When the historical state matters, `polities` records it
 Continents and subregions are looked up from the country codes (UN M49), never chosen by the
 agent, so "Africa" or "South America" filters are always consistent.
 
-### Time: orientative periods
+### Time: covered years and main years
 
-Era names aren't tags. A story stores years, and **periods are time windows**. A story belongs
-to a period when its `main_span` overlaps the window. Period filters are meant to point you in
-the right direction, not to draw exact lines. There are three kinds:
+Era names aren't tags. A story stores years, and **periods are time windows**. Period filters
+are meant to point you in the right direction, not to draw exact lines. There are three kinds:
 
 - **Centuries**, computed from the years with no list involved: "19th century",
   "1st century BCE". A story spanning 1890–1910 is in both the 19th and the 20th century.
 - **Broad periods** (`eras.yaml`, `scope: global`): Ancient world, Middle Ages, Early modern,
-  Modern, Long 19th century, Cold War…
-- **Named eras** (`eras.yaml`, `scope: regional`): Victorian, Gilded Age, Weimar, Meiji…
+  Modern, Long 19th century, Cold War… They match by time only.
+- **Named eras** (`eras.yaml`, `scope: regional`): Victorian, Gilded Age, Weimar, Meiji… They
+  match by time **and** place (below).
 
-Matching uses **`time.main_span` only**. Test for picking it: _if you wrote a two-sentence
-encyclopedia summary of why this subject matters, which years would it cover?_ Birth and
-childhood are left out unless they are central.
+Each story records two spans:
 
-`subjects[].lifespan` (birth and death) is stored for display on the story page. It's never
-used for matching.
+| Span                | What it is                                                                                                                                                                                                                                                            | Used for                                                                   |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| `time.covered_span` | Everything the story covers at real length: part of the subject's own story and a real share of the airtime (a few minutes, roughly 5%, or more). For deep-dive and hero stories about a person, at least their whole life, up to the release year if they were alive | **All period filters**                                                     |
+| `time.main_span`    | The core: the years a two-sentence encyclopedia summary would cover                                                                                                                                                                                                   | Chronological sorting, the story page, a possible strict filter mode later |
 
-Example: Percy Fawcett's main events run 1906–1925, so he falls outside "Victorian" (1837–1901)
-and appears under "Edwardian", "Interwar" and "20th century". That's fine, because these
-filters are orientative. Schliemann (≈1846–1890) and Stanley (≈1867–1890) are Victorian.
+Epilogues about other people retracing or reinterpreting the subject (modern searches for
+Fawcett's lost city) don't extend the covered years. They set `reaches_present`. Consequences the
+subject caused do count: the 2018 case about Nestlé's infant-formula marketing is inside
+Nestlé's covered years.
+
+| Story               | Main years | Covered years                |
+| ------------------- | ---------- | ---------------------------- |
+| Heinrich Schliemann | 1868–1890  | 1822–1890                    |
+| Percy Fawcett       | 1906–1925  | 1867–1925                    |
+| L. Ron Hubbard      | 1934–1975  | 1911–1986                    |
+| Henry Kissinger     | 1968–1977  | 1923–2022 (alive at release) |
+
+**Regional eras need the place too.** Each regional era lists in `match` the countries,
+continents or polities a story must touch (origin, setting or polities) to belong to it. Meiji
+needs Japan, Jim Crow the US, Nazi Germany Germany or Austria (or the polity). Victorian and
+Edwardian take Europe or the British Empire, so Schliemann, a German digging in Turkey in the
+1870s, is still Victorian, and so is Fawcett through the British Empire.
+
+Known limitation: the place check doesn't know _when_ the story was in each place. Hubbard's
+English years in the 1960s put him under "Edwardian" because his covered years start in 1911.
+That's accepted, since the filters only orient.
 
 `current-affairs` episodes get periods like any other story, usually "Contemporary" and
 "21st century".
-
-Named eras filter by time only. `region_hint` (e.g. "UK" for Victorian) is a label that groups
-regional eras in the picker. It doesn't restrict matches, so "Victorian" also finds a German
-digging in Turkey in the 1870s, which matches how people use the word.
 
 ## Format
 
@@ -160,6 +174,13 @@ the warnings on the story page and can hide stories that carry chosen warnings.
   `sports` and `education` themes added; `sexual-abuse` limited to adult victims, `child-abuse`
   covers all abuse of minors (both apply when victims include adults and minors);
   `wellness-self-help` stays separate from `quackery-pseudoscience`.
+
+- 2026-10-16 (0.3.0): period filters use the new `time.covered_span` (whole life for person
+  stories, airtime-weighted, no epilogues) instead of `main_span`; regional eras also match by
+  place; content warning `child-death`; themes `immigration-borders`, `diplomacy-foreign-policy`,
+  `moral-panics`, `domestic-abuse`, `cultural-heritage-looting`; `racism-white-supremacy` widened
+  to all racism and religious bigotry; `weapons-arms-trade` widened to arms races and nuclear
+  strategy; setting order is by where the harm happened.
 
 ## Open questions
 

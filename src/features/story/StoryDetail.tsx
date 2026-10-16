@@ -63,13 +63,19 @@ export function StoryDetail({
 
       <dl className="facts">
         {story.time ? (
-          <div>
-            <dt>Main events</dt>
-            <dd>
-              {formatSpan(story.time.main_span, story.time.approximate)}
-              {story.time.reaches_present ? ', with consequences to the present' : ''}
-            </dd>
-          </div>
+          <>
+            <div>
+              <dt>Years covered</dt>
+              <dd>{formatSpan(story.time.covered_span, story.time.approximate)}</dd>
+            </div>
+            <div>
+              <dt>Main events</dt>
+              <dd>
+                {formatSpan(story.time.main_span, story.time.approximate)}
+                {story.time.reaches_present ? ', with consequences to the present' : ''}
+              </dd>
+            </div>
+          </>
         ) : null}
         <div>
           <dt>Length</dt>

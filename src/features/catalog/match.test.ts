@@ -14,10 +14,18 @@ describe('filterStories', () => {
     expect(out[0]).toBe('sample-heinrich-schliemann');
   });
 
-  it('Victorian explorers: Schliemann and Stanley, not Fawcett', () => {
+  it('Victorian explorers: Schliemann, Stanley and Fawcett (covered years)', () => {
     const out = ids({ era: ['victorian'], role: ['explorer-adventurer'] });
-    expect(out.sort()).toEqual(['sample-heinrich-schliemann', 'sample-henry-morton-stanley']);
-    expect(out).not.toContain('sample-percy-fawcett');
+    expect(out.sort()).toEqual([
+      'sample-heinrich-schliemann',
+      'sample-henry-morton-stanley',
+      'sample-percy-fawcett',
+    ]);
+  });
+
+  it('applies a regional era only to stories tied to its region', () => {
+    expect(ids({ era: ['meiji'] })).toEqual([]);
+    expect(ids({ era: ['third-reich'] })).not.toContain('sample-l-ron-hubbard');
   });
 
   it('the 20th century includes Fawcett', () => {
@@ -29,10 +37,12 @@ describe('filterStories', () => {
       'sample-andrew-tate-update',
       'sample-heinrich-schliemann',
       'sample-henry-morton-stanley',
+      'sample-nestle',
+      'sample-percy-fawcett',
       'sample-steven-seagal-book',
     ]);
     expect(ids({ era: ['victorian', 'contemporary'], role: ['explorer-adventurer'] })).toHaveLength(
-      2,
+      3,
     );
   });
 
@@ -100,8 +110,8 @@ describe('facetCounts', () => {
   it('counts each option holding the other facets fixed', () => {
     const counts = facetCounts(stories, { ...EMPTY_FILTERS, role: ['explorer-adventurer'] });
     // Era counts respect the role filter.
-    expect(counts.era.get('victorian')).toBe(2);
-    expect(counts.era.get('edwardian')).toBe(1);
+    expect(counts.era.get('victorian')).toBe(3);
+    expect(counts.era.get('edwardian')).toBe(2);
     // Role counts ignore the role filter itself, so other roles stay selectable.
     expect(counts.role.get('cult-leader')).toBe(1);
     expect(counts.role.get('explorer-adventurer')).toBe(3);

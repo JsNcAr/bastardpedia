@@ -21,11 +21,12 @@ describe('catalogue page', () => {
     renderApp('/?era=victorian&role=explorer-adventurer', sampleCatalog);
     await screen.findByRole('heading', { name: 'The catalogue' });
     const titles = resultTitles();
-    expect(titles).toHaveLength(2);
+    expect(titles).toHaveLength(3);
     expect(titles.join(' ')).toMatch(/Schliemann/);
     expect(titles.join(' ')).toMatch(/Stanley/);
-    expect(titles.join(' ')).not.toMatch(/Fawcett/);
-    expect(screen.getByText('2 stories of 8')).toBeInTheDocument();
+    expect(titles.join(' ')).toMatch(/Fawcett/);
+    expect(titles.join(' ')).not.toMatch(/Hubbard/);
+    expect(screen.getByText('3 stories of 8')).toBeInTheDocument();
     expect(
       screen.getByRole('button', { name: 'Remove filter: Victorian era (UK)' }),
     ).toBeInTheDocument();

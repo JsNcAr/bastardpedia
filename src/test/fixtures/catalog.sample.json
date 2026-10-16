@@ -1,7 +1,7 @@
 {
   "schema": "catalog/1",
   "generated_at": "2026-10-16T00:00:00+00:00",
-  "taxonomy_version": "0.2.0",
+  "taxonomy_version": "0.3.0",
   "vocab": {
     "formats": [
       {
@@ -883,7 +883,11 @@
       "start": -509,
       "end": -27,
       "scope": "regional",
-      "region_hint": "Rome"
+      "region_hint": "Rome",
+      "match": {
+        "countries": ["IT"],
+        "polities": ["roman-republic", "carthage"]
+      }
     },
     {
       "id": "roman-empire",
@@ -891,7 +895,11 @@
       "start": -27,
       "end": 476,
       "scope": "regional",
-      "region_hint": "Rome"
+      "region_hint": "Rome",
+      "match": {
+        "countries": ["IT"],
+        "polities": ["roman-empire"]
+      }
     },
     {
       "id": "victorian",
@@ -899,7 +907,11 @@
       "start": 1837,
       "end": 1901,
       "scope": "regional",
-      "region_hint": "UK"
+      "region_hint": "UK",
+      "match": {
+        "continents": ["Europe"],
+        "polities": ["british-empire"]
+      }
     },
     {
       "id": "edwardian",
@@ -907,7 +919,11 @@
       "start": 1901,
       "end": 1914,
       "scope": "regional",
-      "region_hint": "UK"
+      "region_hint": "UK",
+      "match": {
+        "continents": ["Europe"],
+        "polities": ["british-empire"]
+      }
     },
     {
       "id": "antebellum",
@@ -915,7 +931,10 @@
       "start": 1815,
       "end": 1861,
       "scope": "regional",
-      "region_hint": "US"
+      "region_hint": "US",
+      "match": {
+        "countries": ["US"]
+      }
     },
     {
       "id": "us-civil-war",
@@ -923,7 +942,11 @@
       "start": 1861,
       "end": 1865,
       "scope": "regional",
-      "region_hint": "US"
+      "region_hint": "US",
+      "match": {
+        "countries": ["US"],
+        "polities": ["confederate-states"]
+      }
     },
     {
       "id": "reconstruction",
@@ -931,7 +954,11 @@
       "start": 1865,
       "end": 1877,
       "scope": "regional",
-      "region_hint": "US"
+      "region_hint": "US",
+      "match": {
+        "countries": ["US"],
+        "polities": ["confederate-states"]
+      }
     },
     {
       "id": "gilded-age",
@@ -939,7 +966,10 @@
       "start": 1870,
       "end": 1900,
       "scope": "regional",
-      "region_hint": "US"
+      "region_hint": "US",
+      "match": {
+        "countries": ["US"]
+      }
     },
     {
       "id": "progressive-era",
@@ -947,7 +977,10 @@
       "start": 1896,
       "end": 1917,
       "scope": "regional",
-      "region_hint": "US"
+      "region_hint": "US",
+      "match": {
+        "countries": ["US"]
+      }
     },
     {
       "id": "jim-crow",
@@ -955,7 +988,10 @@
       "start": 1877,
       "end": 1965,
       "scope": "regional",
-      "region_hint": "US"
+      "region_hint": "US",
+      "match": {
+        "countries": ["US"]
+      }
     },
     {
       "id": "roaring-twenties",
@@ -963,7 +999,10 @@
       "start": 1920,
       "end": 1929,
       "scope": "regional",
-      "region_hint": "US"
+      "region_hint": "US",
+      "match": {
+        "countries": ["US"]
+      }
     },
     {
       "id": "civil-rights-era",
@@ -971,7 +1010,10 @@
       "start": 1954,
       "end": 1968,
       "scope": "regional",
-      "region_hint": "US"
+      "region_hint": "US",
+      "match": {
+        "countries": ["US"]
+      }
     },
     {
       "id": "reagan-era",
@@ -979,7 +1021,10 @@
       "start": 1981,
       "end": 1989,
       "scope": "regional",
-      "region_hint": "US"
+      "region_hint": "US",
+      "match": {
+        "countries": ["US"]
+      }
     },
     {
       "id": "belle-epoque",
@@ -987,7 +1032,10 @@
       "start": 1871,
       "end": 1914,
       "scope": "regional",
-      "region_hint": "France / Europe"
+      "region_hint": "France / Europe",
+      "match": {
+        "continents": ["Europe"]
+      }
     },
     {
       "id": "scramble-for-africa",
@@ -995,7 +1043,11 @@
       "start": 1881,
       "end": 1914,
       "scope": "regional",
-      "region_hint": "Africa"
+      "region_hint": "Africa",
+      "match": {
+        "continents": ["Africa"],
+        "polities": ["congo-free-state"]
+      }
     },
     {
       "id": "meiji",
@@ -1003,7 +1055,11 @@
       "start": 1868,
       "end": 1912,
       "scope": "regional",
-      "region_hint": "Japan"
+      "region_hint": "Japan",
+      "match": {
+        "countries": ["JP"],
+        "polities": ["empire-of-japan"]
+      }
     },
     {
       "id": "weimar",
@@ -1011,7 +1067,11 @@
       "start": 1918,
       "end": 1933,
       "scope": "regional",
-      "region_hint": "Germany"
+      "region_hint": "Germany",
+      "match": {
+        "countries": ["DE"],
+        "polities": ["weimar-republic"]
+      }
     },
     {
       "id": "third-reich",
@@ -1019,7 +1079,11 @@
       "start": 1933,
       "end": 1945,
       "scope": "regional",
-      "region_hint": "Germany"
+      "region_hint": "Germany",
+      "match": {
+        "countries": ["DE", "AT"],
+        "polities": ["nazi-germany"]
+      }
     },
     {
       "id": "soviet-era",
@@ -1027,7 +1091,27 @@
       "start": 1917,
       "end": 1991,
       "scope": "regional",
-      "region_hint": "Russia / USSR"
+      "region_hint": "Russia / USSR",
+      "match": {
+        "countries": [
+          "RU",
+          "UA",
+          "BY",
+          "MD",
+          "EE",
+          "LV",
+          "LT",
+          "GE",
+          "AM",
+          "AZ",
+          "KZ",
+          "UZ",
+          "TM",
+          "KG",
+          "TJ"
+        ],
+        "polities": ["soviet-union"]
+      }
     },
     {
       "id": "vietnam-war",
@@ -1035,7 +1119,10 @@
       "start": 1955,
       "end": 1975,
       "scope": "regional",
-      "region_hint": "Southeast Asia / US"
+      "region_hint": "Southeast Asia / US",
+      "match": {
+        "countries": ["VN", "LA", "KH"]
+      }
     }
   ],
   "countries": [
@@ -1177,6 +1264,10 @@
           "start": 1846,
           "end": 1890
         },
+        "covered_span": {
+          "start": 1822,
+          "end": 1890
+        },
         "reaches_present": false,
         "approximate": false
       },
@@ -1195,9 +1286,7 @@
           "reconstruction",
           "gilded-age",
           "jim-crow",
-          "belle-epoque",
-          "scramble-for-africa",
-          "meiji"
+          "belle-epoque"
         ],
         "continents": ["Europe", "Asia", "Americas"],
         "subregions": [
@@ -1261,28 +1350,26 @@
           "start": 1906,
           "end": 1925
         },
+        "covered_span": {
+          "start": 1867,
+          "end": 1925
+        },
         "reaches_present": true,
         "approximate": false
       },
       "content_warnings": [],
       "keywords": ["Lost City of Z", "Mato Grosso", "Amazon"],
       "derived": {
-        "centuries": [20],
+        "centuries": [19, 20],
         "eras": [
           "modern",
           "long-19th-century",
           "new-imperialism",
           "world-war-i",
           "interwar",
+          "victorian",
           "edwardian",
-          "progressive-era",
-          "jim-crow",
-          "roaring-twenties",
-          "belle-epoque",
-          "scramble-for-africa",
-          "meiji",
-          "weimar",
-          "soviet-era"
+          "belle-epoque"
         ],
         "continents": ["Europe", "Americas"],
         "subregions": ["Northern Europe", "South America"]
@@ -1333,24 +1420,32 @@
           "start": 1867,
           "end": 1890
         },
+        "covered_span": {
+          "start": 1841,
+          "end": 1904
+        },
         "reaches_present": false,
         "approximate": false
       },
       "content_warnings": ["graphic-violence"],
       "keywords": ["Livingstone", "Congo Free State"],
       "derived": {
-        "centuries": [19],
+        "centuries": [19, 20],
         "eras": [
+          "age-of-revolutions",
           "modern",
           "long-19th-century",
           "new-imperialism",
           "victorian",
+          "edwardian",
+          "antebellum",
+          "us-civil-war",
           "reconstruction",
           "gilded-age",
+          "progressive-era",
           "jim-crow",
           "belle-epoque",
-          "scramble-for-africa",
-          "meiji"
+          "scramble-for-africa"
         ],
         "continents": ["Europe", "Africa", "Americas"],
         "subregions": ["Northern Europe", "Middle Africa", "Eastern Africa", "North America"]
@@ -1421,6 +1516,10 @@
           "start": 1950,
           "end": 1986
         },
+        "covered_span": {
+          "start": 1911,
+          "end": 1986
+        },
         "reaches_present": false,
         "approximate": false
       },
@@ -1430,13 +1529,21 @@
         "centuries": [20],
         "eras": [
           "modern",
+          "long-19th-century",
+          "new-imperialism",
+          "world-war-i",
+          "interwar",
+          "great-depression",
+          "world-war-ii",
           "cold-war",
           "decolonization",
+          "edwardian",
+          "progressive-era",
           "jim-crow",
+          "roaring-twenties",
           "civil-rights-era",
           "reagan-era",
-          "soviet-era",
-          "vietnam-war"
+          "belle-epoque"
         ],
         "continents": ["Americas", "Europe"],
         "subregions": ["North America", "Northern Europe"]
@@ -1484,14 +1591,39 @@
           "start": 1970,
           "end": 1984
         },
+        "covered_span": {
+          "start": 1867,
+          "end": 1984
+        },
         "reaches_present": false,
         "approximate": false
       },
       "content_warnings": [],
       "keywords": ["infant formula", "Nestlé boycott"],
       "derived": {
-        "centuries": [20],
-        "eras": ["modern", "cold-war", "decolonization", "reagan-era", "soviet-era", "vietnam-war"],
+        "centuries": [19, 20],
+        "eras": [
+          "modern",
+          "long-19th-century",
+          "new-imperialism",
+          "world-war-i",
+          "interwar",
+          "great-depression",
+          "world-war-ii",
+          "cold-war",
+          "decolonization",
+          "victorian",
+          "edwardian",
+          "reconstruction",
+          "gilded-age",
+          "progressive-era",
+          "jim-crow",
+          "roaring-twenties",
+          "civil-rights-era",
+          "reagan-era",
+          "belle-epoque",
+          "scramble-for-africa"
+        ],
         "continents": ["Europe", "Africa", "Americas"],
         "subregions": ["Western Europe", "Eastern Africa", "Western Africa", "North America"]
       }
@@ -1553,6 +1685,10 @@
           "start": 2021,
           "end": 2021
         },
+        "covered_span": {
+          "start": 2021,
+          "end": 2021
+        },
         "reaches_present": false,
         "approximate": false
       },
@@ -1611,6 +1747,10 @@
           "start": 1909,
           "end": 1914
         },
+        "covered_span": {
+          "start": 1909,
+          "end": 1914
+        },
         "reaches_present": false,
         "approximate": false
       },
@@ -1623,12 +1763,8 @@
           "long-19th-century",
           "new-imperialism",
           "world-war-i",
-          "edwardian",
           "progressive-era",
-          "jim-crow",
-          "belle-epoque",
-          "scramble-for-africa",
-          "meiji"
+          "jim-crow"
         ],
         "continents": ["Americas"],
         "subregions": ["North America"]
@@ -1679,6 +1815,10 @@
           "start": 2022,
           "end": null
         },
+        "covered_span": {
+          "start": 2020,
+          "end": 2023
+        },
         "reaches_present": true,
         "approximate": false
       },
@@ -1686,7 +1826,7 @@
       "keywords": [],
       "derived": {
         "centuries": [21],
-        "eras": ["modern", "contemporary"],
+        "eras": ["modern", "war-on-terror", "contemporary"],
         "continents": ["Europe", "Americas"],
         "subregions": ["Northern Europe", "North America", "Eastern Europe"]
       }

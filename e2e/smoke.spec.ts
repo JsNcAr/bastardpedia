@@ -51,13 +51,14 @@ test('Victorian explorers: filters, URL, reload, story detail', async ({ page, i
   });
 
   await expect(page).toHaveURL(/\?era=victorian&role=explorer-adventurer$/);
-  await expect(results(page).getByRole('link')).toHaveCount(2);
+  await expect(results(page).getByRole('link')).toHaveCount(3);
   await expect(results(page)).toContainText('Heinrich Schliemann');
   await expect(results(page)).toContainText('Henry Morton Stanley');
-  await expect(results(page)).not.toContainText('Percy Fawcett');
+  await expect(results(page)).toContainText('Percy Fawcett');
+  await expect(results(page)).not.toContainText('L. Ron Hubbard');
 
   await page.reload();
-  await expect(results(page).getByRole('link')).toHaveCount(2);
+  await expect(results(page).getByRole('link')).toHaveCount(3);
   await expect(
     page.getByRole('button', { name: 'Remove filter: Victorian era (UK)' }),
   ).toBeVisible();

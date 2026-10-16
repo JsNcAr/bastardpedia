@@ -57,6 +57,23 @@ groups:
         examples: ['Jerry Falwell', 'Phyllis Schlafly', 'Focus on the Family', 'The Satanic Panic']
         see_also: [organized-religion]
 
+      - id: immigration-borders
+        label: Immigration & borders
+        definition: Border enforcement, immigration policy, deportation and anti-immigrant politics.
+        examples:
+          ['The U.S. Border Patrol', 'American border militias', 'How ICE Is Targeting Students']
+        see_also: [policing-incarceration, racism-white-supremacy]
+      - id: diplomacy-foreign-policy
+        label: Diplomacy & foreign policy
+        definition: >-
+          How states deal with each other: diplomacy, superpower foreign policy, alliances and
+          interventions in other countries, as the subject of the story.
+        examples: ['Henry Kissinger', 'The Dulles Brothers', 'U.S. / Iran relations (Soleimani)']
+        exclude_when:
+          [
+            'The story is about the fighting itself (use war-war-crimes) or covert operations (use intelligence-covert-ops).',
+          ]
+
   - id: violence
     label: Violence and war
     values:
@@ -153,6 +170,17 @@ groups:
             'Percy Fawcett (psychic beliefs)',
           ]
 
+      - id: moral-panics
+        label: Moral panics
+        definition: Waves of public fear about an exaggerated or invented threat, and the people who stoke them.
+        examples:
+          [
+            'The Satanic Panic',
+            'The crack-baby panic (Cracktoberfest)',
+            'Kidnapping conspiracy theories',
+          ]
+        see_also: [conspiracy-theories, propaganda-media]
+
   - id: money
     label: Money
     values:
@@ -177,16 +205,19 @@ groups:
         definition: Pollution, ecological destruction and climate denial.
         examples: ['Exxon and climate denial', 'Patient Zero of Climate Denial', 'The Audubon guy']
       - id: weapons-arms-trade
-        label: Weapons & arms dealing
-        definition: Arms manufacturers, arms dealers, gun lobbies and weapons inventors.
+        label: Weapons, arms dealing & arms races
+        definition: Arms manufacturers, arms dealers, gun lobbies, weapons inventors, arms races and nuclear strategy.
         examples: ['Basil Zaharoff', 'Hiram Maxim', 'The NRA', 'Fake bomb detectors']
 
   - id: society
     label: Society
     values:
       - id: racism-white-supremacy
-        label: Racism & white supremacy
-        definition: Racist movements, segregation, lynching and white-supremacist organizing.
+        label: Racism & bigotry
+        definition: >-
+          Racism and religious bigotry in any form: white-supremacist movements, segregation and
+          lynching, racist policy (housing, sentencing, immigration law), antisemitism and
+          Islamophobia, and a person's own racial hatred when the story dwells on it.
         examples:
           ['The KKK', "Oregon's white-supremacist history", 'Rebecca Felton', 'Mark Fuhrman']
         see_also: [fascism-far-right, eugenics-scientific-racism]
@@ -250,6 +281,17 @@ groups:
         definition: Self-help, fitness, diet, longevity and lifestyle gurus.
         examples: ['Napoleon Hill', 'Wim Hof', 'Liver King', 'Peter Attia']
         see_also: [quackery-pseudoscience]
+
+      - id: domestic-abuse
+        label: Domestic & partner abuse
+        definition: Abuse of a spouse, partner or family member inside the home.
+        examples: ["L. Ron Hubbard's treatment of his wives"]
+        see_also: [sexual-abuse, child-abuse]
+      - id: cultural-heritage-looting
+        label: Looting & heritage destruction
+        definition: Looting of antiquities, destruction of archaeological sites and plunder of cultural heritage.
+        examples: ['Heinrich Schliemann at Troy', 'Giuseppe Ferlini at Meroe']
+        see_also: [science-exploration, colonialism-imperialism]
 
   - id: tech
     label: Technology

@@ -7,12 +7,19 @@ import { makeValidator } from './lib/validate.ts';
 
 const ID = 'percy-fawcett-real-life-indiana-jones-or-deluded-psychic-racist';
 const taxonomy = loadTaxonomy();
-const validate = makeValidator({ taxonomy, episodeStoryIds: new Set([ID]) });
+const validate = makeValidator({
+  taxonomy,
+  episodeStoryIds: new Set([ID]),
+  releaseYears: new Map([[ID, 2026]]),
+});
 
 type Rec = Record<string, unknown> & {
   themes: { primary: string; secondary: string[] };
   regions: { origin: string[]; setting: string[]; subdivisions: string[] };
-  time: { main_span: { start: number; end: number | null } };
+  time: {
+    main_span: { start: number; end: number | null };
+    covered_span: { start: number; end: number };
+  };
   roles: string[];
   taxonomy_version: string;
 };
@@ -73,5 +80,17 @@ describe('validate-tags', () => {
     const major = fixture();
     major.taxonomy_version = '9.0.0';
     expect(errorsOf(major)).toMatch(/major change/);
+  });
+
+  it("rejects covered years that miss the protagonist's lifetime", () => {
+    const rec = fixture();
+    rec.time.covered_span = { start: 1906, end: 1925 };
+    expect(validate(rec, ID).errors.join(' ')).toContain('birth (1867)');
+  });
+
+  it('rejects covered years that do not contain the main years', () => {
+    const rec = fixture();
+    rec.time.covered_span = { start: 1867, end: 1920 };
+    expect(validate(rec, ID).errors.join(' ')).toContain('covered_span must contain main_span');
   });
 });

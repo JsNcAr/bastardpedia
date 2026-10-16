@@ -55,7 +55,7 @@ that file and filters it in memory.
 - A theme filter matches a story's primary or secondary themes. A country
   filter matches origin or setting.
 - Period filters (eras, centuries) match `derived.eras` and
-  `derived.centuries`, which `build-catalog` computed from `time.main_span`.
+  `derived.centuries`, which `build-catalog` computed from `time.covered_span` (regional eras also need a matching origin, setting or polity).
   They are orientative (docs/TAXONOMY.md).
 - Facet counts show how many results each option would give, with the other
   active filters applied.

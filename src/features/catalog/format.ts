@@ -19,8 +19,9 @@ export function formatSpan(
   return `${c}${formatYear(span.start)} to ${formatYear(span.end)}`;
 }
 
+/** The years the period filters use: the covered span. */
 export function storyPeriod(story: CatalogStory): string | null {
-  return story.time ? formatSpan(story.time.main_span, story.time.approximate) : null;
+  return story.time ? formatSpan(story.time.covered_span, story.time.approximate) : null;
 }
 
 function ordinal(n: number): string {

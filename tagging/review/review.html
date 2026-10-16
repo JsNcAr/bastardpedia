@@ -150,7 +150,7 @@ const FIELDS = [
   { key: 'origin', label: 'From', facet: 'regions' },
   { key: 'setting', label: 'Happens in', facet: 'regions' },
   { key: 'polities', label: 'Polities, scope', facet: 'regions' },
-  { key: 'time', label: 'Main years', facet: 'time' },
+  { key: 'time', label: 'Years', facet: 'time' },
   { key: 'content_warnings', label: 'Content warnings', facet: null },
   { key: 'summary', label: 'Summary', facet: null },
   { key: 'keywords', label: 'Keywords, guests', facet: null },
@@ -179,7 +179,9 @@ function valueOf(key, r) {
     case 'time': {
       if (!r.time) return '<span class="empty">no time (crossover or meta)</span>';
       const t = r.time; const d = r._derived || {};
-      return `<div><b>${esc(yr(t.main_span.start))} to ${esc(t.main_span.end == null ? 'ongoing' : yr(t.main_span.end))}</b>${t.approximate ? ' <span class="sub">(approximate)</span>' : ''}${t.reaches_present ? ' <span class="sub">· follows legacy to the present</span>' : ''}</div>`
+      const span = (x) => `${esc(yr(x.start))} to ${esc(x.end == null ? 'ongoing' : yr(x.end))}`;
+      return (t.covered_span ? `<div>Covered: <b>${span(t.covered_span)}</b> <span class="sub">(used by period filters)</span></div>` : '')
+        + `<div>Main events: <b>${span(t.main_span)}</b>${t.approximate ? ' <span class="sub">(approximate)</span>' : ''}${t.reaches_present ? ' <span class="sub">· follows legacy to the present</span>' : ''}</div>`
         + (d.eras ? `<span class="sub">Periods it will appear under: ${esc([...(d.centuries || []).map((c) => (c < 0 ? `${-c}th c. BCE` : `${c}th c.`)), ...d.eras.map(lab)].join(', ') || 'none')}</span>` : '');
     }
     case 'content_warnings': return chips(r.content_warnings, (x) => chip(lab(x), x));

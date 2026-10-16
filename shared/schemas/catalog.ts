@@ -25,6 +25,14 @@ export const EraSchema = z.object({
   end: z.number().int().nullable(),
   scope: z.enum(['global', 'regional']),
   region_hint: z.string().optional(),
+  /** Regional eras: where a story must be from or happen to belong to the era. */
+  match: z
+    .object({
+      countries: z.array(z.string()).optional(),
+      continents: z.array(z.string()).optional(),
+      polities: z.array(z.string()).optional(),
+    })
+    .optional(),
 });
 export type Era = z.infer<typeof EraSchema>;
 
@@ -77,12 +85,17 @@ export const CatalogStorySchema = z.object({
     scope: z.string(),
   }),
   time: z
-    .object({ main_span: span, reaches_present: z.boolean(), approximate: z.boolean() })
+    .object({
+      main_span: span,
+      covered_span: z.object({ start: z.number().int(), end: z.number().int() }),
+      reaches_present: z.boolean(),
+      approximate: z.boolean(),
+    })
     .nullable(),
   content_warnings: z.array(z.string()),
   keywords: z.array(z.string()),
   derived: z.object({
-    /** Century numbers: 19 = 19th century CE, -1 = 1st century BCE. */
+    /** From time.covered_span. Century numbers: 19 = 19th century CE, -1 = 1st century BCE. */
     centuries: z.array(z.number().int()),
     eras: z.array(z.string()),
     /** Continents and subregions of origin + setting countries. */

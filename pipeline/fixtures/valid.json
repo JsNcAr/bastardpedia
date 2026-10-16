@@ -1,14 +1,20 @@
 {
   "story_id": "percy-fawcett-real-life-indiana-jones-or-deluded-psychic-racist",
-  "taxonomy_version": "0.2.0",
-  "tagged_by": { "agent": "fixture", "date": "2026-10-16" },
+  "taxonomy_version": "0.3.0",
+  "tagged_by": {
+    "agent": "fixture",
+    "date": "2026-10-16"
+  },
   "format": "deep-dive",
   "subjects": [
     {
       "name": "Percy Fawcett",
       "kind": "person",
       "role": "primary",
-      "lifespan": { "start": 1867, "end": 1925 }
+      "lifespan": {
+        "start": 1867,
+        "end": 1925
+      }
     },
     {
       "name": "Royal Geographical Society",
@@ -30,7 +36,14 @@
     "scope": "international"
   },
   "time": {
-    "main_span": { "start": 1906, "end": 1925 },
+    "main_span": {
+      "start": 1906,
+      "end": 1925
+    },
+    "covered_span": {
+      "start": 1867,
+      "end": 1925
+    },
     "reaches_present": true,
     "approximate": false
   },
@@ -45,5 +58,12 @@
     "regions": "high",
     "time": "high"
   },
-  "evidence": [{ "facet": "time", "part": 1, "at": "00:20:00", "note": "fixture" }]
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:20:00",
+      "note": "fixture"
+    }
+  ]
 }

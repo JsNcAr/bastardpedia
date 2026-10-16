@@ -10,6 +10,9 @@ values:
   - id: child-abuse
     label: Child abuse
     definition: Detailed accounts of physical, sexual or emotional abuse of children.
+  - id: child-death
+    label: Death of children
+    definition: Detailed accounts of children or infants dying, including from starvation, neglect or disease.
   - id: graphic-violence
     label: Graphic violence
     definition: Explicit descriptions of killing, mutilation or injury.

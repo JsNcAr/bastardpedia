@@ -64,6 +64,13 @@ const ErasFile = z.object({
         end: z.number().int().nullable(),
         scope: z.enum(['global', 'regional']),
         region_hint: z.string().optional(),
+        match: z
+          .object({
+            countries: z.array(z.string().length(2)).optional(),
+            continents: z.array(z.string()).optional(),
+            polities: z.array(z.string()).optional(),
+          })
+          .optional(),
       }),
     )
     .min(1),
