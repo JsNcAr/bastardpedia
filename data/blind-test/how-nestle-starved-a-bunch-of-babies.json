@@ -1,0 +1,52 @@
+{
+  "story_id": "how-nestle-starved-a-bunch-of-babies",
+  "taxonomy_version": "0.3.0",
+  "tagged_by": { "agent": "btb-tagger-blind", "model": "claude-opus-5-5", "date": "2026-10-16" },
+  "format": "deep-dive",
+  "subjects": [
+    { "name": "Nestlé", "kind": "organization", "org_type": "company", "role": "primary", "wikidata": "Q160746" },
+    { "name": "Henri Nestlé", "kind": "person", "role": "secondary", "lifespan": { "start": 1814, "end": 1890 } }
+  ],
+  "roles": ["business-executive"],
+  "themes": {
+    "primary": "corporate-malfeasance",
+    "secondary": ["public-health", "propaganda-media"]
+  },
+  "regions": {
+    "origin": ["CH"],
+    "setting": ["CI", "NG", "JM", "PH", "MW", "US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "global"
+  },
+  "time": {
+    "main_span": { "start": 1960, "end": 1981 },
+    "covered_span": { "start": 1867, "end": 2018 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Swiss food giant Nestlé aggressively marketed infant formula over breastfeeding in poor countries from the 1950s to the 1980s, where unsafe water and over-dilution led to mass infant malnutrition and death.",
+  "content_warnings": ["child-death"],
+  "keywords": ["infant formula", "Lactogen", "mothercraft nurses", "Nestlé boycott", "International Code of Marketing of Breast-milk Substitutes", "The Baby Killer", "War on Want", "Bottle Babies", "Abbott Laboratories", "Justus von Liebig"],
+  "guests": ["Arielle Duhaime-Ross"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "low",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:17:05", "note": "Henri Nestle completes his powdered milk-and-grain formula by 1867" },
+    { "facet": "time", "part": 1, "at": "00:29:08", "note": "1960s-70s global expansion of formula sales into poorer nations begins" },
+    { "facet": "themes", "part": 1, "at": "00:29:38", "note": "company-employed mothercraft nurses dressed as medical staff push formula" },
+    { "facet": "themes", "part": 1, "at": "00:33:48", "note": "ad campaigns shaming mothers about inadequate breast milk, e.g. Lactogen slogan" },
+    { "facet": "regions", "part": 1, "at": "00:39:33", "note": "Malawi households lacking running water and kitchens to prepare formula safely" },
+    { "facet": "regions", "part": 1, "at": "00:41:35", "note": "Dr Morley's study of breastfeeding in rural Nigerian villages" },
+    { "facet": "regions", "part": 1, "at": "00:49:25", "note": "Jamaican mother over-diluting formula; babies severely malnourished" },
+    { "facet": "regions", "part": 1, "at": "00:53:38", "note": "Ivory Coast infant starving on formula; Nestle cuts free supply to hospitals" },
+    { "facet": "time", "part": 1, "at": "00:53:06", "note": "1981 World Health Assembly adopts marketing code for breast milk substitutes" },
+    { "facet": "time", "part": 1, "at": "00:59:25", "note": "2018 Changing Markets report and WHA breastfeeding resolution fight" }
+  ],
+  "notes": "Opening ~8 min on 18th-century wet nursing is background, not Nestle's own story, so covered_span starts at the 1867 formula. Roles: primary is a company; business-executive applies only to secondary Henri Nestle, whom the story calls not a bastard. Setting spans many countries (also CD, UG, SG, PE, CR, ID, CH); top six kept by airtime of harm."
+}

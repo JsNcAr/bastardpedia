@@ -2,7 +2,7 @@
  * Export tag records for the review page (tagging/review/review.html).
  *
  *   node pipeline/review-export.ts --dir tagging/examples --batch gold --label "Gold set" \
- *     [--flags tagging/review/flags-gold.json] [--compare tagging/examples]
+ *     [--flags tagging/review/flags-gold.json] [--compare dir1,dir2] [--id-prefix blind]
  *
  * Writes data/review/<batch>.json: { vocab, records: [{ id, data }] }, where each
  * record doc carries the title, part links, the tag record, derived periods,
@@ -28,7 +28,7 @@ function main(): void {
   const batch = arg('batch');
   if (!dirArg || !batch)
     throw new Error(
-      'usage: review-export.ts --dir <dir> --batch <id> [--label <text>] [--flags <file>] [--compare <dir>]',
+      'usage: review-export.ts --dir <dir> --batch <id> [--label <text>] [--flags <file>] [--compare <dirs>] [--id-prefix <p>]',
     );
   const dir = resolve(dirArg);
   const label = arg('label') ?? batch;
@@ -36,8 +36,12 @@ function main(): void {
   const flags: Record<string, string[]> = flagsArg
     ? (readJson(resolve(flagsArg)) as Record<string, string[]>)
     : {};
-  const compareArg = arg('compare');
-  const compareDir = compareArg ? resolve(compareArg) : undefined;
+  const compareDirs = (arg('compare') ?? '')
+    .split(',')
+    .filter(Boolean)
+    .map((d) => resolve(d));
+  // Batches after the first need their own document ids so they do not overwrite it.
+  const idPrefix = arg('id-prefix');
 
   const taxonomy = loadTaxonomy();
   const stories = new Map(loadStories().map((s) => [s.id, s]));
@@ -77,11 +81,10 @@ function main(): void {
           eras: erasOf(span, taxonomy.eras, new Date().getFullYear(), place),
         }
       : { centuries: [], eras: [] };
-    const compareFile = compareDir ? join(compareDir, file) : undefined;
-    const compare =
-      compareFile && existsSync(compareFile) ? (readJson(compareFile) as StoryTags) : undefined;
+    const compareFile = compareDirs.map((d) => join(d, file)).find((f) => existsSync(f));
+    const compare = compareFile ? (readJson(compareFile) as StoryTags) : undefined;
     return {
-      id: record.story_id,
+      id: idPrefix ? `${idPrefix}:${record.story_id}` : record.story_id,
       data: {
         batch,
         batch_label: label,

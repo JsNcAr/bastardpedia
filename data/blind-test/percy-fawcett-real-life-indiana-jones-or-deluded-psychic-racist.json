@@ -1,0 +1,51 @@
+{
+  "story_id": "percy-fawcett-real-life-indiana-jones-or-deluded-psychic-racist",
+  "taxonomy_version": "0.3.0",
+  "tagged_by": { "agent": "btb-tagger-blind", "model": "claude-opus-5-5", "date": "2026-10-16" },
+  "format": "deep-dive",
+  "subjects": [
+    { "name": "Percy Fawcett", "kind": "person", "role": "primary", "lifespan": { "start": 1867, "end": 1925 } },
+    { "name": "Jack Fawcett", "kind": "person", "role": "secondary", "lifespan": { "start": 1903, "end": 1925 } },
+    { "name": "Edward Douglas Fawcett", "kind": "person", "role": "secondary", "lifespan": { "start": 1866, "end": 1960 } }
+  ],
+  "roles": ["explorer-adventurer", "military-officer"],
+  "themes": {
+    "primary": "science-exploration",
+    "secondary": ["occult-esoteric", "colonialism-imperialism", "racism-white-supremacy"]
+  },
+  "regions": {
+    "origin": ["GB"],
+    "setting": ["BR", "BO", "LK", "GB"],
+    "subdivisions": ["BR-MT"],
+    "polities": ["british-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1906, "end": 1925 },
+    "covered_span": { "start": 1867, "end": 1925 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "British artillery officer, Theosophist and Amazon explorer Percy Fawcett surveyed South American borders, then vanished in Brazil in 1925 with his son while chasing a lost city his occult and racist beliefs convinced him existed.",
+  "content_warnings": [],
+  "keywords": ["Lost City of Z", "Mato Grosso", "Amazon", "Ceylon", "Theosophy", "Helena Blavatsky", "Royal Geographical Society", "David Grann", "Indiana Jones", "Nina Fawcett"],
+  "guests": ["Miriam"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:13:30", "note": "birth in Torquay in 1867 opens the biography" },
+    { "facet": "regions", "part": 1, "at": "00:32:31", "note": "teenage posting in Ceylon, first treasure dig and turn to Buddhism" },
+    { "facet": "themes", "part": 1, "at": "00:41:56", "note": "brother Edward's Theosophy and work with Blavatsky explained at length" },
+    { "facet": "themes", "part": 1, "at": "00:18:35", "note": "cricket and public schools framed as training for imperial service" },
+    { "facet": "themes", "part": 1, "at": "00:53:11", "note": "RGS training includes Galton's racist travel guide" },
+    { "facet": "themes", "part": 2, "at": "00:08:37", "note": "Fawcett's psychic claims and racialised remarks about his son" },
+    { "facet": "time", "part": 1, "at": "00:10:11", "note": "Grann's 2009 book, 2016 film and Amazon reappraisal set reaches_present" },
+    { "facet": "subjects", "part": 2, "at": "00:07:28", "note": "son Jack born 1903, treated as prophesied special child" }
+  ],
+  "notes": "Only the first 2,000 words of part 2 were available; the Bolivia/Brazil surveys, 1925 disappearance and Mato Grosso setting rely on the descriptions plus general knowledge. Brief Morocco spy mission (MA) left out of setting. Boarding-school abuse discussed for a few minutes but not added as theme or warning. Edward Fawcett lifespan from own knowledge."
+}

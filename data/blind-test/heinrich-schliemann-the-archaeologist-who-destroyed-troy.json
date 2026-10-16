@@ -1,0 +1,52 @@
+{
+  "story_id": "heinrich-schliemann-the-archaeologist-who-destroyed-troy",
+  "taxonomy_version": "0.3.0",
+  "tagged_by": { "agent": "btb-tagger-blind", "model": "claude-opus-5-5", "date": "2026-10-16" },
+  "format": "deep-dive",
+  "subjects": [
+    { "name": "Heinrich Schliemann", "kind": "person", "role": "primary", "lifespan": { "start": 1822, "end": 1890 } },
+    { "name": "Giuseppe Ferlini", "kind": "person", "role": "secondary", "lifespan": { "start": 1797, "end": null } }
+  ],
+  "roles": ["explorer-adventurer", "scientist-scholar", "business-executive"],
+  "themes": {
+    "primary": "cultural-heritage-looting",
+    "secondary": ["science-exploration", "fraud-grift", "child-abuse"]
+  },
+  "regions": {
+    "origin": ["DE"],
+    "setting": ["TR", "GR", "SD", "RU", "US", "DE"],
+    "subdivisions": [],
+    "polities": ["ottoman-empire", "russian-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1868, "end": 1890 },
+    "covered_span": { "start": 1822, "end": 1890 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "German merchant turned amateur archaeologist Heinrich Schliemann, enriched by fraud and war profiteering, bought a teenage bride and hastily dug through the ruins of Troy in the 1870s, destroying much of the site he sought.",
+  "content_warnings": [],
+  "keywords": ["Troy", "Hisarlik", "Priam's Treasure", "Meroe", "Pyramid of Amanishakheto", "Ithaca", "Sophia Engastromenos", "California Gold Rush", "Crimean War", "Iliad"],
+  "guests": ["Kristen Conger"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "subjects", "part": 1, "at": "00:07:00", "note": "Ferlini introduced as a warm-up bastard; his Meroe pyramid destruction runs ~20 minutes" },
+    { "facet": "time", "part": 1, "at": "00:11:29", "note": "Ferlini lands in Alexandria in 1829, start of the extended Egypt/Sudan segment" },
+    { "facet": "regions", "part": 1, "at": "00:18:51", "note": "Ferlini's workers tear apart the Meroe pyramid in Sudan" },
+    { "facet": "time", "part": 1, "at": "00:28:23", "note": "Schliemann born January 1822 in Mecklenburg, northern Germany" },
+    { "facet": "themes", "part": 1, "at": "00:45:21", "note": "short-weighting gold dust in California, flees when the Rothschild agent complains" },
+    { "facet": "regions", "part": 1, "at": "00:42:18", "note": "settles in St. Petersburg as import-export merchant, later Crimean War profiteering" },
+    { "facet": "time", "part": 1, "at": "00:51:51", "note": "1868 watches Pompeii dig, the start of his archaeology ambitions" },
+    { "facet": "time", "part": 2, "at": "00:01:37", "note": "first amateur dig in Greece in 1868, claims Odysseus's palace" },
+    { "facet": "themes", "part": 2, "at": "00:08:26", "note": "gains US citizenship in 1869 via Indiana to divorce and cut off his wife" },
+    { "facet": "themes", "part": 2, "at": "00:00:41", "note": "host previews him purchasing a young bride; description calls her a child bride" }
+  ],
+  "notes": "Part 2 excerpt is truncated after ~10 minutes, so Troy dig years, child-bride segment and any legacy coda are inferred from title/description; reaches_present set false for lack of evidence. Ferlini death year omitted as uncertain. covered_span follows the lifetime rule (1822-1890); Ferlini 1829-37 segment falls inside it. Producer Sophie speaks but is not listed as guest."
+}

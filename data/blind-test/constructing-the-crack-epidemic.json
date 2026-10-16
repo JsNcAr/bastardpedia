@@ -1,0 +1,53 @@
+{
+  "story_id": "constructing-the-crack-epidemic",
+  "taxonomy_version": "0.3.0",
+  "tagged_by": { "agent": "btb-tagger-blind", "model": "claude-opus-5-5", "date": "2026-10-16" },
+  "format": "deep-dive",
+  "subjects": [
+    { "name": "Crack epidemic", "kind": "event", "role": "primary" },
+    { "name": "Central Intelligence Agency", "kind": "organization", "org_type": "intelligence", "role": "secondary" },
+    { "name": "Iran-Contra affair", "kind": "event", "role": "secondary" },
+    { "name": "Oliver North", "kind": "person", "role": "secondary", "lifespan": { "start": 1943, "end": null } },
+    { "name": "Gary Webb", "kind": "person", "role": "secondary", "lifespan": { "start": 1955, "end": 2004 } }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "drugs",
+    "secondary": ["intelligence-covert-ops", "moral-panics", "racism-white-supremacy", "propaganda-media"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "NI", "IR", "PA"],
+    "subdivisions": ["US-CA"],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1981, "end": 1996 },
+    "covered_span": { "start": 1960, "end": 2004 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Five-part series on how crack spread through US inner cities in the 1980s, the CIA-backed Contras' cocaine trafficking and the Iran-Contra affair, the racist moral panic and sentencing laws that followed, and the discrediting of journalist Gary Webb.",
+  "content_warnings": ["drug-use", "suicide-self-harm"],
+  "keywords": ["Cracktoberfest", "Dark Alliance", "San Jose Mercury News", "Freeway Rick Ross", "Danilo Blandón", "Contras", "Sandinistas", "Manuel Noriega", "crack babies", "100-to-1 sentencing disparity"],
+  "guests": ["Propaganda"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "low"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:41:17", "note": "crack enters US inner cities around 1981, starting in southern California" },
+    { "facet": "themes", "part": 1, "at": "00:46:29", "note": "crack-baby moral panic begins with a small medical study amplified by the press" },
+    { "facet": "themes", "part": 1, "at": "00:57:58", "note": "100-to-1 crack sentencing rule and racial incarceration disparities" },
+    { "facet": "time", "part": 1, "at": "01:10:29", "note": "Webb publishes Dark Alliance in August 1996" },
+    { "facet": "regions", "part": 2, "at": "00:01:32", "note": "Nicaraguan history: Somoza dictatorship and Sandinista revolution" },
+    { "facet": "regions", "part": 3, "at": "00:07:54", "note": "part three covers the Iran side of Iran-Contra" },
+    { "facet": "regions", "part": 5, "at": "00:01:06", "note": "North turns to Panama's Noriega to fund the Contras" },
+    { "facet": "themes", "part": 5, "at": "00:07:17", "note": "press shuts down questions about Contra drug trafficking" }
+  ],
+  "notes": "Parts 3-4 are Hood Politics episodes (crossover), but formats.yaml lists Cracktoberfest as a deep-dive example, so deep-dive. No person primary, so roles empty. Only 2,000-word excerpts for parts 2-5: CIA heroin program (likely Laos) and Iran backstory start years are unverified, so covered_span start is a guess. Webb's 2004 death assumed covered in part 5."
+}
