@@ -1,0 +1,168 @@
+{
+  "story_id": "kissinger",
+  "taxonomy_version": "0.3.0",
+  "tagged_by": {
+    "agent": "gold-draft",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Henry Kissinger",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1923,
+        "end": 2023
+      },
+      "wikidata": "Q66107"
+    },
+    {
+      "name": "Richard Nixon",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1913,
+        "end": 1994
+      },
+      "wikidata": "Q9588"
+    },
+    {
+      "name": "US bombing of Cambodia (Operation Menu)",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "1971 Bangladesh genocide",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["politician-official", "scientist-scholar"],
+  "themes": {
+    "primary": "war-war-crimes",
+    "secondary": [
+      "genocide-mass-killing",
+      "intelligence-covert-ops",
+      "electoral-politics",
+      "diplomacy-foreign-policy"
+    ]
+  },
+  "regions": {
+    "origin": ["DE", "US"],
+    "setting": ["US", "KH", "VN", "BD", "DE", "AO"],
+    "subdivisions": [],
+    "polities": ["nazi-germany"],
+    "scope": "global"
+  },
+  "time": {
+    "covered_span": {
+      "start": 1923,
+      "end": 2022
+    },
+    "main_span": {
+      "start": 1968,
+      "end": 1977
+    },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "German-born US national security adviser and secretary of state Henry Kissinger, who from 1968 to 1977 helped prolong the Vietnam War, secretly directed the bombing of Cambodia and Laos, and backed mass killing by allied regimes in Pakistan and Indonesia.",
+  "content_warnings": ["mass-atrocity"],
+  "keywords": [
+    "Operation Menu",
+    "Operation Speedy Express",
+    "1968 Paris peace talks",
+    "Blood Telegram",
+    "Yahya Khan",
+    "Opening to China",
+    "East Timor invasion",
+    "Angolan Civil War",
+    "Mustafa Barzani",
+    "Team B"
+  ],
+  "guests": ["Dave Anthony", "Gareth Reynolds"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:08:24",
+      "note": "Born 1923 into a Jewish family in Fürth, Bavaria; childhood under rising Nazism follows"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:48:07",
+      "note": "Postwar stint as US Army administrator of a German town; Germany gets most of part one"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:00:48",
+      "note": "1968: he leaks Johnson's Paris negotiating position to the Nixon campaign; first consequential act"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:24:58",
+      "note": "Operation Speedy Express in the Mekong Delta, first big operation he and Nixon oversaw"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:07:59",
+      "note": "As 40 Committee chair he personally approved every covert operation of the Nixon years"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:09:34",
+      "note": "Secret Cambodia bombing campaign and its falsified paperwork; dominates part three"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "01:00:17",
+      "note": "Bombing kept going to court the right before the 1972 election; Southern strategy link"
+    },
+    {
+      "facet": "regions",
+      "part": 4,
+      "at": "00:35:17",
+      "note": "Operation Searchlight in East Pakistan begins; Bangladesh genocide is the core of part four"
+    },
+    {
+      "facet": "regions",
+      "part": 4,
+      "at": "00:45:49",
+      "note": "Secret flight from Pakistan to Beijing; China covered mainly as the motive for backing Yahya"
+    },
+    {
+      "facet": "themes",
+      "part": 5,
+      "at": "01:07:08",
+      "note": "Jakarta meeting where he and Ford green-light Suharto's invasion of East Timor"
+    },
+    {
+      "facet": "regions",
+      "part": 6,
+      "at": "00:20:06",
+      "note": "Start of a long Angola segment on his push for covert intervention in 1975"
+    },
+    {
+      "facet": "time",
+      "part": 6,
+      "at": "01:16:02",
+      "note": "After 1977: consulting firm, Tiananmen stance, Iraq, legal pursuits, ties to modern politicians"
+    }
+  ],
+  "notes": "Setting ranked by airtime: LA, CN, PK, IN, EG, IL, ZW, TL, IQ dropped by the 6 cap (LA and CN were closest). DE kept for ~40 min of childhood and occupation. Lifespan end 2023 from own knowledge (alive at release). scientist-scholar vs writer-intellectual for his Harvard career is a judgment call. Chile is explicitly skipped by the host. diplomacy-foreign-policy replaced propaganda-media (press coverage is the thinnest strand); weapons-arms-trade (nuclear strategy, part 2) cut by the 4 cap."
+}
