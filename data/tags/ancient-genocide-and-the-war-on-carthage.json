@@ -1,0 +1,168 @@
+{
+  "story_id": "ancient-genocide-and-the-war-on-carthage",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Third Punic War",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Cato the Elder",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": -234,
+        "end": -149
+      }
+    },
+    {
+      "name": "Asiatic Vespers",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Nataruk massacre",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Yamnaya",
+      "kind": "ethnic-group",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "genocide-mass-killing",
+    "secondary": [
+      "war-war-crimes",
+      "slavery-forced-labor",
+      "colonialism-imperialism",
+      "propaganda-media",
+      "nazism"
+    ]
+  },
+  "regions": {
+    "origin": [
+      "IT"
+    ],
+    "setting": [
+      "TN",
+      "TR",
+      "KE",
+      "PL",
+      "IT",
+      "ES"
+    ],
+    "subdivisions": [],
+    "polities": [
+      "roman-republic",
+      "carthage"
+    ],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": {
+      "start": -152,
+      "end": -146
+    },
+    "covered_span": {
+      "start": -5000,
+      "end": -88
+    },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "A two-part look at genocide's ancient roots, from a prehistoric massacre in Kenya to Rome's annihilation of Carthage in 146 BCE, urged on by Cato the Elder, and the Asiatic Vespers of 88 BCE.",
+  "content_warnings": [
+    "mass-atrocity",
+    "graphic-violence",
+    "slavery"
+  ],
+  "keywords": [
+    "Carthage must be destroyed",
+    "Lake Turkana",
+    "Yamnaya",
+    "Corded Ware culture",
+    "Mithridates VI",
+    "Raphael Lemkin",
+    "Ben Kiernan",
+    "Ervin Staub",
+    "RTLM",
+    "Punic Wars"
+  ],
+  "guests": [
+    "Joe Kassabian"
+  ],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:05:15",
+      "note": "Nataruk mass grave at Lake Turkana dated to roughly 8000 BCE"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:24:24",
+      "note": "Yamnaya / Corded Ware replacement of Globular Amphora people, c. 3000 BCE"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:47:33",
+      "note": "long Cato the Elder segment begins: career, Iberia, misogyny, figs speech"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:52:13",
+      "note": "extended discussion of Roman slavery after Cato's mass enslavement in Iberia"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:09:56",
+      "note": "Cato's senatorial mission to Carthage and his campaign for its destruction"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:12:31",
+      "note": "Third Punic War, fall of Carthage in 146 BCE, massacre and enslavement of survivors"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:13:36",
+      "note": "Mithridates orders the massacre of Romans and Italians in Asia, 88 BCE"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:14:08",
+      "note": "Asiatic Vespers of 88 BCE, the latest ancient case narrated, sets covered end"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:01:35",
+      "note": "RTLM and Rwanda used as a comparison on propaganda; theme only, no years"
+    }
+  ],
+  "notes": "Survey episode anchored on Carthage. Prehistory (Nataruk, Yamnaya) is part of the story per the Part 1 description, not a comparison, so covered starts there: Nataruk is ~8000 BCE but the schema floor is -5000, so clamped. Covered ends at the Asiatic Vespers (88 BCE); Rwanda, the Holocaust and 2022 US rhetoric are comparisons and no longer extend it. Rwanda removed from subjects/setting. Cato arguably co-primary."
+}

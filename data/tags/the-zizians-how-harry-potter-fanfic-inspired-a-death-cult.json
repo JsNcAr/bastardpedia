@@ -1,0 +1,184 @@
+{
+  "story_id": "the-zizians-how-harry-potter-fanfic-inspired-a-death-cult",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Ziz LaSota",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1990,
+        "end": null
+      }
+    },
+    {
+      "name": "The Zizians",
+      "kind": "organization",
+      "org_type": "cult",
+      "role": "primary"
+    },
+    {
+      "name": "The Rationalist community",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    },
+    {
+      "name": "Eliezer Yudkowsky",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1979,
+        "end": null
+      }
+    },
+    {
+      "name": "Gwen Danielson",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2017
+    }
+  ],
+  "roles": [
+    "cult-leader",
+    "influencer-online"
+  ],
+  "themes": {
+    "primary": "cults-new-religions",
+    "secondary": [
+      "tech-internet",
+      "artificial-intelligence",
+      "policing-incarceration",
+      "sexual-abuse",
+      "wellness-self-help"
+    ]
+  },
+  "regions": {
+    "origin": [
+      "US"
+    ],
+    "setting": [
+      "US"
+    ],
+    "subdivisions": [
+      "US-CA",
+      "US-VT"
+    ],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": {
+      "start": 2016,
+      "end": 2025
+    },
+    "covered_span": {
+      "start": 1990,
+      "end": 2025
+    },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Alaska-born blogger Ziz LaSota radicalized within the Bay Area Rationalist and AI-risk subculture and gathered a small cultish following, the Zizians, linked to a string of killings in California, Pennsylvania and Vermont between 2022 and 2025.",
+  "content_warnings": [
+    "sexual-violence",
+    "graphic-violence",
+    "suicide-self-harm"
+  ],
+  "keywords": [
+    "Harry Potter and the Methods of Rationality",
+    "LessWrong",
+    "Roko's basilisk",
+    "Effective altruism",
+    "Center for Applied Rationality",
+    "Rationalist Fleet",
+    "Sinceriously",
+    "Vegan Sith",
+    "Curtis Lind",
+    "Coventry, Vermont"
+  ],
+  "guests": [
+    "David Gborie"
+  ],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:01:01",
+      "note": "Ziz born 1990 or 1991 in Fairbanks, Alaska; exact year unknown"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:35:25",
+      "note": "Ziz moves to the Bay Area around 2016, start of the core story"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:27:38",
+      "note": "long segment on the Rationalists, LessWrong and Yudkowsky as the group's origin"
+    },
+    {
+      "facet": "subjects",
+      "part": 3,
+      "at": "00:12:58",
+      "note": "Gwen Danielson introduced; co-develops hemisphere theories and the boat life"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:33:25",
+      "note": "segment on sexual abuse allegations against adult women in the Rationalist scene"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:13:20",
+      "note": "2019 CFAR reunion protest, armed police response and alleged abuse in custody"
+    },
+    {
+      "facet": "regions",
+      "part": 4,
+      "at": "00:46:00",
+      "note": "2022 stabbing of landlord Curtis Lind on his California property"
+    },
+    {
+      "facet": "regions",
+      "part": 4,
+      "at": "01:14:31",
+      "note": "2025 Vermont Border Patrol shootout that frames the series"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "01:15:42",
+      "note": "Ziz and others arrested February 2025, latest event covered"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 3,
+      "at": "00:59:29",
+      "note": "Maia Pasek's suicide and suicide note discussed in detail"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:53:25",
+      "note": "long account of CFAR self-help seminars, hamming and doom circles"
+    }
+  ],
+  "notes": "Ziz birth year given as 1990 or 1991; used 1990 (approximate). Roles: 'influencer-online' chosen for her blog-driven influence; 'writer-intellectual' was the alternative. Subdivisions list both California (core events) and Vermont (shootout); prompt wording suggests a single state, so reviewer may trim. Host explicitly argues the killings were not terrorism, so terrorism theme omitted."
+}

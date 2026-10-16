@@ -1,0 +1,193 @@
+{
+  "story_id": "general-butt-naked-and-the-liberian-civil-war",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "General Butt Naked",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1971,
+        "end": null
+      }
+    },
+    {
+      "name": "Liberian Civil Wars",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Charles Taylor",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1948,
+        "end": null
+      }
+    },
+    {
+      "name": "Samuel Doe",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1951,
+        "end": 1990
+      }
+    },
+    {
+      "name": "American Colonization Society",
+      "kind": "organization",
+      "org_type": "ngo",
+      "role": "secondary"
+    }
+  ],
+  "roles": [
+    "mercenary-warlord",
+    "con-artist",
+    "religious-leader"
+  ],
+  "themes": {
+    "primary": "civil-war",
+    "secondary": [
+      "war-war-crimes",
+      "colonialism-imperialism",
+      "child-abuse",
+      "fraud-grift",
+      "occult-esoteric",
+      "genocide-mass-killing",
+      "authoritarianism",
+      "coups-insurrections"
+    ]
+  },
+  "regions": {
+    "origin": [
+      "LR"
+    ],
+    "setting": [
+      "LR",
+      "US",
+      "GH"
+    ],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": {
+      "start": 1989,
+      "end": 2008
+    },
+    "covered_span": {
+      "start": 1816,
+      "end": 2022
+    },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Joshua Milton Blahyi, alias General Butt Naked, led drugged child soldiers in atrocities during Liberia's 1990s civil war, then recast himself as a repentant preacher; the story traces the US-founded colony's history behind the conflict.",
+  "content_warnings": [
+    "graphic-violence",
+    "torture",
+    "mass-atrocity",
+    "child-abuse",
+    "child-death",
+    "sexual-violence"
+  ],
+  "keywords": [
+    "Joshua Milton Blahyi",
+    "Americo-Liberians",
+    "Firestone rubber plantation",
+    "Monrovia",
+    "small boys units",
+    "gboyo",
+    "Prince Johnson",
+    "Truth and Reconciliation Commission",
+    "Leymah Gbowee",
+    "Women of Liberia Mass Action for Peace"
+  ],
+  "guests": [
+    "Shereen Lani Younes"
+  ],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:12:00",
+      "note": "American Colonization Society formed in 1816; long segment opens covered span"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:15:39",
+      "note": "Liberia colony founded 1821 by freed Black migrants"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:21:21",
+      "note": "settler elite ruled indigenous Liberians like European colonists"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:42:00",
+      "note": "ritual killing for body parts (gboyo) explained at length"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:07:58",
+      "note": "Taylor invades from Ivory Coast, opening the civil war in 1989"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:58:01",
+      "note": "Doe's troops massacre ethnic groups in Nimba County after the rigged election"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:17:22",
+      "note": "Blahyi born September 1971"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:28:51",
+      "note": "child soldiers fed cocaine and made to fight naked"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:47:04",
+      "note": "Blahyi flees to a refugee camp in Ghana after Taylor wins"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:57:24",
+      "note": "first warlord to testify at the Truth and Reconciliation Commission"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:06:43",
+      "note": "halfway-house resident says donor money is misappropriated"
+    }
+  ],
+  "notes": "Title gives equal weight to Blahyi and the war (part 1 is all Liberian history), so both are primary. TRC year 2008 and Taylor/Doe lifespans from general knowledge; transcript gives no TRC year. occult-esoteric is the closest fit for West African ritual killing/juju; no better theme exists. main_span 1989-2008 covers the war plus his confession."
+}
