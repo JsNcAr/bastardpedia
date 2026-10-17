@@ -1,5 +1,6 @@
 import { Link, NavLink, Outlet, ScrollRestoration, useLocation } from 'react-router';
 import { IconSprite } from '@/ui/IconSprite';
+import { Logo } from '@/ui/Logo';
 import { ThemeToggle } from './ThemeToggle';
 
 const NAV = [
@@ -24,7 +25,8 @@ export function AppShell() {
       </a>
       <header className="site-header">
         <NavLink to="/" className="brand" end>
-          {__APP_NAME__}
+          <Logo />
+          <span className="brand-name">{__APP_NAME__}</span>
         </NavLink>
         <nav aria-label="Main" className="site-nav">
           {NAV.map((n) => (

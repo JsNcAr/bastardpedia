@@ -19,9 +19,12 @@
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
   font-family: var(--font-serif);
   font-size: var(--text-xl);
-  font-weight: var(--weight-bold);
+  font-weight: var(--weight-semibold);
   color: var(--color-text-primary);
   text-decoration: none;
   letter-spacing: -0.01em;
@@ -29,6 +32,30 @@
 
 .brand:hover {
   color: var(--color-accent-text);
+}
+
+/* On phones the symbol stands alone; the name stays for screen readers. */
+.brand-name {
+  position: absolute;
+  width: var(--size-hairline);
+  height: var(--size-hairline);
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.logo {
+  flex: none;
+  inline-size: var(--size-logo);
+  block-size: var(--size-logo);
+}
+
+.logo-mark {
+  fill: var(--color-brand-mark);
+}
+
+.logo-halo {
+  fill: var(--color-brand-halo);
 }
 
 .site-nav {
@@ -145,6 +172,14 @@
   .site-header {
     padding: 0 var(--space-6);
     gap: var(--space-6);
+  }
+
+  .brand-name {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip-path: none;
   }
 
   .site-header .segmented {

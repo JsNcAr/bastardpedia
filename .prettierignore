@@ -5,6 +5,7 @@ playwright-report/
 test-results/
 src/styles/theme-*.css
 src/icons/sprite.generated.ts
+src/ui/logo-paths.ts
 CHANGELOG.md
 .npm/
 data/
@@ -13,3 +14,4 @@ tagging/schema/
 docs/taxonomy-reference.md
 scripts/build_tokens.mjs
 tagging/review/review.html
+brand/board/board.html

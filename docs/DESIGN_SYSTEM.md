@@ -58,6 +58,25 @@ form, state, drawer, library, prose).
   no `unsafe-inline`. The icon sprite is hidden with a class for the same reason.
 - No CSS framework (ADR 0008 in ChronoTeach, carried over).
 
+## Logo
+
+The logo kit lives in `brand/`. The full guidelines are in `brand/README.md`.
+
+- **The mark:** volume B with a horn, a slipped halo and a devil's-tail bookmark.
+- **In the header:** `src/ui/Logo.tsx` draws it next to the live-text name. Its
+  geometry is generated into `src/ui/logo-paths.ts` by
+  `brand/tools/build_masters.py`, and a test keeps it in step with
+  `brand/masters/symbol.svg`.
+- **Colours:** the `brand.mark` and `brand.halo` tokens (oxblood.600 and
+  gilt.500, with oxblood.300 and gilt.300 in dark mode), applied through the
+  `.logo-mark` and `.logo-halo` classes.
+- **Size:** `--size-logo`.
+- **Icons:** the favicon and app icons in `public/` are exported from the
+  masters.
+
+The halo colour is for graphics only. At 3.36:1 on paper it passes the 3:1
+minimum for graphics, but not the 4.5:1 that text needs.
+
 ## Icons
 
 lucide icons, with path data taken verbatim from `lucide-react` and built into a

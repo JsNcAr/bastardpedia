@@ -98,6 +98,48 @@
     "white": {
       "$type": "color",
       "$value": "#FFFDF9"
+    },
+    "gilt": {
+      "50": {
+        "$type": "color",
+        "$value": "#FBF5E6"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#F3E4BC"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#E8CD85"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#D9AE52"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#C4932F"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#B07A1E"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#8F6215"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#6E4B10"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#4E350B"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#33230A"
+      }
     }
   },
   "semantic": {
@@ -203,6 +245,17 @@
         "$type": "color",
         "$value": "{primitive.oxblood.800}"
       }
+    },
+    "brand": {
+      "$description": "The logo. mark = book and tail, halo = the gilt halo (graphics only, never text).",
+      "mark": {
+        "$type": "color",
+        "$value": "{primitive.oxblood.600}"
+      },
+      "halo": {
+        "$type": "color",
+        "$value": "{primitive.gilt.500}"
+      }
     }
   },
   "dark": {
@@ -307,6 +360,16 @@
       "destructive-hover": {
         "$type": "color",
         "$value": "{primitive.oxblood.200}"
+      }
+    },
+    "brand": {
+      "mark": {
+        "$type": "color",
+        "$value": "{primitive.oxblood.300}"
+      },
+      "halo": {
+        "$type": "color",
+        "$value": "{primitive.gilt.300}"
       }
     }
   },
@@ -520,6 +583,10 @@
     "wide": {
       "$type": "dimension",
       "$value": "1100px"
+    },
+    "logo": {
+      "$type": "dimension",
+      "$value": "2.25rem"
     }
   },
   "z": {
