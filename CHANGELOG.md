@@ -21,6 +21,8 @@ logged in `docs/TAXONOMY.md` and called out here when they affect the app.
 - App shell: catalog with faceted filters in the URL, search, story detail,
   personal library, installable PWA.
 - CI, generated Caddy configuration and the release script.
+- `deploy/deploy.sh`: build and publish a commit from a checkout on the
+  server, with the deploy user's own Node from `.nvmrc`.
 
 ### Changed
 

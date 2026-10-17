@@ -47,3 +47,6 @@ data/review/
 
 # Logo exploration (concept rounds); the delivered kit is in brand/
 design/
+
+# Server-side deploy state (deploy/deploy.sh)
+.deploy/
