@@ -1,0 +1,40 @@
+{
+  "subjects": [
+    {
+      "name": "Alfredo Stroessner",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1912,
+        "end": 2006
+      }
+    },
+    {
+      "name": "Francisco Solano López",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1827,
+        "end": 1870
+      }
+    },
+    {
+      "name": "Pastor Coronel",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1919,
+        "end": 2000
+      }
+    },
+    {
+      "name": "Bernhard Förster",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1843,
+        "end": 1889
+      }
+    }
+  ]
+}
