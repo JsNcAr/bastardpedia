@@ -1,6 +1,6 @@
 {
   "story_id": "the-last-days-of-l-ron-hubbard",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.6.0",
   "tagged_by": {
     "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
@@ -38,8 +38,8 @@
     "primary": "cults-new-religions",
     "secondary": [
       "intelligence-covert-ops",
-      "entertainment-celebrity",
       "propaganda-media",
+      "entertainment-celebrity",
       "electoral-politics",
       "finance-crypto"
     ]
@@ -52,21 +52,22 @@
     "scope": "national"
   },
   "time": {
-    "covered_span": { "start": 1911, "end": 1986 },
+    "covered_span": { "start": 1973, "end": 1986 },
     "main_span": { "start": 1975, "end": 1986 },
     "reaches_present": true,
-    "approximate": false
+    "approximate": false,
+    "partial_life": true
   },
-  "summary": "In his final decade, L. Ron Hubbard covertly took over Clearwater, Florida, oversaw Scientology's infiltration of the US government and harassment of critics, made failed films while hiding from the law, and died in seclusion in California in 1986.",
+  "summary": "In his final decade, L. Ron Hubbard covertly took over Clearwater, Florida, directed Scientology's infiltration of the US government and harassment of critics, made abusive vanity films while hiding from the law, and died in seclusion in California in 1986.",
   "content_warnings": ["suicide-self-harm"],
   "keywords": [
     "Clearwater",
     "Fort Harrison Hotel",
+    "Flag Land Base",
     "Gabriel Cazares",
     "Paulette Cooper",
     "Operation Freakout",
     "Quentin Hubbard",
-    "Revolt in the Stars",
     "Battlefield Earth",
     "Hemet",
     "David Miscavige"
@@ -80,6 +81,12 @@
     "time": "medium"
   },
   "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:00:00",
+      "note": "host frames the two parts as the last ten years of Hubbard's life, after a separate three-part biography"
+    },
     {
       "facet": "time",
       "part": 1,
@@ -99,16 +106,16 @@
       "note": "Guardian's Office campaign to unseat the mayor, including a staged hit-and-run in Washington"
     },
     {
-      "facet": "themes",
+      "facet": "time",
       "part": 1,
-      "at": "00:21:22",
-      "note": "Operation Snow White: agents infiltrate the IRS, DOJ, Coast Guard and DEA and copy files"
+      "at": "00:21:53",
+      "note": "Snow White traced back to 1973; agents inside the IRS, Coast Guard and DEA by 1975"
     },
     {
-      "facet": "themes",
+      "facet": "time",
       "part": 1,
-      "at": "00:27:43",
-      "note": "author of a critical book framed for bomb threats and harassed for years"
+      "at": "00:27:12",
+      "note": "author of a 1972 critical book framed for bomb threats and harassed for years"
     },
     {
       "facet": "content_warnings",
@@ -126,7 +133,7 @@
       "facet": "time",
       "part": 1,
       "at": "00:50:01",
-      "note": "segment on later deaths at Flag Land Base and the church's current hold on downtown Clearwater"
+      "note": "coda on later deaths at Flag Land Base and the church's current hold on downtown Clearwater"
     },
     {
       "facet": "themes",
@@ -147,5 +154,5 @@
       "note": "January 1986 death in seclusion; coroner findings and the church's announcement"
     }
   ],
-  "notes": "Story covers only 1975-1986; covered_span is 1911-1986 solely because of the lifetime rule, main_span is the real focus. reaches_present set on a ~4 min Clearwater coda (Flag deaths, current property control). electoral-politics (campaign against a mayor) and finance-crypto (property takeover) are loose fits; no theme for local-government capture. Subdivisions left empty: FL, DC, CA and NV all matter."
+  "notes": "partial_life set: the title and the host frame this as the last decade of Hubbard's life, a sequel to a separate biography; earlier life gets only callbacks. covered_span starts 1973 for the Snow White origin and the Cooper framing; Clearwater coda (~4 min) sets reaches_present. electoral-politics (mayor) and finance-crypto (property takeover) are loose fits. Subdivisions empty: FL, DC, CA and NV all matter."
 }

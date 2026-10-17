@@ -1,6 +1,6 @@
 {
   "story_id": "soldier-of-fortune-the-deadliest-magazine-ever-with-billy-wayne-davis",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.6.0",
   "tagged_by": { "agent": "btb-tagger", "model": "claude-opus-5-5", "date": "2026-10-16" },
   "format": "live-show",
   "subjects": [
@@ -27,10 +27,10 @@
       "floruit": 1985
     },
     {
-      "name": "John Wayne Hearn",
+      "name": "David Bufkin",
       "kind": "person",
       "role": "secondary",
-      "floruit": 1985
+      "floruit": 1976
     }
   ],
   "roles": ["journalist-propagandist", "military-officer", "business-executive"],
@@ -57,7 +57,7 @@
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "Vietnam veteran Robert K. Brown founded Soldier of Fortune magazine in 1975, using it to recruit Americans for white-ruled Rhodesia, run classified ads that led to contract murders, and feed the US militia movement.",
+  "summary": "Vietnam veteran Robert K. Brown founded Soldier of Fortune magazine in 1975 and used it to recruit Americans for white-ruled Rhodesia, sell classified ads that led to contract murders, and boost the US militia movement.",
   "content_warnings": ["hate-speech"],
   "keywords": [
     "Oklahoma City bombing",
@@ -65,11 +65,11 @@
     "Michigan Militia",
     "Roberto D'Aubuisson",
     "Daniel Gearhart",
-    "David Bufkin",
+    "John Wayne Hearn",
+    "Dylann Roof",
     "Jeff Cooper",
     "Ian Smith",
-    "gun for hire ads",
-    "Dynasty Typewriter"
+    "gun for hire ads"
   ],
   "guests": ["Billy Wayne Davis"],
   "confidence": {
@@ -80,18 +80,18 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:06:07", "note": "Brown's birth in 1932 in Monroe, Michigan opens the biography" },
+    { "facet": "time", "part": 1, "at": "00:06:07", "note": "story opens with Brown's 1932 birth in Michigan; his army years and Cuba trip follow" },
     { "facet": "time", "part": 1, "at": "00:18:48", "note": "Oman mercenary-contract scheme money funds the new magazine in 1975" },
     { "facet": "regions", "part": 1, "at": "00:22:52", "note": "long Rhodesia segment begins: the white-minority state and its war" },
     { "facet": "themes", "part": 1, "at": "00:30:27", "note": "magazine recruiting articles drew about 400 Americans into the Rhodesian army" },
-    { "facet": "regions", "part": 1, "at": "00:43:44", "note": "recruit via classified ad captured and executed in Angola in 1976" },
+    { "facet": "subjects", "part": 1, "at": "00:41:04", "note": "Bufkin uses the classifieds to raise mercenaries for Angola" },
+    { "facet": "regions", "part": 1, "at": "00:44:14", "note": "recruit Gearhart captured and executed in Angola in 1976" },
     { "facet": "subjects", "part": 1, "at": "00:49:59", "note": "Savage places a gun-for-hire ad and carries out contract killings" },
-    { "facet": "subjects", "part": 1, "at": "00:54:10", "note": "trucker Hearn's ad brings murder offers; he kills Sandra Black" },
-    { "facet": "time", "part": 1, "at": "00:56:20", "note": "hitman ads stop in 1986; civil judgment upheld on appeal" },
+    { "facet": "time", "part": 1, "at": "00:56:20", "note": "hitman ads stop in 1986; civil judgment for the victim's sons upheld on appeal" },
     { "facet": "regions", "part": 1, "at": "01:04:15", "note": "Brown joins mercenaries backing D'Aubuisson in El Salvador from 1983" },
-    { "facet": "themes", "part": 1, "at": "01:10:06", "note": "magazine boosts militias; McVeigh subscriber, zine traced to its office (1995)" },
+    { "facet": "themes", "part": 1, "at": "01:10:06", "note": "magazine boosts militias; McVeigh a subscriber, zine traced to its office (1995)" },
     { "facet": "time", "part": 1, "at": "01:12:12", "note": "post-1990s pivot to border vigilantes (2003) and Arpaio (2009)" },
-    { "facet": "time", "part": 1, "at": "01:13:50", "note": "magazine goes online-only; 2019 republication shows ongoing legacy" }
+    { "facet": "time", "part": 1, "at": "01:13:50", "note": "magazine goes online-only; 2019 republication and Brown still alive at release" }
   ],
-  "notes": "Live show at Dynasty Typewriter. Brown treated as co-primary with the magazine since his biography frames the story, so the lifetime rule sets covered_span 1932-2020; lifespan end null because he was alive at release (verify current status). No theme for murder-for-hire or mercenary recruiting; immigration (Ranch Rescue, Arpaio) and the arms trade are brief and left out."
+  "notes": "partial_life not set: Brown is co-primary and the story opens with his birth, army career and Cuba trip, then follows him to 2016-2019, so it is not framed around one period of his life; lifetime rule gives covered_span 1932-2020 (alive at release, verify current status). John Wayne Hearn's shorter segment moved to keywords. No theme for murder-for-hire or mercenary recruiting; immigration and Rhodesian colonialism are brief."
 }

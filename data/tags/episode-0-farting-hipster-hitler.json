@@ -1,8 +1,8 @@
 {
   "story_id": "episode-0-farting-hipster-hitler",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.6.0",
   "tagged_by": {
-    "agent": "claude-code-subagent",
+    "agent": "btb-tagger",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -37,16 +37,17 @@
     "origin": ["AT"],
     "setting": ["DE", "AT"],
     "subdivisions": [],
-    "polities": ["nazi-germany", "weimar-republic"],
+    "polities": ["nazi-germany", "weimar-republic", "austria-hungary"],
     "scope": "international"
   },
   "time": {
-    "main_span": { "start": 1919, "end": 1945 },
-    "covered_span": { "start": 1889, "end": 1945 },
+    "main_span": { "start": 1920, "end": 1945 },
+    "covered_span": { "start": 1905, "end": 1945 },
     "reaches_present": false,
-    "approximate": false
+    "approximate": true,
+    "partial_life": true
   },
-  "summary": "A short pilot episode on Adolf Hitler's personal oddities: his obsessive teenage crush in Linz, his 1920s dress and whip, his chronic flatulence, and the drugs his doctor Theodor Morell gave him through the Second World War.",
+  "summary": "A short pilot on Adolf Hitler's personal oddities: his obsessive teenage crush in Austria, his 1920s trench coat and dog whip, his chronic flatulence, and the untested drugs his doctor Theodor Morell fed him through World War II.",
   "content_warnings": ["drug-use"],
   "keywords": [
     "The Young Hitler I Knew",
@@ -54,7 +55,7 @@
     "Munich",
     "Ernst Hanfstaengl",
     "meteorism",
-    "Dr. Koster's anti-gas pills",
+    "Dr. Koester's anti-gas pills",
     "strychnine",
     "Mutaflor",
     "Wolf's Lair",
@@ -70,6 +71,12 @@
   },
   "evidence": [
     {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:44",
+      "note": "Host frames the episode around Hitler as an odd young man in his twenties and thirties, not a life story"
+    },
+    {
       "facet": "subjects",
       "part": 1,
       "at": "00:04:26",
@@ -79,32 +86,32 @@
       "facet": "time",
       "part": 1,
       "at": "00:04:57",
-      "note": "1905 walk where Hitler first sees the girl he fixates on for years"
+      "note": "1905 walk where Hitler first sees the girl he fixates on for about four years; earliest dated period"
     },
     {
       "facet": "time",
       "part": 1,
-      "at": "00:07:47",
-      "note": "1920s Munich: Hitler's outfit, whip and early party income"
+      "at": "00:08:16",
+      "note": "1920s Munich: trench coat, trilby and the whip he carried for a decade"
     },
     {
       "facet": "subjects",
       "part": 1,
       "at": "00:11:07",
-      "note": "1936: Morell becomes Hitler's doctor and treats his flatulence"
+      "note": "1936: Morell takes Hitler on as a patient to treat his flatulence"
     },
     {
       "facet": "themes",
       "part": 1,
       "at": "00:13:33",
-      "note": "Morell gives Hitler dozens of untested drugs, many from his own firms"
+      "note": "Morell gives Hitler dozens of untested drugs, many made by his own firms"
     },
     {
       "facet": "themes",
       "part": 1,
       "at": "00:14:07",
-      "note": "Rotation of morphine, methamphetamine and cocaine injections, 1943-1945"
+      "note": "Rotation of morphine, methamphetamine and cocaine injections through 1943-1945"
     }
   ],
-  "notes": "Short pilot (about 16 minutes) covering anecdotes rather than a full biography. Covered span set to Hitler's whole life per the lifetime rule, although only the years from 1905 get airtime. Main span uses his political career, 1919-1945."
+  "notes": "partial_life set: a 16-minute pilot framed by title, description and host around young Hitler's oddities and his flatulence, not a biography; birth, childhood and the war itself get no airtime. Covered span runs from the 1905 Kubizek anecdote to the 1945 drug regime. Main span 1920-1945 (whip era to death) is approximate. Kubizek's segment is about 2.5 minutes, kept as secondary."
 }

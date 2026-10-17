@@ -1,8 +1,8 @@
 {
   "story_id": "jeffrey-epstein-pimp-to-the-powerful",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.6.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -38,8 +38,8 @@
     "primary": "child-abuse",
     "secondary": [
       "sexual-abuse",
-      "finance-crypto",
       "fraud-grift",
+      "finance-crypto",
       "policing-incarceration",
       "propaganda-media"
     ]
@@ -57,7 +57,7 @@
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "Brooklyn-born financier Jeffrey Epstein, whose fortune had murky origins, recruited and sexually abused dozens of underage girls in Florida and elsewhere, offered them to powerful friends, and got a lenient 2008 plea deal.",
+  "summary": "Brooklyn-born financier Jeffrey Epstein, whose fortune had murky origins, recruited and sexually abused dozens of underage girls in Florida and elsewhere, passed them to powerful friends, and secured a lenient 2008 plea deal.",
   "content_warnings": ["child-abuse", "sexual-violence"],
   "keywords": [
     "Palm Beach",
@@ -80,17 +80,18 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:04:15", "note": "born in Brooklyn, raised in Coney Island; schooling and college covered" },
-    { "facet": "time", "part": 1, "at": "00:08:28", "note": "joins Bear Stearns in 1976, later forced out amid an insider trading probe" },
-    { "facet": "themes", "part": 1, "at": "00:19:53", "note": "Hoffenberg and the Towers Financial Ponzi scheme as a possible fortune source" },
-    { "facet": "themes", "part": 1, "at": "00:24:41", "note": "the recruitment scheme in Palm Beach; most victims aged roughly 12 to 16" },
+    { "facet": "time", "part": 1, "at": "00:04:15", "note": "birth in Brooklyn, Coney Island upbringing, schooling and college covered" },
+    { "facet": "time", "part": 1, "at": "00:08:28", "note": "joins Bear Stearns in 1976; first consequential step of the story" },
+    { "facet": "themes", "part": 1, "at": "00:09:30", "note": "forced out of Bear Stearns amid a 1981 insider trading probe" },
+    { "facet": "themes", "part": 1, "at": "00:20:23", "note": "Hoffenberg and the Towers Financial Ponzi scheme as a fortune source" },
+    { "facet": "themes", "part": 1, "at": "00:25:12", "note": "recruitment scheme of girls mostly aged about 12 to 16" },
     { "facet": "subjects", "part": 1, "at": "00:26:15", "note": "long segment on Virginia Roberts and her recruitment via Maxwell" },
-    { "facet": "regions", "part": 1, "at": "00:49:38", "note": "his Virgin Islands island named as a site of trafficking" },
-    { "facet": "themes", "part": 2, "at": "00:09:58", "note": "Vanity Fair editor pulls abuse allegations; threats against the reporter" },
-    { "facet": "themes", "part": 2, "at": "00:22:10", "note": "2005 Palm Beach police investigation and obstruction by his team" },
-    { "facet": "subjects", "part": 2, "at": "00:30:01", "note": "Acosta negotiates the secret non-prosecution agreement" },
-    { "facet": "themes", "part": 2, "at": "00:35:42", "note": "lenient jail term with work release and paid deputies" },
-    { "facet": "time", "part": 2, "at": "00:38:28", "note": "post-release life, new island residence and lawsuits up to release" }
+    { "facet": "regions", "part": 1, "at": "00:49:38", "note": "his Virgin Islands island named as a trafficking site" },
+    { "facet": "themes", "part": 2, "at": "00:13:46", "note": "Vanity Fair editor pulls abuse allegations; reporter feels threatened" },
+    { "facet": "themes", "part": 2, "at": "00:22:10", "note": "2005 Palm Beach police probe and obstruction by his investigators" },
+    { "facet": "subjects", "part": 2, "at": "00:30:01", "note": "Acosta negotiates the secret non-prosecution agreement in 2007" },
+    { "facet": "themes", "part": 2, "at": "00:35:42", "note": "lenient jail stay with work release and deputies he paid" },
+    { "facet": "time", "part": 2, "at": "00:38:28", "note": "post-release life and lawsuits running up to the 2019 release" }
   ],
-  "notes": "Recorded March 2019, before his July 2019 arrest and August 2019 death; lifespan uses the real death year. Victims include minors and some young adults, so both child-abuse and sexual-abuse. Transcript gives his birth date garbled; 1953 from general knowledge. main_span end null as he was alive and litigating at release. Virginia Roberts is listed under her better-known name Virginia Giuffre."
+  "notes": "Not partial_life: a full biography from birth and schooling through finance career, abuse, prosecution and life up to release, so the lifetime rule applies (1953 to 2019; aired March 2019, he died August 2019). Victims include minors and some young adults, so child-abuse plus sexual-abuse. Birth year garbled in transcript; 1953 from general knowledge. main_span end null: alive and litigating at release. Virginia Roberts listed under her later name Giuffre."
 }

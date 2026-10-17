@@ -1,6 +1,6 @@
 {
   "story_id": "the-childhood-of-joseph-stalin",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.6.0",
   "tagged_by": {
     "agent": "btb-tagger",
     "model": "claude-opus-5-5",
@@ -19,7 +19,7 @@
       "name": "Ekaterine Geladze",
       "kind": "person",
       "role": "secondary",
-      "lifespan": { "start": 1858, "end": 1937 }
+      "lifespan": { "start": 1855, "end": 1937 }
     },
     {
       "name": "Besarion Jughashvili",
@@ -34,7 +34,7 @@
       "role": "secondary"
     }
   ],
-  "roles": ["dictator-autocrat", "activist-organizer", "writer-intellectual"],
+  "roles": ["dictator-autocrat", "activist-organizer", "entertainer-artist"],
   "themes": {
     "primary": "communism-state-socialism",
     "secondary": ["child-abuse", "domestic-abuse", "education", "organized-religion"]
@@ -48,7 +48,8 @@
   },
   "time": {
     "main_span": { "start": 1878, "end": 1899 },
-    "covered_span": { "start": 1878, "end": 1953 },
+    "covered_span": { "start": 1878, "end": 1899 },
+    "partial_life": true,
     "reaches_present": false,
     "approximate": false
   },
@@ -72,18 +73,21 @@
     "roles": "medium",
     "themes": "medium",
     "regions": "high",
-    "time": "medium"
+    "time": "high"
   },
   "evidence": [
+    { "facet": "time", "part": 1, "at": "00:01:39", "note": "host frames the episode as Stalin's childhood only" },
     { "facet": "time", "part": 1, "at": "00:02:11", "note": "birth in Gori in 1878 opens the story" },
     { "facet": "themes", "part": 1, "at": "00:13:14", "note": "drunken father hurls the boy to the ground and hunts him at home" },
     { "facet": "themes", "part": 1, "at": "00:14:19", "note": "father beats the mother; she later beats the son harshly" },
     { "facet": "themes", "part": 1, "at": "00:33:10", "note": "Georgian banned in schools; harsh punishments, threat against teacher" },
+    { "facet": "roles", "part": 1, "at": "00:35:43", "note": "gifted singer, painter and actor; works as a wedding singer" },
+    { "facet": "roles", "part": 1, "at": "00:42:30", "note": "organises a near-riot protest against a school inspector" },
     { "facet": "themes", "part": 1, "at": "00:44:33", "note": "Darwin leads him to atheism; enters the Tiflis seminary" },
     { "facet": "roles", "part": 1, "at": "00:46:13", "note": "publishes acclaimed poetry as a teenager under a pen name" },
-    { "facet": "roles", "part": 1, "at": "00:42:30", "note": "organises a near-riot protest against a school inspector" },
     { "facet": "themes", "part": 1, "at": "00:50:52", "note": "turns to Marxism and forms a more militant study circle" },
-    { "facet": "time", "part": 1, "at": "00:56:01", "note": "expelled from the seminary in May 1899; story ends at adulthood" }
+    { "facet": "time", "part": 1, "at": "00:56:01", "note": "expelled from the seminary in May 1899" },
+    { "facet": "time", "part": 1, "at": "00:57:04", "note": "host closes the story at the threshold of adulthood" }
   ],
-  "notes": "Story only covers 1878-1899. covered_span runs to 1953 solely because of the lifetime rule for deep-dive person stories; this will surface the story under Soviet-era filters it barely touches. Roles reflect what he became plus his youthful protest and poetry. Primary theme picked for catalogue fit; child-abuse is the closest runner-up."
+  "notes": "partial_life set: title and host frame it as the childhood only, ending at the 1899 expulsion; adult rule gets passing asides, so covered_span is 1878-1899. Keke's birth follows the transcript (17 at her 1872 marriage); common sources give 1856 or 1858. Primary theme chosen for catalogue fit since the episode is framed as the making of a communist dictator; child-abuse is the close runner-up."
 }

@@ -1,6 +1,6 @@
 {
   "story_id": "hitler-y-a-fiction-fan-girl",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.6.0",
   "tagged_by": {
     "agent": "btb-tagger",
     "model": "claude-opus-5-5",
@@ -12,13 +12,19 @@
       "name": "Karl May",
       "kind": "person",
       "role": "primary",
-      "lifespan": { "start": 1842, "end": 1912 }
+      "lifespan": {
+        "start": 1842,
+        "end": 1912
+      }
     },
     {
       "name": "Adolf Hitler",
       "kind": "person",
       "role": "primary",
-      "lifespan": { "start": 1889, "end": 1945 }
+      "lifespan": {
+        "start": 1889,
+        "end": 1945
+      }
     },
     {
       "name": "Winnetou novels",
@@ -26,7 +32,11 @@
       "role": "secondary"
     }
   ],
-  "roles": ["writer-intellectual", "con-artist", "dictator-autocrat"],
+  "roles": [
+    "writer-intellectual",
+    "con-artist",
+    "dictator-autocrat"
+  ],
   "themes": {
     "primary": "nazism",
     "secondary": [
@@ -38,15 +48,32 @@
     ]
   },
   "regions": {
-    "origin": ["DE", "AT"],
-    "setting": ["DE", "RU", "PL", "US"],
+    "origin": [
+      "DE",
+      "AT"
+    ],
+    "setting": [
+      "DE",
+      "RU",
+      "PL",
+      "US"
+    ],
     "subdivisions": [],
-    "polities": ["german-empire", "nazi-germany"],
+    "polities": [
+      "german-empire",
+      "nazi-germany"
+    ],
     "scope": "international"
   },
   "time": {
-    "main_span": { "start": 1860, "end": 1945 },
-    "covered_span": { "start": 1842, "end": 1945 },
+    "main_span": {
+      "start": 1860,
+      "end": 1945
+    },
+    "covered_span": {
+      "start": 1842,
+      "end": 1945
+    },
     "reaches_present": true,
     "approximate": false
   },
@@ -64,7 +91,9 @@
     "German American Bund",
     "Ernstthal"
   ],
-  "guests": ["Laci Mosley"],
+  "guests": [
+    "Laci Mosley"
+  ],
   "confidence": {
     "subjects": "medium",
     "roles": "high",
@@ -134,5 +163,5 @@
       "note": "legacy: 1960s Euro-westerns and present-day German Native American festivals"
     }
   ],
-  "notes": "Karl May and Hitler both treated as primary: May gets most airtime, but the title and pitch centre on Hitler's obsession, so nazism is the primary theme. Hitler's own life is not narrated birth to death; covered_span follows the lifetime rule. main_span runs from May's con career to 1945."
+  "notes": "May and Hitler both primary: May gets most airtime, but the title centres on Hitler's obsession, so nazism is primary. partial_life left out: although Hitler appears only through his reading of May (childhood, 1933-45), May gets a full birth-to-death biography, and 1842-1945 already spans both lifetimes, so the lifetime rule holds without the exception. main_span runs from May's cons to 1945."
 }

@@ -1,6 +1,6 @@
 {
   "story_id": "how-jeffrey-epstein-helped-build-the-modern-world",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.6.0",
   "tagged_by": {
     "agent": "btb-tagger",
     "model": "claude-opus-5-5",
@@ -45,8 +45,8 @@
     "secondary": [
       "finance-crypto",
       "tech-internet",
-      "eugenics-scientific-racism",
       "child-abuse",
+      "eugenics-scientific-racism",
       "propaganda-media",
       "religious-right-culture-war",
       "racism-white-supremacy"
@@ -54,30 +54,31 @@
   },
   "regions": {
     "origin": ["US"],
-    "setting": ["US", "CN", "RU"],
+    "setting": ["US", "CN", "RU", "ES"],
     "subdivisions": [],
     "polities": [],
     "scope": "global"
   },
   "time": {
     "main_span": { "start": 2010, "end": 2019 },
-    "covered_span": { "start": 1953, "end": 2026 },
+    "covered_span": { "start": 1992, "end": 2019 },
     "reaches_present": true,
-    "approximate": true
+    "approximate": true,
+    "partial_life": true
   },
-  "summary": "Drawing on the 2025-26 Epstein files, the story traces how convicted sex offender Jeffrey Epstein used money and connections in the 2010s to push crypto, video game microtransactions, race science, anti-trans research and the online far right.",
+  "summary": "Using the 2025-26 Epstein file releases, the story shows how convicted sex offender Jeffrey Epstein spent his post-prison 2010s using money and contacts to push crypto, video game microtransactions, race science, anti-trans research and the online far right in the US.",
   "content_warnings": ["child-abuse"],
   "keywords": [
     "Epstein files",
     "Tether",
     "Coinbase",
-    "microtransactions",
+    "Internet Gaming Entertainment",
+    "Digital Entertainment Network",
     "MIT Media Lab",
     "Joi Ito",
     "Bobby Kotick",
     "Christopher Poole",
-    "4chan /pol/",
-    "Peter Thiel"
+    "4chan /pol/"
   ],
   "guests": ["Andrew Ti"],
   "confidence": {
@@ -88,18 +89,18 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:02:01", "note": "series framed around the DOJ file releases of 2025 and early 2026" },
-    { "facet": "subjects", "part": 1, "at": "00:16:38", "note": "long Brock Pierce biography begins: child actor born 1980 in Minneapolis" },
-    { "facet": "themes", "part": 1, "at": "00:38:15", "note": "abuse allegations involving minors at the DEN mansion and later Interpol raid in Spain" },
-    { "facet": "regions", "part": 1, "at": "00:46:02", "note": "IGE gold farms staffed by low-paid workers in China, run from Hong Kong" },
-    { "facet": "time", "part": 1, "at": "00:53:57", "note": "Epstein free by 2010 after his 2008-09 sentence; post-prison influence begins" },
-    { "facet": "themes", "part": 2, "at": "00:10:02", "note": "Epstein urges Kotick toward monetised games aimed at children" },
-    { "facet": "themes", "part": 2, "at": "00:34:38", "note": "Epstein helps set up the Tether banking deal, then invests in Coinbase" },
-    { "facet": "themes", "part": 2, "at": "00:47:09", "note": "Epstein money via MIT Media Lab pays three bitcoin core developers in 2015" },
-    { "facet": "regions", "part": 3, "at": "00:04:10", "note": "2013 effort to pitch Putin on bitcoin through a former Norwegian PM" },
-    { "facet": "themes", "part": 3, "at": "00:44:40", "note": "Epstein meets Christopher Poole the day before 4chan's /pol/ board opens" },
-    { "facet": "themes", "part": 3, "at": "00:58:24", "note": "2015 donation to a white nationalist YouTube channel" },
-    { "facet": "themes", "part": 4, "at": "00:50:13", "note": "Epstein funds and steers Trivers toward anti-trans biology research" }
+    { "facet": "time", "part": 1, "at": "00:09:45", "note": "host states the series focuses on Epstein's influence on crypto, online media and the far right" },
+    { "facet": "time", "part": 1, "at": "00:13:07", "note": "his rightward turn is placed after the 2008-09 conviction and jail term" },
+    { "facet": "time", "part": 1, "at": "00:16:38", "note": "long Brock Pierce segment opens with his birth and 1990s child acting career" },
+    { "facet": "regions", "part": 1, "at": "00:39:47", "note": "DEN founders flee to Spain in 2000; later raid there finds abuse material" },
+    { "facet": "regions", "part": 1, "at": "00:49:21", "note": "IGE gold farmers in China paid pennies an hour in virtual sweatshops" },
+    { "facet": "themes", "part": 2, "at": "00:10:34", "note": "Epstein urges Kotick toward addictive monetised games aimed at kids" },
+    { "facet": "themes", "part": 2, "at": "00:37:06", "note": "2014 Coinbase investment; earlier role in the Tether banking deal" },
+    { "facet": "regions", "part": 3, "at": "00:04:10", "note": "2013 attempt to broker a meeting with Putin to pitch bitcoin" },
+    { "facet": "themes", "part": 3, "at": "00:44:40", "note": "Epstein meets Christopher Poole just before 4chan's /pol/ board opens" },
+    { "facet": "themes", "part": 3, "at": "00:58:24", "note": "donation to a French white nationalist YouTube channel" },
+    { "facet": "themes", "part": 4, "at": "00:05:01", "note": "Ferguson 2014 framed as the moment Epstein and friends radicalise" },
+    { "facet": "themes", "part": 4, "at": "00:52:49", "note": "Epstein funds Trivers and steers him toward anti-trans research" }
   ],
-  "notes": "Format: chose deep-dive over current-affairs; it is pegged to new file releases but the bulk is researched history. The lifetime rule forces covered_span to start at Epstein's 1953 birth, which is not discussed. Anti-trans propaganda mapped to religious-right-culture-war (gender culture war; no secular anti-trans theme). Trivers' death status unverified, end left null. Christopher Poole, Joi Ito, Bobby Kotick also get real segments; kept as keywords for the 5-subject cap."
+  "notes": "partial_life set: the hosts frame the series as Epstein's post-2009 influence, not a biography; his birth, youth and finance career are not covered. covered_span starts with secondary subject Brock Pierce's 1990s acting years and ends at Epstein's 2019 death; 2025-26 file-release reactions set reaches_present. Anti-trans work mapped to religious-right-culture-war. Trivers' death status unverified."
 }

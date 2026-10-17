@@ -1,6 +1,6 @@
 {
   "story_id": "hitler-s-drug-problem",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.6.0",
   "tagged_by": {
     "agent": "btb-tagger",
     "model": "claude-opus-5-5",
@@ -45,18 +45,19 @@
   },
   "regions": {
     "origin": ["AT"],
-    "setting": ["DE", "RU", "FR", "PL", "CZ"],
+    "setting": ["DE", "FR", "RU", "PL", "CZ"],
     "subdivisions": [],
     "polities": ["nazi-germany", "weimar-republic"],
     "scope": "international"
   },
   "time": {
     "main_span": { "start": 1936, "end": 1945 },
-    "covered_span": { "start": 1889, "end": 1945 },
-    "reaches_present": false,
-    "approximate": false
+    "covered_span": { "start": 1918, "end": 1945 },
+    "reaches_present": true,
+    "approximate": false,
+    "partial_life": true
   },
-  "summary": "How Adolf Hitler and the Nazi state ran on drugs: Hitler's quack physician Theodor Morell dosed him with stimulants, opioids and animal hormones from 1936 to 1945, while the Wehrmacht fought its blitzkrieg campaigns on methamphetamine.",
+  "summary": "How drugs ran through Nazi Germany: from 1936 the quack physician Theodor Morell dosed Adolf Hitler with stimulants, opioids and animal hormones until 1945, while the Wehrmacht fought its blitzkrieg campaigns on methamphetamine.",
   "content_warnings": ["drug-use"],
   "keywords": [
     "Norman Ohler",
@@ -68,7 +69,7 @@
     "Emil Hacha",
     "Erwin Giesing",
     "Leonardo Conti",
-    "Weimar Berlin"
+    "Temmler"
   ],
   "guests": ["Carolina Barlow"],
   "confidence": {
@@ -80,34 +81,34 @@
   },
   "evidence": [
     {
-      "facet": "themes",
+      "facet": "time",
+      "part": 1,
+      "at": "00:04:17",
+      "note": "framed around Ohler's 2016 book and its media reception, which the host critiques at length"
+    },
+    {
+      "facet": "time",
       "part": 1,
       "at": "00:15:37",
-      "note": "segment on Weimar-era drug culture in Berlin and German drug law"
-    },
-    {
-      "facet": "subjects",
-      "part": 1,
-      "at": "00:34:35",
-      "note": "extended critique of Ohler's book and its claims about Nazi drug policy"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:46:01",
-      "note": "Morell's vitamin injections secretly spiked with stimulants and hormones"
+      "note": "long segment on Weimar drug culture, post-WWI opiate addiction and 1920s drug law"
     },
     {
       "facet": "time",
       "part": 1,
       "at": "00:48:07",
-      "note": "1936: Morell treats Hoffmann and is introduced to Hitler, start of main span"
+      "note": "1936: Morell treats Hoffmann and meets Hitler, start of the main span"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:55:51",
+      "note": "Temmler launches Pervitin as an over-the-counter methamphetamine around 1937-38"
     },
     {
       "facet": "regions",
       "part": 1,
       "at": "01:03:38",
-      "note": "Morell revives Czech president Hacha during the 1939 annexation talks"
+      "note": "Morell revives Czech president Hacha during the March 1939 annexation talks"
     },
     {
       "facet": "regions",
@@ -125,19 +126,19 @@
       "facet": "regions",
       "part": 2,
       "at": "00:39:19",
-      "note": "meth use and its collapse in effectiveness during the invasion of Russia"
+      "note": "meth use during Barbarossa and its collapse in usefulness deep in Russia"
     },
     {
       "facet": "regions",
       "part": 2,
       "at": "00:46:31",
-      "note": "Hitler's isolation at the Wolf's Lair in East Prussia, today in Poland"
+      "note": "Hitler isolated at the Wolf's Lair in East Prussia, today in Poland"
     },
     {
       "facet": "time",
       "part": 2,
       "at": "00:51:40",
-      "note": "Morell begins Eukodal (oxycodone) injections in July 1943"
+      "note": "Morell starts Eukodal (oxycodone) injections in July 1943"
     },
     {
       "facet": "subjects",
@@ -149,8 +150,8 @@
       "facet": "time",
       "part": 2,
       "at": "01:11:34",
-      "note": "Morell runs out of drugs, is expelled from the bunker in 1945, dies after the war"
+      "note": "Morell runs out of drugs and leaves the bunker in 1945; his later death is a one-line coda"
     }
   ],
-  "notes": "Topical deep-dive, not a biography: the story actually covers roughly 1918-1945 (Weimar drug culture to the bunker). covered_span starts at 1889 only because the lifetime rule requires Hitler's birth year. Morell arguably deserves co-primary status given his airtime; kept secondary since the title centres Hitler. Wikidata omitted for Morell (not certain of QID)."
+  "notes": "partial_life set: the title frames one side of Hitler's life (his drug use, 1936-45); his birth, youth and rise get no real airtime. covered_span 1918-1945 = Weimar drug culture and Nazi drug rhetoric to the bunker. Morell's 1948 death is a coda. reaches_present true for the long critique of Ohler's 2016 book and its reception. Morell kept secondary since the title centres Hitler; no Wikidata for him (QID not certain)."
 }

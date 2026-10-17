@@ -1,6 +1,6 @@
 {
   "story_id": "bonus-the-bastards-of-oprah",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.6.0",
   "tagged_by": {
     "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
@@ -78,5 +78,5 @@
     "time": "low"
   },
   "evidence": [],
-  "notes": "No transcript; tagged from the description (a stitched re-release of the Dr. Oz, Dr. Phil and John of God episodes) plus general knowledge. Format deep-dive because these are BtB's own series, not another show. Roles cover three primaries in three slots (Oz's physician-surgeon dropped). Themes, warnings, guests and spans unverified; main_span start is John of God's Abadiania centre (approx.). Reviewer should check against the source episodes."
+  "notes": "No transcript; tagged from the description (stitched re-release of the Dr. Oz, Dr. Phil and John of God series) plus general knowledge. partial_life not set: the source episodes are full biographies, not framed on one period, and with no transcript the doubt rule says leave it out, so the lifetime rule applies (1942-2025). Oz's physician-surgeon role dropped for the 3-role cap. Themes, warnings, guests and main_span start (John of God's Abadiania centre, approx.) unverified."
 }
