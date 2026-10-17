@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react';
 import { Link } from 'react-router';
 import type { CatalogStory } from '@shared/schemas/catalog.ts';
 import type { LibraryEntry } from '@/data';
@@ -13,6 +14,7 @@ export function ResultRow({
   selected,
   entry,
   terms,
+  mark,
 }: {
   story: CatalogStory;
   labels: Labels;
@@ -22,10 +24,12 @@ export function ResultRow({
   entry?: LibraryEntry | undefined;
   /** Search terms this story matched, to mark in its title and summary. */
   terms?: string[] | undefined;
+  /** The control beside the row (RowMark): a sibling of the link, not inside it. */
+  mark?: ReactNode;
 }) {
   const period = storyPeriod(story);
   return (
-    <li>
+    <li className="result-item">
       <Link
         to={{ pathname: `/stories/${story.id}`, search }}
         className="result"
@@ -54,6 +58,7 @@ export function ResultRow({
           {partsLabel(story.parts.length)} · {formatDuration(story.total_duration_s)}
         </span>
       </Link>
+      {mark}
     </li>
   );
 }

@@ -287,5 +287,49 @@ test('timeline: phones get full-width bars under the titles', async ({ page, isM
   const list = await page.getByRole('list', { name: 'Stories' }).boundingBox();
   if (!title || !bar || !list) throw new Error('Missing a timeline box.');
   expect(bar.y).toBeGreaterThan(title.y + title.height - 1);
-  expect(bar.width).toBeGreaterThan(list.width * 0.9);
+  // Full width apart from the row's mark at the end.
+  const mark = await row.locator('xpath=..').locator('.row-mark').boundingBox();
+  if (!mark) throw new Error('Missing the row mark.');
+  expect(bar.x + bar.width).toBeGreaterThan(mark.x - 16);
+  expect(bar.width).toBeGreaterThan(list.width * 0.8);
+});
+
+test('catch-up: mark everything up to a month, then browse the rest', async ({ page }) => {
+  await page.goto('/library');
+  await page.getByRole('link', { name: 'Catch up' }).click();
+  await expect(page.getByRole('heading', { name: 'Catch up' })).toBeVisible();
+  await page.getByRole('radio', { name: 'Everything up to a month' }).check();
+  await page.getByLabel('Up to', { exact: true }).fill('2021-07');
+  await expect(page.getByText(/^4 stories, 7 episodes/)).toBeVisible();
+  await page.getByRole('button', { name: 'Mark 4 stories as listened' }).click();
+  await expect(page.getByText('Marked 4 stories as listened.')).toBeVisible();
+  await page.getByRole('link', { name: 'Browse with listened stories hidden' }).click();
+  await expect(page).toHaveURL(/hide-listened=1/);
+  await expect(page.getByText('4 stories of 8', { exact: true })).toBeVisible();
+});
+
+test('select mode: mark a search result, then undo', async ({ page }) => {
+  await page.goto('/?q=nestle');
+  await page.getByRole('button', { name: 'Select', exact: true }).click();
+  await page
+    .getByRole('checkbox', { name: /^Select: / })
+    .first()
+    .check();
+  const bar = page.getByRole('region', { name: 'Selection' });
+  await expect(bar.getByText('1 selected')).toBeVisible();
+  await bar.getByRole('button', { name: 'Mark listened' }).click();
+  await expect(page.getByText('Marked 1 story as listened.')).toBeVisible();
+  await page.getByRole('button', { name: 'Undo' }).click();
+  await expect(page.getByText('Undone.')).toBeVisible();
+});
+
+test('phones mark a story listened with one tap', async ({ page, isMobile }) => {
+  test.skip(!isMobile, 'Checks the touch target on a phone.');
+  await page.goto('/');
+  const mark = page.getByRole('button', { name: /^Listened: .*Percy Fawcett/ });
+  const box = await mark.boundingBox();
+  if (!box) throw new Error('The row mark has no box.');
+  expect(Math.min(box.width, box.height)).toBeGreaterThanOrEqual(44);
+  await mark.tap();
+  await expect(mark).toHaveAttribute('aria-pressed', 'true');
 });

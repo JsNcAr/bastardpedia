@@ -1,3 +1,4 @@
+import { Link } from 'react-router';
 import { useCatalog } from '@/app/queries';
 import { formatYear } from '@/features/catalog/format';
 import { aboutStats } from './about-stats';
@@ -63,6 +64,13 @@ export function AboutPage() {
         overlap 1837 to 1901, wherever it happened. For a story about one person, that is usually
         their whole life. Centuries and the year range use the same years.
       </p>
+      <h2>Your library</h2>
+      <p>
+        Marks and notes stay in this browser. Tap the bookmark on any result to mark it listened,
+        use Select in the catalogue to mark many at once, or{' '}
+        <Link to="/library/catch-up">catch up by release date</Link> if you have heard years of
+        episodes already.
+      </p>
       <h2>Keyboard shortcuts</h2>
       <dl className="shortcuts">
         <div>
@@ -81,7 +89,7 @@ export function AboutPage() {
           <dt>
             <kbd>Esc</kbd>
           </dt>
-          <dd>Close the open story</dd>
+          <dd>Close the open story, or leave select mode</dd>
         </div>
       </dl>
       <h2>Not affiliated</h2>

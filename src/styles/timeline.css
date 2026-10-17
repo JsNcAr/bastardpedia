@@ -41,6 +41,15 @@
   pointer-events: none;
 }
 
+.density-selection {
+  fill: var(--color-accent-subtle);
+  stroke: var(--color-accent-default);
+  stroke-width: var(--size-hairline);
+  vector-effect: non-scaling-stroke;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
 .density-hint {
   margin-top: var(--space-1);
   font-size: var(--text-xs);
@@ -89,12 +98,27 @@
   max-width: none;
 }
 
-/* Rows */
+/* Rows, with room at the end for the row's mark (results.css), which the axis matches. */
+.timeline-row {
+  padding-inline-end: calc(var(--size-tap) + var(--space-2));
+}
+
+/* Rows bleed by --space-3 past the list (as in the list view); the axis doesn't. */
+.timeline-axis {
+  padding-inline-end: calc(var(--size-tap) + var(--space-2) - var(--space-3));
+}
+
+.timeline-item > .row-mark {
+  top: 50%;
+  translate: 0 -50%;
+}
+
 .timeline-row {
   display: grid;
   gap: var(--space-1);
   align-items: center;
-  padding: var(--space-2) var(--space-3);
+  padding-block: var(--space-2);
+  padding-inline-start: var(--space-3);
   margin-inline: calc(var(--space-3) * -1);
   border-bottom: var(--size-hairline) solid var(--color-border-subtle);
   color: var(--color-text-primary);

@@ -1,9 +1,10 @@
-import { useCallback, useEffect, useMemo, useRef } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router';
-import { useCatalog, useLibrary } from '@/app/queries';
+import { useBulkStatus, useCatalog, useLibrary } from '@/app/queries';
 import { WIDE_QUERY, useMediaQuery } from '@/app/useMediaQuery';
 import { useUi } from '@/app/ui-store';
 import { useShortcuts } from '@/app/useShortcuts';
+import { BulkResult, type BulkOutcome } from '@/features/library/BulkResult';
 import { StoryDetail } from '@/features/story/StoryDetail';
 import { Icon } from '@/ui/Icon';
 import { StateMessage } from '@/ui/StateMessage';
@@ -16,12 +17,14 @@ import { EMPTY_FILTERS, activeCount } from './filter-model';
 import { createLabels } from './labels';
 import { ResultRow } from './ResultRow';
 import { SearchBox } from './SearchBox';
+import { RowMark } from './select/RowMark';
+import { SelectBar } from './select/SelectBar';
 import { Timeline } from './timeline/Timeline';
 import { ViewToggle } from './timeline/ViewToggle';
 import { createStorySearch } from './search';
 import { SortControl } from './SortControl';
 import { useFilters } from './useFilters';
-import type { Catalog } from '@shared/schemas/catalog.ts';
+import type { Catalog, CatalogStory } from '@shared/schemas/catalog.ts';
 
 export function CatalogPage() {
   const query = useCatalog();
@@ -122,6 +125,33 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
     [catalog.stories],
   );
 
+  // Select mode: transient UI state, not a filter, so it stays out of the URL. The
+  // selection outlives filter changes so it can be built up across searches.
+  const [selecting, setSelecting] = useState(false);
+  const [picked, setPicked] = useState<ReadonlySet<string>>(() => new Set());
+  const [outcome, setOutcome] = useState<BulkOutcome | null>(null);
+  const bulk = useBulkStatus();
+  const check = useCallback(
+    (storyId: string, on: boolean) =>
+      setPicked((prev) => {
+        const next = new Set(prev);
+        if (on) next.add(storyId);
+        else next.delete(storyId);
+        return next;
+      }),
+    [],
+  );
+  const markFor = (s: CatalogStory) => (
+    <RowMark
+      storyId={s.id}
+      title={s.title}
+      entry={entries.get(s.id)}
+      selecting={selecting}
+      checked={picked.has(s.id)}
+      onCheck={check}
+    />
+  );
+
   // The timeline's density strip writes the same year filter as the rail slider.
   const setYears = useCallback(
     (yearFrom: number | null, yearTo: number | null, live: boolean) =>
@@ -146,6 +176,21 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
     document.addEventListener('keydown', onKey);
     return () => document.removeEventListener('keydown', onKey);
   }, [wide, id, search, navigate]);
+
+  // Escape leaves select mode when there is no story pane for it to close first.
+  useEffect(() => {
+    if (!selecting || (wide && id)) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== 'Escape' || e.defaultPrevented) return;
+      const t = e.target;
+      if (t instanceof HTMLElement && t.closest('textarea, select, input:not([type="checkbox"])'))
+        return;
+      if (document.querySelector('dialog[open]')) return;
+      setSelecting(false);
+    };
+    document.addEventListener('keydown', onKey);
+    return () => document.removeEventListener('keydown', onKey);
+  }, [selecting, wide, id]);
 
   useEffect(() => {
     const previous = shownId.current;
@@ -254,8 +299,18 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
               <Icon name="shuffle" size="sm" />
               Surprise me
             </button>
+            <button
+              type="button"
+              className="button"
+              aria-pressed={selecting}
+              onClick={() => setSelecting(!selecting)}
+            >
+              <Icon name="list-checks" size="sm" />
+              Select
+            </button>
           </div>
           <ActiveFilters filters={filters} labels={labels} onChange={setFilters} />
+          <BulkResult outcome={outcome} onDismiss={() => setOutcome(null)} />
         </div>
 
         {results.length === 0 ? (
@@ -286,6 +341,7 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
             entries={entries}
             terms={found?.terms}
             onYears={setYears}
+            markFor={markFor}
           />
         ) : (
           <ol className="results" aria-label="Stories">
@@ -298,10 +354,32 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
                 selected={s.id === id}
                 entry={entries.get(s.id)}
                 terms={found?.terms.get(s.id)}
+                mark={markFor(s)}
               />
             ))}
           </ol>
         )}
+        {selecting ? (
+          <SelectBar
+            count={picked.size}
+            shown={results.length}
+            busy={bulk.isPending}
+            onSelectShown={() => setPicked(new Set([...picked, ...results.map((s) => s.id)]))}
+            onClear={() => setPicked(new Set())}
+            onMark={(status) =>
+              bulk.mutate(
+                { ids: [...picked], status },
+                {
+                  onSuccess: (snapshot) => {
+                    setOutcome({ status, snapshot });
+                    setPicked(new Set());
+                  },
+                },
+              )
+            }
+            onDone={() => setSelecting(false)}
+          />
+        ) : null}
       </section>
 
       {detail ? (
