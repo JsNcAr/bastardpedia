@@ -1,0 +1,157 @@
+{
+  "story_id": "heinrich-schliemann-the-archaeologist-who-destroyed-troy",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "gold-draft",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Heinrich Schliemann",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1822,
+        "end": 1890
+      }
+    },
+    {
+      "name": "Giuseppe Ferlini",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1797,
+        "end": 1870
+      }
+    }
+  ],
+  "roles": ["explorer-adventurer", "scientist-scholar", "business-executive"],
+  "themes": {
+    "primary": "science-exploration",
+    "secondary": [
+      "cultural-heritage-looting",
+      "fraud-grift",
+      "folklore-legend",
+      "colonialism-imperialism",
+      "child-abuse"
+    ]
+  },
+  "regions": {
+    "origin": ["DE"],
+    "setting": ["TR", "GR", "SD", "DE", "RU", "US"],
+    "subdivisions": [],
+    "polities": ["ottoman-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "covered_span": {
+      "start": 1797,
+      "end": 1890
+    },
+    "main_span": {
+      "start": 1868,
+      "end": 1890
+    },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "German merchant turned amateur archaeologist Heinrich Schliemann tore a giant trench through the mound at Hisarlik in the 1870s, wrecking the Troy he sought, smuggling out gold and inflating his finds at Troy and Mycenae.",
+  "content_warnings": [],
+  "keywords": [
+    "Troy",
+    "Hisarlik",
+    "Priam's Treasure",
+    "Mycenae",
+    "Mask of Agamemnon",
+    "Meroë pyramids",
+    "Frank Calvert",
+    "Wilhelm Dörpfeld",
+    "Sophia Schliemann",
+    "Amanishakheto"
+  ],
+  "guests": ["Kristen Conger"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:06:47",
+      "note": "Start of a roughly 20-minute opening segment on Ferlini looting the Meroë pyramids"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:10:58",
+      "note": "Ferlini serves Mehmed Ali's army in Sudan and plans a gold hunt in Nubia; Meroë dig begins 1834"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:27:51",
+      "note": "Schliemann born 1822 in Mecklenburg; childhood and family scandal covered for about ten minutes"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:44:18",
+      "note": "California gold-dust bank in 1851; short-weight shipments, flees back to St. Petersburg"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:46:00",
+      "note": "Crimean War and US Civil War commodity speculation build his fortune in Russia and the US"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:01:06",
+      "note": "First amateur excavation in Greece in 1868, claimed as Odysseus's palace"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:08:26",
+      "note": "US citizenship 1869 via Indianapolis residence to divorce his Russian wife"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:17:16",
+      "note": "1870 dig at Hisarlik inside Ottoman territory without a permit"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:28:16",
+      "note": "Treasure smuggled out of the Ottoman Empire; Ottoman lawsuit demands its return"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:32:18",
+      "note": "Mycenae 1876 mask: suspicions he planted or forged finds, via a goldsmith relative of his wife"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:39:27",
+      "note": "Final 1890 Troy season with Dörpfeld; dies in Naples on 26 December 1890"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:10:55",
+      "note": "A friend shops for a bride for him in Greece; he marries 17-year-old Sophia at 47"
+    }
+  ],
+  "notes": "main_span starts at his first dig (1868). Ferlini's 1834-1837 Meroë looting is a long opening segment, kept as secondary subject and SD setting. covered_span starts at Ferlini's 1797 birth, which opens his segment. Colonialism kept for European extraction from Ottoman and Sudanese lands. Brief coda on artifacts now in Russia and Turkish restoration work, so reaches_present is false. Child-abuse: the bought 17-year-old bride (~5 min). Part 2 says Mount Athos for 1868; likely Ithaca."
+}

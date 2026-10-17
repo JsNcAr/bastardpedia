@@ -1,0 +1,142 @@
+{
+  "story_id": "special-x-mas-non-bastard-raoul-wallenberg-history-s-greatest-hero",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "hero",
+  "subjects": [
+    {
+      "name": "Raoul Wallenberg",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1912,
+        "end": 1947
+      }
+    },
+    {
+      "name": "Arrow Cross Party",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    }
+  ],
+  "roles": [
+    "rescuer-humanitarian",
+    "politician-official"
+  ],
+  "themes": {
+    "primary": "nazism",
+    "secondary": [
+      "genocide-mass-killing",
+      "fascism-far-right",
+      "racism-white-supremacy",
+      "diplomacy-foreign-policy",
+      "communism-state-socialism"
+    ]
+  },
+  "regions": {
+    "origin": [
+      "SE"
+    ],
+    "setting": [
+      "HU",
+      "RU",
+      "SE",
+      "US",
+      "IL"
+    ],
+    "subdivisions": [],
+    "polities": [
+      "soviet-union"
+    ],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": {
+      "start": 1944,
+      "end": 1947
+    },
+    "covered_span": {
+      "start": 1912,
+      "end": 1947
+    },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "Swedish diplomat Raoul Wallenberg used forged-looking protective passports, safe houses and bluffing to save tens of thousands of Hungarian Jews in Budapest in 1944-45, then vanished into Soviet custody.",
+  "content_warnings": [
+    "mass-atrocity",
+    "graphic-violence"
+  ],
+  "keywords": [
+    "Budapest",
+    "Schutz-Pass",
+    "Adolf Eichmann",
+    "Miklós Horthy",
+    "War Refugee Board",
+    "Iver Olsen",
+    "Kalman Lauer",
+    "Lubyanka prison",
+    "Righteous Among the Nations",
+    "University of Michigan"
+  ],
+  "guests": [
+    "Anna Hossnieh"
+  ],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:41",
+      "note": "born August 1912 in Sweden"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:06:45",
+      "note": "studies architecture at University of Michigan, hitchhiking in the US"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:10:19",
+      "note": "year in Palestine meeting Jewish refugees from Germany"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:16:35",
+      "note": "arrives in Budapest July 1944 attached to the Swedish legation"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:21:47",
+      "note": "Arrow Cross takes power in Hungary, deportations resume"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:31:07",
+      "note": "Soviets arrest him as a suspected spy; Sweden declines to press Moscow"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:32:39",
+      "note": "Soviets later claim death in captivity; fate still unknown"
+    }
+  ],
+  "notes": "Death year uncertain: transcript cites the Soviet claim as 1948 and says he most likely died in the 1950s; lifespan uses the commonly cited Soviet date 1947, approximate=true. Diplomatic cover mapped to politician-official as second role. No hero/rescue theme, so nazism (Holocaust) is primary."
+}

@@ -1,0 +1,106 @@
+{
+  "story_id": "behind-the-bastards-q-a-year-s-end-edition",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "meta",
+  "subjects": [
+    {
+      "name": "Behind the Bastards",
+      "kind": "media-work",
+      "role": "primary"
+    },
+    {
+      "name": "Cool Zone Media",
+      "kind": "organization",
+      "org_type": "media-outlet",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "propaganda-media",
+    "secondary": [
+      "drugs",
+      "entertainment-celebrity"
+    ]
+  },
+  "regions": {
+    "origin": [
+      "US"
+    ],
+    "setting": [
+      "US"
+    ],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": null,
+  "summary": "Two-part year-end listener Q&A in which host Robert Evans and producer Sophie discuss the podcast's origins, the founding of Cool Zone Media, research methods, favourite episodes and planned future subjects.",
+  "content_warnings": [
+    "drug-use"
+  ],
+  "keywords": [
+    "listener Q&A",
+    "Cracked",
+    "HowStuffWorks",
+    "iHeartRadio",
+    "kratom",
+    "After the Revolution",
+    "Lawrence of Arabia",
+    "Richard Nixon",
+    "Ian Smith",
+    "Rojava"
+  ],
+  "guests": [],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "low",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "format",
+      "part": 1,
+      "at": "00:01:16",
+      "note": "Episode built from listener questions gathered on Instagram"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:17:40",
+      "note": "Long account of how the show was pitched after the Cracked layoffs"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:14:28",
+      "note": "Segment on why and how Cool Zone Media was founded around 2020-2021"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:17:35",
+      "note": "Host explains his research and scripting process for episodes"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:01:03",
+      "note": "Several minutes on kratom use, dependency, extracts and overdose risk"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:06:08",
+      "note": "Pop-culture answers recur: Star Trek, dream celebrity guests, Spice Girls, ska, pop singers"
+    }
+  ],
+  "notes": "Meta Q&A with no bastard subject; time null per the meta rule. propaganda-media is the closest primary (podcast/media industry origins). Secondary themes kept to two that get real time (kratom segment; pop culture across both parts) rather than padding to 4-5 from one-line mentions (Union Carbide, Nixon, Rojava). Sophie co-hosts but PROMPT.md names her a producer, so guests is empty."
+}

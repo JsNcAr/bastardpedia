@@ -1,0 +1,149 @@
+{
+  "story_id": "percy-fawcett-real-life-indiana-jones-or-deluded-psychic-racist",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "gold-draft",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Percy Fawcett",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1867, "end": 1925 }
+    },
+    {
+      "name": "Jack Fawcett",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1903, "end": 1925 }
+    },
+    {
+      "name": "Theosophy",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["explorer-adventurer", "military-officer"],
+  "themes": {
+    "primary": "science-exploration",
+    "secondary": [
+      "occult-esoteric",
+      "folklore-legend",
+      "colonialism-imperialism",
+      "eugenics-scientific-racism"
+    ]
+  },
+  "regions": {
+    "origin": ["GB"],
+    "setting": ["BR", "BO", "LK", "GB", "FR"],
+    "subdivisions": [],
+    "polities": ["british-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "covered_span": { "start": 1867, "end": 1925 },
+    "main_span": { "start": 1906, "end": 1925 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "British artillery officer and explorer Percy Fawcett surveyed Bolivian river borders from 1906, inflated his exploits, hid the shooting of an indigenous man, and in 1925 led his son to death in the Amazon chasing a lost city drawn from his Theosophist beliefs.",
+  "content_warnings": ["child-abuse"],
+  "keywords": [
+    "Lost City of Z",
+    "David Grann",
+    "Indiana Jones",
+    "Ceylon",
+    "Heath River",
+    "Helena Blavatsky",
+    "Atlantis",
+    "Ouija board",
+    "Harold Large",
+    "Raleigh Rimell"
+  ],
+  "guests": ["Miriam"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:11:05",
+      "note": "1906: RGS president Goldie recruits him to map disputed Bolivia-Brazil-Peru borders"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:03:34",
+      "note": "1925 final expedition with Jack and Raleigh Rimell; the party vanishes"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:09:50",
+      "note": "extended look at modern LIDAR/archaeology findings and Grann's reappraisal (reaches_present)"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:30:56",
+      "note": "commissioned 1886, long Ceylon garrison years; Buddhism and treasure dig there"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:18:04",
+      "note": "first survey of the Heath River in Bolivia during the rubber boom"
+    },
+    {
+      "facet": "roles",
+      "part": 2,
+      "at": "00:35:32",
+      "note": "WWI artillery counter-battery colonel on the Western Front, 1916, using a Ouija board"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:16:19",
+      "note": "long segment on cricket and public schools as training for imperial service"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:43:29",
+      "note": "brother Edward, Blavatsky and Theosophy; both brothers convert to Buddhism in Ceylon"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:52:41",
+      "note": "RGS course used Galton's travel guide ranking races; racial hierarchy taught to explorers"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:24:02",
+      "note": "his racist descriptions of indigenous people and the concealed shooting of a man"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:54:39",
+      "note": "fake idol read by a psychometrist as Atlantean; lost city becomes an occult quest"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:59:43",
+      "note": "the plan for Jack to be possessed by an ancient being and rule from Ceylon"
+    }
+  ],
+  "notes": "Primary theme could be occult-esoteric: the story argues Z was a Theosophist fantasy; kept science-exploration as the frame. eugenics-scientific-racism chosen over racism-white-supremacy (individual racial-hierarchy views, not organizing). main_span starts 1906 per encyclopedia test; Ceylon years (1886-1903) get real time. FR inferred for the 1916 Western Front segment. Gap: no role for an occult believer who was not a teacher."
+}
