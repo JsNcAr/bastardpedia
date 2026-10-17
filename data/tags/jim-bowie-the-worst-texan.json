@@ -1,0 +1,139 @@
+{
+  "story_id": "jim-bowie-the-worst-texan",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Jim Bowie",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1796, "end": 1836 }
+    },
+    {
+      "name": "Jean Lafitte",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": null },
+      "floruit": 1819
+    },
+    {
+      "name": "Sandbar Fight",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["con-artist", "criminal-killer", "military-officer"],
+  "themes": {
+    "primary": "folklore-legend",
+    "secondary": [
+      "slavery-forced-labor",
+      "fraud-grift",
+      "colonialism-imperialism",
+      "war-war-crimes",
+      "weapons-arms-trade"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-LA", "US-TX"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1818, "end": 1836 },
+    "covered_span": { "start": 1796, "end": 1836 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "Frontier legend Jim Bowie, namesake of the Bowie knife, ran a slave-smuggling scam with pirate Jean Lafitte, forged vast land claims in Louisiana and Arkansas, raided Native peoples in Texas, and died at the Alamo in 1836.",
+  "content_warnings": ["slavery", "graphic-violence", "torture", "animal-cruelty"],
+  "keywords": [
+    "Bowie knife",
+    "Alamo",
+    "Texas Revolution",
+    "Sandbar Fight",
+    "Long Expedition",
+    "Galveston",
+    "Norris Wright",
+    "William Travis",
+    "Santa Anna",
+    "Veramendi family"
+  ],
+  "guests": ["Billy Wayne Davis"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:06",
+      "note": "birth in Logan County, Kentucky, in 1796, date hedged as approximate"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:36:56",
+      "note": "Bowie brothers buy Lafitte's captives and game the informer bounty to launder them"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:40:32",
+      "note": "Bowie personally marches chained captives through the swamps, ruling by fear"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:26:29",
+      "note": "joins the 1819 Long filibuster expedition into Spanish Texas"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:57:52",
+      "note": "close account of the Sandbar Fight ending with Bowie disembowelling Norris Wright"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:01:00",
+      "note": "family markets the Bowie knife as a brand; knife spreads nationwide"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:07:17",
+      "note": "scale of forged land claims in Arkansas and Louisiana"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:11:30",
+      "note": "silver-hunting incursion and multi-day fight with Tawakoni, Waco and Caddo people"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:33:55",
+      "note": "Bowie's men repeatedly hang and burn a captured Mexican man for information"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:45:28",
+      "note": "bedridden with illness when the Alamo falls in 1836; rival death legends reviewed"
+    }
+  ],
+  "notes": "Primary theme folklore-legend because the series frames Bowie as the real figure behind a Texas school legend; fraud-grift or slavery-forced-labor would be defensible. Texas events map to US; the brief Monclova (Coahuila) episode was too short to add MX. Both Louisiana and Texas are central, so both subdivisions are listed. Lafitte's birth and death years are uncertain, so floruit is used. Roles: Texian revolutionary army is not quite a state force."
+}

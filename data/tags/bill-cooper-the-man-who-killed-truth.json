@@ -1,0 +1,91 @@
+{
+  "story_id": "bill-cooper-the-man-who-killed-truth",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Bill Cooper",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1943, "end": 2001 }
+    },
+    {
+      "name": "Behold a Pale Horse",
+      "kind": "media-work",
+      "role": "secondary"
+    },
+    {
+      "name": "John Lear",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1942, "end": 2022 }
+    }
+  ],
+  "roles": ["conspiracy-theorist", "media-personality", "writer-intellectual"],
+  "themes": {
+    "primary": "conspiracy-theories",
+    "secondary": [
+      "fascism-far-right",
+      "domestic-abuse",
+      "propaganda-media",
+      "terrorism",
+      "racism-white-supremacy",
+      "war-war-crimes"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "VN", "JP"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1988, "end": 2001 },
+    "covered_span": { "start": 1943, "end": 2001 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Vietnam veteran Bill Cooper spread UFO and New World Order conspiracy theories through early online forums, his book Behold a Pale Horse and shortwave radio, fed the 1990s US militia movement, abused a string of wives, and died in a 2001 shootout with Arizona deputies.",
+  "content_warnings": ["child-abuse"],
+  "keywords": [
+    "The Hour of the Time",
+    "Majestic 12",
+    "New World Order",
+    "Silent Weapons for Quiet Wars",
+    "Protocols of the Elders of Zion",
+    "Timothy McVeigh",
+    "Waco siege",
+    "Oklahoma City bombing",
+    "Wu-Tang Clan",
+    "ParaNet"
+  ],
+  "guests": ["Jamie Loftus"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:13:33", "note": "birth in Long Beach, California, in 1943" },
+    { "facet": "regions", "part": 1, "at": "00:26:05", "note": "teenage DJ stint on armed forces radio at an air base near Tokyo" },
+    { "facet": "regions", "part": 1, "at": "00:39:33", "note": "riverboat posting in Quang Tri province during the Vietnam War" },
+    { "facet": "themes", "part": 1, "at": "00:53:46", "note": "long segment on his repeated marriages and violent abuse of wives" },
+    { "facet": "time", "part": 1, "at": "01:06:40", "note": "discovers ParaNet in the late 1980s; start of his conspiracy career (year inferred)" },
+    { "facet": "subjects", "part": 1, "at": "01:10:18", "note": "John Lear's alien-deal hypothesis and his partnership with Cooper" },
+    { "facet": "subjects", "part": 2, "at": "00:16:20", "note": "writing and 1991 publication of Behold a Pale Horse" },
+    { "facet": "themes", "part": 2, "at": "00:22:37", "note": "book reprints the Protocols of the Elders of Zion with an Illuminati note" },
+    { "facet": "themes", "part": 2, "at": "00:39:11", "note": "shortwave patriot radio scene alongside Holocaust deniers and neo-Nazis" },
+    { "facet": "themes", "part": 2, "at": "01:03:15", "note": "McVeigh and the Nichols brothers as listeners before Oklahoma City" },
+    { "facet": "time", "part": 2, "at": "01:17:15", "note": "2001 sheriff's raid on his Arizona home and fatal shootout" },
+    { "facet": "time", "part": 1, "at": "00:03:12", "note": "opening frames him as a root of QAnon and 2020 conspiracism" }
+  ],
+  "notes": "Transcript says Cooper shot an officer dead in the 2001 raid; my understanding is the deputy was wounded, so the summary avoids the claim. main_span start of 1988 is inferred (year garbled in transcript). His military service gets real airtime; military-officer was a candidate role. Hip-hop influence and early internet each get a few minutes but were left out of themes."
+}

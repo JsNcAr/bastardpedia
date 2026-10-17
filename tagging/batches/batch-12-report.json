@@ -1,0 +1,152 @@
+[
+  {
+    "id": "the-bastards-who-killed-pat-tillman",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject set to the death and cover-up event, not Tillman himself: the episode frames him as a good man and the bastards as those around his death, and his pre-army life gets only a few minutes. If reviewers prefer Tillman as primary, the lifetime rule would push covered_span back to 1976."
+  },
+  {
+    "id": "ben-shapiro-s-terrible-book-the-saga-continues",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Part of the multi-episode reading of True Allegiance. Time is the novel's 2016 publication and its unspecified near-present setting (approximate). Iran setting is fictional (the terrorist plot and hostage scenes). propaganda-media chosen as closest primary theme, matching sibling records; no theme fits right-wing polemical fiction exactly. Character spellings are approximate from the transcript."
+  },
+  {
+    "id": "bill-cooper-the-man-who-killed-truth",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript says Cooper shot an officer dead in the 2001 raid; my understanding is the deputy was wounded, so the summary avoids the claim. main_span start of 1988 is inferred (year garbled in transcript). His military service gets real airtime; military-officer was a candidate role. Hip-hop influence and early internet each get a few minutes but were left out of themes."
+  },
+  {
+    "id": "john-of-god-oprah-s-favorite-ghost-channeling-rapist-surgeon",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript dates the military coup to 1962 (it was 1964) and garbles the Abadiania arrival year; main_span start 1976 from general knowledge, so approximate. Ze Arigo, Rubens Farias and Kardec treated as background, not covered years. Subject still alive at release, so covered_span ends 2020."
+  },
+  {
+    "id": "behind-the-police-how-the-police-declared-war-on-all-of-us",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Survey episode; the primary subject is the practice of militarized policing, so no roles. covered_span starts with the 1835 Rangers segment; the Gilded Age and Progressive-era material is background. main_span starts with Watts 1965 and the SWAT/drug-war turn, open-ended as militarization continues. MX is secondary (Ranger border killings). Cold War police training abroad (Vietnam, Iran, Latin America) is brief and left out of setting."
+  },
+  {
+    "id": "behind-the-police-how-police-unions-made-cops-even-deadlier",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Fifth of a six-part Behind the Police miniseries, packaged as its own story. Primary subject is US police unions as a whole, entered as an organization with org_type police; no single named union fits. Early-1900s corruption and Vollmer professionalisation open the covered span (approximate start 1900). Bob Kroll has no reliable birth year, so floruit is used. Transcript year digits are often garbled."
+  },
+  {
+    "id": "behind-the-police-how-the-police-defeated-lynching-via-torture",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject is the practice of coercive police interrogation, so no roles. Only two secondary themes clearly earn real time; Tulsa massacre covers genocide-mass-killing. covered_span starts with the 1883 lynching data the host frames the story with; end is Burge's death and the 2018 union statement. Modern bias statistics and the Reid technique's decline set reaches_present. Mississippi case year inferred as 1934 (Brown v. Mississippi)."
+  },
+  {
+    "id": "the-history-of-american-police-and-the-ku-klux-klan",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subjects are both organizations, so roles are empty. Settings span SC, TN, CA, OR, IN, IL, AR and DC, so no single subdivision. covered_span ends 2017 with the FBI counterterrorism guide; 2020 Portland and Palmdale references are brief asides. main_span ends 1925 with the Indiana Klan membership peak. Theme primary could arguably be racism-white-supremacy."
+  },
+  {
+    "id": "how-the-first-police-went-from-gangsters-to-an-army-for-the-rich",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Part 2 of the Behind the Police mini-series; primary subject is the practice of early northern policing, so no roles. covered_span start is approximate (early-1800s freelance constables); the 1700s English constable system is background. Pinkerton was born in Glasgow but GB is left out of setting as the segment is brief. Philippine Constabulary model for the PSP is brief, so colonialism is not a theme. Child deaths (Windber boy, Jesse James's brother) are brief mentions."
+  },
+  {
+    "id": "slavery-mass-murder-and-the-birth-of-american-policing",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject is the slave patrol as an institution, so no roles. Sparta's Crypteia, Athens, Rome and the English frank pledge (about 11 minutes) are pre-story background and comparison, so covered_span starts with the 1636 colonial watch; Crypteia kept as a keyword. Ferguson 2014-2015 is a real segment; the 2020 uprising framing sets reaches_present. GB is for the Peel segment only."
+  },
+  {
+    "id": "the-dumbest-coup-in-world-history",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Wonga Coup and Simon Mann both primary: Part 1 is background (Haggard, Hoare, Denard, Forsyth's 1973 plot, Macias and Obiang); Part 2 is Mann's life and the plot. Haggard's novel treated as framing, so covered_span starts at Mann's birth. Mann believed alive. Forsyth's 1973 plot gets a real segment but the five-subject limit left him in keywords."
+  },
+  {
+    "id": "i-do-not-like-elon-musk-very-much",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Zip2 founding year (1995) is from general knowledge; the transcript drops the year. Apartheid privilege and possible race-science views are discussed for several minutes but were not added as racism-white-supremacy; reviewer may add it. Grandfather Joshua Haldeman gets only a short segment, so covered_span starts at Musk's birth. The host misgenders Ashley Vance in part 1; corrected at the start of part 2."
+  },
+  {
+    "id": "the-man-who-teaches-our-cops-to-kill",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Format borderline: much of the episode walks through a leaked copy of his course book page by page, which could argue for media-reading; chose deep-dive since the story profiles the man from many sources. covered_span starts at his 1956 birth only to meet the lifetime rule; his early life is not discussed. main_span start 1995 (On Killing) from general knowledge."
+  },
+  {
+    "id": "jim-bowie-the-worst-texan",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary theme folklore-legend because the series frames Bowie as the real figure behind a Texas school legend; fraud-grift or slavery-forced-labor would be defensible. Texas events map to US; the brief Monclova (Coahuila) episode was too short to add MX. Both Louisiana and Texas are central, so both subdivisions are listed. Lafitte's birth and death years are uncertain, so floruit is used. Roles: Texian revolutionary army is not quite a state force."
+  },
+  {
+    "id": "jack-idema-the-war-on-terror-s-dumbest-grifter",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "sexual-abuse is based on a roughly five-minute segment on undisclosed HIV transmission and a 2010 rape accusation; reviewer may drop it. Opening segment on other War on Terror freelancers (Faulkner, Colin Berry) treated as context, not subjects. Dubai stay is brief and left out of setting. Military service was minor, so military-officer not used as a role."
+  },
+  {
+    "id": "the-ballad-of-doctor-orgasm",
+    "format": "deep-dive",
+    "low": ["time"],
+    "notes": "Runels' birth year is not given and I am not certain of it, so lifespan is null; his teenage acne is a brief anecdote. Vaccine trial year is garbled in the transcript; 2003 is an estimate. Forssmann and Barry Marshall are comparisons, kept out of covered years. Long opening segment on female orgasm research and sex education has no matching theme (vocabulary gap: sexual health)."
+  },
+  {
+    "id": "we-continued-reading-ben-shapiro-s-terrible-racist-novel",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Part of the multi-episode reading of True Allegiance. Time is the novel's 2016 publication and its unspecified near-present setting (approximate). AF and MX settings are fictional plot locations (Kabul chapter, border cartel scenes). propaganda-media chosen as closest primary theme, matching sibling records; no theme fits right-wing polemical fiction exactly. Character spellings are approximate from the transcript."
+  },
+  {
+    "id": "the-rise-and-fall-and-rise-of-arch-grifter-jim-bakker",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Lifetime rule sets covered_span 1940-2020 (alive at release). main_span starts 1966 with the CBN puppet show (transcript says early 1960s; 1966 from general knowledge). Hosts spell the name Baker; the standard spelling is Bakker. Settings span NC, SC, CA and MO, so no single subdivision is listed."
+  },
+  {
+    "id": "the-bleach-church-is-spreading",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Transcript spells the names Grennan and Carrie Rivera; used the standard spellings Mark Grenon and Kerri Rivera. Grenon's birth year not given, so floruit used. Uganda segment is only a few minutes, kept as keyword rather than setting. Keyes's earlier career is background only."
+  },
+  {
+    "id": "the-people-who-turned-burning-your-face-off-into-a-healthcare-fad",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject is the practice, so roles are empty; the human villains (Fell, Caton, Jensen) are secondary. main_span is the modern revival from Caton's mid-1990s Cansema business to the 2019 deaths; covered_span reaches back to Fell in 1842. Ecuador (Caton's later base) and the Bahamas get only brief mentions, so they are left out of setting. Exact lifespans for the three men are not given, so floruit years are used."
+  },
+  {
+    "id": "the-second-american-civil-war-you-never-learned-about",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject is the event, so roles are empty. Covered span ends with the post-battle trials (1922, from general knowledge); the 1934-35 New Deal outcome is a short coda. Transcript garbles some dates (miners gathering in 'October'); the march was in August 1921. Sid Hatfield's birth year follows the transcript (aged 27 in 1920); some sources give 1891. United Mine Workers kept as a keyword: no org_type fits a labor union."
+  },
+  {
+    "id": "henry-morton-stanley-the-explorer-who-shot-his-way-through-africa",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Tim Jeal, the revisionist biographer, gets as much airtime as many episodes give a secondary subject, so he is listed; his 2007 book and the Denbigh statue campaign are treated as reinterpretation and set reaches_present rather than extending covered_span. Primary theme could equally be colonialism-imperialism; science-exploration chosen per the taxonomy example."
+  },
+  {
+    "id": "bonus-a-conversation-about-tiger-king-and-rural-america",
+    "format": "current-affairs",
+    "low": ["themes", "time"],
+    "notes": "Format is ambiguous: an unscripted reaction to a then-current Netflix hit, not a reading structured around the show, so current-affairs over media-reading. No theme fits rural eccentrics or exotic animal ownership; entertainment-celebrity is the closest primary. Spans are rough: the show's 2020 moment plus anecdotes from roughly the 2010s."
+  },
+  {
+    "id": "what-we-learned-from-ben-shapiro-s-racist-novel",
+    "format": "media-reading",
+    "low": [],
+    "notes": "First episode of the multi-part True Allegiance reading. Time is the 2016 publication and its unspecified near-present setting (approximate). Afghanistan setting is fictional. propaganda-media chosen as the closest primary theme, matching sibling records; no theme fits right-wing polemical fiction exactly. Character name spellings are approximate from the transcript."
+  },
+  {
+    "id": "the-priests-of-plague",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Survey episode with no single bastard; Catholic Church chosen as primary though US evangelicals and Shincheonji also feature. Bishop of Zamora's name rendered garbled in transcript; standard spelling used, lifespan from own knowledge. Transcript places Strasbourg in Germany; modern FR added. main_span equals covered_span because the survey has no narrower core."
+  }
+]

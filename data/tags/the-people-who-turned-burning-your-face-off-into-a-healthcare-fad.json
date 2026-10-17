@@ -1,0 +1,132 @@
+{
+  "story_id": "the-people-who-turned-burning-your-face-off-into-a-healthcare-fad",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Black salve",
+      "kind": "practice-or-pseudoscience",
+      "role": "primary"
+    },
+    {
+      "name": "Jesse Weldon Fell",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1847
+    },
+    {
+      "name": "Greg Caton",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1995
+    },
+    {
+      "name": "Dennis Wayne Jensen",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2017
+    },
+    {
+      "name": "Facebook",
+      "kind": "organization",
+      "org_type": "media-outlet",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "quackery-pseudoscience",
+    "secondary": ["fraud-grift", "tech-internet", "public-health"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["AU", "US", "GB"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1995, "end": 2019 },
+    "covered_span": { "start": 1842, "end": 2019 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "History of black salve, a corrosive bloodroot and zinc chloride paste sold as a cancer cure from Jesse Fell's 1850s London clinic to Greg Caton's mail-order empire and Facebook groups, where users burned away their flesh and some died.",
+  "content_warnings": ["medical-horror"],
+  "keywords": [
+    "Cansema",
+    "bloodroot",
+    "zinc chloride",
+    "Alpha Omega Labs",
+    "Two Feathers Healing Formula",
+    "Helen Lawson",
+    "Middlesex Hospital",
+    "Frederic Mohs",
+    "Harry Hoxsey",
+    "BuzzFeed News"
+  ],
+  "guests": ["Billy Wayne Davis"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:12:48",
+      "note": "Western history of the salve begins with Fell entering medical school in New York in 1842"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:14:50",
+      "note": "Fell flees to London; Middlesex Hospital trials of his paste and the pain it caused"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:25:22",
+      "note": "Caton revives black salve as Cansema in the mid-1990s after his MLM is bought out"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:31:34",
+      "note": "FDA tracks Caton through shell companies, raids his Louisiana site in 2003, finds acid and guns"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:35:52",
+      "note": "Revival after about 2012 driven by Facebook groups; platform responses to BuzzFeed reporting"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:44:45",
+      "note": "YouTube self-treatment videos ending with the poster's death in 2019"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:58:09",
+      "note": "Long segment on an Australian nurse who died in 2017-18 under Jensen's black salve treatment near Melbourne"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:07:30",
+      "note": "Jensen banned from treating patients in 2018, later in trouble for posing as a lawyer"
+    }
+  ],
+  "notes": "Primary subject is the practice, so roles are empty; the human villains (Fell, Caton, Jensen) are secondary. main_span is the modern revival from Caton's mid-1990s Cansema business to the 2019 deaths; covered_span reaches back to Fell in 1842. Ecuador (Caton's later base) and the Bahamas get only brief mentions, so they are left out of setting. Exact lifespans for the three men are not given, so floruit years are used."
+}

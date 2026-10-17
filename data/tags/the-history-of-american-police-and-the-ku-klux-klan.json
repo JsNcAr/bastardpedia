@@ -1,0 +1,143 @@
+{
+  "story_id": "the-history-of-american-police-and-the-ku-klux-klan",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Ku Klux Klan",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "primary"
+    },
+    {
+      "name": "Law enforcement in the United States",
+      "kind": "organization",
+      "org_type": "police",
+      "role": "primary"
+    },
+    {
+      "name": "Red Summer",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "National Horse Thief Detective Association",
+      "kind": "organization",
+      "org_type": "police",
+      "role": "secondary"
+    },
+    {
+      "name": "Union County jail raid of 1871",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "policing-incarceration",
+    "secondary": [
+      "racism-white-supremacy",
+      "terrorism",
+      "genocide-mass-killing",
+      "electoral-politics",
+      "fascism-far-right"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1866, "end": 1925 },
+    "covered_span": { "start": 1865, "end": 2017 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Behind the Police episode tracing how the Ku Klux Klan and American police overlapped, from Reconstruction-era sheriffs who rode with the first Klan to the 1920s Klan running police forces and the Red Summer of 1919.",
+  "content_warnings": ["graphic-violence", "mass-atrocity"],
+  "keywords": [
+    "Behind the Police",
+    "Reconstruction",
+    "Enforcement Acts",
+    "Amos Akerman",
+    "Medford necktie parties",
+    "Portland Police Bureau",
+    "Elaine massacre",
+    "Vermillion County expulsion",
+    "Lynwood Vikings",
+    "League of the South"
+  ],
+  "guests": ["Jason Petty (Propaganda)"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:07:49",
+      "note": "Post-Civil War vagrancy laws and convict leasing enforced by local police open the narrative"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:10:54",
+      "note": "First Klan founded in Pulaski, Tennessee in 1866"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:16:05",
+      "note": "Union County, South Carolina: sheriff tied to a Klan cell leads the jail raid of January 1871"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:31:41",
+      "note": "Grant, the Enforcement Acts and Akerman's federal prosecutions break the first Klan by 1872"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:38:57",
+      "note": "Second Klan wins Anaheim council seats; Klan officers patrol in robes"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:45:19",
+      "note": "Oregon Klan recruits police in Medford, partners with Portland police, helps elect a governor"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:04:10",
+      "note": "Indiana Klan takes over the Horse Thief Detective Association; 1923 expulsion of Black residents"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:13:05",
+      "note": "Phillips County, Arkansas massacre of Black sharecroppers with police backing"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:20:23",
+      "note": "Modern segment: officers tied to the Klan and League of the South, 2012 to 2017 FBI document"
+    }
+  ],
+  "notes": "Primary subjects are both organizations, so roles are empty. Settings span SC, TN, CA, OR, IN, IL, AR and DC, so no single subdivision. covered_span ends 2017 with the FBI counterterrorism guide; 2020 Portland and Palmdale references are brief asides. main_span ends 1925 with the Indiana Klan membership peak. Theme primary could arguably be racism-white-supremacy."
+}

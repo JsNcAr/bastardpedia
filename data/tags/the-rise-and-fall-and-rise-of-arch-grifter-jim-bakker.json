@@ -1,0 +1,138 @@
+{
+  "story_id": "the-rise-and-fall-and-rise-of-arch-grifter-jim-bakker",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Jim Bakker",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1940, "end": null }
+    },
+    {
+      "name": "Tammy Faye Bakker",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1942, "end": 2007 }
+    },
+    {
+      "name": "PTL Club",
+      "kind": "organization",
+      "org_type": "media-outlet",
+      "role": "secondary"
+    },
+    {
+      "name": "Heritage USA",
+      "kind": "place",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["religious-leader", "con-artist", "media-personality"],
+  "themes": {
+    "primary": "fraud-grift",
+    "secondary": [
+      "organized-religion",
+      "propaganda-media",
+      "sexual-abuse",
+      "child-abuse",
+      "religious-right-culture-war"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1966, "end": null },
+    "covered_span": { "start": 1940, "end": 2020 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Michigan-born televangelist Jim Bakker built the PTL network and Heritage USA theme park on donor money, was convicted of fraud in 1989 after a rape scandal, then returned selling doomsday food buckets.",
+  "content_warnings": ["child-abuse", "sexual-violence"],
+  "keywords": [
+    "PTL Club",
+    "Heritage USA",
+    "Jessica Hahn",
+    "The Charlotte Observer",
+    "prosperity gospel",
+    "lifetime partnerships",
+    "survival food buckets",
+    "Morningside",
+    "Jerry Falwell",
+    "Lori Bakker"
+  ],
+  "guests": ["Vic Berger"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:06",
+      "note": "birth in Muskegon, Michigan, January 1940"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:15:52",
+      "note": "extended account of his molestation by an adult church member from age eleven"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:29:00",
+      "note": "Bakkers join Pat Robertson's CBN with a puppet show, then the first Christian talk show"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:38:59",
+      "note": "satellite broadcasting turns PTL into a Christian TV network with a devoted audience"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:03:17",
+      "note": "oversold lifetime partnerships and overpriced statues described as outright fraud"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:05:24",
+      "note": "detailed account of the 1980 drugging and rape of church secretary Jessica Hahn"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:09:28",
+      "note": "1989 conviction on 24 counts, sentence later cut, paroled after about five years"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:24:02",
+      "note": "post-prison pivot to apocalyptic preaching and selling survival food as donations"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:33:40",
+      "note": "pro-Trump politics, attacks on Clinton and Obama, attendance at the 2017 inauguration"
+    }
+  ],
+  "notes": "Lifetime rule sets covered_span 1940-2020 (alive at release). main_span starts 1966 with the CBN puppet show (transcript says early 1960s; 1966 from general knowledge). Hosts spell the name Baker; the standard spelling is Bakker. Settings span NC, SC, CA and MO, so no single subdivision is listed."
+}

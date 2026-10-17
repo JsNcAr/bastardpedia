@@ -1,0 +1,149 @@
+{
+  "story_id": "behind-the-police-how-police-unions-made-cops-even-deadlier",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Police unions in the United States",
+      "kind": "organization",
+      "org_type": "police",
+      "role": "primary"
+    },
+    {
+      "name": "Broken windows policing",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    },
+    {
+      "name": "Patrolmen's Benevolent Association",
+      "kind": "organization",
+      "org_type": "police",
+      "role": "secondary"
+    },
+    {
+      "name": "Bob Kroll",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2015
+    },
+    {
+      "name": "James Q. Wilson",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1931, "end": 2012 }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "policing-incarceration",
+    "secondary": [
+      "labor-exploitation",
+      "racism-white-supremacy",
+      "electoral-politics",
+      "eugenics-scientific-racism"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1919, "end": 2020 },
+    "covered_span": { "start": 1900, "end": 2020 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Part five of the Behind the Police series traces how US police professionalised and then unionised, winning contracts that purge misconduct records and reinstate fired officers, and how broken windows and stop-and-frisk policing targeted Black and Latino Americans.",
+  "content_warnings": ["graphic-violence"],
+  "keywords": [
+    "Behind the Police",
+    "Boston police strike of 1919",
+    "August Vollmer",
+    "O. W. Wilson",
+    "Civilian Complaint Review Board",
+    "stop and frisk",
+    "Philip Zimbardo",
+    "Eric Garner",
+    "Laquan McDonald",
+    "The End of Policing"
+  ],
+  "guests": ["Jason Petty (Propaganda)"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:06:52",
+      "note": "narrative starts at the turn of the 20th century with police as muscle for political machines"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:16:12",
+      "note": "August Vollmer becomes Berkeley police chief in 1909 and drives professionalisation"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:24:35",
+      "note": "1919 Boston police strike after officers seek an AFL charter; Coolidge bans public safety strikes"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:28:13",
+      "note": "New York PBA becomes a bargaining union in the 1960s and fights the 1966 civilian review board"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:36:40",
+      "note": "contract clauses purging disciplinary records and research linking bargaining rights to killings"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:55:54",
+      "note": "segment on Minneapolis union head Bob Kroll, his complaints and alleged white power patch"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:59:29",
+      "note": "unions block reform by elected officials in St. Louis and Minneapolis"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:05:51",
+      "note": "1982 Atlantic article launches broken windows theory and its misuse of Zimbardo's study"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:22:34",
+      "note": "Wilson's biological theories of crime and ties to the authors of The Bell Curve"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:29:16",
+      "note": "NYPD slowdown after Eric Garner's death and the study showing major crime complaints fell"
+    }
+  ],
+  "notes": "Fifth of a six-part Behind the Police miniseries, packaged as its own story. Primary subject is US police unions as a whole, entered as an organization with org_type police; no single named union fits. Early-1900s corruption and Vollmer professionalisation open the covered span (approximate start 1900). Bob Kroll has no reliable birth year, so floruit is used. Transcript year digits are often garbled."
+}

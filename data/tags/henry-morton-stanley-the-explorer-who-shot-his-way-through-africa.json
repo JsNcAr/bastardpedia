@@ -1,0 +1,92 @@
+{
+  "story_id": "henry-morton-stanley-the-explorer-who-shot-his-way-through-africa",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Henry Morton Stanley",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1841, "end": 1904 }
+    },
+    {
+      "name": "Tim Jeal",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1945, "end": null }
+    },
+    {
+      "name": "David Livingstone",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1813, "end": 1873 }
+    }
+  ],
+  "roles": ["explorer-adventurer", "colonial-administrator", "journalist-propagandist"],
+  "themes": {
+    "primary": "science-exploration",
+    "secondary": [
+      "colonialism-imperialism",
+      "racism-white-supremacy",
+      "slavery-forced-labor",
+      "propaganda-media",
+      "child-abuse",
+      "civil-war"
+    ]
+  },
+  "regions": {
+    "origin": ["GB", "US"],
+    "setting": ["CD", "TZ", "US", "GB", "TR"],
+    "subdivisions": [],
+    "polities": ["congo-free-state", "confederate-states", "british-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1871, "end": 1890 },
+    "covered_span": { "start": 1841, "end": 1904 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Welsh-born journalist Henry Morton Stanley found David Livingstone in 1871, then shot and flogged his way across Central Africa and secured the treaties that let King Leopold II seize the Congo.",
+  "content_warnings": ["child-abuse", "slavery", "mass-atrocity", "hate-speech"],
+  "keywords": [
+    "Dr. Livingstone, I presume",
+    "Ujiji",
+    "Through the Dark Continent",
+    "Emin Pasha Relief Expedition",
+    "Kalulu",
+    "St Asaph workhouse",
+    "Battle of Shiloh",
+    "New York Herald",
+    "Bula Matari",
+    "King Leopold II"
+  ],
+  "guests": ["Soren Bowie"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:08:26", "note": "born John Rowlands, illegitimate, in Wales; start of the lifetime span" },
+    { "facet": "themes", "part": 1, "at": "00:12:03", "note": "placed in the St Asaph workhouse at six; abuse of child inmates discussed at length" },
+    { "facet": "regions", "part": 1, "at": "00:50:18", "note": "enlists with the Confederate Dixie Grays, fights at Shiloh, later switches to the Union" },
+    { "facet": "regions", "part": 1, "at": "00:53:51", "note": "postwar trip to Anatolia with Louis Noe, violent clash with locals" },
+    { "facet": "roles", "part": 1, "at": "00:59:31", "note": "becomes a reporter on the Indian Wars, then roving correspondent for the Herald" },
+    { "facet": "time", "part": 2, "at": "00:20:32", "note": "finds Livingstone at Ujiji in November 1871; start of main span" },
+    { "facet": "regions", "part": 2, "at": "00:23:43", "note": "1874-77 expedition traces the Lualaba and Congo, more than half his party dies" },
+    { "facet": "content_warnings", "part": 2, "at": "00:34:43", "note": "host reads long racist passages from Stanley's journals" },
+    { "facet": "content_warnings", "part": 2, "at": "00:42:05", "note": "account of the punitive massacre of the Bambira after a dispute over oars" },
+    { "facet": "regions", "part": 2, "at": "00:43:35", "note": "signs hundreds of sovereignty treaties for Leopold that found the Congo Free State" },
+    { "facet": "time", "part": 2, "at": "00:47:17", "note": "Emin Pasha relief expedition from 1887, his last African trip; end of main span" },
+    { "facet": "time", "part": 2, "at": "00:53:01", "note": "Jeal's 2007 rehabilitation and the statue campaign framed in modern empire debates" }
+  ],
+  "notes": "Tim Jeal, the revisionist biographer, gets as much airtime as many episodes give a secondary subject, so he is listed; his 2007 book and the Denbigh statue campaign are treated as reinterpretation and set reaches_present rather than extending covered_span. Primary theme could equally be colonialism-imperialism; science-exploration chosen per the taxonomy example."
+}

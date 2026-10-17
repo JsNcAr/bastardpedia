@@ -1,0 +1,132 @@
+{
+  "story_id": "the-bastards-who-killed-pat-tillman",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Death and cover-up of Pat Tillman",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Pat Tillman",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1976, "end": 2004 }
+    },
+    {
+      "name": "Stanley McChrystal",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1954, "end": null }
+    },
+    {
+      "name": "Jessica Lynch",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1983, "end": null }
+    },
+    {
+      "name": "United States Army",
+      "kind": "organization",
+      "org_type": "military",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "propaganda-media",
+    "secondary": ["war-war-crimes", "sports", "electoral-politics"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["AF", "IQ", "US", "QA"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2004, "end": 2008 },
+    "covered_span": { "start": 2001, "end": 2008 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "After NFL player turned Army Ranger Pat Tillman was killed by friendly fire in Afghanistan in 2004, Army commanders and the Bush administration hid how he died and used his death as war propaganda.",
+  "content_warnings": ["graphic-violence"],
+  "keywords": [
+    "friendly fire",
+    "Silver Star",
+    "Army Rangers",
+    "Arizona Cardinals",
+    "Where Men Win Glory",
+    "Mary Tillman",
+    "Kevin Tillman",
+    "Donald Rumsfeld",
+    "Jim Wilkinson",
+    "Ralph Kauzlarich"
+  ],
+  "guests": ["Joe Kassabian"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:10:49",
+      "note": "Tillman decides to enlist in the months after 9/11; earlier NFL years only sketched briefly"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:21:09",
+      "note": "long segment on the staged rescue of Jessica Lynch in Iraq in 2003"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:29:31",
+      "note": "Lynch rescue PR run from CENTCOM headquarters in Qatar"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:35:12",
+      "note": "April 2004 Afghanistan deployment and the split-platoon ambush"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:45:10",
+      "note": "McChrystal orders the cause of death concealed; Silver Star citation follows"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:49:48",
+      "note": "White House and reelection staff rush out a statement on his death"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:08:35",
+      "note": "July 2008 congressional oversight report closes the investigations"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:08:47",
+      "note": "2017 Trump retweet tying Tillman to the NFL anthem dispute; legacy co-option"
+    }
+  ],
+  "notes": "Primary subject set to the death and cover-up event, not Tillman himself: the episode frames him as a good man and the bastards as those around his death, and his pre-army life gets only a few minutes. If reviewers prefer Tillman as primary, the lifetime rule would push covered_span back to 1976."
+}

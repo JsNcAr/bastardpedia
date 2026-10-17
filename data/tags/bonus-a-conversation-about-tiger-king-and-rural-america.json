@@ -1,0 +1,91 @@
+{
+  "story_id": "bonus-a-conversation-about-tiger-king-and-rural-america",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "current-affairs",
+  "subjects": [
+    {
+      "name": "Tiger King",
+      "kind": "media-work",
+      "role": "primary"
+    },
+    {
+      "name": "Rural America",
+      "kind": "place",
+      "role": "primary"
+    },
+    {
+      "name": "Bhagavan Antle",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1960, "end": null }
+    },
+    {
+      "name": "Joe Exotic",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1963, "end": null }
+    },
+    {
+      "name": "Carole Baskin",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1961, "end": null }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "entertainment-celebrity",
+    "secondary": ["cults-new-religions", "drugs", "child-abuse", "domestic-abuse"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "GT"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2020, "end": 2020 },
+    "covered_span": { "start": 2010, "end": 2020 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Unscripted 2020 conversation prompted by the Netflix series Tiger King about the rich, controlling off-grid criminals and exotic animal keepers of rural America, with the hosts' own encounters with such figures in the US and Guatemala.",
+  "content_warnings": ["drug-use", "animal-cruelty"],
+  "keywords": [
+    "Netflix",
+    "big cats",
+    "Big Cat Rescue",
+    "Mario Tabraue",
+    "Zanesville",
+    "Lake Atitlan",
+    "Rainbow Gathering",
+    "Slab City",
+    "methamphetamine",
+    "expats"
+  ],
+  "guests": ["Billy Wayne Davis"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "low",
+    "regions": "medium",
+    "time": "low"
+  },
+  "evidence": [
+    { "facet": "format", "part": 1, "at": "00:00:31", "note": "Host says nothing was prepared; a reaction chat to Tiger King that will turn to the rural South" },
+    { "facet": "subjects", "part": 1, "at": "00:10:57", "note": "Doc Antle described as a controlling compound figure with animal-welfare violations" },
+    { "facet": "themes", "part": 1, "at": "01:10:24", "note": "Hosts argue the Tiger King figures and similar rural strongmen are effectively cult leaders" },
+    { "facet": "themes", "part": 1, "at": "00:29:53", "note": "Rural rancher with a teenage bride he says he is raising, plus a controlling household" },
+    { "facet": "regions", "part": 1, "at": "00:52:00", "note": "Long Guatemala story about an American expat who starved his pregnant wife and abused local kids" },
+    { "facet": "themes", "part": 1, "at": "01:15:37", "note": "Extended discussion of meth use by Joe Exotic and the host's own experience with it" },
+    { "facet": "time", "part": 1, "at": "00:26:13", "note": "Rural encounter dated to about five or six years before recording" },
+    { "facet": "content_warnings", "part": 1, "at": "00:39:59", "note": "Dead calf remains, torn-apart horses and a hanged coyote described" }
+  ],
+  "notes": "Format is ambiguous: an unscripted reaction to a then-current Netflix hit, not a reading structured around the show, so current-affairs over media-reading. No theme fits rural eccentrics or exotic animal ownership; entertainment-celebrity is the closest primary. Spans are rough: the show's 2020 moment plus anecdotes from roughly the 2010s."
+}

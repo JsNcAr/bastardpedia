@@ -1,0 +1,143 @@
+{
+  "story_id": "how-the-first-police-went-from-gangsters-to-an-army-for-the-rich",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Early policing in the northern United States",
+      "kind": "practice-or-pseudoscience",
+      "role": "primary"
+    },
+    {
+      "name": "Pinkerton National Detective Agency",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Pennsylvania State Police",
+      "kind": "organization",
+      "org_type": "police",
+      "role": "secondary"
+    },
+    {
+      "name": "Homestead strike",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Allan Pinkerton",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1819, "end": 1884 }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "policing-incarceration",
+    "secondary": ["labor-exploitation", "racism-white-supremacy", "corporate-malfeasance"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-PA"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1837, "end": 1906 },
+    "covered_span": { "start": 1800, "end": 2020 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "The second Behind the Police episode traces how northern US police grew from for-profit freelance constables into publicly funded forces that protected the wealthy, suppressed immigrants and broke strikes, alongside the Pinkertons and Pennsylvania State Police.",
+  "content_warnings": ["graphic-violence"],
+  "keywords": [
+    "Broad Street Riot",
+    "Boston Police Department",
+    "Coal and Iron Police",
+    "Great Anthracite Coal Strike",
+    "Windber strike",
+    "Andrew Carnegie",
+    "Henry Clay Frick",
+    "Philippine Constabulary",
+    "tramp acts",
+    "dangerous classes"
+  ],
+  "guests": ["Jason Petty (Propaganda)"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:05:16",
+      "note": "first formal department in Boston 1838, prompted by the 1837 Broad Street Riot"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:15:47",
+      "note": "freelance, reward-driven constables in New York and Boston in the early 1800s"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:21:02",
+      "note": "dangerous classes and Irish, Italians, Germans and Jews not yet treated as white"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:37:40",
+      "note": "late-1800s unions and police used to break strikes framed as riots"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:49:36",
+      "note": "Pennsylvania State Police created after the 1902 anthracite strike to suppress miners"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:54:48",
+      "note": "1906 Windber strike where state troopers killed miners and a boy"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:56:25",
+      "note": "state police search-bias data and ending of the research, 2002 to 2020"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:06:26",
+      "note": "Allan Pinkerton biography, from Glasgow birth to founding the agency"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:10:32",
+      "note": "Homestead strike of 1892: lockout, barge battle with Pinkertons, militia"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:20:55",
+      "note": "modern Pinkerton under Securitas used against 2018 strikers and tech staff"
+    }
+  ],
+  "notes": "Part 2 of the Behind the Police mini-series; primary subject is the practice of early northern policing, so no roles. covered_span start is approximate (early-1800s freelance constables); the 1700s English constable system is background. Pinkerton was born in Glasgow but GB is left out of setting as the segment is brief. Philippine Constabulary model for the PSP is brief, so colonialism is not a theme. Child deaths (Windber boy, Jesse James's brother) are brief mentions."
+}

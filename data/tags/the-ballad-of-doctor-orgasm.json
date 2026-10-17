@@ -1,0 +1,138 @@
+{
+  "story_id": "the-ballad-of-doctor-orgasm",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Charles Runels",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": null, "end": null }
+    },
+    {
+      "name": "O-Shot",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    },
+    {
+      "name": "Werner Forssmann",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1904, "end": 1979 }
+    }
+  ],
+  "roles": ["quack-fake-healer", "physician-surgeon", "business-executive"],
+  "themes": {
+    "primary": "quackery-pseudoscience",
+    "secondary": ["medical-malpractice", "fraud-grift", "public-health"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-AL"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2010, "end": null },
+    "covered_span": { "start": 2003, "end": 2020 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Alabama internist Charles Runels, barred by the FDA from clinical research after an unethical vaccine trial on homeless people, built a licensing business selling unproven platelet-rich plasma injections such as the Vampire Facelift and the genital O-Shot.",
+  "content_warnings": ["medical-horror", "sexual-violence"],
+  "keywords": [
+    "Doctor Orgasm",
+    "Vampire Facelift",
+    "P-Shot",
+    "platelet-rich plasma",
+    "Fairhope",
+    "New Orleans smallpox vaccine trial",
+    "Cellular Medicine Association",
+    "Jen Gunter",
+    "Kathleen Hale",
+    "Barry Marshall"
+  ],
+  "guests": ["Shereen Lani Younes"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "low"
+  },
+  "evidence": [
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:30:49",
+      "note": "smallpox vaccine study run on residents of a New Orleans homeless shelter; year garbled"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:37:35",
+      "note": "FDA investigation in 2008 and disqualification as clinical investigator in 2009"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:39:41",
+      "note": "Alabama medical board fine in 2009 for testosterone overdoses given to two women"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:41:23",
+      "note": "says he first encountered PRP in 2010, start of the facial and genital injections"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:48:46",
+      "note": "Vampire Facelift trademark licensed to trained practitioners as a franchise-like income"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:00:06",
+      "note": "O-Shot sold and taught to hundreds of practitioners with no clinical trials"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:00:37",
+      "note": "only supporting paper is a tiny case series in a likely predatory journal"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:10:29",
+      "note": "clinic run from his home in Fairhope, Alabama, aimed at religious Bible Belt patients"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:27:08",
+      "note": "segment on his hero Forssmann and the 1929 self-catheterization"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "01:12:34",
+      "note": "a patient's history of rape and marital sexual abuse recounted in some detail"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:22:19",
+      "note": "2020 attempt to start a COVID convalescent plasma venture"
+    }
+  ],
+  "notes": "Runels' birth year is not given and I am not certain of it, so lifespan is null; his teenage acne is a brief anecdote. Vaccine trial year is garbled in the transcript; 2003 is an estimate. Forssmann and Barry Marshall are comparisons, kept out of covered years. Long opening segment on female orgasm research and sex education has no matching theme (vocabulary gap: sexual health)."
+}

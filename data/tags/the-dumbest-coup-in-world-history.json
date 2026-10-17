@@ -1,0 +1,145 @@
+{
+  "story_id": "the-dumbest-coup-in-world-history",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Wonga Coup",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Simon Mann",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1952, "end": null }
+    },
+    {
+      "name": "Mike Hoare",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1919, "end": 2020 }
+    },
+    {
+      "name": "Francisco Macías Nguema",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1924, "end": 1979 }
+    },
+    {
+      "name": "Teodoro Obiang Nguema Mbasogo",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1942, "end": null }
+    }
+  ],
+  "roles": ["mercenary-warlord", "military-officer", "business-executive"],
+  "themes": {
+    "primary": "coups-insurrections",
+    "secondary": [
+      "authoritarianism",
+      "colonialism-imperialism",
+      "civil-war",
+      "weapons-arms-trade",
+      "racism-white-supremacy",
+      "genocide-mass-killing"
+    ]
+  },
+  "regions": {
+    "origin": ["GB", "ZA"],
+    "setting": ["GQ", "ZW", "ZA", "AO", "CD", "SL"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2003, "end": 2009 },
+    "covered_span": { "start": 1952, "end": 2020 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "In 2004 British mercenary Simon Mann and wealthy backers plotted to overthrow Equatorial Guinea's dictator Teodoro Obiang to seize its oil wealth; the bungled plot ended with arrests in Zimbabwe and torture in Black Beach Prison.",
+  "content_warnings": ["mass-atrocity", "torture"],
+  "keywords": [
+    "Executive Outcomes",
+    "Sandline International",
+    "Black Beach Prison",
+    "Frederick Forsyth",
+    "The Dogs of War",
+    "King Solomon's Mines",
+    "Severo Moto",
+    "Ely Calil",
+    "Mark Thatcher",
+    "Bight of Benin Company"
+  ],
+  "guests": ["Bridget Todd"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:15:06",
+      "note": "long segment on Mad Mike Hoare's Congo campaigns and the 1981 Seychelles coup attempt"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:34:48",
+      "note": "Macias terror campaign kills or drives out a third of the population; stadium mass execution"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:52:25",
+      "note": "Obiang ousts his uncle in 1979 and runs an oil-funded kleptocracy"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:03:48",
+      "note": "Mann's birth in 1952, Eton, Sandhurst and SAS service covered"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:10:39",
+      "note": "Executive Outcomes fights UNITA in Angola's civil war, later the RUF in Sierra Leone"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:29:15",
+      "note": "2003 meeting with Ely Calil starts the coup plot"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:53:40",
+      "note": "difficulty of sourcing arms; bribery deal with Zimbabwe Defence Industries"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "01:03:30",
+      "note": "Mann's force arrested at Harare in 2004, advance team held in Equatorial Guinea"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:06:37",
+      "note": "extradition to Black Beach, torture, pardon in 2009 and release"
+    }
+  ],
+  "notes": "Wonga Coup and Simon Mann both primary: Part 1 is background (Haggard, Hoare, Denard, Forsyth's 1973 plot, Macias and Obiang); Part 2 is Mann's life and the plot. Haggard's novel treated as framing, so covered_span starts at Mann's birth. Mann believed alive. Forsyth's 1973 plot gets a real segment but the five-subject limit left him in keywords."
+}

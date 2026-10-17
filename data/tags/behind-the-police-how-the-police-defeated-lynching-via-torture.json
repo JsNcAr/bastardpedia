@@ -1,0 +1,124 @@
+{
+  "story_id": "behind-the-police-how-the-police-defeated-lynching-via-torture",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Police torture in the United States (the third degree)",
+      "kind": "practice-or-pseudoscience",
+      "role": "primary"
+    },
+    {
+      "name": "Tulsa race massacre",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "John Burge",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1947, "end": 2018 }
+    },
+    {
+      "name": "Reid technique",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "policing-incarceration",
+    "secondary": ["racism-white-supremacy", "genocide-mass-killing"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1920, "end": 1991 },
+    "covered_span": { "start": 1883, "end": 2018 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "How US police in the early 20th century curbed lynching by torturing Black suspects into confessions for swift executions, from the 1921 Tulsa massacre and 1930s Mississippi to Chicago's John Burge and the Reid technique.",
+  "content_warnings": ["torture", "graphic-violence", "mass-atrocity"],
+  "keywords": [
+    "lynching",
+    "Black Wall Street",
+    "Greenwood",
+    "Wickersham Commission",
+    "Kemper County",
+    "Brown v. Mississippi",
+    "Central Park Five",
+    "Association of Southern Women for the Prevention of Lynching",
+    "The Color of the Third Degree",
+    "Silvan Niedermeier"
+  ],
+  "guests": ["Jason Petty (Propaganda)"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:04:20",
+      "note": "lynching victim statistics from 1883 to 1941 and the regimes of US lynching"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:09:38",
+      "note": "Dick Rowland arrest and police role in the 1921 Tulsa massacre, deputized white mob"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:19:01",
+      "note": "police and guardsmen burn Greenwood church; planes used against civilians"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:26:17",
+      "note": "1920 first year police averted more lynchings than occurred; executions replace mobs"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:40:01",
+      "note": "Kemper County, Mississippi murder case: three Black youths whipped into confessing"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:52:04",
+      "note": "Wickersham Commission report on the third degree under Hoover"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:06:50",
+      "note": "Reid technique origins in a 1950s case and its role in false confessions"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:14:06",
+      "note": "Burge torture in Chicago from 1972, fired, imprisoned 2011, died 2018"
+    }
+  ],
+  "notes": "Primary subject is the practice of coercive police interrogation, so no roles. Only two secondary themes clearly earn real time; Tulsa massacre covers genocide-mass-killing. covered_span starts with the 1883 lynching data the host frames the story with; end is Burge's death and the 2018 union statement. Modern bias statistics and the Reid technique's decline set reaches_present. Mississippi case year inferred as 1934 (Brown v. Mississippi)."
+}

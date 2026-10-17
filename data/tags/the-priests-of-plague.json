@@ -1,0 +1,101 @@
+{
+  "story_id": "the-priests-of-plague",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Catholic Church",
+      "kind": "organization",
+      "org_type": "religious-body",
+      "role": "primary",
+      "wikidata": "Q9592"
+    },
+    {
+      "name": "Antonio Álvaro y Ballano",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1876, "end": 1927 }
+    },
+    {
+      "name": "Flagellants",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    },
+    {
+      "name": "Pope Clement VI",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1291, "end": 1352 }
+    },
+    {
+      "name": "Shincheonji Church of Jesus",
+      "kind": "organization",
+      "org_type": "cult",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "organized-religion",
+    "secondary": [
+      "public-health",
+      "racism-white-supremacy",
+      "genocide-mass-killing",
+      "cults-new-religions",
+      "religious-right-culture-war"
+    ]
+  },
+  "regions": {
+    "origin": ["VA"],
+    "setting": ["ES", "DE", "FR", "KR", "US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "global"
+  },
+  "time": {
+    "main_span": { "start": 1347, "end": 2020 },
+    "covered_span": { "start": 1347, "end": 2020 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "A survey of how Christian churches responded to epidemics: Black Death processions, flagellants and anti-Jewish pogroms, a Spanish bishop who defied 1918 flu bans in Zamora, and churches spreading COVID-19 in 2020.",
+  "content_warnings": ["mass-atrocity"],
+  "keywords": [
+    "Black Death",
+    "Spanish flu",
+    "COVID-19",
+    "Zamora",
+    "Strasbourg massacre",
+    "Gloria Copeland",
+    "Tony Spell",
+    "Patient 31",
+    "Pale Rider",
+    "Rogation Days"
+  ],
+  "guests": ["Miles Gray"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:08:50", "note": "Black Death origins and arrival in Germany by 1349 open the historical survey" },
+    { "facet": "themes", "part": 1, "at": "00:13:01", "note": "papally authorised mass processions spread plague; clergy death toll" },
+    { "facet": "subjects", "part": 1, "at": "00:20:56", "note": "long segment on flagellant bands and how they spread disease" },
+    { "facet": "themes", "part": 1, "at": "00:28:17", "note": "Black Death pogroms against Jews, massacres in Strasbourg and Mainz" },
+    { "facet": "subjects", "part": 1, "at": "00:31:27", "note": "Clement VI issues bulls condemning blame of Jews for the plague" },
+    { "facet": "regions", "part": 1, "at": "00:42:59", "note": "Bishop of Zamora introduced; Zamora segment is the longest single story" },
+    { "facet": "regions", "part": 1, "at": "00:52:55", "note": "bishop defies gathering ban with novena and relic kissing in autumn 1918" },
+    { "facet": "regions", "part": 1, "at": "01:02:15", "note": "US churches defying 1918 closures in Buffalo and Indianapolis" },
+    { "facet": "subjects", "part": 1, "at": "01:03:55", "note": "Shincheonji cluster in Daegu drives most South Korean COVID cases in 2020" },
+    { "facet": "themes", "part": 1, "at": "01:09:02", "note": "US evangelical pastors defying COVID orders and calling bans persecution" }
+  ],
+  "notes": "Survey episode with no single bastard; Catholic Church chosen as primary though US evangelicals and Shincheonji also feature. Bishop of Zamora's name rendered garbled in transcript; standard spelling used, lifespan from own knowledge. Transcript places Strasbourg in Germany; modern FR added. main_span equals covered_span because the survey has no narrower core."
+}

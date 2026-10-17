@@ -1,0 +1,157 @@
+{
+  "story_id": "jack-idema-the-war-on-terror-s-dumbest-grifter",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Jack Idema",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1956, "end": 2012 }
+    },
+    {
+      "name": "Task Force Saber 7",
+      "kind": "organization",
+      "org_type": "military",
+      "role": "secondary"
+    },
+    {
+      "name": "Robin Moore",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1925, "end": 2008 }
+    },
+    {
+      "name": "Gary Scurka",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2001
+    }
+  ],
+  "roles": ["con-artist", "mercenary-warlord", "media-personality"],
+  "themes": {
+    "primary": "fraud-grift",
+    "secondary": [
+      "war-war-crimes",
+      "propaganda-media",
+      "terrorism",
+      "weapons-arms-trade",
+      "sexual-abuse"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["AF", "US", "MX", "LT"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2001, "end": 2007 },
+    "covered_span": { "start": 1956, "end": 2012 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "American ex-Green Beret and convicted fraudster Jack Idema posed as a counterterrorism expert in Afghanistan after 2001, fooled US media with fake claims and footage, and ran a private militia that kidnapped and tortured Afghans until his 2004 arrest.",
+  "content_warnings": ["torture"],
+  "keywords": [
+    "The Hunt for Bin Laden",
+    "Knightsbridge International",
+    "Dan Rather",
+    "60 Minutes",
+    "al Qaeda training tapes",
+    "Northern Alliance",
+    "Kabul",
+    "suitcase nukes",
+    "Gary Brooks Faulkner",
+    "Robert Young Pelton"
+  ],
+  "guests": ["Daniel Goodman"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:10:35",
+      "note": "born 1956 in Poughkeepsie, New York"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:13:11",
+      "note": "enlists 1975, Special Forces radio operator, discharged 1984"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:21:02",
+      "note": "trains police in Lithuania and invents a black market in Soviet backpack nukes"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:24:10",
+      "note": "convicted on about fifty wire fraud counts, four years in federal prison"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:37:42",
+      "note": "flies into Afghanistan in late 2001 with a National Geographic crew"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:41:57",
+      "note": "abandons aid work and tries to sell weapons to the Northern Alliance"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:06:49",
+      "note": "auctions likely staged al Qaeda training tapes; 60 Minutes airs them"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:15:16",
+      "note": "feeds invented exploits to Robin Moore for The Hunt for Bin Laden"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:28:16",
+      "note": "returns to Kabul in 2004 and forms the Task Force Saber 7 militia"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:32:57",
+      "note": "prisoners found beaten, hooded and hung by their feet; judge describes his ordeal"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:40:14",
+      "note": "released 2007, tries Dubai, then settles in Mexico running a charter boat"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:42:27",
+      "note": "knowingly infects partner with HIV without disclosure; later rape accusation; dies of AIDS 2012"
+    }
+  ],
+  "notes": "sexual-abuse is based on a roughly five-minute segment on undisclosed HIV transmission and a 2010 rape accusation; reviewer may drop it. Opening segment on other War on Terror freelancers (Faulkner, Colin Berry) treated as context, not subjects. Dubai stay is brief and left out of setting. Military service was minor, so military-officer not used as a role."
+}

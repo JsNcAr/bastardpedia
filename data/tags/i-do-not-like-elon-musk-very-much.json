@@ -1,0 +1,159 @@
+{
+  "story_id": "i-do-not-like-elon-musk-very-much",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Elon Musk",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1971, "end": null },
+      "wikidata": "Q317521"
+    },
+    {
+      "name": "Errol Musk",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1946, "end": null }
+    },
+    {
+      "name": "Tesla",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "SpaceX",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["tech-founder"],
+  "themes": {
+    "primary": "tech-internet",
+    "secondary": [
+      "labor-exploitation",
+      "corporate-malfeasance",
+      "child-abuse",
+      "finance-crypto",
+      "environmental-destruction",
+      "immigration-borders"
+    ]
+  },
+  "regions": {
+    "origin": ["ZA"],
+    "setting": ["US", "ZA", "CA"],
+    "subdivisions": [],
+    "polities": ["apartheid-south-africa"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1995, "end": null },
+    "covered_span": { "start": 1971, "end": 2020 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "South African-born tech billionaire Elon Musk, from an abusive wealthy childhood under apartheid through Zip2, PayPal, Tesla and SpaceX, accused of mistreating workers and partners, union-busting, unsafe factories and pushing residents out of Boca Chica, Texas.",
+  "content_warnings": ["child-abuse"],
+  "keywords": [
+    "Zip2",
+    "X.com",
+    "PayPal",
+    "Boca Chica",
+    "Ashley Vance",
+    "Justine Musk",
+    "Talulah Riley",
+    "Mary Beth Brown",
+    "Martin Eberhard",
+    "Zambian emerald mine"
+  ],
+  "guests": ["Sofiya Alexandra"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:26:54",
+      "note": "Musk born June 1971 in South Africa, start of the covered life story"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:43:06",
+      "note": "sons describe psychological abuse by Errol Musk during years living with him"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:48:45",
+      "note": "schoolyard gang beats teenage Musk badly enough to hospitalise him"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:51:16",
+      "note": "leaves South Africa for Canada, likely dodging apartheid-era conscription"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:03:42",
+      "note": "stays on Trump advisory council through immigration crackdowns and Muslim ban"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:09:55",
+      "note": "founding of Zip2 with Kimball, first consequential business act"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:26:10",
+      "note": "X.com online bank venture, merger into PayPal and ouster as CEO"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:41:03",
+      "note": "Roadster carbon fibre paint leads to California pollution fines"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:19:38",
+      "note": "SpaceX test site pushes retirees out of Boca Chica, closes public beach"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:23:18",
+      "note": "Tesla found to violate labor law by retaliating against union organisers"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:24:20",
+      "note": "factory injuries relabelled to lower official counts; safety markings cut"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:07:16",
+      "note": "2020 coronavirus tweets and factory reopening bring story to release date"
+    }
+  ],
+  "notes": "Zip2 founding year (1995) is from general knowledge; the transcript drops the year. Apartheid privilege and possible race-science views are discussed for several minutes but were not added as racism-white-supremacy; reviewer may add it. Grandfather Joshua Haldeman gets only a short segment, so covered_span starts at Musk's birth. The host misgenders Ashley Vance in part 1; corrected at the start of part 2."
+}

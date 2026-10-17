@@ -1,0 +1,80 @@
+{
+  "story_id": "the-man-who-teaches-our-cops-to-kill",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Dave Grossman",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1956, "end": null }
+    },
+    {
+      "name": "Bulletproof Mindset training course",
+      "kind": "media-work",
+      "role": "secondary"
+    },
+    {
+      "name": "Killing of Kyle Dinkheller",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["writer-intellectual", "psychiatrist-psychologist", "military-officer"],
+  "themes": {
+    "primary": "policing-incarceration",
+    "secondary": ["moral-panics", "racism-white-supremacy", "propaganda-media", "war-war-crimes"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-MN"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1995, "end": null },
+    "covered_span": { "start": 1956, "end": 2020 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Retired US Army officer Dave Grossman, self-styled founder of killology, has trained thousands of American police to see every encounter as deadly and to kill reflexively, a mindset linked to police killings such as Philando Castile's.",
+  "content_warnings": ["graphic-violence"],
+  "keywords": [
+    "Killology Research Group",
+    "On Killing",
+    "On Combat",
+    "sheepdog",
+    "Philando Castile",
+    "George Floyd",
+    "Minneapolis",
+    "Kyle Dinkheller",
+    "Unicorn Riot",
+    "Assassination Generation"
+  ],
+  "guests": ["Jack O'Brien"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "subjects", "part": 1, "at": "00:10:30", "note": "Castile's killer attended a Bulletproof Mindset course in 2014; Grossman called most influential trainer" },
+    { "facet": "roles", "part": 1, "at": "00:12:35", "note": "course bio: retired Army officer, former West Point psychology professor, author of popular books" },
+    { "facet": "themes", "part": 1, "at": "00:22:35", "note": "course pages blame violent video games and TV for aggression; host weighs the weak evidence" },
+    { "facet": "themes", "part": 1, "at": "00:27:15", "note": "Grossman forecasts massacres of schoolchildren to frighten trainees" },
+    { "facet": "subjects", "part": 1, "at": "00:35:09", "note": "long segment on the 1998 Dinkheller traffic-stop video used in police training" },
+    { "facet": "themes", "part": 1, "at": "00:58:12", "note": "WWII and Vietnam firing-rate studies and conditioning soldiers to kill underpin his teaching" },
+    { "facet": "themes", "part": 1, "at": "01:10:18", "note": "calls BLM protests treason, denies racial bias in policing, blames media" },
+    { "facet": "regions", "part": 1, "at": "00:04:45", "note": "Minneapolis police killings frame the episode; many local officers took his course" },
+    { "facet": "time", "part": 1, "at": "01:06:41", "note": "post-2016 backlash after Castile killing, cancelled trainings, his views as of 2020" }
+  ],
+  "notes": "Format borderline: much of the episode walks through a leaked copy of his course book page by page, which could argue for media-reading; chose deep-dive since the story profiles the man from many sources. covered_span starts at his 1956 birth only to meet the lifetime rule; his early life is not discussed. main_span start 1995 (On Killing) from general knowledge."
+}
