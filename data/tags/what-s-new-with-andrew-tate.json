@@ -1,0 +1,104 @@
+{
+  "story_id": "what-s-new-with-andrew-tate",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "current-affairs",
+  "subjects": [
+    {
+      "name": "Andrew Tate",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1986, "end": null }
+    },
+    {
+      "name": "Tristan Tate",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1988, "end": null }
+    },
+    {
+      "name": "The War Room",
+      "kind": "organization",
+      "org_type": "cult",
+      "role": "secondary"
+    },
+    {
+      "name": "The Real World",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Miles Sonkin",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1961, "end": null }
+    }
+  ],
+  "roles": ["influencer-online", "criminal-killer", "con-artist"],
+  "themes": {
+    "primary": "misogyny-manosphere",
+    "secondary": [
+      "sexual-abuse",
+      "fraud-grift",
+      "cults-new-religions",
+      "policing-incarceration",
+      "tech-internet",
+      "domestic-abuse"
+    ]
+  },
+  "regions": {
+    "origin": ["US", "GB"],
+    "setting": ["RO", "GB", "US", "AE"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2022, "end": null },
+    "covered_span": { "start": 2018, "end": 2025 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "An update on Andrew Tate from his 2022 Romanian arrest for human trafficking through his 2025 return to the US, plus leaked chats showing how his War Room and Real World platforms groomed women and milked young men like an MLM.",
+  "content_warnings": ["sexual-violence", "hate-speech"],
+  "keywords": [
+    "Hustler's University",
+    "PhD program",
+    "Tate Pledge",
+    "DIICOT",
+    "Bucharest",
+    "Iggy Semmelweis",
+    "Brianna Stern",
+    "Ron DeSantis",
+    "The Man Who Groomed the World",
+    "Ivan Throne"
+  ],
+  "guests": ["Ian Johnson"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:03:15", "note": "recap of the December 2022 arrest in Romania, where the brothers moved in 2016" },
+    { "facet": "regions", "part": 1, "at": "00:05:24", "note": "UK prosecutors pursue separate abuse allegations; extradition ruled after Romanian case" },
+    { "facet": "themes", "part": 1, "at": "00:11:29", "note": "investigation finds the Tate Pledge charity claims vastly overstated" },
+    { "facet": "themes", "part": 1, "at": "00:27:38", "note": "Romanian appeals courts find flaws in the indictment through 2024" },
+    { "facet": "time", "part": 1, "at": "00:32:25", "note": "February 2025 clearance to leave Romania and flight to Florida" },
+    { "facet": "themes", "part": 1, "at": "00:45:02", "note": "ex-girlfriend's lawsuit alleging assault in a Los Angeles hotel" },
+    { "facet": "regions", "part": 1, "at": "00:48:20", "note": "trip to Dubai raises fears in UK politics that he will evade trial" },
+    { "facet": "time", "part": 2, "at": "00:06:01", "note": "leaked War Room chats from March 2019 to April 2020 identify dozens of possible victims" },
+    { "facet": "themes", "part": 2, "at": "00:10:34", "note": "Real World described as an MLM that makes subscribers post Tate clips for free" },
+    { "facet": "subjects", "part": 2, "at": "00:37:07", "note": "Miles Sonkin, born 1961 in Chicago, profiled as the War Room's ideological driver" },
+    { "facet": "time", "part": 2, "at": "00:40:18", "note": "Tate and Sonkin start working together in 2018; War Room founded 2019" },
+    { "facet": "themes", "part": 2, "at": "00:42:09", "note": "host compares the War Room and Real World to Scientology as a cult" }
+  ],
+  "notes": "Format is current-affairs (an update on a previously covered subject). Tristan is a co-defendant throughout but the title centres Andrew, so he is secondary. War Room org_type cult follows the hosts' framing; criminal-org is arguable. Sonkin's pre-2018 life (cults, early PUA scene) is brief, so covered_span starts 2018. Lifespans and Tate's GB origin come from general knowledge, not the transcript."
+}

@@ -1,0 +1,108 @@
+{
+  "story_id": "anti-vax-america-the-complete-series",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "crossover",
+  "subjects": [
+    {
+      "name": "Anti-vaccine movement",
+      "kind": "movement-or-ideology",
+      "role": "primary"
+    },
+    {
+      "name": "2025 West Texas measles outbreak",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1954, "end": null }
+    },
+    {
+      "name": "Eugenics",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    },
+    {
+      "name": "Kenneth Copeland",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1936, "end": null }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "public-health",
+    "secondary": [
+      "quackery-pseudoscience",
+      "eugenics-scientific-racism",
+      "organized-religion",
+      "religious-right-culture-war",
+      "conspiracy-theories",
+      "medical-malpractice"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "CA"],
+    "subdivisions": ["US-TX"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2014, "end": null },
+    "covered_span": { "start": 1853, "end": 2025 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Five-part It Could Happen Here series by Steven Monacelli tracing the 2025 West Texas measles outbreak back through US anti-vaccine history, faith-healing Christianity, eugenic thinking and RFK Jr.'s rise to run federal health policy.",
+  "content_warnings": ["medical-horror"],
+  "keywords": [
+    "Gaines County",
+    "Mennonites",
+    "Make America Healthy Again",
+    "Great Barrington Declaration",
+    "Tuskegee syphilis study",
+    "Mercy Culture Preparatory",
+    "Anti-Compulsory Vaccination League",
+    "Children's Health Defense",
+    "Ben Edwards",
+    "Disneyland measles outbreak"
+  ],
+  "guests": [
+    "Steven Monacelli",
+    "Garrison Davis",
+    "Katherine Wells",
+    "Peter Hotez",
+    "Michael Phillips",
+    "David Gorski"
+  ],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "format", "part": 1, "at": "00:00:03", "note": "Introduced as a compilation of the week's It Could Happen Here episodes" },
+    { "facet": "time", "part": 1, "at": "00:00:36", "note": "Outbreak began in Gaines County, Texas in January 2025 and spread to other states" },
+    { "facet": "time", "part": 1, "at": "00:36:38", "note": "UK compulsory vaccination laws and riots from 1853, leading to the 1898 exemption" },
+    { "facet": "themes", "part": 1, "at": "00:44:07", "note": "Historian on Sims's experiments on enslaved women and the Tuskegee study as roots of distrust" },
+    { "facet": "themes", "part": 1, "at": "00:52:06", "note": "Children's Health Defense founded 2007, pushes homeopathy and Great Reset conspiracy" },
+    { "facet": "time", "part": 1, "at": "00:59:40", "note": "2014-15 California outbreak and exemption ban set off red-state health freedom backlash" },
+    { "facet": "regions", "part": 1, "at": "01:09:14", "note": "Garrison recounts an unvaccinated childhood in a Texas-linked church in Saskatchewan" },
+    { "facet": "themes", "part": 1, "at": "01:14:12", "note": "Kenneth Copeland: 2013 measles outbreak at his daughter's church and COVID-era preaching" },
+    { "facet": "themes", "part": 1, "at": "01:36:21", "note": "Fort Worth Christian school celebrates being least vaccinated in Texas" },
+    { "facet": "themes", "part": 1, "at": "01:42:12", "note": "Galton coins eugenics in 1883; early eugenicists feared vaccines saved the unfit" },
+    { "facet": "themes", "part": 1, "at": "01:57:31", "note": "Great Barrington Declaration framed as soft eugenics, linked to MAHA" },
+    { "facet": "time", "part": 1, "at": "02:21:53", "note": "Final episode projects the return of polio and other diseases under current policy" }
+  ],
+  "notes": "Format crossover: a compilation of an It Could Happen Here miniseries hosted by Steven Monacelli, so roles empty (primary is a movement). Covered span starts at 1853 British anti-vaccination resistance; Jenner 1796 is background. GB history is about a minute, so left out of setting. Transcript spells the Lubbock director Catherine Wells; Katherine Wells is the usual spelling. Interviewees listed as guests."
+}

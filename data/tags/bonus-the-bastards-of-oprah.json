@@ -1,0 +1,82 @@
+{
+  "story_id": "bonus-the-bastards-of-oprah",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Mehmet Oz",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1960, "end": null }
+    },
+    {
+      "name": "Phil McGraw",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1950, "end": null }
+    },
+    {
+      "name": "John of God",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1942, "end": null }
+    },
+    {
+      "name": "Oprah Winfrey",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1954, "end": null }
+    }
+  ],
+  "roles": ["media-personality", "quack-fake-healer", "psychiatrist-psychologist"],
+  "themes": {
+    "primary": "quackery-pseudoscience",
+    "secondary": [
+      "entertainment-celebrity",
+      "wellness-self-help",
+      "occult-esoteric",
+      "sexual-abuse",
+      "fraud-grift"
+    ]
+  },
+  "regions": {
+    "origin": ["US", "BR"],
+    "setting": ["BR", "US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1976, "end": null },
+    "covered_span": { "start": 1942, "end": 2025 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Compilation of the show's episodes on three figures boosted by Oprah Winfrey: TV doctor Mehmet Oz and his miracle-cure claims, TV psychologist Phil McGraw, and Brazilian faith healer John of God, later convicted of sexually abusing followers.",
+  "content_warnings": ["sexual-violence"],
+  "keywords": [
+    "Dr. Oz",
+    "Dr. Phil",
+    "João Teixeira de Faria",
+    "The Oprah Winfrey Show",
+    "Abadiania",
+    "Casa de Dom Inacio",
+    "psychic surgery",
+    "Spiritism"
+  ],
+  "guests": [],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "low",
+    "regions": "medium",
+    "time": "low"
+  },
+  "evidence": [],
+  "notes": "No transcript; tagged from the description (a stitched re-release of the Dr. Oz, Dr. Phil and John of God episodes) plus general knowledge. Format deep-dive because these are BtB's own series, not another show. Roles cover three primaries in three slots (Oz's physician-surgeon dropped). Themes, warnings, guests and spans unverified; main_span start is John of God's Abadiania centre (approx.). Reviewer should check against the source episodes."
+}

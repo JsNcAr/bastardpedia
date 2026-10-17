@@ -1,0 +1,78 @@
+{
+  "story_id": "behind-the-bastards-presents-hood-politics-with-prop",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "crossover",
+  "subjects": [
+    { "name": "Google", "kind": "organization", "org_type": "company", "role": "primary" },
+    { "name": "Zionism", "kind": "movement-or-ideology", "role": "primary" },
+    { "name": "Microsoft", "kind": "organization", "org_type": "company", "role": "secondary" },
+    { "name": "Rastafari", "kind": "movement-or-ideology", "role": "secondary" },
+    { "name": "Theodor Herzl", "kind": "person", "role": "secondary", "lifespan": { "start": 1860, "end": 1904 } }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "tech-internet",
+    "secondary": [
+      "corporate-malfeasance",
+      "colonialism-imperialism",
+      "organized-religion",
+      "racism-white-supremacy",
+      "war-war-crimes"
+    ]
+  },
+  "regions": {
+    "origin": ["US", "AT"],
+    "setting": ["US", "PS", "IL", "ET", "JM", "FR"],
+    "subdivisions": [],
+    "polities": ["ottoman-empire", "british-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1896, "end": 2024 },
+    "covered_span": { "start": 1894, "end": 2024 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Two Hood Politics episodes hosted by Propaganda: how the US antitrust ruling against Google's search monopoly echoes the 1998 Microsoft case, and how Rastafarian Zion differs from political Zionism and its colonial settlement of Palestine.",
+  "content_warnings": [],
+  "keywords": [
+    "United States v. Google",
+    "United States v. Microsoft",
+    "Netscape",
+    "Internet Explorer",
+    "Bill Gates",
+    "Haile Selassie",
+    "Dreyfus affair",
+    "Balfour Declaration",
+    "Tel Aviv",
+    "Gaza war"
+  ],
+  "guests": ["Propaganda"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "low",
+    "regions": "medium",
+    "time": "low"
+  },
+  "evidence": [
+    { "facet": "format", "part": 1, "at": "00:00:03", "note": "Evans introduces a compilation of two episodes of Prop's network show Hood Politics" },
+    { "facet": "themes", "part": 1, "at": "00:04:19", "note": "News segment on the anniversary of October 7 and the destruction of Gaza" },
+    { "facet": "subjects", "part": 1, "at": "00:12:17", "note": "Sets up the Google antitrust case over search and ads" },
+    { "facet": "time", "part": 1, "at": "00:31:00", "note": "Microsoft's 1990s Windows bundling deals with PC makers" },
+    { "facet": "subjects", "part": 1, "at": "00:40:10", "note": "Netscape complaint and the DOJ case against Microsoft, Gates's testimony" },
+    { "facet": "time", "part": 1, "at": "00:46:37", "note": "Ruling that Google illegally monopolized search via default deals" },
+    { "facet": "subjects", "part": 1, "at": "00:59:34", "note": "Second episode opens: Rasta meaning of Zion versus Zionism" },
+    { "facet": "subjects", "part": 1, "at": "01:14:23", "note": "Rastafari origins in the 1930s around Haile Selassie" },
+    { "facet": "regions", "part": 1, "at": "01:26:14", "note": "Rastafari reaches Jamaica through the descendants of the Atlantic slave trade" },
+    { "facet": "time", "part": 1, "at": "01:41:37", "note": "Herzl radicalized by the Dreyfus affair, proposes a Jewish state" },
+    { "facet": "regions", "part": 1, "at": "01:48:38", "note": "Ottoman sultan refuses to sell Palestine; Zionists aware of Arab population" },
+    { "facet": "time", "part": 1, "at": "01:52:15", "note": "British takeover from 1917, partition and the 1948 founding of Israel" }
+  ],
+  "notes": "Two unrelated Hood Politics episodes compiled, so subjects and themes are split; primary theme tech-internet is a coin toss against colonialism-imperialism. Covered span runs from the Dreyfus affair (1894) to the 2024 Google ruling; Solomon and Sheba folklore treated as background. Gaza war news (about 5 min) not vivid enough for mass-atrocity."
+}

@@ -1,0 +1,146 @@
+{
+  "story_id": "robert-maxwell-how-ghislaine-maxwell-s-dad-ruined-science",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Robert Maxwell",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1923, "end": 1991 }
+    },
+    {
+      "name": "Pergamon Press",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["business-executive", "military-officer", "spy-intelligence"],
+  "themes": {
+    "primary": "corporate-malfeasance",
+    "secondary": [
+      "war-war-crimes",
+      "nazism",
+      "fraud-grift",
+      "propaganda-media",
+      "intelligence-covert-ops",
+      "science-exploration"
+    ]
+  },
+  "regions": {
+    "origin": ["UA", "GB"],
+    "setting": ["GB", "DE", "FR", "UA", "IL", "US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1939, "end": 1991 },
+    "covered_span": { "start": 1923, "end": 1991 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Born into poverty in Czechoslovak Ruthenia in 1923, Robert Maxwell fought the Nazis and committed war crimes, then built Pergamon Press into a profit machine for scientific publishing and looted his employees' pension fund before dying at sea in 1991.",
+  "content_warnings": ["graphic-violence", "suicide-self-harm"],
+  "keywords": [
+    "Ghislaine Maxwell",
+    "Daily Mirror",
+    "Springer-Verlag",
+    "Paul Rosbaud",
+    "Military Cross",
+    "Mirror pension scandal",
+    "PROMIS software",
+    "Mordechai Vanunu",
+    "Rupert Murdoch",
+    "Slatinske Doly"
+  ],
+  "guests": ["Adam Conover"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:05:00",
+      "note": "born June 1923 in a Ruthenian village then in Czechoslovakia, now in Ukraine"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:24:30",
+      "note": "1939 Nazi takeover; he leaves the yeshiva to join the anti-Nazi underground"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:50:20",
+      "note": "after learning his family died at Auschwitz he kills prisoners and a German mayor"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:29:00",
+      "note": "joins Czech unit in France, evacuated at Dunkirk, later fights from Normandy into Germany"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:11:20",
+      "note": "spy work for British intelligence in occupied Berlin; MI6 alleged to fund his startup"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:23:25",
+      "note": "takes control of the Butterworth-Springer venture in 1951 and names it Pergamon Press"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:31:00",
+      "note": "exclusive author contracts and endless new journals sold to libraries at huge margins"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:41:40",
+      "note": "extended look at how the for-profit journal model he built works today"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:58:30",
+      "note": "1969 Steinberg deal exposes inflated accounts; 1971 inquiry finds him unfit to run a company"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:59:50",
+      "note": "uses the Mirror to campaign against union leader Arthur Scargill"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "01:04:30",
+      "note": "mid-1980s heavy investment in Israel and passing information to Mossad"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:21:05",
+      "note": "raids the pension fund, then dies falling from his yacht off Tenerife in November 1991"
+    }
+  ],
+  "notes": "main_span starts at his 1939 entry into the anti-Nazi underground because the whole first part is his war service and war crimes; a strict encyclopedia reading would start at Pergamon in 1951. Primary theme chosen as corporate-malfeasance (journal pricing racket, pension raid); fraud-grift is a close alternative. Brief political career (Labour MP 1964-70) not given its own theme."
+}

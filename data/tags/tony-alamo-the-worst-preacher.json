@@ -1,0 +1,145 @@
+{
+  "story_id": "tony-alamo-the-worst-preacher",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Tony Alamo",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1934, "end": 2017 }
+    },
+    {
+      "name": "Susan Alamo",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1925, "end": 1982 }
+    },
+    {
+      "name": "Tony and Susan Alamo Foundation",
+      "kind": "organization",
+      "org_type": "cult",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["cult-leader", "con-artist", "business-executive"],
+  "themes": {
+    "primary": "cults-new-religions",
+    "secondary": [
+      "child-abuse",
+      "labor-exploitation",
+      "slavery-forced-labor",
+      "fraud-grift",
+      "entertainment-celebrity"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-AR", "US-CA"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1969, "end": 2009 },
+    "covered_span": { "start": 1925, "end": 2017 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "Former music hustler Tony Alamo and his wife Susan built an apocalyptic Christian cult in California and Arkansas, using unpaid child labor for a celebrity denim jacket line while Tony took child brides, until his 2009 conviction.",
+  "content_warnings": ["child-abuse", "sexual-violence"],
+  "keywords": [
+    "Bernie Lazar Hoffman",
+    "Alamo Christian Foundation",
+    "Saugus",
+    "Dyer, Arkansas",
+    "Fouke, Arkansas",
+    "Tony Alamo of Nashville",
+    "Michael Jackson Bad jacket",
+    "Fair Labor Standards Act",
+    "David Koresh",
+    "John Birch Society"
+  ],
+  "guests": ["Samantha McVey"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:04:56",
+      "note": "Tony born Bernie Lazar Hoffman in Joplin, Missouri, 1934; Susan's Arkansas birth follows"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:13:23",
+      "note": "Susan's recurring con of posing as a missionary to collect church offerings"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:27:52",
+      "note": "Tony and Susan meet in a Los Angeles bar around 1966 while each tries to con the other"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:35:42",
+      "note": "foundation established 1969 to take in street youth and their wages"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:39:12",
+      "note": "compound bought in Saugus, California, in 1971"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:49:55",
+      "note": "after Susan's cancer diagnosis the cult moves to a compound in Dyer, Arkansas"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:03:37",
+      "note": "Susan dies 1982; followers ordered to pray over her embalmed body for months"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:10:00",
+      "note": "rhinestone jacket brand sold to celebrities, decorated by unpaid cult children"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:29:14",
+      "note": "Labor Department suit from 1976 ends in a unanimous Supreme Court ruling on cult wages"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:43:16",
+      "note": "arrested in Florida in 1994 and jailed for tax fraud, released 1998, moves to Fouke"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:52:40",
+      "note": "2008 raid, 2009 conviction for transporting girls across state lines, dies in prison 2017"
+    }
+  ],
+  "notes": "Susan Alamo's birth year transcribed ambiguously; 1925 used from own knowledge. Her life is a long Part 1 segment, so it opens covered_span. Arkansas and California share the story, so both subdivisions are listed. labor-exploitation and slavery-forced-labor both apply (unpaid child labor plus the federal wage case). Racist bus hoax and John Birch Society are a short Part 1 segment, left out of themes. Victims of the sexual abuse are mostly minors, so sexual-abuse omitted."
+}

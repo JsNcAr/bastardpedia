@@ -1,0 +1,152 @@
+[
+  {
+    "id": "adolf-eichmann-mr-holocaust-himself",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Setting capped at six: Israel (Mossad capture aftermath and Jerusalem trial, a long segment with Arendt) left out in favour of Argentina; also CZ and BG (Dannecker in Bulgaria) have shorter segments. Roles: SS/SD bureaucrat of deportations has no exact role id; military-officer plus politician-official (senior official) is an approximation."
+  },
+  {
+    "id": "david-berg-and-the-children-of-god-ft-ed-helms",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Title gives Berg and the cult equal weight, so both are primary. covered_span ends 2005 (Ricky Rodriguez murder-suicide, year from own knowledge; transcript says early 2000s); that epilogue is only a few minutes, so 1994 is a defensible alternative end. Portugal (burial) mentioned only in passing and left out of setting. reaches_present rests on a short closing segment on Zerby still at large and current membership."
+  },
+  {
+    "id": "anti-vax-america-the-complete-series",
+    "format": "crossover",
+    "low": [],
+    "notes": "Format crossover: a compilation of an It Could Happen Here miniseries hosted by Steven Monacelli, so roles empty (primary is a movement). Covered span starts at 1853 British anti-vaccination resistance; Jenner 1796 is background. GB history is about a minute, so left out of setting. Transcript spells the Lubbock director Catherine Wells; Katherine Wells is the usual spelling. Interviewees listed as guests."
+  },
+  {
+    "id": "dire-wolves-dr-george-church-the-de-extinction-grift",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary theme: science-exploration (taxonomy lists de-extinction as an example); fraud-grift is the title's framing and was the alternative primary. Colossal kept secondary since the story is built around Church. Aubrey de Grey and the SENS sexual misconduct allegations get a few minutes but did not reach sexual-abuse as a theme. Main span starts at the 2005 Epstein funding and Personal Genome Project. CN rests on the BGI segment; Siberia rewilding is only a plan."
+  },
+  {
+    "id": "the-throat-slitting-evangelical-minister-of-jamaica",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Birth year is uncertain (host says probably 1982; a 36th birthday in April 2018 supports it). main_span starts at the founding of his ministry around 2000. Pathways was an umbrella Pentecostal body he affiliated with; the congregation he led functioned as a cult, so org_type cult is a judgement call. US appears only as background (Azusa Street, Vision International), so it is left out of setting."
+  },
+  {
+    "id": "carl-schmitt-the-mind-behind-modern-fascism",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary fascism-far-right (taxonomy lists Schmitt as its example); nazism secondary for his 1933-36 party role. Eisler's birth year is not in the packet, left null. Cari's real dates are unknown, floruit 1912 when they meet. Legacy segment (French, Russian, US far right) sets reaches_present rather than adding settings. Setting FR is Strasbourg, German at the time. main_span could arguably run to the 1947 Nuremberg interrogations."
+  },
+  {
+    "id": "the-sordid-story-of-nature-boy-the-instagram-cult-leader-who-hates-toilets",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Spelling of the name varies in the transcript (Alisio, Eligio); used Eligio Bishop as in Rolling Stone. Group names shift (Ethereans, Melanation, Carbon Nation); listed under the last one. Nicaragua, Panama and Hawaii deportations are brief and left out of setting. Childhood and juvenile prison segments give child-abuse; no policing theme added as the prison part is short. Main span ends at the 2025 conviction although he is alive."
+  },
+  {
+    "id": "robert-maxwell-how-ghislaine-maxwell-s-dad-ruined-science",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "main_span starts at his 1939 entry into the anti-Nazi underground because the whole first part is his war service and war crimes; a strict encyclopedia reading would start at Pergamon in 1951. Primary theme chosen as corporate-malfeasance (journal pricing racket, pension raid); fraud-grift is a close alternative. Brief political career (Labour MP 1964-70) not given its own theme."
+  },
+  {
+    "id": "what-s-new-with-andrew-tate",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Format is current-affairs (an update on a previously covered subject). Tristan is a co-defendant throughout but the title centres Andrew, so he is secondary. War Room org_type cult follows the hosts' framing; criminal-org is arguable. Sonkin's pre-2018 life (cults, early PUA scene) is brief, so covered_span starts 2018. Lifespans and Tate's GB origin come from general knowledge, not the transcript."
+  },
+  {
+    "id": "alfred-hugenberg-the-elon-musk-of-weimar-germany",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary theme is a close call between propaganda-media (the press empire runs 1913-1933 across both parts) and nazism (the description pitches him as Hitler's enabler); nazism kept secondary. The host places the Hitler negotiations in late 1933, but the chancellorship deal was January 1933. Herero genocide is an illustrative segment of his colonial aims, so NA is not in the setting. Elon Musk comparisons are modern asides, not legacy."
+  },
+  {
+    "id": "how-ice-is-targeting-students-for-deportation",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "This is an It Could Happen Here episode (Garrison Davis, James Stout) in the BtB feed, so crossover could apply by precedence, but formats.yaml names this exact title as a current-affairs example, so current-affairs was used. ICE is primary; no person is primary, so roles are empty. Lifespans: Khalil's birth year (1995) from general knowledge; Chung and Ozturk given floruit only."
+  },
+  {
+    "id": "the-grifters-behind-the-fake-autism-cure-industry",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject is a movement, so roles are empty. Covered span starts at ARI's 1967 founding (a short segment); Bettelheim and Freud are background. Panama stem cells and the Swiss GcMAF clinic are brief, so left out of setting. Tariq Nadama was British but treated and died in the US (Butler, PA area). Usman's birth year is unknown, so floruit 2005 is used. The 2016 Generation Rescue conference was in Texas; no single US state is central."
+  },
+  {
+    "id": "how-tainted-human-blood-became-a-major-u-s-export",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "No theme for the blood or plasma trade; public-health is closest. Clinton kept secondary as the story frames him as an enabler, not the subject. Pre-1978 material (history of transfusion, 1960s paid-donor research, 1974 blood policy, 1982 FDA request) treated as background, so covered_span starts with the program. The 2000s documentary segment is an epilogue, not a reason for reaches_present."
+  },
+  {
+    "id": "bruno-bettelheim-the-worst-psycho-therapist",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary theme child-abuse rather than medical-malpractice: he had no medical or psychology credentials, so the refrigerator-mother theory and invented diagnoses go under quackery-pseudoscience. Survivor accounts continuing to today get only a short coda, so reaches_present is false. main_span starts at the 1938 arrest, whose camp experience shaped his later work."
+  },
+  {
+    "id": "tony-alamo-the-worst-preacher",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Susan Alamo's birth year transcribed ambiguously; 1925 used from own knowledge. Her life is a long Part 1 segment, so it opens covered_span. Arkansas and California share the story, so both subdivisions are listed. labor-exploitation and slavery-forced-labor both apply (unpaid child labor plus the federal wage case). Racist bus hoax and John Birch Society are a short Part 1 segment, left out of themes. Victims of the sexual abuse are mostly minors, so sexual-abuse omitted."
+  },
+  {
+    "id": "how-the-u-s-government-used-aliens-to-destroy-a-man-s-mind",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Bennewitz and Doty both treated as primary (part 1 built on Bennewitz, part 2 on Doty). Bennewitz birth 1927 from general knowledge; childhood not covered, so covered_span start comes from the lifetime rule. Doty birth year unknown (host says early postwar). Roswell, Silas Newton and Plowshare are background for the UFO and Dulce context; Plowshare kept as secondary because of its long segment. No theme for psychological harm or mental illness."
+  },
+  {
+    "id": "space-magic-from-venus-a-literary-odyssey",
+    "format": "media-reading",
+    "low": ["time"],
+    "notes": "Michael X. Barton's birth and death years are unknown in the packet; floruit used. Host says the book is from the sixties; the original may be late 1950s, so main_span 1955-1960 is approximate. reaches_present rests on the Paul of Venus segment and the QAnon-absorption argument, both short. Yogananda and Steve Jobs are passing tangents, kept as keywords. No theme for UFO culture; occult-esoteric is the closest fit."
+  },
+  {
+    "id": "bonus-the-bastards-of-oprah",
+    "format": "deep-dive",
+    "low": ["themes", "time"],
+    "notes": "No transcript; tagged from the description (a stitched re-release of the Dr. Oz, Dr. Phil and John of God episodes) plus general knowledge. Format deep-dive because these are BtB's own series, not another show. Roles cover three primaries in three slots (Oz's physician-surgeon dropped). Themes, warnings, guests and spans unverified; main_span start is John of God's Abadiania centre (approx.). Reviewer should check against the source episodes."
+  },
+  {
+    "id": "is-oprah-winfrey-a-bastard",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary theme entertainment-celebrity chosen over propaganda-media since the story is about a TV talk-show empire. Diet culture (wagon of fat) folded into wellness-self-help. Haiti segment is partly about the broader orphanage industry rather than Oprah directly. main_span starts with the 1984 Chicago show; end null as she is alive and still active."
+  },
+  {
+    "id": "behind-the-bastards-presents-hood-politics-with-prop",
+    "format": "crossover",
+    "low": ["themes", "time"],
+    "notes": "Two unrelated Hood Politics episodes compiled, so subjects and themes are split; primary theme tech-internet is a coin toss against colonialism-imperialism. Covered span runs from the Dreyfus affair (1894) to the 2024 Google ruling; Solomon and Sheba folklore treated as background. Gaza war news (about 5 min) not vivid enough for mass-atrocity."
+  },
+  {
+    "id": "behind-the-bastards-presents-cool-people-who-did-cool-stuff",
+    "format": "hero",
+    "low": [],
+    "notes": "Re-published crossover from Cool People Who Did Cool Stuff (two parts in one file); hero chosen over crossover per the precedence rule and the 'cool people' cue. Primary is a group of assassins, so no single lifetime applies. Covered span starts with Bresci (1900, 1898 riots) and ends with partisan activity in 1945; Tomasini's 1968 activism is a brief coda. Terrorism vs fascism-far-right as primary is a judgment call."
+  },
+  {
+    "id": "behind-the-bastards-presents-sixteenth-minute-of-fame",
+    "format": "crossover",
+    "low": ["time"],
+    "notes": "GROUPING ERROR: part 2 is 'Part Two: How Woody Guthrie Turned Folk Music into a Weapon' (hero episode with Margaret Killjoy, 2024-12-26), unrelated to this crossover; its Part One is missing from episodes.json. Tagged part 1 only; part 2 should be split into its own story. Time is low because the episode is mostly 2005-2024 but the LDS history segment (~10 min) pulls covered_span to 1820. Hannah Neeleman's birth year not in packet."
+  },
+  {
+    "id": "p-diddy-a-life-in-crimes",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Covered span runs to 2024 (his arrest, the last event at release). Roles are judgement calls: the story treats him as a label mogul first and performer second. The taxonomy has no theme for organized-crime killings or crowd disasters, so the rap-war murders and the 1991 crush live only in subjects. drugs is secondary for the systematic drugging of victims and the narcotics at the parties."
+  },
+  {
+    "id": "behind-the-bastards-presents-weird-little-guys",
+    "format": "crossover",
+    "low": [],
+    "notes": "Crossover: Molly Conger's Weird Little Guys episode on Frank Sweeney. Roles and time filled anyway. Primary theme is a judgement call between policing-incarceration (prisons, informant deals, witness protection, prison consulting) and fraud-grift. Covered span starts at the 1962 robbery; birth and childhood are brief mentions. NJ and ID both central, so no subdivision. Boyce and Franklin birth/death years from general knowledge."
+  },
+  {
+    "id": "the-vioxx-scandal-how-big-pharma-killed-more-americans-than-vietnam",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Taxonomy lists Vioxx as a medical-malpractice example, but the harm came from a company's product and cover-up, so corporate-malfeasance is primary. Tylenol, aspirin and 1971-1992 COX research treated as background. Pfizer/Celebrex and Gilmartin kept as keywords to stay within five subjects. Closing talk on pharma distrust, COVID and RFK Jr. is commentary, so reaches_present is false. Reuben's birth year not given; floruit used."
+  }
+]

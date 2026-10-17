@@ -1,0 +1,139 @@
+{
+  "story_id": "how-ice-is-targeting-students-for-deportation",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "current-affairs",
+  "subjects": [
+    {
+      "name": "U.S. Immigration and Customs Enforcement",
+      "kind": "organization",
+      "org_type": "government-agency",
+      "role": "primary"
+    },
+    {
+      "name": "Mahmoud Khalil",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1995, "end": null }
+    },
+    {
+      "name": "Yunseo Chung",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2025
+    },
+    {
+      "name": "Rümeysa Öztürk",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2025
+    },
+    {
+      "name": "Canary Mission",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "immigration-borders",
+    "secondary": ["policing-incarceration", "education", "tech-internet", "authoritarianism"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-NY"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2025, "end": 2025 },
+    "covered_span": { "start": 2024, "end": 2025 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "In spring 2025 ICE and the State Department detained or revoked the status of foreign students and scholars in the US over pro-Palestine protest, op-eds or doxing-site profiles, using a Cold War foreign-policy statute rather than criminal charges.",
+  "content_warnings": [],
+  "keywords": [
+    "Columbia University",
+    "Ranjani Srinivasan",
+    "Momodou Taal",
+    "Badar Khan Suri",
+    "Betar",
+    "Marco Rubio",
+    "Kristi Noem",
+    "Alireza Doroudi",
+    "social media vetting",
+    "self-deportation"
+  ],
+  "guests": ["Garrison Davis", "James Stout"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:00:38",
+      "note": "Khalil arrested by plainclothes ICE agents at his Columbia building in March 2025"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:02:03",
+      "note": "Khalil's role in the 2024 campus encampment protests, the earliest period discussed at length"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:06:40",
+      "note": "long segment on Chung, a green card holder, going into hiding and suing"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:12:25",
+      "note": "Cornell's failed 2024 attempt to revoke Taal's visa"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:14:25",
+      "note": "State Department social media screening directive for student visas (tech-internet)"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:22:06",
+      "note": "Canary Mission's doxing profiles used to pick deportation targets"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:23:09",
+      "note": "Ozturk seized on the street after an op-ed earned her a Canary Mission profile"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:02:33",
+      "note": "detention in Louisiana without charges (policing-incarceration)"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:04:18",
+      "note": "three of the main cases centre on Columbia in New York; others in MA, VA, AL, MN, IL"
+    }
+  ],
+  "notes": "This is an It Could Happen Here episode (Garrison Davis, James Stout) in the BtB feed, so crossover could apply by precedence, but formats.yaml names this exact title as a current-affairs example, so current-affairs was used. ICE is primary; no person is primary, so roles are empty. Lifespans: Khalil's birth year (1995) from general knowledge; Chung and Ozturk given floruit only."
+}

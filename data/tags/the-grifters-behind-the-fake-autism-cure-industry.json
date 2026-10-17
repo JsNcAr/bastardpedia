@@ -1,0 +1,100 @@
+{
+  "story_id": "the-grifters-behind-the-fake-autism-cure-industry",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Biomedical autism treatment movement",
+      "kind": "movement-or-ideology",
+      "role": "primary"
+    },
+    {
+      "name": "Autism Research Institute",
+      "kind": "organization",
+      "org_type": "ngo",
+      "role": "secondary"
+    },
+    {
+      "name": "Bernard Rimland",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1928, "end": 2006 }
+    },
+    {
+      "name": "Anju Usman",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": null },
+      "floruit": 2005
+    },
+    {
+      "name": "Jeff Bradstreet",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1954, "end": 2015 }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "quackery-pseudoscience",
+    "secondary": [
+      "fraud-grift",
+      "child-abuse",
+      "public-health",
+      "conspiracy-theories"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "GB"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1995, "end": 2025 },
+    "covered_span": { "start": 1967, "end": 2025 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "History of the US-born biomedical autism cure movement, from Bernard Rimland's Defeat Autism Now! network to doctors who sold secretin, chelation, hyperbaric chambers and GcMAF to parents, killing several children from 2005 to 2025.",
+  "content_warnings": ["child-death", "medical-horror", "child-abuse", "suicide-self-harm"],
+  "keywords": [
+    "Defeat Autism Now!",
+    "chelation therapy",
+    "hyperbaric oxygen therapy",
+    "secretin",
+    "GcMAF",
+    "Tariq Nadama",
+    "Oxford Center (Troy, Michigan)",
+    "Jenny McCarthy",
+    "David Noakes",
+    "Michael Fitzpatrick"
+  ],
+  "guests": ["Mangesh Hattikudur"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:05:55", "note": "Opens with a five-year-old burned to death in a hyperbaric chamber at a Troy, Michigan clinic in 2025" },
+    { "facet": "time", "part": 1, "at": "00:32:38", "note": "Rimland founds the Autism Research Institute in 1967; earliest period with its own segment" },
+    { "facet": "time", "part": 1, "at": "00:34:45", "note": "ARI launches the Defeat Autism Now! program in 1995, taken as the start of the main span" },
+    { "facet": "regions", "part": 1, "at": "00:46:42", "note": "Secretin craze spreads to UK TV and a private London clinic in 1999" },
+    { "facet": "themes", "part": 1, "at": "00:56:20", "note": "British boy Tariq Nadama dies in 2005 after a rapid IV chelation push while restrained" },
+    { "facet": "themes", "part": 2, "at": "00:10:18", "note": "Illinois regulators fine Usman over undisclosed stakes in hyperbaric chamber and pharmacy firms" },
+    { "facet": "themes", "part": 2, "at": "00:16:34", "note": "Generation Rescue and Jenny McCarthy push anti-vaccine claims and later hyperbaric therapy" },
+    { "facet": "themes", "part": 2, "at": "00:33:27", "note": "Bradstreet segment: preacher turned family doctor who sold the supplements he prescribed" },
+    { "facet": "regions", "part": 2, "at": "00:49:25", "note": "UK regulator raids the GcMAF plant near Cambridge after a parent's complaints" },
+    { "facet": "content_warnings", "part": 2, "at": "00:51:25", "note": "Bradstreet's suicide after a federal raid in 2015 and the murder conspiracy theory that followed" }
+  ],
+  "notes": "Primary subject is a movement, so roles are empty. Covered span starts at ARI's 1967 founding (a short segment); Bettelheim and Freud are background. Panama stem cells and the Swiss GcMAF clinic are brief, so left out of setting. Tariq Nadama was British but treated and died in the US (Butler, PA area). Usman's birth year is unknown, so floruit 2005 is used. The 2016 Generation Rescue conference was in Texas; no single US state is central."
+}

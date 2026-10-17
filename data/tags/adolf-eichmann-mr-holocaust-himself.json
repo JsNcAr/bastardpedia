@@ -1,0 +1,86 @@
+{
+  "story_id": "adolf-eichmann-mr-holocaust-himself",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Adolf Eichmann",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1906, "end": 1962 },
+      "wikidata": "Q28120"
+    },
+    {
+      "name": "Theodor Dannecker",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1913, "end": 1945 }
+    }
+  ],
+  "roles": ["military-officer", "politician-official", "spy-intelligence"],
+  "themes": {
+    "primary": "nazism",
+    "secondary": [
+      "genocide-mass-killing",
+      "racism-white-supremacy",
+      "war-war-crimes",
+      "policing-incarceration",
+      "propaganda-media"
+    ]
+  },
+  "regions": {
+    "origin": ["DE", "AT"],
+    "setting": ["PL", "HU", "AT", "DE", "FR", "AR"],
+    "subdivisions": [],
+    "polities": ["nazi-germany"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1938, "end": 1962 },
+    "covered_span": { "start": 1906, "end": 1962 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Austrian-raised SS officer Adolf Eichmann organised the deportation of millions of European Jews to Nazi death camps from 1938 to 1945, fled to Argentina, and was captured by Israel in 1960 and hanged in 1962.",
+  "content_warnings": ["mass-atrocity"],
+  "keywords": [
+    "Final Solution",
+    "Wannsee Conference",
+    "Eichmann in Jerusalem",
+    "Hannah Arendt",
+    "banality of evil",
+    "Vel d'Hiv roundup",
+    "Mossad",
+    "Ricardo Klement",
+    "Willem Sassen",
+    "Israel"
+  ],
+  "guests": ["Joe Kassabian"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:10:12", "note": "born March 1906 in Solingen, Germany" },
+    { "facet": "regions", "part": 1, "at": "00:20:08", "note": "family moves to Linz, Austria; childhood and youth there" },
+    { "facet": "regions", "part": 2, "at": "00:12:02", "note": "serves at Dachau in 1934, then transfers to the SD" },
+    { "facet": "time", "part": 2, "at": "00:23:08", "note": "sent to Vienna after the Anschluss to run forced Jewish emigration" },
+    { "facet": "subjects", "part": 3, "at": "00:22:31", "note": "long segment on Theodor Dannecker, Eichmann's deportation deputy" },
+    { "facet": "regions", "part": 3, "at": "00:30:20", "note": "Dannecker and Eichmann organise roundups of Jews in France with French police" },
+    { "facet": "regions", "part": 3, "at": "00:35:32", "note": "Auschwitz-Birkenau becomes the destination for deportation trains" },
+    { "facet": "regions", "part": 3, "at": "00:51:13", "note": "Eichmann coordinates the 1944 mass deportation of Hungarian Jews" },
+    { "facet": "regions", "part": 4, "at": "00:37:14", "note": "escapes via ratline to Argentina and lives under a false name" },
+    { "facet": "time", "part": 4, "at": "00:52:59", "note": "Mossad agents capture him in Argentina in May 1960" },
+    { "facet": "time", "part": 4, "at": "01:05:56", "note": "convicted December 1961, hanged June 1962" },
+    { "facet": "themes", "part": 2, "at": "00:37:10", "note": "cultivates his fame and nicknames through press coverage as a tool of power" }
+  ],
+  "notes": "Setting capped at six: Israel (Mossad capture aftermath and Jerusalem trial, a long segment with Arendt) left out in favour of Argentina; also CZ and BG (Dannecker in Bulgaria) have shorter segments. Roles: SS/SD bureaucrat of deportations has no exact role id; military-officer plus politician-official (senior official) is an approximation."
+}

@@ -1,0 +1,102 @@
+{
+  "story_id": "dire-wolves-dr-george-church-the-de-extinction-grift",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "George Church",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1954, "end": null }
+    },
+    {
+      "name": "Colossal Biosciences",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Jeffrey Epstein",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1953, "end": 2019 }
+    },
+    {
+      "name": "BGI Group",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Digitate",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["scientist-scholar", "tech-founder"],
+  "themes": {
+    "primary": "science-exploration",
+    "secondary": [
+      "fraud-grift",
+      "eugenics-scientific-racism",
+      "quackery-pseudoscience",
+      "environmental-destruction",
+      "tech-internet"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "CN"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2005, "end": null },
+    "covered_span": { "start": 1954, "end": 2025 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Harvard geneticist George Church, a genuine pioneer of genome sequencing, spent decades overselling biotech dreams, taking Jeffrey Epstein's money, flirting with eugenics and co-founding Colossal Biosciences, whose 2025 dire wolf claims inflated gene-edited gray wolves into de-extinction.",
+  "content_warnings": [],
+  "keywords": [
+    "dire wolf",
+    "Romulus and Remus",
+    "woolly mammoth",
+    "thylacine",
+    "dodo",
+    "Ben Lamm",
+    "George R. R. Martin",
+    "Regenesis",
+    "BioViva",
+    "Endangered Species Act"
+  ],
+  "guests": ["Langston Kerman"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:21:27", "note": "Church born 1954 on MacDill Air Force Base in Tampa, raised in Clearwater" },
+    { "facet": "time", "part": 1, "at": "00:13:54", "note": "Colossal announced in September 2021 with a plan for mammoths by 2027" },
+    { "facet": "time", "part": 1, "at": "00:52:13", "note": "Epstein funding of Church's lab dated from 2005, contact continuing into 2014 and beyond" },
+    { "facet": "themes", "part": 1, "at": "00:38:27", "note": "DNA data storage of his own book framed as a publicity stunt and overhyped" },
+    { "facet": "themes", "part": 2, "at": "00:02:12", "note": "2012 book and 2015 interview propose cloning Neanderthals with a human surrogate" },
+    { "facet": "regions", "part": 2, "at": "00:28:22", "note": "BGI opens an institute named for Church in Shenzhen in 2017; its eugenics-like staff rules" },
+    { "facet": "themes", "part": 2, "at": "00:35:09", "note": "Digitate, the genetic matching dating venture he co-founded in 2019" },
+    { "facet": "themes", "part": 2, "at": "00:51:18", "note": "advisory role at BioViva, an anti-aging gene therapy firm with offshore trials" },
+    { "facet": "subjects", "part": 2, "at": "01:05:25", "note": "Ben Lamm meets Church at his Boston lab and they found Colossal" },
+    { "facet": "themes", "part": 2, "at": "01:17:10", "note": "Lamm describes plans to profit by selling conservation credits" },
+    { "facet": "themes", "part": 2, "at": "01:21:50", "note": "Interior Secretary Burgum cites de-extinction to argue against the Endangered Species Act" }
+  ],
+  "notes": "Primary theme: science-exploration (taxonomy lists de-extinction as an example); fraud-grift is the title's framing and was the alternative primary. Colossal kept secondary since the story is built around Church. Aubrey de Grey and the SENS sexual misconduct allegations get a few minutes but did not reach sexual-abuse as a theme. Main span starts at the 2005 Epstein funding and Personal Genome Project. CN rests on the BGI segment; Siberia rewilding is only a plan."
+}

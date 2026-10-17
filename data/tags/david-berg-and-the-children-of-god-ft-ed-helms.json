@@ -1,0 +1,151 @@
+{
+  "story_id": "david-berg-and-the-children-of-god-ft-ed-helms",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "David Berg",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1919, "end": 1994 }
+    },
+    {
+      "name": "Children of God",
+      "kind": "organization",
+      "org_type": "cult",
+      "role": "primary"
+    },
+    {
+      "name": "Karen Zerby",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1946, "end": null }
+    },
+    {
+      "name": "Ricky Rodriguez",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1975, "end": 2005 }
+    }
+  ],
+  "roles": ["cult-leader", "criminal-killer", "religious-leader"],
+  "themes": {
+    "primary": "cults-new-religions",
+    "secondary": [
+      "child-abuse",
+      "sexual-abuse",
+      "organized-religion",
+      "domestic-abuse",
+      "propaganda-media"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "ES", "PH", "GB"],
+    "subdivisions": ["US-CA"],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1968, "end": 1994 },
+    "covered_span": { "start": 1919, "end": 2005 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "American evangelist David Berg founded the Children of God in California in 1968 and turned it into a worldwide sex cult that prostituted female members as flirty fishing and made the sexual abuse of children official doctrine.",
+  "content_warnings": ["child-abuse", "sexual-violence", "torture", "suicide-self-harm"],
+  "keywords": [
+    "The Family International",
+    "Teens for Christ",
+    "Mo Letters",
+    "flirty fishing",
+    "love bombing",
+    "Huntington Beach",
+    "Tenerife",
+    "The Story of Davidito",
+    "Life with Grandpa",
+    "Jeremy Spencer"
+  ],
+  "guests": ["Ed Helms"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:04:16",
+      "note": "born February 1919 to itinerant revivalist preacher parents"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:32:26",
+      "note": "years as right-hand man to TV evangelist Fred Jordan in Texas, 1954-1967"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:34:21",
+      "note": "daughters say he harassed one and molested the youngest from about age ten"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:39:51",
+      "note": "Teens for Christ founded in Huntington Beach around 1968, later renamed Children of God"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:19:28",
+      "note": "inner circle goes underground and moves to a London headquarters"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:30:13",
+      "note": "flirty fishing developed in Tenerife, Canary Islands, from 1974"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:48:26",
+      "note": "Davidito biography printed in Spain and used as a child-rearing manual documenting abuse"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:53:25",
+      "note": "cult produces puppet TV shows for general audiences while abuse continues"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "01:00:09",
+      "note": "granddaughter abused at a cult facility in the Philippines, then confined and beaten"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:06:20",
+      "note": "Berg dies in 1994, buried in Portugal; Zerby takes over"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:07:22",
+      "note": "Ricky leaves, kills his former abuser and then himself in the early 2000s"
+    }
+  ],
+  "notes": "Title gives Berg and the cult equal weight, so both are primary. covered_span ends 2005 (Ricky Rodriguez murder-suicide, year from own knowledge; transcript says early 2000s); that epilogue is only a few minutes, so 1994 is a defensible alternative end. Portugal (burial) mentioned only in passing and left out of setting. reaches_present rests on a short closing segment on Zerby still at large and current membership."
+}

@@ -1,0 +1,94 @@
+{
+  "story_id": "p-diddy-a-life-in-crimes",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Sean Combs",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1969, "end": null }
+    },
+    {
+      "name": "City College of New York stampede",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "East Coast-West Coast hip hop rivalry",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "The Notorious B.I.G.",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1972, "end": 1997 }
+    },
+    {
+      "name": "Bad Boy Records",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["criminal-killer", "business-executive", "entertainer-artist"],
+  "themes": {
+    "primary": "sexual-abuse",
+    "secondary": ["entertainment-celebrity", "child-abuse", "domestic-abuse", "drugs"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-NY"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1991, "end": 2024 },
+    "covered_span": { "start": 1969, "end": 2024 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Hip hop mogul Sean \"Diddy\" Combs built Bad Boy Records and a celebrity empire in New York while allegedly drugging, raping and trafficking adults and minors from 1991 onward, until his federal arrest in 2024.",
+  "content_warnings": ["sexual-violence", "child-abuse", "graphic-violence"],
+  "keywords": [
+    "Puff Daddy",
+    "freak-offs",
+    "White Party",
+    "Cassie Ventura",
+    "Tupac Shakur",
+    "Suge Knight",
+    "Death Row Records",
+    "Keefe D",
+    "Kim Porter",
+    "Howard University"
+  ],
+  "guests": ["Wil Anspach"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:07:33", "note": "birth in Harlem in 1969 opens the biography" },
+    { "facet": "subjects", "part": 1, "at": "00:43:45", "note": "1991 charity basketball game he promoted ends in a deadly crush at City College" },
+    { "facet": "themes", "part": 2, "at": "00:03:31", "note": "earliest drugging and rape allegation dated to 1991" },
+    { "facet": "themes", "part": 2, "at": "00:31:03", "note": "allegations of raping two girls aged 15 and 16 around 1993-94" },
+    { "facet": "themes", "part": 2, "at": "00:34:03", "note": "1994 allegation of dating abuse, beatings and forced drug use" },
+    { "facet": "subjects", "part": 2, "at": "00:16:33", "note": "founding of Bad Boy and the rivalry with Death Row" },
+    { "facet": "subjects", "part": 2, "at": "00:41:06", "note": "Keefe D claims of a bounty on Tupac; Biggie killed 1997" },
+    { "facet": "themes", "part": 3, "at": "00:23:10", "note": "freak-off parties and a contest winner drugged at one" },
+    { "facet": "themes", "part": 3, "at": "00:36:30", "note": "2023 suit by an eleventh-grader alleging gang rape" },
+    { "facet": "themes", "part": 3, "at": "00:41:00", "note": "Cassie Ventura lawsuit describing years of beatings and coercion" },
+    { "facet": "time", "part": 3, "at": "00:55:17", "note": "September 2024 arrest and denial of bail close the story" }
+  ],
+  "notes": "Covered span runs to 2024 (his arrest, the last event at release). Roles are judgement calls: the story treats him as a label mogul first and performer second. The taxonomy has no theme for organized-crime killings or crowd disasters, so the rap-war murders and the 1991 crush live only in subjects. drugs is secondary for the systematic drugging of victims and the narcotics at the parties."
+}

@@ -1,0 +1,150 @@
+{
+  "story_id": "carl-schmitt-the-mind-behind-modern-fascism",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Carl Schmitt",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1888, "end": 1985 }
+    },
+    {
+      "name": "Fritz Eisler",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": 1914 }
+    },
+    {
+      "name": "Pauline Dorotić",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1912
+    }
+  ],
+  "roles": ["writer-intellectual", "scientist-scholar"],
+  "themes": {
+    "primary": "fascism-far-right",
+    "secondary": [
+      "nazism",
+      "authoritarianism",
+      "racism-white-supremacy",
+      "organized-religion"
+    ]
+  },
+  "regions": {
+    "origin": ["DE"],
+    "setting": ["DE", "FR"],
+    "subdivisions": [],
+    "polities": ["german-empire", "weimar-republic", "nazi-germany"],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1919, "end": 1936 },
+    "covered_span": { "start": 1888, "end": 1985 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "German legal theorist Carl Schmitt turned Weimar-era critiques of liberal democracy into a blueprint for destroying it, joined the Nazi Party in 1933, justified Hitler's purges and antisemitic laws, and later inspired far-right thinkers worldwide.",
+  "content_warnings": [],
+  "keywords": [
+    "The Concept of the Political",
+    "The Crisis of Parliamentary Democracy",
+    "Political Romanticism",
+    "friend-enemy distinction",
+    "state of exception",
+    "Night of the Long Knives",
+    "Plettenberg",
+    "Strasbourg",
+    "Leo Strauss",
+    "Hermann Goering"
+  ],
+  "guests": ["Blake Wexler"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:06:08",
+      "note": "born July 1888 into a Catholic family in Plettenberg"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:10:32",
+      "note": "long segment on Bismarck's Kulturkampf and Catholic marginalisation shaping him"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:34:56",
+      "note": "settles in Strasbourg (then German, now France) for his doctorate under von Calker"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:36:19",
+      "note": "Jewish friend Fritz Eisler and his family fund Schmitt for years"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:47:29",
+      "note": "meets the dancer Cari, a con artist with an invented noble past, whom he marries"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:17:24",
+      "note": "Eisler killed by shrapnel early in the First World War"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:28:25",
+      "note": "1919 Political Romanticism, his first influential book; used as main_span start"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:37:18",
+      "note": "Crisis of Parliamentary Democracy: homogeneity and exclusion as tools against liberalism"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:51:09",
+      "note": "joins the Nazi Party in 1933 and drafts the case for expelling Jewish intellectuals"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:59:23",
+      "note": "justifies the Night of the Long Knives; 1936 conference on purging Jewish influence"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:02:24",
+      "note": "SS attack in December 1936 ends his influence; used as main_span end"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:06:29",
+      "note": "postwar exile in Plettenberg, death in 1985, influence on Le Pen, Dugin, Strauss, Vance"
+    }
+  ],
+  "notes": "Primary fascism-far-right (taxonomy lists Schmitt as its example); nazism secondary for his 1933-36 party role. Eisler's birth year is not in the packet, left null. Cari's real dates are unknown, floruit 1912 when they meet. Legacy segment (French, Russian, US far right) sets reaches_present rather than adding settings. Setting FR is Strasbourg, German at the time. main_span could arguably run to the 1947 Nuremberg interrogations."
+}

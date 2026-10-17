@@ -1,0 +1,98 @@
+{
+  "story_id": "how-the-u-s-government-used-aliens-to-destroy-a-man-s-mind",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Paul Bennewitz",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1927, "end": 2003 }
+    },
+    {
+      "name": "Richard Doty",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": null, "end": null }
+    },
+    {
+      "name": "Air Force Office of Special Investigations",
+      "kind": "organization",
+      "org_type": "intelligence",
+      "role": "secondary"
+    },
+    {
+      "name": "Bill Moore",
+      "kind": "person",
+      "role": "secondary"
+    },
+    {
+      "name": "Project Plowshare",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["spy-intelligence", "inventor-engineer", "conspiracy-theorist"],
+  "themes": {
+    "primary": "intelligence-covert-ops",
+    "secondary": [
+      "conspiracy-theories",
+      "propaganda-media",
+      "weapons-arms-trade",
+      "environmental-destruction"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-NM"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1979, "end": 1988 },
+    "covered_span": { "start": 1927, "end": 2025 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Albuquerque engineer Paul Bennewitz recorded secret aircraft tests at Kirtland Air Force Base around 1979, so Air Force agent Richard Doty and others fed him fake alien messages for years, pushing him into paranoia and breakdown to hide drone and stealth programs.",
+  "content_warnings": ["animal-cruelty"],
+  "keywords": [
+    "Kirtland Air Force Base",
+    "Dulce Base",
+    "Archuleta Mesa",
+    "Project Gasbuggy",
+    "Roswell incident",
+    "cattle mutilations",
+    "Gabe Valdez",
+    "Project Beta",
+    "Mirage Men",
+    "The X-Files"
+  ],
+  "guests": ["Brandie Posey"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "subjects", "part": 1, "at": "00:27:17", "note": "Bennewitz introduced: physicist-engineer who founded Thunder Scientific in 1969" },
+    { "facet": "themes", "part": 1, "at": "00:34:21", "note": "Long segment on Project Plowshare nuclear civil-works schemes" },
+    { "facet": "themes", "part": 1, "at": "00:44:34", "note": "Gasbuggy blast near Dulce leaves radioactive gas; linked to cattle mutilation studies" },
+    { "facet": "time", "part": 1, "at": "00:49:55", "note": "1979 sightings of lights over Kirtland from his Albuquerque home" },
+    { "facet": "subjects", "part": 1, "at": "00:57:32", "note": "Base security assigns AFOSI agent Richard Doty to befriend him" },
+    { "facet": "subjects", "part": 2, "at": "00:29:28", "note": "Doty and colleagues try to recruit UFO writer Bill Moore as a disinformation channel" },
+    { "facet": "themes", "part": 2, "at": "00:41:11", "note": "Computer supplied to Bennewitz used to send him fake alien messages" },
+    { "facet": "themes", "part": 2, "at": "00:51:41", "note": "Business declines; Dulce base myth spreads through late-1980s UFO books and QAnon" },
+    { "facet": "time", "part": 2, "at": "00:55:00", "note": "1988 assault plans, paranoia about wife, committed to a facility" },
+    { "facet": "time", "part": 2, "at": "00:57:10", "note": "Doty's later UFO convention career and recent interviews" }
+  ],
+  "notes": "Bennewitz and Doty both treated as primary (part 1 built on Bennewitz, part 2 on Doty). Bennewitz birth 1927 from general knowledge; childhood not covered, so covered_span start comes from the lifetime rule. Doty birth year unknown (host says early postwar). Roswell, Silas Newton and Plowshare are background for the UFO and Dulce context; Plowshare kept as secondary because of its long segment. No theme for psychological harm or mental illness."
+}

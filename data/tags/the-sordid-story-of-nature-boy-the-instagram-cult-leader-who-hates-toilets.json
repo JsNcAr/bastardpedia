@@ -1,0 +1,157 @@
+{
+  "story_id": "the-sordid-story-of-nature-boy-the-instagram-cult-leader-who-hates-toilets",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Eligio Bishop",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1982, "end": null }
+    },
+    {
+      "name": "Carbon Nation",
+      "kind": "organization",
+      "org_type": "cult",
+      "role": "secondary"
+    },
+    {
+      "name": "Conscious community",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    },
+    {
+      "name": "Young Pharaoh",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2015
+    }
+  ],
+  "roles": ["cult-leader", "influencer-online"],
+  "themes": {
+    "primary": "cults-new-religions",
+    "secondary": [
+      "sexual-abuse",
+      "domestic-abuse",
+      "tech-internet",
+      "child-abuse",
+      "conspiracy-theories",
+      "quackery-pseudoscience"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "CR", "MX", "HN", "BZ"],
+    "subdivisions": ["US-GA"],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2015, "end": 2025 },
+    "covered_span": { "start": 1982, "end": 2025 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Harlem-born barber Eligio Bishop became the social-media guru Nature Boy in 2015, leading followers across Central America while taking their money, beating women and denying medical care, until a Georgia court gave him life for rape in 2025.",
+  "content_warnings": ["sexual-violence", "child-abuse", "graphic-violence"],
+  "keywords": [
+    "Nature Boy",
+    "Melanation",
+    "Ethereans",
+    "Babylon",
+    "fruitarianism",
+    "Magdalena Sevilla",
+    "Santa Fe, Honduras",
+    "Palenque",
+    "DeKalb County",
+    "Hood Horrors"
+  ],
+  "guests": ["Katy Stoll"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:11:08",
+      "note": "born in Harlem in 1982; early details rely on his own unreliable accounts"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:17:27",
+      "note": "alleges sexual abuse in a Queens foster home as a young child"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:50:11",
+      "note": "2011 beating of partner Maisha leads to aggravated battery charge and plea deal"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:59:36",
+      "note": "barbershop rants on melanin, not bathing and the evil of indoor toilets"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:19:56",
+      "note": "launches the Nature Boy Facebook channel around late 2015"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:23:24",
+      "note": "first group moves to a rented house in Santa Fe, Honduras"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:34:11",
+      "note": "group settles in Costa Rica; Canadian missing-person case brings media attention"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:48:12",
+      "note": "2017 video describing sexual behaviour around his children sparks pedophilia accusations"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:00:51",
+      "note": "follower dies in Mexico in late 2018 after being discouraged from heart medication"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:03:27",
+      "note": "he hits and locks up women in the group and preaches male violence"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:07:29",
+      "note": "March 2022 coerced sex and revenge porn at a DeKalb County house"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:09:30",
+      "note": "convicted on all counts on March 1 of the release year; life without parole"
+    }
+  ],
+  "notes": "Spelling of the name varies in the transcript (Alisio, Eligio); used Eligio Bishop as in Rolling Stone. Group names shift (Ethereans, Melanation, Carbon Nation); listed under the last one. Nicaragua, Panama and Hawaii deportations are brief and left out of setting. Childhood and juvenile prison segments give child-abuse; no policing theme added as the prison part is short. Main span ends at the 2025 conviction although he is alive."
+}

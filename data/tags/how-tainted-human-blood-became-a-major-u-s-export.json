@@ -1,0 +1,163 @@
+{
+  "story_id": "how-tainted-human-blood-became-a-major-u-s-export",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Arkansas prison blood plasma scandal",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Health Management Associates",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Bill Clinton",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1946, "end": null },
+      "wikidata": "Q1124"
+    },
+    {
+      "name": "Arkansas Department of Correction",
+      "kind": "organization",
+      "org_type": "police",
+      "role": "secondary"
+    },
+    {
+      "name": "Pine Bluff Biological Products",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "public-health",
+    "secondary": [
+      "policing-incarceration",
+      "corporate-malfeasance",
+      "medical-malpractice",
+      "electoral-politics",
+      "conspiracy-theories"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "CA", "GB"],
+    "subdivisions": ["US-AR"],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1978, "end": 1994 },
+    "covered_span": { "start": 1978, "end": 1995 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "From 1978 to 1994 Arkansas prisons sold inmates' blood plasma through politically connected for-profit contractors with lax screening and reused needles, exporting hepatitis- and HIV-tainted plasma that infected thousands in Canada and Britain.",
+  "content_warnings": [],
+  "keywords": [
+    "Cummins Unit",
+    "Factor VIII",
+    "hemophilia",
+    "Canadian tainted blood scandal",
+    "Connaught Laboratories",
+    "Continental Pharma Cryosan",
+    "Peter Longstaff",
+    "Leonard Dunn",
+    "Vince Foster",
+    "Factor 8: The Arkansas Prison Blood Scandal"
+  ],
+  "guests": ["Ben Bowlin"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:38:50",
+      "note": "Clinton takes office as governor in 1978 just as the prison plasma program is about to start"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:39:54",
+      "note": "Henderson's firm becomes HMA in 1978 and wins the contract for all prison medicine and plasma"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:44:30",
+      "note": "contractor reuses needles on donors to save costs, spreading infection inside the prison"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:53:09",
+      "note": "plasma sold via a Montreal broker that hid its prison origin from foreign buyers"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:58:13",
+      "note": "Clinton places HMA's head and its attorney in state posts tied to the prison system"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:00:55",
+      "note": "legislators controlling the prisons block reform and shield the program from Clinton"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:03:41",
+      "note": "British hemophiliac brothers infected with HIV, one dies in 1986 amid mob harassment"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:09:51",
+      "note": "Pine Bluff Biological Products takes over the plasma contract as an insider deal"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:23:14",
+      "note": "a New York firm runs the program from 1991 until it ends in 1994; Canadian death toll"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:24:20",
+      "note": "Canadian Red Cross collapses and a 1995 federal commission traces blood back to Cummins"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:26:05",
+      "note": "tainted US factor concentrate drives the worst treatment disaster in NHS history"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:41:33",
+      "note": "host weighs and largely dismisses Vince Foster and Clinton cover-up theories"
+    }
+  ],
+  "notes": "No theme for the blood or plasma trade; public-health is closest. Clinton kept secondary as the story frames him as an enabler, not the subject. Pre-1978 material (history of transfusion, 1960s paid-donor research, 1974 blood policy, 1982 FDA request) treated as background, so covered_span starts with the program. The 2000s documentary segment is an epilogue, not a reason for reaches_present."
+}

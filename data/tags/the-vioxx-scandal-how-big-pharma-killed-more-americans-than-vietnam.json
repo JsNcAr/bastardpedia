@@ -1,0 +1,161 @@
+{
+  "story_id": "the-vioxx-scandal-how-big-pharma-killed-more-americans-than-vietnam",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Vioxx scandal",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Merck & Co.",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "primary"
+    },
+    {
+      "name": "Dorothy Hamill",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1956, "end": null }
+    },
+    {
+      "name": "Jerome Groopman",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1952, "end": null }
+    },
+    {
+      "name": "Scott Reuben",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2009
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "corporate-malfeasance",
+    "secondary": [
+      "public-health",
+      "medical-malpractice",
+      "propaganda-media",
+      "fraud-grift"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1994, "end": 2004 },
+    "covered_span": { "start": 1994, "end": 2010 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "In the 1990s Merck rushed its painkiller Vioxx to market, buried evidence that it caused heart attacks and sold it with celebrity ads until its 2004 withdrawal, after it was linked to tens of thousands of US deaths.",
+  "content_warnings": [],
+  "keywords": [
+    "Vioxx",
+    "rofecoxib",
+    "Celebrex",
+    "Pfizer",
+    "COX-2 inhibitors",
+    "super aspirin",
+    "Raymond Gilmartin",
+    "VIGOR study",
+    "Carol Ernst",
+    "Poison Pills"
+  ],
+  "guests": ["Kaveh Hoda"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:25:48",
+      "note": "MBA Raymond Gilmartin becomes Merck CEO in 1994 and launches the crash program for a COX-2 drug"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:32:46",
+      "note": "1996 internal Merck study shows cardiovascular harm at high doses; company presses on"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:37:45",
+      "note": "Merck ghostwrites trial papers under outside academics' names and drops heart attacks from data"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:40:27",
+      "note": "FDA approves Vioxx in 1999 despite a reviewer's warning about cardiovascular events"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:44:07",
+      "note": "paid Dorothy Hamill campaign from 2000, Larry King appearance and FDA objections"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:03:22",
+      "note": "Groopman's 1998 New Yorker super-aspirin article quotes a conflicted FDA panelist"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:13:43",
+      "note": "Pfizer-funded anesthesiologist Scott Reuben publishes fabricated COX-2 studies from 2000"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:18:05",
+      "note": "Bob Ernst dies in 2001; widow's Texas suit wins a large verdict in 2005"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:35:08",
+      "note": "Merck withdraws Vioxx in late September 2004 as lawsuits mount"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:36:26",
+      "note": "press and pundits mock the Ernst verdict as a frivolous lawsuit, siding with Merck"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:44:17",
+      "note": "30,000 suits, a settlement in 2008 and a misdemeanor guilty plea for misbranding"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:47:23",
+      "note": "Reuben exposed in 2009 and sentenced in 2010 to prison and restitution"
+    }
+  ],
+  "notes": "Taxonomy lists Vioxx as a medical-malpractice example, but the harm came from a company's product and cover-up, so corporate-malfeasance is primary. Tylenol, aspirin and 1971-1992 COX research treated as background. Pfizer/Celebrex and Gilmartin kept as keywords to stay within five subjects. Closing talk on pharma distrust, COVID and RFK Jr. is commentary, so reaches_present is false. Reuben's birth year not given; floruit used."
+}

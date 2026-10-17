@@ -1,0 +1,164 @@
+{
+  "story_id": "alfred-hugenberg-the-elon-musk-of-weimar-germany",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Alfred Hugenberg",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1865, "end": 1951 }
+    },
+    {
+      "name": "Pan-German League",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Krupp",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "August Scherl Company",
+      "kind": "organization",
+      "org_type": "media-outlet",
+      "role": "secondary"
+    },
+    {
+      "name": "German National People's Party",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["business-executive", "journalist-propagandist", "politician-official"],
+  "themes": {
+    "primary": "propaganda-media",
+    "secondary": [
+      "nazism",
+      "fascism-far-right",
+      "colonialism-imperialism",
+      "weapons-arms-trade",
+      "war-war-crimes",
+      "electoral-politics"
+    ]
+  },
+  "regions": {
+    "origin": ["DE"],
+    "setting": ["DE", "PL"],
+    "subdivisions": [],
+    "polities": ["german-empire", "weimar-republic", "nazi-germany"],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1909, "end": 1933 },
+    "covered_span": { "start": 1865, "end": 1951 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "German industrialist Alfred Hugenberg ran Krupp before the First World War, built a right-wing press empire that pushed endless war and the stab-in-the-back lie, led the nationalist DNVP and in 1933 helped make Hitler chancellor, briefly serving as his economics minister.",
+  "content_warnings": ["mass-atrocity"],
+  "keywords": [
+    "Posen",
+    "Kornwalzer affair",
+    "Zechenverband",
+    "German Fatherland Party",
+    "stab-in-the-back myth",
+    "Kapp Putsch",
+    "Harzburg Front",
+    "Herero genocide",
+    "Fritz Thyssen",
+    "Paul von Hindenburg"
+  ],
+  "guests": ["Amanda Montell"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:06:20",
+      "note": "born June 1865 in Hanover, before German unification"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:21:04",
+      "note": "co-founds the German General League in 1891, later renamed the Pan-German League"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:27:03",
+      "note": "works for the Prussian Settlement Commission in Posen 1894-99, then runs settler co-ops there"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:51:13",
+      "note": "hired by Gustav Krupp as board chairman in 1909; used as main_span start"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:02:24",
+      "note": "Krupp arms-race sales tactics and the Kornwalzer bribery scandal implicating him"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:02:59",
+      "note": "account of the Herero genocide in Namibia, massacres and poisoned wells, as his model for Africa"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:09:21",
+      "note": "Pan-German propaganda rules out any peace that returns Belgium or French land"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:21:16",
+      "note": "industry fund buys the August Scherl publishing house in 1916 under his control"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:41:04",
+      "note": "buys up papers during hyperinflation and the largest cinema chain; top media magnate"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:42:00",
+      "note": "becomes DNVP chairman in 1928 and pushes the party further right"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:59:47",
+      "note": "deal: backs Hitler as chancellor in exchange for an economic superministry"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:12:06",
+      "note": "forced out in June 1933; retires to his estate, arrested in 1949, dies March 1951"
+    }
+  ],
+  "notes": "Primary theme is a close call between propaganda-media (the press empire runs 1913-1933 across both parts) and nazism (the description pitches him as Hitler's enabler); nazism kept secondary. The host places the Hitler negotiations in late 1933, but the chancellorship deal was January 1933. Herero genocide is an illustrative segment of his colonial aims, so NA is not in the setting. Elon Musk comparisons are modern asides, not legacy."
+}

@@ -1,0 +1,142 @@
+{
+  "story_id": "bruno-bettelheim-the-worst-psycho-therapist",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Bruno Bettelheim",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1903,
+        "end": 1990
+      }
+    },
+    {
+      "name": "Orthogenic School",
+      "kind": "organization",
+      "org_type": "school-or-facility",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["psychiatrist-psychologist", "writer-intellectual"],
+  "themes": {
+    "primary": "child-abuse",
+    "secondary": [
+      "quackery-pseudoscience",
+      "nazism",
+      "racism-white-supremacy",
+      "fraud-grift",
+      "education"
+    ]
+  },
+  "regions": {
+    "origin": ["AT"],
+    "setting": ["US", "AT", "DE"],
+    "subdivisions": ["US-IL"],
+    "polities": ["nazi-germany", "austria-hungary"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": {
+      "start": 1938,
+      "end": 1990
+    },
+    "covered_span": {
+      "start": 1903,
+      "end": 1990
+    },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Austrian-born Dachau and Buchenwald survivor Bruno Bettelheim faked psychoanalytic credentials, ran Chicago's Orthogenic School from 1944 as a whites-only total institution where he beat children, and blamed autism on cold mothers.",
+  "content_warnings": ["child-abuse", "suicide-self-harm", "child-death"],
+  "keywords": [
+    "Dachau",
+    "Buchenwald",
+    "The Empty Fortress",
+    "refrigerator mother",
+    "University of Chicago",
+    "Individual and Mass Behavior in Extreme Situations",
+    "The Creation of Dr. B",
+    "Richard Pollak",
+    "Terrence Des Pres",
+    "Ronald Angres"
+  ],
+  "guests": ["Allison Raskin"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:05:58",
+      "note": "birth in 1903 to a wealthy Viennese Jewish lumber family"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:38:22",
+      "note": "arrest after the Anschluss and internment at Dachau, then Buchenwald (both in modern Germany)"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:45:08",
+      "note": "1943 camp essay blames Jewish character; long segment on his distortions of camp life"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:34:35",
+      "note": "lies about his aesthetics PhD and psychoanalytic credentials"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:05:35",
+      "note": "takes over the Orthogenic School in Chicago in 1944"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:07:23",
+      "note": "imposes whites-only and Christian-only policy and expels disabled children"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:29:01",
+      "note": "former student's account of routine beatings at the school"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:40:22",
+      "note": "The Empty Fortress and the refrigerator-mother theory of autism"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:48:23",
+      "note": "death of a student on a home visit, which Bettelheim recast as suicide"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:56:39",
+      "note": "his 1990 suicide and the wave of survivor accounts that followed"
+    }
+  ],
+  "notes": "Primary theme child-abuse rather than medical-malpractice: he had no medical or psychology credentials, so the refrigerator-mother theory and invented diagnoses go under quackery-pseudoscience. Survivor accounts continuing to today get only a short coda, so reaches_present is false. main_span starts at the 1938 arrest, whose camp experience shaped his later work."
+}

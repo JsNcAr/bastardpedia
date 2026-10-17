@@ -1,0 +1,91 @@
+{
+  "story_id": "behind-the-bastards-presents-sixteenth-minute-of-fame",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "crossover",
+  "subjects": [
+    { "name": "Mormon influencers", "kind": "movement-or-ideology", "role": "primary" },
+    {
+      "name": "The Church of Jesus Christ of Latter-day Saints",
+      "kind": "organization",
+      "org_type": "religious-body",
+      "role": "secondary"
+    },
+    {
+      "name": "Hannah Neeleman",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": null }
+    },
+    { "name": "Tradwife content", "kind": "movement-or-ideology", "role": "secondary" },
+    {
+      "name": "Joseph Smith",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1805, "end": 1844 }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "tech-internet",
+    "secondary": [
+      "organized-religion",
+      "propaganda-media",
+      "misogyny-manosphere",
+      "entertainment-celebrity"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-UT"],
+    "polities": [],
+    "scope": "online"
+  },
+  "time": {
+    "main_span": { "start": 2005, "end": null },
+    "covered_span": { "start": 1820, "end": 2024 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Two Sixteenth Minute episodes by Jamie Loftus asking why Mormon women dominate social media influencing, from Mormon mommy blogs to Ballerina Farm, and whether LDS Church ad spending props them up.",
+  "content_warnings": [],
+  "keywords": [
+    "Sixteenth Minute (of Fame)",
+    "Ballerina Farm",
+    "Mormon mommy blogs",
+    "The Secret Lives of Mormon Wives",
+    "MomTok",
+    "Taylor Frankie Paul",
+    "Brigham Young",
+    "M. Russell Ballard",
+    "LuLaRoe",
+    "Salt Lake City"
+  ],
+  "guests": ["Jamie Loftus", "Alyssa Grenfell"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "low"
+  },
+  "evidence": [
+    { "facet": "format", "part": 1, "at": "00:00:01", "note": "Evans introduces a holiday compilation of Jamie Loftus's Sixteenth Minute two-parter" },
+    { "facet": "time", "part": 1, "at": "00:04:23", "note": "Smith's 1820 vision and 1830 founding open a ten-minute LDS history segment" },
+    { "facet": "subjects", "part": 1, "at": "00:11:13", "note": "Brigham Young leads the move to Utah; polygamy and purchase of Native children" },
+    { "facet": "themes", "part": 1, "at": "00:14:06", "note": "Church wealth from tithing set up as central to the question" },
+    { "facet": "subjects", "part": 1, "at": "00:29:25", "note": "Long segment on Hannah Neeleman and the Ballerina Farm brand" },
+    { "facet": "time", "part": 1, "at": "00:31:54", "note": "Mormon mommy blogs of the mid-2000s as the start of the phenomenon" },
+    { "facet": "themes", "part": 1, "at": "00:35:09", "note": "2007 church talk urging members to use blogs and new media for the faith" },
+    { "facet": "time", "part": 1, "at": "00:44:46", "note": "2024 newspaper profile of the Neelemans and its fallout" },
+    { "facet": "themes", "part": 1, "at": "00:52:41", "note": "Utah MLM concentration and LuLaRoe as a side thread" },
+    { "facet": "themes", "part": 1, "at": "01:21:24", "note": "Grenfell's ad-keyword theory: church ad spend inflates Mormon creator revenue" },
+    { "facet": "themes", "part": 1, "at": "01:32:02", "note": "Church SEO and search-result crowding of ex-Mormon material" }
+  ],
+  "notes": "GROUPING ERROR: part 2 is 'Part Two: How Woody Guthrie Turned Folk Music into a Weapon' (hero episode with Margaret Killjoy, 2024-12-26), unrelated to this crossover; its Part One is missing from episodes.json. Tagged part 1 only; part 2 should be split into its own story. Time is low because the episode is mostly 2005-2024 but the LDS history segment (~10 min) pulls covered_span to 1820. Hannah Neeleman's birth year not in packet."
+}

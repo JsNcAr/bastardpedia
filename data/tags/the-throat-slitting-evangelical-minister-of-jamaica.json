@@ -1,0 +1,89 @@
+{
+  "story_id": "the-throat-slitting-evangelical-minister-of-jamaica",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Kevin O. Smith",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1982, "end": 2021 }
+    },
+    {
+      "name": "Pathways International Kingdom Restoration Ministries",
+      "kind": "organization",
+      "org_type": "cult",
+      "role": "secondary"
+    },
+    {
+      "name": "Vision International University",
+      "kind": "organization",
+      "org_type": "school-or-facility",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["cult-leader", "religious-leader", "criminal-killer"],
+  "themes": {
+    "primary": "cults-new-religions",
+    "secondary": [
+      "fraud-grift",
+      "conspiracy-theories",
+      "organized-religion",
+      "sexual-abuse",
+      "education",
+      "public-health"
+    ]
+  },
+  "regions": {
+    "origin": ["JM", "CA"],
+    "setting": ["JM", "CA"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2000, "end": 2021 },
+    "covered_span": { "start": 1982, "end": 2021 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "Jamaican-Canadian Pentecostal preacher Kevin O. Smith, a convicted sex offender, built a prosperity-gospel church in Montego Bay, then turned to COVID conspiracies and in 2021 led a ritual killing of congregants.",
+  "content_warnings": ["graphic-violence"],
+  "keywords": [
+    "Montego Bay",
+    "The Ark",
+    "CHOS Deliverance International",
+    "Pathways Christian Cathedral",
+    "prosperity gospel",
+    "Azusa Street Revival",
+    "Apostolic Faith Church",
+    "Jamaica College",
+    "Arthur Pawlowski",
+    "Andre Ruddick"
+  ],
+  "guests": ["Molly Lambert"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:02:48", "note": "Birth year given as probably 1982, with some sources suggesting the late 1980s" },
+    { "facet": "regions", "part": 1, "at": "00:06:02", "note": "Family emigrates from Jamaica to Canada in the mid-1990s; he later holds Canadian citizenship" },
+    { "facet": "themes", "part": 1, "at": "00:22:29", "note": "Long segment on Vision International University and its questionable accreditation" },
+    { "facet": "time", "part": 1, "at": "00:34:46", "note": "Founds his own ministry around the turn of the millennium" },
+    { "facet": "themes", "part": 1, "at": "00:35:17", "note": "2006 sexual assault of an escort and 2007 conviction in Canada" },
+    { "facet": "themes", "part": 2, "at": "00:16:42", "note": "Prosperity gospel history and his escalating donation schemes in Jamaica" },
+    { "facet": "themes", "part": 2, "at": "00:40:03", "note": "COVID lockdowns push him into anti-vaccine and mark-of-the-beast conspiracies" },
+    { "facet": "time", "part": 2, "at": "00:53:21", "note": "October 2021 gathering at the Ark ends in throat-cutting killings and a police shootout" },
+    { "facet": "time", "part": 2, "at": "00:59:12", "note": "Dies in a car crash in police custody less than two weeks later" }
+  ],
+  "notes": "Birth year is uncertain (host says probably 1982; a 36th birthday in April 2018 supports it). main_span starts at the founding of his ministry around 2000. Pathways was an umbrella Pentecostal body he affiliated with; the congregation he led functioned as a cult, so org_type cult is a judgement call. US appears only as background (Azusa Street, Vision International), so it is left out of setting."
+}

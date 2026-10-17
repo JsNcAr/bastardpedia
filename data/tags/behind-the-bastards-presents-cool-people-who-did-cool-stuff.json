@@ -1,0 +1,96 @@
+{
+  "story_id": "behind-the-bastards-presents-cool-people-who-did-cool-stuff",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "hero",
+  "subjects": [
+    {
+      "name": "The would-be assassins of Benito Mussolini",
+      "kind": "group",
+      "role": "primary"
+    },
+    {
+      "name": "Benito Mussolini",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1883, "end": 1945 },
+      "wikidata": "Q23559"
+    },
+    {
+      "name": "Violet Gibson",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1876, "end": 1956 }
+    },
+    {
+      "name": "Gino Lucetti",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1900, "end": 1943 }
+    },
+    {
+      "name": "Anteo Zamboni",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1910, "end": 1926 }
+    }
+  ],
+  "roles": ["terrorist-militant", "activist-organizer"],
+  "themes": {
+    "primary": "terrorism",
+    "secondary": ["fascism-far-right", "authoritarianism", "policing-incarceration", "propaganda-media"]
+  },
+  "regions": {
+    "origin": ["IT", "IE"],
+    "setting": ["IT", "US", "FR", "ES"],
+    "subdivisions": [],
+    "polities": ["kingdom-of-italy"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1925, "end": 1932 },
+    "covered_span": { "start": 1898, "end": 1945 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Margaret Killjoy recounts the anarchists, socialists and others, among them Violet Gibson, Gino Lucetti and Anteo Zamboni, who tried to assassinate Benito Mussolini in Fascist Italy between 1925 and 1932.",
+  "content_warnings": ["graphic-violence"],
+  "keywords": [
+    "Cool People Who Did Cool Stuff",
+    "Gaetano Bresci",
+    "Tito Zaniboni",
+    "Michele Schirru",
+    "Angelo Sbardellotto",
+    "Gino Bibbi",
+    "Giacomo Matteotti",
+    "Sacco and Vanzetti",
+    "Mario Buda",
+    "Carrara"
+  ],
+  "guests": ["Margaret Killjoy"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:12:33", "note": "1898 Italian food riots and massacre that motivated Bresci" },
+    { "facet": "time", "part": 1, "at": "00:15:00", "note": "Bresci kills King Umberto I in July 1900, the only successful assassin covered" },
+    { "facet": "subjects", "part": 1, "at": "00:29:38", "note": "Zaniboni's 1925 rifle plot after the Matteotti murder, foiled by an informant" },
+    { "facet": "subjects", "part": 1, "at": "00:33:32", "note": "Violet Gibson, Dublin-born, shoots Mussolini in Rome in April 1926; long segment" },
+    { "facet": "themes", "part": 1, "at": "00:38:10", "note": "Western press, notably the New York Times, praising Mussolini; recurs through the story" },
+    { "facet": "regions", "part": 1, "at": "00:46:54", "note": "Sacco and Vanzetti case in the US and Mussolini's use of it" },
+    { "facet": "subjects", "part": 1, "at": "01:11:59", "note": "Lucetti throws a grenade at Mussolini's car in Rome; later prison years" },
+    { "facet": "regions", "part": 1, "at": "01:19:27", "note": "Gino Bibbi fights in the Spanish Civil War, later joins Italian partisans" },
+    { "facet": "subjects", "part": 1, "at": "01:23:59", "note": "Anteo Zamboni, Bologna teen, attempts the shooting and is killed by the crowd" },
+    { "facet": "themes", "part": 1, "at": "01:35:53", "note": "Schirru tried by special fascist tribunal in 1931 and executed by firing squad" },
+    { "facet": "time", "part": 1, "at": "01:52:40", "note": "Sbardellotto's arrest, torture and execution close the run of attempts" }
+  ],
+  "notes": "Re-published crossover from Cool People Who Did Cool Stuff (two parts in one file); hero chosen over crossover per the precedence rule and the 'cool people' cue. Primary is a group of assassins, so no single lifetime applies. Covered span starts with Bresci (1900, 1898 riots) and ends with partisan activity in 1945; Tomasini's 1968 activism is a brief coda. Terrorism vs fascism-far-right as primary is a judgment call."
+}
