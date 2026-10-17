@@ -1,0 +1,38 @@
+{
+  "subjects": [
+    {
+      "name": "Concentration camps",
+      "kind": "practice-or-pseudoscience",
+      "role": "primary"
+    },
+    {
+      "name": "Valeriano Weyler",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1838,
+        "end": 1930
+      }
+    },
+    {
+      "name": "Andrew Jackson",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1767,
+        "end": 1845
+      },
+      "wikidata": "Q11817"
+    },
+    {
+      "name": "Boer War concentration camps",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Trump administration family separation policy",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ]
+}
