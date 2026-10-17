@@ -1,8 +1,8 @@
 {
   "story_id": "ron-desantis-florida-man",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -31,12 +31,11 @@
   "themes": {
     "primary": "electoral-politics",
     "secondary": [
-      "religious-right-culture-war",
       "authoritarianism",
-      "policing-incarceration",
       "racism-white-supremacy",
-      "education",
-      "public-health"
+      "policing-incarceration",
+      "religious-right-culture-war",
+      "sports"
     ]
   },
   "regions": {
@@ -52,21 +51,21 @@
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "Biography of Florida governor Ron DeSantis, from Yale and a Navy legal post at Guantanamo to Congress and the governorship, where he used COVID politics and culture-war laws to dominate the state before a faltering 2024 presidential run.",
+  "summary": "Biography of Florida governor Ron DeSantis, from Little League and Yale through his Navy legal work at Guantanamo and Congress to a governorship marked by voter-suppression arrests, culture-war laws and a faltering 2024 presidential run.",
   "content_warnings": ["torture"],
   "keywords": [
+    "Florida",
     "Guantanamo Bay",
-    "Meatball Ron",
-    "Don't Say Gay law",
-    "Disney feud",
-    "Freedom Caucus",
-    "Dreams from Our Founding Fathers",
-    "Darlington School",
     "Little League World Series",
-    "Mansoor Adayfi",
-    "2024 presidential campaign"
+    "Yale",
+    "JAG Corps",
+    "Dreams from Our Founding Fathers",
+    "Freedom Caucus",
+    "Stop WOKE Act",
+    "2024 presidential campaign",
+    "Meatball Ron"
   ],
-  "guests": ["Cody Johnston", "Katy Stoll"],
+  "guests": ["Katy Stoll", "Cody Johnston"],
   "confidence": {
     "subjects": "high",
     "roles": "high",
@@ -75,16 +74,17 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:05:26", "note": "birth in Jacksonville, Florida, 1978" },
-    { "facet": "regions", "part": 1, "at": "00:52:25", "note": "posting at Guantanamo Bay and the hunger strike force-feeding account" },
-    { "facet": "themes", "part": 1, "at": "00:41:11", "note": "teaching job and photos of him drinking with students at parties" },
-    { "facet": "time", "part": 2, "at": "00:05:45", "note": "first congressional campaign in 2012 starts his political career" },
-    { "facet": "themes", "part": 2, "at": "00:11:16", "note": "his self-published history book downplaying slavery in the founding" },
-    { "facet": "themes", "part": 2, "at": "00:45:04", "note": "COVID reopening and soft anti-vaccine stance reshape his politics" },
-    { "facet": "themes", "part": 2, "at": "00:51:39", "note": "grip on the legislature, Don't Say Gay law" },
-    { "facet": "themes", "part": 2, "at": "00:53:18", "note": "voter-fraud arrests of ex-felons, mostly Black voters, and SB 7066" },
-    { "facet": "themes", "part": 2, "at": "00:55:23", "note": "classroom censorship and CRT ban" },
-    { "facet": "time", "part": 2, "at": "00:58:41", "note": "Trump rivalry and collapsing 2024 campaign up to release" }
+    { "facet": "time", "part": 1, "at": "00:05:26", "note": "birth in Jacksonville, Florida, in 1978" },
+    { "facet": "themes", "part": 1, "at": "00:25:04", "note": "extended segment on his Little League team reaching the World Series" },
+    { "facet": "roles", "part": 1, "at": "00:48:43", "note": "Harvard Law, Navy JAG officer, deployment to Iraq with a SEAL team" },
+    { "facet": "regions", "part": 1, "at": "00:52:55", "note": "Guantanamo hunger strike; he advises on force-feeding detainees" },
+    { "facet": "content_warnings", "part": 1, "at": "00:55:05", "note": "former detainee's detailed account of being force-fed" },
+    { "facet": "time", "part": 2, "at": "00:05:45", "note": "first congressional campaign in 2012 opens the main span" },
+    { "facet": "themes", "part": 2, "at": "00:13:12", "note": "his book's treatment of Dred Scott and slavery in founding history" },
+    { "facet": "themes", "part": 2, "at": "00:51:39", "note": "after COVID he grips the state legislature in an authoritarian style" },
+    { "facet": "themes", "part": 2, "at": "00:53:18", "note": "election-crimes arrests and redistricting aimed at Black voters" },
+    { "facet": "themes", "part": 2, "at": "00:55:23", "note": "school laws on race and gender identity, book removals" },
+    { "facet": "time", "part": 2, "at": "00:58:41", "note": "2023 presidential campaign and feud with Trump bring the story to release" }
   ],
-  "notes": "Grandfather's 1960s Ohio election work is short background and is left out of covered_span. Iraq deployment is mentioned only briefly, so IQ is not in setting. Trump and Casey DeSantis listed as secondary for their recurring segments."
+  "notes": "Living subject, so the lifetime rule gives 1978-2023 and main_span ends null. COVID politics and the Disney fight get only a couple of minutes each, so public-health and anti-lgbtq were left out. Iraq deployment is brief; Cuba is in the setting for the Guantanamo segment."
 }

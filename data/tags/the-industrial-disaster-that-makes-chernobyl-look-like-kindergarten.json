@@ -1,6 +1,6 @@
 {
   "story_id": "the-industrial-disaster-that-makes-chernobyl-look-like-kindergarten",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
     "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
@@ -20,7 +20,7 @@
       "role": "secondary"
     },
     {
-      "name": "Dow Chemical Company",
+      "name": "Union Carbide India Limited",
       "kind": "organization",
       "org_type": "company",
       "role": "secondary"
@@ -28,8 +28,13 @@
   ],
   "roles": [],
   "themes": {
-    "primary": "corporate-malfeasance",
-    "secondary": ["labor-exploitation", "environmental-destruction", "public-health"]
+    "primary": "disasters",
+    "secondary": [
+      "corporate-malfeasance",
+      "labor-exploitation",
+      "environmental-destruction",
+      "public-health"
+    ]
   },
   "regions": {
     "origin": ["IN"],
@@ -44,19 +49,19 @@
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "In December 1984 a methyl isocyanate leak at Union Carbide's cost-cut, poorly maintained pesticide plant in Bhopal, India killed thousands overnight; the company dodged blame and left toxic waste that still poisons local groundwater.",
-  "content_warnings": ["medical-horror", "child-death"],
+  "summary": "In 1984 a methyl isocyanate leak at Union Carbide's cost-cut, badly maintained pesticide plant in Bhopal, India killed thousands overnight; the company dodged blame, paid a small settlement and left poison that still sickens residents.",
+  "content_warnings": ["child-death", "medical-horror"],
   "keywords": [
     "Bhopal",
+    "Madhya Pradesh",
     "methyl isocyanate",
-    "Sevin pesticide",
-    "Union Carbide India Limited",
+    "Sevin",
     "Rajkumar Keswani",
-    "Bhopal Gas Leak Disaster Act",
+    "Gas Leak Disaster Act",
+    "Dow Chemical",
     "Eveready Industries India",
-    "DowDuPont",
-    "Danbury",
-    "Atlantic article by Apoorva Mandavilli"
+    "Anna Nagar",
+    "groundwater contamination"
   ],
   "guests": ["Jamie Loftus"],
   "confidence": {
@@ -68,15 +73,16 @@
   },
   "evidence": [
     { "facet": "time", "part": 1, "at": "00:09:24", "note": "plant construction begins in 1969" },
-    { "facet": "time", "part": 1, "at": "00:15:14", "note": "1976 union complaints about pollution open the negligence timeline" },
-    { "facet": "themes", "part": 1, "at": "00:15:45", "note": "wage cuts, reduced training, worker killed by phosgene in 1981" },
-    { "facet": "themes", "part": 1, "at": "00:27:34", "note": "unions campaign, leaders laid off, hunger strike and posters" },
-    { "facet": "regions", "part": 1, "at": "00:31:16", "note": "refrigeration shutdown approved with US headquarters; West Virginia sister plant compared" },
-    { "facet": "time", "part": 1, "at": "00:41:11", "note": "gas release in the early hours of 3 December 1984, thousands die the first night" },
-    { "facet": "time", "part": 1, "at": "00:51:19", "note": "1985 act and later settlement with the Indian government" },
-    { "facet": "themes", "part": 1, "at": "00:53:22", "note": "waste ponds leak into groundwater; abandoned chemicals left on site" },
-    { "facet": "time", "part": 1, "at": "00:55:29", "note": "2018 reporting on birth defects and illness in neighbouring slum" },
-    { "facet": "subjects", "part": 1, "at": "00:57:05", "note": "Dow buys Union Carbide in 2001 and disputes cleanup liability to the present" }
+    { "facet": "time", "part": 1, "at": "00:15:14", "note": "1976 union complaints open the cost-cutting and safety-decay narrative" },
+    { "facet": "themes", "part": 1, "at": "00:15:45", "note": "worker deaths, injuries and repeated gas leaks in the early 1980s" },
+    { "facet": "themes", "part": 1, "at": "00:27:34", "note": "unions campaign, hunger strike, leaders laid off and meetings banned" },
+    { "facet": "regions", "part": 1, "at": "00:31:46", "note": "refrigeration shut-off approved with US headquarters; West Virginia sister plant contrast" },
+    { "facet": "time", "part": 1, "at": "00:41:11", "note": "gas release in the early hours of 3 December 1984" },
+    { "facet": "content_warnings", "part": 1, "at": "00:45:25", "note": "accounts of families and infants dying; autopsies of gas-filled lungs" },
+    { "facet": "time", "part": 1, "at": "00:50:45", "note": "1985 Gas Leak Disaster Act and later settlement with the Indian government" },
+    { "facet": "themes", "part": 1, "at": "00:52:50", "note": "abandoned waste, leaking ponds and groundwater contamination" },
+    { "facet": "themes", "part": 1, "at": "00:54:57", "note": "2018 reporting on birth defects and cancer in neighbourhoods by the plant" },
+    { "facet": "time", "part": 1, "at": "00:57:05", "note": "Dow, Eveready and the state trade blame for cleanup up to the release date" }
   ],
-  "notes": "Union Carbide is the bastard but the title frames the disaster, so the event is primary and the company secondary (no roles). Origin IN follows the event; the company is US-based. main_span runs from the 1976 safety complaints to the 1989 settlement (year from general knowledge; transcript just says eventually). Covered span ends 2019 with ongoing litigation and contamination."
+  "notes": "Primary is the event; Union Carbide is secondary as the responsible company, so roles are empty. Main span ends at the 1989 settlement (year from general knowledge; the transcript gives the settlement without a date). Scope set international because US headquarters decisions and US lawsuits get real time, though the harm is in one city."
 }

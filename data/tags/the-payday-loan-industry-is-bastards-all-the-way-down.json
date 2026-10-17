@@ -1,8 +1,8 @@
 {
   "story_id": "the-payday-loan-industry-is-bastards-all-the-way-down",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -23,19 +23,19 @@
       "name": "Charles Hallinan",
       "kind": "person",
       "role": "secondary",
-      "lifespan": { "start": 1941, "end": null }
-    },
-    {
-      "name": "Consumer Financial Protection Bureau",
-      "kind": "organization",
-      "org_type": "government-agency",
-      "role": "secondary"
+      "floruit": 1997
     }
   ],
   "roles": [],
   "themes": {
     "primary": "finance-crypto",
-    "secondary": ["fraud-grift", "corporate-malfeasance", "propaganda-media", "labor-exploitation"]
+    "secondary": [
+      "fraud-grift",
+      "organized-crime",
+      "corporate-malfeasance",
+      "inequality-class",
+      "labor-exploitation"
+    ]
   },
   "regions": {
     "origin": ["US"],
@@ -50,77 +50,40 @@
     "reaches_present": true,
     "approximate": true
   },
-  "summary": "A history of US payday lending from post-Civil War salary lenders and mob loan sharks to Scott Tucker's tribal-lending empire, industry-funded research and rolled-back federal rules, all profiting from trapping poor borrowers in debt.",
+  "summary": "History of US payday lending, from 19th-century salary lenders and mob loan sharks to Scott Tucker's tribal-shell empire charging up to 1,000 percent interest, plus industry-funded research and the 2019 rollback of federal rules.",
   "content_warnings": [],
   "keywords": [
     "loan sharks",
-    "chattel mortgage lenders",
-    "Marquette National Bank v. First of Omaha",
-    "tribal lending",
-    "AMG Services",
+    "rent-a-tribe lending",
     "Overland Park",
     "Mission Hills",
-    "Hillary Miller",
+    "St. Ann's parish",
+    "Consumer Financial Protection Bureau",
+    "AMG Services",
+    "Hilary Miller",
     "Jennifer Lewis Priestley",
-    "Dirty Money"
+    "Miami Tribe of Oklahoma"
   ],
   "guests": ["Shereen Lani Younes"],
   "confidence": {
-    "subjects": "medium",
+    "subjects": "high",
     "roles": "high",
     "themes": "medium",
     "regions": "high",
     "time": "medium"
   },
   "evidence": [
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:03:09",
-      "note": "salary lending said to begin in the US in the late 1800s; chattel mortgage lenders after the Civil War"
-    },
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:16:43",
-      "note": "1978 Supreme Court ruling lets banks export home-state interest rates, birth of the modern industry"
-    },
-    {
-      "facet": "subjects",
-      "part": 1,
-      "at": "00:25:05",
-      "note": "long Scott Tucker segment begins, originally planned as the whole episode"
-    },
-    {
-      "facet": "subjects",
-      "part": 1,
-      "at": "00:28:11",
-      "note": "Charles Hallinan introduced as Tucker's mentor and later rival; both convicted around 2018"
-    },
-    {
-      "facet": "regions",
-      "part": 1,
-      "at": "00:35:43",
-      "note": "Tucker's lending run from Overland Park, Kansas, posing as tribal businesses"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "01:06:05",
-      "note": "industry lawyer shaping academic studies to defend payday loans"
-    },
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "01:14:18",
-      "note": "2017 CFPB rules and their 2019 rollback under Trump bring the story to release"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:02:38",
-      "note": "framing argument that delayed wages create the need for payday loans, revisited at length"
-    }
+    { "facet": "time", "part": 1, "at": "00:03:09", "note": "payday-style salary lending traced to the late 1800s as regular paychecks spread" },
+    { "facet": "time", "part": 1, "at": "00:07:23", "note": "chattel mortgage lenders after the Civil War set the earliest covered period" },
+    { "facet": "themes", "part": 1, "at": "00:09:58", "note": "mafia loan sharks and their rates and collection methods get several minutes" },
+    { "facet": "time", "part": 1, "at": "00:16:43", "note": "1978 Supreme Court ruling lets banks export home-state rates; start of modern industry" },
+    { "facet": "themes", "part": 1, "at": "00:18:14", "note": "extended discussion of delayed wages as the root cause of the need for loans" },
+    { "facet": "subjects", "part": 1, "at": "00:26:07", "note": "Scott Tucker biography begins: born 1962 in Kansas City, early loan fraud" },
+    { "facet": "subjects", "part": 1, "at": "00:28:11", "note": "Tucker meets Hallinan in 1997 and secretly diverts their joint business" },
+    { "facet": "regions", "part": 1, "at": "00:35:43", "note": "operations run from Overland Park, Kansas while posing as tribal businesses" },
+    { "facet": "themes", "part": 1, "at": "00:53:05", "note": "payday money floods wealthy Mission Hills parish while poor parishes lose homes" },
+    { "facet": "themes", "part": 1, "at": "01:06:05", "note": "industry lawyer steers supposedly independent academic studies" },
+    { "facet": "time", "part": 1, "at": "01:14:18", "note": "CFPB scraps Obama-era payday rules shortly before the 2019 release" }
   ],
-  "notes": "Primary subject is the industry/practice, so no roles. Mob loan sharking takes a real segment but there is no organized-crime theme. labor-exploitation rests on the hosts' extended argument about delayed pay. Hallinan birth year inferred from his age at sentencing; death status not verified. Tucker's racing career is brief, so sports omitted."
+  "notes": "Primary subject is the industry as a practice, so no roles. Tucker is secondary despite a long segment (the host says he was meant to be the sole subject). covered_span starts at an estimated 1865 (post-Civil War chattel lenders; late 1800s). main_span end null since the industry is still active. labor-exploitation rests on the delayed-pay framing; Blaine Tucker's suicide is mentioned only briefly, so no warning."
 }

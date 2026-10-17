@@ -1,8 +1,8 @@
 {
   "story_id": "the-phil-spector-episodes",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -27,23 +27,22 @@
       "lifespan": { "start": 1962, "end": 2003 }
     },
     {
-      "name": "John Lennon",
-      "kind": "person",
-      "role": "secondary",
-      "lifespan": { "start": 1940, "end": 1980 }
+      "name": "The Beatles",
+      "kind": "group",
+      "role": "secondary"
     }
   ],
   "roles": ["entertainer-artist", "criminal-killer"],
   "themes": {
     "primary": "entertainment-celebrity",
-    "secondary": ["domestic-abuse", "policing-incarceration", "labor-exploitation"]
+    "secondary": ["domestic-abuse", "murder-serial-killers", "child-abuse", "policing-incarceration"]
   },
   "regions": {
     "origin": ["US"],
     "setting": ["US", "GB"],
     "subdivisions": ["US-CA"],
     "polities": [],
-    "scope": "national"
+    "scope": "international"
   },
   "time": {
     "main_span": { "start": 1958, "end": 2009 },
@@ -51,101 +50,39 @@
     "reaches_present": false,
     "approximate": false
   },
-  "summary": "American record producer Phil Spector, creator of the Wall of Sound, cheated collaborators, kept his wife Ronnie Spector a virtual prisoner, menaced many people with guns and in 2003 shot actress Lana Clarkson dead at his California home.",
-  "content_warnings": ["graphic-violence", "suicide-self-harm"],
+  "summary": "American record producer Phil Spector built the Wall of Sound in the 1960s, held his wife Ronnie captive in their Los Angeles mansion, menaced musicians with guns for decades, and was convicted in 2009 of murdering actress Lana Clarkson.",
+  "content_warnings": ["suicide-self-harm", "graphic-violence"],
   "keywords": [
     "Wall of Sound",
-    "The Ronettes",
-    "Be My Baby",
-    "Philles Records",
-    "Gold Star Studios",
     "The Teddy Bears",
-    "Brill Building",
+    "The Ronettes",
     "Let It Be",
-    "House of Blues",
-    "Alhambra"
+    "River Deep - Mountain High",
+    "John Lennon",
+    "Leonard Cohen",
+    "Alhambra",
+    "Be My Baby",
+    "Mick Brown"
   ],
   "guests": ["Greazy Will"],
   "confidence": {
     "subjects": "high",
     "roles": "high",
     "themes": "medium",
-    "regions": "medium",
+    "regions": "high",
     "time": "high"
   },
   "evidence": [
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:08:58",
-      "note": "born December 1939 in the Bronx to Jewish immigrant families"
-    },
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:23:05",
-      "note": "writes and produces his first number-one hit with the Teddy Bears in 1958"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:37:28",
-      "note": "Brill Building collaborators say he grabbed credit and cut them out of royalties"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:59:43",
-      "note": "releases records under a girl group's name without the group singing on them"
-    },
-    {
-      "facet": "themes",
-      "part": 2,
-      "at": "01:08:23",
-      "note": "wedding-night rage leaves Ronnie and her mother hiding in a bathroom"
-    },
-    {
-      "facet": "themes",
-      "part": 3,
-      "at": "00:29:21",
-      "note": "shows Ronnie a gold casket as a threat of what awaits her if she leaves; house kept locked"
-    },
-    {
-      "facet": "regions",
-      "part": 3,
-      "at": "00:31:25",
-      "note": "flown to London in 1969 to rework the Beatles' Let It Be tapes, then Harrison and Lennon albums"
-    },
-    {
-      "facet": "themes",
-      "part": 3,
-      "at": "01:10:54",
-      "note": "1975 guilty plea for pulling a gun on a parking attendant; probation ignored"
-    },
-    {
-      "facet": "time",
-      "part": 4,
-      "at": "00:03:57",
-      "note": "night of 2 February 2003: meets Lana Clarkson at the House of Blues"
-    },
-    {
-      "facet": "content_warnings",
-      "part": 4,
-      "at": "00:30:48",
-      "note": "detailed description of Clarkson's gunshot wound and the crime scene"
-    },
-    {
-      "facet": "time",
-      "part": 4,
-      "at": "00:58:17",
-      "note": "2009 retrial ends in a second-degree murder conviction, 19 years to life"
-    },
-    {
-      "facet": "time",
-      "part": 4,
-      "at": "01:04:37",
-      "note": "dies in prison; Ronnie outlives him by about two years"
-    }
+    { "facet": "time", "part": 1, "at": "00:08:58", "note": "birth in the Bronx, December 1939" },
+    { "facet": "time", "part": 1, "at": "00:23:05", "note": "first hit with the Teddy Bears in 1958 starts his career" },
+    { "facet": "themes", "part": 2, "at": "00:30:10", "note": "Ronnie brought to California; control over her begins" },
+    { "facet": "themes", "part": 3, "at": "00:09:31", "note": "home turned into a guarded fortress to confine Ronnie" },
+    { "facet": "regions", "part": 3, "at": "00:34:36", "note": "London sessions reworking the Beatles' Let It Be" },
+    { "facet": "themes", "part": 3, "at": "01:16:27", "note": "adopted children confined and coerced, kept under a governess" },
+    { "facet": "subjects", "part": 4, "at": "00:13:11", "note": "Lana Clarkson's background and the night she met Spector" },
+    { "facet": "themes", "part": 4, "at": "00:30:48", "note": "police find Clarkson shot in the Alhambra mansion" },
+    { "facet": "themes", "part": 4, "at": "00:58:17", "note": "2009 retrial ends in a murder conviction" },
+    { "facet": "time", "part": 4, "at": "01:04:29", "note": "dies of COVID complications in prison, January 2021" }
   ],
-  "notes": "Guest Greazy Will narrates; Robert listens. Death year 2021 from general knowledge (transcript only places it about two years before Ronnie's death). labor-exploitation is a loose fit for royalty theft and replacing singers. Abuse of his adopted sons (locked rooms, forced sexual simulations) is covered only briefly, so no child-abuse theme. GB is a secondary setting for the Beatles work; scope kept national."
+  "notes": "Main span runs from the 1958 Teddy Bears hit to the 2009 conviction; the lifetime rule extends covered years to 1939-2021. Ronnie's later comeback is a short coda, so it does not extend the span. Child-abuse is a few minutes on his adopted children; policing-incarceration covers the investigation and two trials. No theme for gun menace by an individual."
 }

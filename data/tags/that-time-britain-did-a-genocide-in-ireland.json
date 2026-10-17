@@ -1,8 +1,8 @@
 {
   "story_id": "that-time-britain-did-a-genocide-in-ireland",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -24,12 +24,6 @@
       "kind": "person",
       "role": "secondary",
       "lifespan": { "start": 1775, "end": 1847 }
-    },
-    {
-      "name": "Robert Peel",
-      "kind": "person",
-      "role": "secondary",
-      "lifespan": { "start": 1788, "end": 1850 }
     }
   ],
   "roles": [],
@@ -37,10 +31,10 @@
     "primary": "genocide-mass-killing",
     "secondary": [
       "colonialism-imperialism",
+      "inequality-class",
+      "disasters",
       "racism-white-supremacy",
-      "finance-crypto",
-      "organized-religion",
-      "propaganda-media"
+      "protest-revolution"
     ]
   },
   "regions": {
@@ -52,23 +46,23 @@
   },
   "time": {
     "main_span": { "start": 1845, "end": 1852 },
-    "covered_span": { "start": 1541, "end": 1852 },
+    "covered_span": { "start": 1540, "end": 1852 },
     "reaches_present": true,
     "approximate": true
   },
-  "summary": "Between 1845 and 1852 a potato blight turned into mass death in Ireland because the British government and officials like Charles Trevelyan kept food exports, rents and evictions going on free-market grounds while a million or more people starved.",
-  "content_warnings": ["mass-atrocity", "child-death", "torture"],
+  "summary": "The Great Irish Famine of 1845-1852, in which a potato blight became mass death because British governments, absentee landlords and free-market officials like Charles Trevelyan kept exporting food and evicting tenants.",
+  "content_warnings": ["mass-atrocity", "child-death"],
   "keywords": [
     "Great Hunger",
     "potato blight",
     "Corn Laws",
-    "Act of Union",
-    "Thomas Malthus",
-    "Queen Victoria",
-    "Doolough tragedy",
+    "absentee landlords",
+    "workhouses",
+    "1798 rebellion",
+    "Robert Peel",
+    "Lord John Russell",
     "Choctaw donation",
-    "Tim Pat Coogan",
-    "The Famine Plot"
+    "Tim Pat Coogan"
   ],
   "guests": ["Prop"],
   "confidence": {
@@ -83,74 +77,68 @@
       "facet": "time",
       "part": 1,
       "at": "00:22:03",
-      "note": "Henry VIII forces all Irish landholders to surrender land to the Crown; start of systematic dispossession"
+      "note": "Henry VIII's surrender-and-regrant policy opens the long colonial land story leading to the famine"
     },
     {
       "facet": "themes",
       "part": 1,
       "at": "00:35:45",
-      "note": "1600s confiscation of three million acres and rise of absentee landlords and middlemen"
+      "note": "absentee landlord and middleman system set up in the 1600s, dispossessing Irish tenants"
     },
     {
-      "facet": "content_warnings",
+      "facet": "themes",
       "part": 1,
-      "at": "01:03:16",
-      "note": "detailed account of pitch-capping used on suspected rebels in 1798"
+      "at": "01:01:12",
+      "note": "1798 United Irishmen rebellion and its bloody suppression"
     },
     {
       "facet": "subjects",
       "part": 1,
       "at": "01:19:24",
-      "note": "O'Connell's Catholic Association, emancipation in 1829 and the 1843 monster meetings"
+      "note": "extended segment on O'Connell, Catholic emancipation and the repeal mass meetings"
     },
     {
       "facet": "time",
       "part": 1,
       "at": "01:31:52",
-      "note": "blight first found in Ireland in August 1845"
+      "note": "blight first found in Ireland in 1845, start of the main events"
     },
     {
       "facet": "themes",
       "part": 2,
-      "at": "00:10:03",
-      "note": "Ireland keeps exporting grain and food enough for twice its population during the famine"
+      "at": "00:17:22",
+      "note": "Peel's Indian corn imports and the Corn Laws fight over food policy"
     },
     {
       "facet": "subjects",
       "part": 2,
       "at": "00:34:43",
-      "note": "Trevelyan biography begins: born 1807, East India Company career, then Treasury"
-    },
-    {
-      "facet": "themes",
-      "part": 2,
-      "at": "00:14:14",
-      "note": "Catholic clergy relief versus Protestant establishment deepens sectarian anger"
+      "note": "biography of Trevelyan, from birth and East India Company career to the Treasury"
     },
     {
       "facet": "themes",
       "part": 3,
-      "at": "00:12:28",
-      "note": "landlords clear tenants en masse for sheep grazing; mass evictions framed as ethnic cleansing"
-    },
-    {
-      "facet": "themes",
-      "part": 3,
-      "at": "00:18:11",
-      "note": "The Times and The Economist editorials blame the Irish and oppose relief spending"
+      "at": "00:13:28",
+      "note": "landlords clearing whole villages in Mayo for sheep grazing at the famine's peak"
     },
     {
       "facet": "content_warnings",
       "part": 3,
       "at": "00:24:58",
-      "note": "evicted children dying, one boy found eaten by dogs"
+      "note": "accounts of evicted families dying, including a dead child's body"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:49:55",
+      "note": "famine refugees in Liverpool and anti-Irish press in England"
     },
     {
       "facet": "time",
       "part": 3,
-      "at": "00:56:08",
-      "note": "epilogue on a modern descendant's book defending Trevelyan, sets reaches_present"
+      "at": "00:55:37",
+      "note": "epilogue on the death toll, population loss and Trevelyan's descendant reckoning with him"
     }
   ],
-  "notes": "Primary is the event, so no roles. covered_span start 1541 (surrender and regrant) is an estimate: the transcript gives no year for Henry VIII's demand; the Norman invasion segment is brief and excluded. Famine end year 1852 is general knowledge. No theme exists for laissez-faire economic ideology, which is a major thread; finance-crypto used for the landlord and eviction system. Origin IE is a judgement call for an event; GB could be argued as the perpetrator."
+  "notes": "Primary subject is the famine as an event, so no roles and no lifetime rule; Trevelyan gets a long segment but is secondary. covered_span starts at Henry VIII's 1540s land policy because Part 1 spends a large share tracing the colonial land system as the famine's cause; the brief Norman-era section (1160s) is excluded as background. Genocide framing follows the hosts and Coogan."
 }

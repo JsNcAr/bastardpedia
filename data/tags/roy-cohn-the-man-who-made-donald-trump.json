@@ -1,8 +1,8 @@
 {
   "story_id": "roy-cohn-the-man-who-made-donald-trump",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -42,10 +42,10 @@
     "primary": "electoral-politics",
     "secondary": [
       "moral-panics",
-      "religious-right-culture-war",
-      "fraud-grift",
+      "anti-lgbtq",
+      "organized-crime",
       "propaganda-media",
-      "intelligence-covert-ops"
+      "fraud-grift"
     ]
   },
   "regions": {
@@ -61,18 +61,18 @@
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "New York lawyer Roy Cohn helped send the Rosenbergs to the electric chair, ran Joseph McCarthy's Red and Lavender Scare purges in the 1950s, then became a mob lawyer, tax dodger and fixer who mentored Donald Trump before dying of AIDS in 1986.",
-  "content_warnings": [],
+  "summary": "New York lawyer Roy Cohn helped send the Rosenbergs to the electric chair, drove McCarthy's Red and Lavender Scare purges, then became a mob lawyer and fixer who mentored Donald Trump before dying of AIDS in 1986.",
+  "content_warnings": ["graphic-violence"],
   "keywords": [
     "McCarthyism",
     "Red Scare",
     "Army-McCarthy hearings",
     "G. David Schine",
-    "Roger Stone",
-    "Trump Tower",
     "Fat Tony Salerno",
+    "Trump Tower",
+    "Roger Stone",
+    "J. Edgar Hoover",
     "Lionel Corporation",
-    "Bernard Marcus",
     "Bully Coward Victim"
   ],
   "guests": ["Joelle Monique"],
@@ -84,18 +84,18 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:04:42", "note": "Cohn's birth in the Bronx to a judge's family" },
-    { "facet": "subjects", "part": 1, "at": "00:19:42", "note": "joins the US Attorney's office and prosecutes the Rosenbergs in 1951" },
-    { "facet": "subjects", "part": 1, "at": "00:41:24", "note": "long segment on the Lavender Scare and Cohn's interrogations of gay federal workers" },
-    { "facet": "themes", "part": 1, "at": "00:33:59", "note": "Cohn becomes the FBI's press liaison, planting stories for Hoover" },
-    { "facet": "themes", "part": 1, "at": "00:58:47", "note": "Schine draft leads to the Army-McCarthy hearings in 1954" },
-    { "facet": "time", "part": 2, "at": "00:08:53", "note": "leaves government in 1955, takes over Lionel" },
-    { "facet": "themes", "part": 2, "at": "00:12:00", "note": "systematic tax avoidance through his law firm paying for everything" },
-    { "facet": "themes", "part": 2, "at": "00:21:16", "note": "suspicious 1970s yacht sinking and insurance payout" },
-    { "facet": "subjects", "part": 2, "at": "00:15:37", "note": "meets Trump in 1973 and fights the housing discrimination suit with him" },
-    { "facet": "themes", "part": 2, "at": "00:47:55", "note": "fights New York gay rights legislation for the Catholic archdiocese" },
-    { "facet": "themes", "part": 2, "at": "00:42:43", "note": "campaigns for Reagan and uses Roger Stone for dirty tricks in 1980" },
-    { "facet": "time", "part": 2, "at": "00:52:38", "note": "disbarment and death from AIDS in 1986" }
+    { "facet": "time", "part": 1, "at": "00:04:12", "note": "Cohn's birth in the Bronx in 1927 into a wealthy political family" },
+    { "facet": "time", "part": 1, "at": "00:19:42", "note": "joins the US Attorney's office; Rosenberg prosecution in 1951 starts the main span" },
+    { "facet": "content_warnings", "part": 1, "at": "00:32:54", "note": "vivid account of Ethel Rosenberg's botched electrocution" },
+    { "facet": "themes", "part": 1, "at": "00:33:59", "note": "Cohn becomes Hoover's channel for planting damaging stories in the press" },
+    { "facet": "themes", "part": 1, "at": "00:41:24", "note": "long Lavender Scare segment: Cohn leads interrogations of suspected gay employees" },
+    { "facet": "themes", "part": 1, "at": "00:58:47", "note": "Schine draft and the Army investigation that ends McCarthyism" },
+    { "facet": "themes", "part": 2, "at": "00:10:27", "note": "Cohn as lawyer and business partner for Fat Tony Salerno and the mob" },
+    { "facet": "themes", "part": 2, "at": "00:15:37", "note": "meets Trump in 1973 over the housing discrimination suit; teaches counterattack tactics" },
+    { "facet": "themes", "part": 2, "at": "00:20:46", "note": "yacht sinking, insurance payout and a sailor's death" },
+    { "facet": "regions", "part": 2, "at": "00:25:27", "note": "Trump Tower concrete deal with New York mob-controlled unions" },
+    { "facet": "themes", "part": 2, "at": "00:42:13", "note": "1980 Reagan campaign work and Roger Stone dirty tricks with the Liberal Party" },
+    { "facet": "time", "part": 2, "at": "00:52:07", "note": "disbarment, failed AIDS treatment and death in 1986" }
   ],
-  "notes": "No theme for organized crime or legal corruption; Cohn's mob lawyering (Salerno, Trump Tower concrete) is covered under fraud-grift. religious-right-culture-war stands in for anti-gay persecution (Lavender Scare, opposing gay rights laws). reaches_present is true for the recurring Trump/Stone legacy thread up to 2020. Hollywood blacklist and the AIDS ending are short segments."
+  "notes": "Primary theme is a judgment call: part 1 is mostly McCarthyism (moral-panics, anti-lgbtq), part 2 mob and political fixing; electoral-politics chosen for the fixer/Trump pitch. reaches_present for recurring discussion of Trump and Stone using his methods up to 2020. Antisemitic scapegoating of his uncle and Trump's housing bias get a few minutes each; racism left out."
 }

@@ -1,8 +1,8 @@
 {
   "story_id": "how-woody-guthrie-turned-folk-music-into-a-weapon",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -19,23 +19,17 @@
       "kind": "person",
       "role": "secondary",
       "lifespan": { "start": 1904, "end": 1934 }
-    },
-    {
-      "name": "Communist Party USA",
-      "kind": "organization",
-      "org_type": "political-org",
-      "role": "secondary"
     }
   ],
   "roles": ["entertainer-artist", "activist-organizer"],
   "themes": {
     "primary": "entertainment-celebrity",
     "secondary": [
-      "labor-exploitation",
-      "communism-state-socialism",
+      "inequality-class",
       "folklore-legend",
-      "war-war-crimes",
-      "racism-white-supremacy"
+      "communism-state-socialism",
+      "racism-white-supremacy",
+      "war-war-crimes"
     ]
   },
   "regions": {
@@ -46,12 +40,13 @@
     "scope": "national"
   },
   "time": {
-    "main_span": { "start": 1936, "end": 1956 },
-    "covered_span": { "start": 1912, "end": 1967 },
+    "main_span": { "start": 1936, "end": 1967 },
+    "covered_span": { "start": 1922, "end": 1967 },
+    "partial_life": true,
     "reaches_present": false,
-    "approximate": false
+    "approximate": true
   },
-  "summary": "Christmas non-bastard episode on American folk singer Woody Guthrie, who turned Dust Bowl and Depression hardship into protest songs, backed communism, fought fascism in the Merchant Marine and declined from Huntington's disease.",
+  "summary": "Holiday non-bastard story on American folk singer Woody Guthrie, from Dust Bowl migrant radio star in 1930s California to Communist-aligned protest songwriter, wartime merchant mariner and blacklisted artist who died of Huntington's disease in 1967.",
   "content_warnings": [],
   "keywords": [
     "This Land Is Your Land",
@@ -59,11 +54,11 @@
     "The Ballad of Pretty Boy Floyd",
     "This Machine Kills Fascists",
     "Huntington's disease",
+    "Lefty Lou",
     "Pete Seeger",
     "Bob Dylan",
     "Greystone Park",
-    "Merchant Marine",
-    "Molotov-Ribbentrop Pact"
+    "Bound for Glory"
   ],
   "guests": ["Margaret Killjoy"],
   "confidence": {
@@ -74,54 +69,16 @@
     "time": "medium"
   },
   "evidence": [
-    {
-      "facet": "time",
-      "part": 2,
-      "at": "00:02:35",
-      "note": "1936 departure from Texas to California opens his career as a Depression-era musician"
-    },
-    {
-      "facet": "themes",
-      "part": 2,
-      "at": "00:03:36",
-      "note": "work camps and Hoovervilles of migrant job seekers he lived among and sang for"
-    },
-    {
-      "facet": "themes",
-      "part": 2,
-      "at": "00:12:14",
-      "note": "segment on his racist radio material and drawings, and his apology after a listener letter"
-    },
-    {
-      "facet": "subjects",
-      "part": 2,
-      "at": "00:21:07",
-      "note": "long segment on Pretty Boy Floyd's life and the Robin Hood myth built around him"
-    },
-    {
-      "facet": "themes",
-      "part": 2,
-      "at": "00:36:02",
-      "note": "he follows the party line on the Nazi-Soviet pact and attacks Roosevelt"
-    },
-    {
-      "facet": "themes",
-      "part": 2,
-      "at": "00:47:35",
-      "note": "Merchant Marine service on three torpedoed ships and wartime anti-fascist songs"
-    },
-    {
-      "facet": "time",
-      "part": 2,
-      "at": "01:02:25",
-      "note": "1956 involuntary commitment marks the end of his active life"
-    },
-    {
-      "facet": "time",
-      "part": 2,
-      "at": "01:04:03",
-      "note": "death in October 1967"
-    }
+    { "facet": "time", "part": 2, "at": "00:02:35", "note": "Guthrie leaves Texas for California in 1936; this part opens there" },
+    { "facet": "themes", "part": 2, "at": "00:04:06", "note": "Depression work camps and Hoovervilles where he busks for migrant workers" },
+    { "facet": "themes", "part": 2, "at": "00:12:14", "note": "segment on his racist on-air material and cartoons and his later apology" },
+    { "facet": "subjects", "part": 2, "at": "00:20:50", "note": "long segment on Pretty Boy Floyd, his crimes and the Robin Hood legend" },
+    { "facet": "time", "part": 2, "at": "00:22:09", "note": "Floyd's criminal career traced from his first arrest at about 18 to his 1934 death" },
+    { "facet": "themes", "part": 2, "at": "00:35:35", "note": "follows the Communist line on the Molotov-Ribbentrop Pact and Soviet invasions" },
+    { "facet": "themes", "part": 2, "at": "00:47:27", "note": "Merchant Marine service, three torpedoed ships, drafted on VE Day" },
+    { "facet": "themes", "part": 2, "at": "00:54:15", "note": "postwar Red Scare hearings and blacklisting" },
+    { "facet": "time", "part": 2, "at": "00:59:16", "note": "Huntington's onset late 1940s; obscenity charge in 1949" },
+    { "facet": "time", "part": 2, "at": "01:04:03", "note": "dies October 1967 after years in institutions" }
   ],
-  "notes": "Packet holds only Part Two; Part One (childhood, Klansman father, mother's illness) is missing, so covered_span starts at birth per the lifetime rule. No theme for anti-fascism or left-wing protest music; entertainment-celebrity chosen as closest primary. Red Scare blacklisting and the obscene-mail case covered briefly."
+  "notes": "Only Part Two is in the feed, so this story starts in 1936 and never covers his 1912 birth or childhood (Part One). I set partial_life for that reason, not because of how the story is framed. covered_span starts in about 1922 with the Floyd segment. Not used: Huntington's (no theme fits) and his sexually harassing letters, which get about 5 minutes; sexual-abuse could be added. The 'hero' format follows the 'non-bastard' wording in the description."
 }

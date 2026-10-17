@@ -1,8 +1,8 @@
 {
   "story_id": "the-triangle-shirtwaist-fire",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -34,68 +34,45 @@
   "themes": {
     "primary": "labor-exploitation",
     "secondary": [
+      "disasters",
       "corporate-malfeasance",
+      "protest-revolution",
       "fraud-grift",
-      "racism-white-supremacy",
-      "policing-incarceration",
-      "propaganda-media"
+      "racism-white-supremacy"
     ]
   },
   "regions": {
-    "origin": [
-      "US"
-    ],
-    "setting": [
-      "US",
-      "MD",
-      "UA",
-      "RU",
-      "IT"
-    ],
-    "subdivisions": [
-      "US-NY"
-    ],
-    "polities": [
-      "russian-empire"
-    ],
-    "scope": "national"
+    "origin": ["US"],
+    "setting": ["US", "RU", "MD"],
+    "subdivisions": ["US-NY"],
+    "polities": ["russian-empire"],
+    "scope": "local"
   },
   "time": {
-    "main_span": {
-      "start": 1909,
-      "end": 1911
-    },
-    "covered_span": {
-      "start": 1890,
-      "end": 1918
-    },
+    "main_span": { "start": 1909, "end": 1911 },
+    "covered_span": { "start": 1881, "end": 1918 },
     "reaches_present": false,
     "approximate": true
   },
-  "summary": "In 1911 a fire at the Triangle Waist Company factory in New York killed 146 mostly immigrant garment workers trapped behind locked doors; owners Max Blanck and Isaac Harris, who had violently fought a strike, were acquitted and profited from insurance.",
-  "content_warnings": [
-    "graphic-violence",
-    "mass-atrocity"
-  ],
+  "summary": "In 1911 a fire at the Triangle Waist Company factory in Manhattan killed 146 mostly immigrant young women, trapped by locked doors and a failed fire escape; owners Max Blanck and Isaac Harris, who had crushed a strike and profited from insurance fires, were acquitted.",
+  "content_warnings": ["graphic-violence", "mass-atrocity"],
   "keywords": [
     "Asch Building",
     "Greenwich Village",
+    "shirtwaist",
     "Shirtwaist Kings",
     "Clara Lemlich",
     "Frances Perkins",
     "Kishinev pogrom",
-    "Pale of Settlement",
+    "Tammany Hall",
     "insurance arson",
-    "Dave Von Drehle",
-    "Triangle: The Fire That Changed America"
+    "Women's Trade Union League"
   ],
-  "guests": [
-    "Jason Petty (Propaganda)"
-  ],
+  "guests": ["Jason Petty"],
   "confidence": {
     "subjects": "high",
     "roles": "high",
-    "themes": "medium",
+    "themes": "high",
     "regions": "medium",
     "time": "medium"
   },
@@ -103,75 +80,57 @@
     {
       "facet": "time",
       "part": 1,
-      "at": "00:25:37",
-      "note": "Harris and Blanck emigrate from Russia and settle in New York in the early 1890s"
-    },
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:35:57",
-      "note": "the two found the Triangle Waist Company in 1900"
-    },
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:54:16",
-      "note": "fall 1909 union drive and strike begin; owners fire union members"
-    },
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "01:28:35",
-      "note": "fire kills 146 within eighteen minutes in March 1911"
-    },
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "01:37:59",
-      "note": "Triangle company finally shuts down in 1918"
-    },
-    {
-      "facet": "subjects",
-      "part": 1,
-      "at": "00:57:28",
-      "note": "owners hire pimps, prostitutes and police to break the strikers' blockade"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:49:05",
-      "note": "owners set up a fake company union to divert organizing"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "01:19:13",
-      "note": "repeated likely deliberate fires for insurance payouts; over-insured before 1911"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:13:39",
-      "note": "long segment on antisemitic pogroms driving Jewish emigration"
+      "at": "00:12:36",
+      "note": "1881 assassination of Alexander II and the pogroms that drove the Jewish emigration"
     },
     {
       "facet": "regions",
       "part": 1,
       "at": "00:17:47",
-      "note": "1903 Kishinev pogrom in Bessarabia (modern Moldova) described"
+      "note": "1903 Kishinev pogrom in Bessarabia described in detail"
     },
     {
-      "facet": "regions",
+      "facet": "subjects",
       "part": 1,
-      "at": "00:10:30",
-      "note": "ecological collapse in southern Italy pushes Italian emigration"
+      "at": "00:25:37",
+      "note": "Blanck and Harris, born in Russia, flee pogroms and reach New York by the early 1890s"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:35:57",
+      "note": "Triangle Waist Company founded 1900, factory in the Asch Building from 1902"
     },
     {
       "facet": "themes",
       "part": 1,
-      "at": "01:01:37",
-      "note": "owners counter strike with a New York Times press blitz; police and judges jail strikers"
+      "at": "00:54:16",
+      "note": "1909 garment strike led by Clara Lemlich; owners use police, gangsters and a fake union"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:17:10",
+      "note": "brokers' collusion and the owners' repeated suspicious insurance fires"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:24:58",
+      "note": "the March 1911 fire itself, locked door, elevator and fire escape collapse, 146 dead"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:32:16",
+      "note": "manslaughter trial and acquittal in December 1911"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:37:59",
+      "note": "1913-1914 violations and fines; company finally closed in 1918"
     }
   ],
-  "notes": "Pogroms and Italian background (~15 min) left out of covered_span as pre-story background but kept in setting; scope set national (NYC event, national labor-law legacy) though local or international are arguable. Owners spelled Blanck per standard sources; transcript renders Blanc/Block. 'Uprising of the 20,000' name is from general knowledge; transcript calls it the 1909 strike. Brief Perkins/OSHA legacy: reaches_present false. mass-atrocity: ~9-min pogrom segment."
+  "notes": "Primary subject is the event, so roles are empty; Blanck and Harris are listed as one secondary group. The covered span starts at the 1881 pogroms because they are tied to the owners' own emigration; if treated as pure background, start would be about 1890. Scope set to local (New York City) although the Russian Empire background adds RU and MD to the setting. Frances Perkins and OSHA legacy is brief, so reaches_present is false."
 }

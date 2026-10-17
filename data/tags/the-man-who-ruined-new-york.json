@@ -1,6 +1,6 @@
 {
   "story_id": "the-man-who-ruined-new-york",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
     "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
@@ -15,22 +15,22 @@
       "lifespan": { "start": 1888, "end": 1981 }
     },
     {
-      "name": "Exclusionary architecture",
-      "kind": "practice-or-pseudoscience",
+      "name": "Jones Beach State Park",
+      "kind": "place",
       "role": "secondary"
     }
   ],
-  "roles": ["politician-official", "political-operative"],
+  "roles": ["politician-official"],
   "themes": {
     "primary": "racism-white-supremacy",
-    "secondary": ["environmental-destruction", "electoral-politics", "colonialism-imperialism"]
+    "secondary": ["inequality-class", "colonialism-imperialism", "electoral-politics"]
   },
   "regions": {
     "origin": ["US"],
     "setting": ["US", "EG"],
     "subdivisions": ["US-NY"],
-    "polities": ["british-empire"],
-    "scope": "national"
+    "polities": [],
+    "scope": "local"
   },
   "time": {
     "main_span": { "start": 1924, "end": 1962 },
@@ -38,19 +38,19 @@
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "Unelected New York parks chief Robert Moses reshaped New York City and Long Island from the 1920s to the 1960s, building highways and low bridges that blocked transit, displaced Black residents and walled off poor neighbourhoods.",
+  "summary": "Unelected New York parks chief Robert Moses reshaped the city and state from the 1920s to 1962, building car-centred highways and parks that displaced Black neighbourhoods, blocked transit and walled off the poor.",
   "content_warnings": [],
   "keywords": [
-    "Jones Beach State Park",
-    "Cross Bronx Expressway",
-    "East Tremont",
     "The Power Broker",
     "Robert Caro",
-    "Southern State Parkway",
+    "Cross Bronx Expressway",
+    "East Tremont",
+    "low overpasses",
+    "exclusionary architecture",
     "Second Avenue subway",
-    "Long Island State Park Commission",
-    "Alfred E. Smith",
-    "Jane Jacobs"
+    "Long Island",
+    "Harlem",
+    "Lord Kitchener"
   ],
   "guests": ["Bridget Todd"],
   "confidence": {
@@ -58,21 +58,20 @@
     "roles": "medium",
     "themes": "medium",
     "regions": "medium",
-    "time": "high"
+    "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:04:50", "note": "Born in New Haven, Connecticut, in 1888 to a wealthy Jewish family" },
-    { "facet": "regions", "part": 1, "at": "00:17:21", "note": "Oxford years and Egypt visit; admires Kitchener's colonial administration" },
-    { "facet": "themes", "part": 1, "at": "00:22:02", "note": "Extended segment on British rule in Egypt and Sudan under Kitchener" },
-    { "facet": "time", "part": 1, "at": "00:28:21", "note": "First government job at the Municipal Research Bureau in 1913" },
-    { "facet": "themes", "part": 1, "at": "00:29:23", "note": "Tammany Hall patronage, civil service reform, rise under Governor Al Smith" },
-    { "facet": "time", "part": 1, "at": "00:33:30", "note": "Made head of Long Island parks commission and state parks council, held for forty years" },
-    { "facet": "themes", "part": 1, "at": "00:46:51", "note": "Parkway bridges built too low for buses and rail to Jones Beach vetoed" },
+    { "facet": "time", "part": 1, "at": "00:04:50", "note": "born in New Haven, Connecticut, in 1888 to an affluent Jewish family" },
+    { "facet": "themes", "part": 1, "at": "00:13:39", "note": "Yale quota on Jewish students shapes his position on the edge of elite society" },
+    { "facet": "regions", "part": 1, "at": "00:21:31", "note": "extended segment on his Egypt visit and admiration for British colonial rule under Kitchener" },
+    { "facet": "themes", "part": 1, "at": "00:28:52", "note": "first city job in civil service reform against Tammany Hall patronage" },
+    { "facet": "time", "part": 1, "at": "00:33:30", "note": "made head of Long Island and state park bodies in the 1920s, holds them about forty years" },
+    { "facet": "themes", "part": 1, "at": "00:46:51", "note": "low bridges and vetoed rail line keep buses and poor, Black visitors from Jones Beach" },
     { "facet": "themes", "part": 2, "at": "00:05:14", "note": "Cross Bronx Expressway evicts mostly Black residents of East Tremont" },
-    { "facet": "themes", "part": 2, "at": "00:09:56", "note": "Bridge ramps and highways routed to dump traffic and pollution on Harlem" },
-    { "facet": "time", "part": 2, "at": "00:26:09", "note": "Opposition grows; stripped of most offices in 1962" },
-    { "facet": "time", "part": 2, "at": "00:29:12", "note": "Power Broker published 1974, dies 1981; subway decay and MTA plans after" },
-    { "facet": "subjects", "part": 2, "at": "00:32:50", "note": "Exclusionary architecture copied nationally: Detroit wall, Hamden fence, Buffalo mall" }
+    { "facet": "themes", "part": 2, "at": "00:07:22", "note": "displaced tenants pushed into crowded tenements; housing inequality" },
+    { "facet": "themes", "part": 2, "at": "00:21:30", "note": "playground and park spending in Harlem far below white neighbourhoods" },
+    { "facet": "time", "part": 2, "at": "00:26:09", "note": "stripped of most offices in 1962 when Rockefeller accepts his resignation" },
+    { "facet": "time", "part": 2, "at": "00:29:12", "note": "dies in 1981; subway decay and MTA plans followed up to recent years" }
   ],
-  "notes": "No theme for urban planning or infrastructure; racism-white-supremacy chosen as primary since the story centres on racist housing and transit policy. Transcript gives 1962 for loss of most offices; main_span ends there. Moses was an unelected official, hence politician-official plus political-operative for his bill drafting and budget manoeuvres."
+  "notes": "No theme for urban planning, infrastructure or public transit, the story's real core; racism-white-supremacy chosen as closest (racist housing and segregation). Main_span start 1924 is from general knowledge (transcript says early 1920s). Later exclusionary-architecture examples (Detroit wall, Hamden fence, Cynthia Wiggins) are comparisons, so they do not extend covered_span."
 }

@@ -1,8 +1,8 @@
 {
   "story_id": "the-russian-scientist-who-helped-kill-30-million-people",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -21,16 +21,15 @@
       "lifespan": { "start": 1887, "end": 1943 }
     },
     {
-      "name": "Great Leap Forward",
-      "kind": "event",
-      "role": "secondary"
-    },
-    {
       "name": "Mao Zedong",
       "kind": "person",
       "role": "secondary",
-      "lifespan": { "start": 1893, "end": 1976 },
-      "wikidata": "Q5816"
+      "lifespan": { "start": 1893, "end": 1976 }
+    },
+    {
+      "name": "Great Leap Forward",
+      "kind": "event",
+      "role": "secondary"
     },
     {
       "name": "Ilya Ivanov",
@@ -44,14 +43,14 @@
     "primary": "quackery-pseudoscience",
     "secondary": [
       "communism-state-socialism",
-      "genocide-mass-killing",
       "propaganda-media",
-      "science-exploration"
+      "science-exploration",
+      "genocide-mass-killing"
     ]
   },
   "regions": {
     "origin": ["UA"],
-    "setting": ["CN", "UA", "RU", "GN"],
+    "setting": ["RU", "CN", "UA", "GN"],
     "subdivisions": [],
     "polities": ["soviet-union"],
     "scope": "international"
@@ -62,18 +61,18 @@
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "Soviet agronomist Trofim Lysenko rejected genetics for politically convenient pseudoscience, purged rival scientists under Stalin, and saw his farming methods drive famines in the USSR and Mao's China from the 1930s to the 1960s.",
+  "summary": "Soviet agronomist Trofim Lysenko rejected genetics, faked his results and, backed by Stalin, purged rival scientists; his pseudoscience drove farm policy in the USSR and Mao's China, worsening famines that killed millions.",
   "content_warnings": ["mass-atrocity"],
   "keywords": [
     "Lysenkoism",
     "vernalization",
-    "Barefoot Professor",
+    "barefoot professor",
     "Holodomor",
     "Great Chinese Famine",
     "Lenin Academy",
     "Vavilov seed bank",
     "Siege of Leningrad",
-    "Ivan Michurin",
+    "Andrei Sakharov",
     "Hungry Ghosts"
   ],
   "guests": ["Max Silvestri"],
@@ -82,81 +81,75 @@
     "roles": "medium",
     "themes": "medium",
     "regions": "medium",
-    "time": "high"
+    "time": "medium"
   },
   "evidence": [
     {
       "facet": "subjects",
       "part": 1,
       "at": "00:02:32",
-      "note": "opening segment on Ivanov's ape-human hybrid scheme, later in French Guinea"
+      "note": "long opening segment on Ivanov's ape-human hybrid scheme, including his stint in French Guinea"
     },
     {
       "facet": "subjects",
       "part": 1,
       "at": "00:11:17",
-      "note": "Vavilov's background, seed-collecting travels and seed bank introduced at length"
+      "note": "Vavilov's life, seed-collecting travels and institute network get their own segment"
     },
     {
       "facet": "time",
       "part": 1,
       "at": "00:14:25",
-      "note": "Lysenko's peasant birth in present-day Ukraine and start in agricultural institutes"
+      "note": "Lysenko's peasant birth in what is now Ukraine and his entry into agricultural science"
     },
     {
       "facet": "time",
       "part": 1,
       "at": "00:16:27",
-      "note": "faked vernalization results and Pravda profile launch his fame"
+      "note": "faked vernalization results and the Pravda profile that made him famous"
     },
     {
       "facet": "themes",
       "part": 1,
-      "at": "00:22:43",
-      "note": "collectivization famine and deliberate starvation of Ukrainians discussed"
+      "at": "00:21:41",
+      "note": "collectivization, the Soviet famine and the Holodomor as deliberate starvation"
     },
     {
-      "facet": "themes",
+      "facet": "time",
       "part": 1,
       "at": "00:50:19",
-      "note": "Vavilov arrested in 1940, dies in the gulag; purges of geneticists"
+      "note": "Vavilov arrested in 1940 and dies in a gulag in 1943; mass purge of geneticists"
     },
     {
       "facet": "regions",
       "part": 2,
-      "at": "00:22:19",
-      "note": "Mao's eight-point farm plan applies close planting and deep plowing across China"
+      "at": "00:03:05",
+      "note": "second part moves to Mao's China and its adoption of Lysenko's methods"
     },
     {
       "facet": "themes",
       "part": 2,
       "at": "00:23:50",
-      "note": "staged fields and faked harvest reports for Mao"
+      "note": "staged fields and inflated harvest reports put on for Mao"
     },
     {
-      "facet": "regions",
+      "facet": "time",
       "part": 2,
-      "at": "00:42:24",
-      "note": "Great Chinese Famine death toll estimated at 25 to 30 million"
+      "at": "00:41:53",
+      "note": "Great Famine to 1961 with a death toll of 25 to 35 million"
     },
     {
       "facet": "time",
       "part": 2,
       "at": "00:46:31",
-      "note": "Sakharov denounces him in 1964; removed from his institute in 1965"
+      "note": "1964 Sakharov denunciation and 1965 removal and investigation end his career"
     },
     {
       "facet": "time",
       "part": 2,
       "at": "00:51:09",
-      "note": "dies in Moscow in 1976, discredited"
-    },
-    {
-      "facet": "time",
-      "part": 2,
-      "at": "00:52:09",
-      "note": "modern Russian revival of his ideas tied to epigenetics sets reaches_present"
+      "note": "death in Moscow in 1976, then a segment on his revival in present-day Russia"
     }
   ],
-  "notes": "Primary theme could also be communism-state-socialism; chose pseudoscience as the story's pitch. Lysenko's early work in Azerbaijan is a brief mention, so AZ is left out of the setting. main_span runs from the 1927 Pravda profile to his 1965 removal. Holodomor counted under genocide-mass-killing, but most famine deaths are framed as policy failure."
+  "notes": "main_span starts at the 1927 Pravda profile (year from general knowledge; the transcript garbles it) and ends with his 1965 fall. Setting puts RU first because the Soviet famine and the purges happen there, with CN (part two) close behind. Lysenko held real agronomy training, so scientist-scholar rather than quack-fake-healer; politician-official covers his Lenin Academy presidency and state posts."
 }

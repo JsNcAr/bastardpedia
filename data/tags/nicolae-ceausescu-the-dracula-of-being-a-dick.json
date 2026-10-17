@@ -1,8 +1,8 @@
 {
   "story_id": "nicolae-ceausescu-the-dracula-of-being-a-dick",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -33,21 +33,21 @@
       "role": "secondary"
     },
     {
-      "name": "Romanian Communist Party",
-      "kind": "organization",
-      "org_type": "political-org",
+      "name": "Romanian Revolution of 1989",
+      "kind": "event",
       "role": "secondary"
     }
   ],
-  "roles": ["dictator-autocrat", "activist-organizer"],
+  "roles": ["dictator-autocrat", "politician-official", "activist-organizer"],
   "themes": {
     "primary": "communism-state-socialism",
     "secondary": [
       "authoritarianism",
-      "intelligence-covert-ops",
-      "diplomacy-foreign-policy",
       "child-abuse",
       "public-health",
+      "diplomacy-foreign-policy",
+      "intelligence-covert-ops",
+      "protest-revolution",
       "propaganda-media",
       "racism-white-supremacy"
     ]
@@ -60,94 +60,45 @@
     "scope": "national"
   },
   "time": {
-    "main_span": { "start": 1965, "end": 1989 },
     "covered_span": { "start": 1918, "end": 1989 },
+    "main_span": { "start": 1965, "end": 1989 },
     "reaches_present": false,
     "approximate": false
   },
-  "summary": "Nicolae Ceaușescu, communist dictator of Romania from 1965 to 1989, won Western favour while building a vast surveillance state and palace, banning abortion and starving the population, until he and his wife Elena were executed in 1989.",
-  "content_warnings": ["child-death", "child-abuse", "medical-horror", "animal-cruelty"],
+  "summary": "Nicolae Ceaușescu rose from a teenage communist agitator to dictator of Romania (1965-1989), courting the West while ruining the economy, banning abortion, filling orphanages, expanding the Securitate and razing villages until he was overthrown and shot in 1989.",
+  "content_warnings": ["child-abuse", "child-death", "medical-horror", "animal-cruelty"],
   "keywords": [
-    "Palace of the Parliament",
+    "People's Palace",
+    "Timișoara",
     "1968 balcony speech",
-    "Romanian Revolution",
-    "Timisoara",
-    "Laszlo Tokes",
-    "Ion Mihai Pacepa",
-    "Richard Nixon",
-    "Romanian orphanages",
     "systematization",
-    "Vlad the Impaler"
+    "Romanian orphans",
+    "Richard Nixon",
+    "Ion Mihai Pacepa",
+    "László Tőkés",
+    "Vlad the Impaler",
+    "IKEA"
   ],
   "guests": ["Jeff May"],
   "confidence": {
     "subjects": "high",
-    "roles": "medium",
-    "themes": "high",
-    "regions": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
     "time": "high"
   },
   "evidence": [
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:40:38",
-      "note": "birth in January 1918 in a poor village; long Romanian history preamble ends here"
-    },
-    {
-      "facet": "roles",
-      "part": 1,
-      "at": "00:45:21",
-      "note": "teenage arrests for street fights at strikes and petitions for rail workers"
-    },
-    {
-      "facet": "time",
-      "part": 2,
-      "at": "00:47:55",
-      "note": "Gheorghiu-Dej dies in March 1965 and Ceausescu takes the party leadership"
-    },
-    {
-      "facet": "themes",
-      "part": 3,
-      "at": "00:17:12",
-      "note": "1968 balcony speech condemning the Soviet invasion of Czechoslovakia; ties with Nixon"
-    },
-    {
-      "facet": "regions",
-      "part": 3,
-      "at": "00:23:31",
-      "note": "1971 tour of China and North Korea inspires the personality cult and industrial push"
-    },
-    {
-      "facet": "themes",
-      "part": 3,
-      "at": "00:57:50",
-      "note": "regime sells exit visas for Romanian Jews on a sliding price scale"
-    },
-    {
-      "facet": "themes",
-      "part": 4,
-      "at": "00:06:24",
-      "note": "Securitate phone tapping and informant network expand; assassinations abroad"
-    },
-    {
-      "facet": "themes",
-      "part": 4,
-      "at": "00:27:14",
-      "note": "preventable deaths and neglect of children in state homes for disabled children"
-    },
-    {
-      "facet": "themes",
-      "part": 4,
-      "at": "00:39:12",
-      "note": "untested blood transfusions spread HIV among orphans, most of them Roma"
-    },
-    {
-      "facet": "time",
-      "part": 4,
-      "at": "01:05:19",
-      "note": "summary trial and execution of the couple on Christmas Day 1989"
-    }
+    { "facet": "time", "part": 1, "at": "00:41:10", "note": "born January 1918 to a poor peasant family in Scornicești" },
+    { "facet": "time", "part": 2, "at": "00:47:55", "note": "Gheorghiu-Dej dies in March 1965 and Ceaușescu becomes party leader" },
+    { "facet": "time", "part": 4, "at": "01:05:19", "note": "he and Elena are tried and shot on Christmas Day 1989" },
+    { "facet": "themes", "part": 2, "at": "00:59:50", "note": "contraception and abortion banned to raise population; thousands of women die" },
+    { "facet": "themes", "part": 3, "at": "00:17:12", "note": "1968 speech condemning the Soviet invasion of Czechoslovakia wins Western favour" },
+    { "facet": "regions", "part": 3, "at": "00:23:31", "note": "1971 tour of China and North Korea inspires his personality cult" },
+    { "facet": "themes", "part": 3, "at": "00:56:18", "note": "Jewish emigrants ransomed to Israel for cash on a sliding scale" },
+    { "facet": "themes", "part": 4, "at": "00:05:22", "note": "Securitate phone-tapping and informant network expands massively" },
+    { "facet": "themes", "part": 4, "at": "00:27:14", "note": "preventable deaths and neglect of children in state institutions" },
+    { "facet": "themes", "part": 4, "at": "00:40:44", "note": "HIV spreads among orphans, mostly Roma, through blood transfusions" },
+    { "facet": "themes", "part": 4, "at": "00:55:54", "note": "Tőkés eviction sparks Timișoara protests that grow into revolution" }
   ],
-  "notes": "Part 1 spends about 40 minutes on Romanian background (Dacia, Vlad the Impaler, 1907 peasant revolt, WWI, Iron Guard); treated as scene-setting, so covered_span follows the lifetime rule. Elena is secondary since the title centres Nicolae, though she gets long segments. Her birth year (1916) is from general knowledge. Post-1989 orphan aftermath is a short coda. No theme for trophy hunting or reproductive policy."
+  "notes": "Transcript gives the birth date as 23 January 1918; sources say 26 January. Long opening background (Vlad III, 1907 revolt, WWI, Iron Guard, Antonescu) is context before the story and does not extend covered_span; fascism-far-right left out for that reason. Post-1989 orphan aftermath and prosecutions are a short coda, so reaches_present is false."
 }

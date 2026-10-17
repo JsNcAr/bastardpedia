@@ -1,6 +1,6 @@
 {
   "story_id": "behind-the-police-how-the-police-declared-war-on-all-of-us",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
     "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
@@ -26,13 +26,13 @@
       "lifespan": { "start": 1881, "end": 1940 }
     },
     {
-      "name": "1985 MOVE bombing",
-      "kind": "event",
+      "name": "SWAT teams",
+      "kind": "practice-or-pseudoscience",
       "role": "secondary"
     },
     {
-      "name": "Dragnet",
-      "kind": "media-work",
+      "name": "MOVE bombing",
+      "kind": "event",
       "role": "secondary"
     }
   ],
@@ -41,45 +41,46 @@
     "primary": "policing-incarceration",
     "secondary": [
       "racism-white-supremacy",
-      "colonialism-imperialism",
       "genocide-mass-killing",
       "drugs",
-      "propaganda-media"
+      "propaganda-media",
+      "protest-revolution",
+      "colonialism-imperialism"
     ]
   },
   "regions": {
     "origin": ["US"],
-    "setting": ["US", "MX"],
+    "setting": ["US"],
     "subdivisions": [],
     "polities": [],
     "scope": "national"
   },
   "time": {
-    "main_span": { "start": 1965, "end": null },
+    "main_span": { "start": 1965, "end": 2020 },
     "covered_span": { "start": 1835, "end": 2020 },
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "The final Behind the Police episode traces how US policing became militarized, from the Texas Rangers' frontier violence and Smedley Butler's 1920s Philadelphia to SWAT teams, the drug war and the 1985 MOVE bombing.",
-  "content_warnings": ["mass-atrocity", "graphic-violence", "child-death"],
+  "summary": "The closing Behind the Police episode traces how US police became militarized, from the Texas Rangers' ethnic cleansing and Smedley Butler's Prohibition-era Philadelphia force to SWAT raids, the drug war and the 1985 MOVE bombing.",
+  "content_warnings": ["graphic-violence", "mass-atrocity"],
   "keywords": [
-    "SWAT teams",
-    "Comanche",
+    "Behind the Police",
+    "Red Fork Massacre",
     "Porvenir massacre",
     "Prohibition",
-    "Watts uprising",
-    "War on Drugs",
-    "1033 program",
+    "Watts Rebellion",
     "Office of Public Safety",
-    "Osage Avenue",
+    "1033 program",
+    "War on Drugs",
+    "Dragnet",
     "Cops (TV series)"
   ],
   "guests": ["Jason Petty (Propaganda)"],
   "confidence": {
-    "subjects": "high",
+    "subjects": "medium",
     "roles": "high",
-    "themes": "high",
-    "regions": "medium",
+    "themes": "medium",
+    "regions": "high",
     "time": "medium"
   },
   "evidence": [
@@ -87,7 +88,7 @@
       "facet": "time",
       "part": 1,
       "at": "00:08:22",
-      "note": "Texas Rangers introduced as a colonial-style force formed officially in 1835"
+      "note": "Texas Rangers introduced, officially formed 1835; earliest period covered at length"
     },
     {
       "facet": "themes",
@@ -96,53 +97,53 @@
       "note": "Rangers in the Comanche Wars and the 1840 massacre of a Comanche village"
     },
     {
-      "facet": "regions",
+      "facet": "themes",
       "part": 1,
-      "at": "00:16:52",
-      "note": "1918 killings at Porvenir; families driven across the border into Mexico"
+      "at": "00:17:22",
+      "note": "Rangers kill hundreds of ethnic Mexicans 1915-1919; sealed legislative hearing"
     },
     {
       "facet": "subjects",
       "part": 1,
       "at": "00:40:18",
-      "note": "Butler made Philadelphia public safety director in 1924 to run a military model of policing"
+      "note": "Butler appointed Philadelphia public safety director to enforce Prohibition militarily"
     },
     {
       "facet": "themes",
       "part": 1,
-      "at": "01:00:36",
-      "note": "Dragnet scripts approved by the LAPD as image management for police"
+      "at": "01:11:06",
+      "note": "Cold War Office of Public Safety trains foreign police; trainers later return to US forces"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:21:35",
+      "note": "Watts uprising of 1965 framed as the inciting moment for modern militarized policing"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:28:47",
+      "note": "origins and actual use of SWAT teams, mostly drug search warrants"
     },
     {
       "facet": "themes",
       "part": 1,
-      "at": "01:17:50",
-      "note": "Nixon declares the drug war in 1971; Reagan expands it in 1982"
-    },
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "01:22:06",
-      "note": "1965 Watts uprising framed as the trigger for paramilitary policing and SWAT"
-    },
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "01:52:54",
-      "note": "1997 1033 program and later military hardware transfers under Obama and Trump"
+      "at": "02:05:30",
+      "note": "Dragnet, Cops and procedurals shaping public belief in police effectiveness"
     },
     {
       "facet": "subjects",
       "part": 1,
       "at": "02:16:28",
-      "note": "MOVE siege and the police bomb on Osage Avenue in 1985, eleven dead"
+      "note": "1985 MOVE bombing on Osage Avenue as the closing case study"
     },
     {
       "facet": "time",
       "part": 1,
       "at": "02:10:43",
-      "note": "Cops and Live PD cancelled after the 2020 uprising"
+      "note": "2020 cancellation of Cops and Live PD after George Floyd's murder; covered span ends 2020"
     }
   ],
-  "notes": "Survey episode; the primary subject is the practice of militarized policing, so no roles. covered_span starts with the 1835 Rangers segment; the Gilded Age and Progressive-era material is background. main_span starts with Watts 1965 and the SWAT/drug-war turn, open-ended as militarization continues. MX is secondary (Ranger border killings). Cold War police training abroad (Vietnam, Iran, Latin America) is brief and left out of setting."
+  "notes": "Survey episode with no single bastard; primary subject modelled as a practice. main_span starts at the 1965 Watts uprising, when the episode says modern militarization took off; Rangers (from 1835) and Butler (1924-1925) are earlier precursors in covered_span. Cold War police training abroad (VN, IR, UY, AR, BR, CO) got only a few minutes, so setting is US only. Transcript garbles some years (Butler '1942', MOVE '1905'); 1924 and 1985 used."
 }

@@ -1,6 +1,6 @@
 {
   "story_id": "the-deadliest-workplace-disaster-in-u-s-history",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
     "agent": "btb-tagger",
     "model": "claude-opus-5-5",
@@ -36,11 +36,11 @@
   "themes": {
     "primary": "labor-exploitation",
     "secondary": [
+      "disasters",
       "corporate-malfeasance",
       "racism-white-supremacy",
-      "medical-malpractice",
       "public-health",
-      "policing-incarceration"
+      "medical-malpractice"
     ]
   },
   "regions": {
@@ -52,81 +52,44 @@
   },
   "time": {
     "main_span": { "start": 1930, "end": 1936 },
-    "covered_span": { "start": 1930, "end": 1936 },
-    "reaches_present": false,
+    "covered_span": { "start": 1930, "end": 1938 },
+    "reaches_present": true,
     "approximate": false
   },
-  "summary": "In 1930-1932 Union Carbide and contractor Rinehart & Dennis drove the Hawks Nest Tunnel through near-pure silica rock in West Virginia without wet drilling or respirators, killing hundreds of mostly Black migrant workers from silicosis and covering it up.",
+  "summary": "In 1930-1932 Union Carbide and contractor Rinehart & Dennis drove the Hawks Nest Tunnel through near-pure silica in West Virginia without wet drilling or respirators, killing hundreds of mostly Black migrant workers from silicosis and burying many in unmarked graves.",
   "content_warnings": ["medical-horror"],
   "keywords": [
+    "Hawks Nest Tunnel",
     "Gauley Bridge",
     "Fayette County",
+    "New River",
     "silicosis",
-    "Gauley Mountain",
     "New Kanawha Power Company",
     "The Book of the Dead",
     "Martin Cherniack",
-    "Hadley White",
-    "Dewey Flack",
-    "shack rouster"
+    "Robert Lambie",
+    "Bhopal"
   ],
   "guests": ["Jason Pargin"],
   "confidence": {
     "subjects": "high",
     "roles": "high",
-    "themes": "high",
+    "themes": "medium",
     "regions": "high",
     "time": "medium"
   },
   "evidence": [
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "01:01:03",
-      "note": "groundbreaking on the tunnel at the end of March 1930"
-    },
-    {
-      "facet": "time",
-      "part": 2,
-      "at": "00:43:13",
-      "note": "tunnel finished in 1932, well ahead of the two-year target"
-    },
-    {
-      "facet": "time",
-      "part": 2,
-      "at": "00:45:50",
-      "note": "1936 House inquiry condemns the companies; respirator law follows"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:53:24",
-      "note": "segregated shacks, scrip pay and lower wages for Black workers"
-    },
-    {
-      "facet": "themes",
-      "part": 2,
-      "at": "00:22:31",
-      "note": "company doctors misdiagnose silicosis and hand out sugar-pill placebos"
-    },
-    {
-      "facet": "themes",
-      "part": 2,
-      "at": "00:12:06",
-      "note": "armed rouster deputized by the county sheriff beats sick workers; fines from staged raids"
-    },
-    {
-      "facet": "themes",
-      "part": 2,
-      "at": "00:56:37",
-      "note": "modern black lung and silica exposure failures among US coal miners"
-    },
-    {
-      "facet": "subjects",
-      "part": 2,
-      "at": "00:50:44",
-      "note": "segment on Rukeyser, her 1936 trip to Gauley Bridge and FBI surveillance"
-    }
+    { "facet": "regions", "part": 1, "at": "00:24:38", "note": "story set at Gauley Bridge, Fayette County, West Virginia, in 1930" },
+    { "facet": "subjects", "part": 1, "at": "00:35:50", "note": "Union Carbide subsidiary hires Rinehart & Dennis, contract shifts liability to the contractor" },
+    { "facet": "time", "part": 1, "at": "00:41:03", "note": "first earth turned on the tunnel on 31 March 1930" },
+    { "facet": "themes", "part": 1, "at": "00:43:17", "note": "mostly Black migrant workforce, segregated shacks and scrip pay" },
+    { "facet": "themes", "part": 1, "at": "01:00:53", "note": "dry drilling, no respirators for Black workers, crews forced into dust after blasts" },
+    { "facet": "themes", "part": 2, "at": "00:22:31", "note": "company doctors misdiagnose silicosis and hand out placebo pills" },
+    { "facet": "themes", "part": 2, "at": "00:28:18", "note": "undertaker paid per body dumps Black workers in a mass grave" },
+    { "facet": "time", "part": 2, "at": "00:37:35", "note": "lawsuits from 1932, state trials 1933-1934, mines director changes testimony" },
+    { "facet": "time", "part": 2, "at": "00:45:50", "note": "1936 House inquiry condemns the companies and a respirator law follows" },
+    { "facet": "subjects", "part": 2, "at": "00:51:16", "note": "segment on Muriel Rukeyser's investigation trip and FBI surveillance" },
+    { "facet": "time", "part": 2, "at": "00:56:37", "note": "NPR Frontline 2018 findings on today's silicosis epidemic among miners" }
   ],
-  "notes": "Primary subject is the event, so roles are empty. Opening history of silicosis and Union Carbide's 1911-1919 dam origins are background and kept out of covered_span. The 2018 NPR/Frontline segment on today's black lung epidemic is a modern parallel rather than this disaster's direct legacy, so reaches_present is false; a reviewer could argue otherwise. Death toll estimates range from 464 to about 2,000."
+  "notes": "Covered span starts at the 1930 dig; Union Carbide's 1911-1919 origins and dam get only a few minutes of setup and the ancient history of silicosis is background. End is 1938, publication of Rukeyser's Book of the Dead (general knowledge), quoted throughout. Modern miner silicosis and Union Carbide's later fate set reaches_present. medical-malpractice is light (company doctors, a few minutes). Union Carbide could arguably be co-primary."
 }

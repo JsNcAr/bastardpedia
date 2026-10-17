@@ -1,8 +1,8 @@
 {
   "story_id": "the-nazi-pedophile-cult-leader-who-murdered-santa-with-paul-f-tompkins",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -21,10 +21,10 @@
       "role": "secondary"
     },
     {
-      "name": "Augusto Pinochet",
-      "kind": "person",
-      "role": "secondary",
-      "lifespan": { "start": 1915, "end": 2006 }
+      "name": "DINA (National Intelligence Directorate)",
+      "kind": "organization",
+      "org_type": "intelligence",
+      "role": "secondary"
     },
     {
       "name": "William Branham",
@@ -33,13 +33,13 @@
       "lifespan": { "start": 1909, "end": 1965 }
     }
   ],
-  "roles": ["cult-leader", "criminal-killer"],
+  "roles": ["cult-leader", "criminal-killer", "religious-leader"],
   "themes": {
     "primary": "cults-new-religions",
     "secondary": [
       "child-abuse",
-      "authoritarianism",
       "nazism",
+      "authoritarianism",
       "intelligence-covert-ops",
       "medical-malpractice",
       "slavery-forced-labor"
@@ -53,24 +53,24 @@
     "scope": "international"
   },
   "time": {
-    "main_span": { "start": 1961, "end": 2010 },
+    "main_span": { "start": 1961, "end": 2006 },
     "covered_span": { "start": 1921, "end": 2010 },
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "Former Wehrmacht medic and lay preacher Paul Schäfer fled child-abuse charges in Germany to found Colonia Dignidad in Chile in 1961, a sealed cult where he raped children for decades and ran a torture and execution site for Pinochet's secret police.",
+  "summary": "German Nazi veteran and preacher Paul Schäfer founded Colonia Dignidad in Chile in 1961, sexually abused its children for decades and let Pinochet's secret police torture and kill dissidents there until his 2005 arrest.",
   "content_warnings": ["child-abuse", "torture", "medical-horror", "mass-atrocity"],
   "keywords": [
     "Villa Baviera",
-    "DINA",
     "Parral",
     "Boris Weisfeiler",
-    "Hartmut Hopp",
     "Luis Peebles",
-    "Jim Jones",
-    "Siegburg",
+    "Hartmut Hopp",
+    "Luis Henriquez",
+    "Augusto Pinochet",
+    "Santa Claus shooting",
     "Amnesty International report",
-    "Colonia (2015 film)"
+    "Siegburg"
   ],
   "guests": ["Paul F. Tompkins"],
   "confidence": {
@@ -81,18 +81,18 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:05:14", "note": "birth in the Siegburg/Bonn area in 1921; birthplace disputed" },
-    { "facet": "themes", "part": 1, "at": "00:19:49", "note": "postwar orphanage near Troisdorf for widows and children, used to prey on boys" },
-    { "facet": "subjects", "part": 1, "at": "00:26:12", "note": "long digression on William Branham, his healing revival and link to Jim Jones" },
-    { "facet": "time", "part": 1, "at": "00:34:40", "note": "1961 move to Chile and purchase of the ranch that became Colonia Dignidad" },
-    { "facet": "themes", "part": 1, "at": "00:50:45", "note": "members forced into twelve-hour days of hard labor; quarry and farm businesses" },
-    { "facet": "themes", "part": 1, "at": "01:00:38", "note": "colony hospital used for drugging and electroshock punishment of a captive boy" },
-    { "facet": "themes", "part": 1, "at": "01:09:58", "note": "1973 coup; colony becomes a torture site for Pinochet's DINA" },
-    { "facet": "themes", "part": 2, "at": "00:32:29", "note": "Luis Peebles tortured at the colony in 1975 with Schäfer instructing" },
-    { "facet": "themes", "part": 2, "at": "00:43:25", "note": "1980 reporting on the colony as a waystation for fugitive Nazis" },
-    { "facet": "time", "part": 2, "at": "00:59:05", "note": "1996 boarding-school rape case triggers raids; Schäfer goes underground" },
-    { "facet": "regions", "part": 2, "at": "01:06:53", "note": "Schäfer found and arrested in a gated community in Buenos Aires" },
-    { "facet": "time", "part": 2, "at": "01:09:35", "note": "dies in a prison hospital in 2010; Villa Baviera and Hopp extradition fight follow" }
+    { "facet": "time", "part": 1, "at": "00:05:14", "note": "Birth in December 1921 near Siegburg, Bonn or Troisdorf; sources disagree" },
+    { "facet": "time", "part": 2, "at": "01:08:33", "note": "Extradited to Chile in 2006 and convicted of child abuse, then weapons and torture" },
+    { "facet": "time", "part": 2, "at": "01:09:35", "note": "Dies of heart failure in a prison hospital in 2010 aged 88" },
+    { "facet": "regions", "part": 1, "at": "00:35:42", "note": "Arrives in Santiago in 1961 and buys a ranch south of the capital for the colony" },
+    { "facet": "regions", "part": 1, "at": "00:37:14", "note": "Colony land lies outside Parral in the Andean foothills, central Chile" },
+    { "facet": "regions", "part": 2, "at": "01:06:53", "note": "Tracked down and arrested in a gated community in Buenos Aires in 2005" },
+    { "facet": "subjects", "part": 1, "at": "00:26:12", "note": "Extended digression on William Branham, the US preacher Schafer followed" },
+    { "facet": "themes", "part": 1, "at": "01:10:58", "note": "After the 1973 coup the colony becomes a DINA torture and execution site" },
+    { "facet": "themes", "part": 1, "at": "01:02:11", "note": "Colony hospital used to drug captives and give electroshock torture" },
+    { "facet": "themes", "part": 2, "at": "00:15:29", "note": "Members, children included, drugged and forced into long shifts on heavy machinery" },
+    { "facet": "themes", "part": 2, "at": "00:43:25", "note": "Reports of the colony sheltering Nazi fugitives and funding links to old Nazis" },
+    { "facet": "time", "part": 2, "at": "01:11:14", "note": "Colony continues today as the tourist village Villa Baviera; victim payments discussed" }
   ],
-  "notes": "The transcript garbles several years (birth, arrest); 1921 birth and 2010 death taken from general knowledge, consistent with the stated age of 88. main_span starts at the 1961 founding of the colony, though the German orphanage abuse and 1959 warrant are also covered. CL-ML assumes Parral lies in the Maule region. Pinochet's regime is treated as authoritarianism rather than fascism-far-right."
+  "notes": "Birthplace uncertain in the transcript (Siegburg, Bonn or Troisdorf). main_span starts at the 1961 move to Chile; the German orphanage years (1950s) are covered in covered_span via the lifetime rule. Post-2010 coda on Hopp's non-extradition and Villa Baviera is short, so it sets reaches_present rather than extending covered_span. Pinochet appears via keywords rather than as a subject."
 }

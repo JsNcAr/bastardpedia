@@ -1,8 +1,8 @@
 {
   "story_id": "how-ice-is-targeting-students-for-deportation",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -24,13 +24,13 @@
       "name": "Yunseo Chung",
       "kind": "person",
       "role": "secondary",
-      "floruit": 2025
+      "lifespan": { "start": null, "end": null }
     },
     {
-      "name": "Rümeysa Öztürk",
+      "name": "Rumeysa Ozturk",
       "kind": "person",
       "role": "secondary",
-      "floruit": 2025
+      "lifespan": { "start": null, "end": null }
     },
     {
       "name": "Canary Mission",
@@ -42,12 +42,17 @@
   "roles": [],
   "themes": {
     "primary": "immigration-borders",
-    "secondary": ["policing-incarceration", "education", "tech-internet", "authoritarianism"]
+    "secondary": [
+      "policing-incarceration",
+      "protest-revolution",
+      "education",
+      "intelligence-covert-ops"
+    ]
   },
   "regions": {
     "origin": ["US"],
     "setting": ["US"],
-    "subdivisions": ["US-NY"],
+    "subdivisions": [],
     "polities": [],
     "scope": "national"
   },
@@ -57,83 +62,71 @@
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "In spring 2025 ICE and the State Department detained or revoked the status of foreign students and scholars in the US over pro-Palestine protest, op-eds or doxing-site profiles, using a Cold War foreign-policy statute rather than criminal charges.",
+  "summary": "In March 2025, ICE and the State Department began arresting and revoking the visas and green cards of foreign students and scholars across the US over pro-Palestine protest and speech, often using targets named by doxing sites.",
   "content_warnings": [],
   "keywords": [
     "Columbia University",
-    "Ranjani Srinivasan",
-    "Momodou Taal",
-    "Badar Khan Suri",
-    "Betar",
+    "Tufts University",
+    "Georgetown University",
+    "Cornell University",
     "Marco Rubio",
-    "Kristi Noem",
-    "Alireza Doroudi",
-    "social media vetting",
+    "Badar Khan Suri",
+    "Momodou Taal",
+    "Ranjani Srinivasan",
+    "Betar",
     "self-deportation"
   ],
   "guests": ["Garrison Davis", "James Stout"],
   "confidence": {
-    "subjects": "high",
+    "subjects": "medium",
     "roles": "high",
-    "themes": "high",
+    "themes": "medium",
     "regions": "high",
     "time": "high"
   },
   "evidence": [
     {
-      "facet": "subjects",
+      "facet": "time",
       "part": 1,
-      "at": "00:00:38",
-      "note": "Khalil arrested by plainclothes ICE agents at his Columbia building in March 2025"
+      "at": "00:00:33",
+      "note": "Khalil arrested by ICE at Columbia housing in March 2025, the opening case"
     },
     {
       "facet": "time",
       "part": 1,
       "at": "00:02:03",
-      "note": "Khalil's role in the 2024 campus encampment protests, the earliest period discussed at length"
+      "note": "Khalil's role in the 2024 campus encampment protests as background to his targeting"
     },
     {
       "facet": "subjects",
       "part": 1,
       "at": "00:06:40",
-      "note": "long segment on Chung, a green card holder, going into hiding and suing"
-    },
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:12:25",
-      "note": "Cornell's failed 2024 attempt to revoke Taal's visa"
+      "note": "Chung, a green card holder from South Korea, hides and sues to stop her deportation"
     },
     {
       "facet": "themes",
       "part": 1,
       "at": "00:14:25",
-      "note": "State Department social media screening directive for student visas (tech-internet)"
+      "note": "State Department directive ordering social media screening of student visa holders"
     },
     {
       "facet": "subjects",
       "part": 1,
       "at": "00:22:06",
-      "note": "Canary Mission's doxing profiles used to pick deportation targets"
+      "note": "Canary Mission doxing profiles described as a source of ICE targets"
     },
     {
       "facet": "subjects",
       "part": 1,
       "at": "00:23:09",
-      "note": "Ozturk seized on the street after an op-ed earned her a Canary Mission profile"
+      "note": "Ozturk seized on a street after co-writing a student op-ed, sent to Louisiana detention"
     },
     {
       "facet": "themes",
       "part": 1,
-      "at": "00:02:33",
-      "note": "detention in Louisiana without charges (policing-incarceration)"
-    },
-    {
-      "facet": "regions",
-      "part": 1,
-      "at": "00:04:18",
-      "note": "three of the main cases centre on Columbia in New York; others in MA, VA, AL, MN, IL"
+      "at": "00:30:59",
+      "note": "Southern Illinois University advises international students to avoid protests"
     }
   ],
-  "notes": "This is an It Could Happen Here episode (Garrison Davis, James Stout) in the BtB feed, so crossover could apply by precedence, but formats.yaml names this exact title as a current-affairs example, so current-affairs was used. ICE is primary; no person is primary, so roles are empty. Lifespans: Khalil's birth year (1995) from general knowledge; Chung and Ozturk given floruit only."
+  "notes": "Format: this is an It Could Happen Here episode (Garrison Davis, James Stout) republished in the BtB feed, which could read as crossover, but formats.yaml names this exact title as a current-affairs example, so I followed that. ICE is the primary subject, so roles stay empty. Ozturk's and Chung's birth years are not stated in the packet (Chung is 21), so their starts are null."
 }

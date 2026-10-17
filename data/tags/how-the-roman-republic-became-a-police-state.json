@@ -1,8 +1,8 @@
 {
   "story_id": "how-the-roman-republic-became-a-police-state",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -14,15 +14,10 @@
       "role": "primary"
     },
     {
-      "name": "Gracchi brothers",
-      "kind": "group",
-      "role": "secondary"
-    },
-    {
-      "name": "Publius Clodius Pulcher",
+      "name": "Tiberius Gracchus",
       "kind": "person",
       "role": "secondary",
-      "lifespan": { "start": -93, "end": -52 }
+      "lifespan": { "start": -163, "end": -133 }
     },
     {
       "name": "Augustus",
@@ -35,46 +30,52 @@
       "kind": "organization",
       "org_type": "military",
       "role": "secondary"
+    },
+    {
+      "name": "Vigiles",
+      "kind": "organization",
+      "org_type": "police",
+      "role": "secondary"
     }
   ],
   "roles": [],
   "themes": {
     "primary": "policing-incarceration",
     "secondary": [
-      "authoritarianism",
+      "inequality-class",
       "electoral-politics",
+      "terrorism",
       "civil-war",
-      "slavery-forced-labor",
-      "intelligence-covert-ops",
-      "war-war-crimes"
+      "authoritarianism",
+      "intelligence-covert-ops"
     ]
   },
   "regions": {
     "origin": ["IT"],
     "setting": ["IT", "ES"],
-    "subdivisions": [],
+    "subdivisions": ["IT-RM"],
     "polities": ["roman-republic", "roman-empire"],
     "scope": "national"
   },
   "time": {
-    "main_span": { "start": -133, "end": 6 },
+    "main_span": { "start": -133, "end": 14 },
     "covered_span": { "start": -509, "end": 193 },
     "reaches_present": false,
     "approximate": true
   },
-  "summary": "How the Roman Republic's elite, by murdering the Gracchi in 133 BCE, opened a century of street-gang politics and civil war that ended with Augustus creating Rome's militarized police, secret police and the Praetorian Guard.",
-  "content_warnings": ["suicide-self-harm", "graphic-violence"],
+  "summary": "How the Roman Republic slid from the 509 BCE expulsion of its kings through land inequality, the murder of the Gracchi, gang warfare and civil war, until Augustus built riot police, secret police and a Praetorian Guard that later made and killed emperors.",
+  "content_warnings": ["slavery"],
   "keywords": [
-    "Lucretia",
-    "Twelve Tables",
-    "mos maiorum",
-    "Gaius Marius",
+    "Gaius Gracchus",
     "Sulla",
-    "Titus Annius Milo",
-    "Marcus Licinius Crassus",
-    "urban cohorts",
-    "vigiles",
-    "frumentarii"
+    "Gaius Marius",
+    "Clodius",
+    "Milo",
+    "Urban cohorts",
+    "Frumentarii",
+    "Twelve Tables",
+    "Lucretia",
+    "mos maiorum"
   ],
   "guests": ["Andrew Ti"],
   "confidence": {
@@ -85,18 +86,60 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:13:08", "note": "Last king Tarquin and the Lucretia story leading to the revolt" },
-    { "facet": "time", "part": 1, "at": "00:19:20", "note": "Republic founded 509 BCE after the last king is expelled" },
-    { "facet": "themes", "part": 1, "at": "00:50:54", "note": "Public land absorbed by rich estates worked by slaves, veterans dispossessed" },
-    { "facet": "subjects", "part": 1, "at": "00:56:05", "note": "Tiberius Gracchus introduced; his land reform drives the rest of part one" },
-    { "facet": "regions", "part": 1, "at": "01:01:14", "note": "Tiberius negotiates the truce at Numantia in northern Spain" },
-    { "facet": "themes", "part": 1, "at": "01:17:29", "note": "Senate-backed mob kills Tiberius and hundreds of followers" },
-    { "facet": "themes", "part": 2, "at": "00:11:00", "note": "Civil war between Marius and Sulla, proscriptions and mass killings" },
-    { "facet": "subjects", "part": 2, "at": "00:21:00", "note": "Clodius builds a political street gang; feud with Milo ends in 52 BCE" },
-    { "facet": "themes", "part": 2, "at": "00:40:12", "note": "Augustus disarms the city and creates the urban cohorts and vigiles" },
-    { "facet": "themes", "part": 2, "at": "00:45:57", "note": "Police force enables execution of a whole slave household under Nero" },
-    { "facet": "themes", "part": 2, "at": "00:50:06", "note": "Frumentarii turned into a secret police and spy service" },
-    { "facet": "time", "part": 2, "at": "01:02:09", "note": "Praetorians auction the throne after Commodus; Severus replaces the guard, 193" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:19:20",
+      "note": "Tarquin expelled and republic founded in 509 BCE; early constitution follows at length"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:56:05",
+      "note": "long Tiberius Gracchus segment begins: birth, Numantia, land reform, murder"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:01:14",
+      "note": "Tiberius negotiates the Numantia truce in northern Spain"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:50:24",
+      "note": "public land seized by the rich and worked by slaves; dispossessed veterans"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:20:29",
+      "note": "professional political street gangs of Clodius and Milo; daily assassinations"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:11:00",
+      "note": "Marius and Sulla civil war, Sulla's proscriptions and dictatorship"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:40:12",
+      "note": "Augustus founds the urban cohorts, the first standing police in Rome"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:50:37",
+      "note": "frumentarii turned into imperial secret police and assassins"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:02:09",
+      "note": "Praetorians auction the throne after Commodus; Septimius Severus replaces them (193 CE)"
+    }
   ],
-  "notes": "Transcript calls Clodius 'Claudius' (and notes the spelling change); named here as Publius Clodius Pulcher. Founding myths (753 BCE) treated as background; covered span starts at the 509 BCE revolt. Covered end set to 193 (Severus remakes the guard); the brief quote on later frumentarii and agentes in rebus is too short to extend it. No subject kind fits a polity well, so the primary is the fall of the Republic as an event."
+  "notes": "No primary person, so roles empty. Covered span starts at the republic's founding, which gets ~10 minutes; end set at 193 CE (Praetorian auction and Severus), the last period with real airtime; a brief quote reaching Diocletian and Julian was left out. Lucretia's rape and suicide get ~3 minutes but not a detailed account, so no warning. Modern US comparisons are commentary, not covered years."
 }

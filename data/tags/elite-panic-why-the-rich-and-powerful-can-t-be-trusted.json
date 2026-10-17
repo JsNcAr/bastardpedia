@@ -1,6 +1,6 @@
 {
   "story_id": "elite-panic-why-the-rich-and-powerful-can-t-be-trusted",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
     "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
@@ -22,7 +22,6 @@
       "name": "Juan Pío Paiva",
       "kind": "person",
       "role": "secondary",
-      "lifespan": { "start": null, "end": null },
       "floruit": 2004
     },
     {
@@ -38,8 +37,13 @@
   ],
   "roles": [],
   "themes": {
-    "primary": "moral-panics",
-    "secondary": ["corporate-malfeasance", "policing-incarceration", "propaganda-media"]
+    "primary": "disasters",
+    "secondary": [
+      "corporate-malfeasance",
+      "inequality-class",
+      "policing-incarceration",
+      "moral-panics"
+    ]
   },
   "regions": {
     "origin": ["US"],
@@ -49,76 +53,94 @@
     "scope": "international"
   },
   "time": {
-    "main_span": { "start": 1906, "end": 2008 },
+    "main_span": { "start": 1906, "end": 2004 },
     "covered_span": { "start": 1906, "end": 2008 },
-    "reaches_present": false,
+    "reaches_present": true,
     "approximate": false
   },
-  "summary": "An episode on elite panic, the tendency of people in power to fear ordinary people in disasters, told through the 2004 Ycua Bolanos supermarket fire in Paraguay, where exits were locked, and the armed crackdowns after the San Francisco and Anchorage earthquakes.",
+  "summary": "Survey of elite panic, the pattern of owners and authorities endangering people during disasters out of fear of the public, from the 2004 Ycuá Bolaños fire in Paraguay to the 1906 San Francisco and 1964 Alaska earthquakes.",
   "content_warnings": ["child-death", "graphic-violence"],
   "keywords": [
-    "Ycua Bolanos",
-    "Asuncion",
+    "Asunción",
     "Victor Daniel Paiva",
     "Frederick Funston",
     "Eugene Schmitz",
-    "Rebecca Solnit",
     "A Paradise Built in Hell",
+    "Rebecca Solnit",
+    "Lee Clarke",
+    "Paul Piff",
     "Hurricane Katrina",
-    "Lee Clarke and Caron Chess",
     "Anchorage"
   ],
   "guests": ["Jamie Loftus"],
   "confidence": {
     "subjects": "medium",
     "roles": "high",
-    "themes": "low",
-    "regions": "high",
+    "themes": "high",
+    "regions": "medium",
     "time": "medium"
   },
   "evidence": [
     {
-      "facet": "time",
+      "facet": "subjects",
       "part": 1,
-      "at": "00:14:15",
-      "note": "Supermarket fire in August 2004 after years of gas building up in the roof"
-    },
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:37:50",
-      "note": "Retrial after riots raises sentences for owner, son and guard; retrial year from outside knowledge"
+      "at": "00:03:44",
+      "note": "Paiva's rise from butcher to supermarket owner opens the episode"
     },
     {
       "facet": "themes",
       "part": 1,
+      "at": "00:16:20",
+      "note": "son orders exits barred so no one leaves without paying while the store burns"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:36:20",
+      "note": "2006 verdicts, riots and later retrial with longer sentences"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:18:29",
+      "note": "segment on studies showing wealth reduces empathy and raises entitlement"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
       "at": "00:40:59",
-      "note": "Host names elite panic, a phenomenon rather than a person, as the episode's real subject"
+      "note": "host states the true subject is the phenomenon of elite panic, coined by sociologists"
     },
     {
       "facet": "time",
       "part": 1,
       "at": "00:45:41",
-      "note": "1906 San Francisco earthquake and mutual aid segment begins"
+      "note": "1906 San Francisco earthquake and fire segment begins"
     },
     {
       "facet": "themes",
       "part": 1,
-      "at": "00:54:33",
-      "note": "General Funston imposes martial law; mayor authorises shooting of supposed looters"
+      "at": "00:55:04",
+      "note": "Funston imposes martial law; mayor authorizes troops to shoot looters"
     },
     {
       "facet": "themes",
       "part": 1,
       "at": "01:01:56",
-      "note": "Katrina: officials and media spread false violence rumours that delayed rescues"
+      "note": "officials and media spread false Katrina violence rumors, delaying rescues"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:04:00",
+      "note": "brief move to de Blasio and early Covid as a present-day example"
     },
     {
       "facet": "time",
       "part": 1,
       "at": "01:06:03",
-      "note": "Anchorage earthquake segment; police deputise drunk volunteers and halt survivor search"
+      "note": "Alaska earthquake: police deputize drunk volunteers and halt survivor search"
     }
   ],
-  "notes": "Primary subject is a concept, not a person; no theme exists for disaster response, so moral-panics (elites fearing an exaggerated mob threat) is the closest fit. Host dates the Alaska quake to 1962; it was 1964. The Paraguay retrial verdict (2008) is not dated in the transcript. Paiva's birth year is not clearly stated, so floruit is used. COVID and de Blasio get only a brief mention."
+  "notes": "Primary subject is a concept; movement-or-ideology is the closest kind. Transcript dates the Alaska quake to March 1962 (magnitude 9.2); it was 1964, used here. Origin US = where the term was coined. Paiva's birth year not given, so floruit 2004. Covered span ends at the Paraguay retrial (2008); Katrina 2005 and Covid 2020 are short instances, the latter setting reaches_present. PY ranked first as the centrepiece harm though US airtime is similar."
 }

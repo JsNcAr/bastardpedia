@@ -1,119 +1,149 @@
 {
   "story_id": "the-story-behind-all-those-nazi-clown-memes",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
   "format": "deep-dive",
   "subjects": [
     {
+      "name": "Anti-fascist clown counter-protests",
+      "kind": "practice-or-pseudoscience",
+      "role": "primary"
+    },
+    {
       "name": "Honkler and Clown World memes",
       "kind": "movement-or-ideology",
       "role": "primary"
     },
     {
-      "name": "Anti-fascist clown protests",
-      "kind": "movement-or-ideology",
+      "name": "Clandestine Insurgent Rebel Clown Army",
+      "kind": "organization",
+      "org_type": "political-org",
       "role": "secondary"
     },
     {
-      "name": "James Woods",
-      "kind": "person",
-      "role": "secondary",
-      "lifespan": { "start": 1947, "end": null }
+      "name": "National Socialist Movement",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Nordic Resistance Movement",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
     }
   ],
   "roles": [],
   "themes": {
     "primary": "fascism-far-right",
-    "secondary": ["nazism", "tech-internet", "racism-white-supremacy", "propaganda-media"]
+    "secondary": [
+      "nazism",
+      "protest-revolution",
+      "tech-internet",
+      "propaganda-media",
+      "racism-white-supremacy"
+    ]
   },
   "regions": {
-    "origin": ["US"],
-    "setting": ["US", "SE", "GB", "FI"],
+    "origin": ["GB", "US"],
+    "setting": ["US", "SE", "GB"],
     "subdivisions": [],
     "polities": [],
     "scope": "international"
   },
   "time": {
-    "main_span": { "start": 2017, "end": 2019 },
+    "main_span": { "start": 2005, "end": 2019 },
     "covered_span": { "start": 2003, "end": 2019 },
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "Traces how anti-fascist activists used clown costumes to mock neo-Nazi rallies from 2003 onward, and how in 2019 far-right internet users turned the Honkler and Clown World memes into nihilist, antisemitic dog whistles that spread to mainstream figures and street rallies.",
+  "summary": "Traces how activists from 2003 onward mocked neo-Nazi marches by dressing as clowns, and how by 2019 the far right turned clowns into its own antisemitic Honkler and Clown World memes, spread from 4chan to celebrities and street rallies.",
   "content_warnings": ["hate-speech"],
   "keywords": [
     "Honkler",
     "Clown World",
-    "Honk pill",
     "Operation Honk",
+    "honk pill",
     "4chan",
-    "8chan",
-    "Clandestine Insurgent Rebel Clown Army",
-    "National Socialist Movement",
+    "James Woods",
+    "Alex Jones",
     "Boston Straight Pride Parade",
-    "InfoWars"
+    "Joey Gibson",
+    "white flower"
   ],
-  "guests": ["Katy Stoll", "Cody Johnston"],
+  "guests": ["Cody Johnston", "Katy Stoll"],
   "confidence": {
     "subjects": "medium",
     "roles": "high",
     "themes": "medium",
-    "regions": "medium",
-    "time": "medium"
+    "regions": "high",
+    "time": "high"
   },
   "evidence": [
     {
       "facet": "time",
       "part": 1,
       "at": "00:04:41",
-      "note": "Clown activism history starts with a UK clown army formed in 2003, active in Edinburgh"
+      "note": "organised protest clowning traced to a UK clown army formed in 2003"
     },
     {
       "facet": "regions",
       "part": 1,
       "at": "00:06:13",
-      "note": "2005 Olympia, 2007 Knoxville and 2012 Charlotte neo-Nazi rallies met by clown counter-protesters"
+      "note": "2005 clown counter-protest of a neo-Nazi rally in Olympia, Washington"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:06:45",
+      "note": "2007 Knoxville clown block; 2012 Charlotte rally follows"
     },
     {
       "facet": "regions",
       "part": 1,
       "at": "00:08:53",
-      "note": "Swedish Nordic Resistance Movement rallies met by clowns, inspired by Finnish clowns vs Soldiers of Odin"
+      "note": "Swedish neo-Nazi marches met by clown activists in 2017 and 2018"
     },
     {
-      "facet": "time",
+      "facet": "themes",
       "part": 1,
       "at": "00:19:29",
-      "note": "Honkler appears on 4chan in early 2019, followed by a coordinated campaign to spread it"
+      "note": "origin of the Honkler meme on 4chan in early 2019 and its use as a Nazi dog whistle"
     },
     {
-      "facet": "subjects",
+      "facet": "themes",
       "part": 1,
       "at": "00:23:12",
-      "note": "Extended segment on James Woods sharing a Honkler image traced from the Christchurch shooter"
+      "note": "actor shares a Honkler image traced over the Christchurch shooter"
     },
     {
       "facet": "time",
       "part": 1,
       "at": "00:33:45",
-      "note": "Clown World term found in 2017 far-right Discord chats tied to Unite the Right organisers"
+      "note": "Clown World term found in 2017 far-right chat logs"
     },
     {
-      "facet": "content_warnings",
+      "facet": "time",
       "part": 1,
-      "at": "00:35:18",
-      "note": "Host reads out slur-filled chan and Discord posts at length"
+      "at": "00:38:24",
+      "note": "Proud Boys in clown face at a 2019 Albany rally"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:39:55",
+      "note": "Infowars adopts Clown World branding for debate coverage"
     },
     {
       "facet": "time",
       "part": 1,
       "at": "00:42:01",
-      "note": "Story ends with the September 2019 Boston Straight Pride Parade and clowns on both sides"
+      "note": "September 2019 Boston straight pride parade with Honkler costumes"
     }
   ],
-  "notes": "No theme for memes or internet subculture beyond tech-internet. Primary theme chosen as fascism-far-right since the meme spans the broader far right, with nazism secondary for the explicitly neo-Nazi groups and chan origins. Main span 2017-2019 covers the Clown World term through the Honkler spread; earlier clown protests are context for the reversal."
+  "notes": "No single bastard; both halves of the episode (clown activism, then the far-right clown memes) share equal weight, so two primary subjects. fascism-far-right chosen as primary over nazism because the meme spread across the wider far right (Proud Boys, Infowars, straight pride); explicitly neo-Nazi groups keep nazism secondary. Finland mentioned only briefly, left out of setting."
 }

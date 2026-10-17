@@ -1,8 +1,8 @@
 {
   "story_id": "the-rush-limbaugh-episodes-with-paul-f-tompkins",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -21,7 +21,7 @@
       "lifespan": { "start": 1940, "end": 2017 }
     },
     {
-      "name": "Rush Limbaugh (TV series)",
+      "name": "Rush Limbaugh (TV program)",
       "kind": "media-work",
       "role": "secondary"
     }
@@ -33,9 +33,9 @@
       "racism-white-supremacy",
       "electoral-politics",
       "religious-right-culture-war",
+      "anti-lgbtq",
       "misogyny-manosphere",
       "drugs",
-      "conspiracy-theories",
       "fascism-far-right"
     ]
   },
@@ -52,19 +52,19 @@
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "American radio host Rush Limbaugh rose from Missouri DJ to the most influential conservative voice in the US from the late 1980s until his 2021 death, spreading racist, misogynist and conspiratorial rhetoric that reshaped the Republican right.",
+  "summary": "Missouri-born radio host Rush Limbaugh rose from DJ jobs to national conservative talk radio in 1988, spending three decades spreading racist, misogynist and anti-gay attacks and conspiracy theories that reshaped the Republican right.",
   "content_warnings": ["hate-speech"],
   "keywords": [
-    "The Rush Limbaugh Show",
     "EIB Network",
     "Dittoheads",
-    "Feminazi",
-    "AIDS Update",
     "Fairness Doctrine",
+    "Murphy Brown",
+    "AIDS Update",
     "Cape Girardeau",
     "KFBK Sacramento",
-    "Murphy Brown",
-    "Morton Downey Jr."
+    "Morton Downey Jr.",
+    "Vince Foster",
+    "Fox News"
   ],
   "guests": ["Paul F. Tompkins"],
   "confidence": {
@@ -75,18 +75,18 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:11:36", "note": "born in Cape Girardeau, Missouri, January 1951" },
-    { "facet": "time", "part": 1, "at": "00:53:03", "note": "hired in Sacramento to replace Morton Downey Jr.; start of right-wing persona" },
-    { "facet": "time", "part": 1, "at": "01:07:45", "note": "moves to New York and launches the national show in 1988" },
-    { "facet": "themes", "part": 1, "at": "01:14:35", "note": "AIDS Update segment mocking gay men dying of AIDS" },
-    { "facet": "themes", "part": 2, "at": "00:01:35", "note": "end of the Fairness Doctrine as precondition for his national career" },
-    { "facet": "themes", "part": 2, "at": "00:19:57", "note": "TV show produced with Roger Ailes, framed as test run for Fox News" },
-    { "facet": "themes", "part": 2, "at": "00:10:03", "note": "misogynist bits and anti-feminist rhetoric discussed at length" },
-    { "facet": "themes", "part": 2, "at": "00:48:48", "note": "opioid addiction scandal 2003-2006 versus his drug-war rhetoric" },
-    { "facet": "themes", "part": 2, "at": "00:52:58", "note": "extended run of racist on-air bits and quotes" },
-    { "facet": "themes", "part": 2, "at": "01:04:22", "note": "courted by Bush, role in the 1994 Republican Revolution" },
-    { "facet": "themes", "part": 2, "at": "01:05:59", "note": "pushes Vince Foster murder conspiracy and mainstreams fringe theories" },
-    { "facet": "themes", "part": 2, "at": "01:27:26", "note": "neo-Nazi podcasters mourn him; host argues he prepared the right for fascism" }
+    { "facet": "time", "part": 1, "at": "00:11:36", "note": "Born in Cape Girardeau, Missouri, January 1951" },
+    { "facet": "time", "part": 1, "at": "00:53:03", "note": "Hired at KFBK Sacramento after Downey's firing; start of his right-wing persona" },
+    { "facet": "themes", "part": 1, "at": "01:14:35", "note": "AIDS Update segment mocking gay men dying in the epidemic" },
+    { "facet": "themes", "part": 2, "at": "00:10:03", "note": "Misogynist bits and the feminazi framing of women's groups" },
+    { "facet": "themes", "part": 2, "at": "00:25:13", "note": "TV show attacks Murphy Brown over single mothers and gay characters as family values" },
+    { "facet": "subjects", "part": 2, "at": "00:35:15", "note": "Ailes produces the TV show, framed as a test run for Fox News" },
+    { "facet": "themes", "part": 2, "at": "00:48:48", "note": "Opioid addiction, housekeeper informant in 2003, plea deal in 2006" },
+    { "facet": "themes", "part": 2, "at": "00:53:29", "note": "Long run of racist on-air remarks about Black people, athletes and Africa" },
+    { "facet": "themes", "part": 2, "at": "01:04:22", "note": "Courted by Bush, co-leads the 1994 Republican takeover of Congress" },
+    { "facet": "content_warnings", "part": 2, "at": "01:15:14", "note": "Racist parody song about Obama played in full, plus further slurs" },
+    { "facet": "time", "part": 2, "at": "01:25:51", "note": "Last show February 2021, death from lung cancer weeks later" },
+    { "facet": "themes", "part": 2, "at": "01:27:26", "note": "Neo-Nazi podcasters mourn him as the man who made their careers possible" }
   ],
-  "notes": "main_span starts in 1984 with the Sacramento KFBK job (year from general knowledge; transcript says mid-1980s) and ends with his February 2021 death. Grandfather Rush Sr. and Missouri family background get only a few minutes, so covered_span follows the lifetime rule from 1951. Climate denial and Covid denial get brief mentions only, so environmental-destruction and public-health were left out."
+  "notes": "Grandfather and father covered only as brief family background (1930s politics), so covered_span starts at Limbaugh's birth. main_span starts with the 1984 Sacramento job where his political persona began; national syndication followed in 1988. reaches_present for the post-death reactions up to release."
 }

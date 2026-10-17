@@ -1,8 +1,8 @@
 {
   "story_id": "frank-lorenzo-the-man-who-ruined-air-travel",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -27,22 +27,22 @@
       "role": "secondary"
     },
     {
-      "name": "Alvin Feldman",
-      "kind": "person",
-      "role": "secondary",
-      "lifespan": { "start": null, "end": 1981 }
-    },
-    {
       "name": "Eastern Air Lines",
       "kind": "organization",
       "org_type": "company",
       "role": "secondary"
+    },
+    {
+      "name": "Alvin Feldman",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": 1981 }
     }
   ],
   "roles": ["business-executive", "financier-investor"],
   "themes": {
     "primary": "labor-exploitation",
-    "secondary": ["corporate-malfeasance", "finance-crypto"]
+    "secondary": ["corporate-malfeasance", "finance-crypto", "protest-revolution", "fraud-grift"]
   },
   "regions": {
     "origin": ["US"],
@@ -54,20 +54,20 @@
   "time": {
     "main_span": { "start": 1972, "end": 1990 },
     "covered_span": { "start": 1940, "end": 2023 },
-    "reaches_present": false,
+    "reaches_present": true,
     "approximate": false
   },
-  "summary": "American airline executive Frank Lorenzo took over Texas International, Continental and Eastern from the 1970s, using strikes, scab labor and a 1983 bankruptcy to break airline unions and cut pay, until his empire collapsed in 1990.",
+  "summary": "Corporate raider Frank Lorenzo bought up struggling US airlines from 1972, broke their unions through lockouts, scab labor and a Chapter 11 filing used to void contracts, and helped create today's tiered, cut-rate air travel.",
   "content_warnings": ["suicide-self-harm"],
   "keywords": [
     "Texas Air Corporation",
-    "Jet Capital Corporation",
-    "Airline Deregulation Act",
     "peanut fares",
+    "Airline Deregulation Act",
     "Chapter 11 bankruptcy",
+    "PATCO strike",
     "People Express",
     "Donald Burr",
-    "1981 air traffic controllers strike",
+    "Jet Capital Corporation",
     "Robert Six",
     "corporate raiders"
   ],
@@ -80,54 +80,18 @@
     "time": "medium"
   },
   "evidence": [
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:05:20",
-      "note": "Lorenzo's birth in New York City in 1940 opens the biography"
-    },
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:47:29",
-      "note": "elected president and CEO of Texas International in August 1972, start of main span"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:50:28",
-      "note": "ground workers strike at Texas International from December 1974 and his refusal to concede"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:39:29",
-      "note": "extended segment on corporate raiders and private equity as his peer group"
-    },
-    {
-      "facet": "subjects",
-      "part": 2,
-      "at": "00:08:08",
-      "note": "Continental unions and CEO Feldman try an employee buyout to block the takeover"
-    },
-    {
-      "facet": "subjects",
-      "part": 2,
-      "at": "00:11:02",
-      "note": "Feldman's suicide after the buyout financing collapses in 1981"
-    },
-    {
-      "facet": "themes",
-      "part": 2,
-      "at": "00:33:18",
-      "note": "plan to use Chapter 11 bankruptcy to void union contracts at Continental"
-    },
-    {
-      "facet": "time",
-      "part": 2,
-      "at": "00:47:05",
-      "note": "1989 Eastern machinists strike, sympathy strikes, collapse and ban from the airline industry"
-    }
+    { "facet": "time", "part": 1, "at": "00:05:20", "note": "born in New York City in 1940" },
+    { "facet": "time", "part": 1, "at": "00:47:29", "note": "elected president and CEO of Texas International in 1972" },
+    { "facet": "themes", "part": 1, "at": "00:50:28", "note": "1974 ground workers strike at TI; four-month shutdown until the union folds" },
+    { "facet": "themes", "part": 1, "at": "00:20:07", "note": "caught double voting in a rigged Columbia student election" },
+    { "facet": "content_warnings", "part": 2, "at": "00:11:32", "note": "Continental CEO Feldman's suicide after the employee buyout collapses" },
+    { "facet": "themes", "part": 2, "at": "00:33:18", "note": "plan to file Chapter 11 to void union contracts at Continental" },
+    { "facet": "themes", "part": 2, "at": "00:38:39", "note": "1983 strike turns violent: pipe bombs, police leaking striker data" },
+    { "facet": "themes", "part": 2, "at": "00:40:28", "note": "company-loaned stock deal pays him far more than his cut salary" },
+    { "facet": "themes", "part": 2, "at": "00:43:34", "note": "free-flight favours to an Australian governor; bankruptcy judge joins his law firm" },
+    { "facet": "subjects", "part": 2, "at": "00:44:56", "note": "takeover of Eastern and its abusive treatment of unionized staff" },
+    { "facet": "time", "part": 2, "at": "00:47:05", "note": "1989 Eastern machinists strike, sympathy strikes, collapse of his empire" },
+    { "facet": "time", "part": 2, "at": "00:48:05", "note": "forced out of airlines; later bid for a new carrier refused" }
   ],
-  "notes": "Lorenzo was alive at release, so the lifetime rule sets covered_span end to 2023. Early aviation history (Robert Six, Rickenbacker, CAB regulation) is background and does not extend covered_span. No theme for deregulation or transport policy; finance-crypto stands in for corporate raiding. Feldman's birth year is not given; the transcript only says he was 53."
+  "notes": "Lifetime rule gives covered_span 1940-2023 though post-1990 life is a brief coda. reaches_present set from the framing that modern fare tiers and industry consolidation are his legacy; borderline. Feldman birth year not stated, left null. Short Robert Six and Rickenbacker background not counted. No theme for transport or deregulation."
 }

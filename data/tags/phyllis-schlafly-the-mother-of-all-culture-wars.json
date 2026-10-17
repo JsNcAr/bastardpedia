@@ -1,8 +1,8 @@
 {
   "story_id": "phyllis-schlafly-the-mother-of-all-culture-wars",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -33,16 +33,17 @@
       "role": "secondary"
     }
   ],
-  "roles": ["activist-organizer", "writer-intellectual", "political-operative"],
+  "roles": ["activist-organizer", "political-operative", "writer-intellectual"],
   "themes": {
     "primary": "religious-right-culture-war",
     "secondary": [
       "misogyny-manosphere",
       "electoral-politics",
+      "anti-lgbtq",
       "conspiracy-theories",
       "racism-white-supremacy",
-      "propaganda-media",
-      "weapons-arms-trade"
+      "weapons-arms-trade",
+      "propaganda-media"
     ]
   },
   "regions": {
@@ -58,95 +59,41 @@
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "St. Louis-born conservative activist Phyllis Schlafly, a secret John Birch Society member, used propaganda and a housewife lobbying network to defeat the Equal Rights Amendment and turn anti-feminism, anti-gay politics and abortion into lasting Republican culture wars.",
+  "summary": "American conservative activist Phyllis Schlafly, a secret John Birch Society member, helped push the Republican Party rightward from the 1950s, led the campaign that defeated the Equal Rights Amendment and built anti-feminist, anti-gay culture-war politics.",
   "content_warnings": [],
   "keywords": [
     "Equal Rights Amendment",
     "STOP ERA",
     "A Choice Not an Echo",
-    "Chester Ward",
-    "Robert Welch",
-    "1964 Republican National Convention",
     "Moral Majority",
-    "Paul Weyrich",
-    "American Enterprise Association",
-    "Betty Friedan"
+    "Chester Ward",
+    "Nelson Rockefeller",
+    "1964 Republican National Convention",
+    "Betty Friedan",
+    "Fred Schlafly",
+    "St. Louis"
   ],
   "guests": ["Teresa Lee"],
   "confidence": {
     "subjects": "high",
     "roles": "high",
-    "themes": "medium",
+    "themes": "high",
     "regions": "high",
     "time": "medium"
   },
   "evidence": [
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:08:50",
-      "note": "birth in St. Louis; year garbled in transcript, 1924 from known record"
-    },
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:50:35",
-      "note": "first run for Congress and upset primary win, start of her political career"
-    },
-    {
-      "facet": "time",
-      "part": 2,
-      "at": "01:02:32",
-      "note": "death at 92 shortly after endorsing Trump at a St. Louis rally"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:54:13",
-      "note": "partnership with Admiral Chester Ward pushing nuclear superiority and first-strike capability"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "01:15:05",
-      "note": "letters show she was a secret John Birch Society member from 1959"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "01:17:39",
-      "note": "leads 1960 convention revolt against an anti-segregation platform plank"
-    },
-    {
-      "facet": "themes",
-      "part": 2,
-      "at": "00:08:26",
-      "note": "Birch Society bulk-bought and distributed her Goldwater book via a front publisher"
-    },
-    {
-      "facet": "themes",
-      "part": 2,
-      "at": "00:17:23",
-      "note": "founds STOP ERA and organizes housewives against the amendment"
-    },
-    {
-      "facet": "themes",
-      "part": 2,
-      "at": "00:47:36",
-      "note": "anti-gay campaigning, opposition to AIDS education in the 1980s"
-    },
-    {
-      "facet": "time",
-      "part": 2,
-      "at": "00:56:55",
-      "note": "1996 deal with Buchanan to lock a no-exceptions abortion plank into the GOP platform"
-    },
-    {
-      "facet": "time",
-      "part": 2,
-      "at": "00:58:27",
-      "note": "legacy traced to abortion polling and opinion shifts up to release"
-    }
+    { "facet": "time", "part": 1, "at": "00:08:50", "note": "Birth in St. Louis and family background; covered span starts at her birth" },
+    { "facet": "time", "part": 1, "at": "00:41:13", "note": "Runs Claude Bakewell's 1946 congressional campaign, her first political job" },
+    { "facet": "time", "part": 1, "at": "00:50:35", "note": "Own congressional run and upset primary win; treated as start of her consequential career" },
+    { "facet": "themes", "part": 1, "at": "00:54:13", "note": "Partnership with Admiral Ward, books urging nuclear superiority and first-strike capability" },
+    { "facet": "subjects", "part": 1, "at": "01:07:13", "note": "Long segment on the John Birch Society, its founder and its conspiracy worldview" },
+    { "facet": "subjects", "part": 1, "at": "01:15:35", "note": "Letters show her John Birch Society membership from 1959, later kept secret" },
+    { "facet": "subjects", "part": 1, "at": "01:18:40", "note": "Extended background on Barry Goldwater and his anti-integration politics" },
+    { "facet": "themes", "part": 2, "at": "00:08:26", "note": "John Birch Society bulk-bought her 1964 book to distribute as propaganda" },
+    { "facet": "themes", "part": 2, "at": "00:17:23", "note": "Founds STOP ERA in 1972 and organizes housewives against the amendment" },
+    { "facet": "themes", "part": 2, "at": "00:36:04", "note": "Analysis of the white, church-going base she built and its racial politics" },
+    { "facet": "themes", "part": 2, "at": "00:47:36", "note": "Anti-gay campaigning, opposition to AIDS education, gay-marriage scare tactics" },
+    { "facet": "time", "part": 2, "at": "01:03:04", "note": "Endorses Trump shortly before her death at 92 in 2016" }
   ],
-  "notes": "Main span starts at her 1952 congressional run (year from known record; transcript gives no year). No theme for anti-LGBTQ politics, which gets a real segment; folded into religious-right-culture-war. weapons-arms-trade covers her nuclear-strategy books with Chester Ward. Eagle Forum stands in for STOP ERA and her newsletter network."
+  "notes": "main_span starts at her first congressional run (1952, year from general knowledge; transcript gives no year) rather than the 1946 Bakewell campaign. Transcript says the ERA died in 1985; the ratification deadline actually lapsed in 1982. reaches_present for the Trump endorsement and the 2020 abortion-opinion discussion. Eagle Forum stands in for STOP ERA, which has no separate entry."
 }

@@ -1,8 +1,8 @@
 {
   "story_id": "p-diddy-a-life-in-crimes",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -15,13 +15,9 @@
       "lifespan": { "start": 1969, "end": null }
     },
     {
-      "name": "City College of New York stampede",
-      "kind": "event",
-      "role": "secondary"
-    },
-    {
-      "name": "East Coast-West Coast hip hop rivalry",
-      "kind": "event",
+      "name": "Bad Boy Records",
+      "kind": "organization",
+      "org_type": "company",
       "role": "secondary"
     },
     {
@@ -31,16 +27,28 @@
       "lifespan": { "start": 1972, "end": 1997 }
     },
     {
-      "name": "Bad Boy Records",
-      "kind": "organization",
-      "org_type": "company",
+      "name": "Tupac Shakur",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1971, "end": 1996 }
+    },
+    {
+      "name": "1991 City College crowd crush",
+      "kind": "event",
       "role": "secondary"
     }
   ],
   "roles": ["criminal-killer", "business-executive", "entertainer-artist"],
   "themes": {
     "primary": "sexual-abuse",
-    "secondary": ["entertainment-celebrity", "child-abuse", "domestic-abuse", "drugs"]
+    "secondary": [
+      "organized-crime",
+      "entertainment-celebrity",
+      "child-abuse",
+      "disasters",
+      "domestic-abuse",
+      "drugs"
+    ]
   },
   "regions": {
     "origin": ["US"],
@@ -55,40 +63,40 @@
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "Hip hop mogul Sean \"Diddy\" Combs built Bad Boy Records and a celebrity empire in New York while allegedly drugging, raping and trafficking adults and minors from 1991 onward, until his federal arrest in 2024.",
-  "content_warnings": ["sexual-violence", "child-abuse", "graphic-violence"],
+  "summary": "Music mogul Sean Combs rose from Howard party promoter to Bad Boy Records founder while causing a deadly 1991 crowd crush, feeding the East Coast/West Coast rap feud and allegedly drugging, raping and trafficking women and girls for decades until his 2024 arrest.",
+  "content_warnings": ["sexual-violence", "child-abuse"],
   "keywords": [
     "Puff Daddy",
-    "freak-offs",
+    "Diddy",
+    "freak offs",
     "White Party",
+    "East Coast-West Coast rivalry",
     "Cassie Ventura",
-    "Tupac Shakur",
-    "Suge Knight",
-    "Death Row Records",
     "Keefe D",
-    "Kim Porter",
-    "Howard University"
+    "Howard University",
+    "Justin's restaurant",
+    "Kristina Khorram"
   ],
   "guests": ["Wil Anspach"],
   "confidence": {
     "subjects": "high",
     "roles": "medium",
-    "themes": "medium",
+    "themes": "high",
     "regions": "high",
-    "time": "high"
+    "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:07:33", "note": "birth in Harlem in 1969 opens the biography" },
-    { "facet": "subjects", "part": 1, "at": "00:43:45", "note": "1991 charity basketball game he promoted ends in a deadly crush at City College" },
-    { "facet": "themes", "part": 2, "at": "00:03:31", "note": "earliest drugging and rape allegation dated to 1991" },
-    { "facet": "themes", "part": 2, "at": "00:31:03", "note": "allegations of raping two girls aged 15 and 16 around 1993-94" },
-    { "facet": "themes", "part": 2, "at": "00:34:03", "note": "1994 allegation of dating abuse, beatings and forced drug use" },
-    { "facet": "subjects", "part": 2, "at": "00:16:33", "note": "founding of Bad Boy and the rivalry with Death Row" },
-    { "facet": "subjects", "part": 2, "at": "00:41:06", "note": "Keefe D claims of a bounty on Tupac; Biggie killed 1997" },
-    { "facet": "themes", "part": 3, "at": "00:23:10", "note": "freak-off parties and a contest winner drugged at one" },
-    { "facet": "themes", "part": 3, "at": "00:36:30", "note": "2023 suit by an eleventh-grader alleging gang rape" },
-    { "facet": "themes", "part": 3, "at": "00:41:00", "note": "Cassie Ventura lawsuit describing years of beatings and coercion" },
-    { "facet": "time", "part": 3, "at": "00:55:17", "note": "September 2024 arrest and denial of bail close the story" }
+    { "facet": "time", "part": 1, "at": "00:07:33", "note": "born November 1969 in Harlem; father later shot dead when he is two" },
+    { "facet": "themes", "part": 1, "at": "00:43:45", "note": "promotes a charity rapper basketball game at City College with no real charity named" },
+    { "facet": "themes", "part": 1, "at": "00:47:16", "note": "overcrowded gym stairwell crush kills nine young people" },
+    { "facet": "themes", "part": 2, "at": "00:04:02", "note": "earliest known allegation: 1991 drugging, rape and filming of a college student" },
+    { "facet": "themes", "part": 2, "at": "00:31:03", "note": "alleged rapes of a 16-year-old and her 15-year-old friend around 1993-94" },
+    { "facet": "themes", "part": 2, "at": "00:34:03", "note": "alleged girlfriend beaten and threatened with revenge porn in 1994" },
+    { "facet": "themes", "part": 2, "at": "00:41:06", "note": "Keefe D claims Combs offered a large bounty for killing Tupac" },
+    { "facet": "themes", "part": 3, "at": "00:32:57", "note": "2024 producer lawsuit: drug procurement, laced liquor and sex workers at parties" },
+    { "facet": "themes", "part": 3, "at": "00:41:00", "note": "Cassie Ventura lawsuit describes years of beatings and coerced freak offs" },
+    { "facet": "regions", "part": 3, "at": "00:05:16", "note": "White Parties held at his Hamptons mansion from 1998" },
+    { "facet": "time", "part": 3, "at": "00:55:17", "note": "arrested September 2024 after FBI raid; denied bail" }
   ],
-  "notes": "Covered span runs to 2024 (his arrest, the last event at release). Roles are judgement calls: the story treats him as a label mogul first and performer second. The taxonomy has no theme for organized-crime killings or crowd disasters, so the rap-war murders and the 1991 crush live only in subjects. drugs is secondary for the systematic drugging of victims and the narcotics at the parties."
+  "notes": "Combs was alive and jailed at release, so main_span ends at the 2024 arrest rather than null. Most crimes are presented as allegations from lawsuits. Settings include Las Vegas, LA, Atlanta and Miami, but New York gets the most airtime, hence US-NY. Brief mention of Honduran sweatshops not counted."
 }

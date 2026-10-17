@@ -1,8 +1,8 @@
 {
   "story_id": "buford-pusser-the-worst-sheriff-ever",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -12,45 +12,37 @@
       "name": "Buford Pusser",
       "kind": "person",
       "role": "primary",
-      "lifespan": {
-        "start": 1937,
-        "end": 1974
-      }
+      "lifespan": { "start": 1937, "end": 1974 }
+    },
+    {
+      "name": "Louise Hathcock",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": 1966 }
+    },
+    {
+      "name": "Pauline Pusser",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": 1967 }
     },
     {
       "name": "State Line Mob",
       "kind": "organization",
       "org_type": "criminal-org",
       "role": "secondary"
-    },
-    {
-      "name": "Louise Hathcock",
-      "kind": "person",
-      "role": "secondary",
-      "lifespan": {
-        "start": null,
-        "end": 1966
-      }
-    },
-    {
-      "name": "Pauline Pusser",
-      "kind": "person",
-      "role": "secondary",
-      "lifespan": {
-        "start": null,
-        "end": 1967
-      }
-    },
-    {
-      "name": "Walking Tall (1973 film)",
-      "kind": "media-work",
-      "role": "secondary"
     }
   ],
   "roles": ["police-lawman", "criminal-killer"],
   "themes": {
     "primary": "policing-incarceration",
-    "secondary": ["domestic-abuse", "folklore-legend", "entertainment-celebrity", "propaganda-media"]
+    "secondary": [
+      "organized-crime",
+      "domestic-abuse",
+      "murder-serial-killers",
+      "folklore-legend",
+      "entertainment-celebrity"
+    ]
   },
   "regions": {
     "origin": ["US"],
@@ -60,30 +52,24 @@
     "scope": "local"
   },
   "time": {
-    "main_span": {
-      "start": 1964,
-      "end": 1974
-    },
-    "covered_span": {
-      "start": 1937,
-      "end": 2024
-    },
+    "main_span": { "start": 1959, "end": 1974 },
+    "covered_span": { "start": 1937, "end": 2024 },
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "McNairy County, Tennessee sheriff Buford Pusser, whose war on the State Line Mob inspired the film Walking Tall, built a hero myth on violence and lies; a reopened investigation found he likely murdered his wife in 1967.",
+  "summary": "McNairy County, Tennessee sheriff Buford Pusser, celebrated as the crime-fighting hero of Walking Tall, ran a violent, self-serving war on the State Line Mob and is now believed to have murdered his wife in 1967 and staged it as a mob ambush.",
   "content_warnings": ["graphic-violence"],
   "keywords": [
     "Walking Tall",
     "McNairy County",
     "Adamsville",
     "Dixie Mafia",
-    "Carl \"Towhead\" White",
+    "Carl Towhead White",
     "Kirksey Nix",
     "Tennessee Bureau of Investigation",
     "Dwana Pusser",
-    "Phenix City",
-    "Joe Don Baker"
+    "Joe Don Baker",
+    "Phenix City"
   ],
   "guests": ["Dan O'Brien"],
   "confidence": {
@@ -103,56 +89,56 @@
     {
       "facet": "regions",
       "part": 1,
-      "at": "00:28:29",
-      "note": "State Line Mob based where Tennessee meets Mississippi along US 45"
+      "at": "00:25:41",
+      "note": "Phenix City crackdown pushes gangsters to the Tennessee-Mississippi state line"
     },
     {
       "facet": "subjects",
       "part": 1,
-      "at": "00:56:39",
-      "note": "1959 marriage to Pauline, then fence-post ambush on W.O. Hathcock Jr."
+      "at": "00:28:29",
+      "note": "Jack and Louise Hathcock introduced as leaders of the State Line Mob"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:57:11",
+      "note": "December 1959 marriage, then fence-post ambush of W.O. Hathcock Jr. starts the feud"
     },
     {
       "facet": "time",
       "part": 2,
-      "at": "00:20:04",
-      "note": "elected sheriff after rival's death and begins publicised raids on the mob"
-    },
-    {
-      "facet": "subjects",
-      "part": 2,
-      "at": "00:27:34",
-      "note": "1966 Shamrock raid in which Pusser kills Louise Hathcock, likely not in self-defense"
+      "at": "00:12:40",
+      "note": "returns to Adamsville after 1961 and becomes police chief, then constable and sheriff"
     },
     {
       "facet": "themes",
       "part": 2,
-      "at": "00:41:12",
-      "note": "reinvestigation concludes wife's death was a domestic-violence homicide, not an ambush"
+      "at": "00:27:04",
+      "note": "deliberately cultivates a press myth, carrying a hickory stick on raids"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:27:34",
+      "note": "1966 raid in which he kills Louise Hathcock, family says she was shot in the back"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:39:08",
+      "note": "evidence that he killed his wife Pauline and faked the 1967 ambush"
     },
     {
       "facet": "time",
       "part": 2,
       "at": "00:40:11",
-      "note": "Tennessee Bureau of Investigation reopens the 1967 case in 2022"
-    },
-    {
-      "facet": "time",
-      "part": 2,
-      "at": "00:42:27",
-      "note": "2024 exhumation finds a healing nose fracture consistent with prior abuse"
+      "note": "TBI reopens the cold case in 2022, exhumation and new autopsy in 2024"
     },
     {
       "facet": "themes",
       "part": 2,
       "at": "00:55:37",
-      "note": "1971 book and 1973 film turn him into a national celebrity"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:52:34",
-      "note": "debunks the legend that he wrestled a grizzly bear"
+      "note": "1971 book and 1973 film Walking Tall make him a national celebrity"
     },
     {
       "facet": "time",
@@ -161,5 +147,5 @@
       "note": "dies in a sports car crash in August 1974"
     }
   ],
-  "notes": "covered_span runs to 2024 because the 2022-2024 TBI reinvestigation and exhumation concern the same killing and get several minutes; a reviewer could instead end it at 1974 and keep reaches_present. Vocabulary gap: no theme for organized crime or bootlegging; policing-incarceration plus the criminal-org subject carry it. Pauline Pusser's birth year left null (transcript only gives her age as 33)."
+  "notes": "covered_span runs to 2024 because the TBI reopening (2022) and exhumation (2024) investigate his own crime and get several minutes; a 2004 self-published book by ex-sheriff Mike Elam is also discussed. Birth years of Louise Hathcock and Pauline Pusser not given (Pauline was 33 in 1967). Mississippi side of the state line is also a setting but Tennessee dominates, so only US-TN is listed."
 }

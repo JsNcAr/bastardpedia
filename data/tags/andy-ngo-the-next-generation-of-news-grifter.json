@@ -1,8 +1,8 @@
 {
   "story_id": "andy-ngo-the-next-generation-of-news-grifter",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -27,10 +27,16 @@
       "role": "secondary"
     }
   ],
-  "roles": ["journalist-propagandist", "influencer-online", "media-personality"],
+  "roles": ["journalist-propagandist", "influencer-online", "activist-organizer"],
   "themes": {
     "primary": "propaganda-media",
-    "secondary": ["fascism-far-right", "racism-white-supremacy", "fraud-grift", "tech-internet"]
+    "secondary": [
+      "fascism-far-right",
+      "racism-white-supremacy",
+      "protest-revolution",
+      "moral-panics",
+      "fraud-grift"
+    ]
   },
   "regions": {
     "origin": ["US"],
@@ -45,19 +51,19 @@
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "Portland-born right-wing writer Andy Ngo built a career from 2017 on selectively edited clips and tweets portraying Muslims and anti-fascists as dangerous, fuelling harassment of activists and journalists.",
+  "summary": "Portland-born right-wing writer Andy Ngo built a media career from 2017 to 2019 by spreading stripped-of-context clips that cast Muslims and anti-fascist protesters as dangerous, fuelling harassment and doxxing of activists.",
   "content_warnings": [],
   "keywords": [
-    "Portland",
-    "Cider Riot",
-    "Joey Gibson",
-    "Tucker Carlson",
     "Portland State Vanguard",
     "A Visit to Islamic England",
+    "Wall Street Journal",
+    "Tucker Carlson",
+    "Joey Gibson",
+    "Cider Riot",
+    "May Day 2019",
+    "Eoin Lenihan",
     "Antifa",
-    "doxing",
-    "milkshaking",
-    "James O'Keefe"
+    "Things You Should Know podcast"
   ],
   "guests": ["Jack O'Brien"],
   "confidence": {
@@ -65,57 +71,57 @@
     "roles": "medium",
     "themes": "medium",
     "regions": "high",
-    "time": "high"
+    "time": "medium"
   },
   "evidence": [
     {
       "facet": "time",
       "part": 1,
       "at": "00:01:32",
-      "note": "born in Portland in 1986 to parents who fled Vietnam"
+      "note": "born in Portland in 1986 to Vietnamese refugee parents; childhood and schooling covered briefly"
     },
     {
       "facet": "time",
       "part": 1,
       "at": "00:05:40",
-      "note": "2017 clipped tweet of a campus interfaith panel gets him fired from the student paper"
+      "note": "2017 interfaith panel clip at Portland State, first viral story and firing from the student paper"
     },
     {
       "facet": "regions",
       "part": 1,
       "at": "00:10:19",
-      "note": "segment on his 2018 Wall Street Journal piece about Muslims in London"
+      "note": "several minutes on his 2018 Wall Street Journal piece about Muslims in London and its debunking"
     },
     {
       "facet": "themes",
       "part": 1,
-      "at": "00:14:30",
-      "note": "his anti-Muslim framing of Britain and the follow-up defence"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:22:25",
-      "note": "his posts trigger online doxing and death threats against Portland activists"
+      "at": "00:16:34",
+      "note": "edited protest footage amplified on Tucker Carlson framing Portland anti-fascists as a violent threat"
     },
     {
       "facet": "subjects",
       "part": 1,
       "at": "00:24:27",
-      "note": "Quillette segment on a list of journalists that spread to neo-Nazi circles"
+      "note": "Quillette segment on the Lenihan list of journalists and resulting neo-Nazi threats"
     },
     {
       "facet": "subjects",
       "part": 1,
-      "at": "00:31:16",
-      "note": "May Day video shows Patriot Prayer planning the Cider Riot attack with Ngo present"
+      "at": "00:27:03",
+      "note": "May Day 2019 Patriot Prayer attack on Cider Riot with Ngo present and filming"
     },
     {
       "facet": "themes",
       "part": 1,
       "at": "00:30:44",
-      "note": "raises large sum for medical bills after July 2019 assault; host questions injury claims"
+      "note": "fundraising of roughly a quarter million dollars after his July assault, injury claims questioned"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:44:21",
+      "note": "coda: he has left Quillette around release, still active"
     }
   ],
-  "notes": "Living subject; covered_span starts at birth per the lifetime rule though childhood gets a minute. Islamophobia filed under racism-white-supremacy. Companion to the James O'Keefe episode. GB kept for the London article segment. No Wikidata QID given (not certain)."
+  "notes": "Full biography of a living subject, so the lifetime rule applies (1986 to release year 2019). His 2019 assault is covered but not given a content warning: it is described without graphic detail. Roles mix journalist-propagandist with activist-organizer since the host frames him as a right-wing participant rather than a reporter."
 }

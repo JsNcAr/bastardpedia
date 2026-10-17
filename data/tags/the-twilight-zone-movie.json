@@ -1,6 +1,6 @@
 {
   "story_id": "the-twilight-zone-movie",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
     "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
@@ -20,35 +20,29 @@
       "lifespan": { "start": 1950, "end": null }
     },
     {
-      "name": "Steven Spielberg",
-      "kind": "person",
-      "role": "secondary",
-      "lifespan": { "start": 1946, "end": null },
-      "wikidata": "Q8877"
-    },
-    {
       "name": "Vic Morrow",
       "kind": "person",
       "role": "secondary",
       "lifespan": { "start": 1929, "end": 1982 }
+    },
+    {
+      "name": "Steven Spielberg",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1946, "end": null }
     }
   ],
   "roles": ["entertainer-artist"],
   "themes": {
     "primary": "entertainment-celebrity",
-    "secondary": [
-      "child-abuse",
-      "labor-exploitation",
-      "policing-incarceration",
-      "corporate-malfeasance"
-    ]
+    "secondary": ["labor-exploitation", "child-abuse", "disasters"]
   },
   "regions": {
     "origin": ["US"],
     "setting": ["US"],
     "subdivisions": ["US-CA"],
     "polities": [],
-    "scope": "national"
+    "scope": "local"
   },
   "time": {
     "main_span": { "start": 1982, "end": 1987 },
@@ -56,18 +50,18 @@
     "reaches_present": false,
     "approximate": false
   },
-  "summary": "Director John Landis's reckless pursuit of realism on the 1982 Twilight Zone movie, with illegally hired child actors, explosions and a low helicopter, killed Vic Morrow and two children; he was later acquitted of manslaughter.",
+  "summary": "Director John Landis illegally hired two young children for a night helicopter scene on the 1982 Twilight Zone movie; explosions downed the helicopter, killing them and actor Vic Morrow, and Landis was acquitted of manslaughter.",
   "content_warnings": ["child-death", "graphic-violence"],
   "keywords": [
+    "Twilight Zone accident",
     "Indian Dunes",
     "Renee Shin-Yi Chen",
     "Myca Dinh Le",
-    "Dorsey Wingo",
     "George Folsey Jr.",
+    "Dorsey Wingo",
     "Outrageous Conduct",
-    "The Exorcist",
+    "auteur theory",
     "Animal House",
-    "Coming to America",
     "Max Landis"
   ],
   "guests": ["Caitlin Durante"],
@@ -83,68 +77,56 @@
       "facet": "time",
       "part": 1,
       "at": "00:23:31",
-      "note": "Landis biography begins with his 1950 Chicago birth and LA upbringing"
+      "note": "Landis biography begins with his 1950 birth in Chicago and move to Los Angeles"
     },
     {
-      "facet": "subjects",
+      "facet": "time",
       "part": 1,
       "at": "00:41:10",
-      "note": "Warner Bros reboot; Landis and Spielberg produce the anthology film in 1982"
+      "note": "Warner Bros hires Landis and Spielberg for the Twilight Zone film in 1982"
     },
     {
       "facet": "themes",
       "part": 1,
-      "at": "00:50:47",
-      "note": "night shoot with children breaks child labor law; crew objections overruled"
+      "at": "00:51:17",
+      "note": "crew raise objections to using children at night near explosives; Landis rejects alternatives"
     },
     {
       "facet": "themes",
       "part": 2,
-      "at": "00:04:51",
-      "note": "pilot and camera operator raise safety fears that are passed over"
+      "at": "00:06:25",
+      "note": "producers hide the illegally employed children from the on-set fire safety officer"
     },
     {
       "facet": "regions",
       "part": 2,
-      "at": "00:09:31",
-      "note": "fatal scene filmed at Indian Dunes Park on the Santa Clara River, California"
+      "at": "00:10:01",
+      "note": "shoot takes place at Indian Dunes on the Santa Clara River in California"
     },
     {
-      "facet": "content_warnings",
+      "facet": "time",
       "part": 2,
       "at": "00:13:44",
-      "note": "detailed account of the crash killing Morrow and the two children"
+      "note": "helicopter crashes, killing the two children and Vic Morrow"
     },
     {
       "facet": "themes",
       "part": 2,
-      "at": "00:22:45",
-      "note": "Warner Bros lawyers argue the six-year-old assumed the risk; suits settled"
-    },
-    {
-      "facet": "themes",
-      "part": 2,
-      "at": "00:31:09",
-      "note": "grand jury indicts Landis, Folsey and Allingham for manslaughter"
+      "at": "00:47:23",
+      "note": "defense strategy blames below-the-line crew such as the pilot and pyrotechnicians"
     },
     {
       "facet": "time",
       "part": 2,
       "at": "00:49:30",
-      "note": "jury acquits the defendants; trial ran about three years after the crash"
-    },
-    {
-      "facet": "subjects",
-      "part": 2,
-      "at": "00:51:37",
-      "note": "segment on Spielberg's role as producer and avoidance of testimony"
+      "note": "jury acquits Landis and co-defendants of manslaughter after a years-long case"
     },
     {
       "facet": "time",
       "part": 2,
-      "at": "00:55:18",
-      "note": "coda on son Max Landis and the 2017 abuse accusations against him"
+      "at": "00:54:47",
+      "note": "brief coda on later career, Polanski petition and son Max Landis's abuse allegations"
     }
   ],
-  "notes": "Main span ends 1987 (acquittal) from general knowledge; transcript only says the case took about three years. Covered span runs to 2022 because of the lifetime rule for living primary subject Landis. Exorcist/Hitchcock material is background comparison and not counted. Policing-incarceration used for the criminal trial for lack of a courts/justice theme; no theme for workplace or film-set safety, so labor-exploitation stands in."
+  "notes": "Landis and the film are co-primary: the title names the film but the story is built around Landis. Considered partial_life (framed on one production) but the story gives a real biography from birth through his later career, so the lifetime rule applies; covered_span runs to release year as he is alive. Exorcist and Birds material is comparison background. George Folsey Jr. left out of subjects for uncertain dates."
 }

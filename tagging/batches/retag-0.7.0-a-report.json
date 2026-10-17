@@ -1,0 +1,815 @@
+[
+  {
+    "id": "behind-the-bastards-presents-cool-people-who-did-cool-stuff",
+    "themes_before": {
+      "primary": "terrorism",
+      "secondary": [
+        "fascism-far-right",
+        "authoritarianism",
+        "policing-incarceration",
+        "propaganda-media"
+      ]
+    },
+    "themes_after": {
+      "primary": "terrorism",
+      "secondary": [
+        "fascism-far-right",
+        "authoritarianism",
+        "protest-revolution",
+        "policing-incarceration",
+        "propaganda-media"
+      ]
+    },
+    "new_themes_used": ["protest-revolution"],
+    "low": [],
+    "notes": "Republished Cool People Who Did Cool Stuff two-parter; hero chosen over crossover by format precedence. Primary subject is the set of attempts (event), so no roles and no lifetime rule; Mussolini is secondary. Schirru gets a segment comparable to Bresci but the subject cap is five. Covered span ends 1943 (Lucetti's death, Zaniboni's release); later epilogues of Gibson, Bibbi and Tommasini are brief. Terrorism primary because assassination is the pitch; fascism-far-right is close."
+  },
+  {
+    "id": "behind-the-insurrections-the-french-capitol-insurrection",
+    "themes_before": {
+      "primary": "coups-insurrections",
+      "secondary": [
+        "fascism-far-right",
+        "propaganda-media",
+        "racism-white-supremacy",
+        "conspiracy-theories",
+        "electoral-politics",
+        "fraud-grift"
+      ]
+    },
+    "themes_after": {
+      "primary": "coups-insurrections",
+      "secondary": [
+        "fascism-far-right",
+        "propaganda-media",
+        "racism-white-supremacy",
+        "conspiracy-theories",
+        "electoral-politics",
+        "fraud-grift"
+      ]
+    },
+    "new_themes_used": [],
+    "low": [],
+    "notes": "Transcript dates the Dreyfus arrest to 1884; it was 1894, used here. Vichy and Maurras's 1945 sentence get only about three minutes, so covered_span ends in 1934. January 6 2021 parallels are comparisons only. Guest is Jason Petty, known as Prop. No polity id for the French Third Republic."
+  },
+  {
+    "id": "daryl-gates-the-man-who-invented-swat-teams-and-dare",
+    "themes_before": {
+      "primary": "policing-incarceration",
+      "secondary": ["racism-white-supremacy", "drugs", "education", "propaganda-media"]
+    },
+    "themes_after": {
+      "primary": "policing-incarceration",
+      "secondary": [
+        "racism-white-supremacy",
+        "protest-revolution",
+        "drugs",
+        "propaganda-media",
+        "education"
+      ]
+    },
+    "new_themes_used": ["protest-revolution"],
+    "low": [],
+    "notes": "Scope set to national: events are almost all in Los Angeles, but SWAT and DARE spreading nationwide is a real thread. Hosts draw many parallels to 2025 ICE raids and protests; treated as comparisons, so reaches_present is false. William Parker's birth year is from general knowledge."
+  },
+  {
+    "id": "does-punching-nazis-work-a-conversation-from-unite-the-right-2-0",
+    "themes_before": {
+      "primary": "fascism-far-right",
+      "secondary": [
+        "policing-incarceration",
+        "racism-white-supremacy",
+        "nazism",
+        "propaganda-media"
+      ]
+    },
+    "themes_after": {
+      "primary": "fascism-far-right",
+      "secondary": [
+        "protest-revolution",
+        "policing-incarceration",
+        "racism-white-supremacy",
+        "propaganda-media"
+      ]
+    },
+    "new_themes_used": ["protest-revolution"],
+    "low": [],
+    "notes": "Protest report recorded the day of the rally, so current-affairs. fascism-far-right over nazism: the rally was a white nationalist event the hosts call Nazis; the Weimar segment is a comparison. Guest names are from the transcript: Hannah (Kitchen Table Cult) surname garbled; Lauren Mario spelling uncertain; Bridget identified as Bridget Todd from general knowledge (DC organizer). Robert is jokingly called Matt."
+  },
+  {
+    "id": "how-woody-guthrie-turned-folk-music-into-a-weapon",
+    "themes_before": {
+      "primary": "entertainment-celebrity",
+      "secondary": [
+        "labor-exploitation",
+        "communism-state-socialism",
+        "folklore-legend",
+        "war-war-crimes",
+        "racism-white-supremacy"
+      ]
+    },
+    "themes_after": {
+      "primary": "entertainment-celebrity",
+      "secondary": [
+        "inequality-class",
+        "folklore-legend",
+        "communism-state-socialism",
+        "racism-white-supremacy",
+        "war-war-crimes"
+      ]
+    },
+    "new_themes_used": ["inequality-class"],
+    "low": [],
+    "notes": "Only Part Two is in the feed, so this story starts in 1936 and never covers his 1912 birth or childhood (Part One). I set partial_life for that reason, not because of how the story is framed. covered_span starts in about 1922 with the Floyd segment. Not used: Huntington's (no theme fits) and his sexually harassing letters, which get about 5 minutes; sexual-abuse could be added. The 'hero' format follows the 'non-bastard' wording in the description."
+  },
+  {
+    "id": "keep-the-yuletide-gay-saturnalia-the-puritan-war-on-christmas",
+    "themes_before": {
+      "primary": "organized-religion",
+      "secondary": ["folklore-legend", "religious-right-culture-war", "civil-war"]
+    },
+    "themes_after": {
+      "primary": "organized-religion",
+      "secondary": [
+        "religious-right-culture-war",
+        "protest-revolution",
+        "folklore-legend",
+        "anti-lgbtq",
+        "inequality-class"
+      ]
+    },
+    "new_themes_used": ["protest-revolution", "anti-lgbtq", "inequality-class"],
+    "low": ["time"],
+    "notes": "Crossover chosen over hero: no hero/cool-people cue in title or description, and the story is a festival history, not one hero. Covered start -217 is my estimate (Saturnalia's Republican-era reform; the episode gives no dates). Main span 336-1660 is a judgment call for the church's long campaign. Modern attacks on Christmas drag shows are a comparison, not counted. No theme for holidays or festivals."
+  },
+  {
+    "id": "let-s-talk-about-the-pullman-strike-knob-gobblers",
+    "themes_before": {
+      "primary": "labor-exploitation",
+      "secondary": ["corporate-malfeasance", "racism-white-supremacy", "propaganda-media"]
+    },
+    "themes_after": {
+      "primary": "labor-exploitation",
+      "secondary": ["protest-revolution", "corporate-malfeasance", "racism-white-supremacy"]
+    },
+    "new_themes_used": ["protest-revolution"],
+    "low": [],
+    "notes": "Title names the strike but the host frames the story around George Pullman's life, so both are primary and the lifetime rule applies. inventor-engineer reflects his sleeping-car design work; medium confidence. A segment on an 1880s Atlantic article about the labor question was considered for propaganda-media but left out as context."
+  },
+  {
+    "id": "nestor-makhno-anarchist-warlord-and-book-club-aficionado",
+    "themes_before": {
+      "primary": "civil-war",
+      "secondary": [
+        "war-war-crimes",
+        "terrorism",
+        "colonialism-imperialism",
+        "communism-state-socialism",
+        "policing-incarceration",
+        "racism-white-supremacy"
+      ]
+    },
+    "themes_after": {
+      "primary": "civil-war",
+      "secondary": [
+        "protest-revolution",
+        "war-war-crimes",
+        "inequality-class",
+        "terrorism",
+        "policing-incarceration",
+        "colonialism-imperialism"
+      ]
+    },
+    "new_themes_used": ["protest-revolution", "inequality-class"],
+    "low": [],
+    "notes": "Hero episode, so the lifetime rule applies (1888-1934); main_span 1917-1921 per the encyclopedia test, though the 1906-1908 militant youth also gets long airtime. Birth and death years garbled in the transcript, filled from knowledge. Primary civil-war over protest-revolution per its exclude_when. Ukraine colonial background is pre-story context, kept as a theme only. UA-23 is Zaporizhzhia Oblast (Huliaipole)."
+  },
+  {
+    "id": "the-birth-of-the-anti-vaccine-movement",
+    "themes_before": {
+      "primary": "public-health",
+      "secondary": [
+        "quackery-pseudoscience",
+        "fraud-grift",
+        "medical-malpractice",
+        "racism-white-supremacy",
+        "conspiracy-theories"
+      ]
+    },
+    "themes_after": {
+      "primary": "public-health",
+      "secondary": [
+        "quackery-pseudoscience",
+        "fraud-grift",
+        "racism-white-supremacy",
+        "conspiracy-theories",
+        "propaganda-media"
+      ]
+    },
+    "new_themes_used": [],
+    "low": [],
+    "notes": "Primary subject is the movement, so roles stay empty and Wakefield and Sears are secondary despite having a part each. Transcript spells her Laura Little; historical name is Lora Little. Sears birth year left null (unsure). Main span 1798-2018 because the story narrates both the 19th-century movement and the modern revival. Medical-malpractice considered for Wakefield's birthday-party blood draws but left out."
+  },
+  {
+    "id": "the-second-american-civil-war-you-never-learned-about",
+    "themes_before": {
+      "primary": "labor-exploitation",
+      "secondary": [
+        "corporate-malfeasance",
+        "civil-war",
+        "policing-incarceration",
+        "sexual-abuse",
+        "child-abuse"
+      ]
+    },
+    "themes_after": {
+      "primary": "labor-exploitation",
+      "secondary": [
+        "protest-revolution",
+        "corporate-malfeasance",
+        "policing-incarceration",
+        "civil-war",
+        "sexual-abuse"
+      ]
+    },
+    "new_themes_used": ["protest-revolution"],
+    "low": [],
+    "notes": "civil-war vs protest-revolution is a judgment call: the hosts frame it as a civil war with armies and air power, but it is an armed labor uprising, so both are secondary. Minors among Esau scrip victims are mentioned only briefly, so child-abuse was left out. Sid Hatfield's birth year follows the transcript's age (27 in 1920). The historiography and modern labor coda were treated as too short for reaches_present."
+  },
+  {
+    "id": "the-silly-bastards-behind-the-modern-fascist-movement",
+    "themes_before": {
+      "primary": "fascism-far-right",
+      "secondary": [
+        "nazism",
+        "racism-white-supremacy",
+        "tech-internet",
+        "propaganda-media",
+        "terrorism"
+      ]
+    },
+    "themes_after": {
+      "primary": "fascism-far-right",
+      "secondary": [
+        "nazism",
+        "racism-white-supremacy",
+        "tech-internet",
+        "propaganda-media",
+        "terrorism",
+        "protest-revolution"
+      ]
+    },
+    "new_themes_used": ["protest-revolution"],
+    "low": [],
+    "notes": "Format current-affairs: a field-recorded episode about the movement as it stood at release, not a historical deep dive. Kessler's 2009 graduation, Occupy 2011 and GamerGate 2014 are passing background, so covered_span starts 2016. Kessler's birth year 1983 is from general knowledge."
+  },
+  {
+    "id": "the-story-behind-all-those-nazi-clown-memes",
+    "themes_before": {
+      "primary": "fascism-far-right",
+      "secondary": ["nazism", "tech-internet", "racism-white-supremacy", "propaganda-media"]
+    },
+    "themes_after": {
+      "primary": "fascism-far-right",
+      "secondary": [
+        "nazism",
+        "protest-revolution",
+        "tech-internet",
+        "propaganda-media",
+        "racism-white-supremacy"
+      ]
+    },
+    "new_themes_used": ["protest-revolution"],
+    "low": [],
+    "notes": "No single bastard; both halves of the episode (clown activism, then the far-right clown memes) share equal weight, so two primary subjects. fascism-far-right chosen as primary over nazism because the meme spread across the wider far right (Proud Boys, Infowars, straight pride); explicitly neo-Nazi groups keep nazism secondary. Finland mentioned only briefly, left out of setting."
+  },
+  {
+    "id": "the-triangle-shirtwaist-fire",
+    "themes_before": {
+      "primary": "labor-exploitation",
+      "secondary": [
+        "corporate-malfeasance",
+        "fraud-grift",
+        "racism-white-supremacy",
+        "policing-incarceration",
+        "propaganda-media"
+      ]
+    },
+    "themes_after": {
+      "primary": "labor-exploitation",
+      "secondary": [
+        "disasters",
+        "corporate-malfeasance",
+        "protest-revolution",
+        "fraud-grift",
+        "racism-white-supremacy"
+      ]
+    },
+    "new_themes_used": ["protest-revolution", "disasters"],
+    "low": [],
+    "notes": "Primary subject is the event, so roles are empty; Blanck and Harris are listed as one secondary group. The covered span starts at the 1881 pogroms because they are tied to the owners' own emigration; if treated as pure background, start would be about 1890. Scope set to local (New York City) although the Russian Empire background adds RU and MD to the setting. Frances Perkins and OSHA legacy is brief, so reaches_present is false."
+  },
+  {
+    "id": "the-world-is-burning-your-guide-to-the-current-uprisings",
+    "themes_before": {
+      "primary": "authoritarianism",
+      "secondary": [
+        "policing-incarceration",
+        "war-war-crimes",
+        "civil-war",
+        "conspiracy-theories",
+        "diplomacy-foreign-policy"
+      ]
+    },
+    "themes_after": {
+      "primary": "protest-revolution",
+      "secondary": [
+        "authoritarianism",
+        "policing-incarceration",
+        "war-war-crimes",
+        "inequality-class",
+        "conspiracy-theories",
+        "diplomacy-foreign-policy"
+      ]
+    },
+    "new_themes_used": ["protest-revolution", "inequality-class"],
+    "low": [],
+    "notes": "Subject cap of five: Hong Kong protests are the thread running through the episode but get only a short segment of their own, so they appear in setting and keywords, not as a subject. Iraq gets about two minutes and is left out of setting. Catalan history from the 1920s and the Syrian civil war are background, so covered_span starts at the 2017 referendum."
+  },
+  {
+    "id": "voices-of-revolution",
+    "themes_before": {
+      "primary": "authoritarianism",
+      "secondary": ["policing-incarceration", "war-war-crimes", "electoral-politics", "civil-war"]
+    },
+    "themes_after": {
+      "primary": "protest-revolution",
+      "secondary": [
+        "policing-incarceration",
+        "inequality-class",
+        "electoral-politics",
+        "war-war-crimes"
+      ]
+    },
+    "new_themes_used": ["protest-revolution", "inequality-class"],
+    "low": [],
+    "notes": "Bonus minisode of raw interviews (Chile, Lebanon, Rojava) from 'The World is Burning'. All three events made primary since the episode is structured as three interviews, though Rojava gets less time. Chilean interviewees named only as Stephanie; the Rojava interviewee's name is unclear in the transcript, so only Joey Ayoub is listed as a guest."
+  },
+  {
+    "id": "tzar-nicholas-ii-was-a-real-dick",
+    "themes_before": {
+      "primary": "monarchy-empire",
+      "secondary": [
+        "authoritarianism",
+        "racism-white-supremacy",
+        "war-war-crimes",
+        "colonialism-imperialism",
+        "coups-insurrections",
+        "occult-esoteric"
+      ]
+    },
+    "themes_after": {
+      "primary": "monarchy-empire",
+      "secondary": [
+        "authoritarianism",
+        "racism-white-supremacy",
+        "war-war-crimes",
+        "protest-revolution",
+        "colonialism-imperialism",
+        "occult-esoteric"
+      ]
+    },
+    "new_themes_used": ["protest-revolution"],
+    "low": [],
+    "notes": "Covered span starts at Nicholas's 1868 birth: the Crimean War and Alexander II's reforms are host background, not a subject's life. Rasputin's birth year is commonly given as 1869. The coronation stampede is not named on air; Khodynka is added as a keyword. LV stands in for the Baltic punitive expeditions (Livonia), which got only a few minutes."
+  },
+  {
+    "id": "christmas-non-bastard-the-tupamaros-of-uruguay",
+    "themes_before": {
+      "primary": "terrorism",
+      "secondary": [
+        "coups-insurrections",
+        "authoritarianism",
+        "policing-incarceration",
+        "electoral-politics",
+        "intelligence-covert-ops",
+        "labor-exploitation"
+      ]
+    },
+    "themes_after": {
+      "primary": "protest-revolution",
+      "secondary": [
+        "terrorism",
+        "authoritarianism",
+        "electoral-politics",
+        "policing-incarceration",
+        "intelligence-covert-ops",
+        "inequality-class"
+      ]
+    },
+    "new_themes_used": ["protest-revolution", "inequality-class"],
+    "low": [],
+    "notes": "Tupamaros and Mujica treated as co-primary: title names the group, descriptions name Mujica. Colonial and Batlle-era history (1516-1950s) is background and left out of covered_span. reaches_present false: the story mostly stops at Mujica's 2010-2015 term, with only brief remarks on the 2020 government. Covered end is 2021 because Mujica was alive at release (died 2025)."
+  },
+  {
+    "id": "andy-ngo-the-next-generation-of-news-grifter",
+    "themes_before": {
+      "primary": "propaganda-media",
+      "secondary": ["fascism-far-right", "racism-white-supremacy", "fraud-grift", "tech-internet"]
+    },
+    "themes_after": {
+      "primary": "propaganda-media",
+      "secondary": [
+        "fascism-far-right",
+        "racism-white-supremacy",
+        "protest-revolution",
+        "moral-panics",
+        "fraud-grift"
+      ]
+    },
+    "new_themes_used": ["protest-revolution"],
+    "low": [],
+    "notes": "Full biography of a living subject, so the lifetime rule applies (1986 to release year 2019). His 2019 assault is covered but not given a content warning: it is described without graphic detail. Roles mix journalist-propagandist with activist-organizer since the host frames him as a right-wing participant rather than a reporter."
+  },
+  {
+    "id": "behind-the-police-how-the-police-declared-war-on-all-of-us",
+    "themes_before": {
+      "primary": "policing-incarceration",
+      "secondary": [
+        "racism-white-supremacy",
+        "colonialism-imperialism",
+        "genocide-mass-killing",
+        "drugs",
+        "propaganda-media"
+      ]
+    },
+    "themes_after": {
+      "primary": "policing-incarceration",
+      "secondary": [
+        "racism-white-supremacy",
+        "genocide-mass-killing",
+        "drugs",
+        "propaganda-media",
+        "protest-revolution",
+        "colonialism-imperialism"
+      ]
+    },
+    "new_themes_used": ["protest-revolution"],
+    "low": [],
+    "notes": "Survey episode with no single bastard; primary subject modelled as a practice. main_span starts at the 1965 Watts uprising, when the episode says modern militarization took off; Rangers (from 1835) and Butler (1924-1925) are earlier precursors in covered_span. Cold War police training abroad (VN, IR, UY, AR, BR, CO) got only a few minutes, so setting is US only. Transcript garbles some years (Butler '1942', MOVE '1905'); 1924 and 1985 used."
+  },
+  {
+    "id": "how-ice-is-targeting-students-for-deportation",
+    "themes_before": {
+      "primary": "immigration-borders",
+      "secondary": ["policing-incarceration", "education", "tech-internet", "authoritarianism"]
+    },
+    "themes_after": {
+      "primary": "immigration-borders",
+      "secondary": [
+        "policing-incarceration",
+        "protest-revolution",
+        "education",
+        "intelligence-covert-ops"
+      ]
+    },
+    "new_themes_used": ["protest-revolution"],
+    "low": [],
+    "notes": "Format: this is an It Could Happen Here episode (Garrison Davis, James Stout) republished in the BtB feed, which could read as crossover, but formats.yaml names this exact title as a current-affairs example, so I followed that. ICE is the primary subject, so roles stay empty. Ozturk's and Chung's birth years are not stated in the packet (Chung is 21), so their starts are null."
+  },
+  {
+    "id": "nicolae-ceausescu-the-dracula-of-being-a-dick",
+    "themes_before": {
+      "primary": "communism-state-socialism",
+      "secondary": [
+        "authoritarianism",
+        "intelligence-covert-ops",
+        "diplomacy-foreign-policy",
+        "child-abuse",
+        "public-health",
+        "propaganda-media",
+        "racism-white-supremacy"
+      ]
+    },
+    "themes_after": {
+      "primary": "communism-state-socialism",
+      "secondary": [
+        "authoritarianism",
+        "child-abuse",
+        "public-health",
+        "diplomacy-foreign-policy",
+        "intelligence-covert-ops",
+        "protest-revolution",
+        "propaganda-media",
+        "racism-white-supremacy"
+      ]
+    },
+    "new_themes_used": ["protest-revolution"],
+    "low": [],
+    "notes": "Transcript gives the birth date as 23 January 1918; sources say 26 January. Long opening background (Vlad III, 1907 revolt, WWI, Iron Guard, Antonescu) is context before the story and does not extend covered_span; fascism-far-right left out for that reason. Post-1989 orphan aftermath and prosecutions are a short coda, so reaches_present is false."
+  },
+  {
+    "id": "the-origins-of-terror-in-palestine",
+    "themes_before": {
+      "primary": "terrorism",
+      "secondary": [
+        "colonialism-imperialism",
+        "immigration-borders",
+        "racism-white-supremacy",
+        "war-war-crimes"
+      ]
+    },
+    "themes_after": {
+      "primary": "terrorism",
+      "secondary": [
+        "colonialism-imperialism",
+        "immigration-borders",
+        "racism-white-supremacy",
+        "protest-revolution",
+        "war-war-crimes"
+      ]
+    },
+    "new_themes_used": ["protest-revolution"],
+    "low": [],
+    "notes": "No single person is the subject: the host says he chose a survey over a Begin or Jabotinsky episode, so Zionism is primary and roles are empty. Setting lists PS before IL because Jerusalem, Hebron and Jaffa/Tel Aviv events are split across both. The 1881 pogrom city is placed by the host near Azerbaijan; it is in modern Ukraine. King David Hotel (1946) and 1948 are only brief mentions, so covered_span ends in 1940."
+  },
+  {
+    "id": "frank-lorenzo-the-man-who-ruined-air-travel",
+    "themes_before": {
+      "primary": "labor-exploitation",
+      "secondary": ["corporate-malfeasance", "finance-crypto"]
+    },
+    "themes_after": {
+      "primary": "labor-exploitation",
+      "secondary": ["corporate-malfeasance", "finance-crypto", "protest-revolution", "fraud-grift"]
+    },
+    "new_themes_used": ["protest-revolution"],
+    "low": [],
+    "notes": "Lifetime rule gives covered_span 1940-2023 though post-1990 life is a brief coda. reaches_present set from the framing that modern fare tiers and industry consolidation are his legacy; borderline. Feldman birth year not stated, left null. Short Robert Six and Rickenbacker background not counted. No theme for transport or deregulation."
+  },
+  {
+    "id": "bashar-al-assad-the-eye-doctor-who-murdered-a-nation",
+    "themes_before": {
+      "primary": "authoritarianism",
+      "secondary": [
+        "civil-war",
+        "war-war-crimes",
+        "genocide-mass-killing",
+        "intelligence-covert-ops",
+        "propaganda-media",
+        "diplomacy-foreign-policy"
+      ]
+    },
+    "themes_after": {
+      "primary": "authoritarianism",
+      "secondary": [
+        "civil-war",
+        "war-war-crimes",
+        "genocide-mass-killing",
+        "protest-revolution",
+        "diplomacy-foreign-policy",
+        "intelligence-covert-ops",
+        "propaganda-media"
+      ]
+    },
+    "new_themes_used": ["protest-revolution"],
+    "low": [],
+    "notes": "Alive and in power at release, so main_span ends null and covered_span ends 2019. Hafez's 1963-1982 rise and Hama get brief background, so covered_span starts at Bashar's birth. A several-minute segment rebuts chemical-weapon false-flag claims; conspiracy-theories left out to keep themes focused. Tunisia (Bouazizi) is Arab Spring context and is not in setting."
+  },
+  {
+    "id": "qassem-soleimani-and-the-bastardful-history-of-u-s-iran-relations",
+    "themes_before": {
+      "primary": "war-war-crimes",
+      "secondary": [
+        "diplomacy-foreign-policy",
+        "intelligence-covert-ops",
+        "civil-war",
+        "weapons-arms-trade",
+        "terrorism",
+        "propaganda-media"
+      ]
+    },
+    "themes_after": {
+      "primary": "diplomacy-foreign-policy",
+      "secondary": [
+        "war-war-crimes",
+        "intelligence-covert-ops",
+        "civil-war",
+        "weapons-arms-trade",
+        "terrorism",
+        "propaganda-media"
+      ]
+    },
+    "new_themes_used": [],
+    "low": [],
+    "notes": "Recorded days after the assassination with live news breaks, but the bulk is a life story, so deep-dive rather than current-affairs. Primary theme follows the taxonomy's own Soleimani example; war-war-crimes is a close alternative. No content warning: chemical attacks, the Mazar massacre and Assad's prisons are mentioned briefly, not in detail."
+  },
+  {
+    "id": "buford-pusser-the-worst-sheriff-ever",
+    "themes_before": {
+      "primary": "policing-incarceration",
+      "secondary": [
+        "domestic-abuse",
+        "folklore-legend",
+        "entertainment-celebrity",
+        "propaganda-media"
+      ]
+    },
+    "themes_after": {
+      "primary": "policing-incarceration",
+      "secondary": [
+        "organized-crime",
+        "domestic-abuse",
+        "murder-serial-killers",
+        "folklore-legend",
+        "entertainment-celebrity"
+      ]
+    },
+    "new_themes_used": ["organized-crime", "murder-serial-killers"],
+    "low": [],
+    "notes": "covered_span runs to 2024 because the TBI reopening (2022) and exhumation (2024) investigate his own crime and get several minutes; a 2004 self-published book by ex-sheriff Mike Elam is also discussed. Birth years of Louise Hathcock and Pauline Pusser not given (Pauline was 33 in 1967). Mississippi side of the state line is also a setting but Tennessee dominates, so only US-TN is listed."
+  },
+  {
+    "id": "how-the-first-police-went-from-gangsters-to-an-army-for-the-rich",
+    "themes_before": {
+      "primary": "policing-incarceration",
+      "secondary": ["labor-exploitation", "racism-white-supremacy", "corporate-malfeasance"]
+    },
+    "themes_after": {
+      "primary": "policing-incarceration",
+      "secondary": [
+        "labor-exploitation",
+        "protest-revolution",
+        "inequality-class",
+        "racism-white-supremacy",
+        "corporate-malfeasance",
+        "organized-crime"
+      ]
+    },
+    "new_themes_used": ["protest-revolution", "organized-crime", "inequality-class"],
+    "low": [],
+    "notes": "Part two of the Behind the Police mini-series. The host dates the Pennsylvania State Police to 1903; it was created in 1905. Modern material (2002-2020 state police search data, Pinkerton's current labor surveillance) is short, so it sets reaches_present rather than extending covered_span. Covered start 1800 approximates the early-1800s constable system."
+  },
+  {
+    "id": "how-the-roman-republic-became-a-police-state",
+    "themes_before": {
+      "primary": "policing-incarceration",
+      "secondary": [
+        "authoritarianism",
+        "electoral-politics",
+        "civil-war",
+        "slavery-forced-labor",
+        "intelligence-covert-ops",
+        "war-war-crimes"
+      ]
+    },
+    "themes_after": {
+      "primary": "policing-incarceration",
+      "secondary": [
+        "inequality-class",
+        "electoral-politics",
+        "terrorism",
+        "civil-war",
+        "authoritarianism",
+        "intelligence-covert-ops"
+      ]
+    },
+    "new_themes_used": ["inequality-class"],
+    "low": [],
+    "notes": "No primary person, so roles empty. Covered span starts at the republic's founding, which gets ~10 minutes; end set at 193 CE (Praetorian auction and Severus), the last period with real airtime; a brief quote reaching Diocletian and Julian was left out. Lucretia's rape and suicide get ~3 minutes but not a detailed account, so no warning. Modern US comparisons are commentary, not covered years."
+  },
+  {
+    "id": "ma-barker-a-doting-mother-and-gangster-overlord",
+    "themes_before": {
+      "primary": "policing-incarceration",
+      "secondary": ["folklore-legend", "domestic-abuse"]
+    },
+    "themes_after": {
+      "primary": "organized-crime",
+      "secondary": ["policing-incarceration", "folklore-legend", "inequality-class"]
+    },
+    "new_themes_used": ["organized-crime", "inequality-class"],
+    "low": [],
+    "notes": "Settings span Missouri, Oklahoma, Minnesota and Florida, so no single subdivision. inequality-class is a judgement call: the host frames her through rural poverty and the gang's targeting of wealthy dynasties. folklore-legend covers the recurring mastermind-versus-FBI-myth debate. Transcript garbles several dates (marriage, Herman's death year)."
+  },
+  {
+    "id": "roy-cohn-the-man-who-made-donald-trump",
+    "themes_before": {
+      "primary": "electoral-politics",
+      "secondary": [
+        "moral-panics",
+        "religious-right-culture-war",
+        "fraud-grift",
+        "propaganda-media",
+        "intelligence-covert-ops"
+      ]
+    },
+    "themes_after": {
+      "primary": "electoral-politics",
+      "secondary": [
+        "moral-panics",
+        "anti-lgbtq",
+        "organized-crime",
+        "propaganda-media",
+        "fraud-grift"
+      ]
+    },
+    "new_themes_used": ["organized-crime", "anti-lgbtq"],
+    "low": [],
+    "notes": "Primary theme is a judgment call: part 1 is mostly McCarthyism (moral-panics, anti-lgbtq), part 2 mob and political fixing; electoral-politics chosen for the fixer/Trump pitch. reaches_present for recurring discussion of Trump and Stone using his methods up to 2020. Antisemitic scapegoating of his uncle and Trump's housing bias get a few minutes each; racism left out."
+  },
+  {
+    "id": "steven-seagal-is-so-much-worse-than-you-d-ever-imagine",
+    "themes_before": {
+      "primary": "entertainment-celebrity",
+      "secondary": [
+        "sexual-abuse",
+        "fraud-grift",
+        "policing-incarceration",
+        "authoritarianism",
+        "organized-religion"
+      ]
+    },
+    "themes_after": {
+      "primary": "entertainment-celebrity",
+      "secondary": [
+        "sexual-abuse",
+        "organized-crime",
+        "fraud-grift",
+        "policing-incarceration",
+        "authoritarianism",
+        "organized-religion"
+      ]
+    },
+    "new_themes_used": ["organized-crime"],
+    "low": [],
+    "notes": "Full-life biography, so lifetime rule applies (1952 to 2018 release). Roles: criminal-killer rests on the many sexual assault and trafficking allegations, which he denies; his fabricated CIA/SEAL past could also suggest con-artist. Philippines (Duterte) gets only a minute, so left out of setting. Animal deaths in the 2011 raid discussed briefly, no animal-cruelty warning."
+  },
+  {
+    "id": "the-evilest-football-player-of-all-time",
+    "themes_before": {
+      "primary": "sports",
+      "secondary": [
+        "nazism",
+        "colonialism-imperialism",
+        "war-war-crimes",
+        "genocide-mass-killing",
+        "fraud-grift",
+        "racism-white-supremacy"
+      ]
+    },
+    "themes_after": {
+      "primary": "sports",
+      "secondary": [
+        "nazism",
+        "war-war-crimes",
+        "organized-crime",
+        "colonialism-imperialism",
+        "racism-white-supremacy",
+        "fraud-grift"
+      ]
+    },
+    "new_themes_used": ["organized-crime"],
+    "low": [],
+    "notes": "About 45 minutes of part 1 cover the French conquest and colonial rule of Algeria from 1830; treated as background, so covered_span starts at his 1904 birth. Primary theme sports follows the title and the sports theme examples; nazism or war-war-crimes is a close alternative given airtime. Brief Uruguay World Cup segment kept out of setting."
+  },
+  {
+    "id": "the-payday-loan-industry-is-bastards-all-the-way-down",
+    "themes_before": {
+      "primary": "finance-crypto",
+      "secondary": [
+        "fraud-grift",
+        "corporate-malfeasance",
+        "propaganda-media",
+        "labor-exploitation"
+      ]
+    },
+    "themes_after": {
+      "primary": "finance-crypto",
+      "secondary": [
+        "fraud-grift",
+        "organized-crime",
+        "corporate-malfeasance",
+        "inequality-class",
+        "labor-exploitation"
+      ]
+    },
+    "new_themes_used": ["organized-crime", "inequality-class"],
+    "low": [],
+    "notes": "Primary subject is the industry as a practice, so no roles. Tucker is secondary despite a long segment (the host says he was meant to be the sole subject). covered_span starts at an estimated 1865 (post-Civil War chattel lenders; late 1800s). main_span end null since the industry is still active. labor-exploitation rests on the delayed-pay framing; Blaine Tucker's suicide is mentioned only briefly, so no warning."
+  },
+  {
+    "id": "the-cocaine-queen-of-miami",
+    "themes_before": {
+      "primary": "drugs",
+      "secondary": ["policing-incarceration", "child-abuse", "domestic-abuse"]
+    },
+    "themes_after": {
+      "primary": "drugs",
+      "secondary": ["organized-crime", "policing-incarceration", "child-abuse", "domestic-abuse"]
+    },
+    "new_themes_used": ["organized-crime"],
+    "low": [],
+    "notes": "covered_span ends 2018 because the closing postscript follows her son Michael Corleone Blanco to his 2018 Pure Blanco business, which also sets reaches_present; this is short (about three minutes) and could be cut back to 2012. Cosby's dates are unknown, so a floruit is used. Birth year follows the transcript (1943)."
+  }
+]

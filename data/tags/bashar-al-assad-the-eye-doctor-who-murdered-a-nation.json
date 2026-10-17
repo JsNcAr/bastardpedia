@@ -1,8 +1,8 @@
 {
   "story_id": "bashar-al-assad-the-eye-doctor-who-murdered-a-nation",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -12,14 +12,19 @@
       "name": "Bashar al-Assad",
       "kind": "person",
       "role": "primary",
-      "lifespan": { "start": 1965, "end": null },
-      "wikidata": "Q44329"
+      "lifespan": { "start": 1965, "end": null }
     },
     {
       "name": "Hafez al-Assad",
       "kind": "person",
       "role": "secondary",
       "lifespan": { "start": 1930, "end": 2000 }
+    },
+    {
+      "name": "Bassel al-Assad",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1962, "end": 1994 }
     },
     {
       "name": "Asma al-Assad",
@@ -40,9 +45,10 @@
       "civil-war",
       "war-war-crimes",
       "genocide-mass-killing",
+      "protest-revolution",
+      "diplomacy-foreign-policy",
       "intelligence-covert-ops",
-      "propaganda-media",
-      "diplomacy-foreign-policy"
+      "propaganda-media"
     ]
   },
   "regions": {
@@ -54,23 +60,23 @@
   },
   "time": {
     "main_span": { "start": 2000, "end": null },
-    "covered_span": { "start": 1963, "end": 2019 },
+    "covered_span": { "start": 1965, "end": 2019 },
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "Bashar al-Assad, a London-trained eye doctor made heir after his brother's death, took over Syria in 2000, crushed early reform hopes, and answered the 2011 uprising with barrel bombs, chemical weapons and mass torture.",
-  "content_warnings": ["mass-atrocity", "torture", "child-death", "graphic-violence"],
+  "summary": "Bashar al-Assad, a London-trained eye doctor who inherited Syria's dictatorship in 2000, crushed the 2011 uprising with torture prisons, barrel bombs and chemical weapons, killing hundreds of thousands of Syrians.",
+  "content_warnings": ["torture", "mass-atrocity", "graphic-violence", "child-death", "suicide-self-harm"],
   "keywords": [
-    "Hama massacre",
     "Damascus Spring",
+    "Hama massacre",
     "barrel bombs",
     "Ghouta chemical attack",
-    "Khan Shaykhun",
     "Aleppo",
-    "A Rose in the Desert (Vogue)",
+    "Daraa",
+    "Mukhabarat",
     "Maher Arar",
-    "Alois Brunner",
-    "Basil al-Assad"
+    "Vogue profile A Rose in the Desert",
+    "Obama red line"
   ],
   "guests": ["Anna Hossnieh"],
   "confidence": {
@@ -78,81 +84,21 @@
     "roles": "high",
     "themes": "medium",
     "regions": "medium",
-    "time": "medium"
+    "time": "high"
   },
   "evidence": [
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:06:45",
-      "note": "1963 Baath coup and Hafez's rise to power set out as the family's starting point"
-    },
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:13:29",
-      "note": "Hafez's 1982 shelling of Hama discussed at length as formative for Bashar"
-    },
-    {
-      "facet": "regions",
-      "part": 1,
-      "at": "00:30:45",
-      "note": "Bashar's ophthalmology training and life in London"
-    },
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:46:27",
-      "note": "Hafez dies in June 2000 and Bashar takes power; main span starts here"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:54:55",
-      "note": "Nazi fugitive Brunner shaping Syrian intelligence; CIA renditions to Syrian torturers"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "01:03:45",
-      "note": "Paid-for Vogue profile of Asma al-Assad as regime PR"
-    },
-    {
-      "facet": "themes",
-      "part": 2,
-      "at": "00:08:28",
-      "note": "Daraa graffiti arrests spark 2011 protests that escalate into civil war"
-    },
-    {
-      "facet": "themes",
-      "part": 2,
-      "at": "00:17:44",
-      "note": "Barrel bombing of Homs and Aleppo, strikes on hospitals and schools"
-    },
-    {
-      "facet": "themes",
-      "part": 2,
-      "at": "00:29:48",
-      "note": "Death tolls and torture deaths in regime prisons"
-    },
-    {
-      "facet": "themes",
-      "part": 2,
-      "at": "00:43:28",
-      "note": "2013 Ghouta sarin attack and 2017 Khan Shaykhun attack"
-    },
-    {
-      "facet": "themes",
-      "part": 2,
-      "at": "00:49:14",
-      "note": "Obama White House backing down over the chemical weapons red line"
-    },
-    {
-      "facet": "time",
-      "part": 2,
-      "at": "00:46:38",
-      "note": "Ongoing 2019 bombing of Idlib discussed, so the story reaches the present"
-    }
+    { "facet": "time", "part": 1, "at": "00:05:11", "note": "Birth in September 1965 opens the biography" },
+    { "facet": "roles", "part": 1, "at": "00:30:45", "note": "Works as an ophthalmologist at a London hospital before being recalled" },
+    { "facet": "time", "part": 1, "at": "00:46:27", "note": "Hafez dies June 2000 and Bashar takes power after a constitutional change" },
+    { "facet": "themes", "part": 1, "at": "00:48:32", "note": "Damascus Spring reforms and their reversal with arrests and a press law" },
+    { "facet": "themes", "part": 1, "at": "00:56:58", "note": "CIA rendition of detainees to Syrian torture prisons, Maher Arar case" },
+    { "facet": "regions", "part": 1, "at": "00:57:30", "note": "Arar seized at JFK airport by US authorities and sent to Syria" },
+    { "facet": "themes", "part": 1, "at": "01:04:16", "note": "Long segment on the paid-for Vogue puff piece about Asma al-Assad" },
+    { "facet": "themes", "part": 2, "at": "00:08:28", "note": "Daraa schoolboys arrested for graffiti, protests spread in 2011" },
+    { "facet": "content_warnings", "part": 2, "at": "00:03:45", "note": "Bouazizi self-immolation recounted as the Arab Spring trigger" },
+    { "facet": "themes", "part": 2, "at": "00:17:44", "note": "Barrel bombing of Homs and Aleppo, hospitals and schools targeted" },
+    { "facet": "themes", "part": 2, "at": "00:49:14", "note": "Obama White House backs away from enforcing the chemical weapons red line" },
+    { "facet": "time", "part": 2, "at": "00:47:08", "note": "Ongoing bombing of Idlib at release supports reaches_present" }
   ],
-  "notes": "Bashar was alive and in power at release (and still alive after his 2024 fall), so lifespan end and main_span end are null; covered_span ends at the 2019 release. Covered span starts with Hafez's rise after the 1963 coup. Physician-surgeon is a secondary role from the title and his London training. Asma gets a real segment (Vogue, leaked emails)."
+  "notes": "Alive and in power at release, so main_span ends null and covered_span ends 2019. Hafez's 1963-1982 rise and Hama get brief background, so covered_span starts at Bashar's birth. A several-minute segment rebuts chemical-weapon false-flag claims; conspiracy-theories left out to keep themes focused. Tunisia (Bouazizi) is Arab Spring context and is not in setting."
 }

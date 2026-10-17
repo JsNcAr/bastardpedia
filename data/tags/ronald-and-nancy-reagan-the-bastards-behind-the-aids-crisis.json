@@ -1,8 +1,8 @@
 {
   "story_id": "ronald-and-nancy-reagan-the-bastards-behind-the-aids-crisis",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -34,19 +34,21 @@
       "lifespan": { "start": 1925, "end": 1985 }
     },
     {
-      "name": "AIDS epidemic in the United States",
-      "kind": "event",
-      "role": "secondary"
+      "name": "Roy Cohn",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1927, "end": 1986 }
     }
   ],
-  "roles": ["politician-official"],
+  "roles": ["politician-official", "entertainer-artist"],
   "themes": {
-    "primary": "public-health",
+    "primary": "anti-lgbtq",
     "secondary": [
+      "public-health",
       "religious-right-culture-war",
       "electoral-politics",
-      "education",
-      "entertainment-celebrity"
+      "propaganda-media",
+      "education"
     ]
   },
   "regions": {
@@ -58,29 +60,30 @@
   },
   "time": {
     "main_span": { "start": 1981, "end": 1989 },
-    "covered_span": { "start": 1911, "end": 2016 },
+    "covered_span": { "start": 1962, "end": 1989 },
+    "partial_life": true,
     "reaches_present": false,
-    "approximate": false
+    "approximate": true
   },
-  "summary": "Ronald and Nancy Reagan, despite many gay friends from their Hollywood years, kept the US government silent and underfunded through the early AIDS epidemic of the 1980s to protect support from the religious right.",
-  "content_warnings": [],
+  "summary": "Ronald and Nancy Reagan, despite many gay friends from their Hollywood years, led a US administration that ignored, mocked and underfunded the response to AIDS through the 1980s as tens of thousands died, while Surgeon General C. Everett Koop pushed back.",
+  "content_warnings": ["hate-speech"],
   "keywords": [
-    "AIDS crisis",
+    "AIDS epidemic",
+    "Briggs Initiative",
     "Larry Speakes",
     "Lester Kinsolving",
-    "Pat Buchanan",
-    "Gary Bauer",
-    "Briggs Initiative",
+    "Christians for Reagan",
     "Understanding AIDS pamphlet",
-    "Surgeon General's Report on AIDS",
     "Ryan White",
-    "Roy Cohn"
+    "Gary Bauer",
+    "Pat Buchanan",
+    "Surgeon General's Report on AIDS"
   ],
   "guests": ["Andy Beckerman"],
   "confidence": {
     "subjects": "high",
-    "roles": "high",
-    "themes": "medium",
+    "roles": "medium",
+    "themes": "high",
     "regions": "high",
     "time": "medium"
   },
@@ -88,63 +91,69 @@
     {
       "facet": "time",
       "part": 1,
+      "at": "00:12:26",
+      "note": "1960s: Reagans groomed for politics, Nancy's gay designer and socialite friends; start of covered span"
+    },
+    {
+      "facet": "time",
+      "part": 1,
       "at": "00:19:39",
-      "note": "1967 governorship and the firing of gay staffers after press exposure"
+      "note": "1967 governorship; gay aides exposed and fired"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:22:44",
+      "note": "1978 Briggs Initiative and Reagan's opposition to it"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:25:50",
+      "note": "1982 press briefing where the press secretary and reporters joke about AIDS"
     },
     {
       "facet": "themes",
       "part": 1,
       "at": "00:30:37",
-      "note": "1980 Christians for Reagan anti-gay ads and the evangelical voting bloc"
-    },
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:25:19",
-      "note": "1982 press briefing where the press secretary jokes about AIDS"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:37:27",
-      "note": "CDC and NIH funding cuts and comparisons with other diseases"
+      "note": "1980 campaign: evangelical group's anti-gay ads helped Reagan carry the South"
     },
     {
       "facet": "regions",
       "part": 1,
       "at": "00:56:32",
-      "note": "Rock Hudson seeks treatment in Paris in 1985; Nancy declines to intervene"
+      "note": "1985: Hudson collapses in Paris; Nancy declines to help his transfer to a French military hospital"
     },
     {
       "facet": "time",
       "part": 1,
-      "at": "01:01:41",
-      "note": "Reagan first says the word AIDS in public in 1985"
+      "at": "01:01:10",
+      "note": "1985: Reagan first says the word AIDS in public after Hudson's announcement"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:04:07",
+      "note": "Defence of Reagan's FDA reforms weighed against cuts and industry-friendly deregulation"
     },
     {
       "facet": "subjects",
       "part": 2,
-      "at": "00:08:45",
-      "note": "long Koop segment begins: background, appointment, 1986 report"
+      "at": "00:10:21",
+      "note": "Koop's background as evangelical pediatric surgeon and his contested appointment"
     },
     {
       "facet": "themes",
       "part": 2,
       "at": "00:20:48",
-      "note": "Koop calls for school sex education including condoms"
-    },
-    {
-      "facet": "themes",
-      "part": 2,
-      "at": "00:22:53",
-      "note": "religious-right backlash to the report; Bauer rewrites AIDS education policy"
+      "note": "1986 Koop report calls for school sex education; backlash and Bauer's rival education policy"
     },
     {
       "facet": "time",
       "part": 2,
-      "at": "00:43:14",
-      "note": "Reagan leaves office in 1989; Ryan White letter and Roy Cohn's 1986 death"
+      "at": "00:42:44",
+      "note": "Reagan leaves office in 1989; later death tolls and the 2013 claim are short codas"
     }
   ],
-  "notes": "Two primaries per PROMPT.md's Reagan example, so the lifetime rule sets covered_span 1911-2016, although the story itself runs only from their 1960s Hollywood circle to about 1990. No theme exists for LGBTQ rights or homophobia, which is central here; public-health plus religious-right-culture-war is the closest fit. Nancy Reagan's QID omitted for lack of certainty."
+  "notes": "Partial life: the story is framed around the Reagans' AIDS response; their earlier lives get only Hollywood-era and governorship background, so covered_span starts in the early 1960s (approximate, 'Kennedy years'). Roles are a loose fit: politician-official covers Nancy as first lady; entertainer-artist reflects the Hollywood-friends segment. FR is brief (Hudson in Paris)."
 }

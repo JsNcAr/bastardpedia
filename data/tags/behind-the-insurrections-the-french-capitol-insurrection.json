@@ -1,8 +1,8 @@
 {
   "story_id": "behind-the-insurrections-the-french-capitol-insurrection",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "claude-code-subagent",
+    "agent": "btb-tagger",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -14,11 +14,6 @@
       "role": "primary"
     },
     {
-      "name": "Stavisky affair",
-      "kind": "event",
-      "role": "secondary"
-    },
-    {
       "name": "Dreyfus affair",
       "kind": "event",
       "role": "secondary"
@@ -28,6 +23,12 @@
       "kind": "person",
       "role": "secondary",
       "lifespan": { "start": 1868, "end": 1952 }
+    },
+    {
+      "name": "Alexandre Stavisky",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1886, "end": 1934 }
     },
     {
       "name": "Croix-de-Feu",
@@ -57,25 +58,25 @@
   },
   "time": {
     "main_span": { "start": 1933, "end": 1934 },
-    "covered_span": { "start": 1894, "end": 1945 },
+    "covered_span": { "start": 1894, "end": 1934 },
     "reaches_present": false,
     "approximate": false
   },
-  "summary": "How antisemitic right-wing media and street-fighting leagues in interwar France, inflamed by the Stavisky fraud scandal, led to the deadly far-right riot that tried to storm the Chamber of Deputies in Paris on 6 February 1934.",
-  "content_warnings": [],
+  "summary": "On 6 February 1934, French far-right leagues stirred up by an antisemitic press and the Stavisky fraud scandal tried to storm the Chamber of Deputies in Paris; police fire left many dead and the government fell.",
+  "content_warnings": ["suicide-self-harm"],
   "keywords": [
-    "Paris",
+    "Stavisky affair",
     "Palais Bourbon",
-    "Chamber of Deputies",
-    "Alexandre Stavisky",
-    "Alfred Dreyfus",
     "Action Francaise",
+    "Jeunesses Patriotes",
+    "Pierre Taittinger",
     "Colonel de La Rocque",
-    "Jean Chiappe",
+    "Cartel des Gauches",
     "Edouard Daladier",
-    "Vichy France"
+    "Jean Chiappe",
+    "Philippe Henriot"
   ],
-  "guests": ["Jason Petty (Prop)"],
+  "guests": ["Prop"],
   "confidence": {
     "subjects": "high",
     "roles": "high",
@@ -84,54 +85,16 @@
     "time": "medium"
   },
   "evidence": [
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:03:41",
-      "note": "Dreyfus affair opens the story as the origin of the French far right (host says 1884; actual arrest 1894)"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:37:21",
-      "note": "long segment on the right-wing press ecosystem and its growing antisemitism"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:33:47",
-      "note": "infighting between Radicals, Socialists and Communists and the 1924 and 1932 elections"
-    },
-    {
-      "facet": "subjects",
-      "part": 1,
-      "at": "00:47:23",
-      "note": "biography of Maurras and his Action Francaise newspaper and league"
-    },
-    {
-      "facet": "subjects",
-      "part": 1,
-      "at": "00:56:16",
-      "note": "Croix-de-Feu veterans league, its structure and role in the riot"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:58:53",
-      "note": "Stavisky's fraud scheme with municipal pawn shops and fake bonds"
-    },
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "01:10:18",
-      "note": "the 6 February 1934 march on the Palais Bourbon, police gunfire and deaths"
-    },
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "01:16:33",
-      "note": "fate of the rioters under Vichy and Maurras's 1945 life sentence"
-    }
+    { "facet": "time", "part": 1, "at": "00:03:41", "note": "story opens with the Dreyfus affair as the root of the French far right" },
+    { "facet": "subjects", "part": 1, "at": "00:12:28", "note": "Dreyfus pardoned 1903, cleared 1906; affair fuels antisemitic radical press" },
+    { "facet": "themes", "part": 1, "at": "00:36:51", "note": "long segment on mass-circulation right-wing papers driving outrage" },
+    { "facet": "themes", "part": 1, "at": "00:31:44", "note": "1924 Cartel victory and left-centre coalition politics through 1932" },
+    { "facet": "subjects", "part": 1, "at": "00:47:23", "note": "Maurras profile: monarchist, Dreyfusard, founder of Action Francaise" },
+    { "facet": "subjects", "part": 1, "at": "00:56:16", "note": "Croix-de-Feu under La Rocque: veteran league with mass vote control" },
+    { "facet": "themes", "part": 1, "at": "00:58:53", "note": "Stavisky's pawn-shop bond fraud described at length" },
+    { "facet": "themes", "part": 1, "at": "01:02:02", "note": "Stavisky's death spurs murder and cover-up conspiracy theories" },
+    { "facet": "time", "part": 1, "at": "01:10:18", "note": "6 February 1934 march on the Chamber, police open fire" },
+    { "facet": "time", "part": 1, "at": "01:16:02", "note": "short epilogue: February 6 veterans in Vichy, Maurras jailed 1945" }
   ],
-  "notes": "Covered span ends at 1945 for the Vichy-era fates of the leaders and Maurras's sentencing, a short (about 3 minute) segment; end could arguably be 1936 (Popular Front). Comparisons to January 6 2021 and Epstein are comparisons, so reaches_present is false. Host dates the Dreyfus arrest to 1884; history and the 1894 date used here."
+  "notes": "Transcript dates the Dreyfus arrest to 1884; it was 1894, used here. Vichy and Maurras's 1945 sentence get only about three minutes, so covered_span ends in 1934. January 6 2021 parallels are comparisons only. Guest is Jason Petty, known as Prop. No polity id for the French Third Republic."
 }

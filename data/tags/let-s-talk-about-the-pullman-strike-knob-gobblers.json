@@ -1,6 +1,6 @@
 {
   "story_id": "let-s-talk-about-the-pullman-strike-knob-gobblers",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
     "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
@@ -26,26 +26,21 @@
       "lifespan": { "start": 1855, "end": 1926 }
     },
     {
-      "name": "American Railway Union",
-      "kind": "organization",
-      "org_type": "political-org",
-      "role": "secondary"
-    },
-    {
       "name": "Pullman Palace Car Company",
       "kind": "organization",
       "org_type": "company",
       "role": "secondary"
+    },
+    {
+      "name": "Pullman, Illinois",
+      "kind": "place",
+      "role": "secondary"
     }
   ],
-  "roles": ["business-executive"],
+  "roles": ["business-executive", "inventor-engineer"],
   "themes": {
     "primary": "labor-exploitation",
-    "secondary": [
-      "corporate-malfeasance",
-      "racism-white-supremacy",
-      "propaganda-media"
-    ]
+    "secondary": ["protest-revolution", "corporate-malfeasance", "racism-white-supremacy"]
   },
   "regions": {
     "origin": ["US"],
@@ -60,77 +55,39 @@
     "reaches_present": false,
     "approximate": false
   },
-  "summary": "Sleeping-car magnate George Pullman built a controlling company town near Chicago, then cut wages without cutting rents in 1893-94, sparking a national railway strike crushed by federal troops.",
+  "summary": "Sleeping-car magnate George Pullman built a company town outside Chicago, then cut wages without cutting rents in 1894, setting off a national railway boycott crushed by federal troops.",
   "content_warnings": [],
   "keywords": [
-    "Pullman, Illinois",
-    "Chicago",
-    "Pullman porters",
+    "American Railway Union",
     "sleeping car",
+    "company town",
+    "Raising of Chicago",
+    "Pullman porters",
     "Panic of 1893",
     "Grover Cleveland",
     "John Peter Altgeld",
     "Samuel Gompers",
-    "Raising of Chicago",
-    "Lincoln funeral train"
+    "Chicago"
   ],
   "guests": ["Shereen Lani Younes"],
   "confidence": {
     "subjects": "high",
-    "roles": "high",
-    "themes": "medium",
+    "roles": "medium",
+    "themes": "high",
     "regions": "high",
-    "time": "medium"
+    "time": "high"
   },
   "evidence": [
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:03:10",
-      "note": "Pullman's birth in 1831 in upstate New York opens the biography"
-    },
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:46:47",
-      "note": "1880 land purchase and construction of the company town begins the core story"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:25:21",
-      "note": "segment on Black porters paid a fraction of white conductors' wages"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:50:26",
-      "note": "town restricted to white residents; later the union votes to exclude Black workers"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:30:06",
-      "note": "long reading of an 1880s Atlantic column on the labor question; later press framing of the strike"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:55:38",
-      "note": "28 percent wage cut with rents unchanged, workers pushed into debt to the company"
-    },
-    {
-      "facet": "subjects",
-      "part": 1,
-      "at": "00:58:45",
-      "note": "extended segment on Debs' background and founding of the American Railway Union"
-    },
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "01:17:30",
-      "note": "1894 commission, 1898 court ruling on the town and Pullman's 1897 death and burial close the story"
-    }
+    { "facet": "time", "part": 1, "at": "00:03:10", "note": "Pullman's birth in 1831 in upstate New York" },
+    { "facet": "roles", "part": 1, "at": "00:14:34", "note": "Pullman renovates and then designs luxury sleeping cars, the Pioneer of 1864" },
+    { "facet": "themes", "part": 1, "at": "00:25:21", "note": "Black porters hired at a fraction of conductor wages, called George by passengers" },
+    { "facet": "time", "part": 1, "at": "00:46:47", "note": "Land bought in 1880 and the company town built beside the factory" },
+    { "facet": "themes", "part": 1, "at": "00:47:50", "note": "Town run like a fiefdom: no press, meetings or bars, inspections and evictions" },
+    { "facet": "themes", "part": 1, "at": "00:55:38", "note": "Wages cut about 28 percent while rent and utilities kept high, workers fall into company debt" },
+    { "facet": "subjects", "part": 1, "at": "00:58:45", "note": "Long segment on Eugene Debs's background and founding of the American Railway Union" },
+    { "facet": "themes", "part": 1, "at": "01:06:31", "note": "Union votes to exclude Black workers from the sympathy strike" },
+    { "facet": "themes", "part": 1, "at": "01:10:41", "note": "Cleveland sends federal troops; injunction against union leaders; guardsmen fire on crowd" },
+    { "facet": "time", "part": 1, "at": "01:17:30", "note": "Pullman dies 1897; Illinois court strips him of the town in 1898" }
   ],
-  "notes": "Title names the strike but the episode is built as a Pullman biography, so both are primary. Transcript says the town was incorporated into Chicago in 1898 by the Illinois Supreme Court; historically annexation was 1889 and the 1898 ruling forced the company to sell the town. Covered span ends 1898 per the transcript. Federal troops and the injunction have no clean theme fit."
+  "notes": "Title names the strike but the host frames the story around George Pullman's life, so both are primary and the lifetime rule applies. inventor-engineer reflects his sleeping-car design work; medium confidence. A segment on an 1880s Atlantic article about the labor question was considered for propaganda-media but left out as context."
 }

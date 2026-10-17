@@ -1,8 +1,8 @@
 {
   "story_id": "qassem-soleimani-and-the-bastardful-history-of-u-s-iran-relations",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -33,9 +33,9 @@
   ],
   "roles": ["military-officer", "spy-intelligence"],
   "themes": {
-    "primary": "war-war-crimes",
+    "primary": "diplomacy-foreign-policy",
     "secondary": [
-      "diplomacy-foreign-policy",
+      "war-war-crimes",
       "intelligence-covert-ops",
       "civil-war",
       "weapons-arms-trade",
@@ -51,24 +51,24 @@
     "scope": "international"
   },
   "time": {
-    "main_span": { "start": 1979, "end": 2020 },
+    "main_span": { "start": 1980, "end": 2020 },
     "covered_span": { "start": 1957, "end": 2020 },
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "Biography of Iranian general Qassem Soleimani, from poor boy in Kerman to Quds Force chief who ran Iran's proxy wars in Iraq, Syria and beyond, set against decades of US meddling until his 2020 assassination.",
+  "summary": "Iranian Revolutionary Guard general Qassem Soleimani rose from a poor Kerman childhood to run the Quds Force, building proxy militias across Iraq, Syria, Lebanon and beyond until a US strike killed him in Baghdad in 2020.",
   "content_warnings": [],
   "keywords": [
-    "Islamic Revolutionary Guard Corps",
-    "Axis of Evil speech",
-    "explosively formed projectiles",
+    "Kerman",
     "Mahabad",
+    "Axis of Evil",
+    "explosively formed projectiles",
     "Hezbollah",
+    "Northern Alliance",
     "Popular Mobilization Forces",
-    "David Frum",
+    "The Shadow Commander",
     "Ryan Crocker",
-    "Baghdad airport strike",
-    "The Shadow Commander"
+    "David Frum"
   ],
   "guests": ["Anna Hossnieh"],
   "confidence": {
@@ -79,17 +79,18 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:10:04", "note": "birth in 1957 in a Kerman Province village" },
-    { "facet": "time", "part": 1, "at": "00:18:20", "note": "joins the new Revolutionary Guard after the 1979 revolution" },
-    { "facet": "regions", "part": 1, "at": "00:20:29", "note": "sent to crush the Kurdish uprising at Mahabad" },
-    { "facet": "themes", "part": 1, "at": "00:31:28", "note": "front-line service through the Iran-Iraq War" },
-    { "facet": "themes", "part": 1, "at": "00:41:29", "note": "US secretly arming both Iran and Iraq, intelligence for chemical attacks" },
-    { "facet": "regions", "part": 1, "at": "00:45:37", "note": "eastern drug war and anti-Taliban support in Afghanistan" },
-    { "facet": "themes", "part": 1, "at": "00:56:14", "note": "Axis of Evil speech ends Iran-US cooperation in Afghanistan" },
-    { "facet": "themes", "part": 1, "at": "00:59:20", "note": "Quds Force EFPs and jihadi pipelines against US troops in Iraq" },
-    { "facet": "themes", "part": 1, "at": "01:15:39", "note": "Shia militias propping up Assad in the Syrian Civil War" },
-    { "facet": "themes", "part": 1, "at": "01:31:40", "note": "state-built cult of personality and martyrdom image" },
-    { "facet": "time", "part": 1, "at": "01:29:58", "note": "live news of Iranian missile strikes after the assassination" }
+    { "facet": "time", "part": 1, "at": "00:10:04", "note": "Birth in 1957 in a village in Kerman Province; father's debt to the Shah's government" },
+    { "facet": "time", "part": 1, "at": "00:20:29", "note": "Sent with Revolutionary Guard to crush the Kurdish uprising at Mahabad at age 23" },
+    { "facet": "themes", "part": 1, "at": "00:41:29", "note": "Reagan administration armed both Iran and Iraq; intelligence aided chemical attacks" },
+    { "facet": "regions", "part": 1, "at": "00:45:37", "note": "After 1988 posted to eastern frontier to fight opium smugglers and the Taliban" },
+    { "facet": "subjects", "part": 1, "at": "00:46:42", "note": "Appointed head of the Quds Force; its role in asymmetric warfare explained" },
+    { "facet": "regions", "part": 1, "at": "00:51:59", "note": "1998 Mazar-i-Sharif crisis; backs Northern Alliance instead of invading Afghanistan" },
+    { "facet": "themes", "part": 1, "at": "00:56:14", "note": "2002 Axis of Evil speech ends US-Iran cooperation in Kabul" },
+    { "facet": "themes", "part": 1, "at": "00:59:20", "note": "Quds Force supplies EFPs to Iraqi insurgents and lets jihadists transit Syria" },
+    { "facet": "regions", "part": 1, "at": "01:15:39", "note": "Directs Shia militias propping up Assad in the Syrian civil war" },
+    { "facet": "themes", "part": 1, "at": "01:25:30", "note": "Leaked Iranian cables on militia abuses against Sunnis and his self-promotion" },
+    { "facet": "themes", "part": 1, "at": "01:31:40", "note": "State-built cult of personality and martyrdom image, Instagram following" },
+    { "facet": "time", "part": 1, "at": "00:01:37", "note": "Killed by US missile strike leaving Baghdad airport, January 2020" }
   ],
-  "notes": "Primary theme chosen as war-war-crimes because most airtime is Soleimani's wars and proxy campaigns; the taxonomy lists this story as an example of diplomacy-foreign-policy, so reviewers may prefer to swap the two. Pahlavi-era Iran has no polity id. US placed last in setting as the policy actor rather than harm site."
+  "notes": "Recorded days after the assassination with live news breaks, but the bulk is a life story, so deep-dive rather than current-affairs. Primary theme follows the taxonomy's own Soleimani example; war-war-crimes is a close alternative. No content warning: chemical attacks, the Mazar massacre and Assad's prisons are mentioned briefly, not in detail."
 }

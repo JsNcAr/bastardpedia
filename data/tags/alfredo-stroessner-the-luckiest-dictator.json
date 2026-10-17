@@ -1,8 +1,8 @@
 {
   "story_id": "alfredo-stroessner-the-luckiest-dictator",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -15,16 +15,22 @@
       "lifespan": { "start": 1912, "end": 2006 }
     },
     {
+      "name": "Francisco Solano López",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1827, "end": 1870 }
+    },
+    {
       "name": "Pastor Coronel",
       "kind": "person",
       "role": "secondary",
       "lifespan": { "start": 1919, "end": 2000 }
     },
     {
-      "name": "Colorado Party",
-      "kind": "organization",
-      "org_type": "political-org",
-      "role": "secondary"
+      "name": "Bernhard Förster",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1843, "end": 1899 }
     }
   ],
   "roles": ["dictator-autocrat", "military-officer"],
@@ -33,38 +39,39 @@
     "secondary": [
       "policing-incarceration",
       "nazism",
-      "intelligence-covert-ops",
-      "coups-insurrections",
       "child-abuse",
-      "war-war-crimes"
+      "inequality-class",
+      "war-war-crimes",
+      "coups-insurrections",
+      "intelligence-covert-ops"
     ]
   },
   "regions": {
     "origin": ["PY"],
-    "setting": ["PY", "AR", "BR"],
+    "setting": ["PY", "AR", "BR", "BO", "US"],
     "subdivisions": [],
     "polities": [],
     "scope": "national"
   },
   "time": {
     "main_span": { "start": 1954, "end": 1989 },
-    "covered_span": { "start": 1912, "end": 2006 },
+    "covered_span": { "start": 1862, "end": 2006 },
     "reaches_present": false,
     "approximate": false
   },
-  "summary": "Paraguayan general Alfredo Stroessner seized power in a 1954 coup and ruled for 35 years with US backing, running a torture police state, sheltering Nazi fugitives and abusing young girls before his 1989 ouster.",
-  "content_warnings": ["torture", "child-abuse", "graphic-violence"],
+  "summary": "Paraguayan general Alfredo Stroessner seized power in a 1954 coup and ruled for 35 years through a US-backed police state that tortured dissidents, sheltered Nazi fugitives, handed land to cronies and procured young girls for him.",
+  "content_warnings": ["child-abuse", "torture", "graphic-violence"],
   "keywords": [
     "Stronato",
-    "Chaco War",
     "War of the Triple Alliance",
+    "Chaco War",
     "Operation Condor",
     "Itaipu Dam",
-    "Bernhard Forster",
+    "Colorado Party",
     "Josef Mengele",
     "Hans-Ulrich Rudel",
-    "Andres Rodriguez",
-    "Asuncion"
+    "Andrés Rodríguez",
+    "Asunción"
   ],
   "guests": ["James Stout"],
   "confidence": {
@@ -78,63 +85,75 @@
     {
       "facet": "time",
       "part": 1,
-      "at": "00:20:59",
-      "note": "host frames the Triple Alliance war as scene-setting background, not the story proper"
+      "at": "00:11:37",
+      "note": "Solano Lopez takes power in 1862 and builds the army that he throws into the 1864 war"
     },
     {
-      "facet": "time",
+      "facet": "subjects",
       "part": 1,
       "at": "00:34:47",
-      "note": "Stroessner introduced as a mortar commander in the Chaco War; parents and youth"
-    },
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:41:32",
-      "note": "1954 coup launched during a Philharmonic concert"
-    },
-    {
-      "facet": "time",
-      "part": 2,
-      "at": "00:51:12",
-      "note": "1989 coup by son-in-law Rodriguez; exile in Brazil until death at 93"
-    },
-    {
-      "facet": "themes",
-      "part": 2,
-      "at": "00:07:50",
-      "note": "Odessa ratline, Rudel friendship and passports sold to Nazi fugitives"
-    },
-    {
-      "facet": "themes",
-      "part": 2,
-      "at": "00:19:39",
-      "note": "Pastor Coronel and the secret police; documented torture and killings"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:54:31",
-      "note": "US aid and CIA trainers teaching torture to the regime's police"
-    },
-    {
-      "facet": "themes",
-      "part": 2,
-      "at": "00:44:45",
-      "note": "regime procured young girls for the dictator; 1977 Washington Post exposure"
-    },
-    {
-      "facet": "regions",
-      "part": 2,
-      "at": "00:21:47",
-      "note": "dissident doctors flee to Brazil and Argentina; abduction and torture in Buenos Aires"
+      "note": "Stroessner introduced as a Chaco War mortar commander; German father, Paraguayan mother"
     },
     {
       "facet": "themes",
       "part": 1,
       "at": "00:40:26",
-      "note": "Stroessner's artillery wins the 1947 civil war; takes part in several later coups"
+      "note": "1947 civil war won with his artillery, then a string of coups he joins before his own"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:41:32",
+      "note": "his own coup in 1954 begins the 35-year regime"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:54:31",
+      "note": "US aid rises after the coup; American advisers train his police in torture"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:57:42",
+      "note": "segment on Forster's failed antisemitic colony, continued at the start of part 2"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:07:50",
+      "note": "Paraguay as a refuge and smuggling base for Nazi fugitives, with Rudel and Mengele"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:19:39",
+      "note": "Pastor Coronel runs the secret police; long section on torture and FBI ties"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:22:17",
+      "note": "dissident doctors flee to Brazil and Argentina and are abducted under Condor"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:29:09",
+      "note": "land concentration, ill-gotten lands given to generals, smuggling as patronage"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:45:20",
+      "note": "extended account of girls procured and abused for the dictator"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:51:12",
+      "note": "1989 coup by his son-in-law; exile in Brazil until his death at 93"
     }
   ],
-  "notes": "Part 1 spends roughly 15 minutes on 19th-century background (Francia, Solano Lopez, War of the Triple Alliance, Forster's colony); treated as scene-setting, so covered_span follows Stroessner's lifetime. Pastor Coronel's 2000 death year is from general knowledge. No theme for land inequality and patronage corruption."
+  "notes": "Transcript dates Forster's suicide to 1899 (sources say 1889) and the opening of the police archives to 1977 (actually 1992); lifespan follows the transcript per the rules. Coronel's death year is from my own knowledge. Covered span starts at Solano Lopez's rule; the 1811 Francia material is short background. Scope national though the wars and Condor cross borders."
 }

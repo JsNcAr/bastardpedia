@@ -1,8 +1,8 @@
 {
   "story_id": "nestor-makhno-anarchist-warlord-and-book-club-aficionado",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -15,9 +15,14 @@
       "lifespan": { "start": 1888, "end": 1934 }
     },
     {
-      "name": "Revolutionary Insurrectionary Army of Ukraine",
+      "name": "Revolutionary Insurgent Army of Ukraine",
       "kind": "organization",
       "org_type": "military",
+      "role": "secondary"
+    },
+    {
+      "name": "Russian Civil War",
+      "kind": "event",
       "role": "secondary"
     },
     {
@@ -25,25 +30,31 @@
       "kind": "organization",
       "org_type": "military",
       "role": "secondary"
+    },
+    {
+      "name": "Anton Denikin",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1872, "end": 1947 }
     }
   ],
   "roles": ["mercenary-warlord", "activist-organizer", "terrorist-militant"],
   "themes": {
     "primary": "civil-war",
     "secondary": [
+      "protest-revolution",
       "war-war-crimes",
+      "inequality-class",
       "terrorism",
-      "colonialism-imperialism",
-      "communism-state-socialism",
       "policing-incarceration",
-      "racism-white-supremacy"
+      "colonialism-imperialism"
     ]
   },
   "regions": {
     "origin": ["UA"],
     "setting": ["UA", "RU", "FR"],
-    "subdivisions": [],
-    "polities": ["russian-empire"],
+    "subdivisions": ["UA-23"],
+    "polities": ["russian-empire", "austria-hungary"],
     "scope": "international"
   },
   "time": {
@@ -52,8 +63,8 @@
     "reaches_present": false,
     "approximate": false
   },
-  "summary": "Christmas hero episode on Ukrainian anarchist Nestor Makhno, a former serf's son and teenage militant who built peasant communes around Huliaipole and led a guerrilla army against Austro-German occupiers, the Whites and the Bolsheviks from 1917 to 1921.",
-  "content_warnings": ["graphic-violence", "mass-atrocity", "suicide-self-harm"],
+  "summary": "Ukrainian peasant anarchist Nestor Makhno, jailed as a teenage militant under the Tsar, led a guerrilla army that held a self-governing free territory in eastern Ukraine, fighting Whites, occupiers and Bolsheviks from 1917 to 1921.",
+  "content_warnings": ["graphic-violence", "mass-atrocity"],
   "keywords": [
     "Huliaipole",
     "Makhnovshchina",
@@ -61,9 +72,9 @@
     "tachanka",
     "Battle of Peregonovka",
     "Treaty of Brest-Litovsk",
-    "Anton Denikin",
-    "Leon Trotsky",
     "Peter Kropotkin",
+    "Mutual Aid",
+    "Leon Trotsky",
     "Anarchy's Cossack"
   ],
   "guests": ["Jamie Loftus"],
@@ -75,18 +86,72 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:23:37", "note": "Makhno's birth in October to former serfs; year garbled in transcript, 1888 from general knowledge" },
-    { "facet": "themes", "part": 1, "at": "00:06:18", "note": "extended framing of Ukraine as a colonized land, land grants to nobles and settlers, serfdom" },
-    { "facet": "themes", "part": 1, "at": "00:50:29", "note": "anarchist group turns to armed expropriations and shootouts with police in 1906-07" },
-    { "facet": "themes", "part": 1, "at": "01:06:05", "note": "death sentence commuted to hard labor; years in tsarist prison reading anarchist theory" },
-    { "facet": "time", "part": 1, "at": "01:09:17", "note": "freed after the 1917 revolution and returns to organize his hometown" },
-    { "facet": "subjects", "part": 2, "at": "00:12:32", "note": "segment on Mennonite landowners forming an armed militia alongside the occupiers" },
-    { "facet": "regions", "part": 2, "at": "00:24:29", "note": "flees to Moscow and meets Lenin before sneaking back into Ukraine" },
-    { "facet": "themes", "part": 2, "at": "00:38:23", "note": "White Army pogroms and reprisals against peasants and Jewish communities" },
-    { "facet": "themes", "part": 2, "at": "00:56:03", "note": "Red Army outlaws Makhno; Cheka purges in retaken towns" },
-    { "facet": "time", "part": 2, "at": "00:56:35", "note": "final war with the Bolsheviks ends in 1921; escape to Poland then exile" },
-    { "facet": "regions", "part": 2, "at": "00:57:06", "note": "last years spent ill and depressed in Paris" },
-    { "facet": "time", "part": 2, "at": "01:00:12", "note": "death in Paris; year garbled in transcript, 1934 from general knowledge" }
+    {
+      "facet": "format",
+      "part": 1,
+      "at": "00:03:43",
+      "note": "framed as the annual Christmas hero episode after Wallenberg and John Brown"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:06:18",
+      "note": "long background on Ukraine as a colonized land and Catherine II's land grants"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:50:29",
+      "note": "1906-07 armed expropriations of local businessmen and shootout with police"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:06:05",
+      "note": "death sentence commuted; years of hard labor in Tsarist prison, reads Kropotkin"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:10:56",
+      "note": "released in 1917, returns home and organizes peasant unions and land seizures"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:12:02",
+      "note": "Mennonite self-defense militia sides with Austro-German occupiers in 1918 reprisals"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:24:29",
+      "note": "flees to Moscow and meets Lenin before slipping back into Ukraine"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:37:53",
+      "note": "extended account of White Army pogroms and atrocities under Denikin"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:43:36",
+      "note": "September 1919 counterattack at Peregonovka routs Denikin's forces"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:56:35",
+      "note": "final war with the Red Army to August 1921, then exile via Poland to Paris"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:00:12",
+      "note": "dies sick and isolated in Paris; death year garbled in transcript, 1934 from knowledge"
+    }
   ],
-  "notes": "Hero format (2020 Christmas non-bastard). Birth and death years garbled in transcript; 1888 and 1934 from general knowledge. Catherine the Great, Cossack and serfdom history is background and not counted in covered_span. Main span uses 1917-1921, though the 1906-1908 militant phase also gets long airtime. Poland and Paris exile brief; PL omitted. Tsar Nicholas II and Bloody Sunday get a few minutes (monarchy-empire left out)."
+  "notes": "Hero episode, so the lifetime rule applies (1888-1934); main_span 1917-1921 per the encyclopedia test, though the 1906-1908 militant youth also gets long airtime. Birth and death years garbled in the transcript, filled from knowledge. Primary civil-war over protest-revolution per its exclude_when. Ukraine colonial background is pre-story context, kept as a theme only. UA-23 is Zaporizhzhia Oblast (Huliaipole)."
 }

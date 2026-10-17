@@ -1,8 +1,8 @@
 {
   "story_id": "focus-on-the-family-james-dobson",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -17,13 +17,13 @@
     {
       "name": "Focus on the Family",
       "kind": "organization",
-      "org_type": "political-org",
+      "org_type": "ngo",
       "role": "primary"
     },
     {
       "name": "Love Won Out",
       "kind": "organization",
-      "org_type": "political-org",
+      "org_type": "ngo",
       "role": "secondary"
     },
     {
@@ -33,18 +33,19 @@
       "lifespan": { "start": 1963, "end": null }
     },
     {
-      "name": "A Letter from a Christian in 2012",
+      "name": "Letter from 2012 in Obama's America",
       "kind": "media-work",
       "role": "secondary"
     }
   ],
-  "roles": ["media-personality", "activist-organizer", "psychiatrist-psychologist"],
+  "roles": ["media-personality", "psychiatrist-psychologist", "activist-organizer"],
   "themes": {
     "primary": "religious-right-culture-war",
     "secondary": [
+      "anti-lgbtq",
       "child-abuse",
-      "quackery-pseudoscience",
       "propaganda-media",
+      "quackery-pseudoscience",
       "electoral-politics",
       "fraud-grift"
     ]
@@ -62,19 +63,19 @@
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "Child psychologist James Dobson built Focus on the Family into a US evangelical radio and lobbying empire that promoted corporal punishment of children and ran the Love Won Out gay conversion therapy conferences.",
-  "content_warnings": ["child-abuse", "hate-speech"],
+  "summary": "Child psychologist James Dobson built Focus on the Family into a US Christian radio and lobbying empire from 1977, promoting corporal punishment of children and running the Love Won Out conversion therapy conferences.",
+  "content_warnings": ["child-abuse", "suicide-self-harm", "hate-speech"],
   "keywords": [
     "Dare to Discipline",
     "Family Research Council",
     "Adventures in Odyssey",
     "Ted Bundy interview",
-    "Colorado Springs",
     "conversion therapy",
     "ex-gay movement",
     "Exodus International",
+    "Colorado Springs",
     "Mike Pence",
-    "Gil Alexander-Moegerle"
+    "Ronald Reagan"
   ],
   "guests": ["Garrison Davis"],
   "confidence": {
@@ -89,68 +90,74 @@
       "facet": "time",
       "part": 1,
       "at": "00:03:43",
-      "note": "Dobson's birth and Louisiana origins introduced; childhood beatings by his mother described"
+      "note": "Dobson's birth in Louisiana; the spoken year is garbled, 1936 filled from known fact"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:06:18",
+      "note": "his mother's beatings shaped his belief in harsh physical discipline of children"
     },
     {
       "facet": "time",
       "part": 1,
       "at": "00:17:47",
-      "note": "first book Dare to Discipline published in 1970, start of his public career"
+      "note": "first book Dare to Discipline published in 1970"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:20:28",
+      "note": "weekly radio show begins in 1977 and becomes the Focus on the Family nonprofit"
     },
     {
       "facet": "themes",
       "part": 1,
-      "at": "00:23:37",
-      "note": "couple charged with child abuse after following Dobson's spanking advice"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:27:15",
-      "note": "entry into politics via Carter family conference, later Reagan-era panels and the FRC"
-    },
-    {
-      "facet": "themes",
-      "part": 1,
-      "at": "00:44:04",
-      "note": "radio empire, magazines, Adventures in Odyssey and the Colorado Springs headquarters"
+      "at": "00:35:40",
+      "note": "Reagan-era federal commission appointments and later purchase of the Family Research Council"
     },
     {
       "facet": "themes",
       "part": 1,
       "at": "00:57:08",
-      "note": "Dobson monetises Ted Bundy's final interview tapes and keeps much of the money"
+      "note": "Ted Bundy final interview in 1989 and the profits Dobson made selling the tapes"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:03:54",
+      "note": "donor database used as a fundraising machine and to mobilise political call-in campaigns"
     },
     {
       "facet": "subjects",
       "part": 2,
       "at": "00:03:41",
-      "note": "2008 anonymous letter imagining America in 2012 under Obama, read at length"
+      "note": "long segment on the anonymous 2008 letter imagining America under Obama in 2012"
     },
     {
       "facet": "themes",
       "part": 2,
       "at": "00:40:40",
-      "note": "Love Won Out ex-gay traveling conference and its claim that homosexuality is preventable"
+      "note": "launch of the Love Won Out ex-gay traveling conference and its pseudo-Freudian claims"
     },
     {
       "facet": "subjects",
       "part": 2,
-      "at": "01:06:56",
-      "note": "John Paulk's life, gay bar scandal, departure and 2013 apology"
+      "at": "01:06:26",
+      "note": "John Paulk's path from ex-gay leader at Focus to his 2013 public apology"
     },
     {
       "facet": "time",
       "part": 2,
-      "at": "01:14:12",
-      "note": "Dobson leaves in 2009 and Love Won Out is sold to Exodus; later downsizing"
+      "at": "01:13:42",
+      "note": "2009: Love Won Out sold to Exodus International and Dobson leaves Focus on the Family"
     },
     {
       "facet": "time",
       "part": 2,
       "at": "01:18:17",
-      "note": "Pence at the 2017 anniversary and current anti-trans content carry the story to release"
+      "note": "Pence at the 2017 anniversary event, current anti-trans output and conversion therapy bans"
     }
   ],
-  "notes": "Dobson was alive when this aired (2020); he died in 2025, so covered_span ends at the 2020 release per the lifetime rule. Main span runs from Dare to Discipline (1970) to his 2009 exit. Conversion therapy tagged as quackery-pseudoscience. Garrison Davis hosts; Robert Evans appears as guest. Family Research Council kept as a keyword to stay within five subjects."
+  "notes": "Dobson was alive at release (2020) and died in 2025, so covered_span ends at the release year. Focus on the Family and Dobson treated as co-primary: part one is his biography, part two the organization's ex-gay ministry. org_type ngo chosen for a nonprofit ministry and media empire; media-outlet was the alternative. Love Won Out start year (1998) not clearly spoken; filled from known fact."
 }

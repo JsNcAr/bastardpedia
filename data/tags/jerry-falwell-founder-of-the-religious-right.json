@@ -1,8 +1,8 @@
 {
   "story_id": "jerry-falwell-founder-of-the-religious-right",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -43,12 +43,11 @@
   "themes": {
     "primary": "religious-right-culture-war",
     "secondary": [
+      "anti-lgbtq",
       "racism-white-supremacy",
       "electoral-politics",
       "education",
-      "public-health",
-      "organized-religion",
-      "fraud-grift"
+      "propaganda-media"
     ]
   },
   "regions": {
@@ -64,41 +63,101 @@
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "Virginia Baptist preacher and televangelist Jerry Falwell defended segregation, founded Liberty University and the Moral Majority, and fused evangelicals into an anti-abortion, anti-gay voting bloc; his son later ran Liberty amid scandal.",
-  "content_warnings": ["hate-speech"],
+  "summary": "Lynchburg, Virginia pastor and televangelist Jerry Falwell preached segregation, founded Liberty University and the Moral Majority, and fused American evangelicals into a political bloc that fought abortion, feminism and gay rights from 1979 on.",
+  "content_warnings": ["hate-speech", "animal-cruelty"],
   "keywords": [
     "Lynchburg",
     "Thomas Road Baptist Church",
     "Old Time Gospel Hour",
-    "Bob Jones University",
     "Hustler Magazine v. Falwell",
     "Equal Rights Amendment",
+    "Bob Jones University",
     "Paul Weyrich",
-    "AIDS crisis",
     "Tinky Winky",
-    "Giancarlo Granda"
+    "Giancarlo Granda",
+    "Michael Cohen"
   ],
   "guests": ["Sofiya Alexandra"],
   "confidence": {
     "subjects": "high",
     "roles": "high",
-    "themes": "high",
+    "themes": "medium",
     "regions": "high",
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:05:17", "note": "Falwell's birth in 1933 in Lynchburg, Virginia" },
-    { "facet": "time", "part": 1, "at": "00:32:15", "note": "founds Thomas Road Baptist Church in 1956, start of main span" },
-    { "facet": "themes", "part": 1, "at": "00:35:22", "note": "1958 sermon defending segregation and attacking Brown v. Board" },
-    { "facet": "themes", "part": 1, "at": "00:51:10", "note": "segregation academies, IRS tax-exemption fight and Bob Jones University" },
-    { "facet": "subjects", "part": 1, "at": "00:47:31", "note": "Moral Majority formed in 1979 with Weyrich and Phillips" },
-    { "facet": "themes", "part": 1, "at": "01:10:01", "note": "voter drive and endorsement of Reagan in the 1980 election" },
-    { "facet": "themes", "part": 2, "at": "00:15:46", "note": "blames AIDS on gay people and opposes funding for research" },
-    { "facet": "subjects", "part": 2, "at": "00:27:21", "note": "Larry Flynt segment: Hustler parody suit up to the Supreme Court" },
-    { "facet": "time", "part": 2, "at": "00:46:44", "note": "fatal heart attack in his office in 2007" },
-    { "facet": "subjects", "part": 3, "at": "00:03:42", "note": "whole third part follows Jerry Falwell Jr. and Liberty University" },
-    { "facet": "themes", "part": 3, "at": "00:16:42", "note": "Liberty online program recruited aggressively, likened to a diploma mill" },
-    { "facet": "time", "part": 3, "at": "00:44:50", "note": "2019 petitions and student protests against Falwell Jr." }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:05:17",
+      "note": "Falwell's birth in 1933 and his Lynchburg, Virginia origins"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:32:15",
+      "note": "founds Thomas Road Baptist Church in 1956 and starts his broadcast ministry"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:35:22",
+      "note": "1958 sermon defending segregation and attacking Brown v. Board"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:51:10",
+      "note": "segregation academies, IRS tax-exemption fights and Bob Jones University as the movement's root"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:47:31",
+      "note": "Moral Majority formed in 1979 with Weyrich and Phillips; long segment on its campaigns"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:10:01",
+      "note": "1980 voter drive and endorsement of Reagan"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:15:46",
+      "note": "Falwell blames AIDS on gay men and opposes research funding"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:27:51",
+      "note": "Hustler parody, the libel suit from 1983 and the Supreme Court loss; later friendship with Flynt"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:46:44",
+      "note": "death by heart attack in May 2007"
+    },
+    {
+      "facet": "subjects",
+      "part": 3,
+      "at": "00:03:42",
+      "note": "whole part turns to Jerry Falwell Jr. (born 1962) and his running of Liberty"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:14:07",
+      "note": "Liberty's online program, recruiter pressure and federal aid revenue"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "00:44:18",
+      "note": "September 2019 student protests and calls for investigation close the covered years"
+    }
   ],
-  "notes": "Part 3 is entirely about Jerry Falwell Jr. and Liberty University up to 2019, so covered_span ends in 2019 and reaches_present is true. Father Carey Falwell's businesses from 1915 are family background, not counted. Carey killing a worker's cat is told vividly but briefly; animal-cruelty not added."
+  "notes": "Part 3 is entirely about Jerry Falwell Jr. and Liberty University through 2019, so covered_span runs to 2019 and both are secondary subjects. The father Carey Falwell's bootlegging and violence (1910s-1940s) gets several minutes in part 1 but is treated as family background; covered_span starts at Jerry's 1933 birth. Anti-feminism and ERA opposition are folded into religious-right-culture-war. Animal-cruelty is borderline: one vivid anecdote of the father killing a worker's cat."
 }

@@ -1,6 +1,6 @@
 {
   "story_id": "the-birth-of-the-anti-vaccine-movement",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
     "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
@@ -29,7 +29,6 @@
       "name": "Lora Little",
       "kind": "person",
       "role": "secondary",
-      "lifespan": { "start": null, "end": null },
       "floruit": 1896
     }
   ],
@@ -39,9 +38,9 @@
     "secondary": [
       "quackery-pseudoscience",
       "fraud-grift",
-      "medical-malpractice",
       "racism-white-supremacy",
-      "conspiracy-theories"
+      "conspiracy-theories",
+      "propaganda-media"
     ]
   },
   "regions": {
@@ -52,46 +51,106 @@
     "scope": "international"
   },
   "time": {
-    "main_span": { "start": 1798, "end": null },
+    "main_span": { "start": 1798, "end": 2018 },
     "covered_span": { "start": 1796, "end": 2019 },
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "Three-part history of vaccine refusal, from 19th-century riots and racist smallpox campaigns in Britain and the US to Andrew Wakefield's fraudulent 1998 MMR-autism study and pediatrician Bob Sears profiting from the fear it created.",
-  "content_warnings": [],
+  "summary": "History of vaccine refusal from the first smallpox vaccines and 19th-century anti-vaccination leagues in Britain and the US to Andrew Wakefield's fraudulent MMR study and Dr. Bob Sears's alternative schedules, linked to measles outbreaks.",
+  "content_warnings": ["child-death"],
   "keywords": [
-    "Edward Jenner",
     "smallpox",
+    "Edward Jenner",
     "Leicester",
     "Jacobson v. Massachusetts",
-    "Immanuel Pfeiffer",
     "MMR vaccine",
     "The Lancet",
     "Brian Deer",
     "Vaxxed",
-    "The Vaccine Book"
+    "The Vaccine Book",
+    "measles outbreak"
   ],
   "guests": ["Anna Salinas"],
   "confidence": {
-    "subjects": "medium",
+    "subjects": "high",
     "roles": "high",
-    "themes": "high",
-    "regions": "medium",
+    "themes": "medium",
+    "regions": "high",
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:10:00", "note": "Jenner presents cowpox vaccination to the Royal Society in 1796" },
-    { "facet": "time", "part": 1, "at": "00:13:37", "note": "First anti-vaccination society formed in Boston around 1798, before US vaccinations began" },
-    { "facet": "regions", "part": 1, "at": "00:17:12", "note": "Stockholm vaccine refusal and the 1874 epidemic" },
-    { "facet": "regions", "part": 1, "at": "00:18:15", "note": "Leicester mass march and the Royal Commission leading to conscientious objector exemptions" },
-    { "facet": "themes", "part": 1, "at": "00:23:59", "note": "Smallpox framed as a Black disease; racist quarantines and forced vaccinations in the US South" },
-    { "facet": "subjects", "part": 1, "at": "00:41:48", "note": "Lora Little edits The Liberator and leads anti-compulsion campaigns" },
-    { "facet": "themes", "part": 1, "at": "00:45:56", "note": "Homeopaths and botanical physicians lead the anti-vaccine side of the medical war" },
-    { "facet": "time", "part": 1, "at": "00:57:21", "note": "1905 Supreme Court ruling upholds compulsory vaccination" },
-    { "facet": "themes", "part": 2, "at": "00:08:50", "note": "Wakefield patents a test and a single measles vaccine and seeks investors" },
-    { "facet": "themes", "part": 2, "at": "00:18:17", "note": "Study revealed as commissioned by a litigation lawyer with falsified patient data" },
-    { "facet": "themes", "part": 2, "at": "00:34:55", "note": "Vaxxed film and Infowars appearances push a CDC cover-up claim" },
-    { "facet": "time", "part": 3, "at": "00:26:45", "note": "Sears put on probation by the California medical board in 2018" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:10:00",
+      "note": "Jenner presents the cowpox vaccine in 1796, the starting point of the story"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:13:37",
+      "note": "Boston doctors and clergy form the first anti-vaccination society in 1798"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:17:12",
+      "note": "Stockholm vaccine refusal and the 1874 epidemic get a segment"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:18:15",
+      "note": "Leicester mass march, Royal Commission and conscience clause in Britain"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:23:59",
+      "note": "smallpox framed as a Black disease; racist quarantines and enforcement in the US South"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:41:48",
+      "note": "Little edits The Liberator and later wins anti-compulsion laws in Michigan"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:54:15",
+      "note": "homeopath and health-nut doctors in the movement; Pfeiffer catches smallpox after a challenge"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:56:51",
+      "note": "Jacobson v. Massachusetts 1905 ends the first American movement"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:08:50",
+      "note": "Wakefield patents tests and a single measles vaccine to profit from his MMR claims"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:34:55",
+      "note": "Vaxxed documentary and Infowars appearances push a CDC cover-up claim"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "00:26:45",
+      "note": "Sears placed on probation by the California medical board in 2018"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:05:14",
+      "note": "2019 Clark County measles outbreak tied to modern vaccine refusal"
+    }
   ],
-  "notes": "Primary subject is the movement, so roles are empty; Wakefield and Sears each get a full part as secondary subjects. Transcript renders the activist as Laura Little; the usual spelling is Lora Little. Sears's birth year is not given, so left null. main_span starts at the first anti-vaccination society (about 1798) and stays open because the movement was active at release. No content warning: smallpox symptoms and child deaths are described briefly, not at length."
+  "notes": "Primary subject is the movement, so roles stay empty and Wakefield and Sears are secondary despite having a part each. Transcript spells her Laura Little; historical name is Lora Little. Sears birth year left null (unsure). Main span 1798-2018 because the story narrates both the 19th-century movement and the modern revival. Medical-malpractice considered for Wakefield's birthday-party blood draws but left out."
 }

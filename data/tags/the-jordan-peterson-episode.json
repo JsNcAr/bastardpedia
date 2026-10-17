@@ -1,8 +1,8 @@
 {
   "story_id": "the-jordan-peterson-episode",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -19,23 +19,19 @@
       "kind": "person",
       "role": "secondary",
       "lifespan": { "start": 1992, "end": null }
-    },
-    {
-      "name": "Intellectual Dark Web",
-      "kind": "movement-or-ideology",
-      "role": "secondary"
     }
   ],
   "roles": ["psychiatrist-psychologist", "writer-intellectual", "influencer-online"],
   "themes": {
     "primary": "fascism-far-right",
     "secondary": [
-      "wellness-self-help",
-      "religious-right-culture-war",
       "misogyny-manosphere",
-      "racism-white-supremacy",
+      "anti-lgbtq",
+      "religious-right-culture-war",
+      "wellness-self-help",
       "occult-esoteric",
-      "drugs"
+      "drugs",
+      "racism-white-supremacy"
     ]
   },
   "regions": {
@@ -51,41 +47,41 @@
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "Canadian psychologist Jordan Peterson rose from a University of Toronto professorship to global fame in 2016 by opposing trans rights law Bill C-16, selling a mythic, hierarchy-obsessed self-help worldview that fed the far right.",
+  "summary": "Canadian psychologist Jordan Peterson rose from a Toronto professorship to fame in 2016 by opposing trans rights law Bill C-16, spreading mystical, hierarchy-worshipping ideas that feed the far right, before a benzodiazepine addiction derailed him.",
   "content_warnings": ["drug-use"],
   "keywords": [
     "Bill C-16",
     "12 Rules for Life",
     "Maps of Meaning",
-    "University of Toronto",
-    "Carl Jung",
-    "Joseph Campbell",
-    "Bernard Schiff",
+    "Intellectual Dark Web",
     "Self Authoring Suite",
+    "University of Toronto",
+    "Bernard Schiff",
     "enforced monogamy",
-    "Kwakwaka'wakw"
+    "Kwakwaka'wakw",
+    "Carl Jung"
   ],
   "guests": ["Cody Johnston"],
   "confidence": {
     "subjects": "high",
-    "roles": "high",
+    "roles": "medium",
     "themes": "medium",
-    "regions": "medium",
+    "regions": "high",
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:09:21", "note": "born June 1962 in Edmonton, raised in Fairview, Alberta" },
-    { "facet": "themes", "part": 1, "at": "00:22:51", "note": "long segment on fascist mysticism and the fascist sympathies of Jung, Eliade and Campbell" },
-    { "facet": "themes", "part": 1, "at": "00:45:23", "note": "clinical practice spawns the Self Authoring Suite self-help product" },
-    { "facet": "themes", "part": 1, "at": "00:53:05", "note": "his framing of chaos as inherently feminine" },
-    { "facet": "time", "part": 1, "at": "01:13:50", "note": "2016 Bill C-16 fight launches his YouTube fame and Patreon income" },
-    { "facet": "themes", "part": 1, "at": "01:24:08", "note": "responds to the 2018 Toronto incel van attack by calling for enforced monogamy" },
-    { "facet": "themes", "part": 2, "at": "00:05:49", "note": "misrepresents an adoption into an Indigenous artist's family as tribal membership" },
-    { "facet": "subjects", "part": 2, "at": "00:22:01", "note": "segment on the Intellectual Dark Web and its members" },
-    { "facet": "time", "part": 2, "at": "00:26:46", "note": "12 Rules for Life published January 2018" },
-    { "facet": "themes", "part": 2, "at": "00:48:12", "note": "wanted to buy a church to preach in; cites wife's prophetic dream" },
-    { "facet": "themes", "part": 2, "at": "00:54:32", "note": "benzodiazepine dependence after wife's 2019 cancer diagnosis, failed rehab" },
-    { "facet": "regions", "part": 2, "at": "00:58:12", "note": "daughter takes him to Russia for an induced-coma detox; later Serbia trip and Covid in 2020" }
+    { "facet": "time", "part": 1, "at": "00:09:21", "note": "Born June 1962 in Edmonton, raised in Fairview, Alberta" },
+    { "facet": "themes", "part": 1, "at": "00:22:51", "note": "Long segment on fascist mysticism and his influences Jung, Eliade, Campbell" },
+    { "facet": "regions", "part": 1, "at": "00:33:21", "note": "Moves to Boston to teach at Harvard, later returns to Toronto" },
+    { "facet": "time", "part": 1, "at": "00:40:14", "note": "Maps of Meaning published in 1999" },
+    { "facet": "themes", "part": 1, "at": "00:45:23", "note": "Self Authoring Suite sold as an online self-help program" },
+    { "facet": "themes", "part": 1, "at": "01:13:50", "note": "2016 campaign against Bill C-16 and trans pronouns launches his fame" },
+    { "facet": "themes", "part": 1, "at": "01:24:08", "note": "Response to 2018 incel van attack: enforced monogamy, women as chaos" },
+    { "facet": "themes", "part": 2, "at": "00:05:49", "note": "Misleading claim of tribal membership used to deflect racism charges" },
+    { "facet": "themes", "part": 2, "at": "00:26:46", "note": "12 Rules for Life (2018) aimed at insecure men" },
+    { "facet": "themes", "part": 2, "at": "00:54:32", "note": "Benzodiazepine dependence after wife's 2019 cancer diagnosis, rehab" },
+    { "facet": "regions", "part": 2, "at": "00:57:39", "note": "Daughter takes him to Russia for an induced-coma detox" },
+    { "facet": "time", "part": 2, "at": "00:59:15", "note": "2020 Serbia trip and COVID; still not recovered at release" }
   ],
-  "notes": "Primary theme fascism-far-right chosen because the hosts frame the whole story around his ideas feeding fascism, though he is not a fascist himself; misogyny-manosphere was the close alternative. Opening section on Judeo-Bolshevism and Weimar is background, so not counted in covered_span. main_span ends 2020 with his health collapse at release. Serbia brief, left out of setting. Wikidata omitted."
+  "notes": "Primary theme is a judgment call between fascism-far-right (the hosts' stated framing: his ideas feed fascism) and misogyny-manosphere. main_span runs from the 2016 C-16 fame to his 2020 collapse; he was alive but inactive at release, so end is 2020, not null. Judeo-Bolshevism and Weimar material is background, not covered. Serbia is brief and left out of setting."
 }

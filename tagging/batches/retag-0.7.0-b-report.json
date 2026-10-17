@@ -1,0 +1,800 @@
+[
+  {
+    "id": "p-diddy-a-life-in-crimes",
+    "themes_before": {
+      "primary": "sexual-abuse",
+      "secondary": ["entertainment-celebrity", "child-abuse", "domestic-abuse", "drugs"]
+    },
+    "themes_after": {
+      "primary": "sexual-abuse",
+      "secondary": [
+        "organized-crime",
+        "entertainment-celebrity",
+        "child-abuse",
+        "disasters",
+        "domestic-abuse",
+        "drugs"
+      ]
+    },
+    "new_themes_used": ["organized-crime", "disasters"],
+    "low": [],
+    "notes": "main_span ends 2024 (arrest) rather than open; disasters for the 1991 City College crush; no graphic-violence warning."
+  },
+  {
+    "id": "jim-bowie-the-worst-texan",
+    "themes_before": {
+      "primary": "folklore-legend",
+      "secondary": [
+        "slavery-forced-labor",
+        "fraud-grift",
+        "colonialism-imperialism",
+        "war-war-crimes",
+        "weapons-arms-trade"
+      ]
+    },
+    "themes_after": {
+      "primary": "folklore-legend",
+      "secondary": [
+        "fraud-grift",
+        "slavery-forced-labor",
+        "colonialism-imperialism",
+        "civil-war",
+        "war-war-crimes"
+      ]
+    },
+    "new_themes_used": [],
+    "low": [],
+    "notes": "Both US-TX and US-LA subdivisions kept (one per part); Arkansas omitted; folklore-legend primary over fraud-grift."
+  },
+  {
+    "id": "descendant-of-the-original-boogeyman-albert-fish",
+    "themes_before": {
+      "primary": "child-abuse",
+      "secondary": ["moral-panics", "propaganda-media", "policing-incarceration"]
+    },
+    "themes_after": {
+      "primary": "murder-serial-killers",
+      "secondary": ["child-abuse", "moral-panics", "propaganda-media", "policing-incarceration"]
+    },
+    "new_themes_used": ["murder-serial-killers"],
+    "low": [],
+    "notes": "Lifespan and DC origin from general knowledge; reaches_present via guest family segment; no mental-illness theme exists."
+  },
+  {
+    "id": "louis-van-schoor-the-deadliest-security-guard-in-history",
+    "themes_before": {
+      "primary": "policing-incarceration",
+      "secondary": [
+        "racism-white-supremacy",
+        "child-abuse",
+        "propaganda-media",
+        "colonialism-imperialism"
+      ]
+    },
+    "themes_after": {
+      "primary": "murder-serial-killers",
+      "secondary": [
+        "policing-incarceration",
+        "racism-white-supremacy",
+        "colonialism-imperialism",
+        "propaganda-media",
+        "domestic-abuse"
+      ]
+    },
+    "new_themes_used": ["murder-serial-killers"],
+    "low": [],
+    "notes": "1992 conviction year from tagger knowledge; propaganda-media weakest secondary; colonialism rests on part-1 background."
+  },
+  {
+    "id": "the-naturopathic-doctor-who-bombed-a-plane",
+    "themes_before": {
+      "primary": "fraud-grift",
+      "secondary": [
+        "quackery-pseudoscience",
+        "public-health",
+        "wellness-self-help",
+        "policing-incarceration"
+      ]
+    },
+    "themes_after": {
+      "primary": "fraud-grift",
+      "secondary": [
+        "quackery-pseudoscience",
+        "murder-serial-killers",
+        "public-health",
+        "wellness-self-help"
+      ]
+    },
+    "new_themes_used": ["murder-serial-killers"],
+    "low": [],
+    "notes": "Death year 1969 from tagger knowledge, not packet; DE setting borderline (Lust segment); murder-serial-killers over terrorism (insurance motive)."
+  },
+  {
+    "id": "the-throat-slitting-evangelical-minister-of-jamaica",
+    "themes_before": {
+      "primary": "cults-new-religions",
+      "secondary": [
+        "fraud-grift",
+        "conspiracy-theories",
+        "organized-religion",
+        "sexual-abuse",
+        "education",
+        "public-health"
+      ]
+    },
+    "themes_after": {
+      "primary": "cults-new-religions",
+      "secondary": [
+        "fraud-grift",
+        "conspiracy-theories",
+        "organized-religion",
+        "sexual-abuse",
+        "murder-serial-killers",
+        "education"
+      ]
+    },
+    "new_themes_used": ["murder-serial-killers"],
+    "low": [],
+    "notes": "Birth year uncertain (approximate); JM-08 from tagger knowledge; child-abuse and public-health left out."
+  },
+  {
+    "id": "the-phil-spector-episodes",
+    "themes_before": {
+      "primary": "entertainment-celebrity",
+      "secondary": ["domestic-abuse", "policing-incarceration", "labor-exploitation"]
+    },
+    "themes_after": {
+      "primary": "entertainment-celebrity",
+      "secondary": [
+        "domestic-abuse",
+        "murder-serial-killers",
+        "child-abuse",
+        "policing-incarceration"
+      ]
+    },
+    "new_themes_used": ["murder-serial-killers"],
+    "low": [],
+    "notes": "child-abuse rests on about three minutes; policing-incarceration could be dropped; no theme for gun threats."
+  },
+  {
+    "id": "the-nazi-pedophile-cult-leader-who-murdered-santa-with-paul-f-tompkins",
+    "themes_before": {
+      "primary": "cults-new-religions",
+      "secondary": [
+        "child-abuse",
+        "authoritarianism",
+        "nazism",
+        "intelligence-covert-ops",
+        "medical-malpractice",
+        "slavery-forced-labor"
+      ]
+    },
+    "themes_after": {
+      "primary": "cults-new-religions",
+      "secondary": [
+        "child-abuse",
+        "nazism",
+        "authoritarianism",
+        "intelligence-covert-ops",
+        "medical-malpractice",
+        "slavery-forced-labor"
+      ]
+    },
+    "new_themes_used": [],
+    "low": [],
+    "notes": "Three possible birthplaces in transcript; main_span from 1961 (1950s start defensible); Hopp and Pinochet as keywords."
+  },
+  {
+    "id": "synanon-the-drug-rehab-program-that-built-its-own-army",
+    "themes_before": {
+      "primary": "cults-new-religions",
+      "secondary": ["drugs", "child-abuse", "terrorism", "wellness-self-help", "propaganda-media"]
+    },
+    "themes_after": {
+      "primary": "cults-new-religions",
+      "secondary": ["drugs", "child-abuse", "wellness-self-help", "propaganda-media", "fraud-grift"]
+    },
+    "new_themes_used": [],
+    "low": [],
+    "notes": "Two primaries (Synanon, Dederich); garbled years (Betty d.1977, rattlesnake 1978) inferred; terrorism left out."
+  },
+  {
+    "id": "a-terrible-story-about-the-internet",
+    "themes_before": {
+      "primary": "tech-internet",
+      "secondary": [
+        "policing-incarceration",
+        "religious-right-culture-war",
+        "propaganda-media",
+        "domestic-abuse",
+        "child-abuse"
+      ]
+    },
+    "themes_after": {
+      "primary": "tech-internet",
+      "secondary": [
+        "anti-lgbtq",
+        "propaganda-media",
+        "policing-incarceration",
+        "sexual-abuse",
+        "child-abuse"
+      ]
+    },
+    "new_themes_used": ["anti-lgbtq"],
+    "low": [],
+    "notes": "Primary subject is mainly a harassment victim; no online-harassment or disability theme, tech-internet closest; birth year 1982 filled from known date."
+  },
+  {
+    "id": "focus-on-the-family-james-dobson",
+    "themes_before": {
+      "primary": "religious-right-culture-war",
+      "secondary": [
+        "child-abuse",
+        "quackery-pseudoscience",
+        "propaganda-media",
+        "electoral-politics",
+        "fraud-grift"
+      ]
+    },
+    "themes_after": {
+      "primary": "religious-right-culture-war",
+      "secondary": [
+        "anti-lgbtq",
+        "child-abuse",
+        "propaganda-media",
+        "quackery-pseudoscience",
+        "electoral-politics",
+        "fraud-grift"
+      ]
+    },
+    "new_themes_used": ["anti-lgbtq"],
+    "low": [],
+    "notes": "Co-primary Dobson and Focus on the Family (typed ngo); six secondary themes; 1936 birth and 1998 Love Won Out start from tagger knowledge."
+  },
+  {
+    "id": "jerry-falwell-founder-of-the-religious-right",
+    "themes_before": {
+      "primary": "religious-right-culture-war",
+      "secondary": [
+        "racism-white-supremacy",
+        "electoral-politics",
+        "education",
+        "public-health",
+        "organized-religion",
+        "fraud-grift"
+      ]
+    },
+    "themes_after": {
+      "primary": "religious-right-culture-war",
+      "secondary": [
+        "anti-lgbtq",
+        "racism-white-supremacy",
+        "electoral-politics",
+        "education",
+        "propaganda-media"
+      ]
+    },
+    "new_themes_used": ["anti-lgbtq"],
+    "low": [],
+    "notes": "Covered span extends to 2019 via Falwell Jr. part; father's bootlegging treated as background; animal-cruelty warning borderline."
+  },
+  {
+    "id": "john-ronald-brown-the-worst-surgeon-ever",
+    "themes_before": {
+      "primary": "medical-malpractice",
+      "secondary": ["fraud-grift", "policing-incarceration", "public-health"]
+    },
+    "themes_after": {
+      "primary": "medical-malpractice",
+      "secondary": ["anti-lgbtq", "fraud-grift", "murder-serial-killers", "policing-incarceration"]
+    },
+    "new_themes_used": ["murder-serial-killers", "anti-lgbtq"],
+    "low": [],
+    "notes": "Birth 1922 inferred; Bondy death 1998 and conviction 1999 from tagger knowledge; trans-medicine history treated as background."
+  },
+  {
+    "id": "phyllis-schlafly-the-mother-of-all-culture-wars",
+    "themes_before": {
+      "primary": "religious-right-culture-war",
+      "secondary": [
+        "misogyny-manosphere",
+        "electoral-politics",
+        "conspiracy-theories",
+        "racism-white-supremacy",
+        "propaganda-media",
+        "weapons-arms-trade"
+      ]
+    },
+    "themes_after": {
+      "primary": "religious-right-culture-war",
+      "secondary": [
+        "misogyny-manosphere",
+        "electoral-politics",
+        "anti-lgbtq",
+        "conspiracy-theories",
+        "racism-white-supremacy",
+        "weapons-arms-trade",
+        "propaganda-media"
+      ]
+    },
+    "new_themes_used": ["anti-lgbtq"],
+    "low": [],
+    "notes": "Seven secondary themes; main_span start 1952 from general knowledge (1946 defensible); transcript ERA death year 1985 vs actual 1982."
+  },
+  {
+    "id": "ron-desantis-florida-man",
+    "themes_before": {
+      "primary": "electoral-politics",
+      "secondary": [
+        "religious-right-culture-war",
+        "authoritarianism",
+        "policing-incarceration",
+        "racism-white-supremacy",
+        "education",
+        "public-health"
+      ]
+    },
+    "themes_after": {
+      "primary": "electoral-politics",
+      "secondary": [
+        "authoritarianism",
+        "racism-white-supremacy",
+        "policing-incarceration",
+        "religious-right-culture-war",
+        "sports"
+      ]
+    },
+    "new_themes_used": [],
+    "low": [],
+    "notes": "public-health and anti-lgbtq left out (brief); religious-right-culture-war rests on 3-4 minutes; sports for Little League segment."
+  },
+  {
+    "id": "ronald-and-nancy-reagan-the-bastards-behind-the-aids-crisis",
+    "themes_before": {
+      "primary": "public-health",
+      "secondary": [
+        "religious-right-culture-war",
+        "electoral-politics",
+        "education",
+        "entertainment-celebrity"
+      ]
+    },
+    "themes_after": {
+      "primary": "anti-lgbtq",
+      "secondary": [
+        "public-health",
+        "religious-right-culture-war",
+        "electoral-politics",
+        "propaganda-media",
+        "education"
+      ]
+    },
+    "new_themes_used": ["anti-lgbtq"],
+    "low": [],
+    "notes": "partial_life true; covered start 1962 approximate; roles fit Nancy poorly."
+  },
+  {
+    "id": "the-12-tribes-the-worst-cult-you-ve-never-heard-of",
+    "themes_before": {
+      "primary": "cults-new-religions",
+      "secondary": [
+        "child-abuse",
+        "racism-white-supremacy",
+        "labor-exploitation",
+        "religious-right-culture-war",
+        "policing-incarceration"
+      ]
+    },
+    "themes_after": {
+      "primary": "cults-new-religions",
+      "secondary": [
+        "child-abuse",
+        "racism-white-supremacy",
+        "labor-exploitation",
+        "religious-right-culture-war",
+        "anti-lgbtq"
+      ]
+    },
+    "new_themes_used": ["anti-lgbtq"],
+    "low": [],
+    "notes": "Vermont raid year 1984 from tagger knowledge; no subdivision (four states); France omitted."
+  },
+  {
+    "id": "the-jordan-peterson-episode",
+    "themes_before": {
+      "primary": "fascism-far-right",
+      "secondary": [
+        "wellness-self-help",
+        "religious-right-culture-war",
+        "misogyny-manosphere",
+        "racism-white-supremacy",
+        "occult-esoteric",
+        "drugs"
+      ]
+    },
+    "themes_after": {
+      "primary": "fascism-far-right",
+      "secondary": [
+        "misogyny-manosphere",
+        "anti-lgbtq",
+        "religious-right-culture-war",
+        "wellness-self-help",
+        "occult-esoteric",
+        "drugs",
+        "racism-white-supremacy"
+      ]
+    },
+    "new_themes_used": ["anti-lgbtq"],
+    "low": [],
+    "notes": "Primary fascism-far-right over misogyny-manosphere (close); main_span ends 2020 not open."
+  },
+  {
+    "id": "the-rush-limbaugh-episodes-with-paul-f-tompkins",
+    "themes_before": {
+      "primary": "propaganda-media",
+      "secondary": [
+        "racism-white-supremacy",
+        "electoral-politics",
+        "religious-right-culture-war",
+        "misogyny-manosphere",
+        "drugs",
+        "conspiracy-theories",
+        "fascism-far-right"
+      ]
+    },
+    "themes_after": {
+      "primary": "propaganda-media",
+      "secondary": [
+        "racism-white-supremacy",
+        "electoral-politics",
+        "religious-right-culture-war",
+        "anti-lgbtq",
+        "misogyny-manosphere",
+        "drugs",
+        "fascism-far-right"
+      ]
+    },
+    "new_themes_used": ["anti-lgbtq"],
+    "low": [],
+    "notes": "Seven secondary themes; no subdivision (story moves across five states)."
+  },
+  {
+    "id": "the-websites-behind-an-international-rapist-network",
+    "themes_before": {
+      "primary": "sexual-abuse",
+      "secondary": ["tech-internet", "domestic-abuse", "child-abuse", "policing-incarceration"]
+    },
+    "themes_after": {
+      "primary": "sexual-abuse",
+      "secondary": [
+        "tech-internet",
+        "domestic-abuse",
+        "child-abuse",
+        "anti-lgbtq",
+        "policing-incarceration"
+      ]
+    },
+    "new_themes_used": ["anti-lgbtq"],
+    "low": [],
+    "notes": "Co-primary Coco and Dominique Pelicot; Steidl name garbled and birth 1981 estimated; Durov as keyword."
+  },
+  {
+    "id": "alfredo-stroessner-the-luckiest-dictator",
+    "themes_before": {
+      "primary": "authoritarianism",
+      "secondary": [
+        "policing-incarceration",
+        "nazism",
+        "intelligence-covert-ops",
+        "coups-insurrections",
+        "child-abuse",
+        "war-war-crimes"
+      ]
+    },
+    "themes_after": {
+      "primary": "authoritarianism",
+      "secondary": [
+        "policing-incarceration",
+        "nazism",
+        "child-abuse",
+        "inequality-class",
+        "war-war-crimes",
+        "coups-insurrections",
+        "intelligence-covert-ops"
+      ]
+    },
+    "new_themes_used": ["inequality-class"],
+    "low": [],
+    "notes": "Seven secondary themes; Forster death 1899 per transcript (sources say 1889, override candidate); Coronel death 2000 from tagger knowledge."
+  },
+  {
+    "id": "elite-panic-why-the-rich-and-powerful-can-t-be-trusted",
+    "themes_before": {
+      "primary": "moral-panics",
+      "secondary": ["corporate-malfeasance", "policing-incarceration", "propaganda-media"]
+    },
+    "themes_after": {
+      "primary": "disasters",
+      "secondary": [
+        "corporate-malfeasance",
+        "inequality-class",
+        "policing-incarceration",
+        "moral-panics"
+      ]
+    },
+    "new_themes_used": ["inequality-class", "disasters"],
+    "low": [],
+    "notes": "Primary subject is the concept (movement-or-ideology), roles empty; Alaska quake corrected to 1964; 2008 retrial end from tagger knowledge."
+  },
+  {
+    "id": "how-the-rich-ate-christianity",
+    "themes_before": {
+      "primary": "religious-right-culture-war",
+      "secondary": [
+        "propaganda-media",
+        "organized-religion",
+        "electoral-politics",
+        "labor-exploitation"
+      ]
+    },
+    "themes_after": {
+      "primary": "religious-right-culture-war",
+      "secondary": [
+        "propaganda-media",
+        "organized-religion",
+        "inequality-class",
+        "electoral-politics"
+      ]
+    },
+    "new_themes_used": ["inequality-class"],
+    "low": [],
+    "notes": "Primary is the movement, not Fifield (avoids lifetime rule), so roles empty; guest surnames from tagger knowledge."
+  },
+  {
+    "id": "lord-aspinall-the-gambling-king-of-london",
+    "themes_before": {
+      "primary": "fraud-grift",
+      "secondary": [
+        "education",
+        "child-abuse",
+        "eugenics-scientific-racism",
+        "fascism-far-right",
+        "domestic-abuse"
+      ]
+    },
+    "themes_after": {
+      "primary": "inequality-class",
+      "secondary": [
+        "education",
+        "child-abuse",
+        "murder-serial-killers",
+        "fascism-far-right",
+        "eugenics-scientific-racism",
+        "domestic-abuse"
+      ]
+    },
+    "new_themes_used": ["murder-serial-killers", "inequality-class"],
+    "low": [],
+    "notes": "Lucan lifespan end null (vanished 1974), override candidate; no gambling or zoo/animal-welfare theme; Clermont spelling corrected."
+  },
+  {
+    "id": "the-man-who-ruined-new-york",
+    "themes_before": {
+      "primary": "racism-white-supremacy",
+      "secondary": ["environmental-destruction", "electoral-politics", "colonialism-imperialism"]
+    },
+    "themes_after": {
+      "primary": "racism-white-supremacy",
+      "secondary": ["inequality-class", "colonialism-imperialism", "electoral-politics"]
+    },
+    "new_themes_used": ["inequality-class"],
+    "low": [],
+    "notes": "No urban-planning/infrastructure theme, racism-white-supremacy closest (possible taxonomy gap); 1924 start from general knowledge; EG setting borderline."
+  },
+  {
+    "id": "the-rfk-jr-episodes",
+    "themes_before": {
+      "primary": "public-health",
+      "secondary": [
+        "conspiracy-theories",
+        "electoral-politics",
+        "drugs",
+        "child-abuse",
+        "sexual-abuse",
+        "domestic-abuse"
+      ]
+    },
+    "themes_after": {
+      "primary": "inequality-class",
+      "secondary": [
+        "public-health",
+        "conspiracy-theories",
+        "drugs",
+        "child-abuse",
+        "electoral-politics",
+        "sexual-abuse",
+        "domestic-abuse"
+      ]
+    },
+    "new_themes_used": ["inequality-class"],
+    "low": [],
+    "notes": "Primary inequality-class over public-health (close, swap reasonable); covered start 1849 estimated from family emigration; transcript misdates vaccine article (2011 vs 2005)."
+  },
+  {
+    "id": "why-is-the-rent-so-damn-high",
+    "themes_before": {
+      "primary": "finance-crypto",
+      "secondary": [
+        "corporate-malfeasance",
+        "propaganda-media",
+        "tech-internet",
+        "labor-exploitation"
+      ]
+    },
+    "themes_after": {
+      "primary": "finance-crypto",
+      "secondary": [
+        "corporate-malfeasance",
+        "inequality-class",
+        "propaganda-media",
+        "tech-internet"
+      ]
+    },
+    "new_themes_used": ["inequality-class"],
+    "low": [],
+    "notes": "Co-primary rent crisis (event) and Sam Zell; tech-internet weakest secondary; rent-control history treated as background."
+  },
+  {
+    "id": "bonus-a-conversation-about-tiger-king-and-rural-america",
+    "themes_before": {
+      "primary": "entertainment-celebrity",
+      "secondary": ["cults-new-religions", "drugs", "child-abuse", "domestic-abuse"]
+    },
+    "themes_after": {
+      "primary": "entertainment-celebrity",
+      "secondary": ["cults-new-religions", "drugs", "child-abuse", "inequality-class"]
+    },
+    "new_themes_used": ["inequality-class"],
+    "low": ["themes", "time"],
+    "notes": "Themes and time low: no theme for exotic animals or rural culture; 1999 start estimated; format current-affairs; roles empty."
+  },
+  {
+    "id": "that-time-britain-did-a-genocide-in-ireland",
+    "themes_before": {
+      "primary": "genocide-mass-killing",
+      "secondary": [
+        "colonialism-imperialism",
+        "racism-white-supremacy",
+        "finance-crypto",
+        "organized-religion",
+        "propaganda-media"
+      ]
+    },
+    "themes_after": {
+      "primary": "genocide-mass-killing",
+      "secondary": [
+        "colonialism-imperialism",
+        "inequality-class",
+        "disasters",
+        "racism-white-supremacy",
+        "protest-revolution"
+      ]
+    },
+    "new_themes_used": ["protest-revolution", "inequality-class", "disasters"],
+    "low": [],
+    "notes": "Famine (event) primary, Trevelyan secondary, roles empty; covered start 1540 (colonial land system counted); scope international."
+  },
+  {
+    "id": "the-deadliest-workplace-disaster-in-u-s-history",
+    "themes_before": {
+      "primary": "labor-exploitation",
+      "secondary": [
+        "corporate-malfeasance",
+        "racism-white-supremacy",
+        "medical-malpractice",
+        "public-health",
+        "policing-incarceration"
+      ]
+    },
+    "themes_after": {
+      "primary": "labor-exploitation",
+      "secondary": [
+        "disasters",
+        "corporate-malfeasance",
+        "racism-white-supremacy",
+        "public-health",
+        "medical-malpractice"
+      ]
+    },
+    "new_themes_used": ["disasters"],
+    "low": [],
+    "notes": "1938 end (Rukeyser book) from general knowledge; medical-malpractice light; Union Carbide could be co-primary."
+  },
+  {
+    "id": "the-industrial-disaster-that-makes-chernobyl-look-like-kindergarten",
+    "themes_before": {
+      "primary": "corporate-malfeasance",
+      "secondary": ["labor-exploitation", "environmental-destruction", "public-health"]
+    },
+    "themes_after": {
+      "primary": "disasters",
+      "secondary": [
+        "corporate-malfeasance",
+        "labor-exploitation",
+        "environmental-destruction",
+        "public-health"
+      ]
+    },
+    "new_themes_used": ["disasters"],
+    "low": [],
+    "notes": "Scope international (local defensible); 1989 settlement year from general knowledge; roles empty (event primary)."
+  },
+  {
+    "id": "the-twilight-zone-movie",
+    "themes_before": {
+      "primary": "entertainment-celebrity",
+      "secondary": [
+        "child-abuse",
+        "labor-exploitation",
+        "policing-incarceration",
+        "corporate-malfeasance"
+      ]
+    },
+    "themes_after": {
+      "primary": "entertainment-celebrity",
+      "secondary": ["labor-exploitation", "child-abuse", "disasters"]
+    },
+    "new_themes_used": ["disasters"],
+    "low": [],
+    "notes": "Co-primary film and Landis; only three secondary themes; partial_life considered but not set; Folsey as keyword."
+  },
+  {
+    "id": "the-russian-scientist-who-helped-kill-30-million-people",
+    "themes_before": {
+      "primary": "quackery-pseudoscience",
+      "secondary": [
+        "communism-state-socialism",
+        "genocide-mass-killing",
+        "propaganda-media",
+        "science-exploration"
+      ]
+    },
+    "themes_after": {
+      "primary": "quackery-pseudoscience",
+      "secondary": [
+        "communism-state-socialism",
+        "propaganda-media",
+        "science-exploration",
+        "genocide-mass-killing"
+      ]
+    },
+    "new_themes_used": [],
+    "low": [],
+    "notes": "1927 main_span start from tagger knowledge; RU ahead of CN in setting; scientist-scholar over quack-fake-healer."
+  },
+  {
+    "id": "stockton-rush-inventor-of-the-deathsub",
+    "themes_before": {
+      "primary": "corporate-malfeasance",
+      "secondary": [
+        "tech-internet",
+        "science-exploration",
+        "propaganda-media",
+        "slavery-forced-labor"
+      ]
+    },
+    "themes_after": {
+      "primary": "corporate-malfeasance",
+      "secondary": [
+        "disasters",
+        "science-exploration",
+        "tech-internet",
+        "inequality-class",
+        "propaganda-media"
+      ]
+    },
+    "new_themes_used": ["inequality-class", "disasters"],
+    "low": [],
+    "notes": "business-executive vs tech-founder judgement; CA setting via support ship; slaveholding ancestors (about 5%) treated as background."
+  }
+]

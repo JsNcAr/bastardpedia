@@ -1,8 +1,8 @@
 {
   "story_id": "voices-of-revolution",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -19,103 +19,99 @@
       "role": "primary"
     },
     {
-      "name": "2019 Turkish offensive into north-eastern Syria",
+      "name": "2019 Turkish offensive into northeastern Syria",
       "kind": "event",
       "role": "primary"
     }
   ],
   "roles": [],
   "themes": {
-    "primary": "authoritarianism",
+    "primary": "protest-revolution",
     "secondary": [
       "policing-incarceration",
-      "war-war-crimes",
+      "inequality-class",
       "electoral-politics",
-      "civil-war"
+      "war-war-crimes"
     ]
   },
   "regions": {
-    "origin": [
-      "CL",
-      "LB",
-      "SY"
-    ],
-    "setting": [
-      "CL",
-      "LB",
-      "SY"
-    ],
+    "origin": ["CL", "LB", "SY"],
+    "setting": ["CL", "LB", "SY"],
     "subdivisions": [],
     "polities": [],
     "scope": "international"
   },
   "time": {
-    "main_span": {
-      "start": 2019,
-      "end": 2019
-    },
-    "covered_span": {
-      "start": 2019,
-      "end": 2019
-    },
+    "main_span": { "start": 2019, "end": 2019 },
+    "covered_span": { "start": 2019, "end": 2019 },
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "Bonus release of the full, unedited interviews behind a 2019 episode on global unrest: activists in Santiago on Chile's protests and police crackdown, a Beirut writer on Lebanon's sectarian-system uprising, and a Rojava resident on Turkey's offensive.",
+  "summary": "Unedited interviews recorded in October 2019 with people on the ground in the Chilean fare protests, Lebanon's mass anti-sectarian uprising, and Rojava under the Turkish offensive in northern Syria.",
   "content_warnings": [],
   "keywords": [
     "The World Is Burning",
     "Santiago",
+    "Plaza Italia",
     "Sebastian Pinera",
-    "Pinochet constitution",
-    "Beirut",
+    "WhatsApp tax",
     "Taif Agreement",
     "Hezbollah",
     "Rojava",
-    "Syrian Democratic Forces",
-    "Ras al-Ayn"
+    "Ras al-Ain",
+    "Syrian Democratic Forces"
   ],
-  "guests": [
-    "Joey Ayoub"
-  ],
+  "guests": ["Joey Ayoub"],
   "confidence": {
-    "subjects": "high",
+    "subjects": "medium",
     "roles": "high",
-    "themes": "low",
+    "themes": "high",
     "regions": "high",
     "time": "high"
   },
   "evidence": [
     {
-      "facet": "subjects",
+      "facet": "format",
       "part": 1,
       "at": "00:00:02",
-      "note": "host frames the release as raw interview audio from the earlier World Is Burning episode"
+      "note": "host frames it as raw interview audio from the current uprisings episode, not a normal episode"
     },
     {
       "facet": "themes",
       "part": 1,
       "at": "00:05:24",
-      "note": "Chilean interviewees describe militarised police, state of emergency and troops in the streets"
+      "note": "Chilean interviewees describe militarised police, tear gas and the state of emergency"
     },
     {
       "facet": "themes",
       "part": 1,
-      "at": "00:31:07",
-      "note": "Lebanon segment on elections, coalition politics and the confessional voting system"
+      "at": "00:03:46",
+      "note": "concentration of wealth in about ten Chilean families as a protest driver"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:50:15",
+      "note": "Lebanese income inequality figures by percentile"
     },
     {
       "facet": "themes",
       "part": 1,
       "at": "00:35:31",
-      "note": "Taif Agreement and amnesty law after the Lebanese civil war entrenched sectarian rule"
+      "note": "sectarian voting system and coalition politics block independent candidates"
     },
     {
       "facet": "themes",
       "part": 1,
       "at": "00:58:32",
-      "note": "Rojava segment on Turkish shelling, ceasefire breaches, casualties and displacement"
+      "note": "Rojava interview: ceasefire breaches, shelling, airstrikes and casualties"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:56:26",
+      "note": "third interview, conducted by message, covers the Turkish attack on Rojava"
     }
   ],
-  "notes": "No theme for popular protest movements or inequality; authoritarianism chosen as primary for state repression (Chile curfew and military, Assad regime return), with low confidence. Interviewees for Chile are unnamed activists; the Rojava respondent's name is garbled in the transcript, so only Joey Ayoub is listed. Pinochet era and Lebanese civil war are background only."
+  "notes": "Bonus minisode of raw interviews (Chile, Lebanon, Rojava) from 'The World is Burning'. All three events made primary since the episode is structured as three interviews, though Rojava gets less time. Chilean interviewees named only as Stephanie; the Rojava interviewee's name is unclear in the transcript, so only Joey Ayoub is listed as a guest."
 }

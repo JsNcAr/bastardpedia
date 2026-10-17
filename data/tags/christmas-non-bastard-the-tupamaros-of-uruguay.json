@@ -1,8 +1,8 @@
 {
   "story_id": "christmas-non-bastard-the-tupamaros-of-uruguay",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -33,21 +33,22 @@
       "lifespan": { "start": 1920, "end": 1970 }
     },
     {
-      "name": "Uruguayan civic-military dictatorship",
-      "kind": "event",
+      "name": "Frente Amplio",
+      "kind": "organization",
+      "org_type": "political-org",
       "role": "secondary"
     }
   ],
-  "roles": ["terrorist-militant", "politician-official", "activist-organizer"],
+  "roles": ["terrorist-militant", "politician-official"],
   "themes": {
-    "primary": "terrorism",
+    "primary": "protest-revolution",
     "secondary": [
-      "coups-insurrections",
+      "terrorism",
       "authoritarianism",
-      "policing-incarceration",
       "electoral-politics",
+      "policing-incarceration",
       "intelligence-covert-ops",
-      "labor-exploitation"
+      "inequality-class"
     ]
   },
   "regions": {
@@ -60,43 +61,86 @@
   "time": {
     "main_span": { "start": 1963, "end": 2015 },
     "covered_span": { "start": 1935, "end": 2021 },
-    "reaches_present": true,
+    "reaches_present": false,
     "approximate": false
   },
-  "summary": "Hero episode on Uruguay's Tupamaros, Robin Hood-style urban guerrillas of the 1960s and 70s, and member José Mujica, who survived 14 years in the dictatorship's prisons and was elected president in 2009.",
+  "summary": "Uruguay's Tupamaros, an urban guerrilla group of the 1960s and 70s, robbed banks to aid the poor before the military dictatorship crushed them; member José Mujica survived 14 years in prison and was elected president in 2009.",
   "content_warnings": ["torture"],
   "keywords": [
-    "Pepe Mujica",
     "Montevideo",
-    "armed propaganda",
-    "Frente Amplio",
-    "People's Prison",
+    "Movimiento de Liberación Nacional",
+    "Plan Satan",
     "Pando raid",
-    "Tabaré Vázquez",
+    "civic-military dictatorship",
     "Lucía Topolansky",
-    "marijuana legalization",
-    "José Batlle y Ordóñez"
+    "Mauricio Rosencof",
+    "Julio María Sanguinetti",
+    "Tabaré Vázquez",
+    "marijuana legalization"
   ],
   "guests": ["Margaret Killjoy"],
   "confidence": {
     "subjects": "high",
-    "roles": "high",
-    "themes": "medium",
+    "roles": "medium",
+    "themes": "high",
     "regions": "high",
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:13:10", "note": "Batlle-era welfare state background from 1903; treated as context, not story" },
-    { "facet": "subjects", "part": 1, "at": "00:31:07", "note": "Sendic organises cane cutters and founds the movement in 1963" },
-    { "facet": "themes", "part": 1, "at": "00:37:54", "note": "bank robberies and armed propaganda escalate 1963-1968" },
-    { "facet": "time", "part": 1, "at": "00:42:07", "note": "Mujica born 1935 to a poor farming family near Montevideo" },
-    { "facet": "themes", "part": 1, "at": "01:04:11", "note": "kidnapping of US adviser Mitrione, said to teach torture, in 1970" },
-    { "facet": "themes", "part": 1, "at": "01:08:17", "note": "US military aid and CIA backing for the Uruguayan government" },
-    { "facet": "themes", "part": 1, "at": "01:14:07", "note": "Frente Amplio and the 1971 election before the dictatorship" },
-    { "facet": "themes", "part": 2, "at": "00:03:11", "note": "Mujica's solitary confinement in army prisons, about 14 years" },
-    { "facet": "time", "part": 2, "at": "00:06:46", "note": "1985 return to democracy and amnesty frees the prisoners" },
-    { "facet": "themes", "part": 2, "at": "00:14:04", "note": "2009 election; presidency legalises gay marriage, marijuana, abortion" },
-    { "facet": "time", "part": 2, "at": "00:50:24", "note": "present-day state of the movement under a conservative government" }
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:31:07",
+      "note": "Raúl Sendic introduced as founder; sugar cane workers march leads him to form the group"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:36:19",
+      "note": "first action, the gun club burglary, dated to 1963"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:42:07",
+      "note": "Mujica's birth in 1935 and poor childhood near Montevideo"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:02:38",
+      "note": "segment on Mitrione, a US police adviser tied to the CIA, kidnapped and executed in 1970"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:07:47",
+      "note": "US aid and CIA money flow to the Uruguayan security forces after Mitrione's death"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:13:37",
+      "note": "Frente Amplio coalition and the 1971 election, with the Tupamaros backing it"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:03:11",
+      "note": "prison conditions under the dictatorship: isolation, beatings, starvation"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:06:16",
+      "note": "1984 protests end the dictatorship; amnesty frees the prisoners"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:13:32",
+      "note": "Mujica elected president in 2009; reforms and the left's critique of his term"
+    }
   ],
-  "notes": "Title names the Tupamaros, descriptions name Mujica, so both are primary. A long opening segment on Batlle's early-1900s reforms and the 1950s economic collapse is treated as background, so covered_span starts at Mujica's birth. Mujica was alive at release (died 2025), so covered_span ends 2021. Primary theme terrorism vs coups-insurrections is a judgment call; no theme for a positive hero insurgency."
+  "notes": "Tupamaros and Mujica treated as co-primary: title names the group, descriptions name Mujica. Colonial and Batlle-era history (1516-1950s) is background and left out of covered_span. reaches_present false: the story mostly stops at Mujica's 2010-2015 term, with only brief remarks on the 2020 government. Covered end is 2021 because Mujica was alive at release (died 2025)."
 }

@@ -1,8 +1,8 @@
 {
   "story_id": "how-the-rich-ate-christianity",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
@@ -20,13 +20,13 @@
       "lifespan": { "start": 1899, "end": 1977 }
     },
     {
-      "name": "Spiritual Mobilization",
+      "name": "National Association of Manufacturers",
       "kind": "organization",
       "org_type": "political-org",
       "role": "secondary"
     },
     {
-      "name": "National Association of Manufacturers",
+      "name": "Spiritual Mobilization",
       "kind": "organization",
       "org_type": "political-org",
       "role": "secondary"
@@ -41,12 +41,7 @@
   "roles": [],
   "themes": {
     "primary": "religious-right-culture-war",
-    "secondary": [
-      "propaganda-media",
-      "organized-religion",
-      "electoral-politics",
-      "labor-exploitation"
-    ]
+    "secondary": ["propaganda-media", "organized-religion", "inequality-class", "electoral-politics"]
   },
   "regions": {
     "origin": ["US"],
@@ -56,46 +51,100 @@
     "scope": "national"
   },
   "time": {
-    "main_span": { "start": 1935, "end": 1957 },
-    "covered_span": { "start": 1932, "end": 1958 },
+    "main_span": { "start": 1940, "end": 1957 },
+    "covered_span": { "start": 1933, "end": 1958 },
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "How US industrialists in the National Association of Manufacturers, led by J. Howard Pew, bankrolled minister James Fifield's Spiritual Mobilization from the 1930s to the 1950s to fuse Christianity with free-market opposition to the New Deal.",
+  "summary": "How American industrialists in the National Association of Manufacturers, led by J. Howard Pew and Jasper Crane, funded preacher James Fifield's Spiritual Mobilization from the 1930s to the 1950s to fuse Christianity with free-market capitalism against the New Deal.",
   "content_warnings": [],
   "keywords": [
     "Freedom Under God",
     "Committee to Proclaim Liberty",
+    "Christianity Today",
     "Jasper Crane",
     "Billy Graham",
-    "Christianity Today",
     "Herbert Hoover",
-    "New Deal",
-    "First Congregational Church of Los Angeles",
-    "pagan statism",
-    "Kevin Kruse"
+    "Kevin Kruse",
+    "One Nation Under God",
+    "Garet Garrett",
+    "First Congregational Church of Los Angeles"
   ],
   "guests": ["Dan Friesen", "Jordan Holmes"],
   "confidence": {
     "subjects": "medium",
-    "roles": "high",
-    "themes": "medium",
+    "roles": "medium",
+    "themes": "high",
     "regions": "high",
     "time": "medium"
   },
   "evidence": [
-    { "facet": "themes", "part": 1, "at": "00:10:32", "note": "Segment on socialist clergy backing the labor movement before the Depression" },
-    { "facet": "time", "part": 1, "at": "00:16:22", "note": "Depression and FDR's 1932 election push NAM into opposing the New Deal" },
-    { "facet": "time", "part": 1, "at": "00:37:04", "note": "Fifield addresses the NAM annual meeting in December 1940" },
-    { "facet": "time", "part": 1, "at": "00:39:41", "note": "Fifield takes over the indebted First Congregational Church of LA in 1935" },
-    { "facet": "themes", "part": 1, "at": "00:54:23", "note": "NAM PR budget, school speakers bureau and canned editorials for newspapers" },
-    { "facet": "subjects", "part": 1, "at": "00:59:05", "note": "Pew and Crane introduced as the NAM men who back Fifield's approach" },
-    { "facet": "themes", "part": 2, "at": "00:22:02", "note": "1950 Republican midterm gains credited to Spiritual Mobilization" },
-    { "facet": "time", "part": 2, "at": "00:26:41", "note": "1951 Committee to Proclaim Liberty and Freedom Under God Fourth of July events" },
-    { "facet": "time", "part": 2, "at": "00:47:39", "note": "Prayer Breakfast, under God in the Pledge, In God We Trust motto, 1953-1956" },
-    { "facet": "time", "part": 2, "at": "00:53:53", "note": "Fifield quits Spiritual Mobilization in 1957; Pew turns to Billy Graham" },
-    { "facet": "time", "part": 2, "at": "00:58:29", "note": "Pew-funded survey of Christianity Today readers, late 1950s" },
-    { "facet": "time", "part": 2, "at": "01:00:05", "note": "Closing on white evangelicals as the core of modern conservatism, sets reaches_present" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:16:22",
+      "note": "Depression and New Deal set off the businessmen's campaign; story proper begins here"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:37:04",
+      "note": "Fifield addresses the 1940 NAM convention and becomes the industrialists' inside man"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:45:28",
+      "note": "Fifield founds Spiritual Mobilization to rally ministers against the welfare state"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:53:52",
+      "note": "NAM's late-1940s PR blitz: ads, school speakers, canned newspaper editorials"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:59:05",
+      "note": "Pew and DuPont's Crane lead the NAM faction that bankrolls Fifield"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:22:02",
+      "note": "1950 midterm gains credited by backers to Spiritual Mobilization's work"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:26:41",
+      "note": "1951 Freedom Under God Fourth of July campaign with Hoover, MacArthur and Hollywood stars"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:47:39",
+      "note": "Prayer Breakfast, under God in the Pledge and In God We Trust motto follow, 1953-1956"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:53:53",
+      "note": "Fifield quits Spiritual Mobilization in 1957; Pew and Crane switch to Billy Graham"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:58:29",
+      "note": "Pew-funded 1958 survey of Christianity Today readers is the latest dated event"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:35:39",
+      "note": "Legacy traced to Skousen pocket constitutions and the 2016 Malheur occupation"
+    }
   ],
-  "notes": "The primary subject is the movement, not Fifield, because the story is about the business campaign as a whole; Fifield's life is covered only from 1935, so making him primary would wrongly trigger the lifetime rule. The 1890s-1920s Christian socialists are treated as background. The Pew survey year is garbled in the transcript; read as 1958. reaches_present is borderline (Malheur pocket constitutions, evangelical voting shares)."
+  "notes": "Primary is the ideology/campaign rather than Fifield, since the story centres on the business-clergy alliance and covers only Fifield's 1935-1957 career, so roles stay empty. The opening on Gilded Age labor and 1890-1930 Christian socialists is treated as background, not covered years. Jasper Crane and Billy Graham left as keywords because of the five-subject cap."
 }

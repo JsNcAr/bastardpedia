@@ -1,6 +1,6 @@
 {
   "story_id": "john-ronald-brown-the-worst-surgeon-ever",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
     "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
@@ -15,32 +15,32 @@
       "lifespan": { "start": 1922, "end": 2010 }
     },
     {
-      "name": "Philip Bondy",
+      "name": "James Spence",
       "kind": "person",
       "role": "secondary",
-      "lifespan": { "start": null, "end": 1998 }
+      "floruit": 1973
     },
     {
       "name": "Gregg Furth",
       "kind": "person",
       "role": "secondary",
-      "floruit": 1998
+      "lifespan": { "start": null, "end": null }
     },
     {
-      "name": "James Spence",
+      "name": "Philip Bondy",
       "kind": "person",
       "role": "secondary",
-      "floruit": 1973
+      "lifespan": { "start": null, "end": 1998 }
     }
   ],
   "roles": ["physician-surgeon", "criminal-killer"],
   "themes": {
     "primary": "medical-malpractice",
-    "secondary": ["fraud-grift", "policing-incarceration", "public-health"]
+    "secondary": ["anti-lgbtq", "fraud-grift", "murder-serial-killers", "policing-incarceration"]
   },
   "regions": {
     "origin": ["US"],
-    "setting": ["MX", "US", "LC"],
+    "setting": ["MX", "US"],
     "subdivisions": ["US-CA"],
     "polities": [],
     "scope": "international"
@@ -51,29 +51,41 @@
     "reaches_present": false,
     "approximate": false
   },
-  "summary": "American surgeon John Ronald Brown performed botched, unsanitary sex reassignment and other surgeries on trans patients in California and Tijuana from the 1970s to the 1990s, and was convicted after an amputation patient died.",
+  "summary": "American surgeon John Ronald Brown performed cheap, unsafe sex reassignment surgeries on trans women in California and Tijuana for decades after losing his license, maiming many, and was convicted of murder after a 1998 leg amputation killed a patient.",
   "content_warnings": ["medical-horror", "suicide-self-harm"],
-  "keywords": ["Tabletop Brown", "Butcher Brown", "Tijuana", "San Francisco", "St. Lucia", "apotemnophilia", "Paul Ciotti", "Inside Edition", "Digital Transgender Archive", "Christine Jorgensen"],
+  "keywords": [
+    "Tijuana",
+    "Tabletop Brown",
+    "Butcher Brown",
+    "Paul Ciotti",
+    "Inside Edition",
+    "apotemnophilia",
+    "Chula Vista",
+    "Magnus Hirschfeld",
+    "Christine Jorgensen",
+    "Digital Transgender Archive"
+  ],
   "guests": ["Sofiya Alexandra"],
   "confidence": {
-    "subjects": "high",
+    "subjects": "medium",
     "roles": "high",
     "themes": "medium",
     "regions": "high",
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:28:19", "note": "1973 Stanford symposium talk marks his move into genital surgery for trans women" },
-    { "facet": "time", "part": 1, "at": "00:42:57", "note": "California board revokes his license in 1977 for gross negligence" },
-    { "facet": "regions", "part": 1, "at": "00:50:15", "note": "St. Lucia period, arranged marriage to a 17-year-old" },
-    { "facet": "regions", "part": 1, "at": "00:52:20", "note": "unlicensed clinic in Tijuana while living in Chula Vista" },
-    { "facet": "themes", "part": 1, "at": "00:30:53", "note": "partner Spence posed as a doctor and fake vet and operated on patients" },
-    { "facet": "themes", "part": 1, "at": "00:03:18", "note": "long intro on the history of trans medicine and gender clinics" },
-    { "facet": "themes", "part": 2, "at": "00:16:42", "note": "FBI case and prison term for practicing without a license" },
-    { "facet": "time", "part": 2, "at": "00:27:35", "note": "amputates Bondy's healthy leg in Mexico; Bondy dies in a US motel" },
-    { "facet": "roles", "part": 2, "at": "00:36:57", "note": "unanimous conviction and 15-year sentence" },
-    { "facet": "content_warnings", "part": 2, "at": "00:30:15", "note": "patient dies by suicide after repeated botched surgeries" },
-    { "facet": "time", "part": 2, "at": "00:38:32", "note": "dies of pneumonia in prison in 2010, shortly before turning 88" }
+    { "facet": "time", "part": 1, "at": "00:18:57", "note": "birth date given as July 14; year garbled in transcript, likely Utah origin" },
+    { "facet": "time", "part": 2, "at": "00:38:32", "note": "dies of pneumonia in prison in 2010 just short of his 88th birthday, so born 1922" },
+    { "facet": "time", "part": 1, "at": "00:28:19", "note": "February 1973 Stanford symposium talk on his genital surgery technique" },
+    { "facet": "themes", "part": 1, "at": "00:31:23", "note": "partner Spence poses as a doctor despite no valid medical degree" },
+    { "facet": "themes", "part": 1, "at": "00:43:29", "note": "California board revokes his license in 1977 for gross negligence" },
+    { "facet": "regions", "part": 1, "at": "00:26:13", "note": "opens surgical practice in San Francisco" },
+    { "facet": "regions", "part": 1, "at": "00:52:20", "note": "sets up unlicensed clinic in Tijuana while living in Chula Vista" },
+    { "facet": "subjects", "part": 2, "at": "00:19:19", "note": "psychoanalyst Furth seeks a leg amputation, introducing the fatal case" },
+    { "facet": "themes", "part": 2, "at": "00:29:12", "note": "Bondy found dead of gas gangrene in a motel days after the amputation" },
+    { "facet": "themes", "part": 2, "at": "00:16:42", "note": "FBI shuts clinic; prison term for practicing without a license" },
+    { "facet": "content_warnings", "part": 2, "at": "00:30:15", "note": "patient Christina dies by suicide after a series of botched operations" },
+    { "facet": "themes", "part": 2, "at": "00:37:28", "note": "unanimous conviction and 15-year sentence after patient testimony" }
   ],
-  "notes": "Birth year garbled in transcript; 1922 inferred from his death in 2010 just before his 88th birthday. Transcript spells Furth as Firth and Bondy as Bundy; standard spellings used. Hirschfeld, Lili Elbe and Jorgensen intro treated as background. Vocabulary gap: no theme for anti-trans or LGBTQ harm, the community at the centre of the story."
+  "notes": "About 17 minutes of part 1 survey trans medical history (Hirschfeld, Elbe, Jorgensen, gender clinics); treated as background, so not subjects and not in covered_span. Birth year 1922 inferred from death in 2010 near his 88th birthday. Conviction year 1999 and Bondy's death in 1998 come from general knowledge; transcript gives month only. St Lucia (marriage) and Hawaii/Alaska are brief."
 }

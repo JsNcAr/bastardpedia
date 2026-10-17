@@ -1,19 +1,13 @@
 {
   "story_id": "the-12-tribes-the-worst-cult-you-ve-never-heard-of",
-  "taxonomy_version": "0.5.0",
+  "taxonomy_version": "0.7.0",
   "tagged_by": {
-    "agent": "btb-tagger",
+    "agent": "claude-code-subagent",
     "model": "claude-opus-5-5",
     "date": "2026-10-16"
   },
   "format": "deep-dive",
   "subjects": [
-    {
-      "name": "Eugene Spriggs",
-      "kind": "person",
-      "role": "primary",
-      "lifespan": { "start": 1937, "end": 2021 }
-    },
     {
       "name": "Twelve Tribes",
       "kind": "organization",
@@ -21,10 +15,21 @@
       "role": "primary"
     },
     {
+      "name": "Eugene Spriggs",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1937, "end": 2021 }
+    },
+    {
       "name": "Marsha Spriggs",
       "kind": "person",
       "role": "secondary",
-      "lifespan": { "start": null, "end": null }
+      "floruit": 1972
+    },
+    {
+      "name": "Jesus Movement",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
     }
   ],
   "roles": ["cult-leader"],
@@ -35,12 +40,12 @@
       "racism-white-supremacy",
       "labor-exploitation",
       "religious-right-culture-war",
-      "policing-incarceration"
+      "anti-lgbtq"
     ]
   },
   "regions": {
     "origin": ["US"],
-    "setting": ["US", "DE", "FR"],
+    "setting": ["US", "DE"],
     "subdivisions": [],
     "polities": [],
     "scope": "international"
@@ -51,41 +56,101 @@
     "reaches_present": true,
     "approximate": false
   },
-  "summary": "Former carnival worker Eugene Spriggs founded the Twelve Tribes in Chattanooga in the 1970s, a Jesus Movement commune that spread worldwide while preaching systematic child beating, racist slavery doctrine and unpaid labor in its businesses.",
+  "summary": "Former carnival worker Eugene Spriggs founded the Twelve Tribes in 1970s Chattanooga, a communal Christian sect that spread across the US and abroad while systematically beating children, preaching racist doctrine and using members as unpaid labor.",
   "content_warnings": ["child-abuse", "child-death", "hate-speech"],
   "keywords": [
     "Yellow Deli",
-    "Yoneq",
-    "Jesus Movement",
     "Island Pond",
     "Chattanooga",
     "Marshall Fire",
-    "Curse of Ham",
+    "Yoneq",
+    "Light Brigade",
+    "Vine Christian Community Church",
     "Child Training Manual",
-    "Day of Deliverance",
-    "Vine Christian Community Church"
+    "Curse of Ham",
+    "To Train Up a Child"
   ],
   "guests": ["Alex Steed"],
   "confidence": {
     "subjects": "high",
     "roles": "high",
-    "themes": "medium",
-    "regions": "medium",
-    "time": "high"
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:05:34", "note": "Spriggs born May 1937 in East Ridge, Tennessee, to a Methodist family" },
-    { "facet": "time", "part": 1, "at": "00:19:46", "note": "1972 marriage to Marsha; couple found the Vine community church in Chattanooga" },
-    { "facet": "themes", "part": 1, "at": "00:12:43", "note": "Long background on the Jesus Movement and its link to the rise of the religious right" },
-    { "facet": "themes", "part": 1, "at": "00:44:16", "note": "Child beating becomes the core doctrine; Child Training Manual and rod teachings" },
-    { "facet": "regions", "part": 1, "at": "00:42:33", "note": "Expansion to Island Pond, Vermont, led by David Jones" },
-    { "facet": "themes", "part": 1, "at": "01:00:47", "note": "State raid seizes 112 minors in Vermont; court releases them, cult celebrates the day" },
-    { "facet": "themes", "part": 2, "at": "00:09:42", "note": "Spriggs's Curse of Ham teaching that Black people are meant to be obedient slaves" },
-    { "facet": "themes", "part": 2, "at": "00:28:16", "note": "Medical care withheld; an infant dies of whooping cough, a stillbirth after neglect" },
-    { "facet": "regions", "part": 2, "at": "00:47:11", "note": "2013 undercover report in Germany leads to 40 children removed; raid in France follows" },
-    { "facet": "themes", "part": 2, "at": "00:50:16", "note": "Construction firms run on unpaid member labor through interlocking LLCs" },
-    { "facet": "subjects", "part": 2, "at": "01:00:52", "note": "2008 scandal over Marsha Spriggs; debate over whether she held real power" },
-    { "facet": "time", "part": 2, "at": "01:05:43", "note": "Spriggs dies January 2021 at 83, likely of COVID; youth exodus continues" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:05:34",
+      "note": "Spriggs's 1937 birth in Tennessee and early life"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:19:46",
+      "note": "1972 marriage to Marsha and founding of the Vine community in Chattanooga"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:42:33",
+      "note": "expansion to Island Pond, Vermont under David Jones"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:46:23",
+      "note": "child-beating doctrine and the training manual laid out at length"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:00:39",
+      "note": "1984 state raid in Vermont and its collapse in court"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:03:53",
+      "note": "long segment on Spriggs's racist Curse of Ham theology and pro-slavery teaching"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:06:56",
+      "note": "teaching that gay people deserve death; later a boy punished as gay"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:28:16",
+      "note": "infant death in a whooping cough outbreak and a stillbirth after denied care"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:47:11",
+      "note": "2013 undercover filming and removal of children by German authorities"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:50:16",
+      "note": "unpaid member labor in cult construction firms and LLC structure"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:05:12",
+      "note": "Spriggs dies in January 2021"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:03",
+      "note": "opens on the 2021 Marshall Fire that began on cult property; current status discussed"
+    }
   ],
-  "notes": "Transcript does not give the year of the Island Pond raid (historically June 1984). Communes in England, Spain and Australia are mentioned only in passing and left out of setting. Several US states matter (TN, VT, FL, CO), so no subdivision is set. The 2021 Marshall Fire framing is a short hook and does not extend covered_span. Marsha Spriggs's birth year is unknown; end null assumes she is alive. No theme for homophobia or withholding of medical care."
+  "notes": "Cult and founder treated as co-primary; lifetime rule sets covered_span 1937-2021. The 2021 Marshall Fire and 2023 investigation frame the opening briefly, so they set reaches_present rather than extending covered_span. France raid is a one-line mention and is left out of setting. Several US states (TN, VT, FL, CO) share the story, so no single subdivision."
 }
