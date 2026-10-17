@@ -144,3 +144,8 @@
     font-size: var(--text-display);
   }
 }
+
+/* Want to listen, Listened and Favourite, under the story's summary. */
+.library-actions {
+  margin-top: var(--space-4);
+}

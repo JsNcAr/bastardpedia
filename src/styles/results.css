@@ -99,3 +99,14 @@
   color: var(--color-text-secondary);
   font-size: var(--text-xs);
 }
+
+/* The visitor's own marks on a result: listened, want to listen, favourite. */
+.result-marks {
+  display: inline-flex;
+  gap: var(--space-1);
+  color: var(--color-accent-text);
+}
+
+.result-mark {
+  display: inline-flex;
+}

@@ -46,3 +46,9 @@
 .search-input::placeholder {
   color: var(--color-text-tertiary);
 }
+
+/* Above the results (narrow screens) the search lines up with the heading. */
+.results-head .search {
+  padding: 0;
+  margin-bottom: var(--space-4);
+}

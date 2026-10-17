@@ -1,9 +1,9 @@
 import { useMemo } from 'react';
 import type { Catalog } from '@shared/schemas/catalog.ts';
-import { Icon } from '@/ui/Icon';
 import { FacetGroup, FacetSubgroup } from './FacetGroup';
 import { FacetList, type FacetListOption } from './FacetList';
 import { FacetOption } from './FacetOption';
+import { SearchBox } from './SearchBox';
 import { toggleHiddenWarning, toggleValue, type Facet, type Filters } from './filter-model';
 import { centuryLabel, centuryShort } from './format';
 import { YearRange } from './YearRange';
@@ -17,6 +17,10 @@ interface Props {
   reviewed: number;
   yearBounds: { min: number; max: number };
   labels: Labels;
+  /** Wide screens keep the search here; narrow ones show it above the results. */
+  showSearch: boolean;
+  /** Whether the visitor marked anything as listened, and how many of the matches. */
+  listened: { any: boolean; count: number };
   onChange: (next: Filters, opts?: { replace?: boolean }) => void;
 }
 
@@ -28,6 +32,8 @@ export function FacetRail({
   reviewed,
   yearBounds,
   labels,
+  showSearch,
+  listened,
   onChange,
 }: Props) {
   const isOn = (facet: Facet, value: string) =>
@@ -84,23 +90,7 @@ export function FacetRail({
 
   return (
     <div className="facet-rail">
-      <form className="search" role="search" onSubmit={(e) => e.preventDefault()}>
-        <label className="search-label" htmlFor="story-search">
-          Search stories
-        </label>
-        <div className="search-field">
-          <Icon name="search" size="sm" />
-          <input
-            id="story-search"
-            type="search"
-            className="search-input"
-            placeholder="Name, place or keyword"
-            value={filters.q}
-            onChange={(e) => onChange({ ...filters, q: e.target.value }, { replace: true })}
-            autoComplete="off"
-          />
-        </div>
-      </form>
+      {showSearch ? <SearchBox filters={filters} onChange={onChange} /> : null}
 
       <ul className="facet-review">
         <FacetOption
@@ -109,6 +99,14 @@ export function FacetRail({
           checked={filters.reviewedOnly}
           onToggle={() => onChange({ ...filters, reviewedOnly: !filters.reviewedOnly })}
         />
+        {listened.any || filters.hideListened ? (
+          <FacetOption
+            label="Hide stories I've listened to"
+            count={listened.count}
+            checked={filters.hideListened}
+            onToggle={() => onChange({ ...filters, hideListened: !filters.hideListened })}
+          />
+        ) : null}
       </ul>
 
       <FacetGroup

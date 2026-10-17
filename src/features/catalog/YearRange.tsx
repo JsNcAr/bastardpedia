@@ -59,18 +59,39 @@ export function YearRange({ min, max, from, to, onChange }: Props) {
     const t = nextTo !== null && nextTo >= max ? null : nextTo;
     onChange(f, t, live);
   };
+  // A handle moved off its end of the track always sets a year inside the bounds.
+  // On a narrow range the curved scale can round a first step back to the bound,
+  // which reads as "no limit" and snaps the handle back, so it could never move.
+  const fromStep = (step: number) =>
+    step > 0 ? Math.max(yearAt(step, min, max), min + 1) : yearAt(step, min, max);
+  const toStep = (step: number) =>
+    step < STEPS ? Math.min(yearAt(step, min, max), max - 1) : yearAt(step, min, max);
   return (
     <div className="year-range">
       <div className="year-sliders">
+        {/* One track for both handles; the span between them is an SVG rect, placed by
+            geometry attributes, because inline styles are off limits (CSP). */}
+        <svg
+          className="year-track"
+          viewBox={`0 0 ${String(STEPS)} 4`}
+          preserveAspectRatio="none"
+          aria-hidden="true"
+          focusable="false"
+        >
+          <rect className="year-track-base" x="0" y="0" width={STEPS} height="4" />
+          <rect className="year-track-fill" x={lo} y="0" width={Math.max(hi - lo, 0)} height="4" />
+        </svg>
         <input
           type="range"
-          className="year-slider"
+          // When both handles sit together in the upper half, the earliest-year one goes
+          // on top so it can still be dragged left.
+          className={lo >= hi && lo > STEPS / 2 ? 'year-slider year-slider-top' : 'year-slider'}
           aria-label="Earliest year"
           aria-valuetext={formatYear(from ?? min)}
           min={0}
           max={STEPS}
           value={lo}
-          onChange={(e) => set(yearAt(Math.min(Number(e.target.value), hi), min, max), to, true)}
+          onChange={(e) => set(fromStep(Math.min(Number(e.target.value), hi)), to, true)}
         />
         <input
           type="range"
@@ -80,7 +101,7 @@ export function YearRange({ min, max, from, to, onChange }: Props) {
           min={0}
           max={STEPS}
           value={hi}
-          onChange={(e) => set(from, yearAt(Math.max(Number(e.target.value), lo), min, max), true)}
+          onChange={(e) => set(from, toStep(Math.max(Number(e.target.value), lo)), true)}
         />
       </div>
       <div className="year-fields">

@@ -1,19 +1,20 @@
 import { useEffect, useMemo, useRef } from 'react';
 import { Link, useNavigate, useParams } from 'react-router';
-import { useCatalog } from '@/app/queries';
+import { useCatalog, useLibrary } from '@/app/queries';
 import { WIDE_QUERY, useMediaQuery } from '@/app/useMediaQuery';
 import { useUi } from '@/app/ui-store';
 import { StoryDetail } from '@/features/story/StoryDetail';
 import { Icon } from '@/ui/Icon';
 import { StateMessage } from '@/ui/StateMessage';
 import { ActiveFilters } from './ActiveFilters';
-import { facetCounts, filterStories, reviewedCount, warningCounts } from './match';
+import { facetCounts, filterStories, listenedCount, reviewedCount, warningCounts } from './match';
 import { yearBounds } from './year-scale';
 import { FacetRail } from './FacetRail';
 import { FilterDrawer } from './FilterDrawer';
 import { EMPTY_FILTERS, activeCount } from './filter-model';
 import { createLabels } from './labels';
 import { ResultRow } from './ResultRow';
+import { SearchBox } from './SearchBox';
 import { createStorySearch } from './search';
 import { SortControl } from './SortControl';
 import { useFilters } from './useFilters';
@@ -76,25 +77,40 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
   const wide = useMediaQuery(WIDE_QUERY);
   const setFiltersOpen = useUi((s) => s.setFiltersOpen);
 
+  // The visitor's marks (IndexedDB, loaded after the first paint): row markers and Hide listened.
+  const library = useLibrary();
+  const entries = useMemo(
+    () => new Map((library.data ?? []).map((e) => [e.id, e])),
+    [library.data],
+  );
+  const listened = useMemo(
+    () => new Set([...entries.values()].filter((e) => e.status === 'listened').map((e) => e.id)),
+    [entries],
+  );
+
   const index = useMemo(() => createStorySearch(catalog.stories), [catalog.stories]);
   const labels = useMemo(() => createLabels(catalog), [catalog]);
   const matches = useMemo(() => index.run(filters.q), [index, filters.q]);
   const results = useMemo(
-    () => filterStories(catalog.stories, filters, matches),
-    [catalog.stories, filters, matches],
+    () => filterStories(catalog.stories, filters, matches, listened),
+    [catalog.stories, filters, matches, listened],
   );
   const counts = useMemo(
-    () => facetCounts(catalog.stories, filters, matches),
-    [catalog.stories, filters, matches],
+    () => facetCounts(catalog.stories, filters, matches, listened),
+    [catalog.stories, filters, matches, listened],
   );
   const warnings = useMemo(
-    () => warningCounts(catalog.stories, filters, matches),
-    [catalog.stories, filters, matches],
+    () => warningCounts(catalog.stories, filters, matches, listened),
+    [catalog.stories, filters, matches, listened],
   );
 
   const reviewed = useMemo(
-    () => reviewedCount(catalog.stories, filters, matches),
-    [catalog.stories, filters, matches],
+    () => reviewedCount(catalog.stories, filters, matches, listened),
+    [catalog.stories, filters, matches, listened],
+  );
+  const listenedMatches = useMemo(
+    () => listenedCount(catalog.stories, filters, matches, listened),
+    [catalog.stories, filters, matches, listened],
   );
   const bounds = useMemo(
     () => yearBounds(catalog.stories.map((s) => s.time?.covered_span)),
@@ -168,6 +184,8 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
       reviewed={reviewed}
       yearBounds={bounds}
       labels={labels}
+      showSearch={wide}
+      listened={{ any: listened.size > 0, count: listenedMatches }}
       onChange={setFilters}
     />
   );
@@ -185,6 +203,7 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
 
       <section className="catalog-results" aria-labelledby="catalogue-title">
         <div className="results-head">
+          {!wide ? <SearchBox filters={filters} onChange={setFilters} /> : null}
           <h1 id="catalogue-title" className="page-title">
             The catalogue
           </h1>
@@ -231,6 +250,7 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
                 labels={labels}
                 search={search}
                 selected={s.id === id}
+                entry={entries.get(s.id)}
               />
             ))}
           </ol>

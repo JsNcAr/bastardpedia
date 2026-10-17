@@ -172,3 +172,32 @@ test('tapping outside the filter drawer closes it', async ({ page, isMobile }) =
   await page.mouse.click(8, 400);
   await expect(drawer).toBeHidden();
 });
+
+test('phones search above the results without opening the drawer', async ({ page, isMobile }) => {
+  test.skip(!isMobile, 'Wide screens keep the search in the rail.');
+  await page.goto('/');
+  await page.getByRole('searchbox', { name: 'Search stories' }).fill('Fawcett');
+  await expect(results(page).getByRole('link')).toHaveCount(1);
+  await expect(page.getByRole('dialog', { name: 'Filters' })).toBeHidden();
+});
+
+test('the year range has two working handles on one track', async ({ page, isMobile }) => {
+  await page.goto('/');
+  await withFilters(page, isMobile, async () => {
+    const latest = page.getByRole('slider', { name: 'Latest year' });
+    await latest.focus();
+    // One step must be enough, even on the fixture's narrow range where the curved
+    // scale used to round it back to the maximum and snap the handle back.
+    await latest.press('PageDown');
+    await expect(page).toHaveURL(/[?&]to=-?\d+/);
+
+    const earliest = page.getByRole('slider', { name: 'Earliest year' });
+    const box = await earliest.boundingBox();
+    if (!box) throw new Error('slider not laid out');
+    await page.mouse.move(box.x + 10, box.y + box.height / 2);
+    await page.mouse.down();
+    await page.mouse.move(box.x + box.width * 0.4, box.y + box.height / 2, { steps: 8 });
+    await page.mouse.up();
+    await expect(page).toHaveURL(/[?&]from=-?\d+/);
+  });
+});

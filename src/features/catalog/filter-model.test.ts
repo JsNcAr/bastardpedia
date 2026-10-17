@@ -77,6 +77,14 @@ describe('filter model and URL', () => {
     expect(activeCount({ ...EMPTY_FILTERS, yearFrom: 1800, reviewedOnly: true })).toBe(2);
   });
 
+  it('reads and writes Hide listened', () => {
+    const f = parseFilters(new URLSearchParams('hide-listened=1'));
+    expect(f.hideListened).toBe(true);
+    expect(serializeFilters(f).toString()).toBe('hide-listened=1');
+    expect(activeCount(f)).toBe(1);
+    expect(parseFilters(new URLSearchParams('hide-listened=yes')).hideListened).toBe(false);
+  });
+
   it('builds a fresh search link for a tag', () => {
     expect(tagSearch('theme', 'cults-new-religions')).toBe('/?theme=cults-new-religions');
     expect(tagSearch('century', 19)).toBe('/?century=19');

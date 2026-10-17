@@ -55,14 +55,20 @@ export function passesYears(story: CatalogStory, filters: Filters): boolean {
   );
 }
 
+/** Stories the visitor marked as listened; only read when `hideListened` is on. */
+export type Listened = ReadonlySet<string>;
+const NONE: Listened = new Set();
+
 /** `matches` is the search result (id to score); null means no text query. */
 function passes(
   story: CatalogStory,
   filters: Filters,
   matches: Map<string, number> | null,
+  listened: Listened,
   except?: Facet,
 ) {
   if (matches && !matches.has(story.id)) return false;
+  if (filters.hideListened && listened.has(story.id)) return false;
   if (!passesWarnings(story, filters)) return false;
   if (filters.reviewedOnly && story.review.status !== 'reviewed') return false;
   if (!passesYears(story, filters)) return false;
@@ -75,8 +81,9 @@ export function filterStories(
   stories: readonly CatalogStory[],
   filters: Filters,
   matches: Map<string, number> | null = null,
+  listened: Listened = NONE,
 ): CatalogStory[] {
-  const out = stories.filter((s) => passes(s, filters, matches));
+  const out = stories.filter((s) => passes(s, filters, matches, listened));
   const sort = resolvedSort(filters);
   const byRelease = (a: CatalogStory, b: CatalogStory) =>
     b.first_published.localeCompare(a.first_published);
@@ -102,6 +109,7 @@ export function facetCounts(
   stories: readonly CatalogStory[],
   filters: Filters,
   matches: Map<string, number> | null = null,
+  listened: Listened = NONE,
 ): Record<Facet, Map<string, number>> {
   const counts = Object.fromEntries(FACETS.map((f) => [f, new Map<string, number>()])) as Record<
     Facet,
@@ -109,7 +117,7 @@ export function facetCounts(
   >;
   for (const story of stories) {
     for (const facet of FACETS) {
-      if (!passes(story, filters, matches, facet)) continue;
+      if (!passes(story, filters, matches, listened, facet)) continue;
       const bucket = counts[facet];
       for (const v of facetValues(story, facet)) bucket.set(v, (bucket.get(v) ?? 0) + 1);
     }
@@ -122,9 +130,22 @@ export function reviewedCount(
   stories: readonly CatalogStory[],
   filters: Filters,
   matches: Map<string, number> | null = null,
+  listened: Listened = NONE,
 ): number {
   const all = { ...filters, reviewedOnly: false };
-  return stories.filter((s) => s.review.status === 'reviewed' && passes(s, all, matches)).length;
+  return stories.filter((s) => s.review.status === 'reviewed' && passes(s, all, matches, listened))
+    .length;
+}
+
+/** How many stories matching everything else (ignoring Hide listened) the visitor has listened to. */
+export function listenedCount(
+  stories: readonly CatalogStory[],
+  filters: Filters,
+  matches: Map<string, number> | null = null,
+  listened: Listened = NONE,
+): number {
+  const all = { ...filters, hideListened: false };
+  return stories.filter((s) => listened.has(s.id) && passes(s, all, matches, listened)).length;
 }
 
 /** Per content warning: how many of the stories matching everything else carry it. */
@@ -132,11 +153,12 @@ export function warningCounts(
   stories: readonly CatalogStory[],
   filters: Filters,
   matches: Map<string, number> | null = null,
+  listened: Listened = NONE,
 ): Map<string, number> {
   const out = new Map<string, number>();
   const unhidden = { ...filters, cwHide: [] };
   for (const story of stories) {
-    if (!passes(story, unhidden, matches)) continue;
+    if (!passes(story, unhidden, matches, listened)) continue;
     for (const w of story.content_warnings) out.set(w, (out.get(w) ?? 0) + 1);
   }
   return out;

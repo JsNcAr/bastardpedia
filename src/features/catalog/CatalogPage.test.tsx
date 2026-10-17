@@ -1,3 +1,4 @@
+import { createLibraryRepository, emptyEntry } from '@/data/library';
 import { screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { emptyCatalog, sampleCatalog } from '@/test/catalog';
@@ -88,6 +89,58 @@ describe('catalogue page', () => {
     await user.click(screen.getByRole('heading', { name: 'The catalogue' }));
     await user.keyboard('{Escape}');
     expect(router.state.location.pathname).toBe('/');
+  });
+
+  it('puts the library actions beside the story title', async () => {
+    renderApp('/stories/sample-percy-fawcett', sampleCatalog);
+    const story = await screen.findByRole('article');
+    const actions = within(story).getByRole('group', { name: 'Your library' });
+    expect(story.querySelector('.story-head')).toContainElement(actions);
+    expect(within(actions).getByRole('button', { name: 'Listened' })).toBeInTheDocument();
+  });
+
+  it('marks library stories in the results and can hide the listened ones', async () => {
+    const user = userEvent.setup();
+    const library = createLibraryRepository('catalog-page-marks');
+    await library.put({ ...emptyEntry('sample-percy-fawcett'), status: 'listened' });
+    await library.put({ ...emptyEntry('sample-nestle'), favourite: true });
+    const { router } = renderApp('/', sampleCatalog, library);
+    const fawcett = await screen.findByRole('link', { name: /Percy Fawcett/ });
+    await waitFor(() => expect(within(fawcett).getByText('Listened')).toBeInTheDocument());
+    expect(
+      within(screen.getByRole('link', { name: /Nestl/ })).getByText('Favourite'),
+    ).toBeInTheDocument();
+    await user.click(screen.getByRole('checkbox', { name: /Hide stories I've listened to/ }));
+    expect(router.state.location.search).toBe('?hide-listened=1');
+    expect(screen.queryByRole('link', { name: /Percy Fawcett/ })).not.toBeInTheDocument();
+    expect(
+      screen.getByRole('button', { name: /Remove filter: Hiding listened/ }),
+    ).toBeInTheDocument();
+  });
+
+  it('shows the search above the results on narrow screens, once', async () => {
+    const spy = vi.spyOn(window, 'matchMedia').mockImplementation(
+      (query: string) =>
+        ({
+          matches: false,
+          media: query,
+          onchange: null,
+          addEventListener: () => undefined,
+          removeEventListener: () => undefined,
+          addListener: () => undefined,
+          removeListener: () => undefined,
+          dispatchEvent: () => false,
+        }) as MediaQueryList,
+    );
+    try {
+      renderApp('/', sampleCatalog);
+      await screen.findByRole('heading', { name: 'The catalogue' });
+      const boxes = screen.getAllByRole('searchbox', { name: 'Search stories' });
+      expect(boxes).toHaveLength(1);
+      expect(screen.getByRole('region', { name: 'The catalogue' })).toContainElement(boxes[0]!);
+    } finally {
+      spy.mockRestore();
+    }
   });
 
   it('says so when filters match nothing', async () => {

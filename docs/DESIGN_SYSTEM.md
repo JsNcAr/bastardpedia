@@ -112,9 +112,15 @@ run `npm run icons`.
   Closing returns focus to where the visitor came from, and a new story opens
   at its top.
 
-- The year range pairs two sliders (on a cubic scale, so recent centuries get
-  more travel than antiquity) with From and To text fields that accept negative
-  years or "BCE". Dragging replaces the URL; typing a year pushes it.
+- **The year range** is one track with two handles:
+  - **the track:** two range inputs overlap; the span between the handles is an
+    SVG rectangle, because inline styles are off limits;
+  - **the scale:** cubic, so recent centuries get more travel than antiquity;
+  - **text fields:** From and To accept negative years or "BCE";
+  - **URL:** dragging replaces it, typing a year pushes it;
+  - **targets:** the handles are 24 px, the WCAG minimum.
+- **Search on phones:** it sits above the results, not inside the filter
+  drawer.
 - Agent-only records carry a quiet "Unreviewed" badge: present, never alarming.
 - Empty, loading and error states use `StateMessage` with a plain explanation
   and a next step.

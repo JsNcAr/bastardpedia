@@ -1,5 +1,5 @@
 import { sampleCatalog } from '@/test/catalog';
-import { facetCounts, filterStories, reviewedCount, warningCounts } from './match';
+import { facetCounts, filterStories, listenedCount, reviewedCount, warningCounts } from './match';
 import { EMPTY_FILTERS, type Filters } from './filter-model';
 import { createStorySearch } from './search';
 
@@ -89,6 +89,21 @@ describe('filterStories', () => {
     expect(out).not.toContain('sample-percy-fawcett');
     expect(reviewedCount(stories, { ...EMPTY_FILTERS, reviewedOnly: true })).toBe(4);
     expect(reviewedCount(stories, { ...EMPTY_FILTERS, role: ['explorer-adventurer'] })).toBe(2);
+  });
+
+  it('hides listened stories only when asked, and counts them', () => {
+    const listened = new Set(['sample-percy-fawcett', 'sample-nestle']);
+    const all = filterStories(stories, EMPTY_FILTERS, null, listened).map((s) => s.id);
+    expect(all).toContain('sample-percy-fawcett');
+    const hidden = filterStories(stories, { ...EMPTY_FILTERS, hideListened: true }, null, listened);
+    expect(hidden.map((s) => s.id)).not.toContain('sample-percy-fawcett');
+    expect(hidden).toHaveLength(stories.length - 2);
+    expect(listenedCount(stories, { ...EMPTY_FILTERS, hideListened: true }, null, listened)).toBe(
+      2,
+    );
+    expect(
+      listenedCount(stories, { ...EMPTY_FILTERS, role: ['explorer-adventurer'] }, null, listened),
+    ).toBe(1);
   });
 
   it('matches a year range by overlap with the covered years', () => {
