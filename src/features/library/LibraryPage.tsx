@@ -1,8 +1,21 @@
-import { Link } from 'react-router';
+import { Link, useSearchParams } from 'react-router';
 import { useCatalog, useLibrary } from '@/app/queries';
 import type { LibraryEntry } from '@/data';
 import { StateMessage } from '@/ui/StateMessage';
 import { LibraryBackup } from './LibraryBackup';
+import {
+  LIBRARY_SORTS,
+  libraryProgress,
+  parseLibrarySort,
+  sortEntries,
+  type LibrarySort,
+} from './library-view';
+
+const SORT_LABELS: Record<LibrarySort, string> = {
+  changed: 'Recently changed',
+  title: 'Title',
+  released: 'Release date',
+};
 
 function Shelf({
   title,
@@ -43,8 +56,12 @@ function Shelf({
 export function LibraryPage() {
   const library = useLibrary();
   const catalog = useCatalog();
-  const titles = new Map((catalog.data?.stories ?? []).map((s) => [s.id, s.title]));
-  const entries = [...(library.data ?? [])].sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
+  const [params, setParams] = useSearchParams();
+  const sort = parseLibrarySort(params.get('sort'));
+  const stories = new Map((catalog.data?.stories ?? []).map((s) => [s.id, s]));
+  const titles = new Map([...stories.values()].map((s) => [s.id, s.title]));
+  const entries = sortEntries(library.data ?? [], sort, stories);
+  const progress = libraryProgress(entries, stories);
 
   return (
     <div className="page page-narrow">
@@ -66,6 +83,25 @@ export function LibraryPage() {
         </StateMessage>
       ) : (
         <>
+          {catalog.data ? (
+            <p className="library-progress" role="status">
+              {progress.listened} of {progress.total} stories listened · {progress.want} to listen ·{' '}
+              {progress.favourites} {progress.favourites === 1 ? 'favourite' : 'favourites'}
+            </p>
+          ) : null}
+          <div className="segmented" role="group" aria-label="Sort your library">
+            {LIBRARY_SORTS.map((o) => (
+              <button
+                key={o}
+                type="button"
+                className="segmented-option"
+                aria-pressed={sort === o}
+                onClick={() => setParams(o === 'changed' ? {} : { sort: o }, { replace: true })}
+              >
+                {SORT_LABELS[o]}
+              </button>
+            ))}
+          </div>
           <Shelf
             title="Want to listen"
             entries={entries.filter((e) => e.status === 'want')}

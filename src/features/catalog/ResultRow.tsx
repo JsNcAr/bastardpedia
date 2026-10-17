@@ -3,6 +3,7 @@ import type { CatalogStory } from '@shared/schemas/catalog.ts';
 import type { LibraryEntry } from '@/data';
 import { Icon } from '@/ui/Icon';
 import { formatDuration, partsLabel, storyPeriod } from './format';
+import { Highlight } from './Highlight';
 import type { Labels } from './labels';
 
 export function ResultRow({
@@ -11,6 +12,7 @@ export function ResultRow({
   search,
   selected,
   entry,
+  terms,
 }: {
   story: CatalogStory;
   labels: Labels;
@@ -18,6 +20,8 @@ export function ResultRow({
   selected: boolean;
   /** The visitor's own marks for this story, if any. */
   entry?: LibraryEntry | undefined;
+  /** Search terms this story matched, to mark in its title and summary. */
+  terms?: string[] | undefined;
 }) {
   const period = storyPeriod(story);
   return (
@@ -40,8 +44,12 @@ export function ResultRow({
           ) : null}
           {entry ? <LibraryMarks entry={entry} /> : null}
         </span>
-        <span className="result-title">{story.title}</span>
-        <span className="result-summary">{story.summary}</span>
+        <span className="result-title">
+          <Highlight text={story.title} terms={terms} />
+        </span>
+        <span className="result-summary">
+          <Highlight text={story.summary} terms={terms} />
+        </span>
         <span className="result-foot">
           {partsLabel(story.parts.length)} · {formatDuration(story.total_duration_s)}
         </span>

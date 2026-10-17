@@ -121,6 +121,16 @@ run `npm run icons`.
   - **targets:** the handles are 24 px, the WCAG minimum.
 - **Search on phones:** it sits above the results, not inside the filter
   drawer.
+- **Search matches** are marked in result titles and summaries with
+  `surface.highlight`. Text on it measures 12.9:1 in light mode and 11.3:1 in
+  dark.
+- **Keyboard shortcuts** (listed on the About page):
+  - `/` focuses the search;
+  - `j` / `k` move through the results;
+  - `Esc` closes the story pane.
+
+  They are off while typing, inside a dialog, or with a modifier key held.
+
 - Agent-only records carry a quiet "Unreviewed" badge: present, never alarming.
 - Empty, loading and error states use `StateMessage` with a plain explanation
   and a next step.
