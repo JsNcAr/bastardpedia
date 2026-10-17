@@ -1,0 +1,138 @@
+{
+  "story_id": "the-racist-cult-behind-herbal-tea",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "William S. Sadler",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1875, "end": 1969 }
+    },
+    {
+      "name": "The Urantia Book",
+      "kind": "media-work",
+      "role": "primary"
+    },
+    {
+      "name": "Lena Sadler",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1875, "end": 1939 }
+    },
+    {
+      "name": "John Harvey Kellogg",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1852, "end": 1943 }
+    },
+    {
+      "name": "Mo Siegel",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1949, "end": null }
+    }
+  ],
+  "roles": ["cult-leader", "psychiatrist-psychologist", "writer-intellectual"],
+  "themes": {
+    "primary": "cults-new-religions",
+    "secondary": [
+      "eugenics-scientific-racism",
+      "racism-white-supremacy",
+      "occult-esoteric",
+      "organized-religion",
+      "fraud-grift"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1911, "end": 1969 },
+    "covered_span": { "start": 1875, "end": 2002 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Adventist-trained Chicago psychiatrist William Sadler promoted eugenics and led the circle behind the racist Urantia Book (1955), which later inspired Mo Siegel to found Celestial Seasonings herbal tea.",
+  "content_warnings": ["hate-speech"],
+  "keywords": [
+    "Celestial Seasonings",
+    "Sleepytime tea",
+    "Ellen G. White",
+    "Seventh-day Adventist Church",
+    "Battle Creek Sanitarium",
+    "Madison Grant",
+    "Lothrop Stoddard",
+    "Contact Commission",
+    "Urantia Foundation",
+    "Megan Giller"
+  ],
+  "guests": ["Ty (HeyShadyLady)"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:10",
+      "note": "Sadler's birth in Indiana in 1875 opens the biography"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:16:04",
+      "note": "long segment on Ellen White and the Kellogg split from the Adventist church"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:28:33",
+      "note": "Sadlers embrace Madison Grant; Sadler's own race books from 1918 on"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:04:52",
+      "note": "Sadler later claims the sleeping-subject contacts began in 1911"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:23:28",
+      "note": "Urantia text shown to copy Sadler's eugenics writing; racial hierarchy read at length"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:34:59",
+      "note": "book printed in 1955 after years of editing; Sadler dies in 1969"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:38:37",
+      "note": "Mo Siegel founds Celestial Seasonings in Boulder in 1969 inspired by the book"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:47:36",
+      "note": "Siegel leaves the company around 2000-2002; later Urantia eugenics panel noted briefly"
+    }
+  ],
+  "notes": "Celestial Seasonings kept as a keyword to stay within five subjects; Ellen G. White also gets a real segment. Organized-religion reflects the Seventh-day Adventist schism. Covered span ends at Siegel's 2002 exit; the 2010 Urantia eugenics panel and 2015 Giller article are brief and set reaches_present."
+}

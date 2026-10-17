@@ -1,0 +1,102 @@
+{
+  "story_id": "helena-blavatsky-the-woman-who-inspired-the-nazis-and-gwyneth-paltrow",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Helena Blavatsky",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1831, "end": 1891 }
+    },
+    {
+      "name": "Henry Steel Olcott",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1832, "end": 1907 }
+    },
+    {
+      "name": "Theosophical Society",
+      "kind": "organization",
+      "org_type": "religious-body",
+      "role": "secondary"
+    },
+    {
+      "name": "Fox sisters",
+      "kind": "group",
+      "role": "secondary"
+    },
+    {
+      "name": "Thule Society",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["occultist-guru", "con-artist", "writer-intellectual"],
+  "themes": {
+    "primary": "occult-esoteric",
+    "secondary": [
+      "fraud-grift",
+      "racism-white-supremacy",
+      "nazism",
+      "eugenics-scientific-racism",
+      "cults-new-religions"
+    ]
+  },
+  "regions": {
+    "origin": ["UA", "RU"],
+    "setting": ["US", "IN", "RU", "UA", "EG", "DE"],
+    "subdivisions": [],
+    "polities": ["russian-empire", "british-empire"],
+    "scope": "global"
+  },
+  "time": {
+    "main_span": { "start": 1873, "end": 1891 },
+    "covered_span": { "start": 1831, "end": 1891 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Russian-born occultist Helena Blavatsky co-founded the Theosophical Society in New York in 1875, staged fake psychic phenomena in the US and India, and wrote root-race and antisemitic doctrines later taken up by Nazi ideologues.",
+  "content_warnings": ["hate-speech"],
+  "keywords": [
+    "Isis Unveiled",
+    "The Secret Doctrine",
+    "Mahatma Letters",
+    "Koot Hoomi",
+    "Coulomb affair",
+    "Akashic records",
+    "Hyperborean Atlantis",
+    "Jean Sylvain Bailly",
+    "Edward Bulwer-Lytton",
+    "Alfred Rosenberg"
+  ],
+  "guests": ["Jamie Loftus"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:42:47", "note": "born August 1831 in Yekaterinoslav, in modern Ukraine, then the Russian Empire" },
+    { "facet": "regions", "part": 1, "at": "00:55:21", "note": "childhood trip to the Kalmyk steppe near Astrakhan, first contact with Buddhism" },
+    { "facet": "regions", "part": 2, "at": "00:16:42", "note": "second failed spiritualist society in Cairo with fake seance tricks" },
+    { "facet": "subjects", "part": 2, "at": "00:29:49", "note": "long segment on the Fox sisters and the 1848 start of American spiritualism" },
+    { "facet": "time", "part": 2, "at": "00:24:00", "note": "documented arrival in New York in July 1873 starts her public career" },
+    { "facet": "subjects", "part": 3, "at": "00:41:00", "note": "1875 parlor lecture where Olcott proposes the society that becomes Theosophy" },
+    { "facet": "themes", "part": 3, "at": "00:51:10", "note": "Isis Unveiled (1877) framed as a new religion, compared with Scientology" },
+    { "facet": "regions", "part": 4, "at": "00:01:35", "note": "moves via England to Bombay and builds the society in British India" },
+    { "facet": "themes", "part": 4, "at": "00:09:50", "note": "Coulombs reveal staged letters, shrine and puppet Master; Hodgson report follows" },
+    { "facet": "themes", "part": 4, "at": "00:39:36", "note": "Secret Doctrine root races and extended antisemitic passages read aloud" },
+    { "facet": "themes", "part": 4, "at": "00:47:01", "note": "Thule Society, Rosenberg and other Nazis adopt her Aryan Atlantis myth" },
+    { "facet": "time", "part": 4, "at": "00:56:22", "note": "Akashic records traced to Goop and COVID anti-vaccine circles today" }
+  ],
+  "notes": "Part 1 opens with about 40 minutes on Voltaire and Bailly's Hyperborean Atlantis (1700s); treated as intellectual background, so covered_span starts at her 1831 birth. The Nazi legacy (Thule Society 1918, Rosenberg 1930) runs about 8 minutes, under the 5% bar, so covered_span ends at her 1891 death and reaches_present carries the legacy. cults-new-religions is judgement: Theosophy is a new religion, but the host calls it far less toxic than Scientology."
+}

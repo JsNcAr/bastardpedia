@@ -1,0 +1,101 @@
+{
+  "story_id": "a-tale-of-revenge",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "hero",
+  "subjects": [
+    {
+      "name": "Nakam",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "primary"
+    },
+    {
+      "name": "Abba Kovner",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1918, "end": 1987 }
+    },
+    {
+      "name": "United Partisan Organization",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Ponary massacre",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Hashomer Hatzair",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["terrorist-militant", "activist-organizer", "writer-intellectual"],
+  "themes": {
+    "primary": "terrorism",
+    "secondary": [
+      "nazism",
+      "genocide-mass-killing",
+      "war-war-crimes",
+      "racism-white-supremacy"
+    ]
+  },
+  "regions": {
+    "origin": ["UA", "LT", "PL"],
+    "setting": ["LT", "DE", "PL", "IL", "UA"],
+    "subdivisions": [],
+    "polities": ["nazi-germany", "soviet-union"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1941, "end": 1946 },
+    "covered_span": { "start": 1918, "end": 1987 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Holocaust survivor and Vilna ghetto partisan leader Abba Kovner went on after 1945 to found Nakam, a revenge group that plotted to poison German city water supplies and did poison bread at a camp holding former SS men.",
+  "content_warnings": ["mass-atrocity", "graphic-violence"],
+  "keywords": [
+    "Vilna Ghetto",
+    "Ponary Manifesto",
+    "Majdanek",
+    "Nuremberg",
+    "bread poisoning",
+    "Yitzhak Wittenberg",
+    "Bricha",
+    "Kielce pogrom",
+    "Dina Porat",
+    "Battle of Nitzanim"
+  ],
+  "guests": ["Margaret Killjoy"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:04:52", "note": "Kovner born in Sevastopol, Crimea, in 1918" },
+    { "facet": "regions", "part": 1, "at": "00:11:44", "note": "family moves to Vilna, then in Poland, now Lithuania" },
+    { "facet": "themes", "part": 1, "at": "00:35:12", "note": "mass shootings of Vilna Jews at Ponary by Lithuanian auxiliaries" },
+    { "facet": "time", "part": 1, "at": "00:48:18", "note": "December 1941 manifesto warning Jews of total annihilation" },
+    { "facet": "themes", "part": 2, "at": "00:05:49", "note": "founding of the FPO partisan group and sabotage of German trains" },
+    { "facet": "regions", "part": 2, "at": "00:14:41", "note": "partisans help liberate Majdanek near Lublin" },
+    { "facet": "time", "part": 2, "at": "00:24:09", "note": "April 1945 meeting near Lublin where the revenge plan is laid out" },
+    { "facet": "themes", "part": 2, "at": "00:40:41", "note": "postwar Kielce pogrom and other killings of returning Jews in Poland" },
+    { "facet": "regions", "part": 2, "at": "00:45:31", "note": "Plan A: infiltration of the Nuremberg water system" },
+    { "facet": "time", "part": 2, "at": "00:50:49", "note": "Plan B: arsenic painted on bread for SS prisoners near Nuremberg" },
+    { "facet": "regions", "part": 2, "at": "00:54:59", "note": "Kovner as propaganda officer in the 1948 Arab-Israeli War" },
+    { "facet": "time", "part": 2, "at": "00:57:03", "note": "Kovner wins Israel Prize 1970 and dies of cancer in 1987" }
+  ],
+  "notes": "Billed as the Christmas non-bastard episode, so format is hero, though the host says the story turns dark. Bread poisoning year (1946) is not stated in the transcript and comes from general knowledge. The 1980s interviews with surviving members and the closing song are an epilogue, so reaches_present is false. Kovner origin uses UA for Sevastopol in Crimea."
+}

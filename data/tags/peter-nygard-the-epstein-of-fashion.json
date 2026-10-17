@@ -1,0 +1,132 @@
+{
+  "story_id": "peter-nygard-the-epstein-of-fashion",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Peter Nygard",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1941, "end": null }
+    },
+    {
+      "name": "Louis Bacon",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1956, "end": null }
+    },
+    {
+      "name": "Nygard Cay",
+      "kind": "place",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["business-executive", "criminal-killer"],
+  "themes": {
+    "primary": "sexual-abuse",
+    "secondary": [
+      "child-abuse",
+      "labor-exploitation",
+      "corporate-malfeasance",
+      "entertainment-celebrity",
+      "propaganda-media"
+    ]
+  },
+  "regions": {
+    "origin": ["FI", "CA"],
+    "setting": ["BS", "CA", "MX", "US", "JO"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1967, "end": 2020 },
+    "covered_span": { "start": 1941, "end": 2022 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Finnish-Canadian garment magnate Peter Nygard built a clothing empire on exploited factory labor, then for decades allegedly lured women and girls to his Bahamas compound and abused them until his 2020 arrest.",
+  "content_warnings": ["sexual-violence", "child-abuse"],
+  "keywords": [
+    "Nygard International",
+    "Lyford Cay",
+    "Winnipeg",
+    "NAFTA",
+    "pamper parties",
+    "Nassau",
+    "New Providence",
+    "Anna Nicole Smith",
+    "Save The Bays",
+    "maquiladoras"
+  ],
+  "guests": ["Margaret Killjoy"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:02:05",
+      "note": "born in Helsinki; family later emigrates to Winnipeg after the war"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:11:36",
+      "note": "1967 buys into a women's garment maker that becomes his company"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:19:53",
+      "note": "trafficked guest workers at a Jordanian factory sewing his pants"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:28:33",
+      "note": "post-NAFTA Mexican factories: low wages, forced overtime, pregnancy tests"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:29:35",
+      "note": "anti-union campaign and labor board ruling at his Manitoba plants"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:43:36",
+      "note": "1980 rape charge in Winnipeg and 1990s harassment complaints"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:14:12",
+      "note": "minors reported at his compound parties by a visiting actress"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:37:32",
+      "note": "smear campaign against Bacon: paid protests, websites, journalists"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:50:06",
+      "note": "FBI charges, Toronto charges, compound seized; in custody at release"
+    }
+  ],
+  "notes": "Nygard was alive and in custody at release, so covered_span ends at 2022. main_span runs from the 1967 company purchase to the 2020 arrest. Environmental damage from dredging at the compound gets a short segment, too brief for a theme. Secondary theme child-abuse added because several plaintiffs were 14 at the time."
+}

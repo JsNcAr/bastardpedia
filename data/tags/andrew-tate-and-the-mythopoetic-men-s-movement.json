@@ -1,0 +1,103 @@
+{
+  "story_id": "andrew-tate-and-the-mythopoetic-men-s-movement",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Andrew Tate",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1986, "end": null }
+    },
+    {
+      "name": "Mythopoetic men's movement",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    },
+    {
+      "name": "Robert Bly",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1926, "end": 2021 }
+    },
+    {
+      "name": "Tristan Tate",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1988, "end": null }
+    },
+    {
+      "name": "Hustlers University",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["influencer-online", "con-artist", "criminal-killer"],
+  "themes": {
+    "primary": "misogyny-manosphere",
+    "secondary": [
+      "fraud-grift",
+      "sexual-abuse",
+      "tech-internet",
+      "wellness-self-help",
+      "fascism-far-right",
+      "sports"
+    ]
+  },
+  "regions": {
+    "origin": ["US", "GB"],
+    "setting": ["RO", "GB", "US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2012, "end": 2022 },
+    "covered_span": { "start": 1962, "end": 2023 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Traces masculinity gurus from Robert Bly's 1990s mythopoetic men's movement to Andrew Tate, the kickboxer turned influencer who ran an exploitative webcam business, sold Hustlers University to boys and was arrested in Romania in 2022 on trafficking charges.",
+  "content_warnings": ["sexual-violence"],
+  "keywords": [
+    "Top G",
+    "Iron John",
+    "King, Warrior, Magician, Lover",
+    "Emory Tate",
+    "Luton",
+    "Big Brother UK",
+    "loverboy method",
+    "The Real World",
+    "Infowars",
+    "Greta Thunberg"
+  ],
+  "guests": ["Ian Johnson"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:13:41", "note": "Bly's first poetry collection, 1962, opens his career narrative" },
+    { "facet": "time", "part": 1, "at": "00:14:41", "note": "Bly's late-1960s anti-Vietnam War activism and essay discussed at length" },
+    { "facet": "themes", "part": 1, "at": "00:32:23", "note": "Bly's Iron John workshops as the start of the modern men's self-help industry" },
+    { "facet": "time", "part": 2, "at": "00:03:06", "note": "Tate born in Washington, DC, in December 1986" },
+    { "facet": "themes", "part": 2, "at": "00:25:09", "note": "Kickboxing career and padded record examined, plus childhood chess" },
+    { "facet": "time", "part": 2, "at": "00:40:27", "note": "Webcam business started 2012; brothers move to Romania in 2015" },
+    { "facet": "regions", "part": 2, "at": "00:42:29", "note": "Rape and strangulation allegations in the UK and police inaction" },
+    { "facet": "themes", "part": 3, "at": "00:18:34", "note": "Tate joins the post-2016 far-right influencer scene, Infowars, Tommy Robinson tactics" },
+    { "facet": "themes", "part": 3, "at": "00:31:48", "note": "Tate messaged 16-year-old Romanian schoolgirls on Instagram" },
+    { "facet": "themes", "part": 4, "at": "00:36:33", "note": "Followers paid to post clip compilations to game TikTok's algorithm" },
+    { "facet": "regions", "part": 4, "at": "00:51:31", "note": "Late-2022 arrest in Romania with Tristan on trafficking accusations" },
+    { "facet": "time", "part": 4, "at": "01:01:14", "note": "UK schools holding deradicalisation sessions for boys, sets reaches_present" }
+  ],
+  "notes": "Mythopoetic movement is in the title but gets one of four parts, so kept secondary. Covered span starts with Bly's 1962 debut; his birth is a single line. Main span ends at the December 2022 arrest. child-abuse theme left out: the DMs to 16-year-olds and child-labour advice are short segments; reviewer may add it. Greece march and Bly's US workshops not given extra setting codes beyond US."
+}

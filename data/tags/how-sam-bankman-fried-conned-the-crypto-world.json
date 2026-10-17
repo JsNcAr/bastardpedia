@@ -1,0 +1,88 @@
+{
+  "story_id": "how-sam-bankman-fried-conned-the-crypto-world",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Sam Bankman-Fried",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1992, "end": null }
+    },
+    {
+      "name": "FTX",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Alameda Research",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Effective altruism",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["financier-investor", "con-artist"],
+  "themes": {
+    "primary": "finance-crypto",
+    "secondary": ["fraud-grift", "propaganda-media", "tech-internet", "electoral-politics"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["BS", "US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2017, "end": 2022 },
+    "covered_span": { "start": 1992, "end": 2022 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "American crypto entrepreneur Sam Bankman-Fried used effective-altruism branding, celebrity ads and friendly press to build the FTX exchange and Alameda Research, which collapsed in 2022 after customer funds were misused.",
+  "content_warnings": [],
+  "keywords": [
+    "Caroline Ellison",
+    "William MacAskill",
+    "Sequoia Capital",
+    "Jane Street",
+    "Kimchi premium",
+    "earn to give",
+    "longtermism",
+    "FTX Arena",
+    "John J. Ray III",
+    "Ponzi scheme"
+  ],
+  "guests": ["Jamie Loftus"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:14:03", "note": "Birth in 1992 on the Stanford campus and his professor parents" },
+    { "facet": "subjects", "part": 1, "at": "00:31:27", "note": "Meets MacAskill at MIT and adopts effective altruism and earn-to-give" },
+    { "facet": "time", "part": 1, "at": "00:46:40", "note": "Leaves Jane Street in 2017 to trade crypto, start of the main events" },
+    { "facet": "subjects", "part": 1, "at": "00:53:31", "note": "Founds Alameda with EA colleagues after the Asian bitcoin arbitrage" },
+    { "facet": "subjects", "part": 1, "at": "01:03:22", "note": "Launches FTX in 2019 with Alameda trading profits" },
+    { "facet": "regions", "part": 1, "at": "01:12:41", "note": "Company moves to Hong Kong and then the Bahamas, buys a mansion there" },
+    { "facet": "themes", "part": 1, "at": "01:23:34", "note": "Long segment mocking the Sequoia puff piece and the pitch that won investors" },
+    { "facet": "themes", "part": 1, "at": "01:27:18", "note": "Arena naming rights, athlete ads and sponsorships used to build confidence" },
+    { "facet": "time", "part": 1, "at": "01:30:56", "note": "Bankruptcy filing and the new CEO's verdict on the missing controls in 2022" },
+    { "facet": "themes", "part": 1, "at": "01:35:34", "note": "Large donations to both parties to shape crypto regulation" }
+  ],
+  "notes": "Recorded days after the November 2022 collapse, so it borders on current-affairs, but it tells his life story from birth, hence deep-dive. Bahamas listed first as the seat of FTX where the collapse happened; victims were worldwide. No theme for effective altruism or longtermism; tech-internet used for the Silicon Valley ideology angle."
+}

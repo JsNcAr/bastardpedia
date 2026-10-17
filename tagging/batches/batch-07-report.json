@@ -1,0 +1,152 @@
+[
+  {
+    "id": "bobby-fischer-chess-nazi",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Mia Wong presents and Robert Evans is the guest. Primary theme is sports per the taxonomy example; nazism chosen alongside racism because Fischer distributed Nazi pamphlets and denied the Holocaust. The Sveti Stefan opening games put ME in play, but it was dropped for the six-country limit. The Najdorf opening segment is background, not counted in the spans. The 2010 exhumation is a brief coda, so it is not counted."
+  },
+  {
+    "id": "nicolae-ceausescu-the-dracula-of-being-a-dick",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Part 1 spends about 40 minutes on Romanian background (Dacia, Vlad the Impaler, 1907 peasant revolt, WWI, Iron Guard); treated as scene-setting, so covered_span follows the lifetime rule. Elena is secondary since the title centres Nicolae, though she gets long segments. Her birth year (1916) is from general knowledge. Post-1989 orphan aftermath is a short coda. No theme for trophy hunting or reproductive policy."
+  },
+  {
+    "id": "andrew-tate-and-the-mythopoetic-men-s-movement",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Mythopoetic movement is in the title but gets one of four parts, so kept secondary. Covered span starts with Bly's 1962 debut; his birth is a single line. Main span ends at the December 2022 arrest. child-abuse theme left out: the DMs to 16-year-olds and child-labour advice are short segments; reviewer may add it. Greece march and Bly's US workshops not given extra setting codes beyond US."
+  },
+  {
+    "id": "we-watch-more-of-jordan-peterson-s-new-show",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Series title ambiguous in transcript: Dragons, Monsters and Men may be the episode or series name. Tupy's birth year not given; floruit 2015 from his article. Covered span starts at Tupy's 2015 article; Japan's Meiji school reforms are a fact-check, not story time. medical-malpractice used for Peterson's patient abandonment as a licensed psychologist; no closer theme. Nine-minute Bosstones digression ignored."
+  },
+  {
+    "id": "keep-the-yuletide-gay-saturnalia-the-puritan-war-on-christmas",
+    "format": "hero",
+    "low": ["time"],
+    "notes": "Cool People Who Did Cool Stuff crossover; hero chosen over crossover per precedence, as the revelers are framed as the cool people. Survey of a practice, so spans are rough: start uses the traditional Saturnalia reform date (217 BCE) and main_span runs from the first recorded Dec 25 Christmas (336) to the Restoration (1660). Soviet ban and modern drag-show attacks are brief and left out. No theme fits festivals, paganism or LGBTQ history."
+  },
+  {
+    "id": "a-tale-of-revenge",
+    "format": "hero",
+    "low": [],
+    "notes": "Billed as the Christmas non-bastard episode, so format is hero, though the host says the story turns dark. Bread poisoning year (1946) is not stated in the transcript and comes from general knowledge. The 1980s interviews with surviving members and the closing song are an epilogue, so reaches_present is false. Kovner origin uses UA for Sevastopol in Crimea."
+  },
+  {
+    "id": "napoleon-iii-the-worst-bonaparte",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Napoleon I's career before 1802 is background and left out of covered_span. Transcript slips: calls Louis Bonaparte king of Denmark (he ruled Holland) and names Charles X instead of Louis-Philippe after Strasbourg. Setting order puts France first as the site of the coups and reign, then the Algerian and Mexican harm. No theme for proto-fascism; the hosts frame him as its precursor but fascism-far-right was not used."
+  },
+  {
+    "id": "how-sam-bankman-fried-conned-the-crypto-world",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Recorded days after the November 2022 collapse, so it borders on current-affairs, but it tells his life story from birth, hence deep-dive. Bahamas listed first as the seat of FTX where the collapse happened; victims were worldwide. No theme for effective altruism or longtermism; tech-internet used for the Silicon Valley ideology angle."
+  },
+  {
+    "id": "how-cigarettes-invented-everything",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject is an industry/product with no good kind; used practice-or-pseudoscience. Pre-Columbian and early-modern tobacco history (~12 min, part 1) treated as host background, so covered_span starts 1856 and HT/DO/MX are left out of setting. Later industry cover-ups are deferred to future episodes, so reaches_present is false."
+  },
+  {
+    "id": "why-is-the-rent-so-damn-high",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Survey episode on rising rents rather than one biography. Primary subjects are Roper (core of part 1) and Zell (title of part 2); Schwarzman gets a long segment so is secondary. Roper's birth year is unknown, so floruit is used. Rent control history (1940s LA and NYC) and landlord murders of tenants are context and comparisons, so they set no years or warnings."
+  },
+  {
+    "id": "robert-and-cody-watch-jordan-b-peterson-s-new-tv-show",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Companion to we-watch-more-of-jordan-peterson-s-new-show (episode two); tagged consistently with it. Benzo detox and Bill C-16 are brief asides, so the covered span stays at 2022. quackery-pseudoscience covers his pseudoscientific biology claims (epigenetics, agreeableness) rather than a fake treatment."
+  },
+  {
+    "id": "peter-nygard-the-epstein-of-fashion",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Nygard was alive and in custody at release, so covered_span ends at 2022. main_span runs from the 1967 company purchase to the 2020 arrest. Environmental damage from dredging at the compound gets a short segment, too brief for a theme. Secondary theme child-abuse added because several plaintiffs were 14 at the time."
+  },
+  {
+    "id": "mkultra-when-the-cia-tried-to-destroy-free-will",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject is the program itself (kind event), so roles are empty. Main span ends 1972 because the host dates Helms's file-destruction order to 1972; most sources put it in early 1973. Covered span ends with the Church Committee and Gottlieb's 1977 testimony; later lawsuits and Gottlieb's 1999 death are brief codas. Frank Olson and Allen Dulles also have real segments but are keywords to keep five subjects. KR and PA (Dimitrov) were close calls for setting."
+  },
+  {
+    "id": "oskar-dirlwanger-the-worst-nazi",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Episode title misspells the name; subject uses the standard spelling Oskar Dirlewanger. Transcript garbles the birth date and calls Wurzburg Swabian; lifespan 1895-1945 from known facts. Transcript places the Slovak uprising operation in Hungary; it was in Slovakia, given only a passing mention so SK left out of setting. WWI Eastern Front service is brief and unspecific, so no eastern country added."
+  },
+  {
+    "id": "the-racist-cult-behind-herbal-tea",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Celestial Seasonings kept as a keyword to stay within five subjects; Ellen G. White also gets a real segment. Organized-religion reflects the Seventh-day Adventist schism. Covered span ends at Siegel's 2002 exit; the 2010 Urantia eugenics panel and 2015 Giller article are brief and set reaches_present."
+  },
+  {
+    "id": "a-book-episode-with-rush-limbaugh",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Short reading; most airtime is mockery of the time-travel plot and classroom scenes. Covered span follows the book's 1620 Pilgrim setting through its 2013 publication, matching other media-reading records. Limbaugh's dates are from general knowledge (the packet only notes he has died). colonialism-imperialism is light: genocide jokes and Puritan whitewashing, a few minutes in total."
+  },
+  {
+    "id": "helena-blavatsky-the-woman-who-inspired-the-nazis-and-gwyneth-paltrow",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Part 1 opens with about 40 minutes on Voltaire and Bailly's Hyperborean Atlantis (1700s); treated as intellectual background, so covered_span starts at her 1831 birth. The Nazi legacy (Thule Society 1918, Rosenberg 1930) runs about 8 minutes, under the 5% bar, so covered_span ends at her 1891 death and reaches_present carries the legacy. cults-new-religions is judgement: Theosophy is a new religion, but the host calls it far less toxic than Scientology."
+  },
+  {
+    "id": "how-the-roman-republic-became-a-police-state",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript calls Clodius 'Claudius' (and notes the spelling change); named here as Publius Clodius Pulcher. Founding myths (753 BCE) treated as background; covered span starts at the 509 BCE revolt. Covered end set to 193 (Severus remakes the guard); the brief quote on later frumentarii and agentes in rebus is too short to extend it. No subject kind fits a polity well, so the primary is the fall of the Republic as an event."
+  },
+  {
+    "id": "the-clarence-thomas-story",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "No role for judges; politician-official is the closest fit for EEOC chair and justice. Primary theme is a judgment call between racism and electoral-politics. Transcript says Myers Anderson grew up in the late 1800s; his commonly cited birth year is 1907. Thurgood Marshall and the apartheid propaganda link (Jay Parker) get shorter segments, kept as keywords."
+  },
+  {
+    "id": "the-world-anti-communist-league-a-study-in-nazi-death-squads",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Mia Wong (credited as Chris in the transcript) hosts and Robert Evans is the guest. Primary theme fascism-far-right since most members were non-German fascists; nazism secondary for the collaborator segment. Setting capped at six; PY, CL, HR, UA, US also get time. Covered end 1990 assumes the WLFD rename year from outside knowledge."
+  },
+  {
+    "id": "the-father-of-gynecology",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Opening segment on prehistoric medicine (Venus of Willendorf, Neolithic dentistry) treated as background, not covered span. L. L. Wall's modern defence of Sims is a long thread but counts as reinterpretation, so it sets reaches_present rather than extending the span. science-exploration is a loose fit for the history-of-gynecology framing and speculum invention. FR setting is thin."
+  },
+  {
+    "id": "the-man-who-ruined-new-york",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "No theme for urban planning or infrastructure; racism-white-supremacy chosen as primary since the story centres on racist housing and transit policy. Transcript gives 1962 for loss of most offices; main_span ends there. Moses was an unelected official, hence politician-official plus political-operative for his bill drafting and budget manoeuvres."
+  },
+  {
+    "id": "how-to-insert-goat-balls-into-human-balls",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Description credits the book to Brinkley, but the transcript names Sydney B. Flower as author; Brinkley is listed as co-primary because the book is entirely about him. Flower's dates unknown, floruit 1921. Brinkley's later career (radio, governor runs, Mexico) is summarised in about two minutes, so the covered span stays on the book's 1918-1921 period."
+  },
+  {
+    "id": "the-nra-and-their-blickies",
+    "format": "crossover",
+    "low": [],
+    "notes": "Hood Politics crossover (Prop hosts, Evans guests), so format is crossover and roles are empty with the NRA as primary. Covered span starts at Carter's 1931 killing of Ramon Casiano in Laredo; the NRA's 1871 founding is a passing mention. Transcript calls Emerson v. United States a Supreme Court case; it was a 2001 Fifth Circuit ruling. Transcript spells Carter's first name Harlan."
+  },
+  {
+    "id": "harlon-carter-the-man-who-militarized-the-cops-and-the-nra",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "NRA listed as co-primary since descriptions pair it with Carter. The long opening on colonial and Jim Crow gun laws (1680 onward) is background and excluded from covered_span; end year 2010 reflects the Emerson/Heller/McDonald and PLCAA segment. main_span end 1985 (end of Carter's NRA tenure) is from general knowledge; transcript does not give it. Transcript spells Knox as Neil."
+  }
+]

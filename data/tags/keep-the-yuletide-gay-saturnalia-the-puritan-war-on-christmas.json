@@ -1,0 +1,93 @@
+{
+  "story_id": "keep-the-yuletide-gay-saturnalia-the-puritan-war-on-christmas",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "hero",
+  "subjects": [
+    {
+      "name": "Winter solstice revelry and Christmas traditions",
+      "kind": "practice-or-pseudoscience",
+      "role": "primary"
+    },
+    {
+      "name": "Saturnalia",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    },
+    {
+      "name": "Yule",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    },
+    {
+      "name": "Puritan ban on Christmas",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Catholic Church",
+      "kind": "organization",
+      "org_type": "religious-body",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "organized-religion",
+    "secondary": ["folklore-legend", "religious-right-culture-war", "civil-war"]
+  },
+  "regions": {
+    "origin": ["IT"],
+    "setting": ["GB", "IT", "US", "SE", "FI", "RU"],
+    "subdivisions": [],
+    "polities": ["roman-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 336, "end": 1660 },
+    "covered_span": { "start": -217, "end": 1660 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "A history of midwinter revelry from Roman Saturnalia and Germanic Yule to medieval English Christmas, and of the Church's and the Puritans' long, largely failed attempts to suppress it, ending with the 1640s-1650s Christmas bans.",
+  "content_warnings": [],
+  "keywords": [
+    "Lord of Misrule",
+    "Feast of Fools",
+    "wassailing",
+    "Plum Pudding riots",
+    "Mari Lwyd",
+    "St. Lucy's Day",
+    "Joulupukki",
+    "Kalends",
+    "Witchcraft and the Gay Counterculture",
+    "Cool People Who Did Cool Stuff"
+  ],
+  "guests": ["Margaret Killjoy", "Garrison Davis"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "low"
+  },
+  "evidence": [
+    { "facet": "themes", "part": 1, "at": "00:04:08", "note": "Host frames the story as a centuries-long church war against riotous solstice festivities" },
+    { "facet": "regions", "part": 1, "at": "00:09:21", "note": "St. Lucy's Day, its Scandinavian popularity and the Syracuse martyr legend" },
+    { "facet": "time", "part": 1, "at": "00:20:13", "note": "Long segment on Roman Saturnalia: role reversal, Lord of Saturnalia, sacrifice" },
+    { "facet": "subjects", "part": 1, "at": "00:28:42", "note": "Yule segment: Odin, Yule log, trees, Wild Hunt" },
+    { "facet": "regions", "part": 1, "at": "00:40:48", "note": "Finnish Christmas goat figure discussed as a Santa source" },
+    { "facet": "themes", "part": 2, "at": "00:06:24", "note": "Eighth-century bishop's complaint about pagan-style street revelry" },
+    { "facet": "regions", "part": 2, "at": "00:10:38", "note": "Lord of Misrule in medieval England" },
+    { "facet": "themes", "part": 2, "at": "00:24:18", "note": "Church condemnations of animal masquerade and ritual cross-dressing across centuries" },
+    { "facet": "themes", "part": 2, "at": "00:32:53", "note": "English Civil War context: Puritan parliament turns Christmas into a culture war" },
+    { "facet": "time", "part": 2, "at": "00:36:32", "note": "Canterbury plum pudding riots against the Christmas ban" },
+    { "facet": "time", "part": 2, "at": "00:39:09", "note": "Massachusetts Bay ban of 1659; brief" },
+    { "facet": "regions", "part": 2, "at": "00:40:10", "note": "Soviet ban and rebranding of Christmas as New Year; short coda" }
+  ],
+  "notes": "Cool People Who Did Cool Stuff crossover; hero chosen over crossover per precedence, as the revelers are framed as the cool people. Survey of a practice, so spans are rough: start uses the traditional Saturnalia reform date (217 BCE) and main_span runs from the first recorded Dec 25 Christmas (336) to the Restoration (1660). Soviet ban and modern drag-show attacks are brief and left out. No theme fits festivals, paganism or LGBTQ history."
+}

@@ -1,0 +1,101 @@
+{
+  "story_id": "harlon-carter-the-man-who-militarized-the-cops-and-the-nra",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Harlon Carter",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1913, "end": 1991 }
+    },
+    {
+      "name": "National Rifle Association",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "primary"
+    },
+    {
+      "name": "United States Border Patrol",
+      "kind": "organization",
+      "org_type": "government-agency",
+      "role": "secondary"
+    },
+    {
+      "name": "Operation Wetback",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Neal Knox",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1935, "end": 2005 }
+    }
+  ],
+  "roles": ["political-operative", "police-lawman", "activist-organizer"],
+  "themes": {
+    "primary": "weapons-arms-trade",
+    "secondary": [
+      "immigration-borders",
+      "racism-white-supremacy",
+      "policing-incarceration",
+      "electoral-politics",
+      "corporate-malfeasance"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1931, "end": 1985 },
+    "covered_span": { "start": 1913, "end": 2010 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Harlon Carter shot dead a Mexican American teenager in Laredo in 1931, later led the US Border Patrol through Operation Wetback, then seized control of the NRA in 1977 and turned it into a hardline gun lobby.",
+  "content_warnings": ["graphic-violence"],
+  "keywords": [
+    "Ramon Casiano",
+    "Laredo",
+    "Operation Cloudburst",
+    "Cincinnati Revolt",
+    "Institute for Legislative Action",
+    "Wayne LaPierre",
+    "Joseph Swing",
+    "Robert Dowlut",
+    "Saturday Night Special",
+    "Dickey Amendment"
+  ],
+  "guests": ["Matt Lieb"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:27:35", "note": "Carter born August 1913 in Granbury, Texas" },
+    { "facet": "time", "part": 1, "at": "00:39:01", "note": "1931 shotgun killing of 15-year-old Ramon Casiano and murder conviction" },
+    { "facet": "roles", "part": 1, "at": "00:52:34", "note": "joins Border Patrol in 1936 and heads it by 1950" },
+    { "facet": "themes", "part": 1, "at": "00:56:09", "note": "Operation Cloudburst plan to use troops, fences and roadblocks against Mexican migrants" },
+    { "facet": "themes", "part": 2, "at": "00:15:07", "note": "Operation Wetback deports over a million people and extends Border Patrol inland" },
+    { "facet": "roles", "part": 2, "at": "00:23:30", "note": "NRA president 1965-67, then placed in charge of the new lobbying arm" },
+    { "facet": "themes", "part": 2, "at": "01:05:41", "note": "builds direct-mail fundraising operation with Richard Viguerie" },
+    { "facet": "time", "part": 3, "at": "00:21:34", "note": "1977 convention takeover makes Carter executive vice president" },
+    { "facet": "themes", "part": 3, "at": "00:52:57", "note": "NRA blocks consumer-safety oversight of defective firearms" },
+    { "facet": "time", "part": 3, "at": "00:57:34", "note": "NRA-backed 2005 law shielding gun makers from lawsuits" },
+    { "facet": "time", "part": 3, "at": "01:07:56", "note": "Carter dies of lung cancer in 1991; Knox dies 2005" }
+  ],
+  "notes": "NRA listed as co-primary since descriptions pair it with Carter. The long opening on colonial and Jim Crow gun laws (1680 onward) is background and excluded from covered_span; end year 2010 reflects the Emerson/Heller/McDonald and PLCAA segment. main_span end 1985 (end of Carter's NRA tenure) is from general knowledge; transcript does not give it. Transcript spells Knox as Neil."
+}

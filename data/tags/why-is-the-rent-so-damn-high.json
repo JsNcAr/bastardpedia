@@ -1,0 +1,157 @@
+{
+  "story_id": "why-is-the-rent-so-damn-high",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Sam Zell",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1941, "end": 2023 }
+    },
+    {
+      "name": "Jeffrey Roper",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": null, "end": null },
+      "floruit": 2004
+    },
+    {
+      "name": "Stephen Schwarzman",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1947, "end": null }
+    },
+    {
+      "name": "RealPage",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Tribune Company",
+      "kind": "organization",
+      "org_type": "media-outlet",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["business-executive", "financier-investor"],
+  "themes": {
+    "primary": "finance-crypto",
+    "secondary": [
+      "corporate-malfeasance",
+      "propaganda-media",
+      "tech-internet",
+      "labor-exploitation"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2004, "end": null },
+    "covered_span": { "start": 1941, "end": 2022 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "A look at soaring US rents through the people behind them: Jeffrey Roper's RealPage rent-setting algorithm, real estate tycoon Sam Zell's debt-fuelled wrecking of the Tribune papers and anti-rent-control spending, and Stephen Schwarzman's Blackstone buying up foreclosed homes.",
+  "content_warnings": [],
+  "keywords": [
+    "YieldStar",
+    "Lease Rent Options",
+    "Camden Property Trust",
+    "Blackstone",
+    "Invitation Homes",
+    "Grave Dancer",
+    "Randy Michaels",
+    "rent control",
+    "airline price fixing",
+    "Airbnb"
+  ],
+  "guests": ["Samantha McVey"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:30:19",
+      "note": "Roper introduced; ran Alaska Airlines revenue management in the 1980s"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:34:30",
+      "note": "DOJ case over airline fare-sharing price fixing in the 1980s and early 1990s"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:40:47",
+      "note": "Roper hired by RealPage in 2004 to build YieldStar"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:53:22",
+      "note": "2017 RealPage takeover of rival LRO cleared by regulators; market concentration"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:08:24",
+      "note": "extended critique of press coverage blaming rents solely on zoning and supply"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:04:17",
+      "note": "Zell born 1941 to Polish Jewish immigrants, raised in Chicago"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:12:36",
+      "note": "leveraged Tribune buyout, cost cutting and newsroom degradation begin"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:25:38",
+      "note": "Tribune bankruptcy, thousands of job losses and a hostile workplace culture"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:27:47",
+      "note": "Zell funds campaigns against rent control ballot measures"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:40:14",
+      "note": "Schwarzman and Blackstone segment starts"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:52:18",
+      "note": "Blackstone buys foreclosed homes from 2011 and raises rents into 2022"
+    }
+  ],
+  "notes": "Survey episode on rising rents rather than one biography. Primary subjects are Roper (core of part 1) and Zell (title of part 2); Schwarzman gets a long segment so is secondary. Roper's birth year is unknown, so floruit is used. Rent control history (1940s LA and NYC) and landlord murders of tenants are context and comparisons, so they set no years or warnings."
+}

@@ -1,0 +1,153 @@
+{
+  "story_id": "nicolae-ceausescu-the-dracula-of-being-a-dick",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Nicolae Ceaușescu",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1918, "end": 1989 }
+    },
+    {
+      "name": "Elena Ceaușescu",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1916, "end": 1989 }
+    },
+    {
+      "name": "Gheorghe Gheorghiu-Dej",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1901, "end": 1965 }
+    },
+    {
+      "name": "Securitate",
+      "kind": "organization",
+      "org_type": "intelligence",
+      "role": "secondary"
+    },
+    {
+      "name": "Romanian Communist Party",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["dictator-autocrat", "activist-organizer"],
+  "themes": {
+    "primary": "communism-state-socialism",
+    "secondary": [
+      "authoritarianism",
+      "intelligence-covert-ops",
+      "diplomacy-foreign-policy",
+      "child-abuse",
+      "public-health",
+      "propaganda-media",
+      "racism-white-supremacy"
+    ]
+  },
+  "regions": {
+    "origin": ["RO"],
+    "setting": ["RO", "CN"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1965, "end": 1989 },
+    "covered_span": { "start": 1918, "end": 1989 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Nicolae Ceaușescu, communist dictator of Romania from 1965 to 1989, won Western favour while building a vast surveillance state and palace, banning abortion and starving the population, until he and his wife Elena were executed in 1989.",
+  "content_warnings": ["child-death", "child-abuse", "medical-horror", "animal-cruelty"],
+  "keywords": [
+    "Palace of the Parliament",
+    "1968 balcony speech",
+    "Romanian Revolution",
+    "Timisoara",
+    "Laszlo Tokes",
+    "Ion Mihai Pacepa",
+    "Richard Nixon",
+    "Romanian orphanages",
+    "systematization",
+    "Vlad the Impaler"
+  ],
+  "guests": ["Jeff May"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:40:38",
+      "note": "birth in January 1918 in a poor village; long Romanian history preamble ends here"
+    },
+    {
+      "facet": "roles",
+      "part": 1,
+      "at": "00:45:21",
+      "note": "teenage arrests for street fights at strikes and petitions for rail workers"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:47:55",
+      "note": "Gheorghiu-Dej dies in March 1965 and Ceausescu takes the party leadership"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:17:12",
+      "note": "1968 balcony speech condemning the Soviet invasion of Czechoslovakia; ties with Nixon"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:23:31",
+      "note": "1971 tour of China and North Korea inspires the personality cult and industrial push"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:57:50",
+      "note": "regime sells exit visas for Romanian Jews on a sliding price scale"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:06:24",
+      "note": "Securitate phone tapping and informant network expand; assassinations abroad"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:27:14",
+      "note": "preventable deaths and neglect of children in state homes for disabled children"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:39:12",
+      "note": "untested blood transfusions spread HIV among orphans, most of them Roma"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "01:05:19",
+      "note": "summary trial and execution of the couple on Christmas Day 1989"
+    }
+  ],
+  "notes": "Part 1 spends about 40 minutes on Romanian background (Dacia, Vlad the Impaler, 1907 peasant revolt, WWI, Iron Guard); treated as scene-setting, so covered_span follows the lifetime rule. Elena is secondary since the title centres Nicolae, though she gets long segments. Her birth year (1916) is from general knowledge. Post-1989 orphan aftermath is a short coda. No theme for trophy hunting or reproductive policy."
+}

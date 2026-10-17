@@ -1,0 +1,102 @@
+{
+  "story_id": "mkultra-when-the-cia-tried-to-destroy-free-will",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Project MKUltra",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Sidney Gottlieb",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1918, "end": 1999 }
+    },
+    {
+      "name": "Ewen Cameron",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1901, "end": 1967 }
+    },
+    {
+      "name": "George Hunter White",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1908, "end": 1975 }
+    },
+    {
+      "name": "Louis Jolyon West",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1924, "end": 1999 }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "intelligence-covert-ops",
+    "secondary": [
+      "medical-malpractice",
+      "drugs",
+      "conspiracy-theories",
+      "weapons-arms-trade",
+      "moral-panics"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "CA", "DE", "FR", "JP", "KR"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1953, "end": 1972 },
+    "covered_span": { "start": 1949, "end": 1977 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "From 1953 the CIA's MKUltra program, run by chemist Sidney Gottlieb, secretly dosed, tortured and psychologically destroyed prisoners, patients and unwitting civilians in the US, Canada and abroad in a failed hunt for mind control, then burned its records.",
+  "content_warnings": ["torture", "medical-horror", "drug-use", "suicide-self-harm", "child-death"],
+  "keywords": [
+    "Central Intelligence Agency",
+    "Project Bluebird",
+    "Project Artichoke",
+    "Operation Midnight Climax",
+    "Operation Sea Spray",
+    "Frank Olson",
+    "Allen Dulles",
+    "Stanley Glickman",
+    "psychic driving",
+    "Poisoner in Chief"
+  ],
+  "guests": ["Jason Pargin"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:20:25", "note": "1949 Mindszenty show trial framed as the spark for CIA mind-control fears" },
+    { "facet": "themes", "part": 1, "at": "00:44:10", "note": "Operation Sea Spray: Army and CIA spray bacteria over San Francisco" },
+    { "facet": "themes", "part": 1, "at": "00:53:38", "note": "Edward Hunter, a CIA contractor, stokes the brainwashing panic" },
+    { "facet": "regions", "part": 1, "at": "00:58:45", "note": "Bluebird black sites in West Germany, then Japan, drugging Korean POWs" },
+    { "facet": "regions", "part": 2, "at": "00:51:43", "note": "Stanley Glickman dosed in a Paris cafe and ruined" },
+    { "facet": "time", "part": 2, "at": "01:04:55", "note": "Dulles formally launches MKUltra in April 1953 under Gottlieb" },
+    { "facet": "regions", "part": 2, "at": "01:08:01", "note": "Ewen Cameron's CIA-funded depatterning at McGill in Montreal" },
+    { "facet": "content_warnings", "part": 3, "at": "00:14:29", "note": "Frank Olson's fall from a New York hotel window, suicide versus murder" },
+    { "facet": "regions", "part": 3, "at": "00:32:06", "note": "George White's San Francisco safe-house brothel for covert LSD dosing" },
+    { "facet": "subjects", "part": 4, "at": "00:24:13", "note": "Louis Jolyon West segment: false-memory claims and the Shaver case" },
+    { "facet": "themes", "part": 4, "at": "00:47:20", "note": "long discussion of Manson, JFK and conspiracy culture fed by MKUltra" },
+    { "facet": "time", "part": 4, "at": "00:57:13", "note": "Gottlieb testifies to Congress after destroying the files" }
+  ],
+  "notes": "Primary subject is the program itself (kind event), so roles are empty. Main span ends 1972 because the host dates Helms's file-destruction order to 1972; most sources put it in early 1973. Covered span ends with the Church Committee and Gottlieb's 1977 testimony; later lawsuits and Gottlieb's 1999 death are brief codas. Frank Olson and Allen Dulles also have real segments but are keywords to keep five subjects. KR and PA (Dimitrov) were close calls for setting."
+}

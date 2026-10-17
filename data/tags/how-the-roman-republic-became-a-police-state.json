@@ -1,0 +1,102 @@
+{
+  "story_id": "how-the-roman-republic-became-a-police-state",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Fall of the Roman Republic",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Gracchi brothers",
+      "kind": "group",
+      "role": "secondary"
+    },
+    {
+      "name": "Publius Clodius Pulcher",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": -93, "end": -52 }
+    },
+    {
+      "name": "Augustus",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": -63, "end": 14 }
+    },
+    {
+      "name": "Praetorian Guard",
+      "kind": "organization",
+      "org_type": "military",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "policing-incarceration",
+    "secondary": [
+      "authoritarianism",
+      "electoral-politics",
+      "civil-war",
+      "slavery-forced-labor",
+      "intelligence-covert-ops",
+      "war-war-crimes"
+    ]
+  },
+  "regions": {
+    "origin": ["IT"],
+    "setting": ["IT", "ES"],
+    "subdivisions": [],
+    "polities": ["roman-republic", "roman-empire"],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": -133, "end": 6 },
+    "covered_span": { "start": -509, "end": 193 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "How the Roman Republic's elite, by murdering the Gracchi in 133 BCE, opened a century of street-gang politics and civil war that ended with Augustus creating Rome's militarized police, secret police and the Praetorian Guard.",
+  "content_warnings": ["suicide-self-harm", "graphic-violence"],
+  "keywords": [
+    "Lucretia",
+    "Twelve Tables",
+    "mos maiorum",
+    "Gaius Marius",
+    "Sulla",
+    "Titus Annius Milo",
+    "Marcus Licinius Crassus",
+    "urban cohorts",
+    "vigiles",
+    "frumentarii"
+  ],
+  "guests": ["Andrew Ti"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:13:08", "note": "Last king Tarquin and the Lucretia story leading to the revolt" },
+    { "facet": "time", "part": 1, "at": "00:19:20", "note": "Republic founded 509 BCE after the last king is expelled" },
+    { "facet": "themes", "part": 1, "at": "00:50:54", "note": "Public land absorbed by rich estates worked by slaves, veterans dispossessed" },
+    { "facet": "subjects", "part": 1, "at": "00:56:05", "note": "Tiberius Gracchus introduced; his land reform drives the rest of part one" },
+    { "facet": "regions", "part": 1, "at": "01:01:14", "note": "Tiberius negotiates the truce at Numantia in northern Spain" },
+    { "facet": "themes", "part": 1, "at": "01:17:29", "note": "Senate-backed mob kills Tiberius and hundreds of followers" },
+    { "facet": "themes", "part": 2, "at": "00:11:00", "note": "Civil war between Marius and Sulla, proscriptions and mass killings" },
+    { "facet": "subjects", "part": 2, "at": "00:21:00", "note": "Clodius builds a political street gang; feud with Milo ends in 52 BCE" },
+    { "facet": "themes", "part": 2, "at": "00:40:12", "note": "Augustus disarms the city and creates the urban cohorts and vigiles" },
+    { "facet": "themes", "part": 2, "at": "00:45:57", "note": "Police force enables execution of a whole slave household under Nero" },
+    { "facet": "themes", "part": 2, "at": "00:50:06", "note": "Frumentarii turned into a secret police and spy service" },
+    { "facet": "time", "part": 2, "at": "01:02:09", "note": "Praetorians auction the throne after Commodus; Severus replaces the guard, 193" }
+  ],
+  "notes": "Transcript calls Clodius 'Claudius' (and notes the spelling change); named here as Publius Clodius Pulcher. Founding myths (753 BCE) treated as background; covered span starts at the 509 BCE revolt. Covered end set to 193 (Severus remakes the guard); the brief quote on later frumentarii and agentes in rebus is too short to extend it. No subject kind fits a polity well, so the primary is the fall of the Republic as an event."
+}

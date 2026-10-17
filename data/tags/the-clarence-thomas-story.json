@@ -1,0 +1,152 @@
+{
+  "story_id": "the-clarence-thomas-story",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Clarence Thomas",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1948, "end": null }
+    },
+    {
+      "name": "Anita Hill",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1956, "end": null }
+    },
+    {
+      "name": "Myers Anderson",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1907, "end": 1983 }
+    },
+    {
+      "name": "Ginni Thomas",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1957, "end": null }
+    },
+    {
+      "name": "Robert Bork",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1927, "end": 2012 }
+    }
+  ],
+  "roles": ["politician-official"],
+  "themes": {
+    "primary": "racism-white-supremacy",
+    "secondary": [
+      "electoral-politics",
+      "sexual-abuse",
+      "misogyny-manosphere",
+      "religious-right-culture-war",
+      "child-abuse",
+      "education"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1981, "end": null },
+    "covered_span": { "start": 1948, "end": 2022 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Clarence Thomas rose from Jim Crow poverty in Georgia through Reagan-era posts to the US Supreme Court in 1991, despite Anita Hill's sexual harassment testimony, and has used the bench to roll back civil rights.",
+  "content_warnings": ["child-abuse"],
+  "keywords": [
+    "Pinpoint, Georgia",
+    "Savannah",
+    "Strange Justice",
+    "EEOC",
+    "Thurgood Marshall",
+    "Roe v. Wade",
+    "Missouri v. Jenkins",
+    "Jay Parker",
+    "Lifespring",
+    "January 6"
+  ],
+  "guests": ["Miles Gray"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:05:56",
+      "note": "Birth in June 1948 in a shack near Pinpoint, Georgia"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:16:51",
+      "note": "Jim Crow segregation, poll taxes and separate bibles in Pinpoint"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:25:45",
+      "note": "Grandfather's harsh corporal punishment: closet confinement, whipping with a cord"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:12:44",
+      "note": "Recasts himself as a Republican to advance his career under Danforth"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:22:39",
+      "note": "Yale classmates recall his dismissive chauvinism toward women"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "00:20:25",
+      "note": "Named EEOC chairman, serves 1982 to 1990"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:44:28",
+      "note": "Religious right, angry over Bork, is promised a hard-right replacement for Marshall"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:24:09",
+      "note": "Hill's account of his unwanted advances and porn talk starting in 1981"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:38:08",
+      "note": "Missouri v. Jenkins concurrence questioning desegregation as a value"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "01:03:06",
+      "note": "Ginni Thomas's texts to Meadows before January 6, carrying the story to 2022"
+    }
+  ],
+  "notes": "No role for judges; politician-official is the closest fit for EEOC chair and justice. Primary theme is a judgment call between racism and electoral-politics. Transcript says Myers Anderson grew up in the late 1800s; his commonly cited birth year is 1907. Thurgood Marshall and the apartheid propaganda link (Jay Parker) get shorter segments, kept as keywords."
+}

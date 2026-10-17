@@ -1,0 +1,78 @@
+{
+  "story_id": "the-man-who-ruined-new-york",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Robert Moses",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1888, "end": 1981 }
+    },
+    {
+      "name": "Exclusionary architecture",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["politician-official", "political-operative"],
+  "themes": {
+    "primary": "racism-white-supremacy",
+    "secondary": ["environmental-destruction", "electoral-politics", "colonialism-imperialism"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "EG"],
+    "subdivisions": ["US-NY"],
+    "polities": ["british-empire"],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1924, "end": 1962 },
+    "covered_span": { "start": 1888, "end": 1981 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Unelected New York parks chief Robert Moses reshaped New York City and Long Island from the 1920s to the 1960s, building highways and low bridges that blocked transit, displaced Black residents and walled off poor neighbourhoods.",
+  "content_warnings": [],
+  "keywords": [
+    "Jones Beach State Park",
+    "Cross Bronx Expressway",
+    "East Tremont",
+    "The Power Broker",
+    "Robert Caro",
+    "Southern State Parkway",
+    "Second Avenue subway",
+    "Long Island State Park Commission",
+    "Alfred E. Smith",
+    "Jane Jacobs"
+  ],
+  "guests": ["Bridget Todd"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:04:50", "note": "Born in New Haven, Connecticut, in 1888 to a wealthy Jewish family" },
+    { "facet": "regions", "part": 1, "at": "00:17:21", "note": "Oxford years and Egypt visit; admires Kitchener's colonial administration" },
+    { "facet": "themes", "part": 1, "at": "00:22:02", "note": "Extended segment on British rule in Egypt and Sudan under Kitchener" },
+    { "facet": "time", "part": 1, "at": "00:28:21", "note": "First government job at the Municipal Research Bureau in 1913" },
+    { "facet": "themes", "part": 1, "at": "00:29:23", "note": "Tammany Hall patronage, civil service reform, rise under Governor Al Smith" },
+    { "facet": "time", "part": 1, "at": "00:33:30", "note": "Made head of Long Island parks commission and state parks council, held for forty years" },
+    { "facet": "themes", "part": 1, "at": "00:46:51", "note": "Parkway bridges built too low for buses and rail to Jones Beach vetoed" },
+    { "facet": "themes", "part": 2, "at": "00:05:14", "note": "Cross Bronx Expressway evicts mostly Black residents of East Tremont" },
+    { "facet": "themes", "part": 2, "at": "00:09:56", "note": "Bridge ramps and highways routed to dump traffic and pollution on Harlem" },
+    { "facet": "time", "part": 2, "at": "00:26:09", "note": "Opposition grows; stripped of most offices in 1962" },
+    { "facet": "time", "part": 2, "at": "00:29:12", "note": "Power Broker published 1974, dies 1981; subway decay and MTA plans after" },
+    { "facet": "subjects", "part": 2, "at": "00:32:50", "note": "Exclusionary architecture copied nationally: Detroit wall, Hamden fence, Buffalo mall" }
+  ],
+  "notes": "No theme for urban planning or infrastructure; racism-white-supremacy chosen as primary since the story centres on racist housing and transit policy. Transcript gives 1962 for loss of most offices; main_span ends there. Moses was an unelected official, hence politician-official plus political-operative for his bill drafting and budget manoeuvres."
+}

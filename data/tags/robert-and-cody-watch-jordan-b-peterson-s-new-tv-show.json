@@ -1,0 +1,82 @@
+{
+  "story_id": "robert-and-cody-watch-jordan-b-peterson-s-new-tv-show",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "media-reading",
+  "subjects": [
+    {
+      "name": "Dragons, Monsters and Men (Jordan Peterson Daily Wire series)",
+      "kind": "media-work",
+      "role": "primary"
+    },
+    {
+      "name": "Jordan Peterson",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1962, "end": null }
+    }
+  ],
+  "roles": ["media-personality", "psychiatrist-psychologist", "writer-intellectual"],
+  "themes": {
+    "primary": "misogyny-manosphere",
+    "secondary": [
+      "wellness-self-help",
+      "quackery-pseudoscience",
+      "folklore-legend",
+      "propaganda-media",
+      "organized-religion"
+    ]
+  },
+  "regions": {
+    "origin": ["CA"],
+    "setting": ["US", "CA"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "online"
+  },
+  "time": {
+    "main_span": { "start": 2022, "end": 2022 },
+    "covered_span": { "start": 2022, "end": 2022 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "A watch-through of the first episode of Jordan Peterson's 2022 Daily Wire series, critiquing his advice on what makes a man, his use of dragon and fairy-tale archetypes, and his false claims about agreeableness and epigenetics.",
+  "content_warnings": [],
+  "keywords": [
+    "The Daily Wire",
+    "What Makes a Man",
+    "productive generosity",
+    "Sleeping Beauty",
+    "Don Quixote",
+    "epigenetics",
+    "agreeableness meta-analysis",
+    "Bill C-16",
+    "Ben Shapiro",
+    "Some More News"
+  ],
+  "guests": ["Cody Johnston"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "subjects", "part": 1, "at": "00:03:10", "note": "Series name and Daily Wire streaming home introduced; episode one titled What Makes a Man" },
+    { "facet": "themes", "part": 1, "at": "00:13:17", "note": "Peterson's generic self-improvement advice for young men dissected" },
+    { "facet": "themes", "part": 1, "at": "00:31:01", "note": "Segment on his advice to join and not criticise a church, with the Catholic abuse scandal as rebuttal" },
+    { "facet": "themes", "part": 1, "at": "00:34:09", "note": "Archetypes such as the evil uncle compared to screenwriting shortcuts" },
+    { "facet": "themes", "part": 1, "at": "00:38:52", "note": "Peterson's claim to be a biologist challenged" },
+    { "facet": "themes", "part": 1, "at": "00:42:32", "note": "Agreeableness claim checked against a 2022 meta-analysis and found wrong" },
+    { "facet": "themes", "part": 1, "at": "00:45:38", "note": "His masculinity framed as managing and controlling everyone around you" },
+    { "facet": "themes", "part": 1, "at": "00:56:38", "note": "Sleeping Beauty and sword of truth reading critiqued" },
+    { "facet": "themes", "part": 2, "at": "00:19:32", "note": "Dragons guarding virgins rant and its view of what women want" },
+    { "facet": "themes", "part": 2, "at": "00:32:14", "note": "Misuse of epigenetics as unlocking ancestral abilities, corrected" }
+  ],
+  "notes": "Companion to we-watch-more-of-jordan-peterson-s-new-show (episode two); tagged consistently with it. Benzo detox and Bill C-16 are brief asides, so the covered span stays at 2022. quackery-pseudoscience covers his pseudoscientific biology claims (epigenetics, agreeableness) rather than a fake treatment."
+}
