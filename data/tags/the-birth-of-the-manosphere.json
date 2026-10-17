@@ -1,0 +1,149 @@
+{
+  "story_id": "the-birth-of-the-manosphere",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "The manosphere",
+      "kind": "movement-or-ideology",
+      "role": "primary"
+    },
+    {
+      "name": "Marc Lépine",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1964, "end": 1989 }
+    },
+    {
+      "name": "Vox Day",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1968, "end": null }
+    },
+    {
+      "name": "Elliot Rodger",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1991, "end": 2014 }
+    },
+    {
+      "name": "Sigma male subculture",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "misogyny-manosphere",
+    "secondary": [
+      "terrorism",
+      "tech-internet",
+      "wellness-self-help",
+      "fascism-far-right",
+      "fraud-grift"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["CA", "US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2005, "end": null },
+    "covered_span": { "start": 1953, "end": 2021 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Traces the male-supremacist online manosphere from Playboy and the 1970s men's rights movement through the 1989 Montreal massacre, pickup artistry, Vox Day's alpha-to-sigma hierarchy and Elliot Rodger's 2014 killings, then examines the sigma male self-help subculture.",
+  "content_warnings": ["graphic-violence", "hate-speech"],
+  "keywords": [
+    "École Polytechnique massacre",
+    "Isla Vista killings",
+    "Playboy",
+    "Warren Farrell",
+    "The Game",
+    "Neil Strauss",
+    "PUAHate",
+    "alpha wolf",
+    "L. David Mech",
+    "Something Awful"
+  ],
+  "guests": ["Jamie Loftus"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:10:35",
+      "note": "men's liberation movement of the 1960s and its 1970s split into men's rights activism"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:17:51",
+      "note": "Hefner's 1953 Playboy framed as the first break from 1950s manhood, anti-wife and anti-alimony"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:32:02",
+      "note": "Lepine biography begins, leading to the 1989 Montreal engineering school shooting"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:36:41",
+      "note": "survivor's account of the classroom shooting; manifesto read at length afterwards"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:38:14",
+      "note": "Montreal attack described as the first incel terrorist attack, placing CA first in setting"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:52:20",
+      "note": "The Game (2005) spreads pickup artistry through online forums, start of the core period"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:02:22",
+      "note": "Vox Day segment: alt-right author, Holocaust denial, Return of Kings ties"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:14:20",
+      "note": "Vox Day's 2010 blog post laying out the alpha-to-sigma male hierarchy"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:27:55",
+      "note": "Rodger finds PUAHate in 2013; 2014 Isla Vista killing spree and its legacy"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:23:55",
+      "note": "sigma male YouTube videos selling paid transformation courses"
+    }
+  ],
+  "notes": "Part 2 reads a self-published sigma male book and watches YouTube videos, so media-reading was considered; deep-dive chosen because part 1 (about two thirds of the story) is narrative history. covered_span starts with the 1953 Playboy segment, which together with men's liberation forms a real block. Japanese otaku culture is a comparison, so JP is left out."
+}

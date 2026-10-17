@@ -1,0 +1,113 @@
+{
+  "story_id": "the-class-that-made-200-child-nazis",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "The Third Wave experiment",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Ron Jones",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1941, "end": null }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "education",
+    "secondary": ["fascism-far-right", "nazism", "child-abuse"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-CA"],
+    "polities": [],
+    "scope": "local"
+  },
+  "time": {
+    "main_span": { "start": 1967, "end": 1967 },
+    "covered_span": { "start": 1966, "end": 1967 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "In 1967 California high school teacher Ron Jones turned a lesson on Nazi Germany into the Third Wave, a five-day classroom movement with salutes, informants, show trials and enforcers that drew about 200 teenagers before he ended it.",
+  "content_warnings": ["child-abuse"],
+  "keywords": [
+    "Cubberley High School",
+    "Palo Alto",
+    "Strength through discipline",
+    "The Wave",
+    "Die Welle",
+    "Philip Zimbardo",
+    "Robert Paxton",
+    "Umberto Eco",
+    "Vietnam draft"
+  ],
+  "guests": ["Garrison Davis"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:05:12",
+      "note": "Jones begins teaching in 1966 near San Francisco after Stanford; background on his style"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:08:24",
+      "note": "experiment starts in the last quarter of his first year, in a sophomore world history class"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:20:02",
+      "note": "class salute introduced; first dissenting student banished to the library"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:25:48",
+      "note": "membership cards, secret informants and students reporting on each other"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:32:35",
+      "note": "self-appointed armband bodyguards beat up students, likened to the SS"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:47:54",
+      "note": "day five rally of about 200 members ends with a film of Nazi Germany and a lecture"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:59:11",
+      "note": "hosts map the experiment onto Paxton's passions and Eco's traits of fascism"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:05:31",
+      "note": "legacy: German school curriculum, films, documentary, Jones later fired and career since"
+    }
+  ],
+  "notes": "Primary subject is the experiment, so roles are empty and Ron Jones is secondary; his birth year 1941 is from general knowledge and his death status is unconfirmed (described as still teaching). Episode is hosted by Garrison Davis with Robert Evans as co-host. nazism kept as secondary because the whole simulation was modelled on Nazi Germany; fascism-far-right covers the Paxton/Eco analysis."
+}

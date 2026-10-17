@@ -1,0 +1,60 @@
+{
+  "story_id": "bonus-robert-evans-wrote-a-novel-here-s-chapter-1",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "crossover",
+  "subjects": [
+    {
+      "name": "After the Revolution",
+      "kind": "media-work",
+      "role": "primary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "civil-war",
+    "secondary": ["religious-right-culture-war", "war-war-crimes", "terrorism", "propaganda-media"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-TX"],
+    "polities": [],
+    "scope": "local"
+  },
+  "time": null,
+  "summary": "Robert Evans reads the first chapter of his science fiction novel After the Revolution, in which a fixer guides a British reporter through Dallas suburbs contested by Christian extremist militias after a second American civil war.",
+  "content_warnings": [],
+  "keywords": [
+    "After the Revolution",
+    "audio fiction",
+    "Republic of Texas",
+    "Heavenly Kingdom",
+    "Secular Defense Forces",
+    "Richardson",
+    "Dallas",
+    "Austin",
+    "Pastor Mike",
+    "January 6"
+  ],
+  "guests": [],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "format", "part": 1, "at": "00:00:02", "note": "Host says the rest of the novel will be released as a separate podcast series; released early after January 6" },
+    { "facet": "regions", "part": 1, "at": "00:01:39", "note": "Fixer escorts journalists from Austin into the war-torn Dallas Metroplex" },
+    { "facet": "themes", "part": 1, "at": "00:02:10", "note": "Christian extremist militias of the Heavenly Kingdom fight leftist militias over Texas" },
+    { "facet": "themes", "part": 1, "at": "00:12:05", "note": "Interview with militia officers about an unexplained checkpoint bombing" },
+    { "facet": "themes", "part": 1, "at": "00:19:17", "note": "Preacher figure Pastor Mike as face of the fundamentalist uprising" }
+  ],
+  "notes": "Fiction, not history: the host reads chapter 1 of his own novel, previewing a separate podcast series, so crossover was chosen over media-reading (which assumes a bastard's work). Time set to null because the story is set in an imagined future United States. No vocabulary value for fiction or speculative futures; themes describe the novel's content."
+}

@@ -1,0 +1,138 @@
+{
+  "story_id": "excited-delirium-how-cops-invented-a-disease",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Excited delirium",
+      "kind": "practice-or-pseudoscience",
+      "role": "primary"
+    },
+    {
+      "name": "Axon Enterprise",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Charles Wetli",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1985
+    },
+    {
+      "name": "Jeffrey Ho",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2005
+    },
+    {
+      "name": "Deborah Mash",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2009
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "policing-incarceration",
+    "secondary": [
+      "corporate-malfeasance",
+      "medical-malpractice",
+      "racism-white-supremacy",
+      "weapons-arms-trade",
+      "drugs"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1985, "end": 2020 },
+    "covered_span": { "start": 1985, "end": 2021 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Excited delirium, a diagnosis coined by a Miami pathologist in 1985 and promoted by doctors paid by Taser maker Axon, has been used across the US to blame deaths in police custody on the victims rather than on restraint and stun guns.",
+  "content_warnings": ["graphic-violence", "medical-horror"],
+  "keywords": [
+    "George Floyd",
+    "Derek Chauvin",
+    "Taser",
+    "Bell's mania",
+    "Hennepin County Medical Center",
+    "ketamine sedation study",
+    "Mark Kroll",
+    "Robert Stratbucker",
+    "Israel Hernandez-Llach",
+    "American College of Emergency Physicians"
+  ],
+  "guests": ["Ben Bowlin"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:11:45",
+      "note": "1985 Miami deaths of sex workers lead Wetli to coin the term; story proper starts here"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:07:33",
+      "note": "1849 Bell's mania precursor gets only a short background segment, so excluded from covered span"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:16:30",
+      "note": "study shows excited delirium deaths skew heavily toward young Black men restrained by police"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:33:24",
+      "note": "Axon pays doctors, including Wetli, to defend Taser safety in studies and court"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:33:54",
+      "note": "Ho leads HCMC study sedating agitated people with ketamine without consent, from 2014"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:47:06",
+      "note": "2018-2019 Star Tribune exposes and fallout at HCMC; Floyd killing and 2021 conviction frame the story"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:24:58",
+      "note": "Florida custody-death data 2009-2019; Minnesota central in part two, so no single subdivision"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:53:52",
+      "note": "2009 ACEP white paper co-written by Ho, Mash and another paid Taser consultant"
+    }
+  ],
+  "notes": "Transcript spells the pathologist 'Wetley'; the usual spelling is Charles Wetli. Secondary doctors given floruit years because exact birth/death years were not confirmed. Florida and Minnesota are both central, so subdivisions left empty. Axon could arguably be co-primary; kept secondary since the title centres the diagnosis."
+}

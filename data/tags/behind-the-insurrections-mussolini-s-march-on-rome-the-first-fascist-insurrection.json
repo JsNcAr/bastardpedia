@@ -1,0 +1,144 @@
+{
+  "story_id": "behind-the-insurrections-mussolini-s-march-on-rome-the-first-fascist-insurrection",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "March on Rome",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Benito Mussolini",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1883, "end": 1945 }
+    },
+    {
+      "name": "Blackshirts",
+      "kind": "organization",
+      "org_type": "military",
+      "role": "secondary"
+    },
+    {
+      "name": "Arditi del Popolo",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Victor Emmanuel III",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1869, "end": 1947 }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "coups-insurrections",
+    "secondary": [
+      "fascism-far-right",
+      "terrorism",
+      "electoral-politics",
+      "monarchy-empire",
+      "authoritarianism"
+    ]
+  },
+  "regions": {
+    "origin": ["IT"],
+    "setting": ["IT", "HR"],
+    "subdivisions": [],
+    "polities": ["kingdom-of-italy"],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1919, "end": 1922 },
+    "covered_span": { "start": 1883, "end": 1923 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "How Benito Mussolini built the Blackshirt militia from embittered WWI veterans, terrorised the Italian left with police and army complicity, and used the 1922 March on Rome to bluff the king into making him prime minister.",
+  "content_warnings": [],
+  "keywords": [
+    "Rome",
+    "Milan",
+    "Fiume",
+    "Gabriele D'Annunzio",
+    "Arditi",
+    "Michele Bianchi",
+    "Armando Diaz",
+    "Luigi Salvatorelli",
+    "Il Popolo d'Italia",
+    "January 6 comparison"
+  ],
+  "guests": ["Jason Petty (Prop)"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:11:56",
+      "note": "condensed biography of Mussolini begins with his birth and socialist upbringing"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:35:20",
+      "note": "Mussolini founds the fascist movement in Milan in March 1919 with about a hundred men"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:41:41",
+      "note": "D'Annunzio's occupation of Fiume (modern Rijeka, Croatia) and the lesson Mussolini draws from it"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:46:57",
+      "note": "Blackshirt squad violence against unions, socialist offices and the Bologna council"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:56:25",
+      "note": "segment on the Arditi del Popolo anti-fascist militia and its suppression by the state"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:08:52",
+      "note": "the king refuses martial law, weighing army loyalty and fear of the left"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:17:52",
+      "note": "Mussolini takes the train to Rome in late October 1922 and is appointed premier"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:32:30",
+      "note": "parliament's vote of confidence after Mussolini threatens the deputies"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:34:09",
+      "note": "consolidation of the fascist state by 1923 and the 1918-1923 death toll"
+    }
+  ],
+  "notes": "Mussolini is in the title but the story is about the March on Rome, and it covers only his life up to 1923, so he is listed as secondary and the event is primary (this avoids a lifetime rule that would require 1945). Long comparisons to January 6 and modern US anti-fascism are comparisons, so reaches_present is false."
+}

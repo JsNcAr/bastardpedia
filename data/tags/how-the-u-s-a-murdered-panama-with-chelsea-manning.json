@@ -1,0 +1,104 @@
+{
+  "story_id": "how-the-u-s-a-murdered-panama-with-chelsea-manning",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "United States government",
+      "kind": "organization",
+      "org_type": "government-agency",
+      "role": "primary"
+    },
+    {
+      "name": "Theodore Roosevelt",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1858, "end": 1919 },
+      "wikidata": "Q33866"
+    },
+    {
+      "name": "William C. Gorgas",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1854, "end": 1920 }
+    },
+    {
+      "name": "Manuel Noriega",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1934, "end": 2017 }
+    },
+    {
+      "name": "United States invasion of Panama",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "colonialism-imperialism",
+    "secondary": [
+      "racism-white-supremacy",
+      "war-war-crimes",
+      "coups-insurrections",
+      "public-health",
+      "eugenics-scientific-racism",
+      "intelligence-covert-ops",
+      "propaganda-media",
+      "drugs"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["PA", "US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1903, "end": 1989 },
+    "covered_span": { "start": 1846, "end": 1990 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "A history of US domination of Panama from the 1846 Bidlack Treaty through the 1903 engineered secession, the segregated Canal Zone, chemical weapons tests and the 1989 invasion that killed hundreds or thousands of civilians.",
+  "content_warnings": ["mass-atrocity", "medical-horror", "hate-speech"],
+  "keywords": [
+    "Panama Canal",
+    "Canal Zone",
+    "Operation Just Cause",
+    "El Chorrillo",
+    "San Jose Island",
+    "Philippe Bunau-Varilla",
+    "Ferdinand de Lesseps",
+    "Omar Torrijos",
+    "Bidlack Treaty",
+    "Martyrs' Day 1964"
+  ],
+  "guests": ["Chelsea Manning"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:06:52", "note": "1846 Bidlack Treaty opens the story of US designs on the isthmus" },
+    { "facet": "themes", "part": 1, "at": "00:51:59", "note": "Roosevelt backs separatist revolt; 1903 independence engineered with US money and gunboats" },
+    { "facet": "themes", "part": 2, "at": "00:03:35", "note": "Gorgas runs mosquito eradication and sanitation regime for the Canal Zone" },
+    { "facet": "themes", "part": 2, "at": "00:14:26", "note": "racial autopsy studies and tropical-medicine race theory used to justify segregation" },
+    { "facet": "themes", "part": 2, "at": "00:19:41", "note": "Jim Crow segregation exported to Panama with mostly Caribbean Black workforce" },
+    { "facet": "content_warnings", "part": 2, "at": "00:34:03", "note": "race-based mustard gas tests on US soldiers at San Jose Island" },
+    { "facet": "time", "part": 2, "at": "00:39:22", "note": "1964 flag riots and deaths start the end of US control" },
+    { "facet": "themes", "part": 2, "at": "00:46:08", "note": "Noriega as paid CIA asset and cocaine trafficker protected by US agencies" },
+    { "facet": "themes", "part": 2, "at": "00:57:08", "note": "crack-panic media coverage and drug war used to build case for intervention" },
+    { "facet": "content_warnings", "part": 2, "at": "01:10:11", "note": "December 1989 invasion levels El Chorrillo; death tolls and mass graves discussed" }
+  ],
+  "notes": "The bastard is the US state across 150 years, so the primary subject is the US government with no roles. Chemical weapons testing (about 10 minutes) could also justify weapons-arms-trade; left out to keep to 8 themes. Spanish rule and 1821 independence are background. Noriega's 2017 death and the 2018 munitions cleanup are one-line codas, so reaches_present is false."
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "what-the-netanyahu-family-did-to-palestine",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Family listed as a group primary plus Benjamin as person primary, since part 2 is mostly his career. main_span starts 1929 (Benzion joins the Revisionists) and stays open because Benjamin was in office at release. Pale of Settlement history from the 1500s is background and excluded from covered_span."
+  },
+  {
+    "id": "how-the-dulles-brothers-created-the-cia-and-destroyed-everything-else",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Lawyers by trade; no lawyer role exists, so roles reflect their CIA and State Department careers. Allen's death year (1969) is not discussed but is set by the lifetime rule. Grandfather John W. Foster and the 1893 Hawaii overthrow are family background. Iran torture and Guatemala killings are summarised briefly, so no content warning added. Italy 1948, Costa Rica and Congo get shorter segments."
+  },
+  {
+    "id": "dr-phil-is-even-worse-than-you-think-and-you-probably-think-he-sucks",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "The host repeatedly calls Wichita Falls part of Kansas; it is in Texas. The year he met Box is garbled in the transcript (likely 1984); main_span starts there and is marked approximate. Texas and California both matter, so no subdivision. Primary theme could also be wellness-self-help; chose entertainment-celebrity because part 2 centres on exploitative talk TV. Football section (about 5 minutes) left out of themes."
+  },
+  {
+    "id": "excited-delirium-how-cops-invented-a-disease",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript spells the pathologist 'Wetley'; the usual spelling is Charles Wetli. Secondary doctors given floruit years because exact birth/death years were not confirmed. Florida and Minnesota are both central, so subdivisions left empty. Axon could arguably be co-primary; kept secondary since the title centres the diagnosis."
+  },
+  {
+    "id": "the-male-doctor-who-redesigned-vaginas",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Hosts were unsure in 2021 whether Burt was alive; death year 2007 is from outside knowledge and should be checked (it drives covered_span.end via the lifetime rule). Victims are adult patients; nonconsensual genital surgery framed by victims as sexual abuse, hence sexual-abuse. misogyny-manosphere is a loose fit for his individual misogynist ideology. Part 1 sex-ed history is background, not counted."
+  },
+  {
+    "id": "dr-oz-why-america-s-doctor-is-a-bastard",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript gives birth year as 1962 (likely mis-transcribed); 1960 used, consistent with age 25 in 1985. Senate hearing is said as 2004 in the transcript but was 2014. main_span starts at 2004 Oprah debut since the host frames the 1990s alt-medicine work as not yet bastardly. TR in origin for his Turkish citizenship and family."
+  },
+  {
+    "id": "the-conspiracy-to-begin-all-conspiracies",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "The 1789-1881 prologue (French Revolution, Barruel, the 1806 Tsarist Appeal, Marx, Marr) takes much of part 1 but is treated as background, so covered_span starts at Joly's 1864 text; a reviewer may prefer 1789. Host dates the first version to about 1896-97; most historians put first publication in 1903. Setting order puts Colombia first as the harm with the most airtime, ahead of Germany."
+  },
+  {
+    "id": "kellogg-the-great-american-cum-doctor",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Death year 1943 from general knowledge (transcript gives only December). covered_span starts at the 1844 founding of Adventism; the Millerite preaching from 1831 is treated as background. Adventism is a mainstream denomination today but the story treats its early form as an apocalyptic sect, hence cults-new-religions; organized-religion is the alternative. Transcript says he was 26 at the superintendency; 1876 used."
+  },
+  {
+    "id": "the-king-of-con-artists-victor-lustig",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Part 2 is entirely about Natwarlal, so both men are primary. Natwarlal's birth year is uncertain (1912-1925); 1912 follows his stated age of 84 in 1996. Death is disputed (brother says 1996, lawyer 2009); 1996, his last known sighting, used as lifespan end. Lustig's 1890 birth year comes from general knowledge plus the transcript's age 18 in 1908."
+  },
+  {
+    "id": "the-family-that-stole-malaysia",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Title names the family, but most airtime is James Brooke, so he is the sole primary; main_span follows his rule (1839-1868) while covered_span runs to the 1946 cession. Victims of his abuse are described as teenage boys, so child-abuse rather than sexual-abuse. Transcript dates for the Burma war and the Royalist sailing are garbled; historical years used. Badruddin's birth year unknown."
+  },
+  {
+    "id": "ram-nazi-fight-club",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary is the organization, so roles are empty; Rundo gets a long Part Two segment as a secondary subject. fascism-far-right chosen as primary because RAM mixes identitarian, Evola and Italian Fascist influences; nazism added as secondary for its open neo-Nazi symbolism. Covered span starts with Rundo's 2009 stabbing and prison radicalisation (approximate year); his juvenile arrest is mentioned briefly."
+  },
+  {
+    "id": "the-rush-limbaugh-episodes-with-paul-f-tompkins",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "main_span starts in 1984 with the Sacramento KFBK job (year from general knowledge; transcript says mid-1980s) and ends with his February 2021 death. Grandfather Rush Sr. and Missouri family background get only a few minutes, so covered_span follows the lifetime rule from 1951. Climate denial and Covid denial get brief mentions only, so environmental-destruction and public-health were left out."
+  },
+  {
+    "id": "how-the-u-s-a-murdered-panama-with-chelsea-manning",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "The bastard is the US state across 150 years, so the primary subject is the US government with no roles. Chemical weapons testing (about 10 minutes) could also justify weapons-arms-trade; left out to keep to 8 themes. Spanish rule and 1821 independence are background. Noriega's 2017 death and the 2018 munitions cleanup are one-line codas, so reaches_present is false."
+  },
+  {
+    "id": "the-birth-of-the-manosphere",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Part 2 reads a self-published sigma male book and watches YouTube videos, so media-reading was considered; deep-dive chosen because part 1 (about two thirds of the story) is narrative history. covered_span starts with the 1953 Playboy segment, which together with men's liberation forms a real block. Japanese otaku culture is a comparison, so JP is left out."
+  },
+  {
+    "id": "the-man-who-invented-the-military-industrial-complex",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript dates the first London show to 1850 and gives the death date as July; the Great Exhibition was 1851 and Krupp died 14 July 1887. Covered span starts 1810 with Friedrich as a secondary subject; earlier Krupp ancestors (1500s-1700s) treated as background. reaches_present rests on the ~3 minute ThyssenKrupp-Egypt frame plus later legacy remarks. Austro-Prussian war setting (Bohemia) not named, so CZ/AT omitted."
+  },
+  {
+    "id": "the-class-that-made-200-child-nazis",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject is the experiment, so roles are empty and Ron Jones is secondary; his birth year 1941 is from general knowledge and his death status is unconfirmed (described as still teaching). Episode is hosted by Garrison Davis with Robert Evans as co-host. nazism kept as secondary because the whole simulation was modelled on Nazi Germany; fascism-far-right covers the Paxton/Eco analysis."
+  },
+  {
+    "id": "ben-shapiro-s-book-part-whatever-the-journey-refuses-to-end",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Part of the multi-episode reading of True Allegiance; this story only covers the middle chapters. Time is the novel's 2016 publication and its unspecified near-present setting (approximate). Primary theme could be racism-white-supremacy or religious-right-culture-war; no theme fits right-wing polemical fiction exactly. Mexico setting is fictional (the invasion plot)."
+  },
+  {
+    "id": "behind-the-insurrections-the-business-plot-when-rich-fascists-almost-took-over-america",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript spells the go-between McGuire; standard spelling is MacGuire. Butler's foreign postings (Cuba, Philippines, China, Honduras, Mexico, Haiti) total only a few minutes of quick biography, so setting is US only. Covered span starts at Butler's 1898 enlistment rather than his 1881 birth, which is a one-line mention."
+  },
+  {
+    "id": "behind-the-insurrections-the-french-capitol-insurrection",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Covered span ends at 1945 for the Vichy-era fates of the leaders and Maurras's sentencing, a short (about 3 minute) segment; end could arguably be 1936 (Popular Front). Comparisons to January 6 2021 and Epstein are comparisons, so reaches_present is false. Host dates the Dreyfus arrest to 1884; history and the 1894 date used here."
+  },
+  {
+    "id": "behind-the-insurrections-the-birth-of-spanish-fascism",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subjects are the movement and the war, so roles are empty. Jose Antonio Primo de Rivera has a real segment but was kept in keywords to stay within five subjects. Covered span starts at the 1898 imperial collapse; earlier Carlist wars and Reconquista are background. The Trump/January 6 comparisons are framing, not story. The transcript places the gassing at Tangier; historically it was mainly the Rif."
+  },
+  {
+    "id": "behind-the-insurrections-hitler-s-munich-beer-hall-putsch",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Hitler made secondary, not primary: the story covers his 1913-1924 years only, so the lifetime rule would not fit; the title names the event. January 6 2021 comparisons throughout are comparisons, so reaches_present is false. Host says the Nazi party was founded in February 1920 (DAP founded 1919, renamed 1920). No content warning: violence is described briefly, not graphically."
+  },
+  {
+    "id": "bonus-robert-evans-wrote-a-novel-here-s-chapter-1",
+    "format": "crossover",
+    "low": [],
+    "notes": "Fiction, not history: the host reads chapter 1 of his own novel, previewing a separate podcast series, so crossover was chosen over media-reading (which assumes a bastard's work). Time set to null because the story is set in an imagined future United States. No vocabulary value for fiction or speculative futures; themes describe the novel's content."
+  },
+  {
+    "id": "behind-the-insurrections-mussolini-s-march-on-rome-the-first-fascist-insurrection",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Mussolini is in the title but the story is about the March on Rome, and it covers only his life up to 1923, so he is listed as secondary and the event is primary (this avoids a lifetime rule that would require 1945). Long comparisons to January 6 and modern US anti-fascism are comparisons, so reaches_present is false."
+  },
+  {
+    "id": "let-s-take-a-break-with-ben-shapiro-s-terrible-book",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Middle instalment of the multi-episode True Allegiance reading. Time is the novel's 2016 publication and its unspecified near-present setting (approximate). No theme fits right-wing polemical fiction exactly; propaganda-media chosen as closest, matching sibling records. Mexico setting is fictional (cartel and planned invasion)."
+  },
+  {
+    "id": "the-worst-birth-control-device-ever-invented",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Part 1 is the Dalkon Shield; part 2 pivots to the population control movement, so both are primary. Primary theme could equally be eugenics-scientific-racism. Overseas harm spanned 42 countries; setting lists those with real airtime (Ethiopia, Guatemala only named in passing). Ravenholt death year from general knowledge, please verify. Covered span starts at the 1877 anti-Chinese mobilisation; the 1860s US pressure on China is a brief mention."
+  }
+]

@@ -1,0 +1,97 @@
+{
+  "story_id": "dr-phil-is-even-worse-than-you-think-and-you-probably-think-he-sucks",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Phil McGraw",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1950, "end": null }
+    },
+    {
+      "name": "Dr. Phil (talk show)",
+      "kind": "media-work",
+      "role": "secondary"
+    },
+    {
+      "name": "Thelma Box",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": null },
+      "floruit": 1984
+    },
+    {
+      "name": "Turnabout Ranch",
+      "kind": "organization",
+      "org_type": "school-or-facility",
+      "role": "secondary"
+    },
+    {
+      "name": "Inspirations for Youth and Families",
+      "kind": "organization",
+      "org_type": "school-or-facility",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["media-personality", "psychiatrist-psychologist", "business-executive"],
+  "themes": {
+    "primary": "entertainment-celebrity",
+    "secondary": ["wellness-self-help", "child-abuse", "drugs", "fraud-grift", "medical-malpractice"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1984, "end": null },
+    "covered_span": { "start": 1950, "end": 2021 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "American psychologist turned TV host Phil McGraw built a fortune on self-help seminars and daytime television, cheating business partners and exploiting addicts and troubled teens on air for ratings.",
+  "content_warnings": ["drug-use", "child-abuse"],
+  "keywords": [
+    "Pathways seminars",
+    "Life Strategies",
+    "Oprah Winfrey",
+    "Courtroom Sciences Inc.",
+    "Path to Recovery",
+    "Todd Herzog",
+    "Danielle Bregoli",
+    "The Doctors",
+    "Wichita Falls",
+    "University of Tulsa"
+  ],
+  "guests": ["Jamie Loftus"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:05:16", "note": "birth in 1950 in Oklahoma, childhood in Texas oil fields" },
+    { "facet": "time", "part": 1, "at": "00:38:25", "note": "doctorate in 1979, private practice with his father for wealthy clients" },
+    { "facet": "time", "part": 1, "at": "00:43:07", "note": "meets Thelma Box and launches the Pathways motivational seminars" },
+    { "facet": "themes", "part": 1, "at": "00:55:45", "note": "secretly sells his Pathways stake, cutting out Box" },
+    { "facet": "themes", "part": 1, "at": "00:58:20", "note": "dual relationship with a patient leads to a psychology board sanction" },
+    { "facet": "subjects", "part": 1, "at": "01:01:26", "note": "jury consulting firm CSI and the Oprah beef trial in Amarillo" },
+    { "facet": "time", "part": 2, "at": "00:15:10", "note": "Dr. Phil show starts 2002; on-air remarks about a nine-year-old" },
+    { "facet": "themes", "part": 2, "at": "00:18:49", "note": "VR addiction program sold to rehab centers for free on-air endorsements" },
+    { "facet": "subjects", "part": 2, "at": "00:23:37", "note": "Inspirations for Youth and Families and its runaway teens" },
+    { "facet": "content_warnings", "part": 2, "at": "00:28:22", "note": "addicted guests allegedly given alcohol or left to buy heroin before taping" },
+    { "facet": "subjects", "part": 2, "at": "00:44:10", "note": "Bregoli sent to Turnabout Ranch; abuse allegations at the ranch" },
+    { "facet": "time", "part": 2, "at": "00:52:57", "note": "spinoff The Doctors from 2008 and a 2014 study of its advice" }
+  ],
+  "notes": "The host repeatedly calls Wichita Falls part of Kansas; it is in Texas. The year he met Box is garbled in the transcript (likely 1984); main_span starts there and is marked approximate. Texas and California both matter, so no subdivision. Primary theme could also be wellness-self-help; chose entertainment-celebrity because part 2 centres on exploitative talk TV. Football section (about 5 minutes) left out of themes."
+}

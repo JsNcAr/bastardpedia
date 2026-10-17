@@ -1,0 +1,91 @@
+{
+  "story_id": "behind-the-insurrections-the-business-plot-when-rich-fascists-almost-took-over-america",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "The Business Plot",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Smedley Butler",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1881, "end": 1940 }
+    },
+    {
+      "name": "Gerald C. MacGuire",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1934
+    },
+    {
+      "name": "Robert Sterling Clark",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1877, "end": 1956 }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "coups-insurrections",
+    "secondary": [
+      "fascism-far-right",
+      "propaganda-media",
+      "colonialism-imperialism",
+      "finance-crypto"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1933, "end": 1934 },
+    "covered_span": { "start": 1898, "end": 1936 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "In 1933-34 a group of wealthy US financiers tried to recruit retired Marine general Smedley Butler to lead a veterans' army in a fascist takeover of Roosevelt's government; Butler exposed the plot to Congress, but no one was prosecuted.",
+  "content_warnings": [],
+  "keywords": [
+    "Bonus Army",
+    "American Legion",
+    "American Liberty League",
+    "McCormack-Dickstein Committee",
+    "Grayson M.-P. Murphy",
+    "Prescott Bush",
+    "William Randolph Hearst",
+    "War Is a Racket",
+    "Paul Comly French",
+    "gold standard"
+  ],
+  "guests": ["Jason Petty (Prop)"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:03:08", "note": "Butler enlists in the Marines at 16 during the Spanish-American War, start of his career segment" },
+    { "facet": "themes", "part": 1, "at": "00:06:45", "note": "Butler's service in the Banana Wars, Mexico and Haiti framed as imperial muscle for business" },
+    { "facet": "themes", "part": 1, "at": "00:20:18", "note": "Mussolini bribes US journalists; Hearst syndicate spreads fascist propaganda" },
+    { "facet": "themes", "part": 1, "at": "00:28:37", "note": "Plotters' first ask is a pro-gold-standard speech at the Legion convention" },
+    { "facet": "time", "part": 1, "at": "00:39:57", "note": "August 1934 meeting where the veterans' army and assistant-president scheme is pitched" },
+    { "facet": "time", "part": 1, "at": "00:54:31", "note": "Butler testifies to the House committee in November 1934" },
+    { "facet": "themes", "part": 1, "at": "00:55:32", "note": "Hearst papers and the New York Times mock Butler as a crank" },
+    { "facet": "time", "part": 1, "at": "01:04:26", "note": "Aftermath: War Is a Racket in 1935, Butler votes socialist in 1936" }
+  ],
+  "notes": "Transcript spells the go-between McGuire; standard spelling is MacGuire. Butler's foreign postings (Cuba, Philippines, China, Honduras, Mexico, Haiti) total only a few minutes of quick biography, so setting is US only. Covered span starts at Butler's 1898 enlistment rather than his 1881 birth, which is a one-line mention."
+}

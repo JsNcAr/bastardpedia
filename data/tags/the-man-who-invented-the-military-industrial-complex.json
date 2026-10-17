@@ -1,0 +1,161 @@
+{
+  "story_id": "the-man-who-invented-the-military-industrial-complex",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Alfred Krupp",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1812, "end": 1887 }
+    },
+    {
+      "name": "Krupp",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Friedrich Krupp",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1787, "end": 1826 }
+    },
+    {
+      "name": "Bertha Krupp",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1831, "end": 1888 }
+    },
+    {
+      "name": "Franco-Prussian War",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["business-executive", "inventor-engineer"],
+  "themes": {
+    "primary": "weapons-arms-trade",
+    "secondary": [
+      "war-war-crimes",
+      "labor-exploitation",
+      "corporate-malfeasance",
+      "electoral-politics"
+    ]
+  },
+  "regions": {
+    "origin": ["DE"],
+    "setting": ["FR", "DE", "GB", "DK"],
+    "subdivisions": ["DE-NW"],
+    "polities": ["german-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1826, "end": 1887 },
+    "covered_span": { "start": 1810, "end": 1887 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Alfred Krupp turned his family's failing Essen steelworks into the world's first great arms maker, selling steel cannon to all sides, arming Prussia's wars of unification and ruling his workers through welfare, surveillance and union-busting until his death in 1887.",
+  "content_warnings": ["graphic-violence"],
+  "keywords": [
+    "Essen",
+    "Cannon King",
+    "The Arms of Krupp",
+    "William Manchester",
+    "Siege of Paris",
+    "Siege of Metz",
+    "Great Exhibition",
+    "General Regulations",
+    "Otto von Bismarck",
+    "ThyssenKrupp"
+  ],
+  "guests": ["Alison Stevenson"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:13:10",
+      "note": "father Friedrich inherits in 1810 and founds the cast steel works in 1811; his failure gets a long segment"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:20:27",
+      "note": "Alfred takes over the works at fourteen after his father's death"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:40:14",
+      "note": "son cuts him off from the firm and he dies of a heart attack shortly after"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:02:09",
+      "note": "opening frame on ThyssenKrupp submarines sold to Egypt in 2017 as continuity of the firm's arms trade"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:15:09",
+      "note": "Krupp steel guns decide the siege of Metz and later shell Paris from miles away"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:01:33",
+      "note": "1864 war against Denmark won by Prussian and Austrian Krupp artillery"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:27:10",
+      "note": "failed industrial espionage trip to England, plus London exhibitions of 1851 and 1862"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:26:04",
+      "note": "General Regulations: pensions and housing used to control workers, blacklist strikers"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:28:43",
+      "note": "first organised workplace spying programme to catch union members"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:36:38",
+      "note": "fights the Social Democrats, runs an election with marked ballots, fires suspected socialists"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:04:39",
+      "note": "sells to Prussia and Austria on the eve of their war, defies the king"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:21:24",
+      "note": "vivid eyewitness accounts of shell-torn bodies at Paris"
+    }
+  ],
+  "notes": "Transcript dates the first London show to 1850 and gives the death date as July; the Great Exhibition was 1851 and Krupp died 14 July 1887. Covered span starts 1810 with Friedrich as a secondary subject; earlier Krupp ancestors (1500s-1700s) treated as background. reaches_present rests on the ~3 minute ThyssenKrupp-Egypt frame plus later legacy remarks. Austro-Prussian war setting (Bohemia) not named, so CZ/AT omitted."
+}

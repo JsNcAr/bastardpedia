@@ -1,0 +1,103 @@
+{
+  "story_id": "what-the-netanyahu-family-did-to-palestine",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "The Netanyahu family",
+      "kind": "group",
+      "role": "primary"
+    },
+    {
+      "name": "Benjamin Netanyahu",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1949, "end": null },
+      "wikidata": "Q43723"
+    },
+    {
+      "name": "Benzion Netanyahu",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1910, "end": 2012 }
+    },
+    {
+      "name": "Nathan Mileikowsky",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1879, "end": 1935 }
+    },
+    {
+      "name": "Yonatan Netanyahu",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1946, "end": 1976 }
+    }
+  ],
+  "roles": ["politician-official", "journalist-propagandist", "military-officer"],
+  "themes": {
+    "primary": "colonialism-imperialism",
+    "secondary": [
+      "genocide-mass-killing",
+      "war-war-crimes",
+      "propaganda-media",
+      "terrorism",
+      "electoral-politics",
+      "fascism-far-right"
+    ]
+  },
+  "regions": {
+    "origin": ["IL", "BY"],
+    "setting": ["PS", "IL", "US", "EG", "BY"],
+    "subdivisions": [],
+    "polities": ["british-empire", "russian-empire", "ottoman-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1929, "end": null },
+    "covered_span": { "start": 1879, "end": 2021 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Three generations of the Netanyahu family, from early Zionist activist Nathan Mileikowsky and Revisionist propagandist Benzion to Prime Minister Benjamin, and their part in Zionism, the dispossession of Palestinians and Israel's turn to the hard right.",
+  "content_warnings": ["mass-atrocity", "torture"],
+  "keywords": [
+    "Nakba",
+    "Plan Dalet",
+    "Revisionist Zionism",
+    "Ze'ev Jabotinsky",
+    "Irgun",
+    "King David Hotel bombing",
+    "Entebbe raid",
+    "Yitzhak Rabin assassination",
+    "First Intifada",
+    "Anshel Pfeffer"
+  ],
+  "guests": ["Dana El Kurd"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:05:15", "note": "Grandfather Nathan Mileikowsky born 1879 in Krevo, modern Belarus, then Russian Empire" },
+    { "facet": "subjects", "part": 1, "at": "00:21:08", "note": "Nathan dies 1935; son Benzion adopts the Netanyahu pen name" },
+    { "facet": "time", "part": 1, "at": "00:26:21", "note": "Benzion joins the Revisionist Zionists after the 1929 riots" },
+    { "facet": "themes", "part": 1, "at": "00:52:05", "note": "Irgun bombs the King David Hotel in 1946" },
+    { "facet": "themes", "part": 1, "at": "00:55:12", "note": "Plan Dalet and the Nakba: villages destroyed, Palestinians expelled" },
+    { "facet": "time", "part": 1, "at": "00:58:53", "note": "Benjamin born October 1949 in Tel Aviv" },
+    { "facet": "regions", "part": 2, "at": "00:26:37", "note": "Yoni killed in the 1976 Entebbe raid in Uganda" },
+    { "facet": "themes", "part": 2, "at": "00:40:30", "note": "Jonathan Institute terrorism conference recasts Palestinian struggle as terror" },
+    { "facet": "content_warnings", "part": 2, "at": "00:53:30", "note": "Break-the-bones policy against Intifada protesters described" },
+    { "facet": "themes", "part": 2, "at": "01:01:12", "note": "Bibi leads anti-Oslo rallies before Rabin's assassination" },
+    { "facet": "time", "part": 2, "at": "01:19:02", "note": "May 2021 Sheikh Jarrah evictions and Gaza bombing discussed" }
+  ],
+  "notes": "Family listed as a group primary plus Benjamin as person primary, since part 2 is mostly his career. main_span starts 1929 (Benzion joins the Revisionists) and stays open because Benjamin was in office at release. Pale of Settlement history from the 1500s is background and excluded from covered_span."
+}

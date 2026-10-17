@@ -1,0 +1,156 @@
+{
+  "story_id": "behind-the-insurrections-hitler-s-munich-beer-hall-putsch",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Beer Hall Putsch",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Adolf Hitler",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1889, "end": 1945 },
+      "wikidata": "Q352"
+    },
+    {
+      "name": "Nazi Party",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Bavarian Soviet Republic",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Erich Ludendorff",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1865, "end": 1937 }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "coups-insurrections",
+    "secondary": [
+      "nazism",
+      "policing-incarceration",
+      "propaganda-media",
+      "racism-white-supremacy",
+      "terrorism"
+    ]
+  },
+  "regions": {
+    "origin": ["DE"],
+    "setting": ["DE"],
+    "subdivisions": ["DE-BY"],
+    "polities": ["weimar-republic"],
+    "scope": "local"
+  },
+  "time": {
+    "main_span": { "start": 1923, "end": 1924 },
+    "covered_span": { "start": 1913, "end": 1924 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "How Adolf Hitler and Erich Ludendorff tried to seize power in Munich in November 1923 by storming a beer hall, failed in a deadly street battle, and were then shielded by sympathetic police and judges who turned the trial into Nazi propaganda.",
+  "content_warnings": [],
+  "keywords": [
+    "Munich",
+    "Bavaria",
+    "Burgerbraukeller",
+    "Gustav von Kahr",
+    "Ernst Pohner",
+    "Hermann Goring",
+    "Ernst Rohm",
+    "Dietrich Eckart",
+    "Landsberg Prison",
+    "Mein Kampf"
+  ],
+  "guests": ["Jason Petty (Prop)"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:44",
+      "note": "Hitler moves to Munich in 1913 to dodge Austrian service; start of the covered years"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:17:44",
+      "note": "Bavarian council republics and their bloody suppression by the Freikorps in May 1919"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:15:05",
+      "note": "Eisner assassination and retaliatory shooting open a cycle of political violence"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:27:39",
+      "note": "police chief Pohner protects and aids the early Nazi movement"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:28:11",
+      "note": "founding of the party by Drexler, Hitler sent in as an army spy, Eckart's influence"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:42:52",
+      "note": "Eckart shapes the Hitler myth as party propaganda"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:08:47",
+      "note": "stormtroopers seize the beer hall on the night of 8 November 1923"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:02:05",
+      "note": "Nazis wreck a socialist newspaper and beat and kidnap Jewish residents overnight"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:10:27",
+      "note": "march ends in a gun battle at a police cordon; Ludendorff's role and arrest"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:17:19",
+      "note": "biased judge Neithardt and right-wing leniency of the Weimar courts"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:31:45",
+      "note": "Landsberg imprisonment, writing Mein Kampf, parole in December 1924"
+    }
+  ],
+  "notes": "Hitler made secondary, not primary: the story covers his 1913-1924 years only, so the lifetime rule would not fit; the title names the event. January 6 2021 comparisons throughout are comparisons, so reaches_present is false. Host says the Nazi party was founded in February 1920 (DAP founded 1919, renamed 1920). No content warning: violence is described briefly, not graphically."
+}

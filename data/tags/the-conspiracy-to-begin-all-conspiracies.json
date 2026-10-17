@@ -1,0 +1,150 @@
+{
+  "story_id": "the-conspiracy-to-begin-all-conspiracies",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "The Protocols of the Elders of Zion",
+      "kind": "media-work",
+      "role": "primary"
+    },
+    {
+      "name": "Laureano Gómez",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1889, "end": 1965 }
+    },
+    {
+      "name": "Okhrana",
+      "kind": "organization",
+      "org_type": "intelligence",
+      "role": "secondary"
+    },
+    {
+      "name": "Bern Trial",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "conspiracy-theories",
+    "secondary": [
+      "racism-white-supremacy",
+      "propaganda-media",
+      "nazism",
+      "organized-religion",
+      "civil-war",
+      "genocide-mass-killing"
+    ]
+  },
+  "regions": {
+    "origin": ["RU"],
+    "setting": ["CO", "DE", "RU", "FR", "CH", "US"],
+    "subdivisions": [],
+    "polities": ["russian-empire", "nazi-germany"],
+    "scope": "global"
+  },
+  "time": {
+    "main_span": { "start": 1897, "end": 1945 },
+    "covered_span": { "start": 1864, "end": 1945 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "The history of the Protocols of the Elders of Zion, a forged antisemitic text likely produced in the Russian Empire around 1900 that spread worldwide, fed La Violencia in Colombia and Nazi propaganda behind the Holocaust.",
+  "content_warnings": ["hate-speech", "mass-atrocity"],
+  "keywords": [
+    "Maurice Joly",
+    "Dialogue in Hell Between Machiavelli and Montesquieu",
+    "Hermann Goedsche",
+    "La Violencia",
+    "Julius Streicher",
+    "Der Stürmer",
+    "Henry Ford",
+    "Abbé Barruel",
+    "Wilhelm Marr",
+    "QAnon"
+  ],
+  "guests": ["Langston Kerman"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:11:29",
+      "note": "start of long prologue on French Revolution, Napoleon and early antisemitism; treated as background"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:11:37",
+      "note": "Joly's 1864 satire identified as the direct source text; sets covered_span start"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:01:54",
+      "note": "host dates the first version of the Protocols to the late 1890s"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:14:15",
+      "note": "Okhrana's foreign office in France and the Dreyfus affair as the likely origin setting"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:06:22",
+      "note": "Colombia segment begins: Jesuit clergy bring the Protocols to Latin America after WWI"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:16:15",
+      "note": "Laureano Gomez's anti-Masonic, antisemitic campaign and 1942 speech"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:20:22",
+      "note": "partisan repression after 1946 escalates into La Violencia, about 200,000 dead"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:34:23",
+      "note": "Swiss Jewish groups sue the National Front; the Bern trial and Nazi spin of the appeal"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:26:05",
+      "note": "Goebbels, Hitler and Streicher's use of the Protocols in Nazi propaganda"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:50:57",
+      "note": "Hitler's 1942 speech and the Holocaust; latest period covered at length"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:00:20",
+      "note": "legacy segment: NWO, Illuminati and QAnon as descendants of the Protocols; sets reaches_present"
+    }
+  ],
+  "notes": "The 1789-1881 prologue (French Revolution, Barruel, the 1806 Tsarist Appeal, Marx, Marr) takes much of part 1 but is treated as background, so covered_span starts at Joly's 1864 text; a reviewer may prefer 1789. Host dates the first version to about 1896-97; most historians put first publication in 1903. Setting order puts Colombia first as the harm with the most airtime, ahead of Germany."
+}

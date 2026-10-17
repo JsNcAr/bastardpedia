@@ -1,0 +1,89 @@
+{
+  "story_id": "ram-nazi-fight-club",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Rise Above Movement",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "primary"
+    },
+    {
+      "name": "Robert Rundo",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1990, "end": null }
+    },
+    {
+      "name": "Unite the Right rally",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "fascism-far-right",
+    "secondary": [
+      "nazism",
+      "racism-white-supremacy",
+      "terrorism",
+      "policing-incarceration",
+      "sports",
+      "propaganda-media"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "RS", "UA", "DE"],
+    "subdivisions": ["US-CA"],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2016, "end": 2021 },
+    "covered_span": { "start": 2009, "end": 2021 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "The Rise Above Movement, a Southern California white supremacist fight club founded around 2016, assaulted protesters at rallies including Charlottesville, then rebranded as a fascist MMA lifestyle clothing label run by co-founder Robert Rundo from Serbia.",
+  "content_warnings": ["hate-speech"],
+  "keywords": [
+    "Charlottesville",
+    "Huntington Beach",
+    "Berkeley",
+    "Benjamin Daily",
+    "White Rex",
+    "Denis Nikitin",
+    "Hammerskins",
+    "Will2Rise",
+    "Bellingcat",
+    "Revolt Through Tradition"
+  ],
+  "guests": ["Garrison Davis"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:05:41", "note": "group first appears after the 2016 election as DIY Division, renamed RAM in spring 2017" },
+    { "facet": "regions", "part": 1, "at": "00:29:15", "note": "public debut brawl at a Huntington Beach MAGA rally in Southern California" },
+    { "facet": "themes", "part": 1, "at": "00:42:13", "note": "overlap with Hammerskin neo-Nazi skinheads and their violent record" },
+    { "facet": "subjects", "part": 1, "at": "00:56:49", "note": "members attack counter-protesters at the Charlottesville torch march and main rally" },
+    { "facet": "themes", "part": 1, "at": "01:03:33", "note": "FBI arrests, guilty pleas and prison terms; later charges dismissed on First Amendment grounds" },
+    { "facet": "themes", "part": 2, "at": "00:15:01", "note": "European tour to neo-Nazi MMA events in Germany, France and a Kyiv nightclub" },
+    { "facet": "regions", "part": 2, "at": "00:17:07", "note": "Rundo fights in Ukraine and meets the White Rex founder" },
+    { "facet": "time", "part": 2, "at": "00:28:41", "note": "Rundo's backstory: gang stabbing around age 18, radicalised in state prison" },
+    { "facet": "regions", "part": 2, "at": "00:36:32", "note": "Bellingcat geolocates Rundo in Belgrade; he registers a company in Serbia" },
+    { "facet": "time", "part": 2, "at": "01:12:56", "note": "update: Serbia expels Rundo in February 2021 and his charges are reinstated in March" }
+  ],
+  "notes": "Primary is the organization, so roles are empty; Rundo gets a long Part Two segment as a secondary subject. fascism-far-right chosen as primary because RAM mixes identitarian, Evola and Italian Fascist influences; nazism added as secondary for its open neo-Nazi symbolism. Covered span starts with Rundo's 2009 stabbing and prison radicalisation (approximate year); his juvenile arrest is mentioned briefly."
+}

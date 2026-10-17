@@ -1,0 +1,133 @@
+{
+  "story_id": "the-king-of-con-artists-victor-lustig",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Victor Lustig",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1890, "end": 1947 }
+    },
+    {
+      "name": "Natwarlal",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1912, "end": 1996 }
+    }
+  ],
+  "roles": ["con-artist"],
+  "themes": {
+    "primary": "fraud-grift",
+    "secondary": ["policing-incarceration", "folklore-legend", "finance-crypto"]
+  },
+  "regions": {
+    "origin": ["CZ", "IN"],
+    "setting": ["US", "IN", "FR", "HU", "AT", "CZ"],
+    "subdivisions": [],
+    "polities": ["austria-hungary", "british-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1918, "end": 1996 },
+    "covered_span": { "start": 1890, "end": 1996 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "Two celebrated swindlers: Austro-Hungarian grifter Victor Lustig, who ran money-box scams in 1920s America and sold the Eiffel Tower for scrap before dying in federal custody, and Indian con man Natwarlal, who fleeced businessmen and escaped jail for decades.",
+  "content_warnings": [],
+  "keywords": [
+    "Eiffel Tower",
+    "Rumanian money box",
+    "Andre Poisson",
+    "Dapper Dan Collins",
+    "Alcatraz",
+    "Peter Rubano",
+    "Billie Mae Scheible",
+    "Taj Mahal",
+    "Mr. Natwarlal (1979 film)",
+    "Mithilesh Kumar Srivastava"
+  ],
+  "guests": ["Shereen Lani Younes"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:06:08",
+      "note": "Lustig born probably in Hostinne, Austria-Hungary, in the 1890s; birthplace unverified"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:16:36",
+      "note": "1908 arrests in Prague and Vienna, later cons in Zurich before moving to Paris in 1912"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:27:26",
+      "note": "first US arrest in Kansas City in 1918 marks start of his American con career"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:53:12",
+      "note": "Lustig and Dapper Dan Collins travel to Paris and plan the Eiffel Tower sale"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:04:41",
+      "note": "counterfeit hundred-dollar notes feared to shake confidence in the dollar"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:08:21",
+      "note": "bedsheet escape from Manhattan detention, recapture, then Alcatraz"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:11:25",
+      "note": "untreated pneumonia, transfer to Missouri prison hospital, death in 1947"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:02:05",
+      "note": "Natwarlal born in a Bihar village sometime between 1912 and 1925"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:23:57",
+      "note": "villagers treat him as a Robin Hood folk hero and plan a statue"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:25:31",
+      "note": "1979 Bollywood film about him cements a largely invented legend"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:32:18",
+      "note": "last escape in 1996 at age 84; death year disputed between 1996 and 2009"
+    }
+  ],
+  "notes": "Part 2 is entirely about Natwarlal, so both men are primary. Natwarlal's birth year is uncertain (1912-1925); 1912 follows his stated age of 84 in 1996. Death is disputed (brother says 1996, lawyer 2009); 1996, his last known sighting, used as lifespan end. Lustig's 1890 birth year comes from general knowledge plus the transcript's age 18 in 1908."
+}
