@@ -10484,7 +10484,16 @@
         "title": "Behind the Bastards Presents: Sixteenth Minute (of Fame)",
         "part": 1,
         "published": "2024-12-22T05:00:00+00:00"
-      },
+      }
+    ],
+    "reruns": []
+  },
+  {
+    "id": "how-woody-guthrie-turned-folk-music-into-a-weapon",
+    "kind": "episode",
+    "subject_title": "How Woody Guthrie Turned Folk Music into a Weapon",
+    "first_published": "2024-12-26T17:44:34+00:00",
+    "parts": [
       {
         "guid": "d71715c6-b999-4722-926c-b2520121cd63",
         "title": "Part Two: How Woody Guthrie Turned Folk Music into a Weapon",

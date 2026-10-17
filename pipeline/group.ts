@@ -91,11 +91,14 @@ export function groupEpisodes(episodes: Episode[]): Story[] {
       key = `rerun:${slug(subject)}`; // original not found under the same title
     } else if (kind === 'episode' && part > 1 && !stories.has(key)) {
       // Early series often retitle every part: attach to the newest open series
-      // whose last part is part - 1, published within MAX_PART_GAP_DAYS.
+      // whose last part is part - 1, published within MAX_PART_GAP_DAYS. That
+      // part must carry a number itself, so an orphan whose Part One is missing
+      // from the feed doesn't join an unrelated single episode.
       for (const cand of [...openSeries].reverse()) {
         const last = cand.parts.at(-1);
         if (
           last?.part === part - 1 &&
+          PART_NUMBER.test(last.title) &&
           daysBetween(last.published, ep.published) <= MAX_PART_GAP_DAYS
         ) {
           key = `episode:${cand.id}`;
