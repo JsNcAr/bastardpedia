@@ -61,7 +61,7 @@ RSS feed ─► episodes ─► stories ─► tagging packets ─► AI tagger 
 TypeScript 6 (strict) on Node 24 · React 19 · Vite 8 · React Router 8 (history
 URLs) · TanStack Query · Zustand · Dexie · MiniSearch · Zod · vite-plugin-pwa ·
 plain CSS from design tokens · Vitest and Playwright · ESLint, Prettier, husky,
-commitlint · Caddy and self-hosted GitLab CI. The architecture follows the
+commitlint · Caddy and GitHub Actions. The architecture follows the
 author's ChronoTeach project, desktop-first, with the Android build deferred
 (ADR 0004).
 

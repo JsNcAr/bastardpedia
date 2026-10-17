@@ -48,8 +48,8 @@ Intro.
 
 The same app.
 
-[Unreleased]: ${PROJECT_URL}/-/compare/v1.0.1...main
-[1.0.1]: ${PROJECT_URL}/-/compare/v1.0.0...v1.0.1
+[Unreleased]: ${PROJECT_URL}/compare/v1.0.1...main
+[1.0.1]: ${PROJECT_URL}/compare/v1.0.0...v1.0.1
 `;
 
 describe('changelog', () => {
@@ -72,7 +72,7 @@ describe('changelog', () => {
       '## [Unreleased]\n\n## [1.0.2] - 2026-10-03\n\n### Fixed\n\n- Something.\n\n## [1.0.1]',
     );
     expect(changelog).toContain(
-      `[Unreleased]: ${PROJECT_URL}/-/compare/v1.0.2...main\n[1.0.2]: ${PROJECT_URL}/-/compare/v1.0.1...v1.0.2\n[1.0.1]:`,
+      `[Unreleased]: ${PROJECT_URL}/compare/v1.0.2...main\n[1.0.2]: ${PROJECT_URL}/compare/v1.0.1...v1.0.2\n[1.0.1]:`,
     );
     expect(releaseNotes(changelog, '1.0.2')).toBe(notes);
     expect(releaseNotes(changelog, '1.0.1')).toBe('The same app.');

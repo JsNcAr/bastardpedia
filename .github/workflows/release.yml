@@ -1,0 +1,88 @@
+# Version tags (pushed by `npm run release`): verify, build and test the exact
+# dist/ that ships, then deploy it. Details in docs/CI.md and docs/RELEASE.md.
+#
+# The deploy job stays off until the repository variable DEPLOY_ENABLED is
+# "true" and the production environment has SSH_PRIVATE_KEY, SERVER_IP and,
+# while the site is private, SITE_AUTH ("user:password").
+name: Release
+
+on:
+  push:
+    tags: ['v*.*.*']
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+env:
+  HUSKY: '0'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - run: npx playwright install --with-deps chromium
+      - run: node scripts/release.mjs check-version "$GITHUB_REF_NAME"
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm test
+      - run: npm run tags:validate
+      - run: npm run build:catalog
+      - run: npm run build
+      - run: npm run e2e
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+          retention-days: 90
+
+  # The Apollyon standard deploy: SSH as app-runner with a key only this
+  # repository uses, shipping the exact dist/ that release tested. Host and
+  # path come from project.config.json. Caddy needs no reload for new content;
+  # a change to deploy/Caddyfile does, by an admin (docs/DEPLOYMENT.md).
+  deploy:
+    needs: release
+    if: vars.DEPLOY_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: production
+      url: https://bastardpedia.ramsus.site
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+      - name: SSH key
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SERVER_IP: ${{ secrets.SERVER_IP }}
+        run: |
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key && chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -H "$SERVER_IP" >> ~/.ssh/known_hosts
+      - name: Ship dist/
+        env:
+          SERVER_IP: ${{ secrets.SERVER_IP }}
+        run: |
+          TARGET=$(jq -r .deployPath project.config.json)
+          rsync -a --chmod=D2775,F664 --delete-after --delay-updates \
+            -e "ssh -i ~/.ssh/deploy_key" dist/ "app-runner@$SERVER_IP:$TARGET/dist/"
+      - name: The page Caddy serves is byte-identical to the artifact
+        env:
+          SERVER_IP: ${{ secrets.SERVER_IP }}
+          SITE_AUTH: ${{ secrets.SITE_AUTH }}
+        run: |
+          HOST=$(jq -r .host project.config.json)
+          AUTH=""; if [ -n "$SITE_AUTH" ]; then AUTH="-u $SITE_AUTH"; fi
+          ssh -i ~/.ssh/deploy_key "app-runner@$SERVER_IP" \
+            "curl -fsS $AUTH --resolve $HOST:443:127.0.0.1 https://$HOST/" > live.html
+          cmp live.html dist/index.html

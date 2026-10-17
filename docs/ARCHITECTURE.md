@@ -82,6 +82,6 @@ forever.
 ## Configuration
 
 `project.config.json` is the single rename point (name, host, deploy path,
-GitLab project). Vite reads it for the title and manifest. The release script
+repository URL). Vite reads it for the title and manifest. The release script
 reads it for URLs. `scripts/deploy-config.mjs` generates `deploy/Caddyfile` from
 it.

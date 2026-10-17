@@ -1,0 +1,33 @@
+# Weekly: pull the feed and fail, which notifies, when stories still need tags.
+# Tagging itself runs on a workstation (docs/TAGGING.md); data/ changes are not
+# committed back.
+name: Feed sync
+
+on:
+  schedule:
+    - cron: '17 6 * * 1'
+  workflow_dispatch:
+
+env:
+  HUSKY: '0'
+
+jobs:
+  feed-sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - run: npm run pipeline:ingest
+      - run: npm run pipeline:group
+      - run: node pipeline/status.ts --fail-on-untagged
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: stories
+          path: data/stories.json
+          retention-days: 14

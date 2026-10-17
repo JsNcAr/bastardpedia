@@ -10,7 +10,7 @@
  * (or writes it from the Conventional Commits since the last tag when
  * Unreleased is empty), commits `build(repo): release vX.Y.Z`, tags it with
  * the notes, and asks before pushing main and the tag in one atomic push.
- * That push starts the tag pipeline: release (checks, catalog, build, e2e),
+ * That push starts the release workflow: release (checks, catalog, build, e2e),
  * then deploy_web. Until then nothing has left this machine; undo with
  * `git tag -d vX.Y.Z && git reset --hard HEAD~1`.
  *
@@ -182,7 +182,9 @@ async function prepare() {
     return;
   }
   run('git', push);
-  console.log(`\nPushed. The tag pipeline is running: ${PROJECT_URL}/-/pipelines?ref=${tag}`);
+  console.log(
+    `\nPushed. The release workflow is running: ${PROJECT_URL}/actions/workflows/release.yml`,
+  );
 }
 
 function checkVersion() {

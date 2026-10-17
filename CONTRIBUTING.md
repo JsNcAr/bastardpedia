@@ -22,7 +22,7 @@ are in [docs/CONTRIBUTING-DEV.md](docs/CONTRIBUTING-DEV.md).
 
 ## Workflow
 
-- Branch from `main`, open a merge request, and let CI pass.
+- Branch from `main`, open a pull request, and let CI pass.
 - Keep changes focused. Content (tags) and code go in separate commits.
 - `npm run verify` before pushing. `npm run e2e` too if the UI changed.
 

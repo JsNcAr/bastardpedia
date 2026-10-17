@@ -11,7 +11,7 @@ const project = JSON.parse(
   readFileSync(resolve(import.meta.dirname, '../../project.config.json'), 'utf8'),
 );
 
-export const PROJECT_URL = `${project.gitlab.url}/${project.gitlab.project}`;
+export const PROJECT_URL = project.repository.url;
 export const UNRELEASED = '## [Unreleased]';
 
 /** X.Y.Z with an optional pre-release suffix (1.1.0-rc.1). */
@@ -112,7 +112,7 @@ export function addRelease(changelog, { version, previous, generated, date }) {
   }
   let updated = `${head}${UNRELEASED}\n\n## [${version}] - ${date}\n\n${notes}\n\n${rest.trimStart()}`;
   const unreleasedLink = /^\[Unreleased\]: .*$/m;
-  const links = `[Unreleased]: ${PROJECT_URL}/-/compare/v${version}...main\n[${version}]: ${PROJECT_URL}/-/compare/v${previous}...v${version}`;
+  const links = `[Unreleased]: ${PROJECT_URL}/compare/v${version}...main\n[${version}]: ${PROJECT_URL}/compare/v${previous}...v${version}`;
   updated = unreleasedLink.test(updated)
     ? updated.replace(unreleasedLink, links)
     : `${updated.trimEnd()}\n\n${links}\n`;

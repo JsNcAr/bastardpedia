@@ -36,7 +36,8 @@ process.
    ```
    The variable prefix is the slug in upper case.
 5. `caddy validate --config /etc/caddy/Caddyfile && systemctl reload caddy`
-6. GitLab CI variables: see [CI.md](CI.md).
+6. GitHub Actions deploy settings (variable, environment and secrets): see
+   [CI.md](CI.md).
 
 To validate the generated file locally without installing Caddy:
 
@@ -49,20 +50,21 @@ docker run --rm -i -e BASTARDPEDIA_AUTH_USER=u -e BASTARDPEDIA_AUTH_HASH='$2a$14
 
 1. Set `"private": false` in `project.config.json` and run `npm run deploy:config`.
 2. Commit, release, copy the new Caddyfile to the server and reload Caddy.
-3. Remove the `SITE_AUTH` CI variable.
+3. Remove the `SITE_AUTH` secret from the `production` environment.
 
 ## Renaming the project
 
 Everything name-dependent comes from `project.config.json`: `name`, `slug`,
-`shortName`, `description`, `host`, `deployPath` and `gitlab`.
+`shortName`, `description`, `host`, `deployPath` and `repository`.
 
 1. Edit `project.config.json`.
 2. `npm run deploy:config`, then commit.
 3. On the server: create the new `deployPath`, install the new Caddyfile, and
    rename the auth environment variables to the new slug prefix.
-4. Update `environment.url` in `.gitlab-ci.yml`. GitLab can't read it from a
-   file.
-5. Optionally rename `name` in `package.json` and the GitLab project.
+4. Update `environment.url` in `.github/workflows/release.yml`. Actions can't
+   read it from a file.
+5. Optionally rename `name` in `package.json` and the GitHub repository (then
+   update `repository.url`).
 
 The app's title, PWA manifest, Caddyfile, deploy job paths and release URLs all
 follow from the config.

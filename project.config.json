@@ -6,10 +6,8 @@
   "description": "Find Behind the Bastards stories by topic, region and historical period.",
   "host": "bastardpedia.ramsus.site",
   "deployPath": "/opt/bastardpedia",
-  "gitlab": {
-    "url": "https://gitlab.apollyon.lat",
-    "project": "apollyon/personal/bastardpedia",
-    "sshPort": 2222
+  "repository": {
+    "url": "https://github.com/JsNcAr/bastardpedia"
   },
   "private": true
 }

@@ -1,43 +1,56 @@
 # CI
 
-Self-hosted GitLab (`gitlab.apollyon.lat`) with the shared Docker runner, the
-same setup as ChronoTeach. Configuration: [`.gitlab-ci.yml`](../.gitlab-ci.yml).
+GitHub Actions at
+[github.com/JsNcAr/bastardpedia](https://github.com/JsNcAr/bastardpedia). The
+workflows live in [`.github/workflows/`](../.github/workflows). The project
+moved here from a self-hosted GitLab in October 2026, and the jobs are the
+same.
 
-## Jobs
+## Workflows
 
-| Job                | When                                     | What                                                                                                                           |
-| ------------------ | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| `checks`           | every pipeline except tags and schedules | Playwright version pin check, tokens, icons, typecheck, lint, format check, unit tests, `tags:validate`, Caddyfile drift check |
-| `build`            | when something that renders changed      | `build:catalog`, `build`, e2e. Keeps `dist/` for a week                                                                        |
-| `release`          | version tags                             | `check-version`, typecheck, lint, tests, `tags:validate`, catalog, build, e2e. Keeps `dist/` for 90 days                       |
-| `deploy_web`       | `vX.Y.Z` tags, after `release`           | rsync of the tested `dist/` to the server, then a byte comparison of the live `index.html`                                     |
-| `feed_sync`        | scheduled                                | ingest + group, fails when untagged stories exist                                                                              |
-| `secret_detection` | GitLab template                          |                                                                                                                                |
+| Workflow        | When                                 | What                                                                                                     |
+| --------------- | ------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| `ci.yml` checks | every push to a branch, and every PR | tokens, icons, typecheck, lint, format check, unit tests, `tags:validate`, Caddyfile drift check         |
+| `ci.yml` build  | after checks                         | `build:catalog`, `build`, e2e with Chromium. The Playwright report is kept for a week                    |
+| `release.yml`   | `vX.Y.Z` tags                        | `check-version`, typecheck, lint, tests, `tags:validate`, catalog, build, e2e. Keeps `dist/` for 90 days |
+| `release.yml`   | after release, if deploy is enabled  | rsync of the tested `dist/` to the server, then a byte comparison of the live `index.html`               |
+| `feed-sync.yml` | Mondays 06:17 UTC, or by hand        | ingest + group. Fails when a story in the feed has no tags                                               |
 
-All Node jobs use `mcr.microsoft.com/playwright:v${PLAYWRIGHT_VERSION}-noble`.
-`checks` fails if `PLAYWRIGHT_VERSION` differs from `@playwright/test` in
-`package-lock.json`, so bump both together.
+The jobs run on `ubuntu-latest` with the Node version from `.nvmrc`. Playwright
+installs the Chromium that matches `@playwright/test` in `package-lock.json`, so
+there's no image tag to keep in step.
 
-## Variables (Settings > CI/CD > Variables)
+## Deploy settings
 
-| Variable          | Flags             | Purpose                                                               |
-| ----------------- | ----------------- | --------------------------------------------------------------------- |
-| `SSH_PRIVATE_KEY` | masked, protected | base64 of a deploy key used only by this repository, for `app-runner` |
-| `SERVER_IP`       | protected         | server address or name                                                |
-| `SITE_AUTH`       | masked, protected | `user:password` for the live check while the site is private          |
+The deploy job is off until it's configured, so tags only build and test.
 
-Protect tags `v*` so tag pipelines receive the protected variables.
+1. **Variable:** in Settings > Secrets and variables > Actions > Variables, set
+   `DEPLOY_ENABLED` to `true`.
+2. **Environment:** in Settings > Environments, create `production`. Restrict
+   it to tags matching `v*`, and add a reviewer if you want to approve every
+   deploy.
+3. **Environment secrets:**
 
-## Schedule
+   | Secret            | Purpose                                                                   |
+   | ----------------- | ------------------------------------------------------------------------- |
+   | `SSH_PRIVATE_KEY` | a deploy key used only by this repository, for `app-runner` (the raw key) |
+   | `SERVER_IP`       | server address or name                                                    |
+   | `SITE_AUTH`       | `user:password` for the live check while the site is private              |
 
-Create a weekly schedule (CI/CD > Schedules, e.g. Friday 08:00) on `main` to run
-`feed_sync`. Enable it once the back catalogue is fully tagged. Before that it
-fails every week by design.
+4. **Tag protection:** in Settings > Rules, add a tag ruleset so only you can
+   create `v*` tags.
+
+## Repository settings
+
+- **Secret scanning:** in Settings > Code security, turn on secret scanning
+  and push protection. They replace GitLab's secret-detection job.
+- **Dependency alerts:** Dependabot alerts are optional.
 
 ## Local equivalents
 
 ```sh
 npm run verify                 # typecheck + lint + unit tests
+npm run format:check
 npm run tags:validate
 node scripts/deploy-config.mjs --check
 npm run build:catalog && npm run build && npm run e2e

@@ -4,7 +4,7 @@
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------- |
 | 0. Data check    | Confirm the feed has every episode and its transcript                                                                  | Done (2026-10-16)   |
 | 1. Tag spec      | Taxonomy (now 0.5.0), agent prompt, schema                                                                             | Done (2026-10-16)   |
-| 2. Scaffold      | Docs, repo structure, app shell, TS pipeline, CI and deploy (deploy setup pending: GitLab path, DNS, server)           | Done but deploy     |
+| 2. Scaffold      | Docs, repo structure, app shell, TS pipeline, CI and deploy (deploy setup pending: DNS, server, Actions secrets)       | Done but deploy     |
 | 3. Calibration   | 6 hand-checked gold records, then a ~25-story pilot. Tighten definitions                                               | Done (2026-10-17)   |
 | 4. Full tagging  | All ~454 stories tagged in batches of 25. Watched stories reviewed, the rest published as unreviewed with spot checks  | In progress         |
 | 5. App MVP       | Filters (incl. year range, reviewed only), search, story pages, library with backup on real data; first private deploy | Built, not deployed |

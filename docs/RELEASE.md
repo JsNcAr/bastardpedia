@@ -1,7 +1,8 @@
 # Releasing
 
-A release is a version tag. Pushing it runs the `release` job and then
-`deploy_web`. The flow is ChronoTeach's without the Android half. There's no
+A release is a version tag. Pushing it runs the `release` workflow
+(`.github/workflows/release.yml`): the `release` job, then `deploy` once deploys
+are enabled ([CI.md](CI.md)). The flow is ChronoTeach's without the Android half. There's no
 `release:publish` until Capacitor exists (ADR 0004).
 
 ## Cut a release
@@ -32,7 +33,7 @@ To undo before pushing: `git tag -d vX.Y.Z && git reset --hard HEAD~1`.
 - **Taxonomy major versions** that re-tag the catalogue: `minor` for the app,
   noted in the changelog.
 
-## After the pipeline
+## After the workflow
 
 - Check the site, and that the version in the footer or about page matches.
 - A changed `deploy/Caddyfile` needs an admin to copy it to the server and reload
