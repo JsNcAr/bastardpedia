@@ -1,13 +1,13 @@
 # Deployment
 
-The site is static files served by Caddy on the apollyon server, the same
-convention as ChronoTeach: `/opt/<slug>/dist` per site, and no application
-process.
+The site is static files served by Caddy on any server. There's no
+application process. The layout is `/opt/<slug>/dist` for the files and
+`/opt/<slug>/deploy` for the Caddy configuration.
 
-| Path on the server                   | Content                                                    |
-| ------------------------------------ | ---------------------------------------------------------- |
-| `/opt/bastardpedia/dist`             | `npm run build` output, rsynced by CI (`deploy_web`)       |
-| `/opt/bastardpedia/deploy/Caddyfile` | copy of `deploy/Caddyfile`, imported by the main Caddyfile |
+| Path on the server                   | Content                                                     |
+| ------------------------------------ | ----------------------------------------------------------- |
+| `/opt/bastardpedia/dist`             | `npm run build` output, rsynced by CI (`deploy`) or by hand |
+| `/opt/bastardpedia/deploy/Caddyfile` | copy of `deploy/Caddyfile`, imported by the main Caddyfile  |
 
 ## The Caddyfile is generated
 
@@ -25,7 +25,8 @@ process.
 ## First-time server setup (admin)
 
 1. DNS: point `bastardpedia.ramsus.site` at the server.
-2. `sudo install -d -o app-runner -g app-runner -m 2775 /opt/bastardpedia/{dist,deploy}`
+2. Create the folders, owned by the user that deploys (here `deploy`):
+   `sudo install -d -o deploy -g deploy -m 2775 /opt/bastardpedia/{dist,deploy}`
 3. Copy `deploy/Caddyfile` to `/opt/bastardpedia/deploy/` and add
    `import /opt/bastardpedia/deploy/Caddyfile` to the main Caddyfile.
 4. Basic-auth credentials (while private): add to Caddy's environment, e.g. a

@@ -3,8 +3,7 @@
 GitHub Actions at
 [github.com/JsNcAr/bastardpedia](https://github.com/JsNcAr/bastardpedia). The
 workflows live in [`.github/workflows/`](../.github/workflows). The project
-moved here from a self-hosted GitLab in October 2026, and the jobs are the
-same.
+moved here from GitLab CI in October 2026, and the jobs are the same.
 
 ## Workflows
 
@@ -24,18 +23,19 @@ there's no image tag to keep in step.
 
 The deploy job is off until it's configured, so tags only build and test.
 
-1. **Variable:** in Settings > Secrets and variables > Actions > Variables, set
-   `DEPLOY_ENABLED` to `true`.
+1. **Variables:** in Settings > Secrets and variables > Actions > Variables, set
+   `DEPLOY_ENABLED` to `true` and `DEPLOY_USER` to the server account that owns
+   the deploy path.
 2. **Environment:** in Settings > Environments, create `production`. Restrict
    it to tags matching `v*`, and add a reviewer if you want to approve every
    deploy.
 3. **Environment secrets:**
 
-   | Secret            | Purpose                                                                   |
-   | ----------------- | ------------------------------------------------------------------------- |
-   | `SSH_PRIVATE_KEY` | a deploy key used only by this repository, for `app-runner` (the raw key) |
-   | `SERVER_IP`       | server address or name                                                    |
-   | `SITE_AUTH`       | `user:password` for the live check while the site is private              |
+   | Secret            | Purpose                                                                      |
+   | ----------------- | ---------------------------------------------------------------------------- |
+   | `SSH_PRIVATE_KEY` | a deploy key used only by this repository, for the deploy user (the raw key) |
+   | `SERVER_IP`       | server address or name                                                       |
+   | `SITE_AUTH`       | `user:password` for the live check while the site is private                 |
 
 4. **Tag protection:** in Settings > Rules, add a tag ruleset so only you can
    create `v*` tags.
@@ -43,7 +43,7 @@ The deploy job is off until it's configured, so tags only build and test.
 ## Repository settings
 
 - **Secret scanning:** in Settings > Code security, turn on secret scanning
-  and push protection. They replace GitLab's secret-detection job.
+  and push protection.
 - **Dependency alerts:** Dependabot alerts are optional.
 
 ## Local equivalents

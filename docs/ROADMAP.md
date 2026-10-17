@@ -16,5 +16,5 @@
 
 Follow ChronoTeach: `@capacitor/core`, `@capacitor/android` and `@capacitor/cli`
 at 8.x, a committed `android/` project, `release:publish` restored from
-ChronoTeach's `scripts/release.mjs` (signed APK/AAB, uploads, GitLab Release),
+ChronoTeach's `scripts/release.mjs` (signed APK/AAB, uploads, a release page),
 and the server scheme set so history routing falls back to `index.html`.

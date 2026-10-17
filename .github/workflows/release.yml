@@ -1,9 +1,10 @@
 # Version tags (pushed by `npm run release`): verify, build and test the exact
 # dist/ that ships, then deploy it. Details in docs/CI.md and docs/RELEASE.md.
 #
-# The deploy job stays off until the repository variable DEPLOY_ENABLED is
-# "true" and the production environment has SSH_PRIVATE_KEY, SERVER_IP and,
-# while the site is private, SITE_AUTH ("user:password").
+# The deploy job stays off until the repository variables DEPLOY_ENABLED
+# ("true") and DEPLOY_USER are set, and the production environment has
+# SSH_PRIVATE_KEY, SERVER_IP and, while the site is private, SITE_AUTH
+# ("user:password").
 name: Release
 
 on:
@@ -43,8 +44,8 @@ jobs:
           path: dist/
           retention-days: 90
 
-  # The Apollyon standard deploy: SSH as app-runner with a key only this
-  # repository uses, shipping the exact dist/ that release tested. Host and
+  # SSH as the deploy user with a key only this repository uses, shipping the
+  # exact dist/ that release tested. Host and
   # path come from project.config.json. Caddy needs no reload for new content;
   # a change to deploy/Caddyfile does, by an admin (docs/DEPLOYMENT.md).
   deploy:
@@ -72,17 +73,19 @@ jobs:
       - name: Ship dist/
         env:
           SERVER_IP: ${{ secrets.SERVER_IP }}
+          DEPLOY_USER: ${{ vars.DEPLOY_USER }}
         run: |
           TARGET=$(jq -r .deployPath project.config.json)
           rsync -a --chmod=D2775,F664 --delete-after --delay-updates \
-            -e "ssh -i ~/.ssh/deploy_key" dist/ "app-runner@$SERVER_IP:$TARGET/dist/"
+            -e "ssh -i ~/.ssh/deploy_key" dist/ "$DEPLOY_USER@$SERVER_IP:$TARGET/dist/"
       - name: The page Caddy serves is byte-identical to the artifact
         env:
           SERVER_IP: ${{ secrets.SERVER_IP }}
           SITE_AUTH: ${{ secrets.SITE_AUTH }}
+          DEPLOY_USER: ${{ vars.DEPLOY_USER }}
         run: |
           HOST=$(jq -r .host project.config.json)
           AUTH=""; if [ -n "$SITE_AUTH" ]; then AUTH="-u $SITE_AUTH"; fi
-          ssh -i ~/.ssh/deploy_key "app-runner@$SERVER_IP" \
+          ssh -i ~/.ssh/deploy_key "$DEPLOY_USER@$SERVER_IP" \
             "curl -fsS $AUTH --resolve $HOST:443:127.0.0.1 https://$HOST/" > live.html
           cmp live.html dist/index.html
