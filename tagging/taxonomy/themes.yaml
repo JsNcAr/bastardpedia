@@ -42,6 +42,23 @@ groups:
         label: Coups & insurrections
         definition: 'Attempts to seize power illegally: coups, putsches, insurrections, plots.'
         examples: ['Beer Hall Putsch', 'The Business Plot', 'The Dumbest Coup in World History']
+        see_also: [protest-revolution]
+      - id: protest-revolution
+        label: Protest & revolution
+        definition: Popular uprisings, protest movements, strikes, riots and revolutionary movements, whether the story treats them as heroes or villains.
+        examples:
+          [
+            'Voices of Revolution',
+            'The World Is Burning: Your Guide to the Current Uprisings',
+            'The Tupamaros of Uruguay',
+            'The Pullman Strike',
+          ]
+        exclude_when:
+          [
+            'A small group tries to seize state power by force or plot: use coups-insurrections.',
+            'The movement fights an organized civil war: use civil-war.',
+          ]
+        see_also: [coups-insurrections, labor-exploitation]
       - id: monarchy-empire
         label: Monarchy & royalty
         definition: Kings, emperors, courts and dynasties as institutions of power.
@@ -55,7 +72,7 @@ groups:
         label: Religious right & culture wars
         definition: Organized campaigns over religion, sexuality, gender, family and "values" in politics.
         examples: ['Jerry Falwell', 'Phyllis Schlafly', 'Focus on the Family', 'The Satanic Panic']
-        see_also: [organized-religion]
+        see_also: [organized-religion, anti-lgbtq]
 
       - id: immigration-borders
         label: Immigration & borders
@@ -125,6 +142,31 @@ groups:
         label: Policing & prisons
         definition: Police, sheriffs, prisons, border enforcement, detention and the legal machinery around them.
         examples: ['Behind the Police series', 'Daryl Gates', 'Joe Arpaio', 'Excited Delirium']
+        exclude_when:
+          [
+            'The story is about the criminals rather than the police or prisons: use organized-crime or murder-serial-killers (policing may be secondary).',
+          ]
+      - id: organized-crime
+        label: Organized crime
+        definition: Mafias, gangs, cartels, bootlegging and racketeering, including the money, lawyers and politicians that serve them.
+        examples:
+          [
+            'Ma Barker',
+            'Buford Pusser (Dixie Mafia)',
+            "Roy Cohn's mob clients",
+            'P. Diddy: A Life in Crimes',
+          ]
+        see_also: [policing-incarceration, drugs, fraud-grift]
+      - id: murder-serial-killers
+        label: Murder & serial killers
+        definition: Serial and spree killers, and stories whose core is one person's murders rather than war, terrorism or state violence.
+        examples: ['Albert Fish', 'Louis van Schoor', 'The Zizians']
+        exclude_when:
+          [
+            'The killing is political or ideological: use terrorism.',
+            'The killing is done by a state, army or regime: use genocide-mass-killing or war-war-crimes.',
+          ]
+        see_also: [policing-incarceration, organized-crime]
       - id: intelligence-covert-ops
         label: Intelligence & covert operations
         definition: Spy agencies, covert operations, surveillance and state secrets.
@@ -320,6 +362,40 @@ groups:
         definition: Looting of antiquities, destruction of archaeological sites and plunder of cultural heritage.
         examples: ['Heinrich Schliemann at Troy', 'Giuseppe Ferlini at Meroe']
         see_also: [science-exploration, colonialism-imperialism]
+      - id: anti-lgbtq
+        label: Anti-LGBTQ harm
+        definition: Persecution of, violence against, and medical, legal or political harm to gay, lesbian, bisexual and trans people.
+        examples:
+          [
+            'John Ronald Brown',
+            'Ronald and Nancy Reagan and the AIDS crisis',
+            'The websites behind an international rapist network (attacks on gay men)',
+          ]
+        include_when:
+          [
+            'Add it next to religious-right-culture-war when a campaign targets LGBTQ people, and next to medical-malpractice when the harm is medical.',
+          ]
+        see_also: [religious-right-culture-war, medical-malpractice]
+      - id: inequality-class
+        label: Inequality & class
+        definition: Aristocracy, dynasties and class privilege, and the land, wealth and housing inequality they build and defend.
+        examples:
+          [
+            'Lord Aspinall',
+            'Alfredo Stroessner (land and patronage)',
+            'The RFK Jr. episodes (the Kennedy dynasty)',
+          ]
+        exclude_when:
+          [
+            'The story is about a monarchy as an institution of state power: use monarchy-empire.',
+            'The story is about how workers are treated: use labor-exploitation.',
+          ]
+        see_also: [monarchy-empire, labor-exploitation]
+      - id: disasters
+        label: Disasters & their aftermath
+        definition: Industrial, natural and crowd disasters, and how companies, authorities and elites cause them or respond to them.
+        examples: ['Elite Panic', 'The Bhopal disaster', 'The 1991 City College crowd crush']
+        see_also: [corporate-malfeasance, public-health, environmental-destruction]
 
   - id: tech
     label: Technology

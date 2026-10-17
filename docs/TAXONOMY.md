@@ -197,6 +197,10 @@ carry chosen warnings.
   Stalin"), so they are not found under periods the episode never reaches. Records tagged under
   an earlier 0.x version stay valid and are counted, not warned, by `tags:validate`.
 
+- 2026-10-17 (0.7.0, gaps reported in the full run's notes): themes `protest-revolution`,
+  `organized-crime`, `murder-serial-killers`, `anti-lgbtq`, `inequality-class` and `disasters`.
+  Only stories likely to use them are re-tagged (`tagging/batches/retag-0.7.0.txt`).
+
 ## Open questions
 
 None at the moment. Vocabulary gaps reported by the pilot tagging will reopen this section.
