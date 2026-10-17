@@ -1,5 +1,6 @@
 import type { CatalogSource } from './catalog-source';
-import { createLibraryRepository, type LibraryRepository } from './library';
+import { createLazyLibrary } from './lazy-library';
+import type { LibraryRepository } from './library-model';
 import { createStaticCatalogSource } from './static.adapter';
 
 /**
@@ -15,11 +16,11 @@ export function getCatalogSource(): CatalogSource {
 }
 
 export function getLibrary(): LibraryRepository {
-  library ??= createLibraryRepository();
+  library ??= createLazyLibrary();
   return library;
 }
 
 export type { CatalogSource } from './catalog-source';
 export { CatalogError } from './catalog-source';
-export type { LibraryEntry, LibraryRepository, ListenStatus } from './library';
-export { emptyEntry, isBlank } from './library';
+export type { LibraryEntry, LibraryRepository, ListenStatus } from './library-model';
+export { emptyEntry, isBlank } from './library-model';
