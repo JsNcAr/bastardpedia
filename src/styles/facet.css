@@ -118,6 +118,122 @@
   color: var(--color-text-tertiary);
 }
 
+/* Long lists start short (FacetList): the toggle shows the rest. */
+.facet-more {
+  display: inline-flex;
+  align-items: center;
+  min-height: calc(var(--size-tap) - var(--space-2));
+  margin-top: var(--space-1);
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--color-text-link);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  cursor: pointer;
+}
+
+.facet-more:hover {
+  color: var(--color-text-link-hover);
+  text-decoration: underline;
+}
+
+.facet-more:active {
+  color: var(--color-accent-active);
+}
+
+.facet-more:focus-visible {
+  outline: var(--size-focus-ring) solid var(--color-border-focus);
+  outline-offset: var(--size-focus-offset);
+  border-radius: var(--radius-sm);
+}
+
+/* Find box for long lists, shown once a list is expanded. */
+.facet-find {
+  width: 100%;
+  min-height: calc(var(--size-tap) - var(--space-2));
+  margin-bottom: var(--space-2);
+  padding: 0 var(--space-3);
+  border: var(--size-hairline) solid var(--color-border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-raised);
+  color: var(--color-text-primary);
+  font-size: var(--text-sm);
+}
+
+.facet-find:hover {
+  border-color: var(--color-text-secondary);
+}
+
+.facet-find:focus-visible {
+  outline: var(--size-focus-ring) solid var(--color-border-focus);
+  outline-offset: var(--size-focus-offset);
+}
+
+.facet-find::placeholder {
+  color: var(--color-text-tertiary);
+}
+
+/* Centuries as a compact grid of checkbox chips. */
+.facet-chips {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-1);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.facet-chip {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(var(--size-tap) - var(--space-2));
+  padding: var(--space-1);
+  border: var(--size-hairline) solid var(--color-border-subtle);
+  border-radius: var(--radius-sm);
+  font-size: var(--text-xs);
+  line-height: var(--leading-tight);
+  text-align: center;
+  cursor: pointer;
+}
+
+/* The checkbox stays for keyboards and screen readers; the chip is its face. */
+.facet-chip input {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.facet-chip:hover {
+  border-color: var(--color-border-strong);
+  background: var(--color-surface-hover);
+}
+
+.facet-chip:has(input:checked) {
+  border-color: var(--color-accent-default);
+  background: var(--color-surface-selected);
+  color: var(--color-accent-text);
+  font-weight: var(--weight-medium);
+}
+
+.facet-chip:has(input:focus-visible) {
+  outline: var(--size-focus-ring) solid var(--color-border-focus);
+  outline-offset: var(--size-focus-offset);
+}
+
+.facet-chip .facet-option-label {
+  flex: none;
+}
+
+.facet-list .facet-subgroup + .facet-subgroup {
+  margin-top: var(--space-3);
+}
+
 /* The reviewed-only switch sits above the facet groups, outside any group. */
 .facet-review {
   margin: 0;

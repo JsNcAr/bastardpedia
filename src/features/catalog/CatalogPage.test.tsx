@@ -36,12 +36,31 @@ describe('catalogue page', () => {
     const user = userEvent.setup();
     const { router } = renderApp('/', sampleCatalog);
     await screen.findByRole('heading', { name: 'The catalogue' });
+    await user.click(screen.getByRole('button', { name: /^Show all \d+ themes$/ }));
     await user.click(screen.getByRole('checkbox', { name: /Cults & new religions/ }));
     expect(router.state.location.search).toBe('?theme=cults-new-religions');
     expect(resultTitles()).toEqual(['How L. Ron Hubbard Lied His Way to Godhood']);
     await user.click(screen.getByRole('button', { name: 'Clear all' }));
     expect(router.state.location.search).toBe('');
     expect(resultTitles()).toHaveLength(8);
+  });
+
+  it('keeps a selected option visible while its list is collapsed', async () => {
+    renderApp('/?theme=cults-new-religions', sampleCatalog);
+    await screen.findByRole('heading', { name: 'The catalogue' });
+    expect(screen.getByRole('checkbox', { name: /Cults & new religions/ })).toBeChecked();
+    expect(screen.getByRole('button', { name: /^Show all \d+ themes$/ })).toHaveAttribute(
+      'aria-expanded',
+      'false',
+    );
+  });
+
+  it('filters by a century chip', async () => {
+    const user = userEvent.setup();
+    const { router } = renderApp('/', sampleCatalog);
+    await screen.findByRole('heading', { name: 'The catalogue' });
+    await user.click(screen.getByRole('checkbox', { name: /^20th century/ }));
+    expect(router.state.location.search).toBe('?century=20');
   });
 
   it('says so when filters match nothing', async () => {
