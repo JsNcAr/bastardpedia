@@ -1,0 +1,151 @@
+{
+  "story_id": "the-phil-spector-episodes",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Phil Spector",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1939, "end": 2021 }
+    },
+    {
+      "name": "Ronnie Spector",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1943, "end": 2022 }
+    },
+    {
+      "name": "Lana Clarkson",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1962, "end": 2003 }
+    },
+    {
+      "name": "John Lennon",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1940, "end": 1980 }
+    }
+  ],
+  "roles": ["entertainer-artist", "criminal-killer"],
+  "themes": {
+    "primary": "entertainment-celebrity",
+    "secondary": ["domestic-abuse", "policing-incarceration", "labor-exploitation"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "GB"],
+    "subdivisions": ["US-CA"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1958, "end": 2009 },
+    "covered_span": { "start": 1939, "end": 2021 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "American record producer Phil Spector, creator of the Wall of Sound, cheated collaborators, kept his wife Ronnie Spector a virtual prisoner, menaced many people with guns and in 2003 shot actress Lana Clarkson dead at his California home.",
+  "content_warnings": ["graphic-violence", "suicide-self-harm"],
+  "keywords": [
+    "Wall of Sound",
+    "The Ronettes",
+    "Be My Baby",
+    "Philles Records",
+    "Gold Star Studios",
+    "The Teddy Bears",
+    "Brill Building",
+    "Let It Be",
+    "House of Blues",
+    "Alhambra"
+  ],
+  "guests": ["Greazy Will"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:08:58",
+      "note": "born December 1939 in the Bronx to Jewish immigrant families"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:23:05",
+      "note": "writes and produces his first number-one hit with the Teddy Bears in 1958"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:37:28",
+      "note": "Brill Building collaborators say he grabbed credit and cut them out of royalties"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:59:43",
+      "note": "releases records under a girl group's name without the group singing on them"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:08:23",
+      "note": "wedding-night rage leaves Ronnie and her mother hiding in a bathroom"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:29:21",
+      "note": "shows Ronnie a gold casket as a threat of what awaits her if she leaves; house kept locked"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:31:25",
+      "note": "flown to London in 1969 to rework the Beatles' Let It Be tapes, then Harrison and Lennon albums"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "01:10:54",
+      "note": "1975 guilty plea for pulling a gun on a parking attendant; probation ignored"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "00:03:57",
+      "note": "night of 2 February 2003: meets Lana Clarkson at the House of Blues"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 4,
+      "at": "00:30:48",
+      "note": "detailed description of Clarkson's gunshot wound and the crime scene"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "00:58:17",
+      "note": "2009 retrial ends in a second-degree murder conviction, 19 years to life"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "01:04:37",
+      "note": "dies in prison; Ronnie outlives him by about two years"
+    }
+  ],
+  "notes": "Guest Greazy Will narrates; Robert listens. Death year 2021 from general knowledge (transcript only places it about two years before Ronnie's death). labor-exploitation is a loose fit for royalty theft and replacing singers. Abuse of his adopted sons (locked rooms, forced sexual simulations) is covered only briefly, so no child-abuse theme. GB is a secondary setting for the Beatles work; scope kept national."
+}

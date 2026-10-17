@@ -1,0 +1,162 @@
+{
+  "story_id": "x-mas-special-the-heroes-who-ended-the-slave-trade",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "hero",
+  "subjects": [
+    {
+      "name": "Granville Sharp",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1735, "end": 1813 }
+    },
+    {
+      "name": "Olaudah Equiano",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1745, "end": 1797 }
+    },
+    {
+      "name": "Thomas Clarkson",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1760, "end": 1846 }
+    },
+    {
+      "name": "Zong massacre",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "John Newton",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1725, "end": 1807 }
+    }
+  ],
+  "roles": ["activist-organizer", "rescuer-humanitarian", "writer-intellectual"],
+  "themes": {
+    "primary": "slavery-forced-labor",
+    "secondary": [
+      "colonialism-imperialism",
+      "racism-white-supremacy",
+      "propaganda-media",
+      "genocide-mass-killing",
+      "electoral-politics"
+    ]
+  },
+  "regions": {
+    "origin": ["GB", "NG"],
+    "setting": ["GB", "GH", "JM", "NG", "US", "BB"],
+    "subdivisions": [],
+    "polities": ["british-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1765, "end": 1807 },
+    "covered_span": { "start": 1725, "end": 1846 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "British abolitionists Granville Sharp, Olaudah Equiano and Thomas Clarkson, galvanised by the 1781 Zong massacre, built the campaign that ended Britain's Atlantic slave trade with the 1807 Abolition Act.",
+  "content_warnings": ["slavery", "mass-atrocity", "sexual-violence", "torture"],
+  "keywords": [
+    "Atlantic slave trade",
+    "Gregson v Gilbert",
+    "Somerset case",
+    "Jonathan Strong",
+    "Robert Stubbs",
+    "William Wilberforce",
+    "Sons of Africa",
+    "Elmina Castle",
+    "Brookes slave ship diagram",
+    "Slave Trade Act 1807"
+  ],
+  "guests": ["James Stout"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:16:05",
+      "note": "Elmina fort on the Gold Coast converted into slave dungeons; model for later trading posts"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:17:52",
+      "note": "account of the Elmina governor selecting and raping captive women"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:47:56",
+      "note": "long segment on failed slaver Robert Stubbs leading into the Zong voyage"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:12:37",
+      "note": "Zong reaches Jamaica in December 1781 after captives were thrown overboard"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:05:09",
+      "note": "Equiano born around 1745 in Igbo country, modern Nigeria"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:22:00",
+      "note": "Sharp meets the beaten enslaved youth Jonathan Strong in 1765, his first case"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:35:38",
+      "note": "Sharp takes up the Zong case after Equiano alerts him; 1783 rehearing"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "00:05:26",
+      "note": "Clarkson born 1760; 1785 Cambridge essay contest turns him to abolition"
+    },
+    {
+      "facet": "subjects",
+      "part": 3,
+      "at": "00:25:04",
+      "note": "extended biography of John Newton, born 1725, slaver turned abolitionist clergyman"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:46:03",
+      "note": "abolitionist publicity: Wedgwood seal, Brookes ship diagram posters, sugar boycott"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "00:52:14",
+      "note": "Parliament passes the act abolishing the British slave trade in 1807"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "00:55:30",
+      "note": "1840 World Anti-Slavery Convention and Clarkson's final years"
+    }
+  ],
+  "notes": "Primary is the trio named in the descriptions; Wilberforce is explicitly not covered in depth, so keyword only. Part 1 opens with ~30 min on the trade's history from 1471 (Portuguese in Ghana, 1518 start); treated as general background, so covered_span starts at Newton's birth. A reviewer may prefer adding the Atlantic slave trade as a subject and starting at 1471. Death years for Equiano and Clarkson from general knowledge. genocide-mass-killing reflects the Zong mass murder."
+}

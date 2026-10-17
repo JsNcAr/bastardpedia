@@ -1,0 +1,98 @@
+{
+  "story_id": "alex-karp-how-palantir-s-ceo-went-from-marxist-to-anti-woke-crusader",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Alex Karp",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1967, "end": null }
+    },
+    {
+      "name": "Palantir Technologies",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Peter Thiel",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1967, "end": null }
+    },
+    {
+      "name": "Jürgen Habermas",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1929, "end": 2026 }
+    }
+  ],
+  "roles": ["tech-founder", "scientist-scholar"],
+  "themes": {
+    "primary": "tech-internet",
+    "secondary": [
+      "intelligence-covert-ops",
+      "war-war-crimes",
+      "artificial-intelligence",
+      "racism-white-supremacy",
+      "immigration-borders",
+      "policing-incarceration"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["IR", "PS", "US", "DE"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2004, "end": null },
+    "covered_span": { "start": 1967, "end": 2026 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Alex Karp, raised by leftist parents in Philadelphia and trained as a philosopher in Germany, became CEO of Palantir in 2004 and turned it into a surveillance and AI targeting contractor serving ICE, the CIA, the Pentagon and Israel.",
+  "content_warnings": [],
+  "keywords": [
+    "Project Maven",
+    "Gotham",
+    "In-Q-Tel",
+    "The Philosopher in the Valley",
+    "Michael Steinberger",
+    "Mount Airy",
+    "Sigmund Freud Institute",
+    "Minab school strike",
+    "ICE",
+    "Save the Shire"
+  ],
+  "guests": ["Zaren Burnett"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:10:11", "note": "Karp born October 1967 in New York City, raised in Philadelphia" },
+    { "facet": "subjects", "part": 1, "at": "00:39:17", "note": "long segment on Habermas, his salon and his refusal to supervise Karp's dissertation" },
+    { "facet": "regions", "part": 1, "at": "00:34:46", "note": "doctoral years in Frankfurt and Berlin take a real share of part one" },
+    { "facet": "themes", "part": 1, "at": "00:11:36", "note": "Mount Airy intentional integration and racial violence in Philadelphia" },
+    { "facet": "roles", "part": 1, "at": "00:37:00", "note": "dissertation on aggressive public speech and antisemitism in Germany" },
+    { "facet": "time", "part": 2, "at": "00:09:13", "note": "Karp becomes Palantir CEO in 2004" },
+    { "facet": "themes", "part": 2, "at": "00:17:01", "note": "In-Q-Tel investment opens CIA and federal agency work" },
+    { "facet": "themes", "part": 2, "at": "00:23:58", "note": "Gotham lets law enforcement profile people, including by immigration status" },
+    { "facet": "themes", "part": 2, "at": "00:28:40", "note": "New Orleans predictive policing contract and its criticism" },
+    { "facet": "themes", "part": 2, "at": "00:30:28", "note": "ICE contracts, 2019 employee protests, Karp's border politics" },
+    { "facet": "regions", "part": 2, "at": "00:40:17", "note": "Palantir's 2024 agreement with the Israeli military during the Gaza war" },
+    { "facet": "regions", "part": 2, "at": "00:45:00", "note": "Maven backs US strikes in Iran, including the girls' school strike" }
+  ],
+  "notes": "Roles: scientist-scholar reflects his doctoral work, which fills most of part one; writer-intellectual was the alternative. Karp counts as primary only: Palantir is the vehicle and gets no equal billing. Habermas's death year (2026) comes from the transcript. PS and IL: the Gaza segment is short; IL left out of setting. The Iran school strike is discussed but not vividly, so no content warning."
+}

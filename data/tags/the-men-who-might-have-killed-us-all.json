@@ -1,0 +1,101 @@
+{
+  "story_id": "the-men-who-might-have-killed-us-all",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Mutually assured destruction",
+      "kind": "practice-or-pseudoscience",
+      "role": "primary"
+    },
+    {
+      "name": "Curtis LeMay",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1906, "end": 1990 }
+    },
+    {
+      "name": "Giulio Douhet",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1869, "end": 1930 }
+    },
+    {
+      "name": "Strategic Air Command",
+      "kind": "organization",
+      "org_type": "military",
+      "role": "secondary"
+    },
+    {
+      "name": "John H. Rubel",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1920, "end": 2015 }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "weapons-arms-trade",
+    "secondary": [
+      "war-war-crimes",
+      "genocide-mass-killing",
+      "diplomacy-foreign-policy",
+      "science-exploration"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["JP", "DE", "US", "GB", "KP", "IT"],
+    "subdivisions": [],
+    "polities": ["empire-of-japan", "nazi-germany", "soviet-union"],
+    "scope": "global"
+  },
+  "time": {
+    "main_span": { "start": 1945, "end": 1962 },
+    "covered_span": { "start": 1906, "end": 1965 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "How US airmen and planners, drawing on Giulio Douhet's strategic bombing theory and Curtis LeMay's firebombing of Japan, built a hair-trigger nuclear arsenal from 1945 to the early 1960s, planning to kill hundreds of millions of civilians.",
+  "content_warnings": ["mass-atrocity", "medical-horror"],
+  "keywords": [
+    "Manhattan Project",
+    "Hiroshima and Nagasaki",
+    "firebombing of Tokyo",
+    "Minuteman missile",
+    "SIOP-62",
+    "Cuban Missile Crisis",
+    "Arthur Harris",
+    "Louis Slotin",
+    "Thomas S. Power",
+    "David M. Shoup"
+  ],
+  "guests": ["Margaret Killjoy"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "regions", "part": 1, "at": "00:32:44", "note": "Douhet introduced: Italian general, theory of strategic bombing after WWI" },
+    { "facet": "regions", "part": 1, "at": "00:55:36", "note": "Bomber Harris and RAF area bombing of Cologne and Hamburg" },
+    { "facet": "time", "part": 2, "at": "00:04:24", "note": "LeMay born 1906 in Ohio; poor childhood told at length" },
+    { "facet": "regions", "part": 2, "at": "00:30:04", "note": "LeMay takes over the air war on Japan and plans the Tokyo firebombing" },
+    { "facet": "content_warnings", "part": 2, "at": "01:08:26", "note": "Slotin criticality accident in 1946 and his radiation death described graphically" },
+    { "facet": "time", "part": 3, "at": "00:27:30", "note": "Ready force set up in March 1946, becoming Strategic Air Command" },
+    { "facet": "regions", "part": 3, "at": "00:39:17", "note": "LeMay at SAC directs the bombing campaign against North Korea" },
+    { "facet": "themes", "part": 3, "at": "01:02:34", "note": "Arsenal grows from hundreds to over 12,000 weapons by 1959" },
+    { "facet": "subjects", "part": 4, "at": "00:31:34", "note": "Rubel's 2008 memoir exposes accidental-launch flaws in early Minuteman" },
+    { "facet": "themes", "part": 5, "at": "00:21:22", "note": "1960 SIOP-62 briefing plans hundreds of millions of deaths" },
+    { "facet": "time", "part": 5, "at": "00:43:28", "note": "Narrative ends with LeMay pushing Vietnam bombing in 1964-65" },
+    { "facet": "time", "part": 1, "at": "00:06:07", "note": "Launch-on-warning posture still in place today, so reaches_present" }
+  ],
+  "notes": "No single title subject: the story is about the men who built US nuclear war strategy, so the doctrine is primary and roles are empty. LeMay is the most central person; making him primary would force covered_span to his 1990 death, which the story does not cover. Rubel's lifespan comes from my own knowledge, not the packet. The covered end of 1965 is where the narrative stops; the modern posture sets reaches_present."
+}

@@ -1,0 +1,140 @@
+{
+  "story_id": "radovan-karadzic-the-genocidal-dictator-who-became-a-new-age-guru",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Radovan Karadžić",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1945, "end": null }
+    },
+    {
+      "name": "Bosnian genocide",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Ratko Mladić",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1942, "end": 2026 }
+    }
+  ],
+  "roles": ["dictator-autocrat", "quack-fake-healer", "psychiatrist-psychologist"],
+  "themes": {
+    "primary": "genocide-mass-killing",
+    "secondary": [
+      "civil-war",
+      "war-war-crimes",
+      "fascism-far-right",
+      "racism-white-supremacy",
+      "quackery-pseudoscience",
+      "occult-esoteric",
+      "intelligence-covert-ops"
+    ]
+  },
+  "regions": {
+    "origin": ["ME"],
+    "setting": ["BA", "RS", "ME", "US"],
+    "subdivisions": [],
+    "polities": ["yugoslavia"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1990, "end": 2016 },
+    "covered_span": { "start": 1945, "end": 2026 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Montenegrin-born psychiatrist and poet Radovan Karadžić led the Bosnian Serbs during the 1992-95 war, directing the siege of Sarajevo and the Srebrenica genocide, then hid in Belgrade as a New Age healer until his 2008 arrest.",
+  "content_warnings": ["mass-atrocity", "graphic-violence", "torture"],
+  "keywords": [
+    "Siege of Sarajevo",
+    "Srebrenica massacre",
+    "Republika Srpska",
+    "Serb Democratic Party (SDS)",
+    "Dragan Dabić",
+    "Red Star Belgrade",
+    "My War Criminal",
+    "Jessica Stern",
+    "Dayton Accords",
+    "Hague war crimes tribunal"
+  ],
+  "guests": ["Jamie Loftus"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:33:32",
+      "note": "born June 1945 in Pejica, Montenegro; earlier Balkan and WWII material is background"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:55:34",
+      "note": "allowed to study at Columbia in New York, 1974-75; short US segment"
+    },
+    {
+      "facet": "roles",
+      "part": 1,
+      "at": "01:03:34",
+      "note": "works as psychiatrist in Sarajevo and as Red Star team psychologist; 1985 fraud conviction"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:10:56",
+      "note": "1990: forms the SDS on anti-Muslim, anti-Croat lines; start of main span"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:28:26",
+      "note": "Bosnian Serb militias seize land after the referendum, Republika Srpska declared, he heads it"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:32:23",
+      "note": "Mladic as his military chief; host says he died weeks before recording"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:40:02",
+      "note": "Srebrenica executions of over 8,000 Bosniak men and boys, mass graves hidden"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:46:46",
+      "note": "NATO, Delta Force, CIA and MI6 manhunt led by Petraeus fails to find him"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:53:00",
+      "note": "lives in Belgrade as Dragan Dabic, energy healer, pendulum, homeopathy, sperm healing"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:11:13",
+      "note": "2008 arrest, Hague trial, 2016 conviction for genocide; end of main span"
+    }
+  ],
+  "notes": "Opening ~25 min of Part 1 (Ottoman rule, WWI, Ustase/Chetniks, father's 1930s killing of a cousin) treated as background, so covered starts at birth; reviewer may extend to ~1930s. Host says Mladic died weeks before recording (2026); I could not confirm, end year follows transcript. Host gives the 2016 40-year sentence and omits the later appeal to life. Fascism-far-right used for Serb ethno-nationalism; no specific theme for it."
+}

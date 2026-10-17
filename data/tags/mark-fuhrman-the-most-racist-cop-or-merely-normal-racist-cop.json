@@ -1,0 +1,152 @@
+{
+  "story_id": "mark-fuhrman-the-most-racist-cop-or-merely-normal-racist-cop",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Mark Fuhrman",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1952,
+        "end": 2026
+      }
+    },
+    {
+      "name": "Los Angeles Police Department",
+      "kind": "organization",
+      "org_type": "police",
+      "role": "secondary"
+    },
+    {
+      "name": "Men Against Women",
+      "kind": "organization",
+      "org_type": "police",
+      "role": "secondary"
+    },
+    {
+      "name": "O. J. Simpson murder case",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["police-lawman", "writer-intellectual", "military-officer"],
+  "themes": {
+    "primary": "racism-white-supremacy",
+    "secondary": [
+      "policing-incarceration",
+      "misogyny-manosphere",
+      "fraud-grift",
+      "propaganda-media"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-CA"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": {
+      "start": 1985,
+      "end": 1996
+    },
+    "covered_span": {
+      "start": 1952,
+      "end": 2026
+    },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "LAPD detective Mark Fuhrman, whose taped racist boasts and role in founding an anti-women clique inside the department undermined the 1995 O. J. Simpson prosecution, was convicted of perjury in 1996 and reinvented himself as a true-crime author and Fox pundit.",
+  "content_warnings": ["hate-speech"],
+  "keywords": [
+    "O. J. Simpson trial",
+    "bloody glove",
+    "Fuhrman tapes",
+    "Laura Hart McKinney",
+    "CRASH unit",
+    "Murder in Brentwood",
+    "Murder in Greenwich",
+    "Martha Moxley",
+    "Sandpoint, Idaho",
+    "Daryl Gates"
+  ],
+  "guests": ["Joe Kassabian"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:06:16",
+      "note": "born February 1952 in Eatonville, Washington"
+    },
+    {
+      "facet": "roles",
+      "part": 1,
+      "at": "00:14:25",
+      "note": "enlists in the Marines in 1970, serves offshore in the Vietnam era, later lies about combat"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:21:25",
+      "note": "joins the LAPD in 1975, then the East LA TRASH/CRASH gang unit from 1977"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:33:23",
+      "note": "fakes violent urges and combat history to win a stress disability pension; denied 1983"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:56:51",
+      "note": "screenwriter tapes him from 1985 to 1994 boasting of brutality and using slurs"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:08:21",
+      "note": "Men Against Women clique harassing female officers; 1997 LAPD report confirms it"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:27:37",
+      "note": "June 1994 murders; he finds the glove and testifies, tapes surface at trial"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:40:30",
+      "note": "pleads no contest to perjury in 1996 and moves to Sandpoint, Idaho; main span ends"
+    },
+    {
+      "facet": "roles",
+      "part": 2,
+      "at": "00:44:53",
+      "note": "true-crime author career: Moxley murder book and the Skakel prosecution"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:51:58",
+      "note": "Fox News crime analyst, chokehold advocacy, death from throat cancer at 74"
+    }
+  ],
+  "notes": "Death year 2026 taken from the episode framing (recent death, age 74). main_span 1985-1996 runs from the taped interviews and Men Against Women to the perjury plea; the 1975 LAPD start is an alternative. Men Against Women was an informal clique, typed as police for lack of a better org_type. Washington, Idaho and Connecticut also appear but California dominates, hence US-CA."
+}

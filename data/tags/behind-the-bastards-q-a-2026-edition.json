@@ -1,0 +1,62 @@
+{
+  "story_id": "behind-the-bastards-q-a-2026-edition",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "meta",
+  "subjects": [
+    {
+      "name": "Behind the Bastards",
+      "kind": "media-work",
+      "role": "primary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "propaganda-media",
+    "secondary": ["child-abuse", "slavery-forced-labor", "tech-internet"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": null,
+  "summary": "New Year listener Q&A in two parts: Robert Evans and Sophie Lichtman discuss research methods and misinformation, past and planned episodes, the eras richest in bastards, how the show changed his views, and personal news.",
+  "content_warnings": [],
+  "keywords": [
+    "listener questions",
+    "Q&A",
+    "research methods",
+    "misinformation",
+    "Richard Nixon",
+    "Pancho Villa",
+    "Georgia Tann",
+    "Thomas Thistlewood",
+    "Nuremberg Trials",
+    "Cool Zone Media"
+  ],
+  "guests": [],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "low",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "themes", "part": 1, "at": "00:03:35", "note": "Long answer on spotting false information and checking historians' critiques" },
+    { "facet": "themes", "part": 1, "at": "00:08:12", "note": "Avoiding AI search summaries and switching search engines" },
+    { "facet": "themes", "part": 1, "at": "00:13:56", "note": "Why he became a journalist and his critique of conflict reporting" },
+    { "facet": "themes", "part": 2, "at": "00:02:27", "note": "Recalls the Jamaican slave-owner diary episode and the cruelty it revealed" },
+    { "facet": "themes", "part": 2, "at": "00:04:09", "note": "Several minutes on child abuse as central to bad movements and parental ownership" },
+    { "facet": "themes", "part": 2, "at": "00:30:31", "note": "Closing advice on social media algorithms built to keep users enraged" },
+    { "facet": "format", "part": 1, "at": "00:02:45", "note": "Producer reads questions gathered from a listener thread" }
+  ],
+  "notes": "Meta Q&A with no single subject; the show itself is the subject. Themes are a loose fit: the most sustained topic is media and misinformation; slavery and child abuse get a few minutes each as recollections of past episodes. Sophie Lichtman leads as co-host but is the producer, so guests is empty per the prompt rule. Time set to null as allowed for meta."
+}

@@ -1,0 +1,132 @@
+{
+  "story_id": "how-the-fbi-botched-the-olympic-park-bombing",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Centennial Olympic Park bombing",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Federal Bureau of Investigation",
+      "kind": "organization",
+      "org_type": "police",
+      "role": "primary"
+    },
+    {
+      "name": "Richard Jewell",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1962, "end": 2007 }
+    },
+    {
+      "name": "The Atlanta Journal-Constitution",
+      "kind": "organization",
+      "org_type": "media-outlet",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "policing-incarceration",
+    "secondary": ["terrorism", "propaganda-media", "sports", "entertainment-celebrity"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-GA"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1996, "end": 1996 },
+    "covered_span": { "start": 1984, "end": 1996 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "After security guard Richard Jewell spotted the bomb at Atlanta's 1996 Olympic Park and helped clear the area, the FBI made him its prime suspect and leaked his name, and the Atlanta Journal-Constitution led months of media coverage that wrecked an innocent man's life.",
+  "content_warnings": [],
+  "keywords": [
+    "Centennial Olympic Park",
+    "1996 Summer Olympics",
+    "Atlanta",
+    "Louis Freeh",
+    "Eric Rudolph",
+    "Kathy Scruggs",
+    "Richard Jewell (2019 film)",
+    "Clint Eastwood",
+    "Piedmont College",
+    "Steven Hatfill"
+  ],
+  "guests": ["Courtney Kosak"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:10:57",
+      "note": "Jewell's working life begins in earnest at about 22 (SBA clerk, then hotel detective)"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:15:36",
+      "note": "long digression on police perjury, crime by officers and evidence falsification"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:35:06",
+      "note": "bomb found and area cleared just after midnight on 27 July 1996"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:31:26",
+      "note": "Olympic security jobs, park crowding and the Bud World party as setting"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:44:19",
+      "note": "former college boss tips off investigators; FBI focus shifts to Jewell"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:52:27",
+      "note": "AJC names Jewell as suspect from an unattributed leak; newsroom style discussed"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:57:06",
+      "note": "FBI director pushes each suspect as the culprit and likely drove the leaks"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:09:13",
+      "note": "prosecutors clear Jewell in late October 1996; lawsuits and settlements follow briefly"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:10:47",
+      "note": "segment on the 2019 Eastwood film and its invented portrayal of the reporter"
+    }
+  ],
+  "notes": "Part one of a two-story series; Steven Hatfill and the 2001 anthrax attacks are introduced at the start but saved for the next episode. Jewell got secondary status because the title frames the FBI and the bombing as subjects, but the episode is largely his biography; if he is made primary, roles would be police-lawman and the lifetime rule would push covered_span to 1962-2007. The covered start of 1984 is approximate. The 2019 film epilogue is what sets reaches_present."
+}

@@ -1,0 +1,161 @@
+{
+  "story_id": "the-origins-of-terror-in-palestine",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Zionism",
+      "kind": "movement-or-ideology",
+      "role": "primary"
+    },
+    {
+      "name": "Ze'ev Jabotinsky",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1880, "end": 1940 }
+    },
+    {
+      "name": "Haganah",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Irgun",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Jacob Israel de Haan",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1881, "end": 1924 }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "terrorism",
+    "secondary": [
+      "colonialism-imperialism",
+      "immigration-borders",
+      "racism-white-supremacy",
+      "war-war-crimes"
+    ]
+  },
+  "regions": {
+    "origin": [],
+    "setting": ["PS", "IL", "EG", "UA", "MD", "NL"],
+    "subdivisions": [],
+    "polities": ["ottoman-empire", "british-empire", "russian-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1907, "end": 1940 },
+    "covered_span": { "start": 1880, "end": 1940 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "How intercommunal life in late Ottoman Palestine broke down between the 1880s and 1940 as Zionist immigration, Zionist militias such as the Haganah and Irgun, Arab nationalism and British Mandate policy fed riots, assassinations and bombings.",
+  "content_warnings": ["mass-atrocity"],
+  "keywords": [
+    "British Mandate for Palestine",
+    "Jewish Legion",
+    "Zion Mule Corps",
+    "Betar",
+    "1929 Palestine riots",
+    "Hebron massacre",
+    "1936-1939 Arab revolt in Palestine",
+    "Patria disaster",
+    "Arab Jews",
+    "Lives in Common"
+  ],
+  "guests": ["Dana al-Kurd"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:04:50",
+      "note": "host frames the story as running from the 1880s to a major bombing around 1940"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:15:06",
+      "note": "1881-82 pogroms after Alexander II's killing and the May Laws drive Jewish emigration"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:22:49",
+      "note": "Kishinev pogrom of 1903 and Herzl's Uganda scheme"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:18:24",
+      "note": "Bar Giora and Hashomer, first Jewish armed defence groups; main span starts here"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:50:33",
+      "note": "1891 petition against Zionist immigration and land sales; Husseini land dealings"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:04:26",
+      "note": "Jabotinsky and Trumpeldor raise a Jewish unit from deportees held in Egypt"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:07:10",
+      "note": "Ottoman wartime deportations of foreign-born Jews from Jaffa"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:27:43",
+      "note": "long segment on de Haan's life in the Netherlands before emigrating"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:35:33",
+      "note": "1924 assassination of de Haan by a Haganah member, called the first Zionist political murder"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:45:05",
+      "note": "1929 Western Wall riots and Hebron massacre, then the Irgun split"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:53:08",
+      "note": "1936-1939 Arab revolt: general strike, British suppression and death toll"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:59:33",
+      "note": "1940 Haganah bombing of the Patria at Haifa ends the story"
+    }
+  ],
+  "notes": "No single bastard: the host says he chose a survey over a Begin or Jabotinsky episode. Zionism as primary subject is the closest fit; Mandatory Palestine (place) would also work. Origin left empty because the movement has no single country. Betar's fascist ties get only a couple of minutes, so fascism-far-right was left out. Robert places the 1881 Kirovohrad pogrom in Azerbaijan; it is in modern Ukraine. Brief modern Gaza remarks do not set reaches_present."
+}

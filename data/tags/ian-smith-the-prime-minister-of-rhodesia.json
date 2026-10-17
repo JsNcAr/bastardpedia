@@ -1,0 +1,157 @@
+{
+  "story_id": "ian-smith-the-prime-minister-of-rhodesia",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Ian Smith",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1919, "end": 2007 }
+    },
+    {
+      "name": "Rhodesian Bush War",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Rhodesian Front",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Selous Scouts",
+      "kind": "organization",
+      "org_type": "military",
+      "role": "secondary"
+    },
+    {
+      "name": "British South Africa Company",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["colonial-administrator", "dictator-autocrat", "politician-official"],
+  "themes": {
+    "primary": "colonialism-imperialism",
+    "secondary": [
+      "racism-white-supremacy",
+      "war-war-crimes",
+      "civil-war",
+      "authoritarianism",
+      "slavery-forced-labor",
+      "fascism-far-right"
+    ]
+  },
+  "regions": {
+    "origin": ["ZW"],
+    "setting": ["ZW", "MZ", "ZM", "ZA", "GB"],
+    "subdivisions": [],
+    "polities": ["rhodesia", "british-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1962, "end": 1979 },
+    "covered_span": { "start": 1889, "end": 2007 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Ian Smith, Rhodesian-born prime minister of Rhodesia from 1964, illegally declared independence from Britain in 1965 to preserve white minority rule and waged the brutal Bush War until 1979.",
+  "content_warnings": ["mass-atrocity", "medical-horror"],
+  "keywords": [
+    "Unilateral Declaration of Independence",
+    "Central African Federation",
+    "Cecil Rhodes",
+    "Robert Mugabe",
+    "Harold Wilson",
+    "Roy Welensky",
+    "Operation Eland",
+    "Selukwe",
+    "ZANU and ZAPU",
+    "Soldier of Fortune"
+  ],
+  "guests": ["Becca Ramos"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:07:36",
+      "note": "Story of Rhodesia begins with the 1889 royal charter to the British South Africa Company"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:50:04",
+      "note": "Hut tax and pass laws built to force black Africans into labour for white farms and mines"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:18:07",
+      "note": "Smith born 1919 in Selukwe to a settler family"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:13:32",
+      "note": "Smith and Winston Field found the Rhodesian Front, which wins the 1962 election"
+    },
+    {
+      "facet": "roles",
+      "part": 2,
+      "at": "00:18:17",
+      "note": "Smith becomes prime minister in 1964; host argues he ruled as a de facto dictator"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:45:28",
+      "note": "Host frames the Bush War as an internal civil war for black emancipation, not a Cold War proxy"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "01:02:25",
+      "note": "Extended segment on the Selous Scouts pseudo-operations and turned prisoners"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "01:11:26",
+      "note": "Chemical and biological warfare: poisoned wells, anthrax, human trials on prisoners"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "01:05:14",
+      "note": "Raids into Mozambique, including Operation Eland; later invasions of Zambia and Mozambique"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:17:11",
+      "note": "Recruitment of foreign white supremacists and far-right support networks abroad"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:25:39",
+      "note": "Smith's retirement in Zimbabwe and death in Cape Town in 2007"
+    }
+  ],
+  "notes": "covered_span starts at 1889 because Part 1 spends a long segment on the BSAC founding of Rhodesia, the 1890s wars and early labour laws; a reviewer may treat this as background and start at 1919. Transcript says 'Universal Declaration of Independence'; the actual name is Unilateral. Primary theme could also be racism-white-supremacy."
+}

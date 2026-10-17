@@ -1,0 +1,94 @@
+{
+  "story_id": "h-l-hunt-the-first-elon-musk",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "H.L. Hunt",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1889, "end": 1974 }
+    },
+    {
+      "name": "Facts Forum",
+      "kind": "organization",
+      "org_type": "media-outlet",
+      "role": "secondary"
+    },
+    {
+      "name": "Life Line",
+      "kind": "media-work",
+      "role": "secondary"
+    },
+    {
+      "name": "Hassie Hunt",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1917, "end": 2004 }
+    }
+  ],
+  "roles": ["business-executive", "journalist-propagandist", "financier-investor"],
+  "themes": {
+    "primary": "propaganda-media",
+    "secondary": [
+      "fascism-far-right",
+      "electoral-politics",
+      "religious-right-culture-war",
+      "domestic-abuse",
+      "wellness-self-help"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-TX"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1930, "end": 1974 },
+    "covered_span": { "start": 1889, "end": 1974 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Texas oilman H.L. Hunt gambled and pimped his way to an oil fortune, became the world's richest man, kept a secret bigamous family, and spent the 1950s and 1960s flooding US radio and print with self-serving far-right propaganda.",
+  "content_warnings": [],
+  "keywords": [
+    "East Texas oil field",
+    "Daisy Bradford well",
+    "Dad Joiner",
+    "Dan Smoot",
+    "Alpaca (novel)",
+    "Gastro-Magic",
+    "oil depletion allowance",
+    "Joseph McCarthy",
+    "Kingdom (Jerome Tuccille)",
+    "Nelson Bunker Hunt"
+  ],
+  "guests": ["Princess Weeks"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:03:42", "note": "Born in Fayette County, Illinois, in 1889" },
+    { "facet": "themes", "part": 2, "at": "00:08:21", "note": "FBI file: gambling and prostitution in Arkansas funded his entry into oil" },
+    { "facet": "time", "part": 2, "at": "00:19:28", "note": "1930 move to East Texas and the Joiner well deal that made his fortune" },
+    { "facet": "themes", "part": 2, "at": "00:17:36", "note": "Bigamous second marriage and secret family in Florida, neglect of first family" },
+    { "facet": "themes", "part": 2, "at": "00:42:18", "note": "Facts Forum founded 1951, McCarthy support, fake polls fed to newspapers" },
+    { "facet": "themes", "part": 3, "at": "00:18:05", "note": "Life Line launched with a preacher host to dodge fairness rules, religious framing" },
+    { "facet": "themes", "part": 3, "at": "00:26:27", "note": "Anti-Catholic leaflet against JFK at the 1960 DNC, Senate inquiry" },
+    { "facet": "themes", "part": 3, "at": "00:31:47", "note": "Alpaca novel proposes votes weighted by taxes paid; called a fascist democracy" },
+    { "facet": "themes", "part": 3, "at": "00:37:02", "note": "Health food and supplement firm as sole advertiser on his shows" },
+    { "facet": "time", "part": 3, "at": "00:47:36", "note": "Decline after Goldwater loss and death in November 1974" }
+  ],
+  "notes": "Grandfather's Confederate militia (1860s) and a long digression on biographer Jerome Tuccille are left out of covered_span: neither is a story subject. Modern parallels (Musk, Fox News, talk radio, Shapiro) are comparisons, so reaches_present is false. Anti-communist red-scare messaging could also support conspiracy-theories. Daisy Bradford well is called number one in the transcript; historically it was No. 3."
+}

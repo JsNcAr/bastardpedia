@@ -1,0 +1,89 @@
+{
+  "story_id": "elizabeth-dilling-the-original-candace-owens",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Elizabeth Dilling",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1894, "end": 1966 }
+    },
+    {
+      "name": "Charles Coughlin",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1891, "end": 1979 }
+    },
+    {
+      "name": "The Red Network",
+      "kind": "media-work",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["activist-organizer", "writer-intellectual", "conspiracy-theorist"],
+  "themes": {
+    "primary": "fascism-far-right",
+    "secondary": [
+      "racism-white-supremacy",
+      "conspiracy-theories",
+      "propaganda-media",
+      "electoral-politics",
+      "nazism",
+      "moral-panics"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "RU"],
+    "subdivisions": [],
+    "polities": ["soviet-union"],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1931, "end": 1946 },
+    "covered_span": { "start": 1894, "end": 1966 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Chicago socialite Elizabeth Dilling became a leading American red-baiter in the 1930s with The Red Network, campaigned with Father Coughlin against FDR, spread antisemitic conspiracy theories, praised Nazi Germany and was tried for sedition.",
+  "content_warnings": ["hate-speech"],
+  "keywords": [
+    "Red Revolution: Do We Want It Here?",
+    "The Octopus",
+    "Mothers' Movement",
+    "Daughters of the American Revolution",
+    "Paul Reveres",
+    "Patriotic Research Bureau",
+    "Great Sedition Trial of 1944",
+    "Nuremberg Rally",
+    "Alf Landon",
+    "America First Committee"
+  ],
+  "guests": ["Katy Stoll"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:03:48", "note": "Birth in Chicago in 1894 and family background" },
+    { "facet": "regions", "part": 1, "at": "00:28:57", "note": "1931 trip to Moscow and Leningrad that set off her anti-communist crusade" },
+    { "facet": "time", "part": 1, "at": "00:49:44", "note": "The Red Network published in 1934" },
+    { "facet": "themes", "part": 1, "at": "00:46:15", "note": "Works with Harry Jung, early US distributor of the Protocols; Paul Reveres bar Jews" },
+    { "facet": "subjects", "part": 2, "at": "00:16:34", "note": "Long segment on Father Coughlin's life and radio career as her idol" },
+    { "facet": "themes", "part": 2, "at": "00:29:29", "note": "1936 campaign against FDR, sabotage of Borah, attempts to help Landon" },
+    { "facet": "themes", "part": 2, "at": "00:52:27", "note": "Attends the 1938 Nuremberg Rally and speaks at German American Bund events" },
+    { "facet": "content_warnings", "part": 2, "at": "00:13:14", "note": "Host reads Klan and antisemitic Aryan Bookstore propaganda at length" },
+    { "facet": "time", "part": 2, "at": "01:01:58", "note": "Sedition charge in 1942, trial, dismissal in 1946" },
+    { "facet": "time", "part": 2, "at": "01:05:06", "note": "Death in Lincoln, Nebraska, in 1966" }
+  ],
+  "notes": "Transcript calls the Vigilant Intelligence Federation director Harry Young; he is usually spelled Harry Jung. Germany visit (1938 Nuremberg Rally) is brief, so DE left out of setting. Glenn Beck and modern neo-Nazi citations are a short aside, so reaches_present is false. Primary theme fascism-far-right since she is an American fascist; nazism kept secondary for her open Nazi sympathies."
+}

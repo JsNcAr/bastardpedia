@@ -1,0 +1,146 @@
+{
+  "story_id": "that-time-volkswagen-operated-a-slave-plantation-in-brazil",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Volkswagen",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "primary"
+    },
+    {
+      "name": "Ricardo Rezende Figueira",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1952, "end": null }
+    },
+    {
+      "name": "Brazilian military dictatorship",
+      "kind": "organization",
+      "org_type": "military",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "slavery-forced-labor",
+    "secondary": [
+      "corporate-malfeasance",
+      "nazism",
+      "authoritarianism",
+      "labor-exploitation",
+      "environmental-destruction",
+      "child-abuse"
+    ]
+  },
+  "regions": {
+    "origin": ["DE"],
+    "setting": ["BR", "DE"],
+    "subdivisions": ["BR-PA"],
+    "polities": ["nazi-germany"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1974, "end": 1986 },
+    "covered_span": { "start": 1933, "end": 2025 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Volkswagen, built on Nazi forced labour, ran a cattle ranch in the Brazilian Amazon from 1974 to 1986 where contractors held hundreds of workers in debt bondage under armed guard while clearing rainforest.",
+  "content_warnings": ["slavery", "torture", "graphic-violence", "child-death"],
+  "keywords": [
+    "Fazenda Volkswagen",
+    "Companhia Vale do Rio Cristalino",
+    "Santana do Araguaia",
+    "gatos",
+    "debt peonage",
+    "Wolfsburg",
+    "Strength Through Joy",
+    "Ferdinand Porsche",
+    "Friedrich Brugger",
+    "Christopher Kopper"
+  ],
+  "guests": ["Maggie Mae Fish"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:05:26",
+      "note": "story opens with Hitler's 1933 motorization push that led to the Volkswagen"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:16:44",
+      "note": "wartime Wolfsburg plant run largely on concentration camp and Eastern forced labour"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:22:03",
+      "note": "nursery for forced labourers' infants at Ruhen with near-total mortality"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:30:15",
+      "note": "junta offers incentives to multinationals to clear the Amazon for cattle ranching"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:32:51",
+      "note": "ranch of roughly 140,000 hectares in Para state"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:38:45",
+      "note": "contractors trap recruited workers through debt peonage"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:06:56",
+      "note": "ranch operated through a subsidiary from 1974 to 1986"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:10:25",
+      "note": "long segment on priest Rezende's investigation from 1977 onward"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:17:28",
+      "note": "seventeen-year-olds lured with soccer promises and held at a forest labour camp"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:08:27",
+      "note": "workers strung up and beaten or hanged as punishment"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:41:27",
+      "note": "2019 reopened inquiry leads to a 2025 court ruling against Volkswagen"
+    }
+  ],
+  "notes": "Brazil's colonial slave trade (1520-1888) is a long host background segment and is left out of covered_span. Covered span starts with the Nazi-era origins (about a fifth of part one) and ends with the 2025 ruling. Rezende's birth year 1952 is from general knowledge, not the transcript. Liberation theology priest is a hero figure; organized-religion not applied."
+}

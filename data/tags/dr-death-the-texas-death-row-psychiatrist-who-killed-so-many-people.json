@@ -1,0 +1,127 @@
+{
+  "story_id": "dr-death-the-texas-death-row-psychiatrist-who-killed-so-many-people",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "James Grigson",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1932, "end": 2004 }
+    },
+    {
+      "name": "Randall Dale Adams",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1948, "end": 2010 }
+    }
+  ],
+  "roles": ["psychiatrist-psychologist"],
+  "themes": {
+    "primary": "policing-incarceration",
+    "secondary": ["quackery-pseudoscience", "fraud-grift"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-TX"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1967, "end": 2004 },
+    "covered_span": { "start": 1932, "end": 2004 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Dallas psychiatrist James Grigson, nicknamed Dr. Death, testified in about 167 Texas capital trials from the late 1960s to the 1990s, often without examining defendants, assuring juries they would kill again and helping send innocent men to death row.",
+  "content_warnings": [],
+  "keywords": [
+    "Dr. Death",
+    "Texas death row",
+    "Special Issue Number Two",
+    "future dangerousness",
+    "Barefoot v. Estelle",
+    "Estelle v. Smith",
+    "The Thin Blue Line",
+    "Errol Morris",
+    "David Wayne Stoker",
+    "Ron Rosenbaum"
+  ],
+  "guests": ["Steven Monacelli"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:06:02",
+      "note": "Grigson born January 1932 in Texarkana, Texas"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:33:01",
+      "note": "begins testifying about capital defendants in 1967"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:34:03",
+      "note": "Texas legislature creates future-dangerousness question for death sentences"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:55:05",
+      "note": "1983 Supreme Court case upholds his diagnosis of a defendant he never examined"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:05:15",
+      "note": "long segment on Randall Dale Adams, wrongly convicted and later exonerated"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:19:24",
+      "note": "2004 study finds expert predictions of future violence almost always wrong"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:26:43",
+      "note": "expelled from the APA in 1995 and the Texas psychiatric society in 1996"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:36:28",
+      "note": "other junk forensic experts: hair comparison and falsified autopsies"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:47:14",
+      "note": "both sides pay him retainers so the other side cannot hire him"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:50:14",
+      "note": "dies of lung cancer in June 2004"
+    }
+  ],
+  "notes": "Part 1 spends about ten minutes on 19th-century forensic psychiatry (will contests, insanity law); treated as background, so covered_span starts at birth. The 2016 stay for Jeffrey Wood is a short coda, so reaches_present is false. Scope set to national because of the two US Supreme Court cases, though the harm is all in Texas; local is arguable. main_span ends at his 2004 death rather than the 1995 APA expulsion."
+}

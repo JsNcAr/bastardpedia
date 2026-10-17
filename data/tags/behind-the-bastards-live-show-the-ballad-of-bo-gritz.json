@@ -1,0 +1,158 @@
+{
+  "story_id": "behind-the-bastards-live-show-the-ballad-of-bo-gritz",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "live-show",
+  "subjects": [
+    {
+      "name": "Bo Gritz",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1939,
+        "end": null
+      }
+    },
+    {
+      "name": "POW/MIA movement",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    },
+    {
+      "name": "Operation Velvet Hammer",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Almost Heaven",
+      "kind": "place",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["military-officer", "conspiracy-theorist", "activist-organizer"],
+  "themes": {
+    "primary": "conspiracy-theories",
+    "secondary": [
+      "fascism-far-right",
+      "war-war-crimes",
+      "fraud-grift",
+      "electoral-politics",
+      "racism-white-supremacy",
+      "entertainment-celebrity"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "VN", "LA", "TH", "KH"],
+    "subdivisions": ["US-ID"],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": {
+      "start": 1965,
+      "end": 1998
+    },
+    "covered_span": {
+      "start": 1939,
+      "end": 2025
+    },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Decorated Green Beret Bo Gritz lied his way into fame as the 'real Rambo', fueled the myth of live US POWs in Southeast Asia with botched fundraised raids, then ran with far-right parties and sold land to Idaho militia followers.",
+  "content_warnings": ["graphic-violence", "suicide-self-harm"],
+  "keywords": [
+    "Rambo: First Blood Part II",
+    "POW/MIA flag",
+    "Ruby Ridge",
+    "Randy Weaver",
+    "Populist Party",
+    "Willis Carto",
+    "David Duke",
+    "SPIKE training program",
+    "Northwest Imperative",
+    "Kamiah, Idaho"
+  ],
+  "guests": ["Jason Petty (Prop)"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:08:58",
+      "note": "born January 1939 in Enid, Oklahoma"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:24:02",
+      "note": "joins Green Berets and deploys to Vietnam in 1965; main span starts here"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:27:48",
+      "note": "1966 mission to recover a spy plane black box in Cambodia, with prisoner executions"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:40:10",
+      "note": "origins of the POW/MIA flag and myth, and how Gritz spread it"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:54:21",
+      "note": "fundraising tour built on a fabricated story about a dead comrade"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:18:02",
+      "note": "1982 raid into Laos ambushed; later attempts staged from Thailand end in arrests"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:22:05",
+      "note": "his POW fantasies inspire Rambo II, Missing in Action and other films"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:23:33",
+      "note": "Populist Party VP run with David Duke in 1988, presidential run in 1992"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:31:39",
+      "note": "accusations of racism and his antisemitic writings"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:36:03",
+      "note": "Almost Heaven militia community in Idaho, lawsuits over land titles"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:40:26",
+      "note": "1998 collapse of Almost Heaven, divorce and suicide attempt; main span ends"
+    }
+  ],
+  "notes": "The hosts say Gritz was still alive at recording (Nov 2025), so lifespan end is null and the lifetime rule extends covered_span to 2025. Reviewer: please verify, I have a vague memory he may have died earlier; if so, set the real death year. The POW myth and failed raids take the most airtime, so conspiracy-theories was chosen as primary over fascism-far-right (the description's framing). Latin America command 1975-77 mentioned only briefly, so no country added."
+}

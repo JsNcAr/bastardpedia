@@ -1,0 +1,162 @@
+{
+  "story_id": "prince-mohammed-bin-salman-the-tyrant-of-saudi-arabia",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Mohammed bin Salman",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1985, "end": null }
+    },
+    {
+      "name": "House of Saud",
+      "kind": "group",
+      "role": "secondary"
+    },
+    {
+      "name": "Mohammed bin Nayef",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1959, "end": null }
+    },
+    {
+      "name": "Saudi-led intervention in the Yemeni civil war",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Jamal Khashoggi",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1958, "end": 2018 }
+    }
+  ],
+  "roles": ["monarch-royal", "dictator-autocrat", "business-executive"],
+  "themes": {
+    "primary": "authoritarianism",
+    "secondary": [
+      "monarchy-empire",
+      "war-war-crimes",
+      "civil-war",
+      "genocide-mass-killing",
+      "organized-religion",
+      "terrorism"
+    ]
+  },
+  "regions": {
+    "origin": ["SA"],
+    "setting": ["SA", "YE", "TR", "US"],
+    "subdivisions": [],
+    "polities": ["ottoman-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2015, "end": null },
+    "covered_span": { "start": 1744, "end": 2026 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Saudi crown prince Mohammed bin Salman rose from a minor royal branch to rule Saudi Arabia from 2015, waging a devastating war in Yemen, purging rivals and dissidents, torturing activists and ordering the 2018 murder of Jamal Khashoggi.",
+  "content_warnings": ["torture", "graphic-violence", "mass-atrocity"],
+  "keywords": [
+    "MBS",
+    "Wahhabism",
+    "Muhammad ibn Abd al-Wahhab",
+    "Diriyah",
+    "1979 Grand Mosque seizure",
+    "Ritz-Carlton detentions",
+    "NEOM",
+    "Loujain al-Hathloul",
+    "Saud al-Qahtani",
+    "King Salman"
+  ],
+  "guests": ["David Bell"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:09:58",
+      "note": "1744-45 alliance of Muhammad ibn Saud and al-Wahhab founds the first Saudi state"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:52:40",
+      "note": "MBS born 31 August 1985"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "00:30:25",
+      "note": "as defense minister he orders the March 2015 intervention in Yemen"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "00:23:09",
+      "note": "June 2017 palace confrontation forces crown prince MBN to resign"
+    },
+    {
+      "facet": "regions",
+      "part": 4,
+      "at": "00:58:54",
+      "note": "Khashoggi killed and dismembered at the Saudi consulate in Istanbul"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:05:25",
+      "note": "MBN studies in Portland and trains with the FBI; ties to US security agencies"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:43:31",
+      "note": "1979 seizure of the Grand Mosque in Mecca and the clerical backlash after it"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:17:31",
+      "note": "al-Qaeda declares war on the kingdom; MBN leads the counterterror campaign"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:13:24",
+      "note": "blockade and strikes on farms used starvation as a weapon; genocide framing"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:04:14",
+      "note": "MBS curbs the religious police after decades of clerical power"
+    },
+    {
+      "facet": "roles",
+      "part": 2,
+      "at": "00:41:43",
+      "note": "real estate ventures and business deals that built his early fortune"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 4,
+      "at": "00:55:52",
+      "note": "detailed account of waterboarding, shocks and beatings of women activists"
+    }
+  ],
+  "notes": "covered_span starts at the 1744 Saud-Wahhab pact: Part 1 spends most of its time on House of Saud history (secondary subject). End is 2026 per the lifetime rule (subject alive). Narrative stops around 2018-2021 with only brief Trump-era and Yemen death-toll remarks, so reaches_present is false. MBN's birth year 1959 is stated; his and MBS's living status taken from the transcript. ottoman-empire polity is for the destruction of the first Saudi state."
+}

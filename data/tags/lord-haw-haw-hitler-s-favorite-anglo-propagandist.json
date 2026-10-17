@@ -1,0 +1,102 @@
+{
+  "story_id": "lord-haw-haw-hitler-s-favorite-anglo-propagandist",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "William Joyce",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1906, "end": 1946 }
+    },
+    {
+      "name": "Oswald Mosley",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1896, "end": 1980 }
+    },
+    {
+      "name": "British Fascists",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Auxiliary Division of the Royal Irish Constabulary",
+      "kind": "organization",
+      "org_type": "police",
+      "role": "secondary"
+    },
+    {
+      "name": "Margaret Joyce",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1911, "end": 1972 }
+    }
+  ],
+  "roles": ["journalist-propagandist", "activist-organizer", "media-personality"],
+  "themes": {
+    "primary": "nazism",
+    "secondary": [
+      "propaganda-media",
+      "fascism-far-right",
+      "colonialism-imperialism",
+      "war-war-crimes",
+      "racism-white-supremacy",
+      "domestic-abuse"
+    ]
+  },
+  "regions": {
+    "origin": ["US", "IE"],
+    "setting": ["DE", "GB", "IE"],
+    "subdivisions": [],
+    "polities": ["nazi-germany", "british-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1932, "end": 1946 },
+    "covered_span": { "start": 1903, "end": 1946 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Irish-raised fascist William Joyce informed for British forces in Galway, rose as an orator in Mosley's British Union of Fascists, then fled to Nazi Germany to broadcast propaganda to Britain as Lord Haw-Haw, and was hanged for treason in 1946.",
+  "content_warnings": ["graphic-violence", "torture"],
+  "keywords": [
+    "Lord Haw-Haw",
+    "Germany Calling",
+    "Twilight Over England",
+    "National Socialist League",
+    "Irish War of Independence",
+    "Black and Tans",
+    "Galway",
+    "Battle of Cable Street",
+    "Horst Pinschewer",
+    "Wandsworth Prison"
+  ],
+  "guests": ["Pádraig Ó Ruairc"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:07:31", "note": "birth year and place uncertain, somewhere 1903-1906, America or Ireland" },
+    { "facet": "themes", "part": 1, "at": "00:12:09", "note": "British-run Catholic schools in Ireland pushing imperial identity on Irish children" },
+    { "facet": "regions", "part": 1, "at": "00:24:02", "note": "teenage Joyce informs and runs errands for the RIC and Black and Tans in Galway" },
+    { "facet": "content_warnings", "part": 1, "at": "00:27:12", "note": "D Company Auxiliaries: shooting of a pregnant woman, prisoners dragged and mutilated" },
+    { "facet": "subjects", "part": 1, "at": "00:39:39", "note": "segment on Rotha Lintorn-Orman founding the British Fascists, which Joyce joins" },
+    { "facet": "subjects", "part": 2, "at": "00:01:34", "note": "Mosley, the BUF and his rivalry with Joyce take a long segment" },
+    { "facet": "themes", "part": 2, "at": "00:10:20", "note": "mutual infidelity, alcoholism and domestic violence in the marriage to Margaret" },
+    { "facet": "regions", "part": 2, "at": "00:24:23", "note": "flees to Berlin in 1939 and begins English-language Nazi broadcasts" },
+    { "facet": "themes", "part": 2, "at": "00:27:22", "note": "reach of the broadcasts, casualty lists and fear tactics aimed at British listeners" },
+    { "facet": "time", "part": 2, "at": "00:59:25", "note": "hanged January 1946; later reburial in Galway and neo-Nazi admirers to the present" }
+  ],
+  "notes": "Reverse episode: guest Pádraig Ó Ruairc presents. Transcript says birth 1903-1906 in the US or Ireland; lifespan uses the standard 1906 (Brooklyn), covered_span starts 1903 to allow for the earlier date. Main span starts at the BUF (1932). The Mary Ogilvy relationship (pupil aged about 15-16) is brief, so no child-abuse theme. reaches_present rests on a short legacy segment (Irish Nazi Party, grave visits)."
+}

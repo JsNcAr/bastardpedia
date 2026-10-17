@@ -1,0 +1,103 @@
+{
+  "story_id": "peter-thiel-and-the-anti-christ",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "current-affairs",
+  "subjects": [
+    {
+      "name": "Peter Thiel",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1967, "end": null }
+    },
+    {
+      "name": "Acts 17 Collective",
+      "kind": "organization",
+      "org_type": "ngo",
+      "role": "secondary"
+    },
+    {
+      "name": "Carl Schmitt",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1888, "end": 1985 }
+    },
+    {
+      "name": "René Girard",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1923, "end": 2015 }
+    },
+    {
+      "name": "Garry Tan",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1981, "end": null }
+    }
+  ],
+  "roles": ["writer-intellectual", "financier-investor", "tech-founder"],
+  "themes": {
+    "primary": "religious-right-culture-war",
+    "secondary": [
+      "tech-internet",
+      "artificial-intelligence",
+      "fascism-far-right",
+      "authoritarianism",
+      "wellness-self-help"
+    ]
+  },
+  "regions": {
+    "origin": ["US", "DE"],
+    "setting": ["US"],
+    "subdivisions": ["US-CA"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2023, "end": 2025 },
+    "covered_span": { "start": 2004, "end": 2025 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Billionaire investor Peter Thiel's 2025 San Francisco lecture series on the Antichrist, in which he cast AI-safety advocates and climate activists as the Antichrist's agents while drawing on Carl Schmitt and Rene Girard to justify anti-democratic politics.",
+  "content_warnings": [],
+  "keywords": [
+    "Antichrist lectures",
+    "Book of Daniel",
+    "Greta Thunberg",
+    "Eliezer Yudkowsky",
+    "Nick Bostrom",
+    "Marc Andreessen",
+    "Bill Gates",
+    "JD Vance",
+    "Wolfgang Palaver",
+    "Alcor cryonics"
+  ],
+  "guests": ["Sarah Marshall"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:11:23", "note": "four-part Antichrist lecture series held in September 2025" },
+    { "facet": "regions", "part": 1, "at": "00:11:57", "note": "lectures staged at the Embarcadero in San Francisco" },
+    { "facet": "subjects", "part": 1, "at": "00:15:24", "note": "Girard and Schmitt introduced as the pillars of Thiel's philosophy" },
+    { "facet": "subjects", "part": 1, "at": "00:28:14", "note": "Acts 17 Collective founded after a late-2023 birthday party sermon by Thiel" },
+    { "facet": "subjects", "part": 1, "at": "00:37:12", "note": "segment on Garry Tan, Acts 17 host, and his threats against SF supervisors" },
+    { "facet": "themes", "part": 1, "at": "01:19:30", "note": "Thiel's claim that science has stalled and anti-science forces are to blame" },
+    { "facet": "themes", "part": 2, "at": "00:19:32", "note": "Yudkowsky and Bostrom's AI-risk proposals framed as Antichrist agendas" },
+    { "facet": "themes", "part": 2, "at": "00:24:04", "note": "Greta Thunberg named as a possible Antichrist over climate and AI skepticism" },
+    { "facet": "themes", "part": 2, "at": "00:54:02", "note": "Thiel's 1999 cryonics party and his fear of death" },
+    { "facet": "time", "part": 2, "at": "00:57:54", "note": "2004 Stanford seminar on Girard funded by Thiel after the PayPal sale" },
+    { "facet": "themes", "part": 2, "at": "01:02:16", "note": "Schmitt's friend-enemy politics and a crusade against Islam after 9/11" },
+    { "facet": "themes", "part": 2, "at": "01:05:42", "note": "call for secret coordination of intelligence services outside democracy" }
+  ],
+  "notes": "Format: chose current-affairs (recent lectures by a previously covered subject); media-reading is arguable since part one walks through an attendee's notes, but part two moves to interviews and 2004 history. Primary theme is a judgement call; tech-internet was the alternative. DE in origin is Thiel's birthplace (not stated in transcript). Wolfgang Palaver gets a segment but is left out for uncertain dates. Daniel and Thucydides material is background, not in covered_span."
+}

@@ -1,0 +1,145 @@
+{
+  "story_id": "antonio-salazar-the-smartest-fascist-dictator",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Antonio de Oliveira Salazar",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1889, "end": 1970 }
+    },
+    {
+      "name": "PIDE",
+      "kind": "organization",
+      "org_type": "police",
+      "role": "secondary"
+    },
+    {
+      "name": "Portuguese Colonial War",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Lusotropicalism",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["dictator-autocrat", "politician-official", "scientist-scholar"],
+  "themes": {
+    "primary": "fascism-far-right",
+    "secondary": [
+      "authoritarianism",
+      "colonialism-imperialism",
+      "policing-incarceration",
+      "diplomacy-foreign-policy",
+      "war-war-crimes",
+      "intelligence-covert-ops",
+      "slavery-forced-labor"
+    ]
+  },
+  "regions": {
+    "origin": ["PT"],
+    "setting": ["PT", "AO", "MZ", "ES", "GB"],
+    "subdivisions": [],
+    "polities": ["portuguese-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1928, "end": 1968 },
+    "covered_span": { "start": 1889, "end": 1970 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Economics professor Antonio Salazar ruled Portugal as dictator from 1932 to 1968, running the Estado Novo with a torturing secret police and waging ruinous colonial wars in Angola and Mozambique.",
+  "content_warnings": ["torture", "slavery"],
+  "keywords": [
+    "Estado Novo",
+    "PVDE",
+    "Aljube prison",
+    "Gilberto Freyre",
+    "Carnation Revolution",
+    "Francisco Franco",
+    "University of Coimbra",
+    "Vimieiro",
+    "Goa",
+    "Lisbon regicide"
+  ],
+  "guests": ["Jeff May"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:07:46",
+      "note": "Salazar born in 1889 in the village of Vimieiro"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:57:50",
+      "note": "Carmona becomes president in 1928 and hands Salazar control of the finances"
+    },
+    {
+      "facet": "roles",
+      "part": 1,
+      "at": "01:00:38",
+      "note": "Estado Novo proclaimed in 1933 with Salazar holding full power"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:06:26",
+      "note": "New constitution creates the PVDE secret police; torture at Aljube and the statue method"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:11:28",
+      "note": "Aid to Franco in the Spanish Civil War, then keeping Spain neutral in WWII with British help"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:34:33",
+      "note": "CIA trains the secret police in interrogation from 1957, including sound-based torture"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:50:03",
+      "note": "Regime adopts lusotropicalism to justify keeping the empire"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:53:12",
+      "note": "Segment on Portugal's slave trading and later forced labour laws in Angola and Mozambique"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:59:12",
+      "note": "1961 uprisings in Angola open the colonial war"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:07:48",
+      "note": "1968 cerebral haemorrhage ends his rule; death in 1970 follows"
+    }
+  ],
+  "notes": "main_span ends 1968, when the stroke removed him from power; death in 1970 is in covered_span. The 1974 Carnation Revolution gets only a short coda. A short passage on systematic rape by Portuguese soldiers in Angola may justify sexual-violence; left out as brief. Goa (IN) and US CIA training are short and not in setting."
+}

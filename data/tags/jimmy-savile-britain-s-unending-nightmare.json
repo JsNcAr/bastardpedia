@@ -1,0 +1,140 @@
+{
+  "story_id": "jimmy-savile-britain-s-unending-nightmare",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Jimmy Savile",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1926, "end": 2011 }
+    },
+    {
+      "name": "BBC",
+      "kind": "organization",
+      "org_type": "media-outlet",
+      "role": "secondary"
+    },
+    {
+      "name": "Margaret Thatcher",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1925, "end": 2013 }
+    },
+    {
+      "name": "Broadmoor Hospital",
+      "kind": "organization",
+      "org_type": "school-or-facility",
+      "role": "secondary"
+    },
+    {
+      "name": "Duncroft Approved School",
+      "kind": "organization",
+      "org_type": "school-or-facility",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["criminal-killer", "media-personality"],
+  "themes": {
+    "primary": "child-abuse",
+    "secondary": [
+      "sexual-abuse",
+      "entertainment-celebrity",
+      "public-health",
+      "monarchy-empire",
+      "electoral-politics"
+    ]
+  },
+  "regions": {
+    "origin": ["GB"],
+    "setting": ["GB"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1954, "end": 2011 },
+    "covered_span": { "start": 1926, "end": 2011 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "Leeds-born DJ and BBC television star Jimmy Savile used his fame, charity work and ties to Margaret Thatcher and the royal family to sexually abuse hundreds of children and vulnerable patients from the 1950s until his death in 2011.",
+  "content_warnings": ["child-abuse", "sexual-violence"],
+  "keywords": [
+    "Top of the Pops",
+    "Jim'll Fix It",
+    "Stoke Mandeville Hospital",
+    "Leeds General Infirmary",
+    "Radio Luxembourg",
+    "Lord Mountbatten",
+    "Prince Charles",
+    "Gary Glitter",
+    "Louis Theroux",
+    "In Plain Sight (Dan Davies)"
+  ],
+  "guests": ["Courtney Kosak"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:08:54", "note": "birth in Leeds in October 1926" },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:14:13",
+      "note": "around age 28 his dance-hall predation on teenage girls is already notorious"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:40:19",
+      "note": "BBC and Top of the Pops recruit underage girls for the studio audience"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:08:37",
+      "note": "Mountbatten introduces him to the royal family; later Charles and Diana ties"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:50:05",
+      "note": "alliance with Thatcher starts in 1977; charity funding fits her cuts to public spending"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:27:46",
+      "note": "Thatcher government puts him in charge of a task force running Broadmoor in 1988"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:35:08",
+      "note": "abuse of adult and dying hospital patients supports sexual-abuse alongside child-abuse"
+    },
+    {
+      "facet": "subjects",
+      "part": 4,
+      "at": "00:01:47",
+      "note": "long segment on his access to girls at the Duncroft approved school"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "01:03:41",
+      "note": "death in October 2011; posthumous revelations covered only briefly"
+    }
+  ],
+  "notes": "main_span starts at 1954 (approximate), when his dance-hall abuse is first described as notorious; his DJ career begins about then. The 2012 revelations and later inquiries get only a few minutes at the end, so covered_span ends at his 2011 death and reaches_present is false. Catholic Church and papal knighthood discussed briefly, not enough for organized-religion."
+}

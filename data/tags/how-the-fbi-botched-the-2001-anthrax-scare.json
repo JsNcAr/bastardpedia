@@ -1,0 +1,156 @@
+{
+  "story_id": "how-the-fbi-botched-the-2001-anthrax-scare",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Steven Hatfill",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1953,
+        "end": null
+      }
+    },
+    {
+      "name": "2001 anthrax attacks",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Federal Bureau of Investigation",
+      "kind": "organization",
+      "org_type": "police",
+      "role": "secondary"
+    },
+    {
+      "name": "United States Army Medical Research Institute of Infectious Diseases",
+      "kind": "organization",
+      "org_type": "military",
+      "role": "secondary"
+    },
+    {
+      "name": "William C. Patrick III",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1926,
+        "end": 2010
+      }
+    }
+  ],
+  "roles": ["scientist-scholar", "physician-surgeon"],
+  "themes": {
+    "primary": "policing-incarceration",
+    "secondary": [
+      "terrorism",
+      "propaganda-media",
+      "weapons-arms-trade",
+      "fraud-grift",
+      "war-war-crimes"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "ZW", "ZA", "CD"],
+    "subdivisions": [],
+    "polities": ["rhodesia"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": {
+      "start": 2001,
+      "end": 2008
+    },
+    "covered_span": {
+      "start": 1953,
+      "end": 2025
+    },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "After the 2001 anthrax letter attacks in the United States, the FBI and the press spent years publicly targeting biodefense researcher Steven Hatfill, a man with an embellished resume and a Rhodesian past, without real evidence that he was responsible.",
+  "content_warnings": [],
+  "keywords": [
+    "Amerithrax",
+    "person of interest",
+    "Fort Detrick",
+    "Selous Scouts",
+    "Rhodesian Bush War",
+    "Rhodesian chemical and biological weapons",
+    "SAIC",
+    "Richard Jewell",
+    "Bruce Ivins",
+    "Tom Daschle"
+  ],
+  "guests": ["Courtney Kocak"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:02:35",
+      "note": "Hatfill's birth in 1953 in Missouri opens the biography"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:06:25",
+      "note": "about a year volunteering at a mission hospital in the Congo"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:14:18",
+      "note": "moves to white-ruled Rhodesia in 1978 to attend medical school"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:25:42",
+      "note": "long segment on the Rhodesian military's chemical and biological weapons use in the Bush War"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:33:28",
+      "note": "medical degree, internship and master's degrees in South Africa through the 1980s"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:34:32",
+      "note": "false claims of UK medical credentials, a PhD and a faked Oxford reference"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:38:15",
+      "note": "joins USAMRIID in 1997; description of the Fort Detrick biodefense lab"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:48:32",
+      "note": "mentorship by bioweapons veteran Bill Patrick, holder of secret anthrax patents"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:55:09",
+      "note": "builds a mock mobile bioweapons lab for SAIC; CIA and DoD clearance trouble in 2001"
+    }
+  ],
+  "notes": "Part 2 has no transcript; the investigation, media coverage and outcome (taken as 2001-2008, ending with his 2008 settlement) come from the description and general knowledge. Bruce Ivins is listed as a keyword on the assumption Part 2 covers the FBI's later suspect; check this. Primary theme could also be terrorism. The Richard Jewell episode named in the intro is a separate story."
+}

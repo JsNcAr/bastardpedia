@@ -1,0 +1,152 @@
+[
+  {
+    "id": "how-jeffrey-epstein-helped-build-the-modern-world",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Format: chose deep-dive over current-affairs; it is pegged to new file releases but the bulk is researched history. The lifetime rule forces covered_span to start at Epstein's 1953 birth, which is not discussed. Anti-trans propaganda mapped to religious-right-culture-war (gender culture war; no secular anti-trans theme). Trivers' death status unverified, end left null. Christopher Poole, Joi Ito, Bobby Kotick also get real segments; kept as keywords for the 5-subject cap."
+  },
+  {
+    "id": "the-greg-bovino-episode-extravaganza",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Living subject, so main_span end is null and covered runs to the 2026 release. The 1909-1927 family immigration and 1924 Act segment (about 7 minutes) was treated as background, not part of Bovino's own story, so covered starts at his 1970 birth. fascism-far-right rests on the hosts' framing of the Trump-era raids and Bovino's coat; it could be dropped. Several states feature (CA, NC, IL, MN), so no subdivision was set."
+  },
+  {
+    "id": "romana-didulo-queen-of-canada",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Birth year is not stated beyond 'probably the 1970s'; 1975 is an estimate. A 12-minute opening segment on the 1930s I AM Activity is treated as background influence, not a subject, so it does not extend covered_span. Transcript dates the Peterborough event to August 2022. Main span ends at the 2025 arrest; story says it ends 'for now'."
+  },
+  {
+    "id": "prince-mohammed-bin-salman-the-tyrant-of-saudi-arabia",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "covered_span starts at the 1744 Saud-Wahhab pact: Part 1 spends most of its time on House of Saud history (secondary subject). End is 2026 per the lifetime rule (subject alive). Narrative stops around 2018-2021 with only brief Trump-era and Yemen death-toll remarks, so reaches_present is false. MBN's birth year 1959 is stated; his and MBS's living status taken from the transcript. ottoman-empire polity is for the destruction of the first Saudi state."
+  },
+  {
+    "id": "behind-the-bastards-q-a-2026-edition",
+    "format": "meta",
+    "low": ["themes"],
+    "notes": "Meta Q&A with no single subject; the show itself is the subject. Themes are a loose fit: the most sustained topic is media and misinformation; slavery and child abuse get a few minutes each as recollections of past episodes. Sophie Lichtman leads as co-host but is the producer, so guests is empty per the prompt rule. Time set to null as allowed for meta."
+  },
+  {
+    "id": "x-mas-special-the-heroes-who-ended-the-slave-trade",
+    "format": "hero",
+    "low": [],
+    "notes": "Primary is the trio named in the descriptions; Wilberforce is explicitly not covered in depth, so keyword only. Part 1 opens with ~30 min on the trade's history from 1471 (Portuguese in Ghana, 1518 start); treated as general background, so covered_span starts at Newton's birth. A reviewer may prefer adding the Atlantic slave trade as a subject and starting at 1471. Death years for Equiano and Clarkson from general knowledge. genocide-mass-killing reflects the Zong mass murder."
+  },
+  {
+    "id": "lord-haw-haw-hitler-s-favorite-anglo-propagandist",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Reverse episode: guest Pádraig Ó Ruairc presents. Transcript says birth 1903-1906 in the US or Ireland; lifespan uses the standard 1906 (Brooklyn), covered_span starts 1903 to allow for the earlier date. Main span starts at the BUF (1932). The Mary Ogilvy relationship (pupil aged about 15-16) is brief, so no child-abuse theme. reaches_present rests on a short legacy segment (Irish Nazi Party, grave visits)."
+  },
+  {
+    "id": "the-men-who-might-have-killed-us-all",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "No single title subject: the story is about the men who built US nuclear war strategy, so the doctrine is primary and roles are empty. LeMay is the most central person; making him primary would force covered_span to his 1990 death, which the story does not cover. Rubel's lifespan comes from my own knowledge, not the packet. The covered end of 1965 is where the narrative stops; the modern posture sets reaches_present."
+  },
+  {
+    "id": "behind-the-bastards-live-show-the-ballad-of-bo-gritz",
+    "format": "live-show",
+    "low": [],
+    "notes": "The hosts say Gritz was still alive at recording (Nov 2025), so lifespan end is null and the lifetime rule extends covered_span to 2025. Reviewer: please verify, I have a vague memory he may have died earlier; if so, set the real death year. The POW myth and failed raids take the most airtime, so conspiracy-theories was chosen as primary over fascism-far-right (the description's framing). Latin America command 1975-77 mentioned only briefly, so no country added."
+  },
+  {
+    "id": "thomas-thistlewood-slave-plantation-owner-and-diarist",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "No role for slaveholder or planter; colonial-administrator (settler who profited from a colony) plus business-executive is the closest fit, criminal-killer for the documented rapes and torture. The Man-Plant author is pseudonymous (Vincent Miller), so the book is the secondary subject. Phibbah, Eve and Bess appear often but are victims, not separate segments."
+  },
+  {
+    "id": "peter-thiel-and-the-anti-christ",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Format: chose current-affairs (recent lectures by a previously covered subject); media-reading is arguable since part one walks through an attendee's notes, but part two moves to interviews and 2004 history. Primary theme is a judgement call; tech-internet was the alternative. DE in origin is Thiel's birthplace (not stated in transcript). Wolfgang Palaver gets a segment but is left out for uncertain dates. Daniel and Thucydides material is background, not in covered_span."
+  },
+  {
+    "id": "bishop-david-e-taylor-jesus-christ-s-best-friend",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Church entity named variously Kingdom of God Global Church and JMMI; used the registered nonprofit name. main_span starts at the 2009 book and the cult phase that followed; earlier 1990s preaching is covered briefly. A few minutes on AI-generated promo videos (artificial-intelligence) left out as too short. Father's 1950s bus story is background, not counted in covered_span."
+  },
+  {
+    "id": "daryl-gates-the-man-who-invented-swat-teams-and-dare",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Hosts draw frequent parallels to 2025 ICE raids, but these are comparisons, so reaches_present is false. Parker's Deadwood childhood and 1920s LA background are brief, so covered_span starts at Gates's birth. Delano grape strike and 1984 Olympics armoured vehicles mentioned but short."
+  },
+  {
+    "id": "that-time-volkswagen-operated-a-slave-plantation-in-brazil",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Brazil's colonial slave trade (1520-1888) is a long host background segment and is left out of covered_span. Covered span starts with the Nazi-era origins (about a fifth of part one) and ends with the 2025 ruling. Rezende's birth year 1952 is from general knowledge, not the transcript. Liberation theology priest is a hero figure; organized-religion not applied."
+  },
+  {
+    "id": "robert-and-cody-read-ben-shapiro-s-new-book",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Primary theme could be propaganda-media instead; no theme fits a pundit's culture-war polemic exactly. Covered span starts at Kipling's 1897 poem because the Tolkien, Lewis and Kipling segments are each several minutes and are quoted in the book; if treated as comparisons, covered would shrink to roughly 2002-2025. Only the introduction is read; hosts say they may return."
+  },
+  {
+    "id": "how-the-fbi-botched-the-2001-anthrax-scare",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Part 2 has no transcript; the investigation, media coverage and outcome (taken as 2001-2008, ending with his 2008 settlement) come from the description and general knowledge. Bruce Ivins is listed as a keyword on the assumption Part 2 covers the FBI's later suspect; check this. Primary theme could also be terrorism. The Richard Jewell episode named in the intro is a separate story."
+  },
+  {
+    "id": "how-the-fbi-botched-the-olympic-park-bombing",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Part one of a two-story series; Steven Hatfill and the 2001 anthrax attacks are introduced at the start but saved for the next episode. Jewell got secondary status because the title frames the FBI and the bombing as subjects, but the episode is largely his biography; if he is made primary, roles would be police-lawman and the lifetime rule would push covered_span to 1962-2007. The covered start of 1984 is approximate. The 2019 film epilogue is what sets reaches_present."
+  },
+  {
+    "id": "buford-pusser-the-worst-sheriff-ever",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "covered_span runs to 2024 because the 2022-2024 TBI reinvestigation and exhumation concern the same killing and get several minutes; a reviewer could instead end it at 1974 and keep reaches_present. Vocabulary gap: no theme for organized crime or bootlegging; policing-incarceration plus the criminal-org subject carry it. Pauline Pusser's birth year left null (transcript only gives her age as 33)."
+  },
+  {
+    "id": "lee-atwater-the-political-dirty-tricks-artist-who-gave-us-president-s-george-bush",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript says he collapsed in March 1991; he actually collapsed in March 1990 and died 29 March 1991 (host also says a year-long fight). Childhood death of his brother in boiling oil is described vividly, hence child-death. RNC chairmanship is a party post, so politician-official was not used; entertainer-artist reflects the recurring music thread."
+  },
+  {
+    "id": "the-evilest-football-player-of-all-time",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary theme could be nazism instead of sports; sports chosen because the title frames him as a footballer and themes.yaml lists this story under sports. Covered span starts in 1827 because the French conquest of Algeria fills most of part 1 and is listed as a secondary subject. military-officer reflects his SS lieutenant rank in an auxiliary unit."
+  },
+  {
+    "id": "frank-fay-the-fascist-who-invented-stand-up-comedy",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary theme is a judgement call: most airtime is his comedy career and Hollywood marriage, the fascist turn fills the last third of part 2, so fascism-far-right is secondary. Transcript spellings: Stanwick (Stanwyck), Victoria Williams (Wilson), Laura Ingles (Ingalls). Host names the American Nazi Party as a 1946 organizer, which was founded later; nazism kept for the openly Nazi rally."
+  },
+  {
+    "id": "pete-hegseth-s-fascist-book-american-crusade",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Hybrid book reading and biography; media-reading wins by precedence. Fascism-far-right chosen as primary per the title; religious-right-culture-war (Christian nationalism) was a close alternative. The First Crusade segment is treated as fact-checking the book, not a subject, so covered_span stays 1980-2025. Afghanistan and Guantanamo service mentioned only briefly."
+  },
+  {
+    "id": "dr-death-the-texas-death-row-psychiatrist-who-killed-so-many-people",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Part 1 spends about ten minutes on 19th-century forensic psychiatry (will contests, insanity law); treated as background, so covered_span starts at birth. The 2016 stay for Jeffrey Wood is a short coda, so reaches_present is false. Scope set to national because of the two US Supreme Court cases, though the harm is all in Texas; local is arguable. main_span ends at his 2004 death rather than the 1995 APA expulsion."
+  },
+  {
+    "id": "laetrile-the-fake-cancer-cure-that-birthed-the-right-wing-medical-grifting-industry",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject is the drug, so roles are empty although the Krebses would be quack-fake-healer. Birth years from general knowledge (Krebs Jr. 1911; a source title in the description says 1912). Transcript says Krebs Jr. died in 1966; context shows 1996. 1830s amygdalin and 1890s trials treated as background. reaches_present rests on the RFK Jr. framing and the closing segment. child-abuse here means medical neglect of children by parents."
+  },
+  {
+    "id": "antonio-salazar-the-smartest-fascist-dictator",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "main_span ends 1968, when the stroke removed him from power; death in 1970 is in covered_span. The 1974 Carnation Revolution gets only a short coda. A short passage on systematic rape by Portuguese soldiers in Angola may justify sexual-violence; left out as brief. Goa (IN) and US CIA training are short and not in setting."
+  }
+]

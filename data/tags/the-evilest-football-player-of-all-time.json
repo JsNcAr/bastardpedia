@@ -1,0 +1,102 @@
+{
+  "story_id": "the-evilest-football-player-of-all-time",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Alexandre Villaplane",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1904, "end": 1944 }
+    },
+    {
+      "name": "French conquest of Algeria",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Henri Lafont",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1902, "end": 1944 }
+    },
+    {
+      "name": "Carlingue (French Gestapo)",
+      "kind": "organization",
+      "org_type": "criminal-org",
+      "role": "secondary"
+    },
+    {
+      "name": "North African Brigade",
+      "kind": "organization",
+      "org_type": "military",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["athlete-sports", "criminal-killer", "military-officer"],
+  "themes": {
+    "primary": "sports",
+    "secondary": [
+      "nazism",
+      "colonialism-imperialism",
+      "war-war-crimes",
+      "genocide-mass-killing",
+      "fraud-grift",
+      "racism-white-supremacy"
+    ]
+  },
+  "regions": {
+    "origin": ["DZ"],
+    "setting": ["FR", "DZ"],
+    "subdivisions": [],
+    "polities": ["french-colonial-empire", "nazi-germany"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1930, "end": 1944 },
+    "covered_span": { "start": 1827, "end": 1944 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Algerian-born Alexandre Villaplane captained France at the first World Cup in 1930, fell into match fixing and crime, then led an SS-backed North African unit that tortured, robbed and massacred civilians in occupied France until his execution in 1944.",
+  "content_warnings": ["mass-atrocity", "graphic-violence", "torture"],
+  "keywords": [
+    "1930 FIFA World Cup",
+    "Racing Club de Paris",
+    "Olympique d'Antibes match fixing",
+    "French Gestapo",
+    "93 rue Lauriston",
+    "Brigade Nord-Africaine",
+    "Mussidan massacre",
+    "Dordogne",
+    "Fly Whisk Incident",
+    "Pierre Bonny"
+  ],
+  "guests": ["Dana Schwartz"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:15:55", "note": "1827 fly-whisk incident opens the long segment on the French conquest of Algeria" },
+    { "facet": "themes", "part": 1, "at": "00:29:27", "note": "about 1.6 million Algerians killed in the first decades of French occupation" },
+    { "facet": "subjects", "part": 1, "at": "00:48:14", "note": "Villaplane born in Algiers on 24 December 1904 to a settler family" },
+    { "facet": "time", "part": 2, "at": "00:04:25", "note": "captains France at the first World Cup in Uruguay, 1930" },
+    { "facet": "themes", "part": 2, "at": "00:10:36", "note": "masterminds match fixing and bribery at Antibes; the club is stripped of its title" },
+    { "facet": "themes", "part": 2, "at": "00:16:43", "note": "jailed in 1935 for fixing horse races, drifts into Paris organized crime" },
+    { "facet": "subjects", "part": 2, "at": "00:24:43", "note": "Henri Lafont recruits criminals for the SS; gang based at rue Lauriston" },
+    { "facet": "subjects", "part": 2, "at": "00:32:14", "note": "North African Brigade formed with SS; Villaplane commands about 100 men" },
+    { "facet": "content_warnings", "part": 2, "at": "00:38:10", "note": "account of peasants beaten, set on fire and shot in front of a captive woman" },
+    { "facet": "content_warnings", "part": 2, "at": "00:44:41", "note": "detailed account of hostage executions and the Mussidan massacre of June 1944" },
+    { "facet": "time", "part": 2, "at": "00:49:52", "note": "captured August 1944, tried and shot by firing squad on 26 December 1944" }
+  ],
+  "notes": "Primary theme could be nazism instead of sports; sports chosen because the title frames him as a footballer and themes.yaml lists this story under sports. Covered span starts in 1827 because the French conquest of Algeria fills most of part 1 and is listed as a secondary subject. military-officer reflects his SS lieutenant rank in an auxiliary unit."
+}

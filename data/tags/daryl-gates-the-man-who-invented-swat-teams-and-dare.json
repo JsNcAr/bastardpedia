@@ -1,0 +1,107 @@
+{
+  "story_id": "daryl-gates-the-man-who-invented-swat-teams-and-dare",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Daryl Gates",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1926,
+        "end": 2010
+      }
+    },
+    {
+      "name": "William H. Parker",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1905,
+        "end": 1966
+      }
+    },
+    {
+      "name": "Los Angeles Police Department",
+      "kind": "organization",
+      "org_type": "police",
+      "role": "secondary"
+    },
+    {
+      "name": "Watts riots",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Drug Abuse Resistance Education (DARE)",
+      "kind": "organization",
+      "org_type": "ngo",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["police-lawman"],
+  "themes": {
+    "primary": "policing-incarceration",
+    "secondary": ["racism-white-supremacy", "drugs", "education", "propaganda-media"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-CA"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": {
+      "start": 1965,
+      "end": 1992
+    },
+    "covered_span": {
+      "start": 1926,
+      "end": 2010
+    },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Los Angeles police chief Daryl Gates helped escalate the 1965 Watts riots, co-created the first SWAT team and the DARE program, led the LAPD through years of racist brutality, and resigned after the 1992 riots.",
+  "content_warnings": ["graphic-violence"],
+  "keywords": [
+    "SWAT",
+    "Rodney King",
+    "1992 Los Angeles riots",
+    "Black Panther Party raid 1969",
+    "Symbionese Liberation Army shootout",
+    "Operation Hammer",
+    "Eulia Love",
+    "Chief (autobiography)",
+    "copaganda",
+    "militarized policing"
+  ],
+  "guests": ["Bridget Todd"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:05:41", "note": "born 1926 in Glendale, California" },
+    { "facet": "time", "part": 1, "at": "00:29:51", "note": "enters the LAPD academy in 1949" },
+    { "facet": "subjects", "part": 1, "at": "00:34:59", "note": "long segment on mentor and chief William Parker" },
+    { "facet": "time", "part": 2, "at": "00:01:12", "note": "1965 Watts arrest and riots with Gates commanding on the ground" },
+    { "facet": "themes", "part": 2, "at": "00:20:39", "note": "co-creates SWAT after Watts, modelled on counterinsurgency" },
+    { "facet": "themes", "part": 2, "at": "00:29:37", "note": "first SWAT action: 1969 raid on Black Panther headquarters" },
+    { "facet": "themes", "part": 2, "at": "00:38:09", "note": "SWAT TV series and early copaganda boosting Gates's fame" },
+    { "facet": "themes", "part": 2, "at": "00:44:42", "note": "1982 remark blaming Black anatomy for chokehold deaths" },
+    { "facet": "themes", "part": 2, "at": "00:54:55", "note": "1983 creation of DARE with LA schools, cops in classrooms" },
+    { "facet": "time", "part": 2, "at": "01:10:16", "note": "steps down as chief in June 1992 after the riots" },
+    { "facet": "time", "part": 2, "at": "01:11:45", "note": "dies in 2010 at Dana Point" }
+  ],
+  "notes": "Hosts draw frequent parallels to 2025 ICE raids, but these are comparisons, so reaches_present is false. Parker's Deadwood childhood and 1920s LA background are brief, so covered_span starts at Gates's birth. Delano grape strike and 1984 Olympics armoured vehicles mentioned but short."
+}

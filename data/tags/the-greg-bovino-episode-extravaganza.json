@@ -1,0 +1,123 @@
+{
+  "story_id": "the-greg-bovino-episode-extravaganza",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Greg Bovino",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1970,
+        "end": null
+      }
+    },
+    {
+      "name": "United States Border Patrol",
+      "kind": "organization",
+      "org_type": "government-agency",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["police-lawman"],
+  "themes": {
+    "primary": "immigration-borders",
+    "secondary": [
+      "policing-incarceration",
+      "racism-white-supremacy",
+      "propaganda-media",
+      "fascism-far-right"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": {
+      "start": 1996,
+      "end": null
+    },
+    "covered_span": {
+      "start": 1970,
+      "end": 2026
+    },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Border Patrol agent Greg Bovino rose from a North Carolina childhood to run the El Centro sector, then became the public face of the Trump administration's violent 2025 immigration raids in Los Angeles, Chicago and Minneapolis.",
+  "content_warnings": [],
+  "keywords": [
+    "El Centro sector",
+    "Operation Midway Blitz",
+    "Immigration Act of 1924",
+    "Blowing Rock",
+    "Skeeter Skelton",
+    "The Border (1982 film)",
+    "Starship Troopers",
+    "Commander at Large",
+    "Jason Owens",
+    "Minneapolis"
+  ],
+  "guests": ["Jack O'Brien"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:09:41",
+      "note": "birth in San Bernardino, California, March 1970"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:12:17",
+      "note": "great-grandfather's emigration from Italy, Dillingham Commission and eugenics behind the 1924 Act"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:51:23",
+      "note": "joins the Border Patrol in 1996 after college; main span starts here"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:54:19",
+      "note": "El Centro command: alleged agent abuse of a migrant and her prosecution"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:03:04",
+      "note": "El Centro staff dedicated to making viral fear-based videos about migrants"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:06:19",
+      "note": "January 2025 Kern County raid, then Los Angeles, Chicago and the Commander at Large post"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:12:58",
+      "note": "removed after the Minneapolis killings and returned to El Centro, still serving at release"
+    }
+  ],
+  "notes": "Living subject, so main_span end is null and covered runs to the 2026 release. The 1909-1927 family immigration and 1924 Act segment (about 7 minutes) was treated as background, not part of Bovino's own story, so covered starts at his 1970 birth. fascism-far-right rests on the hosts' framing of the Trump-era raids and Bovino's coat; it could be dropped. Several states feature (CA, NC, IL, MN), so no subdivision was set."
+}

@@ -1,0 +1,162 @@
+{
+  "story_id": "laetrile-the-fake-cancer-cure-that-birthed-the-right-wing-medical-grifting-industry",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Laetrile",
+      "kind": "practice-or-pseudoscience",
+      "role": "primary"
+    },
+    {
+      "name": "Ernst T. Krebs Jr.",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1911, "end": 1996 }
+    },
+    {
+      "name": "Ernst T. Krebs Sr.",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1876, "end": 1970 }
+    },
+    {
+      "name": "Andrew McNaughton",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1961
+    },
+    {
+      "name": "John Birch Society",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "quackery-pseudoscience",
+    "secondary": [
+      "fraud-grift",
+      "public-health",
+      "fascism-far-right",
+      "child-abuse",
+      "religious-right-culture-war"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "MX", "CA"],
+    "subdivisions": ["US-CA"],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1949, "end": 1980 },
+    "covered_span": { "start": 1918, "end": 1982 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Ernst Krebs Sr. and Jr. marketed laetrile, an apricot-pit cyanide compound, as a cancer cure from the 1950s; the John Birch Society made it a far-right freedom cause as patients, including children, died.",
+  "content_warnings": ["child-death"],
+  "keywords": [
+    "vitamin B17",
+    "amygdalin",
+    "Tijuana",
+    "Ernesto Contreras",
+    "Cecile Hoffman",
+    "Robert W. Bradford",
+    "Committee for Freedom of Choice in Cancer Therapy",
+    "Chad Green",
+    "Steve McQueen",
+    "John Beard"
+  ],
+  "guests": ["Miles Gray"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:15:10",
+      "note": "Krebs Sr. turns to a Washo herbal remedy and sells Leptinol syrup during the 1918 flu pandemic"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:41:42",
+      "note": "per the official story, Krebs Jr. turns his father's compound into laetrile in 1949"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:44:29",
+      "note": "long biography of Krebs Jr.: failed medical school, honorary doctorate from an unaccredited Bible college"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:08:07",
+      "note": "McNaughton, Canadian gun-runner, funds laetrile and builds factories in seven countries from 1961"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:17:51",
+      "note": "Cecile Hoffman goes from Montreal to Tijuana, where Ernesto Contreras starts prescribing laetrile"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:31:20",
+      "note": "McNaughton convicted of stock fraud in Canada, moves to Tijuana to run clinics and smuggling"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:33:55",
+      "note": "John Birch Society enters in 1972 behind Dr. John Richardson; Bradford builds a national committee"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:38:13",
+      "note": "Birchers make medical freedom a conservative issue and push state legalisation laws"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:40:04",
+      "note": "children die of cyanide poisoning in 1977 after taking laetrile"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:48:47",
+      "note": "Chad Green and Joseph Hofbauer: parents pull children from chemo for laetrile, courts split on parental rights"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:53:42",
+      "note": "Steve McQueen dies in 1980 after laetrile treatment in Mexico; later trials find no benefit"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:56:27",
+      "note": "laetrile still sold as vitamin B17 in Mexican clinics; links drawn to RFK Jr. and ivermectin"
+    }
+  ],
+  "notes": "Primary subject is the drug, so roles are empty although the Krebses would be quack-fake-healer. Birth years from general knowledge (Krebs Jr. 1911; a source title in the description says 1912). Transcript says Krebs Jr. died in 1966; context shows 1996. 1830s amygdalin and 1890s trials treated as background. reaches_present rests on the RFK Jr. framing and the closing segment. child-abuse here means medical neglect of children by parents."
+}

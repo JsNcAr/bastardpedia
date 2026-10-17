@@ -1,0 +1,83 @@
+{
+  "story_id": "dr-sleep-the-australian-psychiatrist-who-made-people-sleep-themselves-to-death",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Harry Bailey",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1922, "end": 1985 }
+    },
+    {
+      "name": "Chelmsford Private Hospital",
+      "kind": "organization",
+      "org_type": "school-or-facility",
+      "role": "secondary"
+    },
+    {
+      "name": "Deep sleep therapy",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["psychiatrist-psychologist", "business-executive"],
+  "themes": {
+    "primary": "medical-malpractice",
+    "secondary": ["fraud-grift", "public-health", "child-abuse", "sexual-abuse"]
+  },
+  "regions": {
+    "origin": ["AU"],
+    "setting": ["AU"],
+    "subdivisions": ["AU-NSW"],
+    "polities": [],
+    "scope": "local"
+  },
+  "time": {
+    "main_span": { "start": 1963, "end": 1985 },
+    "covered_span": { "start": 1922, "end": 1985 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Sydney psychiatrist Harry Bailey ran deep sleep therapy at Chelmsford Private Hospital from 1963 to 1979, keeping patients in drugged comas for weeks, often with unconsented electroshock, for profit; dozens died.",
+  "content_warnings": ["medical-horror", "child-death", "child-abuse", "suicide-self-harm", "drug-use"],
+  "keywords": [
+    "Chelmsford Royal Commission",
+    "Callan Park",
+    "Sydney",
+    "electroconvulsive therapy",
+    "barbiturate coma",
+    "William Sargant",
+    "John Herron",
+    "Barry Hart",
+    "Toni Lamond",
+    "Church of Scientology"
+  ],
+  "guests": ["Gabe Dunn"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:08:40", "note": "Bailey born October 1922 in Picton, New South Wales" },
+    { "facet": "themes", "part": 1, "at": "00:23:29", "note": "long background on Australian asylums and the state of psychiatric care" },
+    { "facet": "subjects", "part": 1, "at": "00:28:00", "note": "extended history of deep sleep therapy, its drug cocktail and risks" },
+    { "facet": "time", "part": 1, "at": "01:06:06", "note": "private practice from 1962, joins Chelmsford as part owner in 1963" },
+    { "facet": "themes", "part": 1, "at": "01:06:39", "note": "fee plus revenue cut drove longer comas and inflated bills" },
+    { "facet": "themes", "part": 2, "at": "00:13:59", "note": "13-year-old anorexia patient shocked repeatedly without consent" },
+    { "facet": "content_warnings", "part": 2, "at": "00:25:22", "note": "14-year-old Craig dies in 1969 after four months of sedation" },
+    { "facet": "themes", "part": 2, "at": "00:57:45", "note": "24 to 27 deaths during therapy 1963-1979, plus later suicides" },
+    { "facet": "content_warnings", "part": 2, "at": "01:13:49", "note": "suicide of patient and lover Sharon Hamilton in 1977" },
+    { "facet": "themes", "part": 2, "at": "01:11:31", "note": "sexual relationships with female patients and staff" },
+    { "facet": "time", "part": 2, "at": "01:18:24", "note": "manslaughter charge 1983, dismissed 1985; suicide September 1985" }
+  ],
+  "notes": "Transcript says the Royal Commission was 1998; it actually sat 1988-1990. Its coverage is brief, so covered_span ends at Bailey's 1985 death. Asylum history from 1811 is background and excluded. Scientology's role (whistleblower nurse Rosa Nicholson) is a few minutes, kept to keywords. Description spells the guest Gabe Dunne; recorded as Gabe Dunn. Scope local: events centre on Sydney/NSW."
+}

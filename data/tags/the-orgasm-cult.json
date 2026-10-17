@@ -1,0 +1,145 @@
+{
+  "story_id": "the-orgasm-cult",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Nicole Daedone",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1964, "end": null }
+    },
+    {
+      "name": "OneTaste",
+      "kind": "organization",
+      "org_type": "cult",
+      "role": "primary"
+    },
+    {
+      "name": "Morehouse",
+      "kind": "organization",
+      "org_type": "cult",
+      "role": "secondary"
+    },
+    {
+      "name": "Welcomed Consensus",
+      "kind": "organization",
+      "org_type": "cult",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["cult-leader", "business-executive"],
+  "themes": {
+    "primary": "cults-new-religions",
+    "secondary": [
+      "sexual-abuse",
+      "wellness-self-help",
+      "labor-exploitation",
+      "fraud-grift",
+      "tech-internet"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-CA"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2001, "end": 2026 },
+    "covered_span": { "start": 1964, "end": 2026 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Nicole Daedone built OneTaste, a San Francisco orgasmic meditation company sold as a wellness startup, while coercing members into sex with paying clients and unpaid labor; she was convicted of forced labor conspiracy.",
+  "content_warnings": ["sexual-violence", "child-abuse"],
+  "keywords": [
+    "orgasmic meditation",
+    "OM",
+    "Empire of Orgasm",
+    "Ellen Huet",
+    "Victor Baranco",
+    "Rachel Cherwitz",
+    "Slow Sex",
+    "Reese Jones",
+    "San Francisco",
+    "forced labor conspiracy"
+  ],
+  "guests": ["Jamie Loftus"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:35:14",
+      "note": "Daedone's 1964 birth date given; start of the biography"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:52:25",
+      "note": "Long segment on the 1968 Morehouse commune and its founder Vic Baranco"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:03:28",
+      "note": "Welcomed Consensus splinter group, its leader and its violence, covered at length"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:18:22",
+      "note": "In 2001 she leaves the Welcomed Consensus to start her own group"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:04:26",
+      "note": "Members pushed into sex with wealthy prospects to sell classes"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "01:11:11",
+      "note": "Teaching of skillful violation: ignoring refusals as doctrine"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "01:03:07",
+      "note": "Members run a call center, go unpaid and take on credit card debt for courses"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:25:03",
+      "note": "2011 rebrand as a Silicon Valley body-hacking startup, TEDx talk"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "01:22:32",
+      "note": "Conviction for forced labor conspiracy and nine-year sentence earlier in 2026"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:37:34",
+      "note": "Father's child molestation arrests and her abuse discussed, revisited in parts 2 and 3"
+    }
+  ],
+  "notes": "Part 1 opens with long background on Greek myth, Hildegard of Bingen and Victorian hysteria; treated as background, not covered years. Morehouse and Welcomed Consensus are the lineage OneTaste grew from. The transcript spells the biographer Hewitt; keyword uses Ellen Huet. Conviction year left as the 2026 sentencing per the transcript."
+}

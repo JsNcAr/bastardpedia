@@ -1,0 +1,156 @@
+{
+  "story_id": "the-fake-bomb-detector-grift-that-killed-hundreds",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Fake bomb detectors (Gopher, Quadro Tracker, GT200, ADE 651)",
+      "kind": "practice-or-pseudoscience",
+      "role": "primary"
+    },
+    {
+      "name": "Ideomotor effect and dowsing",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    },
+    {
+      "name": "Quadro Corporation",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "James McCormick",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1956, "end": null }
+    },
+    {
+      "name": "Gary Bolton",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": null },
+      "floruit": 2001
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "fraud-grift",
+    "secondary": [
+      "quackery-pseudoscience",
+      "weapons-arms-trade",
+      "occult-esoteric",
+      "policing-incarceration",
+      "terrorism"
+    ]
+  },
+  "regions": {
+    "origin": ["US", "GB"],
+    "setting": ["IQ", "US", "GB", "TH", "MX", "EG"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1993, "end": 2013 },
+    "covered_span": { "start": 1808, "end": 2014 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "An empty golf-ball-finder gag gift was rebranded by US and British grifters, including James McCormick, as drug and bomb detectors and sold to some twenty countries, above all Iraq, where checkpoints relying on it failed to stop deadly bombings.",
+  "content_warnings": [],
+  "keywords": [
+    "ADE 651",
+    "GT200",
+    "Quadro Tracker",
+    "Gopher golf ball finder",
+    "Alpha 6",
+    "Samuel and Joan Tree",
+    "Wade Quattlebaum",
+    "James Randi",
+    "Clever Hans",
+    "2009 Baghdad Ministry of Justice bombing"
+  ],
+  "guests": ["Ed Zitron"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "low"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:16:16",
+      "note": "Chevreul's pendulum tests from 1808 begin the long 19th-century ideomotor debunking segment"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:20:21",
+      "note": "spiritism, seances and table turning, Wallace and Hare fooled by mediums"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:39:47",
+      "note": "digression on police drug dogs cueing on handlers, probable cause"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:47:04",
+      "note": "the Gopher golf ball finder introduced, late 1980s or early 1990s"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:07:13",
+      "note": "Gopher rebranded as Quadro Tracker and sold to US schools and police, 1993-1996"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:18:26",
+      "note": "FBI debunks tracker in 1996; Rowe moves to England and joins the Trees"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:35:38",
+      "note": "Bolton's GT200 marketed after 9/11 with Royal Engineers and embassy support"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:44:48",
+      "note": "Iraq becomes top buyer via bribes, over 5,000 units"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:49:40",
+      "note": "2009 Baghdad Ministry of Justice truck bomb passed a checkpoint using the device"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:54:20",
+      "note": "Thai security forces used the devices to justify detaining people in the south"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:54:51",
+      "note": "McCormick gets ten years; Egypt adaptation and 2014 Karachi airport attack follow"
+    }
+  ],
+  "notes": "Part One is mostly the history of the ideomotor effect (dowsing, spiritism, Clever Hans), listed as a secondary subject; covered_span starts at Chevreul in 1808 and leaves out the brief ancient dowsing background (2000 BCE onward). Arguably the whole 19th-century segment is background, which would start the span around 1990. Transcript renders Malcolm Stig Rowe and Wade Quaddlebaum; reporting spells Rowe and Quattlebaum. Gary Bolton's birth year is unknown."
+}

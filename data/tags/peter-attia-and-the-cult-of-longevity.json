@@ -1,0 +1,144 @@
+{
+  "story_id": "peter-attia-and-the-cult-of-longevity",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Peter Attia",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1973, "end": null }
+    },
+    {
+      "name": "Jeffrey Epstein",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1953, "end": 2019 }
+    },
+    {
+      "name": "McKinsey & Company",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Longevity medicine",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["physician-surgeon", "media-personality"],
+  "themes": {
+    "primary": "wellness-self-help",
+    "secondary": [
+      "public-health",
+      "medical-malpractice",
+      "misogyny-manosphere",
+      "sexual-abuse",
+      "child-abuse"
+    ]
+  },
+  "regions": {
+    "origin": ["CA"],
+    "setting": ["US", "CA"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2006, "end": null },
+    "covered_span": { "start": 1973, "end": 2026 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Canadian-born physician Peter Attia left surgical training to build a pricey US concierge longevity practice, podcast and bestseller, promoting thinly evidenced testing and drugs, until 2026 files exposed his ties to Jeffrey Epstein.",
+  "content_warnings": [],
+  "keywords": [
+    "Outlive",
+    "Medicine 3.0",
+    "The Peter Attia Drive",
+    "Early Medicine",
+    "Epstein files",
+    "Johns Hopkins",
+    "rapamycin",
+    "continuous glucose monitor",
+    "MAHA",
+    "CBS News"
+  ],
+  "guests": ["Kaveh Hoda"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:13:10",
+      "note": "extended placement of Attia within the manosphere, biohacker and wellness spheres"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:22:59",
+      "note": "concierge medicine shrinking access to care as a public health problem"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:25:57",
+      "note": "born in Toronto in 1973 to Egyptian immigrant parents; childhood segment follows"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:40:49",
+      "note": "unauthorized gentamicin dosing change during residency, then quitting surgery"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:03:08",
+      "note": "long McKinsey segment on its opioid work for Purdue and the settlements"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:12:41",
+      "note": "opens his private longevity clinic in 2014; podcast from 2018, book 2023"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:25:05",
+      "note": "harms of over-testing, early colonoscopy, off-label rapamycin and glucose monitors"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:55:29",
+      "note": "Epstein files segment: 2014 meeting, emails, referrals, CBS exit in 2026"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:58:55",
+      "note": "candidate Epstein introduced for a job was one of his victims"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:11:41",
+      "note": "2026 fallout: sponsors drop him and a lawsuit with Oura is ongoing"
+    }
+  ],
+  "notes": "main_span start 2006 is an estimate for leaving Hopkins residency and joining McKinsey; the transcript gives no year. sexual-abuse and child-abuse cover the Epstein segment (victims included adults and minors); no content warning added because abuse is discussed, not described in detail. medical-malpractice used for unauthorized dosing and over-testing harms; the host explicitly says Attia is not a quack."
+}

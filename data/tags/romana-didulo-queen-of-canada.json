@@ -1,0 +1,161 @@
+{
+  "story_id": "romana-didulo-queen-of-canada",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Romana Didulo",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1975, "end": null }
+    },
+    {
+      "name": "David Carlson",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2021
+    },
+    {
+      "name": "Corey and Daisy",
+      "kind": "group",
+      "role": "secondary"
+    },
+    {
+      "name": "Frank Curtin",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2022
+    },
+    {
+      "name": "QAnon",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["cult-leader", "conspiracy-theorist", "influencer-online"],
+  "themes": {
+    "primary": "cults-new-religions",
+    "secondary": [
+      "conspiracy-theories",
+      "fraud-grift",
+      "public-health",
+      "policing-incarceration",
+      "occult-esoteric"
+    ]
+  },
+  "regions": {
+    "origin": ["PH", "CA"],
+    "setting": ["CA"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2020, "end": 2025 },
+    "covered_span": { "start": 1975, "end": 2026 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Philippine-born Canadian Romana Didulo turned a failed pandemic-era party into a QAnon following that hailed her as Queen of Canada, urging followers to stop paying bills, threatening executions and leading an RV caravan across Canada from 2021.",
+  "content_warnings": [],
+  "keywords": [
+    "Queen of Canada",
+    "Kingdom of Canada",
+    "Canada First Party of Canada",
+    "I AM Activity",
+    "Ottawa trucker convoy",
+    "Peterborough",
+    "Richmond, Saskatchewan",
+    "Whiplash347",
+    "duck hunters",
+    "quantum financial system"
+  ],
+  "guests": ["Jason Petty"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:20:05",
+      "note": "born in the Philippines, probably in the 1970s; moved to Vancouver as a teenager"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:36:31",
+      "note": "2020 lockdowns prompt her to found the Canada First Party of Canada"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:48:30",
+      "note": "May 2021 video proclaims her commander in chief, start of the queen persona"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:00:11",
+      "note": "Arizona self-styled King of America David Carlson, said to have appointed her"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:08:34",
+      "note": "claims a psychic war against Chinese troops in tunnels under Canada"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:07:18",
+      "note": "her first big backer ran a crypto Ponzi scheme on Telegram"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:27:58",
+      "note": "November 2021 order to shoot anyone vaccinating children; execution threats"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:32:23",
+      "note": "January 2022 decree cancelling debts; followers lose utilities and homes"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:47:25",
+      "note": "Corey and Daisy, Telegram moderators turned inner circle, drive her to the Ottawa convoy"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:35:21",
+      "note": "followers try to arrest the Peterborough police force; several arrested"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "00:41:25",
+      "note": "RCMP arrest her at the Richmond school compound in fall 2025, latest event covered"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:06:35",
+      "note": "claims to be an alien from Arcturus sent by a divine creator"
+    }
+  ],
+  "notes": "Birth year is not stated beyond 'probably the 1970s'; 1975 is an estimate. A 12-minute opening segment on the 1930s I AM Activity is treated as background influence, not a subject, so it does not extend covered_span. Transcript dates the Peterborough event to August 2022. Main span ends at the 2025 arrest; story says it ends 'for now'."
+}

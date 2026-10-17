@@ -1,0 +1,161 @@
+{
+  "story_id": "martin-niemoller-the-author-of-first-they-came-was-a-murderous-fascist",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Martin Niemöller",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1892, "end": 1984 }
+    },
+    {
+      "name": "First They Came",
+      "kind": "media-work",
+      "role": "secondary"
+    },
+    {
+      "name": "Ruhr uprising",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "German Christians",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    },
+    {
+      "name": "Dietrich Bonhoeffer",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1906, "end": 1945 }
+    }
+  ],
+  "roles": ["religious-leader", "military-officer", "mercenary-warlord"],
+  "themes": {
+    "primary": "nazism",
+    "secondary": [
+      "war-war-crimes",
+      "organized-religion",
+      "racism-white-supremacy",
+      "coups-insurrections",
+      "monarchy-empire",
+      "propaganda-media"
+    ]
+  },
+  "regions": {
+    "origin": ["DE"],
+    "setting": ["DE", "GR", "US"],
+    "subdivisions": [],
+    "polities": ["german-empire", "weimar-republic", "nazi-germany"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1914, "end": 1946 },
+    "covered_span": { "start": 1892, "end": 1984 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "German U-boat officer turned Lutheran pastor Martin Niemöller sank Allied ships in World War I, fought communists with the Freikorps and backed Hitler until a church dispute put him in Nazi camps; only later did he write First They Came.",
+  "content_warnings": ["graphic-violence"],
+  "keywords": [
+    "U-39",
+    "HMHS Britannic",
+    "Amiral Magon",
+    "Kapp Putsch",
+    "Red Ruhr Army",
+    "Pastor Hall",
+    "Sachsenhausen",
+    "Dachau",
+    "Stuttgart Declaration of Guilt",
+    "Kaiser Wilhelm II"
+  ],
+  "guests": ["Margaret Killjoy"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:02:59",
+      "note": "opening segment reads the original poem, its variants and its Trump-era spread"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:14:20",
+      "note": "born January 1892 in Lippstadt, Westphalia"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:25:04",
+      "note": "Kaiser Wilhelm's naval obsession and the cadets' personal oath to the emperor"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:48:32",
+      "note": "1916 mines from his boat sink ships; start of the war conduct the story centres on"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:50:06",
+      "note": "Aegean mining off Kea sinks the hospital ship Britannic"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:53:26",
+      "note": "U-39 sinks a French troop ship and keeps rescuers away from men in the water"
+    },
+    {
+      "facet": "roles",
+      "part": 2,
+      "at": "00:09:08",
+      "note": "commands a Freikorps student battalion against the Red Ruhr Army in 1920"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:11:37",
+      "note": "joins volkisch antisemitic groups in the 1920s and later votes Nazi"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:24:01",
+      "note": "breaks with the German Christians over baptised Jews; church struggle begins"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:37:39",
+      "note": "US myth-making: Time cover, Pastor Hall play and film, fabricated memoir"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:52:08",
+      "note": "poem traced to a 1946 student meeting, origin disputed; used as main_span end"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:54:44",
+      "note": "1982 remark about becoming a revolutionary; dies in 1984"
+    }
+  ],
+  "notes": "Primary nazism over fascism-far-right: the story centres on his Nazi support and imprisonment. mercenary-warlord reflects his 1920 Freikorps command. main_span end 1946 is the disputed poem origin; postwar activism and the poem's modern reuse set reaches_present. Ancestry and Luther's antisemitism are background. Setting GR is inferred from the Kea/Aegean sinkings."
+}

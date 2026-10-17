@@ -1,0 +1,101 @@
+{
+  "story_id": "the-rise-of-the-activist-investor",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Bill Ackman",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1966, "end": null }
+    },
+    {
+      "name": "Activist investing",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    },
+    {
+      "name": "Pershing Square Capital Management",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "J.C. Penney",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Herbalife",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["financier-investor", "activist-organizer"],
+  "themes": {
+    "primary": "finance-crypto",
+    "secondary": [
+      "corporate-malfeasance",
+      "fraud-grift",
+      "propaganda-media",
+      "education",
+      "labor-exploitation"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2002, "end": null },
+    "covered_span": { "start": 1966, "end": 2026 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Hedge fund manager Bill Ackman, the archetypal US activist investor, made and lost billions forcing changes on companies like JCPenney and shorting Herbalife, then turned his money and online reach against Harvard and DEI.",
+  "content_warnings": [],
+  "keywords": [
+    "Gotham Partners",
+    "MBIA",
+    "Wendy's and Tim Hortons",
+    "General Growth Properties",
+    "Canadian Pacific Railway",
+    "Valeant Pharmaceuticals",
+    "Ron Johnson",
+    "Carl Icahn",
+    "Claudine Gay",
+    "Betting on Zero"
+  ],
+  "guests": ["Kim Kelly"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "subjects", "part": 1, "at": "00:02:03", "note": "episode framed around activist investors as a practice before naming its avatar" },
+    { "facet": "time", "part": 1, "at": "00:15:24", "note": "Ackman born May 1966 in Chappaqua, New York" },
+    { "facet": "themes", "part": 1, "at": "00:33:41", "note": "Harvard thesis on Jewish and Asian admissions, linked later to his campus campaigns" },
+    { "facet": "time", "part": 1, "at": "00:44:04", "note": "Gotham Partners and the 2002 MBIA short, with SEC and Spitzer scrutiny" },
+    { "facet": "themes", "part": 1, "at": "00:45:22", "note": "pattern of moving stock prices through media campaigns starts here" },
+    { "facet": "subjects", "part": 2, "at": "00:02:58", "note": "long JCPenney segment: Ron Johnson, ending coupons, collapse" },
+    { "facet": "themes", "part": 2, "at": "00:18:40", "note": "about 19,000 JCPenney layoffs blamed on headquarters staff" },
+    { "facet": "subjects", "part": 2, "at": "00:28:09", "note": "Herbalife short as an attack on a multi-level marketing scheme" },
+    { "facet": "themes", "part": 2, "at": "00:32:05", "note": "MLM lobby and DeVos/Amway political money protecting the industry" },
+    { "facet": "themes", "part": 2, "at": "00:55:10", "note": "campaign against Harvard and other university presidents after October 2023" },
+    { "facet": "time", "part": 2, "at": "01:07:09", "note": "2026 remarks backing the Iran war bring the story to release" }
+  ],
+  "notes": "Title avoids Ackman's name on purpose, but the story is his biography; activist investing is a secondary practice subject for the opening explainer. main_span starts at the 2002 MBIA bet (Gotham founding gets little time). Family history back to 1887 and the 1920s Harvard admissions are background, so covered_span starts at birth. activist-organizer reflects the Herbalife and Harvard campaigns; influencer-online was the alternative."
+}

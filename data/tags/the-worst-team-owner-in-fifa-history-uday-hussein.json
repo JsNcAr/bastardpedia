@@ -1,0 +1,145 @@
+{
+  "story_id": "the-worst-team-owner-in-fifa-history-uday-hussein",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Uday Hussein",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1964, "end": 2003 }
+    },
+    {
+      "name": "Latif Yahia",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1964, "end": null }
+    },
+    {
+      "name": "Ammo Baba",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1934, "end": 2009 }
+    }
+  ],
+  "roles": ["athlete-sports", "criminal-killer"],
+  "themes": {
+    "primary": "sports",
+    "secondary": [
+      "authoritarianism",
+      "policing-incarceration",
+      "propaganda-media",
+      "sexual-abuse",
+      "child-abuse"
+    ]
+  },
+  "regions": {
+    "origin": ["IQ"],
+    "setting": ["IQ", "MX"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1984, "end": 2003 },
+    "covered_span": { "start": 1964, "end": 2003 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "Saddam Hussein's eldest son Uday ran Iraqi football and its Olympic committee from 1984 until 2003, having players jailed, whipped and tortured in prison camps and red rooms after losses, while FIFA looked away.",
+  "content_warnings": ["torture", "sexual-violence", "suicide-self-harm"],
+  "keywords": [
+    "Al-Rashid football club",
+    "Iraq national football team",
+    "1986 World Cup",
+    "Lions of Mesopotamia",
+    "Iraqi Olympic Committee",
+    "Radwaniyah prison camp",
+    "The Devil's Double",
+    "Kamel Hana Gegeo",
+    "Sharar Haydar",
+    "Saddam Hussein"
+  ],
+  "guests": ["Molly Conger"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:05:05",
+      "note": "birth in 1964 given, with two competing birth dates"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:43:08",
+      "note": "Saddam hands him the Olympic committee and football federation at age twenty"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:52:28",
+      "note": "Iraq's matches at the 1986 World Cup in Mexico reviewed in some detail"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:14:07",
+      "note": "host argues Saddam abused the boy by exposing him to torture and executions"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:35:46",
+      "note": "rape and abduction allegations, including a bride who killed herself afterwards"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:26:14",
+      "note": "Latif Yahia's body-double claims and unchecked defector stories in Western press"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:04:41",
+      "note": "red rooms in state sports facilities used to punish players"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:10:24",
+      "note": "team captain held two weeks in a prison camp and flogged with cables"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:13:30",
+      "note": "segment on coach Ammo Baba resisting Uday and being beaten in a stadium"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:47:06",
+      "note": "FIFA investigates the 1997 abuse reports and finds nothing"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:57:05",
+      "note": "killed by US forces in 2003; story ends there"
+    }
+  ],
+  "notes": "Story deliberately limits itself to Uday's football career; his other crimes are covered only briefly. Main span starts at his appointment at age twenty (about 1984, estimated). The 1960s team history and the 2026 World Cup are background and coda only. Child-abuse is secondary because the host spends several minutes framing Saddam's treatment of the young Uday as abuse."
+}

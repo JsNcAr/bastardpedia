@@ -1,0 +1,137 @@
+{
+  "story_id": "the-naturopathic-doctor-who-bombed-a-plane",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Robert Vernon Spears",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1894, "end": 1969 }
+    },
+    {
+      "name": "Naturopathy",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    },
+    {
+      "name": "Benedict Lust",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1872, "end": 1945 }
+    },
+    {
+      "name": "William Allen Taylor",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": 1959 }
+    },
+    {
+      "name": "National Airlines Flight 967",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["con-artist", "quack-fake-healer", "criminal-killer"],
+  "themes": {
+    "primary": "fraud-grift",
+    "secondary": ["quackery-pseudoscience", "public-health", "wellness-self-help", "policing-incarceration"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "DE"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1913, "end": 1960 },
+    "covered_span": { "start": 1872, "end": 1969 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Lifelong American con man Robert Vernon Spears swindled wives and strangers for decades, became a leading Texas naturopath selling fake devices and dangerous illegal abortions, and is suspected of bombing National Airlines Flight 967 in 1959 for insurance money.",
+  "content_warnings": ["medical-horror"],
+  "keywords": [
+    "Clyde Stringer",
+    "Oscar Delano",
+    "Texas Naturopathic Association",
+    "Donald Loomis",
+    "Sebastian Kneipp",
+    "Robert Reddick",
+    "radionics",
+    "abortion paste",
+    "Weatherford, Oklahoma",
+    "Dallas"
+  ],
+  "guests": ["Brandie Posey"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:05:30",
+      "note": "Benedict Lust born in Germany in 1872; his life opens a long naturopathy history segment"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:36:38",
+      "note": "Spears born 1894 in Missouri under another name, mother also a con artist"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:45:14",
+      "note": "first headlines in 1913 for a forged railroad check; start of his criminal career"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:02:30",
+      "note": "convention con and fake job ads impersonating a millionaire in the 1920s"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:35:57",
+      "note": "Texas naturopath board loophole; fake license and diploma obtained around 1950"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:40:41",
+      "note": "weight-loss pills and radionics machines sold to wealthy Dallas housewives"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:51:34",
+      "note": "dangerous abortion paste copied from another naturopath; patient injured in 1959"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:56:21",
+      "note": "November 1959 flight swap with Taylor, plane lost over the Gulf with 42 aboard"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:59:28",
+      "note": "caught after hiding, convicted of other crimes, dies in prison"
+    }
+  ],
+  "notes": "Spears's death year (1969) is from outside knowledge; the transcript only says he died in prison not long after a five-year car-theft term. The plane bombing was for insurance money, not politics, so terrorism is left out and criminal-killer is used. DE is in the setting for Lust's German youth and the Kneipp cure segment. The transcript says the plane went down off Mexico, which probably means the Gulf of Mexico (US)."
+}

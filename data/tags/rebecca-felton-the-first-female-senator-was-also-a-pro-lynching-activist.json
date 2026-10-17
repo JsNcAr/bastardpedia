@@ -1,0 +1,133 @@
+{
+  "story_id": "rebecca-felton-the-first-female-senator-was-also-a-pro-lynching-activist",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Rebecca Latimer Felton",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1835, "end": 1930 }
+    },
+    {
+      "name": "Wilmington massacre of 1898",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "William Harrell Felton",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1823, "end": 1909 }
+    }
+  ],
+  "roles": ["activist-organizer", "politician-official", "journalist-propagandist"],
+  "themes": {
+    "primary": "racism-white-supremacy",
+    "secondary": [
+      "slavery-forced-labor",
+      "civil-war",
+      "moral-panics",
+      "coups-insurrections",
+      "sexual-abuse",
+      "electoral-politics"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-GA"],
+    "polities": ["confederate-states"],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1874, "end": 1922 },
+    "covered_span": { "start": 1835, "end": 1930 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Georgia plantation heiress and slaveholder Rebecca Felton became a suffragist and temperance and convict-leasing reformer, but also America's loudest advocate of lynching, helping incite the 1898 Wilmington coup before becoming the first woman US senator in 1922.",
+  "content_warnings": ["slavery", "sexual-violence", "mass-atrocity", "hate-speech"],
+  "keywords": [
+    "Wilmington coup",
+    "Alex Manly",
+    "Ida B. Wells",
+    "Alfred Moore Waddell",
+    "Red Shirts",
+    "convict leasing",
+    "Women's Christian Temperance Union",
+    "Decatur",
+    "Cartersville",
+    "Yazoo land fraud"
+  ],
+  "guests": ["Samantha McVey"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:02:16",
+      "note": "birth in 1835 near Decatur, Georgia on a large slaveholding plantation"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:32:22",
+      "note": "after marriage she runs a Cartersville plantation with about fifty enslaved people"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:01:17",
+      "note": "family flees Union army, loses plantation and children during the Civil War"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:04:52",
+      "note": "long segment on wartime rapes by soldiers and Union court-martials"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:11:43",
+      "note": "husband elected to Congress with her as campaign manager (transcript says 1784, clearly 1874)"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:16:25",
+      "note": "her campaign against Georgia convict leasing, abolished 1908"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:19:51",
+      "note": "1897 Savannah/Tybee speech endorsing lynching to stop alleged rapes"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:25:10",
+      "note": "Wilmington Fusion government and the 1898 white supremacist coup and massacre"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:34:05",
+      "note": "1922 appointment as senator for a day; death in 1930"
+    }
+  ],
+  "notes": "Transcript dates William Felton's first Congress run to 1784; it must be 1874. Guest name rendered McVeigh/McVay in transcript; Stuff Mom Never Told You co-host is Samantha McVey. Yazoo land fraud and Trail of Tears get a few minutes as family background only, so covered_span starts at her birth. Only US-GA listed in subdivisions though the Wilmington, NC segment is substantial."
+}

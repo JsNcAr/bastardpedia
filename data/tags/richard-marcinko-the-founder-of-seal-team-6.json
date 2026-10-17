@@ -1,0 +1,164 @@
+{
+  "story_id": "richard-marcinko-the-founder-of-seal-team-6",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Richard Marcinko",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1940,
+        "end": 2021
+      }
+    },
+    {
+      "name": "SEAL Team Six",
+      "kind": "organization",
+      "org_type": "military",
+      "role": "secondary"
+    },
+    {
+      "name": "United States Navy SEALs",
+      "kind": "organization",
+      "org_type": "military",
+      "role": "secondary"
+    },
+    {
+      "name": "Rogue Warrior",
+      "kind": "media-work",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["military-officer", "con-artist", "writer-intellectual"],
+  "themes": {
+    "primary": "war-war-crimes",
+    "secondary": [
+      "intelligence-covert-ops",
+      "fraud-grift",
+      "propaganda-media",
+      "entertainment-celebrity"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["VN", "AF", "IQ", "US", "GD", "PA"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": {
+      "start": 1967,
+      "end": 1992
+    },
+    "covered_span": {
+      "start": 1940,
+      "end": 2021
+    },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Richard Marcinko ran CIA-backed Phoenix raids in Vietnam, founded SEAL Team Six in 1980, was jailed for defrauding the Navy, then sold a self-mythologising memoir; the series traces the war crimes of the SEAL culture he shaped through Afghanistan and Iraq.",
+  "content_warnings": ["graphic-violence", "mass-atrocity", "torture", "child-death"],
+  "keywords": [
+    "Red Cell",
+    "Phoenix Program",
+    "DEVGRU",
+    "pipe hitter",
+    "Operation Iron Eagle",
+    "Eddie Gallagher",
+    "Chris Kyle",
+    "Marcus Luttrell",
+    "Captain Phillips rescue",
+    "Abbottabad raid"
+  ],
+  "guests": ["Andrew Ti"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:18:21",
+      "note": "born November 1940 in Lansford, Pennsylvania"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:05:54",
+      "note": "long intro on modern pipe-hitter operator branding and apparel; sets reaches_present"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:49:46",
+      "note": "first Vietnam deployment in 1967 running CIA Phoenix missions; main span starts here"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:14:27",
+      "note": "his platoon burns villages, booby-traps corpses; Dung Island killing of fishermen"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:35:01",
+      "note": "sells and builds SEAL Team Six, commanding it from 1980 to 1983"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:47:28",
+      "note": "fake lodging bills and dozens of other frauds while leading Team Six"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 3,
+      "at": "00:12:21",
+      "note": "1986 Red Cell abduction, beating and toilet waterboarding of security chief Ron Sheridan"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "00:21:41",
+      "note": "grenade kickback scheme; 1990 conviction and 21-month sentence"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:35:27",
+      "note": "1992 memoir and spin-off novel series; later video game with Mickey Rourke (part 4)"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:42:36",
+      "note": "Team Six killings and corpse mutilation in Afghanistan, 2002"
+    },
+    {
+      "facet": "regions",
+      "part": 4,
+      "at": "00:14:10",
+      "note": "Ramadi, Iraq: SEAL snipers including Chris Kyle accused of shooting civilians"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "00:49:38",
+      "note": "dies of a heart attack on 25 December 2021"
+    }
+  ],
+  "notes": "Parts 3-4 shift from Marcinko to SEAL misconduct in Grenada, Panama, Afghanistan, Iraq and the 2009 and 2011 raids; SEALs and Team Six kept secondary since the title is Marcinko. The WWII frogmen history (about 8 min) treated as background. Host misspeaks death year as 2001, then corrects to 2021. KH, IR, PK and Somali waters get brief segments and were left out of setting."
+}
