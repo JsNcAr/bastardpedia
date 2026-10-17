@@ -87,5 +87,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Agents: [CLAUDE.md](CLAUDE.md).
 
 ## License
 
-Code: MIT. Tag data and summaries: the author's own work. The episodes and
-transcripts belong to their owners.
+Code is MIT, the brand is all rights reserved, and the tag data is CC BY 4.0.
+The episode metadata belongs to the publisher. Details are in
+[LICENSING.md](LICENSING.md).
+
+Bastardpedia is an unofficial fan index. It is not affiliated with or endorsed
+by _Behind the Bastards_, Cool Zone Media or iHeartMedia.
