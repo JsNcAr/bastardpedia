@@ -1,0 +1,145 @@
+{
+  "story_id": "the-dr-laura-episodes",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Laura Schlessinger",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1947, "end": null }
+    },
+    {
+      "name": "Bill Ballance",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1918, "end": 2004 }
+    },
+    {
+      "name": "Barbara De Angelis",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1951, "end": null }
+    }
+  ],
+  "roles": ["media-personality", "psychiatrist-psychologist"],
+  "themes": {
+    "primary": "propaganda-media",
+    "secondary": [
+      "wellness-self-help",
+      "misogyny-manosphere",
+      "religious-right-culture-war",
+      "fraud-grift",
+      "racism-white-supremacy"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-CA"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1975, "end": null },
+    "covered_span": { "start": 1947, "end": 2024 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "American radio host Laura Schlessinger parlayed a physiology PhD and a start on Bill Ballance's 1970s Los Angeles show into a hugely popular call-in advice program that berated callers, mostly women, until a 2010 racial slur tirade.",
+  "content_warnings": ["hate-speech"],
+  "keywords": [
+    "Ten Stupid Things Women Do to Mess Up Their Lives",
+    "The Proper Care and Feeding of Husbands",
+    "Feminine Forum",
+    "KFI",
+    "Vicky Bain",
+    "Rush Limbaugh",
+    "Jordan Peterson",
+    "Liberty Lobby",
+    "Frasier",
+    "shock jock"
+  ],
+  "guests": ["Jamie Loftus"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:37:10",
+      "note": "born January 1947 in Brooklyn, raised on Long Island"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:06:24",
+      "note": "moves to Los Angeles to teach at USC; career thereafter centred on LA radio"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:07:31",
+      "note": "long segment on Bill Ballance, his Feminine Forum show and influence on talk radio"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:21:55",
+      "note": "first calls into Ballance's show in 1975, start of her radio career"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:13:36",
+      "note": "non-clinical PhD used to present herself as a doctor and therapist on air"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:31:52",
+      "note": "tells working mothers to quit careers while she kept working herself"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:46:00",
+      "note": "feud with rival Barbara De Angelis over credentials at KFI, anonymous complaints"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:00:54",
+      "note": "mid-1990s rise framed within conservative grievance and culture-war media"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:09:48",
+      "note": "book and modern videos telling wives never to refuse sex; calls women pigs"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:22:31",
+      "note": "2001 remarks calling homosexuality a biological error and the backlash"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "01:27:01",
+      "note": "2010 broadcast clip with repeated racial slur played; leads to her leaving the show"
+    }
+  ],
+  "notes": "Subject still active at release, so main_span end is null; main_span starts with her 1975 entry into radio. Transcript calls her doctorate kinesiology; it is generally given as physiology (Columbia, 1974). Host also slips once and names the first book as about men. misogyny-manosphere is an imperfect fit for her anti-feminist advice; no theme for advice/talk-show culture beyond propaganda-media and wellness-self-help."
+}

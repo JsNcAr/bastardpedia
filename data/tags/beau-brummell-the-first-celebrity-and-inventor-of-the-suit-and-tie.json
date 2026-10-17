@@ -1,0 +1,90 @@
+{
+  "story_id": "beau-brummell-the-first-celebrity-and-inventor-of-the-suit-and-tie",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Beau Brummell",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1778, "end": 1840 }
+    },
+    {
+      "name": "George IV",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1762, "end": 1830 }
+    },
+    {
+      "name": "Eton College",
+      "kind": "organization",
+      "org_type": "school-or-facility",
+      "role": "secondary"
+    },
+    {
+      "name": "10th Light Dragoons",
+      "kind": "organization",
+      "org_type": "military",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["entertainer-artist", "military-officer"],
+  "themes": {
+    "primary": "entertainment-celebrity",
+    "secondary": ["monarchy-empire", "education", "child-abuse", "finance-crypto"]
+  },
+  "regions": {
+    "origin": ["GB"],
+    "setting": ["GB", "FR"],
+    "subdivisions": ["GB-ENG"],
+    "polities": ["british-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1794, "end": 1816 },
+    "covered_span": { "start": 1778, "end": 1840 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Regency dandy George 'Beau' Brummell rose from Eton and the Prince of Wales's own regiment to dictate London men's fashion around 1800, shaping the modern suit and celebrity culture, before debt and a feud with the prince drove him into exile in France.",
+  "content_warnings": ["child-abuse"],
+  "keywords": [
+    "dandy",
+    "Regency",
+    "Savile Row",
+    "cravat",
+    "Great Masculine Renunciation",
+    "Calais",
+    "Julia Storer",
+    "Lady Hester Stanhope",
+    "Ian Kelly",
+    "Jane Austen"
+  ],
+  "guests": ["Princess Weekes"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "low",
+    "themes": "medium",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:13:46", "note": "birth in 1778 at Downing Street, father secretary to Lord North" },
+    { "facet": "subjects", "part": 1, "at": "00:32:25", "note": "long segment on Eton culture begins: classics, uniforms, drinking" },
+    { "facet": "themes", "part": 1, "at": "00:37:19", "note": "Eton flogging rituals and prefect beatings of young boys described" },
+    { "facet": "themes", "part": 1, "at": "00:40:52", "note": "fagging system and sexual abuse of younger pupils discussed" },
+    { "facet": "themes", "part": 1, "at": "01:04:43", "note": "teen first love made pregnant by a married colonel, shunned by society" },
+    { "facet": "subjects", "part": 2, "at": "00:25:25", "note": "extended segment on the Prince of Wales and his show regiment" },
+    { "facet": "time", "part": 2, "at": "00:34:16", "note": "joins the 10th Light Dragoons at sixteen, wins the prince's favour" },
+    { "facet": "themes", "part": 2, "at": "00:41:19", "note": "serves as best man at the prince's disastrous royal wedding" },
+    { "facet": "themes", "part": 2, "at": "01:07:54", "note": "lives on credit, gambling debts mount once royal protection ends" },
+    { "facet": "time", "part": 2, "at": "01:12:19", "note": "flees creditors to Calais in 1816" },
+    { "facet": "regions", "part": 2, "at": "01:14:36", "note": "final years in France: syphilis, imagined balls, dies in an asylum at 62" }
+  ],
+  "notes": "Roles: no role fits a fashion icon or socialite; entertainer-artist is the closest, influencer-online rejected because he predates the internet. The hosts conclude he was not really a bastard but it is not billed as a hero episode, so deep-dive. Transcript names Calais only; his death at Caen asylum (1840) is from outside knowledge and matches the stated age of 62. Military purchase-of-commission digression covered under the regiment subject."
+}

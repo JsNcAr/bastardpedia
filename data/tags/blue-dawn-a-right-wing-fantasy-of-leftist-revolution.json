@@ -1,0 +1,90 @@
+{
+  "story_id": "blue-dawn-a-right-wing-fantasy-of-leftist-revolution",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "media-reading",
+  "subjects": [
+    {
+      "name": "Blue Dawn (novel)",
+      "kind": "media-work",
+      "role": "primary"
+    },
+    {
+      "name": "Blaine Lee Pardoe",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1962, "end": null }
+    },
+    {
+      "name": "Defiance Press",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["writer-intellectual"],
+  "themes": {
+    "primary": "moral-panics",
+    "secondary": [
+      "propaganda-media",
+      "coups-insurrections",
+      "policing-incarceration",
+      "racism-white-supremacy",
+      "religious-right-culture-war"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2020, "end": 2021 },
+    "covered_span": { "start": 2012, "end": 2021 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "A reading of Blue Dawn, a 2021 novel by BattleTech author Blaine Lee Pardoe from right-wing vanity press Defiance Press, which imagines Antifa overthrowing the US government in 2020 and building a persecuting progressive state.",
+  "content_warnings": ["hate-speech"],
+  "keywords": [
+    "Antifa",
+    "Defiance Press",
+    "David Thomas Roberts",
+    "Patriots of Treason",
+    "Sons of Liberty",
+    "Social Enforcement",
+    "New America",
+    "BattleTech",
+    "Detroit",
+    "2020 George Floyd protests"
+  ],
+  "guests": ["Garrison Davis"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "subjects", "part": 1, "at": "00:02:57", "note": "Defiance Press founder and his 2012 novel about an Obama stand-in persecuting conservatives" },
+    { "facet": "time", "part": 1, "at": "00:07:33", "note": "founder starts Defiance Press after a 2012 vanity-publisher slight; its catalogue surveyed" },
+    { "facet": "subjects", "part": 1, "at": "00:11:30", "note": "Blue Dawn and author Pardoe introduced, known for BattleTech novels" },
+    { "facet": "time", "part": 1, "at": "00:13:03", "note": "book published July 2021; opens with a fictional Antifa coup after the 2020 election" },
+    { "facet": "themes", "part": 1, "at": "00:26:21", "note": "host cites research on how news media frame protest movements" },
+    { "facet": "themes", "part": 1, "at": "00:38:58", "note": "novel's mob-run Social Enforcement agency and its camps, read at length" },
+    { "facet": "themes", "part": 1, "at": "00:55:11", "note": "novel's reparations point system ranking people by identity" },
+    { "facet": "content_warnings", "part": 2, "at": "00:11:35", "note": "extended reading of the novel's caricatured Muslim confrontation and Sharia talk" },
+    { "facet": "themes", "part": 2, "at": "00:20:03", "note": "host contrasts with real 2017 mosque arsons" },
+    { "facet": "themes", "part": 2, "at": "00:29:15", "note": "host on bystander deaths in police chases" },
+    { "facet": "themes", "part": 2, "at": "00:38:30", "note": "host details sheriff deputies harassing families of people they killed" },
+    { "facet": "themes", "part": 2, "at": "00:43:40", "note": "novel's press censorship committee and the media blamed for the uprising" }
+  ],
+  "notes": "Primary theme moral-panics: the episode frames the novel as right-wing fear of an invented Antifa threat; propaganda-media was a close alternative. Covered span runs from the Defiance Press origin (about 2012) to the 2021 publication; the novel's fictional 2020-2025 future is not real history. Pardoe birth year from general knowledge, not stated in the packet. Novel's bodies-with-cut-throats scene is brief, so no graphic-violence warning."
+}

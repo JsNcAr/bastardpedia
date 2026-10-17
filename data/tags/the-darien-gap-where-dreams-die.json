@@ -1,0 +1,86 @@
+{
+  "story_id": "the-darien-gap-where-dreams-die",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "crossover",
+  "subjects": [
+    {
+      "name": "Darién Gap",
+      "kind": "place",
+      "role": "primary"
+    },
+    {
+      "name": "Emberá people of Bajo Chiquito",
+      "kind": "ethnic-group",
+      "role": "secondary"
+    },
+    {
+      "name": "Lajas Blancas migrant reception center",
+      "kind": "organization",
+      "org_type": "school-or-facility",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "immigration-borders",
+    "secondary": [
+      "policing-incarceration",
+      "diplomacy-foreign-policy",
+      "sexual-abuse",
+      "authoritarianism",
+      "racism-white-supremacy"
+    ]
+  },
+  "regions": {
+    "origin": ["PA", "CO"],
+    "setting": ["PA", "CO", "MX", "US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2024, "end": 2024 },
+    "covered_span": { "start": 2023, "end": 2024 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Field reporting from the Darién Gap in 2024 on migrants crossing the jungle between Colombia and Panama, the Emberá villages that receive them, and US-funded Panamanian deportations and border policies that make the route deadlier.",
+  "content_warnings": [],
+  "keywords": [
+    "Bajo Chiquito",
+    "Lajas Blancas",
+    "Emberá",
+    "Necoclí",
+    "SENAFRONT",
+    "José Raúl Mulino",
+    "CBP One",
+    "Doctors Without Borders",
+    "Venezuelan election 2024",
+    "It Could Happen Here"
+  ],
+  "guests": ["James Stout"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "format", "part": 1, "at": "00:00:03", "note": "Introduced as a compilation of a week of It Could Happen Here episodes" },
+    { "facet": "themes", "part": 1, "at": "00:27:44", "note": "Panama's new president vows to close the gap with US money; deportations funded by the US" },
+    { "facet": "themes", "part": 1, "at": "01:10:07", "note": "Sexual assault on the trail and Panama expelling Doctors Without Borders after it reported it" },
+    { "facet": "themes", "part": 1, "at": "01:21:04", "note": "Venezuela's disputed July 2024 election and economic collapse as drivers of migration" },
+    { "facet": "themes", "part": 1, "at": "01:46:20", "note": "African migrants face anti-blackness and targeted crime along the route" },
+    { "facet": "subjects", "part": 1, "at": "01:58:18", "note": "Description of the Lajas Blancas camp as the frontline of US border policy" },
+    { "facet": "themes", "part": 1, "at": "02:15:45", "note": "Families separated as men are loaded for deportation flights from Lajas Blancas" },
+    { "facet": "regions", "part": 1, "at": "02:23:39", "note": "Lawyer explains CBP One and migrants stuck waiting in Mexico" },
+    { "facet": "time", "part": 1, "at": "00:10:41", "note": "Over half a million crossed the previous year (2023), more expected in 2024" }
+  ],
+  "notes": "Crossover: a week of It Could Happen Here reporting by James Stout republished in the BtB feed; time and regions filled anyway. Story is reportage, not history, so covered_span is 2023-2024. Bajo Chiquito's 1965 founding is a passing mention. Deaths of children and sexual assault are mentioned repeatedly but not described in detail, so no content warnings were added; reviewer may want child-death."
+}

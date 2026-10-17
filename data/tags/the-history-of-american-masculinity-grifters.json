@@ -1,0 +1,162 @@
+{
+  "story_id": "the-history-of-american-masculinity-grifters",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "American masculinity grifters",
+      "kind": "movement-or-ideology",
+      "role": "primary"
+    },
+    {
+      "name": "Modern Day Knight Project",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Gamergate",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Charles Atlas",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1892, "end": 1972 }
+    },
+    {
+      "name": "Jack Murphy",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2015
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "misogyny-manosphere",
+    "secondary": [
+      "moral-panics",
+      "wellness-self-help",
+      "quackery-pseudoscience",
+      "tech-internet",
+      "fascism-far-right",
+      "propaganda-media"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1890, "end": null },
+    "covered_span": { "start": 1890, "end": 2024 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "A history of recurring American panics over a supposed crisis of masculinity, from the 1890s to today, and the grifters who profit from them, from Charles Atlas's bodybuilding ads to boot camps, leg-lengthening surgery and Gamergate-era influencers.",
+  "content_warnings": [],
+  "keywords": [
+    "crisis of masculinity",
+    "manfluencers",
+    "bicycle panic",
+    "Cartilage Company",
+    "Shahab Mahboubian",
+    "limb lengthening",
+    "seed oils",
+    "Arthur Schlesinger Jr.",
+    "The Crisis of American Masculinity (Esquire, 1958)",
+    "Steve Bannon"
+  ],
+  "guests": ["Miles Gray"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:10:54",
+      "note": "opening segment on a pricey three-day SEAL-style boot camp for wealthy men"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:31:36",
+      "note": "Gamergate summarised and compared to the turn-of-the-century panic over female teachers"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:37:20",
+      "note": "1890s bicycling craze and the medical panic over women cyclists, the earliest period covered at length"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:45:22",
+      "note": "early 1900s height-stretching machines sold through magazine ads"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:47:20",
+      "note": "modern cosmetic leg-lengthening surgeon marketing to short men on TikTok"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:58:08",
+      "note": "Depression-era study of unemployed men from 1935-36 and the turn to hobbies"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:00:50",
+      "note": "Bannon and Milo harness Gamergate for the alt-right; 8chan drifts into Nazi organizing and 2019 shootings"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:00:45",
+      "note": "Charles Atlas ads from 1930 and his career as a strongman-turned-mail-order guru"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:10:53",
+      "note": "seed-oil conspiracy pushed by a carnivore-diet influencer account in 2023"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:21:49",
+      "note": "1950s magazine articles fretting that women dominate the American male"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:37:16",
+      "note": "Jack Murphy: charter school executive turned masculinity blogger and coach from 2015"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:42:15",
+      "note": "late 2021 scandal over Murphy's past ends his standing on the right"
+    }
+  ],
+  "notes": "Survey story with no single bastard, so the primary subject is the grifter movement and roles are empty. Schlesinger's 1958 Esquire essay gets about 9 minutes but he is a panic writer, not a grifter, so he is a keyword; the 5-subject cap also left out Shahab Mahboubian and the Carnivore Aurelius account. Colonial-era ideals are background; covered_span starts at the 1890s bicycle panic. Jack Murphy's birth year is not given."
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "we-read-newt-gingrich-s-world-war-2-alternate-history",
+    "format": "media-reading",
+    "low": [],
+    "notes": "No theme for literature or publishing; electoral-politics chosen as primary because the episode frames the novel through Gingrich's career, with nazism and war themes coming from the fictional plot. US-TN reflects the novel's central fictional setting. Covered span follows the Gingrich biography segment (1943 to end of speakership in 1999); the novel's fictional 1945 falls inside it."
+  },
+  {
+    "id": "we-read-marjorie-taylor-green-s-book",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Title misspells Greene. Book publication year (2023) inferred from the Tucker firing reference and outside knowledge; Sophie obtained a signed copy at the 2024 RNC (framing anecdote, not counted in covered_span). Sophie reads the book and acts as co-host but is a producer, so not listed as a guest. Short, digressive episode; themes are each only a few minutes. Lifetime rule not applied (media-reading)."
+  },
+  {
+    "id": "how-lawrence-of-arabia-invented-modern-war",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript gives Dahoum's death as 1916 from typhus; some sources say 1918. His birth year is unstated (about 14 in 1911), so left null. The 1946 Giap anecdote is treated as legacy, not covered span. Antisemitic motives behind British Zionism (Sykes, Clayton) get a few minutes; racism-white-supremacy left out as secondary. main_span runs from the revolt to the 1922 Seven Pillars text."
+  },
+  {
+    "id": "the-darien-gap-where-dreams-die",
+    "format": "crossover",
+    "low": [],
+    "notes": "Crossover: a week of It Could Happen Here reporting by James Stout republished in the BtB feed; time and regions filled anyway. Story is reportage, not history, so covered_span is 2023-2024. Bajo Chiquito's 1965 founding is a passing mention. Deaths of children and sexual assault are mentioned repeatedly but not described in detail, so no content warnings were added; reviewer may want child-death."
+  },
+  {
+    "id": "how-peter-thiel-became-the-gravedigger-of-democracy",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "main_span starts at PayPal (1998) per the encyclopedia test; the Stanford Review and Diversity Myth years are in covered_span. Namibia was under South African occupation, hence the polity. electoral-politics (2016 RNC, Vance and Masters donations) and policing-incarceration (LAPD Palantir use) also get segments but were left out to stay within eight secondary themes. No wikidata QID given. The Jeff Thomas suicide is mentioned only briefly, so no warning."
+  },
+  {
+    "id": "the-history-of-american-masculinity-grifters",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Survey story with no single bastard, so the primary subject is the grifter movement and roles are empty. Schlesinger's 1958 Esquire essay gets about 9 minutes but he is a panic writer, not a grifter, so he is a keyword; the 5-subject cap also left out Shahab Mahboubian and the Carnivore Aurelius account. Colonial-era ideals are background; covered_span starts at the 1890s bicycle panic. Jack Murphy's birth year is not given."
+  },
+  {
+    "id": "america-s-first-fascist-governor",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript spells Ellis Arnall as Arnell/Arnold. 1926 start of main_span (first Agriculture Commissioner win) comes from general knowledge; transcript gives only the 1928 re-election. Scope set to national for the long anti-FDR and presidential-bid arc, though nearly all events are in Georgia; local is defensible. reaches_present false: modern parallels are comparisons and the legacy coda (statue, corporate power) is brief."
+  },
+  {
+    "id": "apollo-quiboloy-the-jeffrey-epstein-of-the-philippines",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "No theme for human trafficking; covered by slavery-forced-labor plus immigration-borders (visa fraud), the latter a loose fit. main_span ends at the 2024 arrest since he was in custody at release. Duterte's lifespan is from general knowledge. Hawaii and California both matter, so no single US subdivision. Transcript renders Mount Apo as Mount Oppo."
+  },
+  {
+    "id": "the-inventor-of-those-troubled-teen-wilderness-camps-where-they-kill-kids",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Larry Olsen born 1939 per transcript; death year not stated (an obituary is among the sources), so floruit 1966 used instead of a lifespan with a null end that would imply he is alive. Samoa assumed to be independent Samoa (WS); the transcript only says the South Pacific island of Samoa, so AS is possible. Hawaii, US Virgin Islands and Costa Rica camps get only brief mentions. Industry legacy to 2023 sets reaches_present rather than extending covered_span."
+  },
+  {
+    "id": "curtis-yarvin-the-philosopher-behind-j-d-vance",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Lifetime rule sets covered_span 1973-2024 (alive at release). Monarchy-empire considered for his CEO-monarch theory but left out: the story is about a modern ideologue, not monarchy as an institution. Peter Thiel recurs throughout as funder but has no segment of his own, so he is a keyword. Childhood stints in Cyprus and the Dominican Republic are brief and not added to setting. Breivik and birther material are short segments, not themes."
+  },
+  {
+    "id": "that-time-ebay-s-private-spies-went-to-war-with-some-bloggers",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary is eBay because the host frames the whole C-suite as the bastard, so roles are empty. Transcript renders Baugh as Bog/Baw, Wymer as Weimer, Cooke as Cook; standard spellings used. HBGary and Black Cube are context, not covered years. Wenig's pre-eBay career is brief, so covered_span starts at the 1999 site launch. End 2024 is eBay's 3M payment (DPA, January 2024)."
+  },
+  {
+    "id": "thomas-kinkade-the-evil-est-painter",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Vocabulary gap: no theme for fine art or the art market; entertainment-celebrity is the closest fit. Part 1 spends several minutes comparing his style and business to present-day AI-generated Facebook images; treated as a comparison, so artificial-intelligence was left out. reaches_present is borderline: the legacy segment is short but the AI comparison and the company's continued licensing tie the story to the present."
+  },
+  {
+    "id": "how-the-liberal-media-helped-fascism-win",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Story is about institutions, so primary subjects are Ullstein and the NYT and roles are empty; La Stampa stands in for the Italian section (L'Illustrazione Italiana in keywords). Long present-day segments (Gaza coverage, Trump, Vance) are comparisons and do not extend covered_span, but the framing that the same media families still run US papers sets reaches_present. No content warning: the Holocaust is discussed as press coverage, not described in detail."
+  },
+  {
+    "id": "louis-van-schoor-the-deadliest-security-guard-in-history",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "main_span ends 1992 for his conviction; the transcript gives the 1991 arrest but not the conviction year, which comes from general knowledge. Start 1986 is approximate (host thinks killings began earlier at Falcon). The colonial history segment is background for themes only, not counted in covered_span. No theme for serial killers; policing-incarceration plus criminal-killer carry it. Sabrina's end year null as her status is not stated."
+  },
+  {
+    "id": "do-we-really-need-to-talk-about-kevin",
+    "format": "crossover",
+    "low": [],
+    "notes": "Format crossover: a Weird Little Guys episode (Molly Conger) republished in the BtB feed. Roles and time filled anyway since it is a biography. Covered span starts at the 1974 Alliance founding; Strom's early-1970s Birch Society start is about a minute. Virginia and West Virginia both central, so no subdivision. Transcript spells Gliebe as Glebe. Birth year 1956 from general knowledge."
+  },
+  {
+    "id": "blue-dawn-a-right-wing-fantasy-of-leftist-revolution",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Primary theme moral-panics: the episode frames the novel as right-wing fear of an invented Antifa threat; propaganda-media was a close alternative. Covered span runs from the Defiance Press origin (about 2012) to the 2021 publication; the novel's fictional 2020-2025 future is not real history. Pardoe birth year from general knowledge, not stated in the packet. Novel's bodies-with-cut-throats scene is brief, so no graphic-violence warning."
+  },
+  {
+    "id": "the-rfk-jr-episodes",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Host frames the Kennedy dynasty itself as the main bastard; no theme fits dynasties, so electoral-politics stands in. Patrick and P.J. Kennedy (1849-1880s) get only a few minutes, so covered_span starts at Joseph P. Kennedy's 1888 birth. main_span starts at birth because childhood is half the story. Lem Billings has a real segment but is a keyword to keep subjects at five. Kenya and Egypt safaris are brief and left out of setting."
+  },
+  {
+    "id": "beau-brummell-the-first-celebrity-and-inventor-of-the-suit-and-tie",
+    "format": "deep-dive",
+    "low": ["roles"],
+    "notes": "Roles: no role fits a fashion icon or socialite; entertainer-artist is the closest, influencer-online rejected because he predates the internet. The hosts conclude he was not really a bastard but it is not billed as a hero episode, so deep-dive. Transcript names Calais only; his death at Caen asylum (1840) is from outside knowledge and matches the stated age of 62. Military purchase-of-commission digression covered under the regiment subject."
+  },
+  {
+    "id": "the-dr-laura-episodes",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Subject still active at release, so main_span end is null; main_span starts with her 1975 entry into radio. Transcript calls her doctorate kinesiology; it is generally given as physiology (Columbia, 1974). Host also slips once and names the first book as about men. misogyny-manosphere is an imperfect fit for her anti-feminist advice; no theme for advice/talk-show culture beyond propaganda-media and wellness-self-help."
+  },
+  {
+    "id": "the-july-4th-terrible-right-wing-novel-spectacular",
+    "format": "media-reading",
+    "low": ["subjects", "roles", "themes", "regions", "time"],
+    "notes": "No transcript; tagged from a one-line description and the episode URL slug only. Title of the novel and name of the author (Robert's former boss) are not given, so the author is not listed and roles are empty; add both via override. Guest inferred from the slug 'with-magpie' (Margaret Killjoy). Setting, years and themes are guesses; the novel is only dated to the 1990s."
+  },
+  {
+    "id": "how-avery-brundage-gave-hitler-an-olympics",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Narrative ends at the 1936 opening ceremony; covered_span runs to 1975 only because of the lifetime rule, as his IOC presidency and death are barely mentioned. Ancient Olympics (about five minutes) treated as background. Transcript gives 1929 for his AOC presidency (usually given as 1928). Hate-speech warning for repeated reading of antisemitic letters by Brundage and Baillet-Latour."
+  },
+  {
+    "id": "how-the-british-empire-and-u-s-department-of-defense-murdered-an-island-paradise",
+    "format": "deep-dive",
+    "low": ["time"],
+    "notes": "Part 1 has no transcript; its description says the islands were settled by former slaves, so covered_span starts at the 1783 plantation settlement of Diego Garcia as an estimate (time confidence low). If Part 1 spends little time on that history, the start should move to the 1960s. Mauritius independence (1968) and the Polaris deal were likely in Part 1 but are unverified."
+  },
+  {
+    "id": "thomas-jefferson-king-of-hypocrites",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Opens with Ho Chi Minh's 1945 quotation of the Declaration as a legacy frame; treated as comparison, not covered years. Haiti gets a short segment (a few minutes), so HT is last in setting. Presidency is explicitly skipped. reaches_present rests on the historiography and 1998 DNA segment; arguable. Sally Hemings lifespan from general knowledge."
+  },
+  {
+    "id": "kent-hovind-fake-dinosaur-scholar-and-accidental-child-killer",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary theme: young-earth creationism treated as pseudoscience; no dedicated creationism theme. The host repeatedly says Arkansas but corrects to Alabama (Conecuh County). Birthplace uncertain in transcript (Pensacola vs Illinois); origin US either way. Chris Jones floruit is an anchor year (2019 visit); his crimes date from 2001-2004."
+  },
+  {
+    "id": "boston-slide-cop",
+    "format": "crossover",
+    "low": [],
+    "notes": "Crossover from Jamie Loftus's Sixteenth Minute. The officer was never identified, so the primary subject is the incident rather than a person and roles are left empty. Covered span starts with the 2020 founding of the POST Commission, which gets a long interview segment. No theme for public records or government transparency; policing-incarceration covers it."
+  }
+]

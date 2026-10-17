@@ -1,0 +1,151 @@
+{
+  "story_id": "that-time-ebay-s-private-spies-went-to-war-with-some-bloggers",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "eBay",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "primary"
+    },
+    {
+      "name": "Jim Baugh",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": null },
+      "floruit": 2019
+    },
+    {
+      "name": "Devin Wenig",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1966, "end": null }
+    },
+    {
+      "name": "Steve Wymer",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": null },
+      "floruit": 2019
+    },
+    {
+      "name": "Ina and David Steiner",
+      "kind": "group",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "corporate-malfeasance",
+    "secondary": [
+      "intelligence-covert-ops",
+      "tech-internet",
+      "propaganda-media",
+      "policing-incarceration"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-MA"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2019, "end": 2024 },
+    "covered_span": { "start": 1999, "end": 2024 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "In 2019 eBay's corporate security team, egged on by executives angered by mild critical coverage, stalked and terrorized Ina and David Steiner, a Massachusetts couple who ran the trade news site EcommerceBytes.",
+  "content_warnings": [],
+  "keywords": [
+    "EcommerceBytes",
+    "AuctionBytes",
+    "Natick",
+    "Fido Master",
+    "Stephanie Popp",
+    "David Harville",
+    "Philip Cooke",
+    "Brian Gilbert",
+    "HBGary",
+    "Elliott Management"
+  ],
+  "guests": ["Jason Pargin"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:27:51",
+      "note": "Steiners launch their eBay-focused news site in 1999"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:36:00",
+      "note": "Wenig introduced: born 1966 in Brooklyn, career before eBay"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:07:44",
+      "note": "background segment on HBGary and the corporate private-intelligence industry"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:47:17",
+      "note": "Elliott Management stake puts executives under pressure over waste"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:50:48",
+      "note": "security director Baugh enters; his CIA background follows"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:14:52",
+      "note": "June 2019: contractor surveils the Steiners' home near Boston, harassment begins"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:48:10",
+      "note": "Natick detective traces pizza payment to a card bought near eBay HQ"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:01:25",
+      "note": "message deletions; Wenig implicated, resigns with large exit package"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:08:15",
+      "note": "guilty pleas, prison sentences and eBay's 3 million dollar payment"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:09:48",
+      "note": "Steiners' civil suit still ongoing; Wenig's later board seats"
+    }
+  ],
+  "notes": "Primary is eBay because the host frames the whole C-suite as the bastard, so roles are empty. Transcript renders Baugh as Bog/Baw, Wymer as Weimer, Cooke as Cook; standard spellings used. HBGary and Black Cube are context, not covered years. Wenig's pre-eBay career is brief, so covered_span starts at the 1999 site launch. End 2024 is eBay's 3M payment (DPA, January 2024)."
+}

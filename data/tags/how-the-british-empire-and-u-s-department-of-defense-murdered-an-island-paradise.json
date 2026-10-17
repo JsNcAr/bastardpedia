@@ -1,0 +1,98 @@
+{
+  "story_id": "how-the-british-empire-and-u-s-department-of-defense-murdered-an-island-paradise",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Expulsion of the Chagossians",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Chagossians",
+      "kind": "ethnic-group",
+      "role": "secondary"
+    },
+    {
+      "name": "United States Department of Defense",
+      "kind": "organization",
+      "org_type": "military",
+      "role": "secondary"
+    },
+    {
+      "name": "Foreign and Commonwealth Office",
+      "kind": "organization",
+      "org_type": "government-agency",
+      "role": "secondary"
+    },
+    {
+      "name": "Navy-Culebra protests",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "colonialism-imperialism",
+    "secondary": [
+      "diplomacy-foreign-policy",
+      "immigration-borders",
+      "slavery-forced-labor",
+      "war-war-crimes"
+    ]
+  },
+  "regions": {
+    "origin": ["GB", "US"],
+    "setting": ["IO", "MU", "SC", "GB", "PR", "US"],
+    "subdivisions": [],
+    "polities": ["british-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1965, "end": 1973 },
+    "covered_span": { "start": 1783, "end": 2022 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Between 1965 and 1973 Britain carved the Chagos Islands out of colonial Mauritius and, at US request, secretly expelled the islanders, descendants of enslaved people, so the US could build a military base on Diego Garcia.",
+  "content_warnings": ["animal-cruelty", "child-death"],
+  "keywords": [
+    "Diego Garcia",
+    "Chagos Islands",
+    "British Indian Ocean Territory",
+    "Peros Banhos",
+    "Elmo Zumwalt",
+    "Rita Bancoult",
+    "Island of Shame",
+    "David Vine",
+    "Culebra",
+    "Bruce Greatbatch"
+  ],
+  "guests": ["Andrew Ti"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "low"
+  },
+  "evidence": [
+    { "facet": "time", "part": 2, "at": "00:12:37", "note": "US Navy demands in 1965 that the islands be emptied before the base is built" },
+    { "facet": "themes", "part": 2, "at": "00:16:10", "note": "BIOT created and 1965 US-UK deal; slow exile begins by stranding travellers in Mauritius" },
+    { "facet": "themes", "part": 2, "at": "00:18:43", "note": "Foreign Office memos on hiding the islanders' status and denying them citizenship" },
+    { "facet": "themes", "part": 2, "at": "00:21:11", "note": "Islander family descended from people enslaved and brought from Madagascar" },
+    { "facet": "content_warnings", "part": 2, "at": "00:23:58", "note": "Young daughter dies of gangrene after waiting months for a ship; a son dies at eleven" },
+    { "facet": "subjects", "part": 2, "at": "00:38:24", "note": "Long segment on the Navy shelling Culebra, Puerto Rico, and the protests that expelled it" },
+    { "facet": "regions", "part": 2, "at": "00:35:47", "note": "Deportees shipped to the Seychelles and held in a prison on arrival" },
+    { "facet": "content_warnings", "part": 2, "at": "00:51:31", "note": "Islanders' dogs shot, poisoned, then gassed with vehicle exhaust and burned" },
+    { "facet": "time", "part": 2, "at": "00:57:46", "note": "Diego Garcia emptied in 1971, the outer islands by 1973" },
+    { "facet": "themes", "part": 2, "at": "01:03:29", "note": "Base used for the 1973 war, Desert Storm prepositioned ships and alleged torture" },
+    { "facet": "time", "part": 2, "at": "01:05:49", "note": "Court cases: 2000 ruling, 2004 Orders in Council, 2016 ban, talks with Mauritius from 2022" }
+  ],
+  "notes": "Part 1 has no transcript; its description says the islands were settled by former slaves, so covered_span starts at the 1783 plantation settlement of Diego Garcia as an estimate (time confidence low). If Part 1 spends little time on that history, the start should move to the 1960s. Mauritius independence (1968) and the Polaris deal were likely in Part 1 but are unverified."
+}

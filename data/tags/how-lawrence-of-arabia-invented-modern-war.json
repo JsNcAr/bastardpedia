@@ -1,0 +1,162 @@
+{
+  "story_id": "how-lawrence-of-arabia-invented-modern-war",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "T. E. Lawrence",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1888, "end": 1935 }
+    },
+    {
+      "name": "Arab Revolt",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Faisal I of Iraq",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1885, "end": 1933 }
+    },
+    {
+      "name": "Dahoum",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": 1916 }
+    },
+    {
+      "name": "Mark Sykes",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1879, "end": 1919 }
+    }
+  ],
+  "roles": ["military-officer", "spy-intelligence", "writer-intellectual"],
+  "themes": {
+    "primary": "war-war-crimes",
+    "secondary": [
+      "colonialism-imperialism",
+      "diplomacy-foreign-policy",
+      "intelligence-covert-ops",
+      "science-exploration",
+      "sexual-abuse"
+    ]
+  },
+  "regions": {
+    "origin": ["GB"],
+    "setting": ["SA", "JO", "SY", "TR", "EG", "GB"],
+    "subdivisions": [],
+    "polities": ["british-empire", "ottoman-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1916, "end": 1922 },
+    "covered_span": { "start": 1888, "end": 1935 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "British archaeologist turned intelligence officer T. E. Lawrence helped lead the 1916-1918 Arab Revolt against the Ottomans, codifying modern insurgent warfare while knowing Britain and France planned to carve up the region, and ordered prisoners massacred near Deraa.",
+  "content_warnings": ["mass-atrocity", "sexual-violence", "graphic-violence"],
+  "keywords": [
+    "Lawrence of Arabia",
+    "Seven Pillars of Wisdom",
+    "Sykes-Picot Agreement",
+    "Balfour Declaration",
+    "Hejaz Railway",
+    "Aqaba",
+    "Tafas massacre",
+    "Carchemish",
+    "Auda Abu Tayi",
+    "Faisal-Weizmann Agreement"
+  ],
+  "guests": ["Margaret Killjoy"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:18:41",
+      "note": "birth in Wales in 1888 opens the biography"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "00:55:14",
+      "note": "retirement and fatal motorcycle crash in 1935 close the story"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:59:40",
+      "note": "archaeological apprenticeship and Carchemish dig, years of fieldwork before the war"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:04:00",
+      "note": "Carchemish dig site placed in far southern Turkey on the Syrian border"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:17:46",
+      "note": "Kitchener uses Lawrence's Sinai survey as cover for a spying operation"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:24:15",
+      "note": "commissioned into army intelligence and posted to Cairo in 1914"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:42:44",
+      "note": "his theory of irregular war in depth along the Hejaz railway"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:33:37",
+      "note": "long segment on Mark Sykes, Sykes-Picot and the Balfour Declaration"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 3,
+      "at": "00:46:18",
+      "note": "extended discussion of his account of torture and rape at Deraa and doubts about it"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 4,
+      "at": "00:08:51",
+      "note": "no-quarter order after Tafas and machine-gunning of about 250 prisoners"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:19:41",
+      "note": "postwar lobbying in London and the Faisal-Weizmann agreement"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "00:31:23",
+      "note": "legacy: 2014 interviews with descendants of Bedouin fighters and later reappraisals"
+    }
+  ],
+  "notes": "Transcript gives Dahoum's death as 1916 from typhus; some sources say 1918. His birth year is unstated (about 14 in 1911), so left null. The 1946 Giap anecdote is treated as legacy, not covered span. Antisemitic motives behind British Zionism (Sykes, Clayton) get a few minutes; racism-white-supremacy left out as secondary. main_span runs from the revolt to the 1922 Seven Pillars text."
+}

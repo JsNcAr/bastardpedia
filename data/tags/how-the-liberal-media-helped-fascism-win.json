@@ -1,0 +1,157 @@
+{
+  "story_id": "how-the-liberal-media-helped-fascism-win",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Ullstein Verlag",
+      "kind": "organization",
+      "org_type": "media-outlet",
+      "role": "primary"
+    },
+    {
+      "name": "The New York Times",
+      "kind": "organization",
+      "org_type": "media-outlet",
+      "role": "primary"
+    },
+    {
+      "name": "La Stampa",
+      "kind": "organization",
+      "org_type": "media-outlet",
+      "role": "secondary"
+    },
+    {
+      "name": "Arthur Hays Sulzberger",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1891, "end": 1968 }
+    },
+    {
+      "name": "Dorothy Thompson",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1893, "end": 1961 }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "propaganda-media",
+    "secondary": [
+      "nazism",
+      "fascism-far-right",
+      "labor-exploitation",
+      "racism-white-supremacy",
+      "genocide-mass-killing"
+    ]
+  },
+  "regions": {
+    "origin": ["DE", "US"],
+    "setting": ["DE", "US", "IT"],
+    "subdivisions": [],
+    "polities": ["weimar-republic", "kingdom-of-italy", "nazi-germany"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1919, "end": 1945 },
+    "covered_span": { "start": 1918, "end": 1945 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "How the leading liberal newspapers of Italy, Weimar Germany and the United States, notably La Stampa, the Ullstein house and The New York Times, downplayed fascist violence, sided against the left and buried the Holocaust between 1919 and 1945.",
+  "content_warnings": [],
+  "keywords": [
+    "L'Illustrazione Italiana",
+    "Tempo (Ullstein magazine)",
+    "Frederick Birchall",
+    "Adolph Ochs",
+    "Who Goes Nazi?",
+    "Biennio Rosso",
+    "Arditi del Popolo",
+    "Alfred Hugenberg",
+    "Kurt Tucholsky",
+    "Jewish Telegraphic Agency"
+  ],
+  "guests": ["Michael Swaim"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:13:19",
+      "note": "Italian section starts at the end of WWI in 1918 and runs to the March on Rome"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:16:33",
+      "note": "1920 factory occupations and Red Guards dismissed by the liberal Italian papers"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:21:01",
+      "note": "fascists destroy left-wing papers while liberal press excuses squadristi violence"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:35:46",
+      "note": "pivot to the Ullstein publishing house, Weimar's largest liberal press"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:02:22",
+      "note": "Ullstein backs coalition with the Nazis; Tempo pushes consumption in 1932"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:06:23",
+      "note": "Part 2 turns to the US press and its fondness for Mussolini and Hitler"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:16:16",
+      "note": "NYT Berlin correspondent Birchall downplays Nazi persecution in 1933"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:23:44",
+      "note": "Ochs and Sulzberger avoid covering Nazi persecution of Jews to look impartial"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:27:30",
+      "note": "NYT front-page treatment of the Holocaust through the end of the war in 1945"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:49:33",
+      "note": "Dorothy Thompson's 1941 Harper's essay closes the historical narrative"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:05:00",
+      "note": "framed by present-day NYT and Washington Post conduct under the same families"
+    }
+  ],
+  "notes": "Story is about institutions, so primary subjects are Ullstein and the NYT and roles are empty; La Stampa stands in for the Italian section (L'Illustrazione Italiana in keywords). Long present-day segments (Gaza coverage, Trump, Vance) are comparisons and do not extend covered_span, but the framing that the same media families still run US papers sets reaches_present. No content warning: the Holocaust is discussed as press coverage, not described in detail."
+}

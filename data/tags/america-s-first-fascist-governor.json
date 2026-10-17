@@ -1,0 +1,173 @@
+{
+  "story_id": "america-s-first-fascist-governor",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Eugene Talmadge",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1884,
+        "end": 1946
+      }
+    },
+    {
+      "name": "Herman Talmadge",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1913,
+        "end": 2002
+      }
+    },
+    {
+      "name": "Cocking Affair",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Three Governors Controversy",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Moore's Ford lynching",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["politician-official", "dictator-autocrat"],
+  "themes": {
+    "primary": "fascism-far-right",
+    "secondary": [
+      "authoritarianism",
+      "racism-white-supremacy",
+      "electoral-politics",
+      "coups-insurrections",
+      "education",
+      "labor-exploitation"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-GA"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": {
+      "start": 1926,
+      "end": 1946
+    },
+    "covered_span": {
+      "start": 1884,
+      "end": 1947
+    },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Georgia agriculture commissioner and governor Eugene Talmadge ruled through martial law, old executive loopholes and the National Guard in the 1930s and 1940s, crushed textile strikes, purged educators over integration and campaigned on open white supremacy until his death in 1946.",
+  "content_warnings": ["graphic-violence", "hate-speech"],
+  "keywords": [
+    "The Wild Man from Sugar Creek",
+    "county unit system",
+    "red suspenders",
+    "The Statesman",
+    "Grassroots Convention",
+    "Franklin D. Roosevelt",
+    "Tom Watson",
+    "Ralph McGill",
+    "Ellis Arnall",
+    "1934 textile strike"
+  ],
+  "guests": ["Garrison Davis"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:07:26",
+      "note": "first son born to Thomas and Carrie Talmadge in 1884"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:44:49",
+      "note": "beats J.J. Brown for Agricultural Commissioner, start of his statewide power"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:02:33",
+      "note": "declares martial law at the Capitol in June 1933 and seizes the Highway Department"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:31:00",
+      "note": "1934 textile strikes broken by 4,000 guardsmen and barbed-wire detention camps"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:53:17",
+      "note": "anti-FDR Grassroots Convention under Confederate flags with racist literature"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:08:06",
+      "note": "fires the comptroller and treasurer in 1936; guardsmen carry the treasurer out"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:46:46",
+      "note": "refuses to concede the 1938 Senate loss and alleges voter fraud"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:57:35",
+      "note": "attacked for reading Hitler's book seven times and admiring European dictators"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:05:41",
+      "note": "Cocking Affair: purges educators over integration, state universities lose accreditation"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 4,
+      "at": "00:50:51",
+      "note": "vivid account of the July 1946 Moore's Ford lynching and his possible role"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "00:57:57",
+      "note": "dies December 21 (1946) weeks before his fourth inauguration"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "00:58:46",
+      "note": "Herman's claim to the office and the 1947 three governors standoff"
+    }
+  ],
+  "notes": "Transcript spells Ellis Arnall as Arnell/Arnold. 1926 start of main_span (first Agriculture Commissioner win) comes from general knowledge; transcript gives only the 1928 re-election. Scope set to national for the long anti-FDR and presidential-bid arc, though nearly all events are in Georgia; local is defensible. reaches_present false: modern parallels are comparisons and the legacy coda (statue, corporate power) is brief."
+}

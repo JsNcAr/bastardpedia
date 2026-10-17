@@ -1,0 +1,67 @@
+{
+  "story_id": "boston-slide-cop",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "crossover",
+  "subjects": [
+    { "name": "Boston slide cop incident", "kind": "event", "role": "primary" },
+    { "name": "Boston Police Department", "kind": "organization", "org_type": "police", "role": "secondary" },
+    { "name": "Massachusetts Peace Officer Standards and Training Commission", "kind": "organization", "org_type": "government-agency", "role": "secondary" }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "policing-incarceration",
+    "secondary": ["tech-internet", "propaganda-media"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-MA"],
+    "polities": [],
+    "scope": "local"
+  },
+  "time": {
+    "main_span": { "start": 2023, "end": 2024 },
+    "covered_span": { "start": 2020, "end": 2024 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "A Sixteenth Minute episode in which Jamie Loftus tries to identify the unnamed Boston police officer who went viral in 2023 for crashing down a City Hall Plaza slide, and finds how Massachusetts police shield officer records from the public.",
+  "content_warnings": [],
+  "keywords": [
+    "Sixteenth Minute",
+    "City Hall Plaza",
+    "Boston City Hall",
+    "Michelle Wu",
+    "Jason Koebler",
+    "404 Media",
+    "Massachusetts Public Records Law",
+    "Freedom of Information Act",
+    "Puerto Rican Festival of Massachusetts",
+    "Mass Transparency"
+  ],
+  "guests": ["Jamie Loftus", "Molly Conger", "Jeff Raymond"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "format", "part": 1, "at": "00:00:37", "note": "Loftus introduces her own show Sixteenth Minute; episode republished in the BtB feed" },
+    { "facet": "time", "part": 1, "at": "00:09:12", "note": "Video of the officer's slide crash posted on Twitter in early August 2023" },
+    { "facet": "time", "part": 1, "at": "00:28:49", "note": "FOIA incident report dates the crash to late July 2023 during a festival" },
+    { "facet": "themes", "part": 1, "at": "00:33:54", "note": "Conger explains the Massachusetts privacy exemption used to withhold the name" },
+    { "facet": "time", "part": 1, "at": "00:41:13", "note": "Police disciplinary database from the 2020 post-Floyd oversight commission released" },
+    { "facet": "subjects", "part": 1, "at": "00:46:26", "note": "Raymond describes the POST Commission and his records requests to every department" },
+    { "facet": "themes", "part": 1, "at": "00:57:25", "note": "Appellate document cites fear of officers being mocked on social media" },
+    { "facet": "time", "part": 1, "at": "00:59:57", "note": "Spring 2024 state high court transparency ruling discussed" },
+    { "facet": "themes", "part": 1, "at": "01:03:57", "note": "Search through precinct officers turns up misconduct records of other cops" }
+  ],
+  "notes": "Crossover from Jamie Loftus's Sixteenth Minute. The officer was never identified, so the primary subject is the incident rather than a person and roles are left empty. Covered span starts with the 2020 founding of the POST Commission, which gets a long interview segment. No theme for public records or government transparency; policing-incarceration covers it."
+}

@@ -1,0 +1,155 @@
+{
+  "story_id": "how-avery-brundage-gave-hitler-an-olympics",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Avery Brundage",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1887, "end": 1975 }
+    },
+    {
+      "name": "1936 Summer Olympics",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Pierre de Coubertin",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1863, "end": 1937 }
+    },
+    {
+      "name": "Henri de Baillet-Latour",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1876, "end": 1942 }
+    },
+    {
+      "name": "Charles Hitchcock Sherrill",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1867, "end": 1936 }
+    }
+  ],
+  "roles": ["athlete-sports", "business-executive"],
+  "themes": {
+    "primary": "sports",
+    "secondary": [
+      "nazism",
+      "racism-white-supremacy",
+      "propaganda-media",
+      "labor-exploitation"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["DE", "US", "FR"],
+    "subdivisions": [],
+    "polities": ["nazi-germany"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1933, "end": 1936 },
+    "covered_span": { "start": 1863, "end": 1975 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "American Olympic official Avery Brundage, an admirer of Hitler with antisemitic views, toured Nazi Germany and campaigned to defeat the US boycott of the 1936 Berlin Olympics, partly to win a seat on the IOC.",
+  "content_warnings": ["hate-speech"],
+  "keywords": [
+    "Berlin Olympics",
+    "Olympic boycott",
+    "amateurism",
+    "Jeremiah Mahoney",
+    "Ernest Lee Jahncke",
+    "Theodor Lewald",
+    "Gretel Bergmann",
+    "Helene Mayer",
+    "Jesse Owens",
+    "Nuremberg Laws"
+  ],
+  "guests": ["Matt Lieb"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:10:44",
+      "note": "long Coubertin segment begins: birth 1863, Franco-Prussian war, reviving the Games"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:22:38",
+      "note": "amateur rules framed as a way to keep working-class athletes out"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:31:11",
+      "note": "Brundage born 1887 in Detroit to a stonecutter who left the family"
+    },
+    {
+      "facet": "roles",
+      "part": 1,
+      "at": "00:37:58",
+      "note": "construction superintendent in Chicago, later rebuilds a fortune after 1929 crash"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:46:38",
+      "note": "AAU-NCAA deal lets colleges certify amateurs; later student-athlete case of 1955"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:57:48",
+      "note": "after Hitler takes power in 1933, boycott push begins and Brundage opposes it"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:20:13",
+      "note": "Brundage drops boycott support to please IOC leaders and gain a seat"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:25:26",
+      "note": "1934 inspection trip to Germany with staged meetings with Jewish athletes"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:33:47",
+      "note": "Sherrill sent to meet Hitler in 1935, proposes token Jewish athletes"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:45:24",
+      "note": "Brundage's antisemitic correspondence and claims of a Jewish conspiracy"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:55:24",
+      "note": "story closes at the August 1936 opening ceremony in Berlin"
+    }
+  ],
+  "notes": "Narrative ends at the 1936 opening ceremony; covered_span runs to 1975 only because of the lifetime rule, as his IOC presidency and death are barely mentioned. Ancient Olympics (about five minutes) treated as background. Transcript gives 1929 for his AOC presidency (usually given as 1928). Hate-speech warning for repeated reading of antisemitic letters by Brundage and Baillet-Latour."
+}

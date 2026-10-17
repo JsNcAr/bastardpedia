@@ -1,0 +1,168 @@
+{
+  "story_id": "the-rfk-jr-episodes",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1954, "end": null }
+    },
+    {
+      "name": "The Kennedy family",
+      "kind": "group",
+      "role": "secondary"
+    },
+    {
+      "name": "Children's Health Defense",
+      "kind": "organization",
+      "org_type": "ngo",
+      "role": "secondary"
+    },
+    {
+      "name": "2019 Samoa measles outbreak",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Michael Skakel",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1960, "end": null }
+    }
+  ],
+  "roles": ["conspiracy-theorist", "activist-organizer", "politician-official"],
+  "themes": {
+    "primary": "public-health",
+    "secondary": [
+      "conspiracy-theories",
+      "electoral-politics",
+      "drugs",
+      "child-abuse",
+      "sexual-abuse",
+      "domestic-abuse"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "WS", "PE"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1954, "end": null },
+    "covered_span": { "start": 1888, "end": 2024 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Robert F. Kennedy Jr., raised amid the pressure and tragedies of the Kennedy dynasty, went from heroin addiction and environmental law to leading an anti-vaccine group whose 2019 campaign in Samoa preceded a deadly measles epidemic.",
+  "content_warnings": [
+    "drug-use",
+    "child-abuse",
+    "sexual-violence",
+    "suicide-self-harm",
+    "child-death"
+  ],
+  "keywords": [
+    "Kennedy curse",
+    "Camelot",
+    "Joseph P. Kennedy",
+    "Lem Billings",
+    "Millbrook School",
+    "Martha Moxley",
+    "Riverkeeper",
+    "Mary Richardson Kennedy",
+    "Andrew Wakefield",
+    "brain worm"
+  ],
+  "guests": ["Cody Johnston"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:20:55",
+      "note": "Joseph P. Kennedy born 1888; long segment on his rise sets covered_span start"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:50:18",
+      "note": "RFK Jr. born January 1954; childhood fills most of parts 1 and 2"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:14:59",
+      "note": "after the 1968 assassination his mother beats him and repeatedly expels him from home"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:48:00",
+      "note": "teenage drug use escalates to heroin; arrested for marijuana at sixteen"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:06:14",
+      "note": "1974 Apurimac river expedition in Peru staged to build a heroic image"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:30:00",
+      "note": "1983 overdose on a plane diverted to Rapid City, heroin arrest and probation"
+    },
+    {
+      "facet": "subjects",
+      "part": 3,
+      "at": "00:42:58",
+      "note": "after Skakel's 2002 conviction he pushes an alternative-suspects theory of the Moxley murder"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:53:08",
+      "note": "babysitter's account of groping and harassment in his home, 1998-99"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:10:05",
+      "note": "divorce fight with Mary Richardson ends with her 2012 suicide"
+    },
+    {
+      "facet": "subjects",
+      "part": 4,
+      "at": "00:29:31",
+      "note": "chairs Children's Health Defense, founded 2007 as World Mercury Project"
+    },
+    {
+      "facet": "regions",
+      "part": 4,
+      "at": "00:33:24",
+      "note": "his group's campaign in Samoa halts MMR use; 2019 outbreak kills 83, mostly young children"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "00:46:11",
+      "note": "2023-24 presidential campaign and recorded call with Trump about a job"
+    }
+  ],
+  "notes": "Host frames the Kennedy dynasty itself as the main bastard; no theme fits dynasties, so electoral-politics stands in. Patrick and P.J. Kennedy (1849-1880s) get only a few minutes, so covered_span starts at Joseph P. Kennedy's 1888 birth. main_span starts at birth because childhood is half the story. Lem Billings has a real segment but is a keyword to keep subjects at five. Kenya and Egypt safaris are brief and left out of setting."
+}

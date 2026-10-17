@@ -1,0 +1,48 @@
+{
+  "story_id": "the-july-4th-terrible-right-wing-novel-spectacular",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "media-reading",
+  "subjects": [
+    {
+      "name": "Navy SEAL novel by Robert Evans' former boss (title not in packet)",
+      "kind": "media-work",
+      "role": "primary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "fascism-far-right",
+    "secondary": ["war-war-crimes", "propaganda-media"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1990, "end": 1999 },
+    "covered_span": { "start": 1990, "end": 1999 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "Robert Evans and a guest read a 1990s right-wing novel that fetishizes Navy SEALs, written by a man who was once Robert's boss, as a July 4th special.",
+  "content_warnings": [],
+  "keywords": ["Navy SEALs", "July 4th special", "military thriller", "Robert's old boss"],
+  "guests": ["Margaret Killjoy"],
+  "confidence": {
+    "subjects": "low",
+    "roles": "low",
+    "themes": "low",
+    "regions": "low",
+    "time": "low"
+  },
+  "evidence": [],
+  "notes": "No transcript; tagged from a one-line description and the episode URL slug only. Title of the novel and name of the author (Robert's former boss) are not given, so the author is not listed and roles are empty; add both via override. Guest inferred from the slug 'with-magpie' (Margaret Killjoy). Setting, years and themes are guesses; the novel is only dated to the 1990s."
+}

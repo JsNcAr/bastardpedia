@@ -1,0 +1,166 @@
+{
+  "story_id": "the-inventor-of-those-troubled-teen-wilderness-camps-where-they-kill-kids",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Steve Cartisano",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1955,
+        "end": 2019
+      }
+    },
+    {
+      "name": "Challenger Foundation",
+      "kind": "organization",
+      "org_type": "school-or-facility",
+      "role": "secondary"
+    },
+    {
+      "name": "Larry Dean Olsen",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1966
+    },
+    {
+      "name": "North Star Expeditions",
+      "kind": "organization",
+      "org_type": "school-or-facility",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["business-executive", "con-artist", "military-officer"],
+  "themes": {
+    "primary": "child-abuse",
+    "secondary": [
+      "moral-panics",
+      "propaganda-media",
+      "religious-right-culture-war",
+      "fraud-grift",
+      "organized-religion"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "WS", "PR"],
+    "subdivisions": ["US-UT"],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": {
+      "start": 1988,
+      "end": 2001
+    },
+    "covered_span": {
+      "start": 1955,
+      "end": 2019
+    },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Former Air Force survival instructor Steve Cartisano founded Utah's Challenger Foundation in 1988, pioneering boot-camp wilderness programs where hired escorts abducted teens; children were starved and beaten, and some died.",
+  "content_warnings": ["child-abuse", "child-death", "torture"],
+  "keywords": [
+    "troubled teen industry",
+    "wilderness therapy",
+    "Kristin Chase",
+    "Aaron Bacon",
+    "Michelle Sutton",
+    "Lance Jagger (Horsehair)",
+    "Anasazi Foundation",
+    "Summit Quest",
+    "Hell Camp (Netflix documentary)",
+    "Oliver North"
+  ],
+  "guests": ["Mara Wilson"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:10:37",
+      "note": "long segment on Larry Olsen, his BYU survival course and the deaths in his programs"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:32:48",
+      "note": "Cartisano born August 1955 in Modesto, California"
+    },
+    {
+      "facet": "roles",
+      "part": 1,
+      "at": "00:34:32",
+      "note": "enlists in the Air Force in 1974 as a rescue parachutist and survival instructor"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:41:17",
+      "note": "Challenger Foundation launched in 1988 on a boot-camp model"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:08:52",
+      "note": "daytime talk show appearances and Oliver North used to market the camps to fearful parents"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:05:02",
+      "note": "parents' rights movement and Utah's permissive laws explain why the camps are legal"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:23:14",
+      "note": "Kristin Chase dies at Challenger in June 1990; criminal trial ends in acquittal"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:37:37",
+      "note": "ex-staff found North Star Expeditions; Aaron Bacon dies there in 1994"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:51:48",
+      "note": "lone Mormon state regulator trusts fellow church members and clears North Star"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "01:01:48",
+      "note": "unlicensed camps in Puerto Rico and Samoa, boys found tied up with nooses"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:02:49",
+      "note": "operates under the alias Stephen Michaels to keep selling programs"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:07:00",
+      "note": "dies of a heart attack in 2019; epilogue on industry scale and 2021-2023 Utah reforms"
+    }
+  ],
+  "notes": "Larry Olsen born 1939 per transcript; death year not stated (an obituary is among the sources), so floruit 1966 used instead of a lifespan with a null end that would imply he is alive. Samoa assumed to be independent Samoa (WS); the transcript only says the South Pacific island of Samoa, so AS is possible. Hawaii, US Virgin Islands and Costa Rica camps get only brief mentions. Industry legacy to 2023 sets reaches_present rather than extending covered_span."
+}

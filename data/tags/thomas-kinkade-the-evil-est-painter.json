@@ -1,0 +1,159 @@
+{
+  "story_id": "thomas-kinkade-the-evil-est-painter",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Thomas Kinkade",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1958,
+        "end": 2012
+      }
+    },
+    {
+      "name": "Media Arts Group",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Fire and Ice (1983 film)",
+      "kind": "media-work",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["entertainer-artist", "business-executive", "con-artist"],
+  "themes": {
+    "primary": "fraud-grift",
+    "secondary": [
+      "finance-crypto",
+      "religious-right-culture-war",
+      "sexual-abuse",
+      "drugs",
+      "entertainment-celebrity"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": {
+      "start": 1989,
+      "end": 2012
+    },
+    "covered_span": {
+      "start": 1958,
+      "end": 2012
+    },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "American painter Thomas Kinkade, the self-styled Painter of Light, sold mass-produced, lightly retouched prints as investments through a Christian-branded gallery franchise that ruined its owners, while groping employees before dying of an overdose in 2012.",
+  "content_warnings": ["sexual-violence", "drug-use"],
+  "keywords": [
+    "Painter of Light",
+    "Lighthouse Publishing",
+    "Thomas Kinkade Signature Galleries",
+    "master highlighters",
+    "Placerville",
+    "Thomas Kinkade's Christmas Cottage",
+    "James Gurney",
+    "Ralph Bakshi",
+    "Joan Didion",
+    "Thomas Kinkade University"
+  ],
+  "guests": ["Randy Milholland"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:15:42",
+      "note": "born January 1958 in Sacramento, raised in Placerville by a single mother"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:34:22",
+      "note": "Bakshi hires Kinkade and Gurney to paint backgrounds for the 1983 film Fire and Ice"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:52:39",
+      "note": "by 1989 he wins startup money from an investor by overstating his print sales"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:56:27",
+      "note": "prints dabbed with paint by hired highlighters marketed as unique, appreciating investments"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:06:40",
+      "note": "casts art critics as liberal elites, selling his prints as a culture-war stance"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:10:39",
+      "note": "1994 IPO of Lighthouse Publishing and the rise of its share price"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:44:12",
+      "note": "stock allegedly driven down before he took the firm private; 2006 arbitration award to gallery owners"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:36:54",
+      "note": "member of a Bush presidential prayer team; art framed as conservative ideology"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:39:13",
+      "note": "2002 South Bend gathering where he gropes a gallery employee, per arbitration testimony"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:52:46",
+      "note": "after his separation, a DUI arrest, jail time and repeated relapses"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:53:28",
+      "note": "dies April 2012 at 54 of alcohol and Valium intoxication"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:55:36",
+      "note": "estate fight, the company continuing after his death and a study on disliking his art"
+    }
+  ],
+  "notes": "Vocabulary gap: no theme for fine art or the art market; entertainment-celebrity is the closest fit. Part 1 spends several minutes comparing his style and business to present-day AI-generated Facebook images; treated as a comparison, so artificial-intelligence was left out. reaches_present is borderline: the legacy segment is short but the AI comparison and the company's continued licensing tie the story to the present."
+}
