@@ -1,6 +1,12 @@
 import { QueryClient, useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { createContext, useContext } from 'react';
-import type { CatalogSource, LibraryEntry, LibraryRepository } from '@/data';
+import type {
+  CatalogSource,
+  LibraryEntry,
+  LibraryRepository,
+  LibrarySnapshot,
+  ListenStatus,
+} from '@/data';
 
 /**
  * Data reaches components through context, and reads go through TanStack
@@ -68,6 +74,31 @@ export function useSaveLibraryEntry() {
       }
       return library.put(entry);
     },
+    onSuccess: async () => {
+      await client.invalidateQueries({ queryKey: keys.library });
+    },
+  });
+}
+
+/** One status on many stories at once. Resolves to the snapshot an undo needs. */
+export function useBulkStatus() {
+  const { library } = useData();
+  const client = useQueryClient();
+  return useMutation({
+    mutationFn: ({ ids, status }: { ids: readonly string[]; status: ListenStatus | null }) =>
+      library.setStatusMany(ids, status),
+    onSuccess: async () => {
+      await client.invalidateQueries({ queryKey: keys.library });
+    },
+  });
+}
+
+/** Undo a bulk write from its snapshot. */
+export function useRestoreLibrary() {
+  const { library } = useData();
+  const client = useQueryClient();
+  return useMutation({
+    mutationFn: (snapshot: LibrarySnapshot) => library.restore(snapshot),
     onSuccess: async () => {
       await client.invalidateQueries({ queryKey: keys.library });
     },

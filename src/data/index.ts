@@ -22,5 +22,10 @@ export function getLibrary(): LibraryRepository {
 
 export type { CatalogSource } from './catalog-source';
 export { CatalogError } from './catalog-source';
-export type { LibraryEntry, LibraryRepository, ListenStatus } from './library-model';
+export type {
+  LibraryEntry,
+  LibraryRepository,
+  LibrarySnapshot,
+  ListenStatus,
+} from './library-model';
 export { emptyEntry, isBlank } from './library-model';

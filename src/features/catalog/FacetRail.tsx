@@ -1,4 +1,6 @@
 import { useMemo } from 'react';
+import { Link } from 'react-router';
+import { useUi } from '@/app/ui-store';
 import type { Catalog } from '@shared/schemas/catalog.ts';
 import { FacetGroup, FacetSubgroup } from './FacetGroup';
 import { FacetList, type FacetListOption } from './FacetList';
@@ -88,6 +90,7 @@ export function FacetRail({
       checked: filters.cwHide.includes(w.id),
     }));
 
+  const setFiltersOpen = useUi((st) => st.setFiltersOpen);
   return (
     <div className="facet-rail">
       {showSearch ? <SearchBox filters={filters} onChange={onChange} /> : null}
@@ -106,7 +109,17 @@ export function FacetRail({
             checked={filters.hideListened}
             onToggle={() => onChange({ ...filters, hideListened: !filters.hideListened })}
           />
-        ) : null}
+        ) : (
+          <li>
+            <Link
+              className="facet-catch-up"
+              to="/library/catch-up"
+              onClick={() => setFiltersOpen(false)}
+            >
+              Mark what you've already heard
+            </Link>
+          </li>
+        )}
       </ul>
 
       <FacetGroup

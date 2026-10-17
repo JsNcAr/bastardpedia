@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useMemo, type ReactNode } from 'react';
 import type { CatalogStory } from '@shared/schemas/catalog.ts';
 import type { LibraryEntry } from '@/data';
 import { formatYear } from '../format';
@@ -22,6 +22,8 @@ export function Timeline({
   entries,
   terms,
   onYears,
+  markFor,
+  selectFor,
 }: {
   stories: CatalogStory[];
   yearFrom: number | null;
@@ -31,6 +33,8 @@ export function Timeline({
   entries: ReadonlyMap<string, LibraryEntry>;
   terms: ReadonlyMap<string, string[]> | undefined;
   onYears: (from: number | null, to: number | null, live: boolean) => void;
+  markFor?: (story: CatalogStory) => ReactNode;
+  selectFor?: (story: CatalogStory) => string | undefined;
 }) {
   const dated = useMemo(() => stories.filter((s) => s.time), [stories]);
   const undated = useMemo(() => stories.filter((s) => !s.time), [stories]);
@@ -47,6 +51,8 @@ export function Timeline({
       selected={s.id === openId}
       entry={entries.get(s.id)}
       terms={terms?.get(s.id)}
+      mark={markFor?.(s)}
+      selectFor={selectFor?.(s)}
     />
   );
 

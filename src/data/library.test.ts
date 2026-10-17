@@ -60,4 +60,44 @@ describe('library repository', () => {
     expect((await r.get('b'))?.updatedAt).toBe('2026-01-01T00:00:00.000Z');
     expect(await r.get('c')).toBeNull();
   });
+
+  it('sets one status on many stories, keeping favourites and notes', async () => {
+    const r = repo();
+    await r.put({ ...emptyEntry('want'), status: 'want', note: 'queued' });
+    await r.put({ ...emptyEntry('fav'), favourite: true });
+    const snapshot = await r.setStatusMany(['want', 'fav', 'new'], 'listened');
+    const all = new Map((await r.list()).map((e) => [e.id, e]));
+    expect([...all.values()].map((e) => e.status)).toEqual(['listened', 'listened', 'listened']);
+    expect(all.get('want')?.note).toBe('queued');
+    expect(all.get('fav')?.favourite).toBe(true);
+    expect(snapshot.map((s) => [s.id, s.before?.status ?? null])).toEqual([
+      ['want', 'want'],
+      ['fav', null],
+      ['new', null],
+    ]);
+    expect(snapshot[2]?.before).toBeNull();
+  });
+
+  it('clearing a status tombstones entries left blank', async () => {
+    const r = repo();
+    await r.put({ ...emptyEntry('plain'), status: 'listened' });
+    await r.put({ ...emptyEntry('noted'), status: 'listened', note: 'great' });
+    await r.setStatusMany(['plain', 'noted', 'missing'], null);
+    expect(await r.get('plain')).toBeNull();
+    expect((await r.get('noted'))?.status).toBeNull();
+    expect(await r.get('missing')).toBeNull();
+  });
+
+  it('restores exactly what a bulk write replaced', async () => {
+    const r = repo();
+    await r.put({ ...emptyEntry('want'), status: 'want', note: 'queued' });
+    const before = await r.list();
+    const snapshot = await r.setStatusMany(['want', 'new'], 'listened');
+    await r.restore(snapshot);
+    const after = await r.list();
+    expect(after.map(({ id, status, note, favourite }) => ({ id, status, note, favourite }))).toEqual(
+      before.map(({ id, status, note, favourite }) => ({ id, status, note, favourite })),
+    );
+    expect(await r.get('new')).toBeNull();
+  });
 });

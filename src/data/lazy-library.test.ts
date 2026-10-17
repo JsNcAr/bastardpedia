@@ -10,5 +10,9 @@ describe('lazy library', () => {
     await repo.remove('a');
     expect(await repo.get('a')).toBeNull();
     expect(await repo.merge([{ ...emptyEntry('b'), status: 'listened' }])).toBe(1);
+    const snapshot = await repo.setStatusMany(['c'], 'listened');
+    expect((await repo.get('c'))?.status).toBe('listened');
+    await repo.restore(snapshot);
+    expect(await repo.get('c')).toBeNull();
   });
 });

@@ -1,4 +1,5 @@
-import { Link } from 'react-router';
+import type { ReactNode } from 'react';
+import { RowShell } from './select/RowShell';
 import type { CatalogStory } from '@shared/schemas/catalog.ts';
 import type { LibraryEntry } from '@/data';
 import { Icon } from '@/ui/Icon';
@@ -13,6 +14,8 @@ export function ResultRow({
   selected,
   entry,
   terms,
+  mark,
+  selectFor,
 }: {
   story: CatalogStory;
   labels: Labels;
@@ -22,16 +25,20 @@ export function ResultRow({
   entry?: LibraryEntry | undefined;
   /** Search terms this story matched, to mark in its title and summary. */
   terms?: string[] | undefined;
+  /** The control beside the row (RowMark): a sibling of the link, not inside it. */
+  mark?: ReactNode;
+  /** In select mode, the row's checkbox id: the whole row then ticks it instead of opening. */
+  selectFor?: string | undefined;
 }) {
   const period = storyPeriod(story);
   return (
-    <li>
-      <Link
-        to={{ pathname: `/stories/${story.id}`, search }}
+    <li className="result-item">
+      <RowShell
+        storyId={story.id}
+        search={search}
         className="result"
-        data-story={story.id}
-        aria-current={selected ? 'page' : undefined}
-        preventScrollReset
+        selected={selected}
+        selectFor={selectFor}
       >
         <span className="result-meta">
           {period ? <span>{period}</span> : null}
@@ -53,7 +60,8 @@ export function ResultRow({
         <span className="result-foot">
           {partsLabel(story.parts.length)} · {formatDuration(story.total_duration_s)}
         </span>
-      </Link>
+      </RowShell>
+      {mark}
     </li>
   );
 }

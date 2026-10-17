@@ -1,6 +1,7 @@
 import { Link, useSearchParams } from 'react-router';
 import { useCatalog, useLibrary } from '@/app/queries';
 import type { LibraryEntry } from '@/data';
+import { Icon } from '@/ui/Icon';
 import { StateMessage } from '@/ui/StateMessage';
 import { LibraryBackup } from './LibraryBackup';
 import {
@@ -16,6 +17,9 @@ const SORT_LABELS: Record<LibrarySort, string> = {
   title: 'Title',
   released: 'Release date',
 };
+
+/** Below this many listened stories, the Library offers the catch-up page. */
+const CATCH_UP_BELOW = 10;
 
 function Shelf({
   title,
@@ -67,6 +71,20 @@ export function LibraryPage() {
     <div className="page page-narrow">
       <h1 className="page-title">Your library</h1>
       <p className="page-lead">Saved in this browser only. Clearing site data removes it.</p>
+      {library.isSuccess && progress.listened < CATCH_UP_BELOW ? (
+        <aside className="callout catch-up-card" aria-labelledby="catch-up-title">
+          <Icon name="calendar-check" />
+          <div>
+            <p id="catch-up-title" className="callout-title">
+              Already a listener?
+            </p>
+            <p>
+              Mark everything you have heard in a minute, by release date.{' '}
+              <Link to="/library/catch-up">Catch up</Link>
+            </p>
+          </div>
+        </aside>
+      ) : null}
       {library.isPending ? (
         <StateMessage icon="library" title="Loading your library" busy role="status" />
       ) : library.isError ? (
@@ -79,7 +97,10 @@ export function LibraryPage() {
           title="Nothing saved yet"
           action={<Link to="/">Browse the catalogue</Link>}
         >
-          <p>Open a story and mark it Want to listen, Listened or Favourite, or add a note.</p>
+          <p>
+            Tap the bookmark on a result to mark it listened, or open a story to mark it Want to
+            listen or Favourite, or add a note.
+          </p>
         </StateMessage>
       ) : (
         <>

@@ -242,6 +242,14 @@
   list-style: none;
 }
 
+/* Before anything is marked listened, the catch-up page is offered here instead. */
+.facet-catch-up {
+  display: inline-flex;
+  align-items: center;
+  min-height: calc(var(--size-tap) - var(--space-2));
+  font-size: var(--text-sm);
+}
+
 .year-range {
   display: grid;
   gap: var(--space-3);

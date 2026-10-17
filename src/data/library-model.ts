@@ -39,7 +39,18 @@ export interface LibraryRepository extends Crud<LibraryEntry> {
    * Used to import a backup.
    */
   merge(records: LibraryEntry[]): Promise<number>;
+  /**
+   * Set one status on many stories in a single transaction. Favourites and notes
+   * are kept; an entry left blank is tombstoned. Returns what each story held
+   * before, for `restore`.
+   */
+  setStatusMany(ids: readonly string[], status: ListenStatus | null): Promise<LibrarySnapshot>;
+  /** Put back what a bulk write replaced: earlier entries return, new ones are tombstoned. */
+  restore(snapshot: LibrarySnapshot): Promise<void>;
 }
+
+/** What a set of stories held before a bulk write; `null` where there was nothing. */
+export type LibrarySnapshot = { id: string; before: LibraryEntry | null }[];
 
 export function emptyEntry(storyId: string, now = new Date().toISOString()): LibraryEntry {
   return { id: storyId, status: null, favourite: false, note: '', createdAt: now, updatedAt: now, deletedAt: null };
