@@ -9,22 +9,31 @@
 # TLS is automatic once bastardpedia.ramsus.site resolves to this host. docs/DEPLOYMENT.md.
 
 bastardpedia.ramsus.site {
+	# The build ships .br, .zst and .gz sidecars (scripts/compress-dist.mjs), served
+	# by file_server below. encode only covers responses without a sidecar.
 	encode zstd gzip
 
 	root * /opt/bastardpedia/dist
 
-	# Vite fingerprints everything under assets/: cache it forever.
-	@immutable path /assets/*
+	# Content-hashed names never change: Vite's assets/ and the hashed catalogue.
+	@immutable path_regexp ^/(assets/|data/catalog\.[0-9a-f]+\.json$)
 	header @immutable Cache-Control "public, max-age=31536000, immutable"
 
-	# The HTML, the service worker and the catalog decide what a visitor sees.
-	# Cached, a release would never reach anyone who has opened the site once.
-	@revalidate path / /index.html /sw.js /registerSW.js /workbox-*.js /manifest.webmanifest /data/*
-	header @revalidate Cache-Control "no-cache"
+	# Everything else revalidates: the HTML (also when an app route such as
+	# /stories/x is rewritten to it below), the service worker, the manifest and
+	# the plain catalogue. Cached, a release would never reach anyone who has
+	# opened the site once. "?" only sets it where no rule above did.
+	header ?Cache-Control "no-cache"
+
+	# Icons keep their names across releases: a week is a safe middle ground.
+	@icons path /favicon.svg /favicon.ico /apple-touch-icon.png /icon-192.png /icon-512.png /maskable-512.png
+	header @icons Cache-Control "public, max-age=604800"
 
 	# History routing: any path that is not a file is an app route (docs/adr/0002).
 	try_files {path} /index.html
-	file_server
+	file_server {
+		precompressed br zstd gzip
+	}
 
 	header {
 		Strict-Transport-Security "max-age=31536000; includeSubDomains"
@@ -37,7 +46,10 @@ bastardpedia.ramsus.site {
 	}
 
 	log {
-		output file /var/log/caddy/bastardpedia.access.log
+		output file /var/log/caddy/bastardpedia.access.log {
+			roll_size 50MiB
+			roll_keep 5
+		}
 		format console
 	}
 }

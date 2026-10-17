@@ -11,7 +11,7 @@ const sample = readFileSync(
 test.use({ serviceWorkers: 'block' });
 
 test.beforeEach(async ({ page }) => {
-  await page.route('**/data/catalog.json', (route) =>
+  await page.route('**/data/catalog*.json', (route) =>
     route.fulfill({ status: 200, contentType: 'application/json', body: sample }),
   );
 });

@@ -4,7 +4,7 @@ import { CatalogError, type CatalogSource } from './catalog-source';
 
 /** The catalog as a static file next to the app, built by `npm run build:catalog`. */
 export function createStaticCatalogSource(
-  url = '/data/catalog.json',
+  url = __CATALOG_URL__,
   fetchImpl: typeof fetch = fetch,
 ): CatalogSource {
   return {

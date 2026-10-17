@@ -15,7 +15,9 @@ moved here from GitLab CI in October 2026, and the jobs are the same.
 | `release.yml`   | after release, if deploy is enabled  | rsync of the tested `dist/` to the server, then a byte comparison of the live `index.html`               |
 | `feed-sync.yml` | Mondays 06:17 UTC, or by hand        | ingest + group. Fails when a story in the feed has no tags                                               |
 
-The jobs run on `ubuntu-latest` with the Node version from `.nvmrc`. Playwright
+`npm run build` also writes the compressed copies of every text file and the
+hashed catalogue (docs/DEPLOYMENT.md, "Serving under load"), so the `dist/`
+that release tests is exactly what ships. The jobs run on `ubuntu-latest` with the Node version from `.nvmrc`. Playwright
 installs the Chromium that matches `@playwright/test` in `package-lock.json`, so
 there's no image tag to keep in step.
 

@@ -25,8 +25,14 @@ There are two ways to ship a build, and both publish to the same `dist/`:
 
 - automatic HTTPS for the host;
 - **history-routing fallback**: `try_files {path} /index.html` (ADR 0002);
-- `immutable` caching for `/assets/*`, and `no-cache` for the HTML, service worker,
-  manifest and `/data/*` (the catalog);
+- **precompressed files**: `file_server { precompressed br zstd gzip }` serves
+  the `.br`, `.zst` and `.gz` files the build writes, so Caddy never compresses
+  at request time;
+- `immutable` caching for `/assets/*` and the hashed catalogue
+  (`/data/catalog.<hash>.json`), a week for the icons, and `no-cache` for
+  everything else: the HTML (app routes included), the service worker, the
+  manifest and the plain `/data/catalog.json`;
+- an access log that rolls at 50 MiB and keeps 5 files;
 - a strict CSP with no `unsafe-inline` for scripts or styles. ESLint bans inline
   `style` attributes so this keeps holding;
 - only while `"private": true`: **basic auth** and `X-Robots-Tag: noindex, nofollow`.
@@ -34,6 +40,41 @@ There are two ways to ship a build, and both publish to the same `dist/`:
 
 It works with Caddy 2.6 and later. Basic auth is written `basicauth` because
 the newer `basic_auth` spelling needs Caddy 2.8.
+
+## Serving under load
+
+Every request is a plain file read. These are the parts that keep it cheap:
+
+- **No compression at request time.** The build writes brotli, zstd and gzip
+  copies of every text file of 1 KiB or more (the `precompress` plugin in
+  `vite.config.ts`, using `scripts/lib/compress-core.mjs`). Caddy picks the
+  best one the browser accepts. Only files under 1 KiB, such as `index.html`,
+  are compressed on the fly.
+- **Cache forever where names change.** Vite fingerprints `assets/`, and the
+  build also ships the catalogue as `data/catalog.<hash>.json`. The app fetches
+  that name (`__CATALOG_URL__`), so it's cached for a year and, by the service
+  worker, cache-first. A release changes the name.
+- **Repeat visits stay in the browser.** The service worker precaches the app
+  and serves it offline-first. A returning visitor sends no requests for assets
+  or data, only the browser's background check for a newer service worker.
+- **Small first visit.** Only the Latin and Latin Extended font subsets ship
+  (`src/styles/fonts.css`), and the library database code (Dexie) loads only
+  when a story page or the Library needs it.
+- **No per-request password cost.** While the site is private, Caddy caches the
+  basic-auth hash check, so bcrypt runs once per password, not per request.
+
+Measured on a local Caddy limited to 2 CPUs (64 connections, 15 s per URL), the
+main bundle went from 523 to 9,554 requests a second and the catalogue from 374
+to 7,541 once compression moved to build time. At those rates the network link
+runs out long before the CPU.
+
+On the server:
+
+- **HTTP/3:** open UDP 443 as well as TCP 443. Caddy serves HTTP/3 by default,
+  but it needs UDP to reach clients.
+- **Ship whole builds:** `deploy.sh` and CI rsync the whole build, so the
+  compressed copies and the hashed catalogue go with it. A hand-made deploy
+  must too: `rsync -a --delete dist/ ...`.
 
 ## First-time server setup (admin)
 
