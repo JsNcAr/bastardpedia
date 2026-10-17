@@ -1,0 +1,103 @@
+{
+  "story_id": "the-well-hung-warlord-who-tried-to-conquer-china",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Zhang Zongchang",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1881, "end": 1932 }
+    },
+    {
+      "name": "Zhang Zuolin",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1875, "end": 1928 }
+    },
+    {
+      "name": "May Thirtieth Movement",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Kuomintang",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Green Gang",
+      "kind": "organization",
+      "org_type": "criminal-org",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["mercenary-warlord", "military-officer"],
+  "themes": {
+    "primary": "civil-war",
+    "secondary": [
+      "war-war-crimes",
+      "authoritarianism",
+      "labor-exploitation",
+      "colonialism-imperialism",
+      "communism-state-socialism",
+      "sexual-abuse"
+    ]
+  },
+  "regions": {
+    "origin": ["CN"],
+    "setting": ["CN", "HK", "JP"],
+    "subdivisions": ["CN-SD"],
+    "polities": ["qing-china", "british-empire"],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1916, "end": 1932 },
+    "covered_span": { "start": 1881, "end": 1932 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Zhang Zongchang, the Dog Meat General of China's Warlord Era, rose from bandit to ruler of Shandong, which he terrorised with beheadings, extortion and famine while warlords and Nationalists crushed Shanghai's labour uprisings.",
+  "content_warnings": ["graphic-violence", "mass-atrocity", "sexual-violence", "child-death"],
+  "keywords": [
+    "Dog Meat General",
+    "Warlord Era",
+    "Shandong",
+    "Shanghai",
+    "Northern Expedition",
+    "Fengtian clique",
+    "Wu Peifu",
+    "Chiang Kai-shek",
+    "Canton-Hong Kong strike",
+    "1927 Shanghai massacre"
+  ],
+  "guests": ["Mia Wong"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:04:16", "note": "birth in rural Shandong in 1881" },
+    { "facet": "time", "part": 1, "at": "00:27:18", "note": "1916: he has Nationalist Chen Qimei assassinated, his first major act" },
+    { "facet": "subjects", "part": 1, "at": "00:30:29", "note": "Zhang Zuolin, Manchurian warlord, introduced as his patron" },
+    { "facet": "themes", "part": 1, "at": "00:37:38", "note": "child-soldier Baby Squads commanded by his son" },
+    { "facet": "themes", "part": 1, "at": "00:57:29", "note": "concubines possibly seized off the street; sexual coercion discussed" },
+    { "facet": "themes", "part": 1, "at": "01:04:22", "note": "Shandong famine, refugees fed soybean waste, steel sword beheadings" },
+    { "facet": "regions", "part": 2, "at": "00:01:04", "note": "May 30th killings in Shanghai spark general strikes" },
+    { "facet": "regions", "part": 2, "at": "00:09:31", "note": "Canton-Hong Kong strike against British colony" },
+    { "facet": "themes", "part": 2, "at": "00:23:03", "note": "Soviet-backed KMT reorganisation and First United Front with the CCP" },
+    { "facet": "content_warnings", "part": 2, "at": "00:53:44", "note": "1927 white terror kills hundreds of thousands of workers" },
+    { "facet": "regions", "part": 2, "at": "01:03:14", "note": "exile in Japan, shooting of a Qing prince" },
+    { "facet": "time", "part": 2, "at": "01:05:50", "note": "shot dead at a Shandong train station after returning to China" }
+  ],
+  "notes": "Death year 1932 from general knowledge; transcript gives no year. Part 2 spends much time on the Shanghai labour movement, so labor-exploitation stands in for a missing labour-movement theme. Russia (Siberian mine) and the Great Wall battles are brief or inside CN. Scope set national though HK and JP appear."
+}

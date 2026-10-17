@@ -1,0 +1,152 @@
+[
+  {
+    "id": "how-the-first-fitness-influencer-doomed-us-all",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript gives birth as August 6; standard sources say August 16, 1868. Death year garbled in transcript; 1955 from knowledge. Opening segment on modern influencers (Rogan, Oprah, Covid) is framing comparison, so reaches_present is false. No role fits fitness guru or magazine publisher exactly. Italy setting is thin: the cadets were trained in New York."
+  },
+  {
+    "id": "robert-baden-powell-founder-of-the-boy-scouts",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Baden-Powell and the BSA treated as co-primary: part 1 is his biography, part 2 is the BSA abuse history. Roles: no id for founding a youth movement; activist-organizer is the closest. No theme for institutional cover-up or lobbying against statute-of-limitation reform. Seton gets only a few minutes, so he is a keyword. Covered span ends at the 2020 claims count and bankruptcy."
+  },
+  {
+    "id": "the-nazi-pedophile-cult-leader-who-murdered-santa-with-paul-f-tompkins",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "The transcript garbles several years (birth, arrest); 1921 birth and 2010 death taken from general knowledge, consistent with the stated age of 88. main_span starts at the 1961 founding of the colony, though the German orphanage abuse and 1959 warrant are also covered. CL-ML assumes Parral lies in the Maule region. Pinochet's regime is treated as authoritarianism rather than fascism-far-right."
+  },
+  {
+    "id": "ichh-that-time-the-cia-dosed-a-french-town-with-acid-spooky-week-1",
+    "format": "crossover",
+    "low": [],
+    "notes": "It Could Happen Here episode republished in the BtB feed, so format is crossover; Garrison Davis narrates with Robert Evans. The transcript drops the year digits; 1951 is the well-documented date. covered_span ends at the 1975 Rockefeller Commission; the 2008-2009 books by Kaplan and Albarelli are treated as reinterpretation and set reaches_present instead."
+  },
+  {
+    "id": "ben-shapiro-wrote-a-book-about-sex",
+    "format": "media-reading",
+    "low": ["time"],
+    "notes": "Hosts date Porn Generation to 2013 (after first saying 2008); it was actually published in 2005. Time follows the transcript as in the sibling story; reviewer may prefer 2005. Covered end 2019 comes from the opening Shapiro pegging clip (about 3 minutes). Studies from 2014-2018 are host rebuttals, not story years. Continued in ben-shapiro-knows-less-about-sex-than-an-amoeba."
+  },
+  {
+    "id": "joe-pyne-the-man-who-invented-right-wing-talk-radio",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Three-part series with equal weight on three hosts, so all three are primary even though the title names only Pyne. main_span runs from Pyne's 1949 call-in invention to George's early-1990s peak and decline. US-CA chosen because Pyne's national fame and George's whole career happened there; Downey's TV show taped in Secaucus, NJ. Packet spells it Pine; standard spelling Pyne used."
+  },
+  {
+    "id": "amway-the-gravedigger-of-democracy",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary kept to Amway per the title, so roles are empty; the founders are secondary. Opening history of Ponzi (1919) and Sarah Howe (1879) treated as background, not covered years. Transcript gives Van Andel's birth as 1934; he was born 1924. Transcript calls Myrick a senator; she served in the US House. main_span ends at the mid-1990s Amway Caucus era."
+  },
+  {
+    "id": "reading-about-nesara",
+    "format": "media-reading",
+    "low": ["time"],
+    "notes": "Second half of a two-part NESARA story; this part is a book reading. Author's birth year unknown, so floruit 2021 is used. Covered span start is an estimate for NESARA's late-1990s origins discussed in the host's commentary; the book itself is a 2020-2021 text. fraud-grift rests on the hosts framing the book as a grift."
+  },
+  {
+    "id": "the-nesara-cult-and-qanon-s-origins",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Shaini Goodwin is arguably co-primary as the cult's leader; kept secondary since the story is framed around the theory. Omega typed as criminal-org since it was a scam operation. Covered span starts at the 1988 Ramtha school background tied to Goodwin and ends with the roughly 2020 QAnon revival. Lifespans for Goodwin and Hood not given in the packet."
+  },
+  {
+    "id": "the-italian-invasions-of-ethiopia",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Story is about a state's conduct, so the two wars are primary events and roles are empty. The 1868 British expedition and ancient Ethiopian history are treated as background and excluded from covered_span. League of Nations is intergovernmental; no org_type fits exactly, political-org used. Tigray conflict mentioned only as motivation."
+  },
+  {
+    "id": "the-ivermectin-episode",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Format set to current-affairs because the events were unfolding at release (2020-2021); could arguably be deep-dive. Primary theme public-health vs quackery-pseudoscience is a close call: the drug is real, its COVID use is the unproven part. Drug discovery in 1975 is brief background, not counted. Pierre Kory's birth year not stated, so floruit used."
+  },
+  {
+    "id": "the-libertarian-theme-park-of-your-dreams-nightmares",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Action Park is named as the bastard, so it is primary and Mulvihill secondary despite his large segment (hence no roles). Many years in the transcript are garbled; 1996 closure and 1956 graduation filled from the narrative and known facts. child-abuse covers teens given alcohol, hazed and used as ride testers; drugs only mentioned in passing."
+  },
+  {
+    "id": "let-s-talk-about-thalidomide",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary is the scandal as an event; Grunenthal could arguably be co-primary. Covered end 1970 is the known end of the Aachen trial, which the transcript does not date. The 2012 apology gets a couple of minutes, so reaches_present is true but borderline. Nazi-era compound testing is presented as contested."
+  },
+  {
+    "id": "hitler-s-drug-problem",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Topical deep-dive, not a biography: the story actually covers roughly 1918-1945 (Weimar drug culture to the bunker). covered_span starts at 1889 only because the lifetime rule requires Hitler's birth year. Morell arguably deserves co-primary status given his airtime; kept secondary since the title centres Hitler. Wikidata omitted for Morell (not certain of QID)."
+  },
+  {
+    "id": "joe-arpaio-america-s-favorite-concentration-camp-operator",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Arpaio was alive at release (2021), so covered_span runs to 2021 under the lifetime rule. main_span ends at the 2017 conviction and pardon rather than his 2016 ouster. Turkey and Mexico have real segments from his narcotics career. A posse prostitution sting with sexual coercion of sex workers gets a few minutes; sexual-violence warning left off as borderline."
+  },
+  {
+    "id": "covid-vaccine-grifting-doctors",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Two equally titled subjects; Yeadon gets about two thirds of the airtime. Birth years not given in the packet, so floruit used. Format current-affairs since events were ongoing in 2021; deep-dive is arguable. covered_span start 1985 is approximate (his education and Pfizer career are a real segment). Singapore doctors and the US bar owner are brief and left out."
+  },
+  {
+    "id": "the-cult-behind-josh-duggar",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Title frames the cult as co-subject, but no single named body is the cult (Quiverfull plus Gothard's IBLP/ATI), so Josh is the sole primary. covered_span starts at the 1970s religious-right roots of Quiverfull (Howard Phillips, 1974), a secondary subject with a long segment. media-personality is a loose fit for a reality TV star."
+  },
+  {
+    "id": "the-company-that-poisoned-300-000-babies",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Reverse episode researched and told by Mia Wong. Transcript places Sanlu in the province containing Wuhan (Hubei); Sanlu was actually based in Shijiazhuang, Hebei, so no subdivision is given. Covered span starts at Sanlu's 1956 founding since its state-era history gets real airtime; the 2009 executions close it. Beijing Olympics cover-up kept as a keyword rather than the sports theme. US comparisons (Nike, Nestle, contract growers) left out of setting."
+  },
+  {
+    "id": "pappa-doc-and-baby-doc-dictators-of-haiti",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Roughly the first 50 minutes of part 1 cover Haitian history from 1492 through the revolution, the 1825 French indemnity and 19th-century instability. I treated this as background before the story begins, so covered_span starts at Papa Doc's birth (1907). Reviewers may want to extend it. Polities left empty because the colonial era is background. Roles apply mainly to Papa Doc; Baby Doc is dictator-autocrat only."
+  },
+  {
+    "id": "the-young-evil-god-of-death-reinhard-heydrich",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Roles medium: navy service gets a long Part 1 segment (military-officer would also fit) but the story centres on his SD/Gestapo and Reich Protector roles. Lina Heydrich (nee von Osten) gets her own segment as a driver of his Nazi turn. Lidice reprisals right after his death kept inside 1942."
+  },
+  {
+    "id": "how-the-catholic-church-murdered-ireland-s-babies",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Roughly six minutes of Irish history from the Vikings to independence is background and left out of covered_span; the 18th-century origins of the Magdalene asylums and the 1908 British child laws get only brief airtime. covered_span ends at the January 2021 Commission report cited via Reuters. main_span end 1996 assumes the last laundry closure (transcript says only 'into the 1990s'). Setting kept to IE only."
+  },
+  {
+    "id": "synanon-the-drug-rehab-program-that-built-its-own-army",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Synanon and Dederich treated as co-primary; the story is equally his biography. Transcript years are garbled in places (rattlesnake attack, Betty's death); used 1978 and 1977. Opening history of addiction treatment is background and excluded from covered_span. terrorism used for the Imperial Marines' violence campaign against critics; no closer theme for cult violence against outsiders."
+  },
+  {
+    "id": "the-ballad-of-bill-gates",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Gates was alive at release, so main_span ends null and covered_span runs 1955-2021. Africa and the global South are discussed as harm places but mostly without named countries (Kenya only briefly), so setting is US with global scope. The host cut a segment on HIV circumcision programs after a correction. Workplace advances and Epstein ties are covered but not as sexual abuse by Gates, so no sexual-abuse theme."
+  },
+  {
+    "id": "the-well-hung-warlord-who-tried-to-conquer-china",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Death year 1932 from general knowledge; transcript gives no year. Part 2 spends much time on the Shanghai labour movement, so labor-exploitation stands in for a missing labour-movement theme. Russia (Siberian mine) and the Great Wall battles are brief or inside CN. Scope set national though HK and JP appear."
+  },
+  {
+    "id": "ben-shapiro-s-godawful-book-the-final-episode",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Final instalment of the True Allegiance reading; earlier parts may be separate stories. Publication year set to 2016 (transcript implies just before the Trump presidency); verify against the published edition. Setting is the novel's fictional US (New York, Texas); Mexico invasion is background only. No theme fits partisan fiction exactly; propaganda-media chosen as closest."
+  }
+]

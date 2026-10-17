@@ -1,0 +1,158 @@
+{
+  "story_id": "how-the-catholic-church-murdered-ireland-s-babies",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Catholic Church in Ireland",
+      "kind": "organization",
+      "org_type": "religious-body",
+      "role": "primary"
+    },
+    {
+      "name": "Magdalene laundries",
+      "kind": "organization",
+      "org_type": "school-or-facility",
+      "role": "secondary"
+    },
+    {
+      "name": "Irish industrial schools",
+      "kind": "organization",
+      "org_type": "school-or-facility",
+      "role": "secondary"
+    },
+    {
+      "name": "Bon Secours Mother and Baby Home, Tuam",
+      "kind": "organization",
+      "org_type": "school-or-facility",
+      "role": "secondary"
+    },
+    {
+      "name": "Hasbro",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "organized-religion",
+    "secondary": [
+      "child-abuse",
+      "slavery-forced-labor",
+      "policing-incarceration",
+      "sexual-abuse",
+      "medical-malpractice",
+      "corporate-malfeasance"
+    ]
+  },
+  "regions": {
+    "origin": ["IE"],
+    "setting": ["IE"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1922, "end": 1996 },
+    "covered_span": { "start": 1922, "end": 2021 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "After Irish independence the Catholic Church ran the state's social services, confining unwed mothers and poor children in laundries, industrial schools and mother and baby homes where thousands were abused, worked unpaid or died.",
+  "content_warnings": ["child-abuse", "child-death", "sexual-violence"],
+  "keywords": [
+    "Tuam",
+    "Catherine Corless",
+    "mother and baby homes",
+    "Artane Industrial School",
+    "Christian Brothers",
+    "Sisters of Our Lady of Charity",
+    "Good Shepherd Sisters",
+    "Bon Secours Sisters",
+    "Mary Merritt",
+    "vaccine trials"
+  ],
+  "guests": ["Sofiya Alexandra"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:12:43",
+      "note": "1937 constitution hands social services and child care to the Church in the new state"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:31:44",
+      "note": "Christian Brothers at Artane and a Kerry industrial school: beatings and sexual abuse of boys"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:40:32",
+      "note": "Laundry inmates beaten, starved and worked without pay; state paid the orders laundry fees"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:48:47",
+      "note": "1990s land sale by Sisters of Our Lady of Charity exposes unrecorded bodies in an unmarked grave"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:51:59",
+      "note": "Adult inmate escapes and is raped by a priest, then returned to the system: adult victims too"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:54:02",
+      "note": "Mass church-run confinement in the 1950s, around one percent of the population"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:04:41",
+      "note": "Good Shepherd convent in Waterford packaged Hasbro board games from the 1980s with inmate labour"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:24:12",
+      "note": "Children in mother and baby homes used in vaccine trials without maternal consent"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:28:52",
+      "note": "Tuam home run by Bon Secours nuns until 1961; skeletons found by boys in 1975"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:43:44",
+      "note": "Corless gathers death certificates 2011-2013 and finds about 796 child deaths"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:46:51",
+      "note": "2001 Church redress fund, 2013 state report, apology and lump-sum scheme"
+    }
+  ],
+  "notes": "Roughly six minutes of Irish history from the Vikings to independence is background and left out of covered_span; the 18th-century origins of the Magdalene asylums and the 1908 British child laws get only brief airtime. covered_span ends at the January 2021 Commission report cited via Reuters. main_span end 1996 assumes the last laundry closure (transcript says only 'into the 1990s'). Setting kept to IE only."
+}

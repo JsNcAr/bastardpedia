@@ -1,0 +1,95 @@
+{
+  "story_id": "joe-pyne-the-man-who-invented-right-wing-talk-radio",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Joe Pyne",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1924, "end": 1970 }
+    },
+    {
+      "name": "Wally George",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1931, "end": 2003 }
+    },
+    {
+      "name": "Morton Downey Jr.",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1932, "end": 2001 }
+    },
+    {
+      "name": "Tawana Brawley case",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["media-personality"],
+  "themes": {
+    "primary": "propaganda-media",
+    "secondary": [
+      "racism-white-supremacy",
+      "entertainment-celebrity",
+      "religious-right-culture-war",
+      "fascism-far-right"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-CA"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1949, "end": 1992 },
+    "covered_span": { "start": 1924, "end": 2003 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Three American broadcasters, Joe Pyne, Wally George and Morton Downey Jr., built confrontational right-wing talk radio and combat TV from the 1940s to the 1980s, trading on outrage, bigotry and staged fights.",
+  "content_warnings": ["hate-speech"],
+  "keywords": [
+    "It's Your Nickel",
+    "Hot Seat",
+    "The Morton Downey Jr. Show",
+    "combat TV",
+    "shock jock",
+    "Al Sharpton",
+    "Tom Metzger",
+    "Christine Jorgensen",
+    "Lyndon LaRouche",
+    "Rush Limbaugh"
+  ],
+  "guests": ["Tom Reimann"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:07:57", "note": "Pyne born in Chester, Pennsylvania, December 1924" },
+    { "facet": "time", "part": 1, "at": "00:16:29", "note": "1949 Kenosha: Pyne puts a caller on air, start of call-in radio" },
+    { "facet": "time", "part": 1, "at": "00:56:19", "note": "lung cancer diagnosis and death in 1970" },
+    { "facet": "time", "part": 2, "at": "00:02:08", "note": "Wally George born 1931 in Oakland, California" },
+    { "facet": "time", "part": 2, "at": "00:29:57", "note": "last Metzger interview around 1992, used as main_span end" },
+    { "facet": "time", "part": 2, "at": "00:44:05", "note": "George stops taping new shows, dies of pneumonia in 2003" },
+    { "facet": "time", "part": 3, "at": "00:02:47", "note": "Downey born 1932 in Los Angeles" },
+    { "facet": "time", "part": 3, "at": "00:48:08", "note": "Downey dies 2001; show cancelled 1989" },
+    { "facet": "regions", "part": 2, "at": "00:30:59", "note": "Hot Seat taped in Orange County; Pyne's peak years also in Los Angeles" },
+    { "facet": "themes", "part": 2, "at": "00:26:43", "note": "segment on George hosting White Aryan Resistance leader Tom Metzger" },
+    { "facet": "themes", "part": 3, "at": "00:37:16", "note": "Downey roundtable airing black-on-white crime talking points" },
+    { "facet": "time", "part": 3, "at": "00:48:42", "note": "column tracing Downey's model to Fox News and modern polarization" }
+  ],
+  "notes": "Three-part series with equal weight on three hosts, so all three are primary even though the title names only Pyne. main_span runs from Pyne's 1949 call-in invention to George's early-1990s peak and decline. US-CA chosen because Pyne's national fame and George's whole career happened there; Downey's TV show taped in Secaucus, NJ. Packet spells it Pine; standard spelling Pyne used."
+}

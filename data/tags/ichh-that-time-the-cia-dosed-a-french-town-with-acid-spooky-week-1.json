@@ -1,0 +1,132 @@
+{
+  "story_id": "ichh-that-time-the-cia-dosed-a-french-town-with-acid-spooky-week-1",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "crossover",
+  "subjects": [
+    {
+      "name": "Pont-Saint-Esprit mass poisoning",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Central Intelligence Agency",
+      "kind": "organization",
+      "org_type": "intelligence",
+      "role": "secondary"
+    },
+    {
+      "name": "Frank Olson",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1910, "end": 1953 }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "intelligence-covert-ops",
+    "secondary": ["drugs", "conspiracy-theories", "public-health"]
+  },
+  "regions": {
+    "origin": ["FR"],
+    "setting": ["FR", "US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "local"
+  },
+  "time": {
+    "main_span": { "start": 1951, "end": 1951 },
+    "covered_span": { "start": 1949, "end": 1975 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "In August 1951 hundreds of people in the French town of Pont-Saint-Esprit fell ill and hallucinated after eating bread; officials blamed ergot, while later research alleged a CIA LSD experiment.",
+  "content_warnings": ["drug-use"],
+  "keywords": [
+    "Pont-Saint-Esprit",
+    "cursed bread",
+    "ergot poisoning",
+    "LSD",
+    "MKUltra",
+    "Sandoz",
+    "H. P. Albarelli Jr.",
+    "Rockefeller Commission",
+    "Sidney Gottlieb",
+    "Steven Kaplan"
+  ],
+  "guests": ["Garrison Davis"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:04:32",
+      "note": "story opens in the town in the early 1950s; outbreak begins mid-August"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:31:15",
+      "note": "toll: roughly 300 to 500 affected, about 50 severe, four deaths"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:31:46",
+      "note": "official investigation blames one baker's rye flour and ergot; baker and miller arrested"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:40:07",
+      "note": "Albarelli's book on Frank Olson's death and his claim of a CIA LSD field test"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:41:43",
+      "note": "1949 Edgewood Arsenal report urging LSD field experiments"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:43:19",
+      "note": "CIA memo on a Sandoz official saying the cause was an LSD-like compound, not ergot"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:45:56",
+      "note": "aside on CIA airborne LSD dosing in New York City"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:47:30",
+      "note": "1975 Rockefeller Commission and its link to the buried Olson file"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:49:33",
+      "note": "Gottlieb destroys LSD program records in 1973"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:50:36",
+      "note": "historian Kaplan's objections to the CIA theory, then rebuttals"
+    }
+  ],
+  "notes": "It Could Happen Here episode republished in the BtB feed, so format is crossover; Garrison Davis narrates with Robert Evans. The transcript drops the year digits; 1951 is the well-documented date. covered_span ends at the 1975 Rockefeller Commission; the 2008-2009 books by Kaplan and Albarelli are treated as reinterpretation and set reaches_present instead."
+}

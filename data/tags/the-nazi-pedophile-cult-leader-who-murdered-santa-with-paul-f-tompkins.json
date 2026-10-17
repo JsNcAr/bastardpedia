@@ -1,0 +1,98 @@
+{
+  "story_id": "the-nazi-pedophile-cult-leader-who-murdered-santa-with-paul-f-tompkins",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Paul Schäfer",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1921, "end": 2010 }
+    },
+    {
+      "name": "Colonia Dignidad",
+      "kind": "organization",
+      "org_type": "cult",
+      "role": "secondary"
+    },
+    {
+      "name": "Augusto Pinochet",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1915, "end": 2006 }
+    },
+    {
+      "name": "William Branham",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1909, "end": 1965 }
+    }
+  ],
+  "roles": ["cult-leader", "criminal-killer"],
+  "themes": {
+    "primary": "cults-new-religions",
+    "secondary": [
+      "child-abuse",
+      "authoritarianism",
+      "nazism",
+      "intelligence-covert-ops",
+      "medical-malpractice",
+      "slavery-forced-labor"
+    ]
+  },
+  "regions": {
+    "origin": ["DE"],
+    "setting": ["CL", "DE", "AR"],
+    "subdivisions": ["CL-ML"],
+    "polities": ["nazi-germany"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1961, "end": 2010 },
+    "covered_span": { "start": 1921, "end": 2010 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Former Wehrmacht medic and lay preacher Paul Schäfer fled child-abuse charges in Germany to found Colonia Dignidad in Chile in 1961, a sealed cult where he raped children for decades and ran a torture and execution site for Pinochet's secret police.",
+  "content_warnings": ["child-abuse", "torture", "medical-horror", "mass-atrocity"],
+  "keywords": [
+    "Villa Baviera",
+    "DINA",
+    "Parral",
+    "Boris Weisfeiler",
+    "Hartmut Hopp",
+    "Luis Peebles",
+    "Jim Jones",
+    "Siegburg",
+    "Amnesty International report",
+    "Colonia (2015 film)"
+  ],
+  "guests": ["Paul F. Tompkins"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:05:14", "note": "birth in the Siegburg/Bonn area in 1921; birthplace disputed" },
+    { "facet": "themes", "part": 1, "at": "00:19:49", "note": "postwar orphanage near Troisdorf for widows and children, used to prey on boys" },
+    { "facet": "subjects", "part": 1, "at": "00:26:12", "note": "long digression on William Branham, his healing revival and link to Jim Jones" },
+    { "facet": "time", "part": 1, "at": "00:34:40", "note": "1961 move to Chile and purchase of the ranch that became Colonia Dignidad" },
+    { "facet": "themes", "part": 1, "at": "00:50:45", "note": "members forced into twelve-hour days of hard labor; quarry and farm businesses" },
+    { "facet": "themes", "part": 1, "at": "01:00:38", "note": "colony hospital used for drugging and electroshock punishment of a captive boy" },
+    { "facet": "themes", "part": 1, "at": "01:09:58", "note": "1973 coup; colony becomes a torture site for Pinochet's DINA" },
+    { "facet": "themes", "part": 2, "at": "00:32:29", "note": "Luis Peebles tortured at the colony in 1975 with Schäfer instructing" },
+    { "facet": "themes", "part": 2, "at": "00:43:25", "note": "1980 reporting on the colony as a waystation for fugitive Nazis" },
+    { "facet": "time", "part": 2, "at": "00:59:05", "note": "1996 boarding-school rape case triggers raids; Schäfer goes underground" },
+    { "facet": "regions", "part": 2, "at": "01:06:53", "note": "Schäfer found and arrested in a gated community in Buenos Aires" },
+    { "facet": "time", "part": 2, "at": "01:09:35", "note": "dies in a prison hospital in 2010; Villa Baviera and Hopp extradition fight follow" }
+  ],
+  "notes": "The transcript garbles several years (birth, arrest); 1921 birth and 2010 death taken from general knowledge, consistent with the stated age of 88. main_span starts at the 1961 founding of the colony, though the German orphanage abuse and 1959 warrant are also covered. CL-ML assumes Parral lies in the Maule region. Pinochet's regime is treated as authoritarianism rather than fascism-far-right."
+}

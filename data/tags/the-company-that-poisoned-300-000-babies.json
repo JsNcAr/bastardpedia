@@ -1,0 +1,138 @@
+{
+  "story_id": "the-company-that-poisoned-300-000-babies",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "2008 Chinese milk scandal",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Sanlu Group",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Fonterra",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "corporate-malfeasance",
+    "secondary": [
+      "public-health",
+      "labor-exploitation",
+      "fraud-grift",
+      "communism-state-socialism",
+      "propaganda-media"
+    ]
+  },
+  "regions": {
+    "origin": ["CN"],
+    "setting": ["CN", "NZ"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2007, "end": 2009 },
+    "covered_span": { "start": 1956, "end": 2009 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "In 2008 Chinese dairy giant Sanlu and dozens of rivals sold infant formula laced with melamine to fake protein tests, then hid it through the Beijing Olympics, sickening some 300,000 babies.",
+  "content_warnings": ["child-death"],
+  "keywords": [
+    "Three Deer",
+    "melamine",
+    "infant formula",
+    "Beijing Olympics",
+    "contract farming",
+    "Deng Xiaoping reforms",
+    "Helen Clark",
+    "Baidu",
+    "kidney stones",
+    "2004 fake milk scandal"
+  ],
+  "guests": ["Mia Wong"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:04:09",
+      "note": "Sanlu (Three Deer) founded as a state dairy in 1956; its Mao-era history opens the story"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:15:00",
+      "note": "1986 shift to loaning cows to indebted smallholders, framed as early gig work"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:27:59",
+      "note": "2005 partnership with New Zealand's Fonterra, which takes a large stake"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:38:26",
+      "note": "2004 fake formula scandal in which infants starved, and the crackdown that followed"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:46:28",
+      "note": "price controls push middlemen to add melamine to pass nitrogen-based protein tests"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:49:36",
+      "note": "first documented poisoning case, a father who bought formula in November 2007"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:56:53",
+      "note": "Sanlu with party backing blocks a full recall, plants stories and buys search results"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:58:59",
+      "note": "Fonterra tells NZ consulate; PM Helen Clark raises it with Beijing in September 2008"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:00:36",
+      "note": "22 other firms implicated; executions, prison terms and compensation follow"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:02:12",
+      "note": "lasting distrust of Chinese dairy, a later fake milk case, and food insecurity of the poor today"
+    }
+  ],
+  "notes": "Reverse episode researched and told by Mia Wong. Transcript places Sanlu in the province containing Wuhan (Hubei); Sanlu was actually based in Shijiazhuang, Hebei, so no subdivision is given. Covered span starts at Sanlu's 1956 founding since its state-era history gets real airtime; the 2009 executions close it. Beijing Olympics cover-up kept as a keyword rather than the sports theme. US comparisons (Nike, Nestle, contract growers) left out of setting."
+}

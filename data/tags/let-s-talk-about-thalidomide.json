@@ -1,0 +1,161 @@
+{
+  "story_id": "let-s-talk-about-thalidomide",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Thalidomide scandal",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Grünenthal",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Heinrich Mückter",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1914, "end": 1987 }
+    },
+    {
+      "name": "Otto Ambros",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1901, "end": 1990 }
+    },
+    {
+      "name": "Frances Oldham Kelsey",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1914, "end": 2015 }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "public-health",
+    "secondary": [
+      "corporate-malfeasance",
+      "nazism",
+      "medical-malpractice",
+      "slavery-forced-labor"
+    ]
+  },
+  "regions": {
+    "origin": ["DE"],
+    "setting": ["DE", "PL", "US", "AU"],
+    "subdivisions": [],
+    "polities": ["nazi-germany"],
+    "scope": "global"
+  },
+  "time": {
+    "main_span": { "start": 1957, "end": 1961 },
+    "covered_span": { "start": 1941, "end": 1970 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "West German drugmaker Grünenthal, staffed with former Nazi camp doctors, sold thalidomide from 1957 as a harmless sleeping pill, ignored reports of nerve damage and birth defects, and escaped criminal punishment.",
+  "content_warnings": ["medical-horror", "mass-atrocity", "child-death"],
+  "keywords": [
+    "Contergan",
+    "Distaval",
+    "IG Farben",
+    "Auschwitz",
+    "Buchenwald Block 46",
+    "Ernst-Günther Schenck",
+    "Josef Mengele",
+    "William McBride",
+    "FDA",
+    "Operation Paperclip"
+  ],
+  "guests": ["Francesca Fiorentini"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:07:29",
+      "note": "Ambros leads IG Farben site search from 1941, leading to the Auschwitz plant using slave labor"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:07:59",
+      "note": "IG Farben rents camp prisoners from the SS as forced labor"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:21:07",
+      "note": "Grunenthal founded 1946 as a Wirtz family spin-off and hires many Nazi war criminals"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:30:24",
+      "note": "Muckter's wartime typhus experiments on camp prisoners"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:41:17",
+      "note": "contested claim that the compound was tested on Auschwitz prisoners in 1944"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:48:32",
+      "note": "trial dosing of disabled children in Bonn without parental consent"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:50:05",
+      "note": "first affected baby born late 1956; drug goes on sale in 1957"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:51:41",
+      "note": "Distaval safety advertising in Australia"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:01:03",
+      "note": "FDA reviewer Kelsey blocks US approval"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:07:42",
+      "note": "McBride's Lancet letter; drug withdrawn November 1961"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:09:14",
+      "note": "criminal case against nine employees ends in a settlement with no convictions"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:11:53",
+      "note": "later victim payments, public apology and statue of a limbless child"
+    }
+  ],
+  "notes": "Primary is the scandal as an event; Grunenthal could arguably be co-primary. Covered end 1970 is the known end of the Aachen trial, which the transcript does not date. The 2012 apology gets a couple of minutes, so reaches_present is true but borderline. Nazi-era compound testing is presented as contested."
+}

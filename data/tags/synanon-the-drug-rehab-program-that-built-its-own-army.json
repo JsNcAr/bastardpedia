@@ -1,0 +1,95 @@
+{
+  "story_id": "synanon-the-drug-rehab-program-that-built-its-own-army",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Synanon",
+      "kind": "organization",
+      "org_type": "cult",
+      "role": "primary"
+    },
+    {
+      "name": "Charles Dederich",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1913, "end": 1997 }
+    },
+    {
+      "name": "Betty Dederich",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": 1977 }
+    },
+    {
+      "name": "Paul Morantz",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1978
+    },
+    {
+      "name": "Troubled teen industry",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["cult-leader", "criminal-killer"],
+  "themes": {
+    "primary": "cults-new-religions",
+    "secondary": ["drugs", "child-abuse", "terrorism", "wellness-self-help", "propaganda-media"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-CA"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1958, "end": 1980 },
+    "covered_span": { "start": 1913, "end": 1997 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Charles Dederich founded Synanon in Santa Monica in 1958 as a drug rehab commune, then turned it into an abusive cult that took children from parents, beat teens, sent an armed squad after critics and planted a rattlesnake in a lawyer's mailbox.",
+  "content_warnings": ["child-abuse", "graphic-violence", "drug-use"],
+  "keywords": [
+    "the Game",
+    "Imperial Marines",
+    "Punk Squad",
+    "rattlesnake attack",
+    "Casa del Mar",
+    "Tomales Bay",
+    "Santa Monica",
+    "Straight Inc.",
+    "Hollywood Park (memoir)",
+    "Alcoholics Anonymous"
+  ],
+  "guests": ["Paul F. Tompkins"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:18:36", "note": "Dederich's birth in Toledo, Ohio and childhood begin" },
+    { "facet": "time", "part": 1, "at": "00:43:23", "note": "facility incorporated as a nonprofit in 1958" },
+    { "facet": "themes", "part": 1, "at": "00:37:30", "note": "the Game, the group's confrontational attack therapy, described" },
+    { "facet": "themes", "part": 2, "at": "00:05:51", "note": "Game and later the Trip sold to non-addicts as human-potential self-help" },
+    { "facet": "themes", "part": 2, "at": "00:20:55", "note": "lawsuits against the San Francisco Examiner silence press coverage" },
+    { "facet": "themes", "part": 2, "at": "00:24:06", "note": "children taken from parents and raised communally in the hatchery" },
+    { "facet": "themes", "part": 2, "at": "00:38:17", "note": "Punk Squad boot camp beats court-referred teenagers" },
+    { "facet": "themes", "part": 2, "at": "00:47:15", "note": "Imperial Marines formed; attacks on ranchers, critics and Time staff" },
+    { "facet": "time", "part": 2, "at": "01:02:52", "note": "rattlesnake left in attorney Morantz's mailbox" },
+    { "facet": "time", "part": 2, "at": "01:08:19", "note": "1980 no-contest plea, later bankruptcy, Dederich dies in 1997" },
+    { "facet": "time", "part": 2, "at": "01:10:55", "note": "legacy segment: Synanon methods lead to Straight Inc. and troubled teen programs" }
+  ],
+  "notes": "Synanon and Dederich treated as co-primary; the story is equally his biography. Transcript years are garbled in places (rattlesnake attack, Betty's death); used 1978 and 1977. Opening history of addiction treatment is background and excluded from covered_span. terrorism used for the Imperial Marines' violence campaign against critics; no closer theme for cult violence against outsiders."
+}

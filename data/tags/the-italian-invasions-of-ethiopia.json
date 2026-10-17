@@ -1,0 +1,101 @@
+{
+  "story_id": "the-italian-invasions-of-ethiopia",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "First Italo-Ethiopian War",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Second Italo-Ethiopian War",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Menelik II",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1844, "end": 1913 }
+    },
+    {
+      "name": "Haile Selassie",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1892, "end": 1975 }
+    },
+    {
+      "name": "League of Nations",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "colonialism-imperialism",
+    "secondary": [
+      "war-war-crimes",
+      "diplomacy-foreign-policy",
+      "fascism-far-right",
+      "genocide-mass-killing",
+      "racism-white-supremacy",
+      "monarchy-empire"
+    ]
+  },
+  "regions": {
+    "origin": ["IT"],
+    "setting": ["ET", "ER", "IT", "CH", "JP", "GB"],
+    "subdivisions": [],
+    "polities": ["kingdom-of-italy", "empire-of-japan"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1887, "end": 1937 },
+    "covered_span": { "start": 1869, "end": 1937 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Italy twice invaded Ethiopia: Menelik II routed its army at Adwa in 1896, but in 1935-36 Mussolini's forces conquered the country with poison gas and then massacred tens of thousands in Addis Ababa, exposing the League of Nations as powerless.",
+  "content_warnings": ["mass-atrocity", "graphic-violence"],
+  "keywords": [
+    "Battle of Adwa",
+    "Treaty of Wuchale",
+    "Battle of Dogali",
+    "rinderpest epidemic",
+    "Empress Taytu",
+    "Walwal incident",
+    "Abyssinia Crisis",
+    "Rodolfo Graziani",
+    "Yekatit 12 massacre",
+    "Benito Mussolini"
+  ],
+  "guests": ["Joelle Monique"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:30:49", "note": "Italian company buys a Red Sea trading post in 1869, later sold to the Italian state" },
+    { "facet": "time", "part": 1, "at": "00:32:26", "note": "first Italian armed incursion is defeated at Dogali (1887)" },
+    { "facet": "themes", "part": 1, "at": "00:42:49", "note": "rinderpest brought with Italian cattle kills most herds and causes mass famine" },
+    { "facet": "themes", "part": 1, "at": "00:38:40", "note": "Italian and Amharic treaty texts differ on protectorate status" },
+    { "facet": "time", "part": 1, "at": "00:51:06", "note": "Ethiopian victory at Adwa in March 1896 and its global symbolism" },
+    { "facet": "themes", "part": 2, "at": "00:25:25", "note": "long digression on Ras Tafari's rise to regent and emperor" },
+    { "facet": "regions", "part": 2, "at": "00:11:26", "note": "Japanese expansion, Manchuria and Japan-Ethiopia trade alarm Italy" },
+    { "facet": "regions", "part": 2, "at": "00:58:33", "note": "Haile Selassie addresses the League assembly in Geneva" },
+    { "facet": "themes", "part": 2, "at": "01:01:39", "note": "poison gas dropped on soldiers, villages, pastures and rivers" },
+    { "facet": "time", "part": 2, "at": "01:04:13", "note": "February 1937 reprisal massacre in Addis Ababa after attempt on Graziani" },
+    { "facet": "themes", "part": 2, "at": "01:12:00", "note": "the crisis is presented as the death blow to the League of Nations" }
+  ],
+  "notes": "Story is about a state's conduct, so the two wars are primary events and roles are empty. The 1868 British expedition and ancient Ethiopian history are treated as background and excluded from covered_span. League of Nations is intergovernmental; no org_type fits exactly, political-org used. Tigray conflict mentioned only as motivation."
+}

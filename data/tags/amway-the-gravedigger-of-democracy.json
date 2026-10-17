@@ -1,0 +1,164 @@
+{
+  "story_id": "amway-the-gravedigger-of-democracy",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Amway",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "primary"
+    },
+    {
+      "name": "Richard DeVos",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1926, "end": 2018 }
+    },
+    {
+      "name": "Jay Van Andel",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1924, "end": 2004 }
+    },
+    {
+      "name": "Sue Myrick",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1941, "end": null }
+    },
+    {
+      "name": "Betsy DeVos",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1958, "end": null }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "fraud-grift",
+    "secondary": [
+      "religious-right-culture-war",
+      "electoral-politics",
+      "cults-new-religions",
+      "labor-exploitation",
+      "propaganda-media",
+      "education"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-MI"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1959, "end": 1996 },
+    "covered_span": { "start": 1934, "end": 2021 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Amway, the Michigan multi-level marketing company founded in 1959 by Richard DeVos and Jay Van Andel, left almost all its distributors losing money while its founders used the profits to bankroll Republican politicians and the religious right.",
+  "content_warnings": [],
+  "keywords": [
+    "multi-level marketing",
+    "pyramid scheme",
+    "Nutrilite",
+    "Holiday Magic",
+    "Charles Ponzi",
+    "Sarah Howe",
+    "Federal Trade Commission",
+    "Gerald Ford",
+    "Dexter Yeager",
+    "Amway Caucus"
+  ],
+  "guests": ["Jack O'Brien"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:30:30",
+      "note": "Nutrilite, the supplement firm Amway grew out of, founded in 1934"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:35:37",
+      "note": "after a decade as Nutrilite distributors the pair spin off Amway"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:24:08",
+      "note": "Holiday Magic's coercive Leadership Dynamics courses set up the cult-style MLM model"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:42:21",
+      "note": "DeVos funds and takes over the Christian Freedom Foundation to elect conservative Christians"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:53:23",
+      "note": "1975 FTC pyramid-scheme probe, Oval Office meeting with Ford, 1979 ruling"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:02:40",
+      "note": "couple ruined by motivational tapes and product quotas in the 1990s"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:07:22",
+      "note": "DeVos bankrolls and directs anti-union and right-to-work groups"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:11:00",
+      "note": "Amway tape sales and voicemail network fund Sue Myrick's campaigns; Amway Caucus"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:25:06",
+      "note": "Canadian fines raised only briefly as a contrast, so CA left out of setting"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:41:22",
+      "note": "by the early 1990s Amway rallies resemble religious revival meetings"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:57:12",
+      "note": "Richard DeVos dies in 2018; family fortune and heirs discussed"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:57:44",
+      "note": "Betsy DeVos as Education Secretary: charter schools, rolled-back civil rights guidance"
+    }
+  ],
+  "notes": "Primary kept to Amway per the title, so roles are empty; the founders are secondary. Opening history of Ponzi (1919) and Sarah Howe (1879) treated as background, not covered years. Transcript gives Van Andel's birth as 1934; he was born 1924. Transcript calls Myrick a senator; she served in the US House. main_span ends at the mid-1990s Amway Caucus era."
+}

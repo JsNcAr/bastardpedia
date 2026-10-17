@@ -1,0 +1,151 @@
+{
+  "story_id": "the-ivermectin-episode",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "current-affairs",
+  "subjects": [
+    {
+      "name": "Ivermectin as a COVID-19 treatment",
+      "kind": "practice-or-pseudoscience",
+      "role": "primary"
+    },
+    {
+      "name": "Front Line COVID-19 Critical Care Alliance",
+      "kind": "organization",
+      "org_type": "ngo",
+      "role": "secondary"
+    },
+    {
+      "name": "Pierre Kory",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": null },
+      "floruit": 2020
+    },
+    {
+      "name": "Bret Weinstein",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1969, "end": null }
+    },
+    {
+      "name": "America's Frontline Doctors",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "public-health",
+    "secondary": [
+      "quackery-pseudoscience",
+      "propaganda-media",
+      "fraud-grift",
+      "conspiracy-theories",
+      "tech-internet"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "PE", "BO", "ZA", "PH", "EG"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "global"
+  },
+  "time": {
+    "main_span": { "start": 2020, "end": null },
+    "covered_span": { "start": 2020, "end": 2021 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "How the antiparasitic drug ivermectin was promoted as a COVID-19 cure in 2020-2021 through flawed or fraudulent studies, doctor groups, podcasters and telemedicine grifts, leading to self-medication and overdoses.",
+  "content_warnings": ["drug-use"],
+  "keywords": [
+    "COVID-19",
+    "horse paste",
+    "Surgisphere",
+    "Ahmed Elgazar study",
+    "Joe Rogan",
+    "Intellectual Dark Web",
+    "Ron Johnson",
+    "Simone Gold",
+    "hydroxychloroquine",
+    "Gideon Meyerowitz-Katz"
+  ],
+  "guests": ["Jamie Loftus"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "format",
+      "part": 1,
+      "at": "00:12:02",
+      "note": "host says much of the story is still breaking at recording time"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:06:23",
+      "note": "story proper starts with the 2020 Australian cell-culture study"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:20:04",
+      "note": "Latin American adoption of the drug; Peru and Bolivia add it to treatment guidelines"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:22:39",
+      "note": "South African black market and court case, then the Philippines"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:03:29",
+      "note": "long segment on the Egyptian study and its apparent fabrication"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:32:27",
+      "note": "Surgisphere unverifiable data and retracted papers"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:07:52",
+      "note": "Intellectual Dark Web and Bret Weinstein's promotion of the drug begins"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:48:00",
+      "note": "America's Frontline Doctors origins and telemedicine prescription grift"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:00:35",
+      "note": "Facebook dosing groups evading moderation"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "01:04:12",
+      "note": "overdoses, poison control surges and hospitals overwhelmed"
+    }
+  ],
+  "notes": "Format set to current-affairs because the events were unfolding at release (2020-2021); could arguably be deep-dive. Primary theme public-health vs quackery-pseudoscience is a close call: the drug is real, its COVID use is the unproven part. Drug discovery in 1975 is brief background, not counted. Pierre Kory's birth year not stated, so floruit used."
+}

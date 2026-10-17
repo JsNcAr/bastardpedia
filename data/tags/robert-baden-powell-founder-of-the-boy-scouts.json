@@ -1,0 +1,84 @@
+{
+  "story_id": "robert-baden-powell-founder-of-the-boy-scouts",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Robert Baden-Powell",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1857, "end": 1941 }
+    },
+    {
+      "name": "Boy Scouts of America",
+      "kind": "organization",
+      "org_type": "ngo",
+      "role": "primary"
+    },
+    {
+      "name": "Siege of Mafeking",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["activist-organizer", "military-officer"],
+  "themes": {
+    "primary": "child-abuse",
+    "secondary": ["colonialism-imperialism", "war-war-crimes", "racism-white-supremacy"]
+  },
+  "regions": {
+    "origin": ["GB", "US"],
+    "setting": ["US", "GB", "ZA", "ZW"],
+    "subdivisions": [],
+    "polities": ["british-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1907, "end": 2020 },
+    "covered_span": { "start": 1857, "end": 2020 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "British colonial officer Robert Baden-Powell founded Scouting in 1907 while refusing to screen scoutmasters and quietly dismissing abusers, a pattern the Boy Scouts of America kept for a century until abuse claims drove it into bankruptcy in 2020.",
+  "content_warnings": ["child-abuse"],
+  "keywords": [
+    "Scouting for Boys",
+    "Second Boer War",
+    "Second Matabele War",
+    "Ineligible Volunteer Files",
+    "perversion files",
+    "Tim Jeal",
+    "Ernest Thompson Seton",
+    "Scout's Honor (Patrick Boyle)",
+    "Gilwell Park",
+    "BSA bankruptcy"
+  ],
+  "guests": ["Matt Lieb"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:04:46", "note": "birth in Paddington, London, February 1857" },
+    { "facet": "regions", "part": 1, "at": "00:12:42", "note": "fights in the Second Matabele War in 1896; execution of a surrendered chief" },
+    { "facet": "regions", "part": 1, "at": "00:19:29", "note": "commands the garrison through the long siege of Mafeking in the Boer War" },
+    { "facet": "themes", "part": 1, "at": "00:22:35", "note": "allegations he starved and expelled Black residents during the siege, and the historians' debate" },
+    { "facet": "time", "part": 1, "at": "00:42:38", "note": "rewrites his scouting manual in 1907 and runs the first trial boy camp" },
+    { "facet": "themes", "part": 1, "at": "01:09:23", "note": "rejects proposals to screen scoutmasters so the movement can grow faster" },
+    { "facet": "themes", "part": 1, "at": "01:14:36", "note": "abusive camp doctor at Gilwell is let go quietly instead of reported to police" },
+    { "facet": "time", "part": 1, "at": "01:17:14", "note": "death in 1941; patterns he set carry on in the organization" },
+    { "facet": "themes", "part": 2, "at": "00:07:21", "note": "BSA starts its ineligible volunteer files in 1919, including the abuse subset" },
+    { "facet": "regions", "part": 2, "at": "00:11:30", "note": "long Southern California case of an expelled leader who rejoins troops for years" },
+    { "facet": "themes", "part": 2, "at": "00:48:06", "note": "BSA refuses background checks in the 1980s and lobbies against state requirements" },
+    { "facet": "time", "part": 2, "at": "01:01:55", "note": "over 100,000 alleged victims by late 2020, bankruptcy and campground sales" }
+  ],
+  "notes": "Baden-Powell and the BSA treated as co-primary: part 1 is his biography, part 2 is the BSA abuse history. Roles: no id for founding a youth movement; activist-organizer is the closest. No theme for institutional cover-up or lobbying against statute-of-limitation reform. Seton gets only a few minutes, so he is a keyword. Covered span ends at the 2020 claims count and bankruptcy."
+}

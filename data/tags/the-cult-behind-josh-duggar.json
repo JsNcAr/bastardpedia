@@ -1,0 +1,151 @@
+{
+  "story_id": "the-cult-behind-josh-duggar",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Josh Duggar",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1988, "end": null }
+    },
+    {
+      "name": "Institute in Basic Life Principles",
+      "kind": "organization",
+      "org_type": "cult",
+      "role": "secondary"
+    },
+    {
+      "name": "Bill Gothard",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1934, "end": null }
+    },
+    {
+      "name": "Quiverfull movement",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    },
+    {
+      "name": "Jim Bob Duggar",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1965, "end": null }
+    }
+  ],
+  "roles": ["criminal-killer", "political-operative", "media-personality"],
+  "themes": {
+    "primary": "child-abuse",
+    "secondary": [
+      "cults-new-religions",
+      "religious-right-culture-war",
+      "misogyny-manosphere",
+      "sexual-abuse",
+      "entertainment-celebrity",
+      "education"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-AR"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2002, "end": 2021 },
+    "covered_span": { "start": 1974, "end": 2021 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Reality TV son Josh Duggar molested his sisters in Arkansas in the early 2000s while the Quiverfull movement and Bill Gothard's IBLP cult hid it; he became a family-values lobbyist and was charged with child pornography in 2021.",
+  "content_warnings": ["child-abuse", "sexual-violence"],
+  "keywords": [
+    "19 Kids and Counting",
+    "Counting On",
+    "TLC",
+    "Advanced Training Institute",
+    "Family Research Council",
+    "Ashley Madison",
+    "Danvers Statement",
+    "complementarianism",
+    "Mike Huckabee",
+    "Covenant Eyes"
+  ],
+  "guests": ["Sean"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:19:46",
+      "note": "Howard Phillips founds the Constitution Party in 1974; Quiverfull ideological roots begin"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:32:20",
+      "note": "Gothard founds IBLP in 1961; ATI curriculum and troubled-teen camp described"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:35:58",
+      "note": "blanket training and corporal punishment of toddlers in ATI families"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:47:23",
+      "note": "Josh Duggar born in Tontitown, Arkansas"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:57:41",
+      "note": "abuse of his sisters begins in 2002 when Josh is fourteen"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:59:44",
+      "note": "ATI counselling blames abuse victims; staff member abused a young woman at a training center"
+    },
+    {
+      "facet": "roles",
+      "part": 2,
+      "at": "00:21:56",
+      "note": "works on Huckabee 2008 campaign, Santorum rallies, then FRC Action executive director in 2013"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:26:06",
+      "note": "Duggars campaign against Fayetteville LGBT anti-discrimination ordinance in 2014"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:28:41",
+      "note": "dozens of women accuse Gothard of harassment and abuse; 2016 lawsuit alleges rape"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:46:25",
+      "note": "2019 federal raid, 2021 child pornography charges and Counting On cancelled"
+    }
+  ],
+  "notes": "Title frames the cult as co-subject, but no single named body is the cult (Quiverfull plus Gothard's IBLP/ATI), so Josh is the sole primary. covered_span starts at the 1970s religious-right roots of Quiverfull (Howard Phillips, 1974), a secondary subject with a long segment. media-personality is a loose fit for a reality TV star."
+}

@@ -1,0 +1,134 @@
+{
+  "story_id": "covid-vaccine-grifting-doctors",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "current-affairs",
+  "subjects": [
+    {
+      "name": "Michael Yeadon",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": null, "end": null },
+      "floruit": 2020
+    },
+    {
+      "name": "Juli Mazi",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": null, "end": null },
+      "floruit": 2021
+    },
+    {
+      "name": "Homeopathy",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["conspiracy-theorist", "quack-fake-healer", "scientist-scholar"],
+  "themes": {
+    "primary": "public-health",
+    "secondary": [
+      "conspiracy-theories",
+      "quackery-pseudoscience",
+      "fraud-grift",
+      "propaganda-media",
+      "tech-internet"
+    ]
+  },
+  "regions": {
+    "origin": ["GB", "US"],
+    "setting": ["GB", "US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2020, "end": null },
+    "covered_span": { "start": 1985, "end": 2021 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Two Covid-era grifters: Napa naturopath Juli Mazi, arrested in 2021 for selling fake homeopathic Covid immunity pellets and forged vaccine cards, and ex-Pfizer scientist Michael Yeadon, who became a leading anti-vaccine misinformation figure.",
+  "content_warnings": [],
+  "keywords": [
+    "COVID-19",
+    "Pfizer",
+    "Ziarco",
+    "Novartis",
+    "Lockdown Sceptics",
+    "Daily Mail",
+    "Wolfgang Wodarg",
+    "vaccine infertility myth",
+    "fake vaccination cards",
+    "Napa"
+  ],
+  "guests": ["Garrison Davis"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "format",
+      "part": 1,
+      "at": "00:01:01",
+      "note": "opens on the Delta variant surge at recording time; episode is about ongoing 2021 events"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:05:19",
+      "note": "first segment: Napa naturopath and her immunization pellet scheme"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:13:10",
+      "note": "explanation of homeopathy and why the pellets are pseudoscience"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:22:13",
+      "note": "forged CDC vaccination cards with real Moderna lot numbers; arrest and wire fraud charge"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:29:02",
+      "note": "Yeadon's degrees from the mid-1980s and Pfizer career begin the covered years"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:32:19",
+      "note": "his eczema-drug startup and its sale to Novartis"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:40:12",
+      "note": "UK lockdown scepticism, Lockdown Sceptics essays and Daily Mail column"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:51:13",
+      "note": "petition with a German doctor seeds the vaccine infertility myth"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:01:40",
+      "note": "spread via Facebook and BitChute despite moderation"
+    }
+  ],
+  "notes": "Two equally titled subjects; Yeadon gets about two thirds of the airtime. Birth years not given in the packet, so floruit used. Format current-affairs since events were ongoing in 2021; deep-dive is arguable. covered_span start 1985 is approximate (his education and Pfizer career are a real segment). Singapore doctors and the US bar owner are brief and left out."
+}

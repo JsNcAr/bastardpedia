@@ -1,0 +1,153 @@
+{
+  "story_id": "the-ballad-of-bill-gates",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Bill Gates",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1955, "end": null },
+      "wikidata": "Q5284"
+    },
+    {
+      "name": "Microsoft",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary",
+      "wikidata": "Q2283"
+    },
+    {
+      "name": "Bill & Melinda Gates Foundation",
+      "kind": "organization",
+      "org_type": "ngo",
+      "role": "secondary"
+    },
+    {
+      "name": "Jeffrey Epstein",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1953, "end": 2019 }
+    }
+  ],
+  "roles": ["tech-founder"],
+  "themes": {
+    "primary": "tech-internet",
+    "secondary": ["corporate-malfeasance", "public-health", "education", "colonialism-imperialism"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-WA"],
+    "polities": [],
+    "scope": "global"
+  },
+  "time": {
+    "main_span": { "start": 1975, "end": null },
+    "covered_span": { "start": 1955, "end": 2021 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Bill Gates co-founded Microsoft in 1975, built it into a software monopoly by crushing rivals, then used the Gates Foundation to steer global health and US schools by market logic, including defending vaccine patents during COVID-19.",
+  "content_warnings": [],
+  "keywords": [
+    "Open Letter to Hobbyists",
+    "Netscape",
+    "United States v. Microsoft",
+    "Lakeside School",
+    "Paul Allen",
+    "Steve Ballmer",
+    "Melinda French Gates",
+    "KIPP charter schools",
+    "COVAX",
+    "ACT Accelerator"
+  ],
+  "guests": ["Andrew Ti"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:05:43",
+      "note": "birth and wealthy family background in Seattle"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:18:06",
+      "note": "starts at Lakeside in 1968, school buys computer time"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:35:47",
+      "note": "drops out of Harvard in 1975 to found Micro-Soft in Albuquerque"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:39:59",
+      "note": "1976 open letter attacking hobbyists who shared his software"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:56:45",
+      "note": "tying, bundling and sabotaging rival products such as Lotus"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:02:58",
+      "note": "federal antitrust suit over Netscape, ruling and appeal, deposition"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:04:09",
+      "note": "steps down as CEO in 2000 and turns to the foundation"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:15:04",
+      "note": "grants to Monsanto for African farming framed as top-down imperialism"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:29:34",
+      "note": "host calls foundation charity imperialism, turns to US school reform"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:37:22",
+      "note": "2008 billion-dollar teacher evaluation push and failed small-schools drive"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:49:04",
+      "note": "Epstein meetings from 2011 and the end of the marriage"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:55:29",
+      "note": "ACT Accelerator and COVAX protecting vaccine IP in 2020-21"
+    }
+  ],
+  "notes": "Gates was alive at release, so main_span ends null and covered_span runs 1955-2021. Africa and the global South are discussed as harm places but mostly without named countries (Kenya only briefly), so setting is US with global scope. The host cut a segment on HIV circumcision programs after a correction. Workplace advances and Epstein ties are covered but not as sexual abuse by Gates, so no sexual-abuse theme."
+}

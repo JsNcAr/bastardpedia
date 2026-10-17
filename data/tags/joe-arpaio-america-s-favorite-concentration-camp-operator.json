@@ -1,0 +1,91 @@
+{
+  "story_id": "joe-arpaio-america-s-favorite-concentration-camp-operator",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Joe Arpaio",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1932, "end": null }
+    },
+    {
+      "name": "Maricopa County Sheriff's Office",
+      "kind": "organization",
+      "org_type": "police",
+      "role": "secondary"
+    },
+    {
+      "name": "Tent City Jail",
+      "kind": "organization",
+      "org_type": "police",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["police-lawman", "politician-official"],
+  "themes": {
+    "primary": "policing-incarceration",
+    "secondary": [
+      "immigration-borders",
+      "racism-white-supremacy",
+      "propaganda-media",
+      "drugs",
+      "electoral-politics"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "TR", "MX"],
+    "subdivisions": ["US-AZ"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1993, "end": 2017 },
+    "covered_span": { "start": 1932, "end": 2021 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Joe Arpaio, a former federal narcotics agent, served as sheriff of Maricopa County, Arizona, from 1993 to 2016, running a deadly tent jail, staging media stunts, and leading racial-profiling immigration sweeps until a contempt conviction.",
+  "content_warnings": ["torture", "graphic-violence", "child-death"],
+  "keywords": [
+    "Tent City",
+    "Maricopa County",
+    "Phoenix",
+    "chain gangs",
+    "pink underwear",
+    "Operation Intercept",
+    "Federal Bureau of Narcotics",
+    "Scott Norberg",
+    "sheriff's posse",
+    "Trump pardon"
+  ],
+  "guests": ["Noah Shachtman"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:04:48", "note": "born 1932 in Springfield, Massachusetts, to Italian immigrant parents" },
+    { "facet": "themes", "part": 1, "at": "00:20:37", "note": "joins the Federal Bureau of Narcotics; undercover drug work begins" },
+    { "facet": "regions", "part": 1, "at": "00:27:22", "note": "posted to Istanbul in 1961; opium bust and disputed Turkish gunfight stories" },
+    { "facet": "regions", "part": 1, "at": "00:37:17", "note": "Operation Intercept border blockade, then Mexico City posting" },
+    { "facet": "time", "part": 1, "at": "00:47:07", "note": "1992 sheriff election; takes office the following January" },
+    { "facet": "themes", "part": 1, "at": "00:52:25", "note": "tent jail, deprivations and chain gangs built for press coverage" },
+    { "facet": "content_warnings", "part": 1, "at": "01:03:25", "note": "1996 death of Scott Norberg in a restraint chair, injuries described" },
+    { "facet": "themes", "part": 2, "at": "00:16:09", "note": "2006 pivot to targeting immigrants with smuggling law and posse sweeps" },
+    { "facet": "themes", "part": 2, "at": "00:28:14", "note": "PR aide Lisa Allen engineering viral stunts such as pink underwear" },
+    { "facet": "content_warnings", "part": 2, "at": "00:41:48", "note": "inmate's late-term stillbirth after medical neglect in the tent jail" },
+    { "facet": "time", "part": 2, "at": "01:07:34", "note": "profiling suit, ignored injunction, 2017 contempt conviction and pardon" },
+    { "facet": "time", "part": 2, "at": "01:09:08", "note": "loses 2016 reelection, 2018 Senate bid and 2020 sheriff primary" }
+  ],
+  "notes": "Arpaio was alive at release (2021), so covered_span runs to 2021 under the lifetime rule. main_span ends at the 2017 conviction and pardon rather than his 2016 ouster. Turkey and Mexico have real segments from his narcotics career. A posse prostitution sting with sexual coercion of sex workers gets a few minutes; sexual-violence warning left off as borderline."
+}
