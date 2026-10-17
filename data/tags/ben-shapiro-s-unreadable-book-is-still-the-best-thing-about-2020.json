@@ -1,0 +1,101 @@
+{
+  "story_id": "ben-shapiro-s-unreadable-book-is-still-the-best-thing-about-2020",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "media-reading",
+  "subjects": [
+    {
+      "name": "True Allegiance",
+      "kind": "media-work",
+      "role": "primary"
+    },
+    {
+      "name": "Ben Shapiro",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1984, "end": null }
+    }
+  ],
+  "roles": ["writer-intellectual", "media-personality"],
+  "themes": {
+    "primary": "propaganda-media",
+    "secondary": [
+      "terrorism",
+      "diplomacy-foreign-policy",
+      "immigration-borders",
+      "racism-white-supremacy"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "IR"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2016, "end": 2016 },
+    "covered_span": { "start": 2016, "end": 2016 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "Robert Evans, Katy Stoll and Cody Johnston continue reading Ben Shapiro's 2016 novel True Allegiance, mocking its prose and its plot of a CIA rescue in Tehran, a bridge bombing in New York and a Texas governor keeping troops on the border.",
+  "content_warnings": ["graphic-violence"],
+  "keywords": [
+    "Brett Hawthorne",
+    "President Prescott",
+    "Ellen Hawthorne",
+    "Soledad",
+    "Ezekiel Pope",
+    "Levon Williams",
+    "George Washington Bridge",
+    "Minot, North Dakota",
+    "Tehran",
+    "Herman Cain"
+  ],
+  "guests": ["Katy Stoll", "Cody Johnston"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:09:12",
+      "note": "fictional White House debate over striking Tehran and its effect on nuclear talks with Iran"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:19:53",
+      "note": "CIA team raids the building in Tehran where the general is held"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:23:34",
+      "note": "hero stabs a teenage guard; later an operative burns in an explosion, read aloud"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:45:16",
+      "note": "terrorists blow up the George Washington Bridge in the novel"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:46:46",
+      "note": "Texas governor keeps Guard troops on the border; hosts call the invasion framing white supremacist"
+    }
+  ],
+  "notes": "Part of the multi-episode reading of True Allegiance; matches sibling records. Time is the novel's 2016 publication and unspecified near-present setting (approximate). Iran setting is fictional. propaganda-media chosen as closest primary theme; no theme fits right-wing polemical fiction exactly. Character name spellings are approximate from the transcript."
+}

@@ -1,0 +1,149 @@
+{
+  "story_id": "the-golden-age-of-terrorism",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Carlos the Jackal",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1949, "end": null }
+    },
+    {
+      "name": "Japanese Red Army",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "primary"
+    },
+    {
+      "name": "1960s skyjacking epidemic",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "United Red Army",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Popular Front for the Liberation of Palestine",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["terrorist-militant", "criminal-killer"],
+  "themes": {
+    "primary": "terrorism",
+    "secondary": [
+      "communism-state-socialism",
+      "coups-insurrections",
+      "policing-incarceration",
+      "intelligence-covert-ops"
+    ]
+  },
+  "regions": {
+    "origin": ["VE", "JP"],
+    "setting": ["JP", "FR", "US", "CU", "GB", "AT"],
+    "subdivisions": [],
+    "polities": ["soviet-union", "east-germany"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1961, "end": 1994 },
+    "covered_span": { "start": 1949, "end": 2020 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "A survey of 1960s-70s terrorism: the wave of US skyjackings to Cuba, the Japanese Red Army's hijacking, massacres and murderous internal purge, and Venezuelan-born Carlos the Jackal's bombings, killings and 1975 OPEC hostage raid.",
+  "content_warnings": ["graphic-violence", "torture"],
+  "keywords": [
+    "Ilich Ramirez Sanchez",
+    "skyjacking",
+    "Yodogo hijacking",
+    "Dawson's Field hijackings",
+    "OPEC siege 1975",
+    "Orly Airport attack",
+    "Lod Airport massacre",
+    "Zengakuren",
+    "Tsuneo Mori",
+    "Hiroko Nagata"
+  ],
+  "guests": ["Bea", "Elaine"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:12:33",
+      "note": "first successful hijacking to Havana in 1961 opens the skyjacking era segment"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:04:44",
+      "note": "Carlos's birth in Venezuela in 1949 and his Marxist father"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:31:37",
+      "note": "Sudan hands Carlos to France in 1994; later trials and imprisonment noted briefly"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:19:18",
+      "note": "hijackers in Cuba interrogated by secret police and sent to brutal labor camps"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:20:18",
+      "note": "United Red Army self-criticism camp in Gunma mountains, 14 of 29 members killed"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "01:06:32",
+      "note": "Paris cafe grenade attack to force release of a captured Japanese Red Army leader"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "01:20:15",
+      "note": "raid on OPEC meeting in Vienna, hostages flown to Algiers and Tripoli"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:46:19",
+      "note": "Japanese riot police crackdowns and mass arrests of student radicals"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:55:52",
+      "note": "Red Army Faction plot to kidnap the prime minister and spark armed uprisings"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:25:29",
+      "note": "Stasi gives Carlos a safe house; he operates from Prague with state support"
+    }
+  ],
+  "notes": "Story splits between a skyjacking/Japanese Red Army half and a Carlos biography half, so both are primary. Covered span starts at Carlos's birth (1931 and 1939 hijackings are brief); end is release year per lifetime rule. Trials coda is short, so reaches_present is false. Guests' surnames not given."
+}

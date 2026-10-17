@@ -1,0 +1,163 @@
+{
+  "story_id": "the-deadliest-school-in-history",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "School of the Americas",
+      "kind": "organization",
+      "org_type": "school-or-facility",
+      "role": "primary"
+    },
+    {
+      "name": "El Mozote massacre",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Efraín Ríos Montt",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1926, "end": 2018 }
+    },
+    {
+      "name": "Roberto D'Aubuisson",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1944, "end": 1992 }
+    },
+    {
+      "name": "1973 Chilean coup d'état",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "diplomacy-foreign-policy",
+    "secondary": [
+      "genocide-mass-killing",
+      "coups-insurrections",
+      "authoritarianism",
+      "education",
+      "civil-war",
+      "racism-white-supremacy",
+      "propaganda-media"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["SV", "GT", "CL", "BO", "PA", "US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1946, "end": 2001 },
+    "covered_span": { "start": 1946, "end": 2001 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "History of the US Army's School of the Americas, opened in the Panama Canal Zone in 1946, whose Latin American graduates led coups, death squads and massacres in Chile, Bolivia, El Salvador and Guatemala during the Cold War.",
+  "content_warnings": [
+    "mass-atrocity",
+    "torture",
+    "sexual-violence",
+    "child-death",
+    "graphic-violence"
+  ],
+  "keywords": [
+    "Western Hemisphere Institute for Security Cooperation",
+    "Fort Benning",
+    "Panama Canal Zone",
+    "Villa Grimaldi",
+    "Atlacatl Battalion",
+    "Oscar Romero",
+    "Diana Ortiz",
+    "Hugo Banzer",
+    "Monroe Doctrine",
+    "Leslie Gill"
+  ],
+  "guests": ["Joelle Monique"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:42:57",
+      "note": "Army opens the Latin American training center in the Panama Canal Zone in 1946"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:50:56",
+      "note": "Argentine trainees given racial privileges over darker-skinned students at the school"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:14:47",
+      "note": "SOA-trained officers drive the 1973 coup against Allende; Villa Grimaldi torture follows"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:22:36",
+      "note": "Hugo Banzer, SOA graduate, seizes Bolivia in 1971 and runs a torture basement"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:04:19",
+      "note": "Atlacatl Battalion's massacre at El Mozote in December 1981 told at length"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:11:02",
+      "note": "Reagan officials and allied press work to discredit the El Mozote reporting"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:25:31",
+      "note": "Rios Montt, early SOA graduate, takes power in 1982 and escalates killings of Maya"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:35:56",
+      "note": "D'Aubuisson's death squads and the 1980 assassination of Oscar Romero"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:45:05",
+      "note": "School moves from Panama to Fort Benning, Georgia, in 1984"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:10:34",
+      "note": "Clinton-era closure and immediate relaunch under a new name ends the story proper"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:08:58",
+      "note": "Bolivian coups and the recent ouster of Evo Morales tied to graduates (present-day link)"
+    }
+  ],
+  "notes": "Part 1 opens with roughly 40 minutes on the Monroe Doctrine, Roosevelt Corollary, Wilson and Kennan (1823-1948); treated as background before the school exists, so covered_span starts at the 1946 founding. Argentina (Galtieri, first Argentine trainees) cut from setting to fit six codes. Primary theme is a judgment call between diplomacy-foreign-policy and education; the taxonomy lists this story as an education example, so it is secondary."
+}

@@ -1,0 +1,165 @@
+{
+  "story_id": "the-u-s-border-patrol-is-a-nightmare-that-never-ends",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "United States Border Patrol",
+      "kind": "organization",
+      "org_type": "government-agency",
+      "role": "primary"
+    },
+    {
+      "name": "Harlon Carter",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1913, "end": 1991 }
+    },
+    {
+      "name": "Operation Wetback",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "John P. Longan",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1965
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "immigration-borders",
+    "secondary": [
+      "policing-incarceration",
+      "racism-white-supremacy",
+      "labor-exploitation",
+      "intelligence-covert-ops",
+      "genocide-mass-killing",
+      "child-abuse",
+      "sexual-abuse"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "MX", "GT"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1924, "end": null },
+    "covered_span": { "start": 1924, "end": 2020 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "History of the U.S. Border Patrol from its racist 1924 founding through mass deportations, Operation Wetback, training Guatemalan death squads, and decades of killings, torture, sexual abuse and corruption up to 2020.",
+  "content_warnings": [
+    "child-death",
+    "mass-atrocity",
+    "torture",
+    "graphic-violence",
+    "sexual-violence",
+    "hate-speech"
+  ],
+  "keywords": [
+    "Immigration Act of 1924",
+    "Undesirable Aliens Act of 1929",
+    "Mexican Repatriation",
+    "Operation Cloudburst",
+    "Operation Limpieza",
+    "Los Fresnos bomb school",
+    "Efrain Rios Montt",
+    "Jakelin Caal Maquin",
+    "No More Deaths",
+    "Migra! (Kelly Lytle Hernandez)"
+  ],
+  "guests": ["Caitlin Durante"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:18:14",
+      "note": "1924 Immigration Act, built on eugenics, creates the Border Patrol"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:29:43",
+      "note": "laws written for agribusiness but enforced by poor whites who hated Mexican workers"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:39:36",
+      "note": "1929 unlawful-entry law and 1930s deportation of about a million, many US citizens"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:45:17",
+      "note": "Harlon Carter, convicted of a 1931 killing, later Border Patrol chief and NRA head"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:52:31",
+      "note": "Texas ranchers arm guards and fight Border Patrol raids to keep their migrant workforce"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:03:52",
+      "note": "Operation Wetback launched June 1954 under General Swing, open-air camps in Los Angeles"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:05:50",
+      "note": "agent John Longan sent to Guatemala in 1965 to build death squads, Operation Limpieza"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:12:33",
+      "note": "Rios Montt era massacres of Maya villagers, the root of later Guatemalan migration"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:17:49",
+      "note": "CIA bomb-making course for foreign police held at the Los Fresnos Border Patrol site"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:22:02",
+      "note": "1980 reporting on rape, torture and using migrant children as bait to force confessions"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:41:01",
+      "note": "post-9/11 dissolution of INS and creation of CBP in 2003"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:59:39",
+      "note": "Trump era: BORTAC units deployed to police protests in US cities, up to 2020"
+    }
+  ],
+  "notes": "Primary subject is an organization, so no roles; still active, so main_span end is null. The Texas Rangers and the 1848 Mexican-American War are short background before the 1924 founding and are left out of covered_span. Part 2 opens with 2018 child deaths in custody (Jakelin Caal, Felipe Gomez Alonzo). Setting ends with GT for the Longan and genocide segment. org_type follows the taxonomy listing Border Patrol as government-agency."
+}

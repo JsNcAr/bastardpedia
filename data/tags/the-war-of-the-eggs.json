@@ -1,0 +1,145 @@
+{
+  "story_id": "the-war-of-the-eggs",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Farallon Egg War",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Pacific Egg Company",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Amos Clift",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1858
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "corporate-malfeasance",
+    "secondary": [
+      "environmental-destruction",
+      "labor-exploitation"
+    ]
+  },
+  "regions": {
+    "origin": [
+      "US"
+    ],
+    "setting": [
+      "US"
+    ],
+    "subdivisions": [
+      "US-CA"
+    ],
+    "polities": [],
+    "scope": "local"
+  },
+  "time": {
+    "main_span": {
+      "start": 1849,
+      "end": 1881
+    },
+    "covered_span": {
+      "start": 1848,
+      "end": 1881
+    },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "During the California Gold Rush, rival armed gangs and a monopolistic egg company fought for decades over harvesting seabird eggs on the Farallon Islands, clashing with lighthouse keepers and devastating the murre colony.",
+  "content_warnings": [
+    "animal-cruelty"
+  ],
+  "keywords": [
+    "Farallon Islands",
+    "San Francisco",
+    "California Gold Rush",
+    "common murre",
+    "Doc Robinson",
+    "David Batchelder",
+    "Farallon lighthouse",
+    "The Devil's Teeth",
+    "Susan Casey",
+    "Petaluma"
+  ],
+  "guests": [
+    "Billy Wayne Davis"
+  ],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:05:16",
+      "note": "Gold discovered at Coloma in 1848, triggering the San Francisco boom and egg shortage"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:24:39",
+      "note": "Doc Robinson's first Farallon egg run in spring 1849"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:25:42",
+      "note": "Six men claim the islands and incorporate an egg company"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:28:51",
+      "note": "Dangerous work, deaths logged as missing, immigrant and blacklisted labor organizers as eggers"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:36:53",
+      "note": "Head keeper Amos Clift hired in 1858 and tries to seize the egg trade"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:49:00",
+      "note": "1863 gun battle between Batchelder's Italian fishermen and company men"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:51:03",
+      "note": "Company turns to rendering sea lions and seals for oil as egg yields fall"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:52:36",
+      "note": "Army evicts the egg company from the islands in 1881"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:54:40",
+      "note": "Murre population collapses from about 400,000 to 60,000"
+    }
+  ],
+  "notes": "Primary subject is an event, so roles are empty. No theme for frontier resource wars; corporate-malfeasance chosen for the egg company's armed monopoly, with environmental-destruction a close alternative as primary. Clift's dates are not given; floruit set to his 1858 hiring."
+}

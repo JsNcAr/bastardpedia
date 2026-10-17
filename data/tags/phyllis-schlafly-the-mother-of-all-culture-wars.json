@@ -1,0 +1,152 @@
+{
+  "story_id": "phyllis-schlafly-the-mother-of-all-culture-wars",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Phyllis Schlafly",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1924, "end": 2016 }
+    },
+    {
+      "name": "John Birch Society",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Barry Goldwater",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1909, "end": 1998 }
+    },
+    {
+      "name": "Eagle Forum",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["activist-organizer", "writer-intellectual", "political-operative"],
+  "themes": {
+    "primary": "religious-right-culture-war",
+    "secondary": [
+      "misogyny-manosphere",
+      "electoral-politics",
+      "conspiracy-theories",
+      "racism-white-supremacy",
+      "propaganda-media",
+      "weapons-arms-trade"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1952, "end": 2016 },
+    "covered_span": { "start": 1924, "end": 2016 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "St. Louis-born conservative activist Phyllis Schlafly, a secret John Birch Society member, used propaganda and a housewife lobbying network to defeat the Equal Rights Amendment and turn anti-feminism, anti-gay politics and abortion into lasting Republican culture wars.",
+  "content_warnings": [],
+  "keywords": [
+    "Equal Rights Amendment",
+    "STOP ERA",
+    "A Choice Not an Echo",
+    "Chester Ward",
+    "Robert Welch",
+    "1964 Republican National Convention",
+    "Moral Majority",
+    "Paul Weyrich",
+    "American Enterprise Association",
+    "Betty Friedan"
+  ],
+  "guests": ["Teresa Lee"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:08:50",
+      "note": "birth in St. Louis; year garbled in transcript, 1924 from known record"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:50:35",
+      "note": "first run for Congress and upset primary win, start of her political career"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:02:32",
+      "note": "death at 92 shortly after endorsing Trump at a St. Louis rally"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:54:13",
+      "note": "partnership with Admiral Chester Ward pushing nuclear superiority and first-strike capability"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:15:05",
+      "note": "letters show she was a secret John Birch Society member from 1959"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:17:39",
+      "note": "leads 1960 convention revolt against an anti-segregation platform plank"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:08:26",
+      "note": "Birch Society bulk-bought and distributed her Goldwater book via a front publisher"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:17:23",
+      "note": "founds STOP ERA and organizes housewives against the amendment"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:47:36",
+      "note": "anti-gay campaigning, opposition to AIDS education in the 1980s"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:56:55",
+      "note": "1996 deal with Buchanan to lock a no-exceptions abortion plank into the GOP platform"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:58:27",
+      "note": "legacy traced to abortion polling and opinion shifts up to release"
+    }
+  ],
+  "notes": "Main span starts at her 1952 congressional run (year from known record; transcript gives no year). No theme for anti-LGBTQ politics, which gets a real segment; folded into religious-right-culture-war. weapons-arms-trade covers her nuclear-strategy books with Chester Ward. Eagle Forum stands in for STOP ERA and her newsletter network."
+}

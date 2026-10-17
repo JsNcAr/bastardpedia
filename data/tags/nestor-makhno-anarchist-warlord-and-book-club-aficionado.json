@@ -1,0 +1,92 @@
+{
+  "story_id": "nestor-makhno-anarchist-warlord-and-book-club-aficionado",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "hero",
+  "subjects": [
+    {
+      "name": "Nestor Makhno",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1888, "end": 1934 }
+    },
+    {
+      "name": "Revolutionary Insurrectionary Army of Ukraine",
+      "kind": "organization",
+      "org_type": "military",
+      "role": "secondary"
+    },
+    {
+      "name": "Mennonite Selbstschutz",
+      "kind": "organization",
+      "org_type": "military",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["mercenary-warlord", "activist-organizer", "terrorist-militant"],
+  "themes": {
+    "primary": "civil-war",
+    "secondary": [
+      "war-war-crimes",
+      "terrorism",
+      "colonialism-imperialism",
+      "communism-state-socialism",
+      "policing-incarceration",
+      "racism-white-supremacy"
+    ]
+  },
+  "regions": {
+    "origin": ["UA"],
+    "setting": ["UA", "RU", "FR"],
+    "subdivisions": [],
+    "polities": ["russian-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1917, "end": 1921 },
+    "covered_span": { "start": 1888, "end": 1934 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Christmas hero episode on Ukrainian anarchist Nestor Makhno, a former serf's son and teenage militant who built peasant communes around Huliaipole and led a guerrilla army against Austro-German occupiers, the Whites and the Bolsheviks from 1917 to 1921.",
+  "content_warnings": ["graphic-violence", "mass-atrocity", "suicide-self-harm"],
+  "keywords": [
+    "Huliaipole",
+    "Makhnovshchina",
+    "Free Territory",
+    "tachanka",
+    "Battle of Peregonovka",
+    "Treaty of Brest-Litovsk",
+    "Anton Denikin",
+    "Leon Trotsky",
+    "Peter Kropotkin",
+    "Anarchy's Cossack"
+  ],
+  "guests": ["Jamie Loftus"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:23:37", "note": "Makhno's birth in October to former serfs; year garbled in transcript, 1888 from general knowledge" },
+    { "facet": "themes", "part": 1, "at": "00:06:18", "note": "extended framing of Ukraine as a colonized land, land grants to nobles and settlers, serfdom" },
+    { "facet": "themes", "part": 1, "at": "00:50:29", "note": "anarchist group turns to armed expropriations and shootouts with police in 1906-07" },
+    { "facet": "themes", "part": 1, "at": "01:06:05", "note": "death sentence commuted to hard labor; years in tsarist prison reading anarchist theory" },
+    { "facet": "time", "part": 1, "at": "01:09:17", "note": "freed after the 1917 revolution and returns to organize his hometown" },
+    { "facet": "subjects", "part": 2, "at": "00:12:32", "note": "segment on Mennonite landowners forming an armed militia alongside the occupiers" },
+    { "facet": "regions", "part": 2, "at": "00:24:29", "note": "flees to Moscow and meets Lenin before sneaking back into Ukraine" },
+    { "facet": "themes", "part": 2, "at": "00:38:23", "note": "White Army pogroms and reprisals against peasants and Jewish communities" },
+    { "facet": "themes", "part": 2, "at": "00:56:03", "note": "Red Army outlaws Makhno; Cheka purges in retaken towns" },
+    { "facet": "time", "part": 2, "at": "00:56:35", "note": "final war with the Bolsheviks ends in 1921; escape to Poland then exile" },
+    { "facet": "regions", "part": 2, "at": "00:57:06", "note": "last years spent ill and depressed in Paris" },
+    { "facet": "time", "part": 2, "at": "01:00:12", "note": "death in Paris; year garbled in transcript, 1934 from general knowledge" }
+  ],
+  "notes": "Hero format (2020 Christmas non-bastard). Birth and death years garbled in transcript; 1888 and 1934 from general knowledge. Catherine the Great, Cossack and serfdom history is background and not counted in covered_span. Main span uses 1917-1921, though the 1906-1908 militant phase also gets long airtime. Poland and Paris exile brief; PL omitted. Tsar Nicholas II and Bloody Sunday get a few minutes (monarchy-empire left out)."
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "nestor-makhno-anarchist-warlord-and-book-club-aficionado",
+    "format": "hero",
+    "low": [],
+    "notes": "Hero format (2020 Christmas non-bastard). Birth and death years garbled in transcript; 1888 and 1934 from general knowledge. Catherine the Great, Cossack and serfdom history is background and not counted in covered_span. Main span uses 1917-1921, though the 1906-1908 militant phase also gets long airtime. Poland and Paris exile brief; PL omitted. Tsar Nicholas II and Bloody Sunday get a few minutes (monarchy-empire left out)."
+  },
+  {
+    "id": "how-the-john-birch-society-invented-the-modern-far-right",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Title names the society, but the story is equally a biography of Welch, so both are primary and the lifetime rule sets covered_span to 1899-1985. Main span runs from the 1958 founding to the 1967 decline. Legacy through the Tea Party and 2020 sets reaches_present. China earns a setting slot for the John Birch segment."
+  },
+  {
+    "id": "roy-cohn-the-man-who-made-donald-trump",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "No theme for organized crime or legal corruption; Cohn's mob lawyering (Salerno, Trump Tower concrete) is covered under fraud-grift. religious-right-culture-war stands in for anti-gay persecution (Lavender Scare, opposing gay rights laws). reaches_present is true for the recurring Trump/Stone legacy thread up to 2020. Hollywood blacklist and the AIDS ending are short segments."
+  },
+  {
+    "id": "the-worst-police-union-in-history",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject is an organization, so no roles. Scope set local because events are in Portland, though the union's precedents had national reach. Covered span starts with the 1920s Red Squad/KKK segment (approximate); 1851-1870 marshal era is brief background. Covered end ~2002 per the Red Squad epilogue. Floruit years for Stan Peters and Otto Miners are inferred from the transcript; no lifespans available. Transcript year digits are often garbled."
+  },
+  {
+    "id": "let-s-talk-about-dave-rubin",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Roughly half biographical essay, half reading of Don't Burn This Book; media-reading chosen by format precedence. Lifetime rule not applied: covered span runs from his early-2000s comedy career to the 2020 book. Birth year 1976 from general knowledge (packet garbles it). Wikidata omitted."
+  },
+  {
+    "id": "elite-panic-why-the-rich-and-powerful-can-t-be-trusted",
+    "format": "deep-dive",
+    "low": ["themes"],
+    "notes": "Primary subject is a concept, not a person; no theme exists for disaster response, so moral-panics (elites fearing an exaggerated mob threat) is the closest fit. Host dates the Alaska quake to 1962; it was 1964. The Paraguay retrial verdict (2008) is not dated in the transcript. Paiva's birth year is not clearly stated, so floruit is used. COVID and de Blasio get only a brief mention."
+  },
+  {
+    "id": "the-war-of-the-eggs",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject is an event, so roles are empty. No theme for frontier resource wars; corporate-malfeasance chosen for the egg company's armed monopoly, with environmental-destruction a close alternative as primary. Clift's dates are not given; floruit set to his 1858 hiring."
+  },
+  {
+    "id": "the-con-artist-who-invented-a-country",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "main_span ends at the French arrest; the transcript does not date it, 1826 from general knowledge. Jamaica and France get short segments and are left out of setting. Settler deaths include a suicide and dying children, each mentioned briefly, so no content warning added; reviewer may want child-death or suicide-self-harm."
+  },
+  {
+    "id": "a-very-special-election-reading-of-ben-shapiro-s-unreadable-book",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Middle instalment of the multi-episode True Allegiance reading; Katy Stoll absent this time. Time is the novel's 2016 publication and its near-present fictional setting (approximate); the 2020 election is only the recording context. No theme fits right-wing polemical fiction exactly; propaganda-media chosen to match sibling records. Detroit (MI) and New York (NY) share the setting, so no single subdivision."
+  },
+  {
+    "id": "the-satanic-panic-america-s-first-qanon",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Opening on Lyon in 177, blood libel, witch hunts and 1830s anti-Catholic tales is background and excluded from covered_span. QAnon is a running comparison, not followed as legacy, so reaches_present is false. West Memphis Three and the D&D panic each get ~6 min but did not fit the 5-subject cap; they are in keywords. The transcript dates the West Memphis plea to 2010 (actually 2011); it is a one-line coda and not used for covered_span."
+  },
+  {
+    "id": "the-jordan-peterson-episode",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary theme fascism-far-right chosen because the hosts frame the whole story around his ideas feeding fascism, though he is not a fascist himself; misogyny-manosphere was the close alternative. Opening section on Judeo-Bolshevism and Weimar is background, so not counted in covered_span. main_span ends 2020 with his health collapse at release. Serbia brief, left out of setting. Wikidata omitted."
+  },
+  {
+    "id": "how-nice-normal-people-made-the-holocaust-possible",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject is an unnamed mass of ordinary supporters; tagged movement-or-ideology because group requires named people, so roles are empty. Long modern comparisons (Trump, Proud Boys, Patriot Prayer, ICE) justify fascism-far-right but not US in setting. Covered span ends with Mayer's early-1950s interviews (book 1955). Mattner's birth/death years not given, so floruit 1941."
+  },
+  {
+    "id": "cecil-rhodes-the-first-proud-boy",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Blood-diamond legacy (Sierra Leone, Second Congo War) and a 2016 conservative defense get a few minutes at the end; treated as legacy via reaches_present, not covered years or setting (SL, CD omitted). Matabele war and Boer War camp deaths are described briefly; mass-atrocity not added. Northern Rhodesia (ZM) only mentioned in passing."
+  },
+  {
+    "id": "focus-on-the-family-james-dobson",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Dobson was alive when this aired (2020); he died in 2025, so covered_span ends at the 2020 release per the lifetime rule. Main span runs from Dare to Discipline (1970) to his 2009 exit. Conversion therapy tagged as quackery-pseudoscience. Garrison Davis hosts; Robert Evans appears as guest. Family Research Council kept as a keyword to stay within five subjects."
+  },
+  {
+    "id": "mark-zuckerberg-should-be-on-trial-for-crimes-against-humanity",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Format is current-affairs: the description frames it as an update after the earlier three-part series. The long Augustus segment is a comparison for Zuckerberg's self-image, so it is not counted in covered_span; his high-school years get only brief time. Facebook kept secondary since the title centres Zuckerberg. Existing record let-s-look-at-the-facebook-papers gives Zuckerberg Q380, which looks like Meta Platforms; worth checking."
+  },
+  {
+    "id": "the-deadliest-school-in-history",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Part 1 opens with roughly 40 minutes on the Monroe Doctrine, Roosevelt Corollary, Wilson and Kennan (1823-1948); treated as background before the school exists, so covered_span starts at the 1946 founding. Argentina (Galtieri, first Argentine trainees) cut from setting to fit six codes. Primary theme is a judgment call between diplomacy-foreign-policy and education; the taxonomy lists this story as an education example, so it is secondary."
+  },
+  {
+    "id": "the-golden-age-of-terrorism",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Story splits between a skyjacking/Japanese Red Army half and a Carlos biography half, so both are primary. Covered span starts at Carlos's birth (1931 and 1939 hijackings are brief); end is release year per lifetime rule. Trials coda is short, so reaches_present is false. Guests' surnames not given."
+  },
+  {
+    "id": "ben-shapiro-s-unreadable-book-is-still-the-best-thing-about-2020",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Part of the multi-episode reading of True Allegiance; matches sibling records. Time is the novel's 2016 publication and unspecified near-present setting (approximate). Iran setting is fictional. propaganda-media chosen as closest primary theme; no theme fits right-wing polemical fiction exactly. Character name spellings are approximate from the transcript."
+  },
+  {
+    "id": "why-steve-bannon-got-arrested",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Episode mostly reads the 2020 SDNY indictment aloud; kept as current-affairs per formats.yaml example rather than media-reading. Kolfage gets as much airtime as Bannon but is kept secondary since the title centres Bannon. Roles are optional for this format; supplied for Bannon anyway."
+  },
+  {
+    "id": "phyllis-schlafly-the-mother-of-all-culture-wars",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Main span starts at her 1952 congressional run (year from known record; transcript gives no year). No theme for anti-LGBTQ politics, which gets a real segment; folded into religious-right-culture-war. weapons-arms-trade covers her nuclear-strategy books with Chester Ward. Eagle Forum stands in for STOP ERA and her newsletter network."
+  },
+  {
+    "id": "alexander-lukashenko-the-dictator-of-belarus",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Part 1 opens with a long survey of Belarusian history (Polotsk, Grand Duchy of Lithuania, world wars), treated as background and excluded from covered_span. RU is in setting for the Russia relationship and treaties rather than events on Russian soil. Torture warning rests on a short but vivid audio clip; reviewer may drop it."
+  },
+  {
+    "id": "canada-s-darkest-secret-residential-schools",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript dates the British North America Act to 1876; it was 1867 (the Indian Act is 1876). Starr's birth and death years are unknown to me, so floruit 1968 (Gordon Residence appointment). british-empire polity covers the pre-1867 colonial laws; drop it if the reviewer prefers. Medical experiments and child labour got about a minute each, so no medical-malpractice or labour themes."
+  },
+  {
+    "id": "the-u-s-border-patrol-is-a-nightmare-that-never-ends",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject is an organization, so no roles; still active, so main_span end is null. The Texas Rangers and the 1848 Mexican-American War are short background before the 1924 founding and are left out of covered_span. Part 2 opens with 2018 child deaths in custody (Jakelin Caal, Felipe Gomez Alonzo). Setting ends with GT for the Longan and genocide segment. org_type follows the taxonomy listing Border Patrol as government-agency."
+  },
+  {
+    "id": "we-read-an-unbearably-thirsty-joe-biden-barrack-obama-mystery-novel",
+    "format": "media-reading",
+    "low": ["themes"],
+    "notes": "No theme fits satirical political fan fiction well; propaganda-media chosen to match sibling reading records, with electoral-politics for the 2020 Biden nostalgia critique. Shaffer's birth year is not in the packet and not certain, so lifespan is null. Time is the novel's post-2017 setting and 2018 publication (approximate). Biden and Obama appear only as fictional characters, so they are not listed as subjects."
+  },
+  {
+    "id": "america-s-war-on-children",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "No subject kind fits a systemic policy trend well; school-to-prison pipeline entered as practice-or-pseudoscience. Slattery's birth and death years are not given, so floruit 1996 (move to Florida and youth prisons) is used. Florida and Texas both get long segments, so no single subdivision. main_span ends at the 2015 school-cop cases; the trend continues at release."
+  }
+]

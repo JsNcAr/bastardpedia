@@ -1,0 +1,96 @@
+{
+  "story_id": "how-the-john-birch-society-invented-the-modern-far-right",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "John Birch Society",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "primary"
+    },
+    {
+      "name": "Robert Welch",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1899, "end": 1985 }
+    },
+    {
+      "name": "John Birch",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1918, "end": 1945 }
+    },
+    {
+      "name": "Barry Goldwater",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1909, "end": 1998 }
+    }
+  ],
+  "roles": ["activist-organizer", "conspiracy-theorist", "business-executive"],
+  "themes": {
+    "primary": "fascism-far-right",
+    "secondary": [
+      "conspiracy-theories",
+      "electoral-politics",
+      "propaganda-media",
+      "racism-white-supremacy",
+      "moral-panics"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "CN"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1958, "end": 1967 },
+    "covered_span": { "start": 1899, "end": 1985 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Candy executive Robert Welch founded the John Birch Society in 1958, building a secretive anti-communist network that branded Eisenhower a Soviet agent, fought civil rights and powered Barry Goldwater's 1964 campaign.",
+  "content_warnings": [],
+  "keywords": [
+    "The Politician",
+    "Blue Book",
+    "Earl Warren impeachment campaign",
+    "Dwight Eisenhower",
+    "Fred Koch",
+    "Revilo P. Oliver",
+    "1964 Republican National Convention",
+    "James O. Welch Company",
+    "American Opinion",
+    "Alex Jones"
+  ],
+  "guests": ["Jordan Holmes", "Dan Friesen"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:04:52", "note": "Welch's birth in North Carolina in 1899 and child-prodigy schooling" },
+    { "facet": "regions", "part": 1, "at": "00:49:24", "note": "John Birch's missionary and wartime years in China, long segment" },
+    { "facet": "time", "part": 1, "at": "00:54:01", "note": "Birch killed by Communist soldiers in 1945 after Japan's surrender" },
+    { "facet": "time", "part": 1, "at": "01:01:48", "note": "December 1958 Indianapolis meeting founds the society" },
+    { "facet": "themes", "part": 1, "at": "01:17:29", "note": "campaign to impeach Earl Warren over Brown v. Board; civil rights framed as communist plot" },
+    { "facet": "themes", "part": 1, "at": "01:25:48", "note": "leak of The Politician calling Eisenhower a conscious communist agent" },
+    { "facet": "themes", "part": 2, "at": "00:10:12", "note": "society builds early right-wing media network: radio, magazines, reading rooms" },
+    { "facet": "themes", "part": 2, "at": "00:44:30", "note": "society's volunteer machine secures Goldwater's 1964 nomination" },
+    { "facet": "time", "part": 2, "at": "00:56:05", "note": "1967 decline in membership after 1965 peak" },
+    { "facet": "time", "part": 2, "at": "00:59:11", "note": "legacy segment: society still active, influence on Tea Party and Trump era" },
+    { "facet": "time", "part": 2, "at": "01:02:46", "note": "Welch's death in 1985" }
+  ],
+  "notes": "Title names the society, but the story is equally a biography of Welch, so both are primary and the lifetime rule sets covered_span to 1899-1985. Main span runs from the 1958 founding to the 1967 decline. Legacy through the Tea Party and 2020 sets reaches_present. China earns a setting slot for the John Birch segment."
+}

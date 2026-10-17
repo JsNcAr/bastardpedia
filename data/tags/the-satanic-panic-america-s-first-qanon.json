@@ -1,0 +1,160 @@
+{
+  "story_id": "the-satanic-panic-america-s-first-qanon",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Satanic Panic",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "McMartin preschool trial",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Kern County child abuse cases",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Michelle Remembers",
+      "kind": "media-work",
+      "role": "secondary"
+    },
+    {
+      "name": "Mike Warnke",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1946, "end": null }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "moral-panics",
+    "secondary": [
+      "child-abuse",
+      "religious-right-culture-war",
+      "conspiracy-theories",
+      "policing-incarceration",
+      "quackery-pseudoscience",
+      "propaganda-media"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-CA"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1980, "end": 1993 },
+    "covered_span": { "start": 1969, "end": 1996 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "In 1980s and early-1990s America, fears of secret Satanic cults abusing children, fed by evangelical grifters, repressed-memory therapy and coercive interviews of children, led to false accusations and wrongful prosecutions such as the McMartin preschool trial.",
+  "content_warnings": ["child-abuse", "graphic-violence", "child-death", "suicide-self-harm"],
+  "keywords": [
+    "Satan's Silence",
+    "Lawrence Pazder",
+    "Kee MacFarlane",
+    "Ray Buckey",
+    "Judy Johnson",
+    "West Memphis Three",
+    "Dungeons & Dragons",
+    "Patricia Pulling",
+    "Child Abuse Prevention and Treatment Act",
+    "Manhattan Beach"
+  ],
+  "guests": ["Jake Hanrahan"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:09:51",
+      "note": "US groundwork begins: cult fears after the 1969 Manson murders and the Satanic Bible"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:13:27",
+      "note": "long segment on Mike Warnke, fake ex-Satanist author and Christian comedian"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:23:54",
+      "note": "1973-74 CAPTA and therapy-led child-protection system that later enabled the panic"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:43:03",
+      "note": "1980 book Michelle Remembers and Pazder's hypnotic regression claims"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:47:42",
+      "note": "repressed memory therapy revived in late 1970s; false memory implantation explained"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:51:25",
+      "note": "Kern County case begins in 1980 with the McCuan and Kniffen families"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:57:40",
+      "note": "Kniffen sons recant and convictions are overturned in 1996"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:11:07",
+      "note": "McMartin preschool in Manhattan Beach, Southern California"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:36:12",
+      "note": "1984 grand jury indictments; DA pursued case for re-election; Buckey jailed five years"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:48:36",
+      "note": "McMartin jury verdict after 28 months of testimony (1990)"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:02:09",
+      "note": "suicides of Dallas Egbert and Irving Pulling blamed on Dungeons and Dragons"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:53:54",
+      "note": "1993 West Memphis murders of three boys described, with mutilation claims"
+    }
+  ],
+  "notes": "Opening on Lyon in 177, blood libel, witch hunts and 1830s anti-Catholic tales is background and excluded from covered_span. QAnon is a running comparison, not followed as legacy, so reaches_present is false. West Memphis Three and the D&D panic each get ~6 min but did not fit the 5-subject cap; they are in keywords. The transcript dates the West Memphis plea to 2010 (actually 2011); it is a one-line coda and not used for covered_span."
+}

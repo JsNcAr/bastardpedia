@@ -1,0 +1,101 @@
+{
+  "story_id": "roy-cohn-the-man-who-made-donald-trump",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Roy Cohn",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1927, "end": 1986 }
+    },
+    {
+      "name": "Joseph McCarthy",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1908, "end": 1957 }
+    },
+    {
+      "name": "Julius and Ethel Rosenberg",
+      "kind": "group",
+      "role": "secondary"
+    },
+    {
+      "name": "Lavender Scare",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Donald Trump",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1946, "end": null }
+    }
+  ],
+  "roles": ["political-operative", "politician-official"],
+  "themes": {
+    "primary": "electoral-politics",
+    "secondary": [
+      "moral-panics",
+      "religious-right-culture-war",
+      "fraud-grift",
+      "propaganda-media",
+      "intelligence-covert-ops"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-NY"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1951, "end": 1986 },
+    "covered_span": { "start": 1927, "end": 1986 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "New York lawyer Roy Cohn helped send the Rosenbergs to the electric chair, ran Joseph McCarthy's Red and Lavender Scare purges in the 1950s, then became a mob lawyer, tax dodger and fixer who mentored Donald Trump before dying of AIDS in 1986.",
+  "content_warnings": [],
+  "keywords": [
+    "McCarthyism",
+    "Red Scare",
+    "Army-McCarthy hearings",
+    "G. David Schine",
+    "Roger Stone",
+    "Trump Tower",
+    "Fat Tony Salerno",
+    "Lionel Corporation",
+    "Bernard Marcus",
+    "Bully Coward Victim"
+  ],
+  "guests": ["Joelle Monique"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:04:42", "note": "Cohn's birth in the Bronx to a judge's family" },
+    { "facet": "subjects", "part": 1, "at": "00:19:42", "note": "joins the US Attorney's office and prosecutes the Rosenbergs in 1951" },
+    { "facet": "subjects", "part": 1, "at": "00:41:24", "note": "long segment on the Lavender Scare and Cohn's interrogations of gay federal workers" },
+    { "facet": "themes", "part": 1, "at": "00:33:59", "note": "Cohn becomes the FBI's press liaison, planting stories for Hoover" },
+    { "facet": "themes", "part": 1, "at": "00:58:47", "note": "Schine draft leads to the Army-McCarthy hearings in 1954" },
+    { "facet": "time", "part": 2, "at": "00:08:53", "note": "leaves government in 1955, takes over Lionel" },
+    { "facet": "themes", "part": 2, "at": "00:12:00", "note": "systematic tax avoidance through his law firm paying for everything" },
+    { "facet": "themes", "part": 2, "at": "00:21:16", "note": "suspicious 1970s yacht sinking and insurance payout" },
+    { "facet": "subjects", "part": 2, "at": "00:15:37", "note": "meets Trump in 1973 and fights the housing discrimination suit with him" },
+    { "facet": "themes", "part": 2, "at": "00:47:55", "note": "fights New York gay rights legislation for the Catholic archdiocese" },
+    { "facet": "themes", "part": 2, "at": "00:42:43", "note": "campaigns for Reagan and uses Roger Stone for dirty tricks in 1980" },
+    { "facet": "time", "part": 2, "at": "00:52:38", "note": "disbarment and death from AIDS in 1986" }
+  ],
+  "notes": "No theme for organized crime or legal corruption; Cohn's mob lawyering (Salerno, Trump Tower concrete) is covered under fraud-grift. religious-right-culture-war stands in for anti-gay persecution (Lavender Scare, opposing gay rights laws). reaches_present is true for the recurring Trump/Stone legacy thread up to 2020. Hollywood blacklist and the AIDS ending are short segments."
+}

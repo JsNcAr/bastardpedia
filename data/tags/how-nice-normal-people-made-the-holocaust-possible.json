@@ -1,0 +1,144 @@
+{
+  "story_id": "how-nice-normal-people-made-the-holocaust-possible",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "The 'little Nazis' (ordinary German supporters of Nazism)",
+      "kind": "movement-or-ideology",
+      "role": "primary"
+    },
+    {
+      "name": "Milton Mayer",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1908, "end": 1986 }
+    },
+    {
+      "name": "Horst Wessel",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1907, "end": 1930 }
+    },
+    {
+      "name": "Walter Mattner",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1941
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "nazism",
+    "secondary": [
+      "genocide-mass-killing",
+      "electoral-politics",
+      "propaganda-media",
+      "policing-incarceration",
+      "fascism-far-right"
+    ]
+  },
+  "regions": {
+    "origin": ["DE"],
+    "setting": ["DE", "BY", "PL"],
+    "subdivisions": [],
+    "polities": ["nazi-germany", "weimar-republic"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1930, "end": 1945 },
+    "covered_span": { "start": 1919, "end": 1955 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "How ordinary Germans such as clerks, bakers, teachers and police officers voted for, joined and served the Nazi regime from the 1930s to 1945, enabling the Holocaust through indifference, self-interest and obedience.",
+  "content_warnings": ["mass-atrocity", "child-death", "graphic-violence", "hate-speech"],
+  "keywords": [
+    "They Thought They Were Free",
+    "Horst Wessel Song",
+    "Kristallnacht",
+    "Mogilev massacre",
+    "Reserve Police Battalion 101",
+    "Wilhelm Trapp",
+    "Robert Gellately",
+    "Dachau",
+    "Aryanization",
+    "Einsatzgruppen"
+  ],
+  "guests": ["Sofiya Alexandra"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:04:15",
+      "note": "focus defined as rank-and-file Nazi supporters, framed through Mayer's postwar book"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:10:03",
+      "note": "brief biography of Milton Mayer, born Chicago 1908"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:53:27",
+      "note": "long segment on Horst Wessel, his 1930 killing and Goebbels turning him into a martyr"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:28:51",
+      "note": "Princeton voting study: self-employed and small owners, not the unemployed, backed the Nazis"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:46:43",
+      "note": "1919 communist uprising in Berlin and Freikorps as precursors of the SA"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:19:05",
+      "note": "Gellately study of Nazi-era press coverage of camps from 1933 on"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:37:03",
+      "note": "Mattner's unit shoots over two thousand Jews at Mogilev, Belarus, in October 1941"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:41:13",
+      "note": "Major Trapp's police battalion massacre in occupied Poland, 1942"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:42:48",
+      "note": "regular police merged with SS as racial enforcers; Snyder's Black Earth"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:52:13",
+      "note": "Mayer's postwar interviews with a chemical engineer who took the 1935 oath"
+    }
+  ],
+  "notes": "Primary subject is an unnamed mass of ordinary supporters; tagged movement-or-ideology because group requires named people, so roles are empty. Long modern comparisons (Trump, Proud Boys, Patriot Prayer, ICE) justify fascism-far-right but not US in setting. Covered span ends with Mayer's early-1950s interviews (book 1955). Mattner's birth/death years not given, so floruit 1941."
+}

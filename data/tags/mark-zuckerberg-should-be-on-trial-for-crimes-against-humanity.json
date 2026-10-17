@@ -1,0 +1,159 @@
+{
+  "story_id": "mark-zuckerberg-should-be-on-trial-for-crimes-against-humanity",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "current-affairs",
+  "subjects": [
+    {
+      "name": "Mark Zuckerberg",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1984, "end": null },
+      "wikidata": "Q36215"
+    },
+    {
+      "name": "Facebook",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Sophie Zhang",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": null }
+    },
+    {
+      "name": "Joel Kaplan",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": null }
+    }
+  ],
+  "roles": ["tech-founder"],
+  "themes": {
+    "primary": "tech-internet",
+    "secondary": [
+      "corporate-malfeasance",
+      "genocide-mass-killing",
+      "electoral-politics",
+      "propaganda-media",
+      "fascism-far-right",
+      "conspiracy-theories"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["ET", "MM", "US", "HN", "AZ", "EC"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "global"
+  },
+  "time": {
+    "main_span": { "start": 2016, "end": null },
+    "covered_span": { "start": 2007, "end": 2020 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "An update on Mark Zuckerberg's Facebook as of 2020: its neglect fed ethnic killings in Ethiopia and Myanmar, ignored state election manipulation abroad, and its growth-first algorithms and leadership choices boosted far-right groups and misinformation in the US.",
+  "content_warnings": ["mass-atrocity"],
+  "keywords": [
+    "Hachalu Hundessa",
+    "Jawar Mohammed",
+    "Rohingya genocide",
+    "The Gambia v. Myanmar",
+    "Juan Orlando Hernandez",
+    "Augustus",
+    "QAnon",
+    "Common Ground task force",
+    "Breitbart",
+    "Facebook Groups"
+  ],
+  "guests": ["Jamie Loftus"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:30:19",
+      "note": "Ethiopian ethno-nationalist uses Facebook posts to trigger riots that leave about seventy dead"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:35:01",
+      "note": "singer's assassination and the Facebook-fuelled mob killings and mutilations that followed"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:43:24",
+      "note": "Facebook resists The Gambia's request for Myanmar genocide evidence for the ICJ case"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:49:17",
+      "note": "data scientist Sophie Zhang's leaked memo on fake-account networks worldwide"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:01:44",
+      "note": "Honduran president's fake-engagement network taken down late and allowed to return"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:05:22",
+      "note": "Azerbaijan ruling party troll operation left untouched"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:07:22",
+      "note": "Ecuador election manipulation ignored, linked by host to later Covid mismanagement"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:09:00",
+      "note": "2007 growth plateau and creation of the growth team start the narrated history"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:23:12",
+      "note": "Groups launched in 2010; internal research ties recommendations to extremist group growth"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:29:57",
+      "note": "Groups push drives QAnon growth; ads praising QAnon accepted"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:38:19",
+      "note": "Joel Kaplan's background and his blocking of depolarisation fixes"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:58:48",
+      "note": "2020 Trump posts left up, employee walkout and morale collapse"
+    }
+  ],
+  "notes": "Format is current-affairs: the description frames it as an update after the earlier three-part series. The long Augustus segment is a comparison for Zuckerberg's self-image, so it is not counted in covered_span; his high-school years get only brief time. Facebook kept secondary since the title centres Zuckerberg. Existing record let-s-look-at-the-facebook-papers gives Zuckerberg Q380, which looks like Meta Platforms; worth checking."
+}

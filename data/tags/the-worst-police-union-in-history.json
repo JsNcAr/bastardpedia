@@ -1,0 +1,158 @@
+{
+  "story_id": "the-worst-police-union-in-history",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Portland Police Association",
+      "kind": "organization",
+      "org_type": "police",
+      "role": "primary"
+    },
+    {
+      "name": "Portland Police Bureau",
+      "kind": "organization",
+      "org_type": "police",
+      "role": "secondary"
+    },
+    {
+      "name": "Stan Peters",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1981
+    },
+    {
+      "name": "Otto Miners",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1942
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "policing-incarceration",
+    "secondary": [
+      "racism-white-supremacy",
+      "labor-exploitation",
+      "intelligence-covert-ops",
+      "electoral-politics",
+      "drugs",
+      "nazism"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-OR"],
+    "polities": [],
+    "scope": "local"
+  },
+  "time": {
+    "main_span": { "start": 1942, "end": 1992 },
+    "covered_span": { "start": 1922, "end": 2002 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "History of the Portland Police Association, founded in Oregon in 1942 as the first lasting US police union, which shielded officers from discipline after racist killings and harassment and set national precedents for police strikes, politics and arbitration.",
+  "content_warnings": ["graphic-violence", "child-death"],
+  "keywords": [
+    "Pickets, Pistols and Politics",
+    "Red Squad",
+    "German American Bund",
+    "Ricky Johnson",
+    "City of Portland arbitration",
+    "Burger Barn",
+    "Albina",
+    "Lloyd Stevenson",
+    "Nathan Thomas",
+    "COINTELPRO"
+  ],
+  "guests": ["Tuck Woodstock"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:10:55",
+      "note": "1920s KKK era: bureau full of Klansmen, hundred Klan vigilantes deputized; earliest real segment"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:11:58",
+      "note": "police fire from a moving train on striking longshoremen, Red Squad targets labor organizers"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:25:29",
+      "note": "union goes public in April 1942 under officer John Hayes"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:27:01",
+      "note": "first union president Otto Miners had been a German American Bund member"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:50:31",
+      "note": "FBI COINTELPRO and police intelligence unit spy on and disrupt Black Panthers"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:57:50",
+      "note": "union drops its no-strike pledge and pickets the docks to force a contract"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:05:55",
+      "note": "1975 police killing of 17-year-old Ricky Johnson and the inquest that cleared the officer"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:16:19",
+      "note": "narcotics division scandals: drug use, planted evidence, a faked suicide"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:20:33",
+      "note": "Stan Peters makes the union a political force endorsing and attacking candidates"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:37:14",
+      "note": "possum incident firings overturned in arbitration, the City of Portland precedent"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:46:38",
+      "note": "officers fire into a house and kill 12-year-old hostage Nathan Thomas"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:53:57",
+      "note": "Red Squad surveillance continues through the late 1990s and 2000, later court order"
+    }
+  ],
+  "notes": "Primary subject is an organization, so no roles. Scope set local because events are in Portland, though the union's precedents had national reach. Covered span starts with the 1920s Red Squad/KKK segment (approximate); 1851-1870 marshal era is brief background. Covered end ~2002 per the Red Squad epilogue. Floruit years for Stan Peters and Otto Miners are inferred from the transcript; no lifespans available. Transcript year digits are often garbled."
+}

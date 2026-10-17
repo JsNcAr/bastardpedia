@@ -1,0 +1,95 @@
+{
+  "story_id": "cecil-rhodes-the-first-proud-boy",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Cecil Rhodes",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1853, "end": 1902 }
+    },
+    {
+      "name": "De Beers",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "British South Africa Company",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Jameson Raid",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["colonial-administrator", "business-executive", "politician-official"],
+  "themes": {
+    "primary": "colonialism-imperialism",
+    "secondary": [
+      "racism-white-supremacy",
+      "labor-exploitation",
+      "corporate-malfeasance",
+      "war-war-crimes",
+      "coups-insurrections"
+    ]
+  },
+  "regions": {
+    "origin": ["GB"],
+    "setting": ["ZA", "ZW", "GB"],
+    "subdivisions": [],
+    "polities": ["british-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1871, "end": 1902 },
+    "covered_span": { "start": 1853, "end": 1902 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Cecil Rhodes built the De Beers diamond monopoly in southern Africa, conquered the lands named Rhodesia with a private army, and as Cape Colony prime minister laid legal groundwork for apartheid.",
+  "content_warnings": ["hate-speech"],
+  "keywords": [
+    "Kimberley",
+    "Big Hole",
+    "Glen Grey Act",
+    "Cape Colony",
+    "Mashonaland",
+    "Matabeleland",
+    "Lobengula",
+    "Confession of Faith",
+    "Griqualand",
+    "blood diamonds"
+  ],
+  "guests": ["Propaganda"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:05:17", "note": "born July 1853 in Bishop's Stortford, Hertfordshire" },
+    { "facet": "time", "part": 2, "at": "00:57:20", "note": "dies in 1902 at 49, as the Second Boer War ends" },
+    { "facet": "time", "part": 1, "at": "00:45:44", "note": "1871 Kimberley diamond find; Rhodes heads there, start of main span" },
+    { "facet": "regions", "part": 1, "at": "01:07:08", "note": "returns to England, splits years between Oxford and the mines" },
+    { "facet": "regions", "part": 2, "at": "00:10:28", "note": "BSAC police and settlers sent into Mashonaland, present-day Zimbabwe" },
+    { "facet": "themes", "part": 1, "at": "01:29:05", "note": "De Beers pass laws, strip searches, compounds and unequal pay for black miners" },
+    { "facet": "themes", "part": 2, "at": "00:14:42", "note": "Matabele war battles: machine guns against African armies" },
+    { "facet": "themes", "part": 2, "at": "00:37:45", "note": "Glen Grey Act: tiny plots, labour tax, disenfranchisement; framed as root of apartheid" },
+    { "facet": "themes", "part": 2, "at": "00:53:41", "note": "Jameson Raid on the Transvaal fails and ends his premiership" },
+    { "facet": "content_warnings", "part": 1, "at": "01:16:34", "note": "long reading of his white-supremacist Confession of Faith" },
+    { "facet": "time", "part": 2, "at": "01:06:49", "note": "legacy: diamond cartel, Sierra Leone and Congo conflict diamonds to the present" }
+  ],
+  "notes": "Blood-diamond legacy (Sierra Leone, Second Congo War) and a 2016 conservative defense get a few minutes at the end; treated as legacy via reaches_present, not covered years or setting (SL, CD omitted). Matabele war and Boer War camp deaths are described briefly; mass-atrocity not added. Northern Rhodesia (ZM) only mentioned in passing."
+}

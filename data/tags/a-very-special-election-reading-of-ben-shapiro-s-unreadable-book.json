@@ -1,0 +1,113 @@
+{
+  "story_id": "a-very-special-election-reading-of-ben-shapiro-s-unreadable-book",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "media-reading",
+  "subjects": [
+    {
+      "name": "True Allegiance (novel)",
+      "kind": "media-work",
+      "role": "primary"
+    },
+    {
+      "name": "Ben Shapiro",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1984, "end": null }
+    }
+  ],
+  "roles": ["writer-intellectual", "media-personality"],
+  "themes": {
+    "primary": "propaganda-media",
+    "secondary": [
+      "racism-white-supremacy",
+      "terrorism",
+      "policing-incarceration",
+      "intelligence-covert-ops"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2016, "end": 2016 },
+    "covered_span": { "start": 2016, "end": 2016 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "Recorded for the 2020 election, Robert Evans and Cody Johnston read three more chapters of Ben Shapiro's 2016 novel True Allegiance, mocking its prose and its plot that treats racial profiling as heroic and an Obama-like president as a villain.",
+  "content_warnings": [],
+  "keywords": [
+    "Brett Hawthorne",
+    "President Mark Prescott",
+    "Levon",
+    "Big Jim Crawford",
+    "Kim Donahue",
+    "Hassan Abdul",
+    "Detroit",
+    "Hudson River bridge attack",
+    "community policing",
+    "2020 election"
+  ],
+  "guests": ["Cody Johnston"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "format",
+      "part": 1,
+      "at": "00:00:31",
+      "note": "Hosts resume reading True Allegiance as an election-day special"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:05:55",
+      "note": "Novel frames community policing in Detroit as a sinister plot; hosts call it racist"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:12:41",
+      "note": "Prosecutor declines to charge the officer who killed a Black teenager"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:24:38",
+      "note": "Bridge bombing used to justify the war on terror in the novel"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:27:23",
+      "note": "Hero demands customs files on Arab-looking men; long critique of racial profiling"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:34:07",
+      "note": "Muslim friend serves as an FBI informant in mosques; novel laments end of mosque monitoring"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:46:50",
+      "note": "Villain president redirects troops to rebuild infrastructure, framed as evil"
+    }
+  ],
+  "notes": "Middle instalment of the multi-episode True Allegiance reading; Katy Stoll absent this time. Time is the novel's 2016 publication and its near-present fictional setting (approximate); the 2020 election is only the recording context. No theme fits right-wing polemical fiction exactly; propaganda-media chosen to match sibling records. Detroit (MI) and New York (NY) share the setting, so no single subdivision."
+}

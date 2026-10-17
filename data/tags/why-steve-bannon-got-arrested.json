@@ -1,0 +1,120 @@
+{
+  "story_id": "why-steve-bannon-got-arrested",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "current-affairs",
+  "subjects": [
+    {
+      "name": "Steve Bannon",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1953, "end": null }
+    },
+    {
+      "name": "We Build the Wall",
+      "kind": "organization",
+      "org_type": "ngo",
+      "role": "primary"
+    },
+    {
+      "name": "Brian Kolfage",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1982, "end": null }
+    }
+  ],
+  "roles": ["political-operative", "con-artist"],
+  "themes": {
+    "primary": "fraud-grift",
+    "secondary": [
+      "immigration-borders",
+      "policing-incarceration",
+      "fascism-far-right",
+      "racism-white-supremacy"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2018, "end": 2020 },
+    "covered_span": { "start": 2018, "end": 2020 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Steve Bannon, Brian Kolfage and two associates were indicted in 2020 for secretly diverting donor money from We Build the Wall, a crowdfunded US border wall campaign that promised every dollar would go to construction.",
+  "content_warnings": [],
+  "keywords": [
+    "We the People Build the Wall",
+    "GoFundMe",
+    "wire fraud",
+    "Southern District of New York",
+    "US Postal Inspection Service",
+    "Andrew Badolato",
+    "Timothy Shea",
+    "Erik Prince",
+    "Warfighter yacht",
+    "border wall"
+  ],
+  "guests": ["Miles Gray"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:13:02",
+      "note": "Indictment says the crowdfunding campaign launched in December 2018"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:41:38",
+      "note": "Defendants learn of a federal investigation in October 2019 and start hiding the scheme"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:47:54",
+      "note": "Status at release: both men out on bond after the August 2020 arrests, pleaded not guilty"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:02:09",
+      "note": "Kolfage's background as wounded airman and Facebook fake-news operator"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:14:34",
+      "note": "Bannon's nonprofit pushing economic nationalism, called fascist by the hosts"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:17:10",
+      "note": "Hosts discuss the scheme exploiting donors' fear of migrants and racial anxiety"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:45:19",
+      "note": "Wire fraud charge and forfeiture of accounts and the boat read from the indictment"
+    }
+  ],
+  "notes": "Episode mostly reads the 2020 SDNY indictment aloud; kept as current-affairs per formats.yaml example rather than media-reading. Kolfage gets as much airtime as Bannon but is kept secondary since the title centres Bannon. Roles are optional for this format; supplied for Bannon anyway."
+}

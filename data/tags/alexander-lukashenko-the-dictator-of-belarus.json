@@ -1,0 +1,127 @@
+{
+  "story_id": "alexander-lukashenko-the-dictator-of-belarus",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Alexander Lukashenko",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1954, "end": null }
+    },
+    {
+      "name": "Sviatlana Tsikhanouskaya",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1982, "end": null }
+    }
+  ],
+  "roles": ["dictator-autocrat", "politician-official"],
+  "themes": {
+    "primary": "authoritarianism",
+    "secondary": [
+      "electoral-politics",
+      "propaganda-media",
+      "diplomacy-foreign-policy",
+      "communism-state-socialism",
+      "public-health"
+    ]
+  },
+  "regions": {
+    "origin": ["BY"],
+    "setting": ["BY", "RU"],
+    "subdivisions": [],
+    "polities": ["soviet-union"],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1994, "end": null },
+    "covered_span": { "start": 1954, "end": 2020 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Former Soviet collective-farm manager Alexander Lukashenko won Belarus's 1994 presidential election on an anti-corruption platform, then gutted parliament, rigged elections and jailed or disappeared opponents for over 26 years.",
+  "content_warnings": ["torture"],
+  "keywords": [
+    "Europe's last dictator",
+    "Minsk",
+    "Kurapaty",
+    "Chernobyl",
+    "Union State of Russia and Belarus",
+    "2020 Belarusian presidential election",
+    "Sergei Tikhanovsky",
+    "Vladimir Putin",
+    "Belarusian Popular Front",
+    "COVID-19 denial"
+  ],
+  "guests": ["Garrison Davis"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:15:39",
+      "note": "birth date given as 30 August 1954; birthplace disputed in his own accounts"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:16:39",
+      "note": "long segment on shifting state-made biographies and folklore-style propaganda about him"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:33:47",
+      "note": "1994 presidential run and win on anti-corruption platform; chosen as main_span start"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:41:09",
+      "note": "fight with parliament, 1995 elections stifled, 1996 constitutional change makes him a dictator"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:45:44",
+      "note": "Soviet-style collectivised economy kept afloat by cheap Russian oil"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:49:23",
+      "note": "balancing between Russia and the West, sanctions after 2006, gas price disputes"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:29:11",
+      "note": "COVID-19 denial, his own infection, citizens crowdfunding medical supplies"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:33:57",
+      "note": "2020 election: opposition candidates jailed, Tsikhanouskaya campaign, rigged result"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:44:18",
+      "note": "audio of detained protesters being tortured is played and discussed"
+    }
+  ],
+  "notes": "Part 1 opens with a long survey of Belarusian history (Polotsk, Grand Duchy of Lithuania, world wars), treated as background and excluded from covered_span. RU is in setting for the Russia relationship and treaties rather than events on Russian soil. Torture warning rests on a short but vivid audio clip; reviewer may drop it."
+}
