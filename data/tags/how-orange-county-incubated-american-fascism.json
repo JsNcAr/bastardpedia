@@ -1,0 +1,103 @@
+{
+  "story_id": "how-orange-county-incubated-american-fascism",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Orange County, California",
+      "kind": "place",
+      "role": "primary"
+    },
+    {
+      "name": "John G. Schmitz",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1930, "end": 2001 }
+    },
+    {
+      "name": "John Birch Society",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Fred Schwarz",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1913, "end": 2009 }
+    },
+    {
+      "name": "Mary Kay Letourneau",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1962, "end": 2020 }
+    }
+  ],
+  "roles": ["politician-official", "conspiracy-theorist"],
+  "themes": {
+    "primary": "fascism-far-right",
+    "secondary": [
+      "electoral-politics",
+      "religious-right-culture-war",
+      "conspiracy-theories",
+      "racism-white-supremacy",
+      "weapons-arms-trade",
+      "moral-panics"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-CA"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1960, "end": 1982 },
+    "covered_span": { "start": 1910, "end": 2001 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "How postwar defense money, isolated suburbs and anti-communist activism made Orange County, California a hothouse of the hard right, embodied by John Birch Society congressman and 1972 American Party presidential candidate John Schmitz.",
+  "content_warnings": ["child-death"],
+  "keywords": [
+    "Suburban Warriors",
+    "American Party",
+    "None Dare Call It Conspiracy",
+    "Proposition 14",
+    "Walter Knott",
+    "Orange County School of Anti-Communism",
+    "Christian Anti-Communist Crusade",
+    "James B. Utt",
+    "Richard Nixon",
+    "Mary Schmitz"
+  ],
+  "guests": ["Francesca Fiorentini"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "themes", "part": 1, "at": "00:15:17", "note": "Cold War defense spending identified as the engine of Orange County's growth" },
+    { "facet": "themes", "part": 1, "at": "00:18:34", "note": "1920s Klan strength in Anaheim and Fullerton; county conservative from the start" },
+    { "facet": "time", "part": 1, "at": "00:22:22", "note": "The Fundamentals essays (1910-1915) funded by county oil man Lyman Stewart; earliest covered period" },
+    { "facet": "time", "part": 1, "at": "00:42:52", "note": "1960 uproar over a school board member hosting an ACLU meeting starts the organized movement" },
+    { "facet": "themes", "part": 1, "at": "00:55:43", "note": "1961 anti-communism school in Anaheim draws thousands, Birchers call Eisenhower a communist tool" },
+    { "facet": "subjects", "part": 1, "at": "00:59:43", "note": "Fred Schwarz and his Christian Anti-Communist Crusade get an extended segment" },
+    { "facet": "time", "part": 2, "at": "00:01:10", "note": "Schmitz born 1930 in Milwaukee" },
+    { "facet": "themes", "part": 2, "at": "00:17:11", "note": "Schmitz elected to the state senate as its first John Birch Society member" },
+    { "facet": "themes", "part": 2, "at": "00:30:22", "note": "Schmitz writes introduction to a Jewish-elite conspiracy book in 1971" },
+    { "facet": "themes", "part": 2, "at": "00:38:34", "note": "1972 American Party presidential run after Wallace is shot" },
+    { "facet": "time", "part": 2, "at": "00:55:28", "note": "1982 exposure of his second family ends his political career" },
+    { "facet": "subjects", "part": 2, "at": "01:02:11", "note": "closing segment on his daughter Mary Kay Letourneau and her abuse of a pupil" }
+  ],
+  "notes": "Two primaries: part 1 is Orange County as a place, part 2 John Schmitz. Roles apply to Schmitz only. Covered span starts at the 1910-1915 Fundamentals segment (county prehistory around 1900 is vaguer) and ends with Schmitz's 2001 death; Trump comparisons are commentary, so reaches_present is false. Letourneau segment is short and not detailed, so no child-abuse theme or warning; the 1973 drowning of Schmitz's son gets child-death."
+}

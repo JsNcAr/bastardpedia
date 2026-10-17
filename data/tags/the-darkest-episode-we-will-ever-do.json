@@ -1,0 +1,86 @@
+{
+  "story_id": "the-darkest-episode-we-will-ever-do",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Helmut Kentler",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1928, "end": 2008 }
+    },
+    {
+      "name": "Fritz Henkel",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1988
+    },
+    {
+      "name": "Kinderladen movement",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    },
+    {
+      "name": "Pedosexual movement",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["psychiatrist-psychologist", "scientist-scholar"],
+  "themes": {
+    "primary": "child-abuse",
+    "secondary": ["education", "electoral-politics", "nazism", "fascism-far-right"]
+  },
+  "regions": {
+    "origin": ["DE"],
+    "setting": ["DE"],
+    "subdivisions": ["DE-BE"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1969, "end": 2001 },
+    "covered_span": { "start": 1928, "end": 2020 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "West German sexologist Helmut Kentler ran a decades-long experiment, backed by the Berlin Senate, that placed homeless and neglected boys with pedophile foster fathers, amid a wider movement on the German left that tried to normalise sex with children.",
+  "content_warnings": ["child-abuse", "child-death"],
+  "keywords": [
+    "Kentler experiment",
+    "West Berlin",
+    "Kommune 2",
+    "Kinderladen",
+    "German Green Party",
+    "Daniel Cohn-Bendit",
+    "Teresa Nentwig",
+    "Indianerkommune",
+    "Peter Schult",
+    "Johanna Haarer"
+  ],
+  "guests": ["Margaret Killjoy"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "themes", "part": 2, "at": "00:03:07", "note": "Kommune 2 in Berlin from 1967 and its published experiments in child sexuality" },
+    { "facet": "themes", "part": 2, "at": "00:07:19", "note": "Kinderladen parent-run daycares as anti-authoritarian education reacting to Nazi-era parenting" },
+    { "facet": "themes", "part": 2, "at": "00:26:33", "note": "Indian Commune lobbies the Greens; 1985 state Green party calls for decriminalisation" },
+    { "facet": "subjects", "part": 2, "at": "00:34:24", "note": "Marco placed with foster father Henkel in 1988 under Kentler's program" },
+    { "facet": "subjects", "part": 2, "at": "00:37:00", "note": "Kentler intervenes in 1989 to stop a prosecutor's investigation of Henkel" },
+    { "facet": "time", "part": 2, "at": "00:47:11", "note": "foster brother Marcel dies in 2001; program still running into the 21st century" },
+    { "facet": "time", "part": 2, "at": "00:47:46", "note": "researcher Nentwig exposes Kentler after his 2008 death" },
+    { "facet": "themes", "part": 2, "at": "00:53:17", "note": "AfD adviser courts Marco from 2018; Senate compensation and apology" },
+    { "facet": "content_warnings", "part": 2, "at": "00:46:39", "note": "detailed account of a disabled foster child dying without medical care" }
+  ],
+  "notes": "Part 1 has no transcript; its content (Kentler's background, post-war anti-Nazi parenting reform, Schreber and Haarer) is inferred from the description and Part 2 recaps, so nazism is a medium-confidence pick and covered_span uses the lifetime rule. Henkel is named Hinkel/Henkel in the transcript; his birth year (about 1941) is estimated, so floruit is used."
+}

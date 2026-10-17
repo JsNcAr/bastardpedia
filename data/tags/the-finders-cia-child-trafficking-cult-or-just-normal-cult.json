@@ -1,0 +1,98 @@
+{
+  "story_id": "the-finders-cia-child-trafficking-cult-or-just-normal-cult",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "The Finders",
+      "kind": "organization",
+      "org_type": "cult",
+      "role": "primary"
+    },
+    {
+      "name": "Marion Pettie",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1920, "end": 2003 }
+    },
+    {
+      "name": "Central Intelligence Agency",
+      "kind": "organization",
+      "org_type": "intelligence",
+      "role": "secondary",
+      "wikidata": "Q37230"
+    },
+    {
+      "name": "Finders child abuse investigation (1987)",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["cult-leader", "military-officer"],
+  "themes": {
+    "primary": "cults-new-religions",
+    "secondary": [
+      "intelligence-covert-ops",
+      "moral-panics",
+      "conspiracy-theories",
+      "child-abuse",
+      "policing-incarceration",
+      "propaganda-media"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1971, "end": 1987 },
+    "covered_span": { "start": 1920, "end": 2003 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Army veteran Marion Pettie founded the Finders, a Washington, DC commune run as a life-directing game, whose neglected children sparked a 1987 Satanic-panic trafficking scandal in Tallahassee and lasting rumours of CIA ties.",
+  "content_warnings": ["child-abuse"],
+  "keywords": [
+    "Marion Petty",
+    "Tallahassee",
+    "Culpeper, Virginia",
+    "game caller",
+    "Satanic Panic",
+    "Future Enterprises",
+    "Operation Chaos",
+    "Toby Terrell",
+    "Ramon Martinez",
+    "Carlos Castaneda"
+  ],
+  "guests": ["Jamie Loftus"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:06:57", "note": "Pettie born in Culpeper, Virginia, December 1920" },
+    { "facet": "roles", "part": 1, "at": "00:22:30", "note": "two decades in the Army, rising to master sergeant; drove Hap Arnold" },
+    { "facet": "time", "part": 1, "at": "00:50:36", "note": "followers gathered and group formally begun in 1971" },
+    { "facet": "themes", "part": 1, "at": "00:58:15", "note": "game-caller structure: members ordered on spying missions, marriages, child rearing" },
+    { "facet": "themes", "part": 2, "at": "00:29:50", "note": "communal child rearing and neglect of children born in the group" },
+    { "facet": "regions", "part": 2, "at": "00:50:09", "note": "February 1987 arrest in Tallahassee of two men with six children" },
+    { "facet": "themes", "part": 2, "at": "01:01:28", "note": "national media frenzy over devil-worship and abuse claims" },
+    { "facet": "themes", "part": 3, "at": "00:29:59", "note": "unverified customs agent report fuels trafficking conspiracy lore" },
+    { "facet": "themes", "part": 3, "at": "00:47:17", "note": "1993 reports of CIA computer training at a Finders-linked company" },
+    { "facet": "themes", "part": 4, "at": "00:08:12", "note": "CIA Operation Chaos discussed as possible context for the group's spying" },
+    { "facet": "time", "part": 4, "at": "00:17:51", "note": "charges dropped after six weeks; children returned to mothers" },
+    { "facet": "time", "part": 4, "at": "00:50:41", "note": "Pettie dies in 2003; group lingers in Culpeper until then" }
+  ],
+  "notes": "Hosts say 'Petty'; the standard spelling is Pettie, kept 'Marion Petty' as a keyword. Main span ends at the 1987 case; the 1990s Culpeper years and 1993 CIA revelations are in the covered span. QAnon/Pizzagate legacy is mentioned mainly in the intro and a short coda, so reaches_present is false. Child abuse is neglect plus unproven sexual-abuse allegations."
+}

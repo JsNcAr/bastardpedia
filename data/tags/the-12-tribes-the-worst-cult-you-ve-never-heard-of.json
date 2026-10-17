@@ -1,0 +1,91 @@
+{
+  "story_id": "the-12-tribes-the-worst-cult-you-ve-never-heard-of",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Eugene Spriggs",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1937, "end": 2021 }
+    },
+    {
+      "name": "Twelve Tribes",
+      "kind": "organization",
+      "org_type": "cult",
+      "role": "primary"
+    },
+    {
+      "name": "Marsha Spriggs",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": null }
+    }
+  ],
+  "roles": ["cult-leader"],
+  "themes": {
+    "primary": "cults-new-religions",
+    "secondary": [
+      "child-abuse",
+      "racism-white-supremacy",
+      "labor-exploitation",
+      "religious-right-culture-war",
+      "policing-incarceration"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "DE", "FR"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1972, "end": 2021 },
+    "covered_span": { "start": 1937, "end": 2021 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Former carnival worker Eugene Spriggs founded the Twelve Tribes in Chattanooga in the 1970s, a Jesus Movement commune that spread worldwide while preaching systematic child beating, racist slavery doctrine and unpaid labor in its businesses.",
+  "content_warnings": ["child-abuse", "child-death", "hate-speech"],
+  "keywords": [
+    "Yellow Deli",
+    "Yoneq",
+    "Jesus Movement",
+    "Island Pond",
+    "Chattanooga",
+    "Marshall Fire",
+    "Curse of Ham",
+    "Child Training Manual",
+    "Day of Deliverance",
+    "Vine Christian Community Church"
+  ],
+  "guests": ["Alex Steed"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:05:34", "note": "Spriggs born May 1937 in East Ridge, Tennessee, to a Methodist family" },
+    { "facet": "time", "part": 1, "at": "00:19:46", "note": "1972 marriage to Marsha; couple found the Vine community church in Chattanooga" },
+    { "facet": "themes", "part": 1, "at": "00:12:43", "note": "Long background on the Jesus Movement and its link to the rise of the religious right" },
+    { "facet": "themes", "part": 1, "at": "00:44:16", "note": "Child beating becomes the core doctrine; Child Training Manual and rod teachings" },
+    { "facet": "regions", "part": 1, "at": "00:42:33", "note": "Expansion to Island Pond, Vermont, led by David Jones" },
+    { "facet": "themes", "part": 1, "at": "01:00:47", "note": "State raid seizes 112 minors in Vermont; court releases them, cult celebrates the day" },
+    { "facet": "themes", "part": 2, "at": "00:09:42", "note": "Spriggs's Curse of Ham teaching that Black people are meant to be obedient slaves" },
+    { "facet": "themes", "part": 2, "at": "00:28:16", "note": "Medical care withheld; an infant dies of whooping cough, a stillbirth after neglect" },
+    { "facet": "regions", "part": 2, "at": "00:47:11", "note": "2013 undercover report in Germany leads to 40 children removed; raid in France follows" },
+    { "facet": "themes", "part": 2, "at": "00:50:16", "note": "Construction firms run on unpaid member labor through interlocking LLCs" },
+    { "facet": "subjects", "part": 2, "at": "01:00:52", "note": "2008 scandal over Marsha Spriggs; debate over whether she held real power" },
+    { "facet": "time", "part": 2, "at": "01:05:43", "note": "Spriggs dies January 2021 at 83, likely of COVID; youth exodus continues" }
+  ],
+  "notes": "Transcript does not give the year of the Island Pond raid (historically June 1984). Communes in England, Spain and Australia are mentioned only in passing and left out of setting. Several US states matter (TN, VT, FL, CO), so no subdivision is set. The 2021 Marshall Fire framing is a short hook and does not extend covered_span. Marsha Spriggs's birth year is unknown; end null assumes she is alive. No theme for homophobia or withholding of medical care."
+}

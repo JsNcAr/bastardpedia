@@ -1,0 +1,136 @@
+{
+  "story_id": "william-bailey-the-gwyneth-paltrow-of-radiation",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "William J. A. Bailey",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1884, "end": 1949 }
+    },
+    {
+      "name": "Mild radium therapy",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    },
+    {
+      "name": "The Radium Girls",
+      "kind": "group",
+      "role": "secondary"
+    },
+    {
+      "name": "Eben Byers",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1880, "end": 1932 }
+    }
+  ],
+  "roles": ["quack-fake-healer", "con-artist", "business-executive"],
+  "themes": {
+    "primary": "quackery-pseudoscience",
+    "secondary": [
+      "fraud-grift",
+      "labor-exploitation",
+      "corporate-malfeasance",
+      "public-health"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-NJ"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1915, "end": 1932 },
+    "covered_span": { "start": 1884, "end": 1949 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Harvard dropout and con man William Bailey sold radioactive patent medicines in 1920s America, above all the radium water Radithor, which poisoned users such as industrialist Eben Byers, who died of radiation sickness in 1932.",
+  "content_warnings": ["medical-horror"],
+  "keywords": [
+    "Radithor",
+    "Radiendocrinator",
+    "Bailey Radium Laboratories",
+    "Associated Radium Chemists",
+    "East Orange",
+    "Revigator",
+    "Radium Dial Company",
+    "Grace Fryer",
+    "Catherine Wolfe",
+    "Marie Curie"
+  ],
+  "guests": ["Sofiya Alexandra"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:11:00",
+      "note": "first 40 minutes of part one trace radium hype and mild radium therapy products before Bailey appears"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:39:12",
+      "note": "Bailey born 1884 in Boston; childhood in poverty, Boston Latin, Harvard from 1903"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:46:42",
+      "note": "Carnegie Engineering mail-order car scam; arrested and convicted of fraud in December 1915"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:55:02",
+      "note": "after Curie's 1921 US tour he founds Associated Radium Chemists and sells radium cures"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:13:04",
+      "note": "1925 move to East Orange, New Jersey; Bailey Radium Laboratories launches Radithor"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:20:30",
+      "note": "long digression on the Radium Girls dial painters, their poisoning and lawsuits"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:42:47",
+      "note": "Radium Dial hides test results, runs denial ads and takes workers' bones"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:53:35",
+      "note": "Eben Byers drinks Radithor from 1927 and dies in 1932, triggering regulation"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:00:06",
+      "note": "Bailey dies of bladder cancer in Massachusetts in 1949"
+    }
+  ],
+  "notes": "main_span starts at the 1915 fraud conviction because the story frames him as a career con man before radium; 1921 (first radium company) would also be defensible. Radium Girls are a secondary subject with a long Part 2 segment. Brief Russia stint (1914) not counted in setting."
+}

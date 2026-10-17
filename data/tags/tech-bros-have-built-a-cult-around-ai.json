@@ -1,0 +1,136 @@
+{
+  "story_id": "tech-bros-have-built-a-cult-around-ai",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "current-affairs",
+  "subjects": [
+    {
+      "name": "Effective accelerationism (e/acc)",
+      "kind": "movement-or-ideology",
+      "role": "primary"
+    },
+    {
+      "name": "Marc Andreessen",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1971, "end": null }
+    },
+    {
+      "name": "Nick Land",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1962, "end": null }
+    },
+    {
+      "name": "Rationalist community",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    },
+    {
+      "name": "Dudesy",
+      "kind": "media-work",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "artificial-intelligence",
+    "secondary": [
+      "tech-internet",
+      "cults-new-religions",
+      "entertainment-celebrity",
+      "eugenics-scientific-racism",
+      "fraud-grift"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2023, "end": null },
+    "covered_span": { "start": 2010, "end": 2024 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "An essay on how Silicon Valley AI boosters, from Marc Andreessen's Techno-Optimist Manifesto to the e/acc movement and the 2024 Consumer Electronics Show, treat artificial intelligence with cult-like faith while pushing to take creative work without consent.",
+  "content_warnings": [],
+  "keywords": [
+    "Consumer Electronics Show",
+    "Techno-Optimist Manifesto",
+    "Andreessen Horowitz",
+    "Roko's basilisk",
+    "LessWrong",
+    "Eliezer Yudkowsky",
+    "Sam Altman",
+    "Rabbit R1",
+    "George Carlin AI special",
+    "Nightshade"
+  ],
+  "guests": ["Ify Nwadiwe"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:30",
+      "note": "host reports from the Consumer Electronics Show held about a week before recording, January 2024"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:27:20",
+      "note": "long segment on Andreessen's manifesto published the previous year, compared with Scientology"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:32:36",
+      "note": "AI faith compared at length to Scientology tech and fair game, later to NXIVM"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:52:06",
+      "note": "e/acc introduced as the core subculture of the story"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:57:19",
+      "note": "Nick Land's racism and gene-editing eugenics, cited in Andreessen's manifesto"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:04:06",
+      "note": "Rationalists and LessWrong; Roko's basilisk posted in 2010"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:20:36",
+      "note": "Dudesy and the AI-imitation George Carlin special, sued by the Carlin family"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:42:53",
+      "note": "AI voice-cloning fraud, including a fake kidnapping call"
+    }
+  ],
+  "notes": "Format set to current-affairs: an essay adapted from a Rolling Stone article on contemporary AI culture and CES 2024, not a narrative history. No single person anchors it, so the primary subject is the e/acc movement and roles are empty. Covered span starts at Roko's basilisk (2010); the rationalists' early-2000s origins and the late-1990s skeptic movement are mentioned only briefly."
+}

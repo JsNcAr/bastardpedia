@@ -1,0 +1,91 @@
+{
+  "story_id": "g-gordon-liddy-the-fascist-behind-watergate",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "G. Gordon Liddy",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1930, "end": 2021 }
+    },
+    {
+      "name": "Watergate scandal",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Timothy Leary",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1920, "end": 1996 }
+    }
+  ],
+  "roles": ["political-operative", "spy-intelligence", "media-personality"],
+  "themes": {
+    "primary": "electoral-politics",
+    "secondary": [
+      "fascism-far-right",
+      "intelligence-covert-ops",
+      "propaganda-media",
+      "policing-incarceration",
+      "drugs",
+      "entertainment-celebrity"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-DC"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1971, "end": 1977 },
+    "covered_span": { "start": 1930, "end": 2021 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "G. Gordon Liddy, an FBI agent and prosecutor obsessed with Nazi-style willpower, ran Nixon's dirty-tricks unit and the 1972 Watergate break-in, then served prison time and became a far-right talk radio host.",
+  "content_warnings": ["animal-cruelty", "suicide-self-harm"],
+  "keywords": [
+    "Watergate Hotel",
+    "White House Plumbers",
+    "Operation Gemstone",
+    "Committee to Re-elect the President",
+    "Daniel Ellsberg",
+    "E. Howard Hunt",
+    "Richard Nixon",
+    "Will (autobiography)",
+    "Operation Intercept",
+    "Fear Factor"
+  ],
+  "guests": ["Andrew Ti"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "themes", "part": 1, "at": "00:33:26", "note": "German housekeeper shares Nazi radio broadcasts with young Liddy, seeding his lifelong fascist admiration" },
+    { "facet": "content_warnings", "part": 1, "at": "00:58:24", "note": "detailed account of him roasting and eating a dead rat, later killing a squirrel and chickens" },
+    { "facet": "themes", "part": 3, "at": "00:44:28", "note": "as Dutchess County prosecutor he joins the raid on Timothy Leary's Millbrook mansion" },
+    { "facet": "themes", "part": 3, "at": "00:56:08", "note": "Treasury post: helps organize Operation Intercept against drug smuggling at the Mexican border" },
+    { "facet": "time", "part": 4, "at": "00:22:01", "note": "1971: joins the White House Plumbers after the Pentagon Papers leak, start of main span" },
+    { "facet": "subjects", "part": 4, "at": "01:19:40", "note": "Liddy and Hunt send their team into the DNC offices at the Watergate in 1972" },
+    { "facet": "content_warnings", "part": 4, "at": "01:10:05", "note": "habitually burns his own hand and arm to build pain tolerance" },
+    { "facet": "content_warnings", "part": 5, "at": "00:23:24", "note": "in prison he deliberately starves himself, framed by the host as self-harm" },
+    { "facet": "time", "part": 5, "at": "00:42:58", "note": "released in 1977 after 52 months once Carter commutes his sentence, end of main span" },
+    { "facet": "themes", "part": 6, "at": "00:33:31", "note": "early 1990s launch of his syndicated talk radio show and its inflammatory content" },
+    { "facet": "themes", "part": 6, "at": "00:22:24", "note": "acting roles such as Miami Vice, later a Fear Factor celebrity episode" },
+    { "facet": "time", "part": 6, "at": "01:18:30", "note": "dies in spring 2021 aged 90, end of covered span" }
+  ],
+  "notes": "Primary theme could arguably be fascism-far-right (title framing); chose electoral-politics because the core is Nixon-campaign dirty tricks and Watergate. Long Waffen SS myth-busting digression in part 3 is commentary, so nazism was left out. Ian Johnson sits in as editor in parts 5-6 and is not listed as a guest. Brief Mexican border segment did not justify MX in setting."
+}

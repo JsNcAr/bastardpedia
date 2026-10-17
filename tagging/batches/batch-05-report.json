@@ -1,0 +1,152 @@
+[
+  {
+    "id": "the-darkest-episode-we-will-ever-do",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Part 1 has no transcript; its content (Kentler's background, post-war anti-Nazi parenting reform, Schreber and Haarer) is inferred from the description and Part 2 recaps, so nazism is a medium-confidence pick and covered_span uses the lifetime rule. Henkel is named Hinkel/Henkel in the transcript; his birth year (about 1941) is estimated, so floruit is used."
+  },
+  {
+    "id": "the-parenting-gurus-of-nazi-germany",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Two equal primary subjects, so the lifetime rule spans Schreber's birth (1808) to Haarer's death (1988). main_span runs from Schreber's 1855 book to the fall of Nazi Germany. The postwar reprints and studies of war children are covered, but only briefly, so reaches_present is false. Ruby Frank is a modern comparison only. This is part of a series that continues with Helmut Kentler."
+  },
+  {
+    "id": "the-bastards-of-forensic-science",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Survey of a practice, so no roles. Theme primary could arguably be policing-incarceration; chose quackery-pseudoscience as the pitch is that the techniques are junk science. Levine, West and Vass birth/death years not stated, so floruit used. Covered span starts with 19th-century fingerprint origins (about 5 minutes). Main span end null as the practices remain in use."
+  },
+  {
+    "id": "beria-stalin-s-pedophile-cop-the-soviet-oppenheimer",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Main span starts at his Cheka career in Baku and Georgia (early 1920s). The hosts say his sex crimes are well attested but come partly from coerced testimony after his fall. Setting omits UA/BY (eastern Poland deportations) and FI (Winter War, brief)."
+  },
+  {
+    "id": "how-conservatism-won",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "No theme for think tanks or policy capture; propaganda-media (manufacturing consensus for journalists) is the closest primary. Primary subject is the think-tank network as a movement, so roles are empty. Covered span starts with the 1907 Russell Sage Foundation history; end 1989 (end of the Reagan era) is an estimate, with later SDI and Trump-era remarks treated as legacy."
+  },
+  {
+    "id": "the-fake-doctors-who-gave-everyone-alzheimer-s",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Anthology episode. Part 2's title names health insurers as the real bastards, so the industry is a second primary subject; no single company fits, so it is entered as a generic organization (low fit). Williams treated as secondary despite a long segment, which keeps his 1963 birth out of the covered span. Covered span starts around his 1992 marriage and teaching job. Love-Robinson's birth year and the Jenkins sentencing years are inferred, not stated."
+  },
+  {
+    "id": "the-dennis-the-menace-creator-was-a-shockingly-bad-man",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary theme child-abuse reflects emotional neglect and abandonment by a parent, not physical or sexual abuse; entertainment-celebrity was the alternative. Dennis Ketcham's death year is not stated in the packet (the host does not know if he is alive), so lifespan end is null. main_span starts at the strip's conception in 1950; the 1941 strike is inside covered_span."
+  },
+  {
+    "id": "the-terrible-secret-of-steve-jobs",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "covered_span ends in 2014 for the Chinese dispatch-labor rule and supplier study that the story ties to Apple's release cadence. child-abuse reflects his years-long denial and emotional cruelty toward his minor daughter Lisa, not physical abuse. Scope set global for the consumer-electronics legacy argument; international would also be defensible."
+  },
+  {
+    "id": "how-the-winklevoss-twins-lost-a-billion-dollars",
+    "format": "crossover",
+    "low": [],
+    "notes": "Better Offline episode by Ed Zitron republished in the BtB feed, so format is crossover. Twins tagged as one group subject, so no lifespan is given. Barry Silbert gets real airtime but is kept in keywords as DCG's CEO. tech-internet rests on the brief Facebook origin segment and the crypto industry background."
+  },
+  {
+    "id": "tb-joshua-the-evangelical-pastor-who-built-his-own-hell",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Taxonomy examples list TB Joshua under organized-religion and religious-leader, so organized-religion is primary; the hosts repeatedly call SCOAN a cult, hence cults-new-religions secondary and org_type cult. The January 2024 BBC/openDemocracy exposé and his widow taking over are short codas, so reaches_present is false. Lagos is central (NG-LA)."
+  },
+  {
+    "id": "tech-bros-have-built-a-cult-around-ai",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Format set to current-affairs: an essay adapted from a Rolling Stone article on contemporary AI culture and CES 2024, not a narrative history. No single person anchors it, so the primary subject is the e/acc movement and roles are empty. Covered span starts at Roko's basilisk (2010); the rationalists' early-2000s origins and the late-1990s skeptic movement are mentioned only briefly."
+  },
+  {
+    "id": "the-finders-cia-child-trafficking-cult-or-just-normal-cult",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Hosts say 'Petty'; the standard spelling is Pettie, kept 'Marion Petty' as a keyword. Main span ends at the 1987 case; the 1990s Culpeper years and 1993 CIA revelations are in the covered span. QAnon/Pizzagate legacy is mentioned mainly in the intro and a short coda, so reaches_present is false. Child abuse is neglect plus unproven sexual-abuse allegations."
+  },
+  {
+    "id": "how-orange-county-incubated-american-fascism",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Two primaries: part 1 is Orange County as a place, part 2 John Schmitz. Roles apply to Schmitz only. Covered span starts at the 1910-1915 Fundamentals segment (county prehistory around 1900 is vaguer) and ends with Schmitz's 2001 death; Trump comparisons are commentary, so reaches_present is false. Letourneau segment is short and not detailed, so no child-abuse theme or warning; the 1973 drowning of Schmitz's son gets child-death."
+  },
+  {
+    "id": "christmas-hero-episode-aaron-swartz",
+    "format": "hero",
+    "low": [],
+    "notes": "No theme fits copyright and open access, or chronic illness and mental health, which are both central; tech-internet is the closest primary. electoral-politics covers the SOPA congressional fight and his political ambitions, a moderate fit. Quinn Norton's birth year is not given, so floruit is used."
+  },
+  {
+    "id": "william-bailey-the-gwyneth-paltrow-of-radiation",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "main_span starts at the 1915 fraud conviction because the story frames him as a career con man before radium; 1921 (first radium company) would also be defensible. Radium Girls are a secondary subject with a long Part 2 segment. Brief Russia stint (1914) not counted in setting."
+  },
+  {
+    "id": "the-last-sam-bankman-fried-episodes-secretly-about-michael-lewis",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Format is a judgement call: roughly two thirds is a close review of Going Infinite, plus a Lewis biography and current-affairs material on the 2023 trial. Precedence gives media-reading. SBF is listed as a third primary as the story's acknowledged bastard. Caroline Ellison, John Ray and Michael Oher kept to keywords to stay within five subjects."
+  },
+  {
+    "id": "the-holy-rollers-sex-cult",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Creffield's birth year is uncertain in the transcript (about 1870); Wikipedia gives c. 1867. Scope set to local (Willamette Valley) although the ending happens in Seattle (US-WA). Salvation Army history from 1865 is background and kept out of covered_span. Death years for Esther Mitchell (1914) and Maud Hurt (1906) come from general knowledge; transcript only says they later killed themselves. No theme fits vigilante mob violence."
+  },
+  {
+    "id": "lord-aspinall-the-gambling-king-of-london",
+    "format": "deep-dive",
+    "low": ["themes"],
+    "notes": "No theme for gambling, aristocracy/class or animal keeping; fraud-grift is the closest primary (casino fleecing aristocrats via house players), hence low. Lucan's end year is the presumed 1974 disappearance (legally declared dead later). Crockford segment is a short historical comparison and is excluded from covered_span. Transcript says Claremont; the club's real name is Clermont."
+  },
+  {
+    "id": "the-surprising-evil-of-1950s-men-s-adventure-magazines",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Primary theme misogyny-manosphere stands in for postwar toxic masculinity; no vocabulary entry for pulp or print culture. Covered span is the issues read (1957-1969) plus the genre's postwar start; the 1920s-1962 Saudi slave-trade history is treated as background to one article, though SA is kept in the setting. Settings of the fictional stories (Kashmir, Belize, Tangier, France) are left out."
+  },
+  {
+    "id": "the-deadliest-workplace-disaster-in-u-s-history",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject is the event, so roles are empty. Opening history of silicosis and Union Carbide's 1911-1919 dam origins are background and kept out of covered_span. The 2018 NPR/Frontline segment on today's black lung epidemic is a modern parallel rather than this disaster's direct legacy, so reaches_present is false; a reviewer could argue otherwise. Death toll estimates range from 464 to about 2,000."
+  },
+  {
+    "id": "g-gordon-liddy-the-fascist-behind-watergate",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary theme could arguably be fascism-far-right (title framing); chose electoral-politics because the core is Nixon-campaign dirty tricks and Watergate. Long Waffen SS myth-busting digression in part 3 is commentary, so nazism was left out. Ian Johnson sits in as editor in parts 5-6 and is not listed as a guest. Brief Mexican border segment did not justify MX in setting."
+  },
+  {
+    "id": "the-religion-war-by-scott-adams-with-matt-lieb",
+    "format": "media-reading",
+    "low": [],
+    "notes": "No theme for atheism or philosophy of religion; organized-religion is the closest fit for books arguing religion away. The Religion War is set in 2007-2040 (fiction); time spans use the books' publication years (God's Debris 2001, The Religion War 2004) from general knowledge, not the transcript. Adams's lifespan end 2026 matches the sibling Win Bigly record. war-war-crimes and terrorism refer to the novel's fictional war."
+  },
+  {
+    "id": "wim-hof-s-surprisingly-deadly-story",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "child-abuse is for the neglect segment (children left alone in a squat after their mother's death); reviewer may judge it too thin. main_span starts at 2007 (first verifiable record and claimed Feinstein study); his public stunts likely began earlier but the packet gives no firm date. Both detailed drowning cases are in California, but US-CA is left out as the state is not the story's focus. Finland setting rests on the under-ice swim segment."
+  },
+  {
+    "id": "the-12-tribes-the-worst-cult-you-ve-never-heard-of",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript does not give the year of the Island Pond raid (historically June 1984). Communes in England, Spain and Australia are mentioned only in passing and left out of setting. Several US states matter (TN, VT, FL, CO), so no subdivision is set. The 2021 Marshall Fire framing is a short hook and does not extend covered_span. Marsha Spriggs's birth year is unknown; end null assumes she is alive. No theme for homophobia or withholding of medical care."
+  },
+  {
+    "id": "behind-the-swastika",
+    "format": "deep-dive",
+    "low": ["subjects", "time"],
+    "notes": "No subject kind for a symbol; practice-or-pseudoscience is the closest fit. Story spans ~13,000 BCE (Mezine figurine) to 2022, but the schema floor is -5000, so covered_span.start is clamped. Origin IN (Sanskrit word) and UA (oldest find) are judgement calls for a symbol. Secondary 'Nazi Party' could be split into Thule Society/Freikorps. Hosts treat no single person as the bastard; no roles apply."
+  }
+]

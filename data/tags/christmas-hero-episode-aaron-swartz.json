@@ -1,0 +1,139 @@
+{
+  "story_id": "christmas-hero-episode-aaron-swartz",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "hero",
+  "subjects": [
+    {
+      "name": "Aaron Swartz",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1986, "end": 2013 }
+    },
+    {
+      "name": "Quinn Norton",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2011
+    },
+    {
+      "name": "Lawrence Lessig",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1961, "end": null }
+    },
+    {
+      "name": "Massachusetts Institute of Technology",
+      "kind": "organization",
+      "org_type": "school-or-facility",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["activist-organizer", "tech-founder", "inventor-engineer"],
+  "themes": {
+    "primary": "tech-internet",
+    "secondary": ["policing-incarceration", "education", "electoral-politics"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-MA"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2000, "end": 2013 },
+    "covered_span": { "start": 1986, "end": 2013 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Hero episode on American programmer and activist Aaron Swartz, who helped build RSS, Creative Commons and Reddit, fought for open access and against SOPA, and died by suicide in 2013 while facing federal prosecution over JSTOR downloads.",
+  "content_warnings": ["suicide-self-harm"],
+  "keywords": [
+    "RSS",
+    "Creative Commons",
+    "Reddit",
+    "Open Library",
+    "JSTOR",
+    "Guerrilla Open Access Manifesto",
+    "PACER",
+    "Stop Online Piracy Act",
+    "Demand Progress",
+    "Computer Fraud and Abuse Act"
+  ],
+  "guests": ["Margaret Killjoy"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:05:31",
+      "note": "Birth in 1986 near Chicago and childhood with early home computers"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:25:08",
+      "note": "Joins the RSS working group in August 2000, first major contribution"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:34:20",
+      "note": "Lessig gives him his first job coding Creative Commons; extended segment on Lessig's ideas"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:40:26",
+      "note": "Stanford year and disillusion with university life"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:08:22",
+      "note": "JSTOR downloads at MIT in 2010-2011 lead to arrest"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:25:43",
+      "note": "Federal prosecutor brings felony counts under computer and wire fraud laws"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:27:40",
+      "note": "Long segment on Quinn Norton's grand jury cooperation and its consequences"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:37:19",
+      "note": "Lobbying Congress and founding Demand Progress to defeat SOPA"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:42:55",
+      "note": "Suicide on 11 January 2013"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:44:24",
+      "note": "Legacy to 2023: open access policy changes, Sci-Hub, Aaron's Law, MIT report"
+    }
+  ],
+  "notes": "No theme fits copyright and open access, or chronic illness and mental health, which are both central; tech-internet is the closest primary. electoral-politics covers the SOPA congressional fight and his political ambitions, a moderate fit. Quinn Norton's birth year is not given, so floruit is used."
+}

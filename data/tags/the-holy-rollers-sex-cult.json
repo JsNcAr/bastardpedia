@@ -1,0 +1,101 @@
+{
+  "story_id": "the-holy-rollers-sex-cult",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Edmund Creffield",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1870, "end": 1906 }
+    },
+    {
+      "name": "Holy Rollers (Brides of Christ)",
+      "kind": "organization",
+      "org_type": "cult",
+      "role": "primary"
+    },
+    {
+      "name": "Esther Mitchell",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": 1914 }
+    },
+    {
+      "name": "Maud Hurt",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": 1906 }
+    },
+    {
+      "name": "The Salvation Army",
+      "kind": "organization",
+      "org_type": "religious-body",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["cult-leader"],
+  "themes": {
+    "primary": "cults-new-religions",
+    "secondary": [
+      "sexual-abuse",
+      "medical-malpractice",
+      "policing-incarceration",
+      "child-abuse"
+    ]
+  },
+  "regions": {
+    "origin": ["DE", "US"],
+    "setting": ["US"],
+    "subdivisions": ["US-OR"],
+    "polities": [],
+    "scope": "local"
+  },
+  "time": {
+    "main_span": { "start": 1903, "end": 1906 },
+    "covered_span": { "start": 1870, "end": 1906 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "German immigrant and ex-Salvation Army preacher Edmund Creffield founded the Holy Rollers in Corvallis, Oregon, in 1903, isolating and starving followers and coercing women into sex until he was shot dead in Seattle in 1906.",
+  "content_warnings": ["sexual-violence", "animal-cruelty", "suicide-self-harm"],
+  "keywords": [
+    "Corvallis",
+    "Brides of Christ",
+    "Joshua Creffield",
+    "Robinson's Island",
+    "White Caps",
+    "tarring and feathering",
+    "O.V. Hurt",
+    "George Mitchell",
+    "Oregon State Insane Asylum",
+    "Holy Rollers: Murder and Madness in Oregon's Love Cult"
+  ],
+  "guests": ["Matt Lieb"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:07:55", "note": "Birth year unknown; host estimates around 1870-71 in Germany, emigration in the 1880s" },
+    { "facet": "subjects", "part": 1, "at": "00:17:24", "note": "Creffield joins the Salvation Army by 1899, trained as an officer, then breaks with it" },
+    { "facet": "time", "part": 1, "at": "00:26:56", "note": "Arrives in Corvallis in 1903 and starts gathering followers" },
+    { "facet": "regions", "part": 1, "at": "00:47:03", "note": "Banned from meeting in town, the group moves to an island near Corvallis" },
+    { "facet": "themes", "part": 1, "at": "00:51:34", "note": "Declares himself Joshua and claims female followers as brides of Christ" },
+    { "facet": "themes", "part": 2, "at": "00:29:09", "note": "Christmas 1903 orgies; a mother coerced into sex under threat of damnation" },
+    { "facet": "themes", "part": 2, "at": "00:23:01", "note": "Sixteen-year-old Esther Mitchell chosen as his bride and committed by family" },
+    { "facet": "themes", "part": 2, "at": "00:39:35", "note": "Most cult women committed to the asylum, partly for going bareheaded" },
+    { "facet": "themes", "part": 2, "at": "00:36:03", "note": "Adultery complaint, manhunt, trial in Portland and roughly two years in prison" },
+    { "facet": "regions", "part": 2, "at": "00:55:34", "note": "George Mitchell tracks Creffield to Seattle and shoots him dead" },
+    { "facet": "time", "part": 2, "at": "00:59:12", "note": "Esther kills her acquitted brother; later suicides of Esther and Maud" }
+  ],
+  "notes": "Creffield's birth year is uncertain in the transcript (about 1870); Wikipedia gives c. 1867. Scope set to local (Willamette Valley) although the ending happens in Seattle (US-WA). Salvation Army history from 1865 is background and kept out of covered_span. Death years for Esther Mitchell (1914) and Maud Hurt (1906) come from general knowledge; transcript only says they later killed themselves. No theme fits vigilante mob violence."
+}

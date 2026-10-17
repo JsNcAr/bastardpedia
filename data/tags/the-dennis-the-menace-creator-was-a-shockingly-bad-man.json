@@ -1,0 +1,88 @@
+{
+  "story_id": "the-dennis-the-menace-creator-was-a-shockingly-bad-man",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Hank Ketcham",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1920, "end": 2001 }
+    },
+    {
+      "name": "Dennis Ketcham",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1946, "end": null }
+    },
+    {
+      "name": "Disney animators' strike of 1941",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Dennis the Menace (comic strip)",
+      "kind": "media-work",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["entertainer-artist"],
+  "themes": {
+    "primary": "child-abuse",
+    "secondary": ["entertainment-celebrity", "labor-exploitation", "racism-white-supremacy"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "CH"],
+    "subdivisions": ["US-CA"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1950, "end": 2001 },
+    "covered_span": { "start": 1920, "end": 2001 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "American cartoonist Hank Ketcham scabbed during the 1941 Disney strike, built Dennis the Menace on his son, then neglected him, hid his mother's death and sent him away, and drew a racist caricature in 1970.",
+  "content_warnings": ["child-abuse"],
+  "keywords": [
+    "Dennis the Menace",
+    "Disney animators' strike",
+    "Walt Disney",
+    "Ward Kimball",
+    "Art Babbitt",
+    "The Merchant of Dennis the Menace",
+    "Jackson (Dennis the Menace character)",
+    "Carmel",
+    "Geneva",
+    "Vietnam War"
+  ],
+  "guests": ["Randy Milholland"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:04:22", "note": "Ketcham born March 1920 in Seattle" },
+    { "facet": "themes", "part": 1, "at": "00:28:24", "note": "long segment on the 1941 Disney animators' strike and union demands" },
+    { "facet": "themes", "part": 1, "at": "00:37:09", "note": "Ketcham leaves the picket line and crosses it to keep working" },
+    { "facet": "subjects", "part": 1, "at": "00:47:25", "note": "son Dennis born 1946, namesake and model for the strip" },
+    { "facet": "time", "part": 1, "at": "00:51:02", "note": "October 1950 incident that inspired the strip; launch in March 1951" },
+    { "facet": "themes", "part": 2, "at": "00:06:03", "note": "twelve-year-old Dennis sent to boarding school after the separation" },
+    { "facet": "themes", "part": 2, "at": "00:10:56", "note": "father withholds news of the mother's death until after the burial" },
+    { "facet": "regions", "part": 2, "at": "00:19:26", "note": "move to Switzerland with new wife; son placed in a Swiss school, then sent back" },
+    { "facet": "themes", "part": 2, "at": "00:37:22", "note": "1970 introduction of a caricatured Black character and the backlash" },
+    { "facet": "subjects", "part": 2, "at": "00:47:20", "note": "Dennis joins the Marines, serves in Vietnam, returns with PTSD" },
+    { "facet": "time", "part": 2, "at": "00:58:32", "note": "Ketcham dies in 2001; son does not attend the funeral" }
+  ],
+  "notes": "Primary theme child-abuse reflects emotional neglect and abandonment by a parent, not physical or sexual abuse; entertainment-celebrity was the alternative. Dennis Ketcham's death year is not stated in the packet (the host does not know if he is alive), so lifespan end is null. main_span starts at the strip's conception in 1950; the 1941 strike is inside covered_span."
+}

@@ -1,0 +1,103 @@
+{
+  "story_id": "beria-stalin-s-pedophile-cop-the-soviet-oppenheimer",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Lavrentiy Beria",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1899, "end": 1953 }
+    },
+    {
+      "name": "Joseph Stalin",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1878, "end": 1953 }
+    },
+    {
+      "name": "NKVD",
+      "kind": "organization",
+      "org_type": "intelligence",
+      "role": "secondary"
+    },
+    {
+      "name": "Katyn massacre",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Klaus Fuchs",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1911, "end": 1988 }
+    }
+  ],
+  "roles": ["spy-intelligence", "police-lawman", "politician-official"],
+  "themes": {
+    "primary": "communism-state-socialism",
+    "secondary": [
+      "policing-incarceration",
+      "genocide-mass-killing",
+      "intelligence-covert-ops",
+      "war-war-crimes",
+      "weapons-arms-trade",
+      "sexual-abuse",
+      "child-abuse"
+    ]
+  },
+  "regions": {
+    "origin": ["GE"],
+    "setting": ["GE", "RU", "AZ", "PL", "KZ"],
+    "subdivisions": [],
+    "polities": ["soviet-union", "russian-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1921, "end": 1953 },
+    "covered_span": { "start": 1899, "end": 1953 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Georgian Bolshevik Lavrentiy Beria rose through the Caucasus secret police to run Stalin's NKVD, overseeing purges, the Katyn massacre, mass deportations and the Soviet atom bomb, while reportedly abducting and raping women and girls, until his execution in 1953.",
+  "content_warnings": ["mass-atrocity", "sexual-violence", "child-abuse", "torture"],
+  "keywords": [
+    "Cheka",
+    "Great Terror",
+    "Gulag",
+    "Volga Germans",
+    "Soviet atomic bomb project",
+    "Nina Gegechkori",
+    "Mingrelian affair",
+    "The Death of Stalin",
+    "Igor Kurchatov",
+    "Nikita Khrushchev"
+  ],
+  "guests": ["Joe Kassabian"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:10:37", "note": "Beria born in 1899 in a village in Georgia" },
+    { "facet": "time", "part": 1, "at": "00:45:53", "note": "joins the Baku Cheka in the early 1920s, start of his secret police career" },
+    { "facet": "themes", "part": 1, "at": "00:59:13", "note": "takes teenage Nina, aged 15-16, as his wife; abduction account" },
+    { "facet": "regions", "part": 2, "at": "00:18:03", "note": "1924 Georgian uprising crushed, whole village families killed" },
+    { "facet": "time", "part": 3, "at": "00:04:04", "note": "replaces Yezhov as NKVD head in November 1938" },
+    { "facet": "themes", "part": 3, "at": "00:22:40", "note": "diplomat tortured in Beria's office to force a confession" },
+    { "facet": "themes", "part": 3, "at": "00:26:13", "note": "bodyguards describe picking up young women for Beria to rape" },
+    { "facet": "regions", "part": 3, "at": "00:38:56", "note": "Polish prisoners shot on Beria's orders (Katyn), Poles deported east" },
+    { "facet": "regions", "part": 4, "at": "00:30:29", "note": "Volga Germans deported to Siberia and Kazakhstan in cattle cars" },
+    { "facet": "themes", "part": 4, "at": "00:43:07", "note": "Beria put in charge of the Soviet atom bomb project; Fuchs espionage" },
+    { "facet": "time", "part": 4, "at": "01:18:50", "note": "arrested after Stalin's death, tried and executed December 1953" }
+  ],
+  "notes": "Main span starts at his Cheka career in Baku and Georgia (early 1920s). The hosts say his sex crimes are well attested but come partly from coerced testimony after his fall. Setting omits UA/BY (eastern Poland deportations) and FI (Winter War, brief)."
+}

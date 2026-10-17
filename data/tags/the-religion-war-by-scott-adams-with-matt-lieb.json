@@ -1,0 +1,119 @@
+{
+  "story_id": "the-religion-war-by-scott-adams-with-matt-lieb",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "media-reading",
+  "subjects": [
+    {
+      "name": "The Religion War",
+      "kind": "media-work",
+      "role": "primary"
+    },
+    {
+      "name": "God's Debris",
+      "kind": "media-work",
+      "role": "primary"
+    },
+    {
+      "name": "Scott Adams",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1957, "end": 2026 }
+    }
+  ],
+  "roles": ["writer-intellectual", "entertainer-artist"],
+  "themes": {
+    "primary": "organized-religion",
+    "secondary": ["racism-white-supremacy", "propaganda-media", "war-war-crimes", "terrorism"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2001, "end": 2004 },
+    "covered_span": { "start": 2001, "end": 2004 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "A reading of Dilbert cartoonist Scott Adams's novels God's Debris and The Religion War, in which a self-insert genius ends a Christian-Muslim war by debunking religion, critiqued for shallow philosophy and Islamophobic, anti-Irish stereotypes.",
+  "content_warnings": [],
+  "keywords": [
+    "Dilbert",
+    "the Avatar",
+    "prime influencer",
+    "Stacy's Cafe",
+    "General Horatio Cruz",
+    "Al Zee",
+    "cold reading",
+    "Socratic dialogue",
+    "free will",
+    "San Francisco"
+  ],
+  "guests": ["Matt Lieb"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:07:55",
+      "note": "Host reads the novel's own pitch: a genius tries to stop a coming Christian-Muslim war"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:09:38",
+      "note": "Prologue sets a 2007 plan to destroy Israel and a caliphate waging low-level terror"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:24:32",
+      "note": "Hosts discuss how the book flattens the Muslim world into one hostile bloc"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:46:44",
+      "note": "Cold-reading scene relies on an Irish drinker stereotype; hosts dwell on the bigotry"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:48:26",
+      "note": "Plot crux: end the war by making everyone abandon religion at once; internet-atheist critique"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:57:30",
+      "note": "Prime influencer idea tied to Adams's later persuasion obsession and Trump"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:10:19",
+      "note": "Part two turns to God's Debris, the first book, read out of publication order"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:29:11",
+      "note": "Socratic dialogue on God, omniscience and free will picked apart"
+    }
+  ],
+  "notes": "No theme for atheism or philosophy of religion; organized-religion is the closest fit for books arguing religion away. The Religion War is set in 2007-2040 (fiction); time spans use the books' publication years (God's Debris 2001, The Religion War 2004) from general knowledge, not the transcript. Adams's lifespan end 2026 matches the sibling Win Bigly record. war-war-crimes and terrorism refer to the novel's fictional war."
+}

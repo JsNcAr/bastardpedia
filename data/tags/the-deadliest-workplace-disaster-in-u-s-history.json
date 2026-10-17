@@ -1,0 +1,132 @@
+{
+  "story_id": "the-deadliest-workplace-disaster-in-u-s-history",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Hawks Nest Tunnel disaster",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Union Carbide",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Rinehart & Dennis",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Muriel Rukeyser",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1913, "end": 1980 }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "labor-exploitation",
+    "secondary": [
+      "corporate-malfeasance",
+      "racism-white-supremacy",
+      "medical-malpractice",
+      "public-health",
+      "policing-incarceration"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-WV"],
+    "polities": [],
+    "scope": "local"
+  },
+  "time": {
+    "main_span": { "start": 1930, "end": 1936 },
+    "covered_span": { "start": 1930, "end": 1936 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "In 1930-1932 Union Carbide and contractor Rinehart & Dennis drove the Hawks Nest Tunnel through near-pure silica rock in West Virginia without wet drilling or respirators, killing hundreds of mostly Black migrant workers from silicosis and covering it up.",
+  "content_warnings": ["medical-horror"],
+  "keywords": [
+    "Gauley Bridge",
+    "Fayette County",
+    "silicosis",
+    "Gauley Mountain",
+    "New Kanawha Power Company",
+    "The Book of the Dead",
+    "Martin Cherniack",
+    "Hadley White",
+    "Dewey Flack",
+    "shack rouster"
+  ],
+  "guests": ["Jason Pargin"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:01:03",
+      "note": "groundbreaking on the tunnel at the end of March 1930"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:43:13",
+      "note": "tunnel finished in 1932, well ahead of the two-year target"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:45:50",
+      "note": "1936 House inquiry condemns the companies; respirator law follows"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:53:24",
+      "note": "segregated shacks, scrip pay and lower wages for Black workers"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:22:31",
+      "note": "company doctors misdiagnose silicosis and hand out sugar-pill placebos"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:12:06",
+      "note": "armed rouster deputized by the county sheriff beats sick workers; fines from staged raids"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:56:37",
+      "note": "modern black lung and silica exposure failures among US coal miners"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:50:44",
+      "note": "segment on Rukeyser, her 1936 trip to Gauley Bridge and FBI surveillance"
+    }
+  ],
+  "notes": "Primary subject is the event, so roles are empty. Opening history of silicosis and Union Carbide's 1911-1919 dam origins are background and kept out of covered_span. The 2018 NPR/Frontline segment on today's black lung epidemic is a modern parallel rather than this disaster's direct legacy, so reaches_present is false; a reviewer could argue otherwise. Death toll estimates range from 464 to about 2,000."
+}

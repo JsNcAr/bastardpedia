@@ -1,0 +1,103 @@
+{
+  "story_id": "how-conservatism-won",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Conservative think tanks",
+      "kind": "movement-or-ideology",
+      "role": "primary"
+    },
+    {
+      "name": "Lewis F. Powell Jr.",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1907, "end": 1998 }
+    },
+    {
+      "name": "RAND Corporation",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Ronald Reagan",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1911, "end": 2004 },
+      "wikidata": "Q9960"
+    },
+    {
+      "name": "American Enterprise Institute",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "propaganda-media",
+    "secondary": [
+      "education",
+      "electoral-politics",
+      "war-war-crimes",
+      "corporate-malfeasance",
+      "weapons-arms-trade"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "VN"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1971, "end": 1989 },
+    "covered_span": { "start": 1907, "end": 1989 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "How wealthy American conservatives, spurred by the 1971 Powell Memorandum, funded a network of think tanks that manufactured the look of expert consensus, attacked public universities and supplied the Reagan administration with policy.",
+  "content_warnings": [],
+  "keywords": [
+    "Powell Memorandum",
+    "Heritage Foundation",
+    "Brookings Institution",
+    "Cato Institute",
+    "People's Park",
+    "Strategic Defense Initiative",
+    "Jeane Kirkpatrick",
+    "George Gilder",
+    "Roger Freeman",
+    "student loans"
+  ],
+  "guests": ["David Bell"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:26:26", "note": "Russell Sage Foundation, founded 1907, presented as one of the first think tanks" },
+    { "facet": "subjects", "part": 1, "at": "00:40:42", "note": "RAND Corporation introduced; long segment on its Vietnam advice follows" },
+    { "facet": "regions", "part": 1, "at": "00:46:33", "note": "RAND researcher interviews prisoners and villagers in Vietnam on enemy morale" },
+    { "facet": "themes", "part": 1, "at": "00:53:29", "note": "RAND's ladder of escalation and bombing assumptions in the Vietnam War" },
+    { "facet": "time", "part": 1, "at": "01:11:46", "note": "Powell writes his 1971 memo to the Chamber of Commerce" },
+    { "facet": "themes", "part": 2, "at": "00:22:51", "note": "Reagan's 1966 governor campaign built on attacking Berkeley" },
+    { "facet": "themes", "part": 2, "at": "00:33:58", "note": "Reagan pushes tuition plus loans at California public colleges" },
+    { "facet": "time", "part": 2, "at": "00:52:11", "note": "Heritage (1973), EPPC (1976) and Cato (1977) founded in quick succession" },
+    { "facet": "themes", "part": 2, "at": "01:04:29", "note": "AEI founder Lewis Brown ran an asbestos firm and hid asbestosis from workers" },
+    { "facet": "themes", "part": 2, "at": "01:12:29", "note": "Kirkpatrick's AEI essay shapes Reagan's Latin America arms policy" },
+    { "facet": "themes", "part": 2, "at": "01:14:32", "note": "think tanks back Reagan's Strategic Defense Initiative" },
+    { "facet": "time", "part": 2, "at": "01:24:51", "note": "closing segment on think tanks losing influence in the Trump years" }
+  ],
+  "notes": "No theme for think tanks or policy capture; propaganda-media (manufacturing consensus for journalists) is the closest primary. Primary subject is the think-tank network as a movement, so roles are empty. Covered span starts with the 1907 Russell Sage Foundation history; end 1989 (end of the Reagan era) is an estimate, with later SDI and Trump-era remarks treated as legacy."
+}

@@ -1,0 +1,143 @@
+{
+  "story_id": "the-fake-doctors-who-gave-everyone-alzheimer-s",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Sherry Ann and Oliver Jenkins",
+      "kind": "group",
+      "role": "primary"
+    },
+    {
+      "name": "U.S. private health insurers",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "primary"
+    },
+    {
+      "name": "David Williams",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1963, "end": null }
+    },
+    {
+      "name": "Malachi Love-Robinson",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1997, "end": null }
+    }
+  ],
+  "roles": ["con-artist", "quack-fake-healer", "physician-surgeon"],
+  "themes": {
+    "primary": "fraud-grift",
+    "secondary": [
+      "corporate-malfeasance",
+      "public-health",
+      "quackery-pseudoscience",
+      "medical-malpractice"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2013, "end": 2019 },
+    "covered_span": { "start": 1992, "end": 2021 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "An anthology of American fake-doctor cases, chiefly a Toledo couple who falsely diagnosed dozens of patients with Alzheimer's to bill Medicare, that exposes how easily provider numbers are faked and how private health insurers ignore fraud.",
+  "content_warnings": ["suicide-self-harm"],
+  "keywords": [
+    "Toledo Clinic",
+    "National Provider Identifier",
+    "Medicare fraud",
+    "coconut oil",
+    "ProPublica",
+    "Marshall Allen",
+    "UnitedHealthcare",
+    "Aetna",
+    "Cigna",
+    "Adam Litwin"
+  ],
+  "guests": ["Kaveh Hoda"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:05:25",
+      "note": "Love-Robinson poses as a doctor at a West Palm Beach hospital in winter 2014-15"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:34:25",
+      "note": "Jenkinses open a cognitive center at the Toledo Clinic in November 2013"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:36:25",
+      "note": "scheme of billing Medicare for tests and false Alzheimer's diagnoses under the husband's NPI"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:43:08",
+      "note": "coconut oil prescribed as Alzheimer's treatment; host debunks the fad"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:07:40",
+      "note": "FBI probe, more than sixty victims, both convicted and sentenced to prison"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:02:08",
+      "note": "Williams born in Idaho around 1963; early career and a failed gym investment scheme"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:24:23",
+      "note": "Williams ramps up NPI fraud from 2014, holding twenty NPIs by 2017"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:29:40",
+      "note": "family tips to Aetna, Cigna and UnitedHealthcare go nowhere"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:34:58",
+      "note": "ProPublica finding that private insurers rarely report or pursue fraud"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:54:20",
+      "note": "closing segment on a fake UCLA resident who later earned a real MD"
+    }
+  ],
+  "notes": "Anthology episode. Part 2's title names health insurers as the real bastards, so the industry is a second primary subject; no single company fits, so it is entered as a generic organization (low fit). Williams treated as secondary despite a long segment, which keeps his 1963 birth out of the covered span. Covered span starts around his 1992 marriage and teaching job. Love-Robinson's birth year and the Jenkins sentencing years are inferred, not stated."
+}

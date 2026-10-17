@@ -1,0 +1,87 @@
+{
+  "story_id": "the-bastards-of-forensic-science",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": { "agent": "btb-tagger", "model": "claude-opus-5-5", "date": "2026-10-16" },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Forensic science",
+      "kind": "practice-or-pseudoscience",
+      "role": "primary"
+    },
+    {
+      "name": "Bite mark analysis",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    },
+    {
+      "name": "Lowell Levine",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1983
+    },
+    {
+      "name": "Michael West",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1994
+    },
+    {
+      "name": "Arpad Vass",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2011
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "quackery-pseudoscience",
+    "secondary": ["policing-incarceration", "fraud-grift", "sexual-abuse", "racism-white-supremacy"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "ES"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1974, "end": null },
+    "covered_span": { "start": 1880, "end": 2024 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "A survey of junk forensic science in the US, from overstated fingerprint matching to bite mark analysis, corpse dowsing, clothing-wrinkle matching and 911-call analysis, and the innocent people convicted on it.",
+  "content_warnings": ["sexual-violence", "graphic-violence"],
+  "keywords": [
+    "fingerprinting",
+    "People v. Marx",
+    "Keith Allen Harward",
+    "Stephan Cowans",
+    "Brandon Mayfield",
+    "Innocence Project",
+    "LABRADOR device",
+    "dowsing",
+    "Tracy Harpster",
+    "Junk Science (Chris Fabricant)"
+  ],
+  "guests": ["Kaveh Hoda"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:18:54", "note": "Faulds and fingerprint history from the 1870s-1880 opens the historical survey" },
+    { "facet": "time", "part": 1, "at": "01:09:02", "note": "1974 nose-bite case leads to People v. Marx, foundational bite mark ruling" },
+    { "facet": "regions", "part": 1, "at": "00:38:01", "note": "Mayfield wrongly tied by FBI to the 2004 Madrid train bombing" },
+    { "facet": "themes", "part": 1, "at": "00:48:15", "note": "1982 Virginia rape and murder case; Harward convicted on bite marks" },
+    { "facet": "themes", "part": 2, "at": "00:11:02", "note": "hair microscopy convicts Mark Reid, a Black man; racial classification of hair" },
+    { "facet": "themes", "part": 2, "at": "00:20:52", "note": "Mississippi dentist Michael West fabricates bite marks on bodies" },
+    { "facet": "themes", "part": 2, "at": "00:33:08", "note": "Arpad Vass sells dowsing-based corpse finder to grieving families" },
+    { "facet": "time", "part": 2, "at": "01:12:16", "note": "Harpster 911-call analysis still taught to police at release" }
+  ],
+  "notes": "Survey of a practice, so no roles. Theme primary could arguably be policing-incarceration; chose quackery-pseudoscience as the pitch is that the techniques are junk science. Levine, West and Vass birth/death years not stated, so floruit used. Covered span starts with 19th-century fingerprint origins (about 5 minutes). Main span end null as the practices remain in use."
+}

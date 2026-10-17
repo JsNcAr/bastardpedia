@@ -1,0 +1,150 @@
+{
+  "story_id": "wim-hof-s-surprisingly-deadly-story",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Wim Hof",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1959, "end": null }
+    },
+    {
+      "name": "Scott Carney",
+      "kind": "person",
+      "role": "secondary"
+    },
+    {
+      "name": "Innerfire",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["occultist-guru", "con-artist"],
+  "themes": {
+    "primary": "wellness-self-help",
+    "secondary": [
+      "quackery-pseudoscience",
+      "fraud-grift",
+      "propaganda-media",
+      "corporate-malfeasance",
+      "child-abuse"
+    ]
+  },
+  "regions": {
+    "origin": ["NL"],
+    "setting": ["US", "NL", "TZ", "ES", "IN", "FI"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2007, "end": null },
+    "covered_span": { "start": 1959, "end": 2023 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Dutch cold-exposure guru Wim Hof built the Innerfire wellness business on inflated records, pseudoscientific claims and uncritical media coverage, while his breathing method has been linked in lawsuits to a series of drownings.",
+  "content_warnings": ["suicide-self-harm", "medical-horror", "child-death"],
+  "keywords": [
+    "The Iceman",
+    "Wim Hof Method",
+    "Tummo",
+    "Mount Kilimanjaro",
+    "The Way of the Iceman",
+    "What Doesn't Kill Us",
+    "Joe Rogan",
+    "Radboud University",
+    "Madeline Rose Metzger",
+    "Andrew Encinas"
+  ],
+  "guests": ["James Stout"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:09:09",
+      "note": "birth in 1959 in Sittard, Limburg, one of ten children and a twin"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:17:38",
+      "note": "book version of his youth: travels through India to Rishikesh and the Ganges"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:30:35",
+      "note": "family moves to the Pyrenees; wife's later suicide in Pamplona in 1995"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:43:13",
+      "note": "Carney's account that Hof left his children alone in a squat with a 15-year-old in charge"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:40:36",
+      "note": "long segment on journalist Scott Carney's role in making Hof famous and hiding details"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:07:16",
+      "note": "2007 barefoot half marathon on snow, his one verified record; start of the main span"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:11:20",
+      "note": "Innerfire founded in 2010 with his eldest son to sell workshops worldwide"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:12:22",
+      "note": "Radboud studies and how their limited findings were overstated"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:24:30",
+      "note": "2014 Kilimanjaro climb with an untrained group after local guides refused to go"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:34:47",
+      "note": "Rogan interview: oxygen saturation and cancer technobabble passed off as science"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:46:18",
+      "note": "California pool drowning of a 17-year-old and the lawsuit against Hof and Innerfire"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:52:15",
+      "note": "course videos combine breathwork with water immersion despite the written warnings"
+    }
+  ],
+  "notes": "child-abuse is for the neglect segment (children left alone in a squat after their mother's death); reviewer may judge it too thin. main_span starts at 2007 (first verifiable record and claimed Feinstein study); his public stunts likely began earlier but the packet gives no firm date. Both detailed drowning cases are in California, but US-CA is left out as the state is not the story's focus. Finland setting rests on the under-ice swim segment."
+}
