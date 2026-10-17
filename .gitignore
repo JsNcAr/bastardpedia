@@ -44,3 +44,6 @@ data/review/
 
 # Design-plugin gate receipts (local)
 .ds-receipts/
+
+# Logo exploration (concept rounds); the delivered kit is in brand/
+design/

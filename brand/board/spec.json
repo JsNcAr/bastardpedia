@@ -1,0 +1,37 @@
+{
+  "brand": "Bastardpedia",
+  "tagline": "History's worst people, catalogued",
+  "brief": "An unofficial index of Behind the Bastards stories by period, theme, place and who the subjects were. It should feel like a serious reference work that is in on the joke, without borrowing the show's artwork or colours.",
+  "adjectives": ["archival", "scholarly", "irreverent", "darkly funny"],
+  "criteria": "Success: reads as a reference work and as a joke in one glance, recognisable at 16 px, works in one colour and reversed, distinct from reference-site and podcast cliches.",
+  "mockups": ["website", "favicon-tab", "app-icon", "social", "sticker", "tote"],
+  "nav": ["Catalogue", "Library", "About"],
+  "brand_color": "#852D23",
+  "greyscale": false,
+  "designer": "Bastardpedia",
+  "round": 2,
+  "concepts": [
+    {
+      "name": "Volume B",
+      "symbol": "../masters/symbol.svg",
+      "lockup": "../masters/lockup-horizontal.svg",
+      "symbol_on_tile": "../masters/symbol-on-mark.svg",
+      "stacked_on_tile": "../masters/lockup-stacked-on-mark.svg",
+      "symbol_on_dark": "../masters/symbol-dark.svg",
+      "lockup_on_dark": "../masters/lockup-horizontal-dark.svg",
+      "idea": "Volume B of an encyclopedia that has grown a horn, wears a slipped halo and keeps a devil's tail as its bookmark.",
+      "rationale": [
+        "Reference work first: a bound volume with a spine and a serif B",
+        "The joke is built in: saint and sinner on one cover, like the show's bastards and heroes",
+        "Oxblood and gilt: old leather binding, and the gold makes the halo read as a halo",
+        "A simplified cut keeps the B legible as a 16 px favicon"
+      ]
+    }
+  ],
+  "recommendation": "Volume B in oxblood and gilt (palette O2). Episcopal violet and brass (A4) is kept as an alternative in brand/proposals/a4-aubergine.",
+  "next_steps": [
+    "Logo in the site header and the new favicon and app icons",
+    "Professional trademark search before the public launch",
+    "Optional: a pattern or icon set built from the book and halo shapes"
+  ]
+}
