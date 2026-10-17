@@ -1,0 +1,99 @@
+{
+  "story_id": "concentration-camps-are-back-so-let-s-talk-about-their-history",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Concentration camps",
+      "kind": "practice-or-pseudoscience",
+      "role": "primary"
+    },
+    {
+      "name": "Valeriano Weyler",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1838, "end": 1932 }
+    },
+    {
+      "name": "Andrew Jackson",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1767, "end": 1845 },
+      "wikidata": "Q11817"
+    },
+    {
+      "name": "Boer War concentration camps",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Trump administration family separation policy",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "policing-incarceration",
+    "secondary": [
+      "colonialism-imperialism",
+      "war-war-crimes",
+      "genocide-mass-killing",
+      "nazism",
+      "immigration-borders",
+      "child-abuse"
+    ]
+  },
+  "regions": {
+    "origin": [],
+    "setting": ["CU", "ZA", "US", "SY", "DE", "MY"],
+    "subdivisions": [],
+    "polities": ["spanish-empire", "british-empire", "ottoman-empire"],
+    "scope": "global"
+  },
+  "time": {
+    "main_span": { "start": 1896, "end": 1945 },
+    "covered_span": { "start": 1812, "end": 2018 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "A survey of concentration camps from Andrew Jackson's Indian removal and Valeriano Weyler's 1896 Cuban reconcentration camps through the Boer War, the Armenian genocide and Nazi Germany to the 2018 US family separations.",
+  "content_warnings": ["mass-atrocity"],
+  "keywords": [
+    "reconcentrados",
+    "Trail of Tears",
+    "Second Boer War",
+    "Lord Kitchener",
+    "Armenian genocide",
+    "Deir ez-Zor",
+    "Japanese American internment",
+    "Strategic Hamlet Program",
+    "Malayan Emergency",
+    "Talaat Pasha"
+  ],
+  "guests": ["Jacquis Neal"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:03:09", "note": "Jackson segment starts with his 1812 militia command and the Red Stick War" },
+    { "facet": "subjects", "part": 1, "at": "00:10:56", "note": "Weyler biography begins: born 1838 in Mallorca" },
+    { "facet": "time", "part": 1, "at": "00:21:50", "note": "Weyler proposes forced relocation into camps in Cuba, 1896" },
+    { "facet": "subjects", "part": 1, "at": "00:27:59", "note": "British adopt camps in the Boer War under Kitchener" },
+    { "facet": "regions", "part": 1, "at": "00:35:47", "note": "Armenian deportees die in an open-air camp near Deir ez-Zor in the Syrian desert" },
+    { "facet": "themes", "part": 1, "at": "00:39:29", "note": "Nazi camps framed as continuation; Hitler and Goering cite Boer and US precedents" },
+    { "facet": "regions", "part": 1, "at": "00:50:55", "note": "Briggs Plan new villages in Malaya described at length" },
+    { "facet": "themes", "part": 1, "at": "00:58:15", "note": "2018 US border family separations and tender-age shelters for children" },
+    { "facet": "time", "part": 1, "at": "01:02:25", "note": "Romanian orphanage study used only as a comparison, not counted in span" }
+  ],
+  "notes": "No theme for detention camps specifically; policing-incarceration is closest (detention). The transcript gives Weyler's death as 1932; standard sources say 1930. Lifespan follows the transcript per the prompt. Hadrian's Wall camps are a passing mention, so covered_span starts with the 1812 Red Stick War. Setting drops PH, VN, GB, DZ for space."
+}

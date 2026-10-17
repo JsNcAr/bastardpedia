@@ -1,0 +1,127 @@
+{
+  "story_id": "how-woody-guthrie-turned-folk-music-into-a-weapon",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "hero",
+  "subjects": [
+    {
+      "name": "Woody Guthrie",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1912, "end": 1967 }
+    },
+    {
+      "name": "Pretty Boy Floyd",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1904, "end": 1934 }
+    },
+    {
+      "name": "Communist Party USA",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["entertainer-artist", "activist-organizer"],
+  "themes": {
+    "primary": "entertainment-celebrity",
+    "secondary": [
+      "labor-exploitation",
+      "communism-state-socialism",
+      "folklore-legend",
+      "war-war-crimes",
+      "racism-white-supremacy"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1936, "end": 1956 },
+    "covered_span": { "start": 1912, "end": 1967 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Christmas non-bastard episode on American folk singer Woody Guthrie, who turned Dust Bowl and Depression hardship into protest songs, backed communism, fought fascism in the Merchant Marine and declined from Huntington's disease.",
+  "content_warnings": [],
+  "keywords": [
+    "This Land Is Your Land",
+    "Dust Bowl",
+    "The Ballad of Pretty Boy Floyd",
+    "This Machine Kills Fascists",
+    "Huntington's disease",
+    "Pete Seeger",
+    "Bob Dylan",
+    "Greystone Park",
+    "Merchant Marine",
+    "Molotov-Ribbentrop Pact"
+  ],
+  "guests": ["Margaret Killjoy"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:02:35",
+      "note": "1936 departure from Texas to California opens his career as a Depression-era musician"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:03:36",
+      "note": "work camps and Hoovervilles of migrant job seekers he lived among and sang for"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:12:14",
+      "note": "segment on his racist radio material and drawings, and his apology after a listener letter"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:21:07",
+      "note": "long segment on Pretty Boy Floyd's life and the Robin Hood myth built around him"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:36:02",
+      "note": "he follows the party line on the Nazi-Soviet pact and attacks Roosevelt"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:47:35",
+      "note": "Merchant Marine service on three torpedoed ships and wartime anti-fascist songs"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:02:25",
+      "note": "1956 involuntary commitment marks the end of his active life"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:04:03",
+      "note": "death in October 1967"
+    }
+  ],
+  "notes": "Packet holds only Part Two; Part One (childhood, Klansman father, mother's illness) is missing, so covered_span starts at birth per the lifetime rule. No theme for anti-fascism or left-wing protest music; entertainment-celebrity chosen as closest primary. Red Scare blacklisting and the obscene-mail case covered briefly."
+}

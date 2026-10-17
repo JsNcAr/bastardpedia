@@ -1,0 +1,132 @@
+{
+  "story_id": "saddam-hussein-erotic-novelist",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Saddam Hussein",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1937, "end": 2006 },
+      "wikidata": "Q1316"
+    },
+    {
+      "name": "Zabiba and the King",
+      "kind": "media-work",
+      "role": "secondary"
+    },
+    {
+      "name": "Hussein Kamel al-Majid",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1954, "end": 1996 }
+    }
+  ],
+  "roles": ["dictator-autocrat", "writer-intellectual"],
+  "themes": {
+    "primary": "authoritarianism",
+    "secondary": [
+      "coups-insurrections",
+      "intelligence-covert-ops",
+      "propaganda-media",
+      "racism-white-supremacy"
+    ]
+  },
+  "regions": {
+    "origin": ["IQ"],
+    "setting": ["IQ", "EG", "JO"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1959, "end": 2006 },
+    "covered_span": { "start": 1937, "end": 2006 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Iraqi dictator Saddam Hussein rose from a violent rural childhood through CIA-backed Ba'athist plots to purge rivals, wage wars and gas Kurds, while writing propagandistic romance novels in his final years in power before his 2006 execution.",
+  "content_warnings": [],
+  "keywords": [
+    "Ba'ath Party",
+    "Begone Demons",
+    "Abd al-Karim Qasim",
+    "Tikrit",
+    "Baghdad",
+    "1979 Ba'ath Party purge",
+    "Chemical Ali",
+    "Khairallah Talfah",
+    "The Prisoner in His Palace",
+    "Iraqi literacy campaign"
+  ],
+  "guests": ["Jamie Loftus"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:00:31",
+      "note": "birth and contested childhood stories open the episode"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:12:30",
+      "note": "CIA arms Ba'athists for the failed attempt on Qasim; later helps him flee"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:15:39",
+      "note": "years of exile in Cairo after the failed assassination"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:17:41",
+      "note": "1968 coup brings the Ba'ath Party to power"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:25:03",
+      "note": "1979 purge of party rivals, executions taped and circulated"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:28:06",
+      "note": "Kamel brothers defect to Jordan, then return and are killed"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:38:30",
+      "note": "long reading of Zabiba and the King as allegorical propaganda"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:53:30",
+      "note": "antisemitic plot of Begone Demons; uncle's anti-Persian, anti-Jewish pamphlet earlier"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:56:12",
+      "note": "2003 capture, guards' account, execution in December 2006"
+    }
+  ],
+  "notes": "Format is deep-dive: the novels take roughly a third of the episode, the rest is biography. The transcript garbles the birth date; 1937 used. Iran-Iraq war, Anfal gassing and Kuwait are only brief mentions, so war and genocide themes and content warnings were left out. Scope kept national though Egypt and Jordan get short segments."
+}

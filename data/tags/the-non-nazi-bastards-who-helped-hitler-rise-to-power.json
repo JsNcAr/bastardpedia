@@ -1,0 +1,144 @@
+{
+  "story_id": "the-non-nazi-bastards-who-helped-hitler-rise-to-power",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Non-Nazi enablers of Adolf Hitler",
+      "kind": "group",
+      "role": "primary"
+    },
+    {
+      "name": "Paul von Hindenburg",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1847, "end": 1934 }
+    },
+    {
+      "name": "Erich Ludendorff",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1865, "end": 1937 }
+    },
+    {
+      "name": "Kurt von Schleicher",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1882, "end": 1934 }
+    },
+    {
+      "name": "Franz von Papen",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1879, "end": 1969 }
+    }
+  ],
+  "roles": ["politician-official", "military-officer", "journalist-propagandist"],
+  "themes": {
+    "primary": "nazism",
+    "secondary": [
+      "electoral-politics",
+      "coups-insurrections",
+      "propaganda-media",
+      "policing-incarceration",
+      "war-war-crimes"
+    ]
+  },
+  "regions": {
+    "origin": ["DE"],
+    "setting": ["DE"],
+    "subdivisions": [],
+    "polities": ["weimar-republic", "german-empire"],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1918, "end": 1933 },
+    "covered_span": { "start": 1847, "end": 1934 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "A survey of the German generals, conservative politicians, judges, police, journalists, industrialists and Communists who, without being Nazis themselves, smoothed Hitler's path to power in Weimar Germany between 1918 and 1933.",
+  "content_warnings": ["suicide-self-harm"],
+  "keywords": [
+    "stab-in-the-back myth",
+    "Beer Hall Putsch",
+    "Kapp Putsch",
+    "Enabling Act",
+    "Matthias Erzberger",
+    "Edgar Julius Jung",
+    "Hans Litten",
+    "Georg Neithardt",
+    "Alfred Hugenberg",
+    "Heinrich Bruning"
+  ],
+  "guests": ["Naomi Ekperigin"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:01:33",
+      "note": "story opens with the mid-1800s births and early careers of Hindenburg and Ludendorff"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:08:50",
+      "note": "WWI segment: Tannenberg and the Hindenburg-Ludendorff silent dictatorship"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:14:05",
+      "note": "1919 hearing where Hindenburg launches the stab-in-the-back myth"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:41:44",
+      "note": "Beer Hall Putsch narrated, with Ludendorff marching beside Hitler"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:47:59",
+      "note": "lenient police and judges: Neithardt's handling of the 1924 trial, Munich police protection"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:57:57",
+      "note": "German and American press coverage that amplified or trivialised Hitler"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:03:13",
+      "note": "parliamentary manoeuvring from Stresemann through Bruning, Papen and Schleicher"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:22:00",
+      "note": "narrative ends with Hitler's appointment, the Enabling Act and Reichstag Fire Decree"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:44:22",
+      "note": "detailed account of Hitler's attempted suicide after the putsch; Litten's later suicide"
+    }
+  ],
+  "notes": "Survey episode with no single bastard, so the primary subject is a group of enablers; Hindenburg, Ludendorff, Schleicher and Papen get the longest segments. Covered span starts at Hindenburg's 1847 birth because the opening spends several minutes on both generals' early lives; ends 1934 with the Night of the Long Knives deaths. The closing talk about modern US politics and police is comparison, so it is not counted."
+}

@@ -1,0 +1,144 @@
+{
+  "story_id": "it-takes-a-village-of-bastards-to-make-a-weinstein",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Enablers of Harvey Weinstein",
+      "kind": "group",
+      "role": "primary"
+    },
+    {
+      "name": "Harvey Weinstein",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1952, "end": null }
+    },
+    {
+      "name": "Black Cube",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "American Media, Inc.",
+      "kind": "organization",
+      "org_type": "media-outlet",
+      "role": "secondary"
+    },
+    {
+      "name": "Lisa Bloom",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1961, "end": null }
+    }
+  ],
+  "roles": ["journalist-propagandist", "spy-intelligence", "business-executive"],
+  "themes": {
+    "primary": "sexual-abuse",
+    "secondary": [
+      "entertainment-celebrity",
+      "propaganda-media",
+      "intelligence-covert-ops",
+      "corporate-malfeasance",
+      "policing-incarceration"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1997, "end": 2017 },
+    "covered_span": { "start": 1997, "end": 2018 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "A survey of the tabloid editors, journalists, assistants, executives, lawyers, prosecutors and private spies who helped Hollywood producer Harvey Weinstein hide his sexual assaults and silence accusers until his 2017 exposure.",
+  "content_warnings": ["sexual-violence"],
+  "keywords": [
+    "Miramax",
+    "The Weinstein Company",
+    "catch and kill",
+    "National Enquirer",
+    "Kroll",
+    "Rose McGowan",
+    "Ronan Farrow",
+    "David Boies",
+    "Ben Affleck",
+    "Ambra Battilana Gutierrez"
+  ],
+  "guests": ["Anna Hossnieh"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "low",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:06:19",
+      "note": "host states the story is about the people who enabled Weinstein rather than Weinstein himself"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:13:00",
+      "note": "American Media's Pecker and Howard use catch-and-kill and dig up dirt on McGowan"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:24:26",
+      "note": "network of friendly journalists and gossip writers planting stories; Benza deal"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:39:24",
+      "note": "assistants and female executives used as honeypots in Weinstein Company meetings"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:53:29",
+      "note": "2015 NYPD sting with Battilana and the Manhattan DA declining to prosecute"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:03:41",
+      "note": "Black Cube ex-Israeli intelligence operatives pose as an investor to spy on McGowan"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:09:57",
+      "note": "long segment on Lisa Bloom advising Weinstein in 2016-2017"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:23:57",
+      "note": "McGowan's late-1990s Sundance assault and Affleck's reaction, earliest event with real airtime"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:02:37",
+      "note": "aftermath through 2018: firing and surrender to the NYPD"
+    }
+  ],
+  "notes": "Survey of enablers, so the primary subject is a group (as with the Hitler enablers story) and Weinstein is secondary; the lifetime rule therefore does not apply. Roles are a loose fit for a mixed group of journalists, spies, executives and lawyers. His 1970s first assault is a brief mention, so covered span starts at the 1997 McGowan assault. Lisa Bloom birth year from general knowledge."
+}

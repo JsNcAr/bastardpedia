@@ -1,0 +1,99 @@
+{
+  "story_id": "the-silly-bastards-behind-the-modern-fascist-movement",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "current-affairs",
+  "subjects": [
+    {
+      "name": "Post-2016 American fascist movement",
+      "kind": "movement-or-ideology",
+      "role": "primary"
+    },
+    {
+      "name": "Jason Kessler",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1983, "end": null }
+    },
+    {
+      "name": "Unite the Right rally",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Anti-Communist Action",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Proud Boys",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "fascism-far-right",
+    "secondary": [
+      "nazism",
+      "racism-white-supremacy",
+      "tech-internet",
+      "propaganda-media",
+      "terrorism"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2017, "end": 2018 },
+    "covered_span": { "start": 2016, "end": 2018 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Recorded in Washington, DC before the 2018 Unite the Right 2 counter-protest, this episode uses leaked chat logs to examine the post-2016 American neo-Nazi and fascist groups, their organiser Jason Kessler, and their tactics for disguising racism and provoking violence.",
+  "content_warnings": ["hate-speech"],
+  "keywords": [
+    "Unite the Right 2",
+    "Charlottesville",
+    "Unicorn Riot",
+    "Traditional Workers Party",
+    "Matthew Heimbach",
+    "Patriot Prayer",
+    "Kekistan",
+    "Heather Heyer",
+    "Discord leaks",
+    "Gavin McInnes"
+  ],
+  "guests": ["Bridget Todd", "Hannah Ettinger", "Nicholas Wood"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "format", "part": 1, "at": "00:01:05", "note": "Recorded on location in DC ahead of counter-protesting Unite the Right 2.0" },
+    { "facet": "subjects", "part": 1, "at": "00:02:05", "note": "Episode built on Unicorn Riot leaks of far-right group chat logs" },
+    { "facet": "subjects", "part": 1, "at": "00:06:18", "note": "Kessler introduced as the figure who best embodies the first post-2016 wave" },
+    { "facet": "themes", "part": 1, "at": "00:08:26", "note": "YouTube videos and Gamergate as radicalisation paths; internet theme" },
+    { "facet": "time", "part": 1, "at": "00:14:17", "note": "June 2017 planning of the original Unite the Right rally" },
+    { "facet": "themes", "part": 1, "at": "00:16:52", "note": "Entryism and optics: blending in as mainstream conservatives; propaganda theme" },
+    { "facet": "themes", "part": 1, "at": "00:29:40", "note": "Kekistan flag explained as a recoloured Nazi naval flag; nazism theme" },
+    { "facet": "themes", "part": 1, "at": "00:33:53", "note": "Chats sharing explosives manuals and planning a church shooting; terrorism theme" },
+    { "facet": "subjects", "part": 1, "at": "00:39:03", "note": "Anti-Com founder revealed among those discussing an attack" },
+    { "facet": "time", "part": 1, "at": "00:49:18", "note": "Traditional Workers Party collapse in March 2018" }
+  ],
+  "notes": "Hybrid of on-location protest reporting and a researched overview, classed current-affairs per the format examples. Primary is the diffuse movement, so roles are empty; Kessler gets the longest individual segment. Traditional Workers Party and Patriot Prayer also get real time but hit the five-subject cap. Kessler birth year 1983 from general knowledge."
+}

@@ -1,0 +1,138 @@
+{
+  "story_id": "hitler-y-a-fiction-fan-girl",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Karl May",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1842, "end": 1912 }
+    },
+    {
+      "name": "Adolf Hitler",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1889, "end": 1945 }
+    },
+    {
+      "name": "Winnetou novels",
+      "kind": "media-work",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["writer-intellectual", "con-artist", "dictator-autocrat"],
+  "themes": {
+    "primary": "nazism",
+    "secondary": [
+      "fraud-grift",
+      "colonialism-imperialism",
+      "war-war-crimes",
+      "racism-white-supremacy",
+      "entertainment-celebrity"
+    ]
+  },
+  "regions": {
+    "origin": ["DE", "AT"],
+    "setting": ["DE", "RU", "PL", "US"],
+    "subdivisions": [],
+    "polities": ["german-empire", "nazi-germany"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1860, "end": 1945 },
+    "covered_span": { "start": 1842, "end": 1945 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Saxon con man Karl May invented a Wild West persona and wrote hugely popular Winnetou novels without visiting America; the books shaped Adolf Hitler's views on conquest, Lebensraum and the United States through World War II.",
+  "content_warnings": [],
+  "keywords": [
+    "Winnetou",
+    "Old Shatterhand",
+    "Villa Shatterhand",
+    "Lebensraum",
+    "Operation Barbarossa",
+    "Klaus Mann",
+    "Albert Speer",
+    "Army Detachment Steiner",
+    "German American Bund",
+    "Ernstthal"
+  ],
+  "guests": ["Laci Mosley"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:01:36",
+      "note": "Karl May born in Saxony in 1842; childhood and early thefts follow"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:38",
+      "note": "graduates 1860, jailed for a watch theft, then begins years of cons and prison"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:04:10",
+      "note": "con career: fake doctor, fake policeman confiscating banknotes"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:07:48",
+      "note": "1876 return home with invented travel past; first Winnetou novel 1893"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:18:49",
+      "note": "1939 Poland invasion planning; Hitler blames generals for not reading May"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:20:51",
+      "note": "May novels sent to officers fighting in Russia; Steiner detachment in 1945"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:25:31",
+      "note": "Lebensraum framed via the American frontier and displacement of Native Americans"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:33:46",
+      "note": "May's German-dominated America shapes Hitler's view of the US and the Bund"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:46:53",
+      "note": "1908-1910 exposure of his past, US trip, death in 1912"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:49:01",
+      "note": "legacy: 1960s Euro-westerns and present-day German Native American festivals"
+    }
+  ],
+  "notes": "Karl May and Hitler both treated as primary: May gets most airtime, but the title and pitch centre on Hitler's obsession, so nazism is the primary theme. Hitler's own life is not narrated birth to death; covered_span follows the lifetime rule. main_span runs from May's con career to 1945."
+}

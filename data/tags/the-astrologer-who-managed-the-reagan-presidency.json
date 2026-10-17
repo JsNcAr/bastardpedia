@@ -1,0 +1,127 @@
+{
+  "story_id": "the-astrologer-who-managed-the-reagan-presidency",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Joan Quigley",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1927, "end": 2014 }
+    },
+    {
+      "name": "Nancy Reagan",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1921, "end": 2016 }
+    },
+    {
+      "name": "Ronald Reagan",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1911, "end": 2004 }
+    }
+  ],
+  "roles": ["occultist-guru", "political-operative"],
+  "themes": {
+    "primary": "occult-esoteric",
+    "secondary": ["electoral-politics", "propaganda-media", "diplomacy-foreign-policy", "drugs"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "DE"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1981, "end": 1988 },
+    "covered_span": { "start": 1927, "end": 2014 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "San Francisco society astrologer Joan Quigley secretly set the timing of Ronald Reagan's speeches, flights, debates and summits for Nancy Reagan from 1981 to 1988, then claimed credit for the era's successes in a memoir.",
+  "content_warnings": [],
+  "keywords": [
+    "What Does Joan Say?",
+    "Donald Regan",
+    "For the Record",
+    "Merv Griffin",
+    "Bitburg",
+    "Reykjavik Summit",
+    "INF Treaty",
+    "Just Say No",
+    "Mikhail Gorbachev",
+    "Iran-Contra affair"
+  ],
+  "guests": ["Molly Lambert", "Tess Lynch"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:02:13",
+      "note": "born in Kansas City in 1927; San Francisco upbringing and early career follow"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:20:46",
+      "note": "White House working relationship begins after the March 1981 assassination attempt"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:09:23",
+      "note": "Donald Regan's 1988 memoir exposes her role, ending the secret arrangement"
+    },
+    {
+      "facet": "format",
+      "part": 1,
+      "at": "00:13:03",
+      "note": "her 1990 memoir is the main source, but the episode is narrated as a career history"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:37:48",
+      "note": "she claims she rebuilt Nancy Reagan's public image and steered her away from fashion press"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:38:20",
+      "note": "claims she pushed Nancy toward the anti-drug crusade; drug war incarceration discussed"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:52:49",
+      "note": "timed press conferences, debates with Carter and Mondale, and Air Force One flights"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:01:08",
+      "note": "1985 Bitburg cemetery visit in West Germany, timed by her astrology"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:09:59",
+      "note": "claims role in Gorbachev relations, Reykjavik summit and INF treaty signing time"
+    }
+  ],
+  "notes": "Episode leans heavily on Quigley's memoir but is told as a career history, so deep-dive rather than media-reading. Death year 2014 from general knowledge; her obituaries are cited but not dated. Second role political-operative reflects her scheduling and image advice; no astrologer role exists, occultist-guru is the closest fit."
+}

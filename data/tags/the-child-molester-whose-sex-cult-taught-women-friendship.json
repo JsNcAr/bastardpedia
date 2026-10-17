@@ -1,0 +1,157 @@
+{
+  "story_id": "the-child-molester-whose-sex-cult-taught-women-friendship",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Keith Raniere",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1960, "end": null }
+    },
+    {
+      "name": "NXIVM",
+      "kind": "organization",
+      "org_type": "cult",
+      "role": "secondary"
+    },
+    {
+      "name": "Allison Mack",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1982, "end": null }
+    },
+    {
+      "name": "Sara and Clare Bronfman",
+      "kind": "group",
+      "role": "secondary"
+    },
+    {
+      "name": "The Knife of Aristotle",
+      "kind": "organization",
+      "org_type": "media-outlet",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["cult-leader", "con-artist", "criminal-killer"],
+  "themes": {
+    "primary": "cults-new-religions",
+    "secondary": [
+      "sexual-abuse",
+      "child-abuse",
+      "fraud-grift",
+      "wellness-self-help",
+      "propaganda-media",
+      "entertainment-celebrity"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "MX"],
+    "subdivisions": ["US-NY"],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1984, "end": 2018 },
+    "covered_span": { "start": 1960, "end": 2018 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Keith Raniere ran a pyramid scheme and then NXIVM, a self-help seminar company near Albany, New York, that hid a cult where women were starved and branded; he sexually abused teenage girls and was arrested for sex trafficking in 2018.",
+  "content_warnings": ["child-abuse", "sexual-violence", "suicide-self-harm", "graphic-violence"],
+  "keywords": [
+    "Executive Success Programs",
+    "DOS",
+    "Jness",
+    "Consumers' Buyline",
+    "Rational Inquiry",
+    "Nancy Salzman",
+    "Frank Report",
+    "Smallville",
+    "Albany",
+    "branding"
+  ],
+  "guests": ["Anna Salinas"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:16:45",
+      "note": "birth in August 1960 established from his own sworn affidavit"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:27:36",
+      "note": "1984: first business and abuse of a 15-year-old in Troy begin the main events"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:32:14",
+      "note": "Consumers' Buyline described as a pyramid scheme shut down after multistate probes"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:33:16",
+      "note": "1990 alleged long-running abuse of a 12-year-old, daughter of a saleswoman"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:44:14",
+      "note": "NXIVM founded with Nancy Salzman as executive self-help seminars"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:01:01",
+      "note": "children of two Mexican presidents among seminar enrollees"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:14:13",
+      "note": "member disappears after a session leaving a note; presumed suicide"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:39:55",
+      "note": "Smallville actress Allison Mack joins in 2007 and later co-founds DOS"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:46:05",
+      "note": "long account of the hot-iron branding sessions inside DOS"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:06:09",
+      "note": "flight to Mexico and 2018 arrest after the New York Times reporting"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:09:23",
+      "note": "segment on The Knife of Aristotle, a NXIVM-linked news rating site"
+    }
+  ],
+  "notes": "Story aired mid-trial (2018), so main_span ends at the arrest. Bronfman sisters treated as one group subject; their names are inferred from the Seagram heiresses segment (only Sara is named on air). MX ranks below US; its airtime is the Mexican elite members and the arrest. Scope could arguably be national."
+}

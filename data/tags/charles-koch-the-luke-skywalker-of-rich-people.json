@@ -1,0 +1,163 @@
+{
+  "story_id": "charles-koch-the-luke-skywalker-of-rich-people",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Charles Koch",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1935, "end": null }
+    },
+    {
+      "name": "Fred C. Koch",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1900, "end": 1967 }
+    },
+    {
+      "name": "Koch Industries",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "David Koch",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1940, "end": 2019 }
+    },
+    {
+      "name": "Tea Party movement",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["business-executive", "activist-organizer"],
+  "themes": {
+    "primary": "electoral-politics",
+    "secondary": [
+      "corporate-malfeasance",
+      "environmental-destruction",
+      "labor-exploitation",
+      "education",
+      "child-abuse",
+      "nazism"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "DE"],
+    "subdivisions": [],
+    "polities": ["nazi-germany"],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1967, "end": null },
+    "covered_span": { "start": 1925, "end": 2018 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Oil heir Charles Koch ran Koch Industries while it hid deadly benzene, mercury and pipeline hazards, and spent decades funding libertarian think tanks, university institutes, dark money groups and the Tea Party to dismantle US regulation.",
+  "content_warnings": ["child-abuse"],
+  "keywords": [
+    "Koch brothers",
+    "Dark Money",
+    "Jane Mayer",
+    "Freedom School",
+    "Robert LeFevre",
+    "John Birch Society",
+    "Mercatus Center",
+    "Americans for Prosperity",
+    "Corpus Christi",
+    "market-based management"
+  ],
+  "guests": ["Ever Mainard"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:05",
+      "note": "story opens with Fred Koch's refining process and patent fight with big oil in the 1920s"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:06:12",
+      "note": "Fred Koch's firm builds a major refinery in Hamburg for the Nazi-era fuel drive"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:12:56",
+      "note": "Nazi-sympathizing nanny and Fred's beatings of the boys described at length"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:28:57",
+      "note": "Fred dies in 1967 and the sons inherit the company; Charles takes control"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:32:35",
+      "note": "Charles funds LeFevre's Freedom School from 1966"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:41:03",
+      "note": "worker Donald Carlson not told of abnormal benzene blood tests, dies of leukemia"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:45:44",
+      "note": "Corpus Christi refinery underreports benzene emissions, company indicted in 2000"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:05:40",
+      "note": "corroded Koch pipeline leaks gas and explodes, killing two teenagers in Texas"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:14:33",
+      "note": "David Koch runs as Libertarian vice-presidential candidate in 1980"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:16:37",
+      "note": "1996 Triad Management dark money attack ads and Senate investigation"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:26:05",
+      "note": "Mercatus Center at George Mason and influence over academic research"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:47:58",
+      "note": "2016 election, Koch network's clash with Trump, up to 2018 tweets"
+    }
+  ],
+  "notes": "Covered span starts at Fred Koch's 1920s refining work and patent litigation (year inferred, transcript drops it). Fred's Soviet refinery work is brief, so RU left out of setting. Roles: no exact id for a mega-donor building a political network; activist-organizer chosen over political-operative. Primary theme could arguably be corporate-malfeasance."
+}

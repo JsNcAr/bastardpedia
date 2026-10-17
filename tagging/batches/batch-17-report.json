@@ -1,0 +1,140 @@
+[
+  {
+    "id": "the-most-evil-company-in-history",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Title names one company; the British company gets most airtime and the host names it the most notable, so it is primary and the Dutch company (about a third of the story) is secondary. Bengal maps to IN and BD. The 1874 dissolution is a one-line mention, so covered span ends at 1858. Polities list has no Mughal or Dutch empire entry."
+  },
+  {
+    "id": "children-of-dictators",
+    "format": "deep-dive",
+    "low": ["roles"],
+    "notes": "Survey episode with no single bastard; primary is the group of dictators' children. Origin is capped at four codes, so RO, IT, BY and FR are left out of origin despite real segments; IT and BY also miss setting (cap of six). Roles are a loose fit for a mixed group. Svetlana's later life and Loret's story push covered_span wide."
+  },
+  {
+    "id": "does-punching-nazis-work-a-conversation-from-unite-the-right-2-0",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Bonus roundtable, recorded after a morning part one that is not in the feed. Hosts call the marchers Nazis throughout, so nazism is secondary; the Weimar Berlin material is a comparison and does not extend the covered span. Guest names come from on-air introductions with garbled transcript spellings (Lauren/Laurent Mario); Hannah co-hosts the Kitchen Table Cult podcast. Kessler's 1983 birth year is from general knowledge."
+  },
+  {
+    "id": "the-silly-bastards-behind-the-modern-fascist-movement",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Hybrid of on-location protest reporting and a researched overview, classed current-affairs per the format examples. Primary is the diffuse movement, so roles are empty; Kessler gets the longest individual segment. Traditional Workers Party and Patriot Prayer also get real time but hit the five-subject cap. Kessler birth year 1983 from general knowledge."
+  },
+  {
+    "id": "the-congo-after-leopold",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject set to the Belgian Congo as a place since the title frames the story as the Congo's post-Leopold history; Lumumba gets the most airtime but is treated as a sympathetic secondary. The transcript dates the Algiers putsch to 1962; it was April 1961. Belgium's 2001 apology and 2018 square are a short coda, so reaches_present is false. Pinochet's rule to 1990 is a one-line mention."
+  },
+  {
+    "id": "charles-koch-the-luke-skywalker-of-rich-people",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Covered span starts at Fred Koch's 1920s refining work and patent litigation (year inferred, transcript drops it). Fred's Soviet refinery work is brief, so RU left out of setting. Roles: no exact id for a mega-donor building a political network; activist-organizer chosen over political-operative. Primary theme could arguably be corporate-malfeasance."
+  },
+  {
+    "id": "descendant-of-the-original-boogeyman-albert-fish",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "No theme for serial killers or mental illness; child-abuse chosen as primary for the child murders. A long segment on the guest's descent from Fish and a modern collector of his letter drives reaches_present. Transcript puts the arrest in 1934; real arrest was December 1934, consistent."
+  },
+  {
+    "id": "no-matter-how-much-you-hate-paul-manafort-you-should-hate-him-more-and-heres-why",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Manafort was jailed awaiting trial at release; his August 2018 conviction falls after the episode, so main_span ends 2018 at the jailing. Covered span starts with the Ivy Lee digression (Ludlow, 1914), a secondary segment of several minutes. Andrea Manafort's texts get a long segment but she is kept as a keyword. Nazism (Ivy Lee and Goebbels) is a short segment and left out."
+  },
+  {
+    "id": "the-astrologer-who-managed-the-reagan-presidency",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Episode leans heavily on Quigley's memoir but is told as a career history, so deep-dive rather than media-reading. Death year 2014 from general knowledge; her obituaries are cited but not dated. Second role political-operative reflects her scheduling and image advice; no astrologer role exists, occultist-guru is the closest fit."
+  },
+  {
+    "id": "the-non-nazi-bastards-who-helped-hitler-rise-to-power",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Survey episode with no single bastard, so the primary subject is a group of enablers; Hindenburg, Ludendorff, Schleicher and Papen get the longest segments. Covered span starts at Hindenburg's 1847 birth because the opening spends several minutes on both generals' early lives; ends 1934 with the Night of the Long Knives deaths. The closing talk about modern US politics and police is comparison, so it is not counted."
+  },
+  {
+    "id": "the-british-super-soldier-who-killed-a-nation",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "The opening ten minutes on British colonial armies (Gurkhas, Emin Pasha, 19th-century slave soldiers) are treated as framing background, so covered_span follows Amin's life. Birth year is uncertain in the transcript; 1925 is the usual estimate. Obote's second term and Museveni get about a minute, so reaches_present is false. Entebbe raid and Kenya/Tanzania episodes are short; setting ranks Uganda far ahead."
+  },
+  {
+    "id": "qaddafi-his-bizarre-sci-fi-stories-childhood-hate-crimes-and-amazonian-bodyguard-fetish",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Birth year is uncertain (transcript says 1941 or 1943); 1942 used as the commonly cited year, hence approximate. Post-2011 Libya is a short coda, so reaches_present is false. Sexual abuse material is about two minutes but explicit and central to the title, so both abuse themes and warnings are kept."
+  },
+  {
+    "id": "the-film-directing-playboy-king-who-handed-his-country-to-pol-pot",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Main span 1941 (coronation) to 1979 (fall of the Khmer Rouge he backed). Later life (exile, blog, films to 2006) is covered briefly but extends to his 2012 death per the lifetime rule. US bombing of Cambodia and Vietnam War get a few minutes; not added as separate themes."
+  },
+  {
+    "id": "concentration-camps-are-back-so-let-s-talk-about-their-history",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "No theme for detention camps specifically; policing-incarceration is closest (detention). The transcript gives Weyler's death as 1932; standard sources say 1930. Lifespan follows the transcript per the prompt. Hadrian's Wall camps are a passing mention, so covered_span starts with the 1812 Red Stick War. Setting drops PH, VN, GB, DZ for space."
+  },
+  {
+    "id": "the-child-molester-whose-sex-cult-taught-women-friendship",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Story aired mid-trial (2018), so main_span ends at the arrest. Bronfman sisters treated as one group subject; their names are inferred from the Seagram heiresses segment (only Sara is named on air). MX ranks below US; its airtime is the Mexican elite members and the arrest. Scope could arguably be national."
+  },
+  {
+    "id": "the-cocaine-queen-of-miami",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Charles Cosby's birth and death years are not given; floruit 1994 approximates his prison relationship and the JFK Jr. plot (the transcript gives no exact year). Host says she died September 4, 2012; commonly given as September 3. main_span starts at the late-1960s/1970 trafficking venture. reaches_present set by the short postscript on her son's brand; borderline."
+  },
+  {
+    "id": "it-takes-a-village-of-bastards-to-make-a-weinstein",
+    "format": "deep-dive",
+    "low": ["roles"],
+    "notes": "Survey of enablers, so the primary subject is a group (as with the Hitler enablers story) and Weinstein is secondary; the lifetime rule therefore does not apply. Roles are a loose fit for a mixed group of journalists, spies, executives and lawyers. His 1970s first assault is a brief mention, so covered span starts at the 1997 McGowan assault. Lisa Bloom birth year from general knowledge."
+  },
+  {
+    "id": "hitler-y-a-fiction-fan-girl",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Karl May and Hitler both treated as primary: May gets most airtime, but the title and pitch centre on Hitler's obsession, so nazism is the primary theme. Hitler's own life is not narrated birth to death; covered_span follows the lifetime rule. main_span runs from May's con career to 1945."
+  },
+  {
+    "id": "secrets-of-osama-bin-laden-s-hard-drive",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Mostly a tour of the 2017 CIA release of the Abbottabad files rather than a full biography. main_span is set to the Abbottabad years (2006-2011) that the files document, not his al-Qaeda career. The 2015 FOIA fight and the 2017 release are treated as reaches_present rather than extending covered_span."
+  },
+  {
+    "id": "saddam-hussein-erotic-novelist",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Format is deep-dive: the novels take roughly a third of the episode, the rest is biography. The transcript garbles the birth date; 1937 used. Iran-Iraq war, Anfal gassing and Kuwait are only brief mentions, so war and genocide themes and content warnings were left out. Scope kept national though Egypt and Jordan get short segments."
+  },
+  {
+    "id": "stalin-after-dark",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Bonus episode on Stalin's private life; treated as deep-dive. main_span uses the encyclopedia test (rule 1924-1953) though most airtime is 1932-1953. terrorist-militant reflects the Tiflis robbery segment. The famine is mentioned repeatedly but only in passing, so no genocide theme or mass-atrocity warning."
+  },
+  {
+    "id": "episode-0-farting-hipster-hitler",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Short pilot (about 16 minutes) covering anecdotes rather than a full biography. Covered span set to Hitler's whole life per the lifetime rule, although only the years from 1905 get airtime. Main span uses his political career, 1919-1945."
+  },
+  {
+    "id": "how-woody-guthrie-turned-folk-music-into-a-weapon",
+    "format": "hero",
+    "low": [],
+    "notes": "Packet holds only Part Two; Part One (childhood, Klansman father, mother's illness) is missing, so covered_span starts at birth per the lifetime rule. No theme for anti-fascism or left-wing protest music; entertainment-celebrity chosen as closest primary. Red Scare blacklisting and the obscene-mail case covered briefly."
+  }
+]

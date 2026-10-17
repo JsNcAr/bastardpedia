@@ -1,0 +1,84 @@
+{
+  "story_id": "the-cocaine-queen-of-miami",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Griselda Blanco",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1943, "end": 2012 }
+    },
+    {
+      "name": "Charles Cosby",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1994
+    },
+    {
+      "name": "Miami drug war",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["criminal-killer"],
+  "themes": {
+    "primary": "drugs",
+    "secondary": ["policing-incarceration", "child-abuse", "domestic-abuse"]
+  },
+  "regions": {
+    "origin": ["CO"],
+    "setting": ["US", "CO"],
+    "subdivisions": ["US-FL"],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1970, "end": 2012 },
+    "covered_span": { "start": 1943, "end": 2012 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Colombian trafficker Griselda Blanco helped build the cocaine trade into the US from the 1970s, turning Miami into a war zone through hundreds of killings, and kept running her network from prison until her 2012 murder in Medellin.",
+  "content_warnings": ["graphic-violence", "child-abuse", "child-death", "drug-use"],
+  "keywords": [
+    "Godmother of Cocaine",
+    "Black Widow",
+    "Medellin",
+    "Cocaine Cowboys",
+    "Dadeland Mall shooting",
+    "motorcycle assassins",
+    "JFK Jr. kidnapping plot",
+    "Alberto Bravo",
+    "Rivi Ayala",
+    "Michael Corleone Blanco"
+  ],
+  "guests": ["Dani Fernandez"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:01:01", "note": "born in Cartagena in the early 1940s, moved to Medellin as a small child" },
+    { "facet": "themes", "part": 1, "at": "00:02:03", "note": "alcoholic mother beats her regularly as a child" },
+    { "facet": "themes", "part": 1, "at": "00:03:38", "note": "at eleven she shoots a kidnapped ten-year-old" },
+    { "facet": "time", "part": 1, "at": "00:07:14", "note": "Queens trafficking operation with Bravo in the late 1960s, first cartel cocaine in US by 1971" },
+    { "facet": "regions", "part": 1, "at": "00:20:49", "note": "moves to Miami in 1978 and floods it with cocaine" },
+    { "facet": "subjects", "part": 1, "at": "00:24:22", "note": "Cocaine Wars segment: Dadeland shooting, murder rates, morgue overflow" },
+    { "facet": "themes", "part": 1, "at": "00:33:37", "note": "third husband killed on her orders with their young son in the car" },
+    { "facet": "themes", "part": 1, "at": "00:36:11", "note": "arrest, plea deal and prison life, later murder indictments" },
+    { "facet": "subjects", "part": 1, "at": "00:37:13", "note": "long segment on Charles Cosby, her prison lover and business partner" },
+    { "facet": "themes", "part": 1, "at": "00:50:44", "note": "witness scandal with prosecutor's office secretaries collapses the murder case" },
+    { "facet": "time", "part": 1, "at": "00:53:21", "note": "released in 2004, shot by a motorcycle gunman in Medellin in 2012" },
+    { "facet": "time", "part": 1, "at": "00:58:30", "note": "postscript on her son's 2018 vape and clothing brand trading on her name" }
+  ],
+  "notes": "Charles Cosby's birth and death years are not given; floruit 1994 approximates his prison relationship and the JFK Jr. plot (the transcript gives no exact year). Host says she died September 4, 2012; commonly given as September 3. main_span starts at the late-1960s/1970 trafficking venture. reaches_present set by the short postscript on her son's brand; borderline."
+}

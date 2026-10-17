@@ -1,0 +1,138 @@
+{
+  "story_id": "children-of-dictators",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Children of dictators",
+      "kind": "group",
+      "role": "primary"
+    },
+    {
+      "name": "Uday Hussein",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1964, "end": 2003 }
+    },
+    {
+      "name": "Svetlana Alliluyeva",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1926, "end": 2011 }
+    },
+    {
+      "name": "Nicu Ceaușescu",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1951, "end": 1996 }
+    },
+    {
+      "name": "Jean-Marie Loret",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1918, "end": 1985 }
+    }
+  ],
+  "roles": ["criminal-killer", "athlete-sports", "politician-official"],
+  "themes": {
+    "primary": "authoritarianism",
+    "secondary": [
+      "communism-state-socialism",
+      "sports",
+      "fascism-far-right",
+      "nazism",
+      "sexual-abuse"
+    ]
+  },
+  "regions": {
+    "origin": ["RU", "IQ", "LY", "CU"],
+    "setting": ["IQ", "RU", "LY", "RO", "CU", "FR"],
+    "subdivisions": [],
+    "polities": ["soviet-union", "kingdom-of-italy"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1933, "end": 2018 },
+    "covered_span": { "start": 1917, "end": 2018 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "A survey of how the sons and daughters of Castro, Saddam Hussein, Stalin, Ceaușescu, Mussolini, Gaddafi and Lukashenko fared, from Uday Hussein's torture and killings to Svetlana Stalin's defection, plus a Frenchman who believed he was Hitler's son.",
+  "content_warnings": ["torture", "graphic-violence"],
+  "keywords": [
+    "Children of Monsters",
+    "Jay Nordlinger",
+    "Fidelito Castro",
+    "Yakov Dzhugashvili",
+    "Vasily Stalin",
+    "Edda Mussolini",
+    "Hannibal Gaddafi",
+    "Saif al-Islam Gaddafi",
+    "Nikolai Lukashenko",
+    "Saddam's Fedayeen"
+  ],
+  "guests": ["Jack O'Brien"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "low",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:01:37",
+      "note": "Castro segment opens: Fidelito's kidnapping, the nuclear reactor, Antonio catfished"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:08:54",
+      "note": "Uday runs Iraq's national football team and beats players; later Saadi Gaddafi's football career"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:17:54",
+      "note": "Stalin's children: Svetlana, Vasily and Yakov from the 1920s through WWII and her later defection"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:30:20",
+      "note": "Ceausescu children in Romania; Nicu's role in the 1989 revolution massacre and later prison term"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:37:07",
+      "note": "Mussolini's children: Vittorio in Hollywood, Edda's admiration for Hitler, granddaughter in politics"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:41:51",
+      "note": "Long Gaddafi segment covering Saadi, Mutassim, Hannibal and Saif al-Islam up to 2017"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:52:58",
+      "note": "Lukashenko's young son groomed as heir, described as he was at release in 2018"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:56:38",
+      "note": "Jean-Marie Loret, born after a 1917 WWI affair in occupied France, believed Hitler was his father"
+    }
+  ],
+  "notes": "Survey episode with no single bastard; primary is the group of dictators' children. Origin is capped at four codes, so RO, IT, BY and FR are left out of origin despite real segments; IT and BY also miss setting (cap of six). Roles are a loose fit for a mixed group. Svetlana's later life and Loret's story push covered_span wide."
+}

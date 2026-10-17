@@ -1,0 +1,143 @@
+{
+  "story_id": "the-most-evil-company-in-history",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "British East India Company",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "primary"
+    },
+    {
+      "name": "Dutch East India Company",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Jan Pieterszoon Coen",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1587, "end": 1629 }
+    },
+    {
+      "name": "Robert Clive",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1725, "end": 1774 }
+    },
+    {
+      "name": "Great Bengal Famine of 1770",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "corporate-malfeasance",
+    "secondary": [
+      "colonialism-imperialism",
+      "genocide-mass-killing",
+      "war-war-crimes",
+      "slavery-forced-labor"
+    ]
+  },
+  "regions": {
+    "origin": ["GB"],
+    "setting": ["IN", "BD", "ID", "AF", "GB", "NL"],
+    "subdivisions": [],
+    "polities": ["british-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1609, "end": 1784 },
+    "covered_span": { "start": 1600, "end": 1858 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "The chartered East India companies of the 1600s-1800s: the Dutch company depopulated the Banda Islands to monopolise nutmeg, and the British company under Robert Clive seized Bengal, where its taxation drove the famine of 1770 that killed millions.",
+  "content_warnings": ["mass-atrocity", "graphic-violence", "suicide-self-harm"],
+  "keywords": [
+    "Banda Islands",
+    "Batavia",
+    "nutmeg",
+    "saltpeter",
+    "Battle of Plassey",
+    "Bengal",
+    "Merchant Kings",
+    "First Anglo-Afghan War",
+    "Shah Shuja",
+    "Pieter Verhoeven"
+  ],
+  "guests": ["Michael Swaim"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:07:15",
+      "note": "British company chartered at the end of 1600; covered span starts here"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:16:29",
+      "note": "Dutch admiral sails to the Banda Islands in 1609, first violent episode; main span starts"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:34:48",
+      "note": "Coen depopulates the Bandas, shipping survivors to Batavia as slaves; most of the population dies"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:46:17",
+      "note": "Long Robert Clive segment begins, running into part 2 up to his death in 1774"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:58:14",
+      "note": "Plassey victory hands the company Bengal"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:20:16",
+      "note": "Bengal famine of 1769-1773 and the company's role in it, the main harm of the story"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:29:42",
+      "note": "First regulation of the company in 1784 after repeated famines; main span ends"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:31:46",
+      "note": "Afghan invasion and rout, then the 1858 crown takeover of India; covered span ends"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:12:29",
+      "note": "Clive's suicide and its method described"
+    }
+  ],
+  "notes": "Title names one company; the British company gets most airtime and the host names it the most notable, so it is primary and the Dutch company (about a third of the story) is secondary. Bengal maps to IN and BD. The 1874 dissolution is a one-line mention, so covered span ends at 1858. Polities list has no Mughal or Dutch empire entry."
+}

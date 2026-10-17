@@ -1,0 +1,122 @@
+{
+  "story_id": "stalin-after-dark",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Joseph Stalin",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1878, "end": 1953 },
+      "wikidata": "Q855"
+    },
+    {
+      "name": "Nadezhda Alliluyeva",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1901, "end": 1932 }
+    }
+  ],
+  "roles": ["dictator-autocrat", "terrorist-militant"],
+  "themes": {
+    "primary": "communism-state-socialism",
+    "secondary": [
+      "authoritarianism",
+      "domestic-abuse",
+      "terrorism",
+      "entertainment-celebrity",
+      "propaganda-media"
+    ]
+  },
+  "regions": {
+    "origin": ["GE"],
+    "setting": ["RU", "GE"],
+    "subdivisions": [],
+    "polities": ["soviet-union", "russian-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1924, "end": 1953 },
+    "covered_span": { "start": 1878, "end": 1953 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "A look at Soviet dictator Joseph Stalin's private life, from his Georgian childhood and the 1907 Tiflis bank robbery to his wife's suicide and the all-night drinking dinners through which he ruled the USSR until 1953.",
+  "content_warnings": ["suicide-self-harm"],
+  "keywords": [
+    "Tiflis bank robbery",
+    "In the Court of the Red Tsar",
+    "A Brotherhood of Tyrants",
+    "Kremlin dinners",
+    "Nikita Khrushchev",
+    "Lavrentiy Beria",
+    "Ivan Bolshakov",
+    "Kamo",
+    "Gori",
+    "Charles de Gaulle"
+  ],
+  "guests": ["Brandie Posey"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:02:03",
+      "note": "Birth in Gori, Georgia and abusive childhood open the story"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:11:00",
+      "note": "Tiflis stagecoach robbery with bombs to fund the Bolsheviks, dozens killed"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:19:14",
+      "note": "1932 banquet quarrel with Nadezhda, followed by her suicide that night"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:32:55",
+      "note": "Account of Stalin kicking his pregnant first wife and his violent temper at home"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:27:06",
+      "note": "Stalin's vulgar captions on artworks submitted for his approval"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:53:11",
+      "note": "Nightly film screenings, his film curator, and propaganda films shaping his view of the famine"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:42:53",
+      "note": "Postwar drunken dinners 1945-1953 where state business was settled"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:57:50",
+      "note": "Stroke after a night of drinking and death in 1953 close the story"
+    }
+  ],
+  "notes": "Bonus episode on Stalin's private life; treated as deep-dive. main_span uses the encyclopedia test (rule 1924-1953) though most airtime is 1932-1953. terrorist-militant reflects the Tiflis robbery segment. The famine is mentioned repeatedly but only in passing, so no genocide theme or mass-atrocity warning."
+}
