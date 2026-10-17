@@ -1,0 +1,152 @@
+[
+  {
+    "id": "narendra-modi-and-india-s-weird-nazi-obsession",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Covered span starts at the RSS founding (secondary subject with a long segment); Modi is alive, so main_span ends null. Host says Modi is not strictly a dictator, so dictator-autocrat was left out of roles. Hindu nationalism treated as fascism-far-right; nazism secondary for the long segment on Indian Nazi admiration and the Indian Legion."
+  },
+  {
+    "id": "the-survivor-a-magazine-for-nerdy-terrorists",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Media-reading of one issue of The Survivor; the transcript gives 1976 and a Taxi Driver review fixes the date, but issue range is approximate. Primary theme could equally be weapons-arms-trade; no theme for survivalism/prepping. Lifespan of Saxon (born Donald Sisco) from general knowledge, not the transcript. Sirhan and Bremer are only cited inside an op-ed, so 1968-72 not covered."
+  },
+  {
+    "id": "the-worst-grifters-of-the-coronavirus-pandemic",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Survey episode with no single bastard, so the primary is a movement-style subject and roles are empty. Subject cap forced choices: the senators segment (Richard Burr, Kelly Loeffler) is about as long as the Paltrow one and could replace her; Burr is in keywords. Spanish flu grifts (about 5 minutes) treated as comparison per the prompt. Cheryl Selman's 2018 shopping-channel clip and the 2017 Bacon profile set covered_span start."
+  },
+  {
+    "id": "soldier-of-fortune-the-deadliest-magazine-ever-with-david-x-cohen",
+    "format": "live-show",
+    "low": [],
+    "notes": "Live SF Sketchfest show, so format is live-show. Brown made primary alongside the magazine because the story follows his life throughout; covered_span follows the lifetime rule to the 2020 release. main_span ends at the 2016 end of print, though the magazine continues online. No content warning: murders and bombings are described briefly, not graphically."
+  },
+  {
+    "id": "soldier-of-fortune-the-deadliest-magazine-ever-with-billy-wayne-davis",
+    "format": "live-show",
+    "low": [],
+    "notes": "Live show at Dynasty Typewriter. Brown treated as co-primary with the magazine since his biography frames the story, so the lifetime rule sets covered_span 1932-2020; lifespan end null because he was alive at release (verify current status). No theme for murder-for-hire or mercenary recruiting; immigration (Ranch Rescue, Arpaio) and the arms trade are brief and left out."
+  },
+  {
+    "id": "how-the-internet-spawned-a-baby-killing-cult",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript names the Joyous Birth founder Jeanette Fraser; general knowledge gives Janet Fraser. Saldaya and Norris-Clark spelled from the footnotes. Primary theme could arguably be tech-internet given the title's framing; chose quackery-pseudoscience since the story is about rejecting medical care. Movement is cult-like rather than a formal cult. Shanley's 2008 interview kept in keywords; US infant mortality and Netherlands home-birth data are background."
+  },
+  {
+    "id": "how-l-ron-hubbard-made-an-antichrist-using-sex-magic",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Title names Hubbard, but the story is built around Parsons and the Babylon Working; Hubbard is listed as secondary because the episode covers only his 1945-46 stint, not his life (lifetime rule). The 1969 Scientology statement and modern occultist views are brief codas, so covered_span ends at Parsons's death."
+  },
+  {
+    "id": "how-exxon-chevron-and-their-buddies-killed-the-world",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Chevron is named in the title but gets only a short late segment, so it is secondary; ExxonMobil carries the story. Shell is the main co-subject (Anglo-Dutch, HQ in NL at the time), hence NL in setting; harm is global. API and Global Climate Coalition appear as keywords given the 5-subject cap."
+  },
+  {
+    "id": "the-founding-father-of-fake-cancer-cures",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Death year is garbled in the transcript; 1974 from general knowledge. Tijuana clinic (1963 on), Laetrile clinics and modern Hoxsey sellers treated as legacy via reaches_present rather than extending covered_span. US-TX chosen as Dallas was his base 1936-1960, though Illinois features early. child-death rests on two short but specific cases."
+  },
+  {
+    "id": "the-dumbest-colonizer-in-history",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript gives the San Francisco indictment as 1864; historically 1854, which fits the sequence. Meléndrez dates unknown, floruit 1853-54. dictator-autocrat reflects his self-installed presidency of Nicaragua; colonial-administrator was the alternative. reaches_present rests on a ~4 minute closing segment on legacy and a Cato review; borderline. hate-speech for repeated quotation of his racist writings."
+  },
+  {
+    "id": "basil-zaharoff-the-man-who-sold-world-war-one",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "main_span runs from his first Nordenfelt job (1877) to the Greco-Turkish war (1922), the end of his influence; his decline and death to 1936 are in covered_span. Setting puts France first as the main WWI theatre he profited from; Russia is where his biggest sales and their debt consequences played out. Vickers also stands in for the Maxim and Nordenfelt firms."
+  },
+  {
+    "id": "savitri-devi-the-woman-who-turned-nazism-into-a-religion",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Covered span stops at her 1982 death; Zundel republishing her work and the modern accelerationist and online legacy set reaches_present instead. main_span starts at her 1929 conversion to Nazism. Mukherji's birth and death years are not given; floruit used. Eco-fascism link discussed but no fitting theme. Schliemann swastika segment treated as background."
+  },
+  {
+    "id": "the-childhood-of-joseph-stalin",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Story only covers 1878-1899. covered_span runs to 1953 solely because of the lifetime rule for deep-dive person stories; this will surface the story under Soviet-era filters it barely touches. Roles reflect what he became plus his youthful protest and poetry. Primary theme picked for catalogue fit; child-abuse is the closest runner-up."
+  },
+  {
+    "id": "how-hobby-lobby-funded-terrorism-and-tried-to-destroy-democracy",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Hobby Lobby and David Green both treated as primary since the episode is half company history, half Green biography. Terrorism theme is limited: host states the money reached precursor groups, not ISIS itself. Birth year 1941 from general knowledge; transcript omits it."
+  },
+  {
+    "id": "the-bastards-who-killed-the-black-panthers",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Title points at the FBI as the bastard, but half the story is Panther history, so both organizations are primary and roles are empty. J. Edgar Hoover is central but kept as a keyword to stay within five subjects. Newton's 1989 murder and the party's dissolution are brief mentions, so covered_span ends at the 1976 Senate report. California and Illinois are both central, so no single subdivision."
+  },
+  {
+    "id": "john-ronald-brown-the-worst-surgeon-ever",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Birth year garbled in transcript; 1922 inferred from his death in 2010 just before his 88th birthday. Transcript spells Furth as Firth and Bondy as Bundy; standard spellings used. Hirschfeld, Lili Elbe and Jorgensen intro treated as background. Vocabulary gap: no theme for anti-trans or LGBTQ harm, the community at the centre of the story."
+  },
+  {
+    "id": "qassem-soleimani-and-the-bastardful-history-of-u-s-iran-relations",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary theme chosen as war-war-crimes because most airtime is Soleimani's wars and proxy campaigns; the taxonomy lists this story as an example of diplomacy-foreign-policy, so reviewers may prefer to swap the two. Pahlavi-era Iran has no polity id. US placed last in setting as the policy actor rather than harm site."
+  },
+  {
+    "id": "the-bastard-who-executed-the-top-nazis",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "No role fits an executioner exactly; police-lawman chosen as the closest (prison/justice official). Transcript says Woods died June 21, 1950. Streicher listed secondary for his intro segment and long execution account. Last 6 minutes on postwar German rebuilding and the Marshall Plan treated as digression."
+  },
+  {
+    "id": "the-mdma-cook-who-tried-to-commit-genocide",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Opening ~25 minutes are general chemical-weapons history (1675 to the Iran-Iraq War), treated as background and excluded from covered_span. Acquittal year 2002 is from general knowledge; the transcript gives only the 1999 trial start. Primary theme could arguably be weapons-arms-trade; genocide chosen per the title and the host's framing of the sterilization project."
+  },
+  {
+    "id": "john-brown-terrorist-hero-or-terrorist-hero",
+    "format": "hero",
+    "low": [],
+    "notes": "Hero episode; Sophie Lichterman is the in-studio guest for the whole episode, so listed per earlier records. Child abuse here is Brown's harsh whipping of his own children (a few minutes). Harpers Ferry raid gets only a short segment, so it is a keyword, not a subject. Brief modern legacy (Van Spronsen) is a coda, not reaches_present."
+  },
+  {
+    "id": "the-idiot-who-made-and-destroyed-wework",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Neumann is alive; lifetime rule gives covered_span 1979-2019 (release year). main_span ends at the 2019 ouster. WeWork kept secondary since the story is built around Neumann. Primary theme is a judgment call between finance-crypto (VC/real-estate bubble) and fraud-grift. cults-new-religions used for the long cult-like culture segment though WeWork is not a religion. Heavy drinking culture discussed but not tagged drug-use. Guest surnames from my knowledge of Knowledge Fight hosts."
+  },
+  {
+    "id": "the-school-that-raped-everbody",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject is the school per the title, so roles are empty; Paul Geheeb is secondary but arguably co-central (the episode's twist). Covered span starts at Geheeb's 1870 birth (a few minutes of biography) and ends with the 2010 investigations. Only two secondary themes have real airtime; no theme exists for the 1970s sexual-revolution or New Left milieu. Switzerland and London appear only briefly."
+  },
+  {
+    "id": "jerry-falwell-founder-of-the-religious-right",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Part 3 is entirely about Jerry Falwell Jr. and Liberty University up to 2019, so covered_span ends in 2019 and reaches_present is true. Father Carey Falwell's businesses from 1915 are family background, not counted. Carey killing a worker's cat is told vividly but briefly; animal-cruelty not added."
+  },
+  {
+    "id": "kaiser-wilhelm-the-saddest-warlord-in-history",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Covered span starts at the father's 1855 engagement; the father's 1831 birth and youth get only brief setup. Exile 1918-1941 is a short coda, included only for the lifetime rule. Setting AT reflects the alliance and his Austrian scandal; WWI fighting itself (FR, BE, RU) gets little airtime. Prussia has no polity id."
+  },
+  {
+    "id": "the-man-trying-to-resurrect-8chan-starring-8chan-s-founder",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Interview episode with 8chan founder Brennan, but the bulk is a researched biography of Watkins, so deep-dive. main_span starts at the 2014 8chan takeover; his porn and 2channel businesses from the mid-1990s are setup. Shootings in NZ and US are discussed but not in graphic detail, so no content warnings. Brennan birth year 1994 inferred from his age 19 in 2013."
+  }
+]

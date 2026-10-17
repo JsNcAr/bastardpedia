@@ -1,0 +1,114 @@
+{
+  "story_id": "the-bastard-who-executed-the-top-nazis",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "John C. Woods",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1911, "end": 1950 }
+    },
+    {
+      "name": "Nuremberg trials",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Julius Streicher",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1885, "end": 1946 }
+    }
+  ],
+  "roles": ["military-officer", "police-lawman"],
+  "themes": {
+    "primary": "war-war-crimes",
+    "secondary": ["nazism", "policing-incarceration", "diplomacy-foreign-policy", "propaganda-media"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["DE", "FR", "US", "MH"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1944, "end": 1950 },
+    "covered_span": { "start": 1911, "end": 1950 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "John C. Woods, a Kansas drifter and US Army sergeant who lied his way into the post of military hangman in 1944, botched dozens of executions and hanged ten Nazi leaders convicted at Nuremberg in 1946.",
+  "content_warnings": ["graphic-violence"],
+  "keywords": [
+    "Nuremberg executions",
+    "Joachim von Ribbentrop",
+    "Wilhelm Keitel",
+    "Hermann Goering",
+    "Omaha Beach",
+    "Eniwetok Atoll",
+    "French MacLean",
+    "American Hangman",
+    "Wichita",
+    "Stars and Stripes"
+  ],
+  "guests": ["Courtney Kocak"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:20:51",
+      "note": "Woods's birth in Wichita, Kansas, 1911 and troubled youth"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:32:57",
+      "note": "after D-Day Woods volunteers as army hangman, claiming false past experience"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:30:48",
+      "note": "US soldiers convicted of raping French civilians sentenced to hang in France"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:14:36",
+      "note": "Allied powers draft the tribunal charter; ex post facto debate and international law"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:52:18",
+      "note": "October 1946 Nuremberg hangings described, including slow deaths"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:00:33",
+      "note": "Woods courts press attention and claims Nazi assassination plots"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:04:38",
+      "note": "electrocuted at Eniwetok test site in 1950 (Marshall Islands)"
+    }
+  ],
+  "notes": "No role fits an executioner exactly; police-lawman chosen as the closest (prison/justice official). Transcript says Woods died June 21, 1950. Streicher listed secondary for his intro segment and long execution account. Last 6 minutes on postwar German rebuilding and the Marshall Plan treated as digression."
+}

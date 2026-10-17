@@ -1,0 +1,87 @@
+{
+  "story_id": "the-school-that-raped-everbody",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Odenwaldschule",
+      "kind": "organization",
+      "org_type": "school-or-facility",
+      "role": "primary"
+    },
+    {
+      "name": "Paul Geheeb",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1870, "end": 1961 }
+    },
+    {
+      "name": "Gerold Becker",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1936, "end": 2010 }
+    },
+    {
+      "name": "Kinderladen movement",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "child-abuse",
+    "secondary": ["education", "nazism"]
+  },
+  "regions": {
+    "origin": ["DE"],
+    "setting": ["DE"],
+    "subdivisions": ["DE-HE"],
+    "polities": ["german-empire", "weimar-republic", "nazi-germany"],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1910, "end": 2010 },
+    "covered_span": { "start": 1870, "end": 2010 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "The Odenwaldschule, a celebrated progressive boarding school in Hesse, Germany, founded by Paul Geheeb in 1910, where teachers including principal Gerold Becker sexually abused hundreds of pupils for decades while prestige and connections buried the reports.",
+  "content_warnings": ["child-abuse"],
+  "keywords": [
+    "Heppenheim",
+    "Ecole d'Humanite",
+    "Wickersdorf",
+    "Gustav Wyneken",
+    "pedagogical eros",
+    "Hartmut von Hentig",
+    "Helmut Becker",
+    "Klaus Mann",
+    "Wilhelm Reich",
+    "Der Spiegel"
+  ],
+  "guests": ["Miles Gray"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:05:18", "note": "Geheeb's 1870 birth and family background open his biography" },
+    { "facet": "time", "part": 1, "at": "00:14:07", "note": "school opens in 1910 with the father-in-law's money" },
+    { "facet": "themes", "part": 1, "at": "00:23:58", "note": "Nazi raids from 1933 purge staff; Geheeb closes school and leaves for Switzerland in 1934" },
+    { "facet": "subjects", "part": 1, "at": "00:27:03", "note": "Becker, head from the early 1970s to 1985, first reported in the late 1990s" },
+    { "facet": "subjects", "part": 1, "at": "00:34:47", "note": "2010 inquiry finds over a dozen perpetrators and dozens of victims" },
+    { "facet": "subjects", "part": 1, "at": "00:51:38", "note": "long segment on the Kinderladen movement and leftist child-sexuality ideology" },
+    { "facet": "subjects", "part": 1, "at": "01:03:02", "note": "archive research shows abuse reaching back to Geheeb's own era" },
+    { "facet": "themes", "part": 1, "at": "01:08:19", "note": "Geheeb's scholarships to Jewish pupils under Nazism shielded him from complaints" },
+    { "facet": "regions", "part": 1, "at": "00:24:28", "note": "Hesse Nazi education authorities control the school" }
+  ],
+  "notes": "Primary subject is the school per the title, so roles are empty; Paul Geheeb is secondary but arguably co-central (the episode's twist). Covered span starts at Geheeb's 1870 birth (a few minutes of biography) and ends with the 2010 investigations. Only two secondary themes have real airtime; no theme exists for the 1970s sexual-revolution or New Left milieu. Switzerland and London appear only briefly."
+}

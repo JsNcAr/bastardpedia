@@ -1,0 +1,97 @@
+{
+  "story_id": "soldier-of-fortune-the-deadliest-magazine-ever-with-billy-wayne-davis",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": { "agent": "btb-tagger", "model": "claude-opus-5-5", "date": "2026-10-16" },
+  "format": "live-show",
+  "subjects": [
+    {
+      "name": "Soldier of Fortune",
+      "kind": "media-work",
+      "role": "primary"
+    },
+    {
+      "name": "Robert K. Brown",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1932, "end": null }
+    },
+    {
+      "name": "Rhodesian Bush War",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Richard Savage",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1985
+    },
+    {
+      "name": "John Wayne Hearn",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1985
+    }
+  ],
+  "roles": ["journalist-propagandist", "military-officer", "business-executive"],
+  "themes": {
+    "primary": "propaganda-media",
+    "secondary": [
+      "racism-white-supremacy",
+      "civil-war",
+      "war-war-crimes",
+      "fascism-far-right",
+      "terrorism"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["ZW", "US", "AO", "SV"],
+    "subdivisions": [],
+    "polities": ["rhodesia"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1975, "end": 1995 },
+    "covered_span": { "start": 1932, "end": 2020 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Vietnam veteran Robert K. Brown founded Soldier of Fortune magazine in 1975, using it to recruit Americans for white-ruled Rhodesia, run classified ads that led to contract murders, and feed the US militia movement.",
+  "content_warnings": ["hate-speech"],
+  "keywords": [
+    "Oklahoma City bombing",
+    "Timothy McVeigh",
+    "Michigan Militia",
+    "Roberto D'Aubuisson",
+    "Daniel Gearhart",
+    "David Bufkin",
+    "Jeff Cooper",
+    "Ian Smith",
+    "gun for hire ads",
+    "Dynasty Typewriter"
+  ],
+  "guests": ["Billy Wayne Davis"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:06:07", "note": "Brown's birth in 1932 in Monroe, Michigan opens the biography" },
+    { "facet": "time", "part": 1, "at": "00:18:48", "note": "Oman mercenary-contract scheme money funds the new magazine in 1975" },
+    { "facet": "regions", "part": 1, "at": "00:22:52", "note": "long Rhodesia segment begins: the white-minority state and its war" },
+    { "facet": "themes", "part": 1, "at": "00:30:27", "note": "magazine recruiting articles drew about 400 Americans into the Rhodesian army" },
+    { "facet": "regions", "part": 1, "at": "00:43:44", "note": "recruit via classified ad captured and executed in Angola in 1976" },
+    { "facet": "subjects", "part": 1, "at": "00:49:59", "note": "Savage places a gun-for-hire ad and carries out contract killings" },
+    { "facet": "subjects", "part": 1, "at": "00:54:10", "note": "trucker Hearn's ad brings murder offers; he kills Sandra Black" },
+    { "facet": "time", "part": 1, "at": "00:56:20", "note": "hitman ads stop in 1986; civil judgment upheld on appeal" },
+    { "facet": "regions", "part": 1, "at": "01:04:15", "note": "Brown joins mercenaries backing D'Aubuisson in El Salvador from 1983" },
+    { "facet": "themes", "part": 1, "at": "01:10:06", "note": "magazine boosts militias; McVeigh subscriber, zine traced to its office (1995)" },
+    { "facet": "time", "part": 1, "at": "01:12:12", "note": "post-1990s pivot to border vigilantes (2003) and Arpaio (2009)" },
+    { "facet": "time", "part": 1, "at": "01:13:50", "note": "magazine goes online-only; 2019 republication shows ongoing legacy" }
+  ],
+  "notes": "Live show at Dynasty Typewriter. Brown treated as co-primary with the magazine since his biography frames the story, so the lifetime rule sets covered_span 1932-2020; lifespan end null because he was alive at release (verify current status). No theme for murder-for-hire or mercenary recruiting; immigration (Ranch Rescue, Arpaio) and the arms trade are brief and left out."
+}

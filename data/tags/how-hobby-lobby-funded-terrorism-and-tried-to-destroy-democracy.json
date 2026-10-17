@@ -1,0 +1,54 @@
+{
+  "story_id": "how-hobby-lobby-funded-terrorism-and-tried-to-destroy-democracy",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": { "agent": "claude-code-subagent", "model": "claude-opus-5-5", "date": "2026-10-16" },
+  "format": "deep-dive",
+  "subjects": [
+    { "name": "Hobby Lobby", "kind": "organization", "org_type": "company", "role": "primary" },
+    { "name": "David Green", "kind": "person", "role": "primary", "lifespan": { "start": 1941, "end": null } },
+    { "name": "National Christian Foundation", "kind": "organization", "org_type": "ngo", "role": "secondary" },
+    { "name": "Burwell v. Hobby Lobby Stores", "kind": "event", "role": "secondary" },
+    { "name": "Museum of the Bible", "kind": "organization", "org_type": "ngo", "role": "secondary" }
+  ],
+  "roles": ["business-executive"],
+  "themes": {
+    "primary": "religious-right-culture-war",
+    "secondary": ["corporate-malfeasance", "cultural-heritage-looting", "labor-exploitation", "terrorism"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "UG", "IQ", "AE"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1972, "end": null },
+    "covered_span": { "start": 1941, "end": 2020 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Evangelical billionaire David Green built the US craft chain Hobby Lobby, then used its money and a 2014 Supreme Court win to push religious-right causes, while smuggling looted Iraqi antiquities for his Bible museum.",
+  "content_warnings": [],
+  "keywords": ["Steve Green", "Affordable Care Act contraceptive mandate", "Alliance Defending Freedom", "Uganda Anti-Homosexuality Act", "cuneiform tablets", "Green Collection", "ISIS antiquities", "Oklahoma City", "Ruth Bader Ginsburg dissent", "Christian arbitration"],
+  "guests": ["Cody Johnston"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:04:39", "note": "Green's birth in Kansas and poor childhood in Altus, Oklahoma begin the narrative" },
+    { "facet": "time", "part": 1, "at": "00:08:16", "note": "first Hobby Lobby store opens in Oklahoma City in 1972" },
+    { "facet": "themes", "part": 1, "at": "00:18:46", "note": "NCF donations channelled to anti-LGBT and anti-Muslim hate groups" },
+    { "facet": "regions", "part": 1, "at": "00:22:29", "note": "NCF money tied to backers of Uganda's 2014 anti-homosexuality law; effects on LGBT Ugandans" },
+    { "facet": "themes", "part": 1, "at": "00:27:13", "note": "2014 Supreme Court contraception case and its precedent" },
+    { "facet": "themes", "part": 1, "at": "00:28:44", "note": "pregnant cashier fired; mandatory Christian arbitration for employees" },
+    { "facet": "regions", "part": 1, "at": "00:41:10", "note": "Steve Green inspects artifacts in the UAE in 2010" },
+    { "facet": "themes", "part": 1, "at": "00:42:10", "note": "looting in Iraq and antiquities sales funding extremist groups" },
+    { "facet": "time", "part": 1, "at": "00:47:56", "note": "customs seizures from 2011 and the forfeiture settlement" }
+  ],
+  "notes": "Hobby Lobby and David Green both treated as primary since the episode is half company history, half Green biography. Terrorism theme is limited: host states the money reached precursor groups, not ISIS itself. Birth year 1941 from general knowledge; transcript omits it."
+}

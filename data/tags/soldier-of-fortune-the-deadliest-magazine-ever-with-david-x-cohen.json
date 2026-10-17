@@ -1,0 +1,100 @@
+{
+  "story_id": "soldier-of-fortune-the-deadliest-magazine-ever-with-david-x-cohen",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "live-show",
+  "subjects": [
+    {
+      "name": "Soldier of Fortune",
+      "kind": "media-work",
+      "role": "primary"
+    },
+    {
+      "name": "Robert K. Brown",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1932, "end": null }
+    },
+    {
+      "name": "Rhodesian Bush War",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Richard Savage",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1985
+    },
+    {
+      "name": "John Wayne Hearn",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1985
+    }
+  ],
+  "roles": ["journalist-propagandist", "military-officer", "business-executive"],
+  "themes": {
+    "primary": "propaganda-media",
+    "secondary": [
+      "racism-white-supremacy",
+      "civil-war",
+      "war-war-crimes",
+      "fascism-far-right",
+      "terrorism",
+      "colonialism-imperialism"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "ZW", "AO", "SV"],
+    "subdivisions": [],
+    "polities": ["rhodesia"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1975, "end": 2016 },
+    "covered_span": { "start": 1932, "end": 2020 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Vietnam veteran Robert K. Brown founded Soldier of Fortune magazine in 1975; it recruited American volunteers for white-ruled Rhodesia, ran classified ads that led to contract murders in the 1980s, and later fed the US militia movement.",
+  "content_warnings": [],
+  "keywords": [
+    "Selous Scouts",
+    "Angola mercenaries",
+    "David Bufkin",
+    "Roberto D'Aubuisson",
+    "Michigan Militia",
+    "Timothy McVeigh",
+    "Oklahoma City bombing",
+    "The Resistor",
+    "Dylann Roof",
+    "Joe Arpaio"
+  ],
+  "guests": ["David X. Cohen"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:03:40", "note": "Brown's birth in Michigan in 1932 and early life begin" },
+    { "facet": "roles", "part": 1, "at": "00:12:14", "note": "Brown serves as a Green Beret in Vietnam, retires a lieutenant colonel" },
+    { "facet": "time", "part": 1, "at": "00:19:08", "note": "Brown funds and launches the magazine after the Oman mercenary ad scheme" },
+    { "facet": "regions", "part": 1, "at": "00:27:34", "note": "from 1975 the magazine promotes and recruits for the Rhodesian army" },
+    { "facet": "themes", "part": 1, "at": "00:35:54", "note": "link drawn from the magazine's Rhodesia myth to the 2015 Charleston shooting" },
+    { "facet": "regions", "part": 1, "at": "00:38:31", "note": "Bufkin recruits readers for Angola; recruits killed or executed there" },
+    { "facet": "subjects", "part": 1, "at": "00:45:24", "note": "Savage and Hearn use classified ads to take murder-for-hire contracts" },
+    { "facet": "regions", "part": 1, "at": "00:58:48", "note": "Brown's involvement with El Salvador's civil war and death squads in the 1980s" },
+    { "facet": "themes", "part": 1, "at": "01:02:57", "note": "post-Cold War pivot to the militia movement; McVeigh and the far-right zine" },
+    { "facet": "time", "part": 1, "at": "01:06:42", "note": "print edition ends in 2016; online edition republishes Rhodesia piece in 2019" }
+  ],
+  "notes": "Live SF Sketchfest show, so format is live-show. Brown made primary alongside the magazine because the story follows his life throughout; covered_span follows the lifetime rule to the 2020 release. main_span ends at the 2016 end of print, though the magazine continues online. No content warning: murders and bombings are described briefly, not graphically."
+}

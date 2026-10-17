@@ -1,0 +1,83 @@
+{
+  "story_id": "the-mdma-cook-who-tried-to-commit-genocide",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Wouter Basson",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1950, "end": null }
+    },
+    {
+      "name": "Project Coast",
+      "kind": "organization",
+      "org_type": "military",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["physician-surgeon", "military-officer", "criminal-killer"],
+  "themes": {
+    "primary": "genocide-mass-killing",
+    "secondary": [
+      "weapons-arms-trade",
+      "racism-white-supremacy",
+      "medical-malpractice",
+      "intelligence-covert-ops",
+      "drugs"
+    ]
+  },
+  "regions": {
+    "origin": ["ZA"],
+    "setting": ["ZA", "NA", "GB"],
+    "subdivisions": [],
+    "polities": ["apartheid-south-africa"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1981, "end": 2002 },
+    "covered_span": { "start": 1950, "end": 2020 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "South African army cardiologist Wouter Basson ran apartheid's secret chemical and biological weapons program from 1981, supplying poisons to kill opponents and pursuing a covert sterilization vaccine for Black South Africans, then sold its MDMA.",
+  "content_warnings": ["mass-atrocity", "torture", "medical-horror"],
+  "keywords": [
+    "Dr. Death",
+    "Operation Barnacle",
+    "Roodeplaat Research Laboratories",
+    "SWAPO",
+    "anti-fertility vaccine",
+    "Truth and Reconciliation Commission",
+    "Nelson Mandela",
+    "F. W. de Klerk",
+    "ecstasy",
+    "Order of the Southern Cross"
+  ],
+  "guests": ["Billy Wayne Davis"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:28:27", "note": "Basson's birth in 1950, Cape Town upbringing and cardiology career in the SADF" },
+    { "facet": "time", "part": 1, "at": "00:36:53", "note": "In 1981 the government sends Basson abroad to study CBW programs; Project Coast begins" },
+    { "facet": "regions", "part": 1, "at": "00:40:35", "note": "Operation Barnacle: toxins supplied to kill SWAPO fighters in Namibia, bodies dumped at sea" },
+    { "facet": "regions", "part": 1, "at": "00:45:58", "note": "Poisonings of apartheid opponents abroad; MI5 probes suspicious deaths in the UK" },
+    { "facet": "themes", "part": 1, "at": "00:50:37", "note": "Plots against ANC members in London and a thallium attempt on Mandela" },
+    { "facet": "themes", "part": 1, "at": "00:55:21", "note": "Anti-fertility vaccine meant to sterilize Black women without consent" },
+    { "facet": "themes", "part": 1, "at": "01:03:33", "note": "De Klerk winds down Project Coast; MDMA and quaaludes for crowd control, then sold for profit" },
+    { "facet": "time", "part": 1, "at": "01:09:56", "note": "1997 sting via dealer Grant Wentzel leads to Basson's arrest and seizure of his files" },
+    { "facet": "time", "part": 1, "at": "01:14:04", "note": "TRC hearing and criminal trial from October 1999; acquitted as acts were not illegal then" },
+    { "facet": "time", "part": 1, "at": "01:15:37", "note": "Later misconduct finding set aside in March 2019; he remains free at release" }
+  ],
+  "notes": "Opening ~25 minutes are general chemical-weapons history (1675 to the Iran-Iraq War), treated as background and excluded from covered_span. Acquittal year 2002 is from general knowledge; the transcript gives only the 1999 trial start. Primary theme could arguably be weapons-arms-trade; genocide chosen per the title and the host's framing of the sterilization project."
+}

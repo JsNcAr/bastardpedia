@@ -1,0 +1,84 @@
+{
+  "story_id": "how-exxon-chevron-and-their-buddies-killed-the-world",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "ExxonMobil",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "primary"
+    },
+    {
+      "name": "Shell",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Chevron",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Lee Raymond",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1938, "end": null }
+    },
+    {
+      "name": "Rex Tillerson",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1952, "end": null }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "environmental-destruction",
+    "secondary": ["corporate-malfeasance", "propaganda-media", "electoral-politics"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "NL"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "global"
+  },
+  "time": {
+    "main_span": { "start": 1977, "end": 2019 },
+    "covered_span": { "start": 1959, "end": 2020 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "How ExxonMobil, Shell, Chevron and the American Petroleum Institute were warned from 1959 on, and told by their own scientists by the 1980s, that fossil fuels drive climate change, then spent decades funding denial and lobbying against regulation.",
+  "content_warnings": [],
+  "keywords": ["climate change denial", "Global Climate Coalition", "American Petroleum Institute", "Edward Teller", "Kyoto Protocol", "Kenneth Cohen", "Wayne Tracker emails", "Eric Schneiderman", "attribution science", "Richard Heede"],
+  "guests": ["Molly Lambert"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:05:49", "note": "story begins with Teller's 1959 warning to the oil industry" },
+    { "facet": "time", "part": 1, "at": "00:10:36", "note": "1968 Stanford report commissioned by the API warns of warming" },
+    { "facet": "time", "part": 1, "at": "00:15:13", "note": "Exxon senior scientist warns executives in 1977 and 1978" },
+    { "facet": "themes", "part": 1, "at": "00:22:30", "note": "Global Climate Coalition propaganda campaign against Kyoto" },
+    { "facet": "subjects", "part": 1, "at": "00:25:03", "note": "long segment on CEO Lee Raymond and the Do No Harm ads" },
+    { "facet": "themes", "part": 1, "at": "00:38:20", "note": "Exxon funding of denier think tanks and black ops budget" },
+    { "facet": "subjects", "part": 1, "at": "00:53:30", "note": "Tillerson, New York shareholder case and the alias email account" },
+    { "facet": "time", "part": 1, "at": "00:58:47", "note": "Tillerson's February 2020 Houston speech closes the timeline" },
+    { "facet": "themes", "part": 1, "at": "01:04:58", "note": "2018 spending against state ballot initiatives and for candidates" },
+    { "facet": "regions", "part": 1, "at": "00:03:41", "note": "Shell internal report released by a Dutch news outlet" }
+  ],
+  "notes": "Chevron is named in the title but gets only a short late segment, so it is secondary; ExxonMobil carries the story. Shell is the main co-subject (Anglo-Dutch, HQ in NL at the time), hence NL in setting; harm is global. API and Global Climate Coalition appear as keywords given the 5-subject cap."
+}

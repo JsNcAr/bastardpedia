@@ -1,0 +1,79 @@
+{
+  "story_id": "john-ronald-brown-the-worst-surgeon-ever",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "John Ronald Brown",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1922, "end": 2010 }
+    },
+    {
+      "name": "Philip Bondy",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": 1998 }
+    },
+    {
+      "name": "Gregg Furth",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1998
+    },
+    {
+      "name": "James Spence",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1973
+    }
+  ],
+  "roles": ["physician-surgeon", "criminal-killer"],
+  "themes": {
+    "primary": "medical-malpractice",
+    "secondary": ["fraud-grift", "policing-incarceration", "public-health"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["MX", "US", "LC"],
+    "subdivisions": ["US-CA"],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1973, "end": 1999 },
+    "covered_span": { "start": 1922, "end": 2010 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "American surgeon John Ronald Brown performed botched, unsanitary sex reassignment and other surgeries on trans patients in California and Tijuana from the 1970s to the 1990s, and was convicted after an amputation patient died.",
+  "content_warnings": ["medical-horror", "suicide-self-harm"],
+  "keywords": ["Tabletop Brown", "Butcher Brown", "Tijuana", "San Francisco", "St. Lucia", "apotemnophilia", "Paul Ciotti", "Inside Edition", "Digital Transgender Archive", "Christine Jorgensen"],
+  "guests": ["Sofiya Alexandra"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:28:19", "note": "1973 Stanford symposium talk marks his move into genital surgery for trans women" },
+    { "facet": "time", "part": 1, "at": "00:42:57", "note": "California board revokes his license in 1977 for gross negligence" },
+    { "facet": "regions", "part": 1, "at": "00:50:15", "note": "St. Lucia period, arranged marriage to a 17-year-old" },
+    { "facet": "regions", "part": 1, "at": "00:52:20", "note": "unlicensed clinic in Tijuana while living in Chula Vista" },
+    { "facet": "themes", "part": 1, "at": "00:30:53", "note": "partner Spence posed as a doctor and fake vet and operated on patients" },
+    { "facet": "themes", "part": 1, "at": "00:03:18", "note": "long intro on the history of trans medicine and gender clinics" },
+    { "facet": "themes", "part": 2, "at": "00:16:42", "note": "FBI case and prison term for practicing without a license" },
+    { "facet": "time", "part": 2, "at": "00:27:35", "note": "amputates Bondy's healthy leg in Mexico; Bondy dies in a US motel" },
+    { "facet": "roles", "part": 2, "at": "00:36:57", "note": "unanimous conviction and 15-year sentence" },
+    { "facet": "content_warnings", "part": 2, "at": "00:30:15", "note": "patient dies by suicide after repeated botched surgeries" },
+    { "facet": "time", "part": 2, "at": "00:38:32", "note": "dies of pneumonia in prison in 2010, shortly before turning 88" }
+  ],
+  "notes": "Birth year garbled in transcript; 1922 inferred from his death in 2010 just before his 88th birthday. Transcript spells Furth as Firth and Bondy as Bundy; standard spellings used. Hirschfeld, Lili Elbe and Jorgensen intro treated as background. Vocabulary gap: no theme for anti-trans or LGBTQ harm, the community at the centre of the story."
+}

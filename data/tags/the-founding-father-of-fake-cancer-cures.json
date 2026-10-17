@@ -1,0 +1,85 @@
+{
+  "story_id": "the-founding-father-of-fake-cancer-cures",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Harry Hoxsey",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1901, "end": 1974 }
+    },
+    {
+      "name": "Hoxsey therapy",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    },
+    {
+      "name": "Gerald B. Winrod",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1900, "end": 1957 }
+    },
+    {
+      "name": "Food and Drug Administration",
+      "kind": "organization",
+      "org_type": "government-agency",
+      "role": "secondary"
+    },
+    {
+      "name": "American Medical Association",
+      "kind": "organization",
+      "org_type": "ngo",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["quack-fake-healer", "con-artist"],
+  "themes": {
+    "primary": "quackery-pseudoscience",
+    "secondary": ["fraud-grift", "public-health", "conspiracy-theories", "fascism-far-right"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "MX"],
+    "subdivisions": ["US-TX"],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1924, "end": 1960 },
+    "covered_span": { "start": 1901, "end": 1974 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Illinois-born Harry Hoxsey sold an arsenic paste and herbal tonics as a cancer cure from the 1920s to 1960, ran a huge Dallas clinic, and fought the AMA and FDA in court while desperate patients died.",
+  "content_warnings": ["medical-horror", "child-death"],
+  "keywords": ["Hoxsey Cancer Clinic", "Taylorville", "Dallas", "Tijuana", "You Don't Have to Die", "Morris Fishbein", "Elmer Thomas", "John Haluska", "American Rally", "medical freedom"],
+  "guests": ["Billy Wayne Davis"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:04:10", "note": "Hoxsey's birth in Auburn, Illinois in 1901" },
+    { "facet": "time", "part": 1, "at": "00:24:31", "note": "Taylorville institute operating and killing patients by 1924" },
+    { "facet": "regions", "part": 1, "at": "00:36:42", "note": "moves operation to Dallas in 1936, his base for decades" },
+    { "facet": "themes", "part": 1, "at": "00:59:12", "note": "uses a senator's hearing and patient testimony as marketing" },
+    { "facet": "themes", "part": 2, "at": "00:02:05", "note": "long segment on alliance with antisemitic preacher Gerald Winrod" },
+    { "facet": "themes", "part": 2, "at": "00:14:17", "note": "American Rally: anti-fluoride, anti-polio-vaccine allies backing Hoxsey" },
+    { "facet": "themes", "part": 2, "at": "00:19:35", "note": "FDA's first public denunciation of a cancer cure and post office posters" },
+    { "facet": "time", "part": 2, "at": "00:24:50", "note": "permanent injunction ends legal US practice from 1960" },
+    { "facet": "regions", "part": 2, "at": "00:25:22", "note": "nurse opens Tijuana clinic in 1963, seeding Baja cancer clinic industry" },
+    { "facet": "time", "part": 2, "at": "00:27:29", "note": "prostate cancer in 1967, later death in seclusion" },
+    { "facet": "content_warnings", "part": 1, "at": "01:02:48", "note": "teen with bone cancer dies after skipping amputation for Hoxsey tonics" },
+    { "facet": "content_warnings", "part": 1, "at": "00:22:26", "note": "escharotic paste destroys facial tissue and bone, fatal hemorrhage" }
+  ],
+  "notes": "Death year is garbled in the transcript; 1974 from general knowledge. Tijuana clinic (1963 on), Laetrile clinics and modern Hoxsey sellers treated as legacy via reaches_present rather than extending covered_span. US-TX chosen as Dallas was his base 1936-1960, though Illinois features early. child-death rests on two short but specific cases."
+}

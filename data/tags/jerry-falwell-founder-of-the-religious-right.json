@@ -1,0 +1,104 @@
+{
+  "story_id": "jerry-falwell-founder-of-the-religious-right",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Jerry Falwell",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1933, "end": 2007 }
+    },
+    {
+      "name": "Moral Majority",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Jerry Falwell Jr.",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1962, "end": null }
+    },
+    {
+      "name": "Liberty University",
+      "kind": "organization",
+      "org_type": "school-or-facility",
+      "role": "secondary"
+    },
+    {
+      "name": "Larry Flynt",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1942, "end": 2021 }
+    }
+  ],
+  "roles": ["religious-leader", "activist-organizer", "media-personality"],
+  "themes": {
+    "primary": "religious-right-culture-war",
+    "secondary": [
+      "racism-white-supremacy",
+      "electoral-politics",
+      "education",
+      "public-health",
+      "organized-religion",
+      "fraud-grift"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-VA"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1956, "end": 2007 },
+    "covered_span": { "start": 1933, "end": 2019 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Virginia Baptist preacher and televangelist Jerry Falwell defended segregation, founded Liberty University and the Moral Majority, and fused evangelicals into an anti-abortion, anti-gay voting bloc; his son later ran Liberty amid scandal.",
+  "content_warnings": ["hate-speech"],
+  "keywords": [
+    "Lynchburg",
+    "Thomas Road Baptist Church",
+    "Old Time Gospel Hour",
+    "Bob Jones University",
+    "Hustler Magazine v. Falwell",
+    "Equal Rights Amendment",
+    "Paul Weyrich",
+    "AIDS crisis",
+    "Tinky Winky",
+    "Giancarlo Granda"
+  ],
+  "guests": ["Sofiya Alexandra"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:05:17", "note": "Falwell's birth in 1933 in Lynchburg, Virginia" },
+    { "facet": "time", "part": 1, "at": "00:32:15", "note": "founds Thomas Road Baptist Church in 1956, start of main span" },
+    { "facet": "themes", "part": 1, "at": "00:35:22", "note": "1958 sermon defending segregation and attacking Brown v. Board" },
+    { "facet": "themes", "part": 1, "at": "00:51:10", "note": "segregation academies, IRS tax-exemption fight and Bob Jones University" },
+    { "facet": "subjects", "part": 1, "at": "00:47:31", "note": "Moral Majority formed in 1979 with Weyrich and Phillips" },
+    { "facet": "themes", "part": 1, "at": "01:10:01", "note": "voter drive and endorsement of Reagan in the 1980 election" },
+    { "facet": "themes", "part": 2, "at": "00:15:46", "note": "blames AIDS on gay people and opposes funding for research" },
+    { "facet": "subjects", "part": 2, "at": "00:27:21", "note": "Larry Flynt segment: Hustler parody suit up to the Supreme Court" },
+    { "facet": "time", "part": 2, "at": "00:46:44", "note": "fatal heart attack in his office in 2007" },
+    { "facet": "subjects", "part": 3, "at": "00:03:42", "note": "whole third part follows Jerry Falwell Jr. and Liberty University" },
+    { "facet": "themes", "part": 3, "at": "00:16:42", "note": "Liberty online program recruited aggressively, likened to a diploma mill" },
+    { "facet": "time", "part": 3, "at": "00:44:50", "note": "2019 petitions and student protests against Falwell Jr." }
+  ],
+  "notes": "Part 3 is entirely about Jerry Falwell Jr. and Liberty University up to 2019, so covered_span ends in 2019 and reaches_present is true. Father Carey Falwell's businesses from 1915 are family background, not counted. Carey killing a worker's cat is told vividly but briefly; animal-cruelty not added."
+}

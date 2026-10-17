@@ -1,0 +1,97 @@
+{
+  "story_id": "savitri-devi-the-woman-who-turned-nazism-into-a-religion",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Savitri Devi",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1905, "end": 1982 }
+    },
+    {
+      "name": "Esoteric Hitlerism",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    },
+    {
+      "name": "Rashtriya Swayamsevak Sangh",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Asit Krishna Mukherji",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": null },
+      "floruit": 1938
+    }
+  ],
+  "roles": ["occultist-guru", "writer-intellectual", "activist-organizer"],
+  "themes": {
+    "primary": "nazism",
+    "secondary": [
+      "occult-esoteric",
+      "racism-white-supremacy",
+      "fascism-far-right",
+      "terrorism",
+      "tech-internet"
+    ]
+  },
+  "regions": {
+    "origin": ["FR"],
+    "setting": ["IN", "DE", "GR", "FR", "GB", "US"],
+    "subdivisions": [],
+    "polities": ["british-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1929, "end": 1982 },
+    "covered_span": { "start": 1905, "end": 1982 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Lyon-born Greek nationalist Savitri Devi embraced Nazism, promoted Hindu nationalism in British India, and after 1945 fused Hitler worship with Hindu cosmology into esoteric Hitlerism, a creed that still inspires neo-Nazi terror groups.",
+  "content_warnings": ["animal-cruelty", "hate-speech"],
+  "keywords": [
+    "Hitler's Priestess",
+    "The Lightning and the Sun",
+    "Gold in the Furnace",
+    "A Warning to the Hindus",
+    "Kali Yuga",
+    "World Union of National Socialists",
+    "George Lincoln Rockwell",
+    "Miguel Serrano",
+    "Ernst Zundel",
+    "Kekism"
+  ],
+  "guests": ["Jamie Loftus"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:13:12", "note": "born Maximiani Portas in Lyon in 1905" },
+    { "facet": "content_warnings", "part": 1, "at": "00:21:48", "note": "long segment on ritual cat torture in Belgium and France" },
+    { "facet": "regions", "part": 1, "at": "00:39:15", "note": "Greco-Turkish war and Smyrna shape her Greek nationalism" },
+    { "facet": "time", "part": 1, "at": "00:58:31", "note": "settles in Greece, Holy Land trip turns her antisemitic and Nazi" },
+    { "facet": "regions", "part": 1, "at": "01:05:56", "note": "travels to India in 1932 seeking Aryan roots" },
+    { "facet": "themes", "part": 1, "at": "01:16:53", "note": "ties to the RSS and her Hindu nationalist tract" },
+    { "facet": "regions", "part": 1, "at": "01:19:00", "note": "marriage to Mukherji, spying for the Axis in British India" },
+    { "facet": "regions", "part": 2, "at": "00:06:48", "note": "hand-written leaflet tours through occupied Germany" },
+    { "facet": "time", "part": 2, "at": "00:12:05", "note": "arrested and jailed for Nazi propaganda in 1949" },
+    { "facet": "themes", "part": 2, "at": "00:35:39", "note": "1961-62 neo-Nazi gatherings in England, WUNS with Rockwell" },
+    { "facet": "time", "part": 2, "at": "00:41:30", "note": "dies in England in 1982 en route to the US" },
+    { "facet": "themes", "part": 2, "at": "00:46:50", "note": "influence on accelerationist groups and Kekism online" }
+  ],
+  "notes": "Covered span stops at her 1982 death; Zundel republishing her work and the modern accelerationist and online legacy set reaches_present instead. main_span starts at her 1929 conversion to Nazism. Mukherji's birth and death years are not given; floruit used. Eco-fascism link discussed but no fitting theme. Schliemann swastika segment treated as background."
+}

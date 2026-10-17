@@ -1,0 +1,120 @@
+{
+  "story_id": "john-brown-terrorist-hero-or-terrorist-hero",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "hero",
+  "subjects": [
+    {
+      "name": "John Brown",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1800, "end": 1859 }
+    },
+    {
+      "name": "Nat Turner",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1800, "end": 1831 }
+    },
+    {
+      "name": "Bleeding Kansas",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["terrorist-militant", "activist-organizer", "rescuer-humanitarian"],
+  "themes": {
+    "primary": "terrorism",
+    "secondary": [
+      "slavery-forced-labor",
+      "civil-war",
+      "racism-white-supremacy",
+      "coups-insurrections",
+      "organized-religion"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "CA"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1855, "end": 1859 },
+    "covered_span": { "start": 1800, "end": 1859 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Christmas hero episode on John Brown, the Calvinist abolitionist who sheltered escaped slaves, killed pro-slavery settlers in Bleeding Kansas and was hanged in 1859 after his raid on the Harpers Ferry armory.",
+  "content_warnings": ["slavery", "graphic-violence", "child-abuse"],
+  "keywords": [
+    "Harpers Ferry",
+    "Pottawatomie massacre",
+    "Underground Railroad",
+    "Secret Six",
+    "Chatham Convention",
+    "Frederick Douglass",
+    "Harriet Tubman",
+    "Midnight Rising",
+    "Calvinism",
+    "abolitionism"
+  ],
+  "guests": ["Sophie Lichterman"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:04:14",
+      "note": "Brown's birth in Torrington, Connecticut in 1800 opens the biography"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:32:10",
+      "note": "multi-minute segment on Nat Turner's 1831 revolt and the reprisals that followed"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:05:17",
+      "note": "family's strict Calvinism and Brown's Sabbath rules discussed at length"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:51:26",
+      "note": "Bleeding Kansas framed as a civil war over slavery; Brown leads a guerrilla militia"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:54:39",
+      "note": "Pottawatomie Creek killings of five pro-slavery men in 1856, debated as terrorism"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:07:06",
+      "note": "Chatham, Canada constitutional convention of 1858; freed slaves later ferried to Canada"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:16:00",
+      "note": "Brown hanged in December 1859 after the failed Harpers Ferry raid"
+    }
+  ],
+  "notes": "Hero episode; Sophie Lichterman is the in-studio guest for the whole episode, so listed per earlier records. Child abuse here is Brown's harsh whipping of his own children (a few minutes). Harpers Ferry raid gets only a short segment, so it is a keyword, not a subject. Brief modern legacy (Van Spronsen) is a coda, not reaches_present."
+}

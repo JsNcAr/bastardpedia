@@ -1,0 +1,138 @@
+{
+  "story_id": "how-the-internet-spawned-a-baby-killing-cult",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Freebirth movement",
+      "kind": "movement-or-ideology",
+      "role": "primary"
+    },
+    {
+      "name": "Free Birth Society",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Emilee Saldaya",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2018
+    },
+    {
+      "name": "Yolande Norris-Clark",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2020
+    },
+    {
+      "name": "Janet Fraser",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2009
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "quackery-pseudoscience",
+    "secondary": [
+      "tech-internet",
+      "cults-new-religions",
+      "fraud-grift",
+      "public-health",
+      "medical-malpractice"
+    ]
+  },
+  "regions": {
+    "origin": ["AU", "US"],
+    "setting": ["US", "AU"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2007, "end": 2020 },
+    "covered_span": { "start": 2007, "end": 2020 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "How the freebirth movement, which rejects doctors and midwives at childbirth, grew from Australian and American blogs in the late 2000s into Facebook groups, podcasts and paid coaching that preceded several infant deaths.",
+  "content_warnings": ["child-death"],
+  "keywords": [
+    "unassisted childbirth",
+    "Joyous Birth",
+    "birth rape",
+    "Free Birth Podcast",
+    "Journey Moon",
+    "Laura Shanley",
+    "Rush University Medical Center",
+    "Amy Tuteur",
+    "Skeptical OB",
+    "Radical Birthkeeper"
+  ],
+  "guests": ["Caitlin Durante"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:14:20",
+      "note": "2008 Chicago hospital birth and abusive obstetrician whose case galvanized natural-birth blogs"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:16:55",
+      "note": "Australian founder starts Joyous Birth in 2007 and coins birth rape that December"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:31:03",
+      "note": "founder's own unassisted 2009 birth ends in the baby's death per the coroner"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:41:28",
+      "note": "movement grows on Facebook with its own podcasts and influencers, likened to other online subcultures"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:42:00",
+      "note": "Saldaya's Free Birth Society and podcast introduced as the main modern driver"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:01:27",
+      "note": "2018 death of baby Journey Moon leads to closure of the Facebook groups"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:02:27",
+      "note": "paid membership platform and priced coaching services described as a grift"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:55:05",
+      "note": "host compares the instructor's speech cadence to NXIVM and calls the group cult-like"
+    }
+  ],
+  "notes": "Transcript names the Joyous Birth founder Jeanette Fraser; general knowledge gives Janet Fraser. Saldaya and Norris-Clark spelled from the footnotes. Primary theme could arguably be tech-internet given the title's framing; chose quackery-pseudoscience since the story is about rejecting medical care. Movement is cult-like rather than a formal cult. Shanley's 2008 interview kept in keywords; US infant mortality and Netherlands home-birth data are background."
+}

@@ -1,0 +1,151 @@
+{
+  "story_id": "the-man-trying-to-resurrect-8chan-starring-8chan-s-founder",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Jim Watkins",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1964, "end": null }
+    },
+    {
+      "name": "8chan",
+      "kind": "organization",
+      "org_type": "media-outlet",
+      "role": "secondary"
+    },
+    {
+      "name": "Fredrick Brennan",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1994, "end": null }
+    },
+    {
+      "name": "2channel",
+      "kind": "organization",
+      "org_type": "media-outlet",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["tech-founder", "business-executive"],
+  "themes": {
+    "primary": "tech-internet",
+    "secondary": [
+      "terrorism",
+      "fascism-far-right",
+      "racism-white-supremacy",
+      "propaganda-media",
+      "misogyny-manosphere"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "NZ", "PH", "JP"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2014, "end": null },
+    "covered_span": { "start": 1964, "end": 2019 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Profile of Jim Watkins, a US Army veteran turned Philippines-based porn and web-hosting entrepreneur who took over 8chan in 2014, kept it running as mass shooters posted there in 2019, and fought to revive it after it was deplatformed.",
+  "content_warnings": [],
+  "keywords": [
+    "8kun",
+    "N.T. Technology",
+    "Christchurch mosque shootings",
+    "El Paso shooting",
+    "Poway synagogue shooting",
+    "Gamergate",
+    "Ron Watkins",
+    "The Goldwater",
+    "Wizardchan",
+    "Hiroyuki Nishimura"
+  ],
+  "guests": ["Fredrick Brennan"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:22:55",
+      "note": "Watkins born 1964 in Washington state, joins the Army in 1982"
+    },
+    {
+      "facet": "roles",
+      "part": 1,
+      "at": "00:25:01",
+      "note": "mid-1990s launch of a Japanese-market porn site, later renamed N.T. Technology"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:31:47",
+      "note": "his hosting company takes on 2channel in 2000 and later seizes it"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:33:53",
+      "note": "move to the Philippines in the early 2000s and his Manila business network"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:43:21",
+      "note": "2014 deal: Watkins takes over 8chan servers and moves Brennan to Manila"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:51:11",
+      "note": "8chan pol board becomes openly neo-Nazi and runs 2016 meme campaigns"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:05:53",
+      "note": "Watkins' video response three days after the Christchurch massacre"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:12:18",
+      "note": "Poway and El Paso shootings, deplatforming and congressional testimony"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:04:38",
+      "note": "Brennan on r9k and Wizardchan as roots of incel communities"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:17:57",
+      "note": "2019 8kun relaunch attempts and Watkins' criminal libel complaint against Brennan"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:22:44",
+      "note": "Brennan recounts a racist rant by Watkins at his Filipino staff"
+    }
+  ],
+  "notes": "Interview episode with 8chan founder Brennan, but the bulk is a researched biography of Watkins, so deep-dive. main_span starts at the 2014 8chan takeover; his porn and 2channel businesses from the mid-1990s are setup. Shootings in NZ and US are discussed but not in graphic detail, so no content warnings. Brennan birth year 1994 inferred from his age 19 in 2013."
+}

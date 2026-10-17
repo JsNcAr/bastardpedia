@@ -1,0 +1,151 @@
+{
+  "story_id": "narendra-modi-and-india-s-weird-nazi-obsession",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Narendra Modi",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1950, "end": null },
+      "wikidata": "Q1058"
+    },
+    {
+      "name": "Rashtriya Swayamsevak Sangh",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "2002 Gujarat riots",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Amit Shah",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1964, "end": null }
+    }
+  ],
+  "roles": ["politician-official", "activist-organizer"],
+  "themes": {
+    "primary": "fascism-far-right",
+    "secondary": [
+      "nazism",
+      "genocide-mass-killing",
+      "racism-white-supremacy",
+      "electoral-politics",
+      "propaganda-media"
+    ]
+  },
+  "regions": {
+    "origin": ["IN"],
+    "setting": ["IN"],
+    "subdivisions": ["IN-GJ"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2001, "end": null },
+    "covered_span": { "start": 1925, "end": 2020 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Indian Prime Minister Narendra Modi rose through the Nazi-admiring Hindu nationalist RSS, presided over the 2002 anti-Muslim pogrom in Gujarat as chief minister, and as premier from 2014 pushed Hindu dominance and crushed critics.",
+  "content_warnings": ["mass-atrocity", "graphic-violence", "hate-speech"],
+  "keywords": [
+    "Hindutva",
+    "Godhra train fire",
+    "Babri Masjid",
+    "Ram Rath Yatra",
+    "2020 Delhi riots",
+    "Sohrabuddin Sheikh",
+    "V. D. Savarkar",
+    "M. S. Golwalkar",
+    "Indian Legion",
+    "Citizenship Amendment Act"
+  ],
+  "guests": ["Sofiya Alexandra"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:22:41",
+      "note": "RSS history begins: 1920s founding, Savarkar's Hitler praise and Hindutva ideology"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:07:22",
+      "note": "Indian Legion of the Waffen-SS and Indian fascination with Hitler and Mein Kampf"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:27:54",
+      "note": "Hedgewar models the RSS on Italian and German fascist parties"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:32:34",
+      "note": "Modi born 1950 in a small Gujarat town, works at his father's tea stall"
+    },
+    {
+      "facet": "roles",
+      "part": 1,
+      "at": "00:40:51",
+      "note": "Works for the RSS as a full-time street propagandist and organizer"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:49:43",
+      "note": "Becomes Gujarat chief minister in 2001 after outmaneuvering a party rival"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:53:19",
+      "note": "2002 Gujarat riots: months of killings of Muslims while police stand down"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:09:22",
+      "note": "Sohrabuddin fake-encounter killing tied to Amit Shah's extortion racket"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:12:31",
+      "note": "2014 campaign recasts Modi as an economic manager; BJP wins"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:25:06",
+      "note": "BJP online harassment of journalists, disinformation cell, pressure on NDTV"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:35:35",
+      "note": "February 2020 Delhi anti-Muslim violence during the Trump visit closes the story"
+    }
+  ],
+  "notes": "Covered span starts at the RSS founding (secondary subject with a long segment); Modi is alive, so main_span ends null. Host says Modi is not strictly a dictator, so dictator-autocrat was left out of roles. Hindu nationalism treated as fascism-far-right; nazism secondary for the long segment on Indian Nazi admiration and the Indian Legion."
+}
