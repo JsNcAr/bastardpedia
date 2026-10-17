@@ -13,19 +13,19 @@ The official feed, hosted by Omny for iHeartPodcasts (Apple Podcasts id
 
 ## Commands
 
-| Command                                                      | Reads                                        | Writes                                       | Notes                                          |
-| ------------------------------------------------------------ | -------------------------------------------- | -------------------------------------------- | ---------------------------------------------- |
-| `npm run pipeline:ingest [-- <file>]`                        | feed URL, or a local file                    | `data/raw/podcast.rss`, `data/episodes.json` |                                                |
-| `npm run pipeline:group`                                     | `data/episodes.json`                         | `data/stories.json`                          | Groups parts into stories and classifies kinds |
-| `npm run pipeline:status [-- --fail-on-untagged]`            | stories, tags                                | stdout                                       | Counts by kind, tagged and untagged            |
-| `npm run pipeline:sync`                                      | feed                                         | all of the above                             | ingest + group + status                        |
-| `npm run pipeline:transcripts [-- --story <id>] [--limit N]` | episodes, stories                            | `data/transcripts/<guid>.txt`                | 1 request/second, skips existing files         |
-| `npm run tags:packet -- <story-id>`                          | stories, episodes, transcripts, taxonomy     | `data/packets/<id>.md`                       | Fetches missing transcripts for that story     |
-| `npm run tags:validate [-- <id>...]`                         | `data/tags/*.json`                           | stdout, exit 1 on error                      | See [TAGGING.md](TAGGING.md)                   |
-| `npm run tags:verify-wikidata`                               | tags                                         | stdout                                       | Network. Checks QIDs against labels            |
-| `npm run tags:schema`                                        | schemas, taxonomy                            | `tagging/schema/story-tags.schema.json`      | Rerun after any taxonomy change                |
-| `npm run taxonomy:doc`                                       | taxonomy                                     | `docs/taxonomy-reference.md`                 | Rerun after any taxonomy change                |
-| `npm run build:catalog`                                      | stories, episodes, tags, overrides, taxonomy | `public/data/catalog.json`                   | Run by CI before `npm run build`               |
+| Command                                                      | Reads                                        | Writes                                       | Notes                                                  |
+| ------------------------------------------------------------ | -------------------------------------------- | -------------------------------------------- | ------------------------------------------------------ |
+| `npm run pipeline:ingest [-- <file>]`                        | feed URL, or a local file                    | `data/raw/podcast.rss`, `data/episodes.json` |                                                        |
+| `npm run pipeline:group`                                     | `data/episodes.json`                         | `data/stories.json`                          | Groups parts into stories and classifies kinds         |
+| `npm run pipeline:status [-- --fail-on-untagged]`            | stories, tags                                | stdout                                       | Counts by kind, tagged and untagged                    |
+| `npm run pipeline:sync`                                      | feed                                         | all of the above                             | ingest + group + status                                |
+| `npm run pipeline:transcripts [-- --story <id>] [--limit N]` | episodes, stories                            | `data/transcripts/<guid>.txt`                | 1 request/second, skips existing files                 |
+| `npm run tags:packet -- <story-id>`                          | stories, episodes, transcripts, taxonomy     | `data/packets/<id>.md`                       | Fetches missing transcripts for that story             |
+| `npm run tags:validate [-- <id>...]`                         | `data/tags/*.json`                           | stdout, exit 1 on error                      | See [TAGGING.md](TAGGING.md)                           |
+| `npm run tags:verify-wikidata`                               | tags                                         | stdout                                       | Network. Checks QIDs against labels, overrides applied |
+| `npm run tags:schema`                                        | schemas, taxonomy                            | `tagging/schema/story-tags.schema.json`      | Rerun after any taxonomy change                        |
+| `npm run taxonomy:doc`                                       | taxonomy                                     | `docs/taxonomy-reference.md`                 | Rerun after any taxonomy change                        |
+| `npm run build:catalog`                                      | stories, episodes, tags, overrides, taxonomy | `public/data/catalog.json`                   | Run by CI before `npm run build`                       |
 
 ## What is committed
 

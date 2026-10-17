@@ -1,5 +1,7 @@
 /**
  * Check every Wikidata QID in data/tags/ against the subject name it is attached to.
+ * Overrides from data/overrides/ are applied first, as at catalog build, so a QID
+ * already corrected there passes. With --dir the records are checked as they are.
  *
  *   node pipeline/verify-wikidata.ts [id...]
  *
@@ -11,7 +13,8 @@ import { existsSync, readdirSync } from 'node:fs';
 import { basename, join, resolve } from 'node:path';
 import { z } from 'zod';
 import { readJson, sleep } from './lib/io.ts';
-import { TAGS_DIR } from './lib/paths.ts';
+import { deepMerge } from './lib/merge.ts';
+import { OVERRIDES_DIR, TAGS_DIR } from './lib/paths.ts';
 
 const API = 'https://www.wikidata.org/w/api.php';
 const BATCH = 50; // wbgetentities limit
@@ -87,7 +90,12 @@ async function main(): Promise<void> {
 
   const refs: { story: string; name: string; qid: string }[] = [];
   for (const file of files) {
-    const parsed = TagSubjects.safeParse(readJson(file));
+    const override = join(OVERRIDES_DIR, basename(file));
+    const record =
+      !dirArg && existsSync(override)
+        ? deepMerge(readJson(file), readJson(override))
+        : readJson(file);
+    const parsed = TagSubjects.safeParse(record);
     if (!parsed.success) continue; // tags:validate reports malformed records
     for (const s of parsed.data.subjects)
       if (s.wikidata) refs.push({ story: basename(file, '.json'), name: s.name, qid: s.wikidata });
