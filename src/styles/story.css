@@ -149,3 +149,94 @@
 .library-actions {
   margin-top: var(--space-4);
 }
+
+/* Library actions and Share, side by side under the summary. */
+.story-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--space-2);
+  margin-top: var(--space-4);
+}
+
+.story-actions .library-actions {
+  margin-top: 0;
+}
+
+.share {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.share-status {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+}
+
+.share-url {
+  flex: 1 1 100%;
+  min-height: var(--size-tap);
+  padding: 0 var(--space-3);
+  border: var(--size-hairline) solid var(--color-border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-raised);
+  color: var(--color-text-primary);
+  font-size: var(--text-sm);
+}
+
+.share-url:focus-visible {
+  outline: var(--size-focus-ring) solid var(--color-border-focus);
+  outline-offset: var(--size-focus-offset);
+}
+
+/* A subject with a Wikidata id links out to Wikipedia. */
+.subject-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  color: var(--color-text-link);
+}
+
+.subject-link:hover {
+  color: var(--color-text-link-hover);
+}
+
+/* More like this. */
+.related {
+  display: grid;
+  gap: var(--space-1);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.related-link {
+  display: grid;
+  gap: var(--space-1);
+  padding: var(--space-2) var(--space-3);
+  margin-inline: calc(var(--space-3) * -1);
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  color: var(--color-text-primary);
+}
+
+.related-link:hover {
+  background: var(--color-surface-hover);
+}
+
+.related-link:focus-visible {
+  outline: var(--size-focus-ring) solid var(--color-border-focus);
+  outline-offset: 0;
+}
+
+.related-title {
+  font-family: var(--font-serif);
+  font-weight: var(--weight-semibold);
+}
+
+.related-meta {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+}

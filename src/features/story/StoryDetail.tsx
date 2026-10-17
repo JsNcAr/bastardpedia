@@ -12,6 +12,8 @@ import {
 } from '@/features/catalog/format';
 import type { Labels } from '@/features/catalog/labels';
 import { LibraryActions, LibraryNote } from './LibraryControls';
+import { related } from './related';
+import { ShareButton } from './ShareButton';
 
 const dateFmt = new Intl.DateTimeFormat('en', { year: 'numeric', month: 'long', day: 'numeric' });
 
@@ -35,11 +37,14 @@ export function StoryDetail({
   catalog,
   labels,
   headingLevel,
+  search = '',
 }: {
   story: CatalogStory;
   catalog: Catalog;
   labels: Labels;
   headingLevel: 1 | 2;
+  /** The catalogue's current query string, kept on links to other stories. */
+  search?: string;
 }) {
   const Heading = headingLevel === 1 ? 'h1' : 'h2';
   const period = storyPeriod(story);
@@ -60,7 +65,10 @@ export function StoryDetail({
           {story.title}
         </Heading>
         <p className="story-summary">{story.summary}</p>
-        <LibraryActions storyId={story.id} />
+        <div className="story-actions">
+          <LibraryActions storyId={story.id} />
+          <ShareButton storyId={story.id} title={story.title} />
+        </div>
       </header>
 
       <dl className="facts">
@@ -130,7 +138,20 @@ export function StoryDetail({
         <ul className="subjects">
           {story.subjects.map((s) => (
             <li key={s.name} className="subject">
-              <span className="subject-name">{s.name}</span>
+              {s.wikidata ? (
+                <a
+                  className="subject-name subject-link"
+                  href={`https://www.wikidata.org/wiki/Special:GoToLinkedPage/enwiki/${s.wikidata}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`${s.name} on Wikipedia (opens in a new tab)`}
+                >
+                  {s.name}
+                  <Icon name="external-link" size="sm" />
+                </a>
+              ) : (
+                <span className="subject-name">{s.name}</span>
+              )}
               <span className="subject-meta">
                 {s.org_type ? labels.orgType(s.org_type) : labels.subjectKind(s.kind)}
                 {s.role === 'secondary' ? ', secondary' : ''}
@@ -259,7 +280,48 @@ export function StoryDetail({
         </ol>
       </section>
 
+      <MoreLikeThis story={story} catalog={catalog} labels={labels} search={search} />
+
       <LibraryNote storyId={story.id} />
     </article>
+  );
+}
+
+/** Up to five stories that share subjects, themes, eras or places with this one. */
+function MoreLikeThis({
+  story,
+  catalog,
+  labels,
+  search,
+}: {
+  story: CatalogStory;
+  catalog: Catalog;
+  labels: Labels;
+  search: string;
+}) {
+  const list = related(story, catalog.stories);
+  if (list.length === 0) return null;
+  return (
+    <section className="story-section" aria-labelledby="related-title">
+      <h3 id="related-title" className="section-title">
+        More like this
+      </h3>
+      <ul className="related">
+        {list.map((s) => {
+          const period = storyPeriod(s);
+          return (
+            <li key={s.id}>
+              <Link className="related-link" to={{ pathname: `/stories/${s.id}`, search }}>
+                <span className="related-title">{s.title}</span>
+                <span className="related-meta">
+                  {period ? `${period} · ` : ''}
+                  {labels.of('theme', s.themes.primary)}
+                </span>
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
   );
 }
