@@ -168,6 +168,31 @@
   font-weight: var(--weight-medium);
 }
 
+/* On a story page the way back stays in reach while the story scrolls. */
+.story-page .back-link {
+  position: sticky;
+  top: var(--size-header);
+  z-index: var(--z-sticky);
+  display: flex;
+  margin-inline: calc(var(--space-4) * -1);
+  padding-inline: var(--space-4);
+  background: var(--color-surface-page);
+  border-bottom: var(--size-hairline) solid var(--color-border-subtle);
+}
+
+/* The story pane's close button, kept in view while the story scrolls. Sticky
+   offsets count from inside the pane's padding, so top cancels it out. */
+.pane-bar {
+  position: sticky;
+  top: calc(var(--space-8) * -1);
+  z-index: var(--z-sticky);
+  display: flex;
+  justify-content: flex-end;
+  margin: calc(var(--space-8) * -1) calc(var(--space-8) * -1) 0;
+  padding: var(--space-2);
+  background: var(--color-surface-raised);
+}
+
 @media (min-width: 48rem) {
   .site-header {
     padding: 0 var(--space-6);

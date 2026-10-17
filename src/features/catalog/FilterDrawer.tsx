@@ -21,6 +21,19 @@ export function FilterDrawer({
     if (!open && dialog.open) dialog.close();
   }, [open]);
 
+  // A tap on the backdrop closes the drawer. A click on the dialog element itself
+  // can only land there: the drawer has no padding and its rows fill it.
+  // Keyboards already have Escape and the close button.
+  useEffect(() => {
+    const dialog = ref.current;
+    if (!dialog) return;
+    const onClick = (e: MouseEvent) => {
+      if (e.target === dialog) setOpen(false);
+    };
+    dialog.addEventListener('click', onClick);
+    return () => dialog.removeEventListener('click', onClick);
+  }, [setOpen]);
+
   return (
     <dialog
       ref={ref}

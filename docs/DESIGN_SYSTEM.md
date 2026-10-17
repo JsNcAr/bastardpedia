@@ -104,6 +104,14 @@ run `npm run icons`.
   Expansion is UI state, never part of the URL.
 
 - Active filters appear as removable chips with a clear-all.
+- **Panels, drawers and story views can always be left in one step:**
+  - a visible close control that stays in view while the content scrolls;
+  - Escape, except while typing;
+  - tapping a drawer's backdrop.
+
+  Closing returns focus to where the visitor came from, and a new story opens
+  at its top.
+
 - The year range pairs two sliders (on a cubic scale, so recent centuries get
   more travel than antiquity) with From and To text fields that accept negative
   years or "BCE". Dragging replaces the URL; typing a year pushes it.
