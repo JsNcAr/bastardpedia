@@ -1,0 +1,154 @@
+{
+  "story_id": "the-food-and-drug-administration",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Food and Drug Administration",
+      "kind": "organization",
+      "org_type": "government-agency",
+      "role": "primary"
+    },
+    {
+      "name": "Harvey Washington Wiley",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1844, "end": 1930 }
+    },
+    {
+      "name": "Food adulteration in the United States",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    },
+    {
+      "name": "Vioxx scandal",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Opioid crisis",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "public-health",
+    "secondary": ["corporate-malfeasance", "medical-malpractice", "drugs", "propaganda-media"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "DE", "GB"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1906, "end": 2019 },
+    "covered_span": { "start": 1879, "end": 2021 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "History of the US Food and Drug Administration, from the poisoned milk and adulterated food that led to the 1906 Pure Food and Drug Act to an agency funded by drug-maker fees that approved Vioxx and broad opioid use.",
+  "content_warnings": ["child-death", "drug-use"],
+  "keywords": [
+    "Pure Food and Drug Act",
+    "Poison Squad",
+    "The Jungle",
+    "Upton Sinclair",
+    "Frances Oldham Kelsey",
+    "thalidomide",
+    "Prescription Drug User Fee Act",
+    "OxyContin",
+    "GRAS",
+    "formaldehyde milk"
+  ],
+  "guests": ["Matt Lieb"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:31:47",
+      "note": "1879 public-health speech listing adulterated foods opens the reform narrative"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:33:52",
+      "note": "Wiley's chemistry division and its 1902 human toxicity trials; his food work began 1881"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:17:12",
+      "note": "infant deaths from formaldehyde-dosed and contaminated milk in Indianapolis and New York"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:28:40",
+      "note": "extended account of British children poisoned by arsenic-coloured sweets, 1840s-1850s"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:03:30",
+      "note": "host dates the agency's creation to the 1938 Food, Drug and Cosmetic Act after the 1906 law"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:06:13",
+      "note": "thalidomide harmed children in Germany and elsewhere while Kelsey kept it off the US market"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:09:55",
+      "note": "1992 user fee law makes drug makers a major funder of the agency"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:28:00",
+      "note": "Vioxx approved in 1999 on small studies despite emerging heart-risk data"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:31:37",
+      "note": "Vioxx withdrawn 2004 after tens of thousands of estimated deaths"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:39:30",
+      "note": "agency's role in the opioid crisis, including the 2019 Oklahoma ruling"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:35:25",
+      "note": "hosts discuss their own past opioid use and addiction at length"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:50:37",
+      "note": "revolving door to industry traced to recent departures of agency staff"
+    }
+  ],
+  "notes": "Transcript says the FDA was established by the 1938 act; historically the name dates to 1930, with the agency descending from the 1906 law. Napoleonic canning and British adulteration treated as background. Frances Kelsey and thalidomide get a short segment and sit in keywords. Covered end 2021 approximate, from the latest cited reporting."
+}

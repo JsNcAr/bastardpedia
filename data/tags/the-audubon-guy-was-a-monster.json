@@ -1,0 +1,83 @@
+{
+  "story_id": "the-audubon-guy-was-a-monster",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "John James Audubon",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1785, "end": 1851 }
+    },
+    {
+      "name": "Samuel George Morton",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1799, "end": 1851 }
+    }
+  ],
+  "roles": ["scientist-scholar", "entertainer-artist", "business-executive"],
+  "themes": {
+    "primary": "racism-white-supremacy",
+    "secondary": [
+      "slavery-forced-labor",
+      "eugenics-scientific-racism",
+      "science-exploration",
+      "cultural-heritage-looting",
+      "fraud-grift"
+    ]
+  },
+  "regions": {
+    "origin": ["HT", "FR"],
+    "setting": ["US", "FR", "HT"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1804, "end": 1843 },
+    "covered_span": { "start": 1785, "end": 1851 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Naturalist and bird painter John James Audubon, namesake of the Audubon Society, bought and sold enslaved people in Kentucky, faked a bird species to raise funds, and robbed Indigenous graves for skulls supplied to race scientist Samuel Morton.",
+  "content_warnings": ["slavery"],
+  "keywords": [
+    "Birds of America",
+    "Ornithological Biography",
+    "Bird of Washington",
+    "Saint-Domingue",
+    "Henderson, Kentucky",
+    "Panic of 1819",
+    "Morton skull collection",
+    "John Kirk Townsend",
+    "Penn Museum",
+    "NAGPRA"
+  ],
+  "guests": ["David Bell"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "regions", "part": 1, "at": "00:04:46", "note": "born in Saint-Domingue (modern Haiti) to a French slave-trading captain" },
+    { "facet": "regions", "part": 1, "at": "00:11:58", "note": "raised in Nantes, France before being sent to Pennsylvania" },
+    { "facet": "time", "part": 1, "at": "00:19:22", "note": "early bird-banding experiment on the family farm in Pennsylvania" },
+    { "facet": "themes", "part": 1, "at": "00:29:49", "note": "works as a slave dealer and keeps enslaved people in Kentucky households" },
+    { "facet": "themes", "part": 1, "at": "00:47:37", "note": "invents the nonexistent Bird of Washington to raise money in Europe" },
+    { "facet": "themes", "part": 1, "at": "00:51:17", "note": "Runaway tale in Ornithological Biography returning a fugitive family to slavery" },
+    { "facet": "themes", "part": 1, "at": "00:55:57", "note": "Morton as patron; craniometry and the roots of scientific racism" },
+    { "facet": "time", "part": 1, "at": "00:57:32", "note": "1843 Missouri trip: takes skulls from Assiniboine burials after smallpox" },
+    { "facet": "time", "part": 1, "at": "01:04:18", "note": "Morton skulls held by Penn Museum, slow NAGPRA repatriation to the present" },
+    { "facet": "time", "part": 1, "at": "01:07:58", "note": "Audubon Society's 2020 reckoning with his record after a Central Park incident" }
+  ],
+  "notes": "Transcript garbles the birth year; 1785 used from general knowledge. Roles: entertainer-artist stands in for wildlife painter; business-executive covers his store and slave dealing. Townsend gets a short segment only, so kept as a keyword. Grave robbing of Indigenous remains tagged cultural-heritage-looting as the closest fit."
+}

@@ -1,0 +1,126 @@
+{
+  "story_id": "the-judge-rotenberg-center",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Judge Rotenberg Center",
+      "kind": "organization",
+      "org_type": "school-or-facility",
+      "role": "primary"
+    },
+    {
+      "name": "Matthew Israel",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": null, "end": null }
+    },
+    {
+      "name": "B. F. Skinner",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1904, "end": 1990 }
+    },
+    {
+      "name": "Graduated Electronic Decelerator",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["psychiatrist-psychologist", "business-executive", "inventor-engineer"],
+  "themes": {
+    "primary": "child-abuse",
+    "secondary": ["medical-malpractice", "education", "public-health"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-MA"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1971, "end": null },
+    "covered_span": { "start": 1930, "end": 2022 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Behaviorist Matthew Israel founded the Behavior Research Institute in 1971, later the Judge Rotenberg Center in Massachusetts, where disabled and autistic students were pinched, restrained and given electric shocks for decades.",
+  "content_warnings": ["child-abuse", "torture", "medical-horror", "suicide-self-harm"],
+  "keywords": [
+    "Behavior Research Institute",
+    "aversive therapy",
+    "Walden Two",
+    "Ernest Rotenberg",
+    "Andre McCollins",
+    "Tobinworld",
+    "Association for Social Design",
+    "Self-Injurious Behavior Inhibiting System",
+    "Ivar Lovaas",
+    "Providence"
+  ],
+  "guests": ["Aidan Bonacci"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:09:28",
+      "note": "Israel born in Brookline sometime in the 1930s; host found no exact year"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:11:03",
+      "note": "Skinner and behaviorism get a long segment as Israel's formative influence"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:31:26",
+      "note": "Behavior Research Institute founded in Providence, Rhode Island in 1971"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:41:20",
+      "note": "California branch shut down for unlicensed practice; later runs as a parent co-op"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:02:26",
+      "note": "Massachusetts probate judge Rotenberg rules aversives may continue; school renamed for him"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:16:10",
+      "note": "Israel builds the GED shock device after the SIBIS makers refuse to raise its strength"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:32:30",
+      "note": "2007 prank call leads to two teens shocked dozens of times; 2011 indictment and exit"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:44:05",
+      "note": "FDA ban on shock devices overturned by an appeals court in 2021; school still operating"
+    }
+  ],
+  "notes": "Israel's birth year is not given (host says the 1930s), so lifespan start is null and covered_span starts at an estimated 1930. His death status is not addressed; end left null. Massachusetts is the main state, but Rhode Island and California also have real segments. Some victims were adults (e.g. a 25-year-old student), but most were minors."
+}

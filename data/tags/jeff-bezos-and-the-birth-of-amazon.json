@@ -1,0 +1,77 @@
+{
+  "story_id": "jeff-bezos-and-the-birth-of-amazon",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Jeff Bezos",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1964, "end": null },
+      "wikidata": "Q312556"
+    },
+    {
+      "name": "Amazon",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "primary",
+      "wikidata": "Q3884"
+    }
+  ],
+  "roles": ["tech-founder"],
+  "themes": {
+    "primary": "tech-internet",
+    "secondary": ["labor-exploitation", "corporate-malfeasance", "education", "finance-crypto"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1994, "end": null },
+    "covered_span": { "start": 1964, "end": 2021 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Biography of Amazon founder Jeff Bezos from his New Mexico and Texas childhood through Wall Street to founding Amazon in 1994, and how his data-obsessed management built a punishing corporate culture and dangerous warehouse conditions.",
+  "content_warnings": [],
+  "keywords": [
+    "The Everything Store",
+    "Brad Stone",
+    "D. E. Shaw",
+    "MacKenzie Scott",
+    "Leadership Principles",
+    "Prime Day",
+    "Kiva Systems",
+    "Allentown warehouse heat",
+    "Mark Onetto",
+    "Megacorp"
+  ],
+  "guests": ["Jake Hanrahan"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:07:57", "note": "born January 1964 in Albuquerque, New Mexico" },
+    { "facet": "themes", "part": 1, "at": "00:23:10", "note": "long segment on the Houston public-school gifted program he attended" },
+    { "facet": "themes", "part": 1, "at": "00:53:36", "note": "fintech career and hedge fund D. E. Shaw before founding Amazon" },
+    { "facet": "time", "part": 2, "at": "00:03:38", "note": "sales-tax loophole drives the 1994 move to Seattle to found the company" },
+    { "facet": "themes", "part": 2, "at": "00:20:26", "note": "2015 New York Times reporting on Amazon's punishing office culture" },
+    { "facet": "themes", "part": 2, "at": "00:37:43", "note": "Bezos rejects a respect-for-workers paper and pushes warehouse turnover to avoid unions" },
+    { "facet": "themes", "part": 2, "at": "00:39:18", "note": "2011 warehouse heat incident after Bezos refused air conditioning" },
+    { "facet": "time", "part": 2, "at": "00:42:53", "note": "Kiva robots around 2014 and worker surveillance carry the story to the present" }
+  ],
+  "notes": "Amazon is treated as co-primary because it is in the title and part 2 is mostly company history. Bezos was alive and still active at release (stepped down as CEO in 2021), so main_span end is null. Episode is framed as a prelude to the Megacorp podcast."
+}

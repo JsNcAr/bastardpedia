@@ -1,0 +1,123 @@
+{
+  "story_id": "the-ballad-of-eel-horse",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Feaguing",
+      "kind": "practice-or-pseudoscience",
+      "role": "primary"
+    },
+    {
+      "name": "Phoenix Program",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Live eel insertion as a constipation remedy",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "fraud-grift",
+    "secondary": [
+      "quackery-pseudoscience",
+      "intelligence-covert-ops",
+      "war-war-crimes",
+      "folklore-legend"
+    ]
+  },
+  "regions": {
+    "origin": ["GB"],
+    "setting": ["GB", "CN", "VN"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1500, "end": 1800 },
+    "covered_span": { "start": 1500, "end": 2021 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Traces the practice of English horse dealers inserting live eels, later ginger, into old horses to pass them off as young, through eel torture in the CIA's Phoenix Program to modern Chinese hospital cases blamed on a folk constipation cure.",
+  "content_warnings": ["medical-horror", "torture", "sexual-violence", "animal-cruelty"],
+  "keywords": [
+    "eel horse",
+    "figging",
+    "horse dealers",
+    "Classical Dictionary of the Vulgar Tongue",
+    "Thomas Overbury",
+    "John Milton",
+    "William Colby",
+    "Guangdong",
+    "Asian swamp eel",
+    "Douglas Valentine"
+  ],
+  "guests": ["Garrison Davis"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "low",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:05:16",
+      "note": "feaguing dated as popular from the 1500s into the early 1800s, origin unclear"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:12:32",
+      "note": "eels replaced by ginger by the late 1700s and early 1800s; ginger still policed at horse shows"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:15:42",
+      "note": "segment on the Phoenix Program, 1965-1972, run by the CIA in Vietnam"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:17:18",
+      "note": "torture methods in Phoenix interrogation centres, including rape with eels"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:20:58",
+      "note": "first modern case, Guangdong, 2013; most later cases also in southern and eastern China"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:29:58",
+      "note": "2017 Guangdong case attributed to a folk remedy for constipation with no medical basis"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:39:28",
+      "note": "latest case discussed, a July incident reported by Global Times (2021)"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:42:00",
+      "note": "colon surgeon doubts the folk remedy exists; host traces it to one article and suspects kink"
+    }
+  ],
+  "notes": "Odd one-off: no theme covers animal cruelty, sexual kink or bizarre medical cases. fraud-grift picked as primary for dealers passing old horses off as young; quackery-pseudoscience covers the folk cure. Phoenix Program is a ~5 minute digression. Feaguing start year is approximate; host also implies 1400s. NZ (2012) and Brazil (2014) cases mentioned briefly, left out of setting."
+}

@@ -1,0 +1,93 @@
+{
+  "story_id": "let-s-talk-about-cryptocurrency",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Cryptocurrency",
+      "kind": "practice-or-pseudoscience",
+      "role": "primary"
+    },
+    {
+      "name": "Non-fungible tokens",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    },
+    {
+      "name": "Mt. Gox",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Evolved Apes",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Sale of Beeple's Everydays: The First 5000 Days",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "finance-crypto",
+    "secondary": ["fraud-grift", "tech-internet", "environmental-destruction"]
+  },
+  "regions": {
+    "origin": [],
+    "setting": ["US", "JP"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "global"
+  },
+  "time": {
+    "main_span": { "start": 2009, "end": 2021 },
+    "covered_span": { "start": 1982, "end": 2021 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "A survey of cryptocurrency from early digital-cash schemes to the 2021 NFT boom, covering the Mt. Gox collapse, crypto Ponzi schemes, NFT art theft and rug pulls, wash trading and money laundering, and the energy cost of blockchains.",
+  "content_warnings": [],
+  "keywords": [
+    "Bitcoin",
+    "Satoshi Nakamoto",
+    "Ethereum",
+    "David Gerard",
+    "Attack of the 50 Foot Blockchain",
+    "DigiCash",
+    "e-gold",
+    "Mark Karpeles",
+    "Bitcoin Savings and Trust",
+    "Amy Castor"
+  ],
+  "guests": ["Sofiya Alexandra"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "low",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:37:24", "note": "Pre-bitcoin history starts with David Chaum's 1982 paper on trustless digital money" },
+    { "facet": "time", "part": 1, "at": "00:42:31", "note": "e-gold and Liberty Reserve as earlier anonymous currencies, both shut down" },
+    { "facet": "themes", "part": 1, "at": "00:33:14", "note": "Cyber-libertarian Silicon Valley ideology behind crypto, per Gerard" },
+    { "facet": "themes", "part": 1, "at": "00:23:35", "note": "Proof-of-work mining and bitcoin's growing electricity use" },
+    { "facet": "subjects", "part": 1, "at": "00:52:00", "note": "Mt. Gox origin as a card-trading site, hidden thefts and sale to Karpeles" },
+    { "facet": "regions", "part": 1, "at": "01:01:48", "note": "Mt. Gox files for bankruptcy in Tokyo in 2014, later in the US" },
+    { "facet": "themes", "part": 1, "at": "01:09:40", "note": "Bitcoin Savings and Trust Ponzi scheme and other collapsed exchanges" },
+    { "facet": "themes", "part": 2, "at": "00:15:40", "note": "Scammers minting NFTs of artists' work without permission" },
+    { "facet": "subjects", "part": 2, "at": "00:22:58", "note": "Buyer of the Beeple NFT identified and his token scheme with the artist" },
+    { "facet": "subjects", "part": 2, "at": "00:39:07", "note": "Evolved Apes developer vanishes with the mint proceeds" },
+    { "facet": "themes", "part": 2, "at": "00:51:12", "note": "Ethereum energy use compared to whole nations" },
+    { "facet": "themes", "part": 2, "at": "00:57:31", "note": "Art as a money-laundering vehicle and NFT wash trading" }
+  ],
+  "notes": "Topic survey with no single bastard. Origin left empty: cryptocurrency has no single home country. Setting is a judgement call since most events are online; US and JP (Mt. Gox) are the only places with real airtime. Covered span starts at Chaum's 1982 paper because the pre-bitcoin digital currency history gets about ten minutes. The darknet drug-buying digression (e-gold) was not tagged as a drugs theme. No theme exists for art-market money laundering."
+}

@@ -1,0 +1,142 @@
+{
+  "story_id": "the-bastards-of-reality-television",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Reality television",
+      "kind": "practice-or-pseudoscience",
+      "role": "primary"
+    },
+    {
+      "name": "Mike Darnell",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1962, "end": null }
+    },
+    {
+      "name": "Ryan Jenkins",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1977, "end": 2009 }
+    },
+    {
+      "name": "Love Island",
+      "kind": "media-work",
+      "role": "secondary"
+    },
+    {
+      "name": "The Jeremy Kyle Show",
+      "kind": "media-work",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "entertainment-celebrity",
+    "secondary": ["corporate-malfeasance", "domestic-abuse", "tech-internet", "propaganda-media"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["GB", "US", "CA"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2000, "end": 2020 },
+    "covered_span": { "start": 1971, "end": 2021 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "A survey of abuses in reality television, from Fox's Who Wants to Marry a Multi-Millionaire? and a VH1 contestant who murdered his wife to the contestant suicides linked to the UK's Love Island and The Jeremy Kyle Show.",
+  "content_warnings": ["suicide-self-harm"],
+  "keywords": [
+    "An American Family",
+    "Who Wants to Marry a Multi-Millionaire?",
+    "Rick Rockwell",
+    "The Bachelor",
+    "Megan Wants a Millionaire",
+    "I Love Money",
+    "Jasmine Fiore",
+    "Caroline Flack",
+    "Steve Dymond",
+    "lie detector"
+  ],
+  "guests": ["David Bell"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:08:25",
+      "note": "history starts with PBS's An American Family, filmed 1971 and aired 1973"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:18:58",
+      "note": "Darnell's 2000 Fox special auctions brides to a groom later revealed as abusive"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:25:18",
+      "note": "restraining order shows the special's groom had beaten his ex-girlfriend"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:34:39",
+      "note": "networks shift to reality shows partly to sidestep unionized writers and actors"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:44:41",
+      "note": "producers deliberately court outrage from advocacy groups to drive press coverage"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:57:12",
+      "note": "Jenkins kills his wife in California, flees and dies in British Columbia"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:11:43",
+      "note": "Love Island contestant hounded by online harassment before her suicide"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:27:50",
+      "note": "segment on ITV's Jeremy Kyle Show and its lie detector tests on poor guests"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:40:27",
+      "note": "whistleblowers say staff stoked conflict and skimped on welfare checks"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:46:36",
+      "note": "Kyle's 2021 return on talk radio after the show's cancellation"
+    }
+  ],
+  "notes": "Survey episode with no single bastard, so the genre is the primary subject (no kind for a genre; practice-or-pseudoscience used as the closest fit). No theme for contestant welfare or mental health; corporate-malfeasance stands in. Darnell birth year from general knowledge. Love Island villa is in Majorca but the harm discussed happened in the UK, so ES is omitted."
+}

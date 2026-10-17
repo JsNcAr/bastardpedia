@@ -1,0 +1,83 @@
+{
+  "story_id": "a-terrible-story-about-the-internet",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Christine Weston Chandler",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1982, "end": null }
+    },
+    {
+      "name": "Kiwi Farms",
+      "kind": "organization",
+      "org_type": "media-outlet",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["influencer-online", "entertainer-artist"],
+  "themes": {
+    "primary": "tech-internet",
+    "secondary": [
+      "policing-incarceration",
+      "religious-right-culture-war",
+      "propaganda-media",
+      "domestic-abuse",
+      "child-abuse"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-VA"],
+    "polities": [],
+    "scope": "online"
+  },
+  "time": {
+    "main_span": { "start": 2007, "end": 2021 },
+    "covered_span": { "start": 1982, "end": 2022 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "The life of Christine Weston Chandler, the Virginia webcomic artist known as Chris Chan, whom forums like Something Awful, 4chan and Kiwi Farms harassed from 2007 on, and how those campaigns shaped online abuse up to her 2021 incest arrest.",
+  "content_warnings": ["suicide-self-harm", "sexual-violence"],
+  "keywords": [
+    "Chris Chan",
+    "Sonichu",
+    "CWCville",
+    "Charlottesville",
+    "Something Awful",
+    "4chan",
+    "Encyclopedia Dramatica",
+    "Idea Guys",
+    "Tucker Carlson",
+    "Near (byuu)"
+  ],
+  "guests": ["Margaret Killjoy"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:09:10", "note": "Birth in Charlottesville and family background open the biography" },
+    { "facet": "themes", "part": 1, "at": "00:15:52", "note": "Abusive babysitter, school restraint claim and court fight over special schooling" },
+    { "facet": "time", "part": 1, "at": "00:30:55", "note": "Comics on MySpace noticed by a Something Awful thread in October 2007" },
+    { "facet": "themes", "part": 1, "at": "00:41:10", "note": "Account of police hogtying her at a Target for loitering" },
+    { "facet": "content_warnings", "part": 1, "at": "00:05:06", "note": "Cold open on the suicide of developer Near after Kiwi Farms harassment" },
+    { "facet": "subjects", "part": 2, "at": "00:19:34", "note": "Kiwi Farms founded specifically to follow and mock Chandler" },
+    { "facet": "themes", "part": 2, "at": "00:29:03", "note": "Idea Guys extortion, including forcing her to punch her mother" },
+    { "facet": "time", "part": 2, "at": "00:40:35", "note": "August 2021 arrest in Virginia on incest charges involving her elderly mother" },
+    { "facet": "themes", "part": 2, "at": "00:49:43", "note": "Tucker Carlson segment turns the arrest into an anti-trans culture-war story" },
+    { "facet": "time", "part": 2, "at": "00:52:52", "note": "Hearings continued into 2022, still jailed at release, sets covered end and reaches_present" }
+  ],
+  "notes": "Scope set to online since the harassment happens mostly on forums; setting kept as US/VA for the offline events. main_span ends at the 2021 arrest rather than null, though the case and harassment were ongoing at release. Kiwi Farms org_type media-outlet as the nearest fit for a forum. Near's suicide is a cold open only, not a subject. Racism and homophobia of the subject discussed briefly; not tagged."
+}

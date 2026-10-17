@@ -1,0 +1,103 @@
+{
+  "story_id": "john-wayne-a-dude-who-sucked",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "John Wayne",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1907, "end": 1979 },
+      "wikidata": "Q40531"
+    },
+    {
+      "name": "John Ford",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1894, "end": 1973 }
+    },
+    {
+      "name": "The Green Berets (1968 film)",
+      "kind": "media-work",
+      "role": "secondary"
+    },
+    {
+      "name": "Motion Picture Alliance for the Preservation of American Ideals",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "The Conqueror (1956 film)",
+      "kind": "media-work",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["entertainer-artist", "activist-organizer"],
+  "themes": {
+    "primary": "entertainment-celebrity",
+    "secondary": [
+      "propaganda-media",
+      "war-war-crimes",
+      "racism-white-supremacy",
+      "domestic-abuse",
+      "religious-right-culture-war",
+      "misogyny-manosphere"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "VN", "MX"],
+    "subdivisions": ["US-CA"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1930, "end": 1979 },
+    "covered_span": { "start": 1907, "end": 1979 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Biography of Hollywood cowboy star John Wayne (1907-1979), who avoided service in World War II, abused women, voiced open racism, and used his films, notably The Green Berets, to sell the Vietnam War and a violent ideal of white Christian manhood.",
+  "content_warnings": [],
+  "keywords": [
+    "Stagecoach",
+    "The Big Trail",
+    "Sands of Iwo Jima",
+    "Jesus and John Wayne",
+    "Muscular Christianity",
+    "Marlene Dietrich",
+    "Sacheen Littlefeather",
+    "Winterset, Iowa",
+    "Downwinders",
+    "Robin Moore"
+  ],
+  "guests": ["Francesca Fiorentini"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:26:36", "note": "Born Marion Robert Morrison in Winterset, Iowa, 1907" },
+    { "facet": "time", "part": 2, "at": "00:06:21", "note": "First starring role in The Big Trail, shot drunk and sick in Yuma" },
+    { "facet": "themes", "part": 1, "at": "00:25:04", "note": "Long background on muscular Christianity framing Wayne as its avatar" },
+    { "facet": "themes", "part": 2, "at": "00:30:48", "note": "Account of Wayne punching Marlene Dietrich on set; pattern of hitting women" },
+    { "facet": "regions", "part": 2, "at": "00:33:29", "note": "Affair with teenage Chata begins in Mexico; Mexican yacht trips with Ford's circle" },
+    { "facet": "themes", "part": 2, "at": "00:41:25", "note": "Extended segment on Wayne dodging WWII service while peers enlisted" },
+    { "facet": "subjects", "part": 2, "at": "01:03:59", "note": "Helps found and leads the anticommunist Motion Picture Alliance during the Red Scare" },
+    { "facet": "subjects", "part": 2, "at": "01:25:59", "note": "The Conqueror shot downwind of Nevada nuclear tests; cast cancer cluster" },
+    { "facet": "themes", "part": 3, "at": "00:29:21", "note": "Pentagon gets script control of The Green Berets in exchange for gear" },
+    { "facet": "regions", "part": 3, "at": "00:38:24", "note": "Wayne tours front lines in Vietnam; film used to drive enlistment" },
+    { "facet": "themes", "part": 3, "at": "00:52:19", "note": "1971 Playboy interview endorsing white supremacy and Native dispossession" },
+    { "facet": "time", "part": 3, "at": "01:10:50", "note": "Death in 1979, then legacy with Reagan, Buchanan, Gingrich and evangelicals" }
+  ],
+  "notes": "No theme for masculinity ideals; misogyny-manosphere is the nearest fit for the story's framing of Wayne as a model of toxic manhood. Turn-of-century Roosevelt and muscular Christianity background excluded from covered_span. Relationship with 17-year-old Chata discussed but kept out of sexual-abuse/child-abuse as the story treats her age and circumstances as unclear. activist-organizer reflects MPA leadership and pro-war speeches."
+}

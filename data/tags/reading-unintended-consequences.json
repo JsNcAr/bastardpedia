@@ -1,0 +1,92 @@
+{
+  "story_id": "reading-unintended-consequences",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "media-reading",
+  "subjects": [
+    {
+      "name": "Unintended Consequences (novel)",
+      "kind": "media-work",
+      "role": "primary"
+    },
+    {
+      "name": "John Ross",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1957, "end": null }
+    },
+    {
+      "name": "Bonus Army",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "United States v. Miller",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["writer-intellectual", "activist-organizer"],
+  "themes": {
+    "primary": "weapons-arms-trade",
+    "secondary": [
+      "propaganda-media",
+      "terrorism",
+      "coups-insurrections",
+      "policing-incarceration",
+      "authoritarianism"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1932, "end": 1996 },
+    "covered_span": { "start": 1906, "end": 1996 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "A reading of Unintended Consequences, a 1996 gun-rights novel by Missouri concealed-carry advocate John Ross that strings real US history into a case for an armed revolt against the ATF and became a staple of 1990s and 2000s gun-show culture.",
+  "content_warnings": [],
+  "keywords": [
+    "Henry Bowman",
+    "Accurate Press",
+    "Ruby Ridge",
+    "Waco siege",
+    "Smedley Butler",
+    "Douglas MacArthur",
+    "National Firearms Act",
+    "Timothy McVeigh",
+    "The Turner Diaries",
+    "Matt Bracken"
+  ],
+  "guests": ["Karl Kasarda"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "subjects", "part": 1, "at": "00:04:18", "note": "Ross introduced: Missouri congressional candidate, self-described pre-Roosevelt Democrat" },
+    { "facet": "roles", "part": 1, "at": "00:12:30", "note": "Ross described as a leading concealed-carry advocate in Missouri" },
+    { "facet": "themes", "part": 1, "at": "00:03:15", "note": "book framed as gun-confiscation civil war fantasy rooted in Ruby Ridge and the militia movement" },
+    { "facet": "subjects", "part": 1, "at": "00:15:42", "note": "novel's opening hinges on the 1938-39 Miller sawed-off shotgun case, discussed at length" },
+    { "facet": "time", "part": 1, "at": "00:22:25", "note": "novel opens its history in 1906 with exhibition shooting and early gun culture" },
+    { "facet": "subjects", "part": 1, "at": "00:25:31", "note": "1932 Bonus Army crackdown and Smedley Butler as characters, long discussion" },
+    { "facet": "themes", "part": 1, "at": "00:34:21", "note": "McVeigh, Oklahoma City and how different books radicalize to different violence" },
+    { "facet": "themes", "part": 1, "at": "00:44:20", "note": "novel juxtaposes Kristallnacht deportations with the Miller court case" },
+    { "facet": "themes", "part": 1, "at": "00:53:10", "note": "hosts assess the book as effective, polished radicalizing propaganda" },
+    { "facet": "themes", "part": 1, "at": "00:56:21", "note": "Matt Bracken's similar insurgency novels compared" }
+  ],
+  "notes": "Primary theme weapons-arms-trade stands in for gun culture and gun-rights politics; no dedicated gun-politics theme exists. Ross's 1957 birth year is from general knowledge, not the packet. Covered span follows the novel's historical chapters read on air (1906 to WWII) through its 1996 publication; Warsaw Ghetto and Dachau material is brief, so DE/PL and nazism are left out. Only the first ~90 pages are read."
+}

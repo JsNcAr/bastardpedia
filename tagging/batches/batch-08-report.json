@@ -1,0 +1,152 @@
+[
+  {
+    "id": "the-twilight-zone-movie",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Main span ends 1987 (acquittal) from general knowledge; transcript only says the case took about three years. Covered span runs to 2022 because of the lifetime rule for living primary subject Landis. Exorcist/Hitchcock material is background comparison and not counted. Policing-incarceration used for the criminal trial for lack of a courts/justice theme; no theme for workplace or film-set safety, so labor-exploitation stands in."
+  },
+  {
+    "id": "a-terrible-story-about-the-internet",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Scope set to online since the harassment happens mostly on forums; setting kept as US/VA for the offline events. main_span ends at the 2021 arrest rather than null, though the case and harassment were ongoing at release. Kiwi Farms org_type media-outlet as the nearest fit for a forum. Near's suicide is a cold open only, not a subject. Racism and homophobia of the subject discussed briefly; not tagged."
+  },
+  {
+    "id": "reading-unintended-consequences",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Primary theme weapons-arms-trade stands in for gun culture and gun-rights politics; no dedicated gun-politics theme exists. Ross's 1957 birth year is from general knowledge, not the packet. Covered span follows the novel's historical chapters read on air (1906 to WWII) through its 1996 publication; Warsaw Ghetto and Dachau material is brief, so DE/PL and nazism are left out. Only the first ~90 pages are read."
+  },
+  {
+    "id": "john-wayne-a-dude-who-sucked",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "No theme for masculinity ideals; misogyny-manosphere is the nearest fit for the story's framing of Wayne as a model of toxic manhood. Turn-of-century Roosevelt and muscular Christianity background excluded from covered_span. Relationship with 17-year-old Chata discussed but kept out of sexual-abuse/child-abuse as the story treats her age and circumstances as unclear. activist-organizer reflects MPA leadership and pro-war speeches."
+  },
+  {
+    "id": "the-audubon-guy-was-a-monster",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript garbles the birth year; 1785 used from general knowledge. Roles: entertainer-artist stands in for wildlife painter; business-executive covers his store and slave dealing. Townsend gets a short segment only, so kept as a keyword. Grave robbing of Indigenous remains tagged cultural-heritage-looting as the closest fit."
+  },
+  {
+    "id": "that-time-britain-did-a-genocide-in-ireland",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary is the event, so no roles. covered_span start 1541 (surrender and regrant) is an estimate: the transcript gives no year for Henry VIII's demand; the Norman invasion segment is brief and excluded. Famine end year 1852 is general knowledge. No theme exists for laissez-faire economic ideology, which is a major thread; finance-crypto used for the landlord and eviction system. Origin IE is a judgement call for an event; GB could be argued as the perpetrator."
+  },
+  {
+    "id": "the-bastards-of-reality-television",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Survey episode with no single bastard, so the genre is the primary subject (no kind for a genre; practice-or-pseudoscience used as the closest fit). No theme for contestant welfare or mental health; corporate-malfeasance stands in. Darnell birth year from general knowledge. Love Island villa is in Majorca but the harm discussed happened in the UK, so ES is omitted."
+  },
+  {
+    "id": "the-moonies-are-so-much-worse-than-you-could-possibly-imagine",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Hosted by Mia Wong (called Chris in the transcript) with Robert Evans. Setting capped at six: Guatemala, El Salvador, Uruguay, Cambodia and North Korea (prison camp, 1991 return) also get segments. Death-squad funding spans many countries; coups-insurrections chosen over war-war-crimes. Covered span ends 2021 with the church's post-death schism and January 6."
+  },
+  {
+    "id": "how-the-rich-ate-christianity",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "The primary subject is the movement, not Fifield, because the story is about the business campaign as a whole; Fifield's life is covered only from 1935, so making him primary would wrongly trigger the lifetime rule. The 1890s-1920s Christian socialists are treated as background. The Pew survey year is garbled in the transcript; read as 1958. reaches_present is borderline (Malheur pocket constitutions, evangelical voting shares)."
+  },
+  {
+    "id": "tzar-nicholas-ii-was-a-real-dick",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Alexander II listed as secondary because part 1 spends roughly 20 minutes on his reign, reforms and 1881 assassination; this sets covered_span start at 1855. Romanov rise in 1613 is a passing mention. Setting omits Latvia/Baltics (brief crackdown mention). occult-esoteric chosen for Philippe and Rasputin as mystic healers; quackery-pseudoscience also arguable. Brief Putin joke at the end does not count as reaching the present."
+  },
+  {
+    "id": "george-shea-hot-dog-villain",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Reverse episode hosted by Jamie Loftus. Shea's birth year given as 1964 or 1965 (1964 used, approximate). Takeover year and Kobayashi arrest year are blanked in the transcript; early 1990s and 2010 from general knowledge. misogyny-manosphere is the closest fit for the gender-segregated women's division; there is no theme for workplace sex discrimination. Richard Shea is co-founder but has no segment of his own."
+  },
+  {
+    "id": "the-man-who-pioneered-libraries-and-sexual-harassment",
+    "format": "deep-dive",
+    "low": ["roles"],
+    "notes": "Part description says John Dewey; the episode is about Melvil Dewey. No role fits a librarian well: scientist-scholar (library science), inventor-engineer (classification, vertical file), business-executive (supply firm, Lake Placid Club) are approximations. Harassment was unwanted touching/kissing, not detailed assault, so no sexual-violence warning. No library theme; education used as closest."
+  },
+  {
+    "id": "the-food-and-drug-administration",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript says the FDA was established by the 1938 act; historically the name dates to 1930, with the agency descending from the 1906 law. Napoleonic canning and British adulteration treated as background. Frances Kelsey and thalidomide get a short segment and sit in keywords. Covered end 2021 approximate, from the latest cited reporting."
+  },
+  {
+    "id": "the-cash-for-kids-scandal",
+    "format": "deep-dive",
+    "low": ["roles"],
+    "notes": "Two-part story: Part 1 is the Luzerne County Kids for Cash scandal, Part 2 the history of Texas youth prisons, so both are primary. No judge role exists; politician-official (elected judges) and criminal-killer (bribery convictions) are approximations. No corruption theme; fraud-grift used for the kickbacks. main_span follows the title scandal; Part 2's core runs 1889-2019. Conahan birth year from general knowledge."
+  },
+  {
+    "id": "the-man-who-built-a-gun-to-shoot-space",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Setting puts the harm places first (South Africa, Iraq), then Canada and the US where most of the career happened. China and Austria get shorter segments and are left as keywords. The Angola war (AO) and Iran (IR) come up only in passing. Saddam Hussein is not listed as a subject because he gets no segment of his own."
+  },
+  {
+    "id": "hiram-maxim-inventor-of-the-machine-gun-and-curling-iron",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Packet footnotes cite Gerald Bull, who is the part two subject announced at the end and not covered here. Transcript says the Emin Pasha relief faced Mahdists and that the Matabele leader killed himself at Shangani; both differ from standard histories, so the Sudan/Equatoria setting and suicide warning were left out. Masculinity-and-the-rifle segment has no close theme."
+  },
+  {
+    "id": "the-judge-rotenberg-center",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Israel's birth year is not given (host says the 1930s), so lifespan start is null and covered_span starts at an estimated 1930. His death status is not addressed; end left null. Massachusetts is the main state, but Rhode Island and California also have real segments. Some victims were adults (e.g. a 25-year-old student), but most were minors."
+  },
+  {
+    "id": "let-s-talk-about-the-pullman-strike-knob-gobblers",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Title names the strike but the episode is built as a Pullman biography, so both are primary. Transcript says the town was incorporated into Chicago in 1898 by the Illinois Supreme Court; historically annexation was 1889 and the 1898 ruling forced the company to sell the town. Covered span ends 1898 per the transcript. Federal troops and the injunction have no clean theme fit."
+  },
+  {
+    "id": "ben-shapiro-knows-less-about-sex-than-an-amoeba",
+    "format": "media-reading",
+    "low": ["time"],
+    "notes": "Hosts date Porn Generation to 2013; it was actually published in 2005 (the 2005 Generation Sex they find is likely an earlier title of the same book). Per the prompt, time follows the transcript (end 2013); reviewer may want 2005. Covered span starts at the 1998 Lewinsky chapter. Studies from 2010-2011 are host rebuttals, not story years. Part one is the separate story ben-shapiro-wrote-a-book-about-sex."
+  },
+  {
+    "id": "christmas-non-bastard-the-tupamaros-of-uruguay",
+    "format": "hero",
+    "low": [],
+    "notes": "Title names the Tupamaros, descriptions name Mujica, so both are primary. A long opening segment on Batlle's early-1900s reforms and the 1950s economic collapse is treated as background, so covered_span starts at Mujica's birth. Mujica was alive at release (died 2025), so covered_span ends 2021. Primary theme terrorism vs coups-insurrections is a judgment call; no theme for a positive hero insurgency."
+  },
+  {
+    "id": "jeff-bezos-and-the-birth-of-amazon",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Amazon is treated as co-primary because it is in the title and part 2 is mostly company history. Bezos was alive and still active at release (stepped down as CEO in 2021), so main_span end is null. Episode is framed as a prelude to the Megacorp podcast."
+  },
+  {
+    "id": "let-s-talk-about-cryptocurrency",
+    "format": "deep-dive",
+    "low": ["regions"],
+    "notes": "Topic survey with no single bastard. Origin left empty: cryptocurrency has no single home country. Setting is a judgement call since most events are online; US and JP (Mt. Gox) are the only places with real airtime. Covered span starts at Chaum's 1982 paper because the pre-bitcoin digital currency history gets about ten minutes. The darknet drug-buying digression (e-gold) was not tagged as a drugs theme. No theme exists for art-market money laundering."
+  },
+  {
+    "id": "the-not-at-all-sad-history-of-libertarian-sea-nations",
+    "format": "deep-dive",
+    "low": ["themes"],
+    "notes": "No theme for libertarianism, micronations or tax havens; fraud-grift chosen as primary since the host frames most projects as grifts, but Elwartowski and Ocean Builders are presented as sincere. Sealand and Heinlein are brief context, so covered_span starts at Minerva 1971. Turney birth year inferred from death in 2012 at 88. Republic of Minerva left to keywords for lack of subject slots."
+  },
+  {
+    "id": "the-ballad-of-eel-horse",
+    "format": "deep-dive",
+    "low": ["themes"],
+    "notes": "Odd one-off: no theme covers animal cruelty, sexual kink or bizarre medical cases. fraud-grift picked as primary for dealers passing old horses off as young; quackery-pseudoscience covers the folk cure. Phoenix Program is a ~5 minute digression. Feaguing start year is approximate; host also implies 1400s. NZ (2012) and Brazil (2014) cases mentioned briefly, left out of setting."
+  },
+  {
+    "id": "let-s-look-at-the-facebook-papers",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Format current-affairs: the story reports on documents leaked weeks before release about a subject the show covered earlier; deep-dive is a defensible alternative. Sri Lanka and Ethiopia only mentioned in passing. A 2015 Trump video is cited once, so covered_span starts at the 2016 segment."
+  }
+]

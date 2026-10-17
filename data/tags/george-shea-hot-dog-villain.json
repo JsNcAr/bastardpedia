@@ -1,0 +1,137 @@
+{
+  "story_id": "george-shea-hot-dog-villain",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "George Shea",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1964, "end": null }
+    },
+    {
+      "name": "Major League Eating",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Nathan's Famous Hot Dog Eating Contest",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Takeru Kobayashi",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1978, "end": null }
+    },
+    {
+      "name": "Morty Matz",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1972
+    }
+  ],
+  "roles": ["journalist-propagandist", "athlete-sports", "media-personality"],
+  "themes": {
+    "primary": "sports",
+    "secondary": [
+      "propaganda-media",
+      "racism-white-supremacy",
+      "misogyny-manosphere",
+      "labor-exploitation"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-NY"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1991, "end": null },
+    "covered_span": { "start": 1964, "end": 2022 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "PR man George Shea turned the Nathan's Hot Dog Eating Contest on Coney Island into a televised sport through Major League Eating, using invented myths, jingoism against Japanese champion Takeru Kobayashi and a sidelined women's division to win publicity.",
+  "content_warnings": [],
+  "keywords": [
+    "Richard Shea",
+    "Joey Chestnut",
+    "Sonya Thomas",
+    "Coney Island",
+    "Mustard Belt",
+    "Belt of Fat theory",
+    "Free Kobe",
+    "The Good, the Bad, the Hungry (30 for 30)",
+    "competitive eating",
+    "ESPN"
+  ],
+  "guests": ["Jamie Loftus"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:16:35",
+      "note": "Shea born in Boston around 1964-65, brothers raised in Maine"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:21:28",
+      "note": "segment on ad man Morty Matz, who invented the contest in the early 1970s and its fake origin myths"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:31:28",
+      "note": "Shea takes over the Nathan's account and contest around the early 1990s"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:33:00",
+      "note": "Belt of Fat hoax and other publicity stunts built on invented claims"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:51:55",
+      "note": "after 2007 the Sheas stoke anti-Japanese crowd hostility toward Kobayashi"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:00:54",
+      "note": "Kobayashi held to an exclusive contract, refuses to compete, arrested on stage in 2010"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:12:39",
+      "note": "women split into a separate division with less airtime and prize money; Sonya Thomas pressured"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:17:00",
+      "note": "Shea still hosting the contest at release; Cameo video from 2021"
+    }
+  ],
+  "notes": "Reverse episode hosted by Jamie Loftus. Shea's birth year given as 1964 or 1965 (1964 used, approximate). Takeover year and Kobayashi arrest year are blanked in the transcript; early 1990s and 2010 from general knowledge. misogyny-manosphere is the closest fit for the gender-segregated women's division; there is no theme for workplace sex discrimination. Richard Shea is co-founder but has no segment of his own."
+}

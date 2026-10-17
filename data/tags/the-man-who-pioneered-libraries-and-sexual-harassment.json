@@ -1,0 +1,89 @@
+{
+  "story_id": "the-man-who-pioneered-libraries-and-sexual-harassment",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Melvil Dewey",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1851, "end": 1931 }
+    },
+    {
+      "name": "American Library Association",
+      "kind": "organization",
+      "org_type": "ngo",
+      "role": "secondary"
+    },
+    {
+      "name": "Lake Placid Club",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Adelaide Hasse",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1868, "end": 1953 }
+    }
+  ],
+  "roles": ["scientist-scholar", "inventor-engineer", "business-executive"],
+  "themes": {
+    "primary": "sexual-abuse",
+    "secondary": ["racism-white-supremacy", "education", "labor-exploitation"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-NY"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1873, "end": 1906 },
+    "covered_span": { "start": 1851, "end": 1931 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Melvil Dewey, inventor of the Dewey Decimal System and co-founder of the American Library Association, built racial and religious bias into library classification, ran an antisemitic club and harassed female colleagues for decades until forced out in 1905-06.",
+  "content_warnings": [],
+  "keywords": [
+    "Dewey Decimal System",
+    "Columbia School of Library Economy",
+    "Spelling Reform Association",
+    "Amherst College",
+    "Lake Placid",
+    "Adirondacks",
+    "Burned-over District",
+    "Henry Leipziger",
+    "Wayne Wiegand",
+    "Irrepressible Reformer"
+  ],
+  "guests": ["Jamie Loftus"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "low",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:04:53", "note": "born December 1851 in Adams Center, upstate New York" },
+    { "facet": "time", "part": 1, "at": "00:22:44", "note": "conceives the decimal classification while working at the Amherst library" },
+    { "facet": "themes", "part": 1, "at": "00:25:47", "note": "how the classification sidelines non-Christian and Black religions and peoples" },
+    { "facet": "themes", "part": 1, "at": "00:38:54", "note": "Columbia library school admits women; applicants asked for photos and looks" },
+    { "facet": "themes", "part": 1, "at": "00:43:02", "note": "argues women librarians should be paid less than men" },
+    { "facet": "themes", "part": 1, "at": "00:45:05", "note": "decades of unwanted touching and kissing of subordinate women" },
+    { "facet": "time", "part": 1, "at": "00:55:29", "note": "1905 cruise harassment leads to his quiet ouster from the ALA in 1906" },
+    { "facet": "themes", "part": 1, "at": "01:01:16", "note": "Lake Placid Club bars Jews and Black people; land bought to keep Jews out" },
+    { "facet": "time", "part": 1, "at": "01:06:31", "note": "late-life settlement with a harassed stenographer" },
+    { "facet": "time", "part": 1, "at": "01:08:34", "note": "death by stroke, then 2019 ALA removal of his name from an award" }
+  ],
+  "notes": "Part description says John Dewey; the episode is about Melvil Dewey. No role fits a librarian well: scientist-scholar (library science), inventor-engineer (classification, vertical file), business-executive (supply firm, Lake Placid Club) are approximations. Harassment was unwanted touching/kissing, not detailed assault, so no sexual-violence warning. No library theme; education used as closest."
+}

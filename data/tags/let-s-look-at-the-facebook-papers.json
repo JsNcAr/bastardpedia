@@ -1,0 +1,153 @@
+{
+  "story_id": "let-s-look-at-the-facebook-papers",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "current-affairs",
+  "subjects": [
+    {
+      "name": "The Facebook Papers",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Facebook",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "primary",
+      "wikidata": "Q355"
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1984, "end": null },
+      "wikidata": "Q380"
+    },
+    {
+      "name": "Frances Haugen",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1984, "end": null }
+    },
+    {
+      "name": "Instagram",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "tech-internet",
+    "secondary": [
+      "corporate-malfeasance",
+      "propaganda-media",
+      "conspiracy-theories",
+      "fascism-far-right",
+      "coups-insurrections",
+      "electoral-politics"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "IN", "MM", "PL", "GB"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "global"
+  },
+  "time": {
+    "main_span": { "start": 2018, "end": 2021 },
+    "covered_span": { "start": 2016, "end": 2021 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "A walk through the 2021 Facebook Papers leaked by Frances Haugen, showing Facebook knew its algorithms spread disinformation, hate and Stop the Steal organizing, harmed teens on Instagram and fed violence in India and Myanmar, yet chose profit.",
+  "content_warnings": ["suicide-self-harm"],
+  "keywords": [
+    "Breitbart",
+    "Carol's Journey to QAnon",
+    "XCheck",
+    "January 6 Capitol attack",
+    "Boogaloo movement",
+    "meaningful social interactions",
+    "Joel Kaplan",
+    "Sheryl Sandberg",
+    "Adam Mosseri",
+    "RSS"
+  ],
+  "guests": ["Jamie Loftus"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:08:54",
+      "note": "Haugen photographs internal documents and leaks them to press and the SEC"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:15:03",
+      "note": "managed-partner program lets Breitbart and other right-wing sites dodge fact-check strikes"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:22:20",
+      "note": "2016 Gizmodo bias story and Trump win shape Facebook's fear of offending conservatives"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:42:09",
+      "note": "2019 test account of a conservative mom gets steered to QAnon groups within days"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:54:16",
+      "note": "internal report on Stop the Steal groups growing on the platform before January 6"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:25:51",
+      "note": "extended discussion of teen suicidal ideation traced to Instagram, with statistics"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:49:50",
+      "note": "Kerala test account and anti-Muslim content in India, West Bengal fake impressions"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:53:58",
+      "note": "Myanmar election safeguards rolled back before the 2021 military coup"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "01:02:19",
+      "note": "Polish Confederation party credits the algorithm; 2018 MSI change discussed"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:15:49",
+      "note": "XCheck whitelist shields millions of VIP accounts from enforcement"
+    }
+  ],
+  "notes": "Format current-affairs: the story reports on documents leaked weeks before release about a subject the show covered earlier; deep-dive is a defensible alternative. Sri Lanka and Ethiopia only mentioned in passing. A 2015 Trump video is cited once, so covered_span starts at the 2016 segment."
+}

@@ -1,0 +1,163 @@
+{
+  "story_id": "the-cash-for-kids-scandal",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Mark Ciavarella",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1950, "end": null }
+    },
+    {
+      "name": "Michael Conahan",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1952, "end": null }
+    },
+    {
+      "name": "Texas Youth Commission",
+      "kind": "organization",
+      "org_type": "police",
+      "role": "primary"
+    },
+    {
+      "name": "John DiIulio",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1958, "end": null }
+    },
+    {
+      "name": "Gatesville State School",
+      "kind": "organization",
+      "org_type": "school-or-facility",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["politician-official", "criminal-killer"],
+  "themes": {
+    "primary": "child-abuse",
+    "secondary": [
+      "policing-incarceration",
+      "racism-white-supremacy",
+      "moral-panics",
+      "fraud-grift",
+      "electoral-politics"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-PA", "US-TX"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2000, "end": 2011 },
+    "covered_span": { "start": 1886, "end": 2022 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Pennsylvania judges Mark Ciavarella and Michael Conahan took millions in kickbacks in the 2000s for filling a private youth jail with children sentenced for trivial offences, set against a century of abuse in Texas's juvenile prisons.",
+  "content_warnings": ["child-abuse", "torture", "suicide-self-harm"],
+  "keywords": [
+    "Kids for Cash",
+    "Luzerne County",
+    "Wilkes-Barre",
+    "PA Child Care",
+    "super predator",
+    "Glen Mills Schools",
+    "Morales v. Turman",
+    "William Wayne Justice",
+    "Juvenile Law Center",
+    "Who Gets a Childhood"
+  ],
+  "guests": ["Propaganda"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "low",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:05:49",
+      "note": "Long segment on DiIulio's 1995 super predator article and its media spread"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:19:46",
+      "note": "Ciavarella born 1950 in Wilkes-Barre; introduced as one of the two main bastards"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:29:40",
+      "note": "Detention-center deal begins June 2000; secret lease signed January 2002"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:21:18",
+      "note": "Ciavarella's judicial campaign ad promising maximum sentences"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:44:06",
+      "note": "Two young men sentenced by Ciavarella later die by suicide, per their mothers"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:01:25",
+      "note": "Scandal spans 2003-2008, over 2,500 children affected; convictions follow"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:13:41",
+      "note": "Texas separates juvenile offenders in 1886; Gatesville opens 1889"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:15:45",
+      "note": "Racial segregation and disparities at Gatesville in its early decades"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:19:21",
+      "note": "Corporal punishments at Gatesville: toe-holding, beatings with a bat"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:38:11",
+      "note": "George W. Bush campaigns in 1994 on locking up more children; 1995 omnibus bill"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:41:48",
+      "note": "2007 West Texas scandal: officials coerced sex from boys in custody"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:02:02",
+      "note": "2019 DOJ complaint on routine force against children; abuse continues to release"
+    }
+  ],
+  "notes": "Two-part story: Part 1 is the Luzerne County Kids for Cash scandal, Part 2 the history of Texas youth prisons, so both are primary. No judge role exists; politician-official (elected judges) and criminal-killer (bribery convictions) are approximations. No corruption theme; fraud-grift used for the kickbacks. main_span follows the title scandal; Part 2's core runs 1889-2019. Conahan birth year from general knowledge."
+}

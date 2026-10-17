@@ -1,0 +1,131 @@
+{
+  "story_id": "the-man-who-built-a-gun-to-shoot-space",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Gerald Bull",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1928, "end": 1990 }
+    },
+    {
+      "name": "High Altitude Research Project",
+      "kind": "organization",
+      "org_type": "government-agency",
+      "role": "secondary"
+    },
+    {
+      "name": "Space Research Corporation",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Project Babylon",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["inventor-engineer", "scientist-scholar", "business-executive"],
+  "themes": {
+    "primary": "weapons-arms-trade",
+    "secondary": [
+      "science-exploration",
+      "intelligence-covert-ops",
+      "war-war-crimes",
+      "authoritarianism"
+    ]
+  },
+  "regions": {
+    "origin": ["CA"],
+    "setting": ["ZA", "IQ", "CA", "US", "BB", "BE"],
+    "subdivisions": [],
+    "polities": ["apartheid-south-africa"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1950, "end": 1990 },
+    "covered_span": { "start": 1928, "end": 1990 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Canadian artillery designer Gerald Bull pursued gun-launched satellites, then sold long-range artillery to apartheid South Africa, China and Saddam Hussein's Iraq, with CIA cover, before his 1990 assassination in Brussels.",
+  "content_warnings": [],
+  "keywords": [
+    "Project HARP",
+    "Big Babylon",
+    "supergun",
+    "Paris Gun",
+    "GC-45 howitzer",
+    "G5 howitzer",
+    "Barbados",
+    "McGill University",
+    "Voest-Alpine",
+    "Norinco"
+  ],
+  "guests": ["Karl Kasarda"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:01:35",
+      "note": "birth in North Bay, Ontario, the year before the 1929 crash"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:06:45",
+      "note": "1950 recruitment to the Velvet Glove missile project starts his weapons career"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:24:22",
+      "note": "HARP test site on Barbados and the record-length gun built from naval barrels"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:36:22",
+      "note": "GC-45 technology and shells sent to South Africa for its war in Angola despite the embargo"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:40:38",
+      "note": "CIA links and a congressional finding that the US looked away from the South Africa deal"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:45:24",
+      "note": "guns routed via Austria and Jordan to Iraq and also sold to Iran during their war"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:53:13",
+      "note": "Saddam funds Project Babylon supergun in Iraq"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:02:10",
+      "note": "shot dead outside his Brussels apartment in March 1990"
+    }
+  ],
+  "notes": "Setting puts the harm places first (South Africa, Iraq), then Canada and the US where most of the career happened. China and Austria get shorter segments and are left as keywords. The Angola war (AO) and Iran (IR) come up only in passing. Saddam Hussein is not listed as a subject because he gets no segment of his own."
+}
