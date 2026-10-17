@@ -27,6 +27,7 @@ export function SearchBox({
           value={filters.q}
           onChange={(e) => onChange({ ...filters, q: e.target.value }, { replace: true })}
           autoComplete="off"
+          aria-keyshortcuts="/"
         />
       </div>
     </form>

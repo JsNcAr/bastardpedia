@@ -223,3 +223,17 @@ test('surprise me opens a story that matches the filters', async ({ page }) => {
   await expect(page).toHaveURL(/\/stories\/[^?]+\?role=explorer-adventurer$/);
   await expect(page.getByRole('article')).toContainText(/Schliemann|Stanley|Fawcett/);
 });
+
+test('search marks matches, and / and j work from the keyboard', async ({ page, isMobile }) => {
+  test.skip(isMobile, 'Keyboard shortcuts are for desktop keyboards.');
+  await page.goto('/');
+  await page.locator('body').click({ position: { x: 600, y: 140 } });
+  await page.keyboard.press('/');
+  const search = page.getByRole('searchbox', { name: 'Search stories' });
+  await expect(search).toBeFocused();
+  await search.fill('troy');
+  await expect(results(page).locator('mark.hit').first()).toHaveText(/troy/i);
+  await page.locator('body').click({ position: { x: 600, y: 140 } });
+  await page.keyboard.press('j');
+  await expect(results(page).getByRole('link').first()).toBeFocused();
+});

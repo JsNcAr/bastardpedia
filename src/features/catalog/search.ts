@@ -1,10 +1,19 @@
 import MiniSearch from 'minisearch';
 import type { CatalogStory } from '@shared/schemas/catalog.ts';
 
+/** What a query found: a score per story, and the indexed terms each story matched. */
+export interface SearchResult {
+  scores: Map<string, number>;
+  /** Lower-case terms, fuzzy and prefix matches included, for highlighting. */
+  terms: Map<string, string[]>;
+}
+
 /** Full-text search over title, summary, subject names, keywords and guests. */
 export interface StorySearch {
   /** Story id to score, or null for an empty query. */
   run(query: string): Map<string, number> | null;
+  /** Scores and matched terms, or null for an empty query. */
+  search(query: string): SearchResult | null;
 }
 
 interface Doc {
@@ -36,11 +45,17 @@ export function createStorySearch(stories: readonly CatalogStory[]): StorySearch
       guests: s.guests.join(' '),
     })),
   );
+  const search = (query: string): SearchResult | null => {
+    const q = query.trim();
+    if (!q) return null;
+    const hits = index.search(q);
+    return {
+      scores: new Map(hits.map((r) => [String(r.id), r.score])),
+      terms: new Map(hits.map((r) => [String(r.id), r.terms])),
+    };
+  };
   return {
-    run(query) {
-      const q = query.trim();
-      if (!q) return null;
-      return new Map(index.search(q).map((r) => [String(r.id), r.score]));
-    },
+    search,
+    run: (query) => search(query)?.scores ?? null,
   };
 }

@@ -194,6 +194,11 @@
       "overlay": {
         "$type": "color",
         "$value": "{primitive.paper.950}"
+      },
+      "highlight": {
+        "$type": "color",
+        "$value": "{primitive.oxblood.100}",
+        "$description": "Background of search matches (<mark>)."
       }
     },
     "border": {
@@ -310,6 +315,10 @@
       "overlay": {
         "$type": "color",
         "$value": "{primitive.paper.975}"
+      },
+      "highlight": {
+        "$type": "color",
+        "$value": "{primitive.oxblood.800}"
       }
     },
     "border": {

@@ -10,6 +10,7 @@ import { compressDir } from './scripts/lib/compress-core.mjs';
 interface ProjectConfig {
   name: string;
   slug: string;
+  repository: { url: string };
   shortName: string;
   description: string;
 }
@@ -44,6 +45,7 @@ export default defineConfig(({ command }) => {
     define: {
       __APP_NAME__: JSON.stringify(project.name),
       __APP_SLUG__: JSON.stringify(project.slug),
+      __REPO_URL__: JSON.stringify(project.repository.url),
       __CATALOG_URL__: JSON.stringify(catalog.url),
     },
     plugins: [

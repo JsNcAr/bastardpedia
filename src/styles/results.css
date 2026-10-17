@@ -110,3 +110,11 @@
 .result-mark {
   display: inline-flex;
 }
+
+/* Words a search matched, in result titles and summaries. */
+.hit {
+  padding: 0;
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-highlight);
+  color: inherit;
+}

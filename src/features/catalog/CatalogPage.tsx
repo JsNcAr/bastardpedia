@@ -3,6 +3,7 @@ import { Link, useNavigate, useParams } from 'react-router';
 import { useCatalog, useLibrary } from '@/app/queries';
 import { WIDE_QUERY, useMediaQuery } from '@/app/useMediaQuery';
 import { useUi } from '@/app/ui-store';
+import { useShortcuts } from '@/app/useShortcuts';
 import { StoryDetail } from '@/features/story/StoryDetail';
 import { Icon } from '@/ui/Icon';
 import { StateMessage } from '@/ui/StateMessage';
@@ -76,6 +77,7 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
   const { filters, setFilters, search } = useFilters();
   const wide = useMediaQuery(WIDE_QUERY);
   const setFiltersOpen = useUi((s) => s.setFiltersOpen);
+  useShortcuts();
 
   // The visitor's marks (IndexedDB, loaded after the first paint): row markers and Hide listened.
   const library = useLibrary();
@@ -90,7 +92,8 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
 
   const index = useMemo(() => createStorySearch(catalog.stories), [catalog.stories]);
   const labels = useMemo(() => createLabels(catalog), [catalog]);
-  const matches = useMemo(() => index.run(filters.q), [index, filters.q]);
+  const found = useMemo(() => index.search(filters.q), [index, filters.q]);
+  const matches = found?.scores ?? null;
   const results = useMemo(
     () => filterStories(catalog.stories, filters, matches, listened),
     [catalog.stories, filters, matches, listened],
@@ -271,6 +274,7 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
                 search={search}
                 selected={s.id === id}
                 entry={entries.get(s.id)}
+                terms={found?.terms.get(s.id)}
               />
             ))}
           </ol>
