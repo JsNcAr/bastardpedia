@@ -1,4 +1,4 @@
-import type { LibraryEntry, LibraryRepository } from './library-model';
+import type { LibraryEntry, LibraryRepository, LibrarySnapshot, ListenStatus } from './library-model';
 
 /**
  * The library repository, loaded on first use. Dexie (about 27 KB compressed)
@@ -16,5 +16,8 @@ export function createLazyLibrary(dbName?: string): LibraryRepository {
     remove: async (id: string) => (await load()).remove(id),
     changedSince: async (iso: string) => (await load()).changedSince(iso),
     merge: async (records: LibraryEntry[]) => (await load()).merge(records),
+    setStatusMany: async (ids: readonly string[], status: ListenStatus | null) =>
+      (await load()).setStatusMany(ids, status),
+    restore: async (snapshot: LibrarySnapshot) => (await load()).restore(snapshot),
   };
 }

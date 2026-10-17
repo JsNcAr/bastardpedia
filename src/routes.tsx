@@ -21,6 +21,12 @@ export const routes: RouteObject[] = [
         }),
       },
       {
+        path: 'library/catch-up',
+        lazy: async () => ({
+          Component: (await import('./features/library/catch-up/CatchUpPage')).CatchUpPage,
+        }),
+      },
+      {
         path: 'about',
         lazy: async () => ({ Component: (await import('./app/AboutPage')).AboutPage }),
       },

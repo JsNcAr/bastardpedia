@@ -1,7 +1,14 @@
 import Dexie, { type EntityTable } from 'dexie';
-import type { LibraryEntry, LibraryRepository } from './library-model';
+import { emptyEntry, isBlank, type LibraryEntry, type LibraryRepository, type LibrarySnapshot } from './library-model';
 
-export type { BaseRecord, Crud, LibraryEntry, LibraryRepository, ListenStatus } from './library-model';
+export type {
+  BaseRecord,
+  Crud,
+  LibraryEntry,
+  LibraryRepository,
+  LibrarySnapshot,
+  ListenStatus,
+} from './library-model';
 export { emptyEntry, isBlank } from './library-model';
 
 /**
@@ -63,6 +70,38 @@ export function createLibraryRepository(dbName = 'btb-library'): LibraryReposito
           written += 1;
         }
         return written;
+      });
+    },
+    async setStatusMany(ids, status) {
+      return db.transaction('rw', db.entries, async () => {
+        const stamp = now();
+        const stored = await db.entries.bulkGet([...ids]);
+        const snapshot: LibrarySnapshot = [];
+        const writes: LibraryEntry[] = [];
+        ids.forEach((id, i) => {
+          const found = stored[i];
+          const before = found?.deletedAt === null ? found : null;
+          snapshot.push({ id, before });
+          if (!before && status === null) return;
+          const next = { ...(before ?? emptyEntry(id, stamp)), status, updatedAt: stamp };
+          writes.push(isBlank(next) ? { ...next, deletedAt: stamp } : next);
+        });
+        await db.entries.bulkPut(writes);
+        return snapshot;
+      });
+    },
+    async restore(snapshot: LibrarySnapshot) {
+      await db.transaction('rw', db.entries, async () => {
+        const stamp = now();
+        const stored = await db.entries.bulkGet(snapshot.map((s) => s.id));
+        const writes: LibraryEntry[] = [];
+        snapshot.forEach(({ before }, i) => {
+          const current = stored[i];
+          if (before) writes.push({ ...before, updatedAt: stamp, deletedAt: null });
+          else if (current?.deletedAt === null)
+            writes.push({ ...current, updatedAt: stamp, deletedAt: stamp });
+        });
+        await db.entries.bulkPut(writes);
       });
     },
   };

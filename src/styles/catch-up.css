@@ -1,0 +1,135 @@
+/* The catch-up page (src/features/library/catch-up): three steps, one page. */
+
+.catch-step {
+  display: grid;
+  gap: var(--space-4);
+  margin-top: var(--space-10);
+}
+
+.catch-step > .section-title {
+  margin: 0;
+}
+
+.catch-presets,
+.catch-formats {
+  display: grid;
+  gap: var(--space-1);
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Formats start all ticked: the selected-option fill would turn the list into a
+   block, so here a tick is shown by the checkbox alone. */
+.catch-formats .facet-option:has(input:checked) {
+  background: transparent;
+  color: var(--color-text-primary);
+  font-weight: var(--weight-regular);
+}
+
+.catch-formats .facet-option:has(input:checked):hover {
+  background: var(--color-surface-hover);
+}
+
+.catch-formats .field-label {
+  margin-bottom: var(--space-1);
+}
+
+.catch-months {
+  max-width: calc(var(--size-rail) * 1.5);
+}
+
+.catch-summary {
+  font-weight: var(--weight-semibold);
+  font-variant-numeric: tabular-nums;
+}
+
+.catch-empty {
+  color: var(--color-text-secondary);
+}
+
+.catch-years {
+  border-top: var(--size-hairline) solid var(--color-border-subtle);
+}
+
+.catch-year {
+  border-bottom: var(--size-hairline) solid var(--color-border-subtle);
+}
+
+.catch-year-head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: var(--size-tap);
+  cursor: pointer;
+}
+
+.catch-year-title {
+  flex: 1;
+  font-family: var(--font-serif);
+  font-size: var(--text-lg);
+  font-weight: var(--weight-semibold);
+}
+
+.catch-year-count,
+.catch-story-meta {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+.catch-year-list > summary {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--size-tap);
+  color: var(--color-text-link);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  cursor: pointer;
+}
+
+.catch-year-list > summary:hover {
+  color: var(--color-text-link-hover);
+}
+
+.catch-year-list > ul {
+  display: grid;
+  padding-bottom: var(--space-3);
+}
+
+.catch-story {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0 var(--space-3);
+  min-height: var(--size-tap);
+}
+
+.catch-story-title {
+  cursor: pointer;
+}
+
+.catch-story-meta {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.catch-story-link {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--size-tap);
+  font-size: var(--text-sm);
+}
+
+.catch-next {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-6);
+}
+
+/* The page's intro card on the Library page and the link in the filter rail. */
+.catch-up-card {
+  margin-top: var(--space-6);
+}

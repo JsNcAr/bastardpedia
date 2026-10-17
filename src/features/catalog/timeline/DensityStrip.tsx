@@ -8,18 +8,29 @@ const HEIGHT = 48;
 
 /**
  * Stories per time bin, as a bar chart. Drag across it (or click a bar) to set
- * the year range; the existing year filter holds the result, so the chip, the
- * rail slider and "Clear all" stay in sync. Keyboard users have the slider and
- * the From / To fields in the filters.
+ * a range. On the timeline the year filter holds the result, so the chip, the
+ * rail slider and "Clear all" stay in sync; the catch-up page uses it for release
+ * months. Either way the page also offers fields for keyboard users.
  */
 export function DensityStrip({
   bins,
   domain,
   onRange,
+  format = formatYear,
+  unit,
+  hint = 'Drag across the chart, or click a bar, to choose years.',
+  selection,
 }: {
   bins: Bin[];
   domain: Domain;
   onRange: (from: number | null, to: number | null, live: boolean) => void;
+  /** Labels a bin edge: a year by default. */
+  format?: (n: number) => string;
+  /** What one bin is, for the summary; worked out from the bin size for years. */
+  unit?: string;
+  hint?: string;
+  /** A chosen range to keep shaded, both ends included (the catch-up page's months). */
+  selection?: { from: number; to: number } | undefined;
 }) {
   const svg = useRef<SVGSVGElement>(null);
   // The selection is only drawn while dragging and applied on release: the axis
@@ -42,12 +53,15 @@ export function DensityStrip({
   }, [dragging]);
   const max = Math.max(1, ...bins.map((b) => b.count));
   const size = bins[0] ? bins[0].end - bins[0].start : 10;
-  const unit = size === 1 ? 'year' : size === 10 ? 'decade' : `${String(size)} years`;
+  const per = unit ?? (size === 1 ? 'year' : size === 10 ? 'decade' : `${String(size)} years`);
   const busiest = bins.reduce<Bin | null>((m, b) => (!m || b.count > m.count ? b : m), null);
+  const range = (b: Bin) =>
+    b.end - 1 === b.start ? format(b.start) : `${format(b.start)} to ${format(b.end - 1)}`;
+  const last = Math.min(domain.end, (bins.at(-1)?.end ?? domain.end) - 1);
   const summary =
     bins.length && busiest
-      ? `Stories per ${unit}, ${formatYear(bins[0]?.start ?? domain.start)} to ${formatYear(domain.end)}. ` +
-        `Busiest: ${formatYear(busiest.start)} to ${formatYear(busiest.end - 1)}, ${String(busiest.count)} stories.`
+      ? `Stories per ${per}, ${format(bins[0]?.start ?? domain.start)} to ${format(last)}. ` +
+        `Busiest: ${range(busiest)}, ${String(busiest.count)} stories.`
       : 'No stories to chart.';
 
   const xOf = (e: PointerEvent<SVGSVGElement>) => {
@@ -88,10 +102,19 @@ export function DensityStrip({
           const h = (b.count / max) * (HEIGHT - 2);
           return (
             <rect key={b.start} className="density-bar" x={x} y={HEIGHT - h} width={w} height={h}>
-              <title>{`${formatYear(b.start)} to ${formatYear(b.end - 1)}: ${String(b.count)} stories`}</title>
+              <title>{`${range(b)}: ${String(b.count)} stories`}</title>
             </rect>
           );
         })}
+        {selection && !drag ? (
+          <rect
+            className="density-selection"
+            x={toX(selection.from, domain)}
+            y={0}
+            width={Math.max(toX(selection.to + 1, domain) - toX(selection.from, domain), 1)}
+            height={HEIGHT}
+          />
+        ) : null}
         {drag ? (
           <rect
             className="density-brush"
@@ -102,7 +125,7 @@ export function DensityStrip({
           />
         ) : null}
       </svg>
-      <p className="density-hint">Drag across the chart, or click a bar, to choose years.</p>
+      <p className="density-hint">{hint}</p>
     </div>
   );
 }
