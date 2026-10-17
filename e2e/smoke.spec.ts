@@ -201,3 +201,25 @@ test('the year range has two working handles on one track', async ({ page, isMob
     await expect(page).toHaveURL(/[?&]from=-?\d+/);
   });
 });
+
+test('more like this leads to another story', async ({ page }) => {
+  await page.goto('/stories/sample-heinrich-schliemann');
+  const section = page.getByRole('region', { name: 'More like this' });
+  const first = section.getByRole('link').first();
+  const href = await first.getAttribute('href');
+  await first.click();
+  await expect(page).toHaveURL(new RegExp(`${href ?? 'missing'}$`));
+  await expect(
+    page
+      .getByRole('article')
+      .getByRole('heading', { level: 1 })
+      .or(page.getByRole('article').getByRole('heading', { level: 2 }).first()),
+  ).toBeVisible();
+});
+
+test('surprise me opens a story that matches the filters', async ({ page }) => {
+  await page.goto('/?role=explorer-adventurer');
+  await page.getByRole('button', { name: 'Surprise me' }).click();
+  await expect(page).toHaveURL(/\/stories\/[^?]+\?role=explorer-adventurer$/);
+  await expect(page.getByRole('article')).toContainText(/Schliemann|Stanley|Fawcett/);
+});

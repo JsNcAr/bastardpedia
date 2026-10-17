@@ -147,7 +147,13 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
 
   const detail = id ? (
     story ? (
-      <StoryDetail story={story} catalog={catalog} labels={labels} headingLevel={wide ? 2 : 1} />
+      <StoryDetail
+        story={story}
+        catalog={catalog}
+        labels={labels}
+        headingLevel={wide ? 2 : 1}
+        search={search}
+      />
     ) : (
       <StateMessage
         icon="info"
@@ -221,6 +227,20 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
               </button>
             ) : null}
             <SortControl filters={filters} onChange={setFilters} />
+            <button
+              type="button"
+              className="button"
+              disabled={results.length === 0}
+              onClick={() => {
+                // A random story from the current results, never the one already open.
+                const pool = results.length > 1 ? results.filter((s) => s.id !== id) : results;
+                const pick = pool[Math.floor(Math.random() * pool.length)];
+                if (pick) void navigate({ pathname: `/stories/${pick.id}`, search });
+              }}
+            >
+              <Icon name="shuffle" size="sm" />
+              Surprise me
+            </button>
           </div>
           <ActiveFilters filters={filters} labels={labels} onChange={setFilters} />
         </div>
