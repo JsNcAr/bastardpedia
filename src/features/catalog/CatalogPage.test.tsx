@@ -63,6 +63,33 @@ describe('catalogue page', () => {
     expect(router.state.location.search).toBe('?century=20');
   });
 
+  it('closes the story pane with its button, keeping the filters and the focus', async () => {
+    const user = userEvent.setup();
+    const { router } = renderApp(
+      '/stories/sample-percy-fawcett?role=explorer-adventurer',
+      sampleCatalog,
+    );
+    await user.click(await screen.findByRole('link', { name: 'Close story' }));
+    expect(router.state.location.pathname).toBe('/');
+    expect(router.state.location.search).toBe('?role=explorer-adventurer');
+    expect(screen.queryByRole('region', { name: 'Story' })).not.toBeInTheDocument();
+    expect(document.activeElement).toBe(
+      document.querySelector('[data-story="sample-percy-fawcett"]'),
+    );
+  });
+
+  it('closes the story pane with Escape, but not while typing', async () => {
+    const user = userEvent.setup();
+    const { router } = renderApp('/stories/sample-percy-fawcett', sampleCatalog);
+    await screen.findByRole('link', { name: 'Close story' });
+    await user.click(screen.getByRole('searchbox', { name: 'Search stories' }));
+    await user.keyboard('{Escape}');
+    expect(router.state.location.pathname).toBe('/stories/sample-percy-fawcett');
+    await user.click(screen.getByRole('heading', { name: 'The catalogue' }));
+    await user.keyboard('{Escape}');
+    expect(router.state.location.pathname).toBe('/');
+  });
+
   it('says so when filters match nothing', async () => {
     renderApp('/?era=victorian&theme=cults-new-religions', sampleCatalog);
     expect(

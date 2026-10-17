@@ -1,5 +1,5 @@
-import { useMemo } from 'react';
-import { Link, useParams } from 'react-router';
+import { useEffect, useMemo, useRef } from 'react';
+import { Link, useNavigate, useParams } from 'react-router';
 import { useCatalog } from '@/app/queries';
 import { WIDE_QUERY, useMediaQuery } from '@/app/useMediaQuery';
 import { useUi } from '@/app/ui-store';
@@ -69,6 +69,9 @@ export function CatalogPage() {
 
 function Catalogue({ catalog }: { catalog: Catalog }) {
   const { id } = useParams();
+  const navigate = useNavigate();
+  const paneRef = useRef<HTMLElement>(null);
+  const shownId = useRef(id);
   const { filters, setFilters, search } = useFilters();
   const wide = useMediaQuery(WIDE_QUERY);
   const setFiltersOpen = useUi((s) => s.setFiltersOpen);
@@ -100,6 +103,31 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
 
   const story = id ? catalog.stories.find((s) => s.id === id) : undefined;
   const backTo = { pathname: '/', search };
+
+  // Escape closes the story pane, unless the visitor is typing or a dialog is open.
+  useEffect(() => {
+    if (!wide || !id) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== 'Escape' || e.defaultPrevented) return;
+      const t = e.target;
+      if (t instanceof HTMLElement && (t.isContentEditable || t.closest('input, textarea, select')))
+        return;
+      if (document.querySelector('dialog[open]')) return;
+      void navigate({ pathname: '/', search });
+    };
+    document.addEventListener('keydown', onKey);
+    return () => document.removeEventListener('keydown', onKey);
+  }, [wide, id, search, navigate]);
+
+  useEffect(() => {
+    const previous = shownId.current;
+    shownId.current = id;
+    // Each story starts at its top: the pane scrolls on its own and would keep its offset.
+    if (id && paneRef.current) paneRef.current.scrollTop = 0;
+    // Closing the pane removes the focused close button: return focus to the story's row.
+    if (wide && previous && !id)
+      document.querySelector<HTMLElement>(`[data-story="${previous}"]`)?.focus();
+  }, [id, wide]);
 
   const detail = id ? (
     story ? (
@@ -210,7 +238,12 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
       </section>
 
       {detail ? (
-        <section className="catalog-pane" aria-label="Story">
+        <section className="catalog-pane" aria-label="Story" ref={paneRef}>
+          <div className="pane-bar">
+            <Link className="icon-button" to={backTo} aria-label="Close story" title="Close (Esc)">
+              <Icon name="x" />
+            </Link>
+          </div>
           {detail}
         </section>
       ) : null}

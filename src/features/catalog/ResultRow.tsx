@@ -20,6 +20,7 @@ export function ResultRow({
       <Link
         to={{ pathname: `/stories/${story.id}`, search }}
         className="result"
+        data-story={story.id}
         aria-current={selected ? 'page' : undefined}
         preventScrollReset
       >

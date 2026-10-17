@@ -140,3 +140,35 @@ test('library: mark a story, export it, import it back', async ({ page }) => {
     page.getByRole('status').filter({ hasText: /Imported 0 of 1 entries/ }),
   ).toBeVisible();
 });
+
+/** The bits of a scrollable element the e2e tests read (e2e has no DOM types). */
+interface Scroller {
+  scrollTop: number;
+  scrollHeight: number;
+  scrollTo(x: number, y: number): void;
+}
+
+test('the story pane starts each story at its top', async ({ page, isMobile }) => {
+  test.skip(isMobile, 'The pane exists only in the wide layout.');
+  await page.goto('/stories/sample-l-ron-hubbard');
+  const pane = page.getByRole('region', { name: 'Story' });
+  await expect(pane.getByRole('heading', { name: /Hubbard/ })).toBeVisible();
+  await pane.evaluate((el: Scroller) => el.scrollTo(0, el.scrollHeight));
+  const scrollTop = () => pane.evaluate((el: Scroller) => el.scrollTop);
+  await expect.poll(scrollTop).toBeGreaterThan(0);
+  await results(page)
+    .getByRole('link', { name: /Percy Fawcett/ })
+    .click();
+  await expect(pane.getByRole('heading', { name: /Percy Fawcett/ })).toBeVisible();
+  expect(await scrollTop()).toBe(0);
+});
+
+test('tapping outside the filter drawer closes it', async ({ page, isMobile }) => {
+  test.skip(!isMobile, 'The drawer exists only in the narrow layout.');
+  await page.goto('/');
+  await page.getByRole('button', { name: /^Filters/ }).click();
+  const drawer = page.getByRole('dialog', { name: 'Filters' });
+  await expect(drawer).toBeVisible();
+  await page.mouse.click(8, 400);
+  await expect(drawer).toBeHidden();
+});
