@@ -1,0 +1,41 @@
+{
+  "subjects": [
+    {
+      "name": "The Facebook Papers",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Facebook",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "primary",
+      "wikidata": "Q355"
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1984,
+        "end": null
+      },
+      "wikidata": "Q36215"
+    },
+    {
+      "name": "Frances Haugen",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1984,
+        "end": null
+      }
+    },
+    {
+      "name": "Instagram",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    }
+  ]
+}

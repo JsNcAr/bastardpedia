@@ -1,0 +1,23 @@
+{
+  "subjects": [
+    {
+      "name": "Adolf Eichmann",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1906,
+        "end": 1962
+      },
+      "wikidata": "Q28085"
+    },
+    {
+      "name": "Theodor Dannecker",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1913,
+        "end": 1945
+      }
+    }
+  ]
+}
