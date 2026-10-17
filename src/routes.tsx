@@ -1,11 +1,12 @@
 import type { RouteObject } from 'react-router';
-import { AboutPage } from './app/AboutPage';
 import { AppShell } from './app/AppShell';
 import { NotFound, RouteError } from './app/NotFound';
 import { CatalogPage } from './features/catalog/CatalogPage';
-import { LibraryPage } from './features/library/LibraryPage';
 
-/** Browser-history routes; Caddy serves index.html for every path (docs/adr/0002). */
+/**
+ * Browser-history routes; Caddy serves index.html for every path (docs/adr/0002).
+ * The catalogue and story pages are in the main bundle; the Library and About pages load on demand.
+ */
 export const routes: RouteObject[] = [
   {
     element: <AppShell />,
@@ -13,8 +14,16 @@ export const routes: RouteObject[] = [
     children: [
       { index: true, element: <CatalogPage /> },
       { path: 'stories/:id', element: <CatalogPage /> },
-      { path: 'library', element: <LibraryPage /> },
-      { path: 'about', element: <AboutPage /> },
+      {
+        path: 'library',
+        lazy: async () => ({
+          Component: (await import('./features/library/LibraryPage')).LibraryPage,
+        }),
+      },
+      {
+        path: 'about',
+        lazy: async () => ({ Component: (await import('./app/AboutPage')).AboutPage }),
+      },
       { path: '*', element: <NotFound /> },
     ],
   },

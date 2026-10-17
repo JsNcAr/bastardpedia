@@ -1,5 +1,5 @@
 import { sampleCatalog } from '@/test/catalog';
-import { facetCounts, filterStories, warningCounts } from './match';
+import { facetCounts, filterStories, reviewedCount, warningCounts } from './match';
 import { EMPTY_FILTERS, type Filters } from './filter-model';
 import { createStorySearch } from './search';
 
@@ -81,6 +81,23 @@ describe('filterStories', () => {
 
   it('sorts by oldest release', () => {
     expect(ids({ sort: 'oldest' })[0]).toBe('sample-l-ron-hubbard');
+  });
+
+  it('keeps only reviewed stories when asked, and counts them', () => {
+    const out = ids({ reviewedOnly: true });
+    expect(out).toHaveLength(4);
+    expect(out).not.toContain('sample-percy-fawcett');
+    expect(reviewedCount(stories, { ...EMPTY_FILTERS, reviewedOnly: true })).toBe(4);
+    expect(reviewedCount(stories, { ...EMPTY_FILTERS, role: ['explorer-adventurer'] })).toBe(2);
+  });
+
+  it('matches a year range by overlap with the covered years', () => {
+    expect(ids({ yearFrom: 1926, yearTo: 1950 }).sort()).toEqual([
+      'sample-l-ron-hubbard',
+      'sample-nestle',
+    ]);
+    expect(ids({ yearTo: 1830 })).toEqual(['sample-heinrich-schliemann']);
+    expect(ids({ yearFrom: 2022 })).toEqual(['sample-andrew-tate-update']);
   });
 });
 

@@ -2,6 +2,7 @@ import { Link } from 'react-router';
 import { useCatalog, useLibrary } from '@/app/queries';
 import type { LibraryEntry } from '@/data';
 import { StateMessage } from '@/ui/StateMessage';
+import { LibraryBackup } from './LibraryBackup';
 
 function Shelf({
   title,
@@ -83,6 +84,7 @@ export function LibraryPage() {
           />
         </>
       )}
+      {library.isSuccess ? <LibraryBackup hasEntries={entries.length > 0} /> : null}
     </div>
   );
 }

@@ -7,6 +7,7 @@ import {
   toggleValue,
   type Filters,
 } from './filter-model';
+import { formatYear } from './format';
 import type { Labels } from './labels';
 
 export function ActiveFilters({
@@ -31,6 +32,22 @@ export function ActiveFilters({
         remove: () => toggleValue(filters, facet, value),
       });
     }
+  }
+  if (filters.yearFrom !== null || filters.yearTo !== null) {
+    const from = filters.yearFrom === null ? 'any time' : formatYear(filters.yearFrom);
+    const to = filters.yearTo === null ? 'now' : formatYear(filters.yearTo);
+    chips.push({
+      key: 'years',
+      label: `Years: ${from} to ${to}`,
+      remove: () => ({ ...filters, yearFrom: null, yearTo: null }),
+    });
+  }
+  if (filters.reviewedOnly) {
+    chips.push({
+      key: 'reviewed',
+      label: 'Reviewed only',
+      remove: () => ({ ...filters, reviewedOnly: false }),
+    });
   }
   for (const w of filters.cwHide) {
     chips.push({

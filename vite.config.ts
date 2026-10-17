@@ -6,6 +6,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 interface ProjectConfig {
   name: string;
+  slug: string;
   shortName: string;
   description: string;
 }
@@ -21,6 +22,7 @@ export default defineConfig({
   base: '/',
   define: {
     __APP_NAME__: JSON.stringify(project.name),
+    __APP_SLUG__: JSON.stringify(project.slug),
   },
   plugins: [
     react(),

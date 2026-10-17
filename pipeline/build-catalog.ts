@@ -22,7 +22,8 @@ import type { StoryTags } from '../shared/schemas/story-tags.ts';
 import type { TermDef } from '../shared/taxonomy.ts';
 import { loadEpisodes, loadStories, readJson } from './lib/io.ts';
 import { deepMerge } from './lib/merge.ts';
-import { CATALOG_FILE, OVERRIDES_DIR, TAGS_DIR } from './lib/paths.ts';
+import { CATALOG_FILE, OVERRIDES_DIR, REVIEW_STATUS_FILE, TAGS_DIR } from './lib/paths.ts';
+import { ReviewStatusFileSchema, type ReviewStatusFile } from '../shared/schemas/review-status.ts';
 import { loadTaxonomy } from './lib/taxonomy.ts';
 import { makeValidator, releaseYearsOf } from './lib/validate.ts';
 
@@ -50,6 +51,7 @@ function toCatalogStory(
   tags: StoryTags,
   episodes: Map<string, Episode>,
   now: number,
+  reviewed: ReviewStatusFile[string] | undefined,
 ): CatalogStory {
   const parts = story.parts.map((p) => {
     const ep = episodes.get(p.guid);
@@ -94,6 +96,9 @@ function toCatalogStory(
     time: tags.time,
     content_warnings: tags.content_warnings,
     keywords: tags.keywords,
+    review: reviewed
+      ? { status: 'reviewed', date: reviewed.date }
+      : { status: 'unreviewed', date: null },
     derived: {
       centuries: span ? centuriesOf(span, now) : [],
       eras: span ? erasOf(span, taxonomy.eras, now, place) : [],
@@ -113,6 +118,10 @@ export function buildCatalog(now = new Date()): { catalog: Catalog; failed: stri
     releaseYears: releaseYearsOf(stories),
   });
 
+  const reviews: ReviewStatusFile = existsSync(REVIEW_STATUS_FILE)
+    ? ReviewStatusFileSchema.parse(readJson(REVIEW_STATUS_FILE))
+    : {};
+
   const out: CatalogStory[] = [];
   const failed: string[] = [];
   for (const story of stories) {
@@ -127,7 +136,7 @@ export function buildCatalog(now = new Date()): { catalog: Catalog; failed: stri
       failed.push(`${story.id}: ${errors.join('; ')}`);
       continue;
     }
-    out.push(toCatalogStory(story, record, episodes, now.getFullYear()));
+    out.push(toCatalogStory(story, record, episodes, now.getFullYear(), reviews[story.id]));
   }
 
   const used = new Set(out.flatMap((s) => [...s.regions.origin, ...s.regions.setting]));

@@ -36,6 +36,9 @@ describe('filter model and URL', () => {
       century: [-1, 19],
       role: ['explorer-adventurer'],
       cwHide: ['torture'],
+      reviewedOnly: true,
+      yearFrom: -500,
+      yearTo: 1900,
       sort: 'chronological' as const,
     };
     expect(parseFilters(serializeFilters(f))).toEqual(f);
@@ -64,6 +67,14 @@ describe('filter model and URL', () => {
     expect(activeCount(f)).toBe(4);
     expect(resolvedSort(f)).toBe('relevance');
     expect(resolvedSort(EMPTY_FILTERS)).toBe('newest');
+  });
+
+  it('reads the year range, swapping a reversed one and dropping junk', () => {
+    const f = parseFilters(new URLSearchParams('from=1900&to=1800&reviewed=1'));
+    expect([f.yearFrom, f.yearTo, f.reviewedOnly]).toEqual([1800, 1900, true]);
+    const junk = parseFilters(new URLSearchParams('from=abc&to=&reviewed=yes'));
+    expect([junk.yearFrom, junk.yearTo, junk.reviewedOnly]).toEqual([null, null, false]);
+    expect(activeCount({ ...EMPTY_FILTERS, yearFrom: 1800, reviewedOnly: true })).toBe(2);
   });
 
   it('builds a fresh search link for a tag', () => {

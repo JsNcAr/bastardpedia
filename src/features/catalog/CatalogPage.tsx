@@ -7,7 +7,8 @@ import { StoryDetail } from '@/features/story/StoryDetail';
 import { Icon } from '@/ui/Icon';
 import { StateMessage } from '@/ui/StateMessage';
 import { ActiveFilters } from './ActiveFilters';
-import { facetCounts, filterStories, warningCounts } from './match';
+import { facetCounts, filterStories, reviewedCount, warningCounts } from './match';
+import { yearBounds } from './year-scale';
 import { FacetRail } from './FacetRail';
 import { FilterDrawer } from './FilterDrawer';
 import { EMPTY_FILTERS, activeCount } from './filter-model';
@@ -88,6 +89,15 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
     [catalog.stories, filters, matches],
   );
 
+  const reviewed = useMemo(
+    () => reviewedCount(catalog.stories, filters, matches),
+    [catalog.stories, filters, matches],
+  );
+  const bounds = useMemo(
+    () => yearBounds(catalog.stories.map((s) => s.time?.covered_span)),
+    [catalog.stories],
+  );
+
   const story = id ? catalog.stories.find((s) => s.id === id) : undefined;
   const backTo = { pathname: '/', search };
 
@@ -127,6 +137,8 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
       filters={filters}
       counts={counts}
       warnings={warnings}
+      reviewed={reviewed}
+      yearBounds={bounds}
       labels={labels}
       onChange={setFilters}
     />

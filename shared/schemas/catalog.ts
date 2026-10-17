@@ -7,7 +7,9 @@
  */
 import { z } from 'zod';
 
-export const CATALOG_SCHEMA = 'catalog/1' as const;
+import { CATALOG_SCHEMA } from './catalog-version.ts';
+
+export { CATALOG_SCHEMA };
 
 export const TermSchema = z.object({
   id: z.string(),
@@ -95,6 +97,11 @@ export const CatalogStorySchema = z.object({
     .nullable(),
   content_warnings: z.array(z.string()),
   keywords: z.array(z.string()),
+  /** Reviewed field by field by a person, or tagged by the agent and only validated. */
+  review: z.object({
+    status: z.enum(['reviewed', 'unreviewed']),
+    date: z.string().nullable(),
+  }),
   derived: z.object({
     /** From time.covered_span. Century numbers: 19 = 19th century CE, -1 = 1st century BCE. */
     centuries: z.array(z.number().int()),

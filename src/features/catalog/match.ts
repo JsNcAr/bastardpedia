@@ -7,6 +7,8 @@ import { FACETS, resolvedSort, type Facet, type Filters } from './filter-model';
  *   country matches origin or setting;
  *   era, century and continent match the build-time derived fields.
  * Stories carrying any hidden content warning are dropped.
+ * The year range keeps stories whose covered years overlap it; stories without
+ * years (crossovers, meta) drop out while a range is set.
  */
 
 export function facetValues(story: CatalogStory, facet: Facet): string[] {
@@ -43,6 +45,16 @@ function passesWarnings(story: CatalogStory, filters: Filters) {
   return !story.content_warnings.some((w) => filters.cwHide.includes(w));
 }
 
+export function passesYears(story: CatalogStory, filters: Filters): boolean {
+  if (filters.yearFrom === null && filters.yearTo === null) return true;
+  const span = story.time?.covered_span;
+  if (!span) return false;
+  return (
+    (filters.yearTo === null || span.start <= filters.yearTo) &&
+    (filters.yearFrom === null || span.end >= filters.yearFrom)
+  );
+}
+
 /** `matches` is the search result (id to score); null means no text query. */
 function passes(
   story: CatalogStory,
@@ -52,6 +64,8 @@ function passes(
 ) {
   if (matches && !matches.has(story.id)) return false;
   if (!passesWarnings(story, filters)) return false;
+  if (filters.reviewedOnly && story.review.status !== 'reviewed') return false;
+  if (!passesYears(story, filters)) return false;
   return FACETS.every((facet) => facet === except || matchesFacet(story, filters, facet));
 }
 
@@ -101,6 +115,16 @@ export function facetCounts(
     }
   }
   return counts;
+}
+
+/** How many stories matching everything else (ignoring the reviewed-only switch) are reviewed. */
+export function reviewedCount(
+  stories: readonly CatalogStory[],
+  filters: Filters,
+  matches: Map<string, number> | null = null,
+): number {
+  const all = { ...filters, reviewedOnly: false };
+  return stories.filter((s) => s.review.status === 'reviewed' && passes(s, all, matches)).length;
 }
 
 /** Per content warning: how many of the stories matching everything else carry it. */

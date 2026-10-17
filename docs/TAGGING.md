@@ -46,11 +46,25 @@ express the cross-field rules, so `tags:validate` still runs after it.
 
 ## Review
 
-Every record is reviewed by a person before release. Order of work:
+A person reviews the stories they have actually listened to, field by field, on
+the review page. Everything else ships **unreviewed**: validated, but checked
+only by the agent. The app marks these with an "Unreviewed" badge and a note on
+the story page, and readers can switch to "Reviewed by a person only".
 
-1. Records with any `low` confidence, or non-empty `notes`.
+Reviewed stories are listed in `data/review-status.json`
+(`{"<story-id>": {"status": "reviewed", "date": "YYYY-MM-DD"}}`, schema
+`shared/schemas/review-status.ts`). Tag records are never touched to mark a
+review (CLAUDE.md rule 3). A story missing from the file is unreviewed.
+
+For unreviewed stories, spot-check in this order:
+
+1. Records with any `low` confidence, or non-empty `notes` (each batch's
+   `tagging/batches/batch-NN-report.json` lists them).
 2. Records whose `format` isn't `deep-dive`.
-3. A spot check of the rest.
+3. About one story in ten from each batch, chosen at random.
+
+If a spot check finds a pattern rather than a one-off, fix the definition in the
+taxonomy and re-tag the affected stories instead of writing many overrides.
 
 To correct a record, don't edit the agent's file. Write the change as an
 override:
@@ -77,7 +91,11 @@ a newer taxonomy never loses a human decision.
 2. **Pilot:** about 25 stories spread across eras and formats, tagged by the
    subagent and reviewed. Disagreements go back into the definitions in
    `tagging/taxonomy/` (a patch or minor bump).
-3. **Full run:** the remaining stories in batches.
+3. **Full run:** the remaining stories in batches of 25
+   (`tagging/batches/batch-NN.txt`, newest first). A coordinator agent builds
+   the packets, runs one `btb-tagger` per story, validates the batch and writes
+   `batch-NN-report.json`. The first batch is the confirmation check: watched
+   stories in it are reviewed against the 90% bar the pilot used.
 
 ## When the taxonomy changes
 

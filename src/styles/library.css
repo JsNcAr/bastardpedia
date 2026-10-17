@@ -31,3 +31,21 @@
   font-size: var(--text-sm);
   color: var(--color-text-secondary);
 }
+
+.backup {
+  margin-top: var(--space-12);
+  padding-top: var(--space-6);
+  border-top: var(--size-hairline) solid var(--color-border-subtle);
+}
+
+.backup-lead {
+  margin-bottom: var(--space-4);
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+}
+
+.backup-outcome {
+  min-height: var(--space-6);
+  margin-top: var(--space-3);
+  font-size: var(--text-sm);
+}

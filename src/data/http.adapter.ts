@@ -1,4 +1,5 @@
-import { CatalogSchema, type Catalog } from '@shared/schemas/catalog.ts';
+import type { Catalog } from '@shared/schemas/catalog.ts';
+import { looksLikeCatalog } from '@shared/schemas/catalog-version.ts';
 import { CatalogError, type CatalogSource } from './catalog-source';
 
 /**
@@ -21,9 +22,9 @@ export function createHttpCatalogSource(opts: HttpOptions): CatalogSource {
       if (token) headers.Authorization = `Bearer ${token}`;
       const res = await fetchImpl(`${opts.baseUrl}/api/v1/catalog`, { headers });
       if (!res.ok) throw new CatalogError(`The catalogue API answered ${String(res.status)}.`);
-      const parsed = CatalogSchema.safeParse(await res.json());
-      if (!parsed.success) throw new CatalogError('The catalogue API sent an unexpected format.', parsed.error);
-      return parsed.data;
+      const body: unknown = await res.json();
+      if (!looksLikeCatalog(body)) throw new CatalogError('The catalogue API sent an unexpected format.');
+      return body;
     },
   };
 }

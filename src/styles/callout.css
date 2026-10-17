@@ -17,3 +17,13 @@
 .callout-title {
   font-weight: var(--weight-semibold);
 }
+
+/* Review status: informative, not a warning, so it sits quieter than content warnings. */
+.callout-quiet {
+  border-color: var(--color-border-subtle);
+  background: var(--color-surface-raised);
+}
+
+.callout-quiet > .icon {
+  color: var(--color-text-secondary);
+}

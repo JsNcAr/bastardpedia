@@ -29,6 +29,9 @@ export function ResultRow({
           {story.format !== 'deep-dive' ? (
             <span className="result-format">{labels.of('format', story.format)}</span>
           ) : null}
+          {story.review.status === 'unreviewed' ? (
+            <span className="badge-unreviewed">Unreviewed</span>
+          ) : null}
         </span>
         <span className="result-title">{story.title}</span>
         <span className="result-summary">{story.summary}</span>

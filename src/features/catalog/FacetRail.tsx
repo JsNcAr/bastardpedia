@@ -5,6 +5,7 @@ import { FacetGroup, FacetSubgroup } from './FacetGroup';
 import { FacetOption } from './FacetOption';
 import { toggleHiddenWarning, toggleValue, type Facet, type Filters } from './filter-model';
 import { centuryLabel } from './format';
+import { YearRange } from './YearRange';
 import type { Labels } from './labels';
 
 interface Props {
@@ -12,6 +13,8 @@ interface Props {
   filters: Filters;
   counts: Record<Facet, Map<string, number>>;
   warnings: Map<string, number>;
+  reviewed: number;
+  yearBounds: { min: number; max: number };
   labels: Labels;
   onChange: (next: Filters, opts?: { replace?: boolean }) => void;
 }
@@ -25,7 +28,16 @@ function groupBy<T>(items: T[], key: (t: T) => string): [string, T[]][] {
   return [...out];
 }
 
-export function FacetRail({ catalog, filters, counts, warnings, labels, onChange }: Props) {
+export function FacetRail({
+  catalog,
+  filters,
+  counts,
+  warnings,
+  reviewed,
+  yearBounds,
+  labels,
+  onChange,
+}: Props) {
   const isOn = (facet: Facet, value: string) =>
     facet === 'century' ? filters.century.includes(Number(value)) : filters[facet].includes(value);
   const count = (facet: Facet, value: string) => counts[facet].get(value) ?? 0;
@@ -93,7 +105,35 @@ export function FacetRail({ catalog, filters, counts, warnings, labels, onChange
         </div>
       </form>
 
-      <FacetGroup title="Period" selected={filters.era.length + filters.century.length} defaultOpen>
+      <ul className="facet-review">
+        <FacetOption
+          label="Reviewed by a person only"
+          count={reviewed}
+          checked={filters.reviewedOnly}
+          onToggle={() => onChange({ ...filters, reviewedOnly: !filters.reviewedOnly })}
+        />
+      </ul>
+
+      <FacetGroup
+        title="Period"
+        selected={
+          filters.era.length +
+          filters.century.length +
+          (filters.yearFrom !== null || filters.yearTo !== null ? 1 : 0)
+        }
+        defaultOpen
+      >
+        <FacetSubgroup title="Years covered" list={false}>
+          <YearRange
+            min={yearBounds.min}
+            max={yearBounds.max}
+            from={filters.yearFrom}
+            to={filters.yearTo}
+            onChange={(yearFrom, yearTo, live) =>
+              onChange({ ...filters, yearFrom, yearTo }, { replace: live })
+            }
+          />
+        </FacetSubgroup>
         <FacetSubgroup title="Broad periods">
           {globalEras.map((e) => option('era', e.id, e.label))}
         </FacetSubgroup>
@@ -131,7 +171,7 @@ export function FacetRail({ catalog, filters, counts, warnings, labels, onChange
       </FacetGroup>
 
       <FacetGroup title="Content warnings" selected={filters.cwHide.length}>
-        <p className="facet-hint">Hide stories that describe:</p>
+        <p className="facet-hint">Hide stories that spend real time on:</p>
         <FacetSubgroup>
           {catalog.vocab.content_warnings
             .filter((w) => (warnings.get(w.id) ?? 0) > 0 || filters.cwHide.includes(w.id))

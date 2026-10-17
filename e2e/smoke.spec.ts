@@ -89,3 +89,54 @@ test('unknown paths show the not-found page', async ({ page }) => {
   await page.goto('/no/such/page');
   await expect(page.getByRole('heading', { name: 'Page not found' })).toBeVisible();
 });
+
+test('reviewed-only switch and the unreviewed marker', async ({ page, isMobile }) => {
+  await page.goto('/');
+  await expect(results(page).getByText('Unreviewed', { exact: true })).toHaveCount(4);
+  await withFilters(page, isMobile, async () => {
+    await tick(page, /^Reviewed by a person only/);
+  });
+  await expect(page).toHaveURL(/\?reviewed=1$/);
+  await expect(results(page).getByRole('link')).toHaveCount(4);
+  await expect(results(page).getByText('Unreviewed', { exact: true })).toHaveCount(0);
+});
+
+test('year range: typed years, then a slider back to the edge', async ({ page, isMobile }) => {
+  await page.goto('/');
+  await withFilters(page, isMobile, async () => {
+    await page.getByLabel('From', { exact: true }).fill('1926');
+    await page.getByLabel('From', { exact: true }).press('Enter');
+    await expect(page).toHaveURL(/\?from=1926$/);
+    await page.getByLabel('To', { exact: true }).fill('1950');
+    await page.getByLabel('To', { exact: true }).press('Enter');
+    await expect(page).toHaveURL(/\?from=1926&to=1950$/);
+  });
+  await expect(results(page).getByRole('link')).toHaveCount(2);
+  await expect(results(page)).toContainText('L. Ron Hubbard');
+  await expect(page.getByRole('button', { name: /^Remove filter: Years/ })).toBeVisible();
+
+  await withFilters(page, isMobile, async () => {
+    await page.getByRole('slider', { name: 'Earliest year' }).press('Home');
+    await expect(page).toHaveURL(/\?to=1950$/);
+  });
+});
+
+test('library: mark a story, export it, import it back', async ({ page }) => {
+  await page.goto('/stories/sample-percy-fawcett');
+  const want = page.getByRole('button', { name: 'Want to listen' });
+  await want.click();
+  await expect(want).toHaveAttribute('aria-pressed', 'true');
+
+  await page.goto('/library');
+  await expect(page.getByRole('region', { name: 'Want to listen' })).toContainText('Percy Fawcett');
+
+  const downloading = page.waitForEvent('download');
+  await page.getByRole('button', { name: 'Export to a file' }).click();
+  const file = await (await downloading).path();
+  await expect(page.getByRole('status').filter({ hasText: 'Exported 1 entries.' })).toBeVisible();
+
+  await page.locator('input[type=file]').setInputFiles(file);
+  await expect(
+    page.getByRole('status').filter({ hasText: /Imported 0 of 1 entries/ }),
+  ).toBeVisible();
+});

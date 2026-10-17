@@ -96,13 +96,26 @@ export function StoryDetail({
         ) : null}
       </dl>
 
+      {story.review.status === 'unreviewed' ? (
+        <aside className="callout callout-quiet" aria-label="Review status">
+          <Icon name="info" />
+          <div>
+            <p className="callout-title">Tagged by AI, not yet reviewed</p>
+            <p>
+              These tags were written by the tagging agent and checked automatically, but no person
+              has reviewed them against the episode yet.
+            </p>
+          </div>
+        </aside>
+      ) : null}
+
       {story.content_warnings.length > 0 ? (
         <aside className="callout" aria-label="Content warnings">
           <Icon name="triangle-alert" />
           <div>
             <p className="callout-title">Content warnings</p>
             <p>
-              Describes in detail:{' '}
+              Spends real time on:{' '}
               {story.content_warnings.map((w) => labels.warning(w).toLowerCase()).join(', ')}.
             </p>
           </div>

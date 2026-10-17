@@ -83,6 +83,7 @@ The only file the app loads. Schema: `shared/schemas/catalog.ts` (`catalog/1`).
 | `eras[]`                                     | From `eras.yaml`                                                                                                                                         |
 | `countries[]`                                | Only countries used by some story: `{code, name, continent, subregion}`                                                                                  |
 | `stories[]`                                  | Story metadata (title, parts with durations and official links, guests) + tags (overrides applied) + `derived {centuries, eras, continents, subregions}` |
+| `stories[].review`                           | `{status: 'reviewed' \| 'unreviewed', date}` from `data/review-status.json` (docs/TAGGING.md)                                                            |
 
 Only stories that have a tag record are included.
 
@@ -91,4 +92,10 @@ Only stories that have a tag record are included.
 Per-device personal data, one record per story:
 `{id: storyId, status: 'want' | 'listened' | null, favourite, note, createdAt, updatedAt, deletedAt}`.
 It uses ChronoTeach's `Crud<T>` interface (soft deletes, `changedSince`) so a
-future sync can use it as is.
+future sync can use it as is, plus `merge(records)` (last writer wins by
+`updatedAt`, tombstones included).
+
+The Library page exports a backup file and imports one back:
+`{schema: 'library-backup/1', exported_at, entries[]}`, schema
+`shared/schemas/library-backup.ts`. Every record is exported, tombstones
+included, so a merge on another browser also carries deletions.

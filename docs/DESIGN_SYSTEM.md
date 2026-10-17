@@ -74,6 +74,10 @@ run `npm run icons`.
 - Facet options show result counts. Options with zero results stay visible but
   muted.
 - Active filters appear as removable chips with a clear-all.
+- The year range pairs two sliders (on a cubic scale, so recent centuries get
+  more travel than antiquity) with From and To text fields that accept negative
+  years or "BCE". Dragging replaces the URL; typing a year pushes it.
+- Agent-only records carry a quiet "Unreviewed" badge: present, never alarming.
 - Empty, loading and error states use `StateMessage` with a plain explanation
   and a next step.
 - No emoji anywhere.

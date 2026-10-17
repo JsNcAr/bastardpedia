@@ -27,17 +27,20 @@ export function FacetGroup({
   );
 }
 
+/** A titled block inside a group: a list of options, or (`list={false}`) any control. */
 export function FacetSubgroup({
   title,
+  list = true,
   children,
 }: {
   title?: string | undefined;
+  list?: boolean;
   children: ReactNode;
 }) {
   return (
     <div className="facet-subgroup">
       {title ? <h3 className="facet-subtitle">{title}</h3> : null}
-      <ul className="facet-options">{children}</ul>
+      {list ? <ul className="facet-options">{children}</ul> : children}
     </div>
   );
 }

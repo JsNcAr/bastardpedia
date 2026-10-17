@@ -117,3 +117,56 @@
   font-size: var(--text-xs);
   color: var(--color-text-tertiary);
 }
+
+/* The reviewed-only switch sits above the facet groups, outside any group. */
+.facet-review {
+  margin: 0;
+  padding: var(--space-2) var(--space-4);
+  border-top: var(--size-hairline) solid var(--color-border-subtle);
+  list-style: none;
+}
+
+.year-range {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.year-sliders {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.year-slider {
+  width: 100%;
+  min-height: var(--size-tap);
+  accent-color: var(--color-accent-default);
+}
+
+.year-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3);
+}
+
+.year-field {
+  display: grid;
+  gap: var(--space-1);
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+}
+
+.year-input {
+  min-width: 0;
+  min-height: var(--size-tap);
+  padding: var(--space-1) var(--space-2);
+  border: var(--size-hairline) solid var(--color-border-default);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-raised);
+  color: var(--color-text-primary);
+  font: inherit;
+}
+
+.year-input:focus-visible {
+  outline: var(--size-focus-ring) solid var(--color-border-focus);
+  outline-offset: var(--size-hairline);
+}

@@ -18,6 +18,11 @@ export interface Filters {
   century: number[];
   /** Content warnings whose stories are hidden. */
   cwHide: string[];
+  /** Only stories a person has reviewed field by field. */
+  reviewedOnly: boolean;
+  /** Year range matched against covered years; null = open on that side. Negative = BCE. */
+  yearFrom: number | null;
+  yearTo: number | null;
   /** null = automatic: relevance while searching, newest otherwise. */
   sort: SortKey | null;
 }
@@ -44,6 +49,9 @@ const PARAM = {
   era: 'era',
   century: 'century',
   cwHide: 'cw-hide',
+  reviewedOnly: 'reviewed',
+  yearFrom: 'from',
+  yearTo: 'to',
   sort: 'sort',
 } as const;
 
@@ -57,6 +65,9 @@ export const EMPTY_FILTERS: Filters = {
   era: [],
   century: [],
   cwHide: [],
+  reviewedOnly: false,
+  yearFrom: null,
+  yearTo: null,
   sort: null,
 };
 
@@ -69,8 +80,19 @@ const strings = (p: URLSearchParams, key: string) =>
       .filter(Boolean),
   );
 
+function year(p: URLSearchParams, key: string): number | null {
+  const raw = p.get(key);
+  if (raw === null || raw.trim() === '') return null;
+  const n = Number(raw);
+  return Number.isInteger(n) ? n : null;
+}
+
 export function parseFilters(params: URLSearchParams): Filters {
   const sort = params.get(PARAM.sort);
+  let yearFrom = year(params, PARAM.yearFrom);
+  let yearTo = year(params, PARAM.yearTo);
+  if (yearFrom !== null && yearTo !== null && yearFrom > yearTo)
+    [yearFrom, yearTo] = [yearTo, yearFrom];
   return {
     q: (params.get(PARAM.q) ?? '').trim(),
     format: strings(params, PARAM.format),
@@ -86,6 +108,9 @@ export function parseFilters(params: URLSearchParams): Filters {
         .filter((n) => Number.isInteger(n) && n !== 0),
     ),
     cwHide: strings(params, PARAM.cwHide),
+    reviewedOnly: params.get(PARAM.reviewedOnly) === '1',
+    yearFrom,
+    yearTo,
     sort: (SORTS as readonly string[]).includes(sort ?? '') ? (sort as SortKey) : null,
   };
 }
@@ -96,6 +121,9 @@ export function serializeFilters(f: Filters): URLSearchParams {
   if (f.q) p.set(PARAM.q, f.q);
   for (const facet of FACETS) for (const v of f[facet]) p.append(PARAM[facet], String(v));
   for (const v of f.cwHide) p.append(PARAM.cwHide, v);
+  if (f.yearFrom !== null) p.set(PARAM.yearFrom, String(f.yearFrom));
+  if (f.yearTo !== null) p.set(PARAM.yearTo, String(f.yearTo));
+  if (f.reviewedOnly) p.set(PARAM.reviewedOnly, '1');
   if (f.sort) p.set(PARAM.sort, f.sort);
   return p;
 }
@@ -121,7 +149,11 @@ export function toggleHiddenWarning(f: Filters, id: string): Filters {
 }
 
 export const activeCount = (f: Filters) =>
-  FACETS.reduce((n, facet) => n + f[facet].length, 0) + f.cwHide.length + (f.q ? 1 : 0);
+  FACETS.reduce((n, facet) => n + f[facet].length, 0) +
+  f.cwHide.length +
+  (f.q ? 1 : 0) +
+  (f.reviewedOnly ? 1 : 0) +
+  (f.yearFrom !== null || f.yearTo !== null ? 1 : 0);
 
 export const resolvedSort = (f: Filters): SortKey => f.sort ?? (f.q ? 'relevance' : 'newest');
 

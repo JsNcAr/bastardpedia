@@ -1296,6 +1296,10 @@
           "Eastern Europe",
           "North America"
         ]
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-17"
       }
     },
     {
@@ -1373,6 +1377,10 @@
         ],
         "continents": ["Europe", "Americas"],
         "subregions": ["Northern Europe", "South America"]
+      },
+      "review": {
+        "status": "unreviewed",
+        "date": null
       }
     },
     {
@@ -1449,6 +1457,10 @@
         ],
         "continents": ["Europe", "Africa", "Americas"],
         "subregions": ["Northern Europe", "Middle Africa", "Eastern Africa", "North America"]
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-17"
       }
     },
     {
@@ -1547,6 +1559,10 @@
         ],
         "continents": ["Americas", "Europe"],
         "subregions": ["North America", "Northern Europe"]
+      },
+      "review": {
+        "status": "unreviewed",
+        "date": null
       }
     },
     {
@@ -1626,6 +1642,10 @@
         ],
         "continents": ["Europe", "Africa", "Americas"],
         "subregions": ["Western Europe", "Eastern Africa", "Western Africa", "North America"]
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-17"
       }
     },
     {
@@ -1699,6 +1719,10 @@
         "eras": ["modern", "war-on-terror", "contemporary"],
         "continents": ["Americas"],
         "subregions": ["North America"]
+      },
+      "review": {
+        "status": "unreviewed",
+        "date": null
       }
     },
     {
@@ -1768,6 +1792,10 @@
         ],
         "continents": ["Americas"],
         "subregions": ["North America"]
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-17"
       }
     },
     {
@@ -1829,6 +1857,10 @@
         "eras": ["modern", "war-on-terror", "contemporary"],
         "continents": ["Europe", "Americas"],
         "subregions": ["Northern Europe", "North America", "Eastern Europe"]
+      },
+      "review": {
+        "status": "unreviewed",
+        "date": null
       }
     }
   ]

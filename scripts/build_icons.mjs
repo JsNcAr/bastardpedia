@@ -28,6 +28,7 @@ const ICONS = [
   'chevron-down',
   'chevron-right',
   'clock',
+  'download',
   'external-link',
   'heart',
   'info',
@@ -42,6 +43,7 @@ const ICONS = [
   'sliders-horizontal',
   'sun',
   'triangle-alert',
+  'upload',
   'users',
   'x',
 ];

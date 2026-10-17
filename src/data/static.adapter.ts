@@ -1,4 +1,5 @@
-import { CatalogSchema, type Catalog } from '@shared/schemas/catalog.ts';
+import type { Catalog } from '@shared/schemas/catalog.ts';
+import { looksLikeCatalog } from '@shared/schemas/catalog-version.ts';
 import { CatalogError, type CatalogSource } from './catalog-source';
 
 /** The catalog as a static file next to the app, built by `npm run build:catalog`. */
@@ -17,11 +18,12 @@ export function createStaticCatalogSource(
       if (!res.ok) {
         throw new CatalogError(`The catalogue answered ${String(res.status)} ${res.statusText}.`);
       }
-      const parsed = CatalogSchema.safeParse(await res.json());
-      if (!parsed.success) {
-        throw new CatalogError('The catalogue file does not match the expected format.', parsed.error);
+      // Fully validated at build time (pipeline/build-catalog.ts); here only the format version.
+      const body: unknown = await res.json();
+      if (!looksLikeCatalog(body)) {
+        throw new CatalogError('The catalogue file does not match the expected format.');
       }
-      return parsed.data;
+      return body;
     },
   };
 }

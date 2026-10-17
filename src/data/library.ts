@@ -36,7 +36,14 @@ export interface Crud<T extends BaseRecord> {
   changedSince(iso: string): Promise<T[]>;
 }
 
-export type LibraryRepository = Crud<LibraryEntry>;
+export interface LibraryRepository extends Crud<LibraryEntry> {
+  /**
+   * Write records as given, timestamps kept, where each is newer than what is
+   * stored (last writer wins, tombstones included). Returns how many were written.
+   * Used to import a backup.
+   */
+  merge(records: LibraryEntry[]): Promise<number>;
+}
 
 class LibraryDb extends Dexie {
   declare entries: EntityTable<LibraryEntry, 'id'>;
@@ -86,6 +93,18 @@ export function createLibraryRepository(dbName = 'btb-library'): LibraryReposito
     },
     async changedSince(iso) {
       return db.entries.where('updatedAt').above(iso).toArray();
+    },
+    async merge(records) {
+      return db.transaction('rw', db.entries, async () => {
+        let written = 0;
+        for (const record of records) {
+          const existing = await db.entries.get(record.id);
+          if (existing && existing.updatedAt >= record.updatedAt) continue;
+          await db.entries.put(record);
+          written += 1;
+        }
+        return written;
+      });
     },
   };
 }
