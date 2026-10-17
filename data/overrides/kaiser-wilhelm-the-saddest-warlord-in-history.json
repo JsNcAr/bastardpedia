@@ -1,0 +1,51 @@
+{
+  "subjects": [
+    {
+      "name": "Wilhelm II",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1859,
+        "end": 1941
+      },
+      "wikidata": "Q2677"
+    },
+    {
+      "name": "Otto von Bismarck",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1815,
+        "end": 1898
+      },
+      "wikidata": "Q8442"
+    },
+    {
+      "name": "Frederick III",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1831,
+        "end": 1888
+      }
+    },
+    {
+      "name": "Georg Hinzpeter",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1827,
+        "end": 1907
+      }
+    },
+    {
+      "name": "Philipp zu Eulenburg",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": {
+        "start": 1847,
+        "end": 1921
+      }
+    }
+  ]
+}
