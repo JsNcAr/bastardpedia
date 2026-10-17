@@ -1,0 +1,69 @@
+{
+  "story_id": "paul-manafort-update-he-s-still-somehow-even-worse-than-you-know",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "current-affairs",
+  "subjects": [
+    {
+      "name": "Paul Manafort",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1949, "end": null }
+    }
+  ],
+  "roles": ["political-operative"],
+  "themes": {
+    "primary": "electoral-politics",
+    "secondary": ["sexual-abuse", "domestic-abuse", "fraud-grift", "authoritarianism"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "UA", "SO", "PH", "AO", "CD"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2014, "end": 2018 },
+    "covered_span": { "start": 1985, "end": 2018 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "A 2018 update on Trump campaign chairman Paul Manafort: his fraud conviction and plea deal, leaked texts in which his daughters describe him coercing his wife into group sex, his lavish spending, and a tally of the dictators he served.",
+  "content_warnings": ["sexual-violence"],
+  "keywords": [
+    "Mueller investigation",
+    "Rick Gates",
+    "Viktor Yanukovych",
+    "Maidan protests",
+    "ostrich jacket",
+    "Andrea Manafort",
+    "Mobutu Sese Seko",
+    "Siad Barre",
+    "Riva Levinson",
+    "Trump campaign"
+  ],
+  "guests": ["Jamie Loftus"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:02:45", "note": "Recap of 2018 conviction and plea agreement with the Mueller probe" },
+    { "facet": "themes", "part": 1, "at": "00:09:02", "note": "Daughters' texts say he pressured his wife into group sex for years; long segment follows" },
+    { "facet": "themes", "part": 1, "at": "00:22:11", "note": "Daughter describes his controlling treatment of her mother and his affair" },
+    { "facet": "regions", "part": 1, "at": "00:20:02", "note": "His advice to Yanukovych during the 2014 Maidan crackdown and daughters' texts about it" },
+    { "facet": "themes", "part": 1, "at": "00:26:23", "note": "Spending dictator money on a luxury ostrich jacket and tailored suits, 2010-2014" },
+    { "facet": "themes", "part": 1, "at": "00:33:41", "note": "Rick Gates and the accountant testify about hidden offshore money" },
+    { "facet": "time", "part": 1, "at": "00:35:45", "note": "Kill count of past clients: Marcos, Savimbi, Mobutu, Abacha, from the mid-1980s on" },
+    { "facet": "regions", "part": 1, "at": "00:37:50", "note": "Story of staff sent to collapsing Barre-era Somalia to extract a fee" }
+  ],
+  "notes": "Update to the earlier two-part Manafort deep dive. Primary theme is a judgement call: the longest segment is the sexual coercion of his wife, but the story is framed around the Trump campaign chief's downfall. Covered span starts ~1985 for the closing client tally (~10% of airtime). Transcript says 'Rita Levinson'; she is Riva Levinson. No Wikidata QID given."
+}

@@ -1,0 +1,144 @@
+{
+  "story_id": "the-birth-of-the-ku-klux-klan",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Ku Klux Klan",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "primary"
+    },
+    {
+      "name": "Nathan Bedford Forrest",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1821, "end": 1877 }
+    },
+    {
+      "name": "William Joseph Simmons",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1880, "end": 1945 }
+    },
+    {
+      "name": "Elizabeth Tyler and Edward Young Clarke",
+      "kind": "group",
+      "role": "secondary"
+    },
+    {
+      "name": "D. C. Stephenson",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1891, "end": 1966 }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "racism-white-supremacy",
+    "secondary": ["terrorism", "fraud-grift", "electoral-politics", "propaganda-media"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": ["confederate-states"],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1866, "end": 1925 },
+    "covered_span": { "start": 1866, "end": 1927 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "The Ku Klux Klan, from its founding by Confederate veterans in Pulaski, Tennessee, and its Reconstruction-era terror against freed Black people and voters, to its 1920s revival as a mass-membership pyramid scheme.",
+  "content_warnings": ["graphic-violence", "hate-speech"],
+  "keywords": [
+    "Pulaski, Tennessee",
+    "Reconstruction",
+    "Ku Klux Klan Act",
+    "The Birth of a Nation",
+    "Kloran",
+    "Hiram Wesley Evans",
+    "Klonvocation",
+    "Fort Pillow massacre",
+    "Tri-K Club",
+    "multi-level marketing"
+  ],
+  "guests": ["Katy Stoll", "Cody Johnston"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:07:27",
+      "note": "Six Confederate veterans decide to form the club in the latter half of 1866"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:23:11",
+      "note": "Tennessee Democrats ally with the Klan in 1867 and it becomes a paramilitary group"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:31:36",
+      "note": "Klan intimidates Black voters and Grant supporters during the 1868 election"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:33:08",
+      "note": "Detailed account of Klansmen beating a Black preacher nearly to death"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:50:46",
+      "note": "After the 1871 Klan Act prosecutions the first Klan is no longer a force by 1872"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:08:28",
+      "note": "Simmons launches the second Klan in 1915, inspired by Birth of a Nation"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:16:55",
+      "note": "PR agents Tyler and Clarke take over recruitment for an 80 percent cut"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:20:33",
+      "note": "Second Klan structured as a multi-level marketing scheme with paid recruiters"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:49:25",
+      "note": "Vigilante violence in Oregon, Oklahoma, Indiana, Kansas and southern Illinois"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:55:14",
+      "note": "Stephenson conviction and collapse of membership by the late 1920s"
+    }
+  ],
+  "notes": "Transcript dates the founding to the latter half of 1866; most histories give December 1865, so covered_span starts 1866 per the transcript. The end year of the decline is garbled in the transcript (read as 1927). Tyler and Clarke grouped as one secondary subject; Hiram Evans also has a segment and is in keywords."
+}

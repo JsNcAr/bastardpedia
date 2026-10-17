@@ -1,0 +1,82 @@
+{
+  "story_id": "the-whole-story-behind-that-we-build-the-wall-gofundme",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "current-affairs",
+  "subjects": [
+    {
+      "name": "Brian Kolfage",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1982, "end": null }
+    },
+    {
+      "name": "We Build the Wall",
+      "kind": "organization",
+      "org_type": "ngo",
+      "role": "primary"
+    },
+    {
+      "name": "Right Wing News and Freedom Daily network",
+      "kind": "organization",
+      "org_type": "media-outlet",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["con-artist", "journalist-propagandist", "military-officer"],
+  "themes": {
+    "primary": "fraud-grift",
+    "secondary": ["propaganda-media", "tech-internet", "immigration-borders", "fascism-far-right"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "IQ"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2016, "end": null },
+    "covered_span": { "start": 2004, "end": 2019 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Wounded US Air Force veteran Brian Kolfage ran a network of fake news Facebook pages, then in 2018-2019 turned a viral GoFundMe for Trump's border wall into his own unaccountable nonprofit, We Build the Wall.",
+  "content_warnings": [],
+  "keywords": [
+    "GoFundMe",
+    "Freedom Daily",
+    "Right Wing News",
+    "2018 Facebook purge",
+    "501(c)(4)",
+    "Amanda Shea",
+    "Erik Prince",
+    "Kris Kobach",
+    "Tom Tancredo",
+    "David Clarke"
+  ],
+  "guests": ["Katy Stoll", "Cody Johnston"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "subjects", "part": 1, "at": "00:03:38", "note": "Media Matters study ties a meme-page network to Kolfage's Right Wing News" },
+    { "facet": "time", "part": 1, "at": "00:07:11", "note": "Kolfage's 2004 rocket injury at an Iraq air base and how he frames it" },
+    { "facet": "themes", "part": 1, "at": "00:09:44", "note": "earlier 2015 veteran-mentorship GoFundMe; hospitals never heard of it" },
+    { "facet": "themes", "part": 1, "at": "00:11:20", "note": "ex-writers say he ordered fabricated and doctored stories for clicks" },
+    { "facet": "time", "part": 1, "at": "00:15:29", "note": "began hiring page writers in 2016; Freedom Daily cut off in 2018" },
+    { "facet": "themes", "part": 1, "at": "00:17:37", "note": "December 2018 wall fundraiser launched with a one billion dollar goal" },
+    { "facet": "themes", "part": 1, "at": "00:18:39", "note": "January 2019 pivot: donors asked to opt in to a private wall nonprofit" },
+    { "facet": "themes", "part": 1, "at": "00:21:18", "note": "501(c)(4) status means little donor disclosure and wide spending latitude" },
+    { "facet": "subjects", "part": 1, "at": "00:25:00", "note": "board includes Prince, Kobach, Tancredo and Sheriff Clarke" }
+  ],
+  "notes": "Format current-affairs: a single episode on a fundraiser still in progress at release, built on recent reporting; no childhood coverage, so deep-dive's lifetime rule does not fit. Reviewer may prefer deep-dive. Kolfage birth year 1982 from general knowledge. His 2020 fraud indictment postdates the episode. fascism-far-right reflects the far-right pages and racist content, a modest segment."
+}

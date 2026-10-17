@@ -1,0 +1,101 @@
+{
+  "story_id": "the-birth-of-american-fascism",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "American fascist movement",
+      "kind": "movement-or-ideology",
+      "role": "primary"
+    },
+    {
+      "name": "German American Bund",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "William Dudley Pelley",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1890, "end": 1965 }
+    },
+    {
+      "name": "Charles Coughlin",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1891, "end": 1979 }
+    },
+    {
+      "name": "Charles Lindbergh",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1902, "end": 1974 }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "fascism-far-right",
+    "secondary": [
+      "nazism",
+      "racism-white-supremacy",
+      "propaganda-media",
+      "electoral-politics",
+      "conspiracy-theories"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1933, "end": 1941 },
+    "covered_span": { "start": 1921, "end": 1941 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "How fascism took root in the United States between the world wars, from Italian and German émigré groups to the German American Bund, Pelley's Silver Legion, Father Coughlin's radio antisemitism and Lindbergh's America First campaign.",
+  "content_warnings": ["hate-speech"],
+  "keywords": [
+    "Silver Legion",
+    "America First Committee",
+    "Christian Front",
+    "Lawrence Dennis",
+    "Fritz Kuhn",
+    "Madison Square Garden rally",
+    "Camp Siegfried",
+    "Chief Red Cloud",
+    "Gerald Winrod",
+    "Hitler's American Friends"
+  ],
+  "guests": ["Katy Stoll", "Cody Johnston"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:03:39", "note": "Italian American fascist groups begin organizing in New York and Philadelphia in the early 1920s" },
+    { "facet": "subjects", "part": 1, "at": "00:08:52", "note": "German American Bund under Fritz Kuhn introduced; bulk of its story follows" },
+    { "facet": "subjects", "part": 1, "at": "00:11:27", "note": "Pelley founds the Silver Legion in 1933; long segment on his ideology and recruiting" },
+    { "facet": "themes", "part": 1, "at": "00:17:10", "note": "Silver Shirt pamphlet recasts communism as a Jewish conspiracy against gentiles" },
+    { "facet": "subjects", "part": 1, "at": "00:22:17", "note": "Father Coughlin's radio career and antisemitic turn covered at length" },
+    { "facet": "themes", "part": 1, "at": "00:27:27", "note": "Union Party and the 1936 election; Bund orders members to vote for Landon" },
+    { "facet": "themes", "part": 1, "at": "00:39:11", "note": "Bund youth camps and Camp Siegfried indoctrination" },
+    { "facet": "themes", "part": 1, "at": "00:53:30", "note": "1939 Bund rally at Madison Square Garden, protester beaten on stage" },
+    { "facet": "time", "part": 2, "at": "00:10:28", "note": "1940 FBI arrest of Christian Front cell plotting to overthrow the government" },
+    { "facet": "subjects", "part": 2, "at": "00:20:33", "note": "Lindbergh becomes face of America First; Des Moines speech read at length" },
+    { "facet": "time", "part": 2, "at": "00:37:53", "note": "Pearl Harbor in December 1941 dissolves America First, closing the story" }
+  ],
+  "notes": "Transcript years are garbled (e.g. 'nineteen one'); start year 1921 is the early Italian fascist organizing it describes, so approximate. Lawrence Dennis and Gerald Winrod get real segments but were left as keywords to stay within five subjects. Many modern Trump-era comparisons were ignored as commentary."
+}

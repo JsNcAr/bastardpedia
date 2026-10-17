@@ -1,0 +1,89 @@
+{
+  "story_id": "roger-stone-evil-genius-or-sad-broken-boy",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Roger Stone",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1952, "end": null }
+    },
+    {
+      "name": "Donald Trump",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1946, "end": null }
+    },
+    {
+      "name": "Paul Manafort",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1949, "end": null }
+    }
+  ],
+  "roles": ["political-operative", "media-personality"],
+  "themes": {
+    "primary": "electoral-politics",
+    "secondary": [
+      "propaganda-media",
+      "conspiracy-theories",
+      "racism-white-supremacy",
+      "intelligence-covert-ops"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1972, "end": null },
+    "covered_span": { "start": 1952, "end": 2019 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Biography of American Republican operative Roger Stone, from his dirty tricks for Nixon's 1972 campaign through decades of smears and lobbying to his WikiLeaks dealings for Trump in 2016 and his 2019 indictment for lying and witness tampering.",
+  "content_warnings": ["hate-speech"],
+  "keywords": [
+    "Watergate",
+    "Committee to Re-elect the President",
+    "Black, Manafort and Stone",
+    "Brooks Brothers riot",
+    "Eliot Spitzer",
+    "WikiLeaks",
+    "Guccifer 2.0",
+    "InfoWars",
+    "Randy Credico",
+    "Roy Cohn"
+  ],
+  "guests": ["Tamer Kattan"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:01:33", "note": "birth in 1952 and childhood in Lewisboro, New York" },
+    { "facet": "themes", "part": 1, "at": "00:05:39", "note": "early taste for LBJ murder conspiracy books, framed as a lifelong through line" },
+    { "facet": "time", "part": 1, "at": "00:12:26", "note": "joins Nixon's 1972 reelection committee at 19; first consequential act" },
+    { "facet": "themes", "part": 1, "at": "00:16:04", "note": "FBI files on his bagman role, spying and sabotage of Democratic campaigns" },
+    { "facet": "subjects", "part": 1, "at": "00:09:19", "note": "meets Paul Manafort at a Young Republican convention; long partnership follows" },
+    { "facet": "subjects", "part": 1, "at": "00:33:22", "note": "Roy Cohn connects him to Donald Trump; long Trump thread begins" },
+    { "facet": "themes", "part": 2, "at": "00:01:02", "note": "Trump-funded front group ads smearing the St. Regis Mohawk as criminals" },
+    { "facet": "content_warnings", "part": 2, "at": "00:26:39", "note": "host reads out a long list of his racist and sexist tweets" },
+    { "facet": "themes", "part": 2, "at": "00:32:21", "note": "brings Alex Jones and Trump together; becomes an InfoWars host" },
+    { "facet": "themes", "part": 2, "at": "00:36:06", "note": "contacts with Guccifer 2.0, a Russian operative, and WikiLeaks via Corsi" },
+    { "facet": "time", "part": 2, "at": "00:42:23", "note": "charged with false statements and witness tampering; covered span ends 2019" }
+  ],
+  "notes": "Roger Stone was still alive and awaiting trial at release, so main_span.end is null; his later conviction and commutation fall after the episode. Proud Boys and sexist tweets get short segments only, so fascism-far-right and misogyny-manosphere were left out. Nixon is a recurring figure but his life is not narrated, so he is not listed as a subject."
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "the-birth-of-the-anti-vaccine-movement",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject is the movement, so roles are empty; Wakefield and Sears each get a full part as secondary subjects. Transcript renders the activist as Laura Little; the usual spelling is Lora Little. Sears's birth year is not given, so left null. main_span starts at the first anti-vaccination society (about 1798) and stays open because the movement was active at release. No content warning: smallpox symptoms and child deaths are described briefly, not at length."
+  },
+  {
+    "id": "john-mcafee-is-not-funny-anymore",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "McAfee was alive at release (died 2021), so covered_span ends at 2019 and main_span is open-ended. The 16-year-old sex worker he took up with in Belize (legal age there) gets a short segment; child-abuse was left out as the story does not frame it as abuse at length. Faull's birth year is not given."
+  },
+  {
+    "id": "roger-stone-evil-genius-or-sad-broken-boy",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Roger Stone was still alive and awaiting trial at release, so main_span.end is null; his later conviction and commutation fall after the episode. Proud Boys and sexist tweets get short segments only, so fascism-far-right and misogyny-manosphere were left out. Nixon is a recurring figure but his life is not narrated, so he is not listed as a subject."
+  },
+  {
+    "id": "the-whole-story-behind-that-we-build-the-wall-gofundme",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Format current-affairs: a single episode on a fundraiser still in progress at release, built on recent reporting; no childhood coverage, so deep-dive's lifetime rule does not fit. Reviewer may prefer deep-dive. Kolfage birth year 1982 from general knowledge. His 2020 fraud indictment postdates the episode. fascism-far-right reflects the far-right pages and racist content, a modest segment."
+  },
+  {
+    "id": "the-birth-of-the-ku-klux-klan",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript dates the founding to the latter half of 1866; most histories give December 1865, so covered_span starts 1866 per the transcript. The end year of the decline is garbled in the transcript (read as 1927). Tyler and Clarke grouped as one secondary subject; Hiram Evans also has a segment and is in keywords."
+  },
+  {
+    "id": "r-kelly-his-life-times-vicious-sex-cult",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Recorded in January 2019, before his 2019 federal charges and 2021-2022 convictions, so the hosts frame most claims as allegations; main_span end left null as he was active at release. criminal-killer role reflects abuse being central despite the 2008 acquittal. The 'cult' is a high-control household, not a religion."
+  },
+  {
+    "id": "alfred-hitchcock-the-director-who-randomly-tortured-people",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "misogyny-manosphere is used for Hitchcock's personal hostility toward women, which the theme (organized misogyny) does not quite fit; no theme exists for workplace abuse by a boss, so labor-exploitation stands in for the crew pranks. main_span runs from his entry into film (1920) to Marnie (1964), after which the story treats his career as broken. Hedren's later statements set reaches_present. Guest spelled Geith in the description; Gheith is the usual spelling."
+  },
+  {
+    "id": "the-bastards-that-kill-diabetics-for-a-profit",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject is the insulin pricing story itself, so no roles. Description spells the guest Goldin; transcript and her own plug say Golden. Transcript drops several years (Banting's 1920 idea, 1921-23 work); filled from known history, hence approximate. Sanofi named only in the opening protest."
+  },
+  {
+    "id": "jacob-wohl-and-the-krassensteins-a-tale-of-several-grifters",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Both the Wohl and Krassenstein halves get roughly equal weight per the title, so both are primary; roles describe both (Krassensteins also fit journalist-propagandist). Wohl birth year 1997 from general knowledge (transcript garbled); covered_span starts at birth per the lifetime rule though childhood is barely covered. Burkman birth year left null. main_span end null as subjects were active at release."
+  },
+  {
+    "id": "the-accidental-genocide-of-the-andaman-islands",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject treated as the place; the Andamanese peoples as a whole could also be an ethnic-group primary. genocide-mass-killing kept secondary despite the deaths being largely unintended, since the title frames it so and village burnings occur. Marco Polo and the 1771 sighting are brief background, so covered_span starts at 1857. main_span end 1900 approximates the end of Portman's tenure."
+  },
+  {
+    "id": "phrenology-the-bastard-science-of-racism",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Aristotle, Linnaeus, Camper and Blumenbach are pre-story background and not counted in covered_span. Origin AT reflects Gall developing the practice in Vienna (he was born in Baden, DE). main_span runs from cranioscopy to the 1903 Ramsay Smith inquiry, the core 19th-century heyday; the Rwanda legacy extends covered_span to 1994, and the Bell Curve segment sets reaches_present."
+  },
+  {
+    "id": "oregon-is-a-bastard-the-history-of-a-white-supremacist-state",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Two-part story: part 1 is Oregon's racist history, part 2 is Patriot Prayer, so both are primary; neither is a person or group, so roles are empty. Joey Gibson's birth year is uncertain in the transcript (aged 33 or 34) and left null. main_span ends null because Patriot Prayer was active at release. Scope set to local (Oregon / Portland area) though Vancouver, WA also features."
+  },
+  {
+    "id": "paul-manafort-update-he-s-still-somehow-even-worse-than-you-know",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Update to the earlier two-part Manafort deep dive. Primary theme is a judgement call: the longest segment is the sexual coercion of his wife, but the story is framed around the Trump campaign chief's downfall. Covered span starts ~1985 for the closing client tally (~10% of airtime). Transcript says 'Rita Levinson'; she is Riva Levinson. No Wikidata QID given."
+  },
+  {
+    "id": "jair-bolsonaro-the-president-who-promised-to-kill-30-000-people",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Recorded just after the 2018 election, so main_span ends null. Primary theme chosen as fascism-far-right over authoritarianism because he had not yet governed; authoritarianism is secondary. Personal misogyny mapped to misogyny-manosphere for lack of a closer id."
+  },
+  {
+    "id": "what-s-alex-jones-up-to-now",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Bonus update after the three-part Alex Jones deep-dive. The MLM is spelled phonetically in the transcript; identified as Jeunesse Global from the founders and InfoWars Yes branding. Guest surnames come from general knowledge of Knowledge Fight; the packet gives first names only. RU is a single segment of roughly five minutes."
+  },
+  {
+    "id": "the-russian-scientist-who-helped-kill-30-million-people",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary theme could also be communism-state-socialism; chose pseudoscience as the story's pitch. Lysenko's early work in Azerbaijan is a brief mention, so AZ is left out of the setting. main_span runs from the 1927 Pravda profile to his 1965 removal. Holodomor counted under genocide-mass-killing, but most famine deaths are framed as policy failure."
+  },
+  {
+    "id": "the-birth-of-american-fascism",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript years are garbled (e.g. 'nineteen one'); start year 1921 is the early Italian fascist organizing it describes, so approximate. Lawrence Dennis and Gerald Winrod get real segments but were left as keywords to stay within five subjects. Many modern Trump-era comparisons were ignored as commentary."
+  },
+  {
+    "id": "the-bastards-of-the-2018-midterm-election",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Survey episode with no single bastard, so the election is primary and the longest segments are secondary; Corey Stewart, Bill Fawell, Russell Walker and Paul Nehlen are keywords (subject cap). Transcript spellings Neelon/Fowl/Goldie corrected to Nehlen/Fawell/Goldy. King's 1990s English-only speech and 2008 Obama remark are brief, so covered span starts 2016. fascism-far-right vs electoral-politics as primary is a judgment call."
+  },
+  {
+    "id": "why-ted-cruz-s-cks-a-comprehensive-biography",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript renders the Princeton roommate as Craig Mason; the Hangover writer is Craig Mazin. Covered span starts in 1939 because Fred Clark's foundation and Roland Story's program get a long segment as the ideological roots of Cruz. Rafael Cruz's Cuban past is a short segment, so CU is left out of setting. Description frames this as the first of two 2018 midterm episodes, but the content is a full biography, so deep-dive."
+  },
+  {
+    "id": "steven-seagal-is-so-much-worse-than-you-d-ever-imagine",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "No theme for organized crime; the mob financing of his career is folded into fraud-grift. organized-religion covers the disputed Tibetan Buddhist tulku recognition. authoritarianism reflects his friendships with Lukashenko, Duterte and Putin, a substantial closing segment. main_span starts at Above the Law (1988) per the encyclopedia test; Japan years and earlier lies are covered but are background. Julius Nasso's birth year is not given, so floruit is used."
+  },
+  {
+    "id": "ronald-and-nancy-reagan-the-bastards-behind-the-aids-crisis",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Two primaries per PROMPT.md's Reagan example, so the lifetime rule sets covered_span 1911-2016, although the story itself runs only from their 1960s Hollywood circle to about 1990. No theme exists for LGBTQ rights or homophobia, which is central here; public-health plus religious-right-culture-war is the closest fit. Nancy Reagan's QID omitted for lack of certainty."
+  },
+  {
+    "id": "duterte-the-mass-murdering-mayor",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Spanish and US colonial history (1520s-1902) is background before the story begins, so it is left out of covered_span and themes. Davao Death Squad typed criminal-org, though it was run by off-duty police with city funds; police would also be defensible. dictator-autocrat is third because the host says he is not quite a dictator yet."
+  },
+  {
+    "id": "erik-prince-the-rich-kid-who-bought-an-army",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Format borderline: part 2 is structured around reading Prince's 2013 autobiography Civilian Warriors (media-reading), but part 1 is a straight biography and part 2 also covers his life and later ventures, so deep-dive overall. Erik Prince Wikidata QID omitted as not certain. Trump-era politics (Russia back channel) mentioned briefly, not tagged."
+  },
+  {
+    "id": "alex-jones-the-godfather-of-fake-news",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Lifetime rule sets covered_span 1974-2018; main_span starts with his 1995 public access career. domestic-abuse rests on the ex-wife's custody-trial allegations, not proven abuse. Mass shootings fit terrorism only loosely (political violence by fans). Sexual harassment in the employee complaint was a short segment, so sexual-abuse was left out."
+  },
+  {
+    "id": "how-hollywood-helped-the-nazis",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject is the studios collectively; no single company fits, so a generic organization entry was used. Transcript says Laemmle died in 1936; he actually died in 1939. Covered start 1905 is approximate for the nickelodeon and patent-war background on the industry's founding. China comparison at the end ignored as commentary."
+  }
+]

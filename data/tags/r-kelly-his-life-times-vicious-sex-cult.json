@@ -1,0 +1,95 @@
+{
+  "story_id": "r-kelly-his-life-times-vicious-sex-cult",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "R. Kelly",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1967, "end": null }
+    },
+    {
+      "name": "Aaliyah",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1979, "end": 2001 }
+    },
+    {
+      "name": "Jim DeRogatis",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1964, "end": null }
+    },
+    {
+      "name": "Kitty Jones",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2011
+    }
+  ],
+  "roles": ["entertainer-artist", "criminal-killer", "cult-leader"],
+  "themes": {
+    "primary": "sexual-abuse",
+    "secondary": [
+      "child-abuse",
+      "cults-new-religions",
+      "domestic-abuse",
+      "entertainment-celebrity"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-IL"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1991, "end": null },
+    "covered_span": { "start": 1967, "end": 2019 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Chicago R&B star R. Kelly, abused as a child, spent decades allegedly preying on teenage girls, secretly married 15-year-old Aaliyah, beat partners and kept young women in a controlling household reporters called a sex cult.",
+  "content_warnings": ["child-abuse", "sexual-violence", "suicide-self-harm"],
+  "keywords": [
+    "Chicago",
+    "Tiffany Hawkins",
+    "Andrea Kelly",
+    "Chicago Sun-Times",
+    "BuzzFeed",
+    "Rolling Stone",
+    "Mute R. Kelly",
+    "Soulacoaster",
+    "Trump Tower Chicago",
+    "2008 child pornography trial"
+  ],
+  "guests": ["Teresa Lee"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:04:42", "note": "born in Chicago in 1967, raised by his mother" },
+    { "facet": "themes", "part": 1, "at": "00:10:52", "note": "molested by a relative from about age eight to fifteen" },
+    { "facet": "subjects", "part": 1, "at": "00:18:01", "note": "works with teenage Aaliyah, then secretly marries her at fifteen" },
+    { "facet": "time", "part": 1, "at": "00:27:24", "note": "Hawkins suit says the abuse began in 1991 when she was fifteen" },
+    { "facet": "themes", "part": 1, "at": "00:38:19", "note": "2002 charges of making child pornography over a leaked tape" },
+    { "facet": "subjects", "part": 1, "at": "00:41:57", "note": "Sun-Times reporter DeRogatis receives letter and tapes, breaks story" },
+    { "facet": "time", "part": 1, "at": "00:56:36", "note": "jury acquits him in 2008" },
+    { "facet": "subjects", "part": 2, "at": "00:04:13", "note": "meets Kitty Jones in 2011; long segment on her account" },
+    { "facet": "themes", "part": 2, "at": "00:15:43", "note": "repeated beatings of Jones; later Andrea's abuse claims" },
+    { "facet": "themes", "part": 2, "at": "00:21:11", "note": "BuzzFeed report of women kept under total control in his buildings" },
+    { "facet": "time", "part": 2, "at": "00:27:25", "note": "boycotts and falling sales up to 2018 bring story to release" }
+  ],
+  "notes": "Recorded in January 2019, before his 2019 federal charges and 2021-2022 convictions, so the hosts frame most claims as allegations; main_span end left null as he was active at release. criminal-killer role reflects abuse being central despite the 2008 acquittal. The 'cult' is a high-control household, not a religion."
+}

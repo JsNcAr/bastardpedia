@@ -1,0 +1,104 @@
+{
+  "story_id": "steven-seagal-is-so-much-worse-than-you-d-ever-imagine",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Steven Seagal",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1952, "end": null }
+    },
+    {
+      "name": "Julius Nasso",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": null },
+      "floruit": 1990
+    },
+    {
+      "name": "Gambino crime family",
+      "kind": "organization",
+      "org_type": "criminal-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Jefferson Parish Sheriff's Office",
+      "kind": "organization",
+      "org_type": "police",
+      "role": "secondary"
+    },
+    {
+      "name": "Vladimir Putin",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1952, "end": null }
+    }
+  ],
+  "roles": ["entertainer-artist", "police-lawman"],
+  "themes": {
+    "primary": "entertainment-celebrity",
+    "secondary": [
+      "sexual-abuse",
+      "fraud-grift",
+      "policing-incarceration",
+      "authoritarianism",
+      "organized-religion"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "JP", "RU", "BY"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1988, "end": null },
+    "covered_span": { "start": 1952, "end": 2018 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "American action star Steven Seagal built a career on invented exploits and mob money, faced decades of sexual assault and trafficking allegations, played reserve sheriff's deputy on reality TV, and befriended dictators until Russia made him an envoy in 2018.",
+  "content_warnings": ["sexual-violence", "animal-cruelty"],
+  "keywords": [
+    "aikido",
+    "Above the Law",
+    "Under Siege",
+    "Steven Seagal: Lawman",
+    "Songs from the Crystal Cave",
+    "Penor Rinpoche",
+    "Joe Arpaio",
+    "Alexander Lukashenko",
+    "Kelly LeBrock",
+    "Spy magazine"
+  ],
+  "guests": ["Seanbaby"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:02:35", "note": "birth in April 1952 in Lansing, Michigan; childhood in Fullerton, California" },
+    { "facet": "regions", "part": 1, "at": "00:06:12", "note": "marriage and aikido years in Osaka, Japan, reportedly to dodge the draft" },
+    { "facet": "time", "part": 1, "at": "00:18:38", "note": "staged demo and Ovitz backing lead to Above the Law (1988), his first film" },
+    { "facet": "subjects", "part": 1, "at": "00:23:13", "note": "Nasso partnership and Gambino family ties behind his early films" },
+    { "facet": "themes", "part": 1, "at": "00:32:38", "note": "alleged attempt to hire a hit on former collaborator Gary Goldman" },
+    { "facet": "themes", "part": 1, "at": "00:48:10", "note": "rape allegation by an extra from the On Deadly Ground shoot" },
+    { "facet": "themes", "part": 2, "at": "00:04:14", "note": "recognised as a reincarnated lama; bribery accusations from other Buddhists" },
+    { "facet": "themes", "part": 2, "at": "00:31:05", "note": "reserve deputy claims with Jefferson Parish and the Lawman reality show" },
+    { "facet": "themes", "part": 2, "at": "00:42:44", "note": "2010 lawsuit alleging assistant was held and assaulted at his Louisiana home" },
+    { "facet": "themes", "part": 2, "at": "00:51:05", "note": "2011 Maricopa County raid with an armored vehicle; roosters and a puppy killed" },
+    { "facet": "themes", "part": 2, "at": "01:01:30", "note": "friendships with Lukashenko and Duterte" },
+    { "facet": "time", "part": 2, "at": "01:12:23", "note": "Russian citizenship in 2016 and appointment as special envoy in 2018" }
+  ],
+  "notes": "No theme for organized crime; the mob financing of his career is folded into fraud-grift. organized-religion covers the disputed Tibetan Buddhist tulku recognition. authoritarianism reflects his friendships with Lukashenko, Duterte and Putin, a substantial closing segment. main_span starts at Above the Law (1988) per the encyclopedia test; Japan years and earlier lies are covered but are background. Julius Nasso's birth year is not given, so floruit is used."
+}

@@ -1,0 +1,101 @@
+{
+  "story_id": "the-bastards-of-the-2018-midterm-election",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "current-affairs",
+  "subjects": [
+    {
+      "name": "2018 United States midterm elections",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Steve King",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1949, "end": null }
+    },
+    {
+      "name": "Arthur Jones",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2018
+    },
+    {
+      "name": "John Fitzgerald",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2018
+    },
+    {
+      "name": "Scott Rhodes",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2018
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "fascism-far-right",
+    "secondary": [
+      "electoral-politics",
+      "nazism",
+      "racism-white-supremacy",
+      "conspiracy-theories",
+      "immigration-borders"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2018, "end": 2018 },
+    "covered_span": { "start": 2016, "end": 2018 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "A survey of openly white-supremacist, neo-Nazi and conspiracist candidates in the 2018 US midterm elections, from Holocaust deniers on state Republican ballots to Iowa congressman Steve King, and the party officials who failed to stop them.",
+  "content_warnings": ["hate-speech"],
+  "keywords": [
+    "Holocaust denial",
+    "Corey Stewart",
+    "Bill Fawell",
+    "Russell Walker",
+    "Paul Nehlen",
+    "The Road to Power",
+    "Pizzagate",
+    "Faith Goldy",
+    "Mark Collett",
+    "The Camp of the Saints"
+  ],
+  "guests": ["Katy Stoll", "Cody Johnston"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "subjects", "part": 1, "at": "00:08:25", "note": "Arthur Jones, ex-American Nazi Party member, wins Illinois GOP primary unopposed by his party" },
+    { "facet": "themes", "part": 1, "at": "00:11:33", "note": "Jones campaign site hosts scanned Holocaust denial pamphlets; Nazism theme" },
+    { "facet": "themes", "part": 1, "at": "00:15:14", "note": "Corey Stewart, Virginia Senate nominee, and his ties to Unite the Right organiser" },
+    { "facet": "themes", "part": 1, "at": "00:19:55", "note": "Bill Fawell's Sandy Hook, 9/11 and Pizzagate conspiracy posts; conspiracy theme" },
+    { "facet": "time", "part": 1, "at": "00:21:29", "note": "Fawell's 2016 Pizzagate posts pull covered span back to 2016" },
+    { "facet": "subjects", "part": 1, "at": "00:25:05", "note": "John Fitzgerald, Holocaust denier, finishes second in California's 11th district primary" },
+    { "facet": "content_warnings", "part": 1, "at": "00:29:15", "note": "Antisemitic robocall played in full on air" },
+    { "facet": "subjects", "part": 1, "at": "00:31:53", "note": "Scott Rhodes and The Road to Power robocall campaigns get their own segment" },
+    { "facet": "subjects", "part": 1, "at": "00:36:04", "note": "Steve King segment begins and runs to the end of the episode" },
+    { "facet": "themes", "part": 1, "at": "00:44:05", "note": "King's anti-immigrant remarks about Dreamers and mixing cultures; immigration theme" },
+    { "facet": "time", "part": 1, "at": "00:45:06", "note": "King's 2016 amendment against Harriet Tubman on the $20 bill" }
+  ],
+  "notes": "Survey episode with no single bastard, so the election is primary and the longest segments are secondary; Corey Stewart, Bill Fawell, Russell Walker and Paul Nehlen are keywords (subject cap). Transcript spellings Neelon/Fowl/Goldie corrected to Nehlen/Fawell/Goldy. King's 1990s English-only speech and 2008 Obama remark are brief, so covered span starts 2016. fascism-far-right vs electoral-politics as primary is a judgment call."
+}

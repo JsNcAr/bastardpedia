@@ -1,0 +1,91 @@
+{
+  "story_id": "alex-jones-the-godfather-of-fake-news",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Alex Jones",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1974, "end": null }
+    },
+    {
+      "name": "InfoWars",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Sandy Hook Elementary School shooting",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["conspiracy-theorist", "media-personality", "con-artist"],
+  "themes": {
+    "primary": "conspiracy-theories",
+    "secondary": [
+      "propaganda-media",
+      "quackery-pseudoscience",
+      "fraud-grift",
+      "terrorism",
+      "tech-internet",
+      "racism-white-supremacy",
+      "domestic-abuse"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-TX"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1995, "end": null },
+    "covered_span": { "start": 1974, "end": 2018 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Texas broadcaster Alex Jones rose from Austin public access to build InfoWars, profiting from fear-driven conspiracy theories and dubious supplements, inspiring violent fans and smearing Sandy Hook families until lawsuits and 2018 platform bans hit him.",
+  "content_warnings": [],
+  "keywords": [
+    "Austin",
+    "9/11 Truth",
+    "Loose Change",
+    "Infowars Life",
+    "Pizzagate",
+    "Sandy Hook lawsuit",
+    "deplatforming",
+    "Kelly Jones",
+    "Roger Stone",
+    "Jared Lee Loughner"
+  ],
+  "guests": ["Noel Brown", "Ben Bowlin"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:01:35", "note": "born in Dallas in 1974, raised in suburban Rockwall" },
+    { "facet": "time", "part": 1, "at": "00:14:42", "note": "after high school joins Austin public access; blames government for 1995 Oklahoma City bombing" },
+    { "facet": "subjects", "part": 1, "at": "00:31:57", "note": "fired from radio, starts the InfoWars website and home broadcasts" },
+    { "facet": "themes", "part": 1, "at": "00:54:16", "note": "2011 Google-bombing campaign and InfoWars feeding stories to Drudge" },
+    { "facet": "themes", "part": 2, "at": "00:02:37", "note": "watchdog finds lead above legal limits in InfoWars supplements" },
+    { "facet": "themes", "part": 2, "at": "00:27:08", "note": "series of shooters who followed Jones, starting with the Giffords shooting" },
+    { "facet": "subjects", "part": 2, "at": "00:44:20", "note": "Sandy Hook false-flag claims and harassment of victims' parents" },
+    { "facet": "themes", "part": 3, "at": "00:11:23", "note": "former employee's complaint alleging racism and harassment at InfoWars" },
+    { "facet": "themes", "part": 3, "at": "00:27:06", "note": "marriage, 2015 divorce and custody trial with abuse claims from his ex-wife" },
+    { "facet": "time", "part": 3, "at": "00:54:11", "note": "Sandy Hook families' defamation suit against InfoWars" },
+    { "facet": "time", "part": 3, "at": "00:59:25", "note": "August-September 2018 bans from major platforms" }
+  ],
+  "notes": "Lifetime rule sets covered_span 1974-2018; main_span starts with his 1995 public access career. domestic-abuse rests on the ex-wife's custody-trial allegations, not proven abuse. Mass shootings fit terrorism only loosely (political violence by fans). Sexual harassment in the employee complaint was a short segment, so sexual-abuse was left out."
+}

@@ -1,0 +1,150 @@
+{
+  "story_id": "ronald-and-nancy-reagan-the-bastards-behind-the-aids-crisis",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Ronald Reagan",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1911, "end": 2004 },
+      "wikidata": "Q9960"
+    },
+    {
+      "name": "Nancy Reagan",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1921, "end": 2016 }
+    },
+    {
+      "name": "C. Everett Koop",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1916, "end": 2013 }
+    },
+    {
+      "name": "Rock Hudson",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1925, "end": 1985 }
+    },
+    {
+      "name": "AIDS epidemic in the United States",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["politician-official"],
+  "themes": {
+    "primary": "public-health",
+    "secondary": [
+      "religious-right-culture-war",
+      "electoral-politics",
+      "education",
+      "entertainment-celebrity"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "FR"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1981, "end": 1989 },
+    "covered_span": { "start": 1911, "end": 2016 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Ronald and Nancy Reagan, despite many gay friends from their Hollywood years, kept the US government silent and underfunded through the early AIDS epidemic of the 1980s to protect support from the religious right.",
+  "content_warnings": [],
+  "keywords": [
+    "AIDS crisis",
+    "Larry Speakes",
+    "Lester Kinsolving",
+    "Pat Buchanan",
+    "Gary Bauer",
+    "Briggs Initiative",
+    "Understanding AIDS pamphlet",
+    "Surgeon General's Report on AIDS",
+    "Ryan White",
+    "Roy Cohn"
+  ],
+  "guests": ["Andy Beckerman"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:19:39",
+      "note": "1967 governorship and the firing of gay staffers after press exposure"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:30:37",
+      "note": "1980 Christians for Reagan anti-gay ads and the evangelical voting bloc"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:25:19",
+      "note": "1982 press briefing where the press secretary jokes about AIDS"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:37:27",
+      "note": "CDC and NIH funding cuts and comparisons with other diseases"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:56:32",
+      "note": "Rock Hudson seeks treatment in Paris in 1985; Nancy declines to intervene"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:01:41",
+      "note": "Reagan first says the word AIDS in public in 1985"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:08:45",
+      "note": "long Koop segment begins: background, appointment, 1986 report"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:20:48",
+      "note": "Koop calls for school sex education including condoms"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:22:53",
+      "note": "religious-right backlash to the report; Bauer rewrites AIDS education policy"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:43:14",
+      "note": "Reagan leaves office in 1989; Ryan White letter and Roy Cohn's 1986 death"
+    }
+  ],
+  "notes": "Two primaries per PROMPT.md's Reagan example, so the lifetime rule sets covered_span 1911-2016, although the story itself runs only from their 1960s Hollywood circle to about 1990. No theme exists for LGBTQ rights or homophobia, which is central here; public-health plus religious-right-culture-war is the closest fit. Nancy Reagan's QID omitted for lack of certainty."
+}

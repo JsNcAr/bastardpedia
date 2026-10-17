@@ -1,0 +1,97 @@
+{
+  "story_id": "john-mcafee-is-not-funny-anymore",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "John McAfee",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1945, "end": 2021 }
+    },
+    {
+      "name": "Allison Adonizio",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2010
+    },
+    {
+      "name": "Gregory Faull",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": 2012 }
+    },
+    {
+      "name": "Janice McAfee",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2013
+    },
+    {
+      "name": "McAfee Associates",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["con-artist", "tech-founder", "criminal-killer"],
+  "themes": {
+    "primary": "fraud-grift",
+    "secondary": ["tech-internet", "drugs", "sexual-abuse", "moral-panics", "electoral-politics"]
+  },
+  "regions": {
+    "origin": ["GB", "US"],
+    "setting": ["BZ", "US", "GT", "BS"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1987, "end": null },
+    "covered_span": { "start": 1945, "end": 2019 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Antivirus pioneer John McAfee hyped computer-virus fears to sell software, then drifted through drug-fuelled ventures in Belize, where he was accused of rape and suspected in a neighbour's 2012 killing, before fleeing into fringe politics and exile.",
+  "content_warnings": ["sexual-violence", "drug-use"],
+  "keywords": [
+    "McAfee antivirus",
+    "Michelangelo virus",
+    "Sky Gypsies",
+    "aerotrekking",
+    "Ambergris Caye",
+    "Orange Walk",
+    "Carmelita",
+    "alpha-PHP",
+    "Gringo: The Dangerous Life of John McAfee",
+    "Libertarian presidential campaign"
+  ],
+  "guests": ["Laci Mosley"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "regions", "part": 1, "at": "00:01:32", "note": "born in Gloucestershire, England to an American father, raised in Virginia" },
+    { "facet": "time", "part": 1, "at": "00:11:33", "note": "first meets the Brain virus at Lockheed and builds the first commercial antivirus" },
+    { "facet": "themes", "part": 1, "at": "00:15:43", "note": "inflates Michelangelo virus damage estimates in the press to drive sales" },
+    { "facet": "subjects", "part": 1, "at": "00:32:00", "note": "nephew and a student die in a crash at his unlicensed flight school" },
+    { "facet": "regions", "part": 1, "at": "00:36:44", "note": "claims to lose his fortune and moves assets and himself to Belize" },
+    { "facet": "themes", "part": 1, "at": "00:51:18", "note": "Belizean police raid his jungle lab on suspicion of drug production" },
+    { "facet": "themes", "part": 1, "at": "01:00:51", "note": "Adonizio's allegation that he drugged and raped her before she left" },
+    { "facet": "subjects", "part": 2, "at": "00:05:42", "note": "neighbour Greg Faull found shot dead; McAfee becomes the main suspect" },
+    { "facet": "regions", "part": 2, "at": "00:13:30", "note": "arrested in Guatemala after Vice photo metadata leaks, then deported to the US" },
+    { "facet": "themes", "part": 2, "at": "00:28:13", "note": "runs for president as a Libertarian; campaign videos described" },
+    { "facet": "themes", "part": 2, "at": "00:48:06", "note": "reporting that he was binging the legal stimulant alpha-PHP" },
+    { "facet": "regions", "part": 2, "at": "00:56:02", "note": "flees a claimed tax case by boat to the Bahamas in early 2019" }
+  ],
+  "notes": "McAfee was alive at release (died 2021), so covered_span ends at 2019 and main_span is open-ended. The 16-year-old sex worker he took up with in Belize (legal age there) gets a short segment; child-abuse was left out as the story does not frame it as abuse at length. Faull's birth year is not given."
+}

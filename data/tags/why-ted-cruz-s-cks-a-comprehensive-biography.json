@@ -1,0 +1,140 @@
+{
+  "story_id": "why-ted-cruz-s-cks-a-comprehensive-biography",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Ted Cruz",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1970, "end": null },
+      "wikidata": "Q2036942"
+    },
+    {
+      "name": "Fred G. Clark",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": 1973 }
+    },
+    {
+      "name": "Roland Story",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": null },
+      "floruit": 1976
+    },
+    {
+      "name": "Rafael Cruz",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1939, "end": null }
+    }
+  ],
+  "roles": ["politician-official"],
+  "themes": {
+    "primary": "electoral-politics",
+    "secondary": [
+      "education",
+      "propaganda-media",
+      "religious-right-culture-war",
+      "immigration-borders"
+    ]
+  },
+  "regions": {
+    "origin": ["CA", "US"],
+    "setting": ["US"],
+    "subdivisions": ["US-TX"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2003, "end": null },
+    "covered_span": { "start": 1939, "end": 2018 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Biography of Texas senator Ted Cruz, from his teenage schooling in libertarian free-market ideology through Princeton and his Senate career, covering the 2013 shutdown, hardline positions and dirty campaign tactics up to his 2018 race.",
+  "content_warnings": [],
+  "keywords": [
+    "Constitutional Corroborators",
+    "Ten Pillars of Economic Wisdom",
+    "American Economic Foundation",
+    "Free Enterprise Education Institute",
+    "Princeton University",
+    "Medellin v. Texas",
+    "2013 government shutdown",
+    "2016 Republican primary",
+    "Beto O'Rourke",
+    "Craig Mazin"
+  ],
+  "guests": ["Cody Johnston", "Katy Stoll"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:02:07",
+      "note": "story opens in Cleveland in 1939 with Fred Clark founding a free-market foundation"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:10:54",
+      "note": "Roland Story founds his Houston free-enterprise institute in 1976 and recruits teens"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:14:05",
+      "note": "Cruz born 1970 in Calgary to a Cuban father, family moves to Texas in 1974"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:18:28",
+      "note": "teen corroborators memorise the Constitution and tour Texas clubs as ideological training"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:43:16",
+      "note": "Harvard Law, Texas solicitor general 2003 to 2008, Supreme Court cases"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:45:53",
+      "note": "Senate fights over abortion access and the 2013 shutdown over Obamacare"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:49:34",
+      "note": "anti-Muslim and anti-refugee proposals, ties to a violent anti-abortion activist"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:55:24",
+      "note": "father Rafael Cruz: inflammatory claims and disputed Cuban revolutionary past"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:58:59",
+      "note": "2018 Senate race against O'Rourke and deceptive campaign texts and mailers"
+    }
+  ],
+  "notes": "Transcript renders the Princeton roommate as Craig Mason; the Hangover writer is Craig Mazin. Covered span starts in 1939 because Fred Clark's foundation and Roland Story's program get a long segment as the ideological roots of Cruz. Rafael Cruz's Cuban past is a short segment, so CU is left out of setting. Description frames this as the first of two 2018 midterm episodes, but the content is a full biography, so deep-dive."
+}

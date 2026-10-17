@@ -1,0 +1,95 @@
+{
+  "story_id": "erik-prince-the-rich-kid-who-bought-an-army",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Erik Prince",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1969, "end": null }
+    },
+    {
+      "name": "Blackwater",
+      "kind": "organization",
+      "org_type": "military",
+      "role": "secondary"
+    },
+    {
+      "name": "Civilian Warriors",
+      "kind": "media-work",
+      "role": "secondary"
+    },
+    {
+      "name": "Nisour Square massacre",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["mercenary-warlord", "business-executive", "military-officer"],
+  "themes": {
+    "primary": "war-war-crimes",
+    "secondary": [
+      "corporate-malfeasance",
+      "weapons-arms-trade",
+      "colonialism-imperialism",
+      "labor-exploitation",
+      "religious-right-culture-war"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["IQ", "AF", "AE", "US", "AT", "MZ"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1997, "end": null },
+    "covered_span": { "start": 1969, "end": 2018 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Billionaire heir and former Navy SEAL Erik Prince founded the mercenary firm Blackwater, whose contractors killed Iraqi civilians, then tried to build private armies, an air force and a navy for foreign governments.",
+  "content_warnings": ["mass-atrocity", "graphic-violence"],
+  "keywords": [
+    "Fallujah",
+    "Academi",
+    "Frontier Services Group",
+    "Echo Papa",
+    "Airborne Technologies",
+    "Betsy DeVos",
+    "Hillsdale College",
+    "Kirill Dmitriev",
+    "Mozambique hidden debt scandal",
+    "Afghanistan privatization plan"
+  ],
+  "guests": ["Miles Gray"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:00:32", "note": "birth in 1969 in Holland, Michigan; wealthy family background" },
+    { "facet": "themes", "part": 1, "at": "00:01:37", "note": "parents fund Family Research Council and anti-gay, anti-abortion causes" },
+    { "facet": "time", "part": 1, "at": "00:08:56", "note": "leaves SEALs after father's death and founds Blackwater training site" },
+    { "facet": "themes", "part": 1, "at": "00:15:37", "note": "poorly paid third-country nationals housed badly and dying uncounted" },
+    { "facet": "regions", "part": 1, "at": "00:20:53", "note": "under-equipped Fallujah convoy ambush sparks the battle" },
+    { "facet": "content_warnings", "part": 1, "at": "00:31:43", "note": "Nisour Square shooting killing at least seventeen civilians" },
+    { "facet": "regions", "part": 1, "at": "00:36:26", "note": "moves to UAE and raises a Colombian battalion for the Emiratis" },
+    { "facet": "themes", "part": 1, "at": "00:44:25", "note": "secretly arms a crop duster via Austrian firm for African clients" },
+    { "facet": "regions", "part": 2, "at": "00:03:07", "note": "takes over armed boats from Mozambique's hidden-debt companies" },
+    { "facet": "themes", "part": 2, "at": "00:15:06", "note": "Afghanistan plan funded by mineral extraction, East India Company model" },
+    { "facet": "format", "part": 2, "at": "00:06:45", "note": "second part structured around reading his autobiography" },
+    { "facet": "time", "part": 2, "at": "01:07:19", "note": "2009 sworn statements and later life, up to 2017-2018 news" }
+  ],
+  "notes": "Format borderline: part 2 is structured around reading Prince's 2013 autobiography Civilian Warriors (media-reading), but part 1 is a straight biography and part 2 also covers his life and later ventures, so deep-dive overall. Erik Prince Wikidata QID omitted as not certain. Trump-era politics (Russia back channel) mentioned briefly, not tagged."
+}

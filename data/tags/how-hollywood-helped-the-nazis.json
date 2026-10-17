@@ -1,0 +1,101 @@
+{
+  "story_id": "how-hollywood-helped-the-nazis",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Hollywood studios",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "primary"
+    },
+    {
+      "name": "Georg Gyssling",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1893, "end": 1965 }
+    },
+    {
+      "name": "Will H. Hays",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1879, "end": 1954 }
+    },
+    {
+      "name": "Carl Laemmle",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1867, "end": 1939 }
+    },
+    {
+      "name": "Gabriel Over the White House",
+      "kind": "media-work",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "nazism",
+    "secondary": [
+      "entertainment-celebrity",
+      "propaganda-media",
+      "racism-white-supremacy",
+      "fascism-far-right",
+      "corporate-malfeasance"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "DE"],
+    "subdivisions": [],
+    "polities": ["nazi-germany"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1930, "end": 1940 },
+    "covered_span": { "start": 1905, "end": 1940 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "How the major Hollywood studios accommodated Nazi Germany between 1930 and 1940, cutting films, dropping Jewish characters and shelving anti-Nazi projects to protect their profitable German market.",
+  "content_warnings": ["hate-speech"],
+  "keywords": [
+    "The Collaboration",
+    "Ben Urwand",
+    "All Quiet on the Western Front",
+    "The Mad Dog of Europe",
+    "Hays Code",
+    "Article 15",
+    "The House of Rothschild",
+    "It Can't Happen Here",
+    "The Great Dictator",
+    "Fatty Arbuckle"
+  ],
+  "guests": ["Daniel Van Kirk"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:04:10", "note": "Edison's patent trust and the early film industry wars, origin of the studios" },
+    { "facet": "time", "part": 1, "at": "00:18:06", "note": "1930 All Quiet on the Western Front named as the start of the collaboration" },
+    { "facet": "subjects", "part": 1, "at": "00:19:39", "note": "Laemmle orders cuts to please the German foreign office, first studio head to cave" },
+    { "facet": "subjects", "part": 1, "at": "00:46:27", "note": "Arbuckle scandal leads studios to form the MPPDA under Will Hays" },
+    { "facet": "themes", "part": 1, "at": "00:51:40", "note": "German Article 15 lets permits be pulled over films hurting German prestige anywhere" },
+    { "facet": "subjects", "part": 1, "at": "00:55:48", "note": "Gyssling becomes the German consul policing Hollywood; Warner Bros forced out" },
+    { "facet": "themes", "part": 1, "at": "01:05:09", "note": "US antisemitism and fascist rallies make Jewish studio heads fear a backlash" },
+    { "facet": "subjects", "part": 2, "at": "00:03:05", "note": "Gabriel Over the White House discussed at length as a fascist Hollywood film" },
+    { "facet": "themes", "part": 2, "at": "00:15:02", "note": "Bengal Lancer dialogue made more racist for German release, admired by Nazis" },
+    { "facet": "themes", "part": 2, "at": "00:36:53", "note": "MGM moves German profits out via loans to armament firms" },
+    { "facet": "time", "part": 2, "at": "00:56:09", "note": "MGM and Paramount banned from Germany in 1940, ending the arrangement" }
+  ],
+  "notes": "Primary subject is the studios collectively; no single company fits, so a generic organization entry was used. Transcript says Laemmle died in 1936; he actually died in 1939. Covered start 1905 is approximate for the nickelodeon and patent-war background on the industry's founding. China comparison at the end ignored as commentary."
+}

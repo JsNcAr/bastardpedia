@@ -1,0 +1,100 @@
+{
+  "story_id": "phrenology-the-bastard-science-of-racism",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Phrenology",
+      "kind": "practice-or-pseudoscience",
+      "role": "primary"
+    },
+    {
+      "name": "Franz Joseph Gall",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1758, "end": 1828 }
+    },
+    {
+      "name": "Charles Caldwell",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1772, "end": 1853 }
+    },
+    {
+      "name": "Samuel George Morton",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1799, "end": 1851 }
+    },
+    {
+      "name": "William Ramsay Smith",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1859, "end": 1937 }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "eugenics-scientific-racism",
+    "secondary": [
+      "quackery-pseudoscience",
+      "colonialism-imperialism",
+      "slavery-forced-labor",
+      "genocide-mass-killing",
+      "racism-white-supremacy"
+    ]
+  },
+  "regions": {
+    "origin": ["AT"],
+    "setting": ["US", "AU", "RW", "GB", "FR", "CD"],
+    "subdivisions": [],
+    "polities": ["british-empire"],
+    "scope": "global"
+  },
+  "time": {
+    "main_span": { "start": 1800, "end": 1903 },
+    "covered_span": { "start": 1800, "end": 1994 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "History of phrenology, the skull-reading pseudoscience founded by Franz Joseph Gall around 1800, and how it was used to justify slavery, Native removal and colonialism, fed a trade in Aboriginal bones and shaped Rwanda's ethnic ID cards.",
+  "content_warnings": ["slavery", "graphic-violence", "mass-atrocity", "hate-speech"],
+  "keywords": [
+    "cranioscopy",
+    "Crania Americana",
+    "Johann Spurzheim",
+    "George Combe",
+    "Thomas Mitchell",
+    "University of Edinburgh",
+    "Rwandan identity cards",
+    "The White Man's Burden",
+    "The Bell Curve",
+    "Charles Murray"
+  ],
+  "guests": ["Josh Clark"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:06:40", "note": "Gall invents cranioscopy in 1800, the start of the story proper" },
+    { "facet": "regions", "part": 1, "at": "00:10:19", "note": "Gall driven out of Austria, moves to France in 1805; Institute of France review 1808" },
+    { "facet": "regions", "part": 1, "at": "00:13:24", "note": "phrenology first succeeds in Britain as justification for empire, especially over the Irish" },
+    { "facet": "themes", "part": 1, "at": "00:21:12", "note": "Kentucky slaveholder Caldwell lectures across the South using phrenology to defend slavery" },
+    { "facet": "themes", "part": 1, "at": "00:33:45", "note": "Morton's 1839 Crania Americana used to justify Indian removal" },
+    { "facet": "regions", "part": 2, "at": "00:09:18", "note": "start of long segment on the Australian trade in Aboriginal skulls and bodies" },
+    { "facet": "time", "part": 2, "at": "00:20:09", "note": "Ramsay Smith morgue inquiry in Adelaide, 1903; he dies in 1937" },
+    { "facet": "regions", "part": 2, "at": "00:21:11", "note": "Belgian Congo bone collecting and the cannibalism myth" },
+    { "facet": "time", "part": 2, "at": "00:29:11", "note": "Belgian racial ID cards in Rwanda from 1933, used to target Tutsi in the 1994 genocide" },
+    { "facet": "time", "part": 2, "at": "00:35:26", "note": "legacy segment on The Bell Curve and scientific racism into the 2010s" }
+  ],
+  "notes": "Aristotle, Linnaeus, Camper and Blumenbach are pre-story background and not counted in covered_span. Origin AT reflects Gall developing the practice in Vienna (he was born in Baden, DE). main_span runs from cranioscopy to the 1903 Ramsay Smith inquiry, the core 19th-century heyday; the Rwanda legacy extends covered_span to 1994, and the Bell Curve segment sets reaches_present."
+}

@@ -1,0 +1,162 @@
+{
+  "story_id": "the-russian-scientist-who-helped-kill-30-million-people",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Trofim Lysenko",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1898, "end": 1976 }
+    },
+    {
+      "name": "Nikolai Vavilov",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1887, "end": 1943 }
+    },
+    {
+      "name": "Great Leap Forward",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Mao Zedong",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1893, "end": 1976 },
+      "wikidata": "Q5816"
+    },
+    {
+      "name": "Ilya Ivanov",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1870, "end": 1932 }
+    }
+  ],
+  "roles": ["scientist-scholar", "politician-official"],
+  "themes": {
+    "primary": "quackery-pseudoscience",
+    "secondary": [
+      "communism-state-socialism",
+      "genocide-mass-killing",
+      "propaganda-media",
+      "science-exploration"
+    ]
+  },
+  "regions": {
+    "origin": ["UA"],
+    "setting": ["CN", "UA", "RU", "GN"],
+    "subdivisions": [],
+    "polities": ["soviet-union"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1927, "end": 1965 },
+    "covered_span": { "start": 1898, "end": 1976 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Soviet agronomist Trofim Lysenko rejected genetics for politically convenient pseudoscience, purged rival scientists under Stalin, and saw his farming methods drive famines in the USSR and Mao's China from the 1930s to the 1960s.",
+  "content_warnings": ["mass-atrocity"],
+  "keywords": [
+    "Lysenkoism",
+    "vernalization",
+    "Barefoot Professor",
+    "Holodomor",
+    "Great Chinese Famine",
+    "Lenin Academy",
+    "Vavilov seed bank",
+    "Siege of Leningrad",
+    "Ivan Michurin",
+    "Hungry Ghosts"
+  ],
+  "guests": ["Max Silvestri"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:02:32",
+      "note": "opening segment on Ivanov's ape-human hybrid scheme, later in French Guinea"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:11:17",
+      "note": "Vavilov's background, seed-collecting travels and seed bank introduced at length"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:14:25",
+      "note": "Lysenko's peasant birth in present-day Ukraine and start in agricultural institutes"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:16:27",
+      "note": "faked vernalization results and Pravda profile launch his fame"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:22:43",
+      "note": "collectivization famine and deliberate starvation of Ukrainians discussed"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:50:19",
+      "note": "Vavilov arrested in 1940, dies in the gulag; purges of geneticists"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:22:19",
+      "note": "Mao's eight-point farm plan applies close planting and deep plowing across China"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:23:50",
+      "note": "staged fields and faked harvest reports for Mao"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:42:24",
+      "note": "Great Chinese Famine death toll estimated at 25 to 30 million"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:46:31",
+      "note": "Sakharov denounces him in 1964; removed from his institute in 1965"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:51:09",
+      "note": "dies in Moscow in 1976, discredited"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:52:09",
+      "note": "modern Russian revival of his ideas tied to epigenetics sets reaches_present"
+    }
+  ],
+  "notes": "Primary theme could also be communism-state-socialism; chose pseudoscience as the story's pitch. Lysenko's early work in Azerbaijan is a brief mention, so AZ is left out of the setting. main_span runs from the 1927 Pravda profile to his 1965 removal. Holodomor counted under genocide-mass-killing, but most famine deaths are framed as policy failure."
+}

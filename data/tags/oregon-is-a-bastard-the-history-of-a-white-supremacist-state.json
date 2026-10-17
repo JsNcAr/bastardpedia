@@ -1,0 +1,139 @@
+{
+  "story_id": "oregon-is-a-bastard-the-history-of-a-white-supremacist-state",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Oregon",
+      "kind": "place",
+      "role": "primary",
+      "wikidata": "Q824"
+    },
+    {
+      "name": "Patriot Prayer",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "primary"
+    },
+    {
+      "name": "Joey Gibson",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": null }
+    },
+    {
+      "name": "Peter Hardeman Burnett",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1807, "end": 1895 }
+    },
+    {
+      "name": "Tom Metzger",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1938, "end": 2020 }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "racism-white-supremacy",
+    "secondary": [
+      "fascism-far-right",
+      "nazism",
+      "terrorism",
+      "policing-incarceration",
+      "propaganda-media"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-OR"],
+    "polities": [],
+    "scope": "local"
+  },
+  "time": {
+    "main_span": { "start": 1844, "end": null },
+    "covered_span": { "start": 1843, "end": 2018 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "A history of Oregon's white supremacy, from 1840s black exclusion laws and a powerful 1920s Klan through Portland's neo-Nazi skinhead era to Joey Gibson's Patriot Prayer and its violent street rallies in 2017-2018.",
+  "content_warnings": ["graphic-violence", "hate-speech"],
+  "keywords": [
+    "Portland",
+    "Burnett Lash Law",
+    "Vanport flood",
+    "Ku Klux Klan",
+    "Mulugeta Seraw",
+    "White Aryan Resistance",
+    "Skinhead City",
+    "Northwest Imperative",
+    "Jeremy Christian",
+    "Rose City Antifa"
+  ],
+  "guests": ["Marielle Eaton", "David (Rose City Antifa)", "Isaac (Rose City Antifa)"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:02:03",
+      "note": "Burnett leads the 1843 wagon train to Oregon, then passes the 1844 lash law against black residents"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:11:20",
+      "note": "1920s Oregon Klan has highest per-capita membership; 1922 governor elected with Klan backing"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:13:29",
+      "note": "Vanport built for black wartime shipyard workers, destroyed by the 1948 flood"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:23:51",
+      "note": "Portland police left dead possums at black-owned restaurants; later a skinhead symbol"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:26:56",
+      "note": "1988 skinhead murder of Mulugeta Seraw and the civil suit that bankrupted Tom Metzger"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:06:41",
+      "note": "Joey Gibson biography and founding of Patriot Prayer after the 2016 RNC"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:33:07",
+      "note": "2017 MAX train stabbings by Jeremy Christian, who had attended a Patriot Prayer rally"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:40:15",
+      "note": "2018 rallies, police response and skull fracture; story ends at the November 2018 rally"
+    }
+  ],
+  "notes": "Two-part story: part 1 is Oregon's racist history, part 2 is Patriot Prayer, so both are primary; neither is a person or group, so roles are empty. Joey Gibson's birth year is uncertain in the transcript (aged 33 or 34) and left null. main_span ends null because Patriot Prayer was active at release. Scope set to local (Oregon / Portland area) though Vancouver, WA also features."
+}

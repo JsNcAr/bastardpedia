@@ -1,0 +1,114 @@
+{
+  "story_id": "jacob-wohl-and-the-krassensteins-a-tale-of-several-grifters",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Jacob Wohl",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1997, "end": null }
+    },
+    {
+      "name": "Brian and Ed Krassenstein",
+      "kind": "group",
+      "role": "primary"
+    },
+    {
+      "name": "Jack Burkman",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": null }
+    }
+  ],
+  "roles": ["con-artist", "financier-investor", "influencer-online"],
+  "themes": {
+    "primary": "fraud-grift",
+    "secondary": ["finance-crypto", "propaganda-media", "electoral-politics", "tech-internet"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2003, "end": null },
+    "covered_span": { "start": 1997, "end": 2018 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "American grifters: the Krassenstein brothers, who promoted Ponzi-style investment schemes online before rebranding as anti-Trump Twitter figures, and teen fake hedge-fund manager Jacob Wohl, banned from finance and caught faking a 2018 smear of Robert Mueller.",
+  "content_warnings": [],
+  "keywords": [
+    "Surefire Intelligence",
+    "TalkGold",
+    "MoneyMakerGroup",
+    "high-yield investment programs",
+    "How the People Trumped Ronald Plump",
+    "Robert Mueller",
+    "National Futures Association",
+    "Arizona Corporation Commission",
+    "Gateway Pundit",
+    "Wolf of Wall Street"
+  ],
+  "guests": ["Shereen Lani Younes"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:02:37",
+      "note": "Krassensteins begin running HYIP promotion sites in 2003"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:06:23",
+      "note": "2016 federal raids in Fort Myers and later DOJ forfeiture over wire fraud"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:09:31",
+      "note": "brothers rebrand as anti-Trump resistance figures and partisan news site owners"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:21:07",
+      "note": "Wohl starts an investment firm at 17 and courts financial TV appearances"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:26:47",
+      "note": "NFA and Arizona regulators investigate his hedge fund and real estate firm"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:39:32",
+      "note": "Wohl writes for Gateway Pundit and launches a news site with a plagiarised ethics code"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:42:09",
+      "note": "October 2018 fake Mueller sexual misconduct accuser scheme with Burkman via Surefire"
+    }
+  ],
+  "notes": "Both the Wohl and Krassenstein halves get roughly equal weight per the title, so both are primary; roles describe both (Krassensteins also fit journalist-propagandist). Wohl birth year 1997 from general knowledge (transcript garbled); covered_span starts at birth per the lifetime rule though childhood is barely covered. Burkman birth year left null. main_span end null as subjects were active at release."
+}

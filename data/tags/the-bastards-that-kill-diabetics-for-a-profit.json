@@ -1,0 +1,114 @@
+{
+  "story_id": "the-bastards-that-kill-diabetics-for-a-profit",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Insulin pricing",
+      "kind": "practice-or-pseudoscience",
+      "role": "primary"
+    },
+    {
+      "name": "Eli Lilly and Company",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Frederick Banting",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1891, "end": 1941 }
+    },
+    {
+      "name": "Alex Azar",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1967, "end": null }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "public-health",
+    "secondary": ["corporate-malfeasance", "science-exploration"]
+  },
+  "regions": {
+    "origin": ["CA"],
+    "setting": ["US", "CA"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1921, "end": 2018 },
+    "covered_span": { "start": 1920, "end": 2018 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "How insulin, discovered in Toronto in the early 1920s and patented to keep it affordable, became unaffordable in the US as Eli Lilly and other makers used patent evergreening and steep price hikes, leaving diabetics to ration it and die.",
+  "content_warnings": ["animal-cruelty"],
+  "keywords": [
+    "University of Toronto",
+    "evergreening",
+    "Humalog",
+    "Sanofi",
+    "Novo Nordisk",
+    "John Macleod",
+    "Charles Best",
+    "James Collip",
+    "Shane Patrick Boyle",
+    "insulin rationing"
+  ],
+  "guests": ["Katie Golden"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:01:05",
+      "note": "opens on 2018 protest by parents of young diabetics who died rationing insulin"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:07:17",
+      "note": "long segment on Banting, Macleod, Best and Collip developing insulin in Toronto"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:13:35",
+      "note": "research begins in May 1921; breakthrough and patent follow in 1922-23"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:14:05",
+      "note": "dogs bought off the street and dying in pancreas surgery experiments"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:24:06",
+      "note": "makers tweak insulin to keep patents alive and block cheap generics"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:30:48",
+      "note": "Alex Azar's years running Lilly USA while Humalog prices tripled"
+    }
+  ],
+  "notes": "Primary subject is the insulin pricing story itself, so no roles. Description spells the guest Goldin; transcript and her own plug say Golden. Transcript drops several years (Banting's 1920 idea, 1921-23 work); filled from known history, hence approximate. Sanofi named only in the opening protest."
+}
