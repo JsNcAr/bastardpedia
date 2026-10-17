@@ -11,7 +11,7 @@ then lets you filter and search them, and links straight to the official
 episodes.
 
 > **Status: 0.1.0, pre-release.** Tag specification done (taxonomy 0.2.0),
-> scaffold built, no stories tagged yet. Private site at
+> scaffold built, no stories tagged yet. Public site at
 > `bastardpedia.ramsus.site` once the first release is cut. See
 > [docs/ROADMAP.md](docs/ROADMAP.md).
 

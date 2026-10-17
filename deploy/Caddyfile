@@ -11,12 +11,6 @@
 bastardpedia.ramsus.site {
 	encode zstd gzip
 
-	# Private until the public launch: set "private": false in project.config.json,
-	# regenerate, and reload Caddy. Credentials live in the server's environment.
-	basic_auth {
-		{$BASTARDPEDIA_AUTH_USER} {$BASTARDPEDIA_AUTH_HASH}
-	}
-
 	root * /opt/bastardpedia/dist
 
 	# Vite fingerprints everything under assets/: cache it forever.
@@ -39,7 +33,6 @@ bastardpedia.ramsus.site {
 		Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=()"
 		# Everything is self-hosted. No inline scripts or styles anywhere (eslint enforces it).
 		Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'"
-		X-Robots-Tag "noindex, nofollow"
 		-Server
 	}
 

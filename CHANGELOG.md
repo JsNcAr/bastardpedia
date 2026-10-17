@@ -21,3 +21,10 @@ logged in `docs/TAXONOMY.md` and called out here when they affect the app.
 - App shell: catalog with faceted filters in the URL, search, story detail,
   personal library, installable PWA.
 - CI, generated Caddy configuration and the release script.
+
+### Changed
+
+- The site launches public: no basic auth and no `noindex`. Making it private
+  again is one config switch (docs/DEPLOYMENT.md).
+- The generated Caddyfile spells basic auth `basicauth`, so it also loads on
+  Caddy 2.6 and 2.7.

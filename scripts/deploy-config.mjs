@@ -20,8 +20,10 @@ const env = cfg.slug.toUpperCase().replace(/[^A-Z0-9]/g, '_');
 const auth = cfg.private
   ? `
 	# Private until the public launch: set "private": false in project.config.json,
-	# regenerate, and reload Caddy. Credentials live in the server's environment.
-	basic_auth {
+	# regenerate, and reload Caddy. Credentials live in the server's environment;
+	# without them every request gets 401. \`basicauth\`, not \`basic_auth\`: the
+	# new spelling needs Caddy 2.8, and 2.8 and later still accept this one.
+	basicauth {
 		{$${env}_AUTH_USER} {$${env}_AUTH_HASH}
 	}
 `
