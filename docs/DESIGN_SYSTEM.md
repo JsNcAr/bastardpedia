@@ -52,7 +52,7 @@ three places together.
 One file per component in `src/styles/`, imported in order by
 `src/styles/index.css`: tokens, base (reset and type), layout, then
 components (button, segmented, search, facet, chip, results, timeline, story,
-callout, form, state, drawer, library, prose).
+callout, form, state, drawer, library, catch-up, prose).
 
 - **No inline `style` attributes.** ESLint rejects JSX `style=`, and the CSP has
   no `unsafe-inline`. The icon sprite is hidden with a class for the same reason.
@@ -150,6 +150,27 @@ run `npm run icons`.
     `size.timeline-label` column at 40rem and wider, and stacks it above a
     full-width bar below that, beside the story pane too;
   - **no dates:** stories without dates follow under their own heading.
+- **Marking many stories** (for listeners who arrive with years of episodes
+  behind them):
+  - **one tap:** every result and timeline row has a Listened toggle beside
+    its link, a sibling, never nested inside it, with a 44 px target;
+  - **select mode:** Select in the results tools swaps the toggles for
+    checkboxes and shows a sticky bar (Select all shown, Clear, Mark listened,
+    Want to listen, Unmark, Done). The selection is UI state, not a filter, so
+    it stays out of the URL, and it survives filter changes. Escape leaves the
+    mode when no story pane is open;
+  - **catch-up page** (`/library/catch-up`): pick release months with a
+    preset, the month fields or a drag on the stories-per-month chart, leave
+    out formats, untick exceptions per year or per story, then mark the rest in
+    one step;
+  - **writes:** a bulk mark is one transaction that keeps favourites and
+    notes, and moves want-list stories to listened;
+  - **undo:** every bulk mark reports in a status region with Undo, which
+    restores the exact earlier marks. It stays until dismissed, never on a
+    timer;
+  - **discovery:** a card on the Library page while fewer than 10 stories are
+    listened, and a link in the filter rail where "Hide listened" appears once
+    something is marked. No popups.
 - Agent-only records carry a quiet "Unreviewed" badge: present, never alarming.
 - Empty, loading and error states use `StateMessage` with a plain explanation
   and a next step.

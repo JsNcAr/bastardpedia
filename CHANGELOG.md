@@ -23,6 +23,9 @@ logged in `docs/TAXONOMY.md` and called out here when they affect the app.
 - Timeline view in the catalogue (`view=timeline`): a density strip that sets
   the year range by dragging, and one bar per story on an axis that fits the
   results, with years covered and main events told apart.
+- Marking many stories at once: a one-tap Listened toggle on every row, a
+  select mode in the catalogue, and a catch-up page that marks everything
+  released in chosen months, all with Undo.
 - CI, generated Caddy configuration and the release script.
 - `deploy/deploy.sh`: build and publish a commit from a checkout on the
   server, with the deploy user's own Node from `.nvmrc`.
