@@ -23,6 +23,7 @@ export function Timeline({
   terms,
   onYears,
   markFor,
+  selectFor,
 }: {
   stories: CatalogStory[];
   yearFrom: number | null;
@@ -33,6 +34,7 @@ export function Timeline({
   terms: ReadonlyMap<string, string[]> | undefined;
   onYears: (from: number | null, to: number | null, live: boolean) => void;
   markFor?: (story: CatalogStory) => ReactNode;
+  selectFor?: (story: CatalogStory) => string | undefined;
 }) {
   const dated = useMemo(() => stories.filter((s) => s.time), [stories]);
   const undated = useMemo(() => stories.filter((s) => !s.time), [stories]);
@@ -50,6 +52,7 @@ export function Timeline({
       entry={entries.get(s.id)}
       terms={terms?.get(s.id)}
       mark={markFor?.(s)}
+      selectFor={selectFor?.(s)}
     />
   );
 

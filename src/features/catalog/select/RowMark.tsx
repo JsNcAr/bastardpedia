@@ -1,6 +1,7 @@
 import { useSaveLibraryEntry } from '@/app/queries';
 import { emptyEntry, isBlank, type LibraryEntry } from '@/data';
 import { Icon } from '@/ui/Icon';
+import { selectId } from './select-id';
 
 /**
  * The control beside a result row: a one-tap Listened toggle, or in select mode
@@ -28,6 +29,8 @@ export function RowMark({
       <label className="row-mark row-check">
         <input
           type="checkbox"
+          id={selectId(storyId)}
+          data-story={storyId}
           checked={checked}
           aria-label={`Select: ${title}`}
           onChange={(e) => onCheck(storyId, e.currentTarget.checked)}

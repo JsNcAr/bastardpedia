@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { Link } from 'react-router';
+import { RowShell } from '../select/RowShell';
 import type { CatalogStory } from '@shared/schemas/catalog.ts';
 import type { LibraryEntry } from '@/data';
 import { formatSpan } from '../format';
@@ -18,6 +18,7 @@ export function TimelineRow({
   entry,
   terms,
   mark,
+  selectFor,
 }: {
   story: CatalogStory;
   domain: Domain;
@@ -27,6 +28,8 @@ export function TimelineRow({
   terms?: string[] | undefined;
   /** The control beside the row (RowMark): a sibling of the link, not inside it. */
   mark?: ReactNode;
+  /** In select mode, the row's checkbox id: the whole row then ticks it instead of opening. */
+  selectFor?: string | undefined;
 }) {
   const time = story.time;
   const covered = time ? clip(time.covered_span, domain) : null;
@@ -39,12 +42,12 @@ export function TimelineRow({
   const rightMark = covered?.clippedEnd === true || off === 'after';
   return (
     <li className="timeline-item">
-      <Link
-        to={{ pathname: `/stories/${story.id}`, search }}
+      <RowShell
+        storyId={story.id}
+        search={search}
         className="timeline-row"
-        data-story={story.id}
-        aria-current={selected ? 'page' : undefined}
-        preventScrollReset
+        selected={selected}
+        selectFor={selectFor}
       >
         <span className="timeline-label">
           <span className="timeline-title">
@@ -90,7 +93,7 @@ export function TimelineRow({
             />
           ) : null}
         </svg>
-      </Link>
+      </RowShell>
       {mark}
     </li>
   );

@@ -11,6 +11,7 @@ import {
   monthLabel,
   monthRange,
   monthValue,
+  oldestFirst,
   parseMonth,
   releaseBounds,
   released,
@@ -22,6 +23,7 @@ import {
 import { YearGroup } from './YearGroup';
 
 const PRESETS: { id: Preset; label: string }[] = [
+  { id: 'none', label: "Skip this: I'll tick stories myself" },
   { id: 'all', label: 'Everything so far' },
   { id: 'until', label: 'Everything up to a month' },
   { id: 'since', label: 'Everything since a month' },
@@ -29,9 +31,9 @@ const PRESETS: { id: Preset; label: string }[] = [
 ];
 
 /**
- * A first pass for longtime listeners: pick the release months you have heard,
- * leave out formats you skip, untick the exceptions, and mark the rest listened
- * in one go, with Undo.
+ * A first pass for longtime listeners: tick stories by release months (optional),
+ * adjust the ticks by year or story, optionally leave out formats, and mark the
+ * rest listened in one go, with Undo.
  */
 export function CatchUpPage() {
   const catalog = useCatalog();
@@ -42,8 +44,8 @@ export function CatchUpPage() {
       </p>
       <h1 className="page-title">Catch up</h1>
       <p className="page-lead">
-        Mark everything you have already heard in one go. You can untick the exceptions before
-        anything is saved, and undo it after.
+        Mark everything you have already heard in one go. Tick stories by release date, by year or
+        one at a time; nothing is saved until you press the button, and you can undo it after.
       </p>
       {catalog.isPending ? (
         <StateMessage icon="library" title="Loading the catalogue" busy role="status" />
@@ -62,11 +64,13 @@ function CatchUp({ catalog }: { catalog: Catalog }) {
   const library = useLibrary();
   const bulk = useBulkStatus();
   const { first, last } = useMemo(() => releaseBounds(catalog.stories), [catalog.stories]);
-  const [preset, setPreset] = useState<Preset>('all');
+  const all = useMemo(() => oldestFirst(catalog.stories), [catalog.stories]);
+  const [preset, setPreset] = useState<Preset>('none');
   const [from, setFrom] = useState<Month>(first);
   const [to, setTo] = useState<Month>(last);
+  // The ticks are the selection. Step 1 replaces them; the list adjusts them.
+  const [ticked, setTicked] = useState<ReadonlySet<string>>(() => new Set());
   const [skip, setSkip] = useState<ReadonlySet<string>>(() => new Set());
-  const [unticked, setUnticked] = useState<ReadonlySet<string>>(() => new Set());
   const [outcome, setOutcome] = useState<BulkOutcome | null>(null);
 
   const listened = useMemo(
@@ -77,34 +81,34 @@ function CatchUp({ catalog }: { catalog: Catalog }) {
     () => monthBins(catalog.stories, first, last),
     [catalog.stories, first, last],
   );
-  const chosen = useMemo(
-    () => storiesFor(catalog.stories, { preset, from, to, skipFormats: skip }, first, last),
-    [catalog.stories, preset, from, to, skip, first, last],
-  );
-  // Format counts within the chosen months, before any format is left out.
   const formatCounts = useMemo(() => {
     const counts = new Map<string, number>();
-    for (const s of storiesFor(
-      catalog.stories,
-      { preset, from, to, skipFormats: new Set() },
-      first,
-      last,
-    ))
-      counts.set(s.format, (counts.get(s.format) ?? 0) + 1);
+    for (const s of catalog.stories) counts.set(s.format, (counts.get(s.format) ?? 0) + 1);
     return counts;
-  }, [catalog.stories, preset, from, to, first, last]);
+  }, [catalog.stories]);
 
-  const ticked = chosen.filter((s) => !unticked.has(s.id));
-  const toMark = ticked.filter((s) => !listened.has(s.id));
-  const sum = totals(ticked);
-  const already = ticked.length - toMark.length;
+  /** Step 1: a new release-date choice ticks exactly the stories it covers. */
+  const choose = (next: { preset: Preset; from: Month; to: Month }) => {
+    setPreset(next.preset);
+    setFrom(next.from);
+    setTo(next.to);
+    const covered = storiesFor(catalog.stories, { ...next, skipFormats: new Set() }, first, last);
+    setTicked(new Set(covered.map((s) => s.id)));
+  };
+
+  // Left-out formats are hidden from the list and never marked; their ticks are kept.
+  const shown = all.filter((s) => !skip.has(s.format));
+  const picked = shown.filter((s) => ticked.has(s.id) || listened.has(s.id));
+  const toMark = picked.filter((s) => !listened.has(s.id));
+  const sum = totals(picked);
+  const already = picked.length - toMark.length;
 
   const toggle = (ids: string[], on: boolean) =>
-    setUnticked((prev) => {
+    setTicked((prev) => {
       const next = new Set(prev);
       for (const id of ids) {
-        if (on) next.delete(id);
-        else next.add(id);
+        if (on) next.add(id);
+        else next.delete(id);
       }
       return next;
     });
@@ -130,8 +134,11 @@ function CatchUp({ catalog }: { catalog: Catalog }) {
     <>
       <section className="catch-step" aria-labelledby="catch-heard">
         <h2 id="catch-heard" className="section-title">
-          1. What have you heard?
+          1. Tick by release date <span className="catch-optional">(optional)</span>
         </h2>
+        <p className="catch-hint">
+          Choosing here replaces the ticks in the list below. Skip it to tick stories yourself.
+        </p>
         <fieldset className="catch-presets">
           <legend className="visually-hidden">Release dates</legend>
           {PRESETS.map((p) => (
@@ -140,16 +147,22 @@ function CatchUp({ catalog }: { catalog: Catalog }) {
                 type="radio"
                 name="catch-preset"
                 checked={preset === p.id}
-                onChange={() => setPreset(p.id)}
+                onChange={() => choose({ preset: p.id, from, to })}
               />
               {p.label}
             </label>
           ))}
         </fieldset>
-        {preset !== 'all' ? (
+        {preset !== 'all' && preset !== 'none' ? (
           <div className="year-fields catch-months">
-            {preset !== 'until' ? monthField('From', from, setFrom) : null}
-            {preset !== 'since' ? monthField(preset === 'until' ? 'Up to' : 'To', to, setTo) : null}
+            {preset !== 'until'
+              ? monthField('From', from, (m) => choose({ preset, from: m, to }))
+              : null}
+            {preset !== 'since'
+              ? monthField(preset === 'until' ? 'Up to' : 'To', to, (m) =>
+                  choose({ preset, from, to: m }),
+                )
+              : null}
           </div>
         ) : null}
         <DensityStrip
@@ -157,17 +170,52 @@ function CatchUp({ catalog }: { catalog: Catalog }) {
           domain={{ start: first, end: last + 1 }}
           format={monthLabel}
           unit="month"
-          selection={monthRange({ preset, from, to, skipFormats: skip }, first, last)}
-          hint="Stories released each month. Drag across the chart to pick the months you have heard."
+          selection={monthRange({ preset, from, to, skipFormats: skip }, first, last) ?? undefined}
+          hint="Stories released each month. Drag across the chart to tick the months you have heard."
           onRange={(a, b) => {
             if (a === null || b === null) return;
-            setPreset('between');
-            setFrom(Math.max(a, first));
-            setTo(Math.min(b, last));
+            choose({ preset: 'between', from: Math.max(a, first), to: Math.min(b, last) });
           }}
         />
+      </section>
+
+      <section className="catch-step" aria-labelledby="catch-check">
+        <h2 id="catch-check" className="section-title">
+          2. Check the list
+        </h2>
+        <p className="catch-summary" aria-live="polite">
+          {sum.stories === 1 ? '1 story' : `${String(sum.stories)} stories`} ticked, {sum.episodes}{' '}
+          {sum.episodes === 1 ? 'episode' : 'episodes'}, about {sum.hours}{' '}
+          {sum.hours === 1 ? 'hour' : 'hours'}
+          {already > 0 ? `. ${String(already)} already marked listened.` : '.'}
+        </p>
+        {shown.length === 0 ? (
+          <p className="catch-empty">Every format is left out in step 3.</p>
+        ) : (
+          <div className="catch-years">
+            {byYear(shown).map(([year, stories]) => (
+              <YearGroup
+                key={year}
+                year={year}
+                stories={stories}
+                ticked={ticked}
+                listened={listened}
+                monthOf={(s) => monthLabel(released(s))}
+                onToggle={toggle}
+              />
+            ))}
+          </div>
+        )}
+      </section>
+
+      <section className="catch-step" aria-labelledby="catch-formats">
+        <h2 id="catch-formats" className="section-title">
+          3. Leave out formats <span className="catch-optional">(optional)</span>
+        </h2>
         <fieldset className="catch-formats">
-          <legend className="field-label">Formats</legend>
+          <legend className="catch-hint">
+            Untick a format to hide its stories from the list and leave them unmarked.
+          </legend>
           {catalog.vocab.formats
             .filter((f) => formatCounts.has(f.id))
             .map((f) => (
@@ -192,38 +240,9 @@ function CatchUp({ catalog }: { catalog: Catalog }) {
         </fieldset>
       </section>
 
-      <section className="catch-step" aria-labelledby="catch-check">
-        <h2 id="catch-check" className="section-title">
-          2. Check the list
-        </h2>
-        <p className="catch-summary" aria-live="polite">
-          {sum.stories === 1 ? '1 story' : `${String(sum.stories)} stories`}, {sum.episodes}{' '}
-          {sum.episodes === 1 ? 'episode' : 'episodes'}, about {sum.hours}{' '}
-          {sum.hours === 1 ? 'hour' : 'hours'}
-          {already > 0 ? `. ${String(already)} already marked listened.` : '.'}
-        </p>
-        {chosen.length === 0 ? (
-          <p className="catch-empty">No stories were released in those months.</p>
-        ) : (
-          <div className="catch-years">
-            {byYear(chosen).map(([year, stories]) => (
-              <YearGroup
-                key={year}
-                year={year}
-                stories={stories}
-                unticked={unticked}
-                listened={listened}
-                monthOf={(s) => monthLabel(released(s))}
-                onToggle={toggle}
-              />
-            ))}
-          </div>
-        )}
-      </section>
-
       <section className="catch-step" aria-labelledby="catch-confirm">
         <h2 id="catch-confirm" className="section-title">
-          3. Save
+          4. Save
         </h2>
         <button
           type="button"
@@ -241,6 +260,9 @@ function CatchUp({ catalog }: { catalog: Catalog }) {
             ? 'Mark 1 story as listened'
             : `Mark ${String(toMark.length)} stories as listened`}
         </button>
+        {toMark.length === 0 && !outcome ? (
+          <p className="catch-hint">Tick stories above, by release date or by hand.</p>
+        ) : null}
         {bulk.isError ? (
           <p className="field-error" role="alert">
             Saving failed: your browser may be blocking site storage.

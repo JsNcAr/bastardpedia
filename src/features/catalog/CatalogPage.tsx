@@ -18,6 +18,7 @@ import { createLabels } from './labels';
 import { ResultRow } from './ResultRow';
 import { SearchBox } from './SearchBox';
 import { RowMark } from './select/RowMark';
+import { selectId } from './select/select-id';
 import { SelectBar } from './select/SelectBar';
 import { Timeline } from './timeline/Timeline';
 import { ViewToggle } from './timeline/ViewToggle';
@@ -141,6 +142,7 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
       }),
     [],
   );
+  const selectFor = (s: CatalogStory) => (selecting ? selectId(s.id) : undefined);
   const markFor = (s: CatalogStory) => (
     <RowMark
       storyId={s.id}
@@ -342,6 +344,7 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
             terms={found?.terms}
             onYears={setYears}
             markFor={markFor}
+            selectFor={selectFor}
           />
         ) : (
           <ol className="results" aria-label="Stories">
@@ -355,6 +358,7 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
                 entry={entries.get(s.id)}
                 terms={found?.terms.get(s.id)}
                 mark={markFor(s)}
+                selectFor={selectFor(s)}
               />
             ))}
           </ol>

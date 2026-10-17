@@ -37,6 +37,8 @@ describe('catch-up logic', () => {
 
   it('maps each preset to a month range', () => {
     const m = monthOf('2021-07-01');
+    expect(monthRange(choice({ preset: 'none' }), first, last)).toBeNull();
+    expect(ids(choice({ preset: 'none' }))).toEqual([]);
     expect(monthRange(choice({ preset: 'all' }), first, last)).toEqual({ from: first, to: last });
     expect(monthRange(choice({ preset: 'until', to: m }), first, last)).toEqual({
       from: first,

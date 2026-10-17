@@ -158,6 +158,23 @@
   cursor: pointer;
 }
 
+/* In select mode a row is a label for its checkbox: a click anywhere ticks it. */
+.row-selectable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.result-item:has(.row-check input:checked) > .row-selectable,
+.timeline-item:has(.row-check input:checked) > .row-selectable {
+  background: var(--color-surface-selected);
+}
+
+.result-item:has(.row-check input:focus-visible) > .row-selectable,
+.timeline-item:has(.row-check input:focus-visible) > .row-selectable {
+  outline: var(--size-focus-ring) solid var(--color-border-focus);
+  outline-offset: calc(var(--size-focus-ring) * -1);
+}
+
 /* Select mode's actions, kept in reach at the bottom of the results. */
 .select-bar {
   position: sticky;

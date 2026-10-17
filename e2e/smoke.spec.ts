@@ -300,7 +300,7 @@ test('catch-up: mark everything up to a month, then browse the rest', async ({ p
   await expect(page.getByRole('heading', { name: 'Catch up' })).toBeVisible();
   await page.getByRole('radio', { name: 'Everything up to a month' }).check();
   await page.getByLabel('Up to', { exact: true }).fill('2021-07');
-  await expect(page.getByText(/^4 stories, 7 episodes/)).toBeVisible();
+  await expect(page.getByText(/^4 stories ticked, 7 episodes/)).toBeVisible();
   await page.getByRole('button', { name: 'Mark 4 stories as listened' }).click();
   await expect(page.getByText('Marked 4 stories as listened.')).toBeVisible();
   await page.getByRole('link', { name: 'Browse with listened stories hidden' }).click();
@@ -311,10 +311,10 @@ test('catch-up: mark everything up to a month, then browse the rest', async ({ p
 test('select mode: mark a search result, then undo', async ({ page }) => {
   await page.goto('/?q=nestle');
   await page.getByRole('button', { name: 'Select', exact: true }).click();
-  await page
-    .getByRole('checkbox', { name: /^Select: / })
-    .first()
-    .check();
+  // A click on the card ticks it; nothing opens while selecting.
+  await page.locator('.result-title').first().click();
+  await expect(page).toHaveURL(/\/\?q=nestle$/);
+  await expect(page.getByRole('checkbox', { name: /^Select: / }).first()).toBeChecked();
   const bar = page.getByRole('region', { name: 'Selection' });
   await expect(bar.getByText('1 selected')).toBeVisible();
   await bar.getByRole('button', { name: 'Mark listened' }).click();

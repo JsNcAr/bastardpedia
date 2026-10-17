@@ -28,7 +28,8 @@ export const monthLabel = (m: Month) => `${NAMES[m % 12] ?? ''} ${String(Math.fl
 
 export const released = (s: CatalogStory): Month => monthOf(s.first_published);
 
-export type Preset = 'all' | 'until' | 'since' | 'between';
+/** `none` skips the release-date step: the visitor ticks stories by hand. */
+export type Preset = 'none' | 'all' | 'until' | 'since' | 'between';
 
 export interface CatchUpChoice {
   preset: Preset;
@@ -38,13 +39,15 @@ export interface CatchUpChoice {
   skipFormats: ReadonlySet<string>;
 }
 
-/** The release months a choice covers, both ends included. */
+/** The release months a choice covers, both ends included; null for `none`. */
 export function monthRange(
   c: CatchUpChoice,
   first: Month,
   last: Month,
-): { from: Month; to: Month } {
+): { from: Month; to: Month } | null {
   switch (c.preset) {
+    case 'none':
+      return null;
     case 'all':
       return { from: first, to: last };
     case 'until':
@@ -62,14 +65,16 @@ export function releaseBounds(stories: readonly CatalogStory[]): { first: Month;
   return { first: Math.min(...months), last: Math.max(...months) };
 }
 
-/** Stories a choice covers, oldest first. */
+/** Stories a choice covers, oldest first. None for `none`. */
 export function storiesFor(
   stories: readonly CatalogStory[],
   c: CatchUpChoice,
   first: Month,
   last: Month,
 ): CatalogStory[] {
-  const { from, to } = monthRange(c, first, last);
+  const range = monthRange(c, first, last);
+  if (!range) return [];
+  const { from, to } = range;
   return stories
     .filter((s) => {
       const m = released(s);
@@ -113,3 +118,7 @@ export function totals(stories: readonly CatalogStory[]): {
     hours: Math.round(stories.reduce((n, s) => n + s.total_duration_s, 0) / 3600),
   };
 }
+
+/** Every story, oldest first: the catch-up list always shows them all. */
+export const oldestFirst = (stories: readonly CatalogStory[]) =>
+  [...stories].sort((a, b) => a.first_published.localeCompare(b.first_published));

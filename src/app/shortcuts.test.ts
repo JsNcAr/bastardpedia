@@ -1,4 +1,4 @@
-import { shortcutFor, type KeyInput } from './shortcuts';
+import { isTyping, shortcutFor, type KeyInput } from './shortcuts';
 
 const key = (k: string, over: Partial<KeyInput> = {}): KeyInput => ({
   key: k,
@@ -24,5 +24,17 @@ describe('keyboard shortcuts', () => {
     expect(shortcutFor(key('k', { ctrlKey: true }))).toBeNull();
     expect(shortcutFor(key('/', { metaKey: true }))).toBeNull();
     expect(shortcutFor(key('j', { altKey: true }))).toBeNull();
+  });
+
+  it('counts text fields as typing, but not checkboxes or radios', () => {
+    const field = (html: string) => {
+      document.body.innerHTML = html;
+      return document.body.firstElementChild;
+    };
+    expect(isTyping(field('<input type="search">'))).toBe(true);
+    expect(isTyping(field('<textarea></textarea>'))).toBe(true);
+    expect(isTyping(field('<input type="checkbox">'))).toBe(false);
+    expect(isTyping(field('<input type="radio">'))).toBe(false);
+    expect(isTyping(field('<a href="/">x</a>'))).toBe(false);
   });
 });

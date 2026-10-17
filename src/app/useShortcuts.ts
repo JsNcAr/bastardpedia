@@ -21,10 +21,11 @@ export function useShortcuts() {
         box.focus();
         return;
       }
-      const links = [...document.querySelectorAll<HTMLAnchorElement>('.results a[data-story]')];
+      // Story links, or in select mode the rows' checkboxes.
+      const links = [...document.querySelectorAll<HTMLElement>('.results [data-story]')];
       if (links.length === 0) return;
       e.preventDefault();
-      const at = links.indexOf(document.activeElement as HTMLAnchorElement);
+      const at = links.indexOf(document.activeElement as HTMLElement);
       const next =
         shortcut === 'next'
           ? links[at < 0 ? 0 : Math.min(at + 1, links.length - 1)]

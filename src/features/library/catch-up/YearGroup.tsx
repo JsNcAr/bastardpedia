@@ -5,30 +5,30 @@ import type { CatalogStory } from '@shared/schemas/catalog.ts';
 /**
  * One release year in the catch-up list: a checkbox for the whole year (mixed
  * when only some are ticked), and the stories behind a disclosure, each with its
- * own checkbox. Stories already listened show as done and can't be unticked.
+ * own checkbox. Stories already listened show as done and can't be changed.
  */
 export function YearGroup({
   year,
   stories,
-  unticked,
+  ticked,
   listened,
   monthOf,
   onToggle,
 }: {
   year: number;
   stories: CatalogStory[];
-  unticked: ReadonlySet<string>;
+  ticked: ReadonlySet<string>;
   listened: ReadonlySet<string>;
   monthOf: (s: CatalogStory) => string;
   onToggle: (ids: string[], on: boolean) => void;
 }) {
   const open = stories.filter((s) => !listened.has(s.id));
-  const ticked = open.filter((s) => !unticked.has(s.id)).length;
-  const all = ticked === open.length;
+  const count = open.filter((s) => ticked.has(s.id)).length;
+  const all = count === open.length;
   const box = useRef<HTMLInputElement>(null);
   useEffect(() => {
-    if (box.current) box.current.indeterminate = ticked > 0 && !all;
-  }, [ticked, all]);
+    if (box.current) box.current.indeterminate = count > 0 && !all;
+  }, [count, all]);
 
   return (
     <section className="catch-year" aria-label={String(year)}>
@@ -47,7 +47,7 @@ export function YearGroup({
         />
         <span className="catch-year-title">All of {year}</span>
         <span className="catch-year-count">
-          {ticked + stories.length - open.length} of {stories.length}
+          {count + stories.length - open.length} of {stories.length}
         </span>
       </label>
       <details className="catch-year-list">
@@ -62,7 +62,7 @@ export function YearGroup({
                 <input
                   type="checkbox"
                   id={`catch-${s.id}`}
-                  checked={done || !unticked.has(s.id)}
+                  checked={done || ticked.has(s.id)}
                   disabled={done}
                   onChange={(e) => onToggle([s.id], e.currentTarget.checked)}
                 />

@@ -59,6 +59,35 @@ describe('select mode', () => {
     expect(await statuses(library)).toEqual({ 'sample-nestle': 'want' });
   });
 
+  it('a click anywhere on a card ticks it instead of opening the story', async () => {
+    const user = userEvent.setup();
+    const { router } = renderApp('/', sampleCatalog, freshLibrary());
+    await screen.findByRole('heading', { name: 'The catalogue' });
+    await user.click(screen.getByRole('button', { name: 'Select' }));
+    const title = screen.getByText(titleOf('sample-percy-fawcett'), {
+      selector: '.result-title *, .result-title',
+    });
+    await user.click(title);
+    expect(router.state.location.pathname).toBe('/');
+    expect(
+      screen.getByRole('checkbox', { name: new RegExp(`^Select: .*${FAWCETT}`) }),
+    ).toBeChecked();
+    expect(screen.getByText('1 selected')).toBeInTheDocument();
+    // The click focused the card's checkbox; j moves on to the next one.
+    const boxes = screen.getAllByRole('checkbox', { name: /^Select: / });
+    const at = boxes.findIndex((b) => b === document.activeElement);
+    expect(boxes[at]).toHaveAccessibleName(new RegExp(FAWCETT));
+    await user.keyboard('j');
+    expect(document.activeElement).toBe(boxes[at + 1]);
+    await user.click(screen.getByRole('button', { name: 'Done' }));
+    await user.click(
+      screen.getByText(titleOf('sample-percy-fawcett'), {
+        selector: '.result-title *, .result-title',
+      }),
+    );
+    expect(router.state.location.pathname).toBe('/stories/sample-percy-fawcett');
+  });
+
   it('Escape leaves select mode', async () => {
     const user = userEvent.setup();
     renderApp('/', sampleCatalog, freshLibrary());
@@ -73,34 +102,50 @@ describe('select mode', () => {
 });
 
 describe('catch-up page', () => {
-  it('marks exactly the stories left ticked', async () => {
+  it('starts with nothing ticked, and a release-date choice re-ticks the list', async () => {
     const user = userEvent.setup();
     const library = freshLibrary();
     await library.put({ ...emptyEntry('sample-henry-morton-stanley'), status: 'listened' });
     renderApp('/library/catch-up', sampleCatalog, library);
     await screen.findByRole('heading', { name: 'Catch up' });
-    await waitFor(() =>
-      expect(screen.getByText(/^8 stories, 13 episodes/)).toHaveTextContent(
-        '1 already marked listened.',
-      ),
-    );
+    const summary = () => document.querySelector('.catch-summary')?.textContent ?? '';
+    await waitFor(() => expect(summary()).toMatch(/^1 story ticked.*1 already marked listened/));
+    expect(screen.getByRole('button', { name: 'Mark 0 stories as listened' })).toBeDisabled();
 
+    // Step 1 is optional: a story can be ticked by hand.
+    const year2026 = screen.getByRole('region', { name: '2026' });
+    await user.click(within(year2026).getByRole('checkbox', { name: /All of 2026/ }));
+    expect(screen.getByRole('button', { name: 'Mark 2 stories as listened' })).toBeEnabled();
+
+    // A release-date choice replaces the ticks, so the 2026 ticks go.
     await user.click(screen.getByRole('radio', { name: 'Everything up to a month' }));
-    fireEvent.change(screen.getByLabelText('Up to'), { target: { value: '2021-07' } });
-    expect(screen.getByText(/^4 stories, 7 episodes, about 7 hours/)).toBeInTheDocument();
+    fireEvent.change(screen.getByLabelText('Up to', { selector: 'input[type="month"]' }), {
+      target: { value: '2021-07' },
+    });
+    expect(summary()).toMatch(/^4 stories ticked, 7 episodes, about 7 hours/);
+    expect(within(year2026).getByRole('checkbox', { name: /All of 2026/ })).not.toBeChecked();
 
-    await user.click(screen.getByRole('checkbox', { name: /Reading \/ watching/ }));
-    expect(screen.getByText(/^3 stories/)).toBeInTheDocument();
-
+    // 2021 is mixed (Nestle came out in September): one click ticks the whole
+    // year, a second unticks it.
     const year2021 = screen.getByRole('region', { name: '2021' });
-    await user.click(within(year2021).getByRole('checkbox', { name: /All of 2021/ }));
-    expect(screen.getByText(/^2 stories/)).toBeInTheDocument();
+    const all2021 = within(year2021).getByRole('checkbox', { name: /All of 2021/ });
+    await user.click(all2021);
+    expect(summary()).toMatch(/^5 stories ticked/);
+    await user.click(all2021);
+    expect(summary()).toMatch(/^2 stories ticked/);
+    await user.click(all2021);
 
-    await user.click(screen.getByRole('button', { name: 'Mark 1 story as listened' }));
-    expect(await screen.findByText('Marked 1 story as listened.')).toBeInTheDocument();
+    // Step 3: leaving out a format hides its stories and leaves them unmarked.
+    await user.click(screen.getByRole('checkbox', { name: /Reading \/ watching/ }));
+    expect(summary()).toMatch(/^4 stories ticked/);
+
+    await user.click(screen.getByRole('button', { name: 'Mark 3 stories as listened' }));
+    expect(await screen.findByText('Marked 3 stories as listened.')).toBeInTheDocument();
     expect(await statuses(library)).toEqual({
       'sample-henry-morton-stanley': 'listened',
       'sample-l-ron-hubbard': 'listened',
+      'sample-nestle': 'listened',
+      'sample-triangle-shirtwaist-fire': 'listened',
     });
     expect(
       screen.getByRole('link', { name: 'Browse with listened stories hidden' }),
