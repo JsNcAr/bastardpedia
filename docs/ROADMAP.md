@@ -8,6 +8,7 @@
 | 3. Calibration   | 6 hand-checked gold records, then a ~25-story pilot. Tighten definitions                                              | Done (2026-10-17)   |
 | 4. Full tagging  | All ~454 stories tagged in batches of 25. Watched stories reviewed, the rest published as unreviewed with spot checks | In progress         |
 | 5. App MVP       | Filters (incl. year range, reviewed only), search, story pages, library with backup on real data; first public deploy | Built, not deployed |
+| 5a. Timeline     | A List / Timeline toggle: a density strip with a year brush over one bar per story on a shared axis                   | In review           |
 | 6. Public launch | Add an about page with sources and credits, SEO basics (per-story titles and meta, sitemap)                           |                     |
 | 7. Automation    | API runner for tagging new episodes from CI, opening a merge request for review                                       |                     |
 | Later            | Capacitor app (ADR 0004), library sync backend (docs/API.md), Wikidata enrichment (ADR 0006), community corrections   |                     |

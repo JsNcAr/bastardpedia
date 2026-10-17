@@ -51,8 +51,8 @@ three places together.
 
 One file per component in `src/styles/`, imported in order by
 `src/styles/index.css`: tokens, base (reset and type), layout, then
-components (button, segmented, search, facet, chip, results, story, callout,
-form, state, drawer, library, prose).
+components (button, segmented, search, facet, chip, results, timeline, story,
+callout, form, state, drawer, library, prose).
 
 - **No inline `style` attributes.** ESLint rejects JSX `style=`, and the CSP has
   no `unsafe-inline`. The icon sprite is hidden with a class for the same reason.
@@ -131,6 +131,25 @@ run `npm run icons`.
 
   They are off while typing, inside a dialog, or with a modifier key held.
 
+- **The timeline view** (`view=timeline`, `src/features/catalog/timeline/`):
+  - **toggle:** List | Timeline in the results tools. Same results, filters,
+    story pane and shortcuts; with no sort chosen it orders by period;
+  - **density strip:** stories per time bin (about 40 bins) as SVG bars, with a
+    text summary for screen readers. Dragging, or clicking a bar, sets the year
+    filter on release; the selection is an SVG rectangle while dragging, and
+    Escape drops it. Keyboard users have the year slider and fields;
+  - **axis:** fits the stories shown. The start leaves out far outliers (below
+    the lower quartile by three interquartile ranges), so one prehistoric story
+    doesn't squash the rest; a year filter sets both ends and zooms in. The
+    axis sticks above the rows, and narrow columns label every other tick;
+  - **rows:** one per story on the shared axis, not packed lanes (237 stories
+    cover 1980). Years covered are a faint bar, main events a solid one, and a
+    small triangle marks an edge the story runs off. The bar is decorative; the
+    row's text carries the years;
+  - **layout:** a container query on the results column puts the title in a
+    `size.timeline-label` column at 40rem and wider, and stacks it above a
+    full-width bar below that, beside the story pane too;
+  - **no dates:** stories without dates follow under their own heading.
 - Agent-only records carry a quiet "Unreviewed" badge: present, never alarming.
 - Empty, loading and error states use `StateMessage` with a plain explanation
   and a next step.
