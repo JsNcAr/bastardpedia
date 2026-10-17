@@ -85,6 +85,17 @@ describe('filter model and URL', () => {
     expect(parseFilters(new URLSearchParams('hide-listened=yes')).hideListened).toBe(false);
   });
 
+  it('keeps the timeline view in the URL without counting it as a filter', () => {
+    const f = parseFilters(new URLSearchParams('view=timeline'));
+    expect(f.view).toBe('timeline');
+    expect(serializeFilters(f).toString()).toBe('view=timeline');
+    expect(serializeFilters(EMPTY_FILTERS).toString()).toBe('');
+    expect(activeCount(f)).toBe(0);
+    expect(resolvedSort(f)).toBe('chronological');
+    expect(resolvedSort({ ...f, q: 'x' })).toBe('relevance');
+    expect(parseFilters(new URLSearchParams('view=grid')).view).toBe('list');
+  });
+
   it('builds a fresh search link for a tag', () => {
     expect(tagSearch('theme', 'cults-new-religions')).toBe('/?theme=cults-new-religions');
     expect(tagSearch('century', 19)).toBe('/?century=19');

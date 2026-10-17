@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef } from 'react';
+import { useCallback, useEffect, useMemo, useRef } from 'react';
 import { Link, useNavigate, useParams } from 'react-router';
 import { useCatalog, useLibrary } from '@/app/queries';
 import { WIDE_QUERY, useMediaQuery } from '@/app/useMediaQuery';
@@ -16,6 +16,8 @@ import { EMPTY_FILTERS, activeCount } from './filter-model';
 import { createLabels } from './labels';
 import { ResultRow } from './ResultRow';
 import { SearchBox } from './SearchBox';
+import { Timeline } from './timeline/Timeline';
+import { ViewToggle } from './timeline/ViewToggle';
 import { createStorySearch } from './search';
 import { SortControl } from './SortControl';
 import { useFilters } from './useFilters';
@@ -118,6 +120,13 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
   const bounds = useMemo(
     () => yearBounds(catalog.stories.map((s) => s.time?.covered_span)),
     [catalog.stories],
+  );
+
+  // The timeline's density strip writes the same year filter as the rail slider.
+  const setYears = useCallback(
+    (yearFrom: number | null, yearTo: number | null, live: boolean) =>
+      setFilters({ ...filters, yearFrom, yearTo }, { replace: live }),
+    [filters, setFilters],
   );
 
   const story = id ? catalog.stories.find((s) => s.id === id) : undefined;
@@ -229,6 +238,7 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
                 Filters{active > 0 ? ` (${String(active)})` : ''}
               </button>
             ) : null}
+            <ViewToggle filters={filters} onChange={setFilters} />
             <SortControl filters={filters} onChange={setFilters} />
             <button
               type="button"
@@ -256,7 +266,9 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
               <button
                 type="button"
                 className="button button-primary"
-                onClick={() => setFilters({ ...EMPTY_FILTERS, sort: filters.sort })}
+                onClick={() =>
+                  setFilters({ ...EMPTY_FILTERS, sort: filters.sort, view: filters.view })
+                }
               >
                 Clear all filters
               </button>
@@ -264,6 +276,17 @@ function Catalogue({ catalog }: { catalog: Catalog }) {
           >
             <p>Remove a filter, or widen a period, to see more stories.</p>
           </StateMessage>
+        ) : filters.view === 'timeline' ? (
+          <Timeline
+            stories={results}
+            yearFrom={filters.yearFrom}
+            yearTo={filters.yearTo}
+            search={search}
+            openId={id}
+            entries={entries}
+            terms={found?.terms}
+            onYears={setYears}
+          />
         ) : (
           <ol className="results" aria-label="Stories">
             {results.map((s) => (

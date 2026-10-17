@@ -21,7 +21,7 @@ export function useShortcuts() {
         box.focus();
         return;
       }
-      const links = [...document.querySelectorAll<HTMLAnchorElement>('.results a.result')];
+      const links = [...document.querySelectorAll<HTMLAnchorElement>('.results a[data-story]')];
       if (links.length === 0) return;
       e.preventDefault();
       const at = links.indexOf(document.activeElement as HTMLAnchorElement);

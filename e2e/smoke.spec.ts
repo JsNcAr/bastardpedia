@@ -237,3 +237,55 @@ test('search marks matches, and / and j work from the keyboard', async ({ page, 
   await page.keyboard.press('j');
   await expect(results(page).getByRole('link').first()).toBeFocused();
 });
+
+test('timeline: drag across the density strip to choose years', async ({ page }) => {
+  await page.goto('/');
+  await page
+    .getByRole('group', { name: 'Show results as' })
+    .getByRole('button', { name: 'Timeline' })
+    .click();
+  await expect(page).toHaveURL(/view=timeline/);
+  const chart = page.getByRole('img', { name: /^Stories per / });
+  const box = await chart.boundingBox();
+  if (!box) throw new Error('The density strip has no box.');
+  const y = box.y + box.height / 2;
+  await page.mouse.move(box.x + box.width * 0.25, y);
+  await page.mouse.down();
+  await page.mouse.move(box.x + box.width * 0.5, y, { steps: 4 });
+  await page.mouse.move(box.x + box.width * 0.75, y, { steps: 4 });
+  await page.mouse.up();
+  await expect(page).toHaveURL(/from=18\d\d&to=19\d\d/);
+  const url = new URL(page.url());
+  const from = url.searchParams.get('from') ?? '';
+  const to = url.searchParams.get('to') ?? '';
+  await expect(
+    page.getByRole('button', { name: `Remove filter: Years: ${from} to ${to}` }),
+  ).toBeVisible();
+  expect(url.searchParams.get('view')).toBe('timeline');
+});
+
+test('timeline: a row opens its story and Escape returns to it', async ({ page, isMobile }) => {
+  test.skip(isMobile, 'The pane exists only in the wide layout.');
+  await page.goto('/?view=timeline');
+  const row = page.locator('a[data-story="sample-percy-fawcett"]');
+  await row.click();
+  const pane = page.getByRole('article');
+  await expect(pane.getByRole('heading', { name: /Percy Fawcett/ })).toBeVisible();
+  await page.keyboard.press('Escape');
+  await expect(pane).toHaveCount(0);
+  await expect(row).toBeFocused();
+  await expect(page).toHaveURL(/\/\?view=timeline$/);
+});
+
+test('timeline: phones get full-width bars under the titles', async ({ page, isMobile }) => {
+  test.skip(!isMobile, 'Checks the narrow layout.');
+  await page.goto('/?view=timeline');
+  const row = page.locator('a[data-story="sample-percy-fawcett"]');
+  await expect(row).toBeVisible();
+  const title = await row.locator('.timeline-title').boundingBox();
+  const bar = await row.locator('.timeline-bar').boundingBox();
+  const list = await page.getByRole('list', { name: 'Stories' }).boundingBox();
+  if (!title || !bar || !list) throw new Error('Missing a timeline box.');
+  expect(bar.y).toBeGreaterThan(title.y + title.height - 1);
+  expect(bar.width).toBeGreaterThan(list.width * 0.9);
+});
