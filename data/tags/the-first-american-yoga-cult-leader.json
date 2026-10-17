@@ -1,0 +1,145 @@
+{
+  "story_id": "the-first-american-yoga-cult-leader",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Pierre Bernard",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1876, "end": 1955 }
+    },
+    {
+      "name": "Bikram Choudhury",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1944, "end": null }
+    },
+    {
+      "name": "Tantrik Order",
+      "kind": "organization",
+      "org_type": "cult",
+      "role": "secondary"
+    },
+    {
+      "name": "Bishnu Charan Ghosh",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1903, "end": 1970 }
+    }
+  ],
+  "roles": ["cult-leader", "occultist-guru", "quack-fake-healer"],
+  "themes": {
+    "primary": "cults-new-religions",
+    "secondary": [
+      "sexual-abuse",
+      "wellness-self-help",
+      "occult-esoteric",
+      "moral-panics",
+      "fraud-grift"
+    ]
+  },
+  "regions": {
+    "origin": ["US", "IN"],
+    "setting": ["US", "IN", "JP"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1906, "end": null },
+    "covered_span": { "start": 1876, "end": 2023 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Two yoga gurus who abused followers: Pierre Bernard, whose Tantrik Order in New York sparked a 1910 sex-cult scandal, and Bikram Choudhury, whose hot-yoga empire in the US hid decades of sexual assault and abuse.",
+  "content_warnings": ["sexual-violence"],
+  "keywords": [
+    "The Great Oom",
+    "Bikram Yoga",
+    "hot yoga",
+    "Hatha yoga",
+    "Swami Vivekananda",
+    "World's Parliament of Religions",
+    "Zelia Hopp",
+    "Gertrude Leo",
+    "Sarah Baughn",
+    "Robert Love"
+  ],
+  "guests": ["Katy Stoll"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:27:04",
+      "note": "Bernard born Perry Baker in 1876, meets a wandering yogi in Nebraska at 13"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:30:10",
+      "note": "Group moves from San Francisco to Seattle in 1906, then to New York City"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:36:46",
+      "note": "Bernard as Dr. Warren seduces a teenage patient at his sanitarium"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:46:20",
+      "note": "Police raid on the Tantrik townhouse and Bernard's arrest for abduction"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:54:01",
+      "note": "Press frenzy turns into a national panic against yoga and Eastern mysticism"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:04:24",
+      "note": "Bikram born in Calcutta around 1944, exact date unknown"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:27:01",
+      "note": "Bikram teaches in Japan and invents heated rooms there"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:13:43",
+      "note": "Bikram's fabricated championships, Nixon story and other self-mythology"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:58:46",
+      "note": "Pattern of rapes and assaults of trainee instructors described from lawsuits"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:09:28",
+      "note": "Bikram fled the US to avoid depositions, still teaching in India and Mexico"
+    }
+  ],
+  "notes": "Two primary subjects: part 1 is Bernard, part 2 is Bikram, linked as a lineage of yoga abusers. Transcript gives Bernard's birth as 1876 (some sources say 1875). Vivekananda and early yoga history are background, not subjects. Bernard's later wealthy compound years get only a brief coda. Mexico (Acapulco camp, current teaching) is brief and left out of setting."
+}

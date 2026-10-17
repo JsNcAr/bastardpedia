@@ -1,0 +1,145 @@
+{
+  "story_id": "andrew-tate-update",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "current-affairs",
+  "subjects": [
+    {
+      "name": "Andrew Tate",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1986, "end": null }
+    },
+    {
+      "name": "Emory Tate",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1958, "end": 2015 }
+    },
+    {
+      "name": "Tristan Tate",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1988, "end": null }
+    },
+    {
+      "name": "The War Room",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["influencer-online", "criminal-killer", "athlete-sports"],
+  "themes": {
+    "primary": "misogyny-manosphere",
+    "secondary": [
+      "sexual-abuse",
+      "policing-incarceration",
+      "fraud-grift",
+      "child-abuse",
+      "entertainment-celebrity"
+    ]
+  },
+  "regions": {
+    "origin": ["US", "GB"],
+    "setting": ["RO", "GB", "US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2022, "end": null },
+    "covered_span": { "start": 1992, "end": 2023 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "An update on misogynist influencer Andrew Tate: new reporting on his abusive father Emory and his UK youth, his War Room scheme, and his 2022-2023 detention in Romania on trafficking charges, including alleged witness intimidation.",
+  "content_warnings": ["child-abuse"],
+  "keywords": [
+    "Ultimate Traveler",
+    "Rolling Stone",
+    "BuzzFeed News",
+    "Daria Gusa",
+    "Tina Glandian",
+    "Jacob Wohl",
+    "Patrick Bet-David",
+    "house arrest",
+    "Luton",
+    "Romanian police database"
+  ],
+  "guests": ["Ian Johnson", "Sophie Lichterman"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:05:21",
+      "note": "long segment on Emory Tate: Air Force dispute, personality disorder diagnosis, family poverty"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:08:27",
+      "note": "Emory discharged from the Air Force in 1992, per Rolling Stone"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:14:28",
+      "note": "Andrew recounts his father locking him in a dark room as a child, framed as toughening"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:18:31",
+      "note": "Tristan described by sources as codependent on Andrew, modelled on him"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:23:23",
+      "note": "2009 reality TV appearance on Ultimate Traveler and accounts from production"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:37:29",
+      "note": "inflated wealth claims versus assets seized; War Room subscriptions as income"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:39:05",
+      "note": "War Room teaching members to coerce partners into sex on camera"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:44:29",
+      "note": "detention in Romania, fake cancer claim and alleged Dubai escape plan"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:48:08",
+      "note": "alleged witness intimidation, fan harassment, and a Romanian officer quashing complaints"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:54:01",
+      "note": "appeals judges move the brothers to house arrest; indictment expected before June 2023"
+    }
+  ],
+  "notes": "Update to the earlier four-part Tate story. Covered span starts at Emory's 1992 discharge; Andrew's US childhood anecdotes are undated, hence approximate. criminal-killer reflects the trafficking case though he had not been convicted at release. War Room org_type is a loose fit (paid online community, company chosen). Birth years from general knowledge."
+}

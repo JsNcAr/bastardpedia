@@ -1,0 +1,152 @@
+[
+  {
+    "id": "ron-desantis-florida-man",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Grandfather's 1960s Ohio election work is short background and is left out of covered_span. Iraq deployment is mentioned only briefly, so IQ is not in setting. Trump and Casey DeSantis listed as secondary for their recurring segments."
+  },
+  {
+    "id": "we-read-the-dilbert-guy-s-attempt-to-make-trump-into-a-religion",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Scott Adams lifespan end set to 2026 (died January 2026, after release). Primary theme could equally be electoral-politics; chose propaganda-media because the book's thesis is mass persuasion. fascism-far-right reflects the hosts' extended rebuttal comparing Trump to authoritarian playbooks and Hitler's rise. Brief nods to Dilbert's 1990s rise and The Religion War (2004) kept out of covered_span."
+  },
+  {
+    "id": "the-sam-bankman-fried-update",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Update episode following an earlier SBF story; no biography. William MacAskill gets several minutes but kept to keywords to stay within five subjects. Parents' 1980s Stanford careers and Thiel tax anecdote mentioned only briefly, so covered span starts at Alameda (2017). Ellison birth year from general knowledge."
+  },
+  {
+    "id": "rafael-trujillo-the-most-brutal-dictator-of-the-americas",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Part 1 spends about 25 minutes on colonial Hispaniola background (1600s onward); treated as general background, so covered_span starts at his 1891 birth. Post-1961 coda (Ramfis, 1965 US intervention) is brief. main_span starts at his 1918 constabulary commission. Venezuela and Cuba plots are short and left out of setting. Sexual-violence warning is borderline: his serial rape is discussed repeatedly but without detail."
+  },
+  {
+    "id": "frank-lorenzo-the-man-who-ruined-air-travel",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Lorenzo was alive at release, so the lifetime rule sets covered_span end to 2023. Early aviation history (Robert Six, Rickenbacker, CAB regulation) is background and does not extend covered_span. No theme for deregulation or transport policy; finance-crypto stands in for corporate raiding. Feldman's birth year is not given; the transcript only says he was 53."
+  },
+  {
+    "id": "julius-streicher-the-other-hitler",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary theme propaganda-media (the taxonomy cites Streicher), nazism secondary. Main span starts at his ~1919 turn to antisemitic politics (approximate). WWI service (Romania, France) covered briefly, so only DE in setting; german-empire polity for that service. Tree of Life shooting is a one-line coda, so reaches_present is false."
+  },
+  {
+    "id": "why-kidnapping-conspiracy-theories-are-everywhere",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Survey of a modern panic rather than a biography; Copas and Sorensen given floruit since exact birth years are not stated (Copas was 48 in 2023). The covered span starts at 1888; the Book of the Dead and the Japanese pagoda charms are brief precursors and were treated as comparisons, though JP keeps a setting slot for its few minutes. No content warning: the shooting is described only briefly."
+  },
+  {
+    "id": "how-the-dilbert-guy-lost-his-mind",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Adams was alive when this aired in 2023; lifespan end 2026 reflects his death in January 2026, after release. Covered span runs to the 2023 release. Primary theme is racism since the arc ends in his racist breakdown; self-help and affirmations are the other main thread. Holocaust-numbers questioning and the vaccine claims are short segments and were not tagged."
+  },
+  {
+    "id": "let-s-read-the-proud-boys-membership-manual",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Manual's author is not named; the Proud Boys organization is treated as its author, so no person primary and roles are empty. Manual date estimated at about 2017 from internal references; covered_span starts at the group's 2016 founding. Guilty verdicts (2023) and the group's ongoing activity set reaches_present. hate-speech warning for extended reading of chauvinist propaganda and a slur lookup."
+  },
+  {
+    "id": "stockton-rush-inventor-of-the-deathsub",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "The ancestry segment (Richard Stockton, Benjamin Rush, Ralph K. Davies) is treated as family background, so covered_span starts at Rush's 1962 birth; it still earns slavery-forced-labor. Setting CA is inferred: the Titanic wreck lies in international waters off Newfoundland and the transcript only says the ship was registered in Canada. reaches_present is true because the aftermath (media framing, rescue costs, conspiracy theories) gets real time at release."
+  },
+  {
+    "id": "ai-is-coming-for-your-children",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Original reporting on a phenomenon at release rather than history, so current-affairs over deep-dive. Scope online since the story lives on Amazon and YouTube; US setting is an inference. YouTuber names spelled from general knowledge (transcript has Paul Marls, Hidorn). Elsagate and the 1928 book Plotto are comparisons, not covered years. Grayson Sands kept to keywords to stay within five subjects."
+  },
+  {
+    "id": "the-war-on-vagrants",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Two equal threads: the history of vagrancy law and the Malaga Island community, so both are primary. Covered span ends in 2023 because current anti-homeless laws are the primary subject itself and get several minutes in each part. No theme for homelessness or poverty; policing-incarceration is the closest primary. Holman Day's lifespan is from general knowledge."
+  },
+  {
+    "id": "elon-musk-is-being-sued-lmao",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Format: the episode reads a legal complaint aloud, but media-reading is defined as a work made by a bastard; the plaintiffs are not, so current-affairs was chosen (lawsuit filed days before release, events of late 2022). Discrimination claims get only a short segment, so no bigotry theme. finance-crypto covers the lease and rent-default segment."
+  },
+  {
+    "id": "vince-mcmahon-history-s-greatest-monster",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Part 1 is general pro wrestling history (1890s Hackenschmidt, 1948 NWA, Von Erich family) treated as background; covered_span starts with Vince Sr.'s promoting in 1931. Narrative ends around 1999 with a steroid aside to 2007; 2023 end comes from the lifetime rule. main_span end null as Vince was still WWE executive chairman at release. The 2022 hush-money scandal is not visible in the sampled transcript."
+  },
+  {
+    "id": "jack-welch-is-why-you-got-laid-off",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Welch died in 2020, so the lifetime rule sets covered_span to 1935-2020. The opening segment on GE's welfare-capitalism era (1920s-1970s) is background and does not extend covered_span. The 2021 GE breakup and modern stack ranking at Amazon and Microsoft set reaches_present. Death year comes from general knowledge; the transcript only says he died recently."
+  },
+  {
+    "id": "andrew-tate-s-terrible-book",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Both books and Tate treated as primary per the media-reading rule; Tales of Wudan gets a shorter segment so is secondary. Tales of Wudan publication year not given; covered_span starts at the 2020 lockdown when the Tate Bible compiler found Tate. Setting lists Romania for the arrest and trafficking case, the UK for the compiler; scope online. No content warning: misogynist text is read at length, but hate-speech is defined around slurs."
+  },
+  {
+    "id": "andrew-tate-update",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Update to the earlier four-part Tate story. Covered span starts at Emory's 1992 discharge; Andrew's US childhood anecdotes are undated, hence approximate. criminal-killer reflects the trafficking case though he had not been convicted at release. War Room org_type is a loose fit (paid online community, company chosen). Birth years from general knowledge."
+  },
+  {
+    "id": "the-first-american-yoga-cult-leader",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Two primary subjects: part 1 is Bernard, part 2 is Bikram, linked as a lineage of yoga abusers. Transcript gives Bernard's birth as 1876 (some sources say 1875). Vivekananda and early yoga history are background, not subjects. Bernard's later wealthy compound years get only a brief coda. Mexico (Acapulco camp, current teaching) is brief and left out of setting."
+  },
+  {
+    "id": "josef-mengele-the-nazi-doctors",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Part 1 spends roughly 15-20 minutes on 18th-19th century race science (Boulainvilliers 1727, Linnaeus, Blumenbach, Morton); treated as background, not covered years. main_span 1935-1945 covers his race-science career through Auschwitz; flight and 1979 death are short. Flight to Brazil/Paraguay too brief for setting. Kaiser Wilhelm Institute org_type ngo is approximate (research institute)."
+  },
+  {
+    "id": "the-primal-diet-con",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Companion to the Liver King live show; studio recording so deep-dive. No person is primary, so roles are empty. The transcript implies Vonderplanitz was about 52 around 2013, but he is generally recorded as born 1947; lifespan uses 1947. The 1960s origin of the paleo idea is only a passing mention, so covered_span starts with Cordain's 2002 book. Scope online is a judgment call; national would also fit."
+  },
+  {
+    "id": "the-liver-king-a-live-show",
+    "format": "live-show",
+    "low": [],
+    "notes": "Live show at SF Sketchfest; framed as a joke hero episode but treated as a bastard. Hadza in Tanzania inferred from the tribe name; other Africa and South America trips unspecified. Considered misogyny-manosphere for the male body image segment but it is short. Steroids were prescribed, so drugs is the closest theme for PED use."
+  },
+  {
+    "id": "coco-chanel-the-nazi-who-invented-fashion",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "main_span runs from the first boutique (about 1910) to the end of her wartime collaboration in 1945. Switzerland exile and Hollywood stint were brief, so CH and US are left out of the setting. reaches_present rests on the fast-fashion legacy segment and the 2011 revelations with the brand's response."
+  },
+  {
+    "id": "alfredo-stroessner-the-luckiest-dictator",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Part 1 spends roughly 15 minutes on 19th-century background (Francia, Solano Lopez, War of the Triple Alliance, Forster's colony); treated as scene-setting, so covered_span follows Stroessner's lifetime. Pastor Coronel's 2000 death year is from general knowledge. No theme for land inequality and patronage corruption."
+  },
+  {
+    "id": "inside-fox-news-with-katy-and-cody",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Format: like the Twitter lawsuit episode, this reads a fresh legal filing about recent events, so current-affairs rather than media-reading. Fox News is the sole primary subject, so roles are empty; Carlson and Murdoch are secondary. The UK phone hacking scandal gets a few minutes as background only and is kept to keywords. covered_span ends in 2023 to include the lawsuit itself."
+  },
+  {
+    "id": "a-complete-history-of-the-illuminati",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Illuminati given org_type political-org as nearest fit for an Enlightenment secret society. Weishaupt kept secondary although parts 1-2 centre on him; Thornley is the bastard of parts 3-6. Transcript says Wilson died around 2003-04; real death year 2007 used. Prehistoric and Templar background excluded from covered_span; post-1998 alt-right epilogue sets reaches_present."
+  }
+]

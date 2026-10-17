@@ -1,0 +1,109 @@
+{
+  "story_id": "josef-mengele-the-nazi-doctors",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Josef Mengele",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1911, "end": 1979 }
+    },
+    {
+      "name": "Otmar von Verschuer",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1896, "end": 1969 }
+    },
+    {
+      "name": "Miklós Nyiszli",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1901, "end": 1956 }
+    },
+    {
+      "name": "Kaiser Wilhelm Institute for Anthropology, Human Heredity and Eugenics",
+      "kind": "organization",
+      "org_type": "ngo",
+      "role": "secondary"
+    },
+    {
+      "name": "Auschwitz concentration camp",
+      "kind": "organization",
+      "org_type": "school-or-facility",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["physician-surgeon", "scientist-scholar", "military-officer"],
+  "themes": {
+    "primary": "medical-malpractice",
+    "secondary": [
+      "nazism",
+      "eugenics-scientific-racism",
+      "genocide-mass-killing",
+      "war-war-crimes",
+      "child-abuse"
+    ]
+  },
+  "regions": {
+    "origin": ["DE"],
+    "setting": ["PL", "DE", "UA"],
+    "subdivisions": [],
+    "polities": ["nazi-germany", "weimar-republic"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1935, "end": 1945 },
+    "covered_span": { "start": 1911, "end": 1979 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "German physician and SS officer Josef Mengele trained in Nazi race science, then at Auschwitz (1943-1945) selected prisoners for the gas chambers and killed twins and others in experiments supplying German institutes, before escaping to South America.",
+  "content_warnings": [
+    "mass-atrocity",
+    "medical-horror",
+    "child-death",
+    "graphic-violence",
+    "child-abuse"
+  ],
+  "keywords": [
+    "Angel of Death",
+    "twin experiments",
+    "Mengele effect",
+    "SS-Division Wiking",
+    "Sonderkommando",
+    "noma",
+    "Günzburg",
+    "racial hygiene",
+    "David Marwell",
+    "Hermann Langbein"
+  ],
+  "guests": ["Matt Lieb"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:08:19", "note": "birth in Günzburg, southern Germany, March 1911" },
+    { "facet": "subjects", "part": 1, "at": "01:00:42", "note": "Verschuer introduced at the Kaiser Wilhelm Institute; twin research focus" },
+    { "facet": "time", "part": 2, "at": "00:25:40", "note": "1935 PhD thesis on jaw morphology of racial groups starts his race-science career" },
+    { "facet": "themes", "part": 2, "at": "00:32:57", "note": "issues racial ancestry certificates for Nazi courts under Nuremberg laws" },
+    { "facet": "regions", "part": 3, "at": "00:03:59", "note": "serves with SS Wiking in Ukraine from 1941; division massacres Jews" },
+    { "facet": "themes", "part": 3, "at": "00:08:59", "note": "Zolochiv massacre by the division, war-crimes segment" },
+    { "facet": "regions", "part": 3, "at": "00:17:24", "note": "posted to Auschwitz in May 1943" },
+    { "facet": "subjects", "part": 3, "at": "00:20:51", "note": "Nyiszli's memoir used at length; he becomes Mengele's forced pathologist" },
+    { "facet": "themes", "part": 3, "at": "00:45:26", "note": "experiments on twins, children and pregnant women; infant starvation account" },
+    { "facet": "themes", "part": 4, "at": "00:15:41", "note": "twin research done to supply Verschuer and other institutes with specimens" },
+    { "facet": "time", "part": 4, "at": "00:38:13", "note": "flight to South America, life in hiding, son Rolf's visit" },
+    { "facet": "time", "part": 4, "at": "00:48:51", "note": "drowning in Brazil; then fates of Verschuer, Lenz, Hallervorden" }
+  ],
+  "notes": "Part 1 spends roughly 15-20 minutes on 18th-19th century race science (Boulainvilliers 1727, Linnaeus, Blumenbach, Morton); treated as background, not covered years. main_span 1935-1945 covers his race-science career through Auschwitz; flight and 1979 death are short. Flight to Brazil/Paraguay too brief for setting. Kaiser Wilhelm Institute org_type ngo is approximate (research institute)."
+}

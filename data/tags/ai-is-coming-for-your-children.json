@@ -1,0 +1,132 @@
+{
+  "story_id": "ai-is-coming-for-your-children",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "current-affairs",
+  "subjects": [
+    {
+      "name": "AI-generated children's books",
+      "kind": "practice-or-pseudoscience",
+      "role": "primary"
+    },
+    {
+      "name": "Amazon Kindle Direct Publishing",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Paul Marles",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2023
+    },
+    {
+      "name": "Christian Heidorn",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2023
+    },
+    {
+      "name": "Lucas Kitchen",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2023
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "artificial-intelligence",
+    "secondary": ["fraud-grift", "tech-internet", "education", "propaganda-media"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "online"
+  },
+  "time": {
+    "main_span": { "start": 2022, "end": 2023 },
+    "covered_span": { "start": 2022, "end": 2023 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "An investigation into 2023 online hustlers who use ChatGPT and Midjourney to mass-produce incoherent children's books and coloring books for Amazon Kindle, and what such books may do to young readers' literacy.",
+  "content_warnings": [],
+  "keywords": [
+    "ChatGPT",
+    "Midjourney",
+    "Kindle",
+    "Quillbot",
+    "Grayson Sands",
+    "Brett Schickler",
+    "Mikkelsen Twins",
+    "Dan Olson",
+    "emergent literacy",
+    "Shatterzone"
+  ],
+  "guests": ["Ben Bowlin"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:14:44",
+      "note": "Folding Ideas video from late 2022 on ghostwritten Kindle book schemes sets the starting point"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:17:29",
+      "note": "real money is in selling courses to would-be sellers; Kindle flooded with junk titles"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:39:38",
+      "note": "Christian Heidorn's Tokenized AI guide producing a so-called comic book"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:56:22",
+      "note": "rewording tools used to slip AI text past Amazon plagiarism checks"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:00:06",
+      "note": "Paul Marles guide to AI dinosaur coloring books and the malformed images it yields"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:09:27",
+      "note": "long segment on emergent literacy research and how illustrations teach pre-readers"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:35:44",
+      "note": "Lucas Kitchen's AI-generated evangelical picture book for children"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:45:51",
+      "note": "concern that churches and political groups could mass-produce AI propaganda for kids"
+    }
+  ],
+  "notes": "Original reporting on a phenomenon at release rather than history, so current-affairs over deep-dive. Scope online since the story lives on Amazon and YouTube; US setting is an inference. YouTuber names spelled from general knowledge (transcript has Paul Marls, Hidorn). Elsagate and the 1928 book Plotto are comparisons, not covered years. Grayson Sands kept to keywords to stay within five subjects."
+}

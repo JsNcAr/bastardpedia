@@ -1,0 +1,133 @@
+{
+  "story_id": "stockton-rush-inventor-of-the-deathsub",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Stockton Rush",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1962, "end": 2023 }
+    },
+    {
+      "name": "OceanGate",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["inventor-engineer", "business-executive"],
+  "themes": {
+    "primary": "corporate-malfeasance",
+    "secondary": ["tech-internet", "science-exploration", "propaganda-media", "slavery-forced-labor"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["CA", "US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2009, "end": 2023 },
+    "covered_span": { "start": 1962, "end": 2023 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Stockton Rush, heir to an American oil fortune, founded OceanGate in 2009 and sold tourist dives to the Titanic in an experimental carbon fiber submersible, ignoring safety warnings until it imploded in 2023, killing him and four passengers.",
+  "content_warnings": [],
+  "keywords": [
+    "Titan submersible",
+    "Titanic wreck",
+    "Cyclops submersible",
+    "carbon fiber hull",
+    "David Lochridge",
+    "Paul-Henri Nargeolet",
+    "Shahzada Dawood",
+    "James Cameron",
+    "Bob Ballard",
+    "David Pogue"
+  ],
+  "guests": ["Andrew Ti"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:25:10",
+      "note": "host's later insert gives the NYT birth date in 1962, San Francisco"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:10:20",
+      "note": "segment on ancestor Richard Stockton's enslaved people and his will"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:14:21",
+      "note": "Benjamin Rush, public abolitionist, privately held an enslaved cook for a decade"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:53:27",
+      "note": "Ballard's 1985 discovery of the Titanic and the later deep-sea tourism market"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:05:34",
+      "note": "Rush founds OceanGate in 2009, start of the main span"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:11:52",
+      "note": "hosts frame his carbon fiber design as tech-industry disruption culture"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:27:46",
+      "note": "marine operations director raises hull and viewport safety problems and is fired"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:33:11",
+      "note": "support ship registered in Canada, dives in international waters off North America"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:36:49",
+      "note": "2020 cyclic fatigue found in the hull, depth rating cut, hull rebuilt in 2021"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:45:42",
+      "note": "OceanGate promo video and its safety and citizen-scientist marketing"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:01:17",
+      "note": "uncritical CBS and BBC coverage of the dives, including the reversed thrusters"
+    }
+  ],
+  "notes": "The ancestry segment (Richard Stockton, Benjamin Rush, Ralph K. Davies) is treated as family background, so covered_span starts at Rush's 1962 birth; it still earns slavery-forced-labor. Setting CA is inferred: the Titanic wreck lies in international waters off Newfoundland and the transcript only says the ship was registered in Canada. reaches_present is true because the aftermath (media framing, rescue costs, conspiracy theories) gets real time at release."
+}

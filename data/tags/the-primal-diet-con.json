@@ -1,0 +1,74 @@
+{
+  "story_id": "the-primal-diet-con",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Primal diet",
+      "kind": "practice-or-pseudoscience",
+      "role": "primary"
+    },
+    {
+      "name": "High meat",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    },
+    {
+      "name": "Aajonus Vonderplanitz",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1947, "end": 2013 }
+    },
+    {
+      "name": "Mark Sisson",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1953, "end": null }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "wellness-self-help",
+    "secondary": ["quackery-pseudoscience", "science-exploration", "tech-internet", "fraud-grift"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "TH"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "online"
+  },
+  "time": {
+    "main_span": { "start": 2009, "end": null },
+    "covered_span": { "start": 2002, "end": 2023 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "A follow-up to the Liver King live show examining the paleo and primal diet movement, its false claims about what prehistoric humans ate, and the online high meat subculture that eats deliberately rotted raw meat.",
+  "content_warnings": ["medical-horror"],
+  "keywords": ["paleo diet", "caveman diet", "Primal Blueprint", "Liver King", "Loren Cordain", "Annette Bosworth", "kiviak", "Hiwi", "Hadza", "fermented meat"],
+  "guests": ["Kaveh Hoda"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "subjects", "part": 1, "at": "00:03:42", "note": "Mark Sisson and his Primal Blueprint introduced as a modern popularizer of the term" },
+    { "facet": "themes", "part": 1, "at": "00:18:52", "note": "long segment comparing diets of modern hunter-gatherer peoples" },
+    { "facet": "time", "part": 1, "at": "00:24:05", "note": "Loren Cordain and his paleo diet prescription discussed" },
+    { "facet": "themes", "part": 1, "at": "00:34:30", "note": "online high meat subculture and its health claims introduced" },
+    { "facet": "regions", "part": 1, "at": "00:42:45", "note": "Vonderplanitz falls from a balcony in Thailand in 2013 and dies after refusing treatment" },
+    { "facet": "content_warnings", "part": 1, "at": "00:43:17", "note": "detailed account of his spinal injury, infections and organ failure" },
+    { "facet": "themes", "part": 1, "at": "00:49:02", "note": "Twitter and Reddit posts from people fermenting raw meat at home" },
+    { "facet": "themes", "part": 1, "at": "00:53:14", "note": "guest describes the common pattern of wellness grifters selling supplements" }
+  ],
+  "notes": "Companion to the Liver King live show; studio recording so deep-dive. No person is primary, so roles are empty. The transcript implies Vonderplanitz was about 52 around 2013, but he is generally recorded as born 1947; lifespan uses 1947. The 1960s origin of the paleo idea is only a passing mention, so covered_span starts with Cordain's 2002 book. Scope online is a judgment call; national would also fit."
+}

@@ -1,0 +1,96 @@
+{
+  "story_id": "rafael-trujillo-the-most-brutal-dictator-of-the-americas",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Rafael Trujillo",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1891, "end": 1961 }
+    },
+    {
+      "name": "Parsley Massacre",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "United States occupation of the Dominican Republic (1916-1924)",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Mirabal sisters",
+      "kind": "group",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["dictator-autocrat", "military-officer", "criminal-killer"],
+  "themes": {
+    "primary": "authoritarianism",
+    "secondary": [
+      "genocide-mass-killing",
+      "colonialism-imperialism",
+      "racism-white-supremacy",
+      "immigration-borders",
+      "sexual-abuse",
+      "intelligence-covert-ops",
+      "coups-insurrections"
+    ]
+  },
+  "regions": {
+    "origin": ["DO"],
+    "setting": ["DO", "HT", "US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1918, "end": 1961 },
+    "covered_span": { "start": 1891, "end": 1961 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Rafael Trujillo, a petty criminal trained by the US Marines during their occupation of the Dominican Republic, seized power in 1930 and ruled through terror, monopoly and patronage, ordering the 1937 massacre of Haitians before his assassination in 1961.",
+  "content_warnings": ["mass-atrocity", "graphic-violence", "sexual-violence"],
+  "keywords": [
+    "Hispaniola",
+    "Ciudad Trujillo",
+    "Dominican Constabulary",
+    "La 42",
+    "Sosua",
+    "Evian Conference",
+    "Quentin Reynolds",
+    "Ramfis Trujillo",
+    "Romulo Betancourt",
+    "San Zenon hurricane"
+  ],
+  "guests": ["Kat Abughazaleh"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:35:17", "note": "born in San Cristobal in October 1891 to a poor family" },
+    { "facet": "subjects", "part": 1, "at": "00:33:12", "note": "US Marines land in 1916; occupation set-up segment leads into his rise" },
+    { "facet": "roles", "part": 1, "at": "00:47:35", "note": "after jail he runs forgery, cattle theft and pimping rackets" },
+    { "facet": "themes", "part": 1, "at": "00:52:06", "note": "informs for the Marines and joins Captain Merckle's brutal pacification campaign" },
+    { "facet": "time", "part": 1, "at": "00:54:37", "note": "commissioned in the US-built constabulary around 1918 and rises fast" },
+    { "facet": "themes", "part": 1, "at": "01:02:29", "note": "uses a staged rebellion against Vasquez to take the presidency in 1930" },
+    { "facet": "themes", "part": 2, "at": "00:10:17", "note": "secret police use hurricane corpse burnings to hide political killings" },
+    { "facet": "themes", "part": 2, "at": "00:40:01", "note": "scapegoats Haitians, registration law and deportations along the border" },
+    { "facet": "subjects", "part": 2, "at": "00:43:01", "note": "orders the October 1937 massacre of Haitians; 15,000 to 30,000 killed" },
+    { "facet": "themes", "part": 2, "at": "00:53:44", "note": "offers to take Jewish refugees to whiten the population; Sosua colony" },
+    { "facet": "subjects", "part": 2, "at": "01:09:33", "note": "Mirabal sisters resist him and are murdered in November 1960" },
+    { "facet": "time", "part": 2, "at": "01:21:24", "note": "CIA-armed dissidents assassinate him on 30 May 1961" }
+  ],
+  "notes": "Part 1 spends about 25 minutes on colonial Hispaniola background (1600s onward); treated as general background, so covered_span starts at his 1891 birth. Post-1961 coda (Ramfis, 1965 US intervention) is brief. main_span starts at his 1918 constabulary commission. Venezuela and Cuba plots are short and left out of setting. Sexual-violence warning is borderline: his serial rape is discussed repeatedly but without detail."
+}

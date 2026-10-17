@@ -1,0 +1,131 @@
+{
+  "story_id": "the-sam-bankman-fried-update",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "current-affairs",
+  "subjects": [
+    {
+      "name": "Sam Bankman-Fried",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1992, "end": null }
+    },
+    {
+      "name": "FTX",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Effective altruism",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    },
+    {
+      "name": "Joe Bankman and Barbara Fried",
+      "kind": "group",
+      "role": "secondary"
+    },
+    {
+      "name": "Caroline Ellison",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1994, "end": null }
+    }
+  ],
+  "roles": ["financier-investor", "tech-founder", "con-artist"],
+  "themes": {
+    "primary": "finance-crypto",
+    "secondary": ["fraud-grift", "tech-internet", "policing-incarceration"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "BS", "NR"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2022, "end": 2023 },
+    "covered_span": { "start": 2017, "end": 2023 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "An update on crypto mogul Sam Bankman-Fried after the 2022 FTX collapse: the FTX Foundation's plan to buy Nauru as a bunker, his ties to effective altruism and his parents, and the 2023 bail violations that sent him to jail.",
+  "content_warnings": [],
+  "keywords": [
+    "Nauru",
+    "Alameda Research",
+    "FTX Foundation",
+    "Gabriel Bankman-Fried",
+    "William MacAskill",
+    "Stanford University",
+    "earning to give",
+    "utility function",
+    "bail revocation",
+    "rationalism"
+  ],
+  "guests": ["Jamie Loftus"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:05:10",
+      "note": "long segment on Nauru and the FTX Foundation plan to buy it as a sovereign bunker"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:18:02",
+      "note": "extended critique of EA and rationalist utility-function reasoning and Silicon Valley ideology"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:31:34",
+      "note": "Alameda Research founding and 2018 internal revolt against SBF"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:36:43",
+      "note": "segment on his Stanford professor parents, their role at FTX and Bahamas property"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:47:08",
+      "note": "parents named on a Bahamas beach house within FTX real estate portfolio"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:51:40",
+      "note": "bail-condition breaches: witness contact, VPN, encrypted apps"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:59:11",
+      "note": "Caroline Ellison, her diary leaked to the press, and her role at Alameda"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:02:10",
+      "note": "recorded update: bail revoked and SBF jailed until his October 2023 trial"
+    }
+  ],
+  "notes": "Update episode following an earlier SBF story; no biography. William MacAskill gets several minutes but kept to keywords to stay within five subjects. Parents' 1980s Stanford careers and Thiel tax anecdote mentioned only briefly, so covered span starts at Alameda (2017). Ellison birth year from general knowledge."
+}

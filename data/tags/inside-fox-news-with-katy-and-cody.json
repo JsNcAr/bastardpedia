@@ -1,0 +1,94 @@
+{
+  "story_id": "inside-fox-news-with-katy-and-cody",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "current-affairs",
+  "subjects": [
+    {
+      "name": "Fox News",
+      "kind": "organization",
+      "org_type": "media-outlet",
+      "role": "primary"
+    },
+    {
+      "name": "Dominion Voting Systems v. Fox News Network",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Tucker Carlson",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1969, "end": null }
+    },
+    {
+      "name": "Rupert Murdoch",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1931, "end": null }
+    },
+    {
+      "name": "Sidney Powell",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1955, "end": null }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "propaganda-media",
+    "secondary": ["conspiracy-theories", "electoral-politics", "corporate-malfeasance"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2020, "end": 2021 },
+    "covered_span": { "start": 2020, "end": 2023 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "A walk through Dominion Voting Systems' 2023 summary-judgment filing against Fox News, showing that Fox hosts and executives privately dismissed the 2020 stolen-election claims about Dominion as false while airing them to win back viewers from Newsmax.",
+  "content_warnings": [],
+  "keywords": [
+    "Dominion Voting Systems",
+    "Smartmatic",
+    "Sean Hannity",
+    "Maria Bartiromo",
+    "Laura Ingraham",
+    "Suzanne Scott",
+    "Newsmax",
+    "Rudy Giuliani",
+    "Arizona call",
+    "News of the World phone hacking"
+  ],
+  "guests": ["Katy Stoll", "Cody Johnston"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "subjects", "part": 1, "at": "00:02:42", "note": "Host introduces the Dominion and Smartmatic defamation suits against Fox" },
+    { "facet": "subjects", "part": 1, "at": "00:14:12", "note": "Main source named: Dominion's public brief seeking summary judgment" },
+    { "facet": "themes", "part": 1, "at": "00:16:16", "note": "Powell's Dominion vote-flipping claim aired on Bartiromo's show in November 2020" },
+    { "facet": "themes", "part": 1, "at": "00:19:33", "note": "Backlash over the Arizona call and Newsmax competition drive Fox's choices" },
+    { "facet": "time", "part": 1, "at": "00:30:19", "note": "Murdoch message linking Fox voices to the stolen-election story and January 6" },
+    { "facet": "themes", "part": 1, "at": "00:39:51", "note": "Carlson, Ingraham and Hannity privately fear audience loss and Trump" },
+    { "facet": "themes", "part": 2, "at": "00:10:28", "note": "Powell's anonymous source email with absurd claims shared with Fox hosts" },
+    { "facet": "themes", "part": 2, "at": "00:18:20", "note": "Executives treat Newsmax as a commercial threat to their ratings" },
+    { "facet": "themes", "part": 2, "at": "00:26:17", "note": "Carlson pushes to get a reporter fired for fact-checking a Trump tweet" },
+    { "facet": "time", "part": 2, "at": "00:47:26", "note": "January 2021 messages and Lindell appearance close the narrative" }
+  ],
+  "notes": "Format: like the Twitter lawsuit episode, this reads a fresh legal filing about recent events, so current-affairs rather than media-reading. Fox News is the sole primary subject, so roles are empty; Carlson and Murdoch are secondary. The UK phone hacking scandal gets a few minutes as background only and is kept to keywords. covered_span ends in 2023 to include the lawsuit itself."
+}

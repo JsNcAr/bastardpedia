@@ -1,0 +1,89 @@
+{
+  "story_id": "the-liver-king-a-live-show",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "live-show",
+  "subjects": [
+    {
+      "name": "Brian Johnson (Liver King)",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1977, "end": null }
+    },
+    {
+      "name": "Ancestral Supplements",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "One DS Collective",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["influencer-online", "quack-fake-healer", "business-executive"],
+  "themes": {
+    "primary": "wellness-self-help",
+    "secondary": [
+      "quackery-pseudoscience",
+      "fraud-grift",
+      "drugs",
+      "tech-internet",
+      "racism-white-supremacy"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "TZ"],
+    "subdivisions": ["US-TX"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2016, "end": null },
+    "covered_span": { "start": 1977, "end": 2023 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Texas supplement seller Brian Johnson became the Liver King, a viral influencer who credited raw organ meat for a physique built on undisclosed steroids, to sell organ pills until his 2022 exposure.",
+  "content_warnings": ["drug-use"],
+  "keywords": [
+    "Liver King",
+    "ancestral living",
+    "organ meat supplements",
+    "holistic dentistry",
+    "PANDAS",
+    "More Plates More Dates",
+    "Hadza",
+    "human growth hormone",
+    "body dysmorphia",
+    "SF Sketchfest"
+  ],
+  "guests": ["Kaveh Hoda"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:04:14", "note": "birth in 1977 in San Antonio, Texas" },
+    { "facet": "themes", "part": 1, "at": "00:12:43", "note": "wife's holistic dentistry practice and its pseudoscience" },
+    { "facet": "time", "part": 1, "at": "00:16:51", "note": "Ancestral Supplements organ pill business appears to start around 2016" },
+    { "facet": "subjects", "part": 1, "at": "00:25:10", "note": "One DS Collective hired around 2021 to build the Liver King social media brand" },
+    { "facet": "themes", "part": 1, "at": "00:31:56", "note": "PANDAS diagnosis and backstory about his son used as marketing" },
+    { "facet": "themes", "part": 1, "at": "00:37:36", "note": "prescribed steroid and HGH regimen costing about 15k a month" },
+    { "facet": "themes", "part": 1, "at": "00:48:41", "note": "rapid TikTok, YouTube and Instagram follower growth" },
+    { "facet": "regions", "part": 1, "at": "01:00:55", "note": "paid hunting trips with the Hadza in Tanzania, framed as racist" },
+    { "facet": "time", "part": 1, "at": "01:05:57", "note": "December 2022 steroid expose and apology video" },
+    { "facet": "themes", "part": 1, "at": "01:10:11", "note": "body dysmorphia among men and links to male suicide" }
+  ],
+  "notes": "Live show at SF Sketchfest; framed as a joke hero episode but treated as a bastard. Hadza in Tanzania inferred from the tribe name; other Africa and South America trips unspecified. Considered misogyny-manosphere for the male body image segment but it is short. Steroids were prescribed, so drugs is the closest theme for PED use."
+}

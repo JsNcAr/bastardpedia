@@ -1,0 +1,102 @@
+{
+  "story_id": "a-complete-history-of-the-illuminati",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Bavarian Illuminati",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "primary"
+    },
+    {
+      "name": "Kerry Thornley",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1938, "end": 1998 }
+    },
+    {
+      "name": "Adam Weishaupt",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1748, "end": 1830 }
+    },
+    {
+      "name": "Discordianism",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    },
+    {
+      "name": "Robert Anton Wilson",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1932, "end": 2007 }
+    }
+  ],
+  "roles": ["writer-intellectual", "conspiracy-theorist"],
+  "themes": {
+    "primary": "conspiracy-theories",
+    "secondary": [
+      "occult-esoteric",
+      "propaganda-media",
+      "fascism-far-right",
+      "intelligence-covert-ops",
+      "child-abuse"
+    ]
+  },
+  "regions": {
+    "origin": ["DE", "US"],
+    "setting": ["US", "DE", "FR"],
+    "subdivisions": [],
+    "polities": ["holy-roman-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1776, "end": 1998 },
+    "covered_span": { "start": 1748, "end": 1998 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Traces the Bavarian Illuminati, Adam Weishaupt's 1776 Enlightenment secret society, into the master conspiracy theory, then follows Kerry Thornley, whose Discordian pranks revived it before his slide into paranoia and an attempt to molest a child.",
+  "content_warnings": ["child-abuse"],
+  "keywords": [
+    "Principia Discordia",
+    "Operation Mindfuck",
+    "Illuminatus! trilogy",
+    "Greg Hill",
+    "Lee Harvey Oswald",
+    "Jim Garrison",
+    "John Birch Society",
+    "Freemasons",
+    "Ingolstadt",
+    "Illuminati: New World Order card game"
+  ],
+  "guests": ["Margaret Killjoy", "Garrison Davis"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:23:51", "note": "Weishaupt's birth in Ingolstadt opens the biography" },
+    { "facet": "time", "part": 1, "at": "00:43:17", "note": "Order founded on 1 May 1776, later renamed the Bavarian Illuminati" },
+    { "facet": "time", "part": 2, "at": "00:35:14", "note": "Weishaupt exiled to Regensburg, spends decades defending the order, dies around 1830" },
+    { "facet": "regions", "part": 2, "at": "00:40:33", "note": "French Revolution blamed on the Illuminati; long segment on French women's Masonic lodges" },
+    { "facet": "regions", "part": 2, "at": "00:53:36", "note": "1790s Illuminati panic in the young US, Washington and Abigail Adams" },
+    { "facet": "subjects", "part": 3, "at": "00:17:48", "note": "Thornley and Greg Hill introduced as 1950s Whittier teenagers" },
+    { "facet": "themes", "part": 3, "at": "00:35:24", "note": "Possible MKUltra dosing of Thornley and Oswald at Atsugi base" },
+    { "facet": "themes", "part": 4, "at": "00:05:12", "note": "Robert Welch and the John Birch Society adopt the Illuminati conspiracy" },
+    { "facet": "time", "part": 4, "at": "00:37:40", "note": "DA Jim Garrison investigates and charges Thornley from 1968" },
+    { "facet": "themes", "part": 5, "at": "00:32:33", "note": "Account of Thornley trying to molest a young girl in Atlanta, discussed at length" },
+    { "facet": "time", "part": 6, "at": "00:09:27", "note": "Thornley's 1992 TV appearance and death in 1998" },
+    { "facet": "themes", "part": 6, "at": "00:34:23", "note": "Alt-right meme culture and Kek traced to Discordian tactics, sets reaches_present" }
+  ],
+  "notes": "Illuminati given org_type political-org as nearest fit for an Enlightenment secret society. Weishaupt kept secondary although parts 1-2 centre on him; Thornley is the bastard of parts 3-6. Transcript says Wilson died around 2003-04; real death year 2007 used. Prehistoric and Templar background excluded from covered_span; post-1998 alt-right epilogue sets reaches_present."
+}

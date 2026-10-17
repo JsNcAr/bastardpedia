@@ -1,0 +1,161 @@
+{
+  "story_id": "the-war-on-vagrants",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Anti-vagrancy laws",
+      "kind": "practice-or-pseudoscience",
+      "role": "primary"
+    },
+    {
+      "name": "Malaga Island eviction",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Benjamin Darling",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1794
+    },
+    {
+      "name": "Holman Day",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1865, "end": 1935 }
+    },
+    {
+      "name": "Freedmen's Bureau",
+      "kind": "organization",
+      "org_type": "government-agency",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "policing-incarceration",
+    "secondary": [
+      "racism-white-supremacy",
+      "slavery-forced-labor",
+      "eugenics-scientific-racism",
+      "propaganda-media",
+      "moral-panics"
+    ]
+  },
+  "regions": {
+    "origin": ["US", "GB"],
+    "setting": ["US", "GB"],
+    "subdivisions": ["US-ME"],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1865, "end": 1912 },
+    "covered_span": { "start": 1547, "end": 2023 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "How vagrancy laws born in Tudor England were used in the US after the Civil War to force freed Black people into labor and to criminalize the poor, and how Maine evicted and institutionalized the mixed-race community of Malaga Island in 1911-1912.",
+  "content_warnings": ["slavery"],
+  "keywords": [
+    "Malaga Island",
+    "Phippsburg",
+    "Horse Island",
+    "Vagabonds Act 1547",
+    "sturdy beggars",
+    "Maine School for the Feeble-Minded",
+    "Frederick Plaisted",
+    "Papachristou v. City of Jacksonville",
+    "Hermit of Pond Island",
+    "homelessness"
+  ],
+  "guests": ["Margaret Killjoy"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:15:01",
+      "note": "1547 English law branding and enslaving the able-bodied unemployed starts the covered history"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:24:32",
+      "note": "Benjamin Darling's life story begins; birth date unknown, active in Maine in the 1790s"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:30:27",
+      "note": "Darling buys Horse Island around 1794 and founds a mixed-race island community"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:43:36",
+      "note": "Memphis vagrancy arrests push freed Black people back onto plantations as forced labor"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:54:19",
+      "note": "Massachusetts passes its 1866 vagrancy act; Tramp Acts spread to other Northern states"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:01:37",
+      "note": "Freedmen's Bureau runs bounty patrols arresting Black people as vagrants for planters"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:06:04",
+      "note": "local press and Holman Day's 1908 Harper's article cast Malaga as an eyesore"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:42:43",
+      "note": "1908 School for the Feeble-Minded and hereditary-decay ideas used against islanders"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:47:26",
+      "note": "Governor Plaisted evicts the last residents in 1912 and has eight institutionalized"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:04:18",
+      "note": "vagrancy prosecutions from 1949 until Supreme Court strikes the laws down in 1972"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:37",
+      "note": "2022-2023 laws criminalizing homelessness in Missouri, Los Angeles and San Diego"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:24:31",
+      "note": "Portland, Oregon daytime camping ban and Seattle tiny-home villages as the modern echo"
+    }
+  ],
+  "notes": "Two equal threads: the history of vagrancy law and the Malaga Island community, so both are primary. Covered span ends in 2023 because current anti-homeless laws are the primary subject itself and get several minutes in each part. No theme for homelessness or poverty; policing-incarceration is the closest primary. Holman Day's lifespan is from general knowledge."
+}

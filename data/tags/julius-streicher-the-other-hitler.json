@@ -1,0 +1,94 @@
+{
+  "story_id": "julius-streicher-the-other-hitler",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Julius Streicher",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1885, "end": 1946 }
+    },
+    {
+      "name": "Der Stürmer",
+      "kind": "organization",
+      "org_type": "media-outlet",
+      "role": "secondary"
+    },
+    {
+      "name": "Adolf Hitler",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1889, "end": 1945 }
+    },
+    {
+      "name": "Theodor Fritsch",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1852, "end": 1933 }
+    }
+  ],
+  "roles": ["journalist-propagandist", "politician-official", "activist-organizer"],
+  "themes": {
+    "primary": "propaganda-media",
+    "secondary": [
+      "nazism",
+      "racism-white-supremacy",
+      "conspiracy-theories",
+      "moral-panics",
+      "occult-esoteric"
+    ]
+  },
+  "regions": {
+    "origin": ["DE"],
+    "setting": ["DE"],
+    "subdivisions": ["DE-BY"],
+    "polities": ["weimar-republic", "nazi-germany", "german-empire"],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1919, "end": 1946 },
+    "covered_span": { "start": 1885, "end": 1946 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "Bavarian schoolteacher Julius Streicher founded the antisemitic newspaper Der Stürmer in Nuremberg in 1923, spreading blood-libel smears and directing harassment of Jews, ruled Franconia as Gauleiter, and was hanged at Nuremberg in 1946.",
+  "content_warnings": ["hate-speech"],
+  "keywords": [
+    "Nuremberg",
+    "Franconia",
+    "Gauleiter",
+    "blood libel",
+    "Nuremberg trials",
+    "Nuremberg Laws",
+    "Beer Hall Putsch",
+    "Philipp Rupprecht (Fips)",
+    "Thule Society",
+    "Handbook of the Jewish Question"
+  ],
+  "guests": ["Jake Hanrahan"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:06:01", "note": "birth in 1885 in a Bavarian village near Augsburg" },
+    { "facet": "time", "part": 1, "at": "00:36:12", "note": "after WWI joins an antisemitic defence league and turns to far-right politics" },
+    { "facet": "subjects", "part": 1, "at": "00:37:13", "note": "long segment on Theodor Fritsch and his antisemitic handbook" },
+    { "facet": "themes", "part": 1, "at": "01:11:37", "note": "Wotan Lodge, Thule Society and Sebottendorf's occult nationalism" },
+    { "facet": "subjects", "part": 2, "at": "00:16:34", "note": "founding of Der Stürmer in Nuremberg in 1923" },
+    { "facet": "themes", "part": 2, "at": "00:19:24", "note": "ritual-murder smears exploiting a child-disappearance panic" },
+    { "facet": "themes", "part": 2, "at": "00:37:12", "note": "reader letters used to direct harassment and boycotts of Jews" },
+    { "facet": "roles", "part": 2, "at": "00:51:17", "note": "named Gauleiter of Franconia with de facto control of the region" },
+    { "facet": "time", "part": 2, "at": "01:23:37", "note": "hanged at Nuremberg in October 1946" }
+  ],
+  "notes": "Primary theme propaganda-media (the taxonomy cites Streicher), nazism secondary. Main span starts at his ~1919 turn to antisemitic politics (approximate). WWI service (Romania, France) covered briefly, so only DE in setting; german-empire polity for that service. Tree of Life shooting is a one-line coda, so reaches_present is false."
+}

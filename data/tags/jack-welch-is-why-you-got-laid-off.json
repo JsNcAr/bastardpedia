@@ -1,0 +1,121 @@
+{
+  "story_id": "jack-welch-is-why-you-got-laid-off",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Jack Welch",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1935, "end": 2020 }
+    },
+    {
+      "name": "General Electric",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["business-executive"],
+  "themes": {
+    "primary": "labor-exploitation",
+    "secondary": ["corporate-malfeasance", "finance-crypto", "propaganda-media"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1981, "end": 2001 },
+    "covered_span": { "start": 1935, "end": 2020 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "American executive Jack Welch ran General Electric from 1981 to 2001, pioneering mass layoffs of profitable plants, stack ranking, offshoring and stock buybacks that enriched shareholders while hollowing out the company and its workforce.",
+  "content_warnings": [],
+  "keywords": [
+    "Neutron Jack",
+    "stack ranking",
+    "GE Capital",
+    "Jack: Straight from the Gut",
+    "The Man Who Broke Capitalism",
+    "Kidder Peabody",
+    "RCA and NBC",
+    "Jeffrey Immelt",
+    "Roger Ailes",
+    "Milton Friedman"
+  ],
+  "guests": ["Michael Swaim", "Abe Epperson"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:24:33",
+      "note": "born November 1935 in Peabody, Massachusetts, to a railroad conductor"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:48:37",
+      "note": "hired by GE in 1960 and sent to Pittsfield"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:02:14",
+      "note": "as CEO candidate he cuts much of the Appliance Park workforce in Louisville despite profits"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:03:00",
+      "note": "first-year CEO speech on being number one or two in every market, start of main span"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:17:14",
+      "note": "tens of thousands laid off in 1981-82, Neutron Jack nickname"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:24:16",
+      "note": "stack ranking with the bottom tenth fired yearly, and its spread to other firms"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:45:54",
+      "note": "finance division used to buy and sell units so quarterly earnings hit targets"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:56:19",
+      "note": "NBC ownership: pressure on news division, hiring Roger Ailes, 2000 election call"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:21:26",
+      "note": "GE collapse after his exit, 2008 rescue, Dow removal, feud with Immelt late in life"
+    }
+  ],
+  "notes": "Welch died in 2020, so the lifetime rule sets covered_span to 1935-2020. The opening segment on GE's welfare-capitalism era (1920s-1970s) is background and does not extend covered_span. The 2021 GE breakup and modern stack ranking at Amazon and Microsoft set reaches_present. Death year comes from general knowledge; the transcript only says he died recently."
+}

@@ -1,0 +1,94 @@
+{
+  "story_id": "why-kidnapping-conspiracy-theories-are-everywhere",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": { "agent": "btb-tagger", "model": "claude-opus-5-5", "date": "2026-10-16" },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Kidnapping conspiracy theories",
+      "kind": "movement-or-ideology",
+      "role": "primary"
+    },
+    {
+      "name": "Chain letters",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    },
+    {
+      "name": "Phoebe Copas",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2023
+    },
+    {
+      "name": "Katie Sorensen",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 2020
+    },
+    {
+      "name": "Virtual kidnapping scams",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "moral-panics",
+    "secondary": [
+      "conspiracy-theories",
+      "tech-internet",
+      "fraud-grift",
+      "propaganda-media",
+      "artificial-intelligence",
+      "immigration-borders"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "GB", "JP"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2015, "end": 2023 },
+    "covered_span": { "start": 1888, "end": 2023 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "How viral hoaxes about kidnappers and sex traffickers marking cars spread on US social media, traced back through chain letters, and how the fear they feed led to the 2023 killing of an Uber driver in El Paso and to false accusations.",
+  "content_warnings": [],
+  "keywords": [
+    "Daniel Piedra Garcia",
+    "El Paso",
+    "Ciudad Juarez",
+    "Petaluma",
+    "Daniel W. Van Arsdale",
+    "Bishop of Bedford",
+    "Snopes",
+    "Shatterzone",
+    "voice cloning",
+    "One Million Pagodas"
+  ],
+  "guests": ["Sarah Marshall"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "subjects", "part": 1, "at": "00:05:47", "note": "June 2023 El Paso Uber shooting by Copas opens the story" },
+    { "facet": "themes", "part": 1, "at": "00:23:17", "note": "Century-long US panic over the Mexican border and polling on invasion fears" },
+    { "facet": "time", "part": 1, "at": "00:29:31", "note": "Host dates the modern car-marking kidnapping panic to 2015 Facebook rumors" },
+    { "facet": "regions", "part": 1, "at": "00:43:27", "note": "8th-century Japanese empress prints a million charms for pagodas as chain-letter precursor" },
+    { "facet": "time", "part": 1, "at": "00:50:29", "note": "1888 letter cited as earliest known chain letter, start of covered history" },
+    { "facet": "regions", "part": 1, "at": "00:53:23", "note": "Bishop of Bedford's London chain letter during the Ripper murders goes viral" },
+    { "facet": "subjects", "part": 2, "at": "00:07:02", "note": "Sorensen's fake Michaels kidnapping story and her later conviction" },
+    { "facet": "themes", "part": 2, "at": "00:30:23", "note": "Local radio and iHeart SEO articles amplify kidnapping hoaxes" },
+    { "facet": "themes", "part": 2, "at": "00:53:42", "note": "AI voice-cloning virtual kidnapping scams and elder fraud statistics" }
+  ],
+  "notes": "Survey of a modern panic rather than a biography; Copas and Sorensen given floruit since exact birth years are not stated (Copas was 48 in 2023). The covered span starts at 1888; the Book of the Dead and the Japanese pagoda charms are brief precursors and were treated as comparisons, though JP keeps a setting slot for its few minutes. No content warning: the shooting is described only briefly."
+}

@@ -1,0 +1,81 @@
+{
+  "story_id": "how-the-dilbert-guy-lost-his-mind",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Scott Adams",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1957, "end": 2026 }
+    },
+    {
+      "name": "Dilbert",
+      "kind": "media-work",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["entertainer-artist", "writer-intellectual", "influencer-online"],
+  "themes": {
+    "primary": "racism-white-supremacy",
+    "secondary": [
+      "wellness-self-help",
+      "entertainment-celebrity",
+      "tech-internet",
+      "misogyny-manosphere"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1989, "end": 2023 },
+    "covered_span": { "start": 1957, "end": 2023 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Dilbert cartoonist Scott Adams turned a belief in affirmations and his own persuasive powers into online grievance, blaming diversity for his setbacks until racist remarks got his strip dropped in 2023.",
+  "content_warnings": ["drug-use"],
+  "keywords": [
+    "Win Bigly",
+    "God's Debris",
+    "The Religion War",
+    "affirmations",
+    "spasmodic dysphonia",
+    "Crocker National Bank",
+    "Pacific Bell",
+    "United Media",
+    "Dilbert TV series",
+    "sock puppet accounts"
+  ],
+  "guests": ["Randy Milholland"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:08:48", "note": "Adams is six in 1963, placing his birth around 1957" },
+    { "facet": "themes", "part": 1, "at": "00:49:19", "note": "start of long segment on his turn to affirmations and New Thought ideas" },
+    { "facet": "themes", "part": 1, "at": "00:55:15", "note": "his later claim that bank diversity policy blocked his promotion" },
+    { "facet": "time", "part": 1, "at": "01:12:22", "note": "Dilbert is syndicated and spreads to 50 then 100 papers by 1990-91" },
+    { "facet": "themes", "part": 2, "at": "00:30:12", "note": "his claims about affirmations working, framed as hacking reality" },
+    { "facet": "themes", "part": 2, "at": "00:54:48", "note": "2008 book blames diversity and Black-led programming for the TV show's cancellation" },
+    { "facet": "themes", "part": 2, "at": "01:24:29", "note": "2011 blog post about women and the sock puppet defence that followed" },
+    { "facet": "roles", "part": 2, "at": "01:28:40", "note": "Trump-era punditry and Win Bigly persuasion claims online" },
+    { "facet": "content_warnings", "part": 2, "at": "01:34:11", "note": "stepson's brain injury, addiction and 2018 fentanyl overdose death" },
+    { "facet": "time", "part": 2, "at": "01:36:26", "note": "2023 racist remarks lead newspapers and syndicate to drop the strip" }
+  ],
+  "notes": "Adams was alive when this aired in 2023; lifespan end 2026 reflects his death in January 2026, after release. Covered span runs to the 2023 release. Primary theme is racism since the arc ends in his racist breakdown; self-help and affirmations are the other main thread. Holocaust-numbers questioning and the vaccine claims are short segments and were not tagged."
+}
