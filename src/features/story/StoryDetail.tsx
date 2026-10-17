@@ -11,7 +11,7 @@ import {
   storyPeriod,
 } from '@/features/catalog/format';
 import type { Labels } from '@/features/catalog/labels';
-import { LibraryControls } from './LibraryControls';
+import { LibraryActions, LibraryNote } from './LibraryControls';
 
 const dateFmt = new Intl.DateTimeFormat('en', { year: 'numeric', month: 'long', day: 'numeric' });
 
@@ -60,6 +60,7 @@ export function StoryDetail({
           {story.title}
         </Heading>
         <p className="story-summary">{story.summary}</p>
+        <LibraryActions storyId={story.id} />
       </header>
 
       <dl className="facts">
@@ -258,7 +259,7 @@ export function StoryDetail({
         </ol>
       </section>
 
-      <LibraryControls storyId={story.id} />
+      <LibraryNote storyId={story.id} />
     </article>
   );
 }

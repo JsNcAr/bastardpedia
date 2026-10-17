@@ -49,6 +49,13 @@ export function ActiveFilters({
       remove: () => ({ ...filters, reviewedOnly: false }),
     });
   }
+  if (filters.hideListened) {
+    chips.push({
+      key: 'listened',
+      label: 'Hiding listened',
+      remove: () => ({ ...filters, hideListened: false }),
+    });
+  }
   for (const w of filters.cwHide) {
     chips.push({
       key: `cw:${w}`,

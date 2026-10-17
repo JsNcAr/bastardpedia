@@ -71,6 +71,12 @@
   width: 100%;
 }
 
+/* Tighter padding for button groups in a header; the tap height stays. */
+.button-compact {
+  padding: 0 var(--space-3);
+  gap: var(--space-1);
+}
+
 .button-row {
   display: flex;
   flex-wrap: wrap;

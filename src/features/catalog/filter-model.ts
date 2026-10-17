@@ -20,6 +20,8 @@ export interface Filters {
   cwHide: string[];
   /** Only stories a person has reviewed field by field. */
   reviewedOnly: boolean;
+  /** Leave out stories the visitor marked as listened (their library, this browser). */
+  hideListened: boolean;
   /** Year range matched against covered years; null = open on that side. Negative = BCE. */
   yearFrom: number | null;
   yearTo: number | null;
@@ -50,6 +52,7 @@ const PARAM = {
   century: 'century',
   cwHide: 'cw-hide',
   reviewedOnly: 'reviewed',
+  hideListened: 'hide-listened',
   yearFrom: 'from',
   yearTo: 'to',
   sort: 'sort',
@@ -66,6 +69,7 @@ export const EMPTY_FILTERS: Filters = {
   century: [],
   cwHide: [],
   reviewedOnly: false,
+  hideListened: false,
   yearFrom: null,
   yearTo: null,
   sort: null,
@@ -109,6 +113,7 @@ export function parseFilters(params: URLSearchParams): Filters {
     ),
     cwHide: strings(params, PARAM.cwHide),
     reviewedOnly: params.get(PARAM.reviewedOnly) === '1',
+    hideListened: params.get(PARAM.hideListened) === '1',
     yearFrom,
     yearTo,
     sort: (SORTS as readonly string[]).includes(sort ?? '') ? (sort as SortKey) : null,
@@ -124,6 +129,7 @@ export function serializeFilters(f: Filters): URLSearchParams {
   if (f.yearFrom !== null) p.set(PARAM.yearFrom, String(f.yearFrom));
   if (f.yearTo !== null) p.set(PARAM.yearTo, String(f.yearTo));
   if (f.reviewedOnly) p.set(PARAM.reviewedOnly, '1');
+  if (f.hideListened) p.set(PARAM.hideListened, '1');
   if (f.sort) p.set(PARAM.sort, f.sort);
   return p;
 }
@@ -153,6 +159,7 @@ export const activeCount = (f: Filters) =>
   f.cwHide.length +
   (f.q ? 1 : 0) +
   (f.reviewedOnly ? 1 : 0) +
+  (f.hideListened ? 1 : 0) +
   (f.yearFrom !== null || f.yearTo !== null ? 1 : 0);
 
 export const resolvedSort = (f: Filters): SortKey => f.sort ?? (f.q ? 'relevance' : 'newest');

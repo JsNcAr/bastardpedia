@@ -247,15 +247,109 @@
   gap: var(--space-3);
 }
 
+/* Two range inputs share one track: only their thumbs take pointer events. */
 .year-sliders {
-  display: grid;
-  gap: var(--space-1);
+  position: relative;
+  height: var(--size-tap);
+}
+
+.year-track {
+  position: absolute;
+  top: 50%;
+  left: calc(var(--space-6) / 2);
+  display: block;
+  width: calc(100% - var(--space-6));
+  height: var(--space-1);
+  transform: translateY(-50%);
+}
+
+.year-track-base {
+  fill: var(--color-border-default);
+}
+
+.year-track-fill {
+  fill: var(--color-accent-default);
 }
 
 .year-slider {
+  position: absolute;
+  top: 50%;
+  left: 0;
   width: 100%;
-  min-height: var(--size-tap);
-  accent-color: var(--color-accent-default);
+  height: var(--space-6);
+  margin: 0;
+  transform: translateY(-50%);
+  background: transparent;
+  appearance: none;
+  pointer-events: none;
+}
+
+.year-slider-top {
+  z-index: 1;
+}
+
+.year-slider::-webkit-slider-runnable-track {
+  height: var(--space-6);
+  background: transparent;
+}
+
+.year-slider::-moz-range-track {
+  height: var(--space-6);
+  background: transparent;
+}
+
+.year-slider::-webkit-slider-thumb {
+  width: var(--space-6);
+  height: var(--space-6);
+  border: var(--size-focus-ring) solid var(--color-surface-raised);
+  border-radius: var(--radius-pill);
+  background: var(--color-accent-default);
+  cursor: grab;
+  appearance: none;
+  pointer-events: auto;
+}
+
+.year-slider::-moz-range-thumb {
+  width: var(--space-6);
+  height: var(--space-6);
+  box-sizing: border-box;
+  border: var(--size-focus-ring) solid var(--color-surface-raised);
+  border-radius: var(--radius-pill);
+  background: var(--color-accent-default);
+  cursor: grab;
+  pointer-events: auto;
+}
+
+.year-slider:hover::-webkit-slider-thumb {
+  background: var(--color-accent-hover);
+}
+
+.year-slider:hover::-moz-range-thumb {
+  background: var(--color-accent-hover);
+}
+
+.year-slider:active::-webkit-slider-thumb {
+  background: var(--color-accent-active);
+  cursor: grabbing;
+}
+
+.year-slider:active::-moz-range-thumb {
+  background: var(--color-accent-active);
+  cursor: grabbing;
+}
+
+.year-slider:focus-visible {
+  outline: none;
+}
+
+.year-slider:focus-visible::-webkit-slider-thumb {
+  outline: var(--size-focus-ring) solid var(--color-border-focus);
+  outline-offset: var(--size-focus-offset);
+}
+
+.year-slider:focus-visible::-moz-range-thumb {
+  outline: var(--size-focus-ring) solid var(--color-border-focus);
+  outline-offset: var(--size-focus-offset);
 }
 
 .year-fields {
