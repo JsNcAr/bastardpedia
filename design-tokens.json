@@ -596,6 +596,10 @@
     "logo": {
       "$type": "dimension",
       "$value": "2.25rem"
+    },
+    "timeline-label": {
+      "$type": "dimension",
+      "$value": "14rem"
     }
   },
   "z": {

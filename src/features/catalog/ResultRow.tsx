@@ -59,7 +59,7 @@ export function ResultRow({
 }
 
 /** Small icons for the visitor's marks, each with a text equivalent. */
-function LibraryMarks({ entry }: { entry: LibraryEntry }) {
+export function LibraryMarks({ entry }: { entry: LibraryEntry }) {
   const marks = [
     entry.status === 'want' ? { icon: 'bookmark' as const, text: 'Want to listen' } : null,
     entry.status === 'listened' ? { icon: 'bookmark-check' as const, text: 'Listened' } : null,

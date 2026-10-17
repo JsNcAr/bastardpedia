@@ -84,7 +84,7 @@ export function ActiveFilters({
       <button
         type="button"
         className="button button-quiet"
-        onClick={() => onChange({ ...EMPTY_FILTERS, sort: filters.sort })}
+        onClick={() => onChange({ ...EMPTY_FILTERS, sort: filters.sort, view: filters.view })}
       >
         <Icon name="rotate-ccw" size="sm" />
         Clear all

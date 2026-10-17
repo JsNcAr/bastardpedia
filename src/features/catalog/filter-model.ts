@@ -7,6 +7,9 @@
 export const SORTS = ['relevance', 'newest', 'oldest', 'chronological'] as const;
 export type SortKey = (typeof SORTS)[number];
 
+export const VIEWS = ['list', 'timeline'] as const;
+export type ViewKey = (typeof VIEWS)[number];
+
 export interface Filters {
   q: string;
   format: string[];
@@ -25,8 +28,10 @@ export interface Filters {
   /** Year range matched against covered years; null = open on that side. Negative = BCE. */
   yearFrom: number | null;
   yearTo: number | null;
-  /** null = automatic: relevance while searching, newest otherwise. */
+  /** null = automatic: relevance while searching, by period on the timeline, newest otherwise. */
   sort: SortKey | null;
+  /** How the results are shown. Not a filter: it never counts as one. */
+  view: ViewKey;
 }
 
 /** The multi-value facets, in display and URL order. */
@@ -56,6 +61,7 @@ const PARAM = {
   yearFrom: 'from',
   yearTo: 'to',
   sort: 'sort',
+  view: 'view',
 } as const;
 
 export const EMPTY_FILTERS: Filters = {
@@ -73,6 +79,7 @@ export const EMPTY_FILTERS: Filters = {
   yearFrom: null,
   yearTo: null,
   sort: null,
+  view: 'list',
 };
 
 const unique = <T>(xs: T[]) => [...new Set(xs)];
@@ -117,6 +124,7 @@ export function parseFilters(params: URLSearchParams): Filters {
     yearFrom,
     yearTo,
     sort: (SORTS as readonly string[]).includes(sort ?? '') ? (sort as SortKey) : null,
+    view: params.get(PARAM.view) === 'timeline' ? 'timeline' : 'list',
   };
 }
 
@@ -131,6 +139,7 @@ export function serializeFilters(f: Filters): URLSearchParams {
   if (f.reviewedOnly) p.set(PARAM.reviewedOnly, '1');
   if (f.hideListened) p.set(PARAM.hideListened, '1');
   if (f.sort) p.set(PARAM.sort, f.sort);
+  if (f.view !== 'list') p.set(PARAM.view, f.view);
   return p;
 }
 
@@ -162,7 +171,8 @@ export const activeCount = (f: Filters) =>
   (f.hideListened ? 1 : 0) +
   (f.yearFrom !== null || f.yearTo !== null ? 1 : 0);
 
-export const resolvedSort = (f: Filters): SortKey => f.sort ?? (f.q ? 'relevance' : 'newest');
+export const resolvedSort = (f: Filters): SortKey =>
+  f.sort ?? (f.q ? 'relevance' : f.view === 'timeline' ? 'chronological' : 'newest');
 
 /** A link to a fresh search for one tag, used by the tags on a story page. */
 export function tagSearch(facet: Facet, value: string | number): string {

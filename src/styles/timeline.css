@@ -1,0 +1,202 @@
+/*
+ * The timeline view: a density strip, a shared year axis, then one row per story.
+ * Rows stack (title above bar) until the results column is wide enough for a
+ * label column; a container query, so a narrow column beside the story pane
+ * stacks too. Bars are SVG and take their colours from fill and stroke here.
+ */
+
+.timeline {
+  container-type: inline-size;
+}
+
+/* Density strip */
+.density {
+  margin-bottom: var(--space-4);
+}
+
+.density-chart {
+  display: block;
+  width: 100%;
+  height: var(--space-12);
+  cursor: crosshair;
+  touch-action: none;
+  border-bottom: var(--size-hairline) solid var(--color-border-default);
+}
+
+.density-bar {
+  fill: var(--color-accent-default);
+  opacity: 0.55;
+}
+
+.density-bar:hover {
+  opacity: 1;
+}
+
+.density-brush {
+  fill: var(--color-accent-subtle);
+  stroke: var(--color-accent-default);
+  stroke-width: var(--size-focus-ring);
+  vector-effect: non-scaling-stroke;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.density-hint {
+  margin-top: var(--space-1);
+  font-size: var(--text-xs);
+  color: var(--color-text-secondary);
+}
+
+/* Axis: sticky above the rows, in the same columns as a row. */
+.timeline-axis {
+  position: sticky;
+  top: var(--size-header);
+  z-index: var(--z-sticky);
+  display: grid;
+  background: var(--color-surface-page);
+  border-bottom: var(--size-hairline) solid var(--color-border-subtle);
+}
+
+/* The axis draws the rule above the first row, also while it is stuck. */
+.timeline-axis + .timeline-list {
+  border-top: 0;
+}
+
+.timeline-axis-gap {
+  display: none;
+}
+
+.timeline-axis-scale {
+  display: block;
+  width: 100%;
+  height: var(--space-6);
+  overflow: visible;
+}
+
+.timeline-tick {
+  stroke: var(--color-border-strong);
+  stroke-width: var(--size-hairline);
+}
+
+.timeline-tick-label {
+  fill: var(--color-text-secondary);
+  font-size: var(--text-xs);
+  font-variant-numeric: tabular-nums;
+}
+
+/* The bars need the width the list view keeps for reading. */
+.timeline-list {
+  max-width: none;
+}
+
+/* Rows */
+.timeline-row {
+  display: grid;
+  gap: var(--space-1);
+  align-items: center;
+  padding: var(--space-2) var(--space-3);
+  margin-inline: calc(var(--space-3) * -1);
+  border-bottom: var(--size-hairline) solid var(--color-border-subtle);
+  color: var(--color-text-primary);
+  text-decoration: none;
+}
+
+.timeline-row:hover {
+  background: var(--color-surface-hover);
+  color: var(--color-text-primary);
+}
+
+.timeline-row:active {
+  background: var(--color-surface-sunken);
+}
+
+.timeline-row[aria-current='page'] {
+  background: var(--color-surface-selected);
+}
+
+.timeline-row:focus-visible {
+  outline-offset: calc(var(--size-focus-ring) * -1);
+}
+
+.timeline-label {
+  display: grid;
+  min-width: 0;
+}
+
+.timeline-title {
+  overflow: hidden;
+  font-family: var(--font-serif);
+  font-weight: var(--weight-semibold);
+  line-height: var(--leading-snug);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.timeline-row[aria-current='page'] .timeline-title {
+  color: var(--color-accent-text);
+}
+
+.timeline-years {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-xs);
+  color: var(--color-text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+.timeline-bar {
+  display: block;
+  width: 100%;
+  height: var(--space-3);
+}
+
+.timeline-covered {
+  fill: var(--color-accent-default);
+  opacity: 0.22;
+}
+
+.timeline-main {
+  fill: var(--color-accent-default);
+}
+
+.timeline-clip {
+  fill: var(--color-text-tertiary);
+}
+
+.timeline-undated {
+  margin-top: var(--space-8);
+}
+
+.timeline-undated .section-title {
+  margin-bottom: var(--space-2);
+}
+
+/* A narrow column keeps every tick but labels only every other one. */
+@container (max-width: 30rem) {
+  .timeline-tick-minor {
+    display: none;
+  }
+}
+
+/* Wide enough for a label column. Container queries cannot read custom
+   properties either: 40rem leaves the bar most of the width. */
+@container (min-width: 40rem) {
+  .timeline-row,
+  .timeline-axis {
+    grid-template-columns: var(--size-timeline-label) 1fr;
+    gap: var(--space-4);
+  }
+
+  .timeline-axis-gap {
+    display: block;
+  }
+}
+
+@media (min-width: 68.75rem) {
+  /* The results column scrolls on its own here, so the axis sticks to its top. */
+  .timeline-axis {
+    top: calc(var(--space-6) * -1);
+  }
+}
