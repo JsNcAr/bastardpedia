@@ -137,6 +137,16 @@ Do **not** choose eras. The app works them out from your years. There are two sp
   against `lifespan`. It does not apply to other formats: a reading of a 2018 book covers the
   book's years, not its author's life.
 
+  **Partial-life exception.** Set `time.partial_life: true` when the story is deliberately
+  framed around one period or one side of the person's life, and the rest of the life gets only
+  brief background. The title or the hosts say so: "The Childhood of Joseph Stalin", "The Last
+  Days of L. Ron Hubbard", "Hitler's Drug Problem", a hard drive seized at the end of a life,
+  or a survey where each person appears only for one episode of their career. Then
+  `covered_span` follows the general rule above (the years the story covers at real length),
+  not the whole life, and the validator skips the lifetime check. A full biography that simply
+  spends most of its airtime on the subject's career is **not** partial: keep the lifetime rule
+  and leave `partial_life` out. When in doubt, leave it out and say why in `notes`.
+
   `covered_span.end` is always a year, never `null`.
 
 - `main_span`: the years of the **main events**. Use this test: _if you wrote a two-sentence

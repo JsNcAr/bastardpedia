@@ -45,6 +45,7 @@ function main(): void {
 
   let failed = 0;
   let warned = 0;
+  let older = 0;
   for (const file of files) {
     const id = basename(file, '.json');
     if (!existsSync(file)) {
@@ -60,8 +61,9 @@ function main(): void {
       failed++;
       continue;
     }
-    const { errors, warnings } = validate(data, id);
+    const { errors, warnings, olderVersion } = validate(data, id);
     if (errors.length) failed++;
+    if (olderVersion) older++;
     if (warnings.length) warned++;
     if (errors.length || warnings.length) {
       console.log(`${errors.length ? 'FAIL' : 'WARN'} ${id}`);
@@ -70,7 +72,7 @@ function main(): void {
     }
   }
   console.log(
-    `tags:validate: ${files.length} record(s), ${files.length - failed} ok, ${failed} failed, ${warned} with warnings (taxonomy ${taxonomy.version})`,
+    `tags:validate: ${files.length} record(s), ${files.length - failed} ok, ${failed} failed, ${warned} with warnings (taxonomy ${taxonomy.version}${older ? `; ${String(older)} tagged under an earlier ${taxonomy.version.split('.')[0] ?? ''}.x version` : ''})`,
   );
   if (failed) process.exit(1);
 }

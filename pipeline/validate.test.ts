@@ -19,6 +19,7 @@ type Rec = Record<string, unknown> & {
   time: {
     main_span: { start: number; end: number | null };
     covered_span: { start: number; end: number };
+    partial_life?: boolean;
   };
   roles: string[];
   taxonomy_version: string;
@@ -73,10 +74,14 @@ describe('validate-tags', () => {
     expect(errorsOf(fixture(), 'some-other-story')).toMatch(/does not match the file name/);
   });
 
-  it('warns on an older minor taxonomy version and fails on another major', () => {
+  it('counts an older minor taxonomy version without warning, and fails on another major', () => {
     const minor = fixture();
     minor.taxonomy_version = '0.0.1';
-    expect(validate(minor, ID).warnings.join()).toMatch(/differs from the current/);
+    expect(validate(minor, ID).warnings).toEqual([]);
+    expect(validate(minor, ID).olderVersion).toBe(true);
+    const newer = fixture();
+    newer.taxonomy_version = '0.99.0';
+    expect(validate(newer, ID).warnings.join()).toMatch(/newer than the taxonomy/);
     const major = fixture();
     major.taxonomy_version = '9.0.0';
     expect(errorsOf(major)).toMatch(/major change/);
@@ -86,6 +91,13 @@ describe('validate-tags', () => {
     const rec = fixture();
     rec.time.covered_span = { start: 1906, end: 1925 };
     expect(validate(rec, ID).errors.join(' ')).toContain('birth (1867)');
+  });
+
+  it('lifts the lifetime rule for a story framed around part of a life', () => {
+    const rec = fixture();
+    rec.time.covered_span = { start: 1906, end: 1925 };
+    rec.time.partial_life = true;
+    expect(validate(rec, ID).errors).toEqual([]);
   });
 
   it('rejects covered years that do not contain the main years', () => {

@@ -108,6 +108,8 @@ export function makeStoryTagsSchema(v: Vocabularies) {
           covered_span: closedSpan,
           reaches_present: z.boolean(),
           approximate: z.boolean(),
+          /** The story is framed around one period or side of a person's life; lifts the lifetime rule. */
+          partial_life: z.boolean().optional(),
         })
         .refine(
           (t) =>

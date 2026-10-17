@@ -10,6 +10,8 @@ import { vocabularies, type Taxonomy } from '../../shared/taxonomy.ts';
 export interface ValidationResult {
   errors: string[];
   warnings: string[];
+  /** Tagged under an earlier version of the current major: still valid, counted, not warned. */
+  olderVersion: boolean;
   record: StoryTags | null;
 }
 
@@ -37,6 +39,14 @@ function major(version: string): string {
   return version.split('.')[0] ?? '';
 }
 
+/** Semver order for plain x.y.z strings: negative when a is older. */
+function compareVersions(a: string, b: string): number {
+  const pa = a.split('.').map(Number);
+  const pb = b.split('.').map(Number);
+  for (let i = 0; i < 3; i++) if ((pa[i] ?? 0) !== (pb[i] ?? 0)) return (pa[i] ?? 0) - (pb[i] ?? 0);
+  return 0;
+}
+
 export function makeValidator(ctx: ValidationContext) {
   const schema = makeStoryTagsSchema(vocabularies(ctx.taxonomy));
 
@@ -49,7 +59,7 @@ export function makeValidator(ctx: ValidationContext) {
       for (const issue of parsed.error.issues) {
         errors.push(`${issue.path.join('.') || '(root)'}: ${issue.message}`);
       }
-      return { errors, warnings, record: null };
+      return { errors, warnings, olderVersion: false, record: null };
     }
     const t = parsed.data;
 
@@ -71,7 +81,12 @@ export function makeValidator(ctx: ValidationContext) {
     });
 
     const released = ctx.releaseYears?.get(t.story_id);
-    if (t.time && released !== undefined && LIFETIME_FORMATS.includes(t.format)) {
+    if (
+      t.time &&
+      !t.time.partial_life &&
+      released !== undefined &&
+      LIFETIME_FORMATS.includes(t.format)
+    ) {
       const covered = t.time.covered_span;
       for (const s of t.subjects) {
         if (s.role !== 'primary' || s.kind !== 'person' || !s.lifespan) continue;
@@ -88,14 +103,16 @@ export function makeValidator(ctx: ValidationContext) {
       }
     }
 
+    let olderVersion = false;
     if (t.taxonomy_version !== ctx.taxonomy.version) {
       const msg = `taxonomy_version ${t.taxonomy_version} differs from the current ${ctx.taxonomy.version}`;
       if (major(t.taxonomy_version) !== major(ctx.taxonomy.version))
         errors.push(`${msg} (major change: migrate or re-tag)`);
-      else warnings.push(msg);
+      else if (compareVersions(t.taxonomy_version, ctx.taxonomy.version) < 0) olderVersion = true;
+      else warnings.push(`${msg} (newer than the taxonomy)`);
     }
 
-    return { errors, warnings, record: errors.length ? null : t };
+    return { errors, warnings, olderVersion, record: errors.length ? null : t };
   };
 }
 

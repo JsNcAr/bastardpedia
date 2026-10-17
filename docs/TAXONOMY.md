@@ -76,10 +76,10 @@ are meant to point you in the right direction, not to draw exact lines. There ar
 
 Each story records two spans:
 
-| Span                | What it is                                                                                                                                                                                                                                                                       | Used for                                                                   |
-| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| `time.covered_span` | Everything the story covers at real length: part of the subject's own story and a real share of the airtime (a few minutes, roughly 5%, or more). For deep-dive, hero and live-show stories about a person, at least their whole life, up to the release year if they were alive | **All period filters**                                                     |
-| `time.main_span`    | The core: the years a two-sentence encyclopedia summary would cover                                                                                                                                                                                                              | Chronological sorting, the story page, a possible strict filter mode later |
+| Span                | What it is                                                                                                                                                                                                                                                                                                                                                 | Used for                                                                   |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| `time.covered_span` | Everything the story covers at real length: part of the subject's own story and a real share of the airtime (a few minutes, roughly 5%, or more). For deep-dive, hero and live-show stories about a person, at least their whole life, up to the release year if they were alive, unless `partial_life` marks a story framed around one period of the life | **All period filters**                                                     |
+| `time.main_span`    | The core: the years a two-sentence encyclopedia summary would cover                                                                                                                                                                                                                                                                                        | Chronological sorting, the story page, a possible strict filter mode later |
 
 Epilogues about other people retracing or reinterpreting the subject (modern searches for
 Fawcett's lost city) don't extend the covered years. They set `reaches_present`. Consequences the
@@ -191,6 +191,11 @@ carry chosen warnings.
   `medical-malpractice` includes ableist and gendered medical abuse.
 
 - 2026-10-16 (0.5.0): theme `civil-war`, requested during the pilot review.
+
+- 2026-10-17 (0.6.0, after the full run): `time.partial_life` lifts the lifetime rule for
+  stories framed around one period or side of a person's life ("The Childhood of Joseph
+  Stalin"), so they are not found under periods the episode never reaches. Records tagged under
+  an earlier 0.x version stay valid and are counted, not warned, by `tags:validate`.
 
 ## Open questions
 

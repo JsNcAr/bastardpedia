@@ -93,6 +93,7 @@ export const CatalogStorySchema = z.object({
       covered_span: z.object({ start: z.number().int(), end: z.number().int() }),
       reaches_present: z.boolean(),
       approximate: z.boolean(),
+      partial_life: z.boolean().optional(),
     })
     .nullable(),
   content_warnings: z.array(z.string()),
