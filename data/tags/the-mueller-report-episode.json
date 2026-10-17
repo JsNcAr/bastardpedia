@@ -1,0 +1,138 @@
+{
+  "story_id": "the-mueller-report-episode",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "current-affairs",
+  "subjects": [
+    {
+      "name": "Mueller Report",
+      "kind": "media-work",
+      "role": "primary"
+    },
+    {
+      "name": "Donald Trump",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1946, "end": null },
+      "wikidata": "Q22686"
+    },
+    {
+      "name": "Internet Research Agency",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Paul Manafort",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1949, "end": null }
+    },
+    {
+      "name": "Julian Assange",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1971, "end": null }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "electoral-politics",
+    "secondary": [
+      "intelligence-covert-ops",
+      "propaganda-media",
+      "tech-internet",
+      "diplomacy-foreign-policy"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "RU"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2016, "end": 2019 },
+    "covered_span": { "start": 2014, "end": 2019 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Recorded the day after its release, a walk through Special Counsel Robert Mueller's report on Russia's interference in the 2016 US presidential election and Donald Trump's repeated attempts to obstruct the investigation.",
+  "content_warnings": [],
+  "keywords": [
+    "Robert Mueller",
+    "William Barr",
+    "Russian interference in the 2016 election",
+    "obstruction of justice",
+    "GRU",
+    "Guccifer 2.0",
+    "WikiLeaks",
+    "Michael Flynn",
+    "Don McGahn",
+    "Seth Rich"
+  ],
+  "guests": ["Miles Gray", "Jack O'Brien"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:16:35",
+      "note": "IRA agents first travel to the US in 2014 to gather material for fake personas"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:24:24",
+      "note": "Facebook and Twitter figures on the reach of IRA-controlled accounts"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:40:40",
+      "note": "GRU hacking of the DNC and Podesta, funded with mined bitcoin"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:44:29",
+      "note": "Segment on Assange's partisan messages and coordination with Guccifer 2.0"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:27:59",
+      "note": "Manafort shares polling data with Kilimnik and pushes a Russia-friendly Ukraine peace plan"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:15:54",
+      "note": "Erik Prince and Kirill Dmitriev back-channel meetings in the Seychelles"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:25:16",
+      "note": "Second half turns to the obstruction volume: Comey, Sessions and McGahn in 2017-2018"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "02:12:14",
+      "note": "Closing talk on impeachment prospects and the 14 referred investigations still open"
+    }
+  ],
+  "notes": "Billed on air as a joint BtB / Daily Zeitgeist episode, but it is hosted by Robert in the BtB feed and reacts to news from the day before, so current-affairs rather than crossover (co-produced rule). Report treated as the sole primary subject, so roles are empty; Trump is secondary. Opening on William Barr's 1989-1992 record is background, not counted in covered years. Seth Rich segment is short, so no conspiracy-theories theme."
+}

@@ -1,0 +1,150 @@
+{
+  "story_id": "george-lincoln-rockwell-the-most-racist-american-in-history",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "George Lincoln Rockwell",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1918, "end": 1967 }
+    },
+    {
+      "name": "American Nazi Party",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "William Luther Pierce",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1933, "end": 2002 }
+    },
+    {
+      "name": "The Turner Diaries",
+      "kind": "media-work",
+      "role": "secondary"
+    },
+    {
+      "name": "James Mason",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1952, "end": null }
+    }
+  ],
+  "roles": ["activist-organizer", "journalist-propagandist", "military-officer"],
+  "themes": {
+    "primary": "nazism",
+    "secondary": [
+      "racism-white-supremacy",
+      "terrorism",
+      "propaganda-media",
+      "fascism-far-right",
+      "conspiracy-theories"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1958, "end": 1967 },
+    "covered_span": { "start": 1918, "end": 2019 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Navy pilot and ad man George Lincoln Rockwell founded the American Nazi Party in 1959, pioneered Holocaust denial, publicity-baiting stunts and the slogan white power, and radicalized the men behind decades of far-right terror.",
+  "content_warnings": ["hate-speech"],
+  "keywords": [
+    "Holocaust denial",
+    "white power",
+    "Martin Luther King Jr.",
+    "Chicago open housing marches",
+    "Selma",
+    "hate bus",
+    "John Patler",
+    "Siege",
+    "Timothy McVeigh",
+    "The Order"
+  ],
+  "guests": ["Katy Stoll", "Cody Johnston"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:41",
+      "note": "birth in Bloomington, Illinois opens the biography"
+    },
+    {
+      "facet": "roles",
+      "part": 1,
+      "at": "00:10:32",
+      "note": "Navy pilot service in WWII, later recalled for Korea"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:22:05",
+      "note": "1958 White House picket launches his first organized racist group"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:33:46",
+      "note": "fabricated pulp story used to invent Holocaust denial"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:10:30",
+      "note": "Jewish groups' quarantine strategy of denying him press coverage"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:36:16",
+      "note": "1967 assassination in Arlington by former stormtrooper Patler"
+    },
+    {
+      "facet": "subjects",
+      "part": 3,
+      "at": "00:05:25",
+      "note": "Pierce radicalized by Rockwell, later writes The Turner Diaries"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:11:47",
+      "note": "Oklahoma City bombing modeled on a Turner Diaries passage"
+    },
+    {
+      "facet": "subjects",
+      "part": 3,
+      "at": "00:18:01",
+      "note": "Mason joins ANP youth as a teen, later writes Siege"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "00:23:27",
+      "note": "legacy traced to Atomwaffen in 2018 and the 2019 Hasson arrest"
+    }
+  ],
+  "notes": "Part three is a full episode on Rockwell's legacy through Pierce, The Turner Diaries, Mason and Siege, Atomwaffen and the 2019 Hasson case, so covered_span runs to 2019. main_span starts at the 1958 National Committee picket. Iceland gets only brief mentions and is left out of the setting. Transcript says he founded the party in October without a clear year (historically 1959)."
+}

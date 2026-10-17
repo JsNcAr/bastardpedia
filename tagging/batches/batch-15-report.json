@@ -1,0 +1,152 @@
+[
+  {
+    "id": "the-fake-crusade-for-free-speech",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Topic survey with no single bastard, so no roles. The segment on Mill (1859) and the 1919 and 1969 Supreme Court free speech rulings (about 5 min) is treated as legal background, not part of the story, so covered_span starts 2015; a reviewer may prefer 1919. Primary theme could also be fraud-grift."
+  },
+  {
+    "id": "kim-jong-un-and-his-family-of-dictators",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Kim Il Sung and Kim Jong Il are secondary with long segments, so covered_span starts at Kim Il Sung's 1912 birth. main_span starts in 2010 with the Cheonan sinking and accelerated succession; Kim Jong Un was alive at release. The 1990s famine gets real time but has no matching theme. Wikidata QIDs omitted for lack of certainty."
+  },
+  {
+    "id": "bonus-ep-debate-review-w-katy-and-cody",
+    "format": "crossover",
+    "low": [],
+    "notes": "Pilot for the hosts' election podcast (later Worst Year Ever), framed on air as not a BtB episode, so crossover over current-affairs, matching the second-debate record. Miami/NBC venue omitted as not stated. weapons-arms-trade is the closest fit for gun policy debate; no gun-policy theme exists. Climate and big-tech moderation segments were short, left out."
+  },
+  {
+    "id": "mike-adams-the-deadliest-fake-news-icon-you-ve-never-heard-of",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary theme could be quackery-pseudoscience instead of propaganda-media; chose the latter because the title and story stress his fake-news site empire and SEO. Y2K Newswire start year is garbled in the transcript; 1998 is an estimate. Early life is barely known, so main_span starts with Y2K Newswire. Wikidata QID omitted (not certain)."
+  },
+  {
+    "id": "how-youtube-became-a-perpetual-nazi-machine",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject is a company, so roles are empty. Despite the title, the story covers the broad far right rather than German Nazism, so fascism-far-right is used instead of nazism. YouTube's 2005 founding and early years get only a passing mention. Microsoft's Tay is an opening comparison and is not counted in the span."
+  },
+  {
+    "id": "the-white-savior-fake-doctor-who-may-have-killed-100-babies",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Birth year approximate: she was 18 on arrival in September 2007, so 1988 or 1989. No role fits an untrained person practising real medicine; quack-fake-healer is closest. medical-malpractice chosen over quackery because the treatments were real medicine done by an unqualified person. Kony 2012 intro treated as comparison, not covered time."
+  },
+  {
+    "id": "the-goat-testicle-implanting-doctor-who-invented-talk-radio",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Fascist sympathies get only a few minutes late in part 2, so fascism-far-right is borderline. Short trips to China and Japan left out of setting. The closing legacy remarks on country music and radio medicine are brief, so reaches_present is false. No QIDs given, not certain of them."
+  },
+  {
+    "id": "the-last-days-of-l-ron-hubbard",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Story covers only 1975-1986; covered_span is 1911-1986 solely because of the lifetime rule, main_span is the real focus. reaches_present set on a ~4 min Clearwater coda (Flag deaths, current property control). electoral-politics (campaign against a mayor) and finance-crypto (property takeover) are loose fits; no theme for local-government capture. Subdivisions left empty: FL, DC, CA and NV all matter."
+  },
+  {
+    "id": "bashar-al-assad-the-eye-doctor-who-murdered-a-nation",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Bashar was alive and in power at release (and still alive after his 2024 fall), so lifespan end and main_span end are null; covered_span ends at the 2019 release. Covered span starts with Hafez's rise after the 1963 coup. Physician-surgeon is a secondary role from the title and his London training. Asma gets a real segment (Vogue, leaked emails)."
+  },
+  {
+    "id": "gary-young-the-fake-doctor-who-drowned-his-own-baby",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Birth year in transcript is garbled; 1949 from general knowledge. Baby's death year (1982) and Spokane timeline from knowledge, transcript only says early 1980s. Clinic name given as Rosarita Beach Clinic on air. labor-exploitation rests on the distiller death and MLM structure. reaches_present for the ongoing Young Living MLM and copycat fake doctors."
+  },
+  {
+    "id": "jacob-wohl-is-still-the-dumbest-person-in-politics",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Update to the earlier Wohl episode. Loomer and Burkman get real segments as secondary subjects; Burkman birth year not certain, left null. Islamophobic smear of Omar justifies racism-white-supremacy. Wohl birth year from general knowledge. main_span end null as he was still active at release."
+  },
+  {
+    "id": "the-payday-loan-industry-is-bastards-all-the-way-down",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject is the industry/practice, so no roles. Mob loan sharking takes a real segment but there is no organized-crime theme. labor-exploitation rests on the hosts' extended argument about delayed pay. Hallinan birth year inferred from his age at sentencing; death status not verified. Tucker's racing career is brief, so sports omitted."
+  },
+  {
+    "id": "the-qanon-book-a-half-a-sed-bagel-tossing-review",
+    "format": "media-reading",
+    "low": [],
+    "notes": "The book is credited to the pseudonymous collective WWG1WGA (anonymous followers), so no author is listed as a primary subject and roles are empty; QAnon is the movement the book promotes. covered_span starts at QAnon's 2017 origin, which the book narrates; Q posts and Trump events cited run 2018-2019. cults-new-religions is the hosts' framing of the movement, not a formal group."
+  },
+  {
+    "id": "the-complete-insane-history-of-american-border-militias",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject is a diffuse movement, so roles are empty. Transcript spells Forde as Ford and implies she was 41 in 2006; birth year left null rather than guess. Covered span starts with the 1910s Texas Rangers/Border Patrol segment (~8 min) as the stated origin of the story. US-AZ chosen as most central state, though TX, CA, WA and NM also appear."
+  },
+  {
+    "id": "the-woman-who-invented-adoption-by-stealing-thousands-of-babies",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript spells the name Tan; standard spelling Tann used. Birth year 1891 from general knowledge (transcript garbled). main_span starts at her 1924 Memphis appointment (approximate); early placements in Mississippi and Texas are prelude. Opening segments on orphan trains and baby farms are background, so not in covered_span. Camille Kelly given floruit only; her dates are not in the packet."
+  },
+  {
+    "id": "the-mueller-report-episode",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Billed on air as a joint BtB / Daily Zeitgeist episode, but it is hosted by Robert in the BtB feed and reacts to news from the day before, so current-affairs rather than crossover (co-produced rule). Report treated as the sole primary subject, so roles are empty; Trump is secondary. Opening on William Barr's 1989-1992 record is background, not counted in covered years. Seth Rich segment is short, so no conspiracy-theories theme."
+  },
+  {
+    "id": "the-sackler-family-america-s-deadliest-drug-dealers",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Primary subject is the family as a group, so the lifetime rule does not apply; covered span starts with the 1952 Purdue purchase, the immigrant grandparents being a brief mention. main_span end null as Purdue and the family were active and in litigation at release. Germany segment is about 3 minutes, so DE left out of setting. journalist-propagandist role reflects the family's marketing focus; no exact role for pharma marketers."
+  },
+  {
+    "id": "surprise-flat-earth-is-a-nazi-conspiracy",
+    "format": "media-reading",
+    "low": ["time"],
+    "notes": "Publication year 2016 is from general knowledge, not stated in the transcript; time is therefore low confidence. Author's birth and death years are unknown, so floruit 2016 is used. Hosts call the book Nazi propaganda, but it is not about German Nazism, so fascism-far-right is used instead of nazism. science-exploration covers the NASA and moon-landing material, a loose fit."
+  },
+  {
+    "id": "mosley-the-british-hitler-who-inspired-the-christchurch-shooter",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Postwar career (Union Movement, 1959 campaign) and the Britain First/Christchurch legacy are covered only briefly, so main_span ends at 1940 internment and the 2010s legacy sets reaches_present rather than extending covered_span. NZ is included in setting for the Christchurch segment (title subject) although it is a short coda."
+  },
+  {
+    "id": "elizabeth-holmes-the-ceo-who-treated-your-blood-like-a-phone",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Main span ends at the 2018 dissolution and indictment; her 2022 conviction postdates the episode. Balwani is secondary as Theranos president and enforcer. Brief China and Singapore periods in her youth left out of setting as passing segments."
+  },
+  {
+    "id": "turkmenbashi-the-dictator-who-declared-himself-jesus",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Guest is named David Bell in the descriptions; the transcript's speech recognition garbles the name. Germany (heart surgery) and Afghanistan (Taliban pipeline, US airbase deal) mentioned too briefly for the setting. The Ruhnama casts Niyazov as a prophet, but the regime is a personality cult, not a cult organization, so cults-new-religions was not used."
+  },
+  {
+    "id": "jeffrey-epstein-pimp-to-the-powerful",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Recorded March 2019, before his July 2019 arrest and August 2019 death; lifespan uses the real death year. Victims include minors and some young adults, so both child-abuse and sexual-abuse. Transcript gives his birth date garbled; 1953 from general knowledge. main_span end null as he was alive and litigating at release. Virginia Roberts is listed under her better-known name Virginia Giuffre."
+  },
+  {
+    "id": "george-lincoln-rockwell-the-most-racist-american-in-history",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Part three is a full episode on Rockwell's legacy through Pierce, The Turner Diaries, Mason and Siege, Atomwaffen and the 2019 Hasson case, so covered_span runs to 2019. main_span starts at the 1958 National Committee picket. Iceland gets only brief mentions and is left out of the setting. Transcript says he founded the party in October without a clear year (historically 1959)."
+  },
+  {
+    "id": "the-complete-insane-story-of-trump-university",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Org_type company chosen because it was an unaccredited LLC, not a real school; school-or-facility is defensible. Donald Trump kept secondary: the story is built around the business, so no roles and no lifetime rule. covered_span ends 2018 for the related racketeering suit and Foundation shutdown segment. electoral-politics rests on the Abbott donation and the Curiel/presidency link, a modest segment."
+  },
+  {
+    "id": "hitler-s-sex-life-the-whole-sad-story",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Packet says Alois was born in 1836; most sources give 1837, used in lifespan. covered_span starts with Alois and Clara's household (approx. 1876, approximate). main_span uses the documented adult relationships (Reiter 1926 to Braun 1945). Modern myth waves (2014-2019) are reinterpretation, so reaches_present is true. Primary theme nazism is a judgment call; child-abuse could also lead."
+  }
+]

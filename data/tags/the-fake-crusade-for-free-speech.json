@@ -1,0 +1,92 @@
+{
+  "story_id": "the-fake-crusade-for-free-speech",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Free speech grift",
+      "kind": "movement-or-ideology",
+      "role": "primary"
+    },
+    {
+      "name": "Jordan Peterson",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1962, "end": null }
+    },
+    {
+      "name": "Turning Point USA",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Charles Koch Foundation",
+      "kind": "organization",
+      "org_type": "ngo",
+      "role": "secondary"
+    },
+    {
+      "name": "Intellectual dark web",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "propaganda-media",
+    "secondary": ["education", "religious-right-culture-war", "fascism-far-right", "fraud-grift"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "CA", "HU"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2015, "end": null },
+    "covered_span": { "start": 2015, "end": 2019 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "A survey of how US right-wing figures and Koch-funded groups, from Turning Point USA to Jordan Peterson and the intellectual dark web, invented a campus free speech crisis after 2015 to fight culture-war battles.",
+  "content_warnings": [],
+  "keywords": [
+    "The Coddling of the American Mind",
+    "Professor Watchlist",
+    "crisis pregnancy centers",
+    "Greg Lukianoff",
+    "Jonathan Haidt",
+    "Bret Weinstein",
+    "Viktor Orban",
+    "Brandenburg v. Ohio",
+    "Evergreen State College",
+    "cultural Marxism"
+  ],
+  "guests": ["Katy Stoll", "Cody Johnston"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "themes", "part": 1, "at": "00:05:49", "note": "crisis pregnancy center case framed as a free speech fight" },
+    { "facet": "time", "part": 1, "at": "00:10:05", "note": "host traces the modern grift to a 2015 Atlantic article" },
+    { "facet": "themes", "part": 1, "at": "00:12:44", "note": "survey data shows the campus censorship story is false" },
+    { "facet": "subjects", "part": 1, "at": "00:21:08", "note": "Turning Point USA professor watch list segment" },
+    { "facet": "regions", "part": 1, "at": "00:27:28", "note": "Peterson attacks an Ontario education institute, plans course blacklist" },
+    { "facet": "themes", "part": 1, "at": "00:32:12", "note": "cultural Marxism traced back to Nazi propaganda" },
+    { "facet": "regions", "part": 1, "at": "00:34:53", "note": "Peterson meets Orban in Budapest; Orban's attacks on academia" },
+    { "facet": "time", "part": 1, "at": "00:40:09", "note": "1919 Holmes and 1969 Brandenburg rulings as legal background" },
+    { "facet": "subjects", "part": 1, "at": "00:50:30", "note": "Koch money behind Rubin, Peterson, FIRE and The Atlantic project" }
+  ],
+  "notes": "Topic survey with no single bastard, so no roles. The segment on Mill (1859) and the 1919 and 1969 Supreme Court free speech rulings (about 5 min) is treated as legal background, not part of the story, so covered_span starts 2015; a reviewer may prefer 1919. Primary theme could also be fraud-grift."
+}

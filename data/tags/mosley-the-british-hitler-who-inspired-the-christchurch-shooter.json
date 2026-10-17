@@ -1,0 +1,101 @@
+{
+  "story_id": "mosley-the-british-hitler-who-inspired-the-christchurch-shooter",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Oswald Mosley",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1896, "end": 1980 }
+    },
+    {
+      "name": "British Union of Fascists",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Battle of Cable Street",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Harold Harmsworth, 1st Viscount Rothermere",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1868, "end": 1940 }
+    },
+    {
+      "name": "William Joyce",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1906, "end": 1946 }
+    }
+  ],
+  "roles": ["politician-official", "activist-organizer"],
+  "themes": {
+    "primary": "fascism-far-right",
+    "secondary": [
+      "racism-white-supremacy",
+      "electoral-politics",
+      "propaganda-media",
+      "terrorism",
+      "immigration-borders"
+    ]
+  },
+  "regions": {
+    "origin": ["GB"],
+    "setting": ["GB", "NZ"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1918, "end": 1940 },
+    "covered_span": { "start": 1896, "end": 1980 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Oswald Mosley, an aristocratic British MP, turned to fascism after the 1929 crash, founding the British Union of Fascists in 1932, whose Blackshirts waged antisemitic street violence until the Battle of Cable Street and wartime internment.",
+  "content_warnings": ["graphic-violence", "hate-speech"],
+  "keywords": [
+    "Blackshirts",
+    "New Party",
+    "Olympia rally 1934",
+    "Daily Mail",
+    "Hurrah for the Blackshirts",
+    "Mile End pogrom",
+    "Public Order Act 1936",
+    "Union Movement",
+    "Britain First",
+    "Christchurch mosque shootings"
+  ],
+  "guests": ["Katy Stoll", "Cody Johnston"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:02:40", "note": "birth and aristocratic family background begin the biography" },
+    { "facet": "time", "part": 1, "at": "00:18:54", "note": "elected Conservative MP after the First World War; start of political career" },
+    { "facet": "themes", "part": 1, "at": "00:27:41", "note": "founds the New Party and loses the 1931 election" },
+    { "facet": "themes", "part": 1, "at": "00:46:20", "note": "Rothermere and the Daily Mail promote the BUF and its Blackshirts" },
+    { "facet": "themes", "part": 1, "at": "00:53:41", "note": "Olympia rally: Blackshirts brutally beat anti-fascist hecklers" },
+    { "facet": "themes", "part": 2, "at": "00:06:20", "note": "William Joyce becomes BUF propaganda director and pushes antisemitism" },
+    { "facet": "themes", "part": 2, "at": "00:13:05", "note": "BUF pivots to anti-immigrant, antisemitic appeals to the working class" },
+    { "facet": "subjects", "part": 2, "at": "00:28:23", "note": "extended account of the Battle of Cable Street" },
+    { "facet": "content_warnings", "part": 2, "at": "00:37:24", "note": "Blackshirts smash Jewish homes and shops in Stepney after Cable Street" },
+    { "facet": "time", "part": 2, "at": "00:40:06", "note": "BUF banned and Mosley interned in 1940; postwar Union Movement and death in 1980" },
+    { "facet": "regions", "part": 2, "at": "00:41:39", "note": "Britain First and the Christchurch shooter cited as Mosley's legacy" }
+  ],
+  "notes": "Postwar career (Union Movement, 1959 campaign) and the Britain First/Christchurch legacy are covered only briefly, so main_span ends at 1940 internment and the 2010s legacy sets reaches_present rather than extending covered_span. NZ is included in setting for the Christchurch segment (title subject) although it is a short coda."
+}

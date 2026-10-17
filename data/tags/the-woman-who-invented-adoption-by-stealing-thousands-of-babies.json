@@ -1,0 +1,85 @@
+{
+  "story_id": "the-woman-who-invented-adoption-by-stealing-thousands-of-babies",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Georgia Tann",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1891, "end": 1950 }
+    },
+    {
+      "name": "Tennessee Children's Home Society",
+      "kind": "organization",
+      "org_type": "ngo",
+      "role": "secondary"
+    },
+    {
+      "name": "Camille Kelly",
+      "kind": "person",
+      "role": "secondary",
+      "floruit": 1940
+    }
+  ],
+  "roles": ["criminal-killer", "business-executive"],
+  "themes": {
+    "primary": "child-abuse",
+    "secondary": ["fraud-grift", "propaganda-media", "eugenics-scientific-racism"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-TN"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1924, "end": 1950 },
+    "covered_span": { "start": 1891, "end": 1950 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Georgia Tann ran the Memphis branch of the Tennessee Children's Home Society from the 1920s to 1950, abducting thousands of children from poor families to sell to wealthy adopters while hundreds died in her neglectful care.",
+  "content_warnings": ["child-abuse", "child-death"],
+  "keywords": [
+    "Memphis",
+    "The Baby Thief",
+    "Barbara Bisantz Raymond",
+    "Boss Crump",
+    "orphan trains",
+    "baby farms",
+    "Christmas babies",
+    "sealed adoption records",
+    "Gordon Browning",
+    "Joan Crawford"
+  ],
+  "guests": ["Sofiya Alexandra"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:16:59", "note": "born in Philadelphia, Mississippi in the 1890s to a local judge" },
+    { "facet": "time", "part": 1, "at": "00:31:44", "note": "settles in Memphis as executive director of the Tennessee Children's Home Society" },
+    { "facet": "themes", "part": 1, "at": "00:32:16", "note": "eugenic objections to adoption (Goddard) that her blank-slate pitch overturned" },
+    { "facet": "subjects", "part": 1, "at": "00:35:24", "note": "juvenile judge Camille Kelly strips parental rights and hands children to Tann" },
+    { "facet": "themes", "part": 1, "at": "00:38:30", "note": "Press-Scimitar Christmas baby ads market children like gifts" },
+    { "facet": "themes", "part": 1, "at": "00:45:39", "note": "transport fees paid to her private box; markups up to thousands of dollars" },
+    { "facet": "themes", "part": 1, "at": "00:49:15", "note": "social worker tricks widow Grace Gribble into signing away three children" },
+    { "facet": "themes", "part": 2, "at": "00:13:06", "note": "overcrowded boarding homes, spoiled milk, denied medical treatment" },
+    { "facet": "themes", "part": 2, "at": "00:16:18", "note": "estimated hundreds of infant deaths, including winter 1945 at the home" },
+    { "facet": "themes", "part": 2, "at": "00:23:11", "note": "survivor accounts of sexual and physical abuse by Tann" },
+    { "facet": "time", "part": 2, "at": "00:26:45", "note": "cancer, Governor Browning's investigation announced weeks before her 1950 death" },
+    { "facet": "time", "part": 2, "at": "00:29:23", "note": "legacy of sealed adoption records still in force in many states" }
+  ],
+  "notes": "Transcript spells the name Tan; standard spelling Tann used. Birth year 1891 from general knowledge (transcript garbled). main_span starts at her 1924 Memphis appointment (approximate); early placements in Mississippi and Texas are prelude. Opening segments on orphan trains and baby farms are background, so not in covered_span. Camille Kelly given floruit only; her dates are not in the packet."
+}

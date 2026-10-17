@@ -1,0 +1,96 @@
+{
+  "story_id": "how-youtube-became-a-perpetual-nazi-machine",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "YouTube",
+      "kind": "organization",
+      "org_type": "media-outlet",
+      "role": "primary",
+      "wikidata": "Q866"
+    },
+    {
+      "name": "Guillaume Chaslot",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": null }
+    },
+    {
+      "name": "Stefan Molyneux",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1966, "end": null }
+    },
+    {
+      "name": "Neal Mohan",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1973, "end": null }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "tech-internet",
+    "secondary": [
+      "fascism-far-right",
+      "conspiracy-theories",
+      "child-abuse",
+      "artificial-intelligence",
+      "corporate-malfeasance",
+      "labor-exploitation"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "online"
+  },
+  "time": {
+    "main_span": { "start": 2011, "end": null },
+    "covered_span": { "start": 2010, "end": 2019 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "How YouTube's recommendation algorithm, tuned from 2011 onward to maximise watch time, steered viewers toward far-right propaganda, conspiracy theories and sexualised videos of children while the company denied the problem and underfunded moderation.",
+  "content_warnings": ["child-abuse"],
+  "keywords": [
+    "recommendation algorithm",
+    "Leanback",
+    "Google Brain",
+    "Reinforce",
+    "rabbit hole",
+    "Alex Jones",
+    "Steven Crowder",
+    "Carlos Maza",
+    "Tay chatbot",
+    "content moderators"
+  ],
+  "guests": ["Sofiya Alexandra"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:11:34", "note": "algorithm changes said to begin in 2010" },
+    { "facet": "time", "part": 1, "at": "00:13:40", "note": "Leanback autoplay launched in 2011, then watch-time ranking in 2012" },
+    { "facet": "subjects", "part": 1, "at": "00:16:17", "note": "former Google engineer Chaslot's account of the recommendation team" },
+    { "facet": "themes", "part": 1, "at": "00:19:28", "note": "Google Brain integration and the boost it gave Alex Jones and conspiracy content" },
+    { "facet": "themes", "part": 1, "at": "00:29:53", "note": "Reinforce learning system and far-right red-pilling via game and film reviews" },
+    { "facet": "subjects", "part": 1, "at": "00:39:16", "note": "segment on Molyneux and his drift to white nationalism" },
+    { "facet": "subjects", "part": 1, "at": "00:46:04", "note": "chief product officer Mohan denies the rabbit-hole effect" },
+    { "facet": "themes", "part": 1, "at": "00:50:43", "note": "2019 reports that recommendations funnelled viewers to videos of children" },
+    { "facet": "themes", "part": 1, "at": "00:57:02", "note": "outsourced moderators, contractor terms and their working conditions" }
+  ],
+  "notes": "Primary subject is a company, so roles are empty. Despite the title, the story covers the broad far right rather than German Nazism, so fascism-far-right is used instead of nazism. YouTube's 2005 founding and early years get only a passing mention. Microsoft's Tay is an opening comparison and is not counted in the span."
+}

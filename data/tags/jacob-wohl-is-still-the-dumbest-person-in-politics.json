@@ -1,0 +1,114 @@
+{
+  "story_id": "jacob-wohl-is-still-the-dumbest-person-in-politics",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "current-affairs",
+  "subjects": [
+    {
+      "name": "Jacob Wohl",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1997, "end": null }
+    },
+    {
+      "name": "Laura Loomer",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1993, "end": null }
+    },
+    {
+      "name": "Jack Burkman",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": null }
+    }
+  ],
+  "roles": ["con-artist", "political-operative", "influencer-online"],
+  "themes": {
+    "primary": "fraud-grift",
+    "secondary": [
+      "electoral-politics",
+      "propaganda-media",
+      "tech-internet",
+      "racism-white-supremacy"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2019, "end": null },
+    "covered_span": { "start": 2018, "end": 2019 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "An early-2019 update on American hoaxer Jacob Wohl: a fundraising trip with Laura Loomer to smear Ilhan Omar, self-sent fake death threats, his Twitter ban, and a failed fake sexual assault allegation against Pete Buttigieg.",
+  "content_warnings": [],
+  "keywords": [
+    "Ilhan Omar",
+    "Pete Buttigieg",
+    "Importing Ilhan",
+    "Ali Alexander",
+    "Surefire Intelligence",
+    "Arlington Center for Political Intelligence",
+    "Hunter Kelly",
+    "Robert Mueller",
+    "CPAC",
+    "Minneapolis"
+  ],
+  "guests": ["Shereen Lani Younes"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:03:10",
+      "note": "fund to investigate Ilhan Omar sends Wohl and Loomer to Minneapolis; Sharia police claims"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:15:23",
+      "note": "Wohl tells USA Today of plans for fake left-wing accounts to sway Democratic primaries"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:23:15",
+      "note": "fake Drake Holmes account exposed as the source of the death threat in his documentary"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:17:29",
+      "note": "recap of his October 2018 invented coffee-shop tweets and the 2018 Mueller smear"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:27:21",
+      "note": "April 2019 scheme to falsely accuse Buttigieg of sexual assault, exposed by recorded audio"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:41:02",
+      "note": "leaked pitch for a troll-farm firm modelled on the Internet Research Agency"
+    }
+  ],
+  "notes": "Update to the earlier Wohl episode. Loomer and Burkman get real segments as secondary subjects; Burkman birth year not certain, left null. Islamophobic smear of Omar justifies racism-white-supremacy. Wohl birth year from general knowledge. main_span end null as he was still active at release."
+}

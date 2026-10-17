@@ -1,0 +1,151 @@
+{
+  "story_id": "the-last-days-of-l-ron-hubbard",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "L. Ron Hubbard",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1911, "end": 1986 },
+      "wikidata": "Q216896"
+    },
+    {
+      "name": "Operation Snow White",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Guardian's Office",
+      "kind": "organization",
+      "org_type": "cult",
+      "role": "secondary"
+    },
+    {
+      "name": "Church of Scientology",
+      "kind": "organization",
+      "org_type": "cult",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["cult-leader", "entertainer-artist", "writer-intellectual"],
+  "themes": {
+    "primary": "cults-new-religions",
+    "secondary": [
+      "intelligence-covert-ops",
+      "entertainment-celebrity",
+      "propaganda-media",
+      "electoral-politics",
+      "finance-crypto"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "covered_span": { "start": 1911, "end": 1986 },
+    "main_span": { "start": 1975, "end": 1986 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "In his final decade, L. Ron Hubbard covertly took over Clearwater, Florida, oversaw Scientology's infiltration of the US government and harassment of critics, made failed films while hiding from the law, and died in seclusion in California in 1986.",
+  "content_warnings": ["suicide-self-harm"],
+  "keywords": [
+    "Clearwater",
+    "Fort Harrison Hotel",
+    "Gabriel Cazares",
+    "Paulette Cooper",
+    "Operation Freakout",
+    "Quentin Hubbard",
+    "Revolt in the Stars",
+    "Battlefield Earth",
+    "Hemet",
+    "David Miscavige"
+  ],
+  "guests": ["Michael Swaim", "Abe Epperson"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:40",
+      "note": "1975: Hubbard comes ashore in Florida and launches the plan to make Clearwater a Scientology capital"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:07:16",
+      "note": "front companies buy downtown landmarks for cash; real-estate takeover of the town"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:18:44",
+      "note": "Guardian's Office campaign to unseat the mayor, including a staged hit-and-run in Washington"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:21:22",
+      "note": "Operation Snow White: agents infiltrate the IRS, DOJ, Coast Guard and DEA and copy files"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:27:43",
+      "note": "author of a critical book framed for bomb threats and harassed for years"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:38:05",
+      "note": "son Quentin's 1976 suicide and the church's seizure of his medical records"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:45:51",
+      "note": "1977 FBI raid; Mary Sue Hubbard and others convicted, Hubbard an unindicted co-conspirator"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:50:01",
+      "note": "segment on later deaths at Flag Land Base and the church's current hold on downtown Clearwater"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:15:06",
+      "note": "church film studio set up; long segment on Hubbard as an abusive director"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:45:46",
+      "note": "church buys Battlefield Earth copies in bulk and funds a PR push to make it a hit"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:47:20",
+      "note": "January 1986 death in seclusion; coroner findings and the church's announcement"
+    }
+  ],
+  "notes": "Story covers only 1975-1986; covered_span is 1911-1986 solely because of the lifetime rule, main_span is the real focus. reaches_present set on a ~4 min Clearwater coda (Flag deaths, current property control). electoral-politics (campaign against a mayor) and finance-crypto (property takeover) are loose fits; no theme for local-government capture. Subdivisions left empty: FL, DC, CA and NV all matter."
+}

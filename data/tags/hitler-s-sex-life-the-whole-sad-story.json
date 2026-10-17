@@ -1,0 +1,145 @@
+{
+  "story_id": "hitler-s-sex-life-the-whole-sad-story",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Adolf Hitler",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1889, "end": 1945 },
+      "wikidata": "Q352"
+    },
+    {
+      "name": "Maria Reiter",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1911, "end": 1992 }
+    },
+    {
+      "name": "Geli Raubal",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1908, "end": 1931 }
+    },
+    {
+      "name": "Eva Braun",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1912, "end": 1945 }
+    },
+    {
+      "name": "Alois Hitler",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1837, "end": 1903 }
+    }
+  ],
+  "roles": ["dictator-autocrat", "politician-official"],
+  "themes": {
+    "primary": "nazism",
+    "secondary": [
+      "child-abuse",
+      "domestic-abuse",
+      "misogyny-manosphere",
+      "folklore-legend"
+    ]
+  },
+  "regions": {
+    "origin": ["AT"],
+    "setting": ["DE", "AT"],
+    "subdivisions": ["DE-BY"],
+    "polities": ["weimar-republic", "nazi-germany", "austria-hungary"],
+    "scope": "international"
+  },
+  "time": {
+    "covered_span": { "start": 1876, "end": 1945 },
+    "main_span": { "start": 1926, "end": 1945 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "A debunking survey of the myths and documented facts of Adolf Hitler's sex life, from his father's marriage to a teenage niece through Hitler's pursuit of teenage girls in 1920s-30s Germany, several of whom attempted or died by suicide.",
+  "content_warnings": ["child-abuse", "suicide-self-harm", "animal-cruelty"],
+  "keywords": [
+    "The Mind of Adolf Hitler (OSS report)",
+    "Walter Langer",
+    "Ernst Hanfstaengl",
+    "August Kubizek",
+    "Otto Strasser",
+    "Renate Mueller",
+    "Clara Hitler",
+    "Berchtesgaden",
+    "Explaining Hitler",
+    "Emil Maurice"
+  ],
+  "guests": ["Brandie Posey"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:21:51",
+      "note": "Alois Hitler moves his teenage niece Clara into the household while first wife is dying"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:32:18",
+      "note": "teenage obsession with Stephanie in Linz, per Kubizek"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:13:28",
+      "note": "2016 tabloid wave built on the wartime OSS dossier; framing for the myth-debunking"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:02:36",
+      "note": "1926 Berchtesgaden: 37-year-old Hitler pursues 16-year-old Maria Reiter"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:24:32",
+      "note": "relationship with teenage half-niece Geli Raubal in Munich begins"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:33:56",
+      "note": "Geli Raubal shot dead in Hitler's flat in 1931; suicide vs murder theories"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:37:07",
+      "note": "Eva Braun's suicide attempts in 1932 and 1935 and death in 1945"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:53:36",
+      "note": "extended comparison of Hitler to modern incel culture"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:28:14",
+      "note": "Munich apartment and Berchtesgaden as main settings in Bavaria"
+    }
+  ],
+  "notes": "Packet says Alois was born in 1836; most sources give 1837, used in lifespan. covered_span starts with Alois and Clara's household (approx. 1876, approximate). main_span uses the documented adult relationships (Reiter 1926 to Braun 1945). Modern myth waves (2014-2019) are reinterpretation, so reaches_present is true. Primary theme nazism is a judgment call; child-abuse could also lead."
+}

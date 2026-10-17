@@ -1,0 +1,126 @@
+{
+  "story_id": "the-payday-loan-industry-is-bastards-all-the-way-down",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Payday lending",
+      "kind": "practice-or-pseudoscience",
+      "role": "primary"
+    },
+    {
+      "name": "Scott Tucker",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1962, "end": null }
+    },
+    {
+      "name": "Charles Hallinan",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1941, "end": null }
+    },
+    {
+      "name": "Consumer Financial Protection Bureau",
+      "kind": "organization",
+      "org_type": "government-agency",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "finance-crypto",
+    "secondary": ["fraud-grift", "corporate-malfeasance", "propaganda-media", "labor-exploitation"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-KS"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1978, "end": null },
+    "covered_span": { "start": 1865, "end": 2019 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "A history of US payday lending from post-Civil War salary lenders and mob loan sharks to Scott Tucker's tribal-lending empire, industry-funded research and rolled-back federal rules, all profiting from trapping poor borrowers in debt.",
+  "content_warnings": [],
+  "keywords": [
+    "loan sharks",
+    "chattel mortgage lenders",
+    "Marquette National Bank v. First of Omaha",
+    "tribal lending",
+    "AMG Services",
+    "Overland Park",
+    "Mission Hills",
+    "Hillary Miller",
+    "Jennifer Lewis Priestley",
+    "Dirty Money"
+  ],
+  "guests": ["Shereen Lani Younes"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:09",
+      "note": "salary lending said to begin in the US in the late 1800s; chattel mortgage lenders after the Civil War"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:16:43",
+      "note": "1978 Supreme Court ruling lets banks export home-state interest rates, birth of the modern industry"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:25:05",
+      "note": "long Scott Tucker segment begins, originally planned as the whole episode"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:28:11",
+      "note": "Charles Hallinan introduced as Tucker's mentor and later rival; both convicted around 2018"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:35:43",
+      "note": "Tucker's lending run from Overland Park, Kansas, posing as tribal businesses"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:06:05",
+      "note": "industry lawyer shaping academic studies to defend payday loans"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:14:18",
+      "note": "2017 CFPB rules and their 2019 rollback under Trump bring the story to release"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:02:38",
+      "note": "framing argument that delayed wages create the need for payday loans, revisited at length"
+    }
+  ],
+  "notes": "Primary subject is the industry/practice, so no roles. Mob loan sharking takes a real segment but there is no organized-crime theme. labor-exploitation rests on the hosts' extended argument about delayed pay. Hallinan birth year inferred from his age at sentencing; death status not verified. Tucker's racing career is brief, so sports omitted."
+}

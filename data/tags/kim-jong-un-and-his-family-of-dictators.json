@@ -1,0 +1,145 @@
+{
+  "story_id": "kim-jong-un-and-his-family-of-dictators",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Kim Jong Un",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1984, "end": null }
+    },
+    {
+      "name": "Kim Il Sung",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1912, "end": 1994 }
+    },
+    {
+      "name": "Kim Jong Il",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1941, "end": 2011 }
+    }
+  ],
+  "roles": ["dictator-autocrat"],
+  "themes": {
+    "primary": "communism-state-socialism",
+    "secondary": [
+      "authoritarianism",
+      "propaganda-media",
+      "war-war-crimes",
+      "weapons-arms-trade",
+      "diplomacy-foreign-policy"
+    ]
+  },
+  "regions": {
+    "origin": ["KP"],
+    "setting": ["KP", "KR", "CH", "US"],
+    "subdivisions": [],
+    "polities": ["soviet-union"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2010, "end": null },
+    "covered_span": { "start": 1912, "end": 2019 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "History of North Korea's Kim dynasty, from Kim Il Sung's Soviet-backed rise and Kim Jong Il's famine-era rule to Kim Jong Un, raised in isolated luxury and Swiss schools, who took power in 2011 and expanded purges and nuclear weapons.",
+  "content_warnings": [],
+  "keywords": [
+    "Juche",
+    "The Great Successor",
+    "Anna Fifield",
+    "Kenji Fujimoto",
+    "Cheonan sinking",
+    "Sony Pictures hack",
+    "The Interview",
+    "Dennis Rodman",
+    "Jang Song-thaek",
+    "Mount Paektu"
+  ],
+  "guests": ["Eli Olsberg"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:09:56",
+      "note": "Kim Il Sung's 1912 birth and guerrilla career open the family history"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:12:00",
+      "note": "Kim Il Sung trained as a Red Army captain; Soviets install him as leader"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:19:27",
+      "note": "Korean War invasion, Pusan Perimeter and US bombing campaign told at length"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:28:20",
+      "note": "Juche ideology presented as propaganda; later Paektu birth myth for Kim Jong Il"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:47:26",
+      "note": "Kim Jong Un born 1984, regime later falsified it as 1982"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:02:14",
+      "note": "Long segment on his adolescence at school near Bern, Switzerland"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:00:33",
+      "note": "2010 Cheonan sinking, possibly ordered by Kim Jong Un as heir"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:22:55",
+      "note": "Execution of uncle Jang Song-thaek in 2013 and other purges"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:24:29",
+      "note": "State hacking and the 2014 Sony attack over The Interview"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:35:55",
+      "note": "Nuclear tests, ballistic missiles and the growth of the arsenal under Kim Jong Un"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:52:33",
+      "note": "Summit with the US president framed as a diplomatic win for the regime"
+    }
+  ],
+  "notes": "Kim Il Sung and Kim Jong Il are secondary with long segments, so covered_span starts at Kim Il Sung's 1912 birth. main_span starts in 2010 with the Cheonan sinking and accelerated succession; Kim Jong Un was alive at release. The 1990s famine gets real time but has no matching theme. Wikidata QIDs omitted for lack of certainty."
+}

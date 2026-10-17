@@ -1,0 +1,94 @@
+{
+  "story_id": "the-sackler-family-america-s-deadliest-drug-dealers",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "The Sackler Family",
+      "kind": "group",
+      "role": "primary"
+    },
+    {
+      "name": "Purdue Pharma",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Richard Sackler",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1945, "end": null }
+    },
+    {
+      "name": "Arthur Sackler",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1913, "end": 1987 }
+    }
+  ],
+  "roles": ["business-executive", "journalist-propagandist"],
+  "themes": {
+    "primary": "public-health",
+    "secondary": [
+      "corporate-malfeasance",
+      "drugs",
+      "propaganda-media",
+      "racism-white-supremacy"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1996, "end": null },
+    "covered_span": { "start": 1952, "end": 2019 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "The Sackler family, owners of Purdue Pharma, launched OxyContin in 1996 and marketed it to American doctors as barely addictive, fuelling the opioid epidemic while earning billions and dodging personal blame.",
+  "content_warnings": ["drug-use"],
+  "keywords": [
+    "OxyContin",
+    "opioid epidemic",
+    "Purdue Frederick",
+    "Valium",
+    "MS Contin",
+    "Michael Friedman",
+    "Partners Against Pain",
+    "2007 misbranding plea",
+    "Middle East Forum",
+    "Guggenheim protest"
+  ],
+  "guests": ["James Heaney"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:06:49", "note": "Arthur Sackler buys Purdue Frederick in 1952; covered span starts here" },
+    { "facet": "roles", "part": 1, "at": "00:08:52", "note": "Arthur pioneers medical journal advertising, then sells Valium via invented psychic tension" },
+    { "facet": "time", "part": 1, "at": "00:20:45", "note": "OxyContin launched; Richard's blizzard of prescriptions speech" },
+    { "facet": "themes", "part": 1, "at": "00:23:23", "note": "executives and Richard agree not to correct doctors' belief it is weaker than morphine" },
+    { "facet": "themes", "part": 1, "at": "00:31:37", "note": "war on pain: funded advocacy groups and pain as fifth vital sign" },
+    { "facet": "content_warnings", "part": 1, "at": "00:44:06", "note": "overdose deaths, grieving mothers' meeting and letter about a dead son" },
+    { "facet": "regions", "part": 1, "at": "00:49:24", "note": "short segment on trying to have OxyContin decontrolled in Germany" },
+    { "facet": "themes", "part": 2, "at": "00:02:34", "note": "sales force, junkets, prescriber targeting and coupons for first-time users" },
+    { "facet": "time", "part": 2, "at": "00:17:41", "note": "2007 Virginia case: three executives plead guilty, family shielded" },
+    { "facet": "themes", "part": 2, "at": "00:29:04", "note": "Richard and Beth Sackler Foundation gifts to Islamophobic groups" },
+    { "facet": "time", "part": 2, "at": "00:33:13", "note": "2019 Oklahoma settlement and New York suit bring story to release" }
+  ],
+  "notes": "Primary subject is the family as a group, so the lifetime rule does not apply; covered span starts with the 1952 Purdue purchase, the immigrant grandparents being a brief mention. main_span end null as Purdue and the family were active and in litigation at release. Germany segment is about 3 minutes, so DE left out of setting. journalist-propagandist role reflects the family's marketing focus; no exact role for pharma marketers."
+}

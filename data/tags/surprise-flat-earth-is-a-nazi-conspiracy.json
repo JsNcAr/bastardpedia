@@ -1,0 +1,107 @@
+{
+  "story_id": "surprise-flat-earth-is-a-nazi-conspiracy",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "media-reading",
+  "subjects": [
+    {
+      "name": "The Greatest Lie on Earth: Proof That Our World Is Not a Moving Globe",
+      "kind": "media-work",
+      "role": "primary"
+    },
+    {
+      "name": "Edward Hendrie",
+      "kind": "person",
+      "role": "primary",
+      "floruit": 2016
+    },
+    {
+      "name": "Flat Earth",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["conspiracy-theorist", "writer-intellectual"],
+  "themes": {
+    "primary": "conspiracy-theories",
+    "secondary": ["racism-white-supremacy", "fascism-far-right", "occult-esoteric", "science-exploration"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2016, "end": 2016 },
+    "covered_span": { "start": 2016, "end": 2016 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "A random-page reading of Edward Hendrie's flat-earth book The Greatest Lie on Earth, which turns out to be largely antisemitic conspiracy propaganda blaming Jews, Freemasons and NASA for a heliocentric deception.",
+  "content_warnings": ["hate-speech"],
+  "keywords": [
+    "Great Mountain Publishing",
+    "heliocentrism",
+    "egregore",
+    "blood libel",
+    "Khazar theory",
+    "moon landing hoax",
+    "Apollo 1",
+    "Freemasonry",
+    "New World Order",
+    "Arrested Development"
+  ],
+  "guests": ["Katy Stoll", "Cody Johnston"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "low"
+  },
+  "evidence": [
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:03:08",
+      "note": "Host introduces the book and author and the plan to read random pages"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:13:10",
+      "note": "Passage casting Jewish leaders as a world conspiracy against God; antisemitism recurs throughout"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:26:20",
+      "note": "Book claims NASA killed the Apollo 1 crew and a safety inspector to hide a moon hoax"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:37:58",
+      "note": "UN logo tied to Scottish Rite Freemasonry degrees"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:42:38",
+      "note": "Long section on a Jewish egregore said to be Lucifer; occult framing of the conspiracy"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:53:12",
+      "note": "Pages of blood-libel and ritual-sacrifice propaganda read and discussed"
+    }
+  ],
+  "notes": "Publication year 2016 is from general knowledge, not stated in the transcript; time is therefore low confidence. Author's birth and death years are unknown, so floruit 2016 is used. Hosts call the book Nazi propaganda, but it is not about German Nazism, so fascism-far-right is used instead of nazism. science-exploration covers the NASA and moon-landing material, a loose fit."
+}

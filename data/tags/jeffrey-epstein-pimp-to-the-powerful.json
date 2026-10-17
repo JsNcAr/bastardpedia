@@ -1,0 +1,96 @@
+{
+  "story_id": "jeffrey-epstein-pimp-to-the-powerful",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Jeffrey Epstein",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1953, "end": 2019 }
+    },
+    {
+      "name": "Ghislaine Maxwell",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1961, "end": null }
+    },
+    {
+      "name": "Virginia Giuffre",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1983, "end": 2025 }
+    },
+    {
+      "name": "Alexander Acosta",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1969, "end": null }
+    }
+  ],
+  "roles": ["criminal-killer", "financier-investor"],
+  "themes": {
+    "primary": "child-abuse",
+    "secondary": [
+      "sexual-abuse",
+      "finance-crypto",
+      "fraud-grift",
+      "policing-incarceration",
+      "propaganda-media"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "VI"],
+    "subdivisions": ["US-FL"],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1976, "end": null },
+    "covered_span": { "start": 1953, "end": 2019 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Brooklyn-born financier Jeffrey Epstein, whose fortune had murky origins, recruited and sexually abused dozens of underage girls in Florida and elsewhere, offered them to powerful friends, and got a lenient 2008 plea deal.",
+  "content_warnings": ["child-abuse", "sexual-violence"],
+  "keywords": [
+    "Palm Beach",
+    "Little St. James",
+    "Lolita Express",
+    "Bear Stearns",
+    "Towers Financial",
+    "Steven Hoffenberg",
+    "Les Wexner",
+    "Vicky Ward",
+    "Miami Herald",
+    "non-prosecution agreement"
+  ],
+  "guests": ["Daniel O'Brien"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:04:15", "note": "born in Brooklyn, raised in Coney Island; schooling and college covered" },
+    { "facet": "time", "part": 1, "at": "00:08:28", "note": "joins Bear Stearns in 1976, later forced out amid an insider trading probe" },
+    { "facet": "themes", "part": 1, "at": "00:19:53", "note": "Hoffenberg and the Towers Financial Ponzi scheme as a possible fortune source" },
+    { "facet": "themes", "part": 1, "at": "00:24:41", "note": "the recruitment scheme in Palm Beach; most victims aged roughly 12 to 16" },
+    { "facet": "subjects", "part": 1, "at": "00:26:15", "note": "long segment on Virginia Roberts and her recruitment via Maxwell" },
+    { "facet": "regions", "part": 1, "at": "00:49:38", "note": "his Virgin Islands island named as a site of trafficking" },
+    { "facet": "themes", "part": 2, "at": "00:09:58", "note": "Vanity Fair editor pulls abuse allegations; threats against the reporter" },
+    { "facet": "themes", "part": 2, "at": "00:22:10", "note": "2005 Palm Beach police investigation and obstruction by his team" },
+    { "facet": "subjects", "part": 2, "at": "00:30:01", "note": "Acosta negotiates the secret non-prosecution agreement" },
+    { "facet": "themes", "part": 2, "at": "00:35:42", "note": "lenient jail term with work release and paid deputies" },
+    { "facet": "time", "part": 2, "at": "00:38:28", "note": "post-release life, new island residence and lawsuits up to release" }
+  ],
+  "notes": "Recorded March 2019, before his July 2019 arrest and August 2019 death; lifespan uses the real death year. Victims include minors and some young adults, so both child-abuse and sexual-abuse. Transcript gives his birth date garbled; 1953 from general knowledge. main_span end null as he was alive and litigating at release. Virginia Roberts is listed under her better-known name Virginia Giuffre."
+}

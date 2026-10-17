@@ -1,0 +1,89 @@
+{
+  "story_id": "gary-young-the-fake-doctor-who-drowned-his-own-baby",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "D. Gary Young",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1949, "end": 2018 }
+    },
+    {
+      "name": "Young Living",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "secondary"
+    },
+    {
+      "name": "Rosarito Beach Clinic",
+      "kind": "organization",
+      "org_type": "school-or-facility",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["quack-fake-healer", "business-executive", "con-artist"],
+  "themes": {
+    "primary": "quackery-pseudoscience",
+    "secondary": [
+      "fraud-grift",
+      "corporate-malfeasance",
+      "environmental-destruction",
+      "labor-exploitation"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "MX", "EC", "OM"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1982, "end": 2018 },
+    "covered_span": { "start": 1949, "end": 2018 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Unlicensed healer D. Gary Young let his newborn daughter die in a 1982 water birth in Spokane, ran fake cancer clinics in the US and Mexico, then founded Young Living and built the essential oil MLM boom on false medical claims.",
+  "content_warnings": ["child-death"],
+  "keywords": [
+    "essential oils",
+    "Spokane",
+    "Tijuana",
+    "Laetrile",
+    "multi-level marketing",
+    "DSHEA",
+    "Orrin Hatch",
+    "doTERRA",
+    "frankincense",
+    "John Hurst"
+  ],
+  "guests": ["Billy Wayne Davis"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:05:21", "note": "birth in Idaho and childhood poverty; year garbled in transcript" },
+    { "facet": "time", "part": 1, "at": "00:11:39", "note": "infant daughter dies in hot tub water birth in Spokane Valley" },
+    { "facet": "regions", "part": 1, "at": "00:15:18", "note": "arrested for unlicensed practice, moves to Mexico to run a Laetrile clinic" },
+    { "facet": "regions", "part": 1, "at": "00:24:08", "note": "LA Times reporter tests the Rosarito clinic with cat and chicken blood" },
+    { "facet": "regions", "part": 1, "at": "00:41:30", "note": "opens Utah clinic staffed by a doctor with a manslaughter plea" },
+    { "facet": "regions", "part": 2, "at": "00:12:48", "note": "gallbladder surgery and IV oils at an Ecuador clinic after Utah lawsuit" },
+    { "facet": "themes", "part": 2, "at": "00:14:52", "note": "worker killed by an unsafe homemade distiller on the Mona, Utah farm" },
+    { "facet": "themes", "part": 2, "at": "00:24:55", "note": "MLM income structure: almost all distributors earn under a dollar" },
+    { "facet": "themes", "part": 2, "at": "00:27:07", "note": "Oman frankincense distillery and ecological strain from oil demand" },
+    { "facet": "themes", "part": 2, "at": "00:30:21", "note": "rosewood and spikenard trafficking plea, FDA warning letter on disease claims" },
+    { "facet": "time", "part": 2, "at": "00:43:20", "note": "death after strokes in Salt Lake City in 2018" }
+  ],
+  "notes": "Birth year in transcript is garbled; 1949 from general knowledge. Baby's death year (1982) and Spokane timeline from knowledge, transcript only says early 1980s. Clinic name given as Rosarita Beach Clinic on air. labor-exploitation rests on the distiller death and MLM structure. reaches_present for the ongoing Young Living MLM and copycat fake doctors."
+}

@@ -1,0 +1,83 @@
+{
+  "story_id": "the-white-savior-fake-doctor-who-may-have-killed-100-babies",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Renee Bach",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1989, "end": null }
+    },
+    {
+      "name": "Serving His Children",
+      "kind": "organization",
+      "org_type": "ngo",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["quack-fake-healer"],
+  "themes": {
+    "primary": "medical-malpractice",
+    "secondary": [
+      "child-abuse",
+      "racism-white-supremacy",
+      "fraud-grift",
+      "organized-religion",
+      "colonialism-imperialism"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["UG", "US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2008, "end": 2019 },
+    "covered_span": { "start": 1989, "end": 2019 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "American missionary Renee Bach founded the charity Serving His Children in Jinja, Uganda, and with no medical training treated malnourished children herself, including blood transfusions; mothers sued her over more than 100 child deaths.",
+  "content_warnings": ["child-death", "medical-horror"],
+  "keywords": [
+    "white saviorism",
+    "Jinja",
+    "Masese",
+    "Bedford, Virginia",
+    "No White Saviors",
+    "Kony 2012",
+    "Teju Cole",
+    "Women's Pro Bono Initiative",
+    "Nikki Gagnon",
+    "blood transfusion"
+  ],
+  "guests": ["Sofiya Alexandra"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:13:11", "note": "arrives in Uganda at 18 in September 2007; birth year inferred from this" },
+    { "facet": "time", "part": 1, "at": "00:14:44", "note": "founds Serving His Children as a feeding program in Masese, Jinja" },
+    { "facet": "themes", "part": 1, "at": "00:24:15", "note": "medium post says she treated sick children herself with no medical training" },
+    { "facet": "time", "part": 1, "at": "00:25:48", "note": "civil suit on behalf of mothers over deaths of more than 100 children, pending at release" },
+    { "facet": "content_warnings", "part": 1, "at": "00:44:29", "note": "2011 blog post on a transfusion causing an anaphylactic reaction in an infant" },
+    { "facet": "content_warnings", "part": 1, "at": "00:53:22", "note": "she bags an infant with oxygen while driving; the baby later died" },
+    { "facet": "themes", "part": 1, "at": "00:52:19", "note": "local missionary community and her Jinja church defended her against critics" },
+    { "facet": "time", "part": 1, "at": "00:54:22", "note": "charity paused in 2015 after criminal complaints, then reopened" },
+    { "facet": "time", "part": 1, "at": "00:55:25", "note": "social worker reports a 2018 infant death after Bach's intervention" },
+    { "facet": "themes", "part": 1, "at": "01:04:46", "note": "extended discussion of white saviorism and attitudes toward Uganda" }
+  ],
+  "notes": "Birth year approximate: she was 18 on arrival in September 2007, so 1988 or 1989. No role fits an untrained person practising real medicine; quack-fake-healer is closest. medical-malpractice chosen over quackery because the treatments were real medicine done by an unqualified person. Kony 2012 intro treated as comparison, not covered time."
+}

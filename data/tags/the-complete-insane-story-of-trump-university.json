@@ -1,0 +1,86 @@
+{
+  "story_id": "the-complete-insane-story-of-trump-university",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Trump University",
+      "kind": "organization",
+      "org_type": "company",
+      "role": "primary"
+    },
+    {
+      "name": "Donald Trump",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1946, "end": null },
+      "wikidata": "Q22686"
+    },
+    {
+      "name": "James Harris",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": null },
+      "floruit": 2008
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "fraud-grift",
+    "secondary": ["education", "finance-crypto", "electoral-politics", "corporate-malfeasance"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-NY"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2004, "end": 2010 },
+    "covered_span": { "start": 2004, "end": 2018 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Trump University, a for-profit real estate seminar business launched by Donald Trump in 2004-2005, used unaccredited 'faculty' and high-pressure sales tactics to push students into packages costing up to $35,000 before collapsing amid fraud lawsuits.",
+  "content_warnings": [],
+  "keywords": [
+    "40 Wall Street",
+    "Michael Sexton",
+    "Stephen Gilpin",
+    "Trump Gold Elite",
+    "The Apprentice",
+    "Eric Schneiderman",
+    "Greg Abbott",
+    "Gonzalo Curiel",
+    "Trump Institute",
+    "Trump Network"
+  ],
+  "guests": ["Miles Gray"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "high",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:04:44", "note": "Trump, Sexton and a partner form Trump University LLC in 2004" },
+    { "facet": "regions", "part": 1, "at": "00:05:44", "note": "headquarters at 40 Wall Street; NY education department objects to the name" },
+    { "facet": "themes", "part": 1, "at": "00:26:03", "note": "2007 pivot from online courses to upsell seminars as the housing market turns" },
+    { "facet": "themes", "part": 1, "at": "00:35:32", "note": "tiered Elite packages from about $10,000 to $35,000, credit-limit coaching" },
+    { "facet": "themes", "part": 1, "at": "00:48:03", "note": "company playbook scripts for overriding student objections" },
+    { "facet": "subjects", "part": 2, "at": "00:00:35", "note": "top instructor James Harris: no license, criminal record, best upsell rate" },
+    { "facet": "themes", "part": 2, "at": "00:15:13", "note": "2010 Texas probe dropped; later Trump donations to Greg Abbott" },
+    { "facet": "time", "part": 2, "at": "00:17:18", "note": "renamed Trump Entrepreneur Initiative in 2010 and quietly wound down" },
+    { "facet": "time", "part": 2, "at": "00:19:23", "note": "three lawsuits settled for $25 million as Trump took office in 2017" },
+    { "facet": "themes", "part": 2, "at": "00:20:26", "note": "Trump Network MLM, ACN and Trump Institute as related licensing scams" },
+    { "facet": "time", "part": 2, "at": "00:25:07", "note": "Trump Foundation ordered dissolved in December 2018" }
+  ],
+  "notes": "Org_type company chosen because it was an unaccredited LLC, not a real school; school-or-facility is defensible. Donald Trump kept secondary: the story is built around the business, so no roles and no lifetime rule. covered_span ends 2018 for the related racketeering suit and Foundation shutdown segment. electoral-politics rests on the Abbott donation and the Curiel/presidency link, a modest segment."
+}

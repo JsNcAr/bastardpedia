@@ -1,0 +1,89 @@
+{
+  "story_id": "mike-adams-the-deadliest-fake-news-icon-you-ve-never-heard-of",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Mike Adams",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1967, "end": null }
+    },
+    {
+      "name": "Natural News",
+      "kind": "organization",
+      "org_type": "media-outlet",
+      "role": "secondary"
+    },
+    {
+      "name": "Anti-vaccine movement",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["journalist-propagandist", "quack-fake-healer", "conspiracy-theorist"],
+  "themes": {
+    "primary": "propaganda-media",
+    "secondary": [
+      "quackery-pseudoscience",
+      "conspiracy-theories",
+      "public-health",
+      "fraud-grift",
+      "tech-internet"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "online"
+  },
+  "time": {
+    "main_span": { "start": 1998, "end": null },
+    "covered_span": { "start": 1967, "end": 2019 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Austin-based software entrepreneur Mike Adams, the self-styled Health Ranger, built Natural News and a web of linked sites that spread anti-vaccine, quack-cure and far-right conspiracy content to millions from the late 1990s on.",
+  "content_warnings": [],
+  "keywords": [
+    "Health Ranger",
+    "Y2K Newswire",
+    "Hogwatch",
+    "Vaccine Zombie",
+    "Good Gopher",
+    "Ebola homeopathy",
+    "Dr. Oz",
+    "Jon Entine",
+    "Alex Jones",
+    "Arial Software"
+  ],
+  "guests": ["Dan Friesen", "Jordan Holmes"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:09:24", "note": "self-written bio gives birth in 1967 in Lawrence, Kansas" },
+    { "facet": "time", "part": 1, "at": "00:16:52", "note": "launches Y2K Newswire and sells doomsday food and gold, his first grift" },
+    { "facet": "themes", "part": 1, "at": "00:30:59", "note": "network of interlinked health sites gamed search rankings to sell supplements" },
+    { "facet": "themes", "part": 1, "at": "00:33:41", "note": "secret ties to two herbal and supplement MLMs he promoted as independent" },
+    { "facet": "themes", "part": 1, "at": "00:39:19", "note": "article tying Microsoft and Bill Gates to a depopulation bioweapon plot" },
+    { "facet": "themes", "part": 1, "at": "00:56:08", "note": "site runs a homeopathic Ebola remedy recipe using infected samples" },
+    { "facet": "themes", "part": 2, "at": "00:03:08", "note": "scale of his role in spreading anti-vaccine claims and traffic figures" },
+    { "facet": "themes", "part": 2, "at": "00:29:45", "note": "AIDS denial and 9/11 trutherism documented after Forbes dispute" },
+    { "facet": "themes", "part": 2, "at": "00:37:00", "note": "his own search engine surfaces Holocaust-minimising results" },
+    { "facet": "time", "part": 2, "at": "00:43:24", "note": "2019 bans from Facebook and other platforms close the narrative" },
+    { "facet": "regions", "part": 1, "at": "00:36:17", "note": "based in Austin, Texas; activity is mostly online" }
+  ],
+  "notes": "Primary theme could be quackery-pseudoscience instead of propaganda-media; chose the latter because the title and story stress his fake-news site empire and SEO. Y2K Newswire start year is garbled in the transcript; 1998 is an estimate. Early life is barely known, so main_span starts with Y2K Newswire. Wikidata QID omitted (not certain)."
+}

@@ -1,0 +1,132 @@
+{
+  "story_id": "the-complete-insane-history-of-american-border-militias",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "American border militias",
+      "kind": "movement-or-ideology",
+      "role": "primary"
+    },
+    {
+      "name": "Minuteman Project",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Chris Simcox",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1961, "end": null }
+    },
+    {
+      "name": "Shawna Forde",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": null }
+    },
+    {
+      "name": "Klan Border Watch",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "immigration-borders",
+    "secondary": [
+      "racism-white-supremacy",
+      "fascism-far-right",
+      "policing-incarceration",
+      "propaganda-media",
+      "fraud-grift"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-AZ"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1977, "end": 2019 },
+    "covered_span": { "start": 1910, "end": 2019 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "A history of armed civilian patrols on the US-Mexico border, from Texas Ranger violence and the 1977 Klan Border Watch to the Minuteman Project, Shawna Forde's 2009 Arivaca murders and 2019 vigilante detentions.",
+  "content_warnings": ["graphic-violence", "child-death", "hate-speech"],
+  "keywords": [
+    "Minutemen",
+    "Minuteman Civil Defense Corps",
+    "Texas Rangers",
+    "David Duke",
+    "Louis Beam",
+    "Tom Metzger",
+    "Jim Gilchrist",
+    "Arivaca",
+    "Tombstone",
+    "United Constitutional Patriots"
+  ],
+  "guests": ["Katy Stoll", "Cody Johnston"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:45",
+      "note": "Texas Rangers act as first border force; 1910-1920 killings of Mexicans in the borderlands"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:06:48",
+      "note": "1920s anti-Mexican sentiment and creation of the Border Patrol, its early brutality"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:16:44",
+      "note": "Duke's October 1977 press stunt at the San Ysidro port launches the Klan Border Watch"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:32:43",
+      "note": "Simcox biography begins: born 1961, Tombstone militia, Minuteman Project in 2005"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:38:28",
+      "note": "Minutemen donation haul and mailing lists sold through conservative direct-mail firms"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:18:52",
+      "note": "Forde's 2009 home invasion in Arivaca, Arizona kills a man and his nine-year-old daughter"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:33:31",
+      "note": "April 2019 United Constitutional Patriots detain migrants in New Mexico; leader arrested"
+    }
+  ],
+  "notes": "Primary subject is a diffuse movement, so roles are empty. Transcript spells Forde as Ford and implies she was 41 in 2006; birth year left null rather than guess. Covered span starts with the 1910s Texas Rangers/Border Patrol segment (~8 min) as the stated origin of the story. US-AZ chosen as most central state, though TX, CA, WA and NM also appear."
+}
