@@ -1,10 +1,11 @@
 import { useMemo } from 'react';
-import type { Catalog, Term } from '@shared/schemas/catalog.ts';
+import type { Catalog } from '@shared/schemas/catalog.ts';
 import { Icon } from '@/ui/Icon';
 import { FacetGroup, FacetSubgroup } from './FacetGroup';
+import { FacetList, type FacetListOption } from './FacetList';
 import { FacetOption } from './FacetOption';
 import { toggleHiddenWarning, toggleValue, type Facet, type Filters } from './filter-model';
-import { centuryLabel } from './format';
+import { centuryLabel, centuryShort } from './format';
 import { YearRange } from './YearRange';
 import type { Labels } from './labels';
 
@@ -17,15 +18,6 @@ interface Props {
   yearBounds: { min: number; max: number };
   labels: Labels;
   onChange: (next: Filters, opts?: { replace?: boolean }) => void;
-}
-
-function groupBy<T>(items: T[], key: (t: T) => string): [string, T[]][] {
-  const out = new Map<string, T[]>();
-  for (const item of items) {
-    const k = key(item);
-    out.set(k, [...(out.get(k) ?? []), item]);
-  }
-  return [...out];
 }
 
 export function FacetRail({
@@ -44,46 +36,51 @@ export function FacetRail({
   /** Options with stories, plus anything selected even if it now has none. */
   const visible = (facet: Facet, value: string) => count(facet, value) > 0 || isOn(facet, value);
 
-  const option = (facet: Facet, value: string, label?: string) =>
-    visible(facet, value) ? (
-      <FacetOption
-        key={value}
-        label={label ?? labels.of(facet, value)}
-        count={count(facet, value)}
-        checked={isOn(facet, value)}
-        onToggle={() => onChange(toggleValue(filters, facet, value))}
-      />
-    ) : null;
+  /** One facet's options for FacetList, in canonical order. */
+  const options = (
+    facet: Facet,
+    items: { id: string; label?: string; group?: string | undefined; shortLabel?: string }[],
+  ): FacetListOption[] =>
+    items
+      .filter((t) => visible(facet, t.id))
+      .map((t) => ({
+        id: t.id,
+        label: t.label ?? labels.of(facet, t.id),
+        group: t.group,
+        ...(t.shortLabel ? { shortLabel: t.shortLabel } : {}),
+        count: count(facet, t.id),
+        checked: isOn(facet, t.id),
+      }));
+  const toggle = (facet: Facet) => (value: string) => onChange(toggleValue(filters, facet, value));
 
-  const terms = (facet: Facet, list: Term[]) =>
-    groupBy(
-      list.filter((t) => visible(facet, t.id)),
-      (t) => t.group ?? '',
-    ).map(([group, items]) => (
-      <FacetSubgroup key={group} title={group || undefined}>
-        {items.map((t) => option(facet, t.id, t.label))}
-      </FacetSubgroup>
-    ));
-
-  const globalEras = catalog.eras.filter((e) => e.scope === 'global' && visible('era', e.id));
-  const regionalEras = groupBy(
-    catalog.eras.filter((e) => e.scope === 'regional' && visible('era', e.id)),
-    (e) => e.region_hint ?? 'Other',
-  );
+  const globalEras = catalog.eras
+    .filter((e) => e.scope === 'global')
+    .map((e) => ({ id: e.id, label: e.label }));
+  // One list; the labels carry the region ("Victorian era (UK)").
+  const namedEras = catalog.eras.filter((e) => e.scope === 'regional').map((e) => ({ id: e.id }));
+  // Newest first: the recent centuries hold almost every story.
   const centuries = useMemo(
     () =>
       [...new Set([...counts.century.keys(), ...filters.century.map(String)])]
         .map(Number)
-        .sort((a, b) => a - b),
+        .sort((a, b) => b - a)
+        .map((c) => ({ id: String(c), label: centuryLabel(c), shortLabel: centuryShort(c) })),
     [counts.century, filters.century],
   );
-  const countriesByContinent = groupBy(
-    [...catalog.countries]
-      .filter((c) => visible('country', c.code))
-      .sort((a, b) => a.name.localeCompare(b.name)),
-    (c) => c.continent,
-  ).sort(([a], [b]) => a.localeCompare(b));
-  const continents = [...new Set(catalog.countries.map((c) => c.continent))].sort();
+  const countries = [...catalog.countries]
+    .sort((a, b) => a.continent.localeCompare(b.continent) || a.name.localeCompare(b.name))
+    .map((c) => ({ id: c.code, label: c.name, group: c.continent }));
+  const continents = [...new Set(catalog.countries.map((c) => c.continent))]
+    .sort()
+    .map((c) => ({ id: c }));
+  const warningOptions: FacetListOption[] = catalog.vocab.content_warnings
+    .filter((w) => (warnings.get(w.id) ?? 0) > 0 || filters.cwHide.includes(w.id))
+    .map((w) => ({
+      id: w.id,
+      label: w.label,
+      count: warnings.get(w.id) ?? 0,
+      checked: filters.cwHide.includes(w.id),
+    }));
 
   return (
     <div className="facet-rail">
@@ -134,57 +131,76 @@ export function FacetRail({
             }
           />
         </FacetSubgroup>
-        <FacetSubgroup title="Broad periods">
-          {globalEras.map((e) => option('era', e.id, e.label))}
+        <FacetSubgroup title="Broad periods" list={false}>
+          <FacetList options={options('era', globalEras)} noun="periods" onToggle={toggle('era')} />
         </FacetSubgroup>
-        {regionalEras.map(([region, eras]) => (
-          <FacetSubgroup key={region} title={`Named eras: ${region}`}>
-            {eras.map((e) => option('era', e.id, e.label))}
-          </FacetSubgroup>
-        ))}
-        <FacetSubgroup title="Centuries">
-          {centuries.map((c) => option('century', String(c), centuryLabel(c)))}
+        <FacetSubgroup title="Named eras" list={false}>
+          <FacetList
+            options={options('era', namedEras)}
+            noun="named eras"
+            onToggle={toggle('era')}
+          />
+        </FacetSubgroup>
+        <FacetSubgroup title="Centuries" list={false}>
+          <FacetList
+            options={options('century', centuries)}
+            noun="centuries"
+            onToggle={toggle('century')}
+            limit={8}
+            collapse="first"
+            variant="chip"
+          />
         </FacetSubgroup>
       </FacetGroup>
 
       <FacetGroup title="Theme" selected={filters.theme.length} defaultOpen>
-        {terms('theme', catalog.vocab.themes)}
+        <FacetList
+          options={options('theme', catalog.vocab.themes)}
+          noun="themes"
+          onToggle={toggle('theme')}
+        />
       </FacetGroup>
 
       <FacetGroup title="Who they were" selected={filters.role.length}>
-        {terms('role', catalog.vocab.roles)}
+        <FacetList
+          options={options('role', catalog.vocab.roles)}
+          noun="roles"
+          onToggle={toggle('role')}
+        />
       </FacetGroup>
 
       <FacetGroup title="Region" selected={filters.continent.length + filters.country.length}>
-        <FacetSubgroup title="Continents">
-          {continents.map((c) => option('continent', c))}
+        <FacetSubgroup title="Continents" list={false}>
+          <FacetList
+            options={options('continent', continents)}
+            noun="continents"
+            onToggle={toggle('continent')}
+          />
         </FacetSubgroup>
-        {countriesByContinent.map(([continent, list]) => (
-          <FacetSubgroup key={continent} title={`Countries: ${continent}`}>
-            {list.map((c) => option('country', c.code, c.name))}
-          </FacetSubgroup>
-        ))}
+        <FacetSubgroup title="Countries" list={false}>
+          <FacetList
+            options={options('country', countries)}
+            noun="countries"
+            onToggle={toggle('country')}
+          />
+        </FacetSubgroup>
       </FacetGroup>
 
       <FacetGroup title="Episode type" selected={filters.format.length}>
-        {terms('format', catalog.vocab.formats)}
+        <FacetList
+          options={options('format', catalog.vocab.formats)}
+          noun="episode types"
+          onToggle={toggle('format')}
+        />
       </FacetGroup>
 
       <FacetGroup title="Content warnings" selected={filters.cwHide.length}>
         <p className="facet-hint">Hide stories that spend real time on:</p>
-        <FacetSubgroup>
-          {catalog.vocab.content_warnings
-            .filter((w) => (warnings.get(w.id) ?? 0) > 0 || filters.cwHide.includes(w.id))
-            .map((w) => (
-              <FacetOption
-                key={w.id}
-                label={w.label}
-                count={warnings.get(w.id) ?? 0}
-                checked={filters.cwHide.includes(w.id)}
-                onToggle={() => onChange(toggleHiddenWarning(filters, w.id))}
-              />
-            ))}
-        </FacetSubgroup>
+        <FacetList
+          options={warningOptions}
+          noun="warnings"
+          onToggle={(id) => onChange(toggleHiddenWarning(filters, id))}
+        />
       </FacetGroup>
     </div>
   );

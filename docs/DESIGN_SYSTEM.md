@@ -92,6 +92,17 @@ run `npm run icons`.
   active, disabled, and selected or checked where it applies.
 - Facet options show result counts. Options with zero results stay visible but
   muted.
+- **Long facet lists start short** (`FacetList`, rules in `facet-list.ts`):
+  - **collapsed:** the 5 options with the most stories, plus every selected
+    option, so a selection is never hidden;
+  - **toggle:** "Show all N" opens the full list with its subheadings;
+  - **find box:** lists over 20 options get one when expanded, and it ignores
+    case and accents;
+  - **short lists:** 7 options or fewer always show whole;
+  - **centuries:** a chip grid, newest first.
+
+  Expansion is UI state, never part of the URL.
+
 - Active filters appear as removable chips with a clear-all.
 - The year range pairs two sliders (on a cubic scale, so recent centuries get
   more travel than antiquity) with From and To text fields that accept negative

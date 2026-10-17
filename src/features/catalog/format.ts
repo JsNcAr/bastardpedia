@@ -36,6 +36,11 @@ export function centuryLabel(n: number): string {
   return n < 0 ? `${ordinal(-n)} century BCE` : `${ordinal(n)} century`;
 }
 
+/** The compact form for century chips: "21st", "3rd BCE". */
+export function centuryShort(n: number): string {
+  return n < 0 ? `${ordinal(-n)} BCE` : ordinal(n);
+}
+
 export function formatDuration(seconds: number): string {
   const total = Math.round(seconds / 60);
   const h = Math.floor(total / 60);

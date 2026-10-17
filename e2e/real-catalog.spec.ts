@@ -35,3 +35,17 @@ test('the real catalogue loads every story without console errors', async ({ pag
   }
   expect(errors).toEqual([]);
 });
+
+test('a long filter list starts short, expands and finds an option', async ({ page, isMobile }) => {
+  await page.goto('/');
+  if (isMobile) await page.getByRole('button', { name: /^Filters/ }).click();
+  await page.getByText('Region', { exact: true }).click();
+  const more = page.getByRole('button', { name: /^Show all \d+ countries$/ });
+  await expect(more).toHaveAttribute('aria-expanded', 'false');
+  await more.click();
+  await page.getByRole('searchbox', { name: 'Find countries' }).fill('paraguay');
+  const box = page.getByRole('checkbox', { name: /^Paraguay/ });
+  await box.click();
+  await expect(box).toBeChecked();
+  await expect(page).toHaveURL(/\?country=PY$/);
+});

@@ -1,4 +1,4 @@
-import { centuryLabel, formatDuration, formatSpan, partsLabel } from './format';
+import { centuryLabel, centuryShort, formatDuration, formatSpan, partsLabel } from './format';
 
 describe('formatting', () => {
   it('formats spans across eras', () => {
@@ -16,6 +16,8 @@ describe('formatting', () => {
     expect(centuryLabel(21)).toBe('21st century');
     expect(centuryLabel(11)).toBe('11th century');
     expect(centuryLabel(-1)).toBe('1st century BCE');
+    expect(centuryShort(21)).toBe('21st');
+    expect(centuryShort(-3)).toBe('3rd BCE');
     expect(centuryLabel(-3)).toBe('3rd century BCE');
   });
 
