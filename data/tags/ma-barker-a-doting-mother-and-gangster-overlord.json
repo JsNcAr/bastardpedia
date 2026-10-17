@@ -1,0 +1,89 @@
+{
+  "story_id": "ma-barker-a-doting-mother-and-gangster-overlord",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Ma Barker",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1873, "end": 1935 }
+    },
+    {
+      "name": "Barker-Karpis Gang",
+      "kind": "organization",
+      "org_type": "criminal-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Herman Barker",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1893, "end": 1927 }
+    },
+    {
+      "name": "Alvin Karpis",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1907, "end": 1979 }
+    }
+  ],
+  "roles": ["criminal-killer"],
+  "themes": {
+    "primary": "policing-incarceration",
+    "secondary": ["folklore-legend", "domestic-abuse"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1910, "end": 1935 },
+    "covered_span": { "start": 1873, "end": 1935 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Arizona 'Ma' Barker raised four criminal sons in Missouri and Oklahoma, sheltered fugitives, and helped steer the Barker-Karpis Gang's 1930s kidnappings from St. Paul until the FBI killed her in Florida in 1935.",
+  "content_warnings": ["suicide-self-harm", "medical-horror"],
+  "keywords": [
+    "Tulsa",
+    "St. Paul",
+    "Lake Weir",
+    "Central Park Gang",
+    "O'Connor system",
+    "William Hamm Jr. kidnapping",
+    "Edward Bremer kidnapping",
+    "Public Enemy Number One",
+    "J. Edgar Hoover",
+    "Pretty Boy Floyd"
+  ],
+  "guests": ["Emily Yoshida"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "low",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:12:09", "note": "Arizona Clark born 1873 in Greene County, Missouri; main source named" },
+    { "facet": "time", "part": 1, "at": "00:23:38", "note": "family moves to Tulsa in 1910; sons soon on the police blotter" },
+    { "facet": "themes", "part": 1, "at": "00:05:49", "note": "host contrasts FBI account with historians and gangster myth-making" },
+    { "facet": "subjects", "part": 1, "at": "00:42:34", "note": "long segment on Herman Barker's own gang and robberies" },
+    { "facet": "content_warnings", "part": 1, "at": "00:45:44", "note": "Herman kills an officer, is wounded in a chase and shoots himself" },
+    { "facet": "themes", "part": 1, "at": "00:49:20", "note": "St. Paul police corruption under the O'Connor layover deal" },
+    { "facet": "subjects", "part": 1, "at": "00:49:51", "note": "Alvin Karpis joins and the Barker-Karpis gang forms around Ma" },
+    { "facet": "themes", "part": 1, "at": "00:55:07", "note": "Ma's abusive partner Arthur Dunlop, later killed by the gang" },
+    { "facet": "content_warnings", "part": 1, "at": "00:59:29", "note": "crude fingerprint and face surgery on gang members described" },
+    { "facet": "time", "part": 1, "at": "01:02:32", "note": "FBI shootout at Lake Weir, Florida, January 1935 kills Ma and Fred" }
+  ],
+  "notes": "Vocabulary gap: no theme for organized crime, bank robbery or kidnapping; policing-incarceration (FBI pursuit, jailbreaks, bribed police, St. Paul corruption) plus the criminal-org subject carry it, hence themes low. folklore-legend reflects the debate over whether she was a mastermind or an FBI myth. Transcript drops several years; lifespans filled from general knowledge."
+}

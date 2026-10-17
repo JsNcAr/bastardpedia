@@ -1,0 +1,109 @@
+{
+  "story_id": "an-update-on-our-old-pal-jeffrey-epstein",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "current-affairs",
+  "subjects": [
+    {
+      "name": "Jeffrey Epstein",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1953, "end": 2019 }
+    },
+    {
+      "name": "Michael Baden",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1934, "end": null }
+    }
+  ],
+  "roles": ["criminal-killer", "financier-investor"],
+  "themes": {
+    "primary": "conspiracy-theories",
+    "secondary": ["policing-incarceration", "propaganda-media", "entertainment-celebrity"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-NY"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2019, "end": 2019 },
+    "covered_span": { "start": 1978, "end": 2019 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "A 2019 update on Jeffrey Epstein's death in a New York jail, weighing suicide against murder claims and examining the record of Michael Baden, the celebrity pathologist hired by Epstein's brother to argue homicide.",
+  "content_warnings": ["suicide-self-harm"],
+  "keywords": [
+    "Metropolitan Correctional Center",
+    "hyoid bone",
+    "Project Veritas",
+    "Amy Robach",
+    "ABC News",
+    "New York City Chief Medical Examiner",
+    "O.J. Simpson trial",
+    "Phil Spector trial",
+    "Michael Brown autopsy",
+    "HBO Autopsy"
+  ],
+  "guests": ["Daniel O'Brien"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:03:14",
+      "note": "Project Veritas video alleging ABC News spiked an Epstein interview; host argues it is overblown"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:09:34",
+      "note": "removal from suicide watch and wider data on suicides in US jails and prisons"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:15:15",
+      "note": "pathologist hired by Epstein's brother claims autopsy points to homicide"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:20:21",
+      "note": "Baden promoted to NYC chief medical examiner in 1978, demoted 1979 after mishandled cases"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:29:37",
+      "note": "Baden's second career as paid expert in celebrity cases: Belushi, O.J. Simpson, Phil Spector"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:42:08",
+      "note": "Baden's 2014 Michael Brown autopsy criticised by peers for overconfidence"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:45:42",
+      "note": "other pathologists explain hyoid fractures also occur in hangings; medical examiner stands by suicide"
+    }
+  ],
+  "notes": "Update episode: most airtime goes to a critique of pathologist Michael Baden's career (1978 onward), which sets covered_span start. Epstein's sex crimes are background only, so no abuse themes or warnings. Baden lifespan end set null (believed alive); verify. Roles are optional for current-affairs and describe Epstein generally."
+}

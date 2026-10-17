@@ -1,0 +1,141 @@
+{
+  "story_id": "the-international-church-of-drink-bleach",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Jim Humble",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": null, "end": null },
+      "floruit": 2010
+    },
+    {
+      "name": "Genesis II Church of Health and Healing",
+      "kind": "organization",
+      "org_type": "cult",
+      "role": "primary"
+    },
+    {
+      "name": "Kerri Rivera",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": null },
+      "floruit": 2012
+    },
+    {
+      "name": "Miracle Mineral Solution",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["quack-fake-healer", "cult-leader", "con-artist"],
+  "themes": {
+    "primary": "quackery-pseudoscience",
+    "secondary": [
+      "cults-new-religions",
+      "child-abuse",
+      "fraud-grift",
+      "public-health",
+      "tech-internet",
+      "occult-esoteric"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "MX", "DO", "HT", "GB", "GY"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1996, "end": null },
+    "covered_span": { "start": 1996, "end": 2019 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Self-styled archbishop Jim Humble promoted Miracle Mineral Solution, an industrial bleach, as a cure-all through his Genesis II Church, while Kerri Rivera spread it as a fake autism cure given to children as drinks and enemas.",
+  "content_warnings": ["child-abuse", "medical-horror"],
+  "keywords": [
+    "MMS",
+    "chlorine dioxide",
+    "Mark Grenon",
+    "CD Autism",
+    "Autism One conference",
+    "Emma Dalmain",
+    "bleach enemas",
+    "bishop mill",
+    "Illinois Attorney General",
+    "Louis Daniel Smith"
+  ],
+  "guests": ["Billy Wayne Davis"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "low"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:12:41",
+      "note": "MMS discovered while gold prospecting in South America; first dosing in Guyana"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:40:08",
+      "note": "host finds no reliable records of Humble before the late 1990s and no birth date"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:33:39",
+      "note": "long segment on Humble's alien abduction and space god claims"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:53:21",
+      "note": "church money routed to the Dominican Republic; Humble likely living in Mexico"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:47:31",
+      "note": "Humble claims trials on prisoners and paid training trips in Haiti"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:15:21",
+      "note": "detailed account of an eleven-year-old boy dosed under Rivera's protocol"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:04:18",
+      "note": "Rivera ran her autism clinic in Puerto Vallarta, Mexico"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:21:37",
+      "note": "UK case and London activist Emma Dalmain infiltrating the Facebook groups"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:44:33",
+      "note": "Amazon, YouTube, Yahoo and Facebook deplatforming Rivera in 2019"
+    }
+  ],
+  "notes": "The packet says Humble's birth date is unknown, so lifespan is null and covered years start at the MMS discovery; 1996 is from outside knowledge, not the transcript (some sources give his birth as 1932/33, which would trigger the lifetime rule). Part 2 is mostly Kerri Rivera; she could arguably be primary. Africa travels and a Calgary convention are passing mentions."
+}

@@ -1,0 +1,133 @@
+{
+  "story_id": "tommy-robinson-the-fascist-grifter-with-an-addiction-to-being-arrested",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Tommy Robinson",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1982, "end": null }
+    },
+    {
+      "name": "English Defence League",
+      "kind": "organization",
+      "org_type": "political-org",
+      "role": "secondary"
+    },
+    {
+      "name": "Rotherham child sexual exploitation scandal",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["activist-organizer", "con-artist", "journalist-propagandist"],
+  "themes": {
+    "primary": "fascism-far-right",
+    "secondary": [
+      "racism-white-supremacy",
+      "policing-incarceration",
+      "fraud-grift",
+      "child-abuse",
+      "moral-panics",
+      "propaganda-media"
+    ]
+  },
+  "regions": {
+    "origin": ["GB"],
+    "setting": ["GB"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2009, "end": null },
+    "covered_span": { "start": 1982, "end": 2019 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Stephen Yaxley-Lennon, alias Tommy Robinson, a Luton football hooligan and ex-BNP member, led the anti-Muslim English Defence League from 2009 and later grifted on grooming-gang fears, racking up repeated convictions and jail terms in England.",
+  "content_warnings": ["child-abuse", "drug-use"],
+  "keywords": [
+    "Stephen Yaxley-Lennon",
+    "Luton",
+    "British National Party",
+    "Pegida UK",
+    "Rebel Media",
+    "Quilliam",
+    "Finsbury Park attack",
+    "Leeds Crown Court",
+    "Enemy of the State",
+    "Paul Ray"
+  ],
+  "guests": ["Jake Hanrahan"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:02:03",
+      "note": "birth in Luton introduced; transcript garbles the year, 1982 from known fact"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:31:55",
+      "note": "takes the Tommy Robinson name and leads the newly formed EDL in 2009"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:19:11",
+      "note": "BNP family membership and 2004 assault on an off-duty officer, jailed in 2005"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:55:29",
+      "note": "long segment on the Rotherham abuse scandal and police failures"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:03:21",
+      "note": "critique of the Quilliam grooming-gang statistics used to stoke fear"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:49:27",
+      "note": "mortgage fraud conviction alongside a crooked broker"
+    },
+    {
+      "facet": "roles",
+      "part": 1,
+      "at": "01:06:58",
+      "note": "paid Rebel Media presenter filming court defendants as self-styled journalist"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:18:25",
+      "note": "July 2019 sentencing and asylum plea to Trump bring story to release year"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:14:47",
+      "note": "Finsbury Park attacker radicalised partly by his online posts"
+    }
+  ],
+  "notes": "Transcript renders the birth year unintelligibly; 1982 used from known fact. Pegida rallies in Germany and the JFK passport trip are brief, so DE and US are left out of setting. Football hooliganism is part of his early life but not a long enough segment for the sports theme."
+}

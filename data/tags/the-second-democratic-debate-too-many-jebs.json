@@ -1,0 +1,97 @@
+{
+  "story_id": "the-second-democratic-debate-too-many-jebs",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "crossover",
+  "subjects": [
+    {
+      "name": "Second 2020 Democratic presidential debates",
+      "kind": "event",
+      "role": "primary"
+    },
+    {
+      "name": "Marianne Williamson",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1952, "end": null }
+    },
+    {
+      "name": "Joe Biden",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1942, "end": null },
+      "wikidata": "Q6279"
+    },
+    {
+      "name": "Tulsi Gabbard",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1981, "end": null }
+    },
+    {
+      "name": "CNN",
+      "kind": "organization",
+      "org_type": "media-outlet",
+      "role": "secondary"
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "electoral-politics",
+    "secondary": [
+      "propaganda-media",
+      "immigration-borders",
+      "policing-incarceration",
+      "environmental-destruction"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 2019, "end": 2019 },
+    "covered_span": { "start": 2019, "end": 2019 },
+    "reaches_present": false,
+    "approximate": false
+  },
+  "summary": "Robert Evans, Katy Stoll and Cody Johnston react to the July 2019 CNN Democratic primary debates, criticising the moderators' framing, Joe Biden's performance, Marianne Williamson's grift and Tulsi Gabbard's record.",
+  "content_warnings": [],
+  "keywords": [
+    "Worst Year Ever",
+    "2020 Democratic primaries",
+    "Detroit",
+    "Kamala Harris",
+    "Elizabeth Warren",
+    "Bernie Sanders",
+    "Jay Inslee",
+    "Andrew Yang",
+    "Steve Bullock",
+    "Jeb Bush"
+  ],
+  "guests": ["Katy Stoll", "Cody Johnston"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "format", "part": 1, "at": "00:00:04", "note": "Host says this is not a BtB episode but a prelude to the hosts' upcoming election-year podcast" },
+    { "facet": "themes", "part": 1, "at": "00:05:44", "note": "Long segment on Williamson as a populist grifter and her ironic right-wing fan base" },
+    { "facet": "themes", "part": 1, "at": "00:13:40", "note": "Hosts argue CNN moderators framed questions against Sanders and used Republican talking points" },
+    { "facet": "themes", "part": 1, "at": "00:22:34", "note": "Gabbard attacks Harris's prosecutorial record; hosts discuss Gabbard's Assad visit" },
+    { "facet": "themes", "part": 1, "at": "00:26:49", "note": "Several minutes on candidates' immigration positions, child detention and decriminalisation" },
+    { "facet": "themes", "part": 1, "at": "00:49:44", "note": "Protesters chant about the Eric Garner officer; de Blasio and Gillibrand responses" },
+    { "facet": "themes", "part": 1, "at": "00:02:38", "note": "Inslee's climate message praised; moderators interrupt climate answers" }
+  ],
+  "notes": "Promo for the hosts' election podcast (later Worst Year Ever), described on air as not a BtB episode, so crossover beats current-affairs by precedence. No single bastard; the debate night is the primary subject. Detroit venue is from general knowledge, not the transcript. Climate theme is borderline in airtime."
+}

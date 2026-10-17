@@ -1,0 +1,126 @@
+{
+  "story_id": "fritz-haber-the-man-who-invented-chemical-warfare",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Fritz Haber",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1868, "end": 1934 }
+    },
+    {
+      "name": "Clara Immerwahr",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1870, "end": 1915 }
+    }
+  ],
+  "roles": ["scientist-scholar", "inventor-engineer", "military-officer"],
+  "themes": {
+    "primary": "weapons-arms-trade",
+    "secondary": [
+      "war-war-crimes",
+      "science-exploration",
+      "racism-white-supremacy",
+      "environmental-destruction"
+    ]
+  },
+  "regions": {
+    "origin": ["PL"],
+    "setting": ["BE", "DE", "PL"],
+    "subdivisions": [],
+    "polities": ["german-empire"],
+    "scope": "global"
+  },
+  "time": {
+    "main_span": { "start": 1904, "end": 1918 },
+    "covered_span": { "start": 1868, "end": 1934 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "German chemist Fritz Haber invented the process for making ammonia from air that feeds billions, then kept Germany's WWI war machine supplied and personally led the first large-scale poison gas attack at Ypres in 1915.",
+  "content_warnings": ["graphic-violence", "suicide-self-harm"],
+  "keywords": [
+    "Haber-Bosch process",
+    "Second Battle of Ypres",
+    "chlorine gas",
+    "Zyklon B",
+    "BASF",
+    "Albert Einstein",
+    "Manifesto of the Ninety-Three",
+    "Breslau",
+    "Karlsruhe",
+    "nitrogen fertilizer"
+  ],
+  "guests": ["Karah Preiss", "Oz Woloshyn"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:04:14",
+      "note": "born in Breslau, Prussia, now part of Poland"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:15:08",
+      "note": "barred from reserve officer rank for being Jewish; long discussion of antisemitism"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:29:48",
+      "note": "1904 letter about ammonia traces starts his nitrogen-fixation work"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:32:57",
+      "note": "BASF deal and 1909 ammonia breakthrough; Nobel Prize in 1918"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:56:08",
+      "note": "decides to develop poison gas and push it on the German high command"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:03:59",
+      "note": "gas canisters buried at Ypres and released in April 1915 under his command"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "01:08:40",
+      "note": "Clara's suicide with his service revolver after the Ypres celebration"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:18:10",
+      "note": "Nazi-era abandonment, exile and death in 1934"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:28:32",
+      "note": "nitrogen runoff, acid rain and ecosystem damage through the present"
+    }
+  ],
+  "notes": "main_span 1904-1918 covers the ammonia work through WWI gas warfare and the Nobel; exile and death in 1934 are covered more briefly. Zyklon B and the Holocaust get about a minute, so nazism is left out. Host says one gas attack killed 5,000 soldiers; historians give lower figures, but that does not affect any tag."
+}

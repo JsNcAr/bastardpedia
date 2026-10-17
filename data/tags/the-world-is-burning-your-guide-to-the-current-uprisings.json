@@ -1,0 +1,76 @@
+{
+  "story_id": "the-world-is-burning-your-guide-to-the-current-uprisings",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "current-affairs",
+  "subjects": [
+    { "name": "2019 Chilean protests", "kind": "event", "role": "primary" },
+    { "name": "2019 Lebanese protests", "kind": "event", "role": "primary" },
+    { "name": "2019 Turkish offensive into north-eastern Syria", "kind": "event", "role": "primary" },
+    { "name": "2019 Hong Kong protests", "kind": "event", "role": "primary" },
+    { "name": "2019 Catalan protests", "kind": "event", "role": "primary" }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "authoritarianism",
+    "secondary": [
+      "policing-incarceration",
+      "war-war-crimes",
+      "civil-war",
+      "conspiracy-theories",
+      "diplomacy-foreign-policy"
+    ]
+  },
+  "regions": {
+    "origin": [],
+    "setting": ["CL", "SY", "LB", "HK", "ES", "EG"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2019, "end": 2019 },
+    "covered_span": { "start": 2017, "end": 2019 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "A survey of the protest wave of autumn 2019, covering the uprisings in Hong Kong, Catalonia, Chile, Lebanon, Egypt and Iraq and the Turkish assault on Rojava, and how states met them with police and military violence.",
+  "content_warnings": ["graphic-violence"],
+  "keywords": [
+    "Rojava",
+    "Santiago",
+    "Beirut",
+    "Tsunami Democratic",
+    "Carrie Lam",
+    "Sebastian Pinera",
+    "Recep Tayyip Erdogan",
+    "Abdel Fattah el-Sisi",
+    "2019 Iraqi protests",
+    "2019 Egyptian protests"
+  ],
+  "guests": ["Khabat Abbas", "Joey Ayoub"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "low",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "subjects", "part": 1, "at": "00:02:42", "note": "Hong Kong extradition bill protests traced as the start of the current wave" },
+    { "facet": "time", "part": 1, "at": "00:07:58", "note": "Catalan background from the 2014 and 2017 referendums to the October 2019 sentences" },
+    { "facet": "themes", "part": 1, "at": "00:13:45", "note": "Trump-Erdogan deal and the US abandoning the SDF framed as autocrats backing each other" },
+    { "facet": "themes", "part": 1, "at": "00:14:49", "note": "reporter's dispatch on Turkish shelling, refugees and ethnic cleansing in Rojava" },
+    { "facet": "subjects", "part": 1, "at": "00:22:07", "note": "Chile segment begins with interviews of two activists in Santiago; longest single segment" },
+    { "facet": "themes", "part": 1, "at": "00:28:28", "note": "martial law in Chile, soldiers beating and shooting protesters" },
+    { "facet": "themes", "part": 1, "at": "00:32:38", "note": "several minutes on conspiracy theories over burned buses, the Enel fire and a Maduro plot" },
+    { "facet": "subjects", "part": 1, "at": "00:39:17", "note": "Lebanon protests, wildfires, WhatsApp tax and sectarian system with a Lebanese writer" },
+    { "facet": "regions", "part": 1, "at": "00:47:02", "note": "Egypt: Sisi crushes protests sparked by Mohamed Ali's corruption videos" },
+    { "facet": "themes", "part": 1, "at": "00:51:44", "note": "Syrian civil war and its refugee spillover tied to the present unrest" }
+  ],
+  "notes": "Survey episode with five near-equal segments, so all five events are primary; Egypt and Iraq are short and kept to keywords. No theme for protest movements or popular uprisings: authoritarianism is the closest fit, hence low themes confidence. Origin left empty since the subjects are events located in the settings. Iraq omitted from setting (six-code cap, about two minutes). Saul and Stephanie, Santiago interviewees with no surnames given, not listed as guests."
+}

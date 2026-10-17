@@ -1,0 +1,149 @@
+{
+  "story_id": "ragnar-redbeard-the-patron-saint-of-toxic-masculinity",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Arthur Desmond",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1859, "end": 1926 }
+    },
+    {
+      "name": "Might Is Right",
+      "kind": "media-work",
+      "role": "secondary"
+    },
+    {
+      "name": "Te Kooti",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1832, "end": 1893 }
+    },
+    {
+      "name": "Anton LaVey",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1930, "end": 1997 }
+    },
+    {
+      "name": "Gilroy Garlic Festival shooting",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["writer-intellectual", "activist-organizer", "politician-official"],
+  "themes": {
+    "primary": "misogyny-manosphere",
+    "secondary": [
+      "fascism-far-right",
+      "racism-white-supremacy",
+      "labor-exploitation",
+      "terrorism",
+      "colonialism-imperialism"
+    ]
+  },
+  "regions": {
+    "origin": ["NZ"],
+    "setting": ["US", "NZ", "AU"],
+    "subdivisions": [],
+    "polities": ["british-empire"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1884, "end": 1904 },
+    "covered_span": { "start": 1859, "end": 1926 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "New Zealand labor radical Arthur Desmond drifted from defending Maori rights and organizing workers to writing Might Is Right (1896) as Ragnar Redbeard, a racist, misogynist tract later mined by Anton LaVey and cited by the 2019 Gilroy shooter.",
+  "content_warnings": ["hate-speech"],
+  "keywords": [
+    "Ragnar Redbeard",
+    "The Survival of the Fittest",
+    "Santino Legan",
+    "The Satanic Bible",
+    "Hard Cash",
+    "Active Service Brigade",
+    "Max Stirner",
+    "Hawke's Bay",
+    "Poverty Bay",
+    "Redbeard Right"
+  ],
+  "guests": ["Jamie Loftus"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "low"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:10:25",
+      "note": "birth year and parentage unknown; host gives about 1842 here, later says 1859 appears in many sources"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:11:26",
+      "note": "1884 parliamentary candidacy is his first solid appearance in the record"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:28:14",
+      "note": "joins timber workers union, leads a maritime strike paper in Auckland"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:18:48",
+      "note": "long segment on defending Te Kooti and Maori land against settler militias"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:35:34",
+      "note": "flees to Sydney, labor agitation, Hard Cash and the Active Service Brigade"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:36:09",
+      "note": "1904 Chicago standoff with police over his office side business, later acquitted"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:38:17",
+      "note": "dies of a stroke in a Chicago bookstore, most likely in the late 1920s"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:20:20",
+      "note": "extended reading of the book's passages on women as property"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:39:50",
+      "note": "LaVey finds the book in 1957 and lifts passages into the Satanic Bible"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:46:03",
+      "note": "Gilroy shooter, 8chan reading lists and the Redbeard Right white nationalist site"
+    }
+  ],
+  "notes": "Desmond's birth (1842 vs 1859) and death (1926 vs late 1920s) are uncertain; lifespan uses 1859-1926 from the packet's footnoted source. Covered span stops at his death: LaVey (1957-69) and the 2019 Gilroy shooting are legacy, so they set reaches_present, though the shooting frames both parts. A reviewer may prefer extending covered_span to 2019."
+}

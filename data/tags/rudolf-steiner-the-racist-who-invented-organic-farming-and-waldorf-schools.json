@@ -1,0 +1,102 @@
+{
+  "story_id": "rudolf-steiner-the-racist-who-invented-organic-farming-and-waldorf-schools",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Rudolf Steiner",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1861, "end": 1925 }
+    },
+    {
+      "name": "Anthroposophy",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    },
+    {
+      "name": "Waldorf schools",
+      "kind": "organization",
+      "org_type": "school-or-facility",
+      "role": "secondary"
+    },
+    {
+      "name": "Biodynamic agriculture",
+      "kind": "practice-or-pseudoscience",
+      "role": "secondary"
+    },
+    {
+      "name": "Theosophical Society",
+      "kind": "organization",
+      "org_type": "cult",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["occultist-guru", "writer-intellectual"],
+  "themes": {
+    "primary": "occult-esoteric",
+    "secondary": [
+      "racism-white-supremacy",
+      "nazism",
+      "education",
+      "quackery-pseudoscience",
+      "eugenics-scientific-racism",
+      "public-health"
+    ]
+  },
+  "regions": {
+    "origin": ["HR", "AT"],
+    "setting": ["DE", "US", "GB", "AT", "CH"],
+    "subdivisions": [],
+    "polities": ["austria-hungary", "nazi-germany"],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1902, "end": 1925 },
+    "covered_span": { "start": 1861, "end": 2017 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Austrian occultist Rudolf Steiner founded anthroposophy, Waldorf schools and biodynamic farming on a spiritual doctrine of racial hierarchy and anti-vaccine medicine; his followers later aligned with the Nazis, and his schools still face racism and measles scandals.",
+  "content_warnings": ["hate-speech"],
+  "keywords": [
+    "Akashic Records",
+    "root races",
+    "Dornach",
+    "Helena Blavatsky",
+    "Emil Molt",
+    "Demeter",
+    "Weleda",
+    "Dachau",
+    "Peter Staudenmaier",
+    "Marianne Williamson"
+  ],
+  "guests": ["Chris Crofton"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "regions", "part": 1, "at": "00:06:18", "note": "born 1861 in a village of the Austrian empire that is now in Croatia" },
+    { "facet": "time", "part": 1, "at": "00:24:36", "note": "1902: becomes general secretary of the German Theosophical Society" },
+    { "facet": "regions", "part": 1, "at": "00:28:21", "note": "1912 split, founds Anthroposophical Society, moves headquarters to Dornach, Switzerland" },
+    { "facet": "themes", "part": 1, "at": "00:31:35", "note": "long segment on anthroposophic medicine, karma-based illness and anti-vaccine views" },
+    { "facet": "themes", "part": 1, "at": "00:47:14", "note": "1919 first Waldorf school in Stuttgart funded by a cigarette factory head" },
+    { "facet": "themes", "part": 1, "at": "00:49:58", "note": "measles outbreaks centred on low-vaccination Waldorf schools in Europe, 1999-2010" },
+    { "facet": "time", "part": 1, "at": "00:56:12", "note": "Steiner dies in March 1925" },
+    { "facet": "themes", "part": 1, "at": "00:56:44", "note": "Steiner's root-race hierarchy and racist claims about non-white peoples" },
+    { "facet": "time", "part": 1, "at": "01:17:15", "note": "2017 closure of a Waldorf school in Kings Langley, England, after safety failures" },
+    { "facet": "themes", "part": 2, "at": "00:33:26", "note": "organised anthroposophists praise and court the Nazi regime from 1933" },
+    { "facet": "themes", "part": 2, "at": "01:03:20", "note": "SS biodynamic plantation at Dachau worked by camp inmates from 1941" },
+    { "facet": "regions", "part": 2, "at": "00:47:38", "note": "2017 growth of biodynamic farming certification in the United States" }
+  ],
+  "notes": "main_span runs from his 1902 Theosophy role to his 1925 death. covered_span ends 2017 with modern Waldorf scandals, which are direct consequences; the Marianne Williamson segment is a modern comparison and was left out of the span. The Theosophical Society is typed cult since the host treats it as one; religious-body is an alternative."
+}

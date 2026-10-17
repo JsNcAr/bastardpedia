@@ -1,0 +1,152 @@
+[
+  {
+    "id": "an-update-on-our-old-pal-jeffrey-epstein",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Update episode: most airtime goes to a critique of pathologist Michael Baden's career (1978 onward), which sets covered_span start. Epstein's sex crimes are background only, so no abuse themes or warnings. Baden lifespan end set null (believed alive); verify. Roles are optional for current-affairs and describe Epstein generally."
+  },
+  {
+    "id": "ma-barker-a-doting-mother-and-gangster-overlord",
+    "format": "deep-dive",
+    "low": ["themes"],
+    "notes": "Vocabulary gap: no theme for organized crime, bank robbery or kidnapping; policing-incarceration (FBI pursuit, jailbreaks, bribed police, St. Paul corruption) plus the criminal-org subject carry it, hence themes low. folklore-legend reflects the debate over whether she was a mastermind or an FBI myth. Transcript drops several years; lifespans filled from general knowledge."
+  },
+  {
+    "id": "voices-of-revolution",
+    "format": "current-affairs",
+    "low": ["themes"],
+    "notes": "No theme for popular protest movements or inequality; authoritarianism chosen as primary for state repression (Chile curfew and military, Assad regime return), with low confidence. Interviewees for Chile are unnamed activists; the Rojava respondent's name is garbled in the transcript, so only Joey Ayoub is listed. Pinochet era and Lebanese civil war are background only."
+  },
+  {
+    "id": "the-world-is-burning-your-guide-to-the-current-uprisings",
+    "format": "current-affairs",
+    "low": ["themes"],
+    "notes": "Survey episode with five near-equal segments, so all five events are primary; Egypt and Iraq are short and kept to keywords. No theme for protest movements or popular uprisings: authoritarianism is the closest fit, hence low themes confidence. Origin left empty since the subjects are events located in the settings. Iraq omitted from setting (six-code cap, about two minutes). Saul and Stephanie, Santiago interviewees with no surnames given, not listed as guests."
+  },
+  {
+    "id": "the-bastard-who-invented-homeopathy",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Hahnemann and homeopathy are both primary: part 1 is his life, part 2 the practice's modern harms. main_span follows Hahnemann (1790 cinchona test to 1843 death); covered_span runs to the 2018 Topricin case because part 2 narrates homeopathy's direct harms at length. The host says Hahnemann was not really a bastard. Penelope Dingle's birth year is not given. FR is a short segment on his final years."
+  },
+  {
+    "id": "the-story-behind-all-those-nazi-clown-memes",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "No theme for memes or internet subculture beyond tech-internet. Primary theme chosen as fascism-far-right since the meme spans the broader far right, with nazism secondary for the explicitly neo-Nazi groups and chan origins. Main span 2017-2019 covers the Clown World term through the Honkler spread; earlier clown protests are context for the reversal."
+  },
+  {
+    "id": "bjorn-lomborg-patient-zero-of-climate-denial",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Childhood barely covered; covered_span starts at birth only under the lifetime rule. Lomborg's birth year is general knowledge. US ranks first in setting because the story centres on his influence on American politics and media. fraud-grift reflects the host's grift framing and funding segment rather than a proven fraud. Transcript says Oxford University Press in one place; the book was published by Cambridge."
+  },
+  {
+    "id": "ragnar-redbeard-the-patron-saint-of-toxic-masculinity",
+    "format": "deep-dive",
+    "low": ["time"],
+    "notes": "Desmond's birth (1842 vs 1859) and death (1926 vs late 1920s) are uncertain; lifespan uses 1859-1926 from the packet's footnoted source. Covered span stops at his death: LaVey (1957-69) and the 2019 Gilroy shooting are legacy, so they set reaches_present, though the shooting frames both parts. A reviewer may prefer extending covered_span to 2019."
+  },
+  {
+    "id": "qanon-grifter-bill-mitchell-a-crossover-episode",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Titled a crossover with QAnon Anonymous, but it is a BtB-hosted episode built on Robert's own Bill Mitchell write-up (about 50 min), followed by a QAA radio play and an interview with Robert, so tagged deep-dive rather than crossover. Birth year given as roughly 1961. Lifespan end assumed alive."
+  },
+  {
+    "id": "all-fertility-doctors-are-bastards",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript spells Cline as Klein; used the standard spelling. Barwin gets about half the episode, so he is co-primary with the practice itself; lifetime rule sets covered_span from his 1939 birth. Wiesner (1940s) and Karbaat get only brief segments, so they are keywords, not subjects, and do not extend the span. No dedicated theme for reproductive fraud; sexual-abuse used because the hosts and Texas law frame it as assault."
+  },
+  {
+    "id": "rudolf-steiner-the-racist-who-invented-organic-farming-and-waldorf-schools",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "main_span runs from his 1902 Theosophy role to his 1925 death. covered_span ends 2017 with modern Waldorf scandals, which are direct consequences; the Marianne Williamson segment is a modern comparison and was left out of the span. The Theosophical Society is typed cult since the host treats it as one; religious-body is an alternative."
+  },
+  {
+    "id": "keith-raniere-the-end-of-a-cult-leader",
+    "format": "current-affairs",
+    "low": [],
+    "notes": "Update to the earlier two-part Raniere series, so current-affairs and no lifetime rule. covered_span starts ~2002 from Daniela's segment (year from outside knowledge; transcript gives no date). Transcript places the Mexico flight in March 2018 and anticipates a 20-to-life sentence; the actual 2020 sentence was 120 years. Brief QAnon coda kept as a keyword only."
+  },
+  {
+    "id": "tommy-robinson-the-fascist-grifter-with-an-addiction-to-being-arrested",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript renders the birth year unintelligibly; 1982 used from known fact. Pegida rallies in Germany and the JFK passport trip are brief, so DE and US are left out of setting. Football hooliganism is part of his early life but not a long enough segment for the sports theme."
+  },
+  {
+    "id": "andy-ngo-the-next-generation-of-news-grifter",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Living subject; covered_span starts at birth per the lifetime rule though childhood gets a minute. Islamophobia filed under racism-white-supremacy. Companion to the James O'Keefe episode. GB kept for the London article segment. No Wikidata QID given (not certain)."
+  },
+  {
+    "id": "james-o-keefe-the-patron-saint-of-news-grifters",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Part one of a two-part pairing; the next part is about Andy Ngo, so this story covers O'Keefe only. Transcript garbles the birth date; 1984 is from general knowledge. Project Veritas tagged ngo (it is a nonprofit), though political-org is arguable."
+  },
+  {
+    "id": "fritz-haber-the-man-who-invented-chemical-warfare",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "main_span 1904-1918 covers the ammonia work through WWI gas warfare and the Nobel; exile and death in 1934 are covered more briefly. Zyklon B and the Holocaust get about a minute, so nazism is left out. Host says one gas attack killed 5,000 soldiers; historians give lower figures, but that does not affect any tag."
+  },
+  {
+    "id": "how-chiropractic-medicine-started-as-a-ghost-religion",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Transcript gives the first adjustment only as a September day; 1895 is from general knowledge, as is Palmer's 1845 birth year (transcript audio garbles the date). child-abuse theme reflects the segment on chiropractic treatment of a child and an infant, not deliberate abuse; reviewer may prefer to drop it. covered_span ends 2019 for the modern-practice segment."
+  },
+  {
+    "id": "the-eternal-fascist",
+    "format": "media-reading",
+    "low": [],
+    "notes": "Robert reads his own audiobook, so the author is the host; he is not listed as a primary subject and roles are empty (deviation from the media-reading rule). Format could arguably be deep-dive. Covered start 1794 rests on the British Israelism prehistory of Christian Identity (approximate). The Order and Robert Mathews get a chapter but were left to keywords for the 5-subject cap."
+  },
+  {
+    "id": "napoleon-hill-the-grifter-who-invented-the-secret-donald-trump",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Opening segment on the New Thought movement (Quimby, Eddy, Trine, 1800s) is host background, so it is kept out of covered_span and subjects; it appears in keywords and themes. Primary theme wellness-self-help per the taxonomy example, though most airtime is his scams (fraud-grift). Trump appears via Peale and prosperity gospel legacy, setting reaches_present."
+  },
+  {
+    "id": "the-second-democratic-debate-too-many-jebs",
+    "format": "crossover",
+    "low": [],
+    "notes": "Promo for the hosts' election podcast (later Worst Year Ever), described on air as not a BtB episode, so crossover beats current-affairs by precedence. No single bastard; the debate night is the primary subject. Detroit venue is from general knowledge, not the transcript. Climate theme is borderline in airtime."
+  },
+  {
+    "id": "the-bastard-manifesto",
+    "format": "deep-dive",
+    "low": ["regions", "time"],
+    "notes": "Essay episode with no single bastard; deep-dive chosen over meta, though it draws on the show's research. The core period is prehistory (tens of thousands of years ago to early agriculture), below the schema minimum of -5000, so spans are clamped to -5000 and marked approximate. Regions are thin: only the Kalahari fieldwork and Iroquois study get real time."
+  },
+  {
+    "id": "the-industrial-disaster-that-makes-chernobyl-look-like-kindergarten",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Union Carbide is the bastard but the title frames the disaster, so the event is primary and the company secondary (no roles). Origin IN follows the event; the company is US-based. main_span runs from the 1976 safety complaints to the 1989 settlement (year from general knowledge; transcript just says eventually). Covered span ends 2019 with ongoing litigation and contamination."
+  },
+  {
+    "id": "edward-bernays-the-founding-father-of-lies",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Host says Bernays died at 104; he was 103 (1891-1995). The later Guatemalan civil war and genocide get a few minutes as consequences of the coup; genocide-mass-killing left out as not a long enough segment. WWI propaganda (Committee on Public Information era) folded into the primary theme. Modern PR-vs-journalism legacy is a short coda, so reaches_present is false."
+  },
+  {
+    "id": "the-international-church-of-drink-bleach",
+    "format": "deep-dive",
+    "low": ["time"],
+    "notes": "The packet says Humble's birth date is unknown, so lifespan is null and covered years start at the MMS discovery; 1996 is from outside knowledge, not the transcript (some sources give his birth as 1932/33, which would trigger the lifetime rule). Part 2 is mostly Kerri Rivera; she could arguably be primary. Africa travels and a Calgary convention are passing mentions."
+  },
+  {
+    "id": "how-pat-buchanan-secret-nazi-paved-the-way-for-donald-trump",
+    "format": "deep-dive",
+    "low": [],
+    "notes": "Lifetime rule sets covered_span 1938-2019 (alive at release). main_span ends in 2000 with his last presidential run, though he kept writing columns; reviewer may prefer end null. Primary theme fascism-far-right over racism-white-supremacy because the pitch is mainstreaming the far right; nazism secondary for Holocaust denial and SS defence. Duke and Carto segments are substantial, so secondary."
+  }
+]

@@ -1,0 +1,146 @@
+{
+  "story_id": "james-o-keefe-the-patron-saint-of-news-grifters",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "James O'Keefe",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1984,
+        "end": null
+      }
+    },
+    {
+      "name": "Project Veritas",
+      "kind": "organization",
+      "org_type": "ngo",
+      "role": "secondary"
+    },
+    {
+      "name": "ACORN",
+      "kind": "organization",
+      "org_type": "ngo",
+      "role": "secondary"
+    }
+  ],
+  "roles": [
+    "journalist-propagandist",
+    "political-operative",
+    "activist-organizer"
+  ],
+  "themes": {
+    "primary": "propaganda-media",
+    "secondary": [
+      "electoral-politics",
+      "religious-right-culture-war",
+      "fraud-grift",
+      "tech-internet",
+      "education"
+    ]
+  },
+  "regions": {
+    "origin": [
+      "US"
+    ],
+    "setting": [
+      "US"
+    ],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": {
+      "start": 2009,
+      "end": null
+    },
+    "covered_span": {
+      "start": 1984,
+      "end": 2019
+    },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "New Jersey activist James O'Keefe built Project Veritas on deceptively edited undercover stings, from the 2009 ACORN videos to attacks on Planned Parenthood, NPR, Democrats and Google, harming targets with distorted evidence.",
+  "content_warnings": [],
+  "keywords": [
+    "ACORN sting",
+    "Rutgers University",
+    "The Centurion",
+    "Leadership Institute",
+    "Lila Rose",
+    "Hannah Giles",
+    "Mary Landrieu",
+    "Andrew Breitbart",
+    "NPR sting",
+    "Zach Vorhees"
+  ],
+  "guests": [
+    "Jack O'Brien"
+  ],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:04:45",
+      "note": "Birth in Bergen County, New Jersey; year garbled in transcript, 1984 from general knowledge"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:08:31",
+      "note": "Long segment on his Rutgers columns, campus bias complaints and founding The Centurion"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:20:11",
+      "note": "2009 Planned Parenthood phone stings with Lila Rose cost the group state funding"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:31:31",
+      "note": "2009 ACORN pimp-and-prostitute videos in eight cities; main span starts with this period"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:39:26",
+      "note": "2010 Landrieu office break-in leads to conviction and probation"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:52:22",
+      "note": "Voter-fraud stings and 2016 Clinton campaign videos forcing staffer resignations"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:10:16",
+      "note": "Pivot to Silicon Valley bias claims: Twitter, Google video and 2019 Vorhees leak"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:11:49",
+      "note": "Latest events covered are the August 2019 Google whistleblower release"
+    }
+  ],
+  "notes": "Part one of a two-part pairing; the next part is about Andy Ngo, so this story covers O'Keefe only. Transcript garbles the birth date; 1984 is from general knowledge. Project Veritas tagged ngo (it is a nonprofit), though political-org is arguable."
+}

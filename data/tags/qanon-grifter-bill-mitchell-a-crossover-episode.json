@@ -1,0 +1,142 @@
+{
+  "story_id": "qanon-grifter-bill-mitchell-a-crossover-episode",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Bill Mitchell",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": {
+        "start": 1961,
+        "end": null
+      }
+    },
+    {
+      "name": "QAnon",
+      "kind": "movement-or-ideology",
+      "role": "secondary"
+    }
+  ],
+  "roles": [
+    "influencer-online",
+    "conspiracy-theorist",
+    "media-personality"
+  ],
+  "themes": {
+    "primary": "conspiracy-theories",
+    "secondary": [
+      "electoral-politics",
+      "tech-internet",
+      "fraud-grift",
+      "propaganda-media",
+      "fascism-far-right"
+    ]
+  },
+  "regions": {
+    "origin": [
+      "US",
+      "DE"
+    ],
+    "setting": [
+      "US"
+    ],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": {
+      "start": 2015,
+      "end": null
+    },
+    "covered_span": {
+      "start": 1961,
+      "end": 2019
+    },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Bill Mitchell, a North Carolina executive recruiter, became a hugely influential pro-Trump Twitter pundit in 2016, then promoted QAnon and his own Slow Walker theory and kept a GoFundMe raised for a DC move after relocating to Miami.",
+  "content_warnings": [],
+  "keywords": [
+    "Your Voice America",
+    "Slow Walker",
+    "Nate Silver",
+    "Charlie Warzel",
+    "Yippy",
+    "Richard Granville",
+    "Digital Soldiers Conference",
+    "8chan",
+    "GoFundMe",
+    "QAnon Anonymous"
+  ],
+  "guests": [
+    "Travis View",
+    "Jake Rockatansky",
+    "Julian Feeld"
+  ],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:04:11",
+      "note": "Born around 1961 in Germany to a US Army colonel father; exact year uncertain"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:08:51",
+      "note": "Watches Trump's 2015 campaign launch and starts tweeting; main span begins here"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:13:46",
+      "note": "MIT Media Lab ranks him among the most influential Twitter accounts of the 2016 election"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:25:50",
+      "note": "Begins promoting QAnon in late 2017 and calls it harmless despite Q-inspired attacks"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:34:02",
+      "note": "2019 GoFundMe for a move to DC; he keeps the money and moves to Miami"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:43:30",
+      "note": "Slow Walker, his own knockoff of the QAnon plan narrative"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:08:06",
+      "note": "Interview segment on QAnon overlap with neo-Nazis, Proud Boys and the wider far right"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:35:34",
+      "note": "Events move from Charlotte to Miami; all action is in the US and online"
+    }
+  ],
+  "notes": "Titled a crossover with QAnon Anonymous, but it is a BtB-hosted episode built on Robert's own Bill Mitchell write-up (about 50 min), followed by a QAA radio play and an interview with Robert, so tagged deep-dive rather than crossover. Birth year given as roughly 1961. Lifespan end assumed alive."
+}

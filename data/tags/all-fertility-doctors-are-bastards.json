@@ -1,0 +1,89 @@
+{
+  "story_id": "all-fertility-doctors-are-bastards",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "btb-tagger",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Norman Barwin",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1939, "end": null }
+    },
+    {
+      "name": "Fertility fraud",
+      "kind": "practice-or-pseudoscience",
+      "role": "primary"
+    },
+    {
+      "name": "Donald Cline",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1938, "end": null }
+    },
+    {
+      "name": "Cecil Jacobson",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1936, "end": 2021 }
+    }
+  ],
+  "roles": ["physician-surgeon", "con-artist"],
+  "themes": {
+    "primary": "medical-malpractice",
+    "secondary": ["sexual-abuse", "fraud-grift", "public-health", "sports"]
+  },
+  "regions": {
+    "origin": ["ZA", "CA"],
+    "setting": ["CA", "US", "GB", "NL"],
+    "subdivisions": ["CA-ON"],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 1970, "end": 2019 },
+    "covered_span": { "start": 1939, "end": 2019 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "Survey of fertility doctors who secretly inseminated patients with their own or the wrong sperm, centred on Ottawa's Norman Barwin, who fathered dozens of children without consent, plus US cases such as Donald Cline and Cecil Jacobson in a largely unregulated industry.",
+  "content_warnings": ["sexual-violence"],
+  "keywords": [
+    "Ottawa",
+    "baby God",
+    "Boston Marathon cheating",
+    "Order of Canada",
+    "College of Physicians and Surgeons of Ontario",
+    "Assisted Human Reproduction Canada",
+    "Bertold Wiesner",
+    "Jan Karbaat",
+    "Kim McMorries",
+    "consumer DNA testing"
+  ],
+  "guests": ["Billy Wayne Davis"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "medium",
+    "themes": "high",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:04:10", "note": "Barwin story begins with his 1939 birth in South Africa; moves to Canada in the 1970s" },
+    { "facet": "time", "part": 1, "at": "00:13:12", "note": "first known wrong-sperm error at Barwin's clinic in the 1980s" },
+    { "facet": "themes", "part": 1, "at": "00:22:09", "note": "Barwin worked and taught as a gynecologist despite repeatedly failing the Canadian exam" },
+    { "facet": "themes", "part": 1, "at": "00:25:16", "note": "segment on Barwin cheating in the Boston and Ottawa marathons" },
+    { "facet": "themes", "part": 1, "at": "00:40:11", "note": "by 2019 Barwin shown to have used his own sperm on at least eleven pregnancies" },
+    { "facet": "themes", "part": 1, "at": "00:43:54", "note": "lack of regulation of fertility clinics in Canada and the US" },
+    { "facet": "subjects", "part": 1, "at": "00:46:33", "note": "Indianapolis fertility doctor Donald Cline case, 1970s-80s, 2018 plea" },
+    { "facet": "subjects", "part": 1, "at": "00:51:13", "note": "Cecil Jacobson indicted in Virginia in 1992 for using his own sperm" },
+    { "facet": "regions", "part": 1, "at": "01:01:04", "note": "Netherlands case of Jan Karbaat" },
+    { "facet": "regions", "part": 1, "at": "01:02:44", "note": "London clinic of Bertold Wiesner and Mary Barton from the 1940s" },
+    { "facet": "themes", "part": 1, "at": "00:55:21", "note": "Texas law defines this kind of fertility fraud as sexual assault" }
+  ],
+  "notes": "Transcript spells Cline as Klein; used the standard spelling. Barwin gets about half the episode, so he is co-primary with the practice itself; lifetime rule sets covered_span from his 1939 birth. Wiesner (1940s) and Karbaat get only brief segments, so they are keywords, not subjects, and do not extend the span. No dedicated theme for reproductive fraud; sexual-abuse used because the hosts and Texas law frame it as assault."
+}

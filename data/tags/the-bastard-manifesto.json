@@ -1,0 +1,79 @@
+{
+  "story_id": "the-bastard-manifesto",
+  "taxonomy_version": "0.5.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Authoritarianism",
+      "kind": "movement-or-ideology",
+      "role": "primary"
+    },
+    {
+      "name": "Ju/'hoansi (!Kung)",
+      "kind": "ethnic-group",
+      "role": "secondary"
+    },
+    {
+      "name": "Richard Borshay Lee",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1937, "end": null }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "authoritarianism",
+    "secondary": ["fascism-far-right", "science-exploration", "tech-internet"]
+  },
+  "regions": {
+    "origin": [],
+    "setting": ["BW", "US"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "global"
+  },
+  "time": {
+    "main_span": { "start": -5000, "end": -3000 },
+    "covered_span": { "start": -5000, "end": 2019 },
+    "reaches_present": true,
+    "approximate": true
+  },
+  "summary": "An essay episode in which Robert Evans draws on anthropology and neuroscience to argue that hierarchy is wired into human brains, that hunter-gatherers actively enforced equality, and that authoritarianism spread like a virus once agriculture and large societies arose.",
+  "content_warnings": [],
+  "keywords": [
+    "Bastards 101",
+    "hunter-gatherers",
+    "leveling mechanisms",
+    "Eating Christmas in the Kalahari",
+    "primitive communism",
+    "Francis Fukuyama",
+    "The End of History",
+    "Jordan Peterson",
+    "Christopher Boehm",
+    "Deleuze and Guattari"
+  ],
+  "guests": ["Jamie Loftus"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "low",
+    "time": "low"
+  },
+  "evidence": [
+    { "facet": "format", "part": 1, "at": "00:01:35", "note": "Host frames the episode as prehistory of authoritarianism rather than a single bastard" },
+    { "facet": "time", "part": 1, "at": "00:06:00", "note": "Fukuyama essay and 2018 democracy index used to frame present-day backsliding" },
+    { "facet": "time", "part": 1, "at": "00:17:26", "note": "Egalitarian hunter-gatherer ancestors and prehistoric social organisation" },
+    { "facet": "subjects", "part": 1, "at": "00:27:45", "note": "Long segment on Lee's 1970s ox gift and the Ju/'hoansi practice of mocking a hunter's meat" },
+    { "facet": "regions", "part": 1, "at": "00:28:47", "note": "Lee's fieldwork in the Kalahari, modern Botswana" },
+    { "facet": "themes", "part": 1, "at": "00:34:01", "note": "Research on power impairing empathy, tied to social media behaviour of the powerful" },
+    { "facet": "time", "part": 1, "at": "00:40:50", "note": "Theories of how agriculture, surplus and property let inequality spread" },
+    { "facet": "themes", "part": 1, "at": "00:50:45", "note": "Fascists organising online and fascism as a bottom-up molecular force" }
+  ],
+  "notes": "Essay episode with no single bastard; deep-dive chosen over meta, though it draws on the show's research. The core period is prehistory (tens of thousands of years ago to early agriculture), below the schema minimum of -5000, so spans are clamped to -5000 and marked approximate. Regions are thin: only the Kalahari fieldwork and Iroquois study get real time."
+}
