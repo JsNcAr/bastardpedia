@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useRestoreLibrary } from '@/app/queries';
 import type { LibrarySnapshot, ListenStatus } from '@/data';
 import { Icon } from '@/ui/Icon';
@@ -6,6 +7,8 @@ import { Icon } from '@/ui/Icon';
 export interface BulkOutcome {
   status: ListenStatus | null;
   snapshot: LibrarySnapshot;
+  /** Overrides the generated text, for writes that did more than one thing. */
+  message?: string;
 }
 
 const DONE: Record<'want' | 'listened' | 'none', string> = {
@@ -15,6 +18,7 @@ const DONE: Record<'want' | 'listened' | 'none', string> = {
 };
 
 const bulkMessage = (o: BulkOutcome) => {
+  if (o.message) return o.message;
   const n = o.snapshot.length;
   return `Marked ${String(n)} ${n === 1 ? 'story' : 'stories'} ${DONE[o.status ?? 'none']}.`;
 };
@@ -31,34 +35,29 @@ export function BulkResult({
   onDismiss: () => void;
 }) {
   const restore = useRestoreLibrary();
+  // Which outcome was undone: a later outcome gets its own Undo.
+  const [undone, setUndone] = useState<BulkOutcome | null>(null);
+  const isUndone = outcome !== null && undone === outcome;
   return (
     <div className="bulk-result" role="status">
       {outcome ? (
         <>
           <Icon name="check" size="sm" />
-          <span className="bulk-result-text">
-            {restore.isSuccess ? 'Undone.' : bulkMessage(outcome)}
-          </span>
-          {restore.isSuccess ? null : (
+          <span className="bulk-result-text">{isUndone ? 'Undone.' : bulkMessage(outcome)}</span>
+          {isUndone ? null : (
             <button
               type="button"
               className="button button-compact"
               disabled={restore.isPending}
-              onClick={() => restore.mutate(outcome.snapshot)}
+              onClick={() =>
+                restore.mutate(outcome.snapshot, { onSuccess: () => setUndone(outcome) })
+              }
             >
               <Icon name="rotate-ccw" size="sm" />
               Undo
             </button>
           )}
-          <button
-            type="button"
-            className="icon-button"
-            aria-label="Dismiss"
-            onClick={() => {
-              restore.reset();
-              onDismiss();
-            }}
-          >
+          <button type="button" className="icon-button" aria-label="Dismiss" onClick={onDismiss}>
             <Icon name="x" size="sm" />
           </button>
         </>

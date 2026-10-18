@@ -95,13 +95,8 @@ export function FacetRail({
     <div className="facet-rail">
       {showSearch ? <SearchBox filters={filters} onChange={onChange} /> : null}
 
+      {/* The visitor's own controls lead; the review filter is near the end. */}
       <ul className="facet-review">
-        <FacetOption
-          label="Reviewed by a person only"
-          count={reviewed}
-          checked={filters.reviewedOnly}
-          onToggle={() => onChange({ ...filters, reviewedOnly: !filters.reviewedOnly })}
-        />
         {listened.any || filters.hideListened ? (
           <FacetOption
             label="Hide stories I've listened to"
@@ -109,17 +104,16 @@ export function FacetRail({
             checked={filters.hideListened}
             onToggle={() => onChange({ ...filters, hideListened: !filters.hideListened })}
           />
-        ) : (
-          <li>
-            <Link
-              className="facet-catch-up"
-              to="/library/catch-up"
-              onClick={() => setFiltersOpen(false)}
-            >
-              Mark what you've already heard
-            </Link>
-          </li>
-        )}
+        ) : null}
+        <li>
+          <Link
+            className="facet-catch-up"
+            to="/library/catch-up"
+            onClick={() => setFiltersOpen(false)}
+          >
+            {listened.any ? 'Mark more by release date' : "Mark what you've already heard"}
+          </Link>
+        </li>
       </ul>
 
       <FacetGroup
@@ -212,6 +206,21 @@ export function FacetRail({
           noun="warnings"
           onToggle={(id) => onChange(toggleHiddenWarning(filters, id))}
         />
+      </FacetGroup>
+
+      <FacetGroup title="Review status" selected={filters.reviewedOnly ? 1 : 0}>
+        <p className="facet-hint">
+          Most stories were tagged by the tagging agent and checked automatically. Some have also
+          been reviewed by a person.
+        </p>
+        <ul className="facet-options">
+          <FacetOption
+            label="Reviewed by a person only"
+            count={reviewed}
+            checked={filters.reviewedOnly}
+            onToggle={() => onChange({ ...filters, reviewedOnly: !filters.reviewedOnly })}
+          />
+        </ul>
       </FacetGroup>
     </div>
   );

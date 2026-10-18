@@ -94,6 +94,8 @@ test('reviewed-only switch and the unreviewed marker', async ({ page, isMobile }
   await page.goto('/');
   await expect(results(page).getByText('Unreviewed', { exact: true })).toHaveCount(4);
   await withFilters(page, isMobile, async () => {
+    // A niche filter: it lives in a closed group at the end of the rail.
+    await page.getByText('Review status', { exact: true }).click();
     await tick(page, /^Reviewed by a person only/);
   });
   await expect(page).toHaveURL(/\?reviewed=1$/);
@@ -128,7 +130,7 @@ test('library: mark a story, export it, import it back', async ({ page }) => {
   await expect(want).toHaveAttribute('aria-pressed', 'true');
 
   await page.goto('/library');
-  await expect(page.getByRole('region', { name: 'Want to listen' })).toContainText('Percy Fawcett');
+  await expect(page.getByRole('group', { name: 'Want to listen' })).toContainText('Percy Fawcett');
 
   const downloading = page.waitForEvent('download');
   await page.getByRole('button', { name: 'Export to a file' }).click();
@@ -301,7 +303,9 @@ test('catch-up: mark everything up to a month, then browse the rest', async ({ p
   await page.getByRole('radio', { name: 'Everything up to a month' }).check();
   await page.getByLabel('Up to', { exact: true }).fill('2021-07');
   await expect(page.getByText(/^4 stories ticked, 7 episodes/)).toBeVisible();
-  await page.getByRole('button', { name: 'Mark 4 stories as listened' }).click();
+  const bar = page.getByRole('region', { name: 'Save changes' });
+  await expect(bar.getByText('4 to mark')).toBeVisible();
+  await bar.getByRole('button', { name: 'Save' }).click();
   await expect(page.getByText('Marked 4 stories as listened.')).toBeVisible();
   await page.getByRole('link', { name: 'Browse with listened stories hidden' }).click();
   await expect(page).toHaveURL(/hide-listened=1/);
@@ -332,4 +336,36 @@ test('phones mark a story listened with one tap', async ({ page, isMobile }) => 
   expect(Math.min(box.width, box.height)).toBeGreaterThanOrEqual(44);
   await mark.tap();
   await expect(mark).toHaveAttribute('aria-pressed', 'true');
+});
+
+test('catch-up rows: a tap on a wrapped title ticks that story', async ({ page }) => {
+  await page.goto('/library/catch-up');
+  const year = page.getByRole('region', { name: '2021' });
+  await year.getByText(/^Show the \d+ stories$/).click();
+  await expect(year.getByText(/^Hide the \d+ stories$/)).toBeVisible();
+  const box = page.getByRole('checkbox', { name: /Nestl/ });
+  await expect(box).not.toBeChecked();
+  await page.locator('.catch-story-title', { hasText: /Nestl/ }).click();
+  await expect(box).toBeChecked();
+  await expect(
+    page.getByRole('region', { name: 'Save changes' }).getByText('1 to mark'),
+  ).toBeVisible();
+});
+
+test('library: a long Listened shelf starts closed, opens and finds', async ({ page }) => {
+  await page.goto('/library/catch-up');
+  await page.getByRole('radio', { name: 'Everything so far' }).check();
+  await page
+    .getByRole('region', { name: 'Save changes' })
+    .getByRole('button', { name: 'Save' })
+    .click();
+  await expect(page.getByText('Marked 8 stories as listened.')).toBeVisible();
+  await page.getByRole('link', { name: 'See your library' }).click();
+  // 8 stories: under the collapse threshold, so the shelf is open with a quick action each.
+  const shelf = page.getByRole('group', { name: 'Listened' });
+  await expect(shelf).toHaveAttribute('open', '');
+  await expect(shelf.getByRole('button', { name: /^Listened: / })).toHaveCount(8);
+  await shelf.getByRole('button', { name: /^Listened: .*Nestl/ }).click();
+  await expect(page.getByText(/^Unmarked .*Nestl.*\.$/)).toBeVisible();
+  await expect(shelf.getByRole('button', { name: /^Listened: / })).toHaveCount(7);
 });

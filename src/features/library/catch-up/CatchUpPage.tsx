@@ -7,6 +7,7 @@ import { StateMessage } from '@/ui/StateMessage';
 import { BulkResult, type BulkOutcome } from '../BulkResult';
 import {
   byYear,
+  changes,
   monthBins,
   monthLabel,
   monthRange,
@@ -16,6 +17,7 @@ import {
   releaseBounds,
   released,
   storiesFor,
+  ticksFor,
   totals,
   type Month,
   type Preset,
@@ -31,9 +33,10 @@ const PRESETS: { id: Preset; label: string }[] = [
 ];
 
 /**
- * A first pass for longtime listeners: tick stories by release months (optional),
- * adjust the ticks by year or story, optionally leave out formats, and mark the
- * rest listened in one go, with Undo.
+ * Mark what you have heard in one pass, and come back later to add or fix: the
+ * list starts with your listened stories ticked, release months (optional) add
+ * ticks, the list adjusts them by year or story, and saving marks and unmarks
+ * the difference, with Undo.
  */
 export function CatchUpPage() {
   const catalog = useCatalog();
@@ -44,8 +47,9 @@ export function CatchUpPage() {
       </p>
       <h1 className="page-title">Catch up</h1>
       <p className="page-lead">
-        Mark everything you have already heard in one go. Tick stories by release date, by year or
-        one at a time; nothing is saved until you press the button, and you can undo it after.
+        Mark everything you have already heard in one go, or come back to add or fix marks. Stories
+        you have listened to start ticked. Nothing is saved until you press Save, and you can undo
+        it after.
       </p>
       {catalog.isPending ? (
         <StateMessage icon="library" title="Loading the catalogue" busy role="status" />
@@ -68,15 +72,17 @@ function CatchUp({ catalog }: { catalog: Catalog }) {
   const [preset, setPreset] = useState<Preset>('none');
   const [from, setFrom] = useState<Month>(first);
   const [to, setTo] = useState<Month>(last);
-  // The ticks are the selection. Step 1 replaces them; the list adjusts them.
-  const [ticked, setTicked] = useState<ReadonlySet<string>>(() => new Set());
+  // Unsaved ticks; null means "as saved", so the list follows the library.
+  const [edits, setEdits] = useState<ReadonlySet<string> | null>(null);
   const [skip, setSkip] = useState<ReadonlySet<string>>(() => new Set());
   const [outcome, setOutcome] = useState<BulkOutcome | null>(null);
+  const [saving, setSaving] = useState(false);
 
   const listened = useMemo(
     () => new Set((library.data ?? []).filter((e) => e.status === 'listened').map((e) => e.id)),
     [library.data],
   );
+  const ticked = edits ?? listened;
   const bins = useMemo(
     () => monthBins(catalog.stories, first, last),
     [catalog.stories, first, last],
@@ -87,31 +93,51 @@ function CatchUp({ catalog }: { catalog: Catalog }) {
     return counts;
   }, [catalog.stories]);
 
-  /** Step 1: a new release-date choice ticks exactly the stories it covers. */
+  /** Step 1: a release-date choice ticks the stories it covers, on top of what is listened. */
   const choose = (next: { preset: Preset; from: Month; to: Month }) => {
     setPreset(next.preset);
     setFrom(next.from);
     setTo(next.to);
     const covered = storiesFor(catalog.stories, { ...next, skipFormats: new Set() }, first, last);
-    setTicked(new Set(covered.map((s) => s.id)));
+    setEdits(ticksFor(listened, covered));
   };
 
-  // Left-out formats are hidden from the list and never marked; their ticks are kept.
+  // Left-out formats are hidden from the list and neither marked nor unmarked.
   const shown = all.filter((s) => !skip.has(s.format));
-  const picked = shown.filter((s) => ticked.has(s.id) || listened.has(s.id));
-  const toMark = picked.filter((s) => !listened.has(s.id));
-  const sum = totals(picked);
-  const already = picked.length - toMark.length;
+  const { mark, unmark } = changes(shown, ticked, listened);
+  const sum = totals(shown.filter((s) => ticked.has(s.id)));
+  const pending = mark.length + unmark.length;
 
   const toggle = (ids: string[], on: boolean) =>
-    setTicked((prev) => {
-      const next = new Set(prev);
+    setEdits((prev) => {
+      const next = new Set(prev ?? listened);
       for (const id of ids) {
         if (on) next.add(id);
         else next.delete(id);
       }
       return next;
     });
+
+  const save = async () => {
+    setSaving(true);
+    try {
+      const marked = mark.length ? await bulk.mutateAsync({ ids: mark, status: 'listened' }) : [];
+      const cleared = unmark.length ? await bulk.mutateAsync({ ids: unmark, status: null }) : [];
+      const parts = [
+        mark.length ? `marked ${plural(mark.length)} as listened` : '',
+        unmark.length ? `unmarked ${plural(unmark.length)}` : '',
+      ].filter(Boolean);
+      const text = parts.join(' and ');
+      setOutcome({
+        status: 'listened',
+        snapshot: [...marked, ...cleared],
+        message: `${text.charAt(0).toUpperCase()}${text.slice(1)}.`,
+      });
+      setEdits(null);
+    } finally {
+      setSaving(false);
+    }
+  };
 
   const monthField = (label: string, value: Month, set: (m: Month) => void) => (
     <label className="year-field">
@@ -137,7 +163,8 @@ function CatchUp({ catalog }: { catalog: Catalog }) {
           1. Tick by release date <span className="catch-optional">(optional)</span>
         </h2>
         <p className="catch-hint">
-          Choosing here replaces the ticks in the list below. Skip it to tick stories yourself.
+          Choosing here ticks the stories released in those months, on top of the ones you have
+          already marked. Skip it to tick stories yourself.
         </p>
         <fieldset className="catch-presets">
           <legend className="visually-hidden">Release dates</legend>
@@ -186,8 +213,7 @@ function CatchUp({ catalog }: { catalog: Catalog }) {
         <p className="catch-summary" aria-live="polite">
           {sum.stories === 1 ? '1 story' : `${String(sum.stories)} stories`} ticked, {sum.episodes}{' '}
           {sum.episodes === 1 ? 'episode' : 'episodes'}, about {sum.hours}{' '}
-          {sum.hours === 1 ? 'hour' : 'hours'}
-          {already > 0 ? `. ${String(already)} already marked listened.` : '.'}
+          {sum.hours === 1 ? 'hour' : 'hours'}.
         </p>
         {shown.length === 0 ? (
           <p className="catch-empty">Every format is left out in step 3.</p>
@@ -214,7 +240,7 @@ function CatchUp({ catalog }: { catalog: Catalog }) {
         </h2>
         <fieldset className="catch-formats">
           <legend className="catch-hint">
-            Untick a format to hide its stories from the list and leave them unmarked.
+            Untick a format to hide its stories from the list. Saving leaves them as they are.
           </legend>
           {catalog.vocab.formats
             .filter((f) => formatCounts.has(f.id))
@@ -240,34 +266,7 @@ function CatchUp({ catalog }: { catalog: Catalog }) {
         </fieldset>
       </section>
 
-      <section className="catch-step" aria-labelledby="catch-confirm">
-        <h2 id="catch-confirm" className="section-title">
-          4. Save
-        </h2>
-        <button
-          type="button"
-          className="button button-primary"
-          disabled={toMark.length === 0 || bulk.isPending || !library.isSuccess}
-          onClick={() => {
-            const ids = toMark.map((s) => s.id);
-            bulk.mutate(
-              { ids, status: 'listened' },
-              { onSuccess: (snapshot) => setOutcome({ status: 'listened', snapshot }) },
-            );
-          }}
-        >
-          {toMark.length === 1
-            ? 'Mark 1 story as listened'
-            : `Mark ${String(toMark.length)} stories as listened`}
-        </button>
-        {toMark.length === 0 && !outcome ? (
-          <p className="catch-hint">Tick stories above, by release date or by hand.</p>
-        ) : null}
-        {bulk.isError ? (
-          <p className="field-error" role="alert">
-            Saving failed: your browser may be blocking site storage.
-          </p>
-        ) : null}
+      <section className="catch-done" aria-label="Saved">
         <BulkResult outcome={outcome} onDismiss={() => setOutcome(null)} />
         {outcome ? (
           <p className="catch-next">
@@ -275,7 +274,48 @@ function CatchUp({ catalog }: { catalog: Catalog }) {
             <Link to="/library">See your library</Link>
           </p>
         ) : null}
+        {bulk.isError ? (
+          <p className="field-error" role="alert">
+            Saving failed: your browser may be blocking site storage.
+          </p>
+        ) : null}
       </section>
+
+      {/* Save stays in reach while the list scrolls. */}
+      <div className="select-bar catch-save-bar" role="region" aria-label="Save changes">
+        <p className="select-count" aria-live="polite">
+          {pending === 0
+            ? 'No changes yet'
+            : [
+                mark.length ? `${String(mark.length)} to mark` : '',
+                unmark.length ? `${String(unmark.length)} to unmark` : '',
+              ]
+                .filter(Boolean)
+                .join(', ')}
+        </p>
+        {edits ? (
+          <button
+            type="button"
+            className="button button-compact button-quiet"
+            onClick={() => {
+              setEdits(null);
+              setPreset('none');
+            }}
+          >
+            Reset
+          </button>
+        ) : null}
+        <button
+          type="button"
+          className="button button-compact button-primary catch-save"
+          disabled={pending === 0 || saving || !library.isSuccess}
+          onClick={() => void save()}
+        >
+          Save
+        </button>
+      </div>
     </>
   );
 }
+
+const plural = (n: number) => (n === 1 ? '1 story' : `${String(n)} stories`);

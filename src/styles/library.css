@@ -1,5 +1,47 @@
 .shelf {
-  margin-top: var(--space-8);
+  margin-top: var(--space-6);
+  border-top: var(--size-hairline) solid var(--color-border-subtle);
+}
+
+/* A shelf is a disclosure: title, count and a chevron in a full-width row. */
+.shelf-summary {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: var(--size-tap);
+  padding: var(--space-2) 0;
+  cursor: pointer;
+  list-style: none;
+}
+
+.shelf-summary::-webkit-details-marker {
+  display: none;
+}
+
+.shelf-summary:hover .shelf-title {
+  color: var(--color-accent-text);
+}
+
+.shelf-title {
+  margin: 0;
+}
+
+.shelf-summary .facet-chevron {
+  margin-inline-start: auto;
+}
+
+.shelf[open] .facet-chevron {
+  transform: rotate(180deg);
+}
+
+.shelf-find {
+  margin-top: var(--space-2);
+}
+
+.library-tools {
+  margin-bottom: var(--space-3);
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
 }
 
 .shelf-count {
@@ -15,9 +57,21 @@
 
 .shelf-item {
   display: grid;
-  gap: var(--space-1);
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  gap: var(--space-3);
   padding: var(--space-3) 0;
   border-bottom: var(--size-hairline) solid var(--color-border-subtle);
+}
+
+.shelf-text {
+  display: grid;
+  gap: var(--space-1);
+  min-width: 0;
+}
+
+.shelf-toggle[aria-pressed='true'] {
+  color: var(--color-accent-text);
 }
 
 .shelf-item a {

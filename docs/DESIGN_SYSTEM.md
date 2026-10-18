@@ -161,20 +161,31 @@ run `npm run icons`.
     ends; `j` / `k` move between the checkboxes. The selection is UI state, not
     a filter, so it stays out of the URL, and it survives filter changes.
     Escape leaves the mode when no story pane is open;
-  - **catch-up page** (`/library/catch-up`): the list always shows every
-    story, starting unticked. Step 1, ticking by release date, is optional:
-    a preset, the month fields or a drag on the stories-per-month chart
-    replaces the ticks with the stories released in those months. The list
-    then adjusts them per year or per story. Leaving out formats is an
-    optional last step that hides those stories and leaves them unmarked;
+  - **catch-up page** (`/library/catch-up`): every story is listed and the
+    stories already listened start ticked, so the page also fixes marks
+    later. Step 1, ticking by release date, is optional: a preset, the month
+    fields or a drag on the stories-per-month chart adds the stories released
+    in those months, never unticking a listened one. Each story row is a
+    label (a tap anywhere toggles it), ruled apart, with the box on the
+    title's first line and ticked rows tinted. Leaving out formats is an
+    optional last step. A sticky bar counts what will be marked and unmarked
+    and saves both in one step with a single Undo;
+  - **library shelves:** open by default and collapsible by their heading. A
+    long shelf lists its first 10 stories (most recent first by default),
+    then Show all, with a find box past 20. Each item has a quick action
+    beside its link (Listened on the want list, unmark on Listened,
+    unfavourite) with Undo, and focus moves to the next item;
   - **writes:** a bulk mark is one transaction that keeps favourites and
     notes, and moves want-list stories to listened;
   - **undo:** every bulk mark reports in a status region with Undo, which
     restores the exact earlier marks. It stays until dismissed, never on a
     timer;
   - **discovery:** a card on the Library page while fewer than 10 stories are
-    listened, and a link in the filter rail where "Hide listened" appears once
-    something is marked. No popups.
+    listened, then a permanent tools line; a link at the top of the filter
+    rail (always); a link after a backup import. No popups.
+- **The review filter** ("Reviewed by a person only") is a niche option: it
+  sits in a closed "Review status" group at the end of the rail, opening by
+  itself when the filter is on.
 - Agent-only records carry a quiet "Unreviewed" badge: present, never alarming.
 - Empty, loading and error states use `StateMessage` with a plain explanation
   and a next step.

@@ -1,6 +1,7 @@
 import { sampleCatalog } from '@/test/catalog';
 import {
   byYear,
+  changes,
   monthBins,
   monthLabel,
   monthOf,
@@ -9,6 +10,7 @@ import {
   parseMonth,
   releaseBounds,
   storiesFor,
+  ticksFor,
   totals,
   type CatchUpChoice,
 } from './catch-up-logic';
@@ -83,5 +85,30 @@ describe('catch-up logic', () => {
       [2026, 2],
     ]);
     expect(totals(all)).toEqual({ stories: 8, episodes: 13, hours: 14 });
+  });
+
+  it('adds release-date ticks to what is listened, and splits a save into marks and unmarks', () => {
+    const listened = new Set(['sample-nestle', 'sample-percy-fawcett']);
+    const covered = storiesFor(
+      stories,
+      choice({ preset: 'until', to: monthOf('2020-12-01') }),
+      first,
+      last,
+    );
+    const ticks = ticksFor(listened, covered);
+    expect([...ticks].sort()).toEqual([
+      'sample-henry-morton-stanley',
+      'sample-l-ron-hubbard',
+      'sample-nestle',
+      'sample-percy-fawcett',
+    ]);
+    ticks.delete('sample-percy-fawcett');
+    expect(changes(stories, ticks, listened)).toEqual({
+      mark: ['sample-henry-morton-stanley', 'sample-l-ron-hubbard'],
+      unmark: ['sample-percy-fawcett'],
+    });
+    // Stories left out (a hidden format) are neither marked nor unmarked.
+    const shown = stories.filter((s) => s.id !== 'sample-percy-fawcett');
+    expect(changes(shown, ticks, listened).unmark).toEqual([]);
   });
 });

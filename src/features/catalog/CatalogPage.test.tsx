@@ -188,4 +188,19 @@ describe('catalogue page', () => {
     renderApp('/stories/nope', sampleCatalog);
     expect(await screen.findByRole('heading', { name: 'Story not found' })).toBeInTheDocument();
   });
+
+  it('keeps the review filter in a closed group near the end of the rail', async () => {
+    const first = renderApp('/', sampleCatalog);
+    await screen.findByRole('heading', { name: 'The catalogue' });
+    const group = screen.getByText('Review status').closest('details');
+    expect(group).not.toHaveAttribute('open');
+    const groups = [...document.querySelectorAll('.facet-rail details.facet-group')];
+    expect(groups.at(-1)).toBe(group);
+    first.unmount();
+
+    renderApp('/?reviewed=1', sampleCatalog);
+    await screen.findByRole('heading', { name: 'The catalogue' });
+    expect(screen.getByText('Review status').closest('details')).toHaveAttribute('open');
+    expect(screen.getByRole('checkbox', { name: /Reviewed by a person only/ })).toBeChecked();
+  });
 });

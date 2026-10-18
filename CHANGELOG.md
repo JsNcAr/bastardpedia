@@ -26,6 +26,10 @@ logged in `docs/TAXONOMY.md` and called out here when they affect the app.
 - Marking many stories at once: a one-tap Listened toggle on every row, a
   select mode in the catalogue, and a catch-up page that marks everything
   released in chosen months, all with Undo.
+- Library shelves list 10 at a time with Show all and a find box, collapse, and have quick
+  actions with Undo. The catch-up can also unmark, has readable rows on phones
+  and a sticky Save, and stays reachable after the first pass or an import.
+  The review filter moved to the end of the filter rail.
 - CI, generated Caddy configuration and the release script.
 - `deploy/deploy.sh`: build and publish a commit from a checkout on the
   server, with the deploy user's own Node from `.nvmrc`.

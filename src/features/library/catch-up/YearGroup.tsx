@@ -4,8 +4,8 @@ import type { CatalogStory } from '@shared/schemas/catalog.ts';
 
 /**
  * One release year in the catch-up list: a checkbox for the whole year (mixed
- * when only some are ticked), and the stories behind a disclosure, each with its
- * own checkbox. Stories already listened show as done and can't be changed.
+ * when only some are ticked), and the stories behind a disclosure. Each story row
+ * is a label, so a tap anywhere on it toggles its box; Open is a sibling link.
  */
 export function YearGroup({
   year,
@@ -22,13 +22,13 @@ export function YearGroup({
   monthOf: (s: CatalogStory) => string;
   onToggle: (ids: string[], on: boolean) => void;
 }) {
-  const open = stories.filter((s) => !listened.has(s.id));
-  const count = open.filter((s) => ticked.has(s.id)).length;
-  const all = count === open.length;
+  const count = stories.filter((s) => ticked.has(s.id)).length;
+  const all = count === stories.length;
   const box = useRef<HTMLInputElement>(null);
   useEffect(() => {
     if (box.current) box.current.indeterminate = count > 0 && !all;
   }, [count, all]);
+  const noun = stories.length === 1 ? 'story' : 'stories';
 
   return (
     <section className="catch-year" aria-label={String(year)}>
@@ -36,53 +36,52 @@ export function YearGroup({
         <input
           ref={box}
           type="checkbox"
-          checked={open.length > 0 && all}
-          disabled={open.length === 0}
+          checked={all}
           onChange={(e) =>
             onToggle(
-              open.map((s) => s.id),
+              stories.map((s) => s.id),
               e.currentTarget.checked,
             )
           }
         />
         <span className="catch-year-title">All of {year}</span>
         <span className="catch-year-count">
-          {count + stories.length - open.length} of {stories.length}
+          {count} of {stories.length}
         </span>
       </label>
       <details className="catch-year-list">
         <summary>
-          Show the {stories.length} {stories.length === 1 ? 'story' : 'stories'}
+          <span className="catch-when-closed">
+            Show the {stories.length} {noun}
+          </span>
+          <span className="catch-when-open">
+            Hide the {stories.length} {noun}
+          </span>
         </summary>
         <ul>
-          {stories.map((s) => {
-            const done = listened.has(s.id);
-            return (
-              <li key={s.id} className="catch-story">
+          {stories.map((s) => (
+            <li key={s.id} className="catch-story">
+              <label className="catch-story-pick">
                 <input
                   type="checkbox"
-                  id={`catch-${s.id}`}
-                  checked={done || ticked.has(s.id)}
-                  disabled={done}
+                  checked={ticked.has(s.id)}
                   onChange={(e) => onToggle([s.id], e.currentTarget.checked)}
                 />
-                <label htmlFor={`catch-${s.id}`} className="catch-story-title">
-                  {s.title}
-                </label>
+                <span className="catch-story-title">{s.title}</span>
                 <span className="catch-story-meta">
                   {monthOf(s)}
-                  {done ? ' · already listened' : ''}
+                  {listened.has(s.id) ? <span className="catch-badge">Listened</span> : null}
                 </span>
-                <Link
-                  className="catch-story-link"
-                  to={`/stories/${s.id}`}
-                  aria-label={`Open ${s.title}`}
-                >
-                  Open
-                </Link>
-              </li>
-            );
-          })}
+              </label>
+              <Link
+                className="catch-story-link"
+                to={`/stories/${s.id}`}
+                aria-label={`Open ${s.title}`}
+              >
+                Open
+              </Link>
+            </li>
+          ))}
         </ul>
       </details>
     </section>

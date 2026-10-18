@@ -122,3 +122,26 @@ export function totals(stories: readonly CatalogStory[]): {
 /** Every story, oldest first: the catch-up list always shows them all. */
 export const oldestFirst = (stories: readonly CatalogStory[]) =>
   [...stories].sort((a, b) => a.first_published.localeCompare(b.first_published));
+
+/**
+ * What saving the catch-up does: mark the ticked stories that aren't listened yet,
+ * unmark the listened ones left unticked. Only `shown` stories count, so a
+ * left-out format is neither marked nor unmarked.
+ */
+export function changes(
+  shown: readonly CatalogStory[],
+  ticked: ReadonlySet<string>,
+  listened: ReadonlySet<string>,
+): { mark: string[]; unmark: string[] } {
+  const mark: string[] = [];
+  const unmark: string[] = [];
+  for (const s of shown) {
+    if (ticked.has(s.id) && !listened.has(s.id)) mark.push(s.id);
+    else if (!ticked.has(s.id) && listened.has(s.id)) unmark.push(s.id);
+  }
+  return { mark, unmark };
+}
+
+/** A release-date choice adds to what is already listened; it never unticks. */
+export const ticksFor = (listened: ReadonlySet<string>, covered: readonly CatalogStory[]) =>
+  new Set([...listened, ...covered.map((s) => s.id)]);
