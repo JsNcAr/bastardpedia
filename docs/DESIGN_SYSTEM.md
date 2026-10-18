@@ -170,11 +170,11 @@ run `npm run icons`.
     title's first line and ticked rows tinted. Leaving out formats is an
     optional last step. A sticky bar counts what will be marked and unmarked
     and saves both in one step with a single Undo;
-  - **library shelves:** collapsible; up to 10 stories start open, longer
-    shelves start closed. An open shelf lists 20, then Show all, with a find
-    box past 20. Each item has a quick action beside its link (Listened on the
-    want list, unmark on Listened, unfavourite) with Undo, and focus moves to
-    the next item;
+  - **library shelves:** open by default and collapsible by their heading. A
+    long shelf lists its first 10 stories (most recent first by default),
+    then Show all, with a find box past 20. Each item has a quick action
+    beside its link (Listened on the want list, unmark on Listened,
+    unfavourite) with Undo, and focus moves to the next item;
   - **writes:** a bulk mark is one transaction that keeps favourites and
     notes, and moves want-list stories to listened;
   - **undo:** every bulk mark reports in a status region with Undo, which

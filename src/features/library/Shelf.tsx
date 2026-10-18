@@ -4,18 +4,15 @@ import type { LibraryEntry } from '@/data';
 import { FIND_FROM, matchesQuery } from '@/features/catalog/facet-list';
 import { Icon } from '@/ui/Icon';
 
-/** Stories listed before "Show all" on a long shelf. */
-export const SHELF_LIMIT = 20;
-
-/** Shelves up to this size start open; longer ones start collapsed. */
-export const OPEN_UP_TO = 10;
+/** Stories listed before "Show all": the first ones in the chosen sort (recent first by default). */
+export const SHELF_LIMIT = 10;
 
 export type ShelfKind = 'want' | 'favourite' | 'listened' | 'note';
 
 /**
- * One library shelf: collapsible, the first 20 stories then "Show all", a find
- * box when it is long, and a quick action beside each story (a sibling of its
- * link, never inside it).
+ * One library shelf: open, and collapsible by its heading. A long shelf lists its
+ * first 10 stories then "Show all", with a find box past 20, and each story has a
+ * quick action beside it (a sibling of its link, never inside it).
  */
 export function Shelf({
   title,
@@ -32,8 +29,6 @@ export function Shelf({
   busy: boolean;
   onAction: (kind: ShelfKind, entry: LibraryEntry, name: string) => void;
 }) {
-  // Read once: a shelf that grows past the limit later doesn't snap shut.
-  const [startOpen] = useState(() => entries.length <= OPEN_UP_TO);
   const [showAll, setShowAll] = useState(false);
   const [query, setQuery] = useState('');
   if (entries.length === 0) return null;
@@ -43,7 +38,7 @@ export function Shelf({
   const shown = query || showAll ? found : found.slice(0, SHELF_LIMIT);
 
   return (
-    <details className="shelf" open={startOpen} aria-label={title}>
+    <details className="shelf" open aria-label={title}>
       <summary className="shelf-summary">
         <h2 className="section-title shelf-title">{title}</h2>
         <span className="shelf-count">{entries.length}</span>

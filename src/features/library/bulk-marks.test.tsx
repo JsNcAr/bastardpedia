@@ -208,7 +208,7 @@ describe('finding the catch-up', () => {
 });
 
 describe('library shelves', () => {
-  it('collapse when long, list 20 then Show all, and find within a shelf', async () => {
+  it('start open, list 10 then Show all, collapse, and find within a shelf', async () => {
     const user = userEvent.setup();
     const library = freshLibrary();
     const gone = Array.from({ length: 24 }, (_, i) => `gone-${String(i).padStart(2, '0')}`);
@@ -219,10 +219,8 @@ describe('library shelves', () => {
     const want = await screen.findByRole('group', { name: 'Want to listen' });
     const listened = screen.getByRole('group', { name: 'Listened' });
     expect(want).toHaveAttribute('open');
-    expect(listened).not.toHaveAttribute('open');
-
-    await user.click(within(listened).getByText('Listened'));
-    expect(within(listened).getAllByRole('listitem')).toHaveLength(20);
+    expect(listened).toHaveAttribute('open');
+    expect(within(listened).getAllByRole('listitem')).toHaveLength(10);
     await user.click(within(listened).getByRole('button', { name: 'Show all 25' }));
     expect(within(listened).getAllByRole('listitem')).toHaveLength(25);
 
@@ -231,6 +229,10 @@ describe('library shelves', () => {
       'NESTLE',
     );
     expect(within(listened).getAllByRole('listitem')).toHaveLength(1);
+
+    // The heading still collapses it.
+    await user.click(within(listened).getByText('Listened'));
+    expect(listened).not.toHaveAttribute('open');
   });
 
   it('marks a want-list story listened from its shelf, with Undo', async () => {
