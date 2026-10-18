@@ -1,6 +1,7 @@
 import { fireEvent, screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { createLibraryRepository, emptyEntry } from '@/data/library';
+import { toBackup } from './backup';
 import { sampleCatalog } from '@/test/catalog';
 import { renderApp } from '@/test/render';
 
@@ -102,75 +103,148 @@ describe('select mode', () => {
 });
 
 describe('catch-up page', () => {
-  it('starts with nothing ticked, and a release-date choice re-ticks the list', async () => {
+  it('starts from what is listened, adds by release date, and saves marks and unmarks', async () => {
     const user = userEvent.setup();
     const library = freshLibrary();
-    await library.put({ ...emptyEntry('sample-henry-morton-stanley'), status: 'listened' });
+    await library.put({
+      ...emptyEntry('sample-henry-morton-stanley'),
+      status: 'listened',
+      note: 'keep',
+    });
+    await library.put({ ...emptyEntry('sample-nestle'), status: 'listened' });
     renderApp('/library/catch-up', sampleCatalog, library);
     await screen.findByRole('heading', { name: 'Catch up' });
     const summary = () => document.querySelector('.catch-summary')?.textContent ?? '';
-    await waitFor(() => expect(summary()).toMatch(/^1 story ticked.*1 already marked listened/));
-    expect(screen.getByRole('button', { name: 'Mark 0 stories as listened' })).toBeDisabled();
+    const bar = await screen.findByRole('region', { name: 'Save changes' });
+    await waitFor(() => expect(summary()).toMatch(/^2 stories ticked/));
+    expect(within(bar).getByText('No changes yet')).toBeInTheDocument();
+    expect(within(bar).getByRole('button', { name: 'Save' })).toBeDisabled();
 
-    // Step 1 is optional: a story can be ticked by hand.
-    const year2026 = screen.getByRole('region', { name: '2026' });
-    await user.click(within(year2026).getByRole('checkbox', { name: /All of 2026/ }));
-    expect(screen.getByRole('button', { name: 'Mark 2 stories as listened' })).toBeEnabled();
-
-    // A release-date choice replaces the ticks, so the 2026 ticks go.
+    // A release-date choice adds to the listened stories; it never unticks them.
     await user.click(screen.getByRole('radio', { name: 'Everything up to a month' }));
     fireEvent.change(screen.getByLabelText('Up to', { selector: 'input[type="month"]' }), {
       target: { value: '2021-07' },
     });
-    expect(summary()).toMatch(/^4 stories ticked, 7 episodes, about 7 hours/);
-    expect(within(year2026).getByRole('checkbox', { name: /All of 2026/ })).not.toBeChecked();
-
-    // 2021 is mixed (Nestle came out in September): one click ticks the whole
-    // year, a second unticks it.
-    const year2021 = screen.getByRole('region', { name: '2021' });
-    const all2021 = within(year2021).getByRole('checkbox', { name: /All of 2021/ });
-    await user.click(all2021);
     expect(summary()).toMatch(/^5 stories ticked/);
-    await user.click(all2021);
-    expect(summary()).toMatch(/^2 stories ticked/);
-    await user.click(all2021);
+    expect(within(bar).getByText('3 to mark')).toBeInTheDocument();
 
-    // Step 3: leaving out a format hides its stories and leaves them unmarked.
+    // A tap on a story's title toggles its box: untick Nestle, which is listened.
+    const nestle = screen.getByRole('checkbox', { name: /Nestl/ });
+    expect(nestle).toBeChecked();
+    await user.click(screen.getByText(/Nestl/, { selector: '.catch-story-title' }));
+    expect(nestle).not.toBeChecked();
+    expect(within(bar).getByText('3 to mark, 1 to unmark')).toBeInTheDocument();
+
+    // A left-out format is neither marked nor unmarked.
     await user.click(screen.getByRole('checkbox', { name: /Reading \/ watching/ }));
-    expect(summary()).toMatch(/^4 stories ticked/);
+    expect(within(bar).getByText('2 to mark, 1 to unmark')).toBeInTheDocument();
 
-    await user.click(screen.getByRole('button', { name: 'Mark 3 stories as listened' }));
-    expect(await screen.findByText('Marked 3 stories as listened.')).toBeInTheDocument();
+    await user.click(within(bar).getByRole('button', { name: 'Save' }));
+    expect(
+      await screen.findByText('Marked 2 stories as listened and unmarked 1 story.'),
+    ).toBeInTheDocument();
     expect(await statuses(library)).toEqual({
       'sample-henry-morton-stanley': 'listened',
       'sample-l-ron-hubbard': 'listened',
-      'sample-nestle': 'listened',
       'sample-triangle-shirtwaist-fire': 'listened',
     });
-    expect(
-      screen.getByRole('link', { name: 'Browse with listened stories hidden' }),
-    ).toHaveAttribute('href', '/?hide-listened=1');
+    expect((await library.get('sample-henry-morton-stanley'))?.note).toBe('keep');
+    await waitFor(() => expect(within(bar).getByText('No changes yet')).toBeInTheDocument());
+
+    // One Undo restores both halves.
+    await user.click(screen.getByRole('button', { name: 'Undo' }));
+    expect(await screen.findByText('Undone.')).toBeInTheDocument();
+    expect(await statuses(library)).toEqual({
+      'sample-henry-morton-stanley': 'listened',
+      'sample-nestle': 'listened',
+    });
   });
 });
 
 describe('finding the catch-up', () => {
-  it('is offered on the Library page and in the rail until stories are marked', async () => {
+  it('stays reachable from the rail, the Library and an import', async () => {
+    const user = userEvent.setup();
     const library = freshLibrary();
     const first = renderApp('/library', sampleCatalog, library);
     expect(await screen.findByText('Already a listener?')).toBeInTheDocument();
+
+    // Importing a backup points to the catch-up to check the result.
+    const backup = toBackup([{ ...emptyEntry('sample-nestle'), status: 'listened' }]);
+    const input = document.querySelector<HTMLInputElement>('input[type="file"]')!;
+    await user.upload(
+      input,
+      new File([JSON.stringify(backup)], 'backup.json', { type: 'application/json' }),
+    );
+    expect(await screen.findByRole('link', { name: 'Check them in Catch up' })).toHaveAttribute(
+      'href',
+      '/library/catch-up',
+    );
     first.unmount();
 
+    // The rail keeps a link once something is listened.
     const second = renderApp('/', sampleCatalog, library);
-    expect(
-      await screen.findByRole('link', { name: "Mark what you've already heard" }),
-    ).toHaveAttribute('href', '/library/catch-up');
-    second.unmount();
-
-    await library.setStatusMany(['sample-nestle'], 'listened');
-    renderApp('/', sampleCatalog, library);
     expect(
       await screen.findByRole('checkbox', { name: /Hide stories I've listened to/ }),
     ).toBeInTheDocument();
-    expect(screen.queryByRole('link', { name: "Mark what you've already heard" })).toBeNull();
+    expect(screen.getByRole('link', { name: 'Mark more by release date' })).toHaveAttribute(
+      'href',
+      '/library/catch-up',
+    );
+    second.unmount();
+
+    // With many listened, the Library swaps the intro card for a tools line.
+    await library.setStatusMany(
+      sampleCatalog.stories.map((s) => s.id),
+      'listened',
+    );
+    await library.setStatusMany(
+      Array.from({ length: 4 }, (_, i) => `gone-${String(i)}`),
+      'listened',
+    );
+    renderApp('/library', sampleCatalog, library);
+    expect(await screen.findByText(/Mark or fix many at once/)).toBeInTheDocument();
+    expect(screen.queryByText('Already a listener?')).toBeNull();
+  });
+});
+
+describe('library shelves', () => {
+  it('collapse when long, list 20 then Show all, and find within a shelf', async () => {
+    const user = userEvent.setup();
+    const library = freshLibrary();
+    const gone = Array.from({ length: 24 }, (_, i) => `gone-${String(i).padStart(2, '0')}`);
+    await library.setStatusMany([...gone, 'sample-nestle'], 'listened');
+    await library.put({ ...emptyEntry('sample-percy-fawcett'), status: 'want' });
+    renderApp('/library', sampleCatalog, library);
+
+    const want = await screen.findByRole('group', { name: 'Want to listen' });
+    const listened = screen.getByRole('group', { name: 'Listened' });
+    expect(want).toHaveAttribute('open');
+    expect(listened).not.toHaveAttribute('open');
+
+    await user.click(within(listened).getByText('Listened'));
+    expect(within(listened).getAllByRole('listitem')).toHaveLength(20);
+    await user.click(within(listened).getByRole('button', { name: 'Show all 25' }));
+    expect(within(listened).getAllByRole('listitem')).toHaveLength(25);
+
+    await user.type(
+      within(listened).getByRole('searchbox', { name: 'Find in Listened' }),
+      'NESTLE',
+    );
+    expect(within(listened).getAllByRole('listitem')).toHaveLength(1);
+  });
+
+  it('marks a want-list story listened from its shelf, with Undo', async () => {
+    const user = userEvent.setup();
+    const library = freshLibrary();
+    await library.put({ ...emptyEntry('sample-percy-fawcett'), status: 'want' });
+    renderApp('/library', sampleCatalog, library);
+    await user.click(
+      await screen.findByRole('button', { name: /^Mark listened: .*Percy Fawcett/ }),
+    );
+    expect(await screen.findByText(/^Marked .*Percy Fawcett.* as listened\.$/)).toBeInTheDocument();
+    expect(await statuses(library)).toEqual({ 'sample-percy-fawcett': 'listened' });
+    await user.click(screen.getByRole('button', { name: 'Undo' }));
+    expect(await screen.findByText('Undone.')).toBeInTheDocument();
+    expect(await statuses(library)).toEqual({ 'sample-percy-fawcett': 'want' });
   });
 });

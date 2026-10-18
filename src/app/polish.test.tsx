@@ -27,7 +27,7 @@ describe('polish', () => {
     expect(await screen.findByText(/0 of 8 stories listened · 2 to listen/)).toBeInTheDocument();
     await user.click(screen.getByRole('button', { name: 'Title' }));
     expect(router.state.location.search).toBe('?sort=title');
-    const shelf = screen.getByRole('region', { name: 'Want to listen' });
+    const shelf = screen.getByRole('group', { name: 'Want to listen' });
     expect(
       within(shelf)
         .getAllByRole('link')

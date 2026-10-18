@@ -1,9 +1,12 @@
 import { Link, useSearchParams } from 'react-router';
-import { useCatalog, useLibrary } from '@/app/queries';
-import type { LibraryEntry } from '@/data';
+import { useState } from 'react';
+import { useBulkStatus, useCatalog, useLibrary, useSaveLibraryEntry } from '@/app/queries';
+import { isBlank, type LibraryEntry } from '@/data';
 import { Icon } from '@/ui/Icon';
 import { StateMessage } from '@/ui/StateMessage';
+import { BulkResult, type BulkOutcome } from './BulkResult';
 import { LibraryBackup } from './LibraryBackup';
+import { Shelf, type ShelfKind } from './Shelf';
 import {
   LIBRARY_SORTS,
   libraryProgress,
@@ -21,42 +24,6 @@ const SORT_LABELS: Record<LibrarySort, string> = {
 /** Below this many listened stories, the Library offers the catch-up page. */
 const CATCH_UP_BELOW = 10;
 
-function Shelf({
-  title,
-  entries,
-  titles,
-}: {
-  title: string;
-  entries: LibraryEntry[];
-  titles: Map<string, string>;
-}) {
-  if (entries.length === 0) return null;
-  return (
-    <section className="shelf" aria-label={title}>
-      <h2 className="section-title">
-        {title} <span className="shelf-count">{entries.length}</span>
-      </h2>
-      <ul className="shelf-list">
-        {entries.map((e) => {
-          const name = titles.get(e.id);
-          return (
-            <li key={e.id} className="shelf-item">
-              {name ? (
-                <Link to={`/stories/${e.id}`}>{name}</Link>
-              ) : (
-                <span>
-                  {e.id} <span className="shelf-missing">(no longer in the catalogue)</span>
-                </span>
-              )}
-              {e.note ? <p className="shelf-note">{e.note}</p> : null}
-            </li>
-          );
-        })}
-      </ul>
-    </section>
-  );
-}
-
 export function LibraryPage() {
   const library = useLibrary();
   const catalog = useCatalog();
@@ -66,12 +33,58 @@ export function LibraryPage() {
   const titles = new Map([...stories.values()].map((s) => [s.id, s.title]));
   const entries = sortEntries(library.data ?? [], sort, stories);
   const progress = libraryProgress(entries, stories);
+  // Every listened entry counts here, also stories no longer in the catalogue.
+  const heard = entries.filter((e) => e.status === 'listened').length;
+  const bulk = useBulkStatus();
+  const save = useSaveLibraryEntry();
+  const [outcome, setOutcome] = useState<BulkOutcome | null>(null);
+
+  // Quick actions on shelf items, each with Undo through the same snapshot.
+  const act = (kind: ShelfKind, entry: LibraryEntry, name: string) => {
+    if (kind === 'favourite') {
+      const next = { ...entry, favourite: false };
+      save.mutate(
+        { entry: next, blank: isBlank(next) },
+        {
+          onSuccess: () =>
+            setOutcome({
+              status: entry.status,
+              snapshot: [{ id: entry.id, before: entry }],
+              message: `Removed ${name} from favourites.`,
+            }),
+        },
+      );
+      return;
+    }
+    const status = kind === 'want' ? 'listened' : null;
+    bulk.mutate(
+      { ids: [entry.id], status },
+      {
+        onSuccess: (snapshot) =>
+          setOutcome({
+            status,
+            snapshot,
+            message: status ? `Marked ${name} as listened.` : `Unmarked ${name}.`,
+          }),
+      },
+    );
+  };
+  const shelf = (title: string, kind: ShelfKind, list: LibraryEntry[]) => (
+    <Shelf
+      title={title}
+      kind={kind}
+      entries={list}
+      titles={titles}
+      busy={bulk.isPending || save.isPending}
+      onAction={act}
+    />
+  );
 
   return (
     <div className="page page-narrow">
       <h1 className="page-title">Your library</h1>
       <p className="page-lead">Saved in this browser only. Clearing site data removes it.</p>
-      {library.isSuccess && progress.listened < CATCH_UP_BELOW ? (
+      {library.isSuccess && heard < CATCH_UP_BELOW ? (
         <aside className="callout catch-up-card" aria-labelledby="catch-up-title">
           <Icon name="calendar-check" />
           <div>
@@ -110,6 +123,12 @@ export function LibraryPage() {
               {progress.favourites} {progress.favourites === 1 ? 'favourite' : 'favourites'}
             </p>
           ) : null}
+          {heard >= CATCH_UP_BELOW ? (
+            <p className="library-tools">
+              Mark or fix many at once: <Link to="/library/catch-up">Catch up</Link>, or Select in
+              the <Link to="/">catalogue</Link>.
+            </p>
+          ) : null}
           <div className="segmented" role="group" aria-label="Sort your library">
             {LIBRARY_SORTS.map((o) => (
               <button
@@ -123,22 +142,27 @@ export function LibraryPage() {
               </button>
             ))}
           </div>
-          <Shelf
-            title="Want to listen"
-            entries={entries.filter((e) => e.status === 'want')}
-            titles={titles}
-          />
-          <Shelf title="Favourites" entries={entries.filter((e) => e.favourite)} titles={titles} />
-          <Shelf
-            title="Listened"
-            entries={entries.filter((e) => e.status === 'listened')}
-            titles={titles}
-          />
-          <Shelf
-            title="Notes only"
-            entries={entries.filter((e) => e.status === null && !e.favourite && e.note)}
-            titles={titles}
-          />
+          <BulkResult outcome={outcome} onDismiss={() => setOutcome(null)} />
+          {shelf(
+            'Want to listen',
+            'want',
+            entries.filter((e) => e.status === 'want'),
+          )}
+          {shelf(
+            'Favourites',
+            'favourite',
+            entries.filter((e) => e.favourite),
+          )}
+          {shelf(
+            'Listened',
+            'listened',
+            entries.filter((e) => e.status === 'listened'),
+          )}
+          {shelf(
+            'Notes only',
+            'note',
+            entries.filter((e) => e.status === null && !e.favourite && e.note),
+          )}
         </>
       )}
       {library.isSuccess ? <LibraryBackup hasEntries={entries.length > 0} /> : null}

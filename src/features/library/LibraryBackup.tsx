@@ -1,12 +1,14 @@
 import { useQueryClient } from '@tanstack/react-query';
 import { useRef, useState, type ChangeEvent } from 'react';
+import { Link } from 'react-router';
 import { keys, useData } from '@/app/queries';
 import { Icon } from '@/ui/Icon';
 import { BackupError, backupFileName, parseBackup, toBackup } from './backup';
 
 const EPOCH = '1970-01-01T00:00:00.000Z';
 
-type Outcome = { kind: 'done'; text: string } | { kind: 'error'; text: string } | null;
+type Outcome =
+  { kind: 'done'; text: string; imported?: boolean } | { kind: 'error'; text: string } | null;
 
 /** Export the library to a JSON file and merge one back in, newest edit winning. */
 export function LibraryBackup({ hasEntries }: { hasEntries: boolean }) {
@@ -42,6 +44,7 @@ export function LibraryBackup({ hasEntries }: { hasEntries: boolean }) {
       const kept = backup.entries.length - written;
       setOutcome({
         kind: 'done',
+        imported: written > 0,
         text:
           `Imported ${String(written)} of ${String(backup.entries.length)} entries.` +
           (kept > 0
@@ -102,6 +105,12 @@ export function LibraryBackup({ hasEntries }: { hasEntries: boolean }) {
         role={outcome?.kind === 'error' ? 'alert' : 'status'}
       >
         {outcome?.text}
+        {outcome?.kind === 'done' && outcome.imported ? (
+          <>
+            {' '}
+            <Link to="/library/catch-up">Check them in Catch up</Link>
+          </>
+        ) : null}
       </p>
     </section>
   );
