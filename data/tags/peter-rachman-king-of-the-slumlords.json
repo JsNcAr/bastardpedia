@@ -1,0 +1,90 @@
+{
+  "story_id": "peter-rachman-king-of-the-slumlords",
+  "taxonomy_version": "0.7.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-11-03"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Peter Rachman",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1919, "end": 1962 }
+    },
+    {
+      "name": "1958 Notting Hill race riots",
+      "kind": "event",
+      "role": "secondary"
+    },
+    {
+      "name": "Profumo affair",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["business-executive", "criminal-killer"],
+  "themes": {
+    "primary": "inequality-class",
+    "secondary": [
+      "racism-white-supremacy",
+      "finance-crypto",
+      "immigration-borders",
+      "organized-crime",
+      "propaganda-media",
+      "nazism"
+    ]
+  },
+  "regions": {
+    "origin": ["UA", "PL"],
+    "setting": ["GB", "UA", "RU", "PL"],
+    "subdivisions": ["GB-ENG"],
+    "polities": ["british-empire", "soviet-union"],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1950, "end": 1963 },
+    "covered_span": { "start": 1919, "end": 1965 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "Polish-Jewish refugee and gulag survivor Peter Rachman became a Notting Hill slumlord in 1950s London, using thugs and racial tensions to drive out rent-protected tenants; after his 1962 death the press made his name a byword for abusive landlords.",
+  "content_warnings": ["mass-atrocity"],
+  "keywords": [
+    "Rachmanism",
+    "Notting Hill",
+    "Lviv",
+    "Windrush generation",
+    "Mandy Rice-Davies",
+    "Christine Keeler",
+    "Michael de Freitas (Michael X)",
+    "Nicholas van Hoogstraten",
+    "Rent Act 1965",
+    "Anders Army"
+  ],
+  "guests": ["Kevin Foster"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "high"
+  },
+  "evidence": [
+    { "facet": "time", "part": 1, "at": "00:04:51", "note": "Born to a Jewish family in Lviv, then Poland, in August 1919" },
+    { "facet": "regions", "part": 1, "at": "00:25:40", "note": "Captured by Soviet forces and sent to forced forestry labour in Siberia" },
+    { "facet": "content_warnings", "part": 1, "at": "00:30:48", "note": "1941 Lviv pogrom, Janowska and Belzec as the likely fates of his family" },
+    { "facet": "regions", "part": 1, "at": "00:31:49", "note": "Released under the Sikorski-Maisky deal, joins Anders Army via Tashkent and Iran" },
+    { "facet": "regions", "part": 1, "at": "00:38:11", "note": "Polish Resettlement Corps in 1946; settles in Britain as a stateless resident" },
+    { "facet": "time", "part": 1, "at": "00:44:52", "note": "Soho underworld ties and a property office job from late 1950 start his landlording" },
+    { "facet": "themes", "part": 2, "at": "00:03:44", "note": "Windrush arrivals, 1948 nationality law and the colour bar in London rentals" },
+    { "facet": "themes", "part": 2, "at": "00:13:59", "note": "Former enforcers describe dogs, boxers and violent evictions in later court cases" },
+    { "facet": "subjects", "part": 2, "at": "00:29:27", "note": "1958 Notting Hill riots and how slum housing and the far right fed them" },
+    { "facet": "time", "part": 2, "at": "00:40:23", "note": "Falls ill after a casino night and dies in November 1962" },
+    { "facet": "themes", "part": 2, "at": "00:43:08", "note": "1963 exposes and Profumo coverage scapegoat him once libel risk is gone" },
+    { "facet": "time", "part": 2, "at": "00:57:19", "note": "1964 Commons debate leads to the 1965 Rent Act and Race Relations Act" }
+  ],
+  "notes": "Transcript spells the name Rockman; standard spelling Rachman used. Covered span ends 1965 with the laws passed in his name; the closing look at rent policy and today's UK housing shortage sets reaches_present. Origin lists UA (Lviv today) and PL (his nationality). Electoral politics (Labour using him against the Macmillan government) and his WWII army service get shorter segments and were left out of themes."
+}

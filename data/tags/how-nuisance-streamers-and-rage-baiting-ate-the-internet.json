@@ -1,0 +1,102 @@
+{
+  "story_id": "how-nuisance-streamers-and-rage-baiting-ate-the-internet",
+  "taxonomy_version": "0.7.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-11-03"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Nuisance streaming",
+      "kind": "movement-or-ideology",
+      "role": "primary"
+    },
+    {
+      "name": "Ice Poseidon",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1995, "end": null }
+    },
+    {
+      "name": "Chud the Builder",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": null }
+    },
+    {
+      "name": "Johnny Somali",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": null, "end": null }
+    },
+    {
+      "name": "Vitaly Zdorovetskiy",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1992, "end": null }
+    }
+  ],
+  "roles": [],
+  "themes": {
+    "primary": "tech-internet",
+    "secondary": [
+      "racism-white-supremacy",
+      "policing-incarceration",
+      "entertainment-celebrity",
+      "propaganda-media",
+      "fraud-grift"
+    ]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US", "KR", "JP", "TH", "AU"],
+    "subdivisions": [],
+    "polities": [],
+    "scope": "international"
+  },
+  "time": {
+    "main_span": { "start": 2016, "end": null },
+    "covered_span": { "start": 2011, "end": 2026 },
+    "reaches_present": true,
+    "approximate": false
+  },
+  "summary": "How live streamers and prank YouTubers, from Ice Poseidon and Vitaly Zdorovetskiy to Johnny Somali and Chud the Builder, turned harassing, racially abusing and provoking strangers in public into a profitable business, from 2011 to a 2026 Tennessee shooting.",
+  "content_warnings": ["hate-speech", "sexual-violence", "suicide-self-harm"],
+  "keywords": [
+    "rage bait",
+    "Twitch",
+    "Kick",
+    "Paul Denino",
+    "Dalton Eatherly",
+    "Logan Paul",
+    "Aokigahara",
+    "sushi terrorism",
+    "comfort women statue",
+    "CXCoin"
+  ],
+  "guests": ["Jason Pargin"],
+  "confidence": {
+    "subjects": "medium",
+    "roles": "high",
+    "themes": "medium",
+    "regions": "medium",
+    "time": "medium"
+  },
+  "evidence": [
+    { "facet": "subjects", "part": 1, "at": "00:08:16", "note": "Chud the Builder's origin and racist confrontation streams in Tennessee" },
+    { "facet": "time", "part": 1, "at": "00:18:50", "note": "May 2026 courthouse shooting of a Black veteran by Chud, latest event covered" },
+    { "facet": "time", "part": 1, "at": "00:42:53", "note": "Twitch launches in 2011, treated as start of professional live streaming" },
+    { "facet": "time", "part": 1, "at": "00:53:40", "note": "Ice Poseidon starts IRL streaming with Pokemon Go in summer 2016" },
+    { "facet": "themes", "part": 1, "at": "00:56:10", "note": "fans swat Ice Poseidon repeatedly and phone in a bomb threat on his flight" },
+    { "facet": "themes", "part": 2, "at": "00:01:53", "note": "attention economy segment, Musk and Trump as attention-driven figures" },
+    { "facet": "themes", "part": 2, "at": "00:22:54", "note": "Ice Poseidon's CXCoin crypto rug pull exposed by Coffeezilla" },
+    { "facet": "subjects", "part": 2, "at": "00:25:44", "note": "Vitaly's prank career, racist fake-cop prank arrest, assault on a jogger" },
+    { "facet": "content_warnings", "part": 2, "at": "00:44:16", "note": "Queensland stream where a sex worker is blocked from leaving; arrests follow" },
+    { "facet": "regions", "part": 2, "at": "00:43:46", "note": "Ice Poseidon crew arrested in Bangkok hotel incident, 2023" },
+    { "facet": "regions", "part": 2, "at": "00:51:03", "note": "Johnny Somali's provocations and convictions in Japan" },
+    { "facet": "regions", "part": 2, "at": "00:56:06", "note": "Johnny Somali in South Korea, comfort women statue, prosecution and jailing" }
+  ],
+  "notes": "Primary is the phenomenon, so no roles. Jenny Cam (1996) is a precursor segment of about 3 minutes, under the airtime bar, so covered_span starts at Twitch's 2011 launch. Transcript spells Chud's name Etherly; reported spelling is Eatherly. Ice Poseidon's birth year inferred from his age (23) in 2018. Israel, France, Egypt and Switzerland mentioned only briefly."
+}
