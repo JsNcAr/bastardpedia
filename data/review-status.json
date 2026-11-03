@@ -1,11 +1,23 @@
 {
+  "alexander-lukashenko-the-dictator-of-belarus": {
+    "status": "reviewed",
+    "date": "2026-10-18"
+  },
   "ancient-genocide-and-the-war-on-carthage": {
     "status": "reviewed",
     "date": "2026-10-17"
   },
+  "bashar-al-assad-the-eye-doctor-who-murdered-a-nation": {
+    "status": "reviewed",
+    "date": "2026-10-18"
+  },
   "christopher-columbus-bringer-of-the-apocalypse": {
     "status": "reviewed",
     "date": "2026-10-17"
+  },
+  "duterte-the-mass-murdering-mayor": {
+    "status": "reviewed",
+    "date": "2026-10-18"
   },
   "francis-galton-inventor-of-eugenics": {
     "status": "reviewed",
@@ -15,9 +27,17 @@
     "status": "reviewed",
     "date": "2026-10-17"
   },
+  "heinrich-schliemann-the-archaeologist-who-destroyed-troy": {
+    "status": "reviewed",
+    "date": "2026-10-16"
+  },
   "how-eliza-fraser-survived-a-shipwreck-and-sparked-a-genocide": {
     "status": "reviewed",
     "date": "2026-10-17"
+  },
+  "how-exxon-chevron-and-their-buddies-killed-the-world": {
+    "status": "reviewed",
+    "date": "2026-10-18"
   },
   "how-heinrich-himmler-went-from-nerdy-boy-to-master-of-the-ss": {
     "status": "reviewed",
@@ -27,17 +47,45 @@
     "status": "reviewed",
     "date": "2026-10-17"
   },
+  "how-nestle-starved-a-bunch-of-babies": {
+    "status": "reviewed",
+    "date": "2026-10-16"
+  },
   "in-honor-of-our-new-monarchy-let-s-talk-about-versailles": {
     "status": "reviewed",
     "date": "2026-10-17"
+  },
+  "jair-bolsonaro-the-president-who-promised-to-kill-30-000-people": {
+    "status": "reviewed",
+    "date": "2026-10-18"
   },
   "king-leopold-ii-the-first-modern-bastard": {
     "status": "reviewed",
     "date": "2026-10-17"
   },
+  "kissinger": {
+    "status": "reviewed",
+    "date": "2026-10-16"
+  },
+  "percy-fawcett-real-life-indiana-jones-or-deluded-psychic-racist": {
+    "status": "reviewed",
+    "date": "2026-10-16"
+  },
+  "qaddafi-his-bizarre-sci-fi-stories-childhood-hate-crimes-and-amazonian-bodyguard-fetish": {
+    "status": "reviewed",
+    "date": "2026-10-18"
+  },
   "robert-e-lee-a-lifetime-of-failure": {
     "status": "reviewed",
     "date": "2026-10-17"
+  },
+  "saddam-hussein-erotic-novelist": {
+    "status": "reviewed",
+    "date": "2026-10-18"
+  },
+  "the-cocaine-queen-of-miami": {
+    "status": "reviewed",
+    "date": "2026-10-18"
   },
   "the-first-shah-of-iran": {
     "status": "reviewed",
@@ -46,6 +94,10 @@
   "the-pol-pot-episodes-how-a-nice-quiet-kid-murdered-his-country": {
     "status": "reviewed",
     "date": "2026-10-17"
+  },
+  "the-russian-scientist-who-helped-kill-30-million-people": {
+    "status": "reviewed",
+    "date": "2026-10-18"
   },
   "the-slavery-loving-fascist-who-built-modern-japan": {
     "status": "reviewed",
@@ -58,5 +110,9 @@
   "the-zizians-how-harry-potter-fanfic-inspired-a-death-cult": {
     "status": "reviewed",
     "date": "2026-10-17"
+  },
+  "turkmenbashi-the-dictator-who-declared-himself-jesus": {
+    "status": "reviewed",
+    "date": "2026-10-18"
   }
 }
