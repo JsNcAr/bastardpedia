@@ -13877,6 +13877,42 @@
         "title": "Part One: Dennis Hastert: The Longest-Serving Republican Speaker of the House",
         "part": 1,
         "published": "2026-11-03T10:00:00+00:00"
+      },
+      {
+        "guid": "b232779c-fa59-4669-b4f6-b4f801834b2e",
+        "title": "Part Two: Dennis Hastert: The Longest-Serving Republican Speaker of the House",
+        "part": 2,
+        "published": "2026-11-05T10:00:00+00:00"
+      }
+    ],
+    "reruns": []
+  },
+  {
+    "id": "it-could-happen-here-weekly-257",
+    "kind": "ichh_weekly",
+    "subject_title": "It Could Happen Here Weekly 257",
+    "first_published": "2026-11-07T05:00:00+00:00",
+    "parts": [
+      {
+        "guid": "5aeafab2-a749-46fe-8587-b4fa006b89e0",
+        "title": "It Could Happen Here Weekly 257",
+        "part": 1,
+        "published": "2026-11-07T05:00:00+00:00"
+      }
+    ],
+    "reruns": []
+  },
+  {
+    "id": "don-simpson-the-producer-of-top-gun-also-ruined-hollywood",
+    "kind": "episode",
+    "subject_title": "Don Simpson: The Producer of Top Gun Also Ruined Hollywood",
+    "first_published": "2026-11-10T10:00:00+00:00",
+    "parts": [
+      {
+        "guid": "2bd81600-cd28-4fca-9582-b4fd016e07ab",
+        "title": "Part One: Don Simpson: The Producer of Top Gun Also Ruined Hollywood",
+        "part": 1,
+        "published": "2026-11-10T10:00:00+00:00"
       }
     ],
     "reruns": []
