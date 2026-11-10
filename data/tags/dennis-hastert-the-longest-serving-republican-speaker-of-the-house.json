@@ -1,0 +1,144 @@
+{
+  "story_id": "dennis-hastert-the-longest-serving-republican-speaker-of-the-house",
+  "taxonomy_version": "0.7.0",
+  "tagged_by": {
+    "agent": "claude-code-subagent",
+    "model": "claude-opus-5-5",
+    "date": "2026-11-10"
+  },
+  "format": "deep-dive",
+  "subjects": [
+    {
+      "name": "Dennis Hastert",
+      "kind": "person",
+      "role": "primary",
+      "lifespan": { "start": 1942, "end": 2026 }
+    },
+    {
+      "name": "Tom DeLay",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1947, "end": null }
+    },
+    {
+      "name": "Newt Gingrich",
+      "kind": "person",
+      "role": "secondary",
+      "lifespan": { "start": 1943, "end": null }
+    },
+    {
+      "name": "Mark Foley congressional page scandal",
+      "kind": "event",
+      "role": "secondary"
+    }
+  ],
+  "roles": ["politician-official", "criminal-killer", "athlete-sports"],
+  "themes": {
+    "primary": "electoral-politics",
+    "secondary": ["child-abuse", "sports", "religious-right-culture-war", "fraud-grift"]
+  },
+  "regions": {
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-IL"],
+    "polities": [],
+    "scope": "national"
+  },
+  "time": {
+    "main_span": { "start": 1970, "end": 2016 },
+    "covered_span": { "start": 1942, "end": 2026 },
+    "reaches_present": false,
+    "approximate": true
+  },
+  "summary": "Illinois wrestling coach Dennis Hastert sexually abused teenage boys he coached, then rose to become the longest-serving Republican Speaker of the House (1999-2007), presiding over a surge in congressional corruption before hush-money payments exposed him.",
+  "content_warnings": ["child-abuse"],
+  "keywords": [
+    "Hastert Rule",
+    "Yorkville High School",
+    "Wheaton College",
+    "Contract with America",
+    "Patriot Act",
+    "House banking scandal",
+    "Jack Abramoff",
+    "Sibel Edmonds",
+    "Armenian genocide resolution",
+    "hush money structuring"
+  ],
+  "guests": ["Miles Gray"],
+  "confidence": {
+    "subjects": "high",
+    "roles": "medium",
+    "themes": "medium",
+    "regions": "high",
+    "time": "medium"
+  },
+  "evidence": [
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:02:58",
+      "note": "Speaker 1999-2007; death on 3 October 2026 stated"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:04:27",
+      "note": "birth date given as 2 January 1942"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:29:40",
+      "note": "earliest known victim was the 1970 team equipment manager"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:31:12",
+      "note": "team captain's court testimony on being abused at 17; another victim abused from age 14"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:34:34",
+      "note": "state championship 1976, coach of the year, national wrestling coaches' association"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:16:49",
+      "note": "evangelical Wheaton College pledge and religion studies segment"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:29:28",
+      "note": "Clinton impeachment, Livingston and Gingrich affairs lead to Hastert's selection as Speaker"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:09:50",
+      "note": "extended background on Tom DeLay as Hastert's mentor and partner as whip"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:57:05",
+      "note": "land bought near highway he earmarked, sold for a $3M+ share"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:59:19",
+      "note": "Foley's harassment of pages and Hastert ignoring warnings"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:04:05",
+      "note": "2015 FBI probe into structured hush-money payments; 15-month sentence, released 2017"
+    }
+  ],
+  "notes": "Primary theme could equally be child-abuse; electoral-politics chosen because most airtime is his political career. No theme for political corruption, so fraud-grift stands in (low fit). sexual-abuse omitted: victims were 14-17, with only a hedged mention of one at 18. From memory: DeLay and Gingrich birth years, 2016 sentencing year, and the spelling Sibel Edmonds (transcript renders it Sybil)."
+}
