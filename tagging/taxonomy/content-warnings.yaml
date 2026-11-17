@@ -1,16 +1,63 @@
-# Optional warnings for hard material. 0-6 per story.
-# Apply a warning when the story spends real time on the thing (several minutes, or a vivid or
-# explicit account). A passing mention, or the topic merely existing in the background, is not
-# enough.
+# Optional warnings for hard material, at two levels.
+#
+# content_warnings (0-6 per story): the story spends real time on the thing (several minutes, or
+# a vivid or explicit account). A passing mention, or the topic merely existing in the
+# background, is not enough. This rule applies to every warning.
+#
+# content_mentions (0-6 per story): only for warnings marked `strict: true`, the topics people
+# most often avoid altogether. Any mention by the hosts counts, however brief: a passing
+# reference, an aside, a joke or a figurative use of the word. Ad reads and promos for other
+# shows don't count. A warning goes in one list or the other, never both: detailed wins.
+#
+# `scan` lists the word patterns (regular expressions, case-insensitive, whole words) the
+# packet's automatic scan looks for. A scan hit is only a candidate: the tagger checks each one
+# in context. The scan can't catch a mention phrased without these words, so read for those too.
 facet: content_warnings
 cardinality: 0-6
 values:
   - id: sexual-violence
     label: Sexual violence
-    definition: Detailed accounts of rape, sexual assault or sexual coercion of adults.
+    definition: >-
+      Rape, sexual assault, sexual coercion, sex trafficking, sexual harassment or unwanted
+      sexual touching, where the victims are adults.
+    strict: true
+    scan:
+      - 'rap(e|ed|es|ing|ist|ists)'
+      - 'sexual(ly)? (assault\w*|abus\w*|coerc\w*|violence|harass\w*|exploit\w*)'
+      - 'sex(ual)? traffick\w*'
+      - 'sex slave\w*'
+      - 'molest\w*'
+      - 'grop(e|ed|es|ing)'
+      - 'non-?consensual'
+      - 'forced (himself|themselves) on'
+  - id: child-sexual-abuse
+    label: Child sexual abuse
+    definition: Sexual abuse or sexual exploitation of anyone under 18, including grooming and child marriage.
+    strict: true
+    scan:
+      - 'p(a)?edophil\w*'
+      - 'pedos?'
+      - 'child (molest\w*|rap(e|ed|es|ist|ists)|porn\w*|traffick\w*)'
+      - 'child sex(ual)? (abuse\w*|exploitation|traffick\w*)'
+      - 'molest\w*'
+      - 'statutory rape'
+      - 'underage (girls?|boys?|kids?|victims?|sex)'
+      - 'groom(ed|ing|er|ers)'
+      - 'child (bride|brides|marriage)'
+      - 'incest\w*'
+      - 'csam'
   - id: child-abuse
     label: Child abuse
-    definition: Detailed accounts of physical, sexual or emotional abuse of children.
+    definition: >-
+      Physical or emotional abuse, cruelty or neglect of children, by parents or institutions.
+      Sexual abuse of children is child-sexual-abuse.
+    strict: true
+    scan:
+      - 'child (abuse\w*|neglect)'
+      - 'abused (as a )?(child|kid|boy|girl)'
+      - '(beat|beats|beating|whipped|whipping|tortured|starved|abused|locked) (his|her|their|the) (son|sons|daughter|daughters|kid|kids|child|children|stepson|stepdaughter)'
+      - 'troubled[- ]teen'
+      - 'corporal punishment'
   - id: child-death
     label: Death of children
     definition: Detailed accounts of children or infants dying, including from starvation, neglect or disease.
@@ -28,13 +75,29 @@ values:
     definition: Detailed accounts of massacres, genocide or death camps.
   - id: suicide-self-harm
     label: Suicide & self-harm
-    definition: Discussion of a specific suicide, suicide method or self-harm.
+    definition: A suicide, a suicide attempt, a suicide method or self-harm.
+    strict: true
+    scan:
+      - 'suicid\w*'
+      - 'kill(s|ed|ing)? (himself|herself|themselves|myself|yourself)'
+      - '(hang|hanged|hangs|shot|shoots) (himself|herself|themselves)'
+      - 'took (his|her|their) own li(fe|ves)'
+      - 'self[- ]harm\w*'
+      - 'slit (his|her|their) wrists'
+      - 'overdosed? on purpose'
   - id: medical-horror
     label: Medical horror
     definition: Graphic descriptions of surgery, experimentation on people or medical injury.
   - id: animal-cruelty
     label: Animal cruelty
-    definition: Detailed descriptions of animals being harmed or killed.
+    definition: Animals being deliberately harmed, tortured or killed.
+    strict: true
+    scan:
+      - 'animal (cruelty|abuse|torture)'
+      - '(killed|kills|killing|tortured|torturing|poisoned|beat|beating|skinned|drowned|kicked|shot|strangled) (a|the|his|her|their|some)? ?(dog|dogs|cat|cats|puppy|puppies|kitten|kittens|horse|horses|animal|animals|pet|pets|monkey|monkeys)'
+      - '(dog|cock)[- ]?fight\w*'
+      - 'vivisect\w*'
+      - 'bestiality'
   - id: drug-use
     label: Drug use & overdose
     definition: Detailed accounts of drug use, addiction or fatal overdose.

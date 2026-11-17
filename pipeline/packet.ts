@@ -3,8 +3,9 @@
  *
  *   node pipeline/packet.ts <story-id>     # writes data/packets/<story-id>.md and prints the path
  *
- * Contents: ids and versions, every part's title and description, the transcripts, and
- * the full taxonomy YAML. Missing transcripts are downloaded first.
+ * Contents: ids and versions, every part's title and description, the transcripts, the word
+ * scan for strict content warnings (read from the full transcripts, even when the packet only
+ * shows samples), and the full taxonomy YAML. Missing transcripts are downloaded first.
  *
  * Transcripts go in whole while the story fits in PACKET_WORDS. A longer story gets an
  * equal share per part, filled with evenly spaced blocks of about BLOCK_WORDS words from
@@ -18,9 +19,12 @@ import { loadEpisodes, loadStories } from './lib/io.ts';
 import { PACKETS_DIR } from './lib/paths.ts';
 import { loadTaxonomy } from './lib/taxonomy.ts';
 import { ensureTranscript, readTranscript } from './lib/transcripts.ts';
+import { scanRules, scanStory, type ScanHit, type ScanRule } from './lib/warning-scan.ts';
 
 export const PACKET_WORDS = 60_000;
 export const BLOCK_WORDS = 600;
+/** Scan hits listed per warning; the rest are counted. */
+export const SCAN_HITS_SHOWN = 30;
 
 const wordCount = (text: string) => text.match(/\S+/g)?.length ?? 0;
 
@@ -69,6 +73,38 @@ export function sampleWords(text: string, n: number): { excerpt: string; sampled
     last = i;
   }
   return { excerpt: out.join('\n\n'), sampled: true };
+}
+
+/** The packet section listing scan candidates for each strict warning. */
+export function scanSection(
+  hits: ReadonlyMap<string, ScanHit[]>,
+  rules: readonly ScanRule[],
+): string[] {
+  const out = [
+    '## Possible mentions (automatic word scan)',
+    '',
+    'Every transcript was scanned in full for the strict warnings in content-warnings.yaml. Each',
+    'line is a candidate, not a finding: check it in context. Drop ad reads, promos for other',
+    'shows and false matches (a word used in another sense). A real mention, including a joke or',
+    'a figurative use, puts the warning in `content_mentions`; if the story spends real time on',
+    'it, use `content_warnings` instead. The scan only knows these words, so read for mentions',
+    'phrased in other ways too.',
+    '',
+  ];
+  for (const rule of rules) {
+    const list = hits.get(rule.id) ?? [];
+    out.push(`### ${rule.label} (\`${rule.id}\`): ${String(list.length)} candidates`, '');
+    if (list.length === 0) {
+      out.push('No matches.', '');
+      continue;
+    }
+    for (const h of list.slice(0, SCAN_HITS_SHOWN))
+      out.push(`- Part ${String(h.part)}, ${h.at}: ${h.context}`);
+    if (list.length > SCAN_HITS_SHOWN)
+      out.push(`- (${String(list.length - SCAN_HITS_SHOWN)} more not shown)`);
+    out.push('');
+  }
+  return out;
 }
 
 async function main(): Promise<void> {
@@ -139,6 +175,9 @@ async function main(): Promise<void> {
       '',
     );
   }
+
+  const rules = scanRules(taxonomy);
+  out.push(...scanSection(scanStory(texts, rules), rules));
 
   out.push('## Taxonomy', '', `Version ${taxonomy.version}. Use only ids that appear below.`, '');
   for (const file of TAXONOMY_FILES)

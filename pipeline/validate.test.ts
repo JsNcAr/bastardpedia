@@ -105,4 +105,19 @@ describe('validate-tags', () => {
     rec.time.covered_span = { start: 1867, end: 1920 };
     expect(validate(rec, ID).errors.join(' ')).toContain('covered_span must contain main_span');
   });
+
+  it('accepts brief mentions of strict warnings only, never repeating a detailed one', () => {
+    const ok = { ...fixture(), content_mentions: ['suicide-self-harm', 'child-sexual-abuse'] };
+    expect(errorsOf(ok)).toBe('');
+    const notStrict = { ...fixture(), content_mentions: ['graphic-violence'] };
+    expect(errorsOf(notStrict)).toMatch(/not a strict warning/);
+    const both = {
+      ...fixture(),
+      content_warnings: ['animal-cruelty'],
+      content_mentions: ['animal-cruelty'],
+    };
+    expect(errorsOf(both)).toMatch(/already a detailed warning/);
+    const dup = { ...fixture(), content_mentions: ['sexual-violence', 'sexual-violence'] };
+    expect(errorsOf(dup)).toMatch(/duplicate content mentions/);
+  });
 });
