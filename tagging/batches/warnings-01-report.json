@@ -1,0 +1,121 @@
+[
+  {
+    "id": "the-darien-gap-where-dreams-die",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence"],
+      "mentions": ["child-sexual-abuse"]
+    },
+    "notes": "Rape and assault also recur briefly later in Mexico updates (01:48, 02:27, 02:58, 03:04)."
+  },
+  {
+    "id": "andrew-tate-update",
+    "before": {
+      "warnings": ["child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "child-abuse"]
+    },
+    "notes": "Reviewer: child-abuse was a detailed warning; the father segment runs about 00:14-00:16 with a callback at 00:43, so I judged it a mention. Trafficking charges are discussed without scan words; consider sexual-violence detailed if that part is long."
+  },
+  {
+    "id": "the-man-who-pioneered-libraries-and-sexual-harassment",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "The 'daughter' at 00:54 is his daughter-in-law, an adult, so no child-sexual-abuse."
+  },
+  {
+    "id": "peter-attia-and-the-cult-of-longevity",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["child-sexual-abuse"]
+    },
+    "notes": "Part 2 Epstein segment (about 01:00-01:08) is about Attia's ties, not the abuse itself; no scan hits there. Host also discusses Epstein supplying young women to men (01:05); I filed it under child-sexual-abuse, not sexual-violence."
+  },
+  {
+    "id": "jack-idema-the-war-on-terror-s-dumbest-grifter",
+    "before": {
+      "warnings": ["torture"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["torture"],
+      "mentions": ["sexual-violence"]
+    }
+  },
+  {
+    "id": "jimmy-savile-britain-s-unending-nightmare",
+    "before": {
+      "warnings": ["child-abuse", "sexual-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-sexual-abuse"],
+      "mentions": ["child-abuse", "suicide-self-harm"]
+    },
+    "notes": "Old child-abuse warning was sexual abuse of children; moved to child-sexual-abuse. Non-sexual child abuse is only brief (school beatings), so a mention."
+  },
+  {
+    "id": "elan-school-the-worst-troubled-teen-facility",
+    "before": {
+      "warnings": ["child-abuse", "torture", "child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse", "child-abuse", "child-death", "torture"],
+      "mentions": ["sexual-violence", "suicide-self-harm", "animal-cruelty"]
+    },
+    "notes": "Child abuse also covered at length 01:09 (part 1) and through part 2. The knife scene at 01:08 is vivid; reviewer may prefer suicide-self-harm detailed."
+  },
+  {
+    "id": "how-l-ron-hubbard-lied-his-way-to-godhood",
+    "before": {
+      "warnings": ["suicide-self-harm", "child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "suicide-self-harm"],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "child-sexual-abuse is speculation and a comparison only; the host says no allegations were found."
+  },
+  {
+    "id": "kissinger",
+    "before": {
+      "warnings": ["mass-atrocity", "hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["mass-atrocity", "hate-speech"],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    },
+    "notes": "Bangladesh mass rape gets about two short passages (00:35, 00:54-00:55); I judged it a mention, but the scale may justify detailed."
+  },
+  {
+    "id": "percy-fawcett-real-life-indiana-jones-or-deluded-psychic-racist",
+    "before": {
+      "warnings": ["child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Leading his son to death in the jungle is not tagged as child-abuse here; the warning rests on the school segment (00:23-00:29)."
+  }
+]

@@ -51,15 +51,9 @@
     ]
   },
   "regions": {
-    "origin": [
-      "US"
-    ],
-    "setting": [
-      "US"
-    ],
-    "subdivisions": [
-      "US-ME"
-    ],
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-ME"],
     "polities": [],
     "scope": "national"
   },
@@ -76,11 +70,8 @@
     "approximate": false
   },
   "summary": "Elan School, a for-profit troubled-teen facility founded by Joe Ricci in Maine in the early 1970s, controlled minors through peer surveillance, public humiliation and beatings in a boxing ring until it closed in 2011.",
-  "content_warnings": [
-    "child-abuse",
-    "torture",
-    "child-death"
-  ],
+  "content_warnings": ["child-sexual-abuse", "child-abuse", "child-death", "torture"],
+  "content_mentions": ["sexual-violence", "suicide-self-harm", "animal-cruelty"],
   "keywords": [
     "troubled teen industry",
     "Poland Spring",
@@ -93,9 +84,7 @@
     "Synanon",
     "Corrections magazine"
   ],
-  "guests": [
-    "Miles Gray"
-  ],
+  "guests": ["Miles Gray"],
   "confidence": {
     "subjects": "medium",
     "roles": "high",
@@ -165,16 +154,16 @@
       "note": "Court-referred teens face prison if they leave; police return or release runaways"
     },
     {
-      "facet": "content_warnings",
-      "part": 2,
-      "at": "00:41:51",
-      "note": "Account of teenager Phil Newell collapsing and dying after the ring"
-    },
-    {
       "facet": "themes",
       "part": 2,
       "at": "00:37:34",
       "note": "Ricci uses Elan humiliation tactics on his wife Sherry; she is hospitalized in 1976"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:57:50",
+      "note": "Former student's account of being beaten and raped by staff on her 16th birthday"
     }
   ],
   "notes": "Title names the school, so Elan is the sole primary and roles are empty; Ricci arguably co-primary. Packet spells him Richie; Ricci per footnotes. Founding 1971 per transcript (some sources 1970). Phil Newell death year garbled in transcript. cults-new-religions rests on Synanon segment and cult framing; policing-incarceration on court referrals and runaway policing (weaker). Smith rape victim was 16, so no sexual-violence warning."

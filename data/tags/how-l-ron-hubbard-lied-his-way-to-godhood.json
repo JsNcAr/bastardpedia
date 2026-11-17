@@ -61,7 +61,8 @@
     "approximate": false
   },
   "summary": "American pulp writer L. Ron Hubbard invented a heroic past, launched Dianetics in 1950 and turned it into the Church of Scientology, then ruled a fleet of followers at sea from 1967 to 1975 through punishments, paranoia and fear.",
-  "content_warnings": ["suicide-self-harm", "child-abuse"],
+  "content_warnings": ["child-abuse", "suicide-self-harm"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "Bare-Faced Messiah",
     "Astounding Science Fiction",

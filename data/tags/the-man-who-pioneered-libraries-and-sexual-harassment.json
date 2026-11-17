@@ -52,7 +52,8 @@
     "approximate": false
   },
   "summary": "Melvil Dewey, inventor of the Dewey Decimal System and co-founder of the American Library Association, built racial and religious bias into library classification, ran an antisemitic club and harassed female colleagues for decades until forced out in 1905-06.",
-  "content_warnings": [],
+  "content_warnings": ["sexual-violence"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Dewey Decimal System",
     "Columbia School of Library Economy",
@@ -74,16 +75,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:04:53", "note": "born December 1851 in Adams Center, upstate New York" },
-    { "facet": "time", "part": 1, "at": "00:22:44", "note": "conceives the decimal classification while working at the Amherst library" },
-    { "facet": "themes", "part": 1, "at": "00:25:47", "note": "how the classification sidelines non-Christian and Black religions and peoples" },
-    { "facet": "themes", "part": 1, "at": "00:38:54", "note": "Columbia library school admits women; applicants asked for photos and looks" },
-    { "facet": "themes", "part": 1, "at": "00:43:02", "note": "argues women librarians should be paid less than men" },
-    { "facet": "themes", "part": 1, "at": "00:45:05", "note": "decades of unwanted touching and kissing of subordinate women" },
-    { "facet": "time", "part": 1, "at": "00:55:29", "note": "1905 cruise harassment leads to his quiet ouster from the ALA in 1906" },
-    { "facet": "themes", "part": 1, "at": "01:01:16", "note": "Lake Placid Club bars Jews and Black people; land bought to keep Jews out" },
-    { "facet": "time", "part": 1, "at": "01:06:31", "note": "late-life settlement with a harassed stenographer" },
-    { "facet": "time", "part": 1, "at": "01:08:34", "note": "death by stroke, then 2019 ALA removal of his name from an award" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:04:53",
+      "note": "born December 1851 in Adams Center, upstate New York"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:22:44",
+      "note": "conceives the decimal classification while working at the Amherst library"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:25:47",
+      "note": "how the classification sidelines non-Christian and Black religions and peoples"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:38:54",
+      "note": "Columbia library school admits women; applicants asked for photos and looks"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:43:02",
+      "note": "argues women librarians should be paid less than men"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:45:05",
+      "note": "decades of unwanted touching and kissing of subordinate women"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:55:29",
+      "note": "1905 cruise harassment leads to his quiet ouster from the ALA in 1906"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:01:16",
+      "note": "Lake Placid Club bars Jews and Black people; land bought to keep Jews out"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:06:31",
+      "note": "late-life settlement with a harassed stenographer"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:08:34",
+      "note": "death by stroke, then 2019 ALA removal of his name from an award"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:45:05",
+      "note": "Long section on Dewey's unwanted touching and kissing of female colleagues"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:47:43",
+      "note": "Account of him harassing four women on the 1905 Alaska cruise"
+    }
   ],
   "notes": "Part description says John Dewey; the episode is about Melvil Dewey. No role fits a librarian well: scientist-scholar (library science), inventor-engineer (classification, vertical file), business-executive (supply firm, Lake Placid Club) are approximations. Harassment was unwanted touching/kissing, not detailed assault, so no sexual-violence warning. No library theme; education used as closest."
 }
