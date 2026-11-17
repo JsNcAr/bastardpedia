@@ -159,10 +159,27 @@ Vocabulary gaps reported in agents' `notes` are the main input for minor version
 
 ## Content warnings
 
-An optional facet (`content-warnings.yaml`, 0–6 per story). A warning applies when the story
-**spends real time** on the thing: several minutes, or a vivid or explicit account. A passing
-mention doesn't count. The app shows the warnings on the story page and can hide stories that
-carry chosen warnings.
+An optional facet (`content-warnings.yaml`) at two levels:
+
+| Level                               | Rule                                                                                                                                           | Which warnings |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+| `content_warnings` (discussed, 0-6) | The story **spends real time** on the thing: several minutes, or a vivid or explicit account.                                                  | All            |
+| `content_mentions` (mentioned, 0-6) | **Any mention** by the hosts, however brief, including jokes and figurative uses. Ad reads don't count. A warning is listed at one level only. | `strict: true` |
+
+The strict warnings are the topics people avoid altogether: sexual violence, child sexual abuse,
+child abuse, suicide and self-harm, and animal cruelty. The rest (graphic violence, mass atrocity,
+hateful language...) keep only the detailed level, since nearly every story would mention them.
+
+Brief mentions are easy to miss in hours of audio, so `npm run tags:packet` scans the full
+transcripts for each strict warning's `scan` words and lists the matching moments in the packet.
+The tagger checks each one. `npm run tags:scan` runs the same scan over every tagged story and
+writes counts and timestamps (no transcript text) to `data/review/warning-scan.json`, to find
+stories whose warnings need re-checking.
+
+In the app, "Hide stories with X" hides stories that discuss or mention X. A checkbox, "Only hide
+stories that discuss them in detail" (`cw-detail=1`), ignores mentions. The story page lists the
+two levels apart. Records without `content_mentions` were made before 0.8.0 and were never
+checked for brief mentions; the story page and the filter say so.
 
 ## Decisions log
 
@@ -200,6 +217,13 @@ carry chosen warnings.
 - 2026-10-17 (0.7.0, gaps reported in the full run's notes): themes `protest-revolution`,
   `organized-crime`, `murder-serial-killers`, `anti-lgbtq`, `inequality-class` and `disasters`.
   Only stories likely to use them are re-tagged (`tagging/batches/retag-0.7.0.txt`).
+
+- 2026-11-17 (0.8.0): content warnings get a second level, `content_mentions`, for the strict
+  warnings (`strict: true`), where any mention counts, jokes included. New warning
+  `child-sexual-abuse`; `child-abuse` now means physical and emotional abuse and neglect;
+  `sexual-violence` now names sexual harassment and unwanted touching. Packets carry a word scan
+  of the full transcripts for the strict warnings. Every story's warnings are re-checked after
+  this version (records without `content_mentions` count as not checked).
 
 ## Open questions
 
