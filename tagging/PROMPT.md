@@ -175,10 +175,29 @@ Do **not** choose eras. The app works them out from your years. There are two sp
 
 ### Step 8. Content warnings
 
-0-6 ids from `content-warnings.yaml`. Add a warning when the story **spends real time** on the
-thing: several minutes of discussion, or a vivid or explicit account. A passing mention, or the
-topic merely existing in the background, is not enough. A story about the architect of the
-Holocaust gets `mass-atrocity`; a biography of a slaveholding general gets `slavery`.
+Two lists, both ids from `content-warnings.yaml`.
+
+- **`content_warnings`** (0-6): the story **spends real time** on the thing: several minutes of
+  discussion, or a vivid or explicit account. A passing mention, or the topic merely existing in
+  the background, is not enough. A story about the architect of the Holocaust gets
+  `mass-atrocity`; a biography of a slaveholding general gets `slavery`.
+- **`content_mentions`** (0-6): only warnings marked `strict: true` (sexual violence, child sexual
+  abuse, child abuse, suicide and self-harm, animal cruelty). Any mention by the hosts counts,
+  however brief: a passing reference, an aside, a comparison, a joke or a figurative use of the
+  word. People use these to avoid hearing the topic at all, so when in doubt, include it. Ad reads
+  and promos for other shows don't count. A warning that qualifies for `content_warnings` goes
+  there and not here; never list one in both.
+
+Child sexual abuse is `child-sexual-abuse`; `child-abuse` is the physical and emotional abuse
+and neglect of children. A story with both kinds gets both.
+
+The packet's **Possible mentions** section lists every paragraph where the full transcripts
+match the strict warnings' scan words, even parts the packet only shows in samples. Check each
+candidate in its context and drop false matches (a dogfight between planes, horse grooming).
+The scan only knows its words, so also record mentions you read that are phrased another way.
+Add an `evidence` entry (facet `content_mentions` or `content_warnings`) for at least one
+moment per strict warning you list. Return `content_mentions: []` when there are none: the
+field shows the story was checked.
 
 ### Step 9. Confidence, evidence, notes
 
@@ -196,7 +215,7 @@ Return exactly one JSON object with these keys:
 
 - `story_id`, `taxonomy_version`, `tagged_by`
 - `format`, `subjects`, `roles`, `themes`, `regions`, `time`
-- `summary`, `content_warnings`, `keywords`, `guests`
+- `summary`, `content_warnings`, `content_mentions`, `keywords`, `guests`
 - `confidence`, `evidence`, `notes`
 
 Copy `story_id` and `taxonomy_version` from the packet. `tagged_by` is
@@ -250,6 +269,7 @@ Story: _Part One / Part Two: Percy Fawcett: Real-Life Indiana Jones, or Deluded 
   },
   "summary": "British artillery officer turned Amazon explorer Percy Fawcett mapped South American borders, then vanished in 1925 searching for a lost city his occult beliefs told him existed.",
   "content_warnings": [],
+  "content_mentions": [],
   "keywords": ["Lost City of Z", "Mato Grosso", "Amazon", "Theosophy", "boundary survey"],
   "guests": ["<guest from the descriptions>"],
   "confidence": {
