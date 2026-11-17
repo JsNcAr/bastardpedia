@@ -13913,6 +13913,42 @@
         "title": "Part One: Don Simpson: The Producer of Top Gun Also Ruined Hollywood",
         "part": 1,
         "published": "2026-11-10T10:00:00+00:00"
+      },
+      {
+        "guid": "0561bc45-f581-435a-8215-b4ff0171e9c0",
+        "title": "Part Two: Don Simpson: The Producer of Top Gun Also Ruined Hollywood",
+        "part": 2,
+        "published": "2026-11-12T10:00:00+00:00"
+      }
+    ],
+    "reruns": []
+  },
+  {
+    "id": "it-could-happen-here-weekly-258",
+    "kind": "ichh_weekly",
+    "subject_title": "It Could Happen Here Weekly 258",
+    "first_published": "2026-11-14T05:00:00+00:00",
+    "parts": [
+      {
+        "guid": "70301985-e232-4e2d-b8ec-b50100415296",
+        "title": "It Could Happen Here Weekly 258",
+        "part": 1,
+        "published": "2026-11-14T05:00:00+00:00"
+      }
+    ],
+    "reruns": []
+  },
+  {
+    "id": "pastor-paul-mackenzie-kenya-s-doomsday-starvation-cult-leader",
+    "kind": "episode",
+    "subject_title": "Pastor Paul Mackenzie: Kenya's Doomsday Starvation Cult Leader",
+    "first_published": "2026-11-17T10:00:00+00:00",
+    "parts": [
+      {
+        "guid": "09478709-4188-4b7f-9984-b50401742f15",
+        "title": "Part One: Pastor Paul Mackenzie: Kenya's Doomsday Starvation Cult Leader",
+        "part": 1,
+        "published": "2026-11-17T10:00:00+00:00"
       }
     ],
     "reruns": []
