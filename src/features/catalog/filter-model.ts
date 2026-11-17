@@ -21,6 +21,11 @@ export interface Filters {
   century: number[];
   /** Content warnings whose stories are hidden. */
   cwHide: string[];
+  /**
+   * Hide only stories that discuss a hidden warning in detail. Off by default: a brief mention
+   * of a strict warning hides the story too, which is what someone avoiding a trigger needs.
+   */
+  cwDetailOnly: boolean;
   /** Only stories a person has reviewed field by field. */
   reviewedOnly: boolean;
   /** Leave out stories the visitor marked as listened (their library, this browser). */
@@ -56,6 +61,7 @@ const PARAM = {
   era: 'era',
   century: 'century',
   cwHide: 'cw-hide',
+  cwDetailOnly: 'cw-detail',
   reviewedOnly: 'reviewed',
   hideListened: 'hide-listened',
   yearFrom: 'from',
@@ -74,6 +80,7 @@ export const EMPTY_FILTERS: Filters = {
   era: [],
   century: [],
   cwHide: [],
+  cwDetailOnly: false,
   reviewedOnly: false,
   hideListened: false,
   yearFrom: null,
@@ -119,6 +126,7 @@ export function parseFilters(params: URLSearchParams): Filters {
         .filter((n) => Number.isInteger(n) && n !== 0),
     ),
     cwHide: strings(params, PARAM.cwHide),
+    cwDetailOnly: params.get(PARAM.cwDetailOnly) === '1',
     reviewedOnly: params.get(PARAM.reviewedOnly) === '1',
     hideListened: params.get(PARAM.hideListened) === '1',
     yearFrom,
@@ -134,6 +142,7 @@ export function serializeFilters(f: Filters): URLSearchParams {
   if (f.q) p.set(PARAM.q, f.q);
   for (const facet of FACETS) for (const v of f[facet]) p.append(PARAM[facet], String(v));
   for (const v of f.cwHide) p.append(PARAM.cwHide, v);
+  if (f.cwDetailOnly) p.set(PARAM.cwDetailOnly, '1');
   if (f.yearFrom !== null) p.set(PARAM.yearFrom, String(f.yearFrom));
   if (f.yearTo !== null) p.set(PARAM.yearTo, String(f.yearTo));
   if (f.reviewedOnly) p.set(PARAM.reviewedOnly, '1');
@@ -157,10 +166,9 @@ export function toggleValue(f: Filters, facet: Facet, value: string): Filters {
 }
 
 export function toggleHiddenWarning(f: Filters, id: string): Filters {
-  return {
-    ...f,
-    cwHide: f.cwHide.includes(id) ? f.cwHide.filter((v) => v !== id) : [...f.cwHide, id],
-  };
+  const cwHide = f.cwHide.includes(id) ? f.cwHide.filter((v) => v !== id) : [...f.cwHide, id];
+  // With nothing hidden the mode has no effect, so it leaves the URL too.
+  return { ...f, cwHide, cwDetailOnly: cwHide.length > 0 && f.cwDetailOnly };
 }
 
 export const activeCount = (f: Filters) =>

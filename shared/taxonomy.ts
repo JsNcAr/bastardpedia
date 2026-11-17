@@ -29,6 +29,10 @@ const TermYaml = z.object({
   include_when: stringList,
   exclude_when: stringList,
   see_also: stringList,
+  /** Content warnings only: any mention counts, recorded in content_mentions. */
+  strict: z.boolean().optional(),
+  /** Content warnings only: word patterns for the packet's automatic scan. */
+  scan: stringList,
 });
 
 const FlatFile = z.object({ facet: z.string(), values: z.array(TermYaml).min(1) });
@@ -152,6 +156,17 @@ export function parseTaxonomy(version: string, sources: Record<TaxonomyFile, str
       }
     }
   }
+  for (const t of taxonomy.contentWarnings) {
+    if (t.scan && !t.strict)
+      throw new Error(`taxonomy contentWarnings: "${t.id}" has scan patterns but is not strict`);
+    for (const pattern of t.scan ?? []) {
+      try {
+        new RegExp(pattern, 'i');
+      } catch {
+        throw new Error(`taxonomy contentWarnings: "${t.id}" has an invalid scan pattern`);
+      }
+    }
+  }
   return taxonomy;
 }
 
@@ -171,5 +186,6 @@ export function vocabularies(t: Taxonomy): Vocabularies {
     themes: ids(t.themes, 'themes'),
     polities: ids(t.polities, 'polities'),
     contentWarnings: ids(t.contentWarnings, 'contentWarnings'),
+    strictWarnings: t.contentWarnings.filter((w) => w.strict).map((w) => w.id),
   };
 }

@@ -36,6 +36,7 @@ describe('filter model and URL', () => {
       century: [-1, 19],
       role: ['explorer-adventurer'],
       cwHide: ['torture'],
+      cwDetailOnly: true,
       reviewedOnly: true,
       yearFrom: -500,
       yearTo: 1900,
@@ -60,6 +61,14 @@ describe('filter model and URL', () => {
     expect(toggleValue(on, 'century', '19').century).toEqual([]);
     const w = toggleHiddenWarning(EMPTY_FILTERS, 'torture');
     expect(toggleHiddenWarning(w, 'torture').cwHide).toEqual([]);
+  });
+
+  it('drops detail-only from the URL once nothing is hidden', () => {
+    const f = { ...EMPTY_FILTERS, cwHide: ['torture'], cwDetailOnly: true };
+    expect(serializeFilters(f).get('cw-detail')).toBe('1');
+    const cleared = toggleHiddenWarning(f, 'torture');
+    expect(cleared.cwDetailOnly).toBe(false);
+    expect(serializeFilters(cleared).has('cw-detail')).toBe(false);
   });
 
   it('counts active filters and picks the automatic sort', () => {

@@ -609,12 +609,20 @@
       {
         "id": "sexual-violence",
         "label": "Sexual violence",
-        "definition": "Detailed accounts of rape, sexual assault or sexual coercion of adults."
+        "definition": "Detailed accounts of rape, sexual assault or sexual coercion of adults.",
+        "strict": true
+      },
+      {
+        "id": "child-sexual-abuse",
+        "label": "Child sexual abuse",
+        "definition": "Sexual abuse or sexual exploitation of anyone under 18, including grooming and child marriage.",
+        "strict": true
       },
       {
         "id": "child-abuse",
         "label": "Child abuse",
-        "definition": "Detailed accounts of physical, sexual or emotional abuse of children."
+        "definition": "Physical or emotional abuse, cruelty or neglect of children, by parents or institutions. Sexual abuse of children is child-sexual-abuse.",
+        "strict": true
       },
       {
         "id": "graphic-violence",
@@ -634,7 +642,8 @@
       {
         "id": "suicide-self-harm",
         "label": "Suicide & self-harm",
-        "definition": "Discussion of a specific suicide, suicide method or self-harm."
+        "definition": "Discussion of a specific suicide, suicide method or self-harm.",
+        "strict": true
       },
       {
         "id": "medical-horror",
@@ -644,7 +653,8 @@
       {
         "id": "animal-cruelty",
         "label": "Animal cruelty",
-        "definition": "Detailed descriptions of animals being harmed or killed."
+        "definition": "Detailed descriptions of animals being harmed or killed.",
+        "strict": true
       },
       {
         "id": "drug-use",
@@ -1272,6 +1282,8 @@
         "approximate": false
       },
       "content_warnings": [],
+      "content_mentions": [],
+      "mentions_checked": false,
       "keywords": ["Troy", "Hisarlik", "Mycenae", "Priam's Treasure"],
       "derived": {
         "centuries": [19],
@@ -1362,6 +1374,8 @@
         "approximate": false
       },
       "content_warnings": [],
+      "content_mentions": [],
+      "mentions_checked": false,
       "keywords": ["Lost City of Z", "Mato Grosso", "Amazon"],
       "derived": {
         "centuries": [19, 20],
@@ -1436,6 +1450,8 @@
         "approximate": false
       },
       "content_warnings": ["graphic-violence"],
+      "content_mentions": [],
+      "mentions_checked": false,
       "keywords": ["Livingstone", "Congo Free State"],
       "derived": {
         "centuries": [19, 20],
@@ -1536,6 +1552,8 @@
         "approximate": false
       },
       "content_warnings": [],
+      "content_mentions": ["suicide-self-harm"],
+      "mentions_checked": true,
       "keywords": ["Dianetics", "Sea Org"],
       "derived": {
         "centuries": [20],
@@ -1615,6 +1633,8 @@
         "approximate": false
       },
       "content_warnings": [],
+      "content_mentions": [],
+      "mentions_checked": true,
       "keywords": ["infant formula", "Nestlé boycott"],
       "derived": {
         "centuries": [19, 20],
@@ -1713,6 +1733,8 @@
         "approximate": false
       },
       "content_warnings": [],
+      "content_mentions": [],
+      "mentions_checked": false,
       "keywords": [],
       "derived": {
         "centuries": [21],
@@ -1779,6 +1801,8 @@
         "approximate": false
       },
       "content_warnings": ["graphic-violence"],
+      "content_mentions": [],
+      "mentions_checked": false,
       "keywords": [],
       "derived": {
         "centuries": [20],
@@ -1851,6 +1875,8 @@
         "approximate": false
       },
       "content_warnings": ["sexual-violence"],
+      "content_mentions": [],
+      "mentions_checked": true,
       "keywords": [],
       "derived": {
         "centuries": [21],

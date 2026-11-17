@@ -16,6 +16,8 @@ export interface Vocabularies {
   themes: readonly [string, ...string[]];
   polities: readonly [string, ...string[]];
   contentWarnings: readonly [string, ...string[]];
+  /** Content warnings where any mention counts (`strict: true`); allowed in content_mentions. */
+  strictWarnings: readonly string[];
 }
 
 export const LIMITS = {
@@ -29,6 +31,7 @@ export const LIMITS = {
   subdivisions: 6,
   polities: 3,
   contentWarnings: 6,
+  contentMentions: 6,
   keywords: 10,
   evidence: 12,
   summaryMin: 40,
@@ -120,6 +123,11 @@ export function makeStoryTagsSchema(v: Vocabularies) {
         .nullable(),
       summary: z.string().min(LIMITS.summaryMin).max(LIMITS.summaryMax),
       content_warnings: z.array(z.enum(v.contentWarnings)).max(LIMITS.contentWarnings),
+      /**
+       * Strict warnings the story mentions without discussing them in detail. Absent on records
+       * made before taxonomy 0.8.0, which were never checked for brief mentions.
+       */
+      content_mentions: z.array(z.enum(v.contentWarnings)).max(LIMITS.contentMentions).optional(),
       keywords: z.array(z.string().min(1).max(60)).max(LIMITS.keywords),
       guests: z.array(z.string().min(1)),
       confidence: z.object({
@@ -140,6 +148,7 @@ export function makeStoryTagsSchema(v: Vocabularies) {
               'regions',
               'time',
               'content_warnings',
+              'content_mentions',
             ]),
             part: z.number().int().min(1),
             at: z.string().regex(/^\d{2}:\d{2}:\d{2}$/, 'HH:MM:SS'),
@@ -164,6 +173,16 @@ export function makeStoryTagsSchema(v: Vocabularies) {
       }
       if (new Set(t.content_warnings).size !== t.content_warnings.length) {
         issue('duplicate content warnings', ['content_warnings']);
+      }
+      const mentions = t.content_mentions ?? [];
+      if (new Set(mentions).size !== mentions.length) {
+        issue('duplicate content mentions', ['content_mentions']);
+      }
+      for (const m of mentions) {
+        if (!v.strictWarnings.includes(m))
+          issue(`"${m}" is not a strict warning, so it can't be a mention`, ['content_mentions']);
+        if (t.content_warnings.includes(m))
+          issue(`"${m}" is already a detailed warning; list it once`, ['content_mentions']);
       }
       if (new Set(t.roles).size !== t.roles.length) {
         issue('duplicate roles', ['roles']);

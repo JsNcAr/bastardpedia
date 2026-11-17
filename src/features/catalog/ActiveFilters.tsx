@@ -59,7 +59,7 @@ export function ActiveFilters({
   for (const w of filters.cwHide) {
     chips.push({
       key: `cw:${w}`,
-      label: `Hiding: ${labels.warning(w)}`,
+      label: `Hiding: ${labels.warning(w)}${filters.cwDetailOnly ? ' (in detail)' : ''}`,
       remove: () => toggleHiddenWarning(filters, w),
     });
   }

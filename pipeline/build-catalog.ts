@@ -41,9 +41,13 @@ export function guestsFromDescription(description: string): string[] {
 }
 
 function term(t: TermDef): Term {
-  return t.group
-    ? { id: t.id, label: t.label, definition: t.definition, group: t.group }
-    : { id: t.id, label: t.label, definition: t.definition };
+  return {
+    id: t.id,
+    label: t.label,
+    definition: t.definition,
+    ...(t.group ? { group: t.group } : {}),
+    ...(t.strict ? { strict: true } : {}),
+  };
 }
 
 function toCatalogStory(
@@ -95,6 +99,8 @@ function toCatalogStory(
     regions: tags.regions,
     time: tags.time,
     content_warnings: tags.content_warnings,
+    content_mentions: tags.content_mentions ?? [],
+    mentions_checked: tags.content_mentions !== undefined,
     keywords: tags.keywords,
     review: reviewed
       ? { status: 'reviewed', date: reviewed.date }

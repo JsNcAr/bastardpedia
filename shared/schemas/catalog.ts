@@ -17,6 +17,8 @@ export const TermSchema = z.object({
   definition: z.string(),
   /** Group label for grouped vocabularies (roles, themes). */
   group: z.string().optional(),
+  /** Content warnings only: brief mentions count too (see content_mentions). */
+  strict: z.boolean().optional(),
 });
 export type Term = z.infer<typeof TermSchema>;
 
@@ -96,7 +98,12 @@ export const CatalogStorySchema = z.object({
       partial_life: z.boolean().optional(),
     })
     .nullable(),
+  /** Discussed in detail. */
   content_warnings: z.array(z.string()),
+  /** Strict warnings mentioned without detail. */
+  content_mentions: z.array(z.string()).default([]),
+  /** False for stories tagged before brief mentions were recorded (taxonomy 0.8.0). */
+  mentions_checked: z.boolean().default(false),
   keywords: z.array(z.string()),
   /** Reviewed field by field by a person, or tagged by the agent and only validated. */
   review: z.object({

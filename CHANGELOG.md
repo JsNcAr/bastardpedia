@@ -34,6 +34,13 @@ logged in `docs/TAXONOMY.md` and called out here when they affect the app.
 - `deploy/deploy.sh`: build and publish a commit from a checkout on the
   server, with the deploy user's own Node from `.nvmrc`.
 
+- Content warnings at two levels (taxonomy 0.8.0): besides the stories that spend real
+  time on a topic, sexual violence, child sexual abuse (new), child abuse, suicide and
+  self-harm, and animal cruelty also record brief mentions, jokes included. Hiding a warning
+  hides both levels, with an option to hide only detailed discussions (`cw-detail=1`), and the
+  story page lists them apart. Packets scan the full transcripts for these topics, and
+  `npm run tags:scan` reports candidates across all stories.
+
 ### Changed
 
 - The site launches public: no basic auth and no `noindex`. Making it private

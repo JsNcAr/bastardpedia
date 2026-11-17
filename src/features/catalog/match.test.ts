@@ -70,6 +70,13 @@ describe('filterStories', () => {
     expect(out).toHaveLength(stories.length - 2);
   });
 
+  it('hides a story that only mentions a strict warning, unless detail-only is on', () => {
+    expect(ids({ cwHide: ['suicide-self-harm'] })).not.toContain('sample-l-ron-hubbard');
+    expect(ids({ cwHide: ['suicide-self-harm'], cwDetailOnly: true })).toContain(
+      'sample-l-ron-hubbard',
+    );
+  });
+
   it('sorts chronologically by the start of the main events', () => {
     const out = ids({ sort: 'chronological' });
     expect(out.slice(0, 3)).toEqual([
@@ -159,5 +166,11 @@ describe('facetCounts', () => {
   it('counts content warnings among otherwise-matching stories', () => {
     const w = warningCounts(stories, { ...EMPTY_FILTERS, cwHide: ['graphic-violence'] });
     expect(w.get('graphic-violence')).toBe(2);
+  });
+
+  it('counts brief mentions only while they hide stories', () => {
+    expect(warningCounts(stories, EMPTY_FILTERS).get('suicide-self-harm')).toBe(1);
+    const detail = warningCounts(stories, { ...EMPTY_FILTERS, cwDetailOnly: true });
+    expect(detail.get('suicide-self-harm')).toBeUndefined();
   });
 });

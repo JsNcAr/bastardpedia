@@ -6,7 +6,8 @@ import { FACETS, resolvedSort, type Facet, type Filters } from './filter-model';
  *   theme matches the primary or any secondary theme;
  *   country matches origin or setting;
  *   era, century and continent match the build-time derived fields.
- * Stories carrying any hidden content warning are dropped.
+ * Stories carrying any hidden content warning are dropped: discussed in detail, or (unless
+ * cwDetailOnly) only mentioned.
  * The year range keeps stories whose covered years overlap it; stories without
  * years (crossovers, meta) drop out while a range is set.
  */
@@ -41,8 +42,15 @@ function matchesFacet(story: CatalogStory, filters: Filters, facet: Facet): bool
   return want.some((v) => have.includes(v));
 }
 
+/** The warnings that count for hiding a story under the current mode. */
+export function hidingWarnings(story: CatalogStory, filters: Pick<Filters, 'cwDetailOnly'>) {
+  return filters.cwDetailOnly
+    ? story.content_warnings
+    : [...story.content_warnings, ...story.content_mentions];
+}
+
 function passesWarnings(story: CatalogStory, filters: Filters) {
-  return !story.content_warnings.some((w) => filters.cwHide.includes(w));
+  return !hidingWarnings(story, filters).some((w) => filters.cwHide.includes(w));
 }
 
 export function passesYears(story: CatalogStory, filters: Filters): boolean {
@@ -148,7 +156,10 @@ export function listenedCount(
   return stories.filter((s) => listened.has(s.id) && passes(s, all, matches, listened)).length;
 }
 
-/** Per content warning: how many of the stories matching everything else carry it. */
+/**
+ * Per content warning: how many of the stories matching everything else carry it, counting
+ * brief mentions unless cwDetailOnly is on (the stories a tick would hide).
+ */
 export function warningCounts(
   stories: readonly CatalogStory[],
   filters: Filters,
@@ -159,7 +170,7 @@ export function warningCounts(
   const unhidden = { ...filters, cwHide: [] };
   for (const story of stories) {
     if (!passes(story, unhidden, matches, listened)) continue;
-    for (const w of story.content_warnings) out.set(w, (out.get(w) ?? 0) + 1);
+    for (const w of hidingWarnings(story, filters)) out.set(w, (out.get(w) ?? 0) + 1);
   }
   return out;
 }

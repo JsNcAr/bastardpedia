@@ -90,6 +90,11 @@ export function FacetRail({
       checked: filters.cwHide.includes(w.id),
     }));
 
+  const strictLabels = listOf(
+    catalog.vocab.content_warnings.filter((w) => w.strict).map((w) => w.label.toLowerCase()),
+  );
+  const unchecked = catalog.stories.filter((s) => !s.mentions_checked).length;
+
   const setFiltersOpen = useUi((st) => st.setFiltersOpen);
   return (
     <div className="facet-rail">
@@ -200,12 +205,39 @@ export function FacetRail({
       </FacetGroup>
 
       <FacetGroup title="Content warnings" selected={filters.cwHide.length}>
-        <p className="facet-hint">Hide stories that spend real time on:</p>
+        <p className="facet-hint">
+          Hide stories that spend real time on a topic.
+          {strictLabels ? ` For ${strictLabels}, a brief mention is enough to hide a story.` : ''}
+        </p>
         <FacetList
           options={warningOptions}
           noun="warnings"
           onToggle={(id) => onChange(toggleHiddenWarning(filters, id))}
         />
+        {strictLabels ? (
+          <ul className="facet-options">
+            <li>
+              <label className="facet-option">
+                <input
+                  type="checkbox"
+                  checked={filters.cwDetailOnly}
+                  onChange={() => onChange({ ...filters, cwDetailOnly: !filters.cwDetailOnly })}
+                />
+                <span className="facet-option-label">
+                  Only hide stories that discuss them in detail
+                </span>
+              </label>
+            </li>
+          </ul>
+        ) : null}
+        {unchecked > 0 ? (
+          <p className="facet-hint">
+            Brief mentions are recorded for {catalog.stories.length - unchecked} of{' '}
+            {catalog.stories.length} stories so far. Warnings can still miss a mention.
+          </p>
+        ) : (
+          <p className="facet-hint">Warnings can still miss a mention.</p>
+        )}
       </FacetGroup>
 
       <FacetGroup title="Review status" selected={filters.reviewedOnly ? 1 : 0}>
@@ -224,4 +256,10 @@ export function FacetRail({
       </FacetGroup>
     </div>
   );
+}
+
+/** "a, b and c". */
+function listOf(items: string[]): string {
+  if (items.length <= 1) return items[0] ?? '';
+  return `${items.slice(0, -1).join(', ')} and ${items.at(-1) ?? ''}`;
 }
