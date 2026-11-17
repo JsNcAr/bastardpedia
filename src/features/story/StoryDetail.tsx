@@ -118,15 +118,28 @@ export function StoryDetail({
         </aside>
       ) : null}
 
-      {story.content_warnings.length > 0 ? (
+      {story.content_warnings.length > 0 ||
+      story.content_mentions.length > 0 ||
+      !story.mentions_checked ? (
         <aside className="callout" aria-label="Content warnings">
           <Icon name="triangle-alert" />
           <div>
             <p className="callout-title">Content warnings</p>
-            <p>
-              Spends real time on:{' '}
-              {story.content_warnings.map((w) => labels.warning(w).toLowerCase()).join(', ')}.
-            </p>
+            {story.content_warnings.length > 0 ? (
+              <p>
+                Spends real time on:{' '}
+                {story.content_warnings.map((w) => labels.warning(w).toLowerCase()).join(', ')}.
+              </p>
+            ) : null}
+            {story.content_mentions.length > 0 ? (
+              <p>
+                Mentions briefly:{' '}
+                {story.content_mentions.map((w) => labels.warning(w).toLowerCase()).join(', ')}.
+              </p>
+            ) : null}
+            {!story.mentions_checked ? (
+              <p>Not yet checked for brief mentions of sensitive topics.</p>
+            ) : null}
           </div>
         </aside>
       ) : null}
