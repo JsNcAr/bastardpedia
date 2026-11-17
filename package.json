@@ -39,7 +39,9 @@
     "build:catalog": "node pipeline/build-catalog.ts",
     "deploy:config": "node scripts/deploy-config.mjs",
     "release": "node scripts/release.mjs prepare",
-    "tags:scan": "node pipeline/scan-warnings.ts"
+    "tags:scan": "node pipeline/scan-warnings.ts",
+    "tags:warnings-packet": "node pipeline/warnings-packet.ts",
+    "tags:apply-warnings": "node pipeline/apply-warnings.ts"
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.3.0",

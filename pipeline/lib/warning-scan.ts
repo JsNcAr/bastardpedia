@@ -22,7 +22,7 @@ export interface ScanHit {
   part: number;
   /** HH:MM:SS of the paragraph that matched. */
   at: string;
-  /** About CONTEXT_CHARS characters either side of the first match in the paragraph. */
+  /** Some characters (CONTEXT_CHARS by default) either side of the paragraph's first match. */
   context: string;
 }
 
@@ -64,14 +64,19 @@ function paragraphs(text: string): { at: string; body: string }[] {
   return out;
 }
 
-function contextAround(body: string, index: number, length: number): string {
-  const start = Math.max(0, index - CONTEXT_CHARS);
-  const end = Math.min(body.length, index + length + CONTEXT_CHARS);
+function contextAround(body: string, index: number, length: number, chars: number): string {
+  const start = Math.max(0, index - chars);
+  const end = Math.min(body.length, index + length + chars);
   return `${start > 0 ? '...' : ''}${body.slice(start, end)}${end < body.length ? '...' : ''}`;
 }
 
 /** At most one hit per warning and paragraph, in transcript order. */
-export function scanText(text: string, part: number, rules: readonly ScanRule[]): ScanHit[] {
+export function scanText(
+  text: string,
+  part: number,
+  rules: readonly ScanRule[],
+  chars = CONTEXT_CHARS,
+): ScanHit[] {
   const hits: ScanHit[] = [];
   for (const p of paragraphs(text)) {
     for (const rule of rules) {
@@ -81,7 +86,7 @@ export function scanText(text: string, part: number, rules: readonly ScanRule[])
           warning: rule.id,
           part,
           at: p.at,
-          context: contextAround(p.body, m.index, m[0].length),
+          context: contextAround(p.body, m.index, m[0].length, chars),
         });
     }
   }
@@ -92,11 +97,12 @@ export function scanText(text: string, part: number, rules: readonly ScanRule[])
 export function scanStory(
   texts: ReadonlyMap<number, string | null>,
   rules: readonly ScanRule[],
+  chars = CONTEXT_CHARS,
 ): Map<string, ScanHit[]> {
   const out = new Map<string, ScanHit[]>(rules.map((r) => [r.id, []]));
   for (const [part, text] of [...texts].sort(([a], [b]) => a - b)) {
     if (!text) continue;
-    for (const hit of scanText(text, part, rules)) out.get(hit.warning)?.push(hit);
+    for (const hit of scanText(text, part, rules, chars)) out.get(hit.warning)?.push(hit);
   }
   return out;
 }
