@@ -41,6 +41,10 @@ logged in `docs/TAXONOMY.md` and called out here when they affect the app.
   story page lists them apart. Packets scan the full transcripts for these topics, and
   `npm run tags:scan` reports candidates across all stories.
 
+- Warnings re-check pass (`tagging/WARNINGS.md`, the `btb-warnings` subagent): compact
+  packets with every scan candidate (`npm run tags:warnings-packet`) and a merge step that only
+  changes the strict warnings (`npm run tags:apply-warnings`).
+
 ### Changed
 
 - The site launches public: no basic auth and no `noindex`. Making it private

@@ -58,6 +58,7 @@
   },
   "summary": "Canadian-born physician Peter Attia left surgical training to build a pricey US concierge longevity practice, podcast and bestseller, promoting thinly evidenced testing and drugs, until 2026 files exposed his ties to Jeffrey Epstein.",
   "content_warnings": [],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "Outlive",
     "Medicine 3.0",
@@ -138,6 +139,18 @@
       "part": 2,
       "at": "01:11:41",
       "note": "2026 fallout: sponsors drop him and a lawsuit with Oura is ongoing"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:08:17",
+      "note": "Epstein's conviction for child sex offences noted in passing"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "01:05:31",
+      "note": "Host notes Epstein was arrested for trafficking minors while discussing Attia's emails"
     }
   ],
   "notes": "main_span start 2006 is an estimate for leaving Hopkins residency and joining McKinsey; the transcript gives no year. sexual-abuse and child-abuse cover the Epstein segment (victims included adults and minors); no content warning added because abuse is discussed, not described in detail. medical-malpractice used for unauthorized dosing and over-testing harms; the host explicitly says Attia is not a quack."

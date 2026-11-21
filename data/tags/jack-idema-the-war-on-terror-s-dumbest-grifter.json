@@ -59,6 +59,7 @@
   },
   "summary": "American ex-Green Beret and convicted fraudster Jack Idema posed as a counterterrorism expert in Afghanistan after 2001, fooled US media with fake claims and footage, and ran a private militia that kidnapped and tortured Afghans until his 2004 arrest.",
   "content_warnings": ["torture"],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "The Hunt for Bin Laden",
     "Knightsbridge International",
@@ -80,12 +81,7 @@
     "time": "high"
   },
   "evidence": [
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:10:35",
-      "note": "born 1956 in Poughkeepsie, New York"
-    },
+    { "facet": "time", "part": 1, "at": "00:10:35", "note": "born 1956 in Poughkeepsie, New York" },
     {
       "facet": "time",
       "part": 1,
@@ -135,12 +131,6 @@
       "note": "returns to Kabul in 2004 and forms the Task Force Saber 7 militia"
     },
     {
-      "facet": "content_warnings",
-      "part": 2,
-      "at": "00:32:57",
-      "note": "prisoners found beaten, hooded and hung by their feet; judge describes his ordeal"
-    },
-    {
       "facet": "regions",
       "part": 2,
       "at": "00:40:14",
@@ -151,6 +141,12 @@
       "part": 2,
       "at": "00:42:27",
       "note": "knowingly infects partner with HIV without disclosure; later rape accusation; dies of AIDS 2012"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:46:38",
+      "note": "Brief note that a young woman accused him of rape in 2010"
     }
   ],
   "notes": "sexual-abuse is based on a roughly five-minute segment on undisclosed HIV transmission and a 2010 rape accusation; reviewer may drop it. Opening segment on other War on Terror freelancers (Faulkner, Colin Berry) treated as context, not subjects. Dubai stay is brief and left out of setting. Military service was minor, so military-officer not used as a role."

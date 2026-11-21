@@ -58,7 +58,8 @@
     "approximate": true
   },
   "summary": "An update on misogynist influencer Andrew Tate: new reporting on his abusive father Emory and his UK youth, his War Room scheme, and his 2022-2023 detention in Romania on trafficking charges, including alleged witness intimidation.",
-  "content_warnings": ["child-abuse"],
+  "content_warnings": [],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse", "child-abuse"],
   "keywords": [
     "Ultimate Traveler",
     "Rolling Stone",
@@ -139,6 +140,18 @@
       "part": 1,
       "at": "00:54:01",
       "note": "appeals judges move the brothers to house arrest; indictment expected before June 2023"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:37:29",
+      "note": "Rape allegations that got him removed from Big Brother"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:39:15",
+      "note": "War Room members teaching how to coerce partners into sex on camera"
     }
   ],
   "notes": "Update to the earlier four-part Tate story. Covered span starts at Emory's 1992 discharge; Andrew's US childhood anecdotes are undated, hence approximate. criminal-killer reflects the trafficking case though he had not been convicted at release. War Room org_type is a loose fit (paid online community, company chosen). Birth years from general knowledge."

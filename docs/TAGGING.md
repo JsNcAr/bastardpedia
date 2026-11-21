@@ -105,3 +105,24 @@ After editing `tagging/taxonomy/*.yaml`:
 2. `npm run tags:schema && npm run taxonomy:doc`
 3. `npm run tags:validate`. Records tagged against an older major version fail
    and must be migrated or re-tagged. Older minor versions only warn.
+
+## Re-checking strict content warnings
+
+Taxonomy 0.8.0 added brief mentions (`content_mentions`) for the strict warnings and split
+`child-sexual-abuse` from `child-abuse`. Records made before it were never checked for brief
+mentions. They are re-checked with a smaller pass that only touches those warnings
+(`tagging/WARNINGS.md`):
+
+1. Pick the batch: `npm run tags:scan` lists the stories whose scan candidates their tags don't
+   cover. Write the ids to `tagging/batches/warnings-NN.txt`, about 10 per batch.
+2. `npm run tags:warnings-packet -- <ids>` writes a compact packet per story to
+   `data/packets/warnings/` (git-ignored): the current tags and every scan candidate with wide
+   context, instead of the whole transcript.
+3. One `btb-warnings` subagent per batch decides each strict warning (detailed, mentioned or
+   nothing) and writes `data/review/warnings/<id>.json`.
+4. `npm run tags:apply-warnings -- --report tagging/batches/warnings-NN-report.json <ids>`
+   merges the results into `data/tags/`: only the strict warnings, `content_mentions` and their
+   evidence change, and every record is validated before it is written. The report lists the
+   warnings before and after.
+5. The changed stories go to the review page. Corrections from the review go in
+   `data/overrides/`, as usual.
