@@ -1,0 +1,120 @@
+[
+  {
+    "id": "the-libertarian-theme-park-of-your-dreams-nightmares",
+    "before": {
+      "warnings": ["graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Sexual-violence candidate is the same joke about teenagers, filed under child-sexual-abuse. Theme child-abuse (endangering children at the park) has no scan hits; reviewer may weigh whether that warrants child-abuse."
+  },
+  {
+    "id": "let-s-talk-about-thalidomide",
+    "before": {
+      "warnings": ["medical-horror", "mass-atrocity", "child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "mass-atrocity", "medical-horror"],
+      "mentions": ["sexual-violence", "animal-cruelty"]
+    },
+    "notes": "The grooming hit at 01:06:38 looks like a transcription garble of the company name, dropped."
+  },
+  {
+    "id": "hitler-s-drug-problem",
+    "before": {
+      "warnings": ["drug-use"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["drug-use"],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    },
+    "notes": "Grooming hit is about hair care, dropped. Suicide call rests on suicide-mission boats; Hitler's own suicide is likely touched on near the end of part 2 but the scan did not catch it."
+  },
+  {
+    "id": "joe-arpaio-america-s-favorite-concentration-camp-operator",
+    "before": {
+      "warnings": ["torture", "graphic-violence", "child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "graphic-violence", "torture", "suicide-self-harm"],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "animal-cruelty"]
+    },
+    "notes": "Suicide detailed rests on a three-minute run of jail suicide statistics (00:45 to 00:48); reviewer may prefer mentions since it is statistical, not vivid."
+  },
+  {
+    "id": "covid-vaccine-grifting-doctors",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["suicide-self-harm"]
+    }
+  },
+  {
+    "id": "how-nestle-starved-a-bunch-of-babies",
+    "before": {
+      "warnings": ["child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death"],
+      "mentions": []
+    },
+    "notes": "Only candidate is the rapeseed crop, dropped."
+  },
+  {
+    "id": "the-cult-behind-josh-duggar",
+    "before": {
+      "warnings": ["child-abuse", "sexual-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-sexual-abuse"],
+      "mentions": ["child-abuse", "suicide-self-harm"]
+    },
+    "notes": "Old child-abuse detailed was mostly sexual abuse, now child-sexual-abuse; physical abuse candidates (blanket training, teen camp) look brief, so child-abuse moved to mentions. Suicide hits are a guest's documentary plug, kept as a mention."
+  },
+  {
+    "id": "steven-seagal-wrote-a-book-we-read-it",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "animal-cruelty"]
+    }
+  },
+  {
+    "id": "the-company-that-poisoned-300-000-babies",
+    "before": {
+      "warnings": ["child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death"],
+      "mentions": []
+    },
+    "notes": "No scan candidates for any strict warning."
+  },
+  {
+    "id": "pappa-doc-and-baby-doc-dictators-of-haiti",
+    "before": {
+      "warnings": ["mass-atrocity", "graphic-violence", "slavery"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["slavery", "graphic-violence", "mass-atrocity"],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "The rape account at part 2 00:06:17 is short but explicit; reviewer may prefer detailed for sexual-violence. Tonton Macoute terror may include further sexual violence the scan missed."
+  }
+]

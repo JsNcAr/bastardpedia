@@ -65,6 +65,7 @@
   },
   "summary": "Ukrainian peasant anarchist Nestor Makhno, jailed as a teenage militant under the Tsar, led a guerrilla army that held a self-governing free territory in eastern Ukraine, fighting Whites, occupiers and Bolsheviks from 1917 to 1921.",
   "content_warnings": ["graphic-violence", "mass-atrocity"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "Huliaipole",
     "Makhnovshchina",
@@ -151,6 +152,12 @@
       "part": 2,
       "at": "01:00:12",
       "note": "dies sick and isolated in Paris; death year garbled in transcript, 1934 from knowledge"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:38:54",
+      "note": "Brief account of White Army pogroms, including mass rape of Jewish women in a town"
     }
   ],
   "notes": "Hero episode, so the lifetime rule applies (1888-1934); main_span 1917-1921 per the encyclopedia test, though the 1906-1908 militant youth also gets long airtime. Birth and death years garbled in the transcript, filled from knowledge. Primary civil-war over protest-revolution per its exclude_when. Ukraine colonial background is pre-story context, kept as a theme only. UA-23 is Zaporizhzhia Oblast (Huliaipole)."

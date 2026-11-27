@@ -64,7 +64,8 @@
     "approximate": false
   },
   "summary": "François 'Papa Doc' Duvalier, a Haitian doctor turned president for life, ruled Haiti through the Tonton Macoute terror militia from 1957 to 1971; his son Jean-Claude 'Baby Doc' looted the country with US support until fleeing in 1986.",
-  "content_warnings": ["mass-atrocity", "graphic-violence", "slavery"],
+  "content_warnings": ["slavery", "graphic-violence", "mass-atrocity"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Papa Doc",
     "Baby Doc",
@@ -86,18 +87,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:52:15", "note": "Francois Duvalier's birth in 1907 amid political chaos" },
-    { "facet": "subjects", "part": 1, "at": "00:58:05", "note": "US Marine occupation 1915-1934 spanning Duvalier's youth, with massacres of protesters" },
-    { "facet": "roles", "part": 1, "at": "01:06:50", "note": "medical career fighting yaws and malaria in the interior" },
-    { "facet": "themes", "part": 1, "at": "01:05:18", "note": "black nationalist movement aimed against the mixed-race elite and US occupiers" },
-    { "facet": "time", "part": 1, "at": "01:14:07", "note": "army-backed election win in September 1957 starts the regime" },
-    { "facet": "subjects", "part": 1, "at": "01:15:09", "note": "creation of the Tonton Macoute militia under Clement Barbot" },
-    { "facet": "themes", "part": 2, "at": "00:09:28", "note": "US military mission helps crush 1959 exile invasion to keep Duvalier in power" },
-    { "facet": "themes", "part": 2, "at": "00:17:44", "note": "Barbot's insurgency against the regime and his death in 1963" },
-    { "facet": "time", "part": 2, "at": "00:34:02", "note": "Papa Doc dies in 1971 after naming his son successor" },
-    { "facet": "time", "part": 2, "at": "00:41:48", "note": "Baby Doc flees Haiti in February 1986 on a US aircraft" },
-    { "facet": "time", "part": 2, "at": "00:42:50", "note": "Baby Doc returns in 2011 and dies in 2014" },
-    { "facet": "themes", "part": 1, "at": "00:05:12", "note": "long background segment on colonial slavery and the Haitian Revolution" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:52:15",
+      "note": "Francois Duvalier's birth in 1907 amid political chaos"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:58:05",
+      "note": "US Marine occupation 1915-1934 spanning Duvalier's youth, with massacres of protesters"
+    },
+    {
+      "facet": "roles",
+      "part": 1,
+      "at": "01:06:50",
+      "note": "medical career fighting yaws and malaria in the interior"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:05:18",
+      "note": "black nationalist movement aimed against the mixed-race elite and US occupiers"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:14:07",
+      "note": "army-backed election win in September 1957 starts the regime"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:15:09",
+      "note": "creation of the Tonton Macoute militia under Clement Barbot"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:09:28",
+      "note": "US military mission helps crush 1959 exile invasion to keep Duvalier in power"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:17:44",
+      "note": "Barbot's insurgency against the regime and his death in 1963"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:34:02",
+      "note": "Papa Doc dies in 1971 after naming his son successor"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:41:48",
+      "note": "Baby Doc flees Haiti in February 1986 on a US aircraft"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:42:50",
+      "note": "Baby Doc returns in 2011 and dies in 2014"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:05:12",
+      "note": "long background segment on colonial slavery and the Haitian Revolution"
+    }
   ],
   "notes": "Roughly the first 50 minutes of part 1 cover Haitian history from 1492 through the revolution, the 1825 French indemnity and 19th-century instability. I treated this as background before the story begins, so covered_span starts at Papa Doc's birth (1907). Reviewers may want to extend it. Polities left empty because the colonial era is background. Roles apply mainly to Papa Doc; Baby Doc is dictator-autocrat only."
 }

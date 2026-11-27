@@ -1,0 +1,120 @@
+[
+  {
+    "id": "jim-bowie-the-worst-texan",
+    "before": {
+      "warnings": ["slavery", "graphic-violence", "torture", "animal-cruelty"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["slavery", "graphic-violence", "torture", "animal-cruelty"],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    },
+    "notes": "Animal-cruelty kept detailed from the original tagging; the scan missed the bear-trap passage, found by searching the transcript. It is short but vivid; mentions would also be defensible."
+  },
+  {
+    "id": "the-ballad-of-doctor-orgasm",
+    "before": {
+      "warnings": ["medical-horror", "sexual-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "medical-horror"],
+      "mentions": ["child-sexual-abuse", "child-abuse"]
+    },
+    "notes": "Child mentions rest on one interviewee's backstory (raped at 13, then abused at home); the scan found no child-abuse words, so the child-abuse call reads the same passage. Suicide candidate dropped (unrelated)."
+  },
+  {
+    "id": "we-continued-reading-ben-shapiro-s-terrible-racist-novel",
+    "before": {
+      "warnings": ["child-death", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "graphic-violence"],
+      "mentions": []
+    },
+    "notes": "No scan candidates. The staged killing of a Black child in the novel is child-death, not a strict warning."
+  },
+  {
+    "id": "the-rise-and-fall-and-rise-of-arch-grifter-jim-bakker",
+    "before": {
+      "warnings": ["child-abuse", "sexual-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-sexual-abuse"],
+      "mentions": []
+    },
+    "notes": "Old child-abuse warning was really the childhood sexual abuse, so it becomes child-sexual-abuse (the allowed exception). Searching the transcript found no physical abuse or neglect of children. Theme child-abuse may deserve the same review."
+  },
+  {
+    "id": "the-bleach-church-is-spreading",
+    "before": {
+      "warnings": ["child-abuse", "medical-horror"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "medical-horror"],
+      "mentions": ["suicide-self-harm"]
+    }
+  },
+  {
+    "id": "the-people-who-turned-burning-your-face-off-into-a-healthcare-fad",
+    "before": {
+      "warnings": ["medical-horror"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["medical-horror"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Mention is figurative: it means people harming themselves with the salve, not suicide. Kept under the doubt rule; dropping it is defensible."
+  },
+  {
+    "id": "the-second-american-civil-war-you-never-learned-about",
+    "before": {
+      "warnings": ["sexual-violence", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "graphic-violence"],
+      "mentions": ["child-sexual-abuse"]
+    }
+  },
+  {
+    "id": "henry-morton-stanley-the-explorer-who-shot-his-way-through-africa",
+    "before": {
+      "warnings": ["child-abuse", "slavery", "mass-atrocity", "hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "slavery", "mass-atrocity", "hate-speech"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Noe's rape filed as child-sexual-abuse because the hosts call him a young boy; no age is given. If he was an adult it belongs under sexual-violence. No sexual-violence call otherwise."
+  },
+  {
+    "id": "bonus-a-conversation-about-tiger-king-and-rural-america",
+    "before": {
+      "warnings": ["drug-use", "animal-cruelty"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["drug-use"],
+      "mentions": ["child-sexual-abuse", "child-abuse", "animal-cruelty"]
+    },
+    "notes": "Animal-cruelty moved from detailed to mentions: a search of the transcript turns up only short asides (Antle, illegal hunts, a kicked cat), nothing extended or graphic. Child calls came from searching the transcript; the scan found no child-abuse words."
+  },
+  {
+    "id": "what-we-learned-from-ben-shapiro-s-racist-novel",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    },
+    "notes": "No scan candidates and no strict warnings in the current tags."
+  }
+]

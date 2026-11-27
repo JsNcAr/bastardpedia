@@ -65,7 +65,8 @@
     "approximate": true
   },
   "summary": "Brazilian Spiritist medium John of God ran a psychic-surgery center in Abadiania, Goias, promoted to Western audiences by Oprah Winfrey, while sexually abusing hundreds of women; he was convicted of rape in 2019.",
-  "content_warnings": ["sexual-violence", "medical-horror", "child-abuse", "suicide-self-harm"],
+  "content_warnings": ["sexual-violence", "child-sexual-abuse", "medical-horror"],
+  "content_mentions": ["child-abuse", "suicide-self-harm"],
   "keywords": [
     "Joao Teixeira de Faria",
     "Abadiania",
@@ -130,12 +131,6 @@
       "note": "daughter alleges he abused her from age 10 to 14; baby-selling claims follow"
     },
     {
-      "facet": "content_warnings",
-      "part": 2,
-      "at": "00:42:19",
-      "note": "accuser driven abroad by threats; a victim hounded into suicide"
-    },
-    {
       "facet": "time",
       "part": 2,
       "at": "00:48:03",
@@ -146,6 +141,24 @@
       "part": 2,
       "at": "00:37:31",
       "note": "Abadiania described as his personal fiefdom built on pilgrim tourism"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:42:19",
+      "note": "Extended coverage of hundreds of women accusing the healer of rape and abuse, through his conviction"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:43:21",
+      "note": "His daughter's account of being raped by him as a child; later the claim of teenage girls held to bear babies"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:43:52",
+      "note": "He is said to have beaten his daughter badly after the abuse came out; a follower recounts childhood torture"
     }
   ],
   "notes": "Transcript dates the military coup to 1962 (it was 1964) and garbles the Abadiania arrival year; main_span start 1976 from general knowledge, so approximate. Ze Arigo, Rubens Farias and Kardec treated as background, not covered years. Subject still alive at release, so covered_span ends 2020."

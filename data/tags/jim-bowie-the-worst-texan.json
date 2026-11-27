@@ -57,6 +57,7 @@
   },
   "summary": "Frontier legend Jim Bowie laundered smuggled Africans into the US slave market, ran vast land frauds in Louisiana, Arkansas and Mexican Texas, killed a man in the Sandbar Fight and died at the Alamo in 1836.",
   "content_warnings": ["slavery", "graphic-violence", "torture", "animal-cruelty"],
+  "content_mentions": ["sexual-violence", "suicide-self-harm"],
   "keywords": [
     "Bowie knife",
     "Alamo",
@@ -78,18 +79,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:03:06", "note": "Birth in Logan County, Kentucky, given as 1796, with the year flagged as uncertain" },
-    { "facet": "time", "part": 1, "at": "00:25:57", "note": "Joins James Long's 1819 filibuster into Texas, his first major venture" },
-    { "facet": "themes", "part": 1, "at": "00:37:26", "note": "Bowie brothers launder slaves bought from Lafitte by informing on themselves" },
-    { "facet": "themes", "part": 1, "at": "01:01:00", "note": "Family turns the Sandbar Fight fame into a knife brand and legend" },
-    { "facet": "regions", "part": 1, "at": "00:45:11", "note": "Years of fraudulent land sales in Arkansas" },
-    { "facet": "themes", "part": 2, "at": "00:05:12", "note": "Forged deeds and hired actors to sell land he never owned" },
-    { "facet": "themes", "part": 2, "at": "00:11:30", "note": "Silver-hunting party fights a multi-day battle with Native tribes, many killed" },
-    { "facet": "regions", "part": 2, "at": "00:24:33", "note": "Monclova land sale in Coahuila, arrest and escape back to Texas" },
-    { "facet": "themes", "part": 2, "at": "00:27:05", "note": "Texas Revolution: elected colonel, wins at Concepcion, revolt becomes secession" },
-    { "facet": "content_warnings", "part": 2, "at": "00:33:55", "note": "Repeated hanging and burning of a captured Mexican man for information" },
-    { "facet": "time", "part": 2, "at": "00:44:58", "note": "Yellow fever at the Alamo; battle begins and he dies in 1836" },
-    { "facet": "themes", "part": 2, "at": "00:46:28", "note": "Competing myths about his death and the grifters who spread them" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:06",
+      "note": "Birth in Logan County, Kentucky, given as 1796, with the year flagged as uncertain"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:25:57",
+      "note": "Joins James Long's 1819 filibuster into Texas, his first major venture"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:37:26",
+      "note": "Bowie brothers launder slaves bought from Lafitte by informing on themselves"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:01:00",
+      "note": "Family turns the Sandbar Fight fame into a knife brand and legend"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:45:11",
+      "note": "Years of fraudulent land sales in Arkansas"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:05:12",
+      "note": "Forged deeds and hired actors to sell land he never owned"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:11:30",
+      "note": "Silver-hunting party fights a multi-day battle with Native tribes, many killed"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:24:33",
+      "note": "Monclova land sale in Coahuila, arrest and escape back to Texas"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:27:05",
+      "note": "Texas Revolution: elected colonel, wins at Concepcion, revolt becomes secession"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:44:58",
+      "note": "Yellow fever at the Alamo; battle begins and he dies in 1836"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:46:28",
+      "note": "Competing myths about his death and the grifters who spread them"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:05:39",
+      "note": "Describes Bowie trapping bears in a spiked, honey-baited stump before shooting them"
+    }
   ],
   "notes": "Primary theme folklore-legend because the story is framed as the real man behind the frontier hero; fraud-grift was a close alternative. Texas Revolution tagged civil-war as a secession inside Mexico. Lafitte's dates are approximate. Bear-trap hunting account is short but vivid, hence animal-cruelty. The Native fight is not narrated in detail, so no mass-atrocity."
 }

@@ -61,6 +61,7 @@
   },
   "summary": "American conservative activist Phyllis Schlafly, a secret John Birch Society member, helped push the Republican Party rightward from the 1950s, led the campaign that defeated the Equal Rights Amendment and built anti-feminist, anti-gay culture-war politics.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "Equal Rights Amendment",
     "STOP ERA",
@@ -82,18 +83,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:08:50", "note": "Birth in St. Louis and family background; covered span starts at her birth" },
-    { "facet": "time", "part": 1, "at": "00:41:13", "note": "Runs Claude Bakewell's 1946 congressional campaign, her first political job" },
-    { "facet": "time", "part": 1, "at": "00:50:35", "note": "Own congressional run and upset primary win; treated as start of her consequential career" },
-    { "facet": "themes", "part": 1, "at": "00:54:13", "note": "Partnership with Admiral Ward, books urging nuclear superiority and first-strike capability" },
-    { "facet": "subjects", "part": 1, "at": "01:07:13", "note": "Long segment on the John Birch Society, its founder and its conspiracy worldview" },
-    { "facet": "subjects", "part": 1, "at": "01:15:35", "note": "Letters show her John Birch Society membership from 1959, later kept secret" },
-    { "facet": "subjects", "part": 1, "at": "01:18:40", "note": "Extended background on Barry Goldwater and his anti-integration politics" },
-    { "facet": "themes", "part": 2, "at": "00:08:26", "note": "John Birch Society bulk-bought her 1964 book to distribute as propaganda" },
-    { "facet": "themes", "part": 2, "at": "00:17:23", "note": "Founds STOP ERA in 1972 and organizes housewives against the amendment" },
-    { "facet": "themes", "part": 2, "at": "00:36:04", "note": "Analysis of the white, church-going base she built and its racial politics" },
-    { "facet": "themes", "part": 2, "at": "00:47:36", "note": "Anti-gay campaigning, opposition to AIDS education, gay-marriage scare tactics" },
-    { "facet": "time", "part": 2, "at": "01:03:04", "note": "Endorses Trump shortly before her death at 92 in 2016" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:08:50",
+      "note": "Birth in St. Louis and family background; covered span starts at her birth"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:41:13",
+      "note": "Runs Claude Bakewell's 1946 congressional campaign, her first political job"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:50:35",
+      "note": "Own congressional run and upset primary win; treated as start of her consequential career"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:54:13",
+      "note": "Partnership with Admiral Ward, books urging nuclear superiority and first-strike capability"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:07:13",
+      "note": "Long segment on the John Birch Society, its founder and its conspiracy worldview"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:15:35",
+      "note": "Letters show her John Birch Society membership from 1959, later kept secret"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:18:40",
+      "note": "Extended background on Barry Goldwater and his anti-integration politics"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:08:26",
+      "note": "John Birch Society bulk-bought her 1964 book to distribute as propaganda"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:17:23",
+      "note": "Founds STOP ERA in 1972 and organizes housewives against the amendment"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:36:04",
+      "note": "Analysis of the white, church-going base she built and its racial politics"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:47:36",
+      "note": "Anti-gay campaigning, opposition to AIDS education, gay-marriage scare tactics"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:03:04",
+      "note": "Endorses Trump shortly before her death at 92 in 2016"
+    }
   ],
   "notes": "main_span starts at her first congressional run (1952, year from general knowledge; transcript gives no year) rather than the 1946 Bakewell campaign. Transcript says the ERA died in 1985; the ratification deadline actually lapsed in 1982. reaches_present for the Trump endorsement and the 2020 abortion-opinion discussion. Eagle Forum stands in for STOP ERA, which has no separate entry."
 }

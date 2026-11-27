@@ -64,7 +64,8 @@
     "approximate": false
   },
   "summary": "In 2004 British mercenary Simon Mann and wealthy backers plotted to overthrow Equatorial Guinea's dictator Teodoro Obiang to seize its oil wealth; the bungled plot ended with arrests in Zimbabwe and torture in Black Beach Prison.",
-  "content_warnings": ["mass-atrocity", "torture"],
+  "content_warnings": ["torture", "mass-atrocity"],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Executive Outcomes",
     "Sandline International",
@@ -139,6 +140,12 @@
       "part": 2,
       "at": "01:06:37",
       "note": "extradition to Black Beach, torture, pardon in 2009 and release"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:17:42",
+      "note": "Mercenary commander punished one of his men for raping a woman in the field"
     }
   ],
   "notes": "Wonga Coup and Simon Mann both primary: Part 1 is background (Haggard, Hoare, Denard, Forsyth's 1973 plot, Macias and Obiang); Part 2 is Mann's life and the plot. Haggard's novel treated as framing, so covered_span starts at Mann's birth. Mann believed alive. Forsyth's 1973 plot gets a real segment but the five-subject limit left him in keywords."

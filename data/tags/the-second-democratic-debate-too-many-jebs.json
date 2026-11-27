@@ -64,6 +64,7 @@
   },
   "summary": "Robert Evans, Katy Stoll and Cody Johnston react to the July 2019 CNN Democratic primary debates, criticising the moderators' framing, Joe Biden's performance, Marianne Williamson's grift and Tulsi Gabbard's record.",
   "content_warnings": [],
+  "content_mentions": [],
   "keywords": [
     "Worst Year Ever",
     "2020 Democratic primaries",
@@ -85,13 +86,48 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "format", "part": 1, "at": "00:00:04", "note": "Host says this is not a BtB episode but a prelude to the hosts' upcoming election-year podcast" },
-    { "facet": "themes", "part": 1, "at": "00:05:44", "note": "Long segment on Williamson as a populist grifter and her ironic right-wing fan base" },
-    { "facet": "themes", "part": 1, "at": "00:13:40", "note": "Hosts argue CNN moderators framed questions against Sanders and used Republican talking points" },
-    { "facet": "themes", "part": 1, "at": "00:22:34", "note": "Gabbard attacks Harris's prosecutorial record; hosts discuss Gabbard's Assad visit" },
-    { "facet": "themes", "part": 1, "at": "00:26:49", "note": "Several minutes on candidates' immigration positions, child detention and decriminalisation" },
-    { "facet": "themes", "part": 1, "at": "00:49:44", "note": "Protesters chant about the Eric Garner officer; de Blasio and Gillibrand responses" },
-    { "facet": "themes", "part": 1, "at": "00:02:38", "note": "Inslee's climate message praised; moderators interrupt climate answers" }
+    {
+      "facet": "format",
+      "part": 1,
+      "at": "00:00:04",
+      "note": "Host says this is not a BtB episode but a prelude to the hosts' upcoming election-year podcast"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:05:44",
+      "note": "Long segment on Williamson as a populist grifter and her ironic right-wing fan base"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:13:40",
+      "note": "Hosts argue CNN moderators framed questions against Sanders and used Republican talking points"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:22:34",
+      "note": "Gabbard attacks Harris's prosecutorial record; hosts discuss Gabbard's Assad visit"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:26:49",
+      "note": "Several minutes on candidates' immigration positions, child detention and decriminalisation"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:49:44",
+      "note": "Protesters chant about the Eric Garner officer; de Blasio and Gillibrand responses"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:02:38",
+      "note": "Inslee's climate message praised; moderators interrupt climate answers"
+    }
   ],
   "notes": "Promo for the hosts' election podcast (later Worst Year Ever), described on air as not a BtB episode, so crossover beats current-affairs by precedence. No single bastard; the debate night is the primary subject. Detroit venue is from general knowledge, not the transcript. Climate theme is borderline in airtime."
 }

@@ -65,7 +65,8 @@
     "approximate": false
   },
   "summary": "Seventh-day Adventist physician John Harvey Kellogg ran the Battle Creek Sanitarium in Michigan from 1876, promoting enemas and fad cures, torturing and genitally mutilating children to stop masturbation, and campaigning for eugenics.",
-  "content_warnings": ["child-abuse", "medical-horror"],
+  "content_warnings": ["child-sexual-abuse", "child-abuse", "medical-horror"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Battle Creek",
     "corn flakes",
@@ -87,17 +88,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:11:38", "note": "Adventism grows out of the Great Disappointment; Ellen White's prophetic role begins" },
-    { "facet": "time", "part": 1, "at": "00:19:02", "note": "family conversion and his birth in February 1852" },
-    { "facet": "themes", "part": 1, "at": "00:54:46", "note": "church opens its own hydropathy medical school and sends him there" },
-    { "facet": "time", "part": 1, "at": "00:59:38", "note": "made superintendent and renames the institute the Battle Creek Sanitarium" },
-    { "facet": "themes", "part": 1, "at": "01:03:54", "note": "auto-intoxication theory and high-volume enema machine" },
-    { "facet": "themes", "part": 2, "at": "00:17:24", "note": "electrified catheter treatment for masturbating patients" },
-    { "facet": "themes", "part": 2, "at": "00:30:00", "note": "his warning signs of masturbation overlap with signs of child sexual abuse" },
-    { "facet": "content_warnings", "part": 2, "at": "00:38:14", "note": "genital surgery on girls and circumcision without anaesthetic as punishment" },
-    { "facet": "themes", "part": 2, "at": "00:58:25", "note": "disfellowshipped in 1907, then embraces eugenics as race betterment" },
-    { "facet": "themes", "part": 2, "at": "01:04:42", "note": "eugenics conferences and Michigan forced sterilization law" },
-    { "facet": "time", "part": 2, "at": "01:12:43", "note": "fourth conference cancelled after Pearl Harbor; dies in Battle Creek" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:11:38",
+      "note": "Adventism grows out of the Great Disappointment; Ellen White's prophetic role begins"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:19:02",
+      "note": "family conversion and his birth in February 1852"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:54:46",
+      "note": "church opens its own hydropathy medical school and sends him there"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:59:38",
+      "note": "made superintendent and renames the institute the Battle Creek Sanitarium"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:03:54",
+      "note": "auto-intoxication theory and high-volume enema machine"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:17:24",
+      "note": "electrified catheter treatment for masturbating patients"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:30:00",
+      "note": "his warning signs of masturbation overlap with signs of child sexual abuse"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:58:25",
+      "note": "disfellowshipped in 1907, then embraces eugenics as race betterment"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:04:42",
+      "note": "eugenics conferences and Michigan forced sterilization law"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:12:43",
+      "note": "fourth conference cancelled after Pearl Harbor; dies in Battle Creek"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:30:00",
+      "note": "Kellogg's masturbation signs match signs of child sexual abuse; abused children were punished"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:30:30",
+      "note": "Case of a ten-year-old rape victim Kellogg treated only for masturbation"
+    }
   ],
   "notes": "Death year 1943 from general knowledge (transcript gives only December). covered_span starts at the 1844 founding of Adventism; the Millerite preaching from 1831 is treated as background. Adventism is a mainstream denomination today but the story treats its early form as an apocalyptic sect, hence cults-new-religions; organized-religion is the alternative. Transcript says he was 26 at the superintendency; 1876 used."
 }

@@ -68,6 +68,7 @@
   },
   "summary": "A history of US domination of Panama from the 1846 Bidlack Treaty through the 1903 engineered secession, the segregated Canal Zone, chemical weapons tests and the 1989 invasion that killed hundreds or thousands of civilians.",
   "content_warnings": ["mass-atrocity", "medical-horror", "hate-speech"],
+  "content_mentions": ["sexual-violence", "suicide-self-harm"],
   "keywords": [
     "Panama Canal",
     "Canal Zone",
@@ -89,16 +90,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:06:52", "note": "1846 Bidlack Treaty opens the story of US designs on the isthmus" },
-    { "facet": "themes", "part": 1, "at": "00:51:59", "note": "Roosevelt backs separatist revolt; 1903 independence engineered with US money and gunboats" },
-    { "facet": "themes", "part": 2, "at": "00:03:35", "note": "Gorgas runs mosquito eradication and sanitation regime for the Canal Zone" },
-    { "facet": "themes", "part": 2, "at": "00:14:26", "note": "racial autopsy studies and tropical-medicine race theory used to justify segregation" },
-    { "facet": "themes", "part": 2, "at": "00:19:41", "note": "Jim Crow segregation exported to Panama with mostly Caribbean Black workforce" },
-    { "facet": "content_warnings", "part": 2, "at": "00:34:03", "note": "race-based mustard gas tests on US soldiers at San Jose Island" },
-    { "facet": "time", "part": 2, "at": "00:39:22", "note": "1964 flag riots and deaths start the end of US control" },
-    { "facet": "themes", "part": 2, "at": "00:46:08", "note": "Noriega as paid CIA asset and cocaine trafficker protected by US agencies" },
-    { "facet": "themes", "part": 2, "at": "00:57:08", "note": "crack-panic media coverage and drug war used to build case for intervention" },
-    { "facet": "content_warnings", "part": 2, "at": "01:10:11", "note": "December 1989 invasion levels El Chorrillo; death tolls and mass graves discussed" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:06:52",
+      "note": "1846 Bidlack Treaty opens the story of US designs on the isthmus"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:51:59",
+      "note": "Roosevelt backs separatist revolt; 1903 independence engineered with US money and gunboats"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:03:35",
+      "note": "Gorgas runs mosquito eradication and sanitation regime for the Canal Zone"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:14:26",
+      "note": "racial autopsy studies and tropical-medicine race theory used to justify segregation"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:19:41",
+      "note": "Jim Crow segregation exported to Panama with mostly Caribbean Black workforce"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:39:22",
+      "note": "1964 flag riots and deaths start the end of US control"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:46:08",
+      "note": "Noriega as paid CIA asset and cocaine trafficker protected by US agencies"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:57:08",
+      "note": "crack-panic media coverage and drug war used to build case for intervention"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "01:07:00",
+      "note": "US-backed Latin American forces raping nuns, brief reference"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:12:00",
+      "note": "Chinese railroad workers in despair died by mass suicide, brief"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:34:03",
+      "note": "race-based mustard gas tests on US soldiers at San Jose Island"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "01:10:11",
+      "note": "December 1989 invasion levels El Chorrillo; death tolls and mass graves discussed"
+    }
   ],
   "notes": "The bastard is the US state across 150 years, so the primary subject is the US government with no roles. Chemical weapons testing (about 10 minutes) could also justify weapons-arms-trade; left out to keep to 8 themes. Spanish rule and 1821 independence are background. Noriega's 2017 death and the 2018 munitions cleanup are one-line codas, so reaches_present is false."
 }

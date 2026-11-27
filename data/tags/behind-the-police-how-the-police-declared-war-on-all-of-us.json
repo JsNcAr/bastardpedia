@@ -62,7 +62,8 @@
     "approximate": false
   },
   "summary": "The closing Behind the Police episode traces how US police became militarized, from the Texas Rangers' ethnic cleansing and Smedley Butler's Prohibition-era Philadelphia force to SWAT raids, the drug war and the 1985 MOVE bombing.",
-  "content_warnings": ["graphic-violence", "mass-atrocity"],
+  "content_warnings": ["sexual-violence", "graphic-violence", "mass-atrocity", "animal-cruelty"],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Behind the Police",
     "Red Fork Massacre",
@@ -143,6 +144,18 @@
       "part": 1,
       "at": "02:10:43",
       "note": "2020 cancellation of Cops and Live PD after George Floyd's murder; covered span ends 2020"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "01:58:03",
+      "note": "Several minutes on police failing to investigate rape, untested kits, and officers committing rapes"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "01:46:34",
+      "note": "Several minutes on SWAT teams and police routinely shooting family dogs during raids"
     }
   ],
   "notes": "Survey episode with no single bastard; primary subject modelled as a practice. main_span starts at the 1965 Watts uprising, when the episode says modern militarization took off; Rangers (from 1835) and Butler (1924-1925) are earlier precursors in covered_span. Cold War police training abroad (VN, IR, UY, AR, BR, CO) got only a few minutes, so setting is US only. Transcript garbles some years (Butler '1942', MOVE '1905'); 1924 and 1985 used."

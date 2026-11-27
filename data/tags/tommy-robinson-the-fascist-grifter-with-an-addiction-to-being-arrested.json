@@ -52,7 +52,8 @@
     "approximate": false
   },
   "summary": "Stephen Yaxley-Lennon, alias Tommy Robinson, a Luton football hooligan and ex-BNP member, led the anti-Muslim English Defence League from 2009 and later grifted on grooming-gang fears, racking up repeated convictions and jail terms in England.",
-  "content_warnings": ["child-abuse", "drug-use"],
+  "content_warnings": ["child-sexual-abuse", "drug-use"],
+  "content_mentions": [],
   "keywords": [
     "Stephen Yaxley-Lennon",
     "Luton",
@@ -127,6 +128,24 @@
       "part": 1,
       "at": "01:14:47",
       "note": "Finsbury Park attacker radicalised partly by his online posts"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:57:35",
+      "note": "Long section on the Rotherham grooming and trafficking ring and the scale of victims"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "01:00:11",
+      "note": "Government report findings on police treating abused girls with contempt"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "01:07:28",
+      "note": "Robinson filming defendants in a child grooming trial and endangering the case"
     }
   ],
   "notes": "Transcript renders the birth year unintelligibly; 1982 used from known fact. Pegida rallies in Germany and the JFK passport trip are brief, so DE and US are left out of setting. Football hooliganism is part of his early life but not a long enough segment for the sports theme."

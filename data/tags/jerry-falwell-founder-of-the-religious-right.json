@@ -64,7 +64,8 @@
     "approximate": false
   },
   "summary": "Lynchburg, Virginia pastor and televangelist Jerry Falwell preached segregation, founded Liberty University and the Moral Majority, and fused American evangelicals into a political bloc that fought abortion, feminism and gay rights from 1979 on.",
-  "content_warnings": ["hate-speech", "animal-cruelty"],
+  "content_warnings": ["hate-speech"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse", "animal-cruelty"],
   "keywords": [
     "Lynchburg",
     "Thomas Road Baptist Church",
@@ -134,12 +135,7 @@
       "at": "00:27:51",
       "note": "Hustler parody, the libel suit from 1983 and the Supreme Court loss; later friendship with Flynt"
     },
-    {
-      "facet": "time",
-      "part": 2,
-      "at": "00:46:44",
-      "note": "death by heart attack in May 2007"
-    },
+    { "facet": "time", "part": 2, "at": "00:46:44", "note": "death by heart attack in May 2007" },
     {
       "facet": "subjects",
       "part": 3,

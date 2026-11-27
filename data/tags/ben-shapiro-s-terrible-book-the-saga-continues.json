@@ -23,26 +23,14 @@
       }
     }
   ],
-  "roles": [
-    "writer-intellectual",
-    "media-personality"
-  ],
+  "roles": ["writer-intellectual", "media-personality"],
   "themes": {
     "primary": "propaganda-media",
-    "secondary": [
-      "racism-white-supremacy",
-      "terrorism",
-      "policing-incarceration"
-    ]
+    "secondary": ["racism-white-supremacy", "terrorism", "policing-incarceration"]
   },
   "regions": {
-    "origin": [
-      "US"
-    ],
-    "setting": [
-      "US",
-      "IR"
-    ],
+    "origin": ["US"],
+    "setting": ["US", "IR"],
     "subdivisions": [],
     "polities": [],
     "scope": "international"
@@ -60,9 +48,8 @@
     "approximate": true
   },
   "summary": "Robert Evans, Katy Stoll and Cody Johnston keep reading Ben Shapiro's 2016 novel True Allegiance, mocking its prose and a plot of a militia standoff, a staged police killing that sparks a Detroit riot, and Islamist villains in Tehran.",
-  "content_warnings": [
-    "graphic-violence"
-  ],
+  "content_warnings": ["graphic-violence"],
+  "content_mentions": [],
   "keywords": [
     "Brett Hawthorne",
     "Soledad",
@@ -75,10 +62,7 @@
     "Tehran",
     "Cliven Bundy"
   ],
-  "guests": [
-    "Katy Stoll",
-    "Cody Johnston"
-  ],
+  "guests": ["Katy Stoll", "Cody Johnston"],
   "confidence": {
     "subjects": "high",
     "roles": "high",
@@ -92,12 +76,6 @@
       "part": 1,
       "at": "00:05:18",
       "note": "Bundy-style rancher standoff: militia guards her ranch against a federal SWAT team"
-    },
-    {
-      "facet": "content_warnings",
-      "part": 1,
-      "at": "00:20:04",
-      "note": "chapter ends with SWAT officers burning to death after a helicopter crash, read aloud"
     },
     {
       "facet": "themes",
@@ -128,6 +106,12 @@
       "part": 1,
       "at": "01:16:35",
       "note": "captured general is filmed for a jihadist hostage video in Tehran"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:20:04",
+      "note": "chapter ends with SWAT officers burning to death after a helicopter crash, read aloud"
     }
   ],
   "notes": "Part of the multi-episode reading of True Allegiance. Time is the novel's 2016 publication and its unspecified near-present setting (approximate). Iran setting is fictional (the terrorist plot and hostage scenes). propaganda-media chosen as closest primary theme, matching sibling records; no theme fits right-wing polemical fiction exactly. Character spellings are approximate from the transcript."

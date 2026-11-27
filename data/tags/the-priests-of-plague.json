@@ -64,7 +64,8 @@
     "approximate": true
   },
   "summary": "A survey of how Christian churches responded to epidemics: Black Death processions, flagellants and anti-Jewish pogroms, a Spanish bishop who defied 1918 flu bans in Zamora, and churches spreading COVID-19 in 2020.",
-  "content_warnings": ["mass-atrocity"],
+  "content_warnings": ["mass-atrocity", "suicide-self-harm"],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "Black Death",
     "Spanish flu",
@@ -86,16 +87,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:08:50", "note": "Black Death origins and arrival in Germany by 1349 open the historical survey" },
-    { "facet": "themes", "part": 1, "at": "00:13:01", "note": "papally authorised mass processions spread plague; clergy death toll" },
-    { "facet": "subjects", "part": 1, "at": "00:20:56", "note": "long segment on flagellant bands and how they spread disease" },
-    { "facet": "themes", "part": 1, "at": "00:28:17", "note": "Black Death pogroms against Jews, massacres in Strasbourg and Mainz" },
-    { "facet": "subjects", "part": 1, "at": "00:31:27", "note": "Clement VI issues bulls condemning blame of Jews for the plague" },
-    { "facet": "regions", "part": 1, "at": "00:42:59", "note": "Bishop of Zamora introduced; Zamora segment is the longest single story" },
-    { "facet": "regions", "part": 1, "at": "00:52:55", "note": "bishop defies gathering ban with novena and relic kissing in autumn 1918" },
-    { "facet": "regions", "part": 1, "at": "01:02:15", "note": "US churches defying 1918 closures in Buffalo and Indianapolis" },
-    { "facet": "subjects", "part": 1, "at": "01:03:55", "note": "Shincheonji cluster in Daegu drives most South Korean COVID cases in 2020" },
-    { "facet": "themes", "part": 1, "at": "01:09:02", "note": "US evangelical pastors defying COVID orders and calling bans persecution" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:08:50",
+      "note": "Black Death origins and arrival in Germany by 1349 open the historical survey"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:13:01",
+      "note": "papally authorised mass processions spread plague; clergy death toll"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:20:56",
+      "note": "long segment on flagellant bands and how they spread disease"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:28:17",
+      "note": "Black Death pogroms against Jews, massacres in Strasbourg and Mainz"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:31:27",
+      "note": "Clement VI issues bulls condemning blame of Jews for the plague"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:42:59",
+      "note": "Bishop of Zamora introduced; Zamora segment is the longest single story"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:52:55",
+      "note": "bishop defies gathering ban with novena and relic kissing in autumn 1918"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:02:15",
+      "note": "US churches defying 1918 closures in Buffalo and Indianapolis"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:03:55",
+      "note": "Shincheonji cluster in Daegu drives most South Korean COVID cases in 2020"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:09:02",
+      "note": "US evangelical pastors defying COVID orders and calling bans persecution"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:22:27",
+      "note": "Several minutes on Black Death flagellants whipping themselves bloody with spiked whips"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:24:36",
+      "note": "Flagellants beat themselves daily and rub their blood in their eyes"
+    }
   ],
   "notes": "Survey episode with no single bastard; Catholic Church chosen as primary though US evangelicals and Shincheonji also feature. Bishop of Zamora's name rendered garbled in transcript; standard spelling used, lifespan from own knowledge. Transcript places Strasbourg in Germany; modern FR added. main_span equals covered_span because the survey has no narrower core."
 }

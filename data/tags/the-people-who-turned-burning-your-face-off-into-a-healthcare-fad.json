@@ -58,6 +58,7 @@
   },
   "summary": "History of black salve, a corrosive bloodroot and zinc chloride paste sold as a cancer cure from Jesse Fell's 1850s London clinic to Greg Caton's mail-order empire and Facebook groups, where users burned away their flesh and some died.",
   "content_warnings": ["medical-horror"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Cansema",
     "bloodroot",
@@ -126,6 +127,12 @@
       "part": 1,
       "at": "01:07:30",
       "note": "Jensen banned from treating patients in 2018, later in trouble for posing as a lawyer"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:03:38",
+      "note": "Host says the internet leads people to talk themselves into killing themselves with acid"
     }
   ],
   "notes": "Primary subject is the practice, so roles are empty; the human villains (Fell, Caton, Jensen) are secondary. main_span is the modern revival from Caton's mid-1990s Cansema business to the 2019 deaths; covered_span reaches back to Fell in 1842. Ecuador (Caton's later base) and the Bahamas get only brief mentions, so they are left out of setting. Exact lifespans for the three men are not given, so floruit years are used."

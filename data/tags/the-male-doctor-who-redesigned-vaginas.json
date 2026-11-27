@@ -51,7 +51,8 @@
     "approximate": false
   },
   "summary": "Dayton, Ohio gynecologist James Burt spent decades secretly performing his experimental 'love surgery' on thousands of unconscious women, reshaping their genitals without consent, until lawsuits cost him his license in 1989.",
-  "content_warnings": ["medical-horror", "sexual-violence"],
+  "content_warnings": ["sexual-violence", "medical-horror"],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "love surgery",
     "Dayton",
@@ -74,15 +75,72 @@
   },
   "evidence": [
     { "facet": "time", "part": 1, "at": "00:03:45", "note": "Burt's birth in Dayton in 1921" },
-    { "facet": "time", "part": 1, "at": "00:25:26", "note": "unconsented experimental episiotomy repairs begin in 1954" },
-    { "facet": "themes", "part": 1, "at": "00:41:21", "note": "claims over four thousand women operated on by 1975" },
-    { "facet": "subjects", "part": 1, "at": "00:55:39", "note": "Burt and his wife Joan co-author Surgery of Love" },
-    { "facet": "themes", "part": 2, "at": "00:10:49", "note": "book urges husbands to physically force wives; equates rape with salesmanship" },
-    { "facet": "themes", "part": 2, "at": "00:21:25", "note": "PR firm, Playgirl and talk-show appearances to sell the surgery" },
-    { "facet": "subjects", "part": 2, "at": "00:32:28", "note": "Catholic hospital profits from and shields Burt" },
-    { "facet": "themes", "part": 2, "at": "00:36:38", "note": "weekly radio show as the Love Doctor" },
-    { "facet": "time", "part": 2, "at": "00:46:36", "note": "medical board charges and license surrender in January 1989" },
-    { "facet": "regions", "part": 1, "at": "00:03:15", "note": "crimes in Ohio; later retreat to Florida mentioned only briefly" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:25:26",
+      "note": "unconsented experimental episiotomy repairs begin in 1954"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:41:21",
+      "note": "claims over four thousand women operated on by 1975"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:55:39",
+      "note": "Burt and his wife Joan co-author Surgery of Love"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:10:49",
+      "note": "book urges husbands to physically force wives; equates rape with salesmanship"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:21:25",
+      "note": "PR firm, Playgirl and talk-show appearances to sell the surgery"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:32:28",
+      "note": "Catholic hospital profits from and shields Burt"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:36:38",
+      "note": "weekly radio show as the Love Doctor"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:46:36",
+      "note": "medical board charges and license surrender in January 1989"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:03:15",
+      "note": "crimes in Ohio; later retreat to Florida mentioned only briefly"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:48:40",
+      "note": "A patient describes the unconsented genital surgery as sexual abuse and its lasting harm"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:10:49",
+      "note": "Burt's own writing equating rape with persuasion, discussed by the hosts"
+    }
   ],
   "notes": "Hosts were unsure in 2021 whether Burt was alive; death year 2007 is from outside knowledge and should be checked (it drives covered_span.end via the lifetime rule). Victims are adult patients; nonconsensual genital surgery framed by victims as sexual abuse, hence sexual-abuse. misogyny-manosphere is a loose fit for his individual misogynist ideology. Part 1 sex-ed history is background, not counted."
 }

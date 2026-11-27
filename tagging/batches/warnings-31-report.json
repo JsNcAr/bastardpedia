@@ -1,0 +1,136 @@
+[
+  {
+    "id": "why-steve-bannon-got-arrested",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    },
+    "notes": "Scan found no candidates for any strict warning; story is about a fundraising fraud."
+  },
+  {
+    "id": "phyllis-schlafly-the-mother-of-all-culture-wars",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "Child-sexual-abuse hits are only QAnon conspiracy claims, kept as a mention under the doubt rule, consistent with earlier batches."
+  },
+  {
+    "id": "alexander-lukashenko-the-dictator-of-belarus",
+    "before": {
+      "warnings": ["torture"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["torture"],
+      "mentions": ["child-sexual-abuse"]
+    },
+    "notes": "The other hit is grooming in the sense of a son being prepared as successor; dropped."
+  },
+  {
+    "id": "canada-s-darkest-secret-residential-schools",
+    "before": {
+      "warnings": ["child-abuse", "child-death", "torture"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse", "child-abuse", "child-death", "torture"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Sexual-violence dropped: the rape victims described are children (filed as child-sexual-abuse); the one adult harassment hit at 01:07:31 is a promo for another show."
+  },
+  {
+    "id": "the-u-s-border-patrol-is-a-nightmare-that-never-ends",
+    "before": {
+      "warnings": [
+        "child-death",
+        "mass-atrocity",
+        "torture",
+        "graphic-violence",
+        "sexual-violence",
+        "hate-speech"
+      ],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [
+        "sexual-violence",
+        "child-death",
+        "graphic-violence",
+        "torture",
+        "mass-atrocity",
+        "hate-speech"
+      ],
+      "mentions": ["child-sexual-abuse", "child-abuse"]
+    },
+    "notes": "Child-abuse added as a mention from agents using migrant children as bait or leverage (00:22:02); theme child-abuse suggests more may exist outside the scan words."
+  },
+  {
+    "id": "we-read-an-unbearably-thirsty-joe-biden-barrack-obama-mystery-novel",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    },
+    "notes": "Scan found no candidates for any strict warning."
+  },
+  {
+    "id": "america-s-war-on-children",
+    "before": {
+      "warnings": ["child-abuse", "child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "child-death"],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "Child-abuse kept detailed from the original tag; the scan words missed it, so evidence timestamps come from the transcript."
+  },
+  {
+    "id": "the-bastards-who-killed-pat-tillman",
+    "before": {
+      "warnings": ["graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence"],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "Only hit is a debunked rumour of sexual assault; kept as a mention under the doubt rule."
+  },
+  {
+    "id": "ben-shapiro-s-terrible-book-the-saga-continues",
+    "before": {
+      "warnings": ["graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence"],
+      "mentions": []
+    },
+    "notes": "Only hit is a transcription error for wiping a forehead; dropped."
+  },
+  {
+    "id": "bill-cooper-the-man-who-killed-truth",
+    "before": {
+      "warnings": ["child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse"],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "Sexual-violence mention rests on the covert bathroom filming aside; reviewer may judge it outside the definition. Suicide hit is a band name, dropped."
+  }
+]

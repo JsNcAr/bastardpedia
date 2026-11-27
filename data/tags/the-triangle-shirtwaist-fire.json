@@ -56,6 +56,7 @@
   },
   "summary": "In 1911 a fire at the Triangle Waist Company factory in Manhattan killed 146 mostly immigrant young women, trapped by locked doors and a failed fire escape; owners Max Blanck and Isaac Harris, who had crushed a strike and profited from insurance fires, were acquitted.",
   "content_warnings": ["graphic-violence", "mass-atrocity"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Asch Building",
     "Greenwich Village",
@@ -130,6 +131,12 @@
       "part": 1,
       "at": "01:37:59",
       "note": "1913-1914 violations and fines; company finally closed in 1918"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:17:47",
+      "note": "A servant girl's suicide in Kishinev used as a blood-libel pretext for a pogrom"
     }
   ],
   "notes": "Primary subject is the event, so roles are empty; Blanck and Harris are listed as one secondary group. The covered span starts at the 1881 pogroms because they are tied to the owners' own emigration; if treated as pure background, start would be about 1890. Scope set to local (New York City) although the Russian Empire background adds RU and MD to the setting. Frances Perkins and OSHA legacy is brief, so reaches_present is false."

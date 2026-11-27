@@ -45,7 +45,8 @@
     "approximate": true
   },
   "summary": "Alabama internist Charles Runels, barred by the FDA from clinical research after an unethical vaccine trial on homeless people, built a licensing business selling unproven platelet-rich plasma injections such as the Vampire Facelift and the genital O-Shot.",
-  "content_warnings": ["medical-horror", "sexual-violence"],
+  "content_warnings": ["sexual-violence", "medical-horror"],
+  "content_mentions": ["child-sexual-abuse", "child-abuse"],
   "keywords": [
     "Doctor Orgasm",
     "Vampire Facelift",
@@ -122,16 +123,22 @@
       "note": "segment on his hero Forssmann and the 1929 self-catheterization"
     },
     {
-      "facet": "content_warnings",
-      "part": 1,
-      "at": "01:12:34",
-      "note": "a patient's history of rape and marital sexual abuse recounted in some detail"
-    },
-    {
       "facet": "time",
       "part": 1,
       "at": "01:22:19",
       "note": "2020 attempt to start a COVID convalescent plasma venture"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "01:12:34",
+      "note": "Many women seeking the shot are rape survivors; one interviewee's story of assault is told"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "01:13:06",
+      "note": "Account of a partner raping a woman repeatedly and the lasting physical injuries"
     }
   ],
   "notes": "Runels' birth year is not given and I am not certain of it, so lifespan is null; his teenage acne is a brief anecdote. Vaccine trial year is garbled in the transcript; 2003 is an estimate. Forssmann and Barry Marshall are comparisons, kept out of covered years. Long opening segment on female orgasm research and sex education has no matching theme (vocabulary gap: sexual health)."

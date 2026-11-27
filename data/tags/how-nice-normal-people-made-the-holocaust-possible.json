@@ -57,7 +57,8 @@
     "approximate": true
   },
   "summary": "How ordinary Germans such as clerks, bakers, teachers and police officers voted for, joined and served the Nazi regime from the 1930s to 1945, enabling the Holocaust through indifference, self-interest and obedience.",
-  "content_warnings": ["mass-atrocity", "child-death", "graphic-violence", "hate-speech"],
+  "content_warnings": ["child-death", "graphic-violence", "mass-atrocity", "hate-speech"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "They Thought They Were Free",
     "Horst Wessel Song",
@@ -138,6 +139,18 @@
       "part": 2,
       "at": "00:52:13",
       "note": "Mayer's postwar interviews with a chemical engineer who took the 1935 oath"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:20:06",
+      "note": "Nazi propaganda presented the camps as holding rapists and sex offenders"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:26:01",
+      "note": "Hosts note the camps were justified as places for child molesters; QAnon pedophile-cabal parallel"
     }
   ],
   "notes": "Primary subject is an unnamed mass of ordinary supporters; tagged movement-or-ideology because group requires named people, so roles are empty. Long modern comparisons (Trump, Proud Boys, Patriot Prayer, ICE) justify fascism-far-right but not US in setting. Covered span ends with Mayer's early-1950s interviews (book 1955). Mattner's birth/death years not given, so floruit 1941."

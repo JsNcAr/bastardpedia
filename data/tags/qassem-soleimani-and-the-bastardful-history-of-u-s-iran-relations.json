@@ -58,6 +58,7 @@
   },
   "summary": "Iranian Revolutionary Guard general Qassem Soleimani rose from a poor Kerman childhood to run the Quds Force, building proxy militias across Iraq, Syria, Lebanon and beyond until a US strike killed him in Baghdad in 2020.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "Kerman",
     "Mahabad",
@@ -79,18 +80,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:10:04", "note": "Birth in 1957 in a village in Kerman Province; father's debt to the Shah's government" },
-    { "facet": "time", "part": 1, "at": "00:20:29", "note": "Sent with Revolutionary Guard to crush the Kurdish uprising at Mahabad at age 23" },
-    { "facet": "themes", "part": 1, "at": "00:41:29", "note": "Reagan administration armed both Iran and Iraq; intelligence aided chemical attacks" },
-    { "facet": "regions", "part": 1, "at": "00:45:37", "note": "After 1988 posted to eastern frontier to fight opium smugglers and the Taliban" },
-    { "facet": "subjects", "part": 1, "at": "00:46:42", "note": "Appointed head of the Quds Force; its role in asymmetric warfare explained" },
-    { "facet": "regions", "part": 1, "at": "00:51:59", "note": "1998 Mazar-i-Sharif crisis; backs Northern Alliance instead of invading Afghanistan" },
-    { "facet": "themes", "part": 1, "at": "00:56:14", "note": "2002 Axis of Evil speech ends US-Iran cooperation in Kabul" },
-    { "facet": "themes", "part": 1, "at": "00:59:20", "note": "Quds Force supplies EFPs to Iraqi insurgents and lets jihadists transit Syria" },
-    { "facet": "regions", "part": 1, "at": "01:15:39", "note": "Directs Shia militias propping up Assad in the Syrian civil war" },
-    { "facet": "themes", "part": 1, "at": "01:25:30", "note": "Leaked Iranian cables on militia abuses against Sunnis and his self-promotion" },
-    { "facet": "themes", "part": 1, "at": "01:31:40", "note": "State-built cult of personality and martyrdom image, Instagram following" },
-    { "facet": "time", "part": 1, "at": "00:01:37", "note": "Killed by US missile strike leaving Baghdad airport, January 2020" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:10:04",
+      "note": "Birth in 1957 in a village in Kerman Province; father's debt to the Shah's government"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:20:29",
+      "note": "Sent with Revolutionary Guard to crush the Kurdish uprising at Mahabad at age 23"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:41:29",
+      "note": "Reagan administration armed both Iran and Iraq; intelligence aided chemical attacks"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:45:37",
+      "note": "After 1988 posted to eastern frontier to fight opium smugglers and the Taliban"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:46:42",
+      "note": "Appointed head of the Quds Force; its role in asymmetric warfare explained"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:51:59",
+      "note": "1998 Mazar-i-Sharif crisis; backs Northern Alliance instead of invading Afghanistan"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:56:14",
+      "note": "2002 Axis of Evil speech ends US-Iran cooperation in Kabul"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:59:20",
+      "note": "Quds Force supplies EFPs to Iraqi insurgents and lets jihadists transit Syria"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:15:39",
+      "note": "Directs Shia militias propping up Assad in the Syrian civil war"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:25:30",
+      "note": "Leaked Iranian cables on militia abuses against Sunnis and his self-promotion"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:31:40",
+      "note": "State-built cult of personality and martyrdom image, Instagram following"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:01:37",
+      "note": "Killed by US missile strike leaving Baghdad airport, January 2020"
+    }
   ],
   "notes": "Recorded days after the assassination with live news breaks, but the bulk is a life story, so deep-dive rather than current-affairs. Primary theme follows the taxonomy's own Soleimani example; war-war-crimes is a close alternative. No content warning: chemical attacks, the Mazar massacre and Assad's prisons are mentioned briefly, not in detail."
 }

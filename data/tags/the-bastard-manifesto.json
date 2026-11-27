@@ -45,6 +45,7 @@
   },
   "summary": "An essay episode in which Robert Evans draws on anthropology and neuroscience to argue that hierarchy is wired into human brains, that hunter-gatherers actively enforced equality, and that authoritarianism spread like a virus once agriculture and large societies arose.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Bastards 101",
     "hunter-gatherers",
@@ -66,14 +67,60 @@
     "time": "low"
   },
   "evidence": [
-    { "facet": "format", "part": 1, "at": "00:01:35", "note": "Host frames the episode as prehistory of authoritarianism rather than a single bastard" },
-    { "facet": "time", "part": 1, "at": "00:06:00", "note": "Fukuyama essay and 2018 democracy index used to frame present-day backsliding" },
-    { "facet": "time", "part": 1, "at": "00:17:26", "note": "Egalitarian hunter-gatherer ancestors and prehistoric social organisation" },
-    { "facet": "subjects", "part": 1, "at": "00:27:45", "note": "Long segment on Lee's 1970s ox gift and the Ju/'hoansi practice of mocking a hunter's meat" },
-    { "facet": "regions", "part": 1, "at": "00:28:47", "note": "Lee's fieldwork in the Kalahari, modern Botswana" },
-    { "facet": "themes", "part": 1, "at": "00:34:01", "note": "Research on power impairing empathy, tied to social media behaviour of the powerful" },
-    { "facet": "time", "part": 1, "at": "00:40:50", "note": "Theories of how agriculture, surplus and property let inequality spread" },
-    { "facet": "themes", "part": 1, "at": "00:50:45", "note": "Fascists organising online and fascism as a bottom-up molecular force" }
+    {
+      "facet": "format",
+      "part": 1,
+      "at": "00:01:35",
+      "note": "Host frames the episode as prehistory of authoritarianism rather than a single bastard"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:06:00",
+      "note": "Fukuyama essay and 2018 democracy index used to frame present-day backsliding"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:17:26",
+      "note": "Egalitarian hunter-gatherer ancestors and prehistoric social organisation"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:27:45",
+      "note": "Long segment on Lee's 1970s ox gift and the Ju/'hoansi practice of mocking a hunter's meat"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:28:47",
+      "note": "Lee's fieldwork in the Kalahari, modern Botswana"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:34:01",
+      "note": "Research on power impairing empathy, tied to social media behaviour of the powerful"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:40:50",
+      "note": "Theories of how agriculture, surplus and property let inequality spread"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:50:45",
+      "note": "Fascists organising online and fascism as a bottom-up molecular force"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:25:11",
+      "note": "Point that most rapists are never punished, in a list of unpunished crimes"
+    }
   ],
   "notes": "Essay episode with no single bastard; deep-dive chosen over meta, though it draws on the show's research. The core period is prehistory (tens of thousands of years ago to early agriculture), below the schema minimum of -5000, so spans are clamped to -5000 and marked approximate. Regions are thin: only the Kalahari fieldwork and Iroquois study get real time."
 }

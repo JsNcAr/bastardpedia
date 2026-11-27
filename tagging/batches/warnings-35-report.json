@@ -1,0 +1,119 @@
+[
+  {
+    "id": "the-dumbest-colonizer-in-history",
+    "before": {
+      "warnings": ["graphic-violence", "hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "hate-speech"],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Child sexual abuse mention is only a reference back to an earlier episode, kept per the doubt rule."
+  },
+  {
+    "id": "basil-zaharoff-the-man-who-sold-world-war-one",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Suicide mention rests only on figurative kill-myself phrasing; reviewer may prefer none."
+  },
+  {
+    "id": "savitri-devi-the-woman-who-turned-nazism-into-a-religion",
+    "before": {
+      "warnings": ["animal-cruelty", "hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["animal-cruelty", "hate-speech"],
+      "mentions": ["suicide-self-harm"]
+    }
+  },
+  {
+    "id": "the-childhood-of-joseph-stalin",
+    "before": {
+      "warnings": ["child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse"],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "Child-abuse evidence timestamps taken from the existing tag record; the scan found no child-abuse words."
+  },
+  {
+    "id": "how-hobby-lobby-funded-terrorism-and-tried-to-destroy-democracy",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence"]
+    }
+  },
+  {
+    "id": "the-bastards-who-killed-the-black-panthers",
+    "before": {
+      "warnings": ["graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence"],
+      "mentions": ["sexual-violence"]
+    }
+  },
+  {
+    "id": "the-man-who-invented-fascism",
+    "before": {
+      "warnings": ["sexual-violence", "drug-use"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "drug-use"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm", "animal-cruelty"]
+    },
+    "notes": "Peasant girl at 00:37:42 is called young but no age is given; if a minor, add child-sexual-abuse as detailed. Animal mention is a joke."
+  },
+  {
+    "id": "john-ronald-brown-the-worst-surgeon-ever",
+    "before": {
+      "warnings": ["medical-horror", "suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["suicide-self-harm", "medical-horror"],
+      "mentions": ["child-sexual-abuse", "animal-cruelty"]
+    },
+    "notes": "Child sexual abuse and animal cruelty are joke-only mentions kept per the doubt rule."
+  },
+  {
+    "id": "qassem-soleimani-and-the-bastardful-history-of-u-s-iran-relations",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "Child sexual abuse rests on girls being named among the 1998 rape victims; grooming hits are the political sense and were dropped."
+  },
+  {
+    "id": "the-bastard-who-executed-the-top-nazis",
+    "before": {
+      "warnings": ["graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence"],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    },
+    "notes": "Rape convictions are context for why Woods was needed (about 2 minutes); kept as a mention."
+  }
+]

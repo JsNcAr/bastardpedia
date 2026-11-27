@@ -1,0 +1,127 @@
+[
+  {
+    "id": "the-mdma-cook-who-tried-to-commit-genocide",
+    "before": {
+      "warnings": ["mass-atrocity", "torture", "medical-horror"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["torture", "mass-atrocity", "medical-horror"],
+      "mentions": []
+    },
+    "notes": "Scan found no candidates for any strict warning. The weapons program is known to have tested agents on animals; if the episode covers that, animal-cruelty may apply. Not visible in the scan."
+  },
+  {
+    "id": "john-brown-terrorist-hero-or-terrorist-hero",
+    "before": {
+      "warnings": ["slavery", "graphic-violence", "child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "slavery", "graphic-violence"],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "child-sexual-abuse rests only on the marriage to a girl of about sixteen (child marriage per definition); reviewer may judge it too thin. Suicide is figurative."
+  },
+  {
+    "id": "the-idiot-who-made-and-destroyed-wework",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": [
+        "sexual-violence",
+        "child-sexual-abuse",
+        "child-abuse",
+        "suicide-self-harm",
+        "animal-cruelty"
+      ]
+    },
+    "notes": "All brief jokes or figurative uses. The dog-fighting gag recurs at 00:17, 00:46 and 00:58 in part 2 but is never an account of cruelty, so mention only."
+  },
+  {
+    "id": "the-school-that-raped-everbody",
+    "before": {
+      "warnings": ["child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse"],
+      "mentions": ["child-abuse", "suicide-self-harm"]
+    },
+    "notes": "Old child-abuse was mostly sexual abuse, now child-sexual-abuse; kept as mention for physical torture and discipline. A female teacher's relationship with the founder may have been coercive; left out of sexual-violence."
+  },
+  {
+    "id": "jerry-falwell-founder-of-the-religious-right",
+    "before": {
+      "warnings": ["hate-speech", "animal-cruelty"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "animal-cruelty"]
+    },
+    "notes": "Animal-cruelty moved from detailed to mention: the father's dog and cock fights take about two minutes (00:08:58 to 00:10:38) and are discussed, not described. Reviewer may prefer to keep detailed."
+  },
+  {
+    "id": "the-terrible-secret-of-sea-monkeys-live-show",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": ["suicide-self-harm"]
+    }
+  },
+  {
+    "id": "kaiser-wilhelm-the-saddest-warlord-in-history",
+    "before": {
+      "warnings": ["medical-horror", "child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "medical-horror"],
+      "mentions": ["child-sexual-abuse", "animal-cruelty"]
+    },
+    "notes": "child-sexual-abuse is uncertain: the 01:11:54 line may parse as bisexual plus abuse victim, and the teen's incestuous letters to his mother (00:54) are not abuse. Kept as mention per the doubt rule; reviewer should decide."
+  },
+  {
+    "id": "the-man-trying-to-resurrect-8chan-starring-8chan-s-founder",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    },
+    "notes": "Suicide talk runs about two minutes (00:06 to 00:07); kept as mention. The site's ties to mass shooters are not strict warnings."
+  },
+  {
+    "id": "an-update-on-our-old-pal-jeffrey-epstein",
+    "before": {
+      "warnings": ["suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["suicide-self-harm"],
+      "mentions": ["child-sexual-abuse"]
+    },
+    "notes": "Epstein's abuse is only referenced; the episode is about his death."
+  },
+  {
+    "id": "the-bastard-who-invented-the-lobotomy",
+    "before": {
+      "warnings": ["medical-horror", "child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "medical-horror"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "child-sexual-abuse is only a joke about prisoners assuming someone is a pedophile; reviewer may drop it."
+  }
+]

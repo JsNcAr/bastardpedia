@@ -56,7 +56,8 @@
     "approximate": true
   },
   "summary": "An unscripted bonus conversation reacting to the 2020 Netflix series Tiger King, using its big-cat owners as a way into the rich, controlling off-grid criminals and exiled expats the hosts have met in rural America and Guatemala.",
-  "content_warnings": ["drug-use", "animal-cruelty"],
+  "content_warnings": ["drug-use"],
+  "content_mentions": ["child-sexual-abuse", "child-abuse", "animal-cruelty"],
   "keywords": [
     "Netflix",
     "Big Cat Rescue",
@@ -78,15 +79,78 @@
     "time": "low"
   },
   "evidence": [
-    { "facet": "format", "part": 1, "at": "00:00:31", "note": "host says nothing is prepared; a reaction chat after watching Tiger King" },
-    { "facet": "subjects", "part": 1, "at": "00:01:02", "note": "framed as more about the rural South and rural US than the show itself" },
-    { "facet": "subjects", "part": 1, "at": "00:10:57", "note": "Doc Antle segment: compound, control over women, USDA violations, cub sales" },
-    { "facet": "themes", "part": 1, "at": "01:10:24", "note": "argues every Tiger King figure runs a personal cult-like fiefdom" },
-    { "facet": "themes", "part": 1, "at": "01:09:21", "note": "capitalism and money give these rich eccentrics power over others" },
-    { "facet": "themes", "part": 1, "at": "00:29:53", "note": "rural ranch host with a teenage child bride he says he is raising" },
-    { "facet": "regions", "part": 1, "at": "00:52:00", "note": "long Guatemala expat story: American who starved his pregnant wife and abused local kids" },
-    { "facet": "themes", "part": 1, "at": "01:15:37", "note": "extended discussion of Joe Exotic's meth use and the host's own meth experience" },
-    { "facet": "time", "part": 1, "at": "00:26:13", "note": "host's rural anecdotes dated to roughly five or six years before release" }
+    {
+      "facet": "format",
+      "part": 1,
+      "at": "00:00:31",
+      "note": "host says nothing is prepared; a reaction chat after watching Tiger King"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:01:02",
+      "note": "framed as more about the rural South and rural US than the show itself"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:10:57",
+      "note": "Doc Antle segment: compound, control over women, USDA violations, cub sales"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:10:24",
+      "note": "argues every Tiger King figure runs a personal cult-like fiefdom"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:09:21",
+      "note": "capitalism and money give these rich eccentrics power over others"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:29:53",
+      "note": "rural ranch host with a teenage child bride he says he is raising"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:52:00",
+      "note": "long Guatemala expat story: American who starved his pregnant wife and abused local kids"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:15:37",
+      "note": "extended discussion of Joe Exotic's meth use and the host's own meth experience"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:26:13",
+      "note": "host's rural anecdotes dated to roughly five or six years before release"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:12:27",
+      "note": "Doc Antle's record of animal welfare violations and his cub breeding mill"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:23:02",
+      "note": "Acquaintances who illegally hunted big cats with crossbows"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "01:00:15",
+      "note": "Expat run out of a town for harming local children; framed as the pedophile story"
+    }
   ],
   "notes": "Unscripted reaction to a then-new show, so tagged current-affairs; no format for open conversation episodes. No theme fits exotic animal ownership or rural culture; entertainment-celebrity is the closest anchor. Covered span approximates the Tiger King events (G.W. Zoo opening c. 1999 to 2020) plus anecdotes from the 2010s. Gun culture gets several minutes but no theme fits it well (weapons-arms-trade is about the trade)."
 }

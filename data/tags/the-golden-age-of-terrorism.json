@@ -63,6 +63,7 @@
   },
   "summary": "A survey of 1960s-70s terrorism: the wave of US skyjackings to Cuba, the Japanese Red Army's hijacking, massacres and murderous internal purge, and Venezuelan-born Carlos the Jackal's bombings, killings and 1975 OPEC hostage raid.",
   "content_warnings": ["graphic-violence", "torture"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Ilich Ramirez Sanchez",
     "skyjacking",
@@ -143,6 +144,18 @@
       "part": 2,
       "at": "01:25:29",
       "note": "Stasi gives Carlos a safe house; he operates from Prague with state support"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:04:16",
+      "note": "Passing mention of suicide bombing as a terror tactic"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:20:22",
+      "note": "An American hijacker jailed in Cuba hanged himself in his cell, one line"
     }
   ],
   "notes": "Story splits between a skyjacking/Japanese Red Army half and a Carlos biography half, so both are primary. Covered span starts at Carlos's birth (1931 and 1939 hijackings are brief); end is release year per lifetime rule. Trials coda is short, so reaches_present is false. Guests' surnames not given."

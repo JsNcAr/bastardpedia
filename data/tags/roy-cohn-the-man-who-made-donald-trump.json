@@ -63,6 +63,7 @@
   },
   "summary": "New York lawyer Roy Cohn helped send the Rosenbergs to the electric chair, drove McCarthy's Red and Lavender Scare purges, then became a mob lawyer and fixer who mentored Donald Trump before dying of AIDS in 1986.",
   "content_warnings": ["graphic-violence"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "McCarthyism",
     "Red Scare",
@@ -84,18 +85,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:04:12", "note": "Cohn's birth in the Bronx in 1927 into a wealthy political family" },
-    { "facet": "time", "part": 1, "at": "00:19:42", "note": "joins the US Attorney's office; Rosenberg prosecution in 1951 starts the main span" },
-    { "facet": "content_warnings", "part": 1, "at": "00:32:54", "note": "vivid account of Ethel Rosenberg's botched electrocution" },
-    { "facet": "themes", "part": 1, "at": "00:33:59", "note": "Cohn becomes Hoover's channel for planting damaging stories in the press" },
-    { "facet": "themes", "part": 1, "at": "00:41:24", "note": "long Lavender Scare segment: Cohn leads interrogations of suspected gay employees" },
-    { "facet": "themes", "part": 1, "at": "00:58:47", "note": "Schine draft and the Army investigation that ends McCarthyism" },
-    { "facet": "themes", "part": 2, "at": "00:10:27", "note": "Cohn as lawyer and business partner for Fat Tony Salerno and the mob" },
-    { "facet": "themes", "part": 2, "at": "00:15:37", "note": "meets Trump in 1973 over the housing discrimination suit; teaches counterattack tactics" },
-    { "facet": "themes", "part": 2, "at": "00:20:46", "note": "yacht sinking, insurance payout and a sailor's death" },
-    { "facet": "regions", "part": 2, "at": "00:25:27", "note": "Trump Tower concrete deal with New York mob-controlled unions" },
-    { "facet": "themes", "part": 2, "at": "00:42:13", "note": "1980 Reagan campaign work and Roger Stone dirty tricks with the Liberal Party" },
-    { "facet": "time", "part": 2, "at": "00:52:07", "note": "disbarment, failed AIDS treatment and death in 1986" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:04:12",
+      "note": "Cohn's birth in the Bronx in 1927 into a wealthy political family"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:19:42",
+      "note": "joins the US Attorney's office; Rosenberg prosecution in 1951 starts the main span"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:33:59",
+      "note": "Cohn becomes Hoover's channel for planting damaging stories in the press"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:41:24",
+      "note": "long Lavender Scare segment: Cohn leads interrogations of suspected gay employees"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:58:47",
+      "note": "Schine draft and the Army investigation that ends McCarthyism"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:10:27",
+      "note": "Cohn as lawyer and business partner for Fat Tony Salerno and the mob"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:15:37",
+      "note": "meets Trump in 1973 over the housing discrimination suit; teaches counterattack tactics"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:20:46",
+      "note": "yacht sinking, insurance payout and a sailor's death"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:25:27",
+      "note": "Trump Tower concrete deal with New York mob-controlled unions"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:42:13",
+      "note": "1980 Reagan campaign work and Roger Stone dirty tricks with the Liberal Party"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:52:07",
+      "note": "disbarment, failed AIDS treatment and death in 1986"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:49:43",
+      "note": "Notes that many people purged in the Lavender Scare died by suicide from the shame"
+    }
   ],
   "notes": "Primary theme is a judgment call: part 1 is mostly McCarthyism (moral-panics, anti-lgbtq), part 2 mob and political fixing; electoral-politics chosen for the fixer/Trump pitch. reaches_present for recurring discussion of Trump and Stone using his methods up to 2020. Antisemitic scapegoating of his uncle and Trump's housing bias get a few minutes each; racism left out."
 }

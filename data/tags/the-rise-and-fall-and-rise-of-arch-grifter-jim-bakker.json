@@ -57,7 +57,8 @@
     "approximate": false
   },
   "summary": "Michigan-born televangelist Jim Bakker built the PTL network and Heritage USA theme park on donor money, was convicted of fraud in 1989 after a rape scandal, then returned selling doomsday food buckets.",
-  "content_warnings": ["child-abuse", "sexual-violence"],
+  "content_warnings": ["sexual-violence", "child-sexual-abuse"],
+  "content_mentions": [],
   "keywords": [
     "PTL Club",
     "Heritage USA",
@@ -132,6 +133,24 @@
       "part": 2,
       "at": "00:33:40",
       "note": "pro-Trump politics, attacks on Clinton and Obama, attendance at the 2017 inauguration"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:16:55",
+      "note": "Account of an adult man repeatedly molesting the young Bakker"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:18:30",
+      "note": "Abuse framed as happening around age eleven, by a pedophile, and its lasting effects"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "01:07:00",
+      "note": "Hosts describe the 1980 assault on Jessica Hahn as a violent rape"
     }
   ],
   "notes": "Lifetime rule sets covered_span 1940-2020 (alive at release). main_span starts 1966 with the CBN puppet show (transcript says early 1960s; 1966 from general knowledge). Hosts spell the name Baker; the standard spelling is Bakker. Settings span NC, SC, CA and MO, so no single subdivision is listed."

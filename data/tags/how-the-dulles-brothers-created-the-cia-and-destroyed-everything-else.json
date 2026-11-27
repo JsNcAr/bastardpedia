@@ -65,6 +65,7 @@
   },
   "summary": "Brothers John Foster Dulles, US Secretary of State, and Allen Dulles, CIA director, used corporate law ties and covert action to shape early Cold War policy, including the 1953 Iran and 1954 Guatemala coups.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Operation Ajax",
     "Operation PBSuccess",
@@ -86,16 +87,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:16:02", "note": "Brothers' births and family background begin the biography" },
-    { "facet": "regions", "part": 1, "at": "00:49:53", "note": "Allen posted to Bern as a diplomat-spy during World War One" },
-    { "facet": "regions", "part": 1, "at": "01:02:56", "note": "Foster arranges Marine intervention in Cuba for law-firm clients" },
-    { "facet": "themes", "part": 2, "at": "00:28:45", "note": "Sullivan & Cromwell business with Nazi Germany in the 1930s" },
-    { "facet": "regions", "part": 2, "at": "00:49:05", "note": "Allen runs OSS station in Bern during World War Two" },
-    { "facet": "time", "part": 3, "at": "00:05:12", "note": "Creation of the CIA under Truman and its early expansion" },
-    { "facet": "time", "part": 3, "at": "00:34:18", "note": "Allen becomes head of CIA covert operations around 1950-51" },
-    { "facet": "regions", "part": 3, "at": "00:47:52", "note": "CIA-backed invasion and bombing in Guatemala, 1954" },
-    { "facet": "regions", "part": 3, "at": "01:01:22", "note": "Mosaddegh overthrown in Iran, 1953, and Tudeh crackdown after" },
-    { "facet": "time", "part": 3, "at": "01:13:30", "note": "Foster leaves office 1959, Allen retires 1961 after Bay of Pigs" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:16:02",
+      "note": "Brothers' births and family background begin the biography"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:49:53",
+      "note": "Allen posted to Bern as a diplomat-spy during World War One"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:02:56",
+      "note": "Foster arranges Marine intervention in Cuba for law-firm clients"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:28:45",
+      "note": "Sullivan & Cromwell business with Nazi Germany in the 1930s"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:49:05",
+      "note": "Allen runs OSS station in Bern during World War Two"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "00:05:12",
+      "note": "Creation of the CIA under Truman and its early expansion"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "00:34:18",
+      "note": "Allen becomes head of CIA covert operations around 1950-51"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:47:52",
+      "note": "CIA-backed invasion and bombing in Guatemala, 1954"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "01:01:22",
+      "note": "Mosaddegh overthrown in Iran, 1953, and Tudeh crackdown after"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "01:13:30",
+      "note": "Foster leaves office 1959, Allen retires 1961 after Bay of Pigs"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:46:18",
+      "note": "Figurative use of rape for Cromwell's role in Panama"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 3,
+      "at": "00:22:29",
+      "note": "Discussion of far-right groups branding enemies as pedophiles"
+    }
   ],
   "notes": "Lawyers by trade; no lawyer role exists, so roles reflect their CIA and State Department careers. Allen's death year (1969) is not discussed but is set by the lifetime rule. Grandfather John W. Foster and the 1893 Hawaii overthrow are family background. Iran torture and Guatemala killings are summarised briefly, so no content warning added. Italy 1948, Costa Rica and Congo get shorter segments."
 }

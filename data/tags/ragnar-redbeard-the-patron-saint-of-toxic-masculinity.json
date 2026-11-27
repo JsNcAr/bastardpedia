@@ -63,6 +63,7 @@
   },
   "summary": "New Zealand labor radical Arthur Desmond drifted from defending Maori rights and organizing workers to writing Might Is Right (1896) as Ragnar Redbeard, a racist, misogynist tract later mined by Anton LaVey and cited by the 2019 Gilroy shooter.",
   "content_warnings": ["hate-speech"],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Ragnar Redbeard",
     "The Survival of the Fittest",
@@ -143,6 +144,12 @@
       "part": 2,
       "at": "00:46:03",
       "note": "Gilroy shooter, 8chan reading lists and the Redbeard Right white nationalist site"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:54:48",
+      "note": "Host sums up Desmond's egoism as the killing-and-rape barbarian kind, in passing"
     }
   ],
   "notes": "Desmond's birth (1842 vs 1859) and death (1926 vs late 1920s) are uncertain; lifespan uses 1859-1926 from the packet's footnoted source. Covered span stops at his death: LaVey (1957-69) and the 2019 Gilroy shooting are legacy, so they set reaches_present, though the shooting frames both parts. A reviewer may prefer extending covered_span to 2019."

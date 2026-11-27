@@ -50,26 +50,14 @@
       }
     }
   ],
-  "roles": [
-    "physician-surgeon",
-    "psychiatrist-psychologist"
-  ],
+  "roles": ["physician-surgeon", "psychiatrist-psychologist"],
   "themes": {
     "primary": "medical-malpractice",
-    "secondary": [
-      "child-abuse",
-      "propaganda-media",
-      "intelligence-covert-ops",
-      "public-health"
-    ]
+    "secondary": ["child-abuse", "propaganda-media", "intelligence-covert-ops", "public-health"]
   },
   "regions": {
-    "origin": [
-      "US"
-    ],
-    "setting": [
-      "US"
-    ],
+    "origin": ["US"],
+    "setting": ["US"],
     "subdivisions": [],
     "polities": [],
     "scope": "national"
@@ -87,10 +75,8 @@
     "approximate": false
   },
   "summary": "American neurologist Walter Freeman popularized the lobotomy in the US from 1936 to 1967, performing thousands of crude ice-pick operations, including on Rosemary Kennedy and a young boy, that killed or disabled many patients.",
-  "content_warnings": [
-    "medical-horror",
-    "child-abuse"
-  ],
+  "content_warnings": ["child-abuse", "medical-horror"],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "transorbital lobotomy",
     "ice pick lobotomy",
@@ -103,9 +89,7 @@
     "The Lobotomist",
     "Jack El-Hai"
   ],
-  "guests": [
-    "Daniel Van Kirk"
-  ],
+  "guests": ["Daniel Van Kirk"],
   "confidence": {
     "subjects": "high",
     "roles": "high",
@@ -173,6 +157,18 @@
       "part": 1,
       "at": "00:49:59",
       "note": "Freeman courts the press with AMA booth stunts, a lobotomized monkey"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:27:45",
+      "note": "Freeman lobotomises an eleven-year-old boy for mild behaviour problems"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:08:17",
+      "note": "Aside about undercover inmates being taken for pedophiles"
     }
   ],
   "notes": "Transcript calls Dully eleven; he was 12. Garbled birth date; 1895 from knowledge. main_span ends 1967 (privileges revoked, last lobotomy) rather than death in 1972. public-health covers the asylum system and shock therapies of the era. Women lobotomized at husbands' request now fall under medical-malpractice (0.4.0). Europe (PT, FR, GB) mentioned only briefly."

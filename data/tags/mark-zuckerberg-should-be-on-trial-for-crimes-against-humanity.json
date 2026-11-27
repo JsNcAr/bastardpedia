@@ -61,6 +61,7 @@
   },
   "summary": "An update on Mark Zuckerberg's Facebook as of 2020: its neglect fed ethnic killings in Ethiopia and Myanmar, ignored state election manipulation abroad, and its growth-first algorithms and leadership choices boosted far-right groups and misinformation in the US.",
   "content_warnings": ["mass-atrocity"],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Hachalu Hundessa",
     "Jawar Mohammed",
@@ -87,12 +88,6 @@
       "part": 1,
       "at": "00:30:19",
       "note": "Ethiopian ethno-nationalist uses Facebook posts to trigger riots that leave about seventy dead"
-    },
-    {
-      "facet": "content_warnings",
-      "part": 1,
-      "at": "00:35:01",
-      "note": "singer's assassination and the Facebook-fuelled mob killings and mutilations that followed"
     },
     {
       "facet": "regions",
@@ -153,6 +148,12 @@
       "part": 2,
       "at": "00:58:48",
       "note": "2020 Trump posts left up, employee walkout and morale collapse"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:21:07",
+      "note": "Facebook friend suggestions reconnected victims of spousal rape and abuse with their abusers"
     }
   ],
   "notes": "Format is current-affairs: the description frames it as an update after the earlier three-part series. The long Augustus segment is a comparison for Zuckerberg's self-image, so it is not counted in covered_span; his high-school years get only brief time. Facebook kept secondary since the title centres Zuckerberg. Existing record let-s-look-at-the-facebook-papers gives Zuckerberg Q380, which looks like Meta Platforms; worth checking."

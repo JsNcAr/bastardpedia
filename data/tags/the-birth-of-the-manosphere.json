@@ -63,6 +63,7 @@
   },
   "summary": "Traces the male-supremacist online manosphere from Playboy and the 1970s men's rights movement through the 1989 Montreal massacre, pickup artistry, Vox Day's alpha-to-sigma hierarchy and Elliot Rodger's 2014 killings, then examines the sigma male self-help subculture.",
   "content_warnings": ["graphic-violence", "hate-speech"],
+  "content_mentions": ["sexual-violence", "suicide-self-harm", "animal-cruelty"],
   "keywords": [
     "École Polytechnique massacre",
     "Isla Vista killings",
@@ -103,12 +104,6 @@
       "note": "Lepine biography begins, leading to the 1989 Montreal engineering school shooting"
     },
     {
-      "facet": "content_warnings",
-      "part": 1,
-      "at": "00:36:41",
-      "note": "survivor's account of the classroom shooting; manifesto read at length afterwards"
-    },
-    {
       "facet": "regions",
       "part": 1,
       "at": "00:38:14",
@@ -143,6 +138,24 @@
       "part": 2,
       "at": "00:23:55",
       "note": "sigma male YouTube videos selling paid transformation courses"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "01:03:23",
+      "note": "Notes that a pickup artist admitted in his own books to raping women"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:07:35",
+      "note": "Aside that Bill Cosby is a serial rapist"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:37:42",
+      "note": "The Montreal massacre gunman killed himself after the shooting"
     }
   ],
   "notes": "Part 2 reads a self-published sigma male book and watches YouTube videos, so media-reading was considered; deep-dive chosen because part 1 (about two thirds of the story) is narrative history. covered_span starts with the 1953 Playboy segment, which together with men's liberation forms a real block. Japanese otaku culture is a comparison, so JP is left out."

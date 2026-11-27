@@ -1,0 +1,118 @@
+[
+  {
+    "id": "keith-raniere-the-end-of-a-cult-leader",
+    "before": {
+      "warnings": ["sexual-violence", "child-abuse", "torture"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-sexual-abuse", "torture"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Old child-abuse warning converted to child-sexual-abuse: the abuse of the teenage girl in the scan is grooming and abuse images. Danielle's two-year confinement may also read as child-abuse if she was a minor then; reviewer may want to check."
+  },
+  {
+    "id": "tommy-robinson-the-fascist-grifter-with-an-addiction-to-being-arrested",
+    "before": {
+      "warnings": ["child-abuse", "drug-use"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse", "drug-use"],
+      "mentions": []
+    },
+    "notes": "Old child-abuse warning was the grooming-gang sexual abuse, so it becomes child-sexual-abuse. Rape candidates all concern child victims (or a religious-figure jab about a child), so no adult sexual-violence."
+  },
+  {
+    "id": "andy-ngo-the-next-generation-of-news-grifter",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "james-o-keefe-the-patron-saint-of-news-grifters",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"]
+    }
+  },
+  {
+    "id": "fritz-haber-the-man-who-invented-chemical-warfare",
+    "before": {
+      "warnings": ["graphic-violence", "suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "suicide-self-harm"],
+      "mentions": []
+    },
+    "notes": "Incest candidates refer to Haber's parents being cousins, not abuse; dropped."
+  },
+  {
+    "id": "how-chiropractic-medicine-started-as-a-ghost-religion",
+    "before": {
+      "warnings": ["medical-horror"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["medical-horror"],
+      "mentions": []
+    },
+    "notes": "Scan found nothing. Theme child-abuse likely reflects infant adjustments and a child's neck stroke (medical harm); the scan cannot tell whether hosts frame it as abuse. Reviewer may want to check."
+  },
+  {
+    "id": "the-eternal-fascist",
+    "before": {
+      "warnings": ["hate-speech", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "hate-speech"],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Child-sexual-abuse rests only on a list word in a quoted text; weak but kept per the doubt rule. Waco warrant over sexual abuse (part 6) also mentioned briefly."
+  },
+  {
+    "id": "napoleon-hill-the-grifter-who-invented-the-secret-donald-trump",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-abuse", "suicide-self-harm"]
+    },
+    "notes": "Themes include child-abuse and domestic-abuse; the scan shows only one brief child incident. If the hosts dwell on Hill's treatment of his family elsewhere, child-abuse could be detailed."
+  },
+  {
+    "id": "the-second-democratic-debate-too-many-jebs",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "the-bastard-manifesto",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence"]
+    }
+  }
+]

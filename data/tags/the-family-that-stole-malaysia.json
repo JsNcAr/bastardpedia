@@ -58,12 +58,13 @@
   },
   "summary": "English adventurer James Brooke used a private warship and bluffed British backing to make himself Rajah of Sarawak on Borneo in 1841, waging brutal anti-pirate wars and preying on teenage boys; his heirs ruled Sarawak as a family fief until 1946.",
   "content_warnings": [
-    "child-abuse",
-    "mass-atrocity",
+    "child-sexual-abuse",
     "graphic-violence",
+    "mass-atrocity",
     "suicide-self-harm",
     "hate-speech"
   ],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Sarawak",
     "Borneo",
@@ -150,6 +151,12 @@
       "part": 2,
       "at": "01:10:34",
       "note": "Hosts discuss a recent film portraying Brooke heroically, supporting reaches_present"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:18:53",
+      "note": "Extended discussion of whether Brooke sexually abused a young boy in his household"
     }
   ],
   "notes": "Title names the family, but most airtime is James Brooke, so he is the sole primary; main_span follows his rule (1839-1868) while covered_span runs to the 1946 cession. Victims of his abuse are described as teenage boys, so child-abuse rather than sexual-abuse. Transcript dates for the Burma war and the Royalist sailing are garbled; historical years used. Badruddin's birth year unknown."

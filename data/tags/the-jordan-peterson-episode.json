@@ -49,6 +49,7 @@
   },
   "summary": "Canadian psychologist Jordan Peterson rose from a Toronto professorship to fame in 2016 by opposing trans rights law Bill C-16, spreading mystical, hierarchy-worshipping ideas that feed the far right, before a benzodiazepine addiction derailed him.",
   "content_warnings": ["drug-use"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Bill C-16",
     "12 Rules for Life",
@@ -70,18 +71,73 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:09:21", "note": "Born June 1962 in Edmonton, raised in Fairview, Alberta" },
-    { "facet": "themes", "part": 1, "at": "00:22:51", "note": "Long segment on fascist mysticism and his influences Jung, Eliade, Campbell" },
-    { "facet": "regions", "part": 1, "at": "00:33:21", "note": "Moves to Boston to teach at Harvard, later returns to Toronto" },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:09:21",
+      "note": "Born June 1962 in Edmonton, raised in Fairview, Alberta"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:22:51",
+      "note": "Long segment on fascist mysticism and his influences Jung, Eliade, Campbell"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:33:21",
+      "note": "Moves to Boston to teach at Harvard, later returns to Toronto"
+    },
     { "facet": "time", "part": 1, "at": "00:40:14", "note": "Maps of Meaning published in 1999" },
-    { "facet": "themes", "part": 1, "at": "00:45:23", "note": "Self Authoring Suite sold as an online self-help program" },
-    { "facet": "themes", "part": 1, "at": "01:13:50", "note": "2016 campaign against Bill C-16 and trans pronouns launches his fame" },
-    { "facet": "themes", "part": 1, "at": "01:24:08", "note": "Response to 2018 incel van attack: enforced monogamy, women as chaos" },
-    { "facet": "themes", "part": 2, "at": "00:05:49", "note": "Misleading claim of tribal membership used to deflect racism charges" },
-    { "facet": "themes", "part": 2, "at": "00:26:46", "note": "12 Rules for Life (2018) aimed at insecure men" },
-    { "facet": "themes", "part": 2, "at": "00:54:32", "note": "Benzodiazepine dependence after wife's 2019 cancer diagnosis, rehab" },
-    { "facet": "regions", "part": 2, "at": "00:57:39", "note": "Daughter takes him to Russia for an induced-coma detox" },
-    { "facet": "time", "part": 2, "at": "00:59:15", "note": "2020 Serbia trip and COVID; still not recovered at release" }
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:45:23",
+      "note": "Self Authoring Suite sold as an online self-help program"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:13:50",
+      "note": "2016 campaign against Bill C-16 and trans pronouns launches his fame"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:24:08",
+      "note": "Response to 2018 incel van attack: enforced monogamy, women as chaos"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:05:49",
+      "note": "Misleading claim of tribal membership used to deflect racism charges"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:26:46",
+      "note": "12 Rules for Life (2018) aimed at insecure men"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:54:32",
+      "note": "Benzodiazepine dependence after wife's 2019 cancer diagnosis, rehab"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:57:39",
+      "note": "Daughter takes him to Russia for an induced-coma detox"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:59:15",
+      "note": "2020 Serbia trip and COVID; still not recovered at release"
+    }
   ],
   "notes": "Primary theme is a judgment call between fascism-far-right (the hosts' stated framing: his ideas feed fascism) and misogyny-manosphere. main_span runs from the 2016 C-16 fame to his 2020 collapse; he was alive but inactive at release, so end is 2020, not null. Judeo-Bolshevism and Weimar material is background, not covered. Serbia is brief and left out of setting."
 }

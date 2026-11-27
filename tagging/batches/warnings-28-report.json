@@ -1,0 +1,120 @@
+[
+  {
+    "id": "the-birth-of-the-manosphere",
+    "before": {
+      "warnings": ["graphic-violence", "hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "hate-speech"],
+      "mentions": ["sexual-violence", "suicide-self-harm", "animal-cruelty"]
+    },
+    "notes": "Animal cruelty is only a recurring joke about dog fighting, no real cruelty; kept as a mention per the doubt rule. Elliot Rodger is in the summary and also died by suicide; the scan did not show that passage."
+  },
+  {
+    "id": "the-man-who-invented-the-military-industrial-complex",
+    "before": {
+      "warnings": ["graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Only candidate is a figurative use of the word; kept as a mention under the figurative-use rule. Drop if the reviewer prefers."
+  },
+  {
+    "id": "the-class-that-made-200-child-nazis",
+    "before": {
+      "warnings": ["child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse"],
+      "mentions": []
+    },
+    "notes": "Existing child-abuse kept as detailed: the whole episode is about a teacher manipulating and coercing teenagers. The scan only caught the closing remarks, so the evidence timestamp is from the wrap-up."
+  },
+  {
+    "id": "ben-shapiro-s-book-part-whatever-the-journey-refuses-to-end",
+    "before": {
+      "warnings": ["graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence"],
+      "mentions": []
+    }
+  },
+  {
+    "id": "behind-the-insurrections-the-business-plot-when-rich-fascists-almost-took-over-america",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "behind-the-insurrections-the-french-capitol-insurrection",
+    "before": {
+      "warnings": ["suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Moved suicide-self-harm from detailed to mentioned: the Stavisky death takes about a minute and a half, not vivid. Added a child-sexual-abuse mention for the Epstein comparison."
+  },
+  {
+    "id": "behind-the-insurrections-the-birth-of-spanish-fascism",
+    "before": {
+      "warnings": ["mass-atrocity"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["mass-atrocity"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "The Church abuse aside is cut off in the packet; filed as child-sexual-abuse since it refers to clerical abuse scandals. Reviewer may want sexual-violence instead or as well."
+  },
+  {
+    "id": "behind-the-insurrections-hitler-s-munich-beer-hall-putsch",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["child-sexual-abuse"]
+    },
+    "notes": "Only a reference to pedophile conspiracy theories, not real abuse; kept as a mention per the doubt rule."
+  },
+  {
+    "id": "bonus-robert-evans-wrote-a-novel-here-s-chapter-1",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    },
+    "notes": "No scan matches. Fiction about a civil war between militias; the original tagger found no strict warnings either."
+  },
+  {
+    "id": "behind-the-insurrections-mussolini-s-march-on-rome-the-first-fascist-insurrection",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["child-sexual-abuse"]
+    },
+    "notes": "Brief opening aside about pedophile conspiracy theories; kept as a mention per the doubt rule."
+  }
+]

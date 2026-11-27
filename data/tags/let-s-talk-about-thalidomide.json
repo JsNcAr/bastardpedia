@@ -41,12 +41,7 @@
   "roles": [],
   "themes": {
     "primary": "public-health",
-    "secondary": [
-      "corporate-malfeasance",
-      "nazism",
-      "medical-malpractice",
-      "slavery-forced-labor"
-    ]
+    "secondary": ["corporate-malfeasance", "nazism", "medical-malpractice", "slavery-forced-labor"]
   },
   "regions": {
     "origin": ["DE"],
@@ -62,7 +57,8 @@
     "approximate": false
   },
   "summary": "West German drugmaker Grünenthal, staffed with former Nazi camp doctors, sold thalidomide from 1957 as a harmless sleeping pill, ignored reports of nerve damage and birth defects, and escaped criminal punishment.",
-  "content_warnings": ["medical-horror", "mass-atrocity", "child-death"],
+  "content_warnings": ["child-death", "mass-atrocity", "medical-horror"],
+  "content_mentions": ["sexual-violence", "animal-cruelty"],
   "keywords": [
     "Contergan",
     "Distaval",

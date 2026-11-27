@@ -60,13 +60,14 @@
   },
   "summary": "History of the U.S. Border Patrol from its racist 1924 founding through mass deportations, Operation Wetback, training Guatemalan death squads, and decades of killings, torture, sexual abuse and corruption up to 2020.",
   "content_warnings": [
-    "child-death",
-    "mass-atrocity",
-    "torture",
-    "graphic-violence",
     "sexual-violence",
+    "child-death",
+    "graphic-violence",
+    "torture",
+    "mass-atrocity",
     "hate-speech"
   ],
+  "content_mentions": ["child-sexual-abuse", "child-abuse"],
   "keywords": [
     "Immigration Act of 1924",
     "Undesirable Aliens Act of 1929",

@@ -64,7 +64,8 @@
     "approximate": false
   },
   "summary": "Reality TV son Josh Duggar molested his sisters in Arkansas in the early 2000s while the Quiverfull movement and Bill Gothard's IBLP cult hid it; he became a family-values lobbyist and was charged with child pornography in 2021.",
-  "content_warnings": ["child-abuse", "sexual-violence"],
+  "content_warnings": ["sexual-violence", "child-sexual-abuse"],
+  "content_mentions": ["child-abuse", "suicide-self-harm"],
   "keywords": [
     "19 Kids and Counting",
     "Counting On",
@@ -145,6 +146,18 @@
       "part": 2,
       "at": "00:46:25",
       "note": "2019 federal raid, 2021 child pornography charges and Counting On cancelled"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:58:11",
+      "note": "Account of Josh molesting his sisters and the family's response"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:38:32",
+      "note": "Long stretch on the victims, the cover-up and his later child abuse imagery charges"
     }
   ],
   "notes": "Title frames the cult as co-subject, but no single named body is the cult (Quiverfull plus Gothard's IBLP/ATI), so Josh is the sole primary. covered_span starts at the 1970s religious-right roots of Quiverfull (Howard Phillips, 1974), a secondary subject with a long segment. media-personality is a loose fit for a reality TV star."

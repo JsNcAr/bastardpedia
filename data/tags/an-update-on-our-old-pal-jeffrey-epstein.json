@@ -41,6 +41,7 @@
   },
   "summary": "A 2019 update on Jeffrey Epstein's death in a New York jail, weighing suicide against murder claims and examining the record of Michael Baden, the celebrity pathologist hired by Epstein's brother to argue homicide.",
   "content_warnings": ["suicide-self-harm"],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "Metropolitan Correctional Center",
     "hyoid bone",
@@ -103,6 +104,24 @@
       "part": 1,
       "at": "00:45:42",
       "note": "other pathologists explain hyoid fractures also occur in hangings; medical examiner stands by suicide"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:09:34",
+      "note": "Long look at Epstein's removal from suicide watch and suicide in US jails"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:45:42",
+      "note": "Hanging injuries argued as suicide versus strangulation"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:02:11",
+      "note": "Hosts refer to Epstein's sexual abuse of minors"
     }
   ],
   "notes": "Update episode: most airtime goes to a critique of pathologist Michael Baden's career (1978 onward), which sets covered_span start. Epstein's sex crimes are background only, so no abuse themes or warnings. Baden lifespan end set null (believed alive); verify. Roles are optional for current-affairs and describe Epstein generally."

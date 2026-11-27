@@ -1,0 +1,118 @@
+[
+  {
+    "id": "let-s-take-a-break-with-ben-shapiro-s-terrible-book",
+    "before": {
+      "warnings": ["graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence"],
+      "mentions": []
+    }
+  },
+  {
+    "id": "the-worst-birth-control-device-ever-invented",
+    "before": {
+      "warnings": ["medical-horror"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["medical-horror"],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    },
+    "notes": "Suicide mention is only the figurative term race suicide; kept as a mention per the figurative-use rule."
+  },
+  {
+    "id": "nestor-makhno-anarchist-warlord-and-book-club-aficionado",
+    "before": {
+      "warnings": ["graphic-violence", "mass-atrocity"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "mass-atrocity"],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "The child-sexual-abuse mention is a closing chat plugging the guest's Lolita podcast; borderline promo, kept as a mention when in doubt."
+  },
+  {
+    "id": "how-the-john-birch-society-invented-the-modern-far-right",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "Sexual-violence is only a song-title comparison; kept as a figurative mention. The 00:17:01 child-sexual-abuse hit is a crude joke about incest porn, not about minors, so it was dropped."
+  },
+  {
+    "id": "roy-cohn-the-man-who-made-donald-trump",
+    "before": {
+      "warnings": ["graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence"],
+      "mentions": ["suicide-self-harm"]
+    }
+  },
+  {
+    "id": "the-worst-police-union-in-history",
+    "before": {
+      "warnings": ["graphic-violence", "child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "graphic-violence"],
+      "mentions": ["suicide-self-harm"]
+    }
+  },
+  {
+    "id": "let-s-talk-about-dave-rubin",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "About three minutes (00:43 to 00:46) on a fan review's views about rape; discussion of attitudes, not an account of assault, so a mention. Reviewer may weigh detailed."
+  },
+  {
+    "id": "elite-panic-why-the-rich-and-powerful-can-t-be-trusted",
+    "before": {
+      "warnings": ["child-death", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "graphic-violence"],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "The child-sexual-abuse mention is a single closing joke in the outro chat, apparently about a guest's project; kept as a mention when in doubt."
+  },
+  {
+    "id": "the-war-of-the-eggs",
+    "before": {
+      "warnings": ["animal-cruelty"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["animal-cruelty"],
+      "mentions": []
+    },
+    "notes": "Scan found no animal-cruelty candidates; timestamps were taken from the transcript directly. Existing warning kept as detailed."
+  },
+  {
+    "id": "the-con-artist-who-invented-a-country",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["suicide-self-harm"]
+    }
+  }
+]

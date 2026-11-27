@@ -1,0 +1,136 @@
+[
+  {
+    "id": "a-very-special-election-reading-of-ben-shapiro-s-unreadable-book",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "the-satanic-panic-america-s-first-qanon",
+    "before": {
+      "warnings": ["child-abuse", "graphic-violence", "child-death", "suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [
+        "child-sexual-abuse",
+        "child-abuse",
+        "child-death",
+        "graphic-violence",
+        "suicide-self-harm"
+      ],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "Old child-abuse split: sexual abuse is now child-sexual-abuse (detailed); child-abuse stays detailed for neglect, beatings and coercive interviews. The scan has no animal-sacrifice words; satanic ritual claims may include animal killing."
+  },
+  {
+    "id": "the-jordan-peterson-episode",
+    "before": {
+      "warnings": ["drug-use"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["drug-use"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Only one weak scan hit, a passing remark; kept as a mention under the when-in-doubt rule."
+  },
+  {
+    "id": "how-nice-normal-people-made-the-holocaust-possible",
+    "before": {
+      "warnings": ["mass-atrocity", "child-death", "graphic-violence", "hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "graphic-violence", "mass-atrocity", "hate-speech"],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "All mentions are framing or asides, not accounts. The suicide hit is a joke in the guest's closing plug, not an ad read; a reviewer may drop it. Child-death is a current warning; the scan found no child-abuse wording."
+  },
+  {
+    "id": "cecil-rhodes-the-first-proud-boy",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    }
+  },
+  {
+    "id": "focus-on-the-family-james-dobson",
+    "before": {
+      "warnings": ["child-abuse", "suicide-self-harm", "hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "suicide-self-harm", "hate-speech"],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    }
+  },
+  {
+    "id": "mark-zuckerberg-should-be-on-trial-for-crimes-against-humanity",
+    "before": {
+      "warnings": ["mass-atrocity"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["mass-atrocity"],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "Dropped the Part 2 00:03:44 suicide hit: it describes the Maya civilisation destroying itself through deforestation, not suicide."
+  },
+  {
+    "id": "the-deadliest-school-in-history",
+    "before": {
+      "warnings": [
+        "mass-atrocity",
+        "torture",
+        "sexual-violence",
+        "child-death",
+        "graphic-violence"
+      ],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [
+        "sexual-violence",
+        "child-sexual-abuse",
+        "child-death",
+        "graphic-violence",
+        "torture",
+        "mass-atrocity"
+      ],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Child sexual abuse is new: a short but explicit survivor account of girls raped by soldiers, plus massacres where girls were raped (Part 1 01:33)."
+  },
+  {
+    "id": "the-golden-age-of-terrorism",
+    "before": {
+      "warnings": ["graphic-violence", "torture"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "torture"],
+      "mentions": ["suicide-self-harm"]
+    }
+  },
+  {
+    "id": "ben-shapiro-s-unreadable-book-is-still-the-best-thing-about-2020",
+    "before": {
+      "warnings": ["graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence"],
+      "mentions": []
+    }
+  }
+]

@@ -41,6 +41,7 @@
   },
   "summary": "Action Park, a water and adventure park in Vernon, New Jersey run by former penny-stock promoter Gene Mulvihill from 1978 to 1996, caused thousands of injuries and several deaths through untested rides, teen staff and evaded regulation.",
   "content_warnings": ["graphic-violence"],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Vernon",
     "Class Action Park",
@@ -109,6 +110,24 @@
       "part": 1,
       "at": "01:25:51",
       "note": "bankruptcy and closure in the mid-1990s; later Mountain Creek and revival up to 2018"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "01:08:33",
+      "note": "Hosts joke that the owner's treatment of teen staff and guests verged on child molestation"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:08:49",
+      "note": "Aside about suicides at Disneyland while comparing park death counts"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:31:49",
+      "note": "Owner staged fake suicides in front of employees as a prank"
     }
   ],
   "notes": "Action Park is named as the bastard, so it is primary and Mulvihill secondary despite his large segment (hence no roles). Many years in the transcript are garbled; 1996 closure and 1956 graduation filled from the narrative and known facts. child-abuse covers teens given alcohol, hazed and used as ride testers; drugs only mentioned in passing."

@@ -23,11 +23,7 @@
       "role": "secondary"
     }
   ],
-  "roles": [
-    "writer-intellectual",
-    "dictator-autocrat",
-    "military-officer"
-  ],
+  "roles": ["writer-intellectual", "dictator-autocrat", "military-officer"],
   "themes": {
     "primary": "fascism-far-right",
     "secondary": [
@@ -40,18 +36,10 @@
     ]
   },
   "regions": {
-    "origin": [
-      "IT"
-    ],
-    "setting": [
-      "IT",
-      "HR",
-      "FR"
-    ],
+    "origin": ["IT"],
+    "setting": ["IT", "HR", "FR"],
     "subdivisions": [],
-    "polities": [
-      "kingdom-of-italy"
-    ],
+    "polities": ["kingdom-of-italy"],
     "scope": "international"
   },
   "time": {
@@ -67,10 +55,8 @@
     "approximate": false
   },
   "summary": "Italian poet and celebrity Gabriele D'Annunzio raped servant women, agitated Italy into World War I in 1915 and seized Fiume in 1919, ruling it as a dictator with rituals and a salute later copied by Mussolini's fascists.",
-  "content_warnings": [
-    "sexual-violence",
-    "drug-use"
-  ],
+  "content_warnings": ["sexual-violence", "drug-use"],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm", "animal-cruelty"],
   "keywords": [
     "Fiume",
     "Rijeka",
@@ -83,9 +69,7 @@
     "Arditi",
     "Pescara"
   ],
-  "guests": [
-    "Shereen Lani Younes"
-  ],
+  "guests": ["Shereen Lani Younes"],
   "confidence": {
     "subjects": "high",
     "roles": "medium",
@@ -94,12 +78,7 @@
     "time": "medium"
   },
   "evidence": [
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:03:09",
-      "note": "born March 1863 in Pescara"
-    },
+    { "facet": "time", "part": 1, "at": "00:03:09", "note": "born March 1863 in Pescara" },
     {
       "facet": "themes",
       "part": 1,

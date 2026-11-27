@@ -45,6 +45,7 @@
   },
   "summary": "Robert Evans, Katy Stoll and Cody Johnston keep reading Ben Shapiro's 2016 novel True Allegiance, mocking its prose and its plot that casts a militarized Texas border, a Detroit riot and suspicion of Muslims as heroic.",
   "content_warnings": ["graphic-violence"],
+  "content_mentions": [],
   "keywords": [
     "Brett Hawthorne",
     "Ellen Hawthorne",
@@ -79,12 +80,6 @@
       "note": "novel turns to the Juarez cartel; governor later plans a push across the border into Mexico"
     },
     {
-      "facet": "content_warnings",
-      "part": 1,
-      "at": "00:23:36",
-      "note": "severed, mutilated head of a Guardsman found in a box, read aloud"
-    },
-    {
       "facet": "themes",
       "part": 1,
       "at": "00:28:53",
@@ -101,6 +96,12 @@
       "part": 1,
       "at": "01:01:32",
       "note": "hosts note the novel treats Muslim anti-Islamophobia activists as terrorist fronts"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:23:36",
+      "note": "severed, mutilated head of a Guardsman found in a box, read aloud"
     }
   ],
   "notes": "Middle instalment of the multi-episode True Allegiance reading. Time is the novel's 2016 publication and its unspecified near-present setting (approximate). No theme fits right-wing polemical fiction exactly; propaganda-media chosen as closest, matching sibling records. Mexico setting is fictional (cartel and planned invasion)."

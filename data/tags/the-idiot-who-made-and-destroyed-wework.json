@@ -53,6 +53,13 @@
   },
   "summary": "Israeli-born entrepreneur Adam Neumann built the office-leasing firm WeWork into a venture-funded giant valued at 47 billion dollars on hype, self-dealing and a cult-like work culture, until its failed 2019 IPO forced him out with a huge payout.",
   "content_warnings": [],
+  "content_mentions": [
+    "sexual-violence",
+    "child-sexual-abuse",
+    "child-abuse",
+    "suicide-self-harm",
+    "animal-cruelty"
+  ],
   "keywords": [
     "Green Desk",
     "kibbutz",
@@ -127,6 +134,24 @@
       "part": 2,
       "at": "01:11:36",
       "note": "2019 IPO filing, Wall Street Journal expose and Neumann's ouster"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "01:22:04",
+      "note": "Host compares what cult leaders do to emotional rape"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:24:09",
+      "note": "Garbled aside joking about priests molesting children"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:03:13",
+      "note": "Joke that destroying a child's favourite toy would be child abuse"
     }
   ],
   "notes": "Neumann is alive; lifetime rule gives covered_span 1979-2019 (release year). main_span ends at the 2019 ouster. WeWork kept secondary since the story is built around Neumann. Primary theme is a judgment call between finance-crypto (VC/real-estate bubble) and fraud-grift. cults-new-religions used for the long cult-like culture segment though WeWork is not a religion. Heavy drinking culture discussed but not tagged drug-use. Guest surnames from my knowledge of Knowledge Fight hosts."

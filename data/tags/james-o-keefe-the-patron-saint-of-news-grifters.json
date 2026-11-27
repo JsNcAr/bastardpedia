@@ -30,11 +30,7 @@
       "role": "secondary"
     }
   ],
-  "roles": [
-    "journalist-propagandist",
-    "political-operative",
-    "activist-organizer"
-  ],
+  "roles": ["journalist-propagandist", "political-operative", "activist-organizer"],
   "themes": {
     "primary": "propaganda-media",
     "secondary": [
@@ -46,12 +42,8 @@
     ]
   },
   "regions": {
-    "origin": [
-      "US"
-    ],
-    "setting": [
-      "US"
-    ],
+    "origin": ["US"],
+    "setting": ["US"],
     "subdivisions": [],
     "polities": [],
     "scope": "national"
@@ -70,6 +62,7 @@
   },
   "summary": "New Jersey activist James O'Keefe built Project Veritas on deceptively edited undercover stings, from the 2009 ACORN videos to attacks on Planned Parenthood, NPR, Democrats and Google, harming targets with distorted evidence.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "ACORN sting",
     "Rutgers University",
@@ -82,9 +75,7 @@
     "NPR sting",
     "Zach Vorhees"
   ],
-  "guests": [
-    "Jack O'Brien"
-  ],
+  "guests": ["Jack O'Brien"],
   "confidence": {
     "subjects": "high",
     "roles": "medium",
@@ -140,6 +131,30 @@
       "part": 1,
       "at": "01:11:49",
       "note": "Latest events covered are the August 2019 Google whistleblower release"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:58:10",
+      "note": "Host refers to O'Keefe's scheme targeting a CNN reporter as an attempted sexual assault"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "01:00:42",
+      "note": "Scheme to sexually harass a journalist, exposed by a staffer"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:20:11",
+      "note": "Sting posing as a 13-year-old pregnant by an adult; statutory rape discussed"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:53:54",
+      "note": "Fake accuser plot meant to discredit women who said Roy Moore assaulted them as teens"
     }
   ],
   "notes": "Part one of a two-part pairing; the next part is about Andy Ngo, so this story covers O'Keefe only. Transcript garbles the birth date; 1984 is from general knowledge. Project Veritas tagged ngo (it is a nonprofit), though political-org is arguable."

@@ -59,6 +59,7 @@
   },
   "summary": "Rocket pioneer and Crowley disciple Jack Parsons performed the 1946 Babylon Working sex-magic rituals in Pasadena with L. Ron Hubbard, who then ran off with Parsons's girlfriend and savings.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "Agape Lodge",
     "Thelema",
@@ -80,15 +81,72 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:03:19", "note": "Parsons born in Pasadena in 1914; childhood rocket experiments follow" },
-    { "facet": "subjects", "part": 1, "at": "00:07:30", "note": "Crowley's background and the OTO get their own segment" },
-    { "facet": "themes", "part": 1, "at": "00:10:39", "note": "Parsons discovers Crowley in 1939 and joins the Pasadena OTO lodge" },
-    { "facet": "themes", "part": 1, "at": "00:16:23", "note": "founding of JPL and Parsons's role in solid-fuel rocketry" },
-    { "facet": "time", "part": 1, "at": "00:21:05", "note": "Hubbard arrives at the Parsons house in 1945 after leaving naval hospital" },
-    { "facet": "themes", "part": 1, "at": "00:31:33", "note": "Allied Enterprises boat scheme set up with Parsons's savings" },
-    { "facet": "subjects", "part": 1, "at": "00:43:26", "note": "the Babylon Working rituals with Hubbard as scribe, early 1946" },
-    { "facet": "themes", "part": 1, "at": "00:50:44", "note": "Hubbard and Betty leave for the East Coast with Parsons's money; Crowley calls it a con" },
-    { "facet": "time", "part": 1, "at": "00:53:23", "note": "Parsons pushed out of JPL, loses clearance, dies in a 1952 explosion" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:19",
+      "note": "Parsons born in Pasadena in 1914; childhood rocket experiments follow"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:07:30",
+      "note": "Crowley's background and the OTO get their own segment"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:10:39",
+      "note": "Parsons discovers Crowley in 1939 and joins the Pasadena OTO lodge"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:16:23",
+      "note": "founding of JPL and Parsons's role in solid-fuel rocketry"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:21:05",
+      "note": "Hubbard arrives at the Parsons house in 1945 after leaving naval hospital"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:31:33",
+      "note": "Allied Enterprises boat scheme set up with Parsons's savings"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:43:26",
+      "note": "the Babylon Working rituals with Hubbard as scribe, early 1946"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:50:44",
+      "note": "Hubbard and Betty leave for the East Coast with Parsons's money; Crowley calls it a con"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:53:23",
+      "note": "Parsons pushed out of JPL, loses clearance, dies in a 1952 explosion"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:26:19",
+      "note": "Adult Parsons begins a relationship with his ex-wife's sister when she is seventeen"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:14:47",
+      "note": "Parsons's Pan poem, read aloud, has the god boast of rape"
+    }
   ],
   "notes": "Title names Hubbard, but the story is built around Parsons and the Babylon Working; Hubbard is listed as secondary because the episode covers only his 1945-46 stint, not his life (lifetime rule). The 1969 Scientology statement and modern occultist views are brief codas, so covered_span ends at Parsons's death."
 }

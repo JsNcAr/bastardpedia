@@ -52,6 +52,7 @@
   },
   "summary": "Danish political scientist Bjorn Lomborg's 2001 book The Skeptical Environmentalist misused data to downplay climate change and extinction, making him a media darling and a think-tank figure whose talking points stalled climate action.",
   "content_warnings": [],
+  "content_mentions": [],
   "keywords": [
     "Cool It",
     "State of Fear",
@@ -73,17 +74,72 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "subjects", "part": 1, "at": "00:02:09", "note": "long opening on Crichton's State of Fear and his Senate testimony" },
-    { "facet": "time", "part": 1, "at": "00:09:05", "note": "1997 Wired interview with Julian Simon starts Lomborg's turn" },
-    { "facet": "themes", "part": 1, "at": "00:15:48", "note": "credulous press coverage, 2001 New York Times profile" },
-    { "facet": "themes", "part": 1, "at": "00:29:15", "note": "E. O. Wilson rebuts his species extinction figures" },
-    { "facet": "themes", "part": 1, "at": "00:33:26", "note": "host ties his work to conspiracy-minded distrust of climate science" },
-    { "facet": "themes", "part": 1, "at": "00:48:02", "note": "media ubiquity on TV networks after the English edition" },
-    { "facet": "regions", "part": 1, "at": "01:01:34", "note": "Danish ministry finds the work dishonest but cannot sanction him" },
-    { "facet": "time", "part": 1, "at": "01:09:58", "note": "Copenhagen Consensus Center founded, 2008 priority ranking" },
-    { "facet": "regions", "part": 1, "at": "01:14:40", "note": "2016 Australian education department paid his center for a report" },
-    { "facet": "themes", "part": 1, "at": "01:16:43", "note": "funding of his center by right-wing donors and his salary" },
-    { "facet": "time", "part": 1, "at": "01:21:20", "note": "recent PragerU and Fox Business appearances up to 2019" }
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:02:09",
+      "note": "long opening on Crichton's State of Fear and his Senate testimony"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:09:05",
+      "note": "1997 Wired interview with Julian Simon starts Lomborg's turn"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:15:48",
+      "note": "credulous press coverage, 2001 New York Times profile"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:29:15",
+      "note": "E. O. Wilson rebuts his species extinction figures"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:33:26",
+      "note": "host ties his work to conspiracy-minded distrust of climate science"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:48:02",
+      "note": "media ubiquity on TV networks after the English edition"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:01:34",
+      "note": "Danish ministry finds the work dishonest but cannot sanction him"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:09:58",
+      "note": "Copenhagen Consensus Center founded, 2008 priority ranking"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:14:40",
+      "note": "2016 Australian education department paid his center for a report"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:16:43",
+      "note": "funding of his center by right-wing donors and his salary"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:21:20",
+      "note": "recent PragerU and Fox Business appearances up to 2019"
+    }
   ],
   "notes": "Childhood barely covered; covered_span starts at birth only under the lifetime rule. Lomborg's birth year is general knowledge. US ranks first in setting because the story centres on his influence on American politics and media. fraud-grift reflects the host's grift framing and funding segment rather than a proven fraud. Transcript says Oxford University Press in one place; the book was published by Cambridge."
 }

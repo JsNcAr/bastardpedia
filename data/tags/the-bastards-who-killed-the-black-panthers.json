@@ -66,6 +66,7 @@
   },
   "summary": "History of the Black Panther Party, founded in Oakland in 1966, and the FBI's COINTELPRO campaign under J. Edgar Hoover to discredit, divide, imprison and kill its leaders, including the 1969 police killing of Fred Hampton in Chicago.",
   "content_warnings": ["graphic-violence"],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "COINTELPRO",
     "J. Edgar Hoover",
@@ -146,6 +147,12 @@
       "part": 2,
       "at": "00:58:53",
       "note": "1976 Senate committee report condemns COINTELPRO; latest period covered at length"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:07:23",
+      "note": "Brief family background: a white man raped a female ancestor of Huey Newton's father"
     }
   ],
   "notes": "Title points at the FBI as the bastard, but half the story is Panther history, so both organizations are primary and roles are empty. J. Edgar Hoover is central but kept as a keyword to stay within five subjects. Newton's 1989 murder and the party's dissolution are brief mentions, so covered_span ends at the 1976 Senate report. California and Illinois are both central, so no single subdivision."

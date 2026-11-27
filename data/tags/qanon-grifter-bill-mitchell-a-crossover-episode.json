@@ -23,11 +23,7 @@
       "role": "secondary"
     }
   ],
-  "roles": [
-    "influencer-online",
-    "conspiracy-theorist",
-    "media-personality"
-  ],
+  "roles": ["influencer-online", "conspiracy-theorist", "media-personality"],
   "themes": {
     "primary": "conspiracy-theories",
     "secondary": [
@@ -39,13 +35,8 @@
     ]
   },
   "regions": {
-    "origin": [
-      "US",
-      "DE"
-    ],
-    "setting": [
-      "US"
-    ],
+    "origin": ["US", "DE"],
+    "setting": ["US"],
     "subdivisions": [],
     "polities": [],
     "scope": "national"
@@ -64,6 +55,7 @@
   },
   "summary": "Bill Mitchell, a North Carolina executive recruiter, became a hugely influential pro-Trump Twitter pundit in 2016, then promoted QAnon and his own Slow Walker theory and kept a GoFundMe raised for a DC move after relocating to Miami.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Your Voice America",
     "Slow Walker",
@@ -76,11 +68,7 @@
     "GoFundMe",
     "QAnon Anonymous"
   ],
-  "guests": [
-    "Travis View",
-    "Jake Rockatansky",
-    "Julian Feeld"
-  ],
+  "guests": ["Travis View", "Jake Rockatansky", "Julian Feeld"],
   "confidence": {
     "subjects": "high",
     "roles": "medium",
@@ -136,6 +124,24 @@
       "part": 1,
       "at": "00:35:34",
       "note": "Events move from Charlotte to Miami; all action is in the US and online"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:08:51",
+      "note": "Host calls Trump a rapist in a passing aside"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:13:46",
+      "note": "Aside about Mitchell accusing opponents of being pedophiles, QAnon-style"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:07:51",
+      "note": "One of Mitchell's odd musing questions, read aloud, asks about something wanting to kill itself"
     }
   ],
   "notes": "Titled a crossover with QAnon Anonymous, but it is a BtB-hosted episode built on Robert's own Bill Mitchell write-up (about 50 min), followed by a QAA radio play and an interview with Robert, so tagged deep-dive rather than crossover. Birth year given as roughly 1961. Lifespan end assumed alive."

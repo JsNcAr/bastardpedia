@@ -58,6 +58,7 @@
   },
   "summary": "Former Young Turks host turned right-wing YouTuber Dave Rubin, who rebranded as a classical liberal after 2016, platformed far-right guests without pushback, and wrote the 2020 book Don't Burn This Book.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "The Rubin Report",
     "Why I Left the Left",
@@ -79,15 +80,72 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:05:43", "note": "early-2000s comedy podcast and public access parody news show around 2000" },
-    { "facet": "time", "part": 1, "at": "00:10:22", "note": "gets The Rubin Report on The Young Turks network around 2013" },
-    { "facet": "themes", "part": 1, "at": "00:14:26", "note": "2016 pivot to hosting Intellectual Dark Web guests, aided by YouTube's algorithm" },
-    { "facet": "themes", "part": 1, "at": "00:17:35", "note": "platforms Milo, Cernovich, Lauren Southern and Molyneux without pushback" },
-    { "facet": "themes", "part": 1, "at": "00:24:49", "note": "Koch-linked funding, Blaze hosting and colleague calling him a fraud" },
-    { "facet": "themes", "part": 1, "at": "00:34:43", "note": "book's origin story: Larry Elder interview on systemic racism" },
-    { "facet": "themes", "part": 1, "at": "00:50:56", "note": "book's drug chapter: legalise some drugs, prison for meth and heroin users" },
-    { "facet": "themes", "part": 1, "at": "00:54:37", "note": "book's abortion chapter and sex education culture-war discussion" },
-    { "facet": "themes", "part": 1, "at": "00:57:11", "note": "book claims Nazis were socialists; host rebuts with Night of the Long Knives" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:05:43",
+      "note": "early-2000s comedy podcast and public access parody news show around 2000"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:10:22",
+      "note": "gets The Rubin Report on The Young Turks network around 2013"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:14:26",
+      "note": "2016 pivot to hosting Intellectual Dark Web guests, aided by YouTube's algorithm"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:17:35",
+      "note": "platforms Milo, Cernovich, Lauren Southern and Molyneux without pushback"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:24:49",
+      "note": "Koch-linked funding, Blaze hosting and colleague calling him a fraud"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:34:43",
+      "note": "book's origin story: Larry Elder interview on systemic racism"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:50:56",
+      "note": "book's drug chapter: legalise some drugs, prison for meth and heroin users"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:54:37",
+      "note": "book's abortion chapter and sex education culture-war discussion"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:57:11",
+      "note": "book claims Nazis were socialists; host rebuts with Night of the Long Knives"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:43:00",
+      "note": "Passing reference to mass rape campaigns by US-backed Central American death squads"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:45:13",
+      "note": "Hosts mock a fan review that frames rape prevention as the victim's job"
+    }
   ],
   "notes": "Roughly half biographical essay, half reading of Don't Burn This Book; media-reading chosen by format precedence. Lifetime rule not applied: covered span runs from his early-2000s comedy career to the 2020 book. Birth year 1976 from general knowledge (packet garbles it). Wikidata omitted."
 }
