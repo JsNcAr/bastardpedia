@@ -1,0 +1,119 @@
+[
+  {
+    "id": "peter-thiel-and-the-anti-christ",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "child-abuse"]
+    },
+    "notes": "All three are brief asides or analogies; child-sexual-abuse is only a reference to a conspiracy theory."
+  },
+  {
+    "id": "bishop-david-e-taylor-jesus-christ-s-best-friend",
+    "before": {
+      "warnings": ["slavery", "sexual-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "slavery"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Part 2 00:40:54: a woman said to be groomed as a bride for Taylor; her age is not given in the excerpt, so I left it under sexual-violence. Check if she was a minor."
+  },
+  {
+    "id": "daryl-gates-the-man-who-invented-swat-teams-and-dare",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["child-sexual-abuse"]
+    },
+    "notes": "The fake rape report concerns a girl the hosts call a kid, so filed under child-sexual-abuse; the part 2 callback is the same incident. Reviewer may also want sexual-violence if the girl was an adult."
+  },
+  {
+    "id": "that-time-volkswagen-operated-a-slave-plantation-in-brazil",
+    "before": {
+      "warnings": ["slavery", "torture", "graphic-violence", "child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "slavery", "graphic-violence", "torture"],
+      "mentions": ["sexual-violence", "child-abuse"]
+    },
+    "notes": "child-abuse is not a scan hit; added as a mention because the same passage describes children held and mistreated in a labor camp and the themes include child-abuse. Check whether more child labor material exists."
+  },
+  {
+    "id": "robert-and-cody-read-ben-shapiro-s-new-book",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "how-the-fbi-botched-the-2001-anthrax-scare",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "how-the-fbi-botched-the-olympic-park-bombing",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    }
+  },
+  {
+    "id": "buford-pusser-the-worst-sheriff-ever",
+    "before": {
+      "warnings": ["graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "The self-inflicted wound was to stage an attack, not a suicide attempt; listed as a self-harm mention. Wife's murder is under other warnings."
+  },
+  {
+    "id": "how-heinrich-himmler-went-from-nerdy-boy-to-master-of-the-ss",
+    "before": {
+      "warnings": ["mass-atrocity", "hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["mass-atrocity", "hate-speech"],
+      "mentions": []
+    },
+    "notes": "Both scan hits dropped: 'grooming' at part 5 means recruiting; part 3 is a dismissed theory that Rohm groomed Himmler, an adult at the time. The series ends at WW2, before Himmler's suicide."
+  },
+  {
+    "id": "lee-atwater-the-political-dirty-tricks-artist-who-gave-us-president-s-george-bush",
+    "before": {
+      "warnings": ["child-death", "hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "hate-speech"],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "Horton rape gets two short passages (00:18, 00:21); I judged it a mention, but it is central to the Horton ad story. Push-poll pedophile example and political grooming at part 2 dropped or folded in."
+  }
+]

@@ -52,7 +52,8 @@
     "approximate": false
   },
   "summary": "Algiers-born Alexandre Villaplane captained France at the first World Cup in 1930, fell into match-fixing and crime, then led an SS-backed North African unit that tortured, robbed and massacred French civilians before his execution in 1944.",
-  "content_warnings": ["torture", "graphic-violence", "mass-atrocity", "slavery"],
+  "content_warnings": ["slavery", "graphic-violence", "torture", "mass-atrocity"],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "1930 World Cup",
     "Carlingue",
@@ -74,18 +75,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:48:14", "note": "birth in Algiers on Christmas Eve 1904" },
-    { "facet": "time", "part": 1, "at": "01:01:24", "note": "first France cap against Belgium in 1926, start of main span" },
-    { "facet": "themes", "part": 1, "at": "00:06:14", "note": "long background on the 1830 French conquest and colonial rule of Algeria" },
-    { "facet": "content_warnings", "part": 1, "at": "00:33:36", "note": "proposals to use Saharan slave trade captives and tolerated slaveholding in Algeria" },
-    { "facet": "themes", "part": 2, "at": "00:04:25", "note": "captains France at the 1930 World Cup in Uruguay" },
-    { "facet": "themes", "part": 2, "at": "00:10:36", "note": "match-fixing and bribery scheme at Antibes, stripped title" },
-    { "facet": "themes", "part": 2, "at": "00:16:43", "note": "1935 horse-race fixing conviction and drift into Paris underworld" },
-    { "facet": "subjects", "part": 2, "at": "00:24:13", "note": "Henri Lafont recruits criminals for the SS, founding the French Gestapo" },
-    { "facet": "subjects", "part": 2, "at": "00:37:39", "note": "made officer of the SS-backed North African Brigade" },
-    { "facet": "content_warnings", "part": 2, "at": "00:38:10", "note": "account of torture, burning and shooting of peasants during a raid" },
-    { "facet": "content_warnings", "part": 2, "at": "00:45:12", "note": "hostage massacres in Dordogne towns including Mussidan" },
-    { "facet": "time", "part": 2, "at": "00:49:52", "note": "arrest August 1944 and execution by firing squad December 1944" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:48:14",
+      "note": "birth in Algiers on Christmas Eve 1904"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:01:24",
+      "note": "first France cap against Belgium in 1926, start of main span"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:06:14",
+      "note": "long background on the 1830 French conquest and colonial rule of Algeria"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:04:25",
+      "note": "captains France at the 1930 World Cup in Uruguay"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:10:36",
+      "note": "match-fixing and bribery scheme at Antibes, stripped title"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:16:43",
+      "note": "1935 horse-race fixing conviction and drift into Paris underworld"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:24:13",
+      "note": "Henri Lafont recruits criminals for the SS, founding the French Gestapo"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:37:39",
+      "note": "made officer of the SS-backed North African Brigade"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:49:52",
+      "note": "arrest August 1944 and execution by firing squad December 1944"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:44:11",
+      "note": "Quoted list of the unit's crimes against civilians includes rape, in passing"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:33:36",
+      "note": "proposals to use Saharan slave trade captives and tolerated slaveholding in Algeria"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:38:10",
+      "note": "account of torture, burning and shooting of peasants during a raid"
+    }
   ],
   "notes": "About 45 minutes of part 1 cover the French conquest and colonial rule of Algeria from 1830; treated as background, so covered_span starts at his 1904 birth. Primary theme sports follows the title and the sports theme examples; nazism or war-war-crimes is a close alternative given airtime. Brief Uruguay World Cup segment kept out of setting."
 }

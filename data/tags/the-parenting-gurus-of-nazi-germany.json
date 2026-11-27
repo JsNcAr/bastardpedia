@@ -30,7 +30,12 @@
   "roles": ["writer-intellectual", "physician-surgeon", "psychiatrist-psychologist"],
   "themes": {
     "primary": "child-abuse",
-    "secondary": ["nazism", "quackery-pseudoscience", "propaganda-media", "eugenics-scientific-racism"]
+    "secondary": [
+      "nazism",
+      "quackery-pseudoscience",
+      "propaganda-media",
+      "eugenics-scientific-racism"
+    ]
   },
   "regions": {
     "origin": ["DE", "CZ"],
@@ -47,6 +52,7 @@
   },
   "summary": "German physician Moritz Schreber promoted posture-correcting restraint devices and emotion-suppressing child rearing in the 1850s; Nazi doctor Johanna Haarer's Hitler-endorsed manuals taught mothers to withhold affection from infants.",
   "content_warnings": ["child-abuse"],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm", "animal-cruelty"],
   "keywords": [
     "Schreber gardens",
     "Geradehalter",
@@ -68,14 +74,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:20:15", "note": "Schreber's influential posture book dated to 1855" },
-    { "facet": "subjects", "part": 1, "at": "00:38:44", "note": "long segment on son Daniel Paul Schreber, judge turned psychiatric memoirist" },
-    { "facet": "roles", "part": 1, "at": "00:08:23", "note": "Schreber held an MD, taught at Leipzig, styled himself a child psychiatrist" },
-    { "facet": "regions", "part": 2, "at": "00:08:42", "note": "Haarer born 1900 in Bodenbach (now Decin, Czech Republic); childhood segment follows" },
-    { "facet": "themes", "part": 2, "at": "00:27:20", "note": "Haarer writes for the Nazi party newspaper, then her parenting book" },
-    { "facet": "themes", "part": 2, "at": "00:40:25", "note": "her antisemitic Hitler children's book for young readers" },
-    { "facet": "themes", "part": 2, "at": "00:46:26", "note": "works for Nazi racial policy office; praises Nuremberg laws and hereditary health" },
-    { "facet": "time", "part": 2, "at": "01:11:09", "note": "Haarer's later decline and death in 1988" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:20:15",
+      "note": "Schreber's influential posture book dated to 1855"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:38:44",
+      "note": "long segment on son Daniel Paul Schreber, judge turned psychiatric memoirist"
+    },
+    {
+      "facet": "roles",
+      "part": 1,
+      "at": "00:08:23",
+      "note": "Schreber held an MD, taught at Leipzig, styled himself a child psychiatrist"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:08:42",
+      "note": "Haarer born 1900 in Bodenbach (now Decin, Czech Republic); childhood segment follows"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:27:20",
+      "note": "Haarer writes for the Nazi party newspaper, then her parenting book"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:40:25",
+      "note": "her antisemitic Hitler children's book for young readers"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:46:26",
+      "note": "works for Nazi racial policy office; praises Nuremberg laws and hereditary health"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:11:09",
+      "note": "Haarer's later decline and death in 1988"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:11:42",
+      "note": "Opens on a momfluencer convicted of child abuse; the story is about abusive child-rearing methods"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:34:14",
+      "note": "Discussion of manuals telling mothers to ignore and isolate crying infants"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "01:14:17",
+      "note": "Hosts joke that next week's episodes are about pedophiles"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:38:44",
+      "note": "Schreber's eldest son died by suicide"
+    }
   ],
   "notes": "Two equal primary subjects, so the lifetime rule spans Schreber's birth (1808) to Haarer's death (1988). main_span runs from Schreber's 1855 book to the fall of Nazi Germany. The postwar reprints and studies of war children are covered, but only briefly, so reaches_present is false. Ruby Frank is a modern comparison only. This is part of a series that continues with Helmut Kentler."
 }

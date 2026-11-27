@@ -51,6 +51,7 @@
   },
   "summary": "American cartoonist Hank Ketcham scabbed during the 1941 Disney strike, built Dennis the Menace on his son, then neglected him, hid his mother's death and sent him away, and drew a racist caricature in 1970.",
   "content_warnings": ["child-abuse"],
+  "content_mentions": [],
   "keywords": [
     "Dennis the Menace",
     "Disney animators' strike",
@@ -73,16 +74,72 @@
   },
   "evidence": [
     { "facet": "time", "part": 1, "at": "00:04:22", "note": "Ketcham born March 1920 in Seattle" },
-    { "facet": "themes", "part": 1, "at": "00:28:24", "note": "long segment on the 1941 Disney animators' strike and union demands" },
-    { "facet": "themes", "part": 1, "at": "00:37:09", "note": "Ketcham leaves the picket line and crosses it to keep working" },
-    { "facet": "subjects", "part": 1, "at": "00:47:25", "note": "son Dennis born 1946, namesake and model for the strip" },
-    { "facet": "time", "part": 1, "at": "00:51:02", "note": "October 1950 incident that inspired the strip; launch in March 1951" },
-    { "facet": "themes", "part": 2, "at": "00:06:03", "note": "twelve-year-old Dennis sent to boarding school after the separation" },
-    { "facet": "themes", "part": 2, "at": "00:10:56", "note": "father withholds news of the mother's death until after the burial" },
-    { "facet": "regions", "part": 2, "at": "00:19:26", "note": "move to Switzerland with new wife; son placed in a Swiss school, then sent back" },
-    { "facet": "themes", "part": 2, "at": "00:37:22", "note": "1970 introduction of a caricatured Black character and the backlash" },
-    { "facet": "subjects", "part": 2, "at": "00:47:20", "note": "Dennis joins the Marines, serves in Vietnam, returns with PTSD" },
-    { "facet": "time", "part": 2, "at": "00:58:32", "note": "Ketcham dies in 2001; son does not attend the funeral" }
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:28:24",
+      "note": "long segment on the 1941 Disney animators' strike and union demands"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:37:09",
+      "note": "Ketcham leaves the picket line and crosses it to keep working"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:47:25",
+      "note": "son Dennis born 1946, namesake and model for the strip"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:51:02",
+      "note": "October 1950 incident that inspired the strip; launch in March 1951"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:06:03",
+      "note": "twelve-year-old Dennis sent to boarding school after the separation"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:10:56",
+      "note": "father withholds news of the mother's death until after the burial"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:19:26",
+      "note": "move to Switzerland with new wife; son placed in a Swiss school, then sent back"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:37:22",
+      "note": "1970 introduction of a caricatured Black character and the backlash"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:47:20",
+      "note": "Dennis joins the Marines, serves in Vietnam, returns with PTSD"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:58:32",
+      "note": "Ketcham dies in 2001; son does not attend the funeral"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:06:03",
+      "note": "Ketcham ships his twelve-year-old son off to boarding school after the divorce"
+    }
   ],
   "notes": "Primary theme child-abuse reflects emotional neglect and abandonment by a parent, not physical or sexual abuse; entertainment-celebrity was the alternative. Dennis Ketcham's death year is not stated in the packet (the host does not know if he is alive), so lifespan end is null. main_span starts at the strip's conception in 1950; the 1941 strike is inside covered_span."
 }

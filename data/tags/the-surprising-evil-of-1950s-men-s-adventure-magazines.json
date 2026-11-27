@@ -60,7 +60,8 @@
     "approximate": true
   },
   "summary": "A reading of stories and ads from American men's adventure magazines of the 1950s and 1960s, pulp publications for postwar men that mixed soft-core porn, racist caricature, sexualised minors and insecure fantasies of masculinity.",
-  "content_warnings": ["child-abuse", "graphic-violence", "slavery"],
+  "content_warnings": ["sexual-violence", "child-sexual-abuse", "slavery", "graphic-violence"],
+  "content_mentions": [],
   "keywords": [
     "pulp magazines",
     "True Adventure",
@@ -131,12 +132,6 @@
       "note": "Kashmir story in Exotic Adventures sexualises a trafficked teenage girl"
     },
     {
-      "facet": "content_warnings",
-      "part": 2,
-      "at": "00:32:04",
-      "note": "vivid reading of a woman being killed by crabs"
-    },
-    {
       "facet": "time",
       "part": 2,
       "at": "00:36:50",
@@ -147,6 +142,18 @@
       "part": 2,
       "at": "00:49:23",
       "note": "Man's Combat story built on SS men raping nuns, loosely drawn from the Nowogrodek martyrs"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:49:23",
+      "note": "Hosts read a story of SS troops massacring a convent and raping the nuns"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:58:42",
+      "note": "Discussion of white-slavery and sex-trafficking tropes in the magazines' stories"
     }
   ],
   "notes": "Primary theme misogyny-manosphere stands in for postwar toxic masculinity; no vocabulary entry for pulp or print culture. Covered span is the issues read (1957-1969) plus the genre's postwar start; the 1920s-1962 Saudi slave-trade history is treated as background to one article, though SA is kept in the setting. Settings of the fictional stories (Kashmir, Belize, Tangier, France) are left out."

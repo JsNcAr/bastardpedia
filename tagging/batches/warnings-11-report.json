@@ -1,0 +1,122 @@
+[
+  {
+    "id": "how-lawrence-of-arabia-invented-modern-war",
+    "before": {
+      "warnings": ["mass-atrocity", "sexual-violence", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-sexual-abuse", "graphic-violence", "mass-atrocity"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "child-sexual-abuse as detailed rests on the part 1 segment (about 6 minutes) debating the Dahoum grooming claim, which Robert ultimately rejects; a reviewer may prefer mentions."
+  },
+  {
+    "id": "how-peter-thiel-became-the-gravedigger-of-democracy",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm", "animal-cruelty"]
+    },
+    "notes": "animal-cruelty is for the joking dolphin sexual-abuse aside in part 3; drop it if bestiality jokes are not meant to count. Part 4 virtual groping app feature dropped."
+  },
+  {
+    "id": "the-history-of-american-masculinity-grifters",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Rapeseed oil candidates in part 2 dropped. Unclear from the excerpt whether the molestation at 00:21:34 was in childhood; filed as child-sexual-abuse, could be sexual-violence."
+  },
+  {
+    "id": "america-s-first-fascist-governor",
+    "before": {
+      "warnings": ["graphic-violence", "hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "hate-speech"],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "Both are brief asides outside the Talmadge story itself; kept under the when-in-doubt rule."
+  },
+  {
+    "id": "apollo-quiboloy-the-jeffrey-epstein-of-the-philippines",
+    "before": {
+      "warnings": ["child-abuse", "sexual-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-sexual-abuse"],
+      "mentions": []
+    },
+    "notes": "Current child-abuse warning and theme had no scan matches; the abuse described is sexual, so it moves to child-sexual-abuse. Reviewer may check whether the children's foundation segment includes non-sexual cruelty."
+  },
+  {
+    "id": "the-inventor-of-those-troubled-teen-wilderness-camps-where-they-kill-kids",
+    "before": {
+      "warnings": ["child-abuse", "child-death", "torture"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "child-death", "torture"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm", "animal-cruelty"]
+    },
+    "notes": "Sexual-assault candidates all concern minors (a 15-year-old's earlier date rape, abuse at youth centers), so filed under child-sexual-abuse, not sexual-violence. Animal-cruelty context is a one-line remark; check."
+  },
+  {
+    "id": "curtis-yarvin-the-philosopher-behind-j-d-vance",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Only a passing figurative use; kept under the when-in-doubt rule."
+  },
+  {
+    "id": "that-time-ebay-s-private-spies-went-to-war-with-some-bloggers",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "child-sexual-abuse is only the word used as an online insult; a reviewer may drop it. Harassment package items (insects, pig mask) are not scan words and not animal harm as such."
+  },
+  {
+    "id": "thomas-kinkade-the-evil-est-painter",
+    "before": {
+      "warnings": ["sexual-violence", "drug-use"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "drug-use"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Sexual-violence segment runs about 3 minutes; borderline between detailed and mentions, kept detailed as currently tagged."
+  },
+  {
+    "id": "how-the-liberal-media-helped-fascism-win",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "Child-sexual-abuse candidates are the same dolphin aside with an adult victim; dropped."
+  }
+]

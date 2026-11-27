@@ -52,7 +52,8 @@
     "approximate": false
   },
   "summary": "Colombian trafficker Griselda Blanco built a cocaine empire from New York to Miami in the 1970s and 1980s, ordering scores of murders, including of rivals' children, before prison, deportation and her 2012 killing in Medellin.",
-  "content_warnings": ["graphic-violence", "child-death", "child-abuse", "drug-use"],
+  "content_warnings": ["child-abuse", "child-death", "graphic-violence", "drug-use"],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "Godmother of Cocaine",
     "Black Widow",
@@ -74,18 +75,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:01:01", "note": "birth in Cartagena in 1943 and childhood move to Medellin" },
-    { "facet": "themes", "part": 1, "at": "00:02:03", "note": "violent abusive mother, childhood amid La Violencia, child murder at age eleven" },
-    { "facet": "time", "part": 1, "at": "00:07:14", "note": "1971: she and Bravo first sell Medellin cocaine in the US; lingerie smuggling" },
-    { "facet": "themes", "part": 1, "at": "00:11:57", "note": "kills husband Alberto Bravo in Medellin; later has third husband killed" },
-    { "facet": "regions", "part": 1, "at": "00:20:49", "note": "move to Miami; cocaine wars centred on South Florida" },
-    { "facet": "themes", "part": 1, "at": "00:24:22", "note": "Miami cocaine wars, Dadeland shooting, motorcycle hits, murder rates" },
-    { "facet": "themes", "part": 1, "at": "00:34:08", "note": "hits that killed or endangered children of targets" },
-    { "facet": "themes", "part": 1, "at": "00:36:11", "note": "1985 arrest, plea deal, prison life run by bribes" },
-    { "facet": "subjects", "part": 1, "at": "00:37:13", "note": "long segment on Charles Cosby, his prison romance and JFK Jr. plot story" },
-    { "facet": "themes", "part": 1, "at": "00:50:44", "note": "murder case collapses after witnesses compromised secretaries" },
-    { "facet": "time", "part": 1, "at": "00:53:21", "note": "released 2004, deported, shot by motorcyclist in Medellin in 2012" },
-    { "facet": "time", "part": 1, "at": "00:57:26", "note": "postscript on son Michael Corleone up to his 2018 vape and clothing brand" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:01:01",
+      "note": "birth in Cartagena in 1943 and childhood move to Medellin"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:02:03",
+      "note": "violent abusive mother, childhood amid La Violencia, child murder at age eleven"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:07:14",
+      "note": "1971: she and Bravo first sell Medellin cocaine in the US; lingerie smuggling"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:11:57",
+      "note": "kills husband Alberto Bravo in Medellin; later has third husband killed"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:20:49",
+      "note": "move to Miami; cocaine wars centred on South Florida"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:24:22",
+      "note": "Miami cocaine wars, Dadeland shooting, motorcycle hits, murder rates"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:34:08",
+      "note": "hits that killed or endangered children of targets"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:36:11",
+      "note": "1985 arrest, plea deal, prison life run by bribes"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:37:13",
+      "note": "long segment on Charles Cosby, his prison romance and JFK Jr. plot story"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:50:44",
+      "note": "murder case collapses after witnesses compromised secretaries"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:53:21",
+      "note": "released 2004, deported, shot by motorcyclist in Medellin in 2012"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:57:26",
+      "note": "postscript on son Michael Corleone up to his 2018 vape and clothing brand"
+    }
   ],
   "notes": "covered_span ends 2018 because the closing postscript follows her son Michael Corleone Blanco to his 2018 Pure Blanco business, which also sets reaches_present; this is short (about three minutes) and could be cut back to 2012. Cosby's dates are unknown, so a floruit is used. Birth year follows the transcript (1943)."
 }

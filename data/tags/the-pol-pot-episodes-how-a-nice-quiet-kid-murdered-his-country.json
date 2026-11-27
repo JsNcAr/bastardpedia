@@ -33,10 +33,7 @@
       }
     }
   ],
-  "roles": [
-    "dictator-autocrat",
-    "mercenary-warlord"
-  ],
+  "roles": ["dictator-autocrat", "mercenary-warlord"],
   "themes": {
     "primary": "communism-state-socialism",
     "secondary": [
@@ -49,19 +46,10 @@
     ]
   },
   "regions": {
-    "origin": [
-      "KH"
-    ],
-    "setting": [
-      "KH",
-      "FR",
-      "VN",
-      "HR"
-    ],
+    "origin": ["KH"],
+    "setting": ["KH", "FR", "VN", "HR"],
     "subdivisions": [],
-    "polities": [
-      "french-colonial-empire"
-    ],
+    "polities": ["french-colonial-empire"],
     "scope": "international"
   },
   "time": {
@@ -77,12 +65,8 @@
     "approximate": true
   },
   "summary": "Saloth Sar, a privileged, polite Cambodian student radicalised in 1950s Paris, became Pol Pot, led the Khmer Rouge and ruled Cambodia from 1975 to 1979, when his Year Zero policies killed around two million people.",
-  "content_warnings": [
-    "mass-atrocity",
-    "torture",
-    "child-abuse",
-    "graphic-violence"
-  ],
+  "content_warnings": ["graphic-violence", "torture", "mass-atrocity"],
+  "content_mentions": ["child-sexual-abuse", "child-abuse", "suicide-self-harm"],
   "keywords": [
     "Saloth Sar",
     "Year Zero",
@@ -95,9 +79,7 @@
     "Norodom Sihanouk",
     "Nate Thayer"
   ],
-  "guests": [
-    "Andrew Ti"
-  ],
+  "guests": ["Andrew Ti"],
   "confidence": {
     "subjects": "high",
     "roles": "medium",
@@ -118,12 +100,7 @@
       "at": "00:48:40",
       "note": "becomes party leader in 1963 after Tou Samouth's killing"
     },
-    {
-      "facet": "time",
-      "part": 3,
-      "at": "01:23:36",
-      "note": "dies under house arrest in 1998"
-    },
+    { "facet": "time", "part": 3, "at": "01:23:36", "note": "dies under house arrest in 1998" },
     {
       "facet": "regions",
       "part": 1,
@@ -167,16 +144,16 @@
       "note": "Western apologists: Caldwell, Chomsky debate, regime propaganda"
     },
     {
-      "facet": "content_warnings",
+      "facet": "content_mentions",
       "part": 1,
-      "at": "00:36:42",
-      "note": "explicit account of his sexual abuse as a boy in the palace"
+      "at": "00:37:46",
+      "note": "Reference to Saloth Sar being molested in childhood, a topic an interviewer never raised"
     },
     {
-      "facet": "content_warnings",
-      "part": 3,
-      "at": "00:55:41",
-      "note": "S-21 interrogation, torture and execution described"
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:20:33",
+      "note": "Notes beating children was the norm, though his father beat his less than most"
     }
   ],
   "notes": "Primary theme follows the taxonomy example naming Pol Pot under communism-state-socialism; genocide-mass-killing is a close alternative. main_span starts at 1963 party leadership; 1952 return to Cambodia is a defensible alternative. HR stands for the Yugoslavia work trip (Zagreb). graphic-violence covers the death-march corpses and the liver-eating account in part 3."

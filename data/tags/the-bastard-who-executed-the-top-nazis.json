@@ -29,7 +29,12 @@
   "roles": ["military-officer", "police-lawman"],
   "themes": {
     "primary": "war-war-crimes",
-    "secondary": ["nazism", "policing-incarceration", "diplomacy-foreign-policy", "propaganda-media"]
+    "secondary": [
+      "nazism",
+      "policing-incarceration",
+      "diplomacy-foreign-policy",
+      "propaganda-media"
+    ]
   },
   "regions": {
     "origin": ["US"],
@@ -46,6 +51,7 @@
   },
   "summary": "John C. Woods, a Kansas drifter and US Army sergeant who lied his way into the post of military hangman in 1944, botched dozens of executions and hanged ten Nazi leaders convicted at Nuremberg in 1946.",
   "content_warnings": ["graphic-violence"],
+  "content_mentions": ["sexual-violence", "suicide-self-harm"],
   "keywords": [
     "Nuremberg executions",
     "Joachim von Ribbentrop",
@@ -108,6 +114,36 @@
       "part": 1,
       "at": "01:04:38",
       "note": "electrocuted at Eniwetok test site in 1950 (Marshall Islands)"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:30:48",
+      "note": "US soldiers court-martialled and sentenced to hang for raping French women"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "01:08:48",
+      "note": "Host aside against wishing prison rape on inmates"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:03:40",
+      "note": "Hitler had shot himself before the trials"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:52:18",
+      "note": "Goering's suicide changed the rules for the executions"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "01:00:03",
+      "note": "Woods claims hangmen traditionally hang themselves in old age"
     }
   ],
   "notes": "No role fits an executioner exactly; police-lawman chosen as the closest (prison/justice official). Transcript says Woods died June 21, 1950. Streicher listed secondary for his intro segment and long execution account. Last 6 minutes on postwar German rebuilding and the Marshall Plan treated as digression."

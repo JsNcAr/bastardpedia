@@ -64,6 +64,7 @@
   },
   "summary": "How Adolf Hitler and Erich Ludendorff tried to seize power in Munich in November 1923 by storming a beer hall, failed in a deadly street battle, and were then shielded by sympathetic police and judges who turned the trial into Nazi propaganda.",
   "content_warnings": [],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "Munich",
     "Bavaria",
@@ -150,6 +151,12 @@
       "part": 2,
       "at": "00:31:45",
       "note": "Landsberg imprisonment, writing Mein Kampf, parole in December 1924"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:48:29",
+      "note": "Comparison to QAnon-style conspiracy theories about pedophile elites"
     }
   ],
   "notes": "Hitler made secondary, not primary: the story covers his 1913-1924 years only, so the lifetime rule would not fit; the title names the event. January 6 2021 comparisons throughout are comparisons, so reaches_present is false. Host says the Nazi party was founded in February 1920 (DAP founded 1919, renamed 1920). No content warning: violence is described briefly, not graphically."

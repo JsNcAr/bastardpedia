@@ -67,6 +67,7 @@
   },
   "summary": "A walk through the 2021 Facebook Papers leaked by Frances Haugen, showing Facebook knew its algorithms spread disinformation, hate and Stop the Steal organizing, harmed teens on Instagram and fed violence in India and Myanmar, yet chose profit.",
   "content_warnings": ["suicide-self-harm"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "Breitbart",
     "Carol's Journey to QAnon",
@@ -119,12 +120,6 @@
       "note": "internal report on Stop the Steal groups growing on the platform before January 6"
     },
     {
-      "facet": "content_warnings",
-      "part": 2,
-      "at": "00:25:51",
-      "note": "extended discussion of teen suicidal ideation traced to Instagram, with statistics"
-    },
-    {
       "facet": "regions",
       "part": 2,
       "at": "00:49:50",
@@ -147,6 +142,24 @@
       "part": 2,
       "at": "01:15:49",
       "note": "XCheck whitelist shields millions of VIP accounts from enforcement"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:25:51",
+      "note": "Extended discussion of teen suicidal ideation traced to Instagram, with statistics"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:27:26",
+      "note": "Robert recalculates how many teens attempt suicide after Instagram-linked ideation"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:01:38",
+      "note": "Intro aside about a sexual assault scene in a recommended horror film"
     }
   ],
   "notes": "Format current-affairs: the story reports on documents leaked weeks before release about a subject the show covered earlier; deep-dive is a defensible alternative. Sri Lanka and Ethiopia only mentioned in passing. A 2015 Trump video is cited once, so covered_span starts at the 2016 segment."

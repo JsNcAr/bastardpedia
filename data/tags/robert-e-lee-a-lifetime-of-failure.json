@@ -37,9 +37,7 @@
       "role": "secondary"
     }
   ],
-  "roles": [
-    "military-officer"
-  ],
+  "roles": ["military-officer"],
   "themes": {
     "primary": "war-war-crimes",
     "secondary": [
@@ -52,18 +50,10 @@
     ]
   },
   "regions": {
-    "origin": [
-      "US"
-    ],
-    "setting": [
-      "US"
-    ],
-    "subdivisions": [
-      "US-VA"
-    ],
-    "polities": [
-      "confederate-states"
-    ],
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-VA"],
+    "polities": ["confederate-states"],
     "scope": "national"
   },
   "time": {
@@ -79,9 +69,12 @@
     "approximate": false
   },
   "summary": "Virginia-born US Army officer Robert E. Lee had enslaved people at Arlington whipped, broke his oath to lead Confederate armies to defeat in the Civil War, and after 1865 opposed civil rights for freed Black Americans.",
-  "content_warnings": [
-    "slavery",
-    "torture"
+  "content_warnings": ["slavery", "torture"],
+  "content_mentions": [
+    "sexual-violence",
+    "child-sexual-abuse",
+    "suicide-self-harm",
+    "animal-cruelty"
   ],
   "keywords": [
     "Light-Horse Harry",
@@ -95,9 +88,7 @@
     "Arlington National Cemetery",
     "Traveller"
   ],
-  "guests": [
-    "Jason Petty (Prop)"
-  ],
+  "guests": ["Jason Petty (Prop)"],
   "confidence": {
     "subjects": "high",
     "roles": "high",
@@ -123,12 +114,6 @@
       "part": 2,
       "at": "00:37:43",
       "note": "Father-in-law Custis dies in 1857; Lee takes over Arlington and hires out enslaved people to pay debts"
-    },
-    {
-      "facet": "content_warnings",
-      "part": 2,
-      "at": "00:47:51",
-      "note": "Lee orders recaptured escapees stripped and lashed; press report says he whipped Mary Norris himself"
     },
     {
       "facet": "themes",
@@ -177,6 +162,12 @@
       "part": 2,
       "at": "00:54:39",
       "note": "2017 newspaper column defending Lee shows the myth still active today"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:11:44",
+      "note": "Host calls Custis fathering children with enslaved women rape"
     }
   ],
   "notes": "Covered span starts 1773 with father Light-Horse Harry's career (secondary subject, most of part 1); Norman-era and colonial family lore treated as background. Mexican-American War (MX) and Cortina raids get only a few minutes, so MX left out of setting. Lost Cause tagged folklore-legend (myth growth) plus propaganda-media (hagiographies, 2017 op-ed). Secession tagged coups-insurrections. graphic-violence and hate-speech considered but kept out: segments are short."

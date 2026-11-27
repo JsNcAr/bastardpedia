@@ -51,7 +51,8 @@
     "approximate": true
   },
   "summary": "The Great Irish Famine of 1845-1852, in which a potato blight became mass death because British governments, absentee landlords and free-market officials like Charles Trevelyan kept exporting food and evicting tenants.",
-  "content_warnings": ["mass-atrocity", "child-death"],
+  "content_warnings": ["child-death", "mass-atrocity"],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Great Hunger",
     "potato blight",
@@ -122,12 +123,6 @@
       "note": "landlords clearing whole villages in Mayo for sheep grazing at the famine's peak"
     },
     {
-      "facet": "content_warnings",
-      "part": 3,
-      "at": "00:24:58",
-      "note": "accounts of evicted families dying, including a dead child's body"
-    },
-    {
       "facet": "regions",
       "part": 3,
       "at": "00:49:55",
@@ -138,6 +133,18 @@
       "part": 3,
       "at": "00:55:37",
       "note": "epilogue on the death toll, population loss and Trevelyan's descendant reckoning with him"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "01:18:24",
+      "note": "Brief note that an agrarian group's threats may have implied rape"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 3,
+      "at": "00:24:58",
+      "note": "accounts of evicted families dying, including a dead child's body"
     }
   ],
   "notes": "Primary subject is the famine as an event, so no roles and no lifetime rule; Trevelyan gets a long segment but is secondary. covered_span starts at Henry VIII's 1540s land policy because Part 1 spends a large share tracing the colonial land system as the famine's cause; the brief Norman-era section (1160s) is excluded as background. Genocide framing follows the hosts and Coogan."

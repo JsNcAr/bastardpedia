@@ -63,7 +63,8 @@
     "approximate": true
   },
   "summary": "A survey of how the sons and daughters of Castro, Saddam Hussein, Stalin, Ceaușescu, Mussolini, Gaddafi and Lukashenko fared, from Uday Hussein's torture and killings to Svetlana Stalin's defection, plus a Frenchman who believed he was Hitler's son.",
-  "content_warnings": ["torture", "graphic-violence"],
+  "content_warnings": ["sexual-violence", "graphic-violence", "torture"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Children of Monsters",
     "Jay Nordlinger",
@@ -132,6 +133,30 @@
       "part": 1,
       "at": "00:56:38",
       "note": "Jean-Marie Loret, born after a 1917 WWI affair in occupied France, believed Hitler was his father"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:09:27",
+      "note": "Uday Hussein's habit of raping women, including seizing brides at weddings"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:33:58",
+      "note": "Run on Nicu Ceausescu as a serial rapist from his teens onward"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:19:27",
+      "note": "Suicide of Stalin's wife"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:28:12",
+      "note": "Yakov Dzhugashvili's suicide attempt and Stalin's mocking response"
     }
   ],
   "notes": "Survey episode with no single bastard; primary is the group of dictators' children. Origin is capped at four codes, so RO, IT, BY and FR are left out of origin despite real segments; IT and BY also miss setting (cap of six). Roles are a loose fit for a mixed group. Svetlana's later life and Loret's story push covered_span wide."

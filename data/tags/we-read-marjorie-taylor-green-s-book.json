@@ -40,6 +40,7 @@
   },
   "summary": "A short bonus reading of MTG, the 2023 memoir of Republican congresswoman Marjorie Taylor Greene, covering its chapters on offshoring, impeaching Biden over the border and fentanyl, the media, January 6 and Covid masking.",
   "content_warnings": [],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "Winning Team Publishing",
     "Donald Trump Jr.",
@@ -108,6 +109,12 @@
       "part": 1,
       "at": "00:30:35",
       "note": "book refers to the 2023 Tucker Carlson firing as recent, dating it to 2023"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:03:30",
+      "note": "Opening banter about the year's many pedophile episodes and a section of the book on them"
     }
   ],
   "notes": "Title misspells Greene. Book publication year (2023) inferred from the Tucker firing reference and outside knowledge; Sophie obtained a signed copy at the 2024 RNC (framing anecdote, not counted in covered_span). Sophie reads the book and acts as co-host but is a producer, so not listed as a guest. Short, digressive episode; themes are each only a few minutes. Lifetime rule not applied (media-reading)."

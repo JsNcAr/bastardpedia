@@ -49,7 +49,8 @@
     "approximate": true
   },
   "summary": "How US police in the early 20th century curbed lynching by torturing Black suspects into confessions for swift executions, from the 1921 Tulsa massacre and 1930s Mississippi to Chicago's John Burge and the Reid technique.",
-  "content_warnings": ["torture", "graphic-violence", "mass-atrocity"],
+  "content_warnings": ["graphic-violence", "torture", "mass-atrocity"],
+  "content_mentions": ["sexual-violence", "child-abuse"],
   "keywords": [
     "lynching",
     "Black Wall Street",
@@ -118,6 +119,18 @@
       "part": 1,
       "at": "01:14:06",
       "note": "Burge torture in Chicago from 1972, fired, imprisoned 2011, died 2018"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:09:38",
+      "note": "Rape accusations as the usual pretext for lynching Black men"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "01:05:15",
+      "note": "Central Park jogger rape; teenage suspects coerced into false confessions by long police interrogation"
     }
   ],
   "notes": "Primary subject is the practice of coercive police interrogation, so no roles. Only two secondary themes clearly earn real time; Tulsa massacre covers genocide-mass-killing. covered_span starts with the 1883 lynching data the host frames the story with; end is Burge's death and the 2018 union statement. Modern bias statistics and the Reid technique's decline set reaches_present. Mississippi case year inferred as 1934 (Brown v. Mississippi)."

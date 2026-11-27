@@ -59,7 +59,8 @@
     "approximate": true
   },
   "summary": "History of the Portland Police Association, founded in Oregon in 1942 as the first lasting US police union, which shielded officers from discipline after racist killings and harassment and set national precedents for police strikes, politics and arbitration.",
-  "content_warnings": ["graphic-violence", "child-death"],
+  "content_warnings": ["child-death", "graphic-violence"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Pickets, Pistols and Politics",
     "Red Squad",

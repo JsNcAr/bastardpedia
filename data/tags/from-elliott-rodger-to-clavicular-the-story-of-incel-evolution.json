@@ -63,6 +63,7 @@
   },
   "summary": "How the incel subculture grew from a supportive 1997 Canadian website into a misogynist online ideology behind mass killings such as Elliot Rodger's 2014 Isla Vista attack, then fed Gen Z slang and looksmaxing influencers like Clavicular.",
   "content_warnings": ["suicide-self-harm", "hate-speech"],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Isla Vista killings",
     "looksmaxing",
@@ -109,12 +110,6 @@
       "note": "pseudo-scientific PSL attractiveness scale built from the golden ratio, 2009-2013"
     },
     {
-      "facet": "content_warnings",
-      "part": 1,
-      "at": "00:51:18",
-      "note": "guest recounts a forum moderator's suicide that the community ignored"
-    },
-    {
       "facet": "themes",
       "part": 1,
       "at": "01:00:09",
@@ -155,6 +150,12 @@
       "part": 2,
       "at": "00:58:08",
       "note": "bone smashing explained and debunked as looksmaxing pseudoscience"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:50:46",
+      "note": "Incel forums urging members to kill themselves and a moderator's suicide note"
     }
   ],
   "notes": "No person is primary (the incel movement is), so roles are empty and the lifetime rule does not apply. The 1968 pickup-artist book gets about 4 minutes, treated as prehistory below the 5% bar, so covered_span starts in 1997. Host first places the Sodini shooting in New York; the guest corrects it to near Pittsburgh. Clavicular's birth year is not given. Spelling Elliot Rodger follows common usage; the title has Elliott."

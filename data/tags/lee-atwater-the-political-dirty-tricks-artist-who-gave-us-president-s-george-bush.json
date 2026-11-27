@@ -63,6 +63,7 @@
   },
   "summary": "South Carolina Republican strategist Lee Atwater refined the racially coded Southern strategy, push polls and planted smears from the 1970s, ran George H. W. Bush's 1988 campaign behind the Willie Horton ad, and chaired the RNC before dying in 1991.",
   "content_warnings": ["child-death", "hate-speech"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "Southern strategy",
     "push polling",
@@ -115,12 +116,6 @@
       "note": "1980 push polls and planted press question smearing Tom Turnipseed's shock therapy"
     },
     {
-      "facet": "content_warnings",
-      "part": 2,
-      "at": "00:51:14",
-      "note": "audio of the 1981 interview is played with repeated racial slurs"
-    },
-    {
       "facet": "themes",
       "part": 3,
       "at": "00:14:26",
@@ -149,6 +144,18 @@
       "part": 3,
       "at": "00:42:26",
       "note": "legacy segment linking his tactics to Trump-era Republican politics"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:17:00",
+      "note": "Fraternity chapters investigated for sexual assault"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 3,
+      "at": "00:18:29",
+      "note": "Willie Horton's rape of a woman during his furlough crimes"
     }
   ],
   "notes": "Transcript says he collapsed in March 1991; he actually collapsed in March 1990 and died 29 March 1991 (host also says a year-long fight). Childhood death of his brother in boiling oil is described vividly, hence child-death. RNC chairmanship is a party post, so politician-official was not used; entertainer-artist reflects the recurring music thread."

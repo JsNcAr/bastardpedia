@@ -66,6 +66,7 @@
   },
   "summary": "Uruguay's Tupamaros, an urban guerrilla group of the 1960s and 70s, robbed banks to aid the poor before the military dictatorship crushed them; member José Mujica survived 14 years in prison and was elected president in 2009.",
   "content_warnings": ["torture"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Montevideo",
     "Movimiento de Liberación Nacional",
@@ -140,6 +141,12 @@
       "part": 2,
       "at": "00:13:32",
       "note": "Mujica elected president in 2009; reforms and the left's critique of his term"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:55:47",
+      "note": "Passing contrast: the group did not carry out suicide bombings"
     }
   ],
   "notes": "Tupamaros and Mujica treated as co-primary: title names the group, descriptions name Mujica. Colonial and Batlle-era history (1516-1950s) is background and left out of covered_span. reaches_present false: the story mostly stops at Mujica's 2010-2015 term, with only brief remarks on the 2020 government. Covered end is 2021 because Mujica was alive at release (died 2025)."

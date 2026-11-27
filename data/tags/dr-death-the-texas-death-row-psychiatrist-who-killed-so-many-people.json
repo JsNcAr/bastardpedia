@@ -41,6 +41,7 @@
   },
   "summary": "Dallas psychiatrist James Grigson, nicknamed Dr. Death, testified in about 167 Texas capital trials from the late 1960s to the 1990s, often without examining defendants, assuring juries they would kill again and helping send innocent men to death row.",
   "content_warnings": [],
+  "content_mentions": [],
   "keywords": [
     "Dr. Death",
     "Texas death row",
@@ -116,12 +117,7 @@
       "at": "00:47:14",
       "note": "both sides pay him retainers so the other side cannot hire him"
     },
-    {
-      "facet": "time",
-      "part": 2,
-      "at": "00:50:14",
-      "note": "dies of lung cancer in June 2004"
-    }
+    { "facet": "time", "part": 2, "at": "00:50:14", "note": "dies of lung cancer in June 2004" }
   ],
   "notes": "Part 1 spends about ten minutes on 19th-century forensic psychiatry (will contests, insanity law); treated as background, so covered_span starts at birth. The 2016 stay for Jeffrey Wood is a short coda, so reaches_present is false. Scope set to national because of the two US Supreme Court cases, though the harm is all in Texas; local is arguable. main_span ends at his 2004 death rather than the 1995 APA expulsion."
 }

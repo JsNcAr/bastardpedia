@@ -58,6 +58,7 @@
   },
   "summary": "The Ku Klux Klan, from its founding by Confederate veterans in Pulaski, Tennessee, and its Reconstruction-era terror against freed Black people and voters, to its 1920s revival as a mass-membership pyramid scheme.",
   "content_warnings": ["graphic-violence", "hate-speech"],
+  "content_mentions": ["sexual-violence", "suicide-self-harm"],
   "keywords": [
     "Pulaski, Tennessee",
     "Reconstruction",
@@ -98,12 +99,6 @@
       "note": "Klan intimidates Black voters and Grant supporters during the 1868 election"
     },
     {
-      "facet": "content_warnings",
-      "part": 1,
-      "at": "00:33:08",
-      "note": "Detailed account of Klansmen beating a Black preacher nearly to death"
-    },
-    {
       "facet": "time",
       "part": 1,
       "at": "00:50:46",
@@ -138,6 +133,24 @@
       "part": 2,
       "at": "00:55:14",
       "note": "Stephenson conviction and collapse of membership by the late 1920s"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:37:57",
+      "note": "A Klan recruiter beat his wives and tried to rape several women"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:54:10",
+      "note": "Grand Dragon Stephenson's conviction for kidnapping, raping and killing his secretary"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:54:42",
+      "note": "Stephenson's victim died by suicide after the assault"
     }
   ],
   "notes": "Transcript dates the founding to the latter half of 1866; most histories give December 1865, so covered_span starts 1866 per the transcript. The end year of the decline is garbled in the transcript (read as 1927). Tyler and Clarke grouped as one secondary subject; Hiram Evans also has a segment and is in keywords."

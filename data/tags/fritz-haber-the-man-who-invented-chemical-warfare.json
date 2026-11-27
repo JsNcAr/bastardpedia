@@ -46,6 +46,7 @@
   },
   "summary": "German chemist Fritz Haber invented the process for making ammonia from air that feeds billions, then kept Germany's WWI war machine supplied and personally led the first large-scale poison gas attack at Ypres in 1915.",
   "content_warnings": ["graphic-violence", "suicide-self-harm"],
+  "content_mentions": [],
   "keywords": [
     "Haber-Bosch process",
     "Second Battle of Ypres",
@@ -104,12 +105,6 @@
       "note": "gas canisters buried at Ypres and released in April 1915 under his command"
     },
     {
-      "facet": "content_warnings",
-      "part": 1,
-      "at": "01:08:40",
-      "note": "Clara's suicide with his service revolver after the Ypres celebration"
-    },
-    {
       "facet": "time",
       "part": 1,
       "at": "01:18:10",
@@ -120,6 +115,24 @@
       "part": 1,
       "at": "01:28:32",
       "note": "nitrogen runoff, acid rain and ecosystem damage through the present"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "01:08:40",
+      "note": "Specific account of how Clara Immerwahr shot herself with Haber's service revolver"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "01:09:43",
+      "note": "Aftermath: missing suicide note and their son left with her body"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "01:08:40",
+      "note": "Clara's suicide with his service revolver after the Ypres celebration"
     }
   ],
   "notes": "main_span 1904-1918 covers the ammonia work through WWI gas warfare and the Nobel; exile and death in 1934 are covered more briefly. Zyklon B and the Holocaust get about a minute, so nazism is left out. Host says one gas attack killed 5,000 soldiers; historians give lower figures, but that does not affect any tag."

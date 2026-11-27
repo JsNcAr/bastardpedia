@@ -52,6 +52,7 @@
   },
   "summary": "Biography of American Republican operative Roger Stone, from his dirty tricks for Nixon's 1972 campaign through decades of smears and lobbying to his WikiLeaks dealings for Trump in 2016 and his 2019 indictment for lying and witness tampering.",
   "content_warnings": ["hate-speech"],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Watergate",
     "Committee to Re-elect the President",
@@ -73,17 +74,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:01:33", "note": "birth in 1952 and childhood in Lewisboro, New York" },
-    { "facet": "themes", "part": 1, "at": "00:05:39", "note": "early taste for LBJ murder conspiracy books, framed as a lifelong through line" },
-    { "facet": "time", "part": 1, "at": "00:12:26", "note": "joins Nixon's 1972 reelection committee at 19; first consequential act" },
-    { "facet": "themes", "part": 1, "at": "00:16:04", "note": "FBI files on his bagman role, spying and sabotage of Democratic campaigns" },
-    { "facet": "subjects", "part": 1, "at": "00:09:19", "note": "meets Paul Manafort at a Young Republican convention; long partnership follows" },
-    { "facet": "subjects", "part": 1, "at": "00:33:22", "note": "Roy Cohn connects him to Donald Trump; long Trump thread begins" },
-    { "facet": "themes", "part": 2, "at": "00:01:02", "note": "Trump-funded front group ads smearing the St. Regis Mohawk as criminals" },
-    { "facet": "content_warnings", "part": 2, "at": "00:26:39", "note": "host reads out a long list of his racist and sexist tweets" },
-    { "facet": "themes", "part": 2, "at": "00:32:21", "note": "brings Alex Jones and Trump together; becomes an InfoWars host" },
-    { "facet": "themes", "part": 2, "at": "00:36:06", "note": "contacts with Guccifer 2.0, a Russian operative, and WikiLeaks via Corsi" },
-    { "facet": "time", "part": 2, "at": "00:42:23", "note": "charged with false statements and witness tampering; covered span ends 2019" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:01:33",
+      "note": "birth in 1952 and childhood in Lewisboro, New York"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:05:39",
+      "note": "early taste for LBJ murder conspiracy books, framed as a lifelong through line"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:12:26",
+      "note": "joins Nixon's 1972 reelection committee at 19; first consequential act"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:16:04",
+      "note": "FBI files on his bagman role, spying and sabotage of Democratic campaigns"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:09:19",
+      "note": "meets Paul Manafort at a Young Republican convention; long partnership follows"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:33:22",
+      "note": "Roy Cohn connects him to Donald Trump; long Trump thread begins"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:01:02",
+      "note": "Trump-funded front group ads smearing the St. Regis Mohawk as criminals"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:32:21",
+      "note": "brings Alex Jones and Trump together; becomes an InfoWars host"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:36:06",
+      "note": "contacts with Guccifer 2.0, a Russian operative, and WikiLeaks via Corsi"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:42:23",
+      "note": "charged with false statements and witness tampering; covered span ends 2019"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:36:29",
+      "note": "Host contrasts Stone's swinging with molesting children, in passing"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:26:08",
+      "note": "Stone tweeted he would kill himself if married to a female politician"
+    }
   ],
   "notes": "Roger Stone was still alive and awaiting trial at release, so main_span.end is null; his later conviction and commutation fall after the episode. Proud Boys and sexist tweets get short segments only, so fascism-far-right and misogyny-manosphere were left out. Nixon is a recurring figure but his life is not narrated, so he is not listed as a subject."
 }

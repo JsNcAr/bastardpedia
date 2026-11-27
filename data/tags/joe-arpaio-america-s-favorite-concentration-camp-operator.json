@@ -52,7 +52,8 @@
     "approximate": false
   },
   "summary": "Joe Arpaio, a former federal narcotics agent, served as sheriff of Maricopa County, Arizona, from 1993 to 2016, running a deadly tent jail, staging media stunts, and leading racial-profiling immigration sweeps until a contempt conviction.",
-  "content_warnings": ["torture", "graphic-violence", "child-death"],
+  "content_warnings": ["child-death", "graphic-violence", "torture", "suicide-self-harm"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse", "animal-cruelty"],
   "keywords": [
     "Tent City",
     "Maricopa County",
@@ -74,18 +75,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:04:48", "note": "born 1932 in Springfield, Massachusetts, to Italian immigrant parents" },
-    { "facet": "themes", "part": 1, "at": "00:20:37", "note": "joins the Federal Bureau of Narcotics; undercover drug work begins" },
-    { "facet": "regions", "part": 1, "at": "00:27:22", "note": "posted to Istanbul in 1961; opium bust and disputed Turkish gunfight stories" },
-    { "facet": "regions", "part": 1, "at": "00:37:17", "note": "Operation Intercept border blockade, then Mexico City posting" },
-    { "facet": "time", "part": 1, "at": "00:47:07", "note": "1992 sheriff election; takes office the following January" },
-    { "facet": "themes", "part": 1, "at": "00:52:25", "note": "tent jail, deprivations and chain gangs built for press coverage" },
-    { "facet": "content_warnings", "part": 1, "at": "01:03:25", "note": "1996 death of Scott Norberg in a restraint chair, injuries described" },
-    { "facet": "themes", "part": 2, "at": "00:16:09", "note": "2006 pivot to targeting immigrants with smuggling law and posse sweeps" },
-    { "facet": "themes", "part": 2, "at": "00:28:14", "note": "PR aide Lisa Allen engineering viral stunts such as pink underwear" },
-    { "facet": "content_warnings", "part": 2, "at": "00:41:48", "note": "inmate's late-term stillbirth after medical neglect in the tent jail" },
-    { "facet": "time", "part": 2, "at": "01:07:34", "note": "profiling suit, ignored injunction, 2017 contempt conviction and pardon" },
-    { "facet": "time", "part": 2, "at": "01:09:08", "note": "loses 2016 reelection, 2018 Senate bid and 2020 sheriff primary" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:04:48",
+      "note": "born 1932 in Springfield, Massachusetts, to Italian immigrant parents"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:20:37",
+      "note": "joins the Federal Bureau of Narcotics; undercover drug work begins"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:27:22",
+      "note": "posted to Istanbul in 1961; opium bust and disputed Turkish gunfight stories"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:37:17",
+      "note": "Operation Intercept border blockade, then Mexico City posting"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:47:07",
+      "note": "1992 sheriff election; takes office the following January"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:52:25",
+      "note": "tent jail, deprivations and chain gangs built for press coverage"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:16:09",
+      "note": "2006 pivot to targeting immigrants with smuggling law and posse sweeps"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:28:14",
+      "note": "PR aide Lisa Allen engineering viral stunts such as pink underwear"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:07:34",
+      "note": "profiling suit, ignored injunction, 2017 contempt conviction and pardon"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:09:08",
+      "note": "loses 2016 reelection, 2018 Senate bid and 2020 sheriff primary"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:45:25",
+      "note": "Several minutes on inmates hanging themselves and the jails' far higher suicide rate"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:20:25",
+      "note": "Discussion of sex trafficking laws being turned against sex workers and victims"
+    }
   ],
   "notes": "Arpaio was alive at release (2021), so covered_span runs to 2021 under the lifetime rule. main_span ends at the 2017 conviction and pardon rather than his 2016 ouster. Turkey and Mexico have real segments from his narcotics career. A posse prostitution sting with sexual coercion of sex workers gets a few minutes; sexual-violence warning left off as borderline."
 }

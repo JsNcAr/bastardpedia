@@ -47,6 +47,7 @@
   },
   "summary": "Hood Politics episode in which Prop and Robert Evans discuss how the NRA, remade by Harlon Carter's 1977 takeover, turned gun ownership into a single-issue identity that blocks gun laws most US gun owners support.",
   "content_warnings": [],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Hood Politics",
     "Cincinnati Revolt",
@@ -68,14 +69,66 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "format", "part": 1, "at": "00:00:02", "note": "Opens as Prop's Hood Politics show with Robert Evans as guest" },
-    { "facet": "themes", "part": 1, "at": "00:13:48", "note": "Tufts researcher's survey of gun owners backing background checks and red flag laws" },
-    { "facet": "themes", "part": 1, "at": "00:16:07", "note": "Right builds single-issue voters from the 1970s, guns alongside abortion" },
-    { "facet": "themes", "part": 1, "at": "00:24:04", "note": "Black Panthers arming and the racist turn toward gun control in California" },
-    { "facet": "time", "part": 1, "at": "00:28:54", "note": "Carter and allies whip lifetime-member votes to seize the NRA in 1977" },
-    { "facet": "time", "part": 1, "at": "00:33:40", "note": "Carter kills a Mexican teen as a 17-year-old in Laredo; later leads Border Patrol" },
-    { "facet": "time", "part": 1, "at": "00:41:33", "note": "1994 assault weapons ban, its 2004 lapse, liability shield, Heller 2008, 2010 incorporation" },
-    { "facet": "themes", "part": 1, "at": "00:47:54", "note": "NRA tactic of setting definitions, compared to CRT, grooming and anti-trans campaigns" }
+    {
+      "facet": "format",
+      "part": 1,
+      "at": "00:00:02",
+      "note": "Opens as Prop's Hood Politics show with Robert Evans as guest"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:13:48",
+      "note": "Tufts researcher's survey of gun owners backing background checks and red flag laws"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:16:07",
+      "note": "Right builds single-issue voters from the 1970s, guns alongside abortion"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:24:04",
+      "note": "Black Panthers arming and the racist turn toward gun control in California"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:28:54",
+      "note": "Carter and allies whip lifetime-member votes to seize the NRA in 1977"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:33:40",
+      "note": "Carter kills a Mexican teen as a 17-year-old in Laredo; later leads Border Patrol"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:41:33",
+      "note": "1994 assault weapons ban, its 2004 lapse, liability shield, Heller 2008, 2010 incorporation"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:47:54",
+      "note": "NRA tactic of setting definitions, compared to CRT, grooming and anti-trans campaigns"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:51:04",
+      "note": "Hosts note the right's smear equating LGBT support with grooming"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:57:55",
+      "note": "People who buy a gun and kill themselves the same day, in a waiting-period argument"
+    }
   ],
   "notes": "Hood Politics crossover (Prop hosts, Evans guests), so format is crossover and roles are empty with the NRA as primary. Covered span starts at Carter's 1931 killing of Ramon Casiano in Laredo; the NRA's 1871 founding is a passing mention. Transcript calls Emerson v. United States a Supreme Court case; it was a 2001 Fifth Circuit ruling. Transcript spells Carter's first name Harlan."
 }

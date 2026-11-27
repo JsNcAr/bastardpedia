@@ -53,6 +53,7 @@
   },
   "summary": "American radio host Laura Schlessinger parlayed a physiology PhD and a start on Bill Ballance's 1970s Los Angeles show into a hugely popular call-in advice program that berated callers, mostly women, until a 2010 racial slur tirade.",
   "content_warnings": ["hate-speech"],
+  "content_mentions": ["sexual-violence", "suicide-self-harm"],
   "keywords": [
     "Ten Stupid Things Women Do to Mess Up Their Lives",
     "The Proper Care and Feeding of Husbands",
@@ -135,10 +136,16 @@
       "note": "2001 remarks calling homosexuality a biological error and the backlash"
     },
     {
-      "facet": "content_warnings",
+      "facet": "content_mentions",
       "part": 2,
-      "at": "01:27:01",
-      "note": "2010 broadcast clip with repeated racial slur played; leads to her leaving the show"
+      "at": "01:10:36",
+      "note": "Guest says her advice that wives owe husbands sex amounts to endorsing marital rape"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:45:28",
+      "note": "Mentor's claim that she threatened to kill herself if kept off the radio"
     }
   ],
   "notes": "Subject still active at release, so main_span end is null; main_span starts with her 1975 entry into radio. Transcript calls her doctorate kinesiology; it is generally given as physiology (Columbia, 1974). Host also slips once and names the first book as about men. misogyny-manosphere is an imperfect fit for her anti-feminist advice; no theme for advice/talk-show culture beyond propaganda-media and wellness-self-help."

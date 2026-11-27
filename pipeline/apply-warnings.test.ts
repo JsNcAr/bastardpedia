@@ -1,7 +1,7 @@
 // @vitest-environment node
 import { describe, expect, it } from 'vitest';
 import type { StoryTags } from '../shared/schemas/story-tags.ts';
-import { mergeWarnings, spliceKeys } from './apply-warnings.ts';
+import { keptByRule, mergeWarnings, spliceKeys } from './apply-warnings.ts';
 import { clusters, spread } from './warnings-packet.ts';
 
 const order = [
@@ -87,5 +87,59 @@ describe('spliceKeys', () => {
     expect(out).toBe(
       '{\n  "a": { "x": 1 },\n  "w": ["r"],\n  "m": ["s"],\n  "n": "say \\"hi\\" [x]",\n  "e": [{"k":2}]\n}\n',
     );
+  });
+});
+
+describe('keptByRule', () => {
+  const r = (detailed: string[], mentions: string[]) => ({
+    story_id: 's',
+    detailed,
+    mentions,
+    evidence: [],
+  });
+  it('keeps a strict warning the re-check dropped, as a mention', () => {
+    const rec = { content_warnings: ['suicide-self-harm', 'graphic-violence'] };
+    expect(keptByRule(rec, r([], []), strict)).toEqual(['suicide-self-harm']);
+    const out = mergeWarnings({ ...record, ...rec }, r([], []), order, strict);
+    expect(out.content_warnings).toEqual(['graphic-violence']);
+    expect(out.content_mentions).toEqual(['suicide-self-harm']);
+  });
+  it('lets child-abuse give way to child-sexual-abuse, and allows downgrades', () => {
+    const rec = { content_warnings: ['child-abuse', 'suicide-self-harm'] };
+    expect(keptByRule(rec, r(['child-sexual-abuse'], ['suicide-self-harm']), strict)).toEqual([]);
+  });
+});
+
+describe('warnings cap', () => {
+  it('moves the last strict warnings to mentions past six detailed ones', () => {
+    const big = [
+      'sexual-violence',
+      'child-sexual-abuse',
+      'child-abuse',
+      'graphic-violence',
+      'suicide-self-harm',
+      'torture',
+      'mass-atrocity',
+    ];
+    const out = mergeWarnings(
+      { ...record, content_warnings: ['graphic-violence', 'torture', 'mass-atrocity'] },
+      {
+        story_id: 's',
+        detailed: ['sexual-violence', 'child-sexual-abuse', 'child-abuse', 'suicide-self-harm'],
+        mentions: [],
+        evidence: [],
+      },
+      big,
+      strict,
+    );
+    expect(out.content_warnings).toEqual([
+      'sexual-violence',
+      'child-sexual-abuse',
+      'child-abuse',
+      'graphic-violence',
+      'torture',
+      'mass-atrocity',
+    ]);
+    expect(out.content_mentions).toEqual(['suicide-self-harm']);
   });
 });

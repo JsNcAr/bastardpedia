@@ -54,6 +54,7 @@
   },
   "summary": "Missouri-born radio host Rush Limbaugh rose from DJ jobs to national conservative talk radio in 1988, spending three decades spreading racist, misogynist and anti-gay attacks and conspiracy theories that reshaped the Republican right.",
   "content_warnings": ["hate-speech"],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "EIB Network",
     "Dittoheads",
@@ -75,18 +76,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:11:36", "note": "Born in Cape Girardeau, Missouri, January 1951" },
-    { "facet": "time", "part": 1, "at": "00:53:03", "note": "Hired at KFBK Sacramento after Downey's firing; start of his right-wing persona" },
-    { "facet": "themes", "part": 1, "at": "01:14:35", "note": "AIDS Update segment mocking gay men dying in the epidemic" },
-    { "facet": "themes", "part": 2, "at": "00:10:03", "note": "Misogynist bits and the feminazi framing of women's groups" },
-    { "facet": "themes", "part": 2, "at": "00:25:13", "note": "TV show attacks Murphy Brown over single mothers and gay characters as family values" },
-    { "facet": "subjects", "part": 2, "at": "00:35:15", "note": "Ailes produces the TV show, framed as a test run for Fox News" },
-    { "facet": "themes", "part": 2, "at": "00:48:48", "note": "Opioid addiction, housekeeper informant in 2003, plea deal in 2006" },
-    { "facet": "themes", "part": 2, "at": "00:53:29", "note": "Long run of racist on-air remarks about Black people, athletes and Africa" },
-    { "facet": "themes", "part": 2, "at": "01:04:22", "note": "Courted by Bush, co-leads the 1994 Republican takeover of Congress" },
-    { "facet": "content_warnings", "part": 2, "at": "01:15:14", "note": "Racist parody song about Obama played in full, plus further slurs" },
-    { "facet": "time", "part": 2, "at": "01:25:51", "note": "Last show February 2021, death from lung cancer weeks later" },
-    { "facet": "themes", "part": 2, "at": "01:27:26", "note": "Neo-Nazi podcasters mourn him as the man who made their careers possible" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:11:36",
+      "note": "Born in Cape Girardeau, Missouri, January 1951"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:53:03",
+      "note": "Hired at KFBK Sacramento after Downey's firing; start of his right-wing persona"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:14:35",
+      "note": "AIDS Update segment mocking gay men dying in the epidemic"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:10:03",
+      "note": "Misogynist bits and the feminazi framing of women's groups"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:25:13",
+      "note": "TV show attacks Murphy Brown over single mothers and gay characters as family values"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:35:15",
+      "note": "Ailes produces the TV show, framed as a test run for Fox News"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:48:48",
+      "note": "Opioid addiction, housekeeper informant in 2003, plea deal in 2006"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:53:29",
+      "note": "Long run of racist on-air remarks about Black people, athletes and Africa"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:04:22",
+      "note": "Courted by Bush, co-leads the 1994 Republican takeover of Congress"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:25:51",
+      "note": "Last show February 2021, death from lung cancer weeks later"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:27:26",
+      "note": "Neo-Nazi podcasters mourn him as the man who made their careers possible"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "01:19:10",
+      "note": "Limbaugh both threatens and sexually harasses a woman on air"
+    }
   ],
   "notes": "Grandfather and father covered only as brief family background (1930s politics), so covered_span starts at Limbaugh's birth. main_span starts with the 1984 Sacramento job where his political persona began; national syndication followed in 1988. reaches_present for the post-death reactions up to release."
 }

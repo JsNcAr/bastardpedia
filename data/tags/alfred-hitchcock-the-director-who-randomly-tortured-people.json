@@ -42,6 +42,7 @@
   },
   "summary": "British-born film director Alfred Hitchcock, master of suspense, spent decades subjecting crew and friends to cruel pranks and his leading actresses to abuse, culminating in his obsessive control, harassment and alleged sexual assault of Tippi Hedren in Hollywood in the early 1960s.",
   "content_warnings": ["sexual-violence", "torture"],
+  "content_mentions": ["child-sexual-abuse", "child-abuse", "animal-cruelty"],
   "keywords": [
     "The Birds",
     "Marnie",
@@ -63,17 +64,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:02:05", "note": "birth in London, working-class greengrocer family, strict father" },
-    { "facet": "time", "part": 1, "at": "00:19:33", "note": "hired by an American studio's new London branch, start of film career" },
-    { "facet": "themes", "part": 1, "at": "00:25:43", "note": "long run of cruel pranks on assistants, crew and friends during British career" },
-    { "facet": "themes", "part": 1, "at": "00:32:55", "note": "crewman chained overnight and dosed with laxatives on a bet" },
-    { "facet": "themes", "part": 1, "at": "00:44:30", "note": "his wish to mould a controllable actress and quotes about tormenting women" },
-    { "facet": "themes", "part": 1, "at": "00:48:08", "note": "rough treatment of Madeleine Carroll and Janet Leigh on set" },
-    { "facet": "subjects", "part": 2, "at": "00:04:06", "note": "Hedren signed in 1961; surveillance and control of her life begins" },
-    { "facet": "themes", "part": 2, "at": "00:20:46", "note": "five days of live birds thrown at and tied to Hedren for The Birds" },
-    { "facet": "themes", "part": 2, "at": "00:31:14", "note": "sexual demands and Hedren's later assault allegation during Marnie" },
-    { "facet": "time", "part": 2, "at": "00:33:19", "note": "Hedren's 2017 statement after Weinstein; blackballing and his decline" },
-    { "facet": "time", "part": 2, "at": "00:39:58", "note": "late decline, lifetime Oscar and death in 1980" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:02:05",
+      "note": "birth in London, working-class greengrocer family, strict father"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:19:33",
+      "note": "hired by an American studio's new London branch, start of film career"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:25:43",
+      "note": "long run of cruel pranks on assistants, crew and friends during British career"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:32:55",
+      "note": "crewman chained overnight and dosed with laxatives on a bet"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:44:30",
+      "note": "his wish to mould a controllable actress and quotes about tormenting women"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:48:08",
+      "note": "rough treatment of Madeleine Carroll and Janet Leigh on set"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:04:06",
+      "note": "Hedren signed in 1961; surveillance and control of her life begins"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:20:46",
+      "note": "five days of live birds thrown at and tied to Hedren for The Birds"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:31:14",
+      "note": "sexual demands and Hedren's later assault allegation during Marnie"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:33:19",
+      "note": "Hedren's 2017 statement after Weinstein; blackballing and his decline"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:39:58",
+      "note": "late decline, lifetime Oscar and death in 1980"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:28:06",
+      "note": "Several minutes on Hitchcock's harassment and obsession with Tippi Hedren, including a forced rape scene"
+    }
   ],
   "notes": "misogyny-manosphere is used for Hitchcock's personal hostility toward women, which the theme (organized misogyny) does not quite fit; no theme exists for workplace abuse by a boss, so labor-exploitation stands in for the crew pranks. main_span runs from his entry into film (1920) to Marnie (1964), after which the story treats his career as broken. Hedren's later statements set reaches_present. Guest spelled Geith in the description; Gheith is the usual spelling."
 }

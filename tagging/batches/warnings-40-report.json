@@ -1,0 +1,132 @@
+[
+  {
+    "id": "the-goat-testicle-implanting-doctor-who-invented-talk-radio",
+    "before": {
+      "warnings": ["medical-horror"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["medical-horror"],
+      "mentions": ["suicide-self-harm", "animal-cruelty"]
+    },
+    "notes": "Incest scan hit at 1/00:05:17 is a joke about confusing family relations, dropped. Animal cruelty found outside the scan words (bear, goat castration)."
+  },
+  {
+    "id": "the-last-days-of-l-ron-hubbard",
+    "before": {
+      "warnings": ["suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["suicide-self-harm"],
+      "mentions": ["child-sexual-abuse"]
+    },
+    "notes": "Kept suicide detailed: Quentin's death plus a 00:09 to 00:15 run of suicide jokes in part 2. The false-accusation smear involves a child, so filed as child-sexual-abuse mention. 'Rapist' at 2/00:52:30 is a mistranscription, dropped."
+  },
+  {
+    "id": "bashar-al-assad-the-eye-doctor-who-murdered-a-nation",
+    "before": {
+      "warnings": [
+        "torture",
+        "mass-atrocity",
+        "graphic-violence",
+        "child-death",
+        "suicide-self-harm"
+      ],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "graphic-violence", "torture", "mass-atrocity"],
+      "mentions": ["sexual-violence", "child-abuse", "suicide-self-harm"]
+    },
+    "notes": "Suicide moved from detailed to mentioned: every hit is brief (al-Zoubi in his cell, Hitler, suicide bombers). Child-abuse added from a transcript search beyond the scan words (torture of children by the regime). 'Groomed' at 1/00:45:25 means a successor, dropped."
+  },
+  {
+    "id": "gary-young-the-fake-doctor-who-drowned-his-own-baby",
+    "before": {
+      "warnings": ["child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death"],
+      "mentions": ["child-abuse", "suicide-self-harm"]
+    },
+    "notes": "Child-abuse is a judgement call: the baby's death is reckless parental endangerment (already child-death) plus a brief aside on teen camps. Cat poisoned by accident via a diffuser at 2/00:42:49 is not deliberate, dropped."
+  },
+  {
+    "id": "jacob-wohl-is-still-the-dumbest-person-in-politics",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "The 00:27 to 00:34 run is several minutes on fabricated assault allegations, not an account of assault; kept as a mention, reviewer may prefer detailed."
+  },
+  {
+    "id": "the-payday-loan-industry-is-bastards-all-the-way-down",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    }
+  },
+  {
+    "id": "the-qanon-book-a-half-a-sed-bagel-tossing-review",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse"],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    },
+    "notes": "Child sexual abuse is the book's central conspiracy and recurs through part 1 (00:18 to 00:50)."
+  },
+  {
+    "id": "the-complete-insane-history-of-american-border-militias",
+    "before": {
+      "warnings": ["graphic-violence", "child-death", "hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [
+        "sexual-violence",
+        "child-sexual-abuse",
+        "child-death",
+        "graphic-violence",
+        "hate-speech"
+      ],
+      "mentions": ["suicide-self-harm", "animal-cruelty"]
+    },
+    "notes": "Sexual violence detailed on the 00:27 to 00:30 rape tree run; reviewer may judge it a mention. Cockfighting hit is a one-line joke but kept as a mention."
+  },
+  {
+    "id": "the-woman-who-invented-adoption-by-stealing-thousands-of-babies",
+    "before": {
+      "warnings": ["child-abuse", "child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse", "child-abuse", "child-death"],
+      "mentions": []
+    },
+    "notes": "Every sexual-violence hit concerns children, so all moved to child-sexual-abuse and none listed as sexual-violence. Child-abuse kept detailed (theme; neglect and deaths in her homes run through the story)."
+  },
+  {
+    "id": "the-mueller-report-episode",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  }
+]

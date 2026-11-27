@@ -1,0 +1,129 @@
+[
+  {
+    "id": "excited-delirium-how-cops-invented-a-disease",
+    "before": {
+      "warnings": ["graphic-violence", "medical-horror"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "medical-horror"],
+      "mentions": []
+    },
+    "notes": "Scan found no candidates for any strict warning; the story is about deaths in police custody, covered by its existing non-strict warnings."
+  },
+  {
+    "id": "the-male-doctor-who-redesigned-vaginas",
+    "before": {
+      "warnings": ["medical-horror", "sexual-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "medical-horror"],
+      "mentions": ["child-sexual-abuse"]
+    }
+  },
+  {
+    "id": "dr-oz-why-america-s-doctor-is-a-bastard",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence"]
+    }
+  },
+  {
+    "id": "the-conspiracy-to-begin-all-conspiracies",
+    "before": {
+      "warnings": ["hate-speech", "mass-atrocity"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["mass-atrocity", "hate-speech"],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Child sexual abuse is only as a conspiracy-theory claim (QAnon), not a real case; kept as a mention per the doubt rule."
+  },
+  {
+    "id": "kellogg-the-great-american-cum-doctor",
+    "before": {
+      "warnings": ["child-abuse", "medical-horror"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse", "child-abuse", "medical-horror"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Sexual-violence candidates all concern children, so they sit under child-sexual-abuse. Genital mutilation of children (summary) also supports both child warnings."
+  },
+  {
+    "id": "the-king-of-con-artists-victor-lustig",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "Both are single throwaway remarks in the intro and outro, kept as mentions per the doubt rule."
+  },
+  {
+    "id": "the-family-that-stole-malaysia",
+    "before": {
+      "warnings": [
+        "child-abuse",
+        "mass-atrocity",
+        "graphic-violence",
+        "suicide-self-harm",
+        "hate-speech"
+      ],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [
+        "child-sexual-abuse",
+        "graphic-violence",
+        "mass-atrocity",
+        "suicide-self-harm",
+        "hate-speech"
+      ],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "Old child-abuse warning was the sexual abuse of boys, so it becomes child-sexual-abuse. Suicide kept detailed for the vivid gunpowder scene; could be a mention."
+  },
+  {
+    "id": "ram-nazi-fight-club",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": ["sexual-violence"]
+    }
+  },
+  {
+    "id": "the-rush-limbaugh-episodes-with-paul-f-tompkins",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": ["sexual-violence"]
+    }
+  },
+  {
+    "id": "how-the-u-s-a-murdered-panama-with-chelsea-manning",
+    "before": {
+      "warnings": ["mass-atrocity", "medical-horror", "hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["mass-atrocity", "medical-horror", "hate-speech"],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    }
+  }
+]

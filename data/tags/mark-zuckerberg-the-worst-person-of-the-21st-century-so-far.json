@@ -40,9 +40,7 @@
       "role": "secondary"
     }
   ],
-  "roles": [
-    "tech-founder"
-  ],
+  "roles": ["tech-founder"],
   "themes": {
     "primary": "tech-internet",
     "secondary": [
@@ -54,15 +52,8 @@
     ]
   },
   "regions": {
-    "origin": [
-      "US"
-    ],
-    "setting": [
-      "MM",
-      "US",
-      "LK",
-      "IN"
-    ],
+    "origin": ["US"],
+    "setting": ["MM", "US", "LK", "IN"],
     "subdivisions": [],
     "polities": [],
     "scope": "global"
@@ -80,9 +71,8 @@
     "approximate": false
   },
   "summary": "Facebook founder Mark Zuckerberg, from Facemash at Harvard to a global platform, cheated early partners, disregarded user privacy and expanded into countries like Myanmar where Facebook fueled ethnic violence.",
-  "content_warnings": [
-    "mass-atrocity"
-  ],
+  "content_warnings": ["mass-atrocity"],
+  "content_mentions": ["sexual-violence", "animal-cruelty"],
   "keywords": [
     "Facemash",
     "The Accidental Billionaires",
@@ -95,10 +85,7 @@
     "Rohingya",
     "move fast and break things"
   ],
-  "guests": [
-    "Jamie Loftus",
-    "Maggie Mae Fish"
-  ],
+  "guests": ["Jamie Loftus", "Maggie Mae Fish"],
   "confidence": {
     "subjects": "high",
     "roles": "high",

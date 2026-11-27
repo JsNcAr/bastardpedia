@@ -53,7 +53,8 @@
     "approximate": false
   },
   "summary": "Montenegrin-born psychiatrist and poet Radovan Karadžić led the Bosnian Serbs during the 1992-95 war, directing the siege of Sarajevo and the Srebrenica genocide, then hid in Belgrade as a New Age healer until his 2008 arrest.",
-  "content_warnings": ["mass-atrocity", "graphic-violence", "torture"],
+  "content_warnings": ["graphic-violence", "torture", "mass-atrocity"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse", "child-abuse", "suicide-self-harm"],
   "keywords": [
     "Siege of Sarajevo",
     "Srebrenica massacre",
@@ -134,6 +135,18 @@
       "part": 2,
       "at": "01:11:13",
       "note": "2008 arrest, Hague trial, 2016 conviction for genocide; end of main span"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:32:55",
+      "note": "Widespread rape of Bosniak women listed among documented atrocities"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:37:26",
+      "note": "Prisoners raped in Bosnian Serb camps, in a list of war crimes"
     }
   ],
   "notes": "Opening ~25 min of Part 1 (Ottoman rule, WWI, Ustase/Chetniks, father's 1930s killing of a cousin) treated as background, so covered starts at birth; reviewer may extend to ~1930s. Host says Mladic died weeks before recording (2026); I could not confirm, end year follows transcript. Host gives the 2016 40-year sentence and omits the later appeal to life. Fascism-far-right used for Serb ethno-nationalism; no specific theme for it."

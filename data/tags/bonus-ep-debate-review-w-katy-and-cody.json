@@ -58,6 +58,7 @@
   },
   "summary": "Robert Evans, Katy Stoll and Cody Johnston review the June 2019 Democratic primary debates, criticising the crowded format and moderators, Kamala Harris's busing challenge to Joe Biden, Elizabeth Warren's showing and the candidates' gun and immigration positions.",
   "content_warnings": [],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Worst Year Ever",
     "2020 Democratic primaries",
@@ -79,13 +80,60 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "format", "part": 1, "at": "00:00:00", "note": "Host frames the episode as prep for the hosts' upcoming election podcast, not a bastard story" },
-    { "facet": "themes", "part": 1, "at": "00:05:08", "note": "Extended criticism of the networks, five moderators and soundbite format" },
-    { "facet": "subjects", "part": 1, "at": "00:18:41", "note": "Long segment on Harris confronting Biden over his busing record" },
-    { "facet": "subjects", "part": 1, "at": "00:27:26", "note": "Several minutes on Warren's plans, answers and campaign positions" },
-    { "facet": "themes", "part": 1, "at": "00:38:15", "note": "Gun control rant: assault weapons focus, suicides, Heller, Switzerland comparison" },
-    { "facet": "themes", "part": 1, "at": "00:44:01", "note": "Immigration discussion: US role in Latin America, need for immigrant labor, borders" },
-    { "facet": "themes", "part": 1, "at": "00:49:20", "note": "Hosts note only Biden raised white supremacy; Warren's domestic terrorism plans" }
+    {
+      "facet": "format",
+      "part": 1,
+      "at": "00:00:00",
+      "note": "Host frames the episode as prep for the hosts' upcoming election podcast, not a bastard story"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:05:08",
+      "note": "Extended criticism of the networks, five moderators and soundbite format"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:18:41",
+      "note": "Long segment on Harris confronting Biden over his busing record"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:27:26",
+      "note": "Several minutes on Warren's plans, answers and campaign positions"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:38:15",
+      "note": "Gun control rant: assault weapons focus, suicides, Heller, Switzerland comparison"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:44:01",
+      "note": "Immigration discussion: US role in Latin America, need for immigrant labor, borders"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:49:20",
+      "note": "Hosts note only Biden raised white supremacy; Warren's domestic terrorism plans"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:39:50",
+      "note": "Hosts note most US gun deaths are suicides during the gun policy discussion"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:41:24",
+      "note": "Brief follow-up on gun suicide as an unaddressed problem"
+    }
   ],
   "notes": "Pilot for the hosts' election podcast (later Worst Year Ever), framed on air as not a BtB episode, so crossover over current-affairs, matching the second-debate record. Miami/NBC venue omitted as not stated. weapons-arms-trade is the closest fit for gun policy debate; no gun-policy theme exists. Climate and big-tech moderation segments were short, left out."
 }

@@ -1,0 +1,129 @@
+[
+  {
+    "id": "don-simpson-the-producer-of-top-gun-also-ruined-hollywood",
+    "before": {
+      "warnings": ["drug-use", "sexual-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-abuse", "drug-use"],
+      "mentions": ["child-sexual-abuse"]
+    },
+    "notes": "Scan found almost nothing for sexual violence; evidence comes from reading the transcript (part 2, 00:44-00:47 and the 00:52 harassment lawsuit). Child abuse is a recurring thread in part 1 (00:09-00:11, 00:17-00:19, 00:28); detailed is a judgment call."
+  },
+  {
+    "id": "dennis-hastert-the-longest-serving-republican-speaker-of-the-house",
+    "before": {
+      "warnings": ["child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse"],
+      "mentions": ["child-abuse"]
+    },
+    "notes": "Old child-abuse warning becomes child-sexual-abuse. All sexual-violence hits involve minors, so none listed. The child-abuse mention is only a law's name plus a child kidnapping; reviewer may drop it. Theme child-abuse probably should be sexual-abuse."
+  },
+  {
+    "id": "peter-rachman-king-of-the-slumlords",
+    "before": {
+      "warnings": ["mass-atrocity"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["mass-atrocity"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm", "animal-cruelty"]
+    },
+    "notes": "Mandy Rice-Davies passage runs about 00:36:56-00:39:45 in part 2; mention seemed right but it is about three minutes. Part 1 (00:45-00:49) discusses his ties to sex workers and rent, not coercion, so no sexual-violence."
+  },
+  {
+    "id": "how-nuisance-streamers-and-rage-baiting-ate-the-internet",
+    "before": {
+      "warnings": ["hate-speech", "sexual-violence", "suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "hate-speech"],
+      "mentions": ["child-abuse", "suicide-self-harm"]
+    },
+    "notes": "Suicide was a full warning; I lowered it to a mention. The Logan Paul passage (part 2, 00:48-00:49) names the hanging method briefly, so a reviewer may want detailed. The 'shot himself' lines in part 1 are an accidental self-shooting, not suicide."
+  },
+  {
+    "id": "heinrich-schliemann-the-archaeologist-who-destroyed-troy",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["child-sexual-abuse", "child-abuse"]
+    },
+    "notes": "Child marriage is child-sexual-abuse under 0.8.0; the theme child-abuse probably reflects this. The only child-abuse hit is the intro reference to other episodes; kept as a mention per the when-in-doubt rule, reviewer may drop it."
+  },
+  {
+    "id": "martin-niemoller-the-author-of-first-they-came-was-a-murderous-fascist",
+    "before": {
+      "warnings": ["graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence"],
+      "mentions": ["child-abuse", "suicide-self-harm"]
+    },
+    "notes": "Dropped the one sexual-violence hit (part 2, 00:59:40): it reads as a transcription error in a discussion of his Nazi support, with no rape in the story."
+  },
+  {
+    "id": "radovan-karadzic-the-genocidal-dictator-who-became-a-new-age-guru",
+    "before": {
+      "warnings": ["mass-atrocity", "graphic-violence", "torture"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "torture", "mass-atrocity"],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "child-abuse", "suicide-self-harm"]
+    },
+    "notes": "Dropped the incest run (part 1, 00:33-00:37): the father courted an adult fifth cousin and shot her, so no minor is involved. The rape passages are short lines inside a longer atrocity section."
+  },
+  {
+    "id": "francis-galton-inventor-of-eugenics",
+    "before": {
+      "warnings": ["hate-speech", "slavery", "sexual-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "slavery", "hate-speech"],
+      "mentions": ["animal-cruelty"]
+    },
+    "notes": "The 'molest' hits under child-sexual-abuse concern adult women, so they count as sexual violence; the incest case in part 3 is adult siblings. The monkeys died of neglect, not deliberate harm; kept as a mention. The suicide hit is Speke's accidental shooting and was dropped."
+  },
+  {
+    "id": "the-websites-behind-an-international-rapist-network",
+    "before": {
+      "warnings": ["sexual-violence", "child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-sexual-abuse"],
+      "mentions": ["child-abuse", "suicide-self-harm"]
+    },
+    "notes": "Old child-abuse warning split: the child material here is mostly sexual (CSAM on Coco, Todd, Pelicot's childhood, photos of his daughter asleep), so child-sexual-abuse is detailed; physical child abuse is only his father's violence, a mention."
+  },
+  {
+    "id": "francisco-solano-lopez-the-worst-military-leader-in-human-history",
+    "before": {
+      "warnings": ["mass-atrocity", "child-death", "torture", "graphic-violence", "slavery"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [
+        "child-abuse",
+        "child-death",
+        "slavery",
+        "graphic-violence",
+        "torture",
+        "mass-atrocity"
+      ],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Child-abuse detailed is for the child soldiers Lopez sacrificed (part 2, 00:42-00:59), counted as institutional cruelty to children; it overlaps child-death. The suicide mention is only figurative. 'Groomed for power' in part 1 is another sense and was dropped."
+  }
+]

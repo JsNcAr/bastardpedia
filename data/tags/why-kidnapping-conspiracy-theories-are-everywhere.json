@@ -59,6 +59,7 @@
   },
   "summary": "How viral hoaxes about kidnappers and sex traffickers marking cars spread on US social media, traced back through chain letters, and how the fear they feed led to the 2023 killing of an Uber driver in El Paso and to false accusations.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "Daniel Piedra Garcia",
     "El Paso",
@@ -80,15 +81,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "subjects", "part": 1, "at": "00:05:47", "note": "June 2023 El Paso Uber shooting by Copas opens the story" },
-    { "facet": "themes", "part": 1, "at": "00:23:17", "note": "Century-long US panic over the Mexican border and polling on invasion fears" },
-    { "facet": "time", "part": 1, "at": "00:29:31", "note": "Host dates the modern car-marking kidnapping panic to 2015 Facebook rumors" },
-    { "facet": "regions", "part": 1, "at": "00:43:27", "note": "8th-century Japanese empress prints a million charms for pagodas as chain-letter precursor" },
-    { "facet": "time", "part": 1, "at": "00:50:29", "note": "1888 letter cited as earliest known chain letter, start of covered history" },
-    { "facet": "regions", "part": 1, "at": "00:53:23", "note": "Bishop of Bedford's London chain letter during the Ripper murders goes viral" },
-    { "facet": "subjects", "part": 2, "at": "00:07:02", "note": "Sorensen's fake Michaels kidnapping story and her later conviction" },
-    { "facet": "themes", "part": 2, "at": "00:30:23", "note": "Local radio and iHeart SEO articles amplify kidnapping hoaxes" },
-    { "facet": "themes", "part": 2, "at": "00:53:42", "note": "AI voice-cloning virtual kidnapping scams and elder fraud statistics" }
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:05:47",
+      "note": "June 2023 El Paso Uber shooting by Copas opens the story"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:23:17",
+      "note": "Century-long US panic over the Mexican border and polling on invasion fears"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:29:31",
+      "note": "Host dates the modern car-marking kidnapping panic to 2015 Facebook rumors"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:43:27",
+      "note": "8th-century Japanese empress prints a million charms for pagodas as chain-letter precursor"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:50:29",
+      "note": "1888 letter cited as earliest known chain letter, start of covered history"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:53:23",
+      "note": "Bishop of Bedford's London chain letter during the Ripper murders goes viral"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:07:02",
+      "note": "Sorensen's fake Michaels kidnapping story and her later conviction"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:30:23",
+      "note": "Local radio and iHeart SEO articles amplify kidnapping hoaxes"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:53:42",
+      "note": "AI voice-cloning virtual kidnapping scams and elder fraud statistics"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "01:08:00",
+      "note": "How real adult sex trafficking usually happens, by partners or family"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:20:56",
+      "note": "The rose-on-car sex trafficking hoax from Kentucky, with host jokes"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "01:07:27",
+      "note": "Real child trafficking is usually a parent or guardian selling the child"
+    }
   ],
   "notes": "Survey of a modern panic rather than a biography; Copas and Sorensen given floruit since exact birth years are not stated (Copas was 48 in 2023). The covered span starts at 1888; the Book of the Dead and the Japanese pagoda charms are brief precursors and were treated as comparisons, though JP keeps a setting slot for its few minutes. No content warning: the shooting is described only briefly."
 }

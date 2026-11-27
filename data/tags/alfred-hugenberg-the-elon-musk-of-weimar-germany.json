@@ -66,6 +66,7 @@
   },
   "summary": "German industrialist Alfred Hugenberg ran Krupp before the First World War, built a right-wing press empire that pushed endless war and the stab-in-the-back lie, led the nationalist DNVP and in 1933 helped make Hitler chancellor, briefly serving as his economics minister.",
   "content_warnings": ["mass-atrocity"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Posen",
     "Kornwalzer affair",
@@ -118,12 +119,6 @@
       "note": "Krupp arms-race sales tactics and the Kornwalzer bribery scandal implicating him"
     },
     {
-      "facet": "content_warnings",
-      "part": 2,
-      "at": "00:02:59",
-      "note": "account of the Herero genocide in Namibia, massacres and poisoned wells, as his model for Africa"
-    },
-    {
       "facet": "themes",
       "part": 2,
       "at": "00:09:21",
@@ -158,6 +153,12 @@
       "part": 2,
       "at": "01:12:06",
       "note": "forced out in June 1933; retires to his estate, arrested in 1949, dies March 1951"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "01:12:36",
+      "note": "Passing reference to Hitler shooting himself in the bunker"
     }
   ],
   "notes": "Primary theme is a close call between propaganda-media (the press empire runs 1913-1933 across both parts) and nazism (the description pitches him as Hitler's enabler); nazism kept secondary. The host places the Hitler negotiations in late 1933, but the chancellorship deal was January 1933. Herero genocide is an illustrative segment of his colonial aims, so NA is not in the setting. Elon Musk comparisons are modern asides, not legacy."

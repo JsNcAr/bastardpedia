@@ -64,6 +64,7 @@
   },
   "summary": "A survey of the German generals, conservative politicians, judges, police, journalists, industrialists and Communists who, without being Nazis themselves, smoothed Hitler's path to power in Weimar Germany between 1918 and 1933.",
   "content_warnings": ["suicide-self-harm"],
+  "content_mentions": [],
   "keywords": [
     "stab-in-the-back myth",
     "Beer Hall Putsch",
@@ -132,6 +133,18 @@
       "part": 1,
       "at": "01:22:00",
       "note": "narrative ends with Hitler's appointment, the Enabling Act and Reichstag Fire Decree"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:44:22",
+      "note": "Hitler's suicide attempt after the putsch, stopped by Helene Hanfstaengl; discussed for several minutes"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:57:27",
+      "note": "A concentration camp prisoner's later suicide at Dachau"
     },
     {
       "facet": "content_warnings",

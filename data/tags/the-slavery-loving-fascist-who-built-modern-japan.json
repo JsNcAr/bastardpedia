@@ -43,10 +43,7 @@
       "role": "secondary"
     }
   ],
-  "roles": [
-    "politician-official",
-    "colonial-administrator"
-  ],
+  "roles": ["politician-official", "colonial-administrator"],
   "themes": {
     "primary": "fascism-far-right",
     "secondary": [
@@ -60,18 +57,10 @@
     ]
   },
   "regions": {
-    "origin": [
-      "JP"
-    ],
-    "setting": [
-      "CN",
-      "JP",
-      "KR"
-    ],
+    "origin": ["JP"],
+    "setting": ["CN", "JP", "KR"],
     "subdivisions": [],
-    "polities": [
-      "empire-of-japan"
-    ],
+    "polities": ["empire-of-japan"],
     "scope": "international"
   },
   "time": {
@@ -88,12 +77,13 @@
   },
   "summary": "Japanese bureaucrat Nobusuke Kishi ran a forced-labor war economy in occupied Manchuria and Japan's wartime munitions, escaped war-crimes trial, then built the Liberal Democratic Party with CIA money and served as prime minister from 1957 to 1960.",
   "content_warnings": [
-    "slavery",
     "sexual-violence",
-    "child-abuse",
-    "torture",
-    "graphic-violence"
+    "child-sexual-abuse",
+    "slavery",
+    "graphic-violence",
+    "torture"
   ],
+  "content_mentions": ["child-abuse", "suicide-self-harm", "animal-cruelty"],
   "keywords": [
     "Mukden Incident",
     "comfort women",
@@ -106,9 +96,7 @@
     "Unification Church",
     "Lockheed bribery"
   ],
-  "guests": [
-    "Mia Wong"
-  ],
+  "guests": ["Mia Wong"],
   "confidence": {
     "subjects": "high",
     "roles": "medium",
@@ -174,8 +162,20 @@
     {
       "facet": "content_warnings",
       "part": 2,
-      "at": "00:14:02",
-      "note": "detailed testimony of a girl abducted at 13, raped and tortured for years"
+      "at": "00:06:53",
+      "note": "Extended section on the military sexual slavery system and mass rapes, including Nanjing"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:13:31",
+      "note": "Long, graphic UN testimony of a Korean girl abducted and raped as a child"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:25:00",
+      "note": "Brief note that women and children in the stations were made addicted to opium"
     }
   ],
   "notes": "Transcript calls the narrator Christopher Wong; descriptions say Mia Wong (same person), so Mia Wong is used. Birth and death years not stated outright; filled from knowledge. child-abuse added for the comfort women segment (victims as young as 11); drugs (Yakuza opium trade, meth for forced laborers) and intelligence-covert-ops (G-2, CIA funding of the LDP) each get real segments. main_span starts at the 1936 Manchukuo posting."

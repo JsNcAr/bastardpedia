@@ -56,6 +56,7 @@
   },
   "summary": "A reading of Unintended Consequences, a 1996 gun-rights novel by Missouri concealed-carry advocate John Ross that strings real US history into a case for an armed revolt against the ATF and became a staple of 1990s and 2000s gun-show culture.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Henry Bowman",
     "Accurate Press",
@@ -77,16 +78,72 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "subjects", "part": 1, "at": "00:04:18", "note": "Ross introduced: Missouri congressional candidate, self-described pre-Roosevelt Democrat" },
-    { "facet": "roles", "part": 1, "at": "00:12:30", "note": "Ross described as a leading concealed-carry advocate in Missouri" },
-    { "facet": "themes", "part": 1, "at": "00:03:15", "note": "book framed as gun-confiscation civil war fantasy rooted in Ruby Ridge and the militia movement" },
-    { "facet": "subjects", "part": 1, "at": "00:15:42", "note": "novel's opening hinges on the 1938-39 Miller sawed-off shotgun case, discussed at length" },
-    { "facet": "time", "part": 1, "at": "00:22:25", "note": "novel opens its history in 1906 with exhibition shooting and early gun culture" },
-    { "facet": "subjects", "part": 1, "at": "00:25:31", "note": "1932 Bonus Army crackdown and Smedley Butler as characters, long discussion" },
-    { "facet": "themes", "part": 1, "at": "00:34:21", "note": "McVeigh, Oklahoma City and how different books radicalize to different violence" },
-    { "facet": "themes", "part": 1, "at": "00:44:20", "note": "novel juxtaposes Kristallnacht deportations with the Miller court case" },
-    { "facet": "themes", "part": 1, "at": "00:53:10", "note": "hosts assess the book as effective, polished radicalizing propaganda" },
-    { "facet": "themes", "part": 1, "at": "00:56:21", "note": "Matt Bracken's similar insurgency novels compared" }
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:04:18",
+      "note": "Ross introduced: Missouri congressional candidate, self-described pre-Roosevelt Democrat"
+    },
+    {
+      "facet": "roles",
+      "part": 1,
+      "at": "00:12:30",
+      "note": "Ross described as a leading concealed-carry advocate in Missouri"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:03:15",
+      "note": "book framed as gun-confiscation civil war fantasy rooted in Ruby Ridge and the militia movement"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:15:42",
+      "note": "novel's opening hinges on the 1938-39 Miller sawed-off shotgun case, discussed at length"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:22:25",
+      "note": "novel opens its history in 1906 with exhibition shooting and early gun culture"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:25:31",
+      "note": "1932 Bonus Army crackdown and Smedley Butler as characters, long discussion"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:34:21",
+      "note": "McVeigh, Oklahoma City and how different books radicalize to different violence"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:44:20",
+      "note": "novel juxtaposes Kristallnacht deportations with the Miller court case"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:53:10",
+      "note": "hosts assess the book as effective, polished radicalizing propaganda"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:56:21",
+      "note": "Matt Bracken's similar insurgency novels compared"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:59:59",
+      "note": "Passing aside about a congressman who left office over sexual harassment"
+    }
   ],
   "notes": "Primary theme weapons-arms-trade stands in for gun culture and gun-rights politics; no dedicated gun-politics theme exists. Ross's 1957 birth year is from general knowledge, not the packet. Covered span follows the novel's historical chapters read on air (1906 to WWII) through its 1996 publication; Warsaw Ghetto and Dachau material is brief, so DE/PL and nazism are left out. Only the first ~90 pages are read."
 }

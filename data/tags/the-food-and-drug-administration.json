@@ -56,6 +56,7 @@
   },
   "summary": "History of the US Food and Drug Administration, from the poisoned milk and adulterated food that led to the 1906 Pure Food and Drug Act to an agency funded by drug-maker fees that approved Vioxx and broad opioid use.",
   "content_warnings": ["child-death", "drug-use"],
+  "content_mentions": [],
   "keywords": [
     "Pure Food and Drug Act",
     "Poison Squad",
@@ -88,12 +89,6 @@
       "part": 1,
       "at": "00:33:52",
       "note": "Wiley's chemistry division and its 1902 human toxicity trials; his food work began 1881"
-    },
-    {
-      "facet": "content_warnings",
-      "part": 1,
-      "at": "00:17:12",
-      "note": "infant deaths from formaldehyde-dosed and contaminated milk in Indianapolis and New York"
     },
     {
       "facet": "regions",
@@ -138,16 +133,22 @@
       "note": "agency's role in the opioid crisis, including the 2019 Oklahoma ruling"
     },
     {
-      "facet": "content_warnings",
-      "part": 2,
-      "at": "00:35:25",
-      "note": "hosts discuss their own past opioid use and addiction at length"
-    },
-    {
       "facet": "time",
       "part": 2,
       "at": "00:50:37",
       "note": "revolving door to industry traced to recent departures of agency staff"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:17:12",
+      "note": "infant deaths from formaldehyde-dosed and contaminated milk in Indianapolis and New York"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:35:25",
+      "note": "hosts discuss their own past opioid use and addiction at length"
     }
   ],
   "notes": "Transcript says the FDA was established by the 1938 act; historically the name dates to 1930, with the agency descending from the 1906 law. Napoleonic canning and British adulteration treated as background. Frances Kelsey and thalidomide get a short segment and sit in keywords. Covered end 2021 approximate, from the latest cited reporting."

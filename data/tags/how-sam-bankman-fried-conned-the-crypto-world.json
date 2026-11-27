@@ -52,6 +52,7 @@
   },
   "summary": "American crypto entrepreneur Sam Bankman-Fried used effective-altruism branding, celebrity ads and friendly press to build the FTX exchange and Alameda Research, which collapsed in 2022 after customer funds were misused.",
   "content_warnings": [],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Caroline Ellison",
     "William MacAskill",
@@ -73,16 +74,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:14:03", "note": "Birth in 1992 on the Stanford campus and his professor parents" },
-    { "facet": "subjects", "part": 1, "at": "00:31:27", "note": "Meets MacAskill at MIT and adopts effective altruism and earn-to-give" },
-    { "facet": "time", "part": 1, "at": "00:46:40", "note": "Leaves Jane Street in 2017 to trade crypto, start of the main events" },
-    { "facet": "subjects", "part": 1, "at": "00:53:31", "note": "Founds Alameda with EA colleagues after the Asian bitcoin arbitrage" },
-    { "facet": "subjects", "part": 1, "at": "01:03:22", "note": "Launches FTX in 2019 with Alameda trading profits" },
-    { "facet": "regions", "part": 1, "at": "01:12:41", "note": "Company moves to Hong Kong and then the Bahamas, buys a mansion there" },
-    { "facet": "themes", "part": 1, "at": "01:23:34", "note": "Long segment mocking the Sequoia puff piece and the pitch that won investors" },
-    { "facet": "themes", "part": 1, "at": "01:27:18", "note": "Arena naming rights, athlete ads and sponsorships used to build confidence" },
-    { "facet": "time", "part": 1, "at": "01:30:56", "note": "Bankruptcy filing and the new CEO's verdict on the missing controls in 2022" },
-    { "facet": "themes", "part": 1, "at": "01:35:34", "note": "Large donations to both parties to shape crypto regulation" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:14:03",
+      "note": "Birth in 1992 on the Stanford campus and his professor parents"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:31:27",
+      "note": "Meets MacAskill at MIT and adopts effective altruism and earn-to-give"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:46:40",
+      "note": "Leaves Jane Street in 2017 to trade crypto, start of the main events"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:53:31",
+      "note": "Founds Alameda with EA colleagues after the Asian bitcoin arbitrage"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:03:22",
+      "note": "Launches FTX in 2019 with Alameda trading profits"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:12:41",
+      "note": "Company moves to Hong Kong and then the Bahamas, buys a mansion there"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:23:34",
+      "note": "Long segment mocking the Sequoia puff piece and the pitch that won investors"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:27:18",
+      "note": "Arena naming rights, athlete ads and sponsorships used to build confidence"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:30:56",
+      "note": "Bankruptcy filing and the new CEO's verdict on the missing controls in 2022"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:35:34",
+      "note": "Large donations to both parties to shape crypto regulation"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:26:40",
+      "note": "Aside that a French film director studied in a class was a pedophile"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:29:23",
+      "note": "Aside about MIT students dying by suicide with nitrous oxide"
+    }
   ],
   "notes": "Recorded days after the November 2022 collapse, so it borders on current-affairs, but it tells his life story from birth, hence deep-dive. Bahamas listed first as the seat of FTX where the collapse happened; victims were worldwide. No theme for effective altruism or longtermism; tech-internet used for the Silicon Valley ideology angle."
 }

@@ -53,7 +53,8 @@
     "approximate": false
   },
   "summary": "Volkswagen, built on Nazi forced labour, ran a cattle ranch in the Brazilian Amazon from 1974 to 1986 where contractors held hundreds of workers in debt bondage under armed guard while clearing rainforest.",
-  "content_warnings": ["slavery", "torture", "graphic-violence", "child-death"],
+  "content_warnings": ["child-death", "slavery", "graphic-violence", "torture"],
+  "content_mentions": ["sexual-violence", "child-abuse"],
   "keywords": [
     "Fazenda Volkswagen",
     "Companhia Vale do Rio Cristalino",
@@ -86,12 +87,6 @@
       "part": 1,
       "at": "00:16:44",
       "note": "wartime Wolfsburg plant run largely on concentration camp and Eastern forced labour"
-    },
-    {
-      "facet": "content_warnings",
-      "part": 1,
-      "at": "00:22:03",
-      "note": "nursery for forced labourers' infants at Ruhen with near-total mortality"
     },
     {
       "facet": "themes",
@@ -130,16 +125,28 @@
       "note": "seventeen-year-olds lured with soccer promises and held at a forest labour camp"
     },
     {
-      "facet": "content_warnings",
-      "part": 2,
-      "at": "00:08:27",
-      "note": "workers strung up and beaten or hanged as punishment"
-    },
-    {
       "facet": "time",
       "part": 2,
       "at": "00:41:27",
       "note": "2019 reopened inquiry leads to a 2025 court ruling against Volkswagen"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:19:31",
+      "note": "A woman at a forced labor camp was raped after her husband escaped"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:19:31",
+      "note": "Children held in a forced labor camp; one died of neglect, one shot while fleeing"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:22:03",
+      "note": "nursery for forced labourers' infants at Ruhen with near-total mortality"
     }
   ],
   "notes": "Brazil's colonial slave trade (1520-1888) is a long host background segment and is left out of covered_span. Covered span starts with the Nazi-era origins (about a fifth of part one) and ends with the 2025 ruling. Rezende's birth year 1952 is from general knowledge, not the transcript. Liberation theology priest is a hero figure; organized-religion not applied."

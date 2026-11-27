@@ -63,6 +63,7 @@
   },
   "summary": "PR man George Shea turned the Nathan's Hot Dog Eating Contest on Coney Island into a televised sport through Major League Eating, using invented myths, jingoism against Japanese champion Takeru Kobayashi and a sidelined women's division to win publicity.",
   "content_warnings": [],
+  "content_mentions": ["suicide-self-harm", "animal-cruelty"],
   "keywords": [
     "Richard Shea",
     "Joey Chestnut",
@@ -131,6 +132,18 @@
       "part": 1,
       "at": "01:17:00",
       "note": "Shea still hosting the contest at release; Cameo video from 2021"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "01:26:31",
+      "note": "Figurative remark that a competitive eater is killing himself for our entertainment"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:28:16",
+      "note": "Brief reference to animal abuse in hot dog meat production"
     }
   ],
   "notes": "Reverse episode hosted by Jamie Loftus. Shea's birth year given as 1964 or 1965 (1964 used, approximate). Takeover year and Kobayashi arrest year are blanked in the transcript; early 1990s and 2010 from general knowledge. misogyny-manosphere is the closest fit for the gender-segregated women's division; there is no theme for workplace sex discrimination. Richard Shea is co-founder but has no segment of his own."

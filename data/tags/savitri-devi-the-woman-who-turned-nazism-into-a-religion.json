@@ -59,6 +59,7 @@
   },
   "summary": "Lyon-born Greek nationalist Savitri Devi embraced Nazism, promoted Hindu nationalism in British India, and after 1945 fused Hitler worship with Hindu cosmology into esoteric Hitlerism, a creed that still inspires neo-Nazi terror groups.",
   "content_warnings": ["animal-cruelty", "hate-speech"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Hitler's Priestess",
     "The Lightning and the Sun",
@@ -80,18 +81,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:13:12", "note": "born Maximiani Portas in Lyon in 1905" },
-    { "facet": "content_warnings", "part": 1, "at": "00:21:48", "note": "long segment on ritual cat torture in Belgium and France" },
-    { "facet": "regions", "part": 1, "at": "00:39:15", "note": "Greco-Turkish war and Smyrna shape her Greek nationalism" },
-    { "facet": "time", "part": 1, "at": "00:58:31", "note": "settles in Greece, Holy Land trip turns her antisemitic and Nazi" },
-    { "facet": "regions", "part": 1, "at": "01:05:56", "note": "travels to India in 1932 seeking Aryan roots" },
-    { "facet": "themes", "part": 1, "at": "01:16:53", "note": "ties to the RSS and her Hindu nationalist tract" },
-    { "facet": "regions", "part": 1, "at": "01:19:00", "note": "marriage to Mukherji, spying for the Axis in British India" },
-    { "facet": "regions", "part": 2, "at": "00:06:48", "note": "hand-written leaflet tours through occupied Germany" },
-    { "facet": "time", "part": 2, "at": "00:12:05", "note": "arrested and jailed for Nazi propaganda in 1949" },
-    { "facet": "themes", "part": 2, "at": "00:35:39", "note": "1961-62 neo-Nazi gatherings in England, WUNS with Rockwell" },
-    { "facet": "time", "part": 2, "at": "00:41:30", "note": "dies in England in 1982 en route to the US" },
-    { "facet": "themes", "part": 2, "at": "00:46:50", "note": "influence on accelerationist groups and Kekism online" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:13:12",
+      "note": "born Maximiani Portas in Lyon in 1905"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:39:15",
+      "note": "Greco-Turkish war and Smyrna shape her Greek nationalism"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:58:31",
+      "note": "settles in Greece, Holy Land trip turns her antisemitic and Nazi"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:05:56",
+      "note": "travels to India in 1932 seeking Aryan roots"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:16:53",
+      "note": "ties to the RSS and her Hindu nationalist tract"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:19:00",
+      "note": "marriage to Mukherji, spying for the Axis in British India"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:06:48",
+      "note": "hand-written leaflet tours through occupied Germany"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:12:05",
+      "note": "arrested and jailed for Nazi propaganda in 1949"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:35:39",
+      "note": "1961-62 neo-Nazi gatherings in England, WUNS with Rockwell"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:41:30",
+      "note": "dies in England in 1982 en route to the US"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:46:50",
+      "note": "influence on accelerationist groups and Kekism online"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:22:51",
+      "note": "Extended account of French festival tradition of torturing and killing cats"
+    }
   ],
   "notes": "Covered span stops at her 1982 death; Zundel republishing her work and the modern accelerationist and online legacy set reaches_present instead. main_span starts at her 1929 conversion to Nazism. Mukherji's birth and death years are not given; floruit used. Eco-fascism link discussed but no fitting theme. Schliemann swastika segment treated as background."
 }

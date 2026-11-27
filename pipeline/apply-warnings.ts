@@ -28,7 +28,27 @@ export interface ReportRow {
   id: string;
   before: { warnings: string[]; mentions: string[] | null };
   after: { warnings: string[]; mentions: string[] };
+  /** Warnings the result dropped that stay as mentions (see keptByRule). */
+  kept?: string[];
   notes?: string;
+}
+
+/**
+ * Strict warnings the record had that the result leaves out entirely. The tagger read the whole
+ * transcript, so the re-check may move a warning from detailed to mentioned but never drop it.
+ * The one exception is the 0.8.0 split: an old child-abuse warning may give way to
+ * child-sexual-abuse.
+ */
+export function keptByRule(
+  record: Pick<StoryTags, 'content_warnings' | 'content_mentions'>,
+  result: WarningsRecheck,
+  strict: ReadonlySet<string>,
+): string[] {
+  const listed = new Set([...result.detailed, ...result.mentions]);
+  return [...record.content_warnings, ...(record.content_mentions ?? [])].filter(
+    (w) =>
+      strict.has(w) && !listed.has(w) && !(w === 'child-abuse' && listed.has('child-sexual-abuse')),
+  );
 }
 
 /** The record with the result merged in, warnings in taxonomy order. Pure, for tests. */
@@ -40,11 +60,19 @@ export function mergeWarnings(
 ): StoryTags {
   const byOrder = (ids: Iterable<string>) =>
     [...new Set(ids)].sort((a, b) => order.indexOf(a) - order.indexOf(b));
-  const warnings = byOrder([
+  const detailed = byOrder([
     ...record.content_warnings.filter((w) => !strict.has(w)),
     ...result.detailed,
   ]);
-  const mentions = byOrder(result.mentions.filter((m) => !warnings.includes(m)));
+  // Past the cap, the last strict warnings move to mentions: hidden by default all the same.
+  const excess = Math.max(0, detailed.length - LIMITS.contentWarnings);
+  const overflow = excess ? detailed.filter((w) => strict.has(w)).slice(-excess) : [];
+  const warnings = detailed.filter((w) => !overflow.includes(w));
+  const mentions = byOrder(
+    [...result.mentions, ...keptByRule(record, result, strict), ...overflow].filter(
+      (m) => !warnings.includes(m),
+    ),
+  );
 
   const isWarning = (e: Evidence) =>
     e.facet === 'content_warnings' || e.facet === 'content_mentions';
@@ -157,6 +185,7 @@ async function main(): Promise<void> {
     const tagFile = join(TAGS_DIR, `${id}.json`);
     const record = readJson(tagFile) as StoryTags;
     const merged = mergeWarnings(record, parsed.data, order, strict);
+    const kept = keptByRule(record, parsed.data, strict);
     const { errors } = validate(merged, id);
     if (errors.length) {
       failed.push(`${id}: ${errors.join('; ')}`);
@@ -176,6 +205,7 @@ async function main(): Promise<void> {
       id,
       before: { warnings: record.content_warnings, mentions: record.content_mentions ?? null },
       after: { warnings: merged.content_warnings, mentions: merged.content_mentions ?? [] },
+      ...(kept.length ? { kept } : {}),
       ...(parsed.data.notes ? { notes: parsed.data.notes } : {}),
     };
     const at = rows.findIndex((x) => x.id === id);

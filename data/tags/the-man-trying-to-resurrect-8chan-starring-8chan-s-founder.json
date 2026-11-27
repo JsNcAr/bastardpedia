@@ -59,6 +59,7 @@
   },
   "summary": "Profile of Jim Watkins, a US Army veteran turned Philippines-based porn and web-hosting entrepreneur who took over 8chan in 2014, kept it running as mass shooters posted there in 2019, and fought to revive it after it was deplatformed.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence", "suicide-self-harm"],
   "keywords": [
     "8kun",
     "N.T. Technology",
@@ -145,6 +146,12 @@
       "part": 1,
       "at": "01:22:44",
       "note": "Brennan recounts a racist rant by Watkins at his Filipino staff"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:48:03",
+      "note": "Guest compares harassment campaign to smearing a sexual assault victim"
     }
   ],
   "notes": "Interview episode with 8chan founder Brennan, but the bulk is a researched biography of Watkins, so deep-dive. main_span starts at the 2014 8chan takeover; his porn and 2channel businesses from the mid-1990s are setup. Shootings in NZ and US are discussed but not in graphic detail, so no content warnings. Brennan birth year 1994 inferred from his age 19 in 2013."

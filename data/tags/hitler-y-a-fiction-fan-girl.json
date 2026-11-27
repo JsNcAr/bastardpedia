@@ -32,11 +32,7 @@
       "role": "secondary"
     }
   ],
-  "roles": [
-    "writer-intellectual",
-    "con-artist",
-    "dictator-autocrat"
-  ],
+  "roles": ["writer-intellectual", "con-artist", "dictator-autocrat"],
   "themes": {
     "primary": "nazism",
     "secondary": [
@@ -48,21 +44,10 @@
     ]
   },
   "regions": {
-    "origin": [
-      "DE",
-      "AT"
-    ],
-    "setting": [
-      "DE",
-      "RU",
-      "PL",
-      "US"
-    ],
+    "origin": ["DE", "AT"],
+    "setting": ["DE", "RU", "PL", "US"],
     "subdivisions": [],
-    "polities": [
-      "german-empire",
-      "nazi-germany"
-    ],
+    "polities": ["german-empire", "nazi-germany"],
     "scope": "international"
   },
   "time": {
@@ -79,6 +64,7 @@
   },
   "summary": "Saxon con man Karl May invented a Wild West persona and wrote hugely popular Winnetou novels without visiting America; the books shaped Adolf Hitler's views on conquest, Lebensraum and the United States through World War II.",
   "content_warnings": [],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Winnetou",
     "Old Shatterhand",
@@ -91,9 +77,7 @@
     "German American Bund",
     "Ernstthal"
   ],
-  "guests": [
-    "Laci Mosley"
-  ],
+  "guests": ["Laci Mosley"],
   "confidence": {
     "subjects": "medium",
     "roles": "high",
@@ -161,6 +145,12 @@
       "part": 1,
       "at": "00:49:01",
       "note": "legacy: 1960s Euro-westerns and present-day German Native American festivals"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:22:55",
+      "note": "Brief note that Hitler killed himself days after a rage over a phantom army"
     }
   ],
   "notes": "May and Hitler both primary: May gets most airtime, but the title centres on Hitler's obsession, so nazism is primary. partial_life left out: although Hitler appears only through his reading of May (childhood, 1933-45), May gets a full birth-to-death biography, and 1842-1945 already spans both lifetimes, so the lifetime rule holds without the exception. main_span runs from May's cons to 1945."

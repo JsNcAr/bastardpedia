@@ -64,6 +64,7 @@
   },
   "summary": "How Benito Mussolini built the Blackshirt militia from embittered WWI veterans, terrorised the Italian left with police and army complicity, and used the 1922 March on Rome to bluff the king into making him prime minister.",
   "content_warnings": [],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "Rome",
     "Milan",
@@ -138,6 +139,18 @@
       "part": 1,
       "at": "01:34:09",
       "note": "consolidation of the fascist state by 1923 and the 1918-1923 death toll"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:05:13",
+      "note": "Mocks QAnon-style claims about pedophile elites harming children"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:05:45",
+      "note": "Quips that real abusers in power are closer to the conspiracists own hero"
     }
   ],
   "notes": "Mussolini is in the title but the story is about the March on Rome, and it covers only his life up to 1923, so he is listed as secondary and the event is primary (this avoids a lifetime rule that would require 1945). Long comparisons to January 6 and modern US anti-fascism are comparisons, so reaches_present is false."

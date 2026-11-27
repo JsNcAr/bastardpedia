@@ -63,6 +63,7 @@
   },
   "summary": "Part five of the Behind the Police series traces how US police professionalised and then unionised, winning contracts that purge misconduct records and reinstate fired officers, and how broken windows and stop-and-frisk policing targeted Black and Latino Americans.",
   "content_warnings": ["graphic-violence"],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Behind the Police",
     "Boston police strike of 1919",
@@ -143,6 +144,12 @@
       "part": 1,
       "at": "01:29:16",
       "note": "NYPD slowdown after Eric Garner's death and the study showing major crime complaints fell"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:44:27",
+      "note": "Reinstated fired officers include one who raped a young woman in his patrol car"
     }
   ],
   "notes": "Fifth of a six-part Behind the Police miniseries, packaged as its own story. Primary subject is US police unions as a whole, entered as an organization with org_type police; no single named union fits. Early-1900s corruption and Vollmer professionalisation open the covered span (approximate start 1900). Bob Kroll has no reliable birth year, so floruit is used. Transcript year digits are often garbled."

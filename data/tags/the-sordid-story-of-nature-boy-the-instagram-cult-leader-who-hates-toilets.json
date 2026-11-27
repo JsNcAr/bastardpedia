@@ -58,7 +58,8 @@
     "approximate": true
   },
   "summary": "Harlem-born barber Eligio Bishop became the social-media guru Nature Boy in 2015, leading followers across Central America while taking their money, beating women and denying medical care, until a Georgia court gave him life for rape in 2025.",
-  "content_warnings": ["sexual-violence", "child-abuse", "graphic-violence"],
+  "content_warnings": ["sexual-violence", "child-sexual-abuse", "graphic-violence"],
+  "content_mentions": ["child-abuse", "suicide-self-harm"],
   "keywords": [
     "Nature Boy",
     "Melanation",

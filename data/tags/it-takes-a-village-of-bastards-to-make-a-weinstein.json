@@ -64,6 +64,7 @@
   },
   "summary": "A survey of the tabloid editors, journalists, assistants, executives, lawyers, prosecutors and private spies who helped Hollywood producer Harvey Weinstein hide his sexual assaults and silence accusers until his 2017 exposure.",
   "content_warnings": ["sexual-violence"],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Miramax",
     "The Weinstein Company",
@@ -138,6 +139,24 @@
       "part": 1,
       "at": "00:02:37",
       "note": "aftermath through 2018: firing and surrender to the NYPD"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:08:51",
+      "note": "Overview of the rape and groping allegations against Weinstein, from the 1970s to 2015"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:23:57",
+      "note": "Rose McGowan's account of being raped and telling Ben Affleck right afterwards"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:09:57",
+      "note": "Aside on an anonymous accuser who said Trump raped her at thirteen"
     }
   ],
   "notes": "Survey of enablers, so the primary subject is a group (as with the Hitler enablers story) and Weinstein is secondary; the lifetime rule therefore does not apply. Roles are a loose fit for a mixed group of journalists, spies, executives and lawyers. His 1970s first assault is a brief mention, so covered span starts at the 1997 McGowan assault. Lisa Bloom birth year from general knowledge."

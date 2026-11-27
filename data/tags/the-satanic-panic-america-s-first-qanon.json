@@ -61,7 +61,14 @@
     "approximate": false
   },
   "summary": "In 1980s and early-1990s America, fears of secret Satanic cults abusing children, fed by evangelical grifters, repressed-memory therapy and coercive interviews of children, led to false accusations and wrongful prosecutions such as the McMartin preschool trial.",
-  "content_warnings": ["child-abuse", "graphic-violence", "child-death", "suicide-self-harm"],
+  "content_warnings": [
+    "child-sexual-abuse",
+    "child-abuse",
+    "child-death",
+    "graphic-violence",
+    "suicide-self-harm"
+  ],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Satan's Silence",
     "Lawrence Pazder",
@@ -146,14 +153,14 @@
     {
       "facet": "content_warnings",
       "part": 2,
-      "at": "00:02:09",
-      "note": "suicides of Dallas Egbert and Irving Pulling blamed on Dungeons and Dragons"
+      "at": "00:13:51",
+      "note": "Long discussion of the alleged McMartin abuse claims and coerced child accounts"
     },
     {
       "facet": "content_warnings",
-      "part": 2,
-      "at": "00:53:54",
-      "note": "1993 West Memphis murders of three boys described, with mutilation claims"
+      "part": 1,
+      "at": "00:35:18",
+      "note": "Real incest abuse in the Bay Area and the CSATP father-treatment programme"
     }
   ],
   "notes": "Opening on Lyon in 177, blood libel, witch hunts and 1830s anti-Catholic tales is background and excluded from covered_span. QAnon is a running comparison, not followed as legacy, so reaches_present is false. West Memphis Three and the D&D panic each get ~6 min but did not fit the 5-subject cap; they are in keywords. The transcript dates the West Memphis plea to 2010 (actually 2011); it is a one-line coda and not used for covered_span."

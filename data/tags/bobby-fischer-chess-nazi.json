@@ -63,7 +63,8 @@
     "approximate": false
   },
   "summary": "American chess prodigy Bobby Fischer won the 1972 world title as a Cold War hero, then spent decades spreading antisemitic conspiracy theories and played a 1992 sanctions-busting match that served Milosevic's regime during the Bosnian genocide.",
-  "content_warnings": ["hate-speech", "mass-atrocity"],
+  "content_warnings": ["mass-atrocity", "hate-speech"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "1972 World Chess Championship",
     "Reykjavik",
@@ -85,18 +86,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:11:36", "note": "Fischer's 1943 birth in Chicago to a homeless single mother" },
-    { "facet": "time", "part": 1, "at": "00:34:09", "note": "US junior title and the 1956 Game of the Century at age thirteen" },
-    { "facet": "regions", "part": 1, "at": "00:38:49", "note": "1958 Soviet visit ends in scandal; Tito's Yugoslavia hosts him instead" },
-    { "facet": "themes", "part": 1, "at": "00:45:03", "note": "early antisemitic statements, including the 1962 Harper's interview" },
-    { "facet": "regions", "part": 1, "at": "01:00:41", "note": "1972 Iceland match, Kissinger calls, Cold War symbolism" },
-    { "facet": "themes", "part": 2, "at": "00:03:43", "note": "buys the Protocols and Klassen's book; turns to Nazi propaganda" },
-    { "facet": "regions", "part": 2, "at": "00:02:09", "note": "1973 Philippines tournament hosted by Marcos" },
-    { "facet": "themes", "part": 2, "at": "00:28:40", "note": "long segment on the Bosnian genocide around the 1992 match" },
-    { "facet": "subjects", "part": 2, "at": "00:34:24", "note": "Vasiljevic's bank as a Ponzi scheme used to evade sanctions" },
-    { "facet": "themes", "part": 2, "at": "00:56:59", "note": "9/11 radio interview calling for persecution of Jews" },
-    { "facet": "regions", "part": 2, "at": "01:04:58", "note": "2004 arrest and detention in Japan, then Icelandic citizenship" },
-    { "facet": "time", "part": 2, "at": "01:09:40", "note": "death in an Icelandic hospital; later exhumation over the estate" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:11:36",
+      "note": "Fischer's 1943 birth in Chicago to a homeless single mother"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:34:09",
+      "note": "US junior title and the 1956 Game of the Century at age thirteen"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:38:49",
+      "note": "1958 Soviet visit ends in scandal; Tito's Yugoslavia hosts him instead"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:45:03",
+      "note": "early antisemitic statements, including the 1962 Harper's interview"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:00:41",
+      "note": "1972 Iceland match, Kissinger calls, Cold War symbolism"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:03:43",
+      "note": "buys the Protocols and Klassen's book; turns to Nazi propaganda"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:02:09",
+      "note": "1973 Philippines tournament hosted by Marcos"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:28:40",
+      "note": "long segment on the Bosnian genocide around the 1992 match"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:34:24",
+      "note": "Vasiljevic's bank as a Ponzi scheme used to evade sanctions"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:56:59",
+      "note": "9/11 radio interview calling for persecution of Jews"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "01:04:58",
+      "note": "2004 arrest and detention in Japan, then Icelandic citizenship"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:09:40",
+      "note": "death in an Icelandic hospital; later exhumation over the estate"
+    }
   ],
   "notes": "Mia Wong presents and Robert Evans is the guest. Primary theme is sports per the taxonomy example; nazism chosen alongside racism because Fischer distributed Nazi pamphlets and denied the Holocaust. The Sveti Stefan opening games put ME in play, but it was dropped for the six-country limit. The Najdorf opening segment is background, not counted in the spans. The 2010 exhumation is a brief coda, so it is not counted."
 }

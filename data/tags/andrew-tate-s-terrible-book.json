@@ -45,6 +45,7 @@
   },
   "summary": "A reading of manosphere influencer Andrew Tate's mystical kung fu stories, Tales of Wudan, and The Tate Bible, a 2022 fan-compiled book of his advice on women, money and status, recorded while he was jailed in Romania.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "G. Slim",
     "Hustler's University",
@@ -119,6 +120,24 @@
       "part": 1,
       "at": "00:00:02",
       "note": "Recorded while Tate was in Romanian jail; aired after release to house arrest in 2023"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:01:56",
+      "note": "Host refers to Tate's alleged sex trafficking operation in Romania"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:46:02",
+      "note": "Tate's book jokes about pedophiles in a line about sports cars; hosts react"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:22:06",
+      "note": "Guest says Tate mocked women's suicidal feelings; hosts call his worldview a recipe for suicide"
     }
   ],
   "notes": "Both books and Tate treated as primary per the media-reading rule; Tales of Wudan gets a shorter segment so is secondary. Tales of Wudan publication year not given; covered_span starts at the 2020 lockdown when the Tate Bible compiler found Tate. Setting lists Romania for the arrest and trafficking case, the UK for the compiler; scope online. No content warning: misogynist text is read at length, but hate-speech is defined around slurs."

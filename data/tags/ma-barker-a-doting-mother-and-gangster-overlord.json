@@ -47,6 +47,7 @@
   },
   "summary": "Ma Barker, born Arizona Donnie Clark in Missouri, raised four criminal sons in Tulsa and later helped run the Barker-Karpis Gang's robberies and kidnappings from St. Paul until FBI agents killed her in Florida in 1935.",
   "content_warnings": ["graphic-violence", "medical-horror"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Arizona Donnie Clark",
     "Alvin Karpis",
@@ -68,16 +69,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:12:09", "note": "birth in Greene County, Missouri, 1873 and childhood" },
-    { "facet": "time", "part": 1, "at": "00:27:48", "note": "all four sons on the Tulsa police blotter by 1910-1911; crime school era begins" },
-    { "facet": "subjects", "part": 1, "at": "00:42:34", "note": "long segment on Herman's robberies, police killing and death" },
-    { "facet": "themes", "part": 1, "at": "00:49:20", "note": "St. Paul layover deal between police chief and criminals" },
-    { "facet": "themes", "part": 1, "at": "00:36:20", "note": "bribed police, jailbreak with acid and saw" },
-    { "facet": "themes", "part": 1, "at": "00:51:31", "note": "gang targets heirs of beer and banking dynasties for ransom" },
-    { "facet": "themes", "part": 1, "at": "01:05:05", "note": "hosts discuss FBI efforts to deflate gangster myths versus the legend" },
-    { "facet": "content_warnings", "part": 1, "at": "00:59:29", "note": "detailed account of crude fingerprint-removal surgery" },
-    { "facet": "content_warnings", "part": 1, "at": "00:45:44", "note": "officer shot point-blank in the face during a car stop" },
-    { "facet": "time", "part": 1, "at": "01:02:32", "note": "FBI raid at Lake Weir, Florida, January 1935 kills Ma and Fred" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:12:09",
+      "note": "birth in Greene County, Missouri, 1873 and childhood"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:27:48",
+      "note": "all four sons on the Tulsa police blotter by 1910-1911; crime school era begins"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:42:34",
+      "note": "long segment on Herman's robberies, police killing and death"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:49:20",
+      "note": "St. Paul layover deal between police chief and criminals"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:36:20",
+      "note": "bribed police, jailbreak with acid and saw"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:51:31",
+      "note": "gang targets heirs of beer and banking dynasties for ransom"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:05:05",
+      "note": "hosts discuss FBI efforts to deflate gangster myths versus the legend"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:02:32",
+      "note": "FBI raid at Lake Weir, Florida, January 1935 kills Ma and Fred"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:46:15",
+      "note": "Herman Barker, wounded and in pain, takes his own life with a gun"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:53:37",
+      "note": "A man tortured by police over a crime later dies by suicide in jail"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:59:29",
+      "note": "detailed account of crude fingerprint-removal surgery"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:45:44",
+      "note": "officer shot point-blank in the face during a car stop"
+    }
   ],
   "notes": "Settings span Missouri, Oklahoma, Minnesota and Florida, so no single subdivision. inequality-class is a judgement call: the host frames her through rural poverty and the gang's targeting of wealthy dynasties. folklore-legend covers the recurring mastermind-versus-FBI-myth debate. Transcript garbles several dates (marriage, Herman's death year)."
 }

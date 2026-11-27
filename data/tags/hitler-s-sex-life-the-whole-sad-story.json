@@ -60,7 +60,8 @@
     "approximate": true
   },
   "summary": "A myth-busting history of Adolf Hitler's sex life, from his father's marriage to a teenage niece to Hitler's own pursuit of teenage girls in 1920s-30s Germany, several of whom attempted or died by suicide.",
-  "content_warnings": ["child-abuse", "suicide-self-harm", "animal-cruelty"],
+  "content_warnings": ["child-sexual-abuse", "suicide-self-harm", "animal-cruelty"],
+  "content_mentions": ["sexual-violence", "child-abuse"],
   "keywords": [
     "The Mind of Adolf Hitler (OSS report)",
     "Walter Langer",
@@ -147,6 +148,12 @@
       "part": 2,
       "at": "00:42:17",
       "note": "Martin Amis and the 2014 wave of kink claims; sets reaches_present"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:20:49",
+      "note": "Hitler's father and his marriage to a teenage niece; hosts flag pedophilia as a through-line"
     }
   ],
   "notes": "partial_life set: title and host frame the series around one side of his life, his sex life, with politics and war only as brief background. covered_span follows the general rule (Alois's household c.1876 to Braun's 1945 death) and still spans his life. Maria Reiter: transcript ages imply ~1910-1913; 1911 used. Alois: 1836 per transcript (most sources say 1837). Primary theme nazism is for catalogue fit; child-abuse is close."

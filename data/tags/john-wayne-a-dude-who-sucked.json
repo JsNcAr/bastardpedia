@@ -65,6 +65,7 @@
   },
   "summary": "Biography of Hollywood cowboy star John Wayne (1907-1979), who avoided service in World War II, abused women, voiced open racism, and used his films, notably The Green Berets, to sell the Vietnam War and a violent ideal of white Christian manhood.",
   "content_warnings": [],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Stagecoach",
     "The Big Trail",
@@ -86,18 +87,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:26:36", "note": "Born Marion Robert Morrison in Winterset, Iowa, 1907" },
-    { "facet": "time", "part": 2, "at": "00:06:21", "note": "First starring role in The Big Trail, shot drunk and sick in Yuma" },
-    { "facet": "themes", "part": 1, "at": "00:25:04", "note": "Long background on muscular Christianity framing Wayne as its avatar" },
-    { "facet": "themes", "part": 2, "at": "00:30:48", "note": "Account of Wayne punching Marlene Dietrich on set; pattern of hitting women" },
-    { "facet": "regions", "part": 2, "at": "00:33:29", "note": "Affair with teenage Chata begins in Mexico; Mexican yacht trips with Ford's circle" },
-    { "facet": "themes", "part": 2, "at": "00:41:25", "note": "Extended segment on Wayne dodging WWII service while peers enlisted" },
-    { "facet": "subjects", "part": 2, "at": "01:03:59", "note": "Helps found and leads the anticommunist Motion Picture Alliance during the Red Scare" },
-    { "facet": "subjects", "part": 2, "at": "01:25:59", "note": "The Conqueror shot downwind of Nevada nuclear tests; cast cancer cluster" },
-    { "facet": "themes", "part": 3, "at": "00:29:21", "note": "Pentagon gets script control of The Green Berets in exchange for gear" },
-    { "facet": "regions", "part": 3, "at": "00:38:24", "note": "Wayne tours front lines in Vietnam; film used to drive enlistment" },
-    { "facet": "themes", "part": 3, "at": "00:52:19", "note": "1971 Playboy interview endorsing white supremacy and Native dispossession" },
-    { "facet": "time", "part": 3, "at": "01:10:50", "note": "Death in 1979, then legacy with Reagan, Buchanan, Gingrich and evangelicals" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:26:36",
+      "note": "Born Marion Robert Morrison in Winterset, Iowa, 1907"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:06:21",
+      "note": "First starring role in The Big Trail, shot drunk and sick in Yuma"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:25:04",
+      "note": "Long background on muscular Christianity framing Wayne as its avatar"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:30:48",
+      "note": "Account of Wayne punching Marlene Dietrich on set; pattern of hitting women"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:33:29",
+      "note": "Affair with teenage Chata begins in Mexico; Mexican yacht trips with Ford's circle"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:41:25",
+      "note": "Extended segment on Wayne dodging WWII service while peers enlisted"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "01:03:59",
+      "note": "Helps found and leads the anticommunist Motion Picture Alliance during the Red Scare"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "01:25:59",
+      "note": "The Conqueror shot downwind of Nevada nuclear tests; cast cancer cluster"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:29:21",
+      "note": "Pentagon gets script control of The Green Berets in exchange for gear"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:38:24",
+      "note": "Wayne tours front lines in Vietnam; film used to drive enlistment"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:52:19",
+      "note": "1971 Playboy interview endorsing white supremacy and Native dispossession"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "01:10:50",
+      "note": "Death in 1979, then legacy with Reagan, Buchanan, Gingrich and evangelicals"
+    }
   ],
   "notes": "No theme for masculinity ideals; misogyny-manosphere is the nearest fit for the story's framing of Wayne as a model of toxic manhood. Turn-of-century Roosevelt and muscular Christianity background excluded from covered_span. Relationship with 17-year-old Chata discussed but kept out of sexual-abuse/child-abuse as the story treats her age and circumstances as unclear. activist-organizer reflects MPA leadership and pro-war speeches."
 }

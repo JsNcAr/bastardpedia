@@ -47,7 +47,8 @@
     "approximate": true
   },
   "summary": "Holiday non-bastard story on American folk singer Woody Guthrie, from Dust Bowl migrant radio star in 1930s California to Communist-aligned protest songwriter, wartime merchant mariner and blacklisted artist who died of Huntington's disease in 1967.",
-  "content_warnings": [],
+  "content_warnings": ["sexual-violence"],
+  "content_mentions": [],
   "keywords": [
     "This Land Is Your Land",
     "Dust Bowl",
@@ -69,16 +70,72 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 2, "at": "00:02:35", "note": "Guthrie leaves Texas for California in 1936; this part opens there" },
-    { "facet": "themes", "part": 2, "at": "00:04:06", "note": "Depression work camps and Hoovervilles where he busks for migrant workers" },
-    { "facet": "themes", "part": 2, "at": "00:12:14", "note": "segment on his racist on-air material and cartoons and his later apology" },
-    { "facet": "subjects", "part": 2, "at": "00:20:50", "note": "long segment on Pretty Boy Floyd, his crimes and the Robin Hood legend" },
-    { "facet": "time", "part": 2, "at": "00:22:09", "note": "Floyd's criminal career traced from his first arrest at about 18 to his 1934 death" },
-    { "facet": "themes", "part": 2, "at": "00:35:35", "note": "follows the Communist line on the Molotov-Ribbentrop Pact and Soviet invasions" },
-    { "facet": "themes", "part": 2, "at": "00:47:27", "note": "Merchant Marine service, three torpedoed ships, drafted on VE Day" },
-    { "facet": "themes", "part": 2, "at": "00:54:15", "note": "postwar Red Scare hearings and blacklisting" },
-    { "facet": "time", "part": 2, "at": "00:59:16", "note": "Huntington's onset late 1940s; obscenity charge in 1949" },
-    { "facet": "time", "part": 2, "at": "01:04:03", "note": "dies October 1967 after years in institutions" }
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:02:35",
+      "note": "Guthrie leaves Texas for California in 1936; this part opens there"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:04:06",
+      "note": "Depression work camps and Hoovervilles where he busks for migrant workers"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:12:14",
+      "note": "segment on his racist on-air material and cartoons and his later apology"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:20:50",
+      "note": "long segment on Pretty Boy Floyd, his crimes and the Robin Hood legend"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:22:09",
+      "note": "Floyd's criminal career traced from his first arrest at about 18 to his 1934 death"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:35:35",
+      "note": "follows the Communist line on the Molotov-Ribbentrop Pact and Soviet invasions"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:47:27",
+      "note": "Merchant Marine service, three torpedoed ships, drafted on VE Day"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:54:15",
+      "note": "postwar Red Scare hearings and blacklisting"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:59:16",
+      "note": "Huntington's onset late 1940s; obscenity charge in 1949"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:04:03",
+      "note": "dies October 1967 after years in institutions"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:56:55",
+      "note": "Several-minute account of Guthrie sending obscene, threatening sexual letters to a woman, through about 01:01"
+    }
   ],
   "notes": "Only Part Two is in the feed, so this story starts in 1936 and never covers his 1912 birth or childhood (Part One). I set partial_life for that reason, not because of how the story is framed. covered_span starts in about 1922 with the Floyd segment. Not used: Huntington's (no theme fits) and his sexually harassing letters, which get about 5 minutes; sexual-abuse could be added. The 'hero' format follows the 'non-bastard' wording in the description."
 }

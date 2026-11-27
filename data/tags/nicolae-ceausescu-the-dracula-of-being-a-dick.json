@@ -67,6 +67,7 @@
   },
   "summary": "Nicolae Ceaușescu rose from a teenage communist agitator to dictator of Romania (1965-1989), courting the West while ruining the economy, banning abortion, filling orphanages, expanding the Securitate and razing villages until he was overthrown and shot in 1989.",
   "content_warnings": ["child-abuse", "child-death", "medical-horror", "animal-cruelty"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "People's Palace",
     "Timișoara",
@@ -88,17 +89,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:41:10", "note": "born January 1918 to a poor peasant family in Scornicești" },
-    { "facet": "time", "part": 2, "at": "00:47:55", "note": "Gheorghiu-Dej dies in March 1965 and Ceaușescu becomes party leader" },
-    { "facet": "time", "part": 4, "at": "01:05:19", "note": "he and Elena are tried and shot on Christmas Day 1989" },
-    { "facet": "themes", "part": 2, "at": "00:59:50", "note": "contraception and abortion banned to raise population; thousands of women die" },
-    { "facet": "themes", "part": 3, "at": "00:17:12", "note": "1968 speech condemning the Soviet invasion of Czechoslovakia wins Western favour" },
-    { "facet": "regions", "part": 3, "at": "00:23:31", "note": "1971 tour of China and North Korea inspires his personality cult" },
-    { "facet": "themes", "part": 3, "at": "00:56:18", "note": "Jewish emigrants ransomed to Israel for cash on a sliding scale" },
-    { "facet": "themes", "part": 4, "at": "00:05:22", "note": "Securitate phone-tapping and informant network expands massively" },
-    { "facet": "themes", "part": 4, "at": "00:27:14", "note": "preventable deaths and neglect of children in state institutions" },
-    { "facet": "themes", "part": 4, "at": "00:40:44", "note": "HIV spreads among orphans, mostly Roma, through blood transfusions" },
-    { "facet": "themes", "part": 4, "at": "00:55:54", "note": "Tőkés eviction sparks Timișoara protests that grow into revolution" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:41:10",
+      "note": "born January 1918 to a poor peasant family in Scornicești"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:47:55",
+      "note": "Gheorghiu-Dej dies in March 1965 and Ceaușescu becomes party leader"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "01:05:19",
+      "note": "he and Elena are tried and shot on Christmas Day 1989"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:59:50",
+      "note": "contraception and abortion banned to raise population; thousands of women die"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:17:12",
+      "note": "1968 speech condemning the Soviet invasion of Czechoslovakia wins Western favour"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:23:31",
+      "note": "1971 tour of China and North Korea inspires his personality cult"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:56:18",
+      "note": "Jewish emigrants ransomed to Israel for cash on a sliding scale"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:05:22",
+      "note": "Securitate phone-tapping and informant network expands massively"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:27:14",
+      "note": "preventable deaths and neglect of children in state institutions"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:40:44",
+      "note": "HIV spreads among orphans, mostly Roma, through blood transfusions"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:55:54",
+      "note": "Tőkés eviction sparks Timișoara protests that grow into revolution"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 4,
+      "at": "00:27:14",
+      "note": "Long account of neglect and preventable deaths of children in state orphanages"
+    }
   ],
   "notes": "Transcript gives the birth date as 23 January 1918; sources say 26 January. Long opening background (Vlad III, 1907 revolt, WWI, Iron Guard, Antonescu) is context before the story and does not extend covered_span; fascism-far-right left out for that reason. Post-1989 orphan aftermath and prosecutions are a short coda, so reaches_present is false."
 }

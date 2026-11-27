@@ -1,0 +1,143 @@
+[
+  {
+    "id": "the-war-on-vagrants",
+    "before": {
+      "warnings": ["slavery"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["slavery"],
+      "mentions": []
+    },
+    "notes": "No scan candidates. Malaga Island story includes children taken into institutions; the scan cannot see institutional neglect of children, worth a check for child-abuse."
+  },
+  {
+    "id": "elon-musk-is-being-sued-lmao",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "vince-mcmahon-history-s-greatest-monster",
+    "before": {
+      "warnings": [
+        "sexual-violence",
+        "child-abuse",
+        "drug-use",
+        "graphic-violence",
+        "suicide-self-harm"
+      ],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [
+        "sexual-violence",
+        "child-sexual-abuse",
+        "graphic-violence",
+        "suicide-self-harm",
+        "drug-use"
+      ],
+      "mentions": ["child-abuse"]
+    },
+    "notes": "Old child-abuse tag mostly covered the ring boy scandal, now child-sexual-abuse. Physical abuse by the stepfather kept as a mention; it may run longer than the scan shows (part 2 near 00:17-00:32)."
+  },
+  {
+    "id": "jack-welch-is-why-you-got-laid-off",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    },
+    "notes": "Suicide discussion runs about two minutes (00:33-00:35), statistical, no method or account; kept as a mention."
+  },
+  {
+    "id": "andrew-tate-s-terrible-book",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"]
+    }
+  },
+  {
+    "id": "the-first-american-yoga-cult-leader",
+    "before": {
+      "warnings": ["sexual-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Child-sexual-abuse candidate is an adult victim's 'incestuous' feeling; dropped. Scan shows no minors among Bernard's or Choudhury's victims, but the sexual-abuse theme makes it worth a check."
+  },
+  {
+    "id": "josef-mengele-the-nazi-doctors",
+    "before": {
+      "warnings": [
+        "mass-atrocity",
+        "medical-horror",
+        "child-death",
+        "graphic-violence",
+        "child-abuse"
+      ],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [
+        "child-abuse",
+        "child-death",
+        "graphic-violence",
+        "mass-atrocity",
+        "medical-horror"
+      ],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "child-abuse kept detailed from the original tag; the scan has no child-abuse words, timestamp taken from the existing themes evidence. CSA candidates are 'groomed' for the family firm and a twins joke; dropped."
+  },
+  {
+    "id": "the-primal-diet-con",
+    "before": {
+      "warnings": ["medical-horror"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["medical-horror"],
+      "mentions": []
+    }
+  },
+  {
+    "id": "the-liver-king-a-live-show",
+    "before": {
+      "warnings": ["drug-use"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["suicide-self-harm", "drug-use"],
+      "mentions": ["child-abuse", "animal-cruelty"]
+    },
+    "notes": "Suicide run spans 01:07-01:10 and the host flags it as a serious segment, so detailed. Animal-cruelty is only a hunting joke, kept as a mention under the when-in-doubt rule; reviewer may drop it."
+  },
+  {
+    "id": "coco-chanel-the-nazi-who-invented-fashion",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "The child-sexual-abuse candidate is 'groomed' in the sense of dressed; dropped. Childhood in a convent orphanage may involve neglect the scan cannot see."
+  }
+]

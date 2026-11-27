@@ -1,0 +1,122 @@
+[
+  {
+    "id": "lord-aspinall-the-gambling-king-of-london",
+    "before": {
+      "warnings": ["child-abuse", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "graphic-violence"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Sexual-violence candidates all concern children, moved to child-sexual-abuse. No animal-cruelty matches, though the zoo segment (keepers killed) and Aspinall's eugenic culling views could be worth a reviewer glance."
+  },
+  {
+    "id": "the-surprising-evil-of-1950s-men-s-adventure-magazines",
+    "before": {
+      "warnings": ["child-abuse", "graphic-violence", "slavery"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-sexual-abuse", "slavery", "graphic-violence"],
+      "mentions": []
+    },
+    "notes": "Old child-abuse warning reflected the sexualised minors (pre-0.8.0 meaning), so it becomes child-sexual-abuse. No physical child abuse found beyond a cover image of a hostage child; child-abuse dropped."
+  },
+  {
+    "id": "the-true-story-of-dracula",
+    "before": {
+      "warnings": ["graphic-violence", "mass-atrocity"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "mass-atrocity"],
+      "mentions": ["child-sexual-abuse"]
+    },
+    "notes": "No sexual-violence, suicide or animal-cruelty matches; Vlad's atrocities are covered by graphic-violence and mass-atrocity."
+  },
+  {
+    "id": "the-deadliest-workplace-disaster-in-u-s-history",
+    "before": {
+      "warnings": ["medical-horror"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["medical-horror"],
+      "mentions": []
+    },
+    "notes": "Only candidate is figurative: foremen unknowingly killing themselves with silica dust. Not suicide; dropped."
+  },
+  {
+    "id": "g-gordon-liddy-the-fascist-behind-watergate",
+    "before": {
+      "warnings": ["animal-cruelty", "suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["suicide-self-harm", "animal-cruelty"],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "Detailed timestamps come from the full transcripts (prior record's evidence), as the scan words missed the burning and rat passages. Sexual-violence mention is a single generic rhetorical line; reviewer may drop it."
+  },
+  {
+    "id": "the-religion-war-by-scott-adams-with-matt-lieb",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["suicide-self-harm", "animal-cruelty"]
+    },
+    "notes": "Suicide is mostly a fictional, abstract premise (a suicidal god) discussed over a few minutes; kept as a mention, reviewer may weigh detailed. Horse case moved from sexual-violence and child-sexual-abuse to animal-cruelty as bestiality."
+  },
+  {
+    "id": "wim-hof-s-surprisingly-deadly-story",
+    "before": {
+      "warnings": ["suicide-self-harm", "medical-horror", "child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "child-death", "suicide-self-harm", "medical-horror"],
+      "mentions": []
+    },
+    "notes": "child-abuse rests on the neglect and abandonment segment (about part 1, 00:43 to 00:50), which the scan words do not match; reviewer may judge it a mention rather than detailed."
+  },
+  {
+    "id": "the-12-tribes-the-worst-cult-you-ve-never-heard-of",
+    "before": {
+      "warnings": ["child-abuse", "child-death", "hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse", "child-abuse", "child-death", "hate-speech"],
+      "mentions": ["suicide-self-harm", "animal-cruelty"]
+    },
+    "notes": "Sexual-violence candidates all involve children, moved to child-sexual-abuse. Animal segment runs about two minutes (bestiality claims, then mass killing of livestock); reviewer may judge animal-cruelty detailed."
+  },
+  {
+    "id": "behind-the-swastika",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["child-sexual-abuse"]
+    },
+    "notes": "Only candidate is an intro joke about child trafficking; filed under child-sexual-abuse as the closest fit. Reviewer may prefer child-abuse or dropping it."
+  },
+  {
+    "id": "ron-desantis-florida-man",
+    "before": {
+      "warnings": ["torture"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["torture"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Sexual-violence candidate is a host stating no assault or harassment was alleged; dropped. Child-sexual-abuse mention is about insinuations, not an established act."
+  }
+]

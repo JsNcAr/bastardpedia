@@ -1,0 +1,120 @@
+[
+  {
+    "id": "dire-wolves-dr-george-church-the-de-extinction-grift",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "Part 2 01:00-01:03 spends about three minutes on harassment allegations at the SENS Foundation, including one account read aloud. Kept as a mention; reviewer may judge it detailed."
+  },
+  {
+    "id": "the-throat-slitting-evangelical-minister-of-jamaica",
+    "before": {
+      "warnings": ["graphic-violence", "sexual-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "graphic-violence"],
+      "mentions": ["child-sexual-abuse", "child-abuse"]
+    }
+  },
+  {
+    "id": "carl-schmitt-the-mind-behind-modern-fascism",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["suicide-self-harm"]
+    }
+  },
+  {
+    "id": "the-sordid-story-of-nature-boy-the-instagram-cult-leader-who-hates-toilets",
+    "before": {
+      "warnings": ["sexual-violence", "child-abuse", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-sexual-abuse", "graphic-violence"],
+      "mentions": ["child-abuse", "suicide-self-harm"]
+    },
+    "notes": "Old child-abuse warning likely covered the foster-home sexual abuse, now child-sexual-abuse. Physical abuse of children is only a short aside in the scan; the summary's denial of medical care may involve children, worth a check. A dog incident at part 1 00:18:28 is sexual, not cruelty, so animal-cruelty is not listed."
+  },
+  {
+    "id": "robert-maxwell-how-ghislaine-maxwell-s-dad-ruined-science",
+    "before": {
+      "warnings": ["graphic-violence", "suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "graphic-violence"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Was detailed for suicide-self-harm; scan finds only two brief references, so downgraded to mentions. Reviewer may check whether the death-at-sea discussion dwells on suicide beyond the scan words. Child-abuse rated detailed on the vividness of a short passage."
+  },
+  {
+    "id": "the-pol-pot-episodes-how-a-nice-quiet-kid-murdered-his-country",
+    "before": {
+      "warnings": ["mass-atrocity", "torture", "child-abuse", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "torture", "mass-atrocity"],
+      "mentions": ["child-sexual-abuse", "child-abuse", "suicide-self-harm"]
+    },
+    "notes": "Was detailed for child-abuse; the scan finds only a cultural aside. The regime's treatment of children (child soldiers, killings, separated families) may be covered without scan words; reviewer should check whether that warrants detailed child-abuse."
+  },
+  {
+    "id": "what-s-new-with-andrew-tate",
+    "before": {
+      "warnings": ["sexual-violence", "hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "hate-speech"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Grooming of women in part 2 concerns adults, so it falls under sexual-violence, not child-sexual-abuse."
+  },
+  {
+    "id": "alfred-hugenberg-the-elon-musk-of-weimar-germany",
+    "before": {
+      "warnings": ["mass-atrocity"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["mass-atrocity"],
+      "mentions": ["suicide-self-harm"]
+    }
+  },
+  {
+    "id": "how-ice-is-targeting-students-for-deportation",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    },
+    "notes": "No candidates for any strict warning."
+  },
+  {
+    "id": "the-grifters-behind-the-fake-autism-cure-industry",
+    "before": {
+      "warnings": ["child-death", "medical-horror", "child-abuse", "suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "child-death", "medical-horror"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "kept": ["suicide-self-harm"],
+    "notes": "Child-abuse kept detailed because the whole story is harmful treatments forced on children, though scan hits are thin. The current suicide-self-harm warning has no scan candidates, so it is dropped; reviewer should confirm nothing was missed."
+  }
+]

@@ -54,7 +54,8 @@
     "approximate": false
   },
   "summary": "Young-earth creationist evangelist Kent Hovind built a dinosaur-themed ministry on diploma-mill degrees, went to prison for tax fraud, then ran an Alabama park where he sheltered a convicted child sex offender and a boy drowned.",
-  "content_warnings": ["child-abuse", "child-death"],
+  "content_warnings": ["child-sexual-abuse", "child-death"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Dr. Dino",
     "Creation Science Evangelism",
@@ -76,17 +77,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:03:08", "note": "birth in January 1953, probably Pensacola, childhood in East Peoria, Illinois" },
-    { "facet": "time", "part": 1, "at": "00:14:19", "note": "1989 move to Pensacola and founding of Creation Science Evangelism ministry" },
-    { "facet": "themes", "part": 1, "at": "00:25:10", "note": "long segment on his diploma-mill PhD from Patriot Bible University and the flawed dissertation" },
-    { "facet": "themes", "part": 1, "at": "00:53:31", "note": "tax protest from 1989, lawsuit against the IRS, selling guides to not paying taxes" },
-    { "facet": "themes", "part": 1, "at": "00:56:03", "note": "sovereign citizen beliefs and 1998 court filing renouncing citizenship" },
-    { "facet": "time", "part": 2, "at": "00:07:28", "note": "2006 indictment on 58 tax counts, 2007 ten-year sentence, release by 2015-2016" },
-    { "facet": "regions", "part": 2, "at": "00:21:29", "note": "donated land in Conecuh County, Alabama becomes the new Dinosaur Adventure Land" },
-    { "facet": "subjects", "part": 2, "at": "00:23:17", "note": "convicted child sex offender Chris Jones volunteers at the park; Hovind defends him" },
-    { "facet": "themes", "part": 2, "at": "00:31:12", "note": "2019 visit where Hovind puts Jones and an 11-year-old boy in a cabin with one bed" },
-    { "facet": "content_warnings", "part": 2, "at": "00:35:37", "note": "March 2020 drowning of a seven-year-old in the park pond; Hovind hands out cards at hospital" },
-    { "facet": "themes", "part": 2, "at": "00:43:45", "note": "serial marriages, body-slamming his third wife, 2021 domestic violence conviction" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:08",
+      "note": "birth in January 1953, probably Pensacola, childhood in East Peoria, Illinois"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:14:19",
+      "note": "1989 move to Pensacola and founding of Creation Science Evangelism ministry"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:25:10",
+      "note": "long segment on his diploma-mill PhD from Patriot Bible University and the flawed dissertation"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:53:31",
+      "note": "tax protest from 1989, lawsuit against the IRS, selling guides to not paying taxes"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:56:03",
+      "note": "sovereign citizen beliefs and 1998 court filing renouncing citizenship"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:07:28",
+      "note": "2006 indictment on 58 tax counts, 2007 ten-year sentence, release by 2015-2016"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:21:29",
+      "note": "donated land in Conecuh County, Alabama becomes the new Dinosaur Adventure Land"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:23:17",
+      "note": "convicted child sex offender Chris Jones volunteers at the park; Hovind defends him"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:31:12",
+      "note": "2019 visit where Hovind puts Jones and an 11-year-old boy in a cabin with one bed"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:43:45",
+      "note": "serial marriages, body-slamming his third wife, 2021 domestic violence conviction"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:23:17",
+      "note": "Introduces the convicted child sex offender Hovind let live at his park and his past offence against boys"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:30:24",
+      "note": "Several minutes on the offender bringing a young boy to the park and claims he abused him"
+    }
   ],
   "notes": "Primary theme: young-earth creationism treated as pseudoscience; no dedicated creationism theme. The host repeatedly says Arkansas but corrects to Alabama (Conecuh County). Birthplace uncertain in transcript (Pensacola vs Illinois); origin US either way. Chris Jones floruit is an anchor year (2019 visit); his crimes date from 2001-2004."
 }

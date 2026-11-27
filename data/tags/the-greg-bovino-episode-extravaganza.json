@@ -55,6 +55,7 @@
   },
   "summary": "Border Patrol agent Greg Bovino rose from a North Carolina childhood to run the El Centro sector, then became the public face of the Trump administration's violent 2025 immigration raids in Los Angeles, Chicago and Minneapolis.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "El Centro sector",
     "Operation Midway Blitz",
@@ -117,6 +118,18 @@
       "part": 1,
       "at": "01:12:58",
       "note": "removed after the Minneapolis killings and returned to El Centro, still serving at release"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:59:31",
+      "note": "Whistleblower claim that a Border Patrol slogan is used to refer to sexually assaulting women"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "01:03:37",
+      "note": "Recruitment video cites a decade-old news report of a rape and murder by a migrant"
     }
   ],
   "notes": "Living subject, so main_span end is null and covered runs to the 2026 release. The 1909-1927 family immigration and 1924 Act segment (about 7 minutes) was treated as background, not part of Bovino's own story, so covered starts at his 1970 birth. fascism-far-right rests on the hosts' framing of the Trump-era raids and Bovino's coat; it could be dropped. Several states feature (CA, NC, IL, MN), so no subdivision was set."

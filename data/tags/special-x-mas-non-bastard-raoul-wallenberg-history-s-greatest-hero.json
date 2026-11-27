@@ -24,10 +24,7 @@
       "role": "secondary"
     }
   ],
-  "roles": [
-    "rescuer-humanitarian",
-    "politician-official"
-  ],
+  "roles": ["rescuer-humanitarian", "politician-official"],
   "themes": {
     "primary": "nazism",
     "secondary": [
@@ -39,20 +36,10 @@
     ]
   },
   "regions": {
-    "origin": [
-      "SE"
-    ],
-    "setting": [
-      "HU",
-      "RU",
-      "SE",
-      "US",
-      "IL"
-    ],
+    "origin": ["SE"],
+    "setting": ["HU", "RU", "SE", "US", "IL"],
     "subdivisions": [],
-    "polities": [
-      "soviet-union"
-    ],
+    "polities": ["soviet-union"],
     "scope": "international"
   },
   "time": {
@@ -68,10 +55,8 @@
     "approximate": true
   },
   "summary": "Swedish diplomat Raoul Wallenberg used forged-looking protective passports, safe houses and bluffing to save tens of thousands of Hungarian Jews in Budapest in 1944-45, then vanished into Soviet custody.",
-  "content_warnings": [
-    "mass-atrocity",
-    "graphic-violence"
-  ],
+  "content_warnings": ["graphic-violence", "mass-atrocity"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Budapest",
     "Schutz-Pass",
@@ -84,9 +69,7 @@
     "Righteous Among the Nations",
     "University of Michigan"
   ],
-  "guests": [
-    "Anna Hossnieh"
-  ],
+  "guests": ["Anna Hossnieh"],
   "confidence": {
     "subjects": "high",
     "roles": "high",
@@ -95,12 +78,7 @@
     "time": "medium"
   },
   "evidence": [
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:03:41",
-      "note": "born August 1912 in Sweden"
-    },
+    { "facet": "time", "part": 1, "at": "00:03:41", "note": "born August 1912 in Sweden" },
     {
       "facet": "regions",
       "part": 1,
@@ -136,6 +114,12 @@
       "part": 1,
       "at": "00:32:39",
       "note": "Soviets later claim death in captivity; fate still unknown"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:29:00",
+      "note": "Aside that many Einsatzgruppen shooters killed themselves, one reason for the gas chambers"
     }
   ],
   "notes": "Death year uncertain: transcript cites the Soviet claim as 1948 and says he most likely died in the 1950s; lifespan uses the commonly cited Soviet date 1947, approximate=true. Diplomatic cover mapped to politician-official as second role. No hero/rescue theme, so nazism (Holocaust) is primary."

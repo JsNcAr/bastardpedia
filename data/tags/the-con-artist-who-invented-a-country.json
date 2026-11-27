@@ -58,6 +58,7 @@
   },
   "summary": "Scottish soldier of fortune Gregor MacGregor fought in the Spanish American wars of independence, then in the 1820s sold British investors and settlers land in Poyais, a fictional Central American nation, where most of the colonists died.",
   "content_warnings": [],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Poyais",
     "Cazique of Poyais",
@@ -138,6 +139,18 @@
       "part": 2,
       "at": "00:43:39",
       "note": "exposed in France, later flees to Caracas and dies there in 1845"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:37:25",
+      "note": "A swindled shoemaker settler kills himself with a musket on learning Poyais was a con"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:57:59",
+      "note": "Figurative: MacGregor's wife leads a suicidal cavalry charge"
     }
   ],
   "notes": "main_span ends at the French arrest; the transcript does not date it, 1826 from general knowledge. Jamaica and France get short segments and are left out of setting. Settler deaths include a suicide and dying children, each mentioned briefly, so no content warning added; reviewer may want child-death or suicide-self-harm."

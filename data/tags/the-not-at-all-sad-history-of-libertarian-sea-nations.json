@@ -63,6 +63,7 @@
   },
   "summary": "A history of libertarian attempts to found tax-free floating nations, from the 1971 Republic of Minerva near Tonga through New Utopia, the Freedom Ship and the Seasteading Institute to the failed 2021 crypto cruise ship Satoshi, most of them grifts.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "Republic of Minerva",
     "Michael Oliver",
@@ -143,6 +144,18 @@
       "part": 2,
       "at": "01:28:44",
       "note": "Satoshi cruise ship venture in Panama collapses and the ship is sold for scrap"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:03:15",
+      "note": "Intro aside recalling earlier episodes on mass child molesters and rapists"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:07:19",
+      "note": "Joke about dolphins sexually assaulting people"
     }
   ],
   "notes": "No theme for libertarianism, micronations or tax havens; fraud-grift chosen as primary since the host frames most projects as grifts, but Elwartowski and Ocean Builders are presented as sincere. Sealand and Heinlein are brief context, so covered_span starts at Minerva 1971. Turney birth year inferred from death in 2012 at 88. Republic of Minerva left to keywords for lack of subject slots."

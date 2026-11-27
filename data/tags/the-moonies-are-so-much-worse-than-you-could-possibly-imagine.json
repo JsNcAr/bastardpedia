@@ -67,7 +67,8 @@
     "approximate": false
   },
   "summary": "Korean messiah claimant Sun Myung Moon built the Unification Church into a global business and political empire, running South Korean intelligence influence operations in the US, funding Latin American death squads and bankrolling the American religious right.",
-  "content_warnings": ["child-abuse", "mass-atrocity", "graphic-violence"],
+  "content_warnings": ["child-sexual-abuse", "child-abuse", "graphic-violence", "mass-atrocity"],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Moonies",
     "Koreagate",
@@ -89,18 +90,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:04:13", "note": "Moon's birth in January 1920 in a village in present-day North Korea" },
-    { "facet": "time", "part": 1, "at": "00:14:36", "note": "Moon founds the Holy Spirit Association for the Unification of World Christianity in Seoul" },
-    { "facet": "themes", "part": 1, "at": "00:15:37", "note": "1950s purification sex rituals, including a 17-year-old follower whose baby was taken" },
-    { "facet": "themes", "part": 1, "at": "00:42:45", "note": "KCIA founder enlists the church for influence operations on US politicians" },
-    { "facet": "themes", "part": 1, "at": "00:48:01", "note": "Japanese spiritual-sales scams targeting life-insurance payouts fund the church" },
-    { "facet": "themes", "part": 1, "at": "00:48:33", "note": "World Anti-Communist League origins and Moon's alliance with Japanese fascists and yakuza" },
-    { "facet": "themes", "part": 1, "at": "00:56:24", "note": "Fraser subcommittee investigation into KCIA and Moonie money, known as Koreagate" },
-    { "facet": "regions", "part": 2, "at": "00:01:05", "note": "Moon money backs the 1980 Bolivian cocaine coup" },
-    { "facet": "regions", "part": 2, "at": "00:15:16", "note": "church funds Contra leaders to keep them fighting in Nicaragua before Iran-Contra" },
-    { "facet": "themes", "part": 2, "at": "00:32:57", "note": "Moon bails out Viguerie and funds Christian Voice, building religious-right infrastructure" },
-    { "facet": "themes", "part": 2, "at": "01:01:11", "note": "Nansook Hong married at 15 to Moon's son and beaten while pregnant" },
-    { "facet": "time", "part": 2, "at": "01:11:36", "note": "post-2012 schism; Sean Moon's gun church and presence at the Capitol on 6 January 2021" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:04:13",
+      "note": "Moon's birth in January 1920 in a village in present-day North Korea"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:14:36",
+      "note": "Moon founds the Holy Spirit Association for the Unification of World Christianity in Seoul"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:15:37",
+      "note": "1950s purification sex rituals, including a 17-year-old follower whose baby was taken"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:42:45",
+      "note": "KCIA founder enlists the church for influence operations on US politicians"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:48:01",
+      "note": "Japanese spiritual-sales scams targeting life-insurance payouts fund the church"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:48:33",
+      "note": "World Anti-Communist League origins and Moon's alliance with Japanese fascists and yakuza"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:56:24",
+      "note": "Fraser subcommittee investigation into KCIA and Moonie money, known as Koreagate"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:01:05",
+      "note": "Moon money backs the 1980 Bolivian cocaine coup"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:15:16",
+      "note": "church funds Contra leaders to keep them fighting in Nicaragua before Iran-Contra"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:32:57",
+      "note": "Moon bails out Viguerie and funds Christian Voice, building religious-right infrastructure"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:01:11",
+      "note": "Nansook Hong married at 15 to Moon's son and beaten while pregnant"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:11:36",
+      "note": "post-2012 schism; Sean Moon's gun church and presence at the Capitol on 6 January 2021"
+    }
   ],
   "notes": "Hosted by Mia Wong (called Chris in the transcript) with Robert Evans. Setting capped at six: Guatemala, El Salvador, Uruguay, Cambodia and North Korea (prison camp, 1991 return) also get segments. Death-squad funding spans many countries; coups-insurrections chosen over war-war-crimes. Covered span ends 2021 with the church's post-death schism and January 6."
 }

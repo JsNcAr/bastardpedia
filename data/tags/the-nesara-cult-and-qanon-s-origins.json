@@ -60,6 +60,7 @@
   },
   "summary": "How a self-published 1990s economic reform plan, the Omega investment scam and New Age channeler Shaini Goodwin's newsletters fused into the NESARA conspiracy cult, which tied 9/11 to a secret law and later fed into QAnon.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "Dove of Oneness",
     "Daily Dove",
@@ -81,14 +82,66 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:03:52", "note": "Barnard devises the NESARA plan in the early 1990s" },
-    { "facet": "subjects", "part": 1, "at": "00:07:29", "note": "Clyde Hood launches Omega Trust and Trading in Mattoon" },
-    { "facet": "themes", "part": 1, "at": "00:25:00", "note": "Ramtha school as the vector spreading Omega among Washington investors" },
-    { "facet": "time", "part": 1, "at": "00:27:36", "note": "Goodwin attends the Ramtha school after it opens in 1988" },
-    { "facet": "time", "part": 1, "at": "00:48:23", "note": "Federal arrests of Hood and associates around 2000, conviction follows" },
-    { "facet": "themes", "part": 1, "at": "01:01:21", "note": "Goodwin links the 9/11 attacks to NESARA, turning it into a movement" },
-    { "facet": "time", "part": 1, "at": "01:09:33", "note": "NESARA believers still active at 2004 anti-war protests, then decline" },
-    { "facet": "time", "part": 1, "at": "01:13:11", "note": "Trump-era revival and merger with QAnon, with social media analysis" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:52",
+      "note": "Barnard devises the NESARA plan in the early 1990s"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:07:29",
+      "note": "Clyde Hood launches Omega Trust and Trading in Mattoon"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:25:00",
+      "note": "Ramtha school as the vector spreading Omega among Washington investors"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:27:36",
+      "note": "Goodwin attends the Ramtha school after it opens in 1988"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:48:23",
+      "note": "Federal arrests of Hood and associates around 2000, conviction follows"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:01:21",
+      "note": "Goodwin links the 9/11 attacks to NESARA, turning it into a movement"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:09:33",
+      "note": "NESARA believers still active at 2004 anti-war protests, then decline"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:13:11",
+      "note": "Trump-era revival and merger with QAnon, with social media analysis"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:47:20",
+      "note": "Joke about avoiding rape by wrapping oneself in foil"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:01:42",
+      "note": "Intro describes QAnon as centred on satanic pedophiles"
+    }
   ],
   "notes": "Shaini Goodwin is arguably co-primary as the cult's leader; kept secondary since the story is framed around the theory. Omega typed as criminal-org since it was a scam operation. Covered span starts at the 1988 Ramtha school background tied to Goodwin and ends with the roughly 2020 QAnon revival. Lifespans for Goodwin and Hood not given in the packet."
 }

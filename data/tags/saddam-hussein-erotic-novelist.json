@@ -52,6 +52,7 @@
   },
   "summary": "Iraqi dictator Saddam Hussein rose from a violent rural childhood through CIA-backed Ba'athist plots to purge rivals, wage wars and gas Kurds, while writing propagandistic romance novels in his final years in power before his 2006 execution.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence", "child-abuse", "suicide-self-harm", "animal-cruelty"],
   "keywords": [
     "Ba'ath Party",
     "Begone Demons",
@@ -126,6 +127,24 @@
       "part": 1,
       "at": "00:56:12",
       "note": "2003 capture, guards' account, execution in December 2006"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:25:34",
+      "note": "Saddam threatens a rival with the rape of his wife and daughters to force a confession"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:49:23",
+      "note": "Plot summary of his novel, in which the heroine is raped by her husband"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:05:14",
+      "note": "His stepfather is said to have beaten the young Saddam with a tar-soaked pipe"
     }
   ],
   "notes": "Format is deep-dive: the novels take roughly a third of the episode, the rest is biography. The transcript garbles the birth date; 1937 used. Iran-Iraq war, Anfal gassing and Kuwait are only brief mentions, so war and genocide themes and content warnings were left out. Scope kept national though Egypt and Jordan get short segments."

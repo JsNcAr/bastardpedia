@@ -58,6 +58,7 @@
   },
   "summary": "Cecil Rhodes built the De Beers diamond monopoly in southern Africa, conquered the lands named Rhodesia with a private army, and as Cape Colony prime minister laid legal groundwork for apartheid.",
   "content_warnings": ["hate-speech"],
+  "content_mentions": ["sexual-violence", "suicide-self-harm"],
   "keywords": [
     "Kimberley",
     "Big Hole",
@@ -79,17 +80,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:05:17", "note": "born July 1853 in Bishop's Stortford, Hertfordshire" },
-    { "facet": "time", "part": 2, "at": "00:57:20", "note": "dies in 1902 at 49, as the Second Boer War ends" },
-    { "facet": "time", "part": 1, "at": "00:45:44", "note": "1871 Kimberley diamond find; Rhodes heads there, start of main span" },
-    { "facet": "regions", "part": 1, "at": "01:07:08", "note": "returns to England, splits years between Oxford and the mines" },
-    { "facet": "regions", "part": 2, "at": "00:10:28", "note": "BSAC police and settlers sent into Mashonaland, present-day Zimbabwe" },
-    { "facet": "themes", "part": 1, "at": "01:29:05", "note": "De Beers pass laws, strip searches, compounds and unequal pay for black miners" },
-    { "facet": "themes", "part": 2, "at": "00:14:42", "note": "Matabele war battles: machine guns against African armies" },
-    { "facet": "themes", "part": 2, "at": "00:37:45", "note": "Glen Grey Act: tiny plots, labour tax, disenfranchisement; framed as root of apartheid" },
-    { "facet": "themes", "part": 2, "at": "00:53:41", "note": "Jameson Raid on the Transvaal fails and ends his premiership" },
-    { "facet": "content_warnings", "part": 1, "at": "01:16:34", "note": "long reading of his white-supremacist Confession of Faith" },
-    { "facet": "time", "part": 2, "at": "01:06:49", "note": "legacy: diamond cartel, Sierra Leone and Congo conflict diamonds to the present" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:05:17",
+      "note": "born July 1853 in Bishop's Stortford, Hertfordshire"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:57:20",
+      "note": "dies in 1902 at 49, as the Second Boer War ends"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:45:44",
+      "note": "1871 Kimberley diamond find; Rhodes heads there, start of main span"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:07:08",
+      "note": "returns to England, splits years between Oxford and the mines"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:10:28",
+      "note": "BSAC police and settlers sent into Mashonaland, present-day Zimbabwe"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:29:05",
+      "note": "De Beers pass laws, strip searches, compounds and unequal pay for black miners"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:14:42",
+      "note": "Matabele war battles: machine guns against African armies"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:37:45",
+      "note": "Glen Grey Act: tiny plots, labour tax, disenfranchisement; framed as root of apartheid"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:53:41",
+      "note": "Jameson Raid on the Transvaal fails and ends his premiership"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:06:49",
+      "note": "legacy: diamond cartel, Sierra Leone and Congo conflict diamonds to the present"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "01:09:58",
+      "note": "Brief reference to systematic mass rape in the later Congo mineral wars"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:16:45",
+      "note": "Ndebele king said to have possibly poisoned himself after defeat, one line"
+    }
   ],
   "notes": "Blood-diamond legacy (Sierra Leone, Second Congo War) and a 2016 conservative defense get a few minutes at the end; treated as legacy via reaches_present, not covered years or setting (SL, CD omitted). Matabele war and Boer War camp deaths are described briefly; mass-atrocity not added. Northern Rhodesia (ZM) only mentioned in passing."
 }

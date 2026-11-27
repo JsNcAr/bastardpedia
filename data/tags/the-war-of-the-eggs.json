@@ -29,21 +29,12 @@
   "roles": [],
   "themes": {
     "primary": "corporate-malfeasance",
-    "secondary": [
-      "environmental-destruction",
-      "labor-exploitation"
-    ]
+    "secondary": ["environmental-destruction", "labor-exploitation"]
   },
   "regions": {
-    "origin": [
-      "US"
-    ],
-    "setting": [
-      "US"
-    ],
-    "subdivisions": [
-      "US-CA"
-    ],
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-CA"],
     "polities": [],
     "scope": "local"
   },
@@ -60,9 +51,8 @@
     "approximate": false
   },
   "summary": "During the California Gold Rush, rival armed gangs and a monopolistic egg company fought for decades over harvesting seabird eggs on the Farallon Islands, clashing with lighthouse keepers and devastating the murre colony.",
-  "content_warnings": [
-    "animal-cruelty"
-  ],
+  "content_warnings": ["animal-cruelty"],
+  "content_mentions": [],
   "keywords": [
     "Farallon Islands",
     "San Francisco",
@@ -75,9 +65,7 @@
     "Susan Casey",
     "Petaluma"
   ],
-  "guests": [
-    "Billy Wayne Davis"
-  ],
+  "guests": ["Billy Wayne Davis"],
   "confidence": {
     "subjects": "high",
     "roles": "high",
@@ -139,6 +127,24 @@
       "part": 1,
       "at": "00:54:40",
       "note": "Murre population collapses from about 400,000 to 60,000"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:24:09",
+      "note": "Eggers smash every egg on arrival to force the murres to lay again"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:51:03",
+      "note": "Egg company clubs birds, then butchers hundreds of seals and sea lions for oil"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:54:40",
+      "note": "Decades of egg smashing and harvesting collapse the murre colony"
     }
   ],
   "notes": "Primary subject is an event, so roles are empty. No theme for frontier resource wars; corporate-malfeasance chosen for the egg company's armed monopoly, with environmental-destruction a close alternative as primary. Clift's dates are not given; floruit set to his 1858 hiring."

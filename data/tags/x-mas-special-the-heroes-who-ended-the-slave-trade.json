@@ -63,7 +63,8 @@
     "approximate": false
   },
   "summary": "British abolitionists Granville Sharp, Olaudah Equiano and Thomas Clarkson, galvanised by the 1781 Zong massacre, built the campaign that ended Britain's Atlantic slave trade with the 1807 Abolition Act.",
-  "content_warnings": ["slavery", "mass-atrocity", "sexual-violence", "torture"],
+  "content_warnings": ["sexual-violence", "slavery", "torture", "mass-atrocity"],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Atlantic slave trade",
     "Gregson v Gilbert",
@@ -90,12 +91,6 @@
       "part": 1,
       "at": "00:16:05",
       "note": "Elmina fort on the Gold Coast converted into slave dungeons; model for later trading posts"
-    },
-    {
-      "facet": "content_warnings",
-      "part": 1,
-      "at": "00:17:52",
-      "note": "account of the Elmina governor selecting and raping captive women"
     },
     {
       "facet": "subjects",
@@ -156,6 +151,12 @@
       "part": 3,
       "at": "00:55:30",
       "note": "1840 World Anti-Slavery Convention and Clarkson's final years"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:18:47",
+      "note": "Discussion of rape of enslaved women in slave castles, ships and plantations as a job perk"
     }
   ],
   "notes": "Primary is the trio named in the descriptions; Wilberforce is explicitly not covered in depth, so keyword only. Part 1 opens with ~30 min on the trade's history from 1471 (Portuguese in Ghana, 1518 start); treated as general background, so covered_span starts at Newton's birth. A reviewer may prefer adding the Atlantic slave trade as a subject and starting at 1471. Death years for Equiano and Clarkson from general knowledge. genocide-mass-killing reflects the Zong mass murder."

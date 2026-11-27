@@ -63,7 +63,13 @@
     "approximate": false
   },
   "summary": "British archaeologist turned intelligence officer T. E. Lawrence helped lead the 1916-1918 Arab Revolt against the Ottomans, codifying modern insurgent warfare while knowing Britain and France planned to carve up the region, and ordered prisoners massacred near Deraa.",
-  "content_warnings": ["mass-atrocity", "sexual-violence", "graphic-violence"],
+  "content_warnings": [
+    "sexual-violence",
+    "child-sexual-abuse",
+    "graphic-violence",
+    "mass-atrocity"
+  ],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Lawrence of Arabia",
     "Seven Pillars of Wisdom",
@@ -134,18 +140,6 @@
       "note": "long segment on Mark Sykes, Sykes-Picot and the Balfour Declaration"
     },
     {
-      "facet": "content_warnings",
-      "part": 3,
-      "at": "00:46:18",
-      "note": "extended discussion of his account of torture and rape at Deraa and doubts about it"
-    },
-    {
-      "facet": "content_warnings",
-      "part": 4,
-      "at": "00:08:51",
-      "note": "no-quarter order after Tafas and machine-gunning of about 250 prisoners"
-    },
-    {
       "facet": "themes",
       "part": 4,
       "at": "00:19:41",
@@ -156,6 +150,18 @@
       "part": 4,
       "at": "00:31:23",
       "note": "legacy: 2014 interviews with descendants of Bedouin fighters and later reappraisals"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 3,
+      "at": "00:46:18",
+      "note": "Extended discussion of Lawrence's account of being tortured and gang raped at Deraa and the debate over it"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 4,
+      "at": "00:05:40",
+      "note": "Hosts return to the assault as a possible cause of his later trauma and rashness"
     }
   ],
   "notes": "Transcript gives Dahoum's death as 1916 from typhus; some sources say 1918. His birth year is unstated (about 14 in 1911), so left null. The 1946 Giap anecdote is treated as legacy, not covered span. Antisemitic motives behind British Zionism (Sykes, Clayton) get a few minutes; racism-white-supremacy left out as secondary. main_span runs from the revolt to the 1922 Seven Pillars text."

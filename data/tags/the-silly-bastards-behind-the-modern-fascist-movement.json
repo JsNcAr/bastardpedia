@@ -64,6 +64,7 @@
   },
   "summary": "Recorded in Washington, D.C. before the 2018 Unite the Right 2 counter-protest, this episode uses leaked chat logs to examine how post-2016 American fascist groups recruited online, hid their racism and planned violence.",
   "content_warnings": ["hate-speech"],
+  "content_mentions": [],
   "keywords": [
     "Unicorn Riot",
     "Charlottesville",
@@ -85,15 +86,60 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "format", "part": 1, "at": "00:01:05", "note": "Recorded on location in DC the day of the Unite the Right 2 counter-protest" },
-    { "facet": "subjects", "part": 1, "at": "00:02:35", "note": "Episode built on leaked chat logs of post-2016 far-right groups" },
-    { "facet": "subjects", "part": 1, "at": "00:06:18", "note": "Kessler introduced as the figure embodying the first wave; his rally planning follows" },
-    { "facet": "subjects", "part": 1, "at": "00:04:08", "note": "Anti-Com profiled as a rebranded far-right group, recurring through the episode" },
-    { "facet": "themes", "part": 1, "at": "00:08:26", "note": "YouTube, gaming and GamerGate as radicalization and recruiting pipelines" },
-    { "facet": "themes", "part": 1, "at": "00:33:53", "note": "Chats about explosives manuals and evading capture after a church shooting" },
-    { "facet": "themes", "part": 1, "at": "00:54:31", "note": "Critique of media coverage that lets far-right leaders present themselves unchallenged" },
-    { "facet": "themes", "part": 1, "at": "01:01:15", "note": "Panel discusses chanting, provocation and expectations for the counter-protest" },
-    { "facet": "time", "part": 1, "at": "00:14:17", "note": "Unite the Right planning begins June 2017; collapse of groups into 2018" }
+    {
+      "facet": "format",
+      "part": 1,
+      "at": "00:01:05",
+      "note": "Recorded on location in DC the day of the Unite the Right 2 counter-protest"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:02:35",
+      "note": "Episode built on leaked chat logs of post-2016 far-right groups"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:06:18",
+      "note": "Kessler introduced as the figure embodying the first wave; his rally planning follows"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:04:08",
+      "note": "Anti-Com profiled as a rebranded far-right group, recurring through the episode"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:08:26",
+      "note": "YouTube, gaming and GamerGate as radicalization and recruiting pipelines"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:33:53",
+      "note": "Chats about explosives manuals and evading capture after a church shooting"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:54:31",
+      "note": "Critique of media coverage that lets far-right leaders present themselves unchallenged"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:01:15",
+      "note": "Panel discusses chanting, provocation and expectations for the counter-protest"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:14:17",
+      "note": "Unite the Right planning begins June 2017; collapse of groups into 2018"
+    }
   ],
   "notes": "Format current-affairs: a field-recorded episode about the movement as it stood at release, not a historical deep dive. Kessler's 2009 graduation, Occupy 2011 and GamerGate 2014 are passing background, so covered_span starts 2016. Kessler's birth year 1983 is from general knowledge."
 }

@@ -52,7 +52,8 @@
     "approximate": true
   },
   "summary": "An update on NXIVM founder Keith Raniere: his 2018 arrest in Mexico and his 2019 Brooklyn trial, where testimony on the DOS slave group, branding, blackmail collateral, starvation diets and abuse of a teenage girl led to his conviction.",
-  "content_warnings": ["sexual-violence", "child-abuse", "torture"],
+  "content_warnings": ["sexual-violence", "child-sexual-abuse", "torture"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "DOS",
     "Vanguard Week",
@@ -99,18 +100,6 @@
       "note": "child pornography of the sisters taken while they were minors"
     },
     {
-      "facet": "content_warnings",
-      "part": 1,
-      "at": "00:26:12",
-      "note": "Daniela confined to a bedroom for two years as punishment"
-    },
-    {
-      "facet": "content_warnings",
-      "part": 1,
-      "at": "00:32:25",
-      "note": "branding ritual and threatened cage punishments described from testimony"
-    },
-    {
       "facet": "themes",
       "part": 1,
       "at": "00:36:03",
@@ -121,6 +110,42 @@
       "part": 1,
       "at": "00:44:22",
       "note": "jury verdict after a few hours; guilty on all seven counts"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:18:23",
+      "note": "Trial testimony on Raniere keeping a stable of DOS sex slaves under coercion"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:43:20",
+      "note": "Account of a bound, blindfolded woman forced into a sex act; hosts note many rapes"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:19:23",
+      "note": "Raniere's grooming of Danielle from age sixteen, the core of a several-minute section"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:24:37",
+      "note": "Child sexual abuse images of the sisters taken before they were of legal age"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:19:23",
+      "note": "Brief aside that one earlier teenage victim later died by suicide"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:26:12",
+      "note": "Daniela confined to a bedroom for two years as punishment"
     }
   ],
   "notes": "Update to the earlier two-part Raniere series, so current-affairs and no lifetime rule. covered_span starts ~2002 from Daniela's segment (year from outside knowledge; transcript gives no date). Transcript places the Mexico flight in March 2018 and anticipates a 20-to-life sentence; the actual 2020 sentence was 120 years. Brief QAnon coda kept as a keyword only."

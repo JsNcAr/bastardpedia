@@ -34,7 +34,13 @@
   "roles": [],
   "themes": {
     "primary": "policing-incarceration",
-    "secondary": ["child-abuse", "education", "racism-white-supremacy", "corporate-malfeasance", "moral-panics"]
+    "secondary": [
+      "child-abuse",
+      "education",
+      "racism-white-supremacy",
+      "corporate-malfeasance",
+      "moral-panics"
+    ]
   },
   "regions": {
     "origin": ["US"],
@@ -51,6 +57,7 @@
   },
   "summary": "How the United States came to jail children at record rates from the 1970s on: courts eroding juvenile rights, the superpredator panic, zero-tolerance policing in schools, and abusive for-profit youth prisons run by James Slattery.",
   "content_warnings": ["child-abuse", "child-death"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "In re Gault",
     "Schall v. Martin",
@@ -72,18 +79,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:04:39", "note": "story opens with the 1964 Gault case and the 1967 Supreme Court ruling" },
-    { "facet": "time", "part": 1, "at": "00:09:47", "note": "courts reverse course in the late 1970s, culminating in Schall v. Martin in 1984" },
-    { "facet": "time", "part": 1, "at": "00:14:54", "note": "New York's 1978 law lets 13-year-olds be tried as adults; other states follow" },
-    { "facet": "themes", "part": 1, "at": "00:16:56", "note": "DiIulio and Wilson's superpredator prediction drives harsher laws in the 1990s" },
-    { "facet": "themes", "part": 1, "at": "00:21:13", "note": "after Columbine, armed officers and zero-tolerance discipline spread through schools" },
-    { "facet": "themes", "part": 1, "at": "00:25:51", "note": "high-stakes testing in Florida and Texas pushes suspensions; Texas Miracle and NCLB" },
-    { "facet": "themes", "part": 1, "at": "00:33:03", "note": "Black, Latino and disabled students disproportionately referred to police and arrested" },
-    { "facet": "time", "part": 1, "at": "00:34:39", "note": "2015 Lynchburg case of an 11-year-old autistic boy charged with felony assault" },
-    { "facet": "subjects", "part": 1, "at": "00:47:07", "note": "long segment on Slattery, from slum hotels to for-profit youth prisons" },
-    { "facet": "themes", "part": 1, "at": "00:51:17", "note": "abuse, maggot-filled food and beatings at the Pahokee youth facility in Florida" },
-    { "facet": "subjects", "part": 1, "at": "00:53:51", "note": "teen dies of untreated pneumonia at a company boot camp near Fort Worth in 2001" },
-    { "facet": "time", "part": 1, "at": "00:57:03", "note": "closing notes cities pulling police out of schools as of 2020" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:04:39",
+      "note": "story opens with the 1964 Gault case and the 1967 Supreme Court ruling"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:09:47",
+      "note": "courts reverse course in the late 1970s, culminating in Schall v. Martin in 1984"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:14:54",
+      "note": "New York's 1978 law lets 13-year-olds be tried as adults; other states follow"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:16:56",
+      "note": "DiIulio and Wilson's superpredator prediction drives harsher laws in the 1990s"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:21:13",
+      "note": "after Columbine, armed officers and zero-tolerance discipline spread through schools"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:25:51",
+      "note": "high-stakes testing in Florida and Texas pushes suspensions; Texas Miracle and NCLB"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:33:03",
+      "note": "Black, Latino and disabled students disproportionately referred to police and arrested"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:34:39",
+      "note": "2015 Lynchburg case of an 11-year-old autistic boy charged with felony assault"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:47:07",
+      "note": "long segment on Slattery, from slum hotels to for-profit youth prisons"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:51:17",
+      "note": "abuse, maggot-filled food and beatings at the Pahokee youth facility in Florida"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:53:51",
+      "note": "teen dies of untreated pneumonia at a company boot camp near Fort Worth in 2001"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:57:03",
+      "note": "closing notes cities pulling police out of schools as of 2020"
+    }
   ],
   "notes": "No subject kind fits a systemic policy trend well; school-to-prison pipeline entered as practice-or-pseudoscience. Slattery's birth and death years are not given, so floruit 1996 (move to Florida and youth prisons) is used. Florida and Texas both get long segments, so no single subdivision. main_span ends at the 2015 school-cop cases; the trend continues at release."
 }

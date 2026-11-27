@@ -60,6 +60,7 @@
   },
   "summary": "In his final decade, L. Ron Hubbard covertly took over Clearwater, Florida, directed Scientology's infiltration of the US government and harassment of critics, made abusive vanity films while hiding from the law, and died in seclusion in California in 1986.",
   "content_warnings": ["suicide-self-harm"],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "Clearwater",
     "Fort Harrison Hotel",
@@ -118,12 +119,6 @@
       "note": "author of a 1972 critical book framed for bomb threats and harassed for years"
     },
     {
-      "facet": "content_warnings",
-      "part": 1,
-      "at": "00:38:05",
-      "note": "son Quentin's 1976 suicide and the church's seizure of his medical records"
-    },
-    {
       "facet": "time",
       "part": 1,
       "at": "00:45:51",
@@ -152,6 +147,12 @@
       "part": 2,
       "at": "00:47:20",
       "note": "January 1986 death in seclusion; coroner findings and the church's announcement"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:38:05",
+      "note": "Hubbard's son Quentin found dead by suicide and Hubbard's angry reaction"
     }
   ],
   "notes": "partial_life set: the title and the host frame this as the last decade of Hubbard's life, a sequel to a separate biography; earlier life gets only callbacks. covered_span starts 1973 for the Snow White origin and the Cooper framing; Clearwater coda (~4 min) sets reaches_present. electoral-politics (mayor) and finance-crypto (property takeover) are loose fits. Subdivisions empty: FL, DC, CA and NV all matter."

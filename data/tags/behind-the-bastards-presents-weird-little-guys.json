@@ -54,6 +54,7 @@
   },
   "summary": "American Nazi Party teen Frank Sweeney spent six decades in and out of prison: a botched bank robbery, a shootout with police, Rhodesian mercenary service, mail fraud, false leads in a Soviet spy manhunt, and years of racist stalking by postcard in Idaho.",
   "content_warnings": ["hate-speech"],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Weird Little Guys",
     "Rhodesian Light Infantry",
@@ -75,18 +76,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "format", "part": 1, "at": "00:00:03", "note": "Robert introduces a two-part Weird Little Guys episode by Molly Conger, a network show" },
-    { "facet": "time", "part": 1, "at": "00:06:49", "note": "1962 toy-gun bank robbery attempt to fund the American Nazi Party opens the story" },
-    { "facet": "roles", "part": 1, "at": "00:11:50", "note": "1967 machine-gun standoff with police; convicted of attempted homicide" },
-    { "facet": "themes", "part": 1, "at": "00:20:09", "note": "Background on Rhodesian UDI and the Bush War as a white-minority civil conflict" },
-    { "facet": "roles", "part": 1, "at": "00:25:06", "note": "Service as a foreign recruit in the Rhodesian Light Infantry, claims of executing prisoners" },
-    { "facet": "themes", "part": 1, "at": "00:40:36", "note": "Mail fraud selling imaginary submachine guns under a forged alias" },
-    { "facet": "themes", "part": 1, "at": "00:45:41", "note": "Christopher Boyce, TRW, CIA cables and the Whitlam affair" },
-    { "facet": "regions", "part": 1, "at": "00:59:42", "note": "Letters mailed from South Africa plant false leads in the Boyce manhunt" },
-    { "facet": "themes", "part": 1, "at": "01:10:03", "note": "Jailhouse informant against Joseph Paul Franklin, then expelled from witness protection" },
-    { "facet": "themes", "part": 1, "at": "01:21:44", "note": "1990s consulting business advising first-time federal prisoners" },
-    { "facet": "themes", "part": 1, "at": "01:32:01", "note": "Racist, slur-laden postcard harassment campaign against an Idaho family" },
-    { "facet": "time", "part": 1, "at": "01:52:45", "note": "Sentenced for stalking in December 2019, released 2022; brief coda only" }
+    {
+      "facet": "format",
+      "part": 1,
+      "at": "00:00:03",
+      "note": "Robert introduces a two-part Weird Little Guys episode by Molly Conger, a network show"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:06:49",
+      "note": "1962 toy-gun bank robbery attempt to fund the American Nazi Party opens the story"
+    },
+    {
+      "facet": "roles",
+      "part": 1,
+      "at": "00:11:50",
+      "note": "1967 machine-gun standoff with police; convicted of attempted homicide"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:20:09",
+      "note": "Background on Rhodesian UDI and the Bush War as a white-minority civil conflict"
+    },
+    {
+      "facet": "roles",
+      "part": 1,
+      "at": "00:25:06",
+      "note": "Service as a foreign recruit in the Rhodesian Light Infantry, claims of executing prisoners"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:40:36",
+      "note": "Mail fraud selling imaginary submachine guns under a forged alias"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:45:41",
+      "note": "Christopher Boyce, TRW, CIA cables and the Whitlam affair"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:59:42",
+      "note": "Letters mailed from South Africa plant false leads in the Boyce manhunt"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:10:03",
+      "note": "Jailhouse informant against Joseph Paul Franklin, then expelled from witness protection"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:21:44",
+      "note": "1990s consulting business advising first-time federal prisoners"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:32:01",
+      "note": "Racist, slur-laden postcard harassment campaign against an Idaho family"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:52:45",
+      "note": "Sentenced for stalking in December 2019, released 2022; brief coda only"
+    }
   ],
   "notes": "Crossover: Molly Conger's Weird Little Guys episode on Frank Sweeney. Roles and time filled anyway. Primary theme is a judgement call between policing-incarceration (prisons, informant deals, witness protection, prison consulting) and fraud-grift. Covered span starts at the 1962 robbery; birth and childhood are brief mentions. NJ and ID both central, so no subdivision. Boyce and Franklin birth/death years from general knowledge."
 }

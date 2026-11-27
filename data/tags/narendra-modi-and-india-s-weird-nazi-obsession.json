@@ -58,7 +58,8 @@
     "approximate": false
   },
   "summary": "Indian Prime Minister Narendra Modi rose through the Nazi-admiring Hindu nationalist RSS, presided over the 2002 anti-Muslim pogrom in Gujarat as chief minister, and as premier from 2014 pushed Hindu dominance and crushed critics.",
-  "content_warnings": ["mass-atrocity", "graphic-violence", "hate-speech"],
+  "content_warnings": ["sexual-violence", "graphic-violence", "mass-atrocity", "hate-speech"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Hindutva",
     "Godhra train fire",
@@ -145,6 +146,12 @@
       "part": 2,
       "at": "00:35:35",
       "note": "February 2020 Delhi anti-Muslim violence during the Trump visit closes the story"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:53:19",
+      "note": "Vivid account of mass gang rapes of Muslim women in the 2002 Gujarat riots"
     }
   ],
   "notes": "Covered span starts at the RSS founding (secondary subject with a long segment); Modi is alive, so main_span ends null. Host says Modi is not strictly a dictator, so dictator-autocrat was left out of roles. Hindu nationalism treated as fascism-far-right; nazism secondary for the long segment on Indian Nazi admiration and the Indian Legion."

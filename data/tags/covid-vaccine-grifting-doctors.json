@@ -54,6 +54,7 @@
   },
   "summary": "Two Covid-era grifters: Napa naturopath Juli Mazi, arrested in 2021 for selling fake homeopathic Covid immunity pellets and forged vaccine cards, and ex-Pfizer scientist Michael Yeadon, who became a leading anti-vaccine misinformation figure.",
   "content_warnings": [],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "COVID-19",
     "Pfizer",
@@ -128,6 +129,12 @@
       "part": 1,
       "at": "01:01:40",
       "note": "spread via Facebook and BitChute despite moderation"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:27:58",
+      "note": "Background that Yeadon's mother died by suicide when he was an infant"
     }
   ],
   "notes": "Two equally titled subjects; Yeadon gets about two thirds of the airtime. Birth years not given in the packet, so floruit used. Format current-affairs since events were ongoing in 2021; deep-dive is arguable. covered_span start 1985 is approximate (his education and Pfizer career are a real segment). Singapore doctors and the US bar owner are brief and left out."

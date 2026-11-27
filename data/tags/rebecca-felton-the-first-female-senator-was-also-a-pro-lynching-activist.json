@@ -52,7 +52,8 @@
     "approximate": false
   },
   "summary": "Georgia plantation heiress and slaveholder Rebecca Felton became a suffragist and temperance and convict-leasing reformer, but also America's loudest advocate of lynching, helping incite the 1898 Wilmington coup before becoming the first woman US senator in 1922.",
-  "content_warnings": ["slavery", "sexual-violence", "mass-atrocity", "hate-speech"],
+  "content_warnings": ["sexual-violence", "slavery", "mass-atrocity", "hate-speech"],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "Wilmington coup",
     "Alex Manly",
@@ -127,6 +128,24 @@
       "part": 2,
       "at": "00:34:05",
       "note": "1922 appointment as senator for a day; death in 1930"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:48:49",
+      "note": "Several minutes on enslavers raping enslaved women and Felton's views on it"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:04:52",
+      "note": "Extended section on wartime rapes by soldiers, including of women Felton had enslaved, and courts martial"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:22:59",
+      "note": "Rape accusations as the pretext for lynching, central to Felton's advocacy and the Wilmington coup"
     }
   ],
   "notes": "Transcript dates William Felton's first Congress run to 1784; it must be 1874. Guest name rendered McVeigh/McVay in transcript; Stuff Mom Never Told You co-host is Samantha McVey. Yazoo land fraud and Trail of Tears get a few minutes as family background only, so covered_span starts at her birth. Only US-GA listed in subdivisions though the Wilmington, NC segment is substantial."

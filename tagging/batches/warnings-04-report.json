@@ -1,0 +1,120 @@
+[
+  {
+    "id": "the-orgasm-cult",
+    "before": {
+      "warnings": ["sexual-violence", "child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-sexual-abuse"],
+      "mentions": []
+    },
+    "notes": "Old child-abuse warning dropped: its only candidate is sexual abuse, now under child-sexual-abuse. CSA is a recurring thread across all three parts but each passage is short; detailed is a judgment call. Coerced sex with clients is the story's core (theme sexual-abuse), beyond what the scan words catch."
+  },
+  {
+    "id": "bonus-episode-untitled-warhammer-40-000-podcast",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "h-l-hunt-the-first-elon-musk",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    },
+    "notes": "Both candidates dropped: groping is hand-to-hand fighting in a quoted combat passage; incestuous is a figurative joke about a family bank. Part 2 says Hunt made money pimping; the scan found no coercion words, so not tagged. Theme domestic-abuse is outside the strict set."
+  },
+  {
+    "id": "how-ai-chatbots-became-cult-leaders",
+    "before": {
+      "warnings": ["suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["suicide-self-harm"],
+      "mentions": ["child-sexual-abuse"]
+    },
+    "notes": "Sexual-violence candidate (00:40:34) is the same minor, so moved to child-sexual-abuse. It is a chatbot, not a person; reviewer may prefer dropping it, but I kept it as a mention."
+  },
+  {
+    "id": "the-naturopathic-doctor-who-bombed-a-plane",
+    "before": {
+      "warnings": ["medical-horror"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["medical-horror"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "CSA mention rests only on meta jokes about pedophiles, nothing in the story itself; drop if such jokes do not count. Self-inflicted hand wound at 00:27:05 was accidental, dropped. Illegal abortions covered by medical-horror."
+  },
+  {
+    "id": "the-phil-spector-episodes",
+    "before": {
+      "warnings": ["suicide-self-harm", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "suicide-self-harm"],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "child-abuse"]
+    },
+    "notes": "Theme child-abuse: the adopted sons and the gun-filled mansion come up in part 3 (around 00:43-00:46) with no scan-word hits; check whether the kids' treatment is described at length. Ronnie's near-fatal fire (P3 00:49) was accidental."
+  },
+  {
+    "id": "the-first-shah-of-iran",
+    "before": {
+      "warnings": ["graphic-violence", "mass-atrocity"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "mass-atrocity"],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "Only candidate is banter about a TV show, kept as a mention. The incest reference there is not about minors, so no child-sexual-abuse."
+  },
+  {
+    "id": "sylvia-browne-fake-psychic-detective",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-abuse"]
+    },
+    "notes": "The missing-children cases (Amanda Berry, Shawn Hornbeck) are covered as kidnappings with no scan-word hits for abuse; worth a check whether the hosts mention what was done to them. P2 00:33 satanic ritual abuse claim is a conspiracy aside, not tagged."
+  },
+  {
+    "id": "from-elliott-rodger-to-clavicular-the-story-of-incel-evolution",
+    "before": {
+      "warnings": ["suicide-self-harm", "hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["suicide-self-harm", "hate-speech"],
+      "mentions": ["sexual-violence"]
+    }
+  },
+  {
+    "id": "dr-sleep-the-australian-psychiatrist-who-made-people-sleep-themselves-to-death",
+    "before": {
+      "warnings": ["medical-horror", "child-death", "child-abuse", "suicide-self-harm", "drug-use"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "child-death", "suicide-self-harm", "medical-horror", "drug-use"],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "Child-abuse comes from the 13-year-old patient (no scan-word hits); it is short but vivid, hence detailed. Sexual exploitation of patients runs about a minute, kept as a mention. Detailed is a judgment call."
+  }
+]

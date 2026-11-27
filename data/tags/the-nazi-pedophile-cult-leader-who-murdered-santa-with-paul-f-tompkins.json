@@ -59,7 +59,14 @@
     "approximate": false
   },
   "summary": "German Nazi veteran and preacher Paul Schäfer founded Colonia Dignidad in Chile in 1961, sexually abused its children for decades and let Pinochet's secret police torture and kill dissidents there until his 2005 arrest.",
-  "content_warnings": ["child-abuse", "torture", "medical-horror", "mass-atrocity"],
+  "content_warnings": [
+    "child-sexual-abuse",
+    "child-abuse",
+    "torture",
+    "mass-atrocity",
+    "medical-horror"
+  ],
+  "content_mentions": ["sexual-violence", "suicide-self-harm"],
   "keywords": [
     "Villa Baviera",
     "Parral",
@@ -81,18 +88,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:05:14", "note": "Birth in December 1921 near Siegburg, Bonn or Troisdorf; sources disagree" },
-    { "facet": "time", "part": 2, "at": "01:08:33", "note": "Extradited to Chile in 2006 and convicted of child abuse, then weapons and torture" },
-    { "facet": "time", "part": 2, "at": "01:09:35", "note": "Dies of heart failure in a prison hospital in 2010 aged 88" },
-    { "facet": "regions", "part": 1, "at": "00:35:42", "note": "Arrives in Santiago in 1961 and buys a ranch south of the capital for the colony" },
-    { "facet": "regions", "part": 1, "at": "00:37:14", "note": "Colony land lies outside Parral in the Andean foothills, central Chile" },
-    { "facet": "regions", "part": 2, "at": "01:06:53", "note": "Tracked down and arrested in a gated community in Buenos Aires in 2005" },
-    { "facet": "subjects", "part": 1, "at": "00:26:12", "note": "Extended digression on William Branham, the US preacher Schafer followed" },
-    { "facet": "themes", "part": 1, "at": "01:10:58", "note": "After the 1973 coup the colony becomes a DINA torture and execution site" },
-    { "facet": "themes", "part": 1, "at": "01:02:11", "note": "Colony hospital used to drug captives and give electroshock torture" },
-    { "facet": "themes", "part": 2, "at": "00:15:29", "note": "Members, children included, drugged and forced into long shifts on heavy machinery" },
-    { "facet": "themes", "part": 2, "at": "00:43:25", "note": "Reports of the colony sheltering Nazi fugitives and funding links to old Nazis" },
-    { "facet": "time", "part": 2, "at": "01:11:14", "note": "Colony continues today as the tourist village Villa Baviera; victim payments discussed" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:05:14",
+      "note": "Birth in December 1921 near Siegburg, Bonn or Troisdorf; sources disagree"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:08:33",
+      "note": "Extradited to Chile in 2006 and convicted of child abuse, then weapons and torture"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:09:35",
+      "note": "Dies of heart failure in a prison hospital in 2010 aged 88"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:35:42",
+      "note": "Arrives in Santiago in 1961 and buys a ranch south of the capital for the colony"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:37:14",
+      "note": "Colony land lies outside Parral in the Andean foothills, central Chile"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "01:06:53",
+      "note": "Tracked down and arrested in a gated community in Buenos Aires in 2005"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:26:12",
+      "note": "Extended digression on William Branham, the US preacher Schafer followed"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:10:58",
+      "note": "After the 1973 coup the colony becomes a DINA torture and execution site"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:02:11",
+      "note": "Colony hospital used to drug captives and give electroshock torture"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:15:29",
+      "note": "Members, children included, drugged and forced into long shifts on heavy machinery"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:43:25",
+      "note": "Reports of the colony sheltering Nazi fugitives and funding links to old Nazis"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:11:14",
+      "note": "Colony continues today as the tourist village Villa Baviera; victim payments discussed"
+    }
   ],
   "notes": "Birthplace uncertain in the transcript (Siegburg, Bonn or Troisdorf). main_span starts at the 1961 move to Chile; the German orphanage years (1950s) are covered in covered_span via the lifetime rule. Post-2010 coda on Hopp's non-extradition and Villa Baviera is short, so it sets reaches_present rather than extending covered_span. Pinochet appears via keywords rather than as a subject."
 }

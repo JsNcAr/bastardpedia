@@ -64,7 +64,8 @@
     "approximate": false
   },
   "summary": "Pennsylvania judges Mark Ciavarella and Michael Conahan took millions in kickbacks in the 2000s for filling a private youth jail with children sentenced for trivial offences, set against a century of abuse in Texas's juvenile prisons.",
-  "content_warnings": ["child-abuse", "torture", "suicide-self-harm"],
+  "content_warnings": ["child-sexual-abuse", "child-abuse", "torture", "suicide-self-harm"],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Kids for Cash",
     "Luzerne County",
@@ -111,12 +112,6 @@
       "note": "Ciavarella's judicial campaign ad promising maximum sentences"
     },
     {
-      "facet": "content_warnings",
-      "part": 1,
-      "at": "00:44:06",
-      "note": "Two young men sentenced by Ciavarella later die by suicide, per their mothers"
-    },
-    {
       "facet": "time",
       "part": 1,
       "at": "01:01:25",
@@ -135,12 +130,6 @@
       "note": "Racial segregation and disparities at Gatesville in its early decades"
     },
     {
-      "facet": "content_warnings",
-      "part": 2,
-      "at": "00:19:21",
-      "note": "Corporal punishments at Gatesville: toe-holding, beatings with a bat"
-    },
-    {
       "facet": "themes",
       "part": 2,
       "at": "00:38:11",
@@ -157,6 +146,18 @@
       "part": 2,
       "at": "01:02:02",
       "note": "2019 DOJ complaint on routine force against children; abuse continues to release"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:18:50",
+      "note": "Corporal punishment and torture of boys at Gatesville read from a history"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:56:49",
+      "note": "Detailed case of a staff psychologist sexually exploiting a boy in custody"
     }
   ],
   "notes": "Two-part story: Part 1 is the Luzerne County Kids for Cash scandal, Part 2 the history of Texas youth prisons, so both are primary. No judge role exists; politician-official (elected judges) and criminal-killer (bribery convictions) are approximations. No corruption theme; fraud-grift used for the kickbacks. main_span follows the title scandal; Part 2's core runs 1889-2019. Conahan birth year from general knowledge."

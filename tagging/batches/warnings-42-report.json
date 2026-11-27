@@ -1,0 +1,121 @@
+[
+  {
+    "id": "john-mcafee-is-not-funny-anymore",
+    "before": {
+      "warnings": ["sexual-violence", "drug-use"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "drug-use"],
+      "mentions": ["child-sexual-abuse", "child-abuse", "suicide-self-harm", "animal-cruelty"]
+    },
+    "notes": "child-sexual-abuse rests only on a smear clip where a man claims he was 17; reviewer may drop it. child-abuse is the father's beatings, one line."
+  },
+  {
+    "id": "roger-stone-evil-genius-or-sad-broken-boy",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Both are throwaway or figurative mentions; kept under the when-in-doubt rule."
+  },
+  {
+    "id": "the-whole-story-behind-that-we-build-the-wall-gofundme",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "the-birth-of-the-ku-klux-klan",
+    "before": {
+      "warnings": ["graphic-violence", "hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "hate-speech"],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    },
+    "notes": "Stephenson case is brief here (about a minute). Reconstruction-era Klan terror may include sexual violence the scan missed; theme list has no sexual-abuse, so left at mentions."
+  },
+  {
+    "id": "mark-zuckerberg-the-worst-person-of-the-21st-century-so-far",
+    "before": {
+      "warnings": ["mass-atrocity"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["mass-atrocity"],
+      "mentions": ["sexual-violence", "animal-cruelty"]
+    },
+    "notes": "animal-cruelty is only a joke about killing a horse; reviewer may drop it. The suicide candidate (MIT students dying while using nitrous) is accidental death and was dropped."
+  },
+  {
+    "id": "r-kelly-his-life-times-vicious-sex-cult",
+    "before": {
+      "warnings": ["child-abuse", "sexual-violence", "suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"],
+      "mentions": []
+    },
+    "notes": "Old child-abuse warning was sexual abuse (Kelly as a child, teen girls), so it becomes child-sexual-abuse. No physical child abuse seen in the scan; reviewer may restore child-abuse if the full transcript has it."
+  },
+  {
+    "id": "alfred-hitchcock-the-director-who-randomly-tortured-people",
+    "before": {
+      "warnings": ["sexual-violence", "torture"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "torture"],
+      "mentions": ["child-sexual-abuse", "child-abuse", "animal-cruelty"]
+    },
+    "notes": "animal-cruelty is only a dogfighting joke and child-abuse a corporal-punishment anecdote; reviewer may drop either. Hitchcock's own childhood punishments may be covered beyond the scan."
+  },
+  {
+    "id": "special-x-mas-non-bastard-raoul-wallenberg-history-s-greatest-hero",
+    "before": {
+      "warnings": ["mass-atrocity", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "mass-atrocity"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Sexual-violence candidate was people groping in pockets for papers; dropped."
+  },
+  {
+    "id": "the-bastards-that-kill-diabetics-for-a-profit",
+    "before": {
+      "warnings": ["animal-cruelty"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["animal-cruelty"],
+      "mentions": []
+    },
+    "notes": "Kept detailed from the original tag: the scan has one candidate, but the dog experiments behind insulin's discovery likely run longer than the scan words show. Reviewer may move to mentions."
+  },
+  {
+    "id": "jacob-wohl-and-the-krassensteins-a-tale-of-several-grifters",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "Allegations against Mueller were fabricated; the mention is about the smear, not an assault."
+  }
+]

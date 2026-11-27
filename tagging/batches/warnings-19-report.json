@@ -1,0 +1,132 @@
+[
+  {
+    "id": "how-sam-bankman-fried-conned-the-crypto-world",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    }
+  },
+  {
+    "id": "how-cigarettes-invented-everything",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["suicide-self-harm"]
+    }
+  },
+  {
+    "id": "why-is-the-rent-so-damn-high",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence"]
+    }
+  },
+  {
+    "id": "robert-and-cody-watch-jordan-b-peterson-s-new-tv-show",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["child-sexual-abuse"]
+    },
+    "notes": "Dropped part 2 00:05:16: 'molest' is used in its old sense of bothering, not abuse."
+  },
+  {
+    "id": "peter-nygard-the-epstein-of-fashion",
+    "before": {
+      "warnings": ["sexual-violence", "child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-sexual-abuse"],
+      "mentions": ["animal-cruelty"]
+    },
+    "notes": "Old child-abuse warning converted to child-sexual-abuse: candidates show only sexual abuse of minors, no non-sexual child abuse."
+  },
+  {
+    "id": "mkultra-when-the-cia-tried-to-destroy-free-will",
+    "before": {
+      "warnings": ["torture", "medical-horror", "drug-use", "suicide-self-harm", "child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "torture", "suicide-self-harm", "medical-horror", "drug-use"],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "child-abuse"]
+    },
+    "notes": "Hypnotist rape run (P2 04-07) and the child rape-murder case (P4 28-30) are each a few minutes; mention vs detailed is a judgement call."
+  },
+  {
+    "id": "constructing-the-crack-epidemic",
+    "before": {
+      "warnings": ["drug-use", "suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["suicide-self-harm", "drug-use"],
+      "mentions": []
+    },
+    "notes": "CSA candidates dropped: 'groomed' means groomed as heir, 'incestuous' describes the ruling class figuratively."
+  },
+  {
+    "id": "the-racist-cult-behind-herbal-tea",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": ["child-sexual-abuse", "child-abuse", "suicide-self-harm"]
+    },
+    "notes": "'Incestuous family unit' in part 2 is figurative for an insular group; not counted on its own."
+  },
+  {
+    "id": "a-book-episode-with-rush-limbaugh",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["child-sexual-abuse"]
+    }
+  },
+  {
+    "id": "oskar-dirlwanger-the-worst-nazi",
+    "before": {
+      "warnings": [
+        "mass-atrocity",
+        "sexual-violence",
+        "graphic-violence",
+        "child-abuse",
+        "child-death",
+        "torture"
+      ],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [
+        "sexual-violence",
+        "child-sexual-abuse",
+        "child-death",
+        "graphic-violence",
+        "torture",
+        "mass-atrocity"
+      ],
+      "mentions": ["child-abuse", "suicide-self-harm", "animal-cruelty"]
+    },
+    "notes": "Animal-cruelty is a thin mention (poaching in passing); reviewer may drop. Child-abuse kept detailed for the school beatings run."
+  }
+]

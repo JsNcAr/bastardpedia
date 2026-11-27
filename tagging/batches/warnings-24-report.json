@@ -1,0 +1,130 @@
+[
+  {
+    "id": "the-nazi-pedophile-cult-leader-who-murdered-santa-with-paul-f-tompkins",
+    "before": {
+      "warnings": ["child-abuse", "torture", "medical-horror", "mass-atrocity"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [
+        "child-sexual-abuse",
+        "child-abuse",
+        "torture",
+        "mass-atrocity",
+        "medical-horror"
+      ],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    },
+    "notes": "child-abuse kept as detailed from the original tag (theme child-abuse); the scan found no child-abuse words, so a reviewer may confirm it was not only the sexual abuse."
+  },
+  {
+    "id": "ichh-that-time-the-cia-dosed-a-french-town-with-acid-spooky-week-1",
+    "before": {
+      "warnings": ["drug-use"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["drug-use"],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "The only candidate is a figurative joke about duck behaviour; kept as a mention per the when-in-doubt rule."
+  },
+  {
+    "id": "ben-shapiro-wrote-a-book-about-sex",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["child-sexual-abuse"]
+    }
+  },
+  {
+    "id": "joe-pyne-the-man-who-invented-right-wing-talk-radio",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": ["child-sexual-abuse"]
+    },
+    "notes": "Brawley was 15, so filed under child-sexual-abuse. Kitten-incest banter and a consensual groping remark dropped. Unclear how long part 3 dwells on Brawley."
+  },
+  {
+    "id": "amway-the-gravedigger-of-democracy",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "Both are brief comparisons, kept as mentions."
+  },
+  {
+    "id": "reading-about-nesara",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["child-sexual-abuse"]
+    },
+    "notes": "The rape wording at 00:39:00 refers to children in the conspiracy claim, so it goes under child-sexual-abuse, not sexual-violence."
+  },
+  {
+    "id": "the-nesara-cult-and-qanon-s-origins",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    }
+  },
+  {
+    "id": "the-slavery-loving-fascist-who-built-modern-japan",
+    "before": {
+      "warnings": ["slavery", "sexual-violence", "child-abuse", "torture", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [
+        "sexual-violence",
+        "child-sexual-abuse",
+        "slavery",
+        "graphic-violence",
+        "torture"
+      ],
+      "mentions": ["child-abuse", "suicide-self-harm", "animal-cruelty"]
+    },
+    "notes": "Old child-abuse was mostly sexual abuse of girls (now child-sexual-abuse); kept as a mention per the merge rule. Animal-cruelty rests only on a figurative comparison in testimony."
+  },
+  {
+    "id": "the-italian-invasions-of-ethiopia",
+    "before": {
+      "warnings": ["mass-atrocity", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "mass-atrocity"],
+      "mentions": ["sexual-violence"]
+    }
+  },
+  {
+    "id": "the-ivermectin-episode",
+    "before": {
+      "warnings": ["drug-use"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["drug-use"],
+      "mentions": []
+    }
+  }
+]

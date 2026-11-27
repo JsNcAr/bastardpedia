@@ -46,7 +46,8 @@
     "approximate": true
   },
   "summary": "Naturalist and bird painter John James Audubon, namesake of the Audubon Society, bought and sold enslaved people in Kentucky, faked a bird species to raise funds, and robbed Indigenous graves for skulls supplied to race scientist Samuel Morton.",
-  "content_warnings": ["slavery"],
+  "content_warnings": ["slavery", "animal-cruelty"],
+  "content_mentions": [],
   "keywords": [
     "Birds of America",
     "Ornithological Biography",
@@ -68,16 +69,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "regions", "part": 1, "at": "00:04:46", "note": "born in Saint-Domingue (modern Haiti) to a French slave-trading captain" },
-    { "facet": "regions", "part": 1, "at": "00:11:58", "note": "raised in Nantes, France before being sent to Pennsylvania" },
-    { "facet": "time", "part": 1, "at": "00:19:22", "note": "early bird-banding experiment on the family farm in Pennsylvania" },
-    { "facet": "themes", "part": 1, "at": "00:29:49", "note": "works as a slave dealer and keeps enslaved people in Kentucky households" },
-    { "facet": "themes", "part": 1, "at": "00:47:37", "note": "invents the nonexistent Bird of Washington to raise money in Europe" },
-    { "facet": "themes", "part": 1, "at": "00:51:17", "note": "Runaway tale in Ornithological Biography returning a fugitive family to slavery" },
-    { "facet": "themes", "part": 1, "at": "00:55:57", "note": "Morton as patron; craniometry and the roots of scientific racism" },
-    { "facet": "time", "part": 1, "at": "00:57:32", "note": "1843 Missouri trip: takes skulls from Assiniboine burials after smallpox" },
-    { "facet": "time", "part": 1, "at": "01:04:18", "note": "Morton skulls held by Penn Museum, slow NAGPRA repatriation to the present" },
-    { "facet": "time", "part": 1, "at": "01:07:58", "note": "Audubon Society's 2020 reckoning with his record after a Central Park incident" }
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:04:46",
+      "note": "born in Saint-Domingue (modern Haiti) to a French slave-trading captain"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:11:58",
+      "note": "raised in Nantes, France before being sent to Pennsylvania"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:19:22",
+      "note": "early bird-banding experiment on the family farm in Pennsylvania"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:29:49",
+      "note": "works as a slave dealer and keeps enslaved people in Kentucky households"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:47:37",
+      "note": "invents the nonexistent Bird of Washington to raise money in Europe"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:51:17",
+      "note": "Runaway tale in Ornithological Biography returning a fugitive family to slavery"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:55:57",
+      "note": "Morton as patron; craniometry and the roots of scientific racism"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:57:32",
+      "note": "1843 Missouri trip: takes skulls from Assiniboine burials after smallpox"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:04:18",
+      "note": "Morton skulls held by Penn Museum, slow NAGPRA repatriation to the present"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:07:58",
+      "note": "Audubon Society's 2020 reckoning with his record after a Central Park incident"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:21:28",
+      "note": "Several minutes on shooting birds and wiring fresh corpses into poses to draw"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:39:18",
+      "note": "He shoots, dissects and eats thousands of specimen animals"
+    }
   ],
   "notes": "Transcript garbles the birth year; 1785 used from general knowledge. Roles: entertainer-artist stands in for wildlife painter; business-executive covers his store and slave dealing. Townsend gets a short segment only, so kept as a keyword. Grave robbing of Indigenous remains tagged cultural-heritage-looting as the closest fit."
 }

@@ -43,6 +43,7 @@
   },
   "summary": "Biography of Amazon founder Jeff Bezos from his New Mexico and Texas childhood through Wall Street to founding Amazon in 1994, and how his data-obsessed management built a punishing corporate culture and dangerous warehouse conditions.",
   "content_warnings": [],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "The Everything Store",
     "Brad Stone",
@@ -64,14 +65,60 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:07:57", "note": "born January 1964 in Albuquerque, New Mexico" },
-    { "facet": "themes", "part": 1, "at": "00:23:10", "note": "long segment on the Houston public-school gifted program he attended" },
-    { "facet": "themes", "part": 1, "at": "00:53:36", "note": "fintech career and hedge fund D. E. Shaw before founding Amazon" },
-    { "facet": "time", "part": 2, "at": "00:03:38", "note": "sales-tax loophole drives the 1994 move to Seattle to found the company" },
-    { "facet": "themes", "part": 2, "at": "00:20:26", "note": "2015 New York Times reporting on Amazon's punishing office culture" },
-    { "facet": "themes", "part": 2, "at": "00:37:43", "note": "Bezos rejects a respect-for-workers paper and pushes warehouse turnover to avoid unions" },
-    { "facet": "themes", "part": 2, "at": "00:39:18", "note": "2011 warehouse heat incident after Bezos refused air conditioning" },
-    { "facet": "time", "part": 2, "at": "00:42:53", "note": "Kiva robots around 2014 and worker surveillance carry the story to the present" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:07:57",
+      "note": "born January 1964 in Albuquerque, New Mexico"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:23:10",
+      "note": "long segment on the Houston public-school gifted program he attended"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:53:36",
+      "note": "fintech career and hedge fund D. E. Shaw before founding Amazon"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:03:38",
+      "note": "sales-tax loophole drives the 1994 move to Seattle to found the company"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:20:26",
+      "note": "2015 New York Times reporting on Amazon's punishing office culture"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:37:43",
+      "note": "Bezos rejects a respect-for-workers paper and pushes warehouse turnover to avoid unions"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:39:18",
+      "note": "2011 warehouse heat incident after Bezos refused air conditioning"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:42:53",
+      "note": "Kiva robots around 2014 and worker surveillance carry the story to the present"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:25:04",
+      "note": "Quoted Bezos tirade includes a hyperbolic threat to kill himself"
+    }
   ],
   "notes": "Amazon is treated as co-primary because it is in the title and part 2 is mostly company history. Bezos was alive and still active at release (stepped down as CEO in 2021), so main_span end is null. Episode is framed as a prelude to the Megacorp podcast."
 }

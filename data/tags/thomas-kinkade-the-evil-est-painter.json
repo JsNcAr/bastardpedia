@@ -61,6 +61,7 @@
   },
   "summary": "American painter Thomas Kinkade, the self-styled Painter of Light, sold mass-produced, lightly retouched prints as investments through a Christian-branded gallery franchise that ruined its owners, while groping employees before dying of an overdose in 2012.",
   "content_warnings": ["sexual-violence", "drug-use"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Painter of Light",
     "Lighthouse Publishing",
@@ -131,12 +132,6 @@
       "note": "member of a Bush presidential prayer team; art framed as conservative ideology"
     },
     {
-      "facet": "content_warnings",
-      "part": 2,
-      "at": "00:39:13",
-      "note": "2002 South Bend gathering where he gropes a gallery employee, per arbitration testimony"
-    },
-    {
       "facet": "themes",
       "part": 2,
       "at": "00:52:46",
@@ -153,6 +148,12 @@
       "part": 2,
       "at": "00:55:36",
       "note": "estate fight, the company continuing after his death and a study on disliking his art"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:38:11",
+      "note": "Court testimony on Kinkade harassing and groping employees, a few minutes"
     }
   ],
   "notes": "Vocabulary gap: no theme for fine art or the art market; entertainment-celebrity is the closest fit. Part 1 spends several minutes comparing his style and business to present-day AI-generated Facebook images; treated as a comparison, so artificial-intelligence was left out. reaches_present is borderline: the legacy segment is short but the AI comparison and the company's continued licensing tie the story to the present."

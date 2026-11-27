@@ -63,6 +63,7 @@
   },
   "summary": "Alfred Krupp turned his family's failing Essen steelworks into the world's first great arms maker, selling steel cannon to all sides, arming Prussia's wars of unification and ruling his workers through welfare, surveillance and union-busting until his death in 1887.",
   "content_warnings": ["graphic-violence"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Essen",
     "Cannon King",
@@ -151,10 +152,10 @@
       "note": "sells to Prussia and Austria on the eve of their war, defies the king"
     },
     {
-      "facet": "content_warnings",
+      "facet": "content_mentions",
       "part": 2,
-      "at": "00:21:24",
-      "note": "vivid eyewitness accounts of shell-torn bodies at Paris"
+      "at": "00:17:45",
+      "note": "Figurative use: calls Paris resisting the Prussian siege suicidal"
     }
   ],
   "notes": "Transcript dates the first London show to 1850 and gives the death date as July; the Great Exhibition was 1851 and Krupp died 14 July 1887. Covered span starts 1810 with Friedrich as a secondary subject; earlier Krupp ancestors (1500s-1700s) treated as background. reaches_present rests on the ~3 minute ThyssenKrupp-Egypt frame plus later legacy remarks. Austro-Prussian war setting (Bohemia) not named, so CZ/AT omitted."

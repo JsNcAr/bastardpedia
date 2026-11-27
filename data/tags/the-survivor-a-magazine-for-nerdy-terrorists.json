@@ -50,6 +50,7 @@
   },
   "summary": "A reading of survivalist Kurt Saxon's self-published 1970s magazine The Survivor, which mixed old DIY guides with bomb-making plugs, racist asides and a column warning politicians that gun control would be answered with bombs.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "survivalism",
     "prepping",
@@ -112,6 +113,24 @@
       "part": 1,
       "at": "01:00:38",
       "note": "reader letter about setting off smoke bombs at school using the book"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:44:27",
+      "note": "Hosts note gun-printing and similar figures later found to be pedophiles or held child abuse images"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:50:43",
+      "note": "Saxon's column compares letter bombers to child molesters"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:07:25",
+      "note": "Saxon's text uses rape figuratively for humans exploiting the environment"
     }
   ],
   "notes": "Media-reading of one issue of The Survivor; the transcript gives 1976 and a Taxi Driver review fixes the date, but issue range is approximate. Primary theme could equally be weapons-arms-trade; no theme for survivalism/prepping. Lifespan of Saxon (born Donald Sisco) from general knowledge, not the transcript. Sirhan and Bremer are only cited inside an op-ed, so 1968-72 not covered."

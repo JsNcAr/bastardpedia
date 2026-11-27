@@ -52,7 +52,8 @@
     "approximate": false
   },
   "summary": "American surgeon John Ronald Brown performed cheap, unsafe sex reassignment surgeries on trans women in California and Tijuana for decades after losing his license, maiming many, and was convicted of murder after a 1998 leg amputation killed a patient.",
-  "content_warnings": ["medical-horror", "suicide-self-harm"],
+  "content_warnings": ["suicide-self-harm", "medical-horror"],
+  "content_mentions": ["child-sexual-abuse", "animal-cruelty"],
   "keywords": [
     "Tijuana",
     "Tabletop Brown",
@@ -74,18 +75,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:18:57", "note": "birth date given as July 14; year garbled in transcript, likely Utah origin" },
-    { "facet": "time", "part": 2, "at": "00:38:32", "note": "dies of pneumonia in prison in 2010 just short of his 88th birthday, so born 1922" },
-    { "facet": "time", "part": 1, "at": "00:28:19", "note": "February 1973 Stanford symposium talk on his genital surgery technique" },
-    { "facet": "themes", "part": 1, "at": "00:31:23", "note": "partner Spence poses as a doctor despite no valid medical degree" },
-    { "facet": "themes", "part": 1, "at": "00:43:29", "note": "California board revokes his license in 1977 for gross negligence" },
-    { "facet": "regions", "part": 1, "at": "00:26:13", "note": "opens surgical practice in San Francisco" },
-    { "facet": "regions", "part": 1, "at": "00:52:20", "note": "sets up unlicensed clinic in Tijuana while living in Chula Vista" },
-    { "facet": "subjects", "part": 2, "at": "00:19:19", "note": "psychoanalyst Furth seeks a leg amputation, introducing the fatal case" },
-    { "facet": "themes", "part": 2, "at": "00:29:12", "note": "Bondy found dead of gas gangrene in a motel days after the amputation" },
-    { "facet": "themes", "part": 2, "at": "00:16:42", "note": "FBI shuts clinic; prison term for practicing without a license" },
-    { "facet": "content_warnings", "part": 2, "at": "00:30:15", "note": "patient Christina dies by suicide after a series of botched operations" },
-    { "facet": "themes", "part": 2, "at": "00:37:28", "note": "unanimous conviction and 15-year sentence after patient testimony" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:18:57",
+      "note": "birth date given as July 14; year garbled in transcript, likely Utah origin"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:38:32",
+      "note": "dies of pneumonia in prison in 2010 just short of his 88th birthday, so born 1922"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:28:19",
+      "note": "February 1973 Stanford symposium talk on his genital surgery technique"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:31:23",
+      "note": "partner Spence poses as a doctor despite no valid medical degree"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:43:29",
+      "note": "California board revokes his license in 1977 for gross negligence"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:26:13",
+      "note": "opens surgical practice in San Francisco"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:52:20",
+      "note": "sets up unlicensed clinic in Tijuana while living in Chula Vista"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:19:19",
+      "note": "psychoanalyst Furth seeks a leg amputation, introducing the fatal case"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:29:12",
+      "note": "Bondy found dead of gas gangrene in a motel days after the amputation"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:16:42",
+      "note": "FBI shuts clinic; prison term for practicing without a license"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:37:28",
+      "note": "unanimous conviction and 15-year sentence after patient testimony"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:30:15",
+      "note": "Patient dies by suicide after botched surgeries; mother tells the story"
+    }
   ],
   "notes": "About 17 minutes of part 1 survey trans medical history (Hirschfeld, Elbe, Jorgensen, gender clinics); treated as background, so not subjects and not in covered_span. Birth year 1922 inferred from death in 2010 near his 88th birthday. Conviction year 1999 and Bondy's death in 1998 come from general knowledge; transcript gives month only. St Lucia (marriage) and Hawaii/Alaska are brief."
 }

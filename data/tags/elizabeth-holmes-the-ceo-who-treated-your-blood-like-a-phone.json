@@ -47,6 +47,7 @@
   },
   "summary": "Stanford dropout Elizabeth Holmes founded Theranos in 2003 and raised billions selling a finger-prick blood-testing machine that never worked, putting patients at risk with faulty results until the company collapsed in 2018.",
   "content_warnings": ["suicide-self-harm"],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "Bad Blood",
     "John Carreyrou",
@@ -68,15 +69,72 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:02:04", "note": "Holmes's birth in Washington DC and wealthy family background" },
-    { "facet": "time", "part": 1, "at": "00:33:54", "note": "Singapore internship, patent filing and founding of Real-Time Cures after dropping out" },
-    { "facet": "themes", "part": 1, "at": "00:45:17", "note": "Safeway and Walgreens deals and lab-developed-test regulatory loophole" },
-    { "facet": "content_warnings", "part": 1, "at": "00:50:25", "note": "chief scientist Ian Gibbons's suicide attempt and death in 2013" },
-    { "facet": "themes", "part": 1, "at": "00:50:55", "note": "glowing 2014 Fortune cover story and press credulity" },
-    { "facet": "themes", "part": 2, "at": "00:19:12", "note": "CMS inspection finds dangerously inaccurate patient test results" },
-    { "facet": "themes", "part": 2, "at": "00:28:11", "note": "Carreyrou's 2015 WSJ exposé and the Cramer interview counterattack" },
-    { "facet": "time", "part": 2, "at": "00:37:31", "note": "Theranos dissolved in 2018; charges against Holmes and Balwani pending" },
-    { "facet": "time", "part": 2, "at": "00:38:33", "note": "Holmes's life at release time: San Francisco, dating, ongoing cases" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:02:04",
+      "note": "Holmes's birth in Washington DC and wealthy family background"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:33:54",
+      "note": "Singapore internship, patent filing and founding of Real-Time Cures after dropping out"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:45:17",
+      "note": "Safeway and Walgreens deals and lab-developed-test regulatory loophole"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:50:55",
+      "note": "glowing 2014 Fortune cover story and press credulity"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:19:12",
+      "note": "CMS inspection finds dangerously inaccurate patient test results"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:28:11",
+      "note": "Carreyrou's 2015 WSJ exposé and the Cramer interview counterattack"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:37:31",
+      "note": "Theranos dissolved in 2018; charges against Holmes and Balwani pending"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:38:33",
+      "note": "Holmes's life at release time: San Francisco, dating, ongoing cases"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:50:25",
+      "note": "Account of chief scientist Ian Gibbons's pill overdose and death, with method, framed as the story's low point"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:30:48",
+      "note": "Aside about Elon Musk smearing a cave rescue diver as a pedophile"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:50:25",
+      "note": "chief scientist Ian Gibbons's suicide attempt and death in 2013"
+    }
   ],
   "notes": "Main span ends at the 2018 dissolution and indictment; her 2022 conviction postdates the episode. Balwani is secondary as Theranos president and enforcer. Brief China and Singapore periods in her youth left out of setting as passing segments."
 }

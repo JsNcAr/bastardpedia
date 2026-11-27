@@ -35,7 +35,12 @@
   "roles": ["media-personality", "physician-surgeon", "quack-fake-healer"],
   "themes": {
     "primary": "quackery-pseudoscience",
-    "secondary": ["entertainment-celebrity", "occult-esoteric", "wellness-self-help", "public-health"]
+    "secondary": [
+      "entertainment-celebrity",
+      "occult-esoteric",
+      "wellness-self-help",
+      "public-health"
+    ]
   },
   "regions": {
     "origin": ["US", "TR"],
@@ -52,6 +57,7 @@
   },
   "summary": "American heart surgeon Mehmet Oz used his credentials and fame from Oprah and his own TV show, from 2004 on, to promote psychics, energy healing and unproven weight-loss supplements to millions of viewers.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "The Oprah Winfrey Show",
     "Columbia University",
@@ -73,15 +79,72 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:06:42", "note": "birth date given; marriage at 25 in 1985 implies 1960" },
-    { "facet": "subjects", "part": 1, "at": "00:25:21", "note": "private grant founds the Columbia alternative medicine center Oz joins" },
-    { "facet": "themes", "part": 1, "at": "00:21:46", "note": "energy healers work on a patient during his bypass surgery" },
-    { "facet": "subjects", "part": 1, "at": "00:38:45", "note": "segment on flawed energy-medicine studies funded by NCCAM" },
-    { "facet": "time", "part": 1, "at": "00:45:30", "note": "first invited onto Oprah in 2004, start of TV career" },
-    { "facet": "themes", "part": 2, "at": "00:10:49", "note": "2012 episode with a medium; many shows on talking to the dead" },
-    { "facet": "themes", "part": 2, "at": "00:40:37", "note": "weight-loss supplement claims challenged at Senate hearing" },
-    { "facet": "themes", "part": 2, "at": "00:51:10", "note": "COVID-era hydroxychloroquine and school reopening remarks" },
-    { "facet": "time", "part": 2, "at": "01:02:28", "note": "his current true-crime TV segment, up to release" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:06:42",
+      "note": "birth date given; marriage at 25 in 1985 implies 1960"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:25:21",
+      "note": "private grant founds the Columbia alternative medicine center Oz joins"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:21:46",
+      "note": "energy healers work on a patient during his bypass surgery"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:38:45",
+      "note": "segment on flawed energy-medicine studies funded by NCCAM"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:45:30",
+      "note": "first invited onto Oprah in 2004, start of TV career"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:10:49",
+      "note": "2012 episode with a medium; many shows on talking to the dead"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:40:37",
+      "note": "weight-loss supplement claims challenged at Senate hearing"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:51:10",
+      "note": "COVID-era hydroxychloroquine and school reopening remarks"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:02:28",
+      "note": "his current true-crime TV segment, up to release"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:51:49",
+      "note": "Faith healer John of God, promoted by Oz, later found to be a mass rapist; brief references"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:12:25",
+      "note": "Callback to John of God having raped hundreds of people"
+    }
   ],
   "notes": "Transcript gives birth year as 1962 (likely mis-transcribed); 1960 used, consistent with age 25 in 1985. Senate hearing is said as 2004 in the transcript but was 2014. main_span starts at 2004 Oprah debut since the host frames the 1990s alt-medicine work as not yet bastardly. TR in origin for his Turkish citizenship and family."
 }

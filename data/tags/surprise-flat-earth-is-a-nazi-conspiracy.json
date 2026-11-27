@@ -28,7 +28,12 @@
   "roles": ["conspiracy-theorist", "writer-intellectual"],
   "themes": {
     "primary": "conspiracy-theories",
-    "secondary": ["racism-white-supremacy", "fascism-far-right", "occult-esoteric", "science-exploration"]
+    "secondary": [
+      "racism-white-supremacy",
+      "fascism-far-right",
+      "occult-esoteric",
+      "science-exploration"
+    ]
   },
   "regions": {
     "origin": ["US"],
@@ -45,6 +50,7 @@
   },
   "summary": "A random-page reading of Edward Hendrie's flat-earth book The Greatest Lie on Earth, which turns out to be largely antisemitic conspiracy propaganda blaming Jews, Freemasons and NASA for a heliocentric deception.",
   "content_warnings": ["hate-speech"],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Great Mountain Publishing",
     "heliocentrism",
@@ -95,6 +101,12 @@
       "part": 1,
       "at": "00:42:38",
       "note": "Long section on a Jewish egregore said to be Lucifer; occult framing of the conspiracy"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:44:43",
+      "note": "Hosts read out a list of the author's other book titles, one about rape in a convent"
     },
     {
       "facet": "content_warnings",

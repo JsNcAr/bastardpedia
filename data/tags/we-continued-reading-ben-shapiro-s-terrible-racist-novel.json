@@ -23,10 +23,7 @@
       }
     }
   ],
-  "roles": [
-    "writer-intellectual",
-    "media-personality"
-  ],
+  "roles": ["writer-intellectual", "media-personality"],
   "themes": {
     "primary": "propaganda-media",
     "secondary": [
@@ -38,14 +35,8 @@
     ]
   },
   "regions": {
-    "origin": [
-      "US"
-    ],
-    "setting": [
-      "US",
-      "AF",
-      "MX"
-    ],
+    "origin": ["US"],
+    "setting": ["US", "AF", "MX"],
     "subdivisions": [],
     "polities": [],
     "scope": "international"
@@ -63,10 +54,8 @@
     "approximate": true
   },
   "summary": "Robert Evans, Katy Stoll and Cody Johnston continue reading Ben Shapiro's 2016 novel True Allegiance, criticising its racist Detroit crack-dealer plot, a staged police killing of a Black child, border cartel scares and a Taliban-held Kabul.",
-  "content_warnings": [
-    "child-death",
-    "graphic-violence"
-  ],
+  "content_warnings": ["child-death", "graphic-violence"],
+  "content_mentions": [],
   "keywords": [
     "Brett Hawthorne",
     "Ellen Hawthorne",
@@ -79,10 +68,7 @@
     "Kabul",
     "Saddam's WMDs"
   ],
-  "guests": [
-    "Katy Stoll",
-    "Cody Johnston"
-  ],
+  "guests": ["Katy Stoll", "Cody Johnston"],
   "confidence": {
     "subjects": "high",
     "roles": "high",
@@ -96,12 +82,6 @@
       "part": 1,
       "at": "00:02:46",
       "note": "hosts read the chapter casting the Black character as a Detroit crack dealer and call it racist"
-    },
-    {
-      "facet": "content_warnings",
-      "part": 1,
-      "at": "00:11:29",
-      "note": "a cop in the novel shoots an eight-year-old Black boy holding a toy gun, read at length"
     },
     {
       "facet": "themes",
@@ -138,6 +118,12 @@
       "part": 1,
       "at": "00:59:32",
       "note": "Texas governor plans to militarise the border against the federal government's wishes"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:11:29",
+      "note": "a cop in the novel shoots an eight-year-old Black boy holding a toy gun, read at length"
     }
   ],
   "notes": "Part of the multi-episode reading of True Allegiance. Time is the novel's 2016 publication and its unspecified near-present setting (approximate). AF and MX settings are fictional plot locations (Kabul chapter, border cartel scenes). propaganda-media chosen as closest primary theme, matching sibling records; no theme fits right-wing polemical fiction exactly. Character spellings are approximate from the transcript."

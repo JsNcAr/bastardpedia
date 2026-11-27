@@ -53,12 +53,8 @@
     ]
   },
   "regions": {
-    "origin": [
-      "US"
-    ],
-    "setting": [
-      "US"
-    ],
+    "origin": ["US"],
+    "setting": ["US"],
     "subdivisions": [],
     "polities": [],
     "scope": "national"
@@ -76,9 +72,8 @@
     "approximate": true
   },
   "summary": "How police in the northern United States grew from for-profit constables and corrupt ward-boss enforcers in the 1800s into forces that protected the wealthy and broke strikes, alongside the Pinkertons and the Pennsylvania State Police.",
-  "content_warnings": [
-    "graphic-violence"
-  ],
+  "content_warnings": ["graphic-violence"],
+  "content_mentions": ["sexual-violence", "suicide-self-harm"],
   "keywords": [
     "Behind the Police",
     "Broad Street Riot",
@@ -91,9 +86,7 @@
     "Philippine Constabulary",
     "tramp acts"
   ],
-  "guests": [
-    "Jason Petty (Propaganda)"
-  ],
+  "guests": ["Jason Petty (Propaganda)"],
   "confidence": {
     "subjects": "high",
     "roles": "high",
@@ -161,6 +154,18 @@
       "part": 1,
       "at": "01:20:55",
       "note": "Pinkerton under Securitas spying on workers today; with state police search data, sets reaches_present"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:44:57",
+      "note": "Early police alarm boxes compared to campus emergency phones for someone being assaulted"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "01:18:21",
+      "note": "Quoted Homestead witness says the trapped men nearly went mad or killed themselves"
     }
   ],
   "notes": "Part two of the Behind the Police mini-series. The host dates the Pennsylvania State Police to 1903; it was created in 1905. Modern material (2002-2020 state police search data, Pinkerton's current labor surveillance) is short, so it sets reaches_present rather than extending covered_span. Covered start 1800 approximates the early-1800s constable system."

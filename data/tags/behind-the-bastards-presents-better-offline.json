@@ -43,10 +43,7 @@
       "floruit": 2019
     }
   ],
-  "roles": [
-    "tech-founder",
-    "financier-investor"
-  ],
+  "roles": ["tech-founder", "financier-investor"],
   "themes": {
     "primary": "tech-internet",
     "secondary": [
@@ -58,16 +55,9 @@
     ]
   },
   "regions": {
-    "origin": [
-      "US",
-      "IN"
-    ],
-    "setting": [
-      "US"
-    ],
-    "subdivisions": [
-      "US-CA"
-    ],
+    "origin": ["US", "IN"],
+    "setting": ["US"],
+    "subdivisions": ["US-CA"],
     "polities": [],
     "scope": "global"
   },
@@ -85,6 +75,7 @@
   },
   "summary": "Compilation of three Better Offline episodes in which Ed Zitron blames Google executive Prabhakar Raghavan for degrading Google Search, profiles OpenAI CEO Sam Altman as a manipulative hype man, and indicts the tech industry and press.",
   "content_warnings": [],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "Better Offline",
     "rot economy",
@@ -97,10 +88,7 @@
     "Sundar Pichai",
     "Foundering (Bloomberg podcast)"
   ],
-  "guests": [
-    "Ed Zitron",
-    "Ellen Huet"
-  ],
+  "guests": ["Ed Zitron", "Ellen Huet"],
   "confidence": {
     "subjects": "medium",
     "roles": "medium",
@@ -168,6 +156,12 @@
       "part": 1,
       "at": "01:20:30",
       "note": "AI bubble, venture capital disconnection and Altman's angel-investing wealth discussed at length"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "01:49:04",
+      "note": "Passing line about predators targeting children on Facebook"
     }
   ],
   "notes": "Crossover of three Better Offline episodes (Raghavan/Google Search, Altman/OpenAI, post-election 'rot society' essay); Robert Evans only introduces. Third episode has no single subject. Guest name transcribed as 'Ellen Hewett'; Ellen Huet of Bloomberg assumed. Raghavan's India origin from general knowledge; birth years unknown, so floruit 2019 (Code Yellow) for Raghavan and Gomes. Roles optional for crossover; filled anyway."

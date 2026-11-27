@@ -81,7 +81,8 @@
     "approximate": false
   },
   "summary": "Five-part series on how the 1980s US crack epidemic intersected with CIA-tolerated Contra cocaine smuggling, the Iran-Contra arms scheme run by Oliver North, a racialized media panic and harsh sentencing, and the 1996 discrediting of journalist Gary Webb.",
-  "content_warnings": ["drug-use", "suicide-self-harm"],
+  "content_warnings": ["suicide-self-harm", "drug-use"],
+  "content_mentions": [],
   "keywords": [
     "Cracktoberfest",
     "Dark Alliance",

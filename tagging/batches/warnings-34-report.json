@@ -1,0 +1,117 @@
+[
+  {
+    "id": "the-priests-of-plague",
+    "before": {
+      "warnings": ["mass-atrocity"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["mass-atrocity", "suicide-self-harm"],
+      "mentions": ["child-sexual-abuse"]
+    },
+    "notes": "Self-harm is found outside the scan words: religious self-flagellation, roughly 00:21 to 00:26, treated as self-harm. The child-sexual-abuse mention is only a joking aside. The footnote on cats in the Black Death is not discussed in the transcript."
+  },
+  {
+    "id": "narendra-modi-and-india-s-weird-nazi-obsession",
+    "before": {
+      "warnings": ["mass-atrocity", "graphic-violence", "hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "graphic-violence", "mass-atrocity", "hate-speech"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Sexual violence recurs across both parts with a graphic passage on Gujarat; the suicide mention is only a suicide bombing, kept under the doubt rule."
+  },
+  {
+    "id": "the-survivor-a-magazine-for-nerdy-terrorists",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "Sexual violence is only a figurative use, kept under the doubt rule. The suicide candidate is dropped: a joke guess that Saxon died in an accident, not a suicide."
+  },
+  {
+    "id": "the-worst-grifters-of-the-coronavirus-pandemic",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "soldier-of-fortune-the-deadliest-magazine-ever-with-david-x-cohen",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "soldier-of-fortune-the-deadliest-magazine-ever-with-billy-wayne-davis",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": []
+    }
+  },
+  {
+    "id": "how-the-internet-spawned-a-baby-killing-cult",
+    "before": {
+      "warnings": ["child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-death"],
+      "mentions": []
+    },
+    "notes": "Borderline: sexual violence here is the contested term birth rape for non-consensual obstetric care, discussed about 00:17 to 00:24 with a graphic blog reading. Detailed under the time rule; a reviewer may prefer mentions."
+  },
+  {
+    "id": "how-l-ron-hubbard-made-an-antichrist-using-sex-magic",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "Child sexual abuse is found outside the scan words: Sara Northrup was 17 when the adult Parsons took up with her; hosts react briefly. The 00:46:02 candidate looks like a transcription error and is dropped."
+  },
+  {
+    "id": "how-exxon-chevron-and-their-buddies-killed-the-world",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "the-founding-father-of-fake-cancer-cures",
+    "before": {
+      "warnings": ["medical-horror", "child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "medical-horror"],
+      "mentions": []
+    }
+  }
+]

@@ -60,7 +60,8 @@
     "approximate": false
   },
   "summary": "How YouTube's recommendation algorithm, tuned from 2011 onward to maximise watch time, steered viewers toward far-right propaganda, conspiracy theories and sexualised videos of children while the company denied the problem and underfunded moderation.",
-  "content_warnings": ["child-abuse"],
+  "content_warnings": ["child-sexual-abuse"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "recommendation algorithm",
     "Leanback",
@@ -82,15 +83,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:11:34", "note": "algorithm changes said to begin in 2010" },
-    { "facet": "time", "part": 1, "at": "00:13:40", "note": "Leanback autoplay launched in 2011, then watch-time ranking in 2012" },
-    { "facet": "subjects", "part": 1, "at": "00:16:17", "note": "former Google engineer Chaslot's account of the recommendation team" },
-    { "facet": "themes", "part": 1, "at": "00:19:28", "note": "Google Brain integration and the boost it gave Alex Jones and conspiracy content" },
-    { "facet": "themes", "part": 1, "at": "00:29:53", "note": "Reinforce learning system and far-right red-pilling via game and film reviews" },
-    { "facet": "subjects", "part": 1, "at": "00:39:16", "note": "segment on Molyneux and his drift to white nationalism" },
-    { "facet": "subjects", "part": 1, "at": "00:46:04", "note": "chief product officer Mohan denies the rabbit-hole effect" },
-    { "facet": "themes", "part": 1, "at": "00:50:43", "note": "2019 reports that recommendations funnelled viewers to videos of children" },
-    { "facet": "themes", "part": 1, "at": "00:57:02", "note": "outsourced moderators, contractor terms and their working conditions" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:11:34",
+      "note": "algorithm changes said to begin in 2010"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:13:40",
+      "note": "Leanback autoplay launched in 2011, then watch-time ranking in 2012"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:16:17",
+      "note": "former Google engineer Chaslot's account of the recommendation team"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:19:28",
+      "note": "Google Brain integration and the boost it gave Alex Jones and conspiracy content"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:29:53",
+      "note": "Reinforce learning system and far-right red-pilling via game and film reviews"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:39:16",
+      "note": "segment on Molyneux and his drift to white nationalism"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:46:04",
+      "note": "chief product officer Mohan denies the rabbit-hole effect"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:50:43",
+      "note": "2019 reports that recommendations funnelled viewers to videos of children"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:57:02",
+      "note": "outsourced moderators, contractor terms and their working conditions"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:50:43",
+      "note": "Start of a segment on pedophile rings using comments on videos of children"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:54:56",
+      "note": "Algorithm feeds sexualised clips of young girls and home videos to predators"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:10:30",
+      "note": "Crowder fans tell Carlos Maza to kill himself in harassment campaign"
+    }
   ],
   "notes": "Primary subject is a company, so roles are empty. Despite the title, the story covers the broad far right rather than German Nazism, so fascism-far-right is used instead of nazism. YouTube's 2005 founding and early years get only a passing mention. Microsoft's Tay is an opening comparison and is not counted in the span."
 }

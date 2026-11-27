@@ -65,6 +65,7 @@
   },
   "summary": "A history of Oregon's white supremacy, from 1840s black exclusion laws and a powerful 1920s Klan through Portland's neo-Nazi skinhead era to Joey Gibson's Patriot Prayer and its violent street rallies in 2017-2018.",
   "content_warnings": ["graphic-violence", "hate-speech"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "Portland",
     "Burnett Lash Law",
@@ -133,6 +134,18 @@
       "part": 2,
       "at": "00:40:15",
       "note": "2018 rallies, police response and skull fracture; story ends at the November 2018 rally"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:27:25",
+      "note": "Brief aside on sexual torture of nuns under Pinochet"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:30:31",
+      "note": "A Patriot Prayer member's statutory rape conviction, mentioned as the reason he was expelled"
     }
   ],
   "notes": "Two-part story: part 1 is Oregon's racist history, part 2 is Patriot Prayer, so both are primary; neither is a person or group, so roles are empty. Joey Gibson's birth year is uncertain in the transcript (aged 33 or 34) and left null. main_span ends null because Patriot Prayer was active at release. Scope set to local (Oregon / Portland area) though Vancouver, WA also features."

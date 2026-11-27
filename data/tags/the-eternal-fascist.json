@@ -64,7 +64,8 @@
     "approximate": true
   },
   "summary": "A reading of Robert Evans's audiobook The War on Everyone, tracing American fascism from British Israelism and Christian Identity through Rockwell, William Pierce's Turner Diaries, Louis Beam, the Order and Oklahoma City to the online radicalisation behind the 2019 mass shootings.",
-  "content_warnings": ["hate-speech", "graphic-violence"],
+  "content_warnings": ["graphic-violence", "hate-speech"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Turner Diaries",
     "Umberto Eco Ur-Fascism",
@@ -145,6 +146,18 @@
       "part": 7,
       "at": "00:30:10",
       "note": "Chapter ends with the 2018-2019 Pittsburgh, Christchurch and Poway attacks"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 3,
+      "at": "00:47:55",
+      "note": "Racist novels depicting Black people as mass rapists, described briefly"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 4,
+      "at": "00:27:46",
+      "note": "Klan propaganda claiming immigrants would assault white women"
     }
   ],
   "notes": "Robert reads his own audiobook, so the author is the host; he is not listed as a primary subject and roles are empty (deviation from the media-reading rule). Format could arguably be deep-dive. Covered start 1794 rests on the British Israelism prehistory of Christian Identity (approximate). The Order and Robert Mathews get a chapter but were left to keywords for the 5-subject cap."

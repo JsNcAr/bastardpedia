@@ -64,7 +64,8 @@
     "approximate": false
   },
   "summary": "Napoleon I's nephew Louis Napoleon bungled two coups, won France's 1848 presidential election, then seized power as Emperor Napoleon III, waging bloody colonial campaigns in Algeria and Mexico before losing his throne at Sedan in 1870.",
-  "content_warnings": ["mass-atrocity", "suicide-self-harm"],
+  "content_warnings": ["mass-atrocity"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Second French Empire",
     "Strasbourg coup",
@@ -86,18 +87,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:18:41", "note": "Arranged 1802 marriage of Louis Bonaparte and Hortense opens the family story" },
-    { "facet": "time", "part": 1, "at": "00:23:55", "note": "Birth of Louis Napoleon, third son of Louis and Hortense" },
-    { "facet": "themes", "part": 2, "at": "00:07:29", "note": "October 1836 Strasbourg coup attempt collapses within two hours" },
-    { "facet": "themes", "part": 2, "at": "00:45:05", "note": "Boulogne coup of 1840: drunk plotters, he shoots an unarmed grenadier" },
-    { "facet": "content_warnings", "part": 2, "at": "00:51:56", "note": "Tries to shoot himself on the beach after the failed Boulogne landing" },
-    { "facet": "themes", "part": 3, "at": "00:21:47", "note": "Uses plebiscites to legitimise the 1851 coup and his proclamation as emperor" },
-    { "facet": "regions", "part": 3, "at": "00:35:44", "note": "Sends troops to the Crimean War; heavy losses mostly to disease" },
-    { "facet": "themes", "part": 3, "at": "00:54:04", "note": "Commissioned photography of rebuilt Paris used as regime propaganda" },
-    { "facet": "regions", "part": 4, "at": "00:26:28", "note": "Algerian land policy, massacres and famine kill about a third of the population" },
-    { "facet": "regions", "part": 4, "at": "00:34:22", "note": "French army invades Mexico to install Maximilian; Black Decree of 1865" },
-    { "facet": "time", "part": 4, "at": "00:56:09", "note": "Surrender at Sedan ends his reign in 1870" },
-    { "facet": "time", "part": 4, "at": "00:58:13", "note": "Exile in England and death in 1873 while plotting a return" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:18:41",
+      "note": "Arranged 1802 marriage of Louis Bonaparte and Hortense opens the family story"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:23:55",
+      "note": "Birth of Louis Napoleon, third son of Louis and Hortense"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:07:29",
+      "note": "October 1836 Strasbourg coup attempt collapses within two hours"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:45:05",
+      "note": "Boulogne coup of 1840: drunk plotters, he shoots an unarmed grenadier"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:21:47",
+      "note": "Uses plebiscites to legitimise the 1851 coup and his proclamation as emperor"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:35:44",
+      "note": "Sends troops to the Crimean War; heavy losses mostly to disease"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:54:04",
+      "note": "Commissioned photography of rebuilt Paris used as regime propaganda"
+    },
+    {
+      "facet": "regions",
+      "part": 4,
+      "at": "00:26:28",
+      "note": "Algerian land policy, massacres and famine kill about a third of the population"
+    },
+    {
+      "facet": "regions",
+      "part": 4,
+      "at": "00:34:22",
+      "note": "French army invades Mexico to install Maximilian; Black Decree of 1865"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "00:56:09",
+      "note": "Surrender at Sedan ends his reign in 1870"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "00:58:13",
+      "note": "Exile in England and death in 1873 while plotting a return"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:52:26",
+      "note": "After the failed coup he talks of wanting to kill himself while being taken into custody"
+    }
   ],
   "notes": "Napoleon I's career before 1802 is background and left out of covered_span. Transcript slips: calls Louis Bonaparte king of Denmark (he ruled Holland) and names Charles X instead of Louis-Philippe after Strasbourg. Setting order puts France first as the site of the coups and reign, then the Algerian and Mexican harm. No theme for proto-fascism; the hosts frame him as its precursor but fascism-far-right was not used."
 }

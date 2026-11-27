@@ -46,7 +46,8 @@
     "approximate": false
   },
   "summary": "Christine Weston Chandler, an autistic webcomic artist from Virginia known online as Chris Chan, was relentlessly harassed by internet trolls from 2007 onward, a campaign that spawned Kiwi Farms and ended in her 2021 arrest and a transphobic media frenzy.",
-  "content_warnings": ["sexual-violence", "child-abuse", "suicide-self-harm"],
+  "content_warnings": ["sexual-violence", "suicide-self-harm"],
+  "content_mentions": ["child-sexual-abuse", "child-abuse"],
   "keywords": [
     "Chris Chan",
     "Sonichu",
@@ -68,17 +69,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:09:10", "note": "birth in February 1982 at a Charlottesville, Virginia hospital" },
-    { "facet": "time", "part": 1, "at": "00:31:25", "note": "Something Awful forum users discover her in October 2007, start of the harassment" },
-    { "facet": "themes", "part": 1, "at": "00:15:52", "note": "childhood abuse by a babysitter and school restraint dispute" },
-    { "facet": "themes", "part": 1, "at": "00:41:10", "note": "store security and police hogtie and jail her over loitering" },
-    { "facet": "subjects", "part": 2, "at": "00:19:34", "note": "Kiwi Farms founded specifically to follow and mock her" },
-    { "facet": "themes", "part": 2, "at": "00:05:10", "note": "catfishing trolls coerce her into sexual acts; one is a 13-year-old" },
-    { "facet": "content_warnings", "part": 2, "at": "00:29:03", "note": "Idea Guys blackmail her into self-harm, false confessions and hitting her mother" },
-    { "facet": "themes", "part": 2, "at": "00:41:07", "note": "2021 incest arrest; jail reclassifies her gender" },
-    { "facet": "themes", "part": 2, "at": "00:49:43", "note": "Tucker Carlson and right-wing outlets frame the case as a trans culture-war story" },
-    { "facet": "time", "part": 2, "at": "00:52:52", "note": "hearings continued into 2022; still jailed at release" },
-    { "facet": "content_warnings", "part": 1, "at": "00:05:06", "note": "suicide of emulator developer Near after Kiwi Farms harassment" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:09:10",
+      "note": "birth in February 1982 at a Charlottesville, Virginia hospital"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:31:25",
+      "note": "Something Awful forum users discover her in October 2007, start of the harassment"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:15:52",
+      "note": "childhood abuse by a babysitter and school restraint dispute"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:41:10",
+      "note": "store security and police hogtie and jail her over loitering"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:19:34",
+      "note": "Kiwi Farms founded specifically to follow and mock her"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:05:10",
+      "note": "catfishing trolls coerce her into sexual acts; one is a 13-year-old"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:41:07",
+      "note": "2021 incest arrest; jail reclassifies her gender"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:49:43",
+      "note": "Tucker Carlson and right-wing outlets frame the case as a trans culture-war story"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:52:52",
+      "note": "hearings continued into 2022; still jailed at release"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:37:56",
+      "note": "Several minutes on the incest allegations involving her elderly mother and the leaked call"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:07:09",
+      "note": "Suicide of Near and others blamed on Kiwi Farms harassment"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:29:03",
+      "note": "Trolls blackmail her into self-harm and coerced false confessions"
+    }
   ],
   "notes": "Primary subject is the harassment target rather than a conventional bastard; the hosts stress she is not sympathetic but is mainly a victim. Roles describe what she did (online comics creator). No theme for online harassment or disability; tech-internet is closest. Scope set to online since most events happen on forums, though real-world Virginia events get real time. Birth year from the garbled transcript plus known 1982 date."
 }

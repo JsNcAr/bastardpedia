@@ -47,6 +47,7 @@
   },
   "summary": "The hosts read a 1921 promotional book by Sydney B. Flower praising John R. Brinkley, the Kansas fake doctor who surgically implanted goat testicles and ovaries into patients, promising rejuvenation and cures.",
   "content_warnings": ["medical-horror", "animal-cruelty"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "goat gland doctor",
     "Milford, Kansas",
@@ -66,15 +67,72 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "subjects", "part": 1, "at": "00:07:27", "note": "book identified as Sydney B. Flower's goat gland guide, a Brinkley promotional work" },
-    { "facet": "time", "part": 1, "at": "00:09:32", "note": "title page dates the book to 1921, about three years after WWI" },
-    { "facet": "time", "part": 1, "at": "00:27:27", "note": "book recounts the first human goat gland operation on a farmer" },
-    { "facet": "regions", "part": 1, "at": "00:10:35", "note": "Brinkley's practice placed in Milford, Kansas" },
-    { "facet": "themes", "part": 1, "at": "00:14:45", "note": "book claims Brinkley is poor and refuses profit; host says he got rich" },
-    { "facet": "themes", "part": 1, "at": "00:17:22", "note": "hosts link the book's sex-energy theory to modern semen-retention and manosphere ideas" },
-    { "facet": "themes", "part": 1, "at": "00:23:44", "note": "book implies men's brains are superior due to testicular secretions" },
-    { "facet": "content_warnings", "part": 1, "at": "00:38:39", "note": "detailed reading of the scrotal implantation procedure" },
-    { "facet": "content_warnings", "part": 1, "at": "00:45:53", "note": "nanny goats die after ovary removal; hosts call it animal cruelty" }
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:07:27",
+      "note": "book identified as Sydney B. Flower's goat gland guide, a Brinkley promotional work"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:09:32",
+      "note": "title page dates the book to 1921, about three years after WWI"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:27:27",
+      "note": "book recounts the first human goat gland operation on a farmer"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:10:35",
+      "note": "Brinkley's practice placed in Milford, Kansas"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:14:45",
+      "note": "book claims Brinkley is poor and refuses profit; host says he got rich"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:17:22",
+      "note": "hosts link the book's sex-energy theory to modern semen-retention and manosphere ideas"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:23:44",
+      "note": "book implies men's brains are superior due to testicular secretions"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:36:33",
+      "note": "Hosts call the goat gland harvesting animal cruelty; the procedure runs through the episode"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:50:09",
+      "note": "Book's case of a young woman with suicide attempts supposedly cured by goat glands"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:38:39",
+      "note": "detailed reading of the scrotal implantation procedure"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:45:53",
+      "note": "nanny goats die after ovary removal; hosts call it animal cruelty"
+    }
   ],
   "notes": "Description credits the book to Brinkley, but the transcript names Sydney B. Flower as author; Brinkley is listed as co-primary because the book is entirely about him. Flower's dates unknown, floruit 1921. Brinkley's later career (radio, governor runs, Mexico) is summarised in about two minutes, so the covered span stays on the book's 1918-1921 period."
 }

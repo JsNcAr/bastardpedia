@@ -1,0 +1,120 @@
+[
+  {
+    "id": "the-bastards-of-reality-television",
+    "before": {
+      "warnings": ["suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["suicide-self-harm"],
+      "mentions": []
+    },
+    "notes": "Suicide runs through most of part 2. The wife murder in part 1 is domestic violence, not a strict warning."
+  },
+  {
+    "id": "the-moonies-are-so-much-worse-than-you-could-possibly-imagine",
+    "before": {
+      "warnings": ["child-abuse", "mass-atrocity", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse", "child-abuse", "graphic-violence", "mass-atrocity"],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "Old child-abuse kept as detailed (no scan hits; theme is child-abuse). The 1950s sex-ritual section covers about four minutes, so child-sexual-abuse is detailed. Adults were also coerced in those rituals, recorded as a mention."
+  },
+  {
+    "id": "how-the-rich-ate-christianity",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "animal-cruelty"]
+    },
+    "notes": "Both are brief jokes. The pet joke is filed under animal-cruelty as the closest fit; a reviewer may prefer to drop it."
+  },
+  {
+    "id": "tzar-nicholas-ii-was-a-real-dick",
+    "before": {
+      "warnings": ["graphic-violence", "mass-atrocity", "child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "graphic-violence", "mass-atrocity"],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "child-abuse"]
+    },
+    "notes": "The incest references (royal interbreeding, a figurative use) were dropped. The execution of the Romanov children is child-death, which is not a strict warning."
+  },
+  {
+    "id": "george-shea-hot-dog-villain",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["suicide-self-harm", "animal-cruelty"]
+    }
+  },
+  {
+    "id": "the-food-and-drug-administration",
+    "before": {
+      "warnings": ["child-death", "drug-use"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "drug-use"],
+      "mentions": []
+    },
+    "notes": "Only candidate is a figurative use of incestuous for ties to the drug industry; dropped."
+  },
+  {
+    "id": "the-cash-for-kids-scandal",
+    "before": {
+      "warnings": ["child-abuse", "torture", "suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse", "child-abuse", "torture", "suicide-self-harm"],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "Most sexual-violence hits are about children and are moved to child-sexual-abuse. Suicide stays detailed (an existing warning, several cases across both parts)."
+  },
+  {
+    "id": "the-man-who-built-a-gun-to-shoot-space",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Figurative use only; kept as a mention under the when-in-doubt rule."
+  },
+  {
+    "id": "hiram-maxim-inventor-of-the-machine-gun-and-curling-iron",
+    "before": {
+      "warnings": ["mass-atrocity"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["mass-atrocity"],
+      "mentions": ["suicide-self-harm"]
+    }
+  },
+  {
+    "id": "the-judge-rotenberg-center",
+    "before": {
+      "warnings": ["child-abuse", "torture", "medical-horror", "suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "torture", "suicide-self-harm", "medical-horror"],
+      "mentions": ["child-sexual-abuse"]
+    },
+    "notes": "Old child-abuse kept as detailed (no scan hits; the whole story is abuse of disabled children). The rape victim was a schoolchild, so it is filed as child-sexual-abuse, not sexual-violence."
+  }
+]

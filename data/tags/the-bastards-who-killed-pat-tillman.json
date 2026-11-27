@@ -58,6 +58,7 @@
   },
   "summary": "After NFL player turned Army Ranger Pat Tillman was killed by friendly fire in Afghanistan in 2004, Army commanders and the Bush administration hid how he died and used his death as war propaganda.",
   "content_warnings": ["graphic-violence"],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "friendly fire",
     "Silver Star",
@@ -126,6 +127,12 @@
       "part": 1,
       "at": "00:08:47",
       "note": "2017 Trump retweet tying Tillman to the NFL anthem dispute; legacy co-option"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:23:47",
+      "note": "False wartime rumours that captured soldier Jessica Lynch had been sexually assaulted"
     }
   ],
   "notes": "Primary subject set to the death and cover-up event, not Tillman himself: the episode frames him as a good man and the bastards as those around his death, and his pre-army life gets only a few minutes. If reviewers prefer Tillman as primary, the lifetime rule would push covered_span back to 1976."

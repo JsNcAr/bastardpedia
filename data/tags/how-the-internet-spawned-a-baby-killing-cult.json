@@ -63,7 +63,8 @@
     "approximate": false
   },
   "summary": "How the freebirth movement, which rejects doctors and midwives at childbirth, grew from Australian and American blogs in the late 2000s into Facebook groups, podcasts and paid coaching that preceded several infant deaths.",
-  "content_warnings": ["child-death"],
+  "content_warnings": ["sexual-violence", "child-death"],
+  "content_mentions": [],
   "keywords": [
     "unassisted childbirth",
     "Joyous Birth",
@@ -132,6 +133,30 @@
       "part": 1,
       "at": "00:55:05",
       "note": "host compares the instructor's speech cadence to NXIVM and calls the group cult-like"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:17:26",
+      "note": "Freebirth founder coins the term birth rape for non-consensual obstetric procedures"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:17:56",
+      "note": "Her blog describes forced vaginal procedures on screaming women as rape"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:21:37",
+      "note": "Hosts spend minutes debating whether non-consensual medical procedures count as rape"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:52:58",
+      "note": "A later freebirth podcast keeps using the birth rape framing"
     }
   ],
   "notes": "Transcript names the Joyous Birth founder Jeanette Fraser; general knowledge gives Janet Fraser. Saldaya and Norris-Clark spelled from the footnotes. Primary theme could arguably be tech-internet given the title's framing; chose quackery-pseudoscience since the story is about rejecting medical care. Movement is cult-like rather than a formal cult. Shanley's 2008 interview kept in keywords; US infant mortality and Netherlands home-birth data are background."

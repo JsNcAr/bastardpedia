@@ -68,6 +68,12 @@
   },
   "summary": "German-born investor Peter Thiel co-founded PayPal and Palantir, sold surveillance software to US spies, police and ICE, secretly bankrolled the lawsuit that bankrupted Gawker, and funded anti-democratic and anti-immigration causes on the American right.",
   "content_warnings": [],
+  "content_mentions": [
+    "sexual-violence",
+    "child-sexual-abuse",
+    "suicide-self-harm",
+    "animal-cruelty"
+  ],
   "keywords": [
     "The Contrarian",
     "Max Chafkin",
@@ -89,18 +95,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:08:31", "note": "Thiel born in Frankfurt in October 1967, family moves to Cleveland in 1968" },
-    { "facet": "regions", "part": 1, "at": "00:18:41", "note": "childhood actually spent in South African-occupied Namibia near the uranium mine" },
-    { "facet": "themes", "part": 1, "at": "00:24:23", "note": "forced-labour-like conditions for Black workers at the Rossing mine his father worked on" },
-    { "facet": "themes", "part": 1, "at": "01:01:30", "note": "Stanford classmates recall him defending apartheid as economically sound" },
-    { "facet": "themes", "part": 2, "at": "00:08:16", "note": "The Diversity Myth co-written with David Sacks, funded by right-wing think tanks" },
-    { "facet": "time", "part": 2, "at": "00:20:58", "note": "1998 meeting with Max Levchin leads to PayPal" },
-    { "facet": "themes", "part": 2, "at": "00:48:40", "note": "American Thunder NASCAR magazine as a vehicle for right-wing messaging" },
-    { "facet": "themes", "part": 3, "at": "00:21:37", "note": "starts funding Curtis Yarvin and his neo-monarchist city-state ideas around 2008" },
-    { "facet": "themes", "part": 3, "at": "00:54:54", "note": "Clarium's 2008 bets on bank nationalisation and Yahoo lose billions" },
-    { "facet": "themes", "part": 3, "at": "01:04:56", "note": "Palantir founded in 2004 on the PayPal fraud tool, sold to CIA and police" },
-    { "facet": "themes", "part": 4, "at": "00:03:19", "note": "money to Numbers USA and the Tanton anti-immigration network" },
-    { "facet": "themes", "part": 4, "at": "01:07:49", "note": "Palantir software used by ICE to arrest relatives of unaccompanied children" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:08:31",
+      "note": "Thiel born in Frankfurt in October 1967, family moves to Cleveland in 1968"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:18:41",
+      "note": "childhood actually spent in South African-occupied Namibia near the uranium mine"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:24:23",
+      "note": "forced-labour-like conditions for Black workers at the Rossing mine his father worked on"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:01:30",
+      "note": "Stanford classmates recall him defending apartheid as economically sound"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:08:16",
+      "note": "The Diversity Myth co-written with David Sacks, funded by right-wing think tanks"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:20:58",
+      "note": "1998 meeting with Max Levchin leads to PayPal"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:48:40",
+      "note": "American Thunder NASCAR magazine as a vehicle for right-wing messaging"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:21:37",
+      "note": "starts funding Curtis Yarvin and his neo-monarchist city-state ideas around 2008"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:54:54",
+      "note": "Clarium's 2008 bets on bank nationalisation and Yahoo lose billions"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "01:04:56",
+      "note": "Palantir founded in 2004 on the PayPal fraud tool, sold to CIA and police"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:03:19",
+      "note": "money to Numbers USA and the Tanton anti-immigration network"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "01:07:49",
+      "note": "Palantir software used by ICE to arrest relatives of unaccompanied children"
+    }
   ],
   "notes": "main_span starts at PayPal (1998) per the encyclopedia test; the Stanford Review and Diversity Myth years are in covered_span. Namibia was under South African occupation, hence the polity. electoral-politics (2016 RNC, Vance and Masters donations) and policing-incarceration (LAPD Palantir use) also get segments but were left out to stay within eight secondary themes. No wikidata QID given. The Jeff Thomas suicide is mentioned only briefly, so no warning."
 }

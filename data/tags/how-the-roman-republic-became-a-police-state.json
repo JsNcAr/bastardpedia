@@ -65,6 +65,7 @@
   },
   "summary": "How the Roman Republic slid from the 509 BCE expulsion of its kings through land inequality, the murder of the Gracchi, gang warfare and civil war, until Augustus built riot police, secret police and a Praetorian Guard that later made and killed emperors.",
   "content_warnings": ["slavery"],
+  "content_mentions": ["sexual-violence", "suicide-self-harm"],
   "keywords": [
     "Gaius Gracchus",
     "Sulla",
@@ -139,6 +140,24 @@
       "part": 2,
       "at": "01:02:09",
       "note": "Praetorians auction the throne after Commodus; Septimius Severus replaces them (193 CE)"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:14:09",
+      "note": "Myth of the king's son raping Lucretia, told in about a minute"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:18:49",
+      "note": "Aside on rapes by occupying soldiers, such as US troops in Japan"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:14:41",
+      "note": "Lucretia's suicide after the rape and the custom demanding it"
     }
   ],
   "notes": "No primary person, so roles empty. Covered span starts at the republic's founding, which gets ~10 minutes; end set at 193 CE (Praetorian auction and Severus), the last period with real airtime; a brief quote reaching Diocletian and Julian was left out. Lucretia's rape and suicide get ~3 minutes but not a detailed account, so no warning. Modern US comparisons are commentary, not covered years."

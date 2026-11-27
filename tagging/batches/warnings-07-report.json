@@ -1,0 +1,120 @@
+[
+  {
+    "id": "the-evilest-football-player-of-all-time",
+    "before": {
+      "warnings": ["torture", "graphic-violence", "mass-atrocity", "slavery"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["slavery", "graphic-violence", "torture", "mass-atrocity"],
+      "mentions": ["sexual-violence"]
+    }
+  },
+  {
+    "id": "frank-fay-the-fascist-who-invented-stand-up-comedy",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["child-sexual-abuse", "child-abuse", "suicide-self-harm"]
+    },
+    "notes": "The 00:29:30 suicide candidate is an ad read and was dropped."
+  },
+  {
+    "id": "pete-hegseth-s-fascist-book-american-crusade",
+    "before": {
+      "warnings": ["sexual-violence", "hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "hate-speech"],
+      "mentions": []
+    },
+    "notes": "The 'molester' candidate at part 1 00:27:01 refers to harassment of adult colleagues, so it was dropped from child-sexual-abuse."
+  },
+  {
+    "id": "dr-death-the-texas-death-row-psychiatrist-who-killed-so-many-people",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    },
+    "notes": "No scan candidates. Capital cases involved may include crimes the scan words miss, but nothing suggests a strict warning."
+  },
+  {
+    "id": "laetrile-the-fake-cancer-cure-that-birthed-the-right-wing-medical-grifting-industry",
+    "before": {
+      "warnings": ["child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death"],
+      "mentions": []
+    },
+    "notes": "No scan candidates, but the child-abuse theme and summary point to children given laetrile instead of treatment (likely the Chad Green custody case). Possible medical neglect of a child that the scan cannot see; reviewer should check whether it fits child-abuse."
+  },
+  {
+    "id": "antonio-salazar-the-smartest-fascist-dictator",
+    "before": {
+      "warnings": ["torture", "slavery"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["slavery", "torture"],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    },
+    "notes": "Sexual violence spans about two minutes in part 2 but is summary rather than account; reviewer may weigh detailed."
+  },
+  {
+    "id": "adolf-eichmann-mr-holocaust-himself",
+    "before": {
+      "warnings": ["mass-atrocity"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["mass-atrocity"],
+      "mentions": ["child-sexual-abuse", "child-abuse", "suicide-self-harm"]
+    }
+  },
+  {
+    "id": "david-berg-and-the-children-of-god-ft-ed-helms",
+    "before": {
+      "warnings": ["child-abuse", "sexual-violence", "torture", "suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-sexual-abuse", "torture", "suicide-self-harm"],
+      "mentions": ["child-abuse"]
+    },
+    "notes": "Former child-abuse warning was mostly sexual abuse, now child-sexual-abuse. Physical or emotional abuse of children is only lightly visible in the scan; child-abuse kept as a mention, reviewer may raise it. Sexual-violence detailed rests on flirty fishing coverage."
+  },
+  {
+    "id": "anti-vax-america-the-complete-series",
+    "before": {
+      "warnings": ["medical-horror"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["medical-horror"],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "Faith-healing parents refusing vaccines or care for children may amount to medical neglect the scan cannot see; reviewer may check for child-abuse."
+  },
+  {
+    "id": "how-eliza-fraser-survived-a-shipwreck-and-sparked-a-genocide",
+    "before": {
+      "warnings": ["mass-atrocity", "hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["mass-atrocity", "hate-speech"],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "The child-abuse candidates describe corporal punishment of the adult castaways, not children, so they were dropped."
+  }
+]

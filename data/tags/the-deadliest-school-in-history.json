@@ -65,12 +65,14 @@
   },
   "summary": "History of the US Army's School of the Americas, opened in the Panama Canal Zone in 1946, whose Latin American graduates led coups, death squads and massacres in Chile, Bolivia, El Salvador and Guatemala during the Cold War.",
   "content_warnings": [
-    "mass-atrocity",
-    "torture",
     "sexual-violence",
+    "child-sexual-abuse",
     "child-death",
-    "graphic-violence"
+    "graphic-violence",
+    "torture",
+    "mass-atrocity"
   ],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Western Hemisphere Institute for Security Cooperation",
     "Fort Benning",
@@ -157,6 +159,12 @@
       "part": 2,
       "at": "01:08:58",
       "note": "Bolivian coups and the recent ouster of Evo Morales tied to graduates (present-day link)"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "01:16:18",
+      "note": "Extended account of rape as the signature torture at Pinochet's Villa Grimaldi"
     }
   ],
   "notes": "Part 1 opens with roughly 40 minutes on the Monroe Doctrine, Roosevelt Corollary, Wilson and Kennan (1823-1948); treated as background before the school exists, so covered_span starts at the 1946 founding. Argentina (Galtieri, first Argentine trainees) cut from setting to fit six codes. Primary theme is a judgment call between diplomacy-foreign-policy and education; the taxonomy lists this story as an education example, so it is secondary."

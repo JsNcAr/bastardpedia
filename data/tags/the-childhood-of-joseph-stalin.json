@@ -55,6 +55,7 @@
   },
   "summary": "The early life of Joseph Stalin in Gori and Tiflis, Georgia, from his 1878 birth through parental beatings, street fights, Russified schooling and seminary radicalisation to his 1899 expulsion as a young Marxist.",
   "content_warnings": ["child-abuse"],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Gori",
     "Tiflis",
@@ -76,18 +77,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:01:39", "note": "host frames the episode as Stalin's childhood only" },
-    { "facet": "time", "part": 1, "at": "00:02:11", "note": "birth in Gori in 1878 opens the story" },
-    { "facet": "themes", "part": 1, "at": "00:13:14", "note": "drunken father hurls the boy to the ground and hunts him at home" },
-    { "facet": "themes", "part": 1, "at": "00:14:19", "note": "father beats the mother; she later beats the son harshly" },
-    { "facet": "themes", "part": 1, "at": "00:33:10", "note": "Georgian banned in schools; harsh punishments, threat against teacher" },
-    { "facet": "roles", "part": 1, "at": "00:35:43", "note": "gifted singer, painter and actor; works as a wedding singer" },
-    { "facet": "roles", "part": 1, "at": "00:42:30", "note": "organises a near-riot protest against a school inspector" },
-    { "facet": "themes", "part": 1, "at": "00:44:33", "note": "Darwin leads him to atheism; enters the Tiflis seminary" },
-    { "facet": "roles", "part": 1, "at": "00:46:13", "note": "publishes acclaimed poetry as a teenager under a pen name" },
-    { "facet": "themes", "part": 1, "at": "00:50:52", "note": "turns to Marxism and forms a more militant study circle" },
-    { "facet": "time", "part": 1, "at": "00:56:01", "note": "expelled from the seminary in May 1899" },
-    { "facet": "time", "part": 1, "at": "00:57:04", "note": "host closes the story at the threshold of adulthood" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:01:39",
+      "note": "host frames the episode as Stalin's childhood only"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:02:11",
+      "note": "birth in Gori in 1878 opens the story"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:13:14",
+      "note": "drunken father hurls the boy to the ground and hunts him at home"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:14:19",
+      "note": "father beats the mother; she later beats the son harshly"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:33:10",
+      "note": "Georgian banned in schools; harsh punishments, threat against teacher"
+    },
+    {
+      "facet": "roles",
+      "part": 1,
+      "at": "00:35:43",
+      "note": "gifted singer, painter and actor; works as a wedding singer"
+    },
+    {
+      "facet": "roles",
+      "part": 1,
+      "at": "00:42:30",
+      "note": "organises a near-riot protest against a school inspector"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:44:33",
+      "note": "Darwin leads him to atheism; enters the Tiflis seminary"
+    },
+    {
+      "facet": "roles",
+      "part": 1,
+      "at": "00:46:13",
+      "note": "publishes acclaimed poetry as a teenager under a pen name"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:50:52",
+      "note": "turns to Marxism and forms a more militant study circle"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:56:01",
+      "note": "expelled from the seminary in May 1899"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:57:04",
+      "note": "host closes the story at the threshold of adulthood"
+    }
   ],
   "notes": "partial_life set: title and host frame it as the childhood only, ending at the 1899 expulsion; adult rule gets passing asides, so covered_span is 1878-1899. Keke's birth follows the transcript (17 at her 1872 marriage); common sources give 1856 or 1858. Primary theme chosen for catalogue fit since the episode is framed as the making of a communist dictator; child-abuse is the close runner-up."
 }

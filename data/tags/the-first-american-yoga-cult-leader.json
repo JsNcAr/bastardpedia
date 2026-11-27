@@ -59,6 +59,7 @@
   },
   "summary": "Two yoga gurus who abused followers: Pierre Bernard, whose Tantrik Order in New York sparked a 1910 sex-cult scandal, and Bikram Choudhury, whose hot-yoga empire in the US hid decades of sexual assault and abuse.",
   "content_warnings": ["sexual-violence"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "The Great Oom",
     "Bikram Yoga",
@@ -139,6 +140,18 @@
       "part": 2,
       "at": "01:09:28",
       "note": "Bikram fled the US to avoid depositions, still teaching in India and Mexico"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:58:46",
+      "note": "Explicit readings from lawsuits describing Choudhury raping students, several minutes"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "01:01:55",
+      "note": "Hosts discuss why rape victims freeze, including a soldier assaulted by his sergeant"
     }
   ],
   "notes": "Two primary subjects: part 1 is Bernard, part 2 is Bikram, linked as a lineage of yoga abusers. Transcript gives Bernard's birth as 1876 (some sources say 1875). Vivekananda and early yoga history are background, not subjects. Bernard's later wealthy compound years get only a brief coda. Mexico (Acapulco camp, current teaching) is brief and left out of setting."

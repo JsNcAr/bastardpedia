@@ -47,11 +47,7 @@
       "role": "secondary"
     }
   ],
-  "roles": [
-    "mercenary-warlord",
-    "con-artist",
-    "religious-leader"
-  ],
+  "roles": ["mercenary-warlord", "con-artist", "religious-leader"],
   "themes": {
     "primary": "civil-war",
     "secondary": [
@@ -66,14 +62,8 @@
     ]
   },
   "regions": {
-    "origin": [
-      "LR"
-    ],
-    "setting": [
-      "LR",
-      "US",
-      "GH"
-    ],
+    "origin": ["LR"],
+    "setting": ["LR", "US", "GH"],
     "subdivisions": [],
     "polities": [],
     "scope": "international"
@@ -92,13 +82,14 @@
   },
   "summary": "Joshua Milton Blahyi, alias General Butt Naked, led drugged child soldiers in atrocities during Liberia's 1990s civil war, then recast himself as a repentant preacher; the story traces the US-founded colony's history behind the conflict.",
   "content_warnings": [
-    "graphic-violence",
-    "torture",
-    "mass-atrocity",
+    "sexual-violence",
     "child-abuse",
     "child-death",
-    "sexual-violence"
+    "graphic-violence",
+    "torture",
+    "mass-atrocity"
   ],
+  "content_mentions": [],
   "keywords": [
     "Joshua Milton Blahyi",
     "Americo-Liberians",
@@ -111,9 +102,7 @@
     "Leymah Gbowee",
     "Women of Liberia Mass Action for Peace"
   ],
-  "guests": [
-    "Shereen Lani Younes"
-  ],
+  "guests": ["Shereen Lani Younes"],
   "confidence": {
     "subjects": "medium",
     "roles": "high",
@@ -158,12 +147,7 @@
       "at": "00:58:01",
       "note": "Doe's troops massacre ethnic groups in Nimba County after the rigged election"
     },
-    {
-      "facet": "time",
-      "part": 2,
-      "at": "00:17:22",
-      "note": "Blahyi born September 1971"
-    },
+    { "facet": "time", "part": 2, "at": "00:17:22", "note": "Blahyi born September 1971" },
     {
       "facet": "themes",
       "part": 2,
@@ -187,6 +171,12 @@
       "part": 2,
       "at": "01:06:43",
       "note": "halfway-house resident says donor money is misappropriated"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:32:59",
+      "note": "Survivor's account of Blahyi's men raping and killing her mother and sisters"
     }
   ],
   "notes": "Title gives equal weight to Blahyi and the war (part 1 is all Liberian history), so both are primary. TRC year 2008 and Taylor/Doe lifespans from general knowledge; transcript gives no TRC year. occult-esoteric is the closest fit for West African ritual killing/juju; no better theme exists. main_span 1989-2008 covers the war plus his confession."

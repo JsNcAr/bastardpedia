@@ -47,6 +47,7 @@
   },
   "summary": "Former Soviet collective-farm manager Alexander Lukashenko won Belarus's 1994 presidential election on an anti-corruption platform, then gutted parliament, rigged elections and jailed or disappeared opponents for over 26 years.",
   "content_warnings": ["torture"],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "Europe's last dictator",
     "Minsk",
@@ -115,6 +116,12 @@
       "part": 2,
       "at": "00:33:57",
       "note": "2020 election: opposition candidates jailed, Tsikhanouskaya campaign, rigged result"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:05:56",
+      "note": "Lukashenko jibes at the Catholic Church over its pedophilia scandals"
     },
     {
       "facet": "content_warnings",

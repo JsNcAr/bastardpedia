@@ -61,6 +61,7 @@
   },
   "summary": "A 2019 survey of the uprisings then under way in Hong Kong, Catalonia, Chile, Lebanon, Egypt and Iraq, and of Turkey's assault on Rojava, focusing on state violence against protesters and how movements learned from each other.",
   "content_warnings": ["graphic-violence"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Hong Kong protests",
     "Rojava",
@@ -141,6 +142,12 @@
       "part": 1,
       "at": "00:47:02",
       "note": "Egypt segment: Sisi crushes the September 2019 protests, internet blocked"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:15:54",
+      "note": "A Rojava resident recalls earlier ISIS bombings and suicide attacks in the region"
     },
     {
       "facet": "content_warnings",

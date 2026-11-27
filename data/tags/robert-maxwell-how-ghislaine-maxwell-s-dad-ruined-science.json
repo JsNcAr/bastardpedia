@@ -47,7 +47,8 @@
     "approximate": false
   },
   "summary": "Born into poverty in Czechoslovak Ruthenia in 1923, Robert Maxwell fought the Nazis and committed war crimes, then built Pergamon Press into a profit machine for scientific publishing and looted his employees' pension fund before dying at sea in 1991.",
-  "content_warnings": ["graphic-violence", "suicide-self-harm"],
+  "content_warnings": ["child-abuse", "graphic-violence"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Ghislaine Maxwell",
     "Daily Mirror",

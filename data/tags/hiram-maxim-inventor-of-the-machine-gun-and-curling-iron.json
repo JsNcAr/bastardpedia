@@ -52,7 +52,19 @@
   },
   "summary": "American-born inventor Hiram Maxim built the first practical machine gun in the 1880s and sold it to every power he could, enabling British colonial massacres in Africa and the slaughter of the First World War.",
   "content_warnings": ["mass-atrocity"],
-  "keywords": ["Maxim gun", "Battle of Shangani", "Battle of Bembezi", "Rhodesia", "Vickers", "Paris Exposition 1881", "William Sawyer", "Hudson Maxim", "Pipe of Peace", "Hilaire Belloc"],
+  "content_mentions": ["suicide-self-harm"],
+  "keywords": [
+    "Maxim gun",
+    "Battle of Shangani",
+    "Battle of Bembezi",
+    "Rhodesia",
+    "Vickers",
+    "Paris Exposition 1881",
+    "William Sawyer",
+    "Hudson Maxim",
+    "Pipe of Peace",
+    "Hilaire Belloc"
+  ],
   "guests": ["Karl Kasarda"],
   "confidence": {
     "subjects": "high",
@@ -63,14 +75,60 @@
   },
   "evidence": [
     { "facet": "time", "part": 1, "at": "00:02:41", "note": "birth in 1840 in Maine" },
-    { "facet": "subjects", "part": 1, "at": "00:13:32", "note": "uncle's workshop in Massachusetts; curling iron patent 1866" },
-    { "facet": "subjects", "part": 1, "at": "00:16:05", "note": "chief engineer at US Electric Lighting, rivalry with William Sawyer" },
-    { "facet": "time", "part": 1, "at": "00:21:13", "note": "1881 Paris Exposition prompts work on the machine gun" },
-    { "facet": "subjects", "part": 1, "at": "00:27:24", "note": "Zaharoff sabotages Maxim's sales, then the companies merge" },
-    { "facet": "regions", "part": 1, "at": "00:34:41", "note": "Battle of Shangani in modern Zimbabwe, Matabele massacred by Maxim guns" },
-    { "facet": "themes", "part": 1, "at": "00:39:20", "note": "Woodville illustrations erase the machine gun from British war imagery" },
-    { "facet": "themes", "part": 1, "at": "00:52:55", "note": "sells to both sides in 1905; naturalised British in 1900" },
-    { "facet": "time", "part": 1, "at": "00:56:30", "note": "death in 1916 during the Somme; WWI machine-gun toll" }
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:13:32",
+      "note": "uncle's workshop in Massachusetts; curling iron patent 1866"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:16:05",
+      "note": "chief engineer at US Electric Lighting, rivalry with William Sawyer"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:21:13",
+      "note": "1881 Paris Exposition prompts work on the machine gun"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:27:24",
+      "note": "Zaharoff sabotages Maxim's sales, then the companies merge"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:34:41",
+      "note": "Battle of Shangani in modern Zimbabwe, Matabele massacred by Maxim guns"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:39:20",
+      "note": "Woodville illustrations erase the machine gun from British war imagery"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:52:55",
+      "note": "sells to both sides in 1905; naturalised British in 1900"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:56:30",
+      "note": "death in 1916 during the Somme; WWI machine-gun toll"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:36:14",
+      "note": "Defeated Matabele leader and several warriors kill themselves after the battle, noted briefly"
+    }
   ],
   "notes": "Packet footnotes cite Gerald Bull, who is the part two subject announced at the end and not covered here. Transcript says the Emin Pasha relief faced Mahdists and that the Matabele leader killed himself at Shangani; both differ from standard histories, so the Sudan/Equatoria setting and suicide warning were left out. Masculinity-and-the-rifle segment has no close theme."
 }

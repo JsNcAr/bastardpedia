@@ -47,6 +47,7 @@
   },
   "summary": "Ottoman-born Greek con man Basil Zaharoff became the leading salesman for Nordenfelt, Maxim and Vickers, stoking arms races and bribing officials across Europe in the decades before and during World War One.",
   "content_warnings": [],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Merchant of Death",
     "Nordenfelt",
@@ -121,6 +122,18 @@
       "part": 2,
       "at": "00:41:53",
       "note": "role in the 1920-22 Greco-Turkish war, then decline at Vickers and death in 1936"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:35:31",
+      "note": "Quoted letter jokes that sex with a woman would kill him, per doctor's orders"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:36:34",
+      "note": "Host says figuratively that listing every con would kill him"
     }
   ],
   "notes": "main_span runs from his first Nordenfelt job (1877) to the Greco-Turkish war (1922), the end of his influence; his decline and death to 1936 are in covered_span. Setting puts France first as the main WWI theatre he profited from; Russia is where his biggest sales and their debt consequences played out. Vickers also stands in for the Maxim and Nordenfelt firms."

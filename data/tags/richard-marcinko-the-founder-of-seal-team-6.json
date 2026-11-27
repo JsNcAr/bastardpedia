@@ -65,7 +65,8 @@
     "approximate": false
   },
   "summary": "Richard Marcinko ran CIA-backed Phoenix raids in Vietnam, founded SEAL Team Six in 1980, was jailed for defrauding the Navy, then sold a self-mythologising memoir; the series traces the war crimes of the SEAL culture he shaped through Afghanistan and Iraq.",
-  "content_warnings": ["graphic-violence", "mass-atrocity", "torture", "child-death"],
+  "content_warnings": ["child-death", "graphic-violence", "torture", "mass-atrocity"],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Red Cell",
     "Phoenix Program",
@@ -124,12 +125,6 @@
       "note": "fake lodging bills and dozens of other frauds while leading Team Six"
     },
     {
-      "facet": "content_warnings",
-      "part": 3,
-      "at": "00:12:21",
-      "note": "1986 Red Cell abduction, beating and toilet waterboarding of security chief Ron Sheridan"
-    },
-    {
       "facet": "time",
       "part": 3,
       "at": "00:21:41",
@@ -158,6 +153,12 @@
       "part": 4,
       "at": "00:49:38",
       "note": "dies of a heart attack on 25 December 2021"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:24:48",
+      "note": "Host points out that Marcinko's boast of teenage sex with an adult woman describes statutory rape"
     }
   ],
   "notes": "Parts 3-4 shift from Marcinko to SEAL misconduct in Grenada, Panama, Afghanistan, Iraq and the 2009 and 2011 raids; SEALs and Team Six kept secondary since the title is Marcinko. The WWII frogmen history (about 8 min) treated as background. Host misspeaks death year as 2001, then corrects to 2021. KH, IR, PK and Somali waters get brief segments and were left out of setting."

@@ -47,6 +47,7 @@
   },
   "summary": "San Francisco society astrologer Joan Quigley secretly set the timing of Ronald Reagan's speeches, flights, debates and summits for Nancy Reagan from 1981 to 1988, then claimed credit for the era's successes in a memoir.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "What Does Joan Say?",
     "Donald Regan",
@@ -121,6 +122,12 @@
       "part": 1,
       "at": "01:09:59",
       "note": "claims role in Gorbachev relations, Reykjavik summit and INF treaty signing time"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:01:12",
+      "note": "Intro comparison: the subject is no mass rapist, unlike other bastards"
     }
   ],
   "notes": "Episode leans heavily on Quigley's memoir but is told as a career history, so deep-dive rather than media-reading. Death year 2014 from general knowledge; her obituaries are cited but not dated. Second role political-operative reflects her scheduling and image advice; no astrologer role exists, occultist-guru is the closest fit."

@@ -1,0 +1,120 @@
+[
+  {
+    "id": "john-of-god-oprah-s-favorite-ghost-channeling-rapist-surgeon",
+    "before": {
+      "warnings": ["sexual-violence", "medical-horror", "child-abuse", "suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-sexual-abuse", "medical-horror"],
+      "mentions": ["child-abuse", "suicide-self-harm"]
+    },
+    "notes": "child-abuse moved from detailed to mentions: the child-related material is mostly sexual abuse, now child-sexual-abuse. Suicide-self-harm moved to mentions: several short references in part 2, not a sustained account."
+  },
+  {
+    "id": "behind-the-police-how-the-police-declared-war-on-all-of-us",
+    "before": {
+      "warnings": ["graphic-violence", "mass-atrocity"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "graphic-violence", "mass-atrocity", "animal-cruelty"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Animal-cruelty set as detailed: the dog-shooting segment runs about three minutes. Reviewer may prefer mentions."
+  },
+  {
+    "id": "behind-the-police-how-police-unions-made-cops-even-deadlier",
+    "before": {
+      "warnings": ["graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence"],
+      "mentions": ["sexual-violence"]
+    }
+  },
+  {
+    "id": "behind-the-police-how-the-police-defeated-lynching-via-torture",
+    "before": {
+      "warnings": ["torture", "graphic-violence", "mass-atrocity"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "torture", "mass-atrocity"],
+      "mentions": ["sexual-violence", "child-abuse"]
+    },
+    "notes": "child-abuse is a judgement call: police coercing 14 to 16 year olds into false confessions, counted as institutional cruelty to children. The tortured Mississippi defendants are called boys but ages are not given. Suicide candidate is not suicide."
+  },
+  {
+    "id": "the-history-of-american-police-and-the-ku-klux-klan",
+    "before": {
+      "warnings": ["graphic-violence", "mass-atrocity"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "mass-atrocity"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Both are deaths officially ruled suicides that the hosts treat as suspicious; kept as mentions under the doubt rule."
+  },
+  {
+    "id": "how-the-first-police-went-from-gangsters-to-an-army-for-the-rich",
+    "before": {
+      "warnings": ["graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence"],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    },
+    "notes": "Both are slight: a hypothetical comparison and a figurative remark in a quoted account."
+  },
+  {
+    "id": "slavery-mass-murder-and-the-birth-of-american-policing",
+    "before": {
+      "warnings": ["slavery", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["slavery", "graphic-violence"],
+      "mentions": ["animal-cruelty"]
+    },
+    "notes": "Only animal-cruelty candidate is dogs killed in battle; kept as a mention under the doubt rule."
+  },
+  {
+    "id": "the-dumbest-coup-in-world-history",
+    "before": {
+      "warnings": ["mass-atrocity", "torture"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["torture", "mass-atrocity"],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "The child-sexual-abuse candidate is grooming in the political sense; dropped."
+  },
+  {
+    "id": "i-do-not-like-elon-musk-very-much",
+    "before": {
+      "warnings": ["child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse"],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "child-sexual-abuse rests only on the slander of the diver; reviewer may drop it. Around 00:34:42 the father is said to have married his stepdaughter; her age is not given in the scan."
+  },
+  {
+    "id": "the-man-who-teaches-our-cops-to-kill",
+    "before": {
+      "warnings": ["graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence"],
+      "mentions": ["suicide-self-harm"]
+    }
+  }
+]

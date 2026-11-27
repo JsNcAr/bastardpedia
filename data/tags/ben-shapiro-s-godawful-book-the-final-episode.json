@@ -40,6 +40,7 @@
   },
   "summary": "Robert Evans, Katy Stoll and Cody Johnston finish reading Ben Shapiro's novel True Allegiance, a right-wing thriller that ends with an Islamist nuclear attack on New York and a federal war on Texas, critiquing its politics and prose.",
   "content_warnings": [],
+  "content_mentions": [],
   "keywords": [
     "True Allegiance",
     "Brett Hawthorne",
@@ -61,14 +62,54 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "format", "part": 1, "at": "00:01:31", "note": "Hosts say this is the last session of a year-long reading of the novel" },
-    { "facet": "themes", "part": 1, "at": "00:03:34", "note": "Hosts criticise the book's portrayal of nearly every Muslim character as a terrorist" },
-    { "facet": "themes", "part": 1, "at": "00:13:37", "note": "Hosts note the book celebrates a military occupation of New York as reassuring" },
-    { "facet": "themes", "part": 1, "at": "00:29:30", "note": "Assassination attempt subplot framed as a dig at liberals and the Black Lives Matter plot" },
-    { "facet": "themes", "part": 1, "at": "00:43:31", "note": "Nuclear bombing of Air Force One over Manhattan, the novel's climax" },
-    { "facet": "themes", "part": 1, "at": "00:51:56", "note": "Epilogue sets up federal government and China at war with Texas and the southern states" },
-    { "facet": "time", "part": 1, "at": "00:23:51", "note": "Book released shortly before Trump took office, which the hosts tie to Shapiro defending him" },
-    { "facet": "themes", "part": 1, "at": "01:04:00", "note": "Closing talk about Daily Wire film ambitions and Shapiro as a pundit" }
+    {
+      "facet": "format",
+      "part": 1,
+      "at": "00:01:31",
+      "note": "Hosts say this is the last session of a year-long reading of the novel"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:03:34",
+      "note": "Hosts criticise the book's portrayal of nearly every Muslim character as a terrorist"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:13:37",
+      "note": "Hosts note the book celebrates a military occupation of New York as reassuring"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:29:30",
+      "note": "Assassination attempt subplot framed as a dig at liberals and the Black Lives Matter plot"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:43:31",
+      "note": "Nuclear bombing of Air Force One over Manhattan, the novel's climax"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:51:56",
+      "note": "Epilogue sets up federal government and China at war with Texas and the southern states"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:23:51",
+      "note": "Book released shortly before Trump took office, which the hosts tie to Shapiro defending him"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:04:00",
+      "note": "Closing talk about Daily Wire film ambitions and Shapiro as a pundit"
+    }
   ],
   "notes": "Final instalment of the True Allegiance reading; earlier parts may be separate stories. Publication year set to 2016 (transcript implies just before the Trump presidency); verify against the published edition. Setting is the novel's fictional US (New York, Texas); Mexico invasion is background only. No theme fits partisan fiction exactly; propaganda-media chosen as closest."
 }

@@ -1,0 +1,120 @@
+[
+  {
+    "id": "the-young-evil-god-of-death-reinhard-heydrich",
+    "before": {
+      "warnings": ["mass-atrocity", "torture", "graphic-violence", "child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "graphic-violence", "torture", "mass-atrocity"],
+      "mentions": ["sexual-violence", "suicide-self-harm", "animal-cruelty"]
+    },
+    "notes": "Animal-cruelty rests only on a negated aside about torturing animals in childhood; reviewer may drop it."
+  },
+  {
+    "id": "how-the-catholic-church-murdered-ireland-s-babies",
+    "before": {
+      "warnings": ["child-abuse", "child-death", "sexual-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-sexual-abuse", "child-abuse", "child-death"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Old child-abuse warning kept and child-sexual-abuse added as detailed. Suicide is only a figurative joke in the outro."
+  },
+  {
+    "id": "synanon-the-drug-rehab-program-that-built-its-own-army",
+    "before": {
+      "warnings": ["child-abuse", "graphic-violence", "drug-use"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "graphic-violence", "drug-use"],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "Child-abuse kept as detailed from the original tag (seized children). Synanon's forced partner swaps and vasectomies may involve sexual coercion the scan cannot see."
+  },
+  {
+    "id": "the-ballad-of-bill-gates",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "Gates's ties to Epstein may get more discussion than the scan words catch."
+  },
+  {
+    "id": "the-well-hung-warlord-who-tried-to-conquer-china",
+    "before": {
+      "warnings": ["graphic-violence", "mass-atrocity", "sexual-violence", "child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-death", "graphic-violence", "mass-atrocity"],
+      "mentions": ["animal-cruelty"]
+    },
+    "notes": "Sexual-violence kept detailed from the original tag; scan hits are short, so could drop to mentions if the concubine material is brief. Animal-cruelty is only a joke aside."
+  },
+  {
+    "id": "ben-shapiro-s-godawful-book-the-final-episode",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "the-triangle-shirtwaist-fire",
+    "before": {
+      "warnings": ["graphic-violence", "mass-atrocity"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "mass-atrocity"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "The molested hit is an owners' letter using the word for harassment of strikebreakers; dropped. Workers jumping from the fire are not counted as suicide."
+  },
+  {
+    "id": "what-the-netanyahu-family-did-to-palestine",
+    "before": {
+      "warnings": ["mass-atrocity", "torture"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["torture", "mass-atrocity"],
+      "mentions": ["sexual-violence"]
+    }
+  },
+  {
+    "id": "how-the-dulles-brothers-created-the-cia-and-destroyed-everything-else",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Sexual-violence is figurative only; child-sexual-abuse is about pedophile accusations as a smear, not actual abuse."
+  },
+  {
+    "id": "dr-phil-is-even-worse-than-you-think-and-you-probably-think-he-sucks",
+    "before": {
+      "warnings": ["drug-use", "child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "drug-use"],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Child-abuse kept detailed from the original tag. The relationship with a vulnerable former client may amount to sexual coercion; check the original context."
+  }
+]

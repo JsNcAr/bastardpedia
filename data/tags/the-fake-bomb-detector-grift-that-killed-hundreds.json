@@ -64,6 +64,7 @@
   },
   "summary": "An empty golf-ball-finder gag gift was rebranded by US and British grifters, including James McCormick, as drug and bomb detectors and sold to some twenty countries, above all Iraq, where checkpoints relying on it failed to stop deadly bombings.",
   "content_warnings": [],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "ADE 651",
     "GT200",
@@ -150,6 +151,12 @@
       "part": 2,
       "at": "00:54:51",
       "note": "McCormick gets ten years; Egypt adaptation and 2014 Karachi airport attack follow"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:40:44",
+      "note": "Iraq described as facing daily roadside and suicide bombings"
     }
   ],
   "notes": "Part One is mostly the history of the ideomotor effect (dowsing, spiritism, Clever Hans), listed as a secondary subject; covered_span starts at Chevreul in 1808 and leaves out the brief ancient dowsing background (2000 BCE onward). Arguably the whole 19th-century segment is background, which would start the span around 1990. Transcript renders Malcolm Stig Rowe and Wade Quaddlebaum; reporting spells Rowe and Quattlebaum. Gary Bolton's birth year is unknown."

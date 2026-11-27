@@ -67,7 +67,8 @@
     "approximate": false
   },
   "summary": "Wilhelm II, the last German Emperor (1888-1918), was shaped by a brutal Prussian royal upbringing, then wrecked Bismarck's alliance system, launched a naval arms race and backed Austria-Hungary into the First World War.",
-  "content_warnings": ["medical-horror", "child-abuse"],
+  "content_warnings": ["child-abuse", "medical-horror"],
+  "content_mentions": ["child-sexual-abuse", "animal-cruelty"],
   "keywords": [
     "Kaiser Wilhelm",
     "Prussia",
@@ -89,16 +90,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:11:06", "note": "father's 1855 visit to Britain and engagement to Princess Victoria" },
-    { "facet": "themes", "part": 1, "at": "00:27:43", "note": "infant arm treated by insertion into a freshly killed hare" },
-    { "facet": "themes", "part": 1, "at": "00:33:30", "note": "head-stretching machine and electrical treatments for birth injuries" },
-    { "facet": "themes", "part": 1, "at": "00:40:47", "note": "tutor Hinzpeter's harsh regime denying praise and comforts to the boy" },
-    { "facet": "subjects", "part": 1, "at": "01:11:23", "note": "intense friendship with Eulenburg introduced" },
-    { "facet": "themes", "part": 2, "at": "00:04:47", "note": "court chaplain Stoecker fuels the young emperor's antisemitism" },
-    { "facet": "subjects", "part": 2, "at": "00:20:04", "note": "Bismarck forced out in March 1890" },
-    { "facet": "themes", "part": 2, "at": "00:39:22", "note": "Tirpitz and the naval bills start the arms race with Britain" },
-    { "facet": "themes", "part": 2, "at": "00:44:39", "note": "unconditional pledge of support to Austria-Hungary before 1914" },
-    { "facet": "time", "part": 2, "at": "00:51:57", "note": "abdication, exile in Doorn and death in 1941 covered in one closing passage" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:11:06",
+      "note": "father's 1855 visit to Britain and engagement to Princess Victoria"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:27:43",
+      "note": "infant arm treated by insertion into a freshly killed hare"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:33:30",
+      "note": "head-stretching machine and electrical treatments for birth injuries"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:40:47",
+      "note": "tutor Hinzpeter's harsh regime denying praise and comforts to the boy"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "01:11:23",
+      "note": "intense friendship with Eulenburg introduced"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:04:47",
+      "note": "court chaplain Stoecker fuels the young emperor's antisemitism"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:20:04",
+      "note": "Bismarck forced out in March 1890"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:39:22",
+      "note": "Tirpitz and the naval bills start the arms race with Britain"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:44:39",
+      "note": "unconditional pledge of support to Austria-Hungary before 1914"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:51:57",
+      "note": "abdication, exile in Doorn and death in 1941 covered in one closing passage"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:27:43",
+      "note": "Brutal treatments forced on the infant prince's damaged arm"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "01:07:13",
+      "note": "Hosts describe his tutor's harsh upbringing of him as abusive"
+    }
   ],
   "notes": "Covered span starts at the father's 1855 engagement; the father's 1831 birth and youth get only brief setup. Exile 1918-1941 is a short coda, included only for the lifetime rule. Setting AT reflects the alliance and his Austrian scandal; WWI fighting itself (FR, BE, RU) gets little airtime. Prussia has no polity id."
 }

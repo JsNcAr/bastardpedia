@@ -57,6 +57,7 @@
   },
   "summary": "In 1933-34 a group of wealthy US financiers tried to recruit retired Marine general Smedley Butler to lead a veterans' army in a fascist takeover of Roosevelt's government; Butler exposed the plot to Congress, but no one was prosecuted.",
   "content_warnings": [],
+  "content_mentions": [],
   "keywords": [
     "Bonus Army",
     "American Legion",
@@ -78,14 +79,54 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:03:08", "note": "Butler enlists in the Marines at 16 during the Spanish-American War, start of his career segment" },
-    { "facet": "themes", "part": 1, "at": "00:06:45", "note": "Butler's service in the Banana Wars, Mexico and Haiti framed as imperial muscle for business" },
-    { "facet": "themes", "part": 1, "at": "00:20:18", "note": "Mussolini bribes US journalists; Hearst syndicate spreads fascist propaganda" },
-    { "facet": "themes", "part": 1, "at": "00:28:37", "note": "Plotters' first ask is a pro-gold-standard speech at the Legion convention" },
-    { "facet": "time", "part": 1, "at": "00:39:57", "note": "August 1934 meeting where the veterans' army and assistant-president scheme is pitched" },
-    { "facet": "time", "part": 1, "at": "00:54:31", "note": "Butler testifies to the House committee in November 1934" },
-    { "facet": "themes", "part": 1, "at": "00:55:32", "note": "Hearst papers and the New York Times mock Butler as a crank" },
-    { "facet": "time", "part": 1, "at": "01:04:26", "note": "Aftermath: War Is a Racket in 1935, Butler votes socialist in 1936" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:08",
+      "note": "Butler enlists in the Marines at 16 during the Spanish-American War, start of his career segment"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:06:45",
+      "note": "Butler's service in the Banana Wars, Mexico and Haiti framed as imperial muscle for business"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:20:18",
+      "note": "Mussolini bribes US journalists; Hearst syndicate spreads fascist propaganda"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:28:37",
+      "note": "Plotters' first ask is a pro-gold-standard speech at the Legion convention"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:39:57",
+      "note": "August 1934 meeting where the veterans' army and assistant-president scheme is pitched"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:54:31",
+      "note": "Butler testifies to the House committee in November 1934"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:55:32",
+      "note": "Hearst papers and the New York Times mock Butler as a crank"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:04:26",
+      "note": "Aftermath: War Is a Racket in 1935, Butler votes socialist in 1936"
+    }
   ],
   "notes": "Transcript spells the go-between McGuire; standard spelling is MacGuire. Butler's foreign postings (Cuba, Philippines, China, Honduras, Mexico, Haiti) total only a few minutes of quick biography, so setting is US only. Covered span starts at Butler's 1898 enlistment rather than his 1881 birth, which is a one-line mention."
 }

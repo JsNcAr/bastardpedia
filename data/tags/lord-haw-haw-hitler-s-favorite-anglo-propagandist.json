@@ -66,6 +66,7 @@
   },
   "summary": "Irish-raised fascist William Joyce informed for British forces in Galway, rose as an orator in Mosley's British Union of Fascists, then fled to Nazi Germany to broadcast propaganda to Britain as Lord Haw-Haw, and was hanged for treason in 1946.",
   "content_warnings": ["graphic-violence", "torture"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Lord Haw-Haw",
     "Germany Calling",
@@ -87,16 +88,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:07:31", "note": "birth year and place uncertain, somewhere 1903-1906, America or Ireland" },
-    { "facet": "themes", "part": 1, "at": "00:12:09", "note": "British-run Catholic schools in Ireland pushing imperial identity on Irish children" },
-    { "facet": "regions", "part": 1, "at": "00:24:02", "note": "teenage Joyce informs and runs errands for the RIC and Black and Tans in Galway" },
-    { "facet": "content_warnings", "part": 1, "at": "00:27:12", "note": "D Company Auxiliaries: shooting of a pregnant woman, prisoners dragged and mutilated" },
-    { "facet": "subjects", "part": 1, "at": "00:39:39", "note": "segment on Rotha Lintorn-Orman founding the British Fascists, which Joyce joins" },
-    { "facet": "subjects", "part": 2, "at": "00:01:34", "note": "Mosley, the BUF and his rivalry with Joyce take a long segment" },
-    { "facet": "themes", "part": 2, "at": "00:10:20", "note": "mutual infidelity, alcoholism and domestic violence in the marriage to Margaret" },
-    { "facet": "regions", "part": 2, "at": "00:24:23", "note": "flees to Berlin in 1939 and begins English-language Nazi broadcasts" },
-    { "facet": "themes", "part": 2, "at": "00:27:22", "note": "reach of the broadcasts, casualty lists and fear tactics aimed at British listeners" },
-    { "facet": "time", "part": 2, "at": "00:59:25", "note": "hanged January 1946; later reburial in Galway and neo-Nazi admirers to the present" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:07:31",
+      "note": "birth year and place uncertain, somewhere 1903-1906, America or Ireland"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:12:09",
+      "note": "British-run Catholic schools in Ireland pushing imperial identity on Irish children"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:24:02",
+      "note": "teenage Joyce informs and runs errands for the RIC and Black and Tans in Galway"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:39:39",
+      "note": "segment on Rotha Lintorn-Orman founding the British Fascists, which Joyce joins"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:01:34",
+      "note": "Mosley, the BUF and his rivalry with Joyce take a long segment"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:10:20",
+      "note": "mutual infidelity, alcoholism and domestic violence in the marriage to Margaret"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:24:23",
+      "note": "flees to Berlin in 1939 and begins English-language Nazi broadcasts"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:27:22",
+      "note": "reach of the broadcasts, casualty lists and fear tactics aimed at British listeners"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:59:25",
+      "note": "hanged January 1946; later reburial in Galway and neo-Nazi admirers to the present"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:23:32",
+      "note": "Black and Tans' reputation for war crimes including rape"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:01:56",
+      "note": "Joke opener calling Andrew Windsor an alleged rapist"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:12:09",
+      "note": "Catholic priests in Ireland able to rape and abuse children without consequence"
+    }
   ],
   "notes": "Reverse episode: guest Pádraig Ó Ruairc presents. Transcript says birth 1903-1906 in the US or Ireland; lifespan uses the standard 1906 (Brooklyn), covered_span starts 1903 to allow for the earlier date. Main span starts at the BUF (1932). The Mary Ogilvy relationship (pupil aged about 15-16) is brief, so no child-abuse theme. reaches_present rests on a short legacy segment (Irish Nazi Party, grave visits)."
 }

@@ -45,6 +45,7 @@
   },
   "summary": "A reading of NESARA and the Mark of the Beast, a short book by Tulsa audiologist Scott Young that blends COVID vaccine microchip fears, end-times Christianity, QAnon-style cabal claims and the NESARA debt-forgiveness myth.",
   "content_warnings": [],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "NESARA",
     "Mark of the Beast",
@@ -66,14 +67,60 @@
     "time": "low"
   },
   "evidence": [
-    { "facet": "subjects", "part": 1, "at": "00:03:51", "note": "author introduced as an audiologist running a hearing clinic in Tulsa" },
-    { "facet": "themes", "part": 1, "at": "00:12:07", "note": "book repeats COVID origin and CDC death-toll conspiracy claims" },
-    { "facet": "themes", "part": 1, "at": "00:14:11", "note": "vaccine microchip theory tied to the Mark of the Beast" },
-    { "facet": "themes", "part": 1, "at": "00:28:33", "note": "end-times material naming historical antichrists" },
-    { "facet": "time", "part": 1, "at": "00:31:13", "note": "late-1990s barcode and chip panic discussed as background to the author" },
-    { "facet": "themes", "part": 1, "at": "00:33:46", "note": "NESARA background chapter: debt claims, Fourteenth Amendment, Federal Reserve" },
-    { "facet": "themes", "part": 1, "at": "00:39:00", "note": "satanic cabal and World Settlement Fund claims" },
-    { "facet": "time", "part": 1, "at": "00:45:32", "note": "host traces NESARA from about 2000 through its 2004 slump to QAnon today" }
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:03:51",
+      "note": "author introduced as an audiologist running a hearing clinic in Tulsa"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:12:07",
+      "note": "book repeats COVID origin and CDC death-toll conspiracy claims"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:14:11",
+      "note": "vaccine microchip theory tied to the Mark of the Beast"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:28:33",
+      "note": "end-times material naming historical antichrists"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:31:13",
+      "note": "late-1990s barcode and chip panic discussed as background to the author"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:33:46",
+      "note": "NESARA background chapter: debt claims, Fourteenth Amendment, Federal Reserve"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:39:00",
+      "note": "satanic cabal and World Settlement Fund claims"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:45:32",
+      "note": "host traces NESARA from about 2000 through its 2004 slump to QAnon today"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:38:29",
+      "note": "Book's claim that a pedophile banking cabal abused children, mocked by the hosts"
+    }
   ],
   "notes": "Second half of a two-part NESARA story; this part is a book reading. Author's birth year unknown, so floruit 2021 is used. Covered span start is an estimate for NESARA's late-1990s origins discussed in the host's commentary; the book itself is a 2020-2021 text. fraud-grift rests on the hosts framing the book as a grift."
 }

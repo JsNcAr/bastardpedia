@@ -1,0 +1,116 @@
+[
+  {
+    "id": "ma-barker-a-doting-mother-and-gangster-overlord",
+    "before": {
+      "warnings": ["graphic-violence", "medical-horror"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "medical-horror"],
+      "mentions": ["suicide-self-harm"]
+    }
+  },
+  {
+    "id": "voices-of-revolution",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "the-world-is-burning-your-guide-to-the-current-uprisings",
+    "before": {
+      "warnings": ["graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Only candidate is a suicide attack by ISIS in an interview account; kept as a mention under the doubt rule, consistent with earlier batches."
+  },
+  {
+    "id": "the-bastard-who-invented-homeopathy",
+    "before": {
+      "warnings": ["child-death", "medical-horror"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "medical-horror"],
+      "mentions": ["child-abuse"]
+    },
+    "notes": "Child-abuse mention rests on one brief anecdote of a father confining his son; borderline, kept under the doubt rule. The teething-tablet harm to babies is product harm, not abuse."
+  },
+  {
+    "id": "the-story-behind-all-those-nazi-clown-memes",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": []
+    }
+  },
+  {
+    "id": "bjorn-lomborg-patient-zero-of-climate-denial",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "ragnar-redbeard-the-patron-saint-of-toxic-masculinity",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": ["sexual-violence"]
+    }
+  },
+  {
+    "id": "qanon-grifter-bill-mitchell-a-crossover-episode",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "All three are brief: an insult aside, conspiracy rhetoric, and a joke reading of a tweet. Suicide one is the weakest; kept under the doubt rule."
+  },
+  {
+    "id": "all-fertility-doctors-are-bastards",
+    "before": {
+      "warnings": ["sexual-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Sexual-violence kept detailed: non-consensual insemination by doctors is the subject of the whole story, though the scan words appear only twice."
+  },
+  {
+    "id": "rudolf-steiner-the-racist-who-invented-organic-farming-and-waldorf-schools",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": []
+    }
+  }
+]

@@ -63,6 +63,7 @@
   },
   "summary": "Behind the Police episode tracing how the Ku Klux Klan and American police overlapped, from Reconstruction-era sheriffs who rode with the first Klan to the 1920s Klan running police forces and the Red Summer of 1919.",
   "content_warnings": ["graphic-violence", "mass-atrocity"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Behind the Police",
     "Reconstruction",
@@ -137,6 +138,18 @@
       "part": 1,
       "at": "01:20:23",
       "note": "Modern segment: officers tied to the Klan and League of the South, 2012 to 2017 FBI document"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:56:49",
+      "note": "Police ruled a trans woman's suspicious death a suicide; family disputes it"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "01:27:39",
+      "note": "A young man's hanging death declared a suicide by a sheriff's department with a deputy gang"
     }
   ],
   "notes": "Primary subjects are both organizations, so roles are empty. Settings span SC, TN, CA, OR, IN, IL, AR and DC, so no single subdivision. covered_span ends 2017 with the FBI counterterrorism guide; 2020 Portland and Palmdale references are brief asides. main_span ends 1925 with the Indiana Klan membership peak. Theme primary could arguably be racism-white-supremacy."

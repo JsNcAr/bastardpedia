@@ -1,0 +1,115 @@
+[
+  {
+    "id": "the-industrial-disaster-that-makes-chernobyl-look-like-kindergarten",
+    "before": {
+      "warnings": ["child-death", "medical-horror"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "medical-horror"],
+      "mentions": []
+    }
+  },
+  {
+    "id": "edward-bernays-the-founding-father-of-lies",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    },
+    "notes": "Only candidate is a memoir line saying his father never needed corporal punishment; not abuse, dropped."
+  },
+  {
+    "id": "the-international-church-of-drink-bleach",
+    "before": {
+      "warnings": ["child-abuse", "medical-horror"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "medical-horror"],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    }
+  },
+  {
+    "id": "how-pat-buchanan-secret-nazi-paved-the-way-for-donald-trump",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": ["sexual-violence"]
+    }
+  },
+  {
+    "id": "the-fake-crusade-for-free-speech",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "kim-jong-un-and-his-family-of-dictators",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "bonus-ep-debate-review-w-katy-and-cody",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["suicide-self-harm"]
+    }
+  },
+  {
+    "id": "mike-adams-the-deadliest-fake-news-icon-you-ve-never-heard-of",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["suicide-self-harm"]
+    }
+  },
+  {
+    "id": "how-youtube-became-a-perpetual-nazi-machine",
+    "before": {
+      "warnings": ["child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Old child-abuse warning was sexual exploitation of children; moved to child-sexual-abuse. No physical or emotional child abuse found in the transcript. Molestation hits at 00:08:56 and 01:05:22 concern children, so filed under CSA, not sexual-violence."
+  },
+  {
+    "id": "the-white-savior-fake-doctor-who-may-have-killed-100-babies",
+    "before": {
+      "warnings": ["child-death", "medical-horror"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "medical-horror"],
+      "mentions": ["child-sexual-abuse", "child-abuse"]
+    },
+    "notes": "Theme is child-abuse; I added child-abuse as a mention for the charity's negligent care of sick children. The deaths are already under child-death and medical-horror; a reviewer may judge this malpractice rather than neglect."
+  }
+]

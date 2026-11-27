@@ -57,6 +57,7 @@
   },
   "summary": "An update on crypto mogul Sam Bankman-Fried after the 2022 FTX collapse: the FTX Foundation's plan to buy Nauru as a bunker, his ties to effective altruism and his parents, and the 2023 bail violations that sent him to jail.",
   "content_warnings": [],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Nauru",
     "Alameda Research",
@@ -125,6 +126,12 @@
       "part": 1,
       "at": "01:02:10",
       "note": "recorded update: bail revoked and SBF jailed until his October 2023 trial"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "01:09:29",
+      "note": "Aside that John McAfee died by suicide"
     }
   ],
   "notes": "Update episode following an earlier SBF story; no biography. William MacAskill gets several minutes but kept to keywords to stay within five subjects. Parents' 1980s Stanford careers and Thiel tax anecdote mentioned only briefly, so covered span starts at Alameda (2017). Ellison birth year from general knowledge."

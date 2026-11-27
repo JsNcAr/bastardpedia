@@ -50,22 +50,10 @@
     ]
   },
   "regions": {
-    "origin": [
-      "IT"
-    ],
-    "setting": [
-      "TN",
-      "TR",
-      "KE",
-      "PL",
-      "IT",
-      "ES"
-    ],
+    "origin": ["IT"],
+    "setting": ["TN", "TR", "KE", "PL", "IT", "ES"],
     "subdivisions": [],
-    "polities": [
-      "roman-republic",
-      "carthage"
-    ],
+    "polities": ["roman-republic", "carthage"],
     "scope": "international"
   },
   "time": {
@@ -81,11 +69,8 @@
     "approximate": true
   },
   "summary": "A two-part look at genocide's ancient roots, from a prehistoric massacre in Kenya to Rome's annihilation of Carthage in 146 BCE, urged on by Cato the Elder, and the Asiatic Vespers of 88 BCE.",
-  "content_warnings": [
-    "mass-atrocity",
-    "graphic-violence",
-    "slavery"
-  ],
+  "content_warnings": ["slavery", "graphic-violence", "mass-atrocity"],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Carthage must be destroyed",
     "Lake Turkana",
@@ -98,9 +83,7 @@
     "RTLM",
     "Punic Wars"
   ],
-  "guests": [
-    "Joe Kassabian"
-  ],
+  "guests": ["Joe Kassabian"],
   "confidence": {
     "subjects": "medium",
     "roles": "high",
@@ -162,6 +145,24 @@
       "part": 2,
       "at": "01:01:35",
       "note": "RTLM and Rwanda used as a comparison on propaganda; theme only, no years"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:02:08",
+      "note": "Discussion of the right-wing groomer smear casting queer people as child molesters"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:31:11",
+      "note": "Aside on the many SS killers who later took their own lives"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:52:34",
+      "note": "Comparison to how doctors discuss suicide prevention"
     }
   ],
   "notes": "Survey episode anchored on Carthage. Prehistory (Nataruk, Yamnaya) is part of the story per the Part 1 description, not a comparison, so covered starts there: Nataruk is ~8000 BCE but the schema floor is -5000, so clamped. Covered ends at the Asiatic Vespers (88 BCE); Rwanda, the Holocaust and 2022 US rhetoric are comparisons and no longer extend it. Rwanda removed from subjects/setting. Cato arguably co-primary."

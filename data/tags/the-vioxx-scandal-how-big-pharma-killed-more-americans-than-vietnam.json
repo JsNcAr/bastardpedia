@@ -41,12 +41,7 @@
   "roles": [],
   "themes": {
     "primary": "corporate-malfeasance",
-    "secondary": [
-      "public-health",
-      "medical-malpractice",
-      "propaganda-media",
-      "fraud-grift"
-    ]
+    "secondary": ["public-health", "medical-malpractice", "propaganda-media", "fraud-grift"]
   },
   "regions": {
     "origin": ["US"],
@@ -63,6 +58,7 @@
   },
   "summary": "In the 1990s Merck rushed its painkiller Vioxx to market, buried evidence that it caused heart attacks and sold it with celebrity ads until its 2004 withdrawal, after it was linked to tens of thousands of US deaths.",
   "content_warnings": [],
+  "content_mentions": [],
   "keywords": [
     "Vioxx",
     "rofecoxib",

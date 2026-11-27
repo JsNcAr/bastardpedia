@@ -46,6 +46,7 @@
   },
   "summary": "Robert Evans, Cody Johnston and Katy Stoll continue reading Ben Shapiro's 2016 novel True Allegiance, mocking its prose and its plot that casts racial profiling, a Texas invasion of Mexico and an anti-tax militia as heroic.",
   "content_warnings": ["graphic-violence"],
+  "content_mentions": [],
   "keywords": [
     "Brett Hawthorne",
     "President Mark Prescott",
@@ -92,12 +93,6 @@
       "note": "border closed to mothers and children; hosts compare the rhetoric to Trump's"
     },
     {
-      "facet": "content_warnings",
-      "part": 1,
-      "at": "00:27:41",
-      "note": "novel's massacre of a migrant camp, including children, read aloud"
-    },
-    {
       "facet": "themes",
       "part": 1,
       "at": "00:49:20",
@@ -108,6 +103,12 @@
       "part": 1,
       "at": "00:25:00",
       "note": "hosts note the novel came out about two months before the 2016 election"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:27:41",
+      "note": "novel's massacre of a migrant camp, including children, read aloud"
     }
   ],
   "notes": "Part of the multi-episode reading of True Allegiance; this story only covers the middle chapters. Time is the novel's 2016 publication and its unspecified near-present setting (approximate). Primary theme could be racism-white-supremacy or religious-right-culture-war; no theme fits right-wing polemical fiction exactly. Mexico setting is fictional (the invasion plot)."

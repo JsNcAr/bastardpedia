@@ -1,0 +1,122 @@
+[
+  {
+    "id": "how-jeffrey-epstein-helped-build-the-modern-world",
+    "before": {
+      "warnings": ["child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse"],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    },
+    "notes": "Old child-abuse warning was sexual abuse of minors, now child-sexual-abuse; no physical or emotional child abuse found, so child-abuse is dropped. Pedophile jokes recur throughout all four parts."
+  },
+  {
+    "id": "the-greg-bovino-episode-extravaganza",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "Suicide candidate dropped: it is about an officer being killed, not suicide."
+  },
+  {
+    "id": "romana-didulo-queen-of-canada",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["child-sexual-abuse"]
+    },
+    "notes": "Only child-sexual-abuse hit is the QAnon pedophile-cabal claim, no real abuse; kept as a mention under the doubt rule."
+  },
+  {
+    "id": "prince-mohammed-bin-salman-the-tyrant-of-saudi-arabia",
+    "before": {
+      "warnings": ["torture", "graphic-violence", "mass-atrocity"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "torture", "mass-atrocity"],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "The child-sexual-abuse mention is only a conspiracy-rhetoric aside and the suicide one is a suicide bombing; both kept under the doubt rule."
+  },
+  {
+    "id": "behind-the-bastards-q-a-2026-edition",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-abuse"]
+    },
+    "notes": "Theme child-abuse is set; the scan finds only a brief remark, so I judged it a mention."
+  },
+  {
+    "id": "x-mas-special-the-heroes-who-ended-the-slave-trade",
+    "before": {
+      "warnings": ["slavery", "mass-atrocity", "sexual-violence", "torture"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "slavery", "torture", "mass-atrocity"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Sexual violence is spread over all three parts but each passage is short; detailed is borderline. Part 1 00:01:45 pedophile hit is a garbled word, dropped."
+  },
+  {
+    "id": "lord-haw-haw-hitler-s-favorite-anglo-propagandist",
+    "before": {
+      "warnings": ["graphic-violence", "torture"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "torture"],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Theme domestic-abuse is set; the scan cannot see that, but it is not a strict warning."
+  },
+  {
+    "id": "the-men-who-might-have-killed-us-all",
+    "before": {
+      "warnings": ["mass-atrocity", "medical-horror"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["mass-atrocity", "medical-horror"],
+      "mentions": ["sexual-violence", "suicide-self-harm", "animal-cruelty"]
+    },
+    "notes": "Animal-cruelty rests only on the boy shooting sparrows for pay; borderline, kept under the doubt rule. Part 3 dogfights dropped (aircraft)."
+  },
+  {
+    "id": "behind-the-bastards-live-show-the-ballad-of-bo-gritz",
+    "before": {
+      "warnings": ["graphic-violence", "suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Current suicide-self-harm warning demoted to a mention: the attempt and the false soldier story are each under two minutes. Part 1 00:11 shooting is accidental, dropped."
+  },
+  {
+    "id": "thomas-thistlewood-slave-plantation-owner-and-diarist",
+    "before": {
+      "warnings": ["slavery", "sexual-violence", "torture", "child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-sexual-abuse", "slavery", "torture"],
+      "mentions": ["child-abuse"]
+    },
+    "notes": "Old child-abuse warning mostly covered sexual abuse of girls, now child-sexual-abuse; physical abuse of children is brief, so child-abuse demoted to a mention."
+  }
+]

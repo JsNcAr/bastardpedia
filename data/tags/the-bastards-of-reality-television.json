@@ -56,6 +56,7 @@
   },
   "summary": "A survey of abuses in reality television, from Fox's Who Wants to Marry a Multi-Millionaire? and a VH1 contestant who murdered his wife to the contestant suicides linked to the UK's Love Island and The Jeremy Kyle Show.",
   "content_warnings": ["suicide-self-harm"],
+  "content_mentions": [],
   "keywords": [
     "An American Family",
     "Who Wants to Marry a Multi-Millionaire?",
@@ -136,6 +137,18 @@
       "part": 2,
       "at": "00:46:36",
       "note": "Kyle's 2021 return on talk radio after the show's cancellation"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:14:54",
+      "note": "Account of a Love Island contestant's suicide by hanging and her boyfriend's suicide weeks later"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:16:25",
+      "note": "Further Love Island suicides, a contestant and then the show's host"
     }
   ],
   "notes": "Survey episode with no single bastard, so the genre is the primary subject (no kind for a genre; practice-or-pseudoscience used as the closest fit). No theme for contestant welfare or mental health; corporate-malfeasance stands in. Darnell birth year from general knowledge. Love Island villa is in Majorca but the harm discussed happened in the UK, so ES is omitted."

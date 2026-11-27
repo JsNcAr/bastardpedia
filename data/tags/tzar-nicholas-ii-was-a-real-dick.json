@@ -65,7 +65,8 @@
     "approximate": false
   },
   "summary": "Nicholas II, last tsar of Russia (1894-1917), clung to absolute autocracy, blundered into wars with Japan and Germany, tolerated pogroms and ordered brutal crackdowns before his abdication and execution in 1918.",
-  "content_warnings": ["graphic-violence", "mass-atrocity", "child-death"],
+  "content_warnings": ["child-death", "graphic-violence", "mass-atrocity"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse", "child-abuse"],
   "keywords": [
     "Romanov dynasty",
     "Khodynka stampede",
@@ -87,18 +88,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:32:26", "note": "birth of Nicholas in 1868 near St. Petersburg opens the biography" },
-    { "facet": "regions", "part": 1, "at": "01:22:53", "note": "sword attack on the young heir by a policeman during his visit to Japan" },
-    { "facet": "themes", "part": 2, "at": "00:09:29", "note": "coronation gift-bag stampede kills thousands; nickname Bloody Nicholas" },
-    { "facet": "regions", "part": 2, "at": "00:36:15", "note": "170,000 troops sent into Manchuria to provoke a pretext for conquest" },
-    { "facet": "themes", "part": 2, "at": "00:40:02", "note": "French mystic healer Philippe gains influence over the royal couple" },
-    { "facet": "regions", "part": 2, "at": "00:50:46", "note": "1903 Kishinev pogrom and the tsar's indifference to it" },
-    { "facet": "themes", "part": 3, "at": "00:27:13", "note": "Baltic Fleet destroyed at Tsushima; Russia loses the war with Japan" },
-    { "facet": "themes", "part": 3, "at": "00:24:36", "note": "troops fire on marching workers at the palace in 1905" },
-    { "facet": "themes", "part": 3, "at": "00:35:04", "note": "tsar blames Jews for unrest; pogroms tolerated and pogromists pardoned" },
-    { "facet": "regions", "part": 3, "at": "00:45:01", "note": "artillery on the capital and mass executions in the Baltic provinces" },
-    { "facet": "roles", "part": 4, "at": "00:48:46", "note": "Nicholas takes personal command of the army in the First World War" },
-    { "facet": "time", "part": 4, "at": "01:09:24", "note": "detailed account of the family's execution in 1918" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:32:26",
+      "note": "birth of Nicholas in 1868 near St. Petersburg opens the biography"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "01:22:53",
+      "note": "sword attack on the young heir by a policeman during his visit to Japan"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:09:29",
+      "note": "coronation gift-bag stampede kills thousands; nickname Bloody Nicholas"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:36:15",
+      "note": "170,000 troops sent into Manchuria to provoke a pretext for conquest"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:40:02",
+      "note": "French mystic healer Philippe gains influence over the royal couple"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:50:46",
+      "note": "1903 Kishinev pogrom and the tsar's indifference to it"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:27:13",
+      "note": "Baltic Fleet destroyed at Tsushima; Russia loses the war with Japan"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:24:36",
+      "note": "troops fire on marching workers at the palace in 1905"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:35:04",
+      "note": "tsar blames Jews for unrest; pogroms tolerated and pogromists pardoned"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:45:01",
+      "note": "artillery on the capital and mass executions in the Baltic provinces"
+    },
+    {
+      "facet": "roles",
+      "part": 4,
+      "at": "00:48:46",
+      "note": "Nicholas takes personal command of the army in the First World War"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "01:09:24",
+      "note": "detailed account of the family's execution in 1918"
+    }
   ],
   "notes": "Covered span starts at Nicholas's 1868 birth: the Crimean War and Alexander II's reforms are host background, not a subject's life. Rasputin's birth year is commonly given as 1869. The coronation stampede is not named on air; Khodynka is added as a keyword. LV stands in for the Baltic punitive expeditions (Livonia), which got only a few minutes."
 }

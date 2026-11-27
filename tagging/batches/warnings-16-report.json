@@ -1,0 +1,118 @@
+[
+  {
+    "id": "we-read-the-dilbert-guy-s-attempt-to-make-trump-into-a-religion",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Only a suicide-bombing reference, kept as a mention under the doubt rule."
+  },
+  {
+    "id": "the-sam-bankman-fried-update",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["suicide-self-harm"]
+    }
+  },
+  {
+    "id": "rafael-trujillo-the-most-brutal-dictator-of-the-americas",
+    "before": {
+      "warnings": ["mass-atrocity", "graphic-violence", "sexual-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "graphic-violence", "mass-atrocity"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Theme sexual-abuse; Trujillo's predation is widely reported to have included teenage girls, but the scan found no child-sexual-abuse wording. A reviewer may want to check part 2 for victims' ages."
+  },
+  {
+    "id": "frank-lorenzo-the-man-who-ruined-air-travel",
+    "before": {
+      "warnings": ["suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["suicide-self-harm"],
+      "mentions": []
+    }
+  },
+  {
+    "id": "julius-streicher-the-other-hitler",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Child-sexual-abuse is from one brief line about assaulting juvenile delinquents (minors). The sexual-violence material spans about a minute; kept as a mention."
+  },
+  {
+    "id": "why-kidnapping-conspiracy-theories-are-everywhere",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "Much of the story is about sex-trafficking hoaxes rather than accounts of abuse, so both kept as mentions; a reviewer could argue sexual-violence is detailed given the time spent on trafficking fears."
+  },
+  {
+    "id": "how-the-dilbert-guy-lost-his-mind",
+    "before": {
+      "warnings": ["drug-use"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["drug-use"],
+      "mentions": ["sexual-violence", "child-abuse", "suicide-self-harm"]
+    },
+    "notes": "The animal-cruelty scan hit is about children, not animals; filed as a child-abuse joke mention under the doubt rule. Reviewer may prefer dropping it."
+  },
+  {
+    "id": "let-s-read-the-proud-boys-membership-manual",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    }
+  },
+  {
+    "id": "stockton-rush-inventor-of-the-deathsub",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    },
+    "notes": "Both are figurative or joking uses, kept under the doubt rule. The incest hit is a figure of speech about rich families and was dropped."
+  },
+  {
+    "id": "ai-is-coming-for-your-children",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  }
+]

@@ -64,7 +64,8 @@
     "approximate": false
   },
   "summary": "Music mogul Sean Combs rose from Howard party promoter to Bad Boy Records founder while causing a deadly 1991 crowd crush, feeding the East Coast/West Coast rap feud and allegedly drugging, raping and trafficking women and girls for decades until his 2024 arrest.",
-  "content_warnings": ["sexual-violence", "child-abuse"],
+  "content_warnings": ["sexual-violence", "child-sexual-abuse"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Puff Daddy",
     "Diddy",
@@ -86,17 +87,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:07:33", "note": "born November 1969 in Harlem; father later shot dead when he is two" },
-    { "facet": "themes", "part": 1, "at": "00:43:45", "note": "promotes a charity rapper basketball game at City College with no real charity named" },
-    { "facet": "themes", "part": 1, "at": "00:47:16", "note": "overcrowded gym stairwell crush kills nine young people" },
-    { "facet": "themes", "part": 2, "at": "00:04:02", "note": "earliest known allegation: 1991 drugging, rape and filming of a college student" },
-    { "facet": "themes", "part": 2, "at": "00:31:03", "note": "alleged rapes of a 16-year-old and her 15-year-old friend around 1993-94" },
-    { "facet": "themes", "part": 2, "at": "00:34:03", "note": "alleged girlfriend beaten and threatened with revenge porn in 1994" },
-    { "facet": "themes", "part": 2, "at": "00:41:06", "note": "Keefe D claims Combs offered a large bounty for killing Tupac" },
-    { "facet": "themes", "part": 3, "at": "00:32:57", "note": "2024 producer lawsuit: drug procurement, laced liquor and sex workers at parties" },
-    { "facet": "themes", "part": 3, "at": "00:41:00", "note": "Cassie Ventura lawsuit describes years of beatings and coerced freak offs" },
-    { "facet": "regions", "part": 3, "at": "00:05:16", "note": "White Parties held at his Hamptons mansion from 1998" },
-    { "facet": "time", "part": 3, "at": "00:55:17", "note": "arrested September 2024 after FBI raid; denied bail" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:07:33",
+      "note": "born November 1969 in Harlem; father later shot dead when he is two"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:43:45",
+      "note": "promotes a charity rapper basketball game at City College with no real charity named"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:47:16",
+      "note": "overcrowded gym stairwell crush kills nine young people"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:04:02",
+      "note": "earliest known allegation: 1991 drugging, rape and filming of a college student"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:31:03",
+      "note": "alleged rapes of a 16-year-old and her 15-year-old friend around 1993-94"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:34:03",
+      "note": "alleged girlfriend beaten and threatened with revenge porn in 1994"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:41:06",
+      "note": "Keefe D claims Combs offered a large bounty for killing Tupac"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:32:57",
+      "note": "2024 producer lawsuit: drug procurement, laced liquor and sex workers at parties"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:41:00",
+      "note": "Cassie Ventura lawsuit describes years of beatings and coerced freak offs"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:05:16",
+      "note": "White Parties held at his Hamptons mansion from 1998"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "00:55:17",
+      "note": "arrested September 2024 after FBI raid; denied bail"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:04:02",
+      "note": "Allegation that Combs drugged and raped a woman, then a filmed assault at 00:06"
+    }
   ],
   "notes": "Combs was alive and jailed at release, so main_span ends at the 2024 arrest rather than null. Most crimes are presented as allegations from lawsuits. Settings include Las Vegas, LA, Atlanta and Miami, but New York gets the most airtime, hence US-NY. Brief mention of Honduran sweatshops not counted."
 }

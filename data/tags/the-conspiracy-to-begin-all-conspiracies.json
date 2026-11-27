@@ -57,7 +57,8 @@
     "approximate": true
   },
   "summary": "The history of the Protocols of the Elders of Zion, a forged antisemitic text likely produced in the Russian Empire around 1900 that spread worldwide, fed La Violencia in Colombia and Nazi propaganda behind the Holocaust.",
-  "content_warnings": ["hate-speech", "mass-atrocity"],
+  "content_warnings": ["mass-atrocity", "hate-speech"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Maurice Joly",
     "Dialogue in Hell Between Machiavelli and Montesquieu",
@@ -144,6 +145,12 @@
       "part": 2,
       "at": "01:00:20",
       "note": "legacy segment: NWO, Illuminati and QAnon as descendants of the Protocols; sets reaches_present"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:31:47",
+      "note": "Der Stuermer paired the Protocols with lurid invented stories of rape by Jews"
     }
   ],
   "notes": "The 1789-1881 prologue (French Revolution, Barruel, the 1806 Tsarist Appeal, Marx, Marr) takes much of part 1 but is treated as background, so covered_span starts at Joly's 1864 text; a reviewer may prefer 1789. Host dates the first version to about 1896-97; most historians put first publication in 1903. Setting order puts Colombia first as the harm with the most airtime, ahead of Germany."

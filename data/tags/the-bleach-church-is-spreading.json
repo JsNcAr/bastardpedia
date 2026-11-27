@@ -59,6 +59,7 @@
   },
   "summary": "Follow-up on the Genesis II Church, a Florida group selling industrial bleach (MMS) as a cure-all, as it pitched the chemical as a COVID-19 cure in 2020, seized on Trump's disinfectant remarks and was sued by the FDA.",
   "content_warnings": ["child-abuse", "medical-horror"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Miracle Mineral Solution",
     "MMS",
@@ -121,6 +122,30 @@
       "part": 1,
       "at": "01:20:04",
       "note": "brief segment on Keyes and Sisson distributing chlorine dioxide in Uganda"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:24:06",
+      "note": "Promoter urging parents to give autistic children bleach orally and as enemas, and the injuries"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:58:54",
+      "note": "Chat logs of parents dosing sick children, with advice to escalate enemas"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "01:01:31",
+      "note": "Children hospitalised and some deaths linked to the dosing"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:34:00",
+      "note": "Comparison with the Jonestown mass suicide"
     }
   ],
   "notes": "Transcript spells the names Grennan and Carrie Rivera; used the standard spellings Mark Grenon and Kerri Rivera. Grenon's birth year not given, so floruit used. Uganda segment is only a few minutes, kept as keyword rather than setting. Keyes's earlier career is background only."

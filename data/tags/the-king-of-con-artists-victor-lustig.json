@@ -41,6 +41,7 @@
   },
   "summary": "Two celebrated swindlers: Austro-Hungarian grifter Victor Lustig, who ran money-box scams in 1920s America and sold the Eiffel Tower for scrap before dying in federal custody, and Indian con man Natwarlal, who fleeced businessmen and escaped jail for decades.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "Eiffel Tower",
     "Rumanian money box",
@@ -127,6 +128,12 @@
       "part": 2,
       "at": "00:32:18",
       "note": "last escape in 1996 at age 84; death year disputed between 1996 and 2009"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:04:37",
+      "note": "Host notes the two subjects were not mass rapists, a passing aside"
     }
   ],
   "notes": "Part 2 is entirely about Natwarlal, so both men are primary. Natwarlal's birth year is uncertain (1912-1925); 1912 follows his stated age of 84 in 1996. Death is disputed (brother says 1996, lawyer 2009); 1996, his last known sighting, used as lifespan end. Lustig's 1890 birth year comes from general knowledge plus the transcript's age 18 in 1908."

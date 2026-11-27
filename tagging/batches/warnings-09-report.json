@@ -1,0 +1,118 @@
+[
+  {
+    "id": "how-tainted-human-blood-became-a-major-u-s-export",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    }
+  },
+  {
+    "id": "the-zizians-how-harry-potter-fanfic-inspired-a-death-cult",
+    "before": {
+      "warnings": ["sexual-violence", "graphic-violence", "suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "graphic-violence", "suicide-self-harm"],
+      "mentions": ["child-sexual-abuse"]
+    },
+    "notes": "Animal suffering and veganism are discussed at length in part 2 as ethics, with no deliberate harm to animals described; left untagged."
+  },
+  {
+    "id": "in-honor-of-our-new-monarchy-let-s-talk-about-versailles",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["suicide-self-harm"]
+    }
+  },
+  {
+    "id": "bruno-bettelheim-the-worst-psycho-therapist",
+    "before": {
+      "warnings": ["child-abuse", "suicide-self-harm", "child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "child-death", "suicide-self-harm"],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "The beatings of children are the core of part 2 but the scan words miss most of it; child-abuse kept detailed from the current tags. The single line on sexual abuse covers both students (minors) and staff (adults), hence the two mentions."
+  },
+  {
+    "id": "tony-alamo-the-worst-preacher",
+    "before": {
+      "warnings": ["child-abuse", "sexual-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse", "child-abuse"],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "Former content_warnings sexual-violence moved: nearly all victims are minors, so it is now child-sexual-abuse; sexual-violence stays only as a mention for coerced adult wives. Part 2 around 00:49:48 also has a teen beaten as punishment."
+  },
+  {
+    "id": "how-the-u-s-government-used-aliens-to-destroy-a-man-s-mind",
+    "before": {
+      "warnings": ["animal-cruelty"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["animal-cruelty"],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    },
+    "notes": "Scan found no animal-cruelty candidates; the cattle mutilation timestamps come from the part 1 transcript directly, not the packet. The alien molestation line is a claim, not a real assault; kept as a cautious mention. Dropped the child-sexual-abuse scan hit (no child involved)."
+  },
+  {
+    "id": "space-magic-from-venus-a-literary-odyssey",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "bonus-the-bastards-of-oprah",
+    "before": {
+      "warnings": ["sexual-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence"],
+      "mentions": []
+    },
+    "notes": "No transcript, so nothing scanned. Compiles the Dr. Oz, Dr. Phil and John of God stories; their current tags also carry child-abuse (Dr. Phil, John of God) and suicide-self-harm (John of God). Align this record with those stories' rechecks. Timestamp is a placeholder."
+  },
+  {
+    "id": "is-oprah-winfrey-a-bastard",
+    "before": {
+      "warnings": ["child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse", "child-abuse"],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    },
+    "notes": "Sexual violence against adults (Weinstein, John of God, survivors on her show) runs a few minutes in part 5 but is about Oprah's ties rather than accounts; mentions, worth a look. Satanic Panic and McMartin discussion is under child-sexual-abuse."
+  },
+  {
+    "id": "behind-the-bastards-presents-hood-politics-with-prop",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  }
+]

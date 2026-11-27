@@ -65,7 +65,8 @@
     "approximate": true
   },
   "summary": "After Irish independence the Catholic Church ran the state's social services, confining unwed mothers and poor children in laundries, industrial schools and mother and baby homes where thousands were abused, worked unpaid or died.",
-  "content_warnings": ["child-abuse", "child-death", "sexual-violence"],
+  "content_warnings": ["sexual-violence", "child-sexual-abuse", "child-abuse", "child-death"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Tuam",
     "Catherine Corless",
@@ -152,6 +153,12 @@
       "part": 2,
       "at": "00:46:51",
       "note": "2001 Church redress fund, 2013 state report, apology and lump-sum scheme"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:32:47",
+      "note": "Survivor's account of repeated sexual abuse by Christian Brothers at an industrial school as a boy"
     }
   ],
   "notes": "Roughly six minutes of Irish history from the Vikings to independence is background and left out of covered_span; the 18th-century origins of the Magdalene asylums and the 1908 British child laws get only brief airtime. covered_span ends at the January 2021 Commission report cited via Reuters. main_span end 1996 assumes the last laundry closure (transcript says only 'into the 1990s'). Setting kept to IE only."

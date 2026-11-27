@@ -1,0 +1,118 @@
+[
+  {
+    "id": "the-congo-after-leopold",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["suicide-self-harm"]
+    }
+  },
+  {
+    "id": "charles-koch-the-luke-skywalker-of-rich-people",
+    "before": {
+      "warnings": ["child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse"],
+      "mentions": ["sexual-violence"]
+    }
+  },
+  {
+    "id": "descendant-of-the-original-boogeyman-albert-fish",
+    "before": {
+      "warnings": ["child-death", "child-abuse", "graphic-violence", "suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "child-death", "graphic-violence", "suicide-self-harm"],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "Scan's sexual-violence hits all concern children, so moved to child-sexual-abuse. sexual-violence mention rests only on Fish's obscene letters to women (harassment); reviewer may drop it. Self-harm confirmed from transcript, not scan words."
+  },
+  {
+    "id": "no-matter-how-much-you-hate-paul-manafort-you-should-hate-him-more-and-heres-why",
+    "before": {
+      "warnings": ["graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence"],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    },
+    "notes": "Most suicide hits are the guest's podcast name (Suicide Buddies) in intros and plugs."
+  },
+  {
+    "id": "the-astrologer-who-managed-the-reagan-presidency",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence"]
+    }
+  },
+  {
+    "id": "the-non-nazi-bastards-who-helped-hitler-rise-to-power",
+    "before": {
+      "warnings": ["suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["suicide-self-harm"],
+      "mentions": []
+    }
+  },
+  {
+    "id": "the-british-super-soldier-who-killed-a-nation",
+    "before": {
+      "warnings": ["mass-atrocity", "torture", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "torture", "mass-atrocity"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Only figurative use (band and regiment name); no actual suicide found by the scan."
+  },
+  {
+    "id": "qaddafi-his-bizarre-sci-fi-stories-childhood-hate-crimes-and-amazonian-bodyguard-fetish",
+    "before": {
+      "warnings": ["child-abuse", "sexual-violence", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-sexual-abuse", "graphic-violence"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Old child-abuse warning was the sexual abuse of girls and boys, so converted to child-sexual-abuse. Possible non-sexual child-abuse: student protesters hanged before classmates (00:43:31), ages unclear; reviewer may add a mention."
+  },
+  {
+    "id": "the-film-directing-playboy-king-who-handed-his-country-to-pol-pot",
+    "before": {
+      "warnings": ["mass-atrocity", "graphic-violence", "child-death", "child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse", "child-death", "graphic-violence", "mass-atrocity"],
+      "mentions": ["child-abuse", "suicide-self-harm"]
+    },
+    "notes": "Child-sexual-abuse found by reading the transcript, not the scan (the scan hit is a Twilight joke). Detailed for being explicit though short; reviewer may prefer mentions. Old child-abuse kept as a mention."
+  },
+  {
+    "id": "concentration-camps-are-back-so-let-s-talk-about-their-history",
+    "before": {
+      "warnings": ["mass-atrocity"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "mass-atrocity"],
+      "mentions": []
+    },
+    "notes": "Scan found nothing; child-abuse is a theme and the transcript spends several minutes (about 00:59 to 01:04) on child detention and separation."
+  }
+]

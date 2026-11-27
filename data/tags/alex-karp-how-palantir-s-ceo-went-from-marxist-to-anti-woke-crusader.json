@@ -60,6 +60,7 @@
   },
   "summary": "Alex Karp, raised by leftist parents in Philadelphia and trained as a philosopher in Germany, became CEO of Palantir in 2004 and turned it into a surveillance and AI targeting contractor serving ICE, the CIA, the Pentagon and Israel.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Project Maven",
     "Gotham",
@@ -81,18 +82,73 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:10:11", "note": "Karp born October 1967 in New York City, raised in Philadelphia" },
-    { "facet": "subjects", "part": 1, "at": "00:39:17", "note": "long segment on Habermas, his salon and his refusal to supervise Karp's dissertation" },
-    { "facet": "regions", "part": 1, "at": "00:34:46", "note": "doctoral years in Frankfurt and Berlin take a real share of part one" },
-    { "facet": "themes", "part": 1, "at": "00:11:36", "note": "Mount Airy intentional integration and racial violence in Philadelphia" },
-    { "facet": "roles", "part": 1, "at": "00:37:00", "note": "dissertation on aggressive public speech and antisemitism in Germany" },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:10:11",
+      "note": "Karp born October 1967 in New York City, raised in Philadelphia"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:39:17",
+      "note": "long segment on Habermas, his salon and his refusal to supervise Karp's dissertation"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:34:46",
+      "note": "doctoral years in Frankfurt and Berlin take a real share of part one"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:11:36",
+      "note": "Mount Airy intentional integration and racial violence in Philadelphia"
+    },
+    {
+      "facet": "roles",
+      "part": 1,
+      "at": "00:37:00",
+      "note": "dissertation on aggressive public speech and antisemitism in Germany"
+    },
     { "facet": "time", "part": 2, "at": "00:09:13", "note": "Karp becomes Palantir CEO in 2004" },
-    { "facet": "themes", "part": 2, "at": "00:17:01", "note": "In-Q-Tel investment opens CIA and federal agency work" },
-    { "facet": "themes", "part": 2, "at": "00:23:58", "note": "Gotham lets law enforcement profile people, including by immigration status" },
-    { "facet": "themes", "part": 2, "at": "00:28:40", "note": "New Orleans predictive policing contract and its criticism" },
-    { "facet": "themes", "part": 2, "at": "00:30:28", "note": "ICE contracts, 2019 employee protests, Karp's border politics" },
-    { "facet": "regions", "part": 2, "at": "00:40:17", "note": "Palantir's 2024 agreement with the Israeli military during the Gaza war" },
-    { "facet": "regions", "part": 2, "at": "00:45:00", "note": "Maven backs US strikes in Iran, including the girls' school strike" }
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:17:01",
+      "note": "In-Q-Tel investment opens CIA and federal agency work"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:23:58",
+      "note": "Gotham lets law enforcement profile people, including by immigration status"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:28:40",
+      "note": "New Orleans predictive policing contract and its criticism"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:30:28",
+      "note": "ICE contracts, 2019 employee protests, Karp's border politics"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:40:17",
+      "note": "Palantir's 2024 agreement with the Israeli military during the Gaza war"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:45:00",
+      "note": "Maven backs US strikes in Iran, including the girls' school strike"
+    }
   ],
   "notes": "Roles: scientist-scholar reflects his doctoral work, which fills most of part one; writer-intellectual was the alternative. Karp counts as primary only: Palantir is the vehicle and gets no equal billing. Habermas's death year (2026) comes from the transcript. PS and IL: the Gaza segment is short; IL left out of setting. The Iran school strike is discussed but not vividly, so no content warning."
 }

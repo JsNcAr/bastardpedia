@@ -57,6 +57,7 @@
   },
   "summary": "An anthology of American fake-doctor cases, chiefly a Toledo couple who falsely diagnosed dozens of patients with Alzheimer's to bill Medicare, that exposes how easily provider numbers are faked and how private health insurers ignore fraud.",
   "content_warnings": ["suicide-self-harm"],
+  "content_mentions": [],
   "keywords": [
     "Toledo Clinic",
     "National Provider Identifier",
@@ -137,6 +138,18 @@
       "part": 2,
       "at": "00:54:20",
       "note": "closing segment on a fake UCLA resident who later earned a real MD"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "01:05:39",
+      "note": "Explicit account of a falsely diagnosed patient's decline and suicide, including the method"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "01:08:11",
+      "note": "His suicide is returned to when tallying the harm done to patients"
     }
   ],
   "notes": "Anthology episode. Part 2's title names health insurers as the real bastards, so the industry is a second primary subject; no single company fits, so it is entered as a generic organization (low fit). Williams treated as secondary despite a long segment, which keeps his 1963 birth out of the covered span. Covered span starts around his 1992 marriage and teaching job. Love-Robinson's birth year and the Jenkins sentencing years are inferred, not stated."
