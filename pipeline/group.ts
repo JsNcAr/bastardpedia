@@ -31,7 +31,7 @@ const WORDS = Object.fromEntries(
 const KIND_RULES: [Kind, RegExp][] = [
   ['ichh_weekly', /^It Could Happen Here Weekly/i],
   ['trailer', /\bTrailer\b/i],
-  ['rerun', /^CZM Rewind\s*:\s*/i],
+  ['rerun', /^CZM Rewind\b\s*:?\s*/i],
   ['fiction', /^(After the Revolution\s*:)?\s*Chapters?\b/i],
   ['other_show', /^Episode \d+: Uprising/i],
 ];
@@ -60,7 +60,7 @@ function stripChars(text: string, chars: string): string {
 }
 
 export function subjectOf(title: string): string {
-  let t = title.trim().replace(/^CZM Rewind\s*:\s*/i, '');
+  let t = title.trim().replace(/^CZM Rewind\b\s*:?\s*/i, '');
   t = t.replace(PART_PREFIX, '');
   t = t.replace(PART_SUFFIX, '');
   return stripChars(t, ' :-');
