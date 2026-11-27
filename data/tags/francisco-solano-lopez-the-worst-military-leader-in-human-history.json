@@ -64,7 +64,15 @@
     "approximate": false
   },
   "summary": "Paraguayan dictator Francisco Solano López started the 1864-1870 war against Brazil, Argentina and Uruguay, tortured and executed his own elite, and sent child soldiers to die as the war killed most of Paraguay's population.",
-  "content_warnings": ["mass-atrocity", "child-death", "torture", "graphic-violence", "slavery"],
+  "content_warnings": [
+    "child-abuse",
+    "child-death",
+    "slavery",
+    "graphic-violence",
+    "torture",
+    "mass-atrocity"
+  ],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "War of the Triple Alliance",
     "El Supremo",
@@ -86,18 +94,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:08:39", "note": "1810-1811 independence from Spain and the junta set the start of the covered narrative" },
-    { "facet": "subjects", "part": 1, "at": "00:12:37", "note": "long segment on Francia's rule, isolationism and secret police" },
-    { "facet": "time", "part": 1, "at": "00:25:40", "note": "López born 1826 in the capital, raised on his father's estate" },
-    { "facet": "themes", "part": 1, "at": "00:29:29", "note": "López family receives and trades enslaved Afro-Paraguayans" },
-    { "facet": "regions", "part": 1, "at": "00:34:00", "note": "18-month European tour, France central, arms purchases and Napoleon III" },
-    { "facet": "themes", "part": 2, "at": "00:11:30", "note": "1859 mediation of the Argentine civil conflict, his main diplomatic success" },
-    { "facet": "themes", "part": 2, "at": "00:17:25", "note": "mixed arms purchases with no standard calibre, foundries dependent on imports" },
-    { "facet": "time", "part": 2, "at": "00:22:34", "note": "father dies 1862 and López becomes president" },
-    { "facet": "regions", "part": 2, "at": "00:28:09", "note": "invasion of Mato Grosso (Brazil) after Brazil intervenes in Uruguay" },
-    { "facet": "regions", "part": 2, "at": "00:36:30", "note": "seizes Corrientes and declares war on Argentina" },
-    { "facet": "themes", "part": 2, "at": "00:49:24", "note": "San Fernando camp: torture and execution of brothers, elites and foreigners" },
-    { "facet": "themes", "part": 2, "at": "00:54:06", "note": "child soldiers killed en masse at late-war battles" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:08:39",
+      "note": "1810-1811 independence from Spain and the junta set the start of the covered narrative"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:12:37",
+      "note": "long segment on Francia's rule, isolationism and secret police"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:25:40",
+      "note": "López born 1826 in the capital, raised on his father's estate"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:29:29",
+      "note": "López family receives and trades enslaved Afro-Paraguayans"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:34:00",
+      "note": "18-month European tour, France central, arms purchases and Napoleon III"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:11:30",
+      "note": "1859 mediation of the Argentine civil conflict, his main diplomatic success"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:17:25",
+      "note": "mixed arms purchases with no standard calibre, foundries dependent on imports"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:22:34",
+      "note": "father dies 1862 and López becomes president"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:28:09",
+      "note": "invasion of Mato Grosso (Brazil) after Brazil intervenes in Uruguay"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:36:30",
+      "note": "seizes Corrientes and declares war on Argentina"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:49:24",
+      "note": "San Fernando camp: torture and execution of brothers, elites and foreigners"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:54:06",
+      "note": "child soldiers killed en masse at late-war battles"
+    }
   ],
   "notes": "Transcript says US minister Washburn was executed; historically he left Paraguay alive (legation staff were tortured). Transcript says the post-Francia coup was 1821, clearly a slip for 1841. Covered span starts at 1810 independence rather than Francia's 1766 birth, which is a passing line. Eliza Lynch birth year is disputed (1833/1835). Rehabilitation as national hero is a brief coda, so reaches_present is false."
 }

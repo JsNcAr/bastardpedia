@@ -1,0 +1,117 @@
+[
+  {
+    "id": "behind-the-bastards-q-a-year-s-end-edition",
+    "before": {
+      "warnings": ["drug-use"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["drug-use"],
+      "mentions": ["child-abuse", "suicide-self-harm"]
+    },
+    "notes": "child-abuse is only a brief nod to the troubled-teen camp episodes; kept as a mention under the doubt rule."
+  },
+  {
+    "id": "behind-the-bastards-presents-cool-people-who-did-cool-stuff",
+    "before": {
+      "warnings": ["graphic-violence", "child-death", "suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "graphic-violence"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Downgraded suicide-self-harm from detailed to mention: only a brief reported prison suicide, no extended account found in the transcript."
+  },
+  {
+    "id": "how-woody-guthrie-turned-folk-music-into-a-weapon",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence"],
+      "mentions": []
+    },
+    "notes": "New warning: the harassment segment runs about 00:56:55 to 01:01:30, so detailed; it is letters rather than physical assault, a reviewer may prefer mentions."
+  },
+  {
+    "id": "behind-the-bastards-presents-sixteenth-minute-of-fame",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "p-diddy-a-life-in-crimes",
+    "before": {
+      "warnings": ["sexual-violence", "child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-sexual-abuse"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "child-abuse dropped: the old warning covered the rapes of minors, now child-sexual-abuse; no physical abuse of children found in the scan or a grep of the transcripts."
+  },
+  {
+    "id": "behind-the-bastards-presents-weird-little-guys",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "child-sexual-abuse is only false accusations in the stalking postcards, repeated across several victims; kept as a mention."
+  },
+  {
+    "id": "the-vioxx-scandal-how-big-pharma-killed-more-americans-than-vietnam",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "behind-the-bastards-presents-better-offline",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["child-sexual-abuse"]
+    }
+  },
+  {
+    "id": "we-read-newt-gingrich-s-world-war-2-alternate-history",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "we-read-marjorie-taylor-green-s-book",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["child-sexual-abuse"]
+    }
+  }
+]

@@ -51,7 +51,8 @@
     "approximate": true
   },
   "summary": "Illinois wrestling coach Dennis Hastert sexually abused teenage boys he coached, then rose to become the longest-serving Republican Speaker of the House (1999-2007), presiding over a surge in congressional corruption before hush-money payments exposed him.",
-  "content_warnings": ["child-abuse"],
+  "content_warnings": ["child-sexual-abuse"],
+  "content_mentions": ["child-abuse"],
   "keywords": [
     "Hastert Rule",
     "Yorkville High School",
@@ -79,12 +80,7 @@
       "at": "00:02:58",
       "note": "Speaker 1999-2007; death on 3 October 2026 stated"
     },
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:04:27",
-      "note": "birth date given as 2 January 1942"
-    },
+    { "facet": "time", "part": 1, "at": "00:04:27", "note": "birth date given as 2 January 1942" },
     {
       "facet": "time",
       "part": 1,
@@ -138,6 +134,12 @@
       "part": 2,
       "at": "01:04:05",
       "note": "2015 FBI probe into structured hush-money payments; 15-month sentence, released 2017"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:28:39",
+      "note": "How Hastert abused the boys he coached on wrestling trips, and the victims who came forward"
     }
   ],
   "notes": "Primary theme could equally be child-abuse; electoral-politics chosen because most airtime is his political career. No theme for political corruption, so fraud-grift stands in (low fit). sexual-abuse omitted: victims were 14-17, with only a hedged mention of one at 18. From memory: DeLay and Gingrich birth years, 2016 sentencing year, and the spelling Sibel Edmonds (transcript renders it Sybil)."

@@ -46,7 +46,8 @@
     "approximate": false
   },
   "summary": "Memphis-born Pentecostal preacher David E. Taylor, self-styled best friend of Jesus, ran a multi-state US ministry whose unpaid followers staffed scam prayer call centers under forced labor and sexual coercion until 2025 FBI raids.",
-  "content_warnings": ["slavery", "sexual-violence"],
+  "content_warnings": ["sexual-violence", "slavery"],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Kingdom of God Global Church",
     "JMMI",
@@ -127,6 +128,18 @@
       "part": 2,
       "at": "00:53:50",
       "note": "2025 FBI raids find 57 forced-labor victims; Taylor and Brannan charged"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:15:09",
+      "note": "DOJ account of aides transporting women to Taylor for sex trafficking"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:18:12",
+      "note": "Extended discussion of the main alleged trafficking victim's account"
     }
   ],
   "notes": "Church entity named variously Kingdom of God Global Church and JMMI; used the registered nonprofit name. main_span starts at the 2009 book and the cult phase that followed; earlier 1990s preaching is covered briefly. A few minutes on AI-generated promo videos (artificial-intelligence) left out as too short. Father's 1950s bus story is background, not counted in covered_span."

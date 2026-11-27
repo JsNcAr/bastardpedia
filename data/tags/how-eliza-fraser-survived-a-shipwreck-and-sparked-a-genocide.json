@@ -35,9 +35,7 @@
       "floruit": 1836
     }
   ],
-  "roles": [
-    "con-artist"
-  ],
+  "roles": ["con-artist"],
   "themes": {
     "primary": "genocide-mass-killing",
     "secondary": [
@@ -49,19 +47,10 @@
     ]
   },
   "regions": {
-    "origin": [
-      "GB"
-    ],
-    "setting": [
-      "AU",
-      "GB"
-    ],
-    "subdivisions": [
-      "AU-QLD"
-    ],
-    "polities": [
-      "british-empire"
-    ],
+    "origin": ["GB"],
+    "setting": ["AU", "GB"],
+    "subdivisions": ["AU-QLD"],
+    "polities": ["british-empire"],
     "scope": "international"
   },
   "time": {
@@ -77,10 +66,8 @@
     "approximate": true
   },
   "summary": "British woman Eliza Fraser, shipwrecked off K'gari (Fraser Island) in 1836 and sheltered by the Butchulla, spread embellished tales of cannibal savagery for money that fed colonial violence and the 1851 massacre.",
-  "content_warnings": [
-    "mass-atrocity",
-    "hate-speech"
-  ],
+  "content_warnings": ["mass-atrocity", "hate-speech"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "K'gari",
     "Fraser Island",
@@ -93,9 +80,7 @@
     "Robert Darge",
     "Annihilation of the Blacks"
   ],
-  "guests": [
-    "Jack O'Brien"
-  ],
+  "guests": ["Jack O'Brien"],
   "confidence": {
     "subjects": "medium",
     "roles": "low",
@@ -169,6 +154,12 @@
       "part": 2,
       "at": "00:44:21",
       "note": "story grows into pamphlets, plays and 1880s London sideshows with an Eliza impersonator"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:28:38",
+      "note": "Rumours that Fraser was raped by her hosts, which she partly played up"
     }
   ],
   "notes": "Death year 1858 from general knowledge; transcript only says she retired to New Zealand. Covered span starts at her birth, leaving out Cook (1770) and Flinders (1799-1802) contact as background. Daisy Bates gets a segment but is a background digression, so she is a keyword, not a subject. No role fits a shipwreck survivor who profited from false accounts; con-artist is the closest fit."

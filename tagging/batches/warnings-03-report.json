@@ -1,0 +1,118 @@
+[
+  {
+    "id": "alex-karp-how-palantir-s-ceo-went-from-marxist-to-anti-woke-crusader",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence"]
+    }
+  },
+  {
+    "id": "the-origins-of-terror-in-palestine",
+    "before": {
+      "warnings": ["mass-atrocity"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["mass-atrocity"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    }
+  },
+  {
+    "id": "rebecca-felton-the-first-female-senator-was-also-a-pro-lynching-activist",
+    "before": {
+      "warnings": ["slavery", "sexual-violence", "mass-atrocity", "hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "slavery", "mass-atrocity", "hate-speech"],
+      "mentions": ["child-sexual-abuse"]
+    },
+    "notes": "child-sexual-abuse kept as a mention: the court-martial case of a child's rape is a short read-out, not an extended account. Reviewer may want to check its length around part 2, 00:07:29."
+  },
+  {
+    "id": "richard-marcinko-the-founder-of-seal-team-6",
+    "before": {
+      "warnings": ["graphic-violence", "mass-atrocity", "torture", "child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "graphic-violence", "torture", "mass-atrocity"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Statutory rape of Marcinko as a minor filed under child-sexual-abuse, not sexual-violence. The suicide mention is a fictional suicide-bombing plot, kept under the doubt rule."
+  },
+  {
+    "id": "the-worst-team-owner-in-fifa-history-uday-hussein",
+    "before": {
+      "warnings": ["torture", "sexual-violence", "suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "torture"],
+      "mentions": ["child-abuse", "suicide-self-harm"]
+    },
+    "notes": "suicide-self-harm moves from warning to mention: only brief references to the bride's suicide within the rape stories. child-abuse (childhood exposure to torture, about 14:00 to 16:00) is a short stretch; check if it should be detailed."
+  },
+  {
+    "id": "elizabeth-dilling-the-original-candace-owens",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Only a figurative use of the word, kept as a mention per the rules."
+  },
+  {
+    "id": "ian-smith-the-prime-minister-of-rhodesia",
+    "before": {
+      "warnings": ["mass-atrocity", "medical-horror"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["mass-atrocity", "medical-horror"],
+      "mentions": []
+    }
+  },
+  {
+    "id": "the-fake-bomb-detector-grift-that-killed-hundreds",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Only suicide bombings, kept as a mention under the doubt rule."
+  },
+  {
+    "id": "the-rise-of-the-activist-investor",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "mark-fuhrman-the-most-racist-cop-or-merely-normal-racist-cop",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "hate-speech"],
+      "mentions": []
+    },
+    "notes": "Detailed because workplace sexual harassment is a sustained thread (part 2, 15:56 to 18:53, revisited later). Borderline with mentions."
+  }
+]

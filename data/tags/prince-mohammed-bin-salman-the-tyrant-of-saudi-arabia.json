@@ -63,7 +63,8 @@
     "approximate": false
   },
   "summary": "Saudi crown prince Mohammed bin Salman rose from a minor royal branch to rule Saudi Arabia from 2015, waging a devastating war in Yemen, purging rivals and dissidents, torturing activists and ordering the 2018 murder of Jamal Khashoggi.",
-  "content_warnings": ["torture", "graphic-violence", "mass-atrocity"],
+  "content_warnings": ["graphic-violence", "torture", "mass-atrocity"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "MBS",
     "Wahhabism",
@@ -91,12 +92,7 @@
       "at": "00:09:58",
       "note": "1744-45 alliance of Muhammad ibn Saud and al-Wahhab founds the first Saudi state"
     },
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:52:40",
-      "note": "MBS born 31 August 1985"
-    },
+    { "facet": "time", "part": 1, "at": "00:52:40", "note": "MBS born 31 August 1985" },
     {
       "facet": "time",
       "part": 3,
@@ -152,10 +148,10 @@
       "note": "real estate ventures and business deals that built his early fortune"
     },
     {
-      "facet": "content_warnings",
+      "facet": "content_mentions",
       "part": 4,
-      "at": "00:55:52",
-      "note": "detailed account of waterboarding, shocks and beatings of women activists"
+      "at": "00:51:55",
+      "note": "Testimony that a detained woman activist was sexually harassed during interrogation"
     }
   ],
   "notes": "covered_span starts at the 1744 Saud-Wahhab pact: Part 1 spends most of its time on House of Saud history (secondary subject). End is 2026 per the lifetime rule (subject alive). Narrative stops around 2018-2021 with only brief Trump-era and Yemen death-toll remarks, so reaches_present is false. MBN's birth year 1959 is stated; his and MBS's living status taken from the transcript. ottoman-empire polity is for the destruction of the first Saudi state."

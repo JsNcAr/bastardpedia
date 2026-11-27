@@ -55,7 +55,8 @@
     "approximate": false
   },
   "summary": "Austrian-born Dachau and Buchenwald survivor Bruno Bettelheim faked psychoanalytic credentials, ran Chicago's Orthogenic School from 1944 as a whites-only total institution where he beat children, and blamed autism on cold mothers.",
-  "content_warnings": ["child-abuse", "suicide-self-harm", "child-death"],
+  "content_warnings": ["child-abuse", "child-death", "suicide-self-harm"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "Dachau",
     "Buchenwald",
@@ -126,16 +127,28 @@
       "note": "The Empty Fortress and the refrigerator-mother theory of autism"
     },
     {
-      "facet": "content_warnings",
-      "part": 2,
-      "at": "00:48:23",
-      "note": "death of a student on a home visit, which Bettelheim recast as suicide"
-    },
-    {
       "facet": "time",
       "part": 2,
       "at": "00:56:39",
       "note": "his 1990 suicide and the wave of survivor accounts that followed"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:47:07",
+      "note": "Account of children at the school forced into humiliating and violent situations and abused"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:36:30",
+      "note": "Hosts discuss the school's coercive treatment of children, comparing it to the troubled teen industry"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:50:32",
+      "note": "Bettelheim falsely tells a family their son died by suicide and invents a past attempt"
     }
   ],
   "notes": "Primary theme child-abuse rather than medical-malpractice: he had no medical or psychology credentials, so the refrigerator-mother theory and invented diagnoses go under quackery-pseudoscience. Survivor accounts continuing to today get only a short coda, so reaches_present is false. main_span starts at the 1938 arrest, whose camp experience shaped his later work."

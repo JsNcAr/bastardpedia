@@ -30,12 +30,7 @@
   "roles": ["writer-intellectual", "scientist-scholar"],
   "themes": {
     "primary": "fascism-far-right",
-    "secondary": [
-      "nazism",
-      "authoritarianism",
-      "racism-white-supremacy",
-      "organized-religion"
-    ]
+    "secondary": ["nazism", "authoritarianism", "racism-white-supremacy", "organized-religion"]
   },
   "regions": {
     "origin": ["DE"],
@@ -52,6 +47,7 @@
   },
   "summary": "German legal theorist Carl Schmitt turned Weimar-era critiques of liberal democracy into a blueprint for destroying it, joined the Nazi Party in 1933, justified Hitler's purges and antisemitic laws, and later inspired far-right thinkers worldwide.",
   "content_warnings": [],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "The Concept of the Political",
     "The Crisis of Parliamentary Democracy",

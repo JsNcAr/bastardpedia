@@ -63,6 +63,7 @@
   },
   "summary": "How coexistence among Jews, Muslims and Christians in late Ottoman Palestine gave way, from the 1880s Zionist immigration through the British Mandate, to riots, assassinations and militia terrorism ending with the 1940 Patria bombing.",
   "content_warnings": ["mass-atrocity"],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "British Mandate for Palestine",
     "Lives in Common",
@@ -149,6 +150,12 @@
       "part": 2,
       "at": "00:59:04",
       "note": "1940 Haganah bombing of the Patria at Haifa closes the story"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:29:44",
+      "note": "Brief discussion of a figure's writing about an abusive man-boy relationship and period laws on pedophilia"
     }
   ],
   "notes": "No single person is the subject: the host says he chose a survey over a Begin or Jabotinsky episode, so Zionism is primary and roles are empty. Setting lists PS before IL because Jerusalem, Hebron and Jaffa/Tel Aviv events are split across both. The 1881 pogrom city is placed by the host near Azerbaijan; it is in modern Ukraine. King David Hotel (1946) and 1948 are only brief mentions, so covered_span ends in 1940."

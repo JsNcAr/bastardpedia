@@ -40,11 +40,7 @@
       "role": "secondary"
     }
   ],
-  "roles": [
-    "dictator-autocrat",
-    "monarch-royal",
-    "military-officer"
-  ],
+  "roles": ["dictator-autocrat", "monarch-royal", "military-officer"],
   "themes": {
     "primary": "authoritarianism",
     "secondary": [
@@ -58,20 +54,10 @@
     ]
   },
   "regions": {
-    "origin": [
-      "IR"
-    ],
-    "setting": [
-      "IR",
-      "GB",
-      "RU"
-    ],
+    "origin": ["IR"],
+    "setting": ["IR", "GB", "RU"],
     "subdivisions": [],
-    "polities": [
-      "british-empire",
-      "russian-empire",
-      "soviet-union"
-    ],
+    "polities": ["british-empire", "russian-empire", "soviet-union"],
     "scope": "international"
   },
   "time": {
@@ -87,10 +73,8 @@
     "approximate": false
   },
   "summary": "Cossack officer Reza Khan seized power in Persia in a British-backed 1921 coup, crowned himself Reza Shah Pahlavi and ruled Iran as a brutal autocrat until the Allies forced him to abdicate in 1941.",
-  "content_warnings": [
-    "graphic-violence",
-    "mass-atrocity"
-  ],
+  "content_warnings": ["graphic-violence", "mass-atrocity"],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Great Game",
     "Peacock Throne",
@@ -103,9 +87,7 @@
     "Pahlavi dynasty",
     "Majlis"
   ],
-  "guests": [
-    "Kaveh Hoda"
-  ],
+  "guests": ["Kaveh Hoda"],
   "confidence": {
     "subjects": "high",
     "roles": "high",
@@ -163,12 +145,6 @@
       "note": "Tsar's Cossacks and Russian influence shape the Persian brigade"
     },
     {
-      "facet": "content_warnings",
-      "part": 2,
-      "at": "00:48:43",
-      "note": "explicit account of beheadings and cauterized necks"
-    },
-    {
       "facet": "themes",
       "part": 1,
       "at": "01:04:09",
@@ -185,6 +161,12 @@
       "part": 2,
       "at": "00:02:36",
       "note": "Russian Civil War spills into Persia: Soviet republic in the north vs Whites, British, Cossacks"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:20:28",
+      "note": "Banter about a TV show toning down its rape and incest content"
     }
   ],
   "notes": "Primary theme could be colonialism-imperialism: Part 1 is almost all British/Russian Great Game meddling before Reza appears. covered_span starts at the 1785 Qajar rise (secondary subject, several minutes); the 1828 treaty or the Great Game (1840) would be an alternative start. Opening ties to the 2026 US-Iran war are framing only, so reaches_present is false. Great Persian Famine (WWI) gets a long segment."

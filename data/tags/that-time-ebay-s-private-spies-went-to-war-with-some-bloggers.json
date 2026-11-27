@@ -65,6 +65,7 @@
   },
   "summary": "In 2019 eBay's corporate security team, egged on by executives angered by mild critical coverage, stalked and terrorized Ina and David Steiner, a Massachusetts couple who ran the trade news site EcommerceBytes.",
   "content_warnings": [],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "EcommerceBytes",
     "AuctionBytes",
@@ -145,6 +146,18 @@
       "part": 2,
       "at": "01:09:48",
       "note": "Steiners' civil suit still ongoing; Wenig's later board seats"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:44:24",
+      "note": "Joke about online pedophile accusations and a cut segment"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:42:41",
+      "note": "Online harassment telling people to kill themselves"
     }
   ],
   "notes": "Primary is eBay because the host frames the whole C-suite as the bastard, so roles are empty. Transcript renders Baugh as Bog/Baw, Wymer as Weimer, Cooke as Cook; standard spellings used. HBGary and Black Cube are context, not covered years. Wenig's pre-eBay career is brief, so covered_span starts at the 1999 site launch. End 2024 is eBay's 3M payment (DPA, January 2024)."

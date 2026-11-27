@@ -58,7 +58,8 @@
     "approximate": false
   },
   "summary": "American evangelist David Berg founded the Children of God in California in 1968 and turned it into a worldwide sex cult that prostituted female members as flirty fishing and made the sexual abuse of children official doctrine.",
-  "content_warnings": ["child-abuse", "sexual-violence", "torture", "suicide-self-harm"],
+  "content_warnings": ["sexual-violence", "child-sexual-abuse", "torture", "suicide-self-harm"],
+  "content_mentions": ["child-abuse"],
   "keywords": [
     "The Family International",
     "Teens for Christ",
@@ -145,6 +146,12 @@
       "part": 2,
       "at": "01:07:22",
       "note": "Ricky leaves, kills his former abuser and then himself in the early 2000s"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:48:58",
+      "note": "Long, explicit account of the cult's documented sexual abuse of Berg's young heir"
     }
   ],
   "notes": "Title gives Berg and the cult equal weight, so both are primary. covered_span ends 2005 (Ricky Rodriguez murder-suicide, year from own knowledge; transcript says early 2000s); that epilogue is only a few minutes, so 1994 is a defensible alternative end. Portugal (burial) mentioned only in passing and left out of setting. reaches_present rests on a short closing segment on Zerby still at large and current membership."

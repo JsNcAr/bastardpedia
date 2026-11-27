@@ -44,10 +44,7 @@
       "floruit": 2017
     }
   ],
-  "roles": [
-    "cult-leader",
-    "influencer-online"
-  ],
+  "roles": ["cult-leader", "influencer-online"],
   "themes": {
     "primary": "cults-new-religions",
     "secondary": [
@@ -59,16 +56,9 @@
     ]
   },
   "regions": {
-    "origin": [
-      "US"
-    ],
-    "setting": [
-      "US"
-    ],
-    "subdivisions": [
-      "US-CA",
-      "US-VT"
-    ],
+    "origin": ["US"],
+    "setting": ["US"],
+    "subdivisions": ["US-CA", "US-VT"],
     "polities": [],
     "scope": "national"
   },
@@ -85,11 +75,8 @@
     "approximate": true
   },
   "summary": "Alaska-born blogger Ziz LaSota radicalized within the Bay Area Rationalist and AI-risk subculture and gathered a small cultish following, the Zizians, linked to a string of killings in California, Pennsylvania and Vermont between 2022 and 2025.",
-  "content_warnings": [
-    "sexual-violence",
-    "graphic-violence",
-    "suicide-self-harm"
-  ],
+  "content_warnings": ["sexual-violence", "graphic-violence", "suicide-self-harm"],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "Harry Potter and the Methods of Rationality",
     "LessWrong",
@@ -102,9 +89,7 @@
     "Curtis Lind",
     "Coventry, Vermont"
   ],
-  "guests": [
-    "David Gborie"
-  ],
+  "guests": ["David Gborie"],
   "confidence": {
     "subjects": "high",
     "roles": "medium",
@@ -168,16 +153,22 @@
       "note": "Ziz and others arrested February 2025, latest event covered"
     },
     {
-      "facet": "content_warnings",
-      "part": 3,
-      "at": "00:59:29",
-      "note": "Maia Pasek's suicide and suicide note discussed in detail"
-    },
-    {
       "facet": "themes",
       "part": 2,
       "at": "00:53:25",
       "note": "long account of CFAR self-help seminars, hamming and doom circles"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 3,
+      "at": "00:32:53",
+      "note": "Extended discussion of sexual abuse and harassment of women in the rationalist community"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 4,
+      "at": "00:17:39",
+      "note": "First-hand account of protesters being sexually assaulted by officers after arrest"
     }
   ],
   "notes": "Ziz birth year given as 1990 or 1991; used 1990 (approximate). Roles: 'influencer-online' chosen for her blog-driven influence; 'writer-intellectual' was the alternative. Subdivisions list both California (core events) and Vermont (shootout); prompt wording suggests a single state, so reviewer may trim. Host explicitly argues the killings were not terrorism, so terrorism theme omitted."

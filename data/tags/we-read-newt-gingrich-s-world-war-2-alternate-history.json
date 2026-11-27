@@ -58,6 +58,7 @@
   },
   "summary": "A reading of 1945, the 1995 alternate-history novel by then-Speaker Newt Gingrich in which a victorious Nazi Germany attacks East Tennessee, set against his combative career and the book's commercial flop.",
   "content_warnings": [],
+  "content_mentions": [],
   "keywords": [
     "alternate history",
     "Contract with America",
@@ -78,13 +79,48 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:06:56", "note": "Gingrich biography starts with his 1943 birth and Vietnam-era deferment" },
-    { "facet": "themes", "part": 1, "at": "00:13:05", "note": "Speakership 1995-99 and the 1994 Contract with America election" },
-    { "facet": "themes", "part": 1, "at": "00:14:50", "note": "anti-gay-rights stance and affair while pursuing Clinton impeachment" },
-    { "facet": "subjects", "part": 1, "at": "00:23:21", "note": "Baen printed huge runs expecting a hit; most copies returned, nearly sinking the publisher" },
-    { "facet": "themes", "part": 1, "at": "00:27:33", "note": "opening chapter: politician self-insert leaks atomic secret to a Nazi spy mistress" },
-    { "facet": "themes", "part": 1, "at": "00:34:11", "note": "novel's Nazi super weapons and Skorzeny as main villain" },
-    { "facet": "regions", "part": 1, "at": "00:41:14", "note": "airborne SS invasion of Tennessee repelled by Alvin York's militia of veterans" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:06:56",
+      "note": "Gingrich biography starts with his 1943 birth and Vietnam-era deferment"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:13:05",
+      "note": "Speakership 1995-99 and the 1994 Contract with America election"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:14:50",
+      "note": "anti-gay-rights stance and affair while pursuing Clinton impeachment"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:23:21",
+      "note": "Baen printed huge runs expecting a hit; most copies returned, nearly sinking the publisher"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:27:33",
+      "note": "opening chapter: politician self-insert leaks atomic secret to a Nazi spy mistress"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:34:11",
+      "note": "novel's Nazi super weapons and Skorzeny as main villain"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:41:14",
+      "note": "airborne SS invasion of Tennessee repelled by Alvin York's militia of veterans"
+    }
   ],
   "notes": "No theme for literature or publishing; electoral-politics chosen as primary because the episode frames the novel through Gingrich's career, with nazism and war themes coming from the fictional plot. US-TN reflects the novel's central fictional setting. Covered span follows the Gingrich biography segment (1943 to end of speakership in 1999); the novel's fictional 1945 falls inside it."
 }

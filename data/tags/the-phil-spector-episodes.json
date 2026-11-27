@@ -35,7 +35,12 @@
   "roles": ["entertainer-artist", "criminal-killer"],
   "themes": {
     "primary": "entertainment-celebrity",
-    "secondary": ["domestic-abuse", "murder-serial-killers", "child-abuse", "policing-incarceration"]
+    "secondary": [
+      "domestic-abuse",
+      "murder-serial-killers",
+      "child-abuse",
+      "policing-incarceration"
+    ]
   },
   "regions": {
     "origin": ["US"],
@@ -51,7 +56,8 @@
     "approximate": false
   },
   "summary": "American record producer Phil Spector built the Wall of Sound in the 1960s, held his wife Ronnie captive in their Los Angeles mansion, menaced musicians with guns for decades, and was convicted in 2009 of murdering actress Lana Clarkson.",
-  "content_warnings": ["suicide-self-harm", "graphic-violence"],
+  "content_warnings": ["graphic-violence", "suicide-self-harm"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse", "child-abuse"],
   "keywords": [
     "Wall of Sound",
     "The Teddy Bears",
@@ -74,15 +80,72 @@
   },
   "evidence": [
     { "facet": "time", "part": 1, "at": "00:08:58", "note": "birth in the Bronx, December 1939" },
-    { "facet": "time", "part": 1, "at": "00:23:05", "note": "first hit with the Teddy Bears in 1958 starts his career" },
-    { "facet": "themes", "part": 2, "at": "00:30:10", "note": "Ronnie brought to California; control over her begins" },
-    { "facet": "themes", "part": 3, "at": "00:09:31", "note": "home turned into a guarded fortress to confine Ronnie" },
-    { "facet": "regions", "part": 3, "at": "00:34:36", "note": "London sessions reworking the Beatles' Let It Be" },
-    { "facet": "themes", "part": 3, "at": "01:16:27", "note": "adopted children confined and coerced, kept under a governess" },
-    { "facet": "subjects", "part": 4, "at": "00:13:11", "note": "Lana Clarkson's background and the night she met Spector" },
-    { "facet": "themes", "part": 4, "at": "00:30:48", "note": "police find Clarkson shot in the Alhambra mansion" },
-    { "facet": "themes", "part": 4, "at": "00:58:17", "note": "2009 retrial ends in a murder conviction" },
-    { "facet": "time", "part": 4, "at": "01:04:29", "note": "dies of COVID complications in prison, January 2021" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:23:05",
+      "note": "first hit with the Teddy Bears in 1958 starts his career"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:30:10",
+      "note": "Ronnie brought to California; control over her begins"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:09:31",
+      "note": "home turned into a guarded fortress to confine Ronnie"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:34:36",
+      "note": "London sessions reworking the Beatles' Let It Be"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "01:16:27",
+      "note": "adopted children confined and coerced, kept under a governess"
+    },
+    {
+      "facet": "subjects",
+      "part": 4,
+      "at": "00:13:11",
+      "note": "Lana Clarkson's background and the night she met Spector"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:30:48",
+      "note": "police find Clarkson shot in the Alhambra mansion"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:58:17",
+      "note": "2009 retrial ends in a murder conviction"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "01:04:29",
+      "note": "dies of COVID complications in prison, January 2021"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:13:10",
+      "note": "Father's suicide when Phil was nine and the family's handling of it, several minutes"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 4,
+      "at": "00:54:02",
+      "note": "Defence argues Lana Clarkson killed herself; trial discussion of that claim"
+    }
   ],
   "notes": "Main span runs from the 1958 Teddy Bears hit to the 2009 conviction; the lifetime rule extends covered years to 1939-2021. Ronnie's later comeback is a short coda, so it does not extend the span. Child-abuse is a few minutes on his adopted children; policing-incarceration covers the investigation and two trials. No theme for gun menace by an individual."
 }

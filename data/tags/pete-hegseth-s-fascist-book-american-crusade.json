@@ -52,6 +52,7 @@
   },
   "summary": "A reading of American Crusade, the 2020 Christian nationalist manifesto by Fox host and later US Secretary of Defense Pete Hegseth, set against his record of mismanaged veterans groups, Iraq service and a 2017 sexual assault allegation.",
   "content_warnings": ["sexual-violence", "hate-speech"],
+  "content_mentions": [],
   "keywords": [
     "Deus vult",
     "First Crusade",
@@ -122,16 +123,28 @@
       "note": "book's chapters on Islam as inherently violent, rebutted by the host"
     },
     {
-      "facet": "content_warnings",
-      "part": 2,
-      "at": "01:10:28",
-      "note": "account of the 2017 Monterey sexual assault allegation and settlement"
-    },
-    {
       "facet": "time",
       "part": 2,
       "at": "00:56:24",
       "note": "follows his later actions up to his 2025 tenure as Secretary of Defense"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "01:14:00",
+      "note": "Extended account of the 2017 sexual assault allegation and the woman's statement"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "01:10:28",
+      "note": "Segment opens on the assault allegation and harassment claims in the whistleblower report"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:24:56",
+      "note": "Report of an attempted sexual assault by a staffer and a hostile workplace"
     }
   ],
   "notes": "Hybrid book reading and biography; media-reading wins by precedence. Fascism-far-right chosen as primary per the title; religious-right-culture-war (Christian nationalism) was a close alternative. The First Crusade segment is treated as fact-checking the book, not a subject, so covered_span stays 1980-2025. Afghanistan and Guantanamo service mentioned only briefly."

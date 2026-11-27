@@ -65,6 +65,7 @@
   },
   "summary": "Ian Smith, Rhodesian-born prime minister of Rhodesia from 1964, illegally declared independence from Britain in 1965 to preserve white minority rule and waged the brutal Bush War until 1979.",
   "content_warnings": ["mass-atrocity", "medical-horror"],
+  "content_mentions": [],
   "keywords": [
     "Unilateral Declaration of Independence",
     "Central African Federation",
@@ -129,12 +130,6 @@
       "note": "Extended segment on the Selous Scouts pseudo-operations and turned prisoners"
     },
     {
-      "facet": "content_warnings",
-      "part": 2,
-      "at": "01:11:26",
-      "note": "Chemical and biological warfare: poisoned wells, anthrax, human trials on prisoners"
-    },
-    {
       "facet": "regions",
       "part": 2,
       "at": "01:05:14",
@@ -151,6 +146,12 @@
       "part": 2,
       "at": "01:25:39",
       "note": "Smith's retirement in Zimbabwe and death in Cape Town in 2007"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "01:11:26",
+      "note": "Chemical and biological warfare: poisoned wells, anthrax, human trials on prisoners"
     }
   ],
   "notes": "covered_span starts at 1889 because Part 1 spends a long segment on the BSAC founding of Rhodesia, the 1890s wars and early labour laws; a reviewer may treat this as background and start at 1919. Transcript says 'Universal Declaration of Independence'; the actual name is Unilateral. Primary theme could also be racism-white-supremacy."

@@ -65,7 +65,8 @@
     "approximate": false
   },
   "summary": "Decorated Green Beret Bo Gritz lied his way into fame as the 'real Rambo', fueled the myth of live US POWs in Southeast Asia with botched fundraised raids, then ran with far-right parties and sold land to Idaho militia followers.",
-  "content_warnings": ["graphic-violence", "suicide-self-harm"],
+  "content_warnings": ["graphic-violence"],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Rambo: First Blood Part II",
     "POW/MIA flag",
@@ -87,12 +88,7 @@
     "time": "medium"
   },
   "evidence": [
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:08:58",
-      "note": "born January 1939 in Enid, Oklahoma"
-    },
+    { "facet": "time", "part": 1, "at": "00:08:58", "note": "born January 1939 in Enid, Oklahoma" },
     {
       "facet": "time",
       "part": 1,
@@ -152,6 +148,12 @@
       "part": 2,
       "at": "00:40:26",
       "note": "1998 collapse of Almost Heaven, divorce and suicide attempt; main span ends"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:33:06",
+      "note": "Gritz's writing lists pedophilia among the sins of a satanic America"
     }
   ],
   "notes": "The hosts say Gritz was still alive at recording (Nov 2025), so lifespan end is null and the lifetime rule extends covered_span to 2025. Reviewer: please verify, I have a vague memory he may have died earlier; if so, set the real death year. The POW myth and failed raids take the most airtime, so conspiracy-theories was chosen as primary over fascism-far-right (the description's framing). Latin America command 1975-77 mentioned only briefly, so no country added."

@@ -41,6 +41,12 @@ Child sexual abuse is `child-sexual-abuse`; `child-abuse` is physical and emotio
 cruelty and neglect of children. Before 0.8.0 `child-abuse` covered both, so a current
 `child-abuse` warning may need to become `child-sexual-abuse`, or both.
 
+A strict warning the story already has stays, at least as a mention: the original tagger read
+the whole transcript, and this packet only shows the scan's words. You may move it from
+detailed to mentioned when the candidates show it is brief. The merge step enforces this (the
+one exception: an old `child-abuse` warning that was really sexual abuse may become
+`child-sexual-abuse`).
+
 The scan only knows its words. If the descriptions or the current tags make another kind of
 mention likely (the summary names an abuser, a theme is `sexual-abuse` or `child-abuse`), say so
 in `notes` rather than guessing.
@@ -73,8 +79,9 @@ Write `data/review/warnings/<story-id>.json`:
 ```
 
 - Only strict warning ids, each in one list at most.
-- `evidence`: up to 6 entries, at least one per warning you list. Timestamps come from the
-  candidates. Notes are at most 120 characters, **in your own words, never quotations** from the
+- `evidence`: up to 6 entries, at least one per warning you list when the story has a
+  transcript. Timestamps come from the candidates or the transcript; never invent one (a part
+  without a transcript gets no evidence). Notes are at most 120 characters, **in your own words, never quotations** from the
   transcript (ADR 0007).
 - Empty lists are fine: `"detailed": [], "mentions": []` records that the story was checked and
   has none.

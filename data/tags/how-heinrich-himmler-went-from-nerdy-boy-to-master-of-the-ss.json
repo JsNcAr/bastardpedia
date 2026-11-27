@@ -51,11 +51,7 @@
       }
     }
   ],
-  "roles": [
-    "politician-official",
-    "police-lawman",
-    "activist-organizer"
-  ],
+  "roles": ["politician-official", "police-lawman", "activist-organizer"],
   "themes": {
     "primary": "nazism",
     "secondary": [
@@ -69,21 +65,10 @@
     ]
   },
   "regions": {
-    "origin": [
-      "DE"
-    ],
-    "setting": [
-      "DE",
-      "AT"
-    ],
-    "subdivisions": [
-      "DE-BY"
-    ],
-    "polities": [
-      "german-empire",
-      "weimar-republic",
-      "nazi-germany"
-    ],
+    "origin": ["DE"],
+    "setting": ["DE", "AT"],
+    "subdivisions": ["DE-BY"],
+    "polities": ["german-empire", "weimar-republic", "nazi-germany"],
     "scope": "national"
   },
   "time": {
@@ -99,10 +84,8 @@
     "approximate": true
   },
   "summary": "Biography of Heinrich Himmler, a Munich-born former schoolboy steeped in völkisch occultism who rose through the Nazi Party to lead the SS from 1929, building it into a racial order that ran Germany's police and concentration camps.",
-  "content_warnings": [
-    "mass-atrocity",
-    "hate-speech"
-  ],
+  "content_warnings": ["mass-atrocity", "hate-speech"],
+  "content_mentions": [],
   "keywords": [
     "Wewelsburg",
     "Dachau",
@@ -115,9 +98,7 @@
     "Order of the New Templars",
     "Marga Himmler"
   ],
-  "guests": [
-    "Prop"
-  ],
+  "guests": ["Prop"],
   "confidence": {
     "subjects": "high",
     "roles": "medium",

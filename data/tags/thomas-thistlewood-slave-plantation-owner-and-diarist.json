@@ -45,7 +45,8 @@
     "approximate": false
   },
   "summary": "Lincolnshire-born Thomas Thistlewood went to Jamaica in 1750, rose from overseer to plantation owner, and spent 36 years recording in his diaries the rapes, floggings and tortures he inflicted on the people he enslaved.",
-  "content_warnings": ["slavery", "sexual-violence", "torture", "child-abuse"],
+  "content_warnings": ["sexual-violence", "child-sexual-abuse", "slavery", "torture"],
+  "content_mentions": ["child-abuse"],
   "keywords": [
     "Thistlewood diaries",
     "Egypt Plantation",
@@ -126,6 +127,18 @@
       "part": 2,
       "at": "00:54:45",
       "note": "death in 1786 at sixty-five; abolition aftermath only a short coda"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:47:30",
+      "note": "First recorded sexual assault of an enslaved woman and his coded logs of rapes"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:22:20",
+      "note": "Extended account of repeated rapes of the enslaved woman Eve by him and his friends"
     }
   ],
   "notes": "No role for slaveholder or planter; colonial-administrator (settler who profited from a colony) plus business-executive is the closest fit, criminal-killer for the documented rapes and torture. The Man-Plant author is pseudonymous (Vincent Miller), so the book is the secondary subject. Phibbah, Eve and Bess appear often but are victims, not separate segments."

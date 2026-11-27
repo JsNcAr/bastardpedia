@@ -62,6 +62,7 @@
   },
   "summary": "Albuquerque engineer Paul Bennewitz recorded secret aircraft tests at Kirtland Air Force Base around 1979, so Air Force agent Richard Doty and others fed him fake alien messages for years, pushing him into paranoia and breakdown to hide drone and stealth programs.",
   "content_warnings": ["animal-cruelty"],
+  "content_mentions": ["sexual-violence", "suicide-self-harm"],
   "keywords": [
     "Kirtland Air Force Base",
     "Dulce Base",
@@ -83,16 +84,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "subjects", "part": 1, "at": "00:27:17", "note": "Bennewitz introduced: physicist-engineer who founded Thunder Scientific in 1969" },
-    { "facet": "themes", "part": 1, "at": "00:34:21", "note": "Long segment on Project Plowshare nuclear civil-works schemes" },
-    { "facet": "themes", "part": 1, "at": "00:44:34", "note": "Gasbuggy blast near Dulce leaves radioactive gas; linked to cattle mutilation studies" },
-    { "facet": "time", "part": 1, "at": "00:49:55", "note": "1979 sightings of lights over Kirtland from his Albuquerque home" },
-    { "facet": "subjects", "part": 1, "at": "00:57:32", "note": "Base security assigns AFOSI agent Richard Doty to befriend him" },
-    { "facet": "subjects", "part": 2, "at": "00:29:28", "note": "Doty and colleagues try to recruit UFO writer Bill Moore as a disinformation channel" },
-    { "facet": "themes", "part": 2, "at": "00:41:11", "note": "Computer supplied to Bennewitz used to send him fake alien messages" },
-    { "facet": "themes", "part": 2, "at": "00:51:41", "note": "Business declines; Dulce base myth spreads through late-1980s UFO books and QAnon" },
-    { "facet": "time", "part": 2, "at": "00:55:00", "note": "1988 assault plans, paranoia about wife, committed to a facility" },
-    { "facet": "time", "part": 2, "at": "00:57:10", "note": "Doty's later UFO convention career and recent interviews" }
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:27:17",
+      "note": "Bennewitz introduced: physicist-engineer who founded Thunder Scientific in 1969"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:34:21",
+      "note": "Long segment on Project Plowshare nuclear civil-works schemes"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:44:34",
+      "note": "Gasbuggy blast near Dulce leaves radioactive gas; linked to cattle mutilation studies"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:49:55",
+      "note": "1979 sightings of lights over Kirtland from his Albuquerque home"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:57:32",
+      "note": "Base security assigns AFOSI agent Richard Doty to befriend him"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:29:28",
+      "note": "Doty and colleagues try to recruit UFO writer Bill Moore as a disinformation channel"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:41:11",
+      "note": "Computer supplied to Bennewitz used to send him fake alien messages"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:51:41",
+      "note": "Business declines; Dulce base myth spreads through late-1980s UFO books and QAnon"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:55:00",
+      "note": "1988 assault plans, paranoia about wife, committed to a facility"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:57:10",
+      "note": "Doty's later UFO convention career and recent interviews"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:29:37",
+      "note": "Several minutes on cattle found drugged, killed and surgically mutilated in New Mexico"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:46:23",
+      "note": "Return to the cattle mutilations as likely covert government animal studies"
+    }
   ],
   "notes": "Bennewitz and Doty both treated as primary (part 1 built on Bennewitz, part 2 on Doty). Bennewitz birth 1927 from general knowledge; childhood not covered, so covered_span start comes from the lifetime rule. Doty birth year unknown (host says early postwar). Roswell, Silas Newton and Plowshare are background for the UFO and Dulce context; Plowshare kept as secondary because of its long segment. No theme for psychological harm or mental illness."
 }

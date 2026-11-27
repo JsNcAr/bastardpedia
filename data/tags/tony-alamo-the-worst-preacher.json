@@ -52,7 +52,8 @@
     "approximate": true
   },
   "summary": "Former music hustler Tony Alamo and his wife Susan built an apocalyptic Christian cult in California and Arkansas, using unpaid child labor for a celebrity denim jacket line while Tony took child brides, until his 2009 conviction.",
-  "content_warnings": ["child-abuse", "sexual-violence"],
+  "content_warnings": ["child-sexual-abuse", "child-abuse"],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Bernie Lazar Hoffman",
     "Alamo Christian Foundation",
@@ -139,6 +140,12 @@
       "part": 2,
       "at": "00:52:40",
       "note": "2008 raid, 2009 conviction for transporting girls across state lines, dies in prison 2017"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:18:49",
+      "note": "Long account of Alamo raping his teenage stepdaughter and taking ever younger child brides"
     }
   ],
   "notes": "Susan Alamo's birth year transcribed ambiguously; 1925 used from own knowledge. Her life is a long Part 1 segment, so it opens covered_span. Arkansas and California share the story, so both subdivisions are listed. labor-exploitation and slavery-forced-labor both apply (unpaid child labor plus the federal wage case). Racist bus hoax and John Birch Society are a short Part 1 segment, left out of themes. Victims of the sexual abuse are mostly minors, so sexual-abuse omitted."

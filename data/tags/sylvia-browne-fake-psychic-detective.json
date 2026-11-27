@@ -70,6 +70,7 @@
   },
   "summary": "American TV psychic Sylvia Browne built a career from 1974 on fake psychic readings and false claims of police and FBI work, committed financial fraud, and on daytime TV wrongly told families their missing children were dead.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence", "child-abuse"],
   "keywords": [
     "Amanda Berry",
     "Ariel Castro",
@@ -127,11 +128,18 @@
       "at": "00:36:45",
       "note": "1992 felony complaint over gold mine securities fraud and FBI loan fraud probe"
     },
+    { "facet": "time", "part": 2, "at": "00:54:26", "note": "dies in 2013 at 77" },
     {
-      "facet": "time",
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:13:51",
+      "note": "Browne's account of a physically abusive mother who fantasised about killing her"
+    },
+    {
+      "facet": "content_mentions",
       "part": 2,
-      "at": "00:54:26",
-      "note": "dies in 2013 at 77"
+      "at": "00:50:27",
+      "note": "Browne wrongly claimed a sexual predator killed an adult murder victim"
     }
   ],
   "notes": "Transcript gives the Dufresne wedding year as 1950, likely a transcription error (actual 1959); does not affect spans. TikTok revival mentioned only briefly, so reaches_present is false. Terrorism and conspiracy-theories come from the WTC bombing and Gunderson segments in part 2."

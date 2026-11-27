@@ -62,6 +62,7 @@
   },
   "summary": "Lifelong American con man Robert Vernon Spears forged checks and swindled brides before becoming a fake naturopath and abortionist in Texas, then likely bombed National Airlines Flight 967 in 1959 for insurance money.",
   "content_warnings": ["medical-horror"],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Clyde Stringer",
     "Al Taylor",
@@ -83,17 +84,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "subjects", "part": 1, "at": "00:02:57", "note": "long opening segment on Benedict Lust and the birth of naturopathy" },
-    { "facet": "time", "part": 1, "at": "00:05:30", "note": "Lust born 1872 in Germany; TB and the Kneipp water cure" },
-    { "facet": "regions", "part": 1, "at": "00:06:33", "note": "Kneipp's cold-water clinic in Germany where Lust is treated" },
-    { "facet": "time", "part": 1, "at": "00:36:38", "note": "Spears born June 1894 in Cassville, Missouri, under another name" },
-    { "facet": "time", "part": 1, "at": "00:45:14", "note": "first headline crime: forged railroad check, caught June 1913" },
-    { "facet": "themes", "part": 2, "at": "00:23:57", "note": "1942 kidnapping, chloroform and shootout with fellow car passengers" },
-    { "facet": "themes", "part": 2, "at": "00:38:00", "note": "buys fake license and diploma, starts Dallas naturopathy practice in 1950" },
-    { "facet": "themes", "part": 2, "at": "00:41:13", "note": "weight-loss pills and radionics devices sold to wealthy suburban women" },
-    { "facet": "themes", "part": 2, "at": "00:51:34", "note": "dangerous abortion pastes; a patient's organs destroyed in 1959" },
-    { "facet": "time", "part": 2, "at": "00:56:21", "note": "Flight 967 lost November 1959 with Taylor in Spears's seat, 42 dead" },
-    { "facet": "time", "part": 2, "at": "00:59:28", "note": "caught, convicted of other crimes, dies in prison" }
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:02:57",
+      "note": "long opening segment on Benedict Lust and the birth of naturopathy"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:05:30",
+      "note": "Lust born 1872 in Germany; TB and the Kneipp water cure"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:06:33",
+      "note": "Kneipp's cold-water clinic in Germany where Lust is treated"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:36:38",
+      "note": "Spears born June 1894 in Cassville, Missouri, under another name"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:45:14",
+      "note": "first headline crime: forged railroad check, caught June 1913"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:23:57",
+      "note": "1942 kidnapping, chloroform and shootout with fellow car passengers"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:38:00",
+      "note": "buys fake license and diploma, starts Dallas naturopathy practice in 1950"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:41:13",
+      "note": "weight-loss pills and radionics devices sold to wealthy suburban women"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:51:34",
+      "note": "dangerous abortion pastes; a patient's organs destroyed in 1959"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:56:21",
+      "note": "Flight 967 lost November 1959 with Taylor in Spears's seat, 42 dead"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:59:28",
+      "note": "caught, convicted of other crimes, dies in prison"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:00:01",
+      "note": "Intro jokes about how many pedophiles the show and the government have had lately"
+    }
   ],
   "notes": "Death year 1969 is from outside knowledge; the transcript only says he died in prison a few years after his car-theft term began. Taylor's birth year is unknown. Treated the plane bombing as murder-serial-killers rather than terrorism because it was done for insurance, not politics. DE included for the Kneipp/Lust water-cure segment; it is borderline."
 }

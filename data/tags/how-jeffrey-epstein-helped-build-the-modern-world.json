@@ -67,7 +67,8 @@
     "partial_life": true
   },
   "summary": "Using the 2025-26 Epstein file releases, the story shows how convicted sex offender Jeffrey Epstein spent his post-prison 2010s using money and contacts to push crypto, video game microtransactions, race science, anti-trans research and the online far right in the US.",
-  "content_warnings": ["child-abuse"],
+  "content_warnings": ["child-sexual-abuse"],
+  "content_mentions": ["sexual-violence", "suicide-self-harm"],
   "keywords": [
     "Epstein files",
     "Tether",
@@ -89,18 +90,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:09:45", "note": "host states the series focuses on Epstein's influence on crypto, online media and the far right" },
-    { "facet": "time", "part": 1, "at": "00:13:07", "note": "his rightward turn is placed after the 2008-09 conviction and jail term" },
-    { "facet": "time", "part": 1, "at": "00:16:38", "note": "long Brock Pierce segment opens with his birth and 1990s child acting career" },
-    { "facet": "regions", "part": 1, "at": "00:39:47", "note": "DEN founders flee to Spain in 2000; later raid there finds abuse material" },
-    { "facet": "regions", "part": 1, "at": "00:49:21", "note": "IGE gold farmers in China paid pennies an hour in virtual sweatshops" },
-    { "facet": "themes", "part": 2, "at": "00:10:34", "note": "Epstein urges Kotick toward addictive monetised games aimed at kids" },
-    { "facet": "themes", "part": 2, "at": "00:37:06", "note": "2014 Coinbase investment; earlier role in the Tether banking deal" },
-    { "facet": "regions", "part": 3, "at": "00:04:10", "note": "2013 attempt to broker a meeting with Putin to pitch bitcoin" },
-    { "facet": "themes", "part": 3, "at": "00:44:40", "note": "Epstein meets Christopher Poole just before 4chan's /pol/ board opens" },
-    { "facet": "themes", "part": 3, "at": "00:58:24", "note": "donation to a French white nationalist YouTube channel" },
-    { "facet": "themes", "part": 4, "at": "00:05:01", "note": "Ferguson 2014 framed as the moment Epstein and friends radicalise" },
-    { "facet": "themes", "part": 4, "at": "00:52:49", "note": "Epstein funds Trivers and steers him toward anti-trans research" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:09:45",
+      "note": "host states the series focuses on Epstein's influence on crypto, online media and the far right"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:13:07",
+      "note": "his rightward turn is placed after the 2008-09 conviction and jail term"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:16:38",
+      "note": "long Brock Pierce segment opens with his birth and 1990s child acting career"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:39:47",
+      "note": "DEN founders flee to Spain in 2000; later raid there finds abuse material"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:49:21",
+      "note": "IGE gold farmers in China paid pennies an hour in virtual sweatshops"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:10:34",
+      "note": "Epstein urges Kotick toward addictive monetised games aimed at kids"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:37:06",
+      "note": "2014 Coinbase investment; earlier role in the Tether banking deal"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:04:10",
+      "note": "2013 attempt to broker a meeting with Putin to pitch bitcoin"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:44:40",
+      "note": "Epstein meets Christopher Poole just before 4chan's /pol/ board opens"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:58:24",
+      "note": "donation to a French white nationalist YouTube channel"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:05:01",
+      "note": "Ferguson 2014 framed as the moment Epstein and friends radicalise"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:52:49",
+      "note": "Epstein funds Trivers and steers him toward anti-trans research"
+    }
   ],
   "notes": "partial_life set: the hosts frame the series as Epstein's post-2009 influence, not a biography; his birth, youth and finance career are not covered. covered_span starts with secondary subject Brock Pierce's 1990s acting years and ends at Epstein's 2019 death; 2025-26 file-release reactions set reaches_present. Anti-trans work mapped to religious-right-culture-war. Trivers' death status unverified."
 }

@@ -59,6 +59,7 @@
   },
   "summary": "McNairy County, Tennessee sheriff Buford Pusser, celebrated as the crime-fighting hero of Walking Tall, ran a violent, self-serving war on the State Line Mob and is now believed to have murdered his wife in 1967 and staged it as a mob ambush.",
   "content_warnings": ["graphic-violence"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Walking Tall",
     "McNairy County",
@@ -145,6 +146,12 @@
       "part": 2,
       "at": "01:00:17",
       "note": "dies in a sports car crash in August 1974"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:39:08",
+      "note": "Pusser believed to have shot himself after killing his wife to fake an ambush"
     }
   ],
   "notes": "covered_span runs to 2024 because the TBI reopening (2022) and exhumation (2024) investigate his own crime and get several minutes; a 2004 self-published book by ex-sheriff Mike Elam is also discussed. Birth years of Louise Hathcock and Pauline Pusser not given (Pauline was 33 in 1967). Mississippi side of the state line is also a setting but Tennessee dominates, so only US-TN is listed."

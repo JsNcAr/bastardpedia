@@ -62,6 +62,7 @@
   },
   "summary": "How engagement-optimised AI chatbots such as ChatGPT mirror and flatter vulnerable users into cult-like delusions, from the 2025 online Spiralism phenomenon to cases that ended in a teenager's suicide and a murder-suicide.",
   "content_warnings": ["suicide-self-harm"],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "AI psychosis",
     "ChatGPT",
@@ -136,6 +137,24 @@
       "part": 2,
       "at": "01:11:45",
       "note": "closing look at the state of the problem and AI therapy use up to release"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:45:44",
+      "note": "Chatbot conversations about a teenager's suicidal thoughts and the bot urging him on"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:46:53",
+      "note": "The fourteen-year-old's death by suicide and the wrongful death settlements"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "01:11:14",
+      "note": "A man kills his mother and himself after a chatbot promises reunion in the afterlife"
     }
   ],
   "notes": "No person is primary, so roles are empty. Spiralism could be co-primary; kept secondary because the host argues it is one symptom of general chatbot behaviour. Host says GPT-4o came out in March 2023; it was actually May 2024. Not tagged: bot's sexual chats with the 14-year-old are covered briefly, so no child-abuse warning. US setting inferred: lawsuits and murder-suicide happened there, but the story is mostly online."

@@ -63,6 +63,7 @@
   },
   "summary": "Los Angeles police chief Daryl Gates helped turn the LAPD into a militarized force after the 1965 Watts riots, co-founding SWAT and creating DARE, defending police killings of Black residents, and resigning after the 1992 riots.",
   "content_warnings": [],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "SWAT",
     "DARE",
@@ -85,14 +86,67 @@
   },
   "evidence": [
     { "facet": "time", "part": 1, "at": "00:05:41", "note": "birth in Glendale, California, 1926" },
-    { "facet": "subjects", "part": 1, "at": "00:35:00", "note": "segment on Parker's background and his remaking of the LAPD" },
-    { "facet": "time", "part": 2, "at": "00:01:12", "note": "Watts uprising of 1965 begins; Gates commands on the ground" },
-    { "facet": "themes", "part": 2, "at": "00:20:29", "note": "SWAT created from counterinsurgency ideas after Watts" },
-    { "facet": "themes", "part": 2, "at": "00:38:09", "note": "SWAT TV show and video games as early police PR" },
-    { "facet": "themes", "part": 2, "at": "00:42:07", "note": "racist remarks, Eula Love killing and chokehold excuse" },
-    { "facet": "themes", "part": 2, "at": "00:54:55", "note": "DARE founded with LA schools in 1983; effects on students" },
-    { "facet": "time", "part": 2, "at": "01:10:16", "note": "resigns in June 1992 after the riots" },
-    { "facet": "time", "part": 2, "at": "01:11:43", "note": "death at Dana Point in 2010" }
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:35:00",
+      "note": "segment on Parker's background and his remaking of the LAPD"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:01:12",
+      "note": "Watts uprising of 1965 begins; Gates commands on the ground"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:20:29",
+      "note": "SWAT created from counterinsurgency ideas after Watts"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:38:09",
+      "note": "SWAT TV show and video games as early police PR"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:42:07",
+      "note": "racist remarks, Eula Love killing and chokehold excuse"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:54:55",
+      "note": "DARE founded with LA schools in 1983; effects on students"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:10:16",
+      "note": "resigns in June 1992 after the riots"
+    },
+    { "facet": "time", "part": 2, "at": "01:11:43", "note": "death at Dana Point in 2010" },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:47:36",
+      "note": "Gates recounts colleagues filing a fake rape report naming him, about a girl he mentored"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:48:25",
+      "note": "Hosts react to the prank as a joke about child rape"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "01:03:44",
+      "note": "Callback joke to the fake rape complaint"
+    }
   ],
   "notes": "Scope set to national: events are almost all in Los Angeles, but SWAT and DARE spreading nationwide is a real thread. Hosts draw many parallels to 2025 ICE raids and protests; treated as comparisons, so reaches_present is false. William Parker's birth year is from general knowledge."
 }

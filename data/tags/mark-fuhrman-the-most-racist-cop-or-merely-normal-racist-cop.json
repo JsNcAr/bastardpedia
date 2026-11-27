@@ -65,7 +65,8 @@
     "approximate": false
   },
   "summary": "LAPD detective Mark Fuhrman, whose taped racist boasts and role in founding an anti-women clique inside the department undermined the 1995 O. J. Simpson prosecution, was convicted of perjury in 1996 and reinvented himself as a true-crime author and Fox pundit.",
-  "content_warnings": ["hate-speech"],
+  "content_warnings": ["sexual-violence", "hate-speech"],
+  "content_mentions": [],
   "keywords": [
     "O. J. Simpson trial",
     "bloody glove",
@@ -146,6 +147,18 @@
       "part": 2,
       "at": "00:51:58",
       "note": "Fox News crime analyst, chokehold advocacy, death from throat cancer at 74"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:15:56",
+      "note": "Several minutes on Fuhrman's sexual harassment of female officers and the clique behind it"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:18:53",
+      "note": "Audits found harassment and threats against women widespread across the LAPD"
     }
   ],
   "notes": "Death year 2026 taken from the episode framing (recent death, age 74). main_span 1985-1996 runs from the taped interviews and Men Against Women to the perjury plea; the 1975 LAPD start is an alternative. Men Against Women was an informal clique, typed as police for lack of a better org_type. Washington, Idaho and Connecticut also appear but California dominates, hence US-CA."

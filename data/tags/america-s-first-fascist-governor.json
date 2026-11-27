@@ -75,6 +75,7 @@
   },
   "summary": "Georgia agriculture commissioner and governor Eugene Talmadge ruled through martial law, old executive loopholes and the National Guard in the 1930s and 1940s, crushed textile strikes, purged educators over integration and campaigned on open white supremacy until his death in 1946.",
   "content_warnings": ["graphic-violence", "hate-speech"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "The Wild Man from Sugar Creek",
     "county unit system",
@@ -151,12 +152,6 @@
       "note": "Cocking Affair: purges educators over integration, state universities lose accreditation"
     },
     {
-      "facet": "content_warnings",
-      "part": 4,
-      "at": "00:50:51",
-      "note": "vivid account of the July 1946 Moore's Ford lynching and his possible role"
-    },
-    {
       "facet": "time",
       "part": 4,
       "at": "00:57:57",
@@ -167,6 +162,12 @@
       "part": 4,
       "at": "00:58:46",
       "note": "Herman's claim to the office and the 1947 three governors standoff"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 4,
+      "at": "01:00:49",
+      "note": "Knockout drops compared to a modern date rape drug"
     }
   ],
   "notes": "Transcript spells Ellis Arnall as Arnell/Arnold. 1926 start of main_span (first Agriculture Commissioner win) comes from general knowledge; transcript gives only the 1928 re-election. Scope set to national for the long anti-FDR and presidential-bid arc, though nearly all events are in Georgia; local is defensible. reaches_present false: modern parallels are comparisons and the legacy coda (statue, corporate power) is brief."

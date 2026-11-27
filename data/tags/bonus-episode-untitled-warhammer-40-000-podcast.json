@@ -51,6 +51,7 @@
   },
   "summary": "Teaser for a planned Warhammer 40,000 podcast: how the game's satirical fascist Imperium was adopted by online Trump supporters and the far right from 2015, and how Games Workshop and fans have responded.",
   "content_warnings": [],
+  "content_mentions": [],
   "keywords": [
     "God Emperor",
     "Viareggio Carnival",
@@ -72,15 +73,60 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "format", "part": 1, "at": "00:00:46", "note": "Episode introduced as a teaser for a new Warhammer podcast with Joe Kassabian" },
-    { "facet": "regions", "part": 1, "at": "00:05:03", "note": "Viareggio carnival float of Trump as the God Emperor, Tuscany 2019" },
-    { "facet": "themes", "part": 1, "at": "00:10:46", "note": "Fascist Imperium used by white nationalists to hide propaganda in memes" },
-    { "facet": "time", "part": 1, "at": "00:12:13", "note": "God Emperor Trump memes spread on 4chan from 2015" },
-    { "facet": "time", "part": 1, "at": "00:21:32", "note": "Games Workshop founded 1975; Warhammer Fantasy 1983, Thatcher satire 1986, 40k in 1987" },
-    { "facet": "regions", "part": 1, "at": "00:29:42", "note": "Ukrainian soldiers wearing Warhammer-style purity seals and patches" },
-    { "facet": "themes", "part": 1, "at": "00:32:55", "note": "Grenade launcher styled as a bolter at the Las Vegas SHOT Show" },
-    { "facet": "regions", "part": 1, "at": "00:36:40", "note": "Spanish tournament lets a player in Nazi gear compete; Games Workshop statement 2021" },
-    { "facet": "themes", "part": 1, "at": "00:41:44", "note": "Online backlash against female Custodes models framed as anti-woke" }
+    {
+      "facet": "format",
+      "part": 1,
+      "at": "00:00:46",
+      "note": "Episode introduced as a teaser for a new Warhammer podcast with Joe Kassabian"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:05:03",
+      "note": "Viareggio carnival float of Trump as the God Emperor, Tuscany 2019"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:10:46",
+      "note": "Fascist Imperium used by white nationalists to hide propaganda in memes"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:12:13",
+      "note": "God Emperor Trump memes spread on 4chan from 2015"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:21:32",
+      "note": "Games Workshop founded 1975; Warhammer Fantasy 1983, Thatcher satire 1986, 40k in 1987"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:29:42",
+      "note": "Ukrainian soldiers wearing Warhammer-style purity seals and patches"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:32:55",
+      "note": "Grenade launcher styled as a bolter at the Las Vegas SHOT Show"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:36:40",
+      "note": "Spanish tournament lets a player in Nazi gear compete; Games Workshop statement 2021"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:41:44",
+      "note": "Online backlash against female Custodes models framed as anti-woke"
+    }
   ],
   "notes": "Format crossover: a teaser promoting a new podcast, though the body is a researched segment, so time and regions were filled. No theme for games or fandom; entertainment-celebrity is the closest. Ancient wargames history is background and excluded from covered_span. Host misnamed the float artist in the transcript; Fabrizio Galli is the usual spelling."
 }

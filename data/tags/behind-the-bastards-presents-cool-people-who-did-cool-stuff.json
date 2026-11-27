@@ -64,7 +64,8 @@
     "approximate": false
   },
   "summary": "Margaret Killjoy recounts the socialist, Catholic, republican and anarchist plotters who tried to assassinate Benito Mussolini in Italy between 1921 and 1932, from Violet Gibson to Gino Lucetti, and the trials and executions that followed.",
-  "content_warnings": ["graphic-violence", "child-death", "suicide-self-harm"],
+  "content_warnings": ["child-death", "graphic-violence"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Michele Schirru",
     "Anteo Zamboni",
@@ -153,10 +154,10 @@
       "note": "New York Times coverage flatters Mussolini after the Zamboni attempt"
     },
     {
-      "facet": "content_warnings",
+      "facet": "content_mentions",
       "part": 1,
-      "at": "01:25:55",
-      "note": "crowd stabs fifteen-year-old Anteo Zamboni to death"
+      "at": "00:16:17",
+      "note": "Imprisoned assassin found hanged in his cell; officially called suicide, likely murder"
     }
   ],
   "notes": "Republished Cool People Who Did Cool Stuff two-parter; hero chosen over crossover by format precedence. Primary subject is the set of attempts (event), so no roles and no lifetime rule; Mussolini is secondary. Schirru gets a segment comparable to Bresci but the subject cap is five. Covered span ends 1943 (Lucetti's death, Zaniboni's release); later epilogues of Gibson, Bibbi and Tommasini are brief. Terrorism primary because assassination is the pitch; fascism-far-right is close."

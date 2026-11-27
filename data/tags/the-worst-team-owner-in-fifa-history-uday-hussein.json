@@ -52,7 +52,8 @@
     "approximate": true
   },
   "summary": "Saddam Hussein's eldest son Uday ran Iraqi football and its Olympic committee from 1984 until 2003, having players jailed, whipped and tortured in prison camps and red rooms after losses, while FIFA looked away.",
-  "content_warnings": ["torture", "sexual-violence", "suicide-self-harm"],
+  "content_warnings": ["sexual-violence", "torture"],
+  "content_mentions": ["child-abuse", "suicide-self-harm"],
   "keywords": [
     "Al-Rashid football club",
     "Iraq national football team",
@@ -139,6 +140,12 @@
       "part": 2,
       "at": "00:57:05",
       "note": "killed by US forces in 2003; story ends there"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:35:46",
+      "note": "Several minutes on Uday's alleged serial rapes and abductions, including a bride taken from her wedding"
     }
   ],
   "notes": "Story deliberately limits itself to Uday's football career; his other crimes are covered only briefly. Main span starts at his appointment at age twenty (about 1984, estimated). The 1960s team history and the 2026 World Cup are background and coda only. Child-abuse is secondary because the host spends several minutes framing Saddam's treatment of the young Uday as abuse."

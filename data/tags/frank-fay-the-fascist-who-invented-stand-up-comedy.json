@@ -29,12 +29,7 @@
   "roles": ["entertainer-artist", "activist-organizer"],
   "themes": {
     "primary": "entertainment-celebrity",
-    "secondary": [
-      "fascism-far-right",
-      "racism-white-supremacy",
-      "domestic-abuse",
-      "nazism"
-    ]
+    "secondary": ["fascism-far-right", "racism-white-supremacy", "domestic-abuse", "nazism"]
   },
   "regions": {
     "origin": ["US"],
@@ -51,6 +46,7 @@
   },
   "summary": "Vaudeville star Frank Fay pioneered solo stand-up comedy and the modern MC in 1910s-20s New York while being a violent antisemite and an abusive husband to Barbara Stanwyck; in 1946 he headlined a far-right rally at Madison Square Garden.",
   "content_warnings": [],
+  "content_mentions": ["child-sexual-abuse", "child-abuse", "suicide-self-harm"],
   "keywords": [
     "vaudeville",
     "The Palace Theatre",
@@ -72,17 +68,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:09:27", "note": "Born in San Francisco in November 1891 to traveling vaudeville performers" },
-    { "facet": "time", "part": 1, "at": "00:31:26", "note": "First prop-free solo tuxedo act around 1915 or 1916; start of main span is an estimate" },
-    { "facet": "subjects", "part": 1, "at": "00:46:19", "note": "Palace bookings from 1919, record runs in the mid 1920s, invents the modern MC role" },
-    { "facet": "themes", "part": 1, "at": "01:00:18", "note": "Antisemitic abuse of Milton Berle and other Jewish comedians, frequent brawls" },
-    { "facet": "subjects", "part": 2, "at": "00:04:14", "note": "Long segment on Barbara Stanwyck's childhood and stage career before meeting Fay" },
-    { "facet": "themes", "part": 2, "at": "00:23:06", "note": "Record of violent abuse of earlier wives, infidelity, drunk driving and bankruptcies" },
-    { "facet": "themes", "part": 2, "at": "00:44:28", "note": "Abuse of Stanwyck and their adopted son as her film career rises; she leaves in 1935" },
-    { "facet": "themes", "part": 2, "at": "00:47:37", "note": "Turns against FDR, blames Jewish bankers, befriends Father Coughlin" },
-    { "facet": "themes", "part": 2, "at": "00:57:46", "note": "Pushes for investigation of anti-Franco Actors' Equity members; censured by the union" },
-    { "facet": "time", "part": 2, "at": "01:02:38", "note": "January 1946 Madison Square Garden rally organized with Klan and Nazi groups" },
-    { "facet": "time", "part": 2, "at": "01:09:56", "note": "Rally ends his career; dies in Santa Monica in 1961" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:09:27",
+      "note": "Born in San Francisco in November 1891 to traveling vaudeville performers"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:31:26",
+      "note": "First prop-free solo tuxedo act around 1915 or 1916; start of main span is an estimate"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:46:19",
+      "note": "Palace bookings from 1919, record runs in the mid 1920s, invents the modern MC role"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:00:18",
+      "note": "Antisemitic abuse of Milton Berle and other Jewish comedians, frequent brawls"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:04:14",
+      "note": "Long segment on Barbara Stanwyck's childhood and stage career before meeting Fay"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:23:06",
+      "note": "Record of violent abuse of earlier wives, infidelity, drunk driving and bankruptcies"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:44:28",
+      "note": "Abuse of Stanwyck and their adopted son as her film career rises; she leaves in 1935"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:47:37",
+      "note": "Turns against FDR, blames Jewish bankers, befriends Father Coughlin"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:57:46",
+      "note": "Pushes for investigation of anti-Franco Actors' Equity members; censured by the union"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:02:38",
+      "note": "January 1946 Madison Square Garden rally organized with Klan and Nazi groups"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:09:56",
+      "note": "Rally ends his career; dies in Santa Monica in 1961"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:08:44",
+      "note": "Host notes Stanwyck was a teen chorus girl likely exploited by adults, calls it abuse of a minor"
+    }
   ],
   "notes": "Primary theme is a judgement call: most airtime is his comedy career and Hollywood marriage, the fascist turn fills the last third of part 2, so fascism-far-right is secondary. Transcript spellings: Stanwick (Stanwyck), Victoria Williams (Wilson), Laura Ingles (Ingalls). Host names the American Nazi Party as a 1946 organizer, which was founded later; nazism kept for the openly Nazi rally."
 }

@@ -59,7 +59,8 @@
     "approximate": false
   },
   "summary": "Davao-born Pentecostal preacher Apollo Quiboloy founded the Kingdom of Jesus Christ in 1985, declared himself the Appointed Son of God, and used it to traffic girls and workers between the Philippines and the US under Duterte's protection until his 2024 arrest.",
-  "content_warnings": ["child-abuse", "sexual-violence"],
+  "content_warnings": ["sexual-violence", "child-sexual-abuse"],
+  "content_mentions": [],
   "keywords": [
     "KOJC",
     "Appointed Son of God",
@@ -81,12 +82,7 @@
     "time": "high"
   },
   "evidence": [
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:09:04",
-      "note": "born April 1950 in Davao City"
-    },
+    { "facet": "time", "part": 1, "at": "00:09:04", "note": "born April 1950 in Davao City" },
     {
       "facet": "themes",
       "part": 1,
@@ -146,6 +142,12 @@
       "part": 2,
       "at": "00:50:33",
       "note": "2024 police siege of the Davao compound and surrender after about two weeks"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:28:37",
+      "note": "Indictment account of women trafficked to the US, stripped of passports and used for sex"
     }
   ],
   "notes": "No theme for human trafficking; covered by slavery-forced-labor plus immigration-borders (visa fraud), the latter a loose fit. main_span ends at the 2024 arrest since he was in custody at release. Duterte's lifespan is from general knowledge. Hawaii and California both matter, so no single US subdivision. Transcript renders Mount Apo as Mount Oppo."

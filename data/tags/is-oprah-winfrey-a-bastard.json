@@ -66,7 +66,8 @@
     "approximate": false
   },
   "summary": "Life and influence of US talk-show host Oprah Winfrey, from a hard Mississippi childhood to a media empire that fed the Satanic Panic and other scares and gave New Age gurus, quacks and anti-vaccine voices a national platform.",
-  "content_warnings": ["child-abuse"],
+  "content_warnings": ["child-sexual-abuse", "child-abuse"],
+  "content_mentions": ["sexual-violence", "suicide-self-harm"],
   "keywords": [
     "Satanic Panic",
     "rainbow parties",
@@ -88,18 +89,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:25:14", "note": "birth in Kosciusko, Mississippi, in January 1954" },
-    { "facet": "themes", "part": 2, "at": "00:31:12", "note": "account of a relative repeatedly molesting her as a child in Milwaukee" },
-    { "facet": "time", "part": 3, "at": "00:28:51", "note": "1984 move to Chicago to host the morning show that became her own program" },
-    { "facet": "themes", "part": 3, "at": "00:59:20", "note": "satanic ritual abuse episode framed as blood libel on national TV" },
-    { "facet": "themes", "part": 4, "at": "00:12:44", "note": "mid-1990s pivot to spiritual content with Marianne Williamson" },
-    { "facet": "themes", "part": 4, "at": "00:35:29", "note": "Deepak Chopra segment on mind-over-body health claims" },
-    { "facet": "regions", "part": 4, "at": "00:36:53", "note": "mad cow episode and the beef industry lawsuit against her" },
-    { "facet": "themes", "part": 4, "at": "00:46:16", "note": "rainbow party panic introduced on the show" },
-    { "facet": "regions", "part": 5, "at": "00:57:57", "note": "her girls' school in South Africa and its abuse scandal" },
-    { "facet": "regions", "part": 5, "at": "01:13:18", "note": "post-2010 Haiti orphanage boom and child-trafficking case" },
-    { "facet": "subjects", "part": 6, "at": "00:18:11", "note": "James Arthur Ray, promoted on her show, and his deadly sweat lodge" },
-    { "facet": "themes", "part": 6, "at": "01:07:08", "note": "Jenny McCarthy's anti-vaccine appearances boosted by the show" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:25:14",
+      "note": "birth in Kosciusko, Mississippi, in January 1954"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:31:12",
+      "note": "account of a relative repeatedly molesting her as a child in Milwaukee"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "00:28:51",
+      "note": "1984 move to Chicago to host the morning show that became her own program"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:59:20",
+      "note": "satanic ritual abuse episode framed as blood libel on national TV"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:12:44",
+      "note": "mid-1990s pivot to spiritual content with Marianne Williamson"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:35:29",
+      "note": "Deepak Chopra segment on mind-over-body health claims"
+    },
+    {
+      "facet": "regions",
+      "part": 4,
+      "at": "00:36:53",
+      "note": "mad cow episode and the beef industry lawsuit against her"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:46:16",
+      "note": "rainbow party panic introduced on the show"
+    },
+    {
+      "facet": "regions",
+      "part": 5,
+      "at": "00:57:57",
+      "note": "her girls' school in South Africa and its abuse scandal"
+    },
+    {
+      "facet": "regions",
+      "part": 5,
+      "at": "01:13:18",
+      "note": "post-2010 Haiti orphanage boom and child-trafficking case"
+    },
+    {
+      "facet": "subjects",
+      "part": 6,
+      "at": "00:18:11",
+      "note": "James Arthur Ray, promoted on her show, and his deadly sweat lodge"
+    },
+    {
+      "facet": "themes",
+      "part": 6,
+      "at": "01:07:08",
+      "note": "Jenny McCarthy's anti-vaccine appearances boosted by the show"
+    }
   ],
   "notes": "Primary theme entertainment-celebrity chosen over propaganda-media since the story is about a TV talk-show empire. Diet culture (wagon of fat) folded into wellness-self-help. Haiti segment is partly about the broader orphanage industry rather than Oprah directly. main_span starts with the 1984 Chicago show; end null as she is alive and still active."
 }

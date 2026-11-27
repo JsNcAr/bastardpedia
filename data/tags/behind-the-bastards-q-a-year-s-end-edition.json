@@ -23,27 +23,19 @@
   "roles": [],
   "themes": {
     "primary": "propaganda-media",
-    "secondary": [
-      "drugs",
-      "entertainment-celebrity"
-    ]
+    "secondary": ["drugs", "entertainment-celebrity"]
   },
   "regions": {
-    "origin": [
-      "US"
-    ],
-    "setting": [
-      "US"
-    ],
+    "origin": ["US"],
+    "setting": ["US"],
     "subdivisions": [],
     "polities": [],
     "scope": "national"
   },
   "time": null,
   "summary": "Two-part year-end listener Q&A in which host Robert Evans and producer Sophie discuss the podcast's origins, the founding of Cool Zone Media, research methods, favourite episodes and planned future subjects.",
-  "content_warnings": [
-    "drug-use"
-  ],
+  "content_warnings": ["drug-use"],
+  "content_mentions": ["child-abuse", "suicide-self-harm"],
   "keywords": [
     "listener Q&A",
     "Cracked",
@@ -100,6 +92,18 @@
       "part": 1,
       "at": "00:06:08",
       "note": "Pop-culture answers recur: Star Trek, dream celebrity guests, Spice Girls, ska, pop singers"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:05:41",
+      "note": "Listener names the troubled teen wilderness camp episodes as the hardest to hear"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:16:54",
+      "note": "Figurative line about preferring to kill himself over a job offer"
     }
   ],
   "notes": "Meta Q&A with no bastard subject; time null per the meta rule. propaganda-media is the closest primary (podcast/media industry origins). Secondary themes kept to two that get real time (kratom segment; pop culture across both parts) rather than padding to 4-5 from one-line mentions (Union Carbide, Nixon, Rojava). Sophie co-hosts but PROMPT.md names her a producer, so guests is empty."

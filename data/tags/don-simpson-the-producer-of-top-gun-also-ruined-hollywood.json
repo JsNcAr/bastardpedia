@@ -46,7 +46,8 @@
     "approximate": false
   },
   "summary": "Paramount executive turned producer Don Simpson helped build Hollywood's formula-driven blockbuster model with hits like Top Gun, while abusing assistants and screenwriters, coercing and hurting women, and consuming vast amounts of drugs until his death in 1996.",
-  "content_warnings": ["drug-use", "sexual-violence"],
+  "content_warnings": ["sexual-violence", "child-abuse", "drug-use"],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "Top Gun",
     "Beverly Hills Cop",
@@ -68,18 +69,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:03:17", "note": "born in Seattle in 1943; family soon moves to Alaska" },
-    { "facet": "regions", "part": 1, "at": "00:05:42", "note": "childhood in Spenard near Anchorage and the myths he later told about it" },
-    { "facet": "time", "part": 1, "at": "00:53:23", "note": "hired as a junior executive at Paramount in 1975, start of the main story" },
-    { "facet": "themes", "part": 2, "at": "00:21:25", "note": "drug-fuelled car crashes and two rehab stints lead to his 1983 ouster as an executive" },
-    { "facet": "themes", "part": 2, "at": "00:24:10", "note": "producing partnership with Bruckheimer and its division of labour" },
-    { "facet": "themes", "part": 2, "at": "00:43:57", "note": "secretly taped sex with actresses led to believe they were auditioning" },
-    { "facet": "content_warnings", "part": 2, "at": "00:45:29", "note": "account of a new sex worker beaten and pushed into S&M against her will" },
-    { "facet": "themes", "part": 2, "at": "00:52:26", "note": "assistant's lawsuit over forced drug, porn and prostitute errands and verbal abuse" },
-    { "facet": "themes", "part": 2, "at": "01:03:36", "note": "Days of Thunder budget blowout and hedonistic shoot in Daytona" },
-    { "facet": "content_warnings", "part": 2, "at": "01:13:06", "note": "his addiction doctor dies of an overdose at his house in 1995" },
-    { "facet": "time", "part": 2, "at": "01:17:27", "note": "found dead in January 1996 with many drugs in his system" },
-    { "facet": "themes", "part": 2, "at": "01:19:06", "note": "probe into the doctors who overprescribed to him" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:17",
+      "note": "born in Seattle in 1943; family soon moves to Alaska"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:05:42",
+      "note": "childhood in Spenard near Anchorage and the myths he later told about it"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:53:23",
+      "note": "hired as a junior executive at Paramount in 1975, start of the main story"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:21:25",
+      "note": "drug-fuelled car crashes and two rehab stints lead to his 1983 ouster as an executive"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:24:10",
+      "note": "producing partnership with Bruckheimer and its division of labour"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:43:57",
+      "note": "secretly taped sex with actresses led to believe they were auditioning"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:52:26",
+      "note": "assistant's lawsuit over forced drug, porn and prostitute errands and verbal abuse"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:03:36",
+      "note": "Days of Thunder budget blowout and hedonistic shoot in Daytona"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:17:27",
+      "note": "found dead in January 1996 with many drugs in his system"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:19:06",
+      "note": "probe into the doctors who overprescribed to him"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:45:17",
+      "note": "Account from a sex workers' memoir of a degrading, tortuous S&M tape Simpson made"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:46:00",
+      "note": "New sex worker leaves in tears after Simpson beats her; hosts call it non-consensual"
+    }
   ],
   "notes": "Bruckheimer's 1943 birth year is from memory, not the transcript. Transcript dates the assistant's lawsuit to 1998, after Simpson's death, which looks like a slip; no span relies on it. Warnings left out as brief: mother locking him in a closet, roommate's cat put in a freezer (it lived), botched cosmetic penis injections. Roles: no producer role exists; entertainer-artist plus business-executive stand in. Legacy epilogue is short, so reaches_present is false."
 }

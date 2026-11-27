@@ -65,6 +65,7 @@
   },
   "summary": "How the leading liberal newspapers of Italy, Weimar Germany and the United States, notably La Stampa, the Ullstein house and The New York Times, downplayed fascist violence, sided against the left and buried the Holocaust between 1919 and 1945.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "L'Illustrazione Italiana",
     "Tempo (Ullstein magazine)",
@@ -151,6 +152,12 @@
       "part": 1,
       "at": "00:05:00",
       "note": "framed by present-day NYT and Washington Post conduct under the same families"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:54:38",
+      "note": "Aside about a politician posting a video of a dolphin sexually harassing a woman"
     }
   ],
   "notes": "Story is about institutions, so primary subjects are Ullstein and the NYT and roles are empty; La Stampa stands in for the Italian section (L'Illustrazione Italiana in keywords). Long present-day segments (Gaza coverage, Trump, Vance) are comparisons and do not extend covered_span, but the framing that the same media families still run US papers sets reaches_present. No content warning: the Holocaust is discussed as press coverage, not described in detail."

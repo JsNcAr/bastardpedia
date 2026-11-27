@@ -42,7 +42,13 @@
   "roles": ["criminal-killer"],
   "themes": {
     "primary": "sexual-abuse",
-    "secondary": ["tech-internet", "domestic-abuse", "child-abuse", "anti-lgbtq", "policing-incarceration"]
+    "secondary": [
+      "tech-internet",
+      "domestic-abuse",
+      "child-abuse",
+      "anti-lgbtq",
+      "policing-incarceration"
+    ]
   },
   "regions": {
     "origin": ["FR"],
@@ -58,7 +64,8 @@
     "approximate": false
   },
   "summary": "The anonymous French chat site Coco, founded in 2003, hosted rape, child abuse and homophobic ambushes; there Dominique Pelicot recruited dozens of men to rape his drugged wife Gisèle from 2011 to 2020, before the site was shut in 2024.",
-  "content_warnings": ["sexual-violence", "child-abuse"],
+  "content_warnings": ["sexual-violence", "child-sexual-abuse"],
+  "content_mentions": ["child-abuse", "suicide-self-harm"],
   "keywords": [
     "Mazan rape case",
     "Coco.fr",
@@ -80,18 +87,73 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:08:47", "note": "Coco launched in 2003 with family money" },
-    { "facet": "themes", "part": 1, "at": "00:18:13", "note": "Coco used to lure gay men into beatings and robberies" },
-    { "facet": "time", "part": 1, "at": "00:27:24", "note": "Pelicot born 1952; childhood abuse covered at length" },
-    { "facet": "time", "part": 1, "at": "00:41:12", "note": "1999 attack and linked 1991 rape-murder of an estate agent" },
-    { "facet": "themes", "part": 1, "at": "00:52:39", "note": "from 2011 he drugs his wife and invites men met on Coco" },
-    { "facet": "subjects", "part": 2, "at": "00:04:22", "note": "Motherless.com segment: founding, content, owner" },
-    { "facet": "themes", "part": 2, "at": "00:08:27", "note": "Amanda Todd sextortion case tied to Motherless" },
-    { "facet": "themes", "part": 2, "at": "00:28:43", "note": "police let him go home after the 2020 arrest; he offends again" },
-    { "facet": "regions", "part": 2, "at": "00:37:14", "note": "founder moved to Bulgaria; domain moved to Guernsey" },
-    { "facet": "time", "part": 2, "at": "00:41:24", "note": "Coco shut down in summer 2024 after multinational probe" },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:08:47",
+      "note": "Coco launched in 2003 with family money"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:18:13",
+      "note": "Coco used to lure gay men into beatings and robberies"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:27:24",
+      "note": "Pelicot born 1952; childhood abuse covered at length"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:41:12",
+      "note": "1999 attack and linked 1991 rape-murder of an estate agent"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:52:39",
+      "note": "from 2011 he drugs his wife and invites men met on Coco"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:04:22",
+      "note": "Motherless.com segment: founding, content, owner"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:08:27",
+      "note": "Amanda Todd sextortion case tied to Motherless"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:28:43",
+      "note": "police let him go home after the 2020 arrest; he offends again"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:37:14",
+      "note": "founder moved to Bulgaria; domain moved to Guernsey"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:41:24",
+      "note": "Coco shut down in summer 2024 after multinational probe"
+    },
     { "facet": "time", "part": 2, "at": "00:58:03", "note": "founder charged January 2025" },
-    { "facet": "time", "part": 2, "at": "00:59:30", "note": "users migrate to Telegram; recent CNN probe shows the scene continues" }
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:59:30",
+      "note": "users migrate to Telegram; recent CNN probe shows the scene continues"
+    }
   ],
   "notes": "Coco and Pelicot both treated as primary per the descriptions. Founder's name is garbled in the transcript (Steedle/Steadle); standard spelling Isaac Steidl used, birth year estimated from the host's 1980-81 guess. Lifetime rule sets covered start at Pelicot's 1952 birth. US is in the setting for the Motherless segment; BG, GG, CA appear only briefly. Durov's 2024 arrest is a short segment, not a subject."
 }

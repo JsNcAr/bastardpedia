@@ -29,6 +29,7 @@
   "time": null,
   "summary": "New Year listener Q&A in two parts: Robert Evans and Sophie Lichtman discuss research methods and misinformation, past and planned episodes, the eras richest in bastards, how the show changed his views, and personal news.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence", "child-abuse"],
   "keywords": [
     "listener questions",
     "Q&A",
@@ -50,13 +51,60 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "themes", "part": 1, "at": "00:03:35", "note": "Long answer on spotting false information and checking historians' critiques" },
-    { "facet": "themes", "part": 1, "at": "00:08:12", "note": "Avoiding AI search summaries and switching search engines" },
-    { "facet": "themes", "part": 1, "at": "00:13:56", "note": "Why he became a journalist and his critique of conflict reporting" },
-    { "facet": "themes", "part": 2, "at": "00:02:27", "note": "Recalls the Jamaican slave-owner diary episode and the cruelty it revealed" },
-    { "facet": "themes", "part": 2, "at": "00:04:09", "note": "Several minutes on child abuse as central to bad movements and parental ownership" },
-    { "facet": "themes", "part": 2, "at": "00:30:31", "note": "Closing advice on social media algorithms built to keep users enraged" },
-    { "facet": "format", "part": 1, "at": "00:02:45", "note": "Producer reads questions gathered from a listener thread" }
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:03:35",
+      "note": "Long answer on spotting false information and checking historians' critiques"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:08:12",
+      "note": "Avoiding AI search summaries and switching search engines"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:13:56",
+      "note": "Why he became a journalist and his critique of conflict reporting"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:02:27",
+      "note": "Recalls the Jamaican slave-owner diary episode and the cruelty it revealed"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:04:09",
+      "note": "Several minutes on child abuse as central to bad movements and parental ownership"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:30:31",
+      "note": "Closing advice on social media algorithms built to keep users enraged"
+    },
+    {
+      "facet": "format",
+      "part": 1,
+      "at": "00:02:45",
+      "note": "Producer reads questions gathered from a listener thread"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:02:27",
+      "note": "Robert recalls the Thistlewood episode and how central rape of enslaved women was to slavery"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:04:27",
+      "note": "Remark on how common child abuse is, as something the show taught him"
+    }
   ],
   "notes": "Meta Q&A with no single subject; the show itself is the subject. Themes are a loose fit: the most sustained topic is media and misinformation; slavery and child abuse get a few minutes each as recollections of past episodes. Sophie Lichtman leads as co-host but is the producer, so guests is empty per the prompt rule. Time set to null as allowed for meta."
 }

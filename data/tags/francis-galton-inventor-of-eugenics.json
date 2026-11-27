@@ -23,10 +23,7 @@
       "role": "secondary"
     }
   ],
-  "roles": [
-    "scientist-scholar",
-    "explorer-adventurer"
-  ],
+  "roles": ["scientist-scholar", "explorer-adventurer"],
   "themes": {
     "primary": "eugenics-scientific-racism",
     "secondary": [
@@ -40,22 +37,10 @@
     ]
   },
   "regions": {
-    "origin": [
-      "GB"
-    ],
-    "setting": [
-      "GB",
-      "NA",
-      "US",
-      "DE",
-      "EG",
-      "TR"
-    ],
+    "origin": ["GB"],
+    "setting": ["GB", "NA", "US", "DE", "EG", "TR"],
     "subdivisions": [],
-    "polities": [
-      "british-empire",
-      "ottoman-empire"
-    ],
+    "polities": ["british-empire", "ottoman-empire"],
     "scope": "global"
   },
   "time": {
@@ -71,11 +56,8 @@
     "approximate": false
   },
   "summary": "Victorian scientist and Africa explorer Francis Galton pioneered statistics and fingerprinting, coined eugenics in 1883 and urged that the poor and non-white be bred out, inspiring sterilization laws in Britain, the US and Nazi Germany.",
-  "content_warnings": [
-    "hate-speech",
-    "slavery",
-    "sexual-violence"
-  ],
+  "content_warnings": ["sexual-violence", "slavery", "hate-speech"],
+  "content_mentions": ["animal-cruelty"],
   "keywords": [
     "Hereditary Genius",
     "Anthropometric Laboratory",
@@ -88,9 +70,7 @@
     "Buck v. Bell",
     "Herero"
   ],
-  "guests": [
-    "David Christopher Bell"
-  ],
+  "guests": ["David Christopher Bell"],
   "confidence": {
     "subjects": "high",
     "roles": "high",
@@ -99,12 +79,7 @@
     "time": "medium"
   },
   "evidence": [
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:07:51",
-      "note": "Galton born 1822 near Birmingham"
-    },
+    { "facet": "time", "part": 1, "at": "00:07:51", "note": "Galton born 1822 near Birmingham" },
     {
       "facet": "regions",
       "part": 1,
@@ -147,12 +122,7 @@
       "at": "00:09:43",
       "note": "fingerprint classification and forensic work"
     },
-    {
-      "facet": "time",
-      "part": 4,
-      "at": "00:32:06",
-      "note": "Galton dies 1911"
-    },
+    { "facet": "time", "part": 4, "at": "00:32:06", "note": "Galton dies 1911" },
     {
       "facet": "regions",
       "part": 4,

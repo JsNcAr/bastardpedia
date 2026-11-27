@@ -52,6 +52,7 @@
   },
   "summary": "After security guard Richard Jewell spotted the bomb at Atlanta's 1996 Olympic Park and helped clear the area, the FBI made him its prime suspect and leaked his name, and the Atlanta Journal-Constitution led months of media coverage that wrecked an innocent man's life.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "Centennial Olympic Park",
     "1996 Summer Olympics",
@@ -126,6 +127,18 @@
       "part": 1,
       "at": "01:10:47",
       "note": "segment on the 2019 Eastwood film and its invented portrayal of the reporter"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:20:14",
+      "note": "Crime statistics include forcible rape and fondling cases"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:20:14",
+      "note": "Same statistics note some sex crime victims were under eighteen"
     }
   ],
   "notes": "Part one of a two-story series; Steven Hatfill and the 2001 anthrax attacks are introduced at the start but saved for the next episode. Jewell got secondary status because the title frames the FBI and the bombing as subjects, but the episode is largely his biography; if he is made primary, roles would be police-lawman and the lifetime rule would push covered_span to 1962-2007. The covered start of 1984 is approximate. The 2019 film epilogue is what sets reaches_present."
