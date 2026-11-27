@@ -64,6 +64,7 @@
   },
   "summary": "How the major Hollywood studios accommodated Nazi Germany between 1930 and 1940, cutting films, dropping Jewish characters and shelving anti-Nazi projects to protect their profitable German market.",
   "content_warnings": ["hate-speech"],
+  "content_mentions": ["sexual-violence", "suicide-self-harm"],
   "keywords": [
     "The Collaboration",
     "Ben Urwand",
@@ -85,17 +86,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:04:10", "note": "Edison's patent trust and the early film industry wars, origin of the studios" },
-    { "facet": "time", "part": 1, "at": "00:18:06", "note": "1930 All Quiet on the Western Front named as the start of the collaboration" },
-    { "facet": "subjects", "part": 1, "at": "00:19:39", "note": "Laemmle orders cuts to please the German foreign office, first studio head to cave" },
-    { "facet": "subjects", "part": 1, "at": "00:46:27", "note": "Arbuckle scandal leads studios to form the MPPDA under Will Hays" },
-    { "facet": "themes", "part": 1, "at": "00:51:40", "note": "German Article 15 lets permits be pulled over films hurting German prestige anywhere" },
-    { "facet": "subjects", "part": 1, "at": "00:55:48", "note": "Gyssling becomes the German consul policing Hollywood; Warner Bros forced out" },
-    { "facet": "themes", "part": 1, "at": "01:05:09", "note": "US antisemitism and fascist rallies make Jewish studio heads fear a backlash" },
-    { "facet": "subjects", "part": 2, "at": "00:03:05", "note": "Gabriel Over the White House discussed at length as a fascist Hollywood film" },
-    { "facet": "themes", "part": 2, "at": "00:15:02", "note": "Bengal Lancer dialogue made more racist for German release, admired by Nazis" },
-    { "facet": "themes", "part": 2, "at": "00:36:53", "note": "MGM moves German profits out via loans to armament firms" },
-    { "facet": "time", "part": 2, "at": "00:56:09", "note": "MGM and Paramount banned from Germany in 1940, ending the arrangement" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:04:10",
+      "note": "Edison's patent trust and the early film industry wars, origin of the studios"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:18:06",
+      "note": "1930 All Quiet on the Western Front named as the start of the collaboration"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:19:39",
+      "note": "Laemmle orders cuts to please the German foreign office, first studio head to cave"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:46:27",
+      "note": "Arbuckle scandal leads studios to form the MPPDA under Will Hays"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:51:40",
+      "note": "German Article 15 lets permits be pulled over films hurting German prestige anywhere"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:55:48",
+      "note": "Gyssling becomes the German consul policing Hollywood; Warner Bros forced out"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:05:09",
+      "note": "US antisemitism and fascist rallies make Jewish studio heads fear a backlash"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:03:05",
+      "note": "Gabriel Over the White House discussed at length as a fascist Hollywood film"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:15:02",
+      "note": "Bengal Lancer dialogue made more racist for German release, admired by Nazis"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:36:53",
+      "note": "MGM moves German profits out via loans to armament firms"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:56:09",
+      "note": "MGM and Paramount banned from Germany in 1940, ending the arrangement"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:43:54",
+      "note": "Arbuckle case: claim that he sexually assaulted Virginia Rappe before her death"
+    }
   ],
   "notes": "Primary subject is the studios collectively; no single company fits, so a generic organization entry was used. Transcript says Laemmle died in 1936; he actually died in 1939. Covered start 1905 is approximate for the nickelodeon and patent-war background on the industry's founding. China comparison at the end ignored as commentary."
 }

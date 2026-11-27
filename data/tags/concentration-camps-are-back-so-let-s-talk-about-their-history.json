@@ -63,7 +63,8 @@
     "approximate": false
   },
   "summary": "A survey of concentration camps from Andrew Jackson's Indian removal and Valeriano Weyler's 1896 Cuban reconcentration camps through the Boer War, the Armenian genocide and Nazi Germany to the 2018 US family separations.",
-  "content_warnings": ["mass-atrocity"],
+  "content_warnings": ["child-abuse", "mass-atrocity"],
+  "content_mentions": [],
   "keywords": [
     "reconcentrados",
     "Trail of Tears",
@@ -85,15 +86,72 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:03:09", "note": "Jackson segment starts with his 1812 militia command and the Red Stick War" },
-    { "facet": "subjects", "part": 1, "at": "00:10:56", "note": "Weyler biography begins: born 1838 in Mallorca" },
-    { "facet": "time", "part": 1, "at": "00:21:50", "note": "Weyler proposes forced relocation into camps in Cuba, 1896" },
-    { "facet": "subjects", "part": 1, "at": "00:27:59", "note": "British adopt camps in the Boer War under Kitchener" },
-    { "facet": "regions", "part": 1, "at": "00:35:47", "note": "Armenian deportees die in an open-air camp near Deir ez-Zor in the Syrian desert" },
-    { "facet": "themes", "part": 1, "at": "00:39:29", "note": "Nazi camps framed as continuation; Hitler and Goering cite Boer and US precedents" },
-    { "facet": "regions", "part": 1, "at": "00:50:55", "note": "Briggs Plan new villages in Malaya described at length" },
-    { "facet": "themes", "part": 1, "at": "00:58:15", "note": "2018 US border family separations and tender-age shelters for children" },
-    { "facet": "time", "part": 1, "at": "01:02:25", "note": "Romanian orphanage study used only as a comparison, not counted in span" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:09",
+      "note": "Jackson segment starts with his 1812 militia command and the Red Stick War"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:10:56",
+      "note": "Weyler biography begins: born 1838 in Mallorca"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:21:50",
+      "note": "Weyler proposes forced relocation into camps in Cuba, 1896"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:27:59",
+      "note": "British adopt camps in the Boer War under Kitchener"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:35:47",
+      "note": "Armenian deportees die in an open-air camp near Deir ez-Zor in the Syrian desert"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:39:29",
+      "note": "Nazi camps framed as continuation; Hitler and Goering cite Boer and US precedents"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:50:55",
+      "note": "Briggs Plan new villages in Malaya described at length"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:58:15",
+      "note": "2018 US border family separations and tender-age shelters for children"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:02:25",
+      "note": "Romanian orphanage study used only as a comparison, not counted in span"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "01:00:18",
+      "note": "Babies and children held alone in cages after 2018 US family separations"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "01:02:57",
+      "note": "Romanian orphanage studies on harm to institutionalised children, tied to the separations"
+    }
   ],
   "notes": "No theme for detention camps specifically; policing-incarceration is closest (detention). The transcript gives Weyler's death as 1932; standard sources say 1930. Lifespan follows the transcript per the prompt. Hadrian's Wall camps are a passing mention, so covered_span starts with the 1812 Red Stick War. Setting drops PH, VN, GB, DZ for space."
 }

@@ -62,6 +62,7 @@
   },
   "summary": "After Belgium took the Congo from Leopold II in 1908 it kept forced labor and segregation; at independence in 1960 Belgian-backed secessions and CIA plotting led to the 1961 murder of Prime Minister Patrice Lumumba.",
   "content_warnings": [],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Katanga",
     "South Kasai",
@@ -136,6 +137,12 @@
       "part": 1,
       "at": "01:09:06",
       "note": "Church Committee of 1975 and resulting CIA oversight closes the covered years"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "01:01:21",
+      "note": "Brief aside that a figure in the Lumumba affair died either by suicide or by being shot"
     }
   ],
   "notes": "Primary subject set to the Belgian Congo as a place since the title frames the story as the Congo's post-Leopold history; Lumumba gets the most airtime but is treated as a sympathetic secondary. The transcript dates the Algiers putsch to 1962; it was April 1961. Belgium's 2001 apology and 2018 square are a short coda, so reaches_present is false. Pinochet's rule to 1990 is a one-line mention."

@@ -53,7 +53,8 @@
     "approximate": false
   },
   "summary": "Rodrigo Duterte ran a death squad that killed over a thousand people as mayor of Davao City, then won the Philippine presidency in 2016 with an online troll army and launched a national drug war that killed thousands.",
-  "content_warnings": ["graphic-violence", "mass-atrocity", "child-death"],
+  "content_warnings": ["child-death", "graphic-violence", "mass-atrocity"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Davao City",
     "Philippine drug war",
@@ -122,6 +123,30 @@
       "part": 2,
       "at": "00:33:10",
       "note": "story runs to 2018: capital punishment push and martial law on Mindanao"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:13:05",
+      "note": "Duterte's claim that a priest molested him as a teenage schoolboy, amid church abuse of children"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:07:09",
+      "note": "Duterte exploits the rape and murder of a young girl to attack critics"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:26:29",
+      "note": "Duterte's joke taking responsibility if his men raped people, and the backlash"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:13:52",
+      "note": "Duterte boasts of throwing a rape suspect from a helicopter"
     }
   ],
   "notes": "Spanish and US colonial history (1520s-1902) is background before the story begins, so it is left out of covered_span and themes. Davao Death Squad typed criminal-org, though it was run by off-duty police with city funds; police would also be defensible. dictator-autocrat is third because the host says he is not quite a dictator yet."

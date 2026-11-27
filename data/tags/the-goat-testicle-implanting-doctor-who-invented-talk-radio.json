@@ -53,6 +53,7 @@
   },
   "summary": "John R. Brinkley, an American diploma-mill doctor, grew rich in the 1920s and 1930s implanting goat testicles into patients and selling remedies over his Kansas and Mexican border radio stations, maiming and killing many.",
   "content_warnings": ["medical-horror"],
+  "content_mentions": ["suicide-self-harm", "animal-cruelty"],
   "keywords": [
     "goat gland transplant",
     "KFKB",
@@ -74,17 +75,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:03:15", "note": "birth in 1885 and North Carolina childhood" },
-    { "facet": "time", "part": 1, "at": "00:26:20", "note": "first goat testicle implant on a Milford farmer after his 1917 army stint" },
-    { "facet": "themes", "part": 1, "at": "00:19:58", "note": "buys an MD from an unaccredited Kansas City school in 1915" },
-    { "facet": "themes", "part": 1, "at": "00:54:02", "note": "Los Angeles trip, implants for an LA Times editor and movie stars" },
-    { "facet": "themes", "part": 1, "at": "01:01:21", "note": "builds KFKB radio station in Milford" },
-    { "facet": "themes", "part": 2, "at": "00:10:50", "note": "radio station hires country musicians, helping spread the genre" },
-    { "facet": "themes", "part": 2, "at": "00:12:29", "note": "Medical Question Box: diagnoses by radio, sells numbered drugs" },
-    { "facet": "themes", "part": 2, "at": "00:26:52", "note": "write-in run for Kansas governor after licence revoked" },
-    { "facet": "regions", "part": 2, "at": "00:28:23", "note": "moves to Del Rio, builds station on the Mexican side of the border" },
-    { "facet": "themes", "part": 2, "at": "00:33:13", "note": "admires Hitler, hosts Coughlin and Kuhn, funds the Silver Shirts" },
-    { "facet": "time", "part": 2, "at": "00:36:30", "note": "Mexico shuts border stations in 1941; dies nearly broke in 1942" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:15",
+      "note": "birth in 1885 and North Carolina childhood"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:26:20",
+      "note": "first goat testicle implant on a Milford farmer after his 1917 army stint"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:19:58",
+      "note": "buys an MD from an unaccredited Kansas City school in 1915"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:54:02",
+      "note": "Los Angeles trip, implants for an LA Times editor and movie stars"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:01:21",
+      "note": "builds KFKB radio station in Milford"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:10:50",
+      "note": "radio station hires country musicians, helping spread the genre"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:12:29",
+      "note": "Medical Question Box: diagnoses by radio, sells numbered drugs"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:26:52",
+      "note": "write-in run for Kansas governor after licence revoked"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:28:23",
+      "note": "moves to Del Rio, builds station on the Mexican side of the border"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:33:13",
+      "note": "admires Hitler, hosts Coughlin and Kuhn, funds the Silver Shirts"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:36:30",
+      "note": "Mexico shuts border stations in 1941; dies nearly broke in 1942"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:35:13",
+      "note": "Brinkley's testimonial of a boy who planned suicide if the goat gland treatment failed"
+    }
   ],
   "notes": "Fascist sympathies get only a few minutes late in part 2, so fascism-far-right is borderline. Short trips to China and Japan left out of setting. The closing legacy remarks on country music and radio medicine are brief, so reaches_present is false. No QIDs given, not certain of them."
 }

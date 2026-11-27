@@ -46,7 +46,8 @@
     "approximate": false
   },
   "summary": "Albert Fish, an elderly house painter in New York, abducted and murdered children in the 1920s, including Grace Budd, whom he cannibalized; a taunting letter led to his 1934 arrest and 1936 execution.",
-  "content_warnings": ["child-death", "child-abuse", "graphic-violence", "suicide-self-harm"],
+  "content_warnings": ["child-abuse", "child-death", "graphic-violence", "suicide-self-harm"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "Billy Gaffney",
     "Francis McDonnell",
@@ -68,17 +69,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:04:13", "note": "first abduction covered: boy taken on Staten Island in 1924" },
-    { "facet": "themes", "part": 1, "at": "00:09:25", "note": "mobs attack suspected kidnappers after the Gaffney abduction" },
-    { "facet": "themes", "part": 1, "at": "00:21:24", "note": "national kidnapping wave of 1932-33 and the Lindbergh case tied to Fish's crimes" },
-    { "facet": "themes", "part": 1, "at": "00:26:47", "note": "crank letters and sensational press coverage targeting grieving families" },
-    { "facet": "themes", "part": 1, "at": "00:31:25", "note": "detective planted false leads in a gossip column to keep the case alive" },
-    { "facet": "themes", "part": 1, "at": "00:38:22", "note": "stationery traced to a rooming house leads police to arrest Fish" },
-    { "facet": "time", "part": 1, "at": "00:40:23", "note": "guest recounts learning of her descent from Fish's brother" },
-    { "facet": "regions", "part": 1, "at": "00:56:24", "note": "Westchester records office where the original letter was taken" },
-    { "facet": "time", "part": 1, "at": "01:08:01", "note": "childhood in an orphanage after his father's death, briefly covered" },
-    { "facet": "content_warnings", "part": 1, "at": "01:18:34", "note": "self-harm with needles and burning described at length" },
-    { "facet": "time", "part": 1, "at": "01:22:11", "note": "executed in the electric chair in January 1936" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:04:13",
+      "note": "first abduction covered: boy taken on Staten Island in 1924"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:09:25",
+      "note": "mobs attack suspected kidnappers after the Gaffney abduction"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:21:24",
+      "note": "national kidnapping wave of 1932-33 and the Lindbergh case tied to Fish's crimes"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:26:47",
+      "note": "crank letters and sensational press coverage targeting grieving families"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:31:25",
+      "note": "detective planted false leads in a gossip column to keep the case alive"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:38:22",
+      "note": "stationery traced to a rooming house leads police to arrest Fish"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:40:23",
+      "note": "guest recounts learning of her descent from Fish's brother"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:56:24",
+      "note": "Westchester records office where the original letter was taken"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:08:01",
+      "note": "childhood in an orphanage after his father's death, briefly covered"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:22:11",
+      "note": "executed in the electric chair in January 1936"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:36:11",
+      "note": "Fish's letter describing the killing and eating of a child, read at length"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "01:18:34",
+      "note": "X-ray found dozens of needles Fish pushed into his own body; also nail-studded paddles and burning himself"
+    }
   ],
   "notes": "Transcript renders the 1924 victim as Francis McDonald; standard spelling McDonnell used. Lifespan 1870-1936 and US origin (Washington, DC) from general knowledge. Not partial_life: the story centres on his crimes but sketches his whole life. Joe Coleman documentary and guest's family history treated as legacy (reaches_present). Mental illness gets real time but has no theme."
 }

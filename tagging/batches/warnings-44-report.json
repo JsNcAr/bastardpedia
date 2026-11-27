@@ -1,0 +1,120 @@
+[
+  {
+    "id": "steven-seagal-is-so-much-worse-than-you-d-ever-imagine",
+    "before": {
+      "warnings": ["sexual-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence"],
+      "mentions": ["child-sexual-abuse", "animal-cruelty"]
+    },
+    "notes": "Teen harassment is a single passing line with no detail. Animal-cruelty covers the cockfighting raid and the roosters killed in it; a reviewer may judge it borderline."
+  },
+  {
+    "id": "ronald-and-nancy-reagan-the-bastards-behind-the-aids-crisis",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "Both are smears or slurs, not actual cases; kept as mentions per the doubt rule. The part 1 grooming hit is the political sense and was dropped."
+  },
+  {
+    "id": "duterte-the-mass-murdering-mayor",
+    "before": {
+      "warnings": ["graphic-violence", "mass-atrocity", "child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "graphic-violence", "mass-atrocity"],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "The young girl's rape and murder is filed under child-sexual-abuse. Suicide is a forced death under Marcos plus a figurative Duterte remark."
+  },
+  {
+    "id": "erik-prince-the-rich-kid-who-bought-an-army",
+    "before": {
+      "warnings": ["mass-atrocity", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "mass-atrocity"],
+      "mentions": ["sexual-violence"]
+    }
+  },
+  {
+    "id": "alex-jones-the-godfather-of-fake-news",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "The harassment complaint runs about four minutes with an ad break in the middle; mentions chosen as it is a summary of a filing, a reviewer may prefer detailed. Theme domestic-abuse is not a strict warning."
+  },
+  {
+    "id": "how-hollywood-helped-the-nazis",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    },
+    "notes": "Child-sexual-abuse candidates are the ape-and-woman film scene with adult victims and were dropped. Suicide is only a cartoon aside and a generic list of celebrity scandals."
+  },
+  {
+    "id": "the-most-evil-company-in-history",
+    "before": {
+      "warnings": ["mass-atrocity", "graphic-violence", "suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "mass-atrocity", "suicide-self-harm"],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "Clive's suicide is brief but names the method; kept detailed. A reviewer may move it to mentions."
+  },
+  {
+    "id": "children-of-dictators",
+    "before": {
+      "warnings": ["torture", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "graphic-violence", "torture"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Grooming hit is about training an heir and was dropped. Stalin's cruelty to his children and Uday's upbringing could fit child-abuse but the scan found nothing; reviewer may check."
+  },
+  {
+    "id": "does-punching-nazis-work-a-conversation-from-unite-the-right-2-0",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "the-silly-bastards-behind-the-modern-fascist-movement",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": []
+    },
+    "notes": "The only candidate is a joke about tangled adult family relationships among group leaders; dropped."
+  }
+]

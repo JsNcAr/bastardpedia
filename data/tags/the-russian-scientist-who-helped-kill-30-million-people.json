@@ -63,6 +63,7 @@
   },
   "summary": "Soviet agronomist Trofim Lysenko rejected genetics, faked his results and, backed by Stalin, purged rival scientists; his pseudoscience drove farm policy in the USSR and Mao's China, worsening famines that killed millions.",
   "content_warnings": ["mass-atrocity"],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Lysenkoism",
     "vernalization",
@@ -149,6 +150,12 @@
       "part": 2,
       "at": "00:51:09",
       "note": "death in Moscow in 1976, then a segment on his revival in present-day Russia"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:08:09",
+      "note": "Ivanov's plan to inseminate African women with chimp semen without their knowledge, blocked"
     }
   ],
   "notes": "main_span starts at the 1927 Pravda profile (year from general knowledge; the transcript garbles it) and ends with his 1965 fall. Setting puts RU first because the Soviet famine and the purges happen there, with CN (part two) close behind. Lysenko held real agronomy training, so scientist-scholar rather than quack-fake-healer; politician-official covers his Lenin Academy presidency and state posts."

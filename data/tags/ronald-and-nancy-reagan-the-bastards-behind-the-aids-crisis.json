@@ -67,6 +67,7 @@
   },
   "summary": "Ronald and Nancy Reagan, despite many gay friends from their Hollywood years, led a US administration that ignored, mocked and underfunded the response to AIDS through the 1980s as tens of thousands died, while Surgeon General C. Everett Koop pushed back.",
   "content_warnings": ["hate-speech"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "AIDS epidemic",
     "Briggs Initiative",
@@ -153,6 +154,12 @@
       "part": 2,
       "at": "00:42:44",
       "note": "Reagan leaves office in 1989; later death tolls and the 2013 claim are short codas"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:10:52",
+      "note": "Reference to the slur that Mexican immigrants are rapists"
     }
   ],
   "notes": "Partial life: the story is framed around the Reagans' AIDS response; their earlier lives get only Hollywood-era and governorship background, so covered_span starts in the early 1960s (approximate, 'Kennedy years'). Roles are a loose fit: politician-official covers Nancy as first lady; entertainer-artist reflects the Hollywood-friends segment. FR is brief (Hudson in Paris)."

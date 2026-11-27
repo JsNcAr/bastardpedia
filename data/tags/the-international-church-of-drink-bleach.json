@@ -61,6 +61,7 @@
   },
   "summary": "Self-styled archbishop Jim Humble promoted Miracle Mineral Solution, an industrial bleach, as a cure-all through his Genesis II Church, while Kerri Rivera spread it as a fake autism cure given to children as drinks and enemas.",
   "content_warnings": ["child-abuse", "medical-horror"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "MMS",
     "chlorine dioxide",
@@ -135,6 +136,24 @@
       "part": 2,
       "at": "00:44:33",
       "note": "Amazon, YouTube, Yahoo and Facebook deplatforming Rivera in 2019"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:14:19",
+      "note": "Rivera spins the fevers that bleach doses cause in autistic children as a good sign"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:22:09",
+      "note": "Activist inside the parents' group reports a severe case of a dosed child to police"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:50:10",
+      "note": "Founding priest of the church left after an inquiry into advances toward young boys"
     }
   ],
   "notes": "The packet says Humble's birth date is unknown, so lifespan is null and covered years start at the MMS discovery; 1996 is from outside knowledge, not the transcript (some sources give his birth as 1932/33, which would trigger the lifetime rule). Part 2 is mostly Kerri Rivera; she could arguably be primary. Africa travels and a Calgary convention are passing mentions."

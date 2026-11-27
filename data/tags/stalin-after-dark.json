@@ -48,6 +48,7 @@
   },
   "summary": "A look at Soviet dictator Joseph Stalin's private life: his abusive Georgian childhood, the 1907 Tiflis robbery, his wife's 1932 suicide and the all-night drinking dinners through which he ruled the USSR until his death in 1953.",
   "content_warnings": ["suicide-self-harm"],
+  "content_mentions": ["sexual-violence", "child-abuse"],
   "keywords": [
     "Tiflis bank robbery",
     "In the Court of the Red Tsar",
@@ -122,6 +123,24 @@
       "part": 1,
       "at": "00:57:50",
       "note": "Stroke after a night of drinking and death in 1953 close the story"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:20:46",
+      "note": "Account of the night his wife Nadya shot herself after a public humiliation"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:21:49",
+      "note": "Aftermath of the suicide, his own threats to kill himself, and the purge of her family"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:51:07",
+      "note": "Host glosses Khrushchev's remark about drunken liberties as sexual assault"
     }
   ],
   "notes": "partial_life set: the host explicitly frames the bonus episode around Stalin's private side and skips his work (purges, famine, war only as background). covered_span is still 1878-1953 because the youth segment and death both get real airtime. main_span uses his rule, 1924-1953. Tiflis robbery is under two minutes: kept as role, not as terrorism theme. Famine mentioned only in passing: no genocide theme or mass-atrocity warning."

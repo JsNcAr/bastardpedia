@@ -49,6 +49,7 @@
   },
   "summary": "A short pilot on Adolf Hitler's personal oddities: his obsessive teenage crush in Austria, his 1920s trench coat and dog whip, his chronic flatulence, and the untested drugs his doctor Theodor Morell fed him through World War II.",
   "content_warnings": ["drug-use"],
+  "content_mentions": ["animal-cruelty"],
   "keywords": [
     "The Young Hitler I Knew",
     "Linz",
@@ -111,6 +112,12 @@
       "part": 1,
       "at": "00:14:07",
       "note": "Rotation of morphine, methamphetamine and cocaine injections through 1943-1945"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:08:40",
+      "note": "Hitler in the 1920s carried a dog whip and is said to have whipped dogs to impress women"
     }
   ],
   "notes": "partial_life set: a 16-minute pilot framed by title, description and host around young Hitler's oddities and his flatulence, not a biography; birth, childhood and the war itself get no airtime. Covered span runs from the 1905 Kubizek anecdote to the 1945 drug regime. Main span 1920-1945 (whip era to death) is approximate. Kubizek's segment is about 2.5 minutes, kept as secondary."

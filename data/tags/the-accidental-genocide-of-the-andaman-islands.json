@@ -62,6 +62,7 @@
   },
   "summary": "How British colonization of India's Andaman Islands from 1857, through a penal colony, abductions, disease and coercive administrators like Maurice Portman, devastated the islanders, and why the Sentinelese still reject all contact.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "North Sentinel Island",
     "Port Blair",
@@ -83,16 +84,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:09:18", "note": "1857 East India Company steamer surveys the islands for a penal colony" },
-    { "facet": "regions", "part": 1, "at": "00:26:59", "note": "Port Blair settlement and penal colony established" },
-    { "facet": "themes", "part": 1, "at": "00:34:15", "note": "infant deaths and venereal disease spread among the Andamanese" },
-    { "facet": "subjects", "part": 1, "at": "00:37:28", "note": "Portman's career begins; village burnings and a hanging described" },
-    { "facet": "themes", "part": 1, "at": "00:45:40", "note": "Portman pressures colonised islanders into posing nude; consent discussed" },
-    { "facet": "subjects", "part": 2, "at": "00:04:39", "note": "Portman's Sentinel expedition abducts an elderly couple and children" },
-    { "facet": "themes", "part": 2, "at": "00:14:38", "note": "Indian government anthropologists' gradual contact expeditions" },
-    { "facet": "time", "part": 2, "at": "00:21:35", "note": "contact abandoned and exclusion zone set up; later incidents to 2006" },
-    { "facet": "themes", "part": 2, "at": "00:24:09", "note": "Chau's evangelical mission agency and its defence of his trip" },
-    { "facet": "subjects", "part": 2, "at": "00:30:57", "note": "Jarawa contact, disease and exploitative tourist safaris" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:09:18",
+      "note": "1857 East India Company steamer surveys the islands for a penal colony"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:26:59",
+      "note": "Port Blair settlement and penal colony established"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:34:15",
+      "note": "infant deaths and venereal disease spread among the Andamanese"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:37:28",
+      "note": "Portman's career begins; village burnings and a hanging described"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:45:40",
+      "note": "Portman pressures colonised islanders into posing nude; consent discussed"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:04:39",
+      "note": "Portman's Sentinel expedition abducts an elderly couple and children"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:14:38",
+      "note": "Indian government anthropologists' gradual contact expeditions"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:21:35",
+      "note": "contact abandoned and exclusion zone set up; later incidents to 2006"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:24:09",
+      "note": "Chau's evangelical mission agency and its defence of his trip"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:30:57",
+      "note": "Jarawa contact, disease and exploitative tourist safaris"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:29:05",
+      "note": "Quoted comparison to rape and butchery in the Belgian Congo"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:34:47",
+      "note": "Settlers' sexual exploitation of Andamanese women spreading venereal disease, briefly"
+    }
   ],
   "notes": "Primary subject treated as the place; the Andamanese peoples as a whole could also be an ethnic-group primary. genocide-mass-killing kept secondary despite the deaths being largely unintended, since the title frames it so and village burnings occur. Marco Polo and the 1771 sighting are brief background, so covered_span starts at 1857. main_span end 1900 approximates the end of Portman's tenure."
 }

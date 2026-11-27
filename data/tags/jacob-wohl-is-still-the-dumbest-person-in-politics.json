@@ -52,6 +52,7 @@
   },
   "summary": "An early-2019 update on American hoaxer Jacob Wohl: a fundraising trip with Laura Loomer to smear Ilhan Omar, self-sent fake death threats, his Twitter ban, and a failed fake sexual assault allegation against Pete Buttigieg.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Ilhan Omar",
     "Pete Buttigieg",
@@ -108,6 +109,24 @@
       "part": 1,
       "at": "00:41:02",
       "note": "leaked pitch for a troll-farm firm modelled on the Internet Research Agency"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:27:21",
+      "note": "Wohl's plot to fabricate a sexual assault allegation against Pete Buttigieg"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:34:02",
+      "note": "Recorded pitch to recruit a young man to falsely claim he was raped"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:48:21",
+      "note": "Host compares a stunt artist's complaints to a convicted rapist's"
     }
   ],
   "notes": "Update to the earlier Wohl episode. Loomer and Burkman get real segments as secondary subjects; Burkman birth year not certain, left null. Islamophobic smear of Omar justifies racism-white-supremacy. Wohl birth year from general knowledge. main_span end null as he was still active at release."

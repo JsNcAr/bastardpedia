@@ -65,7 +65,8 @@
     "approximate": false
   },
   "summary": "Bashar al-Assad, a London-trained eye doctor who inherited Syria's dictatorship in 2000, crushed the 2011 uprising with torture prisons, barrel bombs and chemical weapons, killing hundreds of thousands of Syrians.",
-  "content_warnings": ["torture", "mass-atrocity", "graphic-violence", "child-death", "suicide-self-harm"],
+  "content_warnings": ["child-death", "graphic-violence", "torture", "mass-atrocity"],
+  "content_mentions": ["sexual-violence", "child-abuse", "suicide-self-harm"],
   "keywords": [
     "Damascus Spring",
     "Hama massacre",
@@ -87,18 +88,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:05:11", "note": "Birth in September 1965 opens the biography" },
-    { "facet": "roles", "part": 1, "at": "00:30:45", "note": "Works as an ophthalmologist at a London hospital before being recalled" },
-    { "facet": "time", "part": 1, "at": "00:46:27", "note": "Hafez dies June 2000 and Bashar takes power after a constitutional change" },
-    { "facet": "themes", "part": 1, "at": "00:48:32", "note": "Damascus Spring reforms and their reversal with arrests and a press law" },
-    { "facet": "themes", "part": 1, "at": "00:56:58", "note": "CIA rendition of detainees to Syrian torture prisons, Maher Arar case" },
-    { "facet": "regions", "part": 1, "at": "00:57:30", "note": "Arar seized at JFK airport by US authorities and sent to Syria" },
-    { "facet": "themes", "part": 1, "at": "01:04:16", "note": "Long segment on the paid-for Vogue puff piece about Asma al-Assad" },
-    { "facet": "themes", "part": 2, "at": "00:08:28", "note": "Daraa schoolboys arrested for graffiti, protests spread in 2011" },
-    { "facet": "content_warnings", "part": 2, "at": "00:03:45", "note": "Bouazizi self-immolation recounted as the Arab Spring trigger" },
-    { "facet": "themes", "part": 2, "at": "00:17:44", "note": "Barrel bombing of Homs and Aleppo, hospitals and schools targeted" },
-    { "facet": "themes", "part": 2, "at": "00:49:14", "note": "Obama White House backs away from enforcing the chemical weapons red line" },
-    { "facet": "time", "part": 2, "at": "00:47:08", "note": "Ongoing bombing of Idlib at release supports reaches_present" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:05:11",
+      "note": "Birth in September 1965 opens the biography"
+    },
+    {
+      "facet": "roles",
+      "part": 1,
+      "at": "00:30:45",
+      "note": "Works as an ophthalmologist at a London hospital before being recalled"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:46:27",
+      "note": "Hafez dies June 2000 and Bashar takes power after a constitutional change"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:48:32",
+      "note": "Damascus Spring reforms and their reversal with arrests and a press law"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:56:58",
+      "note": "CIA rendition of detainees to Syrian torture prisons, Maher Arar case"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:57:30",
+      "note": "Arar seized at JFK airport by US authorities and sent to Syria"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:04:16",
+      "note": "Long segment on the paid-for Vogue puff piece about Asma al-Assad"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:08:28",
+      "note": "Daraa schoolboys arrested for graffiti, protests spread in 2011"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:17:44",
+      "note": "Barrel bombing of Homs and Aleppo, hospitals and schools targeted"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:49:14",
+      "note": "Obama White House backs away from enforcing the chemical weapons red line"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:47:08",
+      "note": "Ongoing bombing of Idlib at release supports reaches_present"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:11:52",
+      "note": "Comparison to Uday Hussein, who raped and murdered people for years"
+    }
   ],
   "notes": "Alive and in power at release, so main_span ends null and covered_span ends 2019. Hafez's 1963-1982 rise and Hama get brief background, so covered_span starts at Bashar's birth. A several-minute segment rebuts chemical-weapon false-flag claims; conspiracy-theories left out to keep themes focused. Tunisia (Bouazizi) is Arab Spring context and is not in setting."
 }

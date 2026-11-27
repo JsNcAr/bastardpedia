@@ -38,7 +38,8 @@
     "approximate": false
   },
   "summary": "A random-page reading of QAnon: An Invitation to the Great Awakening, a 2019 bestseller compiled from anonymous QAnon followers that recasts Trump as a hero fighting a satanic elite child-trafficking cabal.",
-  "content_warnings": [],
+  "content_warnings": ["child-sexual-abuse"],
+  "content_mentions": ["sexual-violence", "suicide-self-harm"],
   "keywords": [
     "Where We Go One We Go All",
     "WWG1WGA",
@@ -101,6 +102,36 @@
       "part": 1,
       "at": "00:24:27",
       "note": "Book noted as published in 2019; Q posts discussed date from 2018"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:18:32",
+      "note": "Long reading and mockery of a chapter on an alleged elite pedophile trafficking ring"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:20:39",
+      "note": "Hosts contrast the fantasy with Epstein's real abuse of teenage girls and Trump's ties"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:42:33",
+      "note": "Q drops on child trafficking and claims that Lewis Carroll was a pedophile"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:09:08",
+      "note": "Reference to a rape tree segment from another episode"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:20:39",
+      "note": "Aside calling Bill Clinton a noted rapist"
     }
   ],
   "notes": "The book is credited to the pseudonymous collective WWG1WGA (anonymous followers), so no author is listed as a primary subject and roles are empty; QAnon is the movement the book promotes. covered_span starts at QAnon's 2017 origin, which the book narrates; Q posts and Trump events cited run 2018-2019. cults-new-religions is the hosts' framing of the movement, not a formal group."

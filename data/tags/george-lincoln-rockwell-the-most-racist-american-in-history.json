@@ -64,6 +64,7 @@
   },
   "summary": "Navy pilot and ad man George Lincoln Rockwell founded the American Nazi Party in 1959, pioneered Holocaust denial, publicity-baiting stunts and the slogan white power, and radicalized the men behind decades of far-right terror.",
   "content_warnings": ["hate-speech"],
+  "content_mentions": ["sexual-violence", "suicide-self-harm"],
   "keywords": [
     "Holocaust denial",
     "white power",
@@ -144,6 +145,18 @@
       "part": 3,
       "at": "00:23:27",
       "note": "legacy traced to Atomwaffen in 2018 and the 2019 Hasson arrest"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 3,
+      "at": "00:07:32",
+      "note": "Turner Diaries plot point imagines a government repealing rape laws"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:04:14",
+      "note": "Joke comparing Rockwell to the letter urging MLK to kill himself"
     }
   ],
   "notes": "Part three is a full episode on Rockwell's legacy through Pierce, The Turner Diaries, Mason and Siege, Atomwaffen and the 2019 Hasson case, so covered_span runs to 2019. main_span starts at the 1958 National Committee picket. Iceland gets only brief mentions and is left out of the setting. Transcript says he founded the party in October without a clear year (historically 1959)."

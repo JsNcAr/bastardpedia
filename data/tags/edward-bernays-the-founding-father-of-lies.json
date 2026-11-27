@@ -59,6 +59,7 @@
   },
   "summary": "Vienna-born, New York-raised Edward Bernays built modern public relations, using paid experts and staged events to sell cigarettes to women despite cancer warnings, and propaganda that helped bring about the 1954 coup in Guatemala.",
   "content_warnings": [],
+  "content_mentions": [],
   "keywords": [
     "Torches of Freedom",
     "Lucky Strike",
@@ -80,17 +81,72 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:03:40", "note": "born in Vienna in 1891 to a family related to Freud" },
-    { "facet": "regions", "part": 1, "at": "00:06:16", "note": "family moves to New York City when he is one" },
-    { "facet": "time", "part": 1, "at": "00:14:13", "note": "first publicity campaign for the play Damaged Goods, around 1913" },
-    { "facet": "subjects", "part": 1, "at": "00:37:20", "note": "long segment on wife and partner Doris Fleischman and her uncredited work" },
-    { "facet": "subjects", "part": 1, "at": "00:54:36", "note": "hired by American Tobacco to get women smoking Lucky Strikes" },
-    { "facet": "themes", "part": 1, "at": "01:16:27", "note": "1933 memo urges client to prepare a counter-offensive against cancer findings" },
-    { "facet": "themes", "part": 2, "at": "00:05:14", "note": "commissions a doctor's claim that bacon is a healthy breakfast" },
-    { "facet": "themes", "part": 2, "at": "00:16:39", "note": "image work for Coolidge and campaign strategy for Hoover against FDR" },
-    { "facet": "regions", "part": 2, "at": "00:30:23", "note": "United Fruit's grip on Guatemala and Bernays's campaign for it" },
-    { "facet": "time", "part": 2, "at": "00:42:59", "note": "CIA-backed coup of June 1954 ousts Arbenz" },
-    { "facet": "time", "part": 2, "at": "00:49:15", "note": "death in March 1995; the host gives his age as 104" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:40",
+      "note": "born in Vienna in 1891 to a family related to Freud"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:06:16",
+      "note": "family moves to New York City when he is one"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:14:13",
+      "note": "first publicity campaign for the play Damaged Goods, around 1913"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:37:20",
+      "note": "long segment on wife and partner Doris Fleischman and her uncredited work"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:54:36",
+      "note": "hired by American Tobacco to get women smoking Lucky Strikes"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:16:27",
+      "note": "1933 memo urges client to prepare a counter-offensive against cancer findings"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:05:14",
+      "note": "commissions a doctor's claim that bacon is a healthy breakfast"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:16:39",
+      "note": "image work for Coolidge and campaign strategy for Hoover against FDR"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:30:23",
+      "note": "United Fruit's grip on Guatemala and Bernays's campaign for it"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:42:59",
+      "note": "CIA-backed coup of June 1954 ousts Arbenz"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:49:15",
+      "note": "death in March 1995; the host gives his age as 104"
+    }
   ],
   "notes": "Host says Bernays died at 104; he was 103 (1891-1995). The later Guatemalan civil war and genocide get a few minutes as consequences of the coup; genocide-mass-killing left out as not a long enough segment. WWI propaganda (Committee on Public Information era) folded into the primary theme. Modern PR-vs-journalism legacy is a short coda, so reaches_present is false."
 }

@@ -52,7 +52,8 @@
     "approximate": false
   },
   "summary": "Former army captain Jair Bolsonaro spent decades in Brazil's congress praising the 1964-1985 military dictatorship, calling for mass killings and threatening colleagues, then rode the Operation Car Wash scandal to the presidency in 2018.",
-  "content_warnings": ["torture", "hate-speech"],
+  "content_warnings": ["sexual-violence", "torture", "hate-speech"],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "Brazil 2018 election",
     "Joao Goulart",
@@ -87,12 +88,6 @@
       "note": "long segment on US-backed overthrow of Goulart and the 1964 coup"
     },
     {
-      "facet": "content_warnings",
-      "part": 1,
-      "at": "00:17:06",
-      "note": "detailed account of the junta's torture centre and its techniques"
-    },
-    {
       "facet": "time",
       "part": 1,
       "at": "00:19:43",
@@ -115,6 +110,42 @@
       "part": 1,
       "at": "00:42:35",
       "note": "anti-gay statements and fears of Brazil's LGBT population"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:23:54",
+      "note": "Bolsonaro's rape threat to congresswoman Maria do Rosario, read out and discussed"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:27:33",
+      "note": "Hosts keep returning to the rape remark and how it boosted his popularity"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:03:04",
+      "note": "Mentions Pinochet's sexual torture of women and Bolsonaro equating gay people with pedophiles"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:26:30",
+      "note": "Aside calling Dennis Hastert a serial child molester"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:43:07",
+      "note": "Bolsonaro's crude remark about pedophilia and toddlers, quoted in passing"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:17:06",
+      "note": "detailed account of the junta's torture centre and its techniques"
     }
   ],
   "notes": "Recorded just after the 2018 election, so main_span ends null. Primary theme chosen as fascism-far-right over authoritarianism because he had not yet governed; authoritarianism is secondary. Personal misogyny mapped to misogyny-manosphere for lack of a closer id."

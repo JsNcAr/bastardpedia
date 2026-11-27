@@ -54,7 +54,8 @@
     "approximate": false
   },
   "summary": "Cambodian king Norodom Sihanouk won independence from France, then rigged elections, crushed the left and made vanity films; ousted in 1970, he lent his name to the Khmer Rouge and helped bring Pol Pot to power.",
-  "content_warnings": ["mass-atrocity", "graphic-violence", "child-death", "child-abuse"],
+  "content_warnings": ["child-sexual-abuse", "child-death", "graphic-violence", "mass-atrocity"],
+  "content_mentions": ["child-abuse", "suicide-self-harm"],
   "keywords": [
     "Cambodia",
     "Khmer Issarak",
@@ -76,18 +77,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:02:39", "note": "Sihanouk's birth in Phnom Penh in 1922" },
-    { "facet": "time", "part": 1, "at": "00:09:18", "note": "made king in 1941 by Vichy France; main span starts here" },
-    { "facet": "themes", "part": 1, "at": "00:31:14", "note": "1952 dissolution of government and emergency powers" },
-    { "facet": "themes", "part": 1, "at": "00:41:36", "note": "1953 crusade for independence forces the French out" },
-    { "facet": "themes", "part": 1, "at": "00:50:56", "note": "1955 election rigged through intimidation, murder and ballot destruction" },
-    { "facet": "regions", "part": 1, "at": "00:36:25", "note": "recurring weight-loss cures in France and Paris negotiations" },
-    { "facet": "themes", "part": 2, "at": "00:03:12", "note": "long segment on his film career and propaganda movies" },
-    { "facet": "themes", "part": 2, "at": "00:04:46", "note": "Samlaut peasant revolt crushed with mass beheadings" },
-    { "facet": "themes", "part": 2, "at": "00:23:23", "note": "1970 coup removes him while abroad" },
-    { "facet": "themes", "part": 2, "at": "00:24:30", "note": "allies with the Khmer Rouge as figurehead out of spite" },
-    { "facet": "time", "part": 2, "at": "00:29:08", "note": "Khmer Rouge rule 1975-79, evacuation of cities and death toll" },
-    { "facet": "time", "part": 2, "at": "00:36:54", "note": "later films and death from cancer in 2012" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:02:39",
+      "note": "Sihanouk's birth in Phnom Penh in 1922"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:09:18",
+      "note": "made king in 1941 by Vichy France; main span starts here"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:31:14",
+      "note": "1952 dissolution of government and emergency powers"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:41:36",
+      "note": "1953 crusade for independence forces the French out"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:50:56",
+      "note": "1955 election rigged through intimidation, murder and ballot destruction"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:36:25",
+      "note": "recurring weight-loss cures in France and Paris negotiations"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:03:12",
+      "note": "long segment on his film career and propaganda movies"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:04:46",
+      "note": "Samlaut peasant revolt crushed with mass beheadings"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:23:23",
+      "note": "1970 coup removes him while abroad"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:24:30",
+      "note": "allies with the Khmer Rouge as figurehead out of spite"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:29:08",
+      "note": "Khmer Rouge rule 1975-79, evacuation of cities and death toll"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:36:54",
+      "note": "later films and death from cancer in 2012"
+    }
   ],
   "notes": "Main span 1941 (coronation) to 1979 (fall of the Khmer Rouge he backed). Later life (exile, blog, films to 2006) is covered briefly but extends to his 2012 death per the lifetime rule. US bombing of Cambodia and Vietnam War get a few minutes; not added as separate themes."
 }

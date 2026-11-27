@@ -52,6 +52,7 @@
   },
   "summary": "History of US payday lending, from 19th-century salary lenders and mob loan sharks to Scott Tucker's tribal-shell empire charging up to 1,000 percent interest, plus industry-funded research and the 2019 rollback of federal rules.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence", "suicide-self-harm"],
   "keywords": [
     "loan sharks",
     "rent-a-tribe lending",
@@ -73,17 +74,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:03:09", "note": "payday-style salary lending traced to the late 1800s as regular paychecks spread" },
-    { "facet": "time", "part": 1, "at": "00:07:23", "note": "chattel mortgage lenders after the Civil War set the earliest covered period" },
-    { "facet": "themes", "part": 1, "at": "00:09:58", "note": "mafia loan sharks and their rates and collection methods get several minutes" },
-    { "facet": "time", "part": 1, "at": "00:16:43", "note": "1978 Supreme Court ruling lets banks export home-state rates; start of modern industry" },
-    { "facet": "themes", "part": 1, "at": "00:18:14", "note": "extended discussion of delayed wages as the root cause of the need for loans" },
-    { "facet": "subjects", "part": 1, "at": "00:26:07", "note": "Scott Tucker biography begins: born 1962 in Kansas City, early loan fraud" },
-    { "facet": "subjects", "part": 1, "at": "00:28:11", "note": "Tucker meets Hallinan in 1997 and secretly diverts their joint business" },
-    { "facet": "regions", "part": 1, "at": "00:35:43", "note": "operations run from Overland Park, Kansas while posing as tribal businesses" },
-    { "facet": "themes", "part": 1, "at": "00:53:05", "note": "payday money floods wealthy Mission Hills parish while poor parishes lose homes" },
-    { "facet": "themes", "part": 1, "at": "01:06:05", "note": "industry lawyer steers supposedly independent academic studies" },
-    { "facet": "time", "part": 1, "at": "01:14:18", "note": "CFPB scraps Obama-era payday rules shortly before the 2019 release" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:09",
+      "note": "payday-style salary lending traced to the late 1800s as regular paychecks spread"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:07:23",
+      "note": "chattel mortgage lenders after the Civil War set the earliest covered period"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:09:58",
+      "note": "mafia loan sharks and their rates and collection methods get several minutes"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:16:43",
+      "note": "1978 Supreme Court ruling lets banks export home-state rates; start of modern industry"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:18:14",
+      "note": "extended discussion of delayed wages as the root cause of the need for loans"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:26:07",
+      "note": "Scott Tucker biography begins: born 1962 in Kansas City, early loan fraud"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:28:11",
+      "note": "Tucker meets Hallinan in 1997 and secretly diverts their joint business"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:35:43",
+      "note": "operations run from Overland Park, Kansas while posing as tribal businesses"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:53:05",
+      "note": "payday money floods wealthy Mission Hills parish while poor parishes lose homes"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:06:05",
+      "note": "industry lawyer steers supposedly independent academic studies"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:14:18",
+      "note": "CFPB scraps Obama-era payday rules shortly before the 2019 release"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:48:25",
+      "note": "Scott Tucker's brother Blaine died by suicide by jumping from a parking garage"
+    }
   ],
   "notes": "Primary subject is the industry as a practice, so no roles. Tucker is secondary despite a long segment (the host says he was meant to be the sole subject). covered_span starts at an estimated 1865 (post-Civil War chattel lenders; late 1800s). main_span end null since the industry is still active. labor-exploitation rests on the delayed-pay framing; Blaine Tucker's suicide is mentioned only briefly, so no warning."
 }

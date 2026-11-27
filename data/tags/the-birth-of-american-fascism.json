@@ -64,6 +64,7 @@
   },
   "summary": "How fascism took root in the United States between the world wars, from Italian and German émigré groups to the German American Bund, Pelley's Silver Legion, Father Coughlin's radio antisemitism and Lindbergh's America First campaign.",
   "content_warnings": ["hate-speech"],
+  "content_mentions": ["sexual-violence", "suicide-self-harm"],
   "keywords": [
     "Silver Legion",
     "America First Committee",
@@ -85,17 +86,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:03:39", "note": "Italian American fascist groups begin organizing in New York and Philadelphia in the early 1920s" },
-    { "facet": "subjects", "part": 1, "at": "00:08:52", "note": "German American Bund under Fritz Kuhn introduced; bulk of its story follows" },
-    { "facet": "subjects", "part": 1, "at": "00:11:27", "note": "Pelley founds the Silver Legion in 1933; long segment on his ideology and recruiting" },
-    { "facet": "themes", "part": 1, "at": "00:17:10", "note": "Silver Shirt pamphlet recasts communism as a Jewish conspiracy against gentiles" },
-    { "facet": "subjects", "part": 1, "at": "00:22:17", "note": "Father Coughlin's radio career and antisemitic turn covered at length" },
-    { "facet": "themes", "part": 1, "at": "00:27:27", "note": "Union Party and the 1936 election; Bund orders members to vote for Landon" },
-    { "facet": "themes", "part": 1, "at": "00:39:11", "note": "Bund youth camps and Camp Siegfried indoctrination" },
-    { "facet": "themes", "part": 1, "at": "00:53:30", "note": "1939 Bund rally at Madison Square Garden, protester beaten on stage" },
-    { "facet": "time", "part": 2, "at": "00:10:28", "note": "1940 FBI arrest of Christian Front cell plotting to overthrow the government" },
-    { "facet": "subjects", "part": 2, "at": "00:20:33", "note": "Lindbergh becomes face of America First; Des Moines speech read at length" },
-    { "facet": "time", "part": 2, "at": "00:37:53", "note": "Pearl Harbor in December 1941 dissolves America First, closing the story" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:39",
+      "note": "Italian American fascist groups begin organizing in New York and Philadelphia in the early 1920s"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:08:52",
+      "note": "German American Bund under Fritz Kuhn introduced; bulk of its story follows"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:11:27",
+      "note": "Pelley founds the Silver Legion in 1933; long segment on his ideology and recruiting"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:17:10",
+      "note": "Silver Shirt pamphlet recasts communism as a Jewish conspiracy against gentiles"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:22:17",
+      "note": "Father Coughlin's radio career and antisemitic turn covered at length"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:27:27",
+      "note": "Union Party and the 1936 election; Bund orders members to vote for Landon"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:39:11",
+      "note": "Bund youth camps and Camp Siegfried indoctrination"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:53:30",
+      "note": "1939 Bund rally at Madison Square Garden, protester beaten on stage"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:10:28",
+      "note": "1940 FBI arrest of Christian Front cell plotting to overthrow the government"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:20:33",
+      "note": "Lindbergh becomes face of America First; Des Moines speech read at length"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:37:53",
+      "note": "Pearl Harbor in December 1941 dissolves America First, closing the story"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:29:33",
+      "note": "Joking comparison to a tape admitting sexual assault"
+    }
   ],
   "notes": "Transcript years are garbled (e.g. 'nineteen one'); start year 1921 is the early Italian fascist organizing it describes, so approximate. Lawrence Dennis and Gerald Winrod get real segments but were left as keywords to stay within five subjects. Many modern Trump-era comparisons were ignored as commentary."
 }

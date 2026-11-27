@@ -1,0 +1,108 @@
+[
+  {
+    "id": "the-child-molester-whose-sex-cult-taught-women-friendship",
+    "before": {
+      "warnings": ["child-abuse", "sexual-violence", "suicide-self-harm", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-sexual-abuse", "graphic-violence"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Old child-abuse was sexual abuse of minors, so it becomes child-sexual-abuse; no non-sexual child abuse found. Suicide moved from detailed to mentioned: only two brief references (Part 2 00:14:45 and 00:17:51). Reviewer may want to confirm."
+  },
+  {
+    "id": "king-leopold-ii-the-first-modern-bastard",
+    "before": {
+      "warnings": ["graphic-violence", "mass-atrocity", "torture", "slavery"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["slavery", "graphic-violence", "torture", "mass-atrocity"],
+      "mentions": ["child-sexual-abuse", "child-abuse"]
+    },
+    "notes": "Child-abuse is a brief mention (boys flogged; women and children taken hostage). The Part 2 00:33:13 flogging candidate concerns adult colonial subjects and was dropped. Part 1 also notes his father courting a 14-year-old in passing."
+  },
+  {
+    "id": "the-cocaine-queen-of-miami",
+    "before": {
+      "warnings": ["graphic-violence", "child-death", "child-abuse", "drug-use"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "child-death", "graphic-violence", "drug-use"],
+      "mentions": ["child-sexual-abuse"]
+    },
+    "notes": "Both suicide candidates are about being killed or shot herself, not suicide; dropped. Child-sexual-abuse found by reading the transcript, not the scan. Killings of children are covered by child-death."
+  },
+  {
+    "id": "it-takes-a-village-of-bastards-to-make-a-weinstein",
+    "before": {
+      "warnings": ["sexual-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "The Part 2 00:35:25 child-sexual-abuse candidate is about young adult women and was dropped. Both mentions are single brief asides."
+  },
+  {
+    "id": "hitler-y-a-fiction-fan-girl",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["suicide-self-harm"]
+    }
+  },
+  {
+    "id": "secrets-of-osama-bin-laden-s-hard-drive",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "saddam-hussein-erotic-novelist",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-abuse", "suicide-self-harm", "animal-cruelty"]
+    },
+    "notes": "Animal-cruelty rests only on a one-line host joke at 00:03:08; reviewer may drop it. Child-abuse was found by reading the transcript, not the scan."
+  },
+  {
+    "id": "stalin-after-dark",
+    "before": {
+      "warnings": ["suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["suicide-self-harm"],
+      "mentions": ["sexual-violence", "child-abuse"]
+    },
+    "notes": "Child-abuse runs about two minutes (00:02:35 to 00:04:39), mostly banter; kept as a mention."
+  },
+  {
+    "id": "episode-0-farting-hipster-hitler",
+    "before": {
+      "warnings": ["drug-use"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["drug-use"],
+      "mentions": ["animal-cruelty"]
+    },
+    "notes": "Found by reading the transcript; the scan had no candidates. The dog whipping comes up a few times briefly, around 00:08:16 to 00:08:56 and again later."
+  }
+]

@@ -65,6 +65,7 @@
   },
   "summary": "American lobbyist Paul Manafort built a Washington firm that sold influence to dictators such as Ferdinand Marcos and Jonas Savimbi, then remade Viktor Yanukovych in Ukraine and ran Trump's 2016 campaign before fraud charges landed him in jail.",
   "content_warnings": ["graphic-violence"],
+  "content_mentions": ["sexual-violence", "suicide-self-harm"],
   "keywords": [
     "Roger Stone",
     "Jonas Savimbi",
@@ -86,18 +87,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:03:04", "note": "born 1949, raised in New Britain, Connecticut by a corrupt mayor father" },
-    { "facet": "time", "part": 1, "at": "00:10:17", "note": "co-founds the lobbying firm with Roger Stone and Charles Black in 1980" },
-    { "facet": "time", "part": 1, "at": "00:11:51", "note": "Ivy Lee segment opens with the 1914 Ludlow massacre PR; sets covered start" },
-    { "facet": "subjects", "part": 1, "at": "00:14:28", "note": "Ivy Lee advises Hitler and Goebbels in 1934, leading to FARA" },
-    { "facet": "regions", "part": 1, "at": "00:28:01", "note": "work for Marcos regime and the 1986 snap election in the Philippines" },
-    { "facet": "regions", "part": 1, "at": "00:36:17", "note": "Savimbi charm tour; host argues it prolonged the Angolan war" },
-    { "facet": "themes", "part": 1, "at": "00:44:35", "note": "Kenya, Nigeria and Somalia lobbying criticized as the torturers' lobby" },
-    { "facet": "regions", "part": 1, "at": "00:55:04", "note": "hired by Yanukovych in Ukraine after the 2004-05 election crisis" },
-    { "facet": "themes", "part": 2, "at": "00:07:24", "note": "takes Deripaska money for a fund and apparently never buys the asset" },
-    { "facet": "content_warnings", "part": 2, "at": "00:14:37", "note": "Maidan killings and host's account of a shelled town and wounded civilian" },
-    { "facet": "themes", "part": 2, "at": "00:15:39", "note": "host ties Manafort's East-West strategy to Ukraine's civil war" },
-    { "facet": "time", "part": 2, "at": "00:34:29", "note": "Mueller indictments, witness tampering and jailing in 2018" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:04",
+      "note": "born 1949, raised in New Britain, Connecticut by a corrupt mayor father"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:10:17",
+      "note": "co-founds the lobbying firm with Roger Stone and Charles Black in 1980"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:11:51",
+      "note": "Ivy Lee segment opens with the 1914 Ludlow massacre PR; sets covered start"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:14:28",
+      "note": "Ivy Lee advises Hitler and Goebbels in 1934, leading to FARA"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:28:01",
+      "note": "work for Marcos regime and the 1986 snap election in the Philippines"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:36:17",
+      "note": "Savimbi charm tour; host argues it prolonged the Angolan war"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:44:35",
+      "note": "Kenya, Nigeria and Somalia lobbying criticized as the torturers' lobby"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:55:04",
+      "note": "hired by Yanukovych in Ukraine after the 2004-05 election crisis"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:07:24",
+      "note": "takes Deripaska money for a fund and apparently never buys the asset"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:15:39",
+      "note": "host ties Manafort's East-West strategy to Ukraine's civil war"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:34:29",
+      "note": "Mueller indictments, witness tampering and jailing in 2018"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:36:17",
+      "note": "One line that Savimbi's army enslaved women sexually"
+    }
   ],
   "notes": "Manafort was jailed awaiting trial at release; his August 2018 conviction falls after the episode, so main_span ends 2018 at the jailing. Covered span starts with the Ivy Lee digression (Ludlow, 1914), a secondary segment of several minutes. Andrea Manafort's texts get a long segment but she is kept as a keyword. Nazism (Ivy Lee and Goebbels) is a short segment and left out."
 }

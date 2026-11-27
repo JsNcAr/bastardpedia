@@ -35,6 +35,7 @@
   },
   "summary": "A 2018 update on Trump campaign chairman Paul Manafort: his fraud conviction and plea deal, leaked texts in which his daughters describe him coercing his wife into group sex, his lavish spending, and a tally of the dictators he served.",
   "content_warnings": ["sexual-violence"],
+  "content_mentions": [],
   "keywords": [
     "Mueller investigation",
     "Rick Gates",
@@ -56,14 +57,72 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:02:45", "note": "Recap of 2018 conviction and plea agreement with the Mueller probe" },
-    { "facet": "themes", "part": 1, "at": "00:09:02", "note": "Daughters' texts say he pressured his wife into group sex for years; long segment follows" },
-    { "facet": "themes", "part": 1, "at": "00:22:11", "note": "Daughter describes his controlling treatment of her mother and his affair" },
-    { "facet": "regions", "part": 1, "at": "00:20:02", "note": "His advice to Yanukovych during the 2014 Maidan crackdown and daughters' texts about it" },
-    { "facet": "themes", "part": 1, "at": "00:26:23", "note": "Spending dictator money on a luxury ostrich jacket and tailored suits, 2010-2014" },
-    { "facet": "themes", "part": 1, "at": "00:33:41", "note": "Rick Gates and the accountant testify about hidden offshore money" },
-    { "facet": "time", "part": 1, "at": "00:35:45", "note": "Kill count of past clients: Marcos, Savimbi, Mobutu, Abacha, from the mid-1980s on" },
-    { "facet": "regions", "part": 1, "at": "00:37:50", "note": "Story of staff sent to collapsing Barre-era Somalia to extract a fee" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:02:45",
+      "note": "Recap of 2018 conviction and plea agreement with the Mueller probe"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:09:02",
+      "note": "Daughters' texts say he pressured his wife into group sex for years; long segment follows"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:22:11",
+      "note": "Daughter describes his controlling treatment of her mother and his affair"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:20:02",
+      "note": "His advice to Yanukovych during the 2014 Maidan crackdown and daughters' texts about it"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:26:23",
+      "note": "Spending dictator money on a luxury ostrich jacket and tailored suits, 2010-2014"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:33:41",
+      "note": "Rick Gates and the accountant testify about hidden offshore money"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:35:45",
+      "note": "Kill count of past clients: Marcos, Savimbi, Mobutu, Abacha, from the mid-1980s on"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:37:50",
+      "note": "Story of staff sent to collapsing Barre-era Somalia to extract a fee"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:16:54",
+      "note": "Daughters' leaked texts describing Manafort coercing their mother into sex; hosts call it rape"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:18:29",
+      "note": "Further detail of the coerced group encounters while the mother was too drunk to stand"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:22:11",
+      "note": "Discussion continues with the daughters' reaction to the sexual abuse of their mother"
+    }
   ],
   "notes": "Update to the earlier two-part Manafort deep dive. Primary theme is a judgement call: the longest segment is the sexual coercion of his wife, but the story is framed around the Trump campaign chief's downfall. Covered span starts ~1985 for the closing client tally (~10% of airtime). Transcript says 'Rita Levinson'; she is Riva Levinson. No Wikidata QID given."
 }

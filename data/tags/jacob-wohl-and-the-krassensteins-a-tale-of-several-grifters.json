@@ -46,6 +46,7 @@
   },
   "summary": "American grifters: the Krassenstein brothers, who promoted Ponzi-style investment schemes online before rebranding as anti-Trump Twitter figures, and teen fake hedge-fund manager Jacob Wohl, banned from finance and caught faking a 2018 smear of Robert Mueller.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Surefire Intelligence",
     "TalkGold",
@@ -108,6 +109,24 @@
       "part": 1,
       "at": "00:42:09",
       "note": "October 2018 fake Mueller sexual misconduct accuser scheme with Burkman via Surefire"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:16:24",
+      "note": "Hosts react to a children's book in which a Trump stand-in kidnaps Warren in a rape sack"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:43:09",
+      "note": "Wohl and Burkman solicited fake sexual harassment claims against Mueller"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:49:59",
+      "note": "Wohl says he normally disbelieves women alleging sexual assault"
     }
   ],
   "notes": "Both the Wohl and Krassenstein halves get roughly equal weight per the title, so both are primary; roles describe both (Krassensteins also fit journalist-propagandist). Wohl birth year 1997 from general knowledge (transcript garbled); covered_span starts at birth per the lifetime rule though childhood is barely covered. Burkman birth year left null. main_span end null as subjects were active at release."

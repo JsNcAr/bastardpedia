@@ -59,7 +59,8 @@
     "approximate": true
   },
   "summary": "Idi Amin, a boxer and sergeant raised up by Britain's colonial army in Uganda, seized power in a 1971 coup, expelled the country's Asians and killed hundreds of thousands before Tanzania drove him out in 1979.",
-  "content_warnings": ["mass-atrocity", "torture", "graphic-violence"],
+  "content_warnings": ["graphic-violence", "torture", "mass-atrocity"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Nubians",
     "Kakwa",
@@ -134,6 +135,12 @@
       "part": 1,
       "at": "01:13:23",
       "note": "invasion of Tanzania, counterattack, flight to Libya and Saudi exile until 2003 death"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:36:49",
+      "note": "Running joke about Amin's military band, named the Revolutionary Suicide band; word used only as a name"
     }
   ],
   "notes": "The opening ten minutes on British colonial armies (Gurkhas, Emin Pasha, 19th-century slave soldiers) are treated as framing background, so covered_span follows Amin's life. Birth year is uncertain in the transcript; 1925 is the usual estimate. Obote's second term and Museveni get about a minute, so reaches_present is false. Entebbe raid and Kenya/Tanzania episodes are short; setting ranks Uganda far ahead."

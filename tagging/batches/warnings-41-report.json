@@ -1,0 +1,120 @@
+[
+  {
+    "id": "the-sackler-family-america-s-deadliest-drug-dealers",
+    "before": {
+      "warnings": ["drug-use"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["drug-use"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Only candidate is a loose use of self-killing for overdose deaths in the intro chat; kept as a mention per the when-in-doubt rule."
+  },
+  {
+    "id": "surprise-flat-earth-is-a-nazi-conspiracy",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": ["sexual-violence"]
+    }
+  },
+  {
+    "id": "mosley-the-british-hitler-who-inspired-the-christchurch-shooter",
+    "before": {
+      "warnings": ["graphic-violence", "hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "hate-speech"],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    }
+  },
+  {
+    "id": "elizabeth-holmes-the-ceo-who-treated-your-blood-like-a-phone",
+    "before": {
+      "warnings": ["suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["suicide-self-harm"],
+      "mentions": ["child-sexual-abuse"]
+    },
+    "notes": "Suicide kept detailed as originally tagged: short but explicit about the method. The pedophile mention is a baseless smear, not abuse; kept as a mention."
+  },
+  {
+    "id": "turkmenbashi-the-dictator-who-declared-himself-jesus",
+    "before": {
+      "warnings": ["torture"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["torture"],
+      "mentions": []
+    },
+    "notes": "No scan candidates for any strict warning; current tags give no reason to expect one."
+  },
+  {
+    "id": "jeffrey-epstein-pimp-to-the-powerful",
+    "before": {
+      "warnings": ["child-abuse", "sexual-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse"],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "Old child-abuse was the sexual abuse of minors, so it becomes child-sexual-abuse. Sexual-violence kept as a mention since nearly all victims described are minors; a reviewer may judge it detailed."
+  },
+  {
+    "id": "george-lincoln-rockwell-the-most-racist-american-in-history",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    },
+    "notes": "Animal-cruelty candidate is a fabricated story about Nazi vivisection on human prisoners, not animals; dropped."
+  },
+  {
+    "id": "the-complete-insane-story-of-trump-university",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    },
+    "notes": "Suicide mention rests only on a figurative phrase in a sales script; included per the figurative-use rule."
+  },
+  {
+    "id": "hitler-s-sex-life-the-whole-sad-story",
+    "before": {
+      "warnings": ["child-abuse", "suicide-self-harm", "animal-cruelty"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse", "suicide-self-harm", "animal-cruelty"],
+      "mentions": ["sexual-violence", "child-abuse"]
+    },
+    "notes": "Old child-abuse moved to detailed child-sexual-abuse (pursuit of teenage girls is central per summary); physical child-abuse kept as a mention for the father. Check that CSA detail is warranted."
+  },
+  {
+    "id": "the-birth-of-the-anti-vaccine-movement",
+    "before": {
+      "warnings": ["child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death"],
+      "mentions": ["child-abuse", "animal-cruelty"]
+    },
+    "notes": "Animal-cruelty rests only on anti-vivisection named in a list of causes; weak, included per the when-in-doubt rule. Reviewer may drop it."
+  }
+]

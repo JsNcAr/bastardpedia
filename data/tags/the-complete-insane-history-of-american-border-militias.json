@@ -63,7 +63,14 @@
     "approximate": false
   },
   "summary": "A history of armed civilian patrols on the US-Mexico border, from Texas Ranger violence and the 1977 Klan Border Watch to the Minuteman Project, Shawna Forde's 2009 Arivaca murders and 2019 vigilante detentions.",
-  "content_warnings": ["graphic-violence", "child-death", "hate-speech"],
+  "content_warnings": [
+    "sexual-violence",
+    "child-sexual-abuse",
+    "child-death",
+    "graphic-violence",
+    "hate-speech"
+  ],
+  "content_mentions": ["suicide-self-harm", "animal-cruelty"],
   "keywords": [
     "Minutemen",
     "Minuteman Civil Defense Corps",
@@ -126,6 +133,36 @@
       "part": 2,
       "at": "00:33:31",
       "note": "April 2019 United Constitutional Patriots detain migrants in New Mexico; leader arrested"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:23:05",
+      "note": "Minuteman co-founder Chris Simcox arrested for and convicted of molesting his young daughters"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:27:21",
+      "note": "Vigilante video claiming a tree was used to restrain and abuse children by cartels"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:28:23",
+      "note": "Minutes on rape tree claims that smugglers rape migrant women and display their clothes"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:22:32",
+      "note": "Simcox's ex-wife testified he threatened to kill himself with a kitchen knife"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:02:10",
+      "note": "Joke calling Santa Anna a founding father of cockfighting"
     }
   ],
   "notes": "Primary subject is a diffuse movement, so roles are empty. Transcript spells Forde as Ford and implies she was 41 in 2006; birth year left null rather than guess. Covered span starts with the 1910s Texas Rangers/Border Patrol segment (~8 min) as the stated origin of the story. US-AZ chosen as most central state, though TX, CA, WA and NM also appear."

@@ -62,7 +62,8 @@
     "approximate": false
   },
   "summary": "The chartered East India companies of the 1600s-1800s: the Dutch company depopulated the Banda Islands to monopolise nutmeg, and the British company under Robert Clive seized Bengal, where its taxation drove the famine of 1770 that killed millions.",
-  "content_warnings": ["mass-atrocity", "graphic-violence", "suicide-self-harm"],
+  "content_warnings": ["graphic-violence", "mass-atrocity", "suicide-self-harm"],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Banda Islands",
     "Batavia",
@@ -131,6 +132,18 @@
       "part": 2,
       "at": "00:31:46",
       "note": "Afghan invasion and rout, then the 1858 crown takeover of India; covered span ends"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:12:29",
+      "note": "Robert Clive's suicide and its method described"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:30:15",
+      "note": "Period MP's charge of rape and cruelty by company servants in India"
     },
     {
       "facet": "content_warnings",

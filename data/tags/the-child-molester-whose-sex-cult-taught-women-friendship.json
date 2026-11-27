@@ -64,7 +64,8 @@
     "approximate": false
   },
   "summary": "Keith Raniere ran a pyramid scheme and then NXIVM, a self-help seminar company near Albany, New York, that hid a cult where women were starved and branded; he sexually abused teenage girls and was arrested for sex trafficking in 2018.",
-  "content_warnings": ["child-abuse", "sexual-violence", "suicide-self-harm", "graphic-violence"],
+  "content_warnings": ["sexual-violence", "child-sexual-abuse", "graphic-violence"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Executive Success Programs",
     "DOS",
@@ -123,22 +124,10 @@
       "note": "children of two Mexican presidents among seminar enrollees"
     },
     {
-      "facet": "content_warnings",
-      "part": 2,
-      "at": "00:14:13",
-      "note": "member disappears after a session leaving a note; presumed suicide"
-    },
-    {
       "facet": "themes",
       "part": 2,
       "at": "00:39:55",
       "note": "Smallville actress Allison Mack joins in 2007 and later co-founds DOS"
-    },
-    {
-      "facet": "content_warnings",
-      "part": 2,
-      "at": "00:46:05",
-      "note": "long account of the hot-iron branding sessions inside DOS"
     },
     {
       "facet": "time",
@@ -151,6 +140,24 @@
       "part": 2,
       "at": "01:09:23",
       "note": "segment on The Knife of Aristotle, a NXIVM-linked news rating site"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:29:07",
+      "note": "Account of Raniere's sexual abuse of a 15-year-old girl, kept secret from her mother"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:34:48",
+      "note": "Grooming and molestation of a 12-year-old he was supposedly tutoring"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:46:05",
+      "note": "DOS women pressed to offer themselves sexually to Raniere and branded with his initials"
     }
   ],
   "notes": "Story aired mid-trial (2018), so main_span ends at the arrest. Bronfman sisters treated as one group subject; their names are inferred from the Seagram heiresses segment (only Sara is named on air). MX ranks below US; its airtime is the Mexican elite members and the arrest. Scope could arguably be national."
