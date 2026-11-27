@@ -33,4 +33,16 @@ describe('groupEpisodes', () => {
     ]);
     expect(stories).toHaveLength(2);
   });
+
+  it('attaches CZM Rewind reruns to the original, with or without a colon', () => {
+    const stories = groupEpisodes([
+      ep('Part One: Curtis Yarvin: The Philosopher', '2024-09-17'),
+      ep('Part Two: Curtis Yarvin: The Philosopher', '2024-09-19'),
+      ep('CZM Rewind Part One: Curtis Yarvin: The Philosopher', '2026-11-24'),
+      ep('CZM Rewind: Part Two: Curtis Yarvin: The Philosopher', '2026-11-26'),
+    ]);
+    expect(stories).toHaveLength(1);
+    expect(stories[0]?.parts).toHaveLength(2);
+    expect(stories[0]?.reruns).toHaveLength(2);
+  });
 });

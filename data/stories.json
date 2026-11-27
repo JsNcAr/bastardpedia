@@ -10006,7 +10006,20 @@
         "published": "2024-09-19T09:00:00+00:00"
       }
     ],
-    "reruns": []
+    "reruns": [
+      {
+        "guid": "e2c0624f-0f2f-436e-8e85-b50b01374f62",
+        "title": "CZM Rewind Part One: Curtis Yarvin: The Philosopher Behind J.D. Vance",
+        "part": 1,
+        "published": "2026-11-24T10:00:00+00:00"
+      },
+      {
+        "guid": "5f208678-1ed5-4276-9db8-b50b0137613e",
+        "title": "CZM Rewind: Part Two: Curtis Yarvin: The Philosopher Behind J.D. Vance",
+        "part": 2,
+        "published": "2026-11-26T10:00:00+00:00"
+      }
+    ]
   },
   {
     "id": "it-could-happen-here-weekly-148",
@@ -13949,6 +13962,27 @@
         "title": "Part One: Pastor Paul Mackenzie: Kenya's Doomsday Starvation Cult Leader",
         "part": 1,
         "published": "2026-11-17T10:00:00+00:00"
+      },
+      {
+        "guid": "31066548-76ec-4e9f-b5bc-b506017ba156",
+        "title": "Part Two: Pastor Paul Mackenzie: Kenya's Doomsday Starvation Cult Leader",
+        "part": 2,
+        "published": "2026-11-19T10:00:00+00:00"
+      }
+    ],
+    "reruns": []
+  },
+  {
+    "id": "it-could-happen-here-weekly-259",
+    "kind": "ichh_weekly",
+    "subject_title": "It Could Happen Here Weekly 259",
+    "first_published": "2026-11-21T05:00:00+00:00",
+    "parts": [
+      {
+        "guid": "99f6ea1a-0ce0-4085-84c8-b5090017a539",
+        "title": "It Could Happen Here Weekly 259",
+        "part": 1,
+        "published": "2026-11-21T05:00:00+00:00"
       }
     ],
     "reruns": []
