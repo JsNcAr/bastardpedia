@@ -47,6 +47,7 @@
   },
   "summary": "A reading of Win Bigly, Dilbert cartoonist Scott Adams's 2017 book casting Donald Trump's 2016 campaign as the work of a near-mystical master persuader, and of the hypnosis and affirmation ideas behind it.",
   "content_warnings": [],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Win Bigly",
     "Dilbert",
@@ -103,6 +104,12 @@
       "part": 1,
       "at": "01:03:38",
       "note": "First Republican debate insult and Trump's nickname tactics analysed"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:43:08",
+      "note": "Book's predicted terror campaign includes suicide drone attacks on Western cities"
     }
   ],
   "notes": "Scott Adams lifespan end set to 2026 (died January 2026, after release). Primary theme could equally be electoral-politics; chose propaganda-media because the book's thesis is mass persuasion. fascism-far-right reflects the hosts' extended rebuttal comparing Trump to authoritarian playbooks and Hitler's rise. Brief nods to Dilbert's 1990s rise and The Religion War (2004) kept out of covered_span."

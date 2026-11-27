@@ -58,6 +58,7 @@
   },
   "summary": "In 1930-1932 Union Carbide and contractor Rinehart & Dennis drove the Hawks Nest Tunnel through near-pure silica in West Virginia without wet drilling or respirators, killing hundreds of mostly Black migrant workers from silicosis and burying many in unmarked graves.",
   "content_warnings": ["medical-horror"],
+  "content_mentions": [],
   "keywords": [
     "Hawks Nest Tunnel",
     "Gauley Bridge",
@@ -79,17 +80,72 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "regions", "part": 1, "at": "00:24:38", "note": "story set at Gauley Bridge, Fayette County, West Virginia, in 1930" },
-    { "facet": "subjects", "part": 1, "at": "00:35:50", "note": "Union Carbide subsidiary hires Rinehart & Dennis, contract shifts liability to the contractor" },
-    { "facet": "time", "part": 1, "at": "00:41:03", "note": "first earth turned on the tunnel on 31 March 1930" },
-    { "facet": "themes", "part": 1, "at": "00:43:17", "note": "mostly Black migrant workforce, segregated shacks and scrip pay" },
-    { "facet": "themes", "part": 1, "at": "01:00:53", "note": "dry drilling, no respirators for Black workers, crews forced into dust after blasts" },
-    { "facet": "themes", "part": 2, "at": "00:22:31", "note": "company doctors misdiagnose silicosis and hand out placebo pills" },
-    { "facet": "themes", "part": 2, "at": "00:28:18", "note": "undertaker paid per body dumps Black workers in a mass grave" },
-    { "facet": "time", "part": 2, "at": "00:37:35", "note": "lawsuits from 1932, state trials 1933-1934, mines director changes testimony" },
-    { "facet": "time", "part": 2, "at": "00:45:50", "note": "1936 House inquiry condemns the companies and a respirator law follows" },
-    { "facet": "subjects", "part": 2, "at": "00:51:16", "note": "segment on Muriel Rukeyser's investigation trip and FBI surveillance" },
-    { "facet": "time", "part": 2, "at": "00:56:37", "note": "NPR Frontline 2018 findings on today's silicosis epidemic among miners" }
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:24:38",
+      "note": "story set at Gauley Bridge, Fayette County, West Virginia, in 1930"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:35:50",
+      "note": "Union Carbide subsidiary hires Rinehart & Dennis, contract shifts liability to the contractor"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:41:03",
+      "note": "first earth turned on the tunnel on 31 March 1930"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:43:17",
+      "note": "mostly Black migrant workforce, segregated shacks and scrip pay"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:00:53",
+      "note": "dry drilling, no respirators for Black workers, crews forced into dust after blasts"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:22:31",
+      "note": "company doctors misdiagnose silicosis and hand out placebo pills"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:28:18",
+      "note": "undertaker paid per body dumps Black workers in a mass grave"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:37:35",
+      "note": "lawsuits from 1932, state trials 1933-1934, mines director changes testimony"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:45:50",
+      "note": "1936 House inquiry condemns the companies and a respirator law follows"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:51:16",
+      "note": "segment on Muriel Rukeyser's investigation trip and FBI surveillance"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:56:37",
+      "note": "NPR Frontline 2018 findings on today's silicosis epidemic among miners"
+    }
   ],
   "notes": "Covered span starts at the 1930 dig; Union Carbide's 1911-1919 origins and dam get only a few minutes of setup and the ancient history of silicosis is background. End is 1938, publication of Rukeyser's Book of the Dead (general knowledge), quoted throughout. Modern miner silicosis and Union Carbide's later fate set reaches_present. medical-malpractice is light (company doctors, a few minutes). Union Carbide could arguably be co-primary."
 }

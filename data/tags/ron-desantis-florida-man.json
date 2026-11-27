@@ -53,6 +53,7 @@
   },
   "summary": "Biography of Florida governor Ron DeSantis, from Little League and Yale through his Navy legal work at Guantanamo and Congress to a governorship marked by voter-suppression arrests, culture-war laws and a faltering 2024 presidential run.",
   "content_warnings": ["torture"],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Florida",
     "Guantanamo Bay",
@@ -74,17 +75,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:05:26", "note": "birth in Jacksonville, Florida, in 1978" },
-    { "facet": "themes", "part": 1, "at": "00:25:04", "note": "extended segment on his Little League team reaching the World Series" },
-    { "facet": "roles", "part": 1, "at": "00:48:43", "note": "Harvard Law, Navy JAG officer, deployment to Iraq with a SEAL team" },
-    { "facet": "regions", "part": 1, "at": "00:52:55", "note": "Guantanamo hunger strike; he advises on force-feeding detainees" },
-    { "facet": "content_warnings", "part": 1, "at": "00:55:05", "note": "former detainee's detailed account of being force-fed" },
-    { "facet": "time", "part": 2, "at": "00:05:45", "note": "first congressional campaign in 2012 opens the main span" },
-    { "facet": "themes", "part": 2, "at": "00:13:12", "note": "his book's treatment of Dred Scott and slavery in founding history" },
-    { "facet": "themes", "part": 2, "at": "00:51:39", "note": "after COVID he grips the state legislature in an authoritarian style" },
-    { "facet": "themes", "part": 2, "at": "00:53:18", "note": "election-crimes arrests and redistricting aimed at Black voters" },
-    { "facet": "themes", "part": 2, "at": "00:55:23", "note": "school laws on race and gender identity, book removals" },
-    { "facet": "time", "part": 2, "at": "00:58:41", "note": "2023 presidential campaign and feud with Trump bring the story to release" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:05:26",
+      "note": "birth in Jacksonville, Florida, in 1978"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:25:04",
+      "note": "extended segment on his Little League team reaching the World Series"
+    },
+    {
+      "facet": "roles",
+      "part": 1,
+      "at": "00:48:43",
+      "note": "Harvard Law, Navy JAG officer, deployment to Iraq with a SEAL team"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:52:55",
+      "note": "Guantanamo hunger strike; he advises on force-feeding detainees"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:05:45",
+      "note": "first congressional campaign in 2012 opens the main span"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:13:12",
+      "note": "his book's treatment of Dred Scott and slavery in founding history"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:51:39",
+      "note": "after COVID he grips the state legislature in an authoritarian style"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:53:18",
+      "note": "election-crimes arrests and redistricting aimed at Black voters"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:55:23",
+      "note": "school laws on race and gender identity, book removals"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:58:41",
+      "note": "2023 presidential campaign and feud with Trump bring the story to release"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:43:19",
+      "note": "Online claims that DeSantis as a teacher partied with underage students, framed as creepy"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:57:08",
+      "note": "Disputed official account of three Guantanamo detainees dying by suicide"
+    }
   ],
   "notes": "Living subject, so the lifetime rule gives 1978-2023 and main_span ends null. COVID politics and the Disney fight get only a couple of minutes each, so public-health and anti-lgbtq were left out. Iraq deployment is brief; Cuba is in the setting for the Guantanamo segment."
 }

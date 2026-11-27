@@ -52,7 +52,14 @@
     "approximate": false
   },
   "summary": "Thomas Jefferson, author of the Declaration of Independence and third US president, preached liberty while enslaving hundreds at Monticello, helping found scientific racism and sexually abusing the teenage Sally Hemings.",
-  "content_warnings": ["slavery", "child-abuse", "sexual-violence", "hate-speech"],
+  "content_warnings": [
+    "sexual-violence",
+    "child-sexual-abuse",
+    "child-abuse",
+    "slavery",
+    "hate-speech"
+  ],
+  "content_mentions": ["animal-cruelty"],
   "keywords": [
     "Declaration of Independence",
     "Notes on the State of Virginia",
@@ -74,16 +81,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:15:26", "note": "childhood and move to the family plantation as a toddler; story starts with his early life" },
-    { "facet": "themes", "part": 2, "at": "00:24:29", "note": "elected governor of Virginia in 1779; failed wartime leadership during British invasion" },
-    { "facet": "themes", "part": 2, "at": "00:43:23", "note": "Notes on the State of Virginia read as proto-scientific racism" },
-    { "facet": "regions", "part": 3, "at": "00:35:57", "note": "move to France as envoy; sells enslaved people to pay creditors" },
-    { "facet": "themes", "part": 3, "at": "01:11:39", "note": "Paris years 1785-89 and the start of his abuse of Sally Hemings, then 14" },
-    { "facet": "time", "part": 3, "at": "01:22:24", "note": "1998 DNA study and historians revising their denials; legacy segment" },
-    { "facet": "themes", "part": 4, "at": "00:16:00", "note": "Monticello run on the labour of enslaved children" },
-    { "facet": "themes", "part": 4, "at": "00:32:46", "note": "his daily management of the nailery worked by enslaved boys" },
-    { "facet": "regions", "part": 4, "at": "00:54:24", "note": "as president backs French effort to retake Saint-Domingue and starve the revolt" },
-    { "facet": "time", "part": 4, "at": "01:03:54", "note": "death in 1826, debts and the sale of 130 enslaved people within a year" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:15:26",
+      "note": "childhood and move to the family plantation as a toddler; story starts with his early life"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:24:29",
+      "note": "elected governor of Virginia in 1779; failed wartime leadership during British invasion"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:43:23",
+      "note": "Notes on the State of Virginia read as proto-scientific racism"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:35:57",
+      "note": "move to France as envoy; sells enslaved people to pay creditors"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "01:11:39",
+      "note": "Paris years 1785-89 and the start of his abuse of Sally Hemings, then 14"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "01:22:24",
+      "note": "1998 DNA study and historians revising their denials; legacy segment"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:16:00",
+      "note": "Monticello run on the labour of enslaved children"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:32:46",
+      "note": "his daily management of the nailery worked by enslaved boys"
+    },
+    {
+      "facet": "regions",
+      "part": 4,
+      "at": "00:54:24",
+      "note": "as president backs French effort to retake Saint-Domingue and starve the revolt"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "01:03:54",
+      "note": "death in 1826, debts and the sale of 130 enslaved people within a year"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:44:25",
+      "note": "Discussion of the routine rape of enslaved Black women by Virginia's white men"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 3,
+      "at": "01:13:10",
+      "note": "Jefferson's sexual abuse of Sally Hemings, who was fourteen when it began"
+    }
   ],
   "notes": "Opens with Ho Chi Minh's 1945 quotation of the Declaration as a legacy frame; treated as comparison, not covered years. Haiti gets a short segment (a few minutes), so HT is last in setting. Presidency is explicitly skipped. reaches_present rests on the historiography and 1998 DNA segment; arguable. Sally Hemings lifespan from general knowledge."
 }

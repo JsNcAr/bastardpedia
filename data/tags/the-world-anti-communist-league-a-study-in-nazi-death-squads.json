@@ -62,7 +62,8 @@
     "approximate": true
   },
   "summary": "The World Anti-Communist League, founded in 1966 around Taiwan's KMT, South Korea and exiled Nazi collaborators, linked fascist groups and Latin American death squads involved in Operation Condor, Guatemala's genocide and the Contra war.",
-  "content_warnings": ["mass-atrocity", "torture", "graphic-violence"],
+  "content_warnings": ["graphic-violence", "torture", "mass-atrocity"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "Chiang Kai-shek",
     "Yaroslav Stetsko",
@@ -84,17 +85,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:04:15", "note": "story opens with the KMT in 1923 and Soviet adviser Borodin rebuilding it" },
-    { "facet": "subjects", "part": 1, "at": "00:26:03", "note": "ABN introduced: founded by Stetsko, Ukrainian nationalist Nazi collaborator" },
-    { "facet": "themes", "part": 1, "at": "00:30:44", "note": "Ustasha and the Jasenovac camp described at length as ABN background" },
-    { "facet": "regions", "part": 1, "at": "00:39:40", "note": "ABN-Taiwan ties lead to the 1966 founding meeting in South Korea" },
-    { "facet": "themes", "part": 1, "at": "00:47:00", "note": "1973 CAL meeting where Brazil and Paraguay agree to share intelligence, a step toward Condor" },
-    { "facet": "themes", "part": 1, "at": "00:53:26", "note": "structure of Condor: cross-border kidnapping and assassination teams" },
-    { "facet": "themes", "part": 2, "at": "00:04:12", "note": "Gladio stay-behind networks and the Italian strategy of tension bombings" },
-    { "facet": "regions", "part": 2, "at": "00:29:49", "note": "Sandoval Alarcon, Guatemalan league chief, death squads and Taiwan's aid during the genocide" },
-    { "facet": "regions", "part": 2, "at": "00:38:16", "note": "D'Aubuisson trained via the league, founds ARENA and orders Romero killing in El Salvador" },
-    { "facet": "regions", "part": 2, "at": "00:57:16", "note": "Alvarez Martinez, Battalion 3-16 and the Contra camps in Honduras" },
-    { "facet": "time", "part": 2, "at": "01:11:35", "note": "after the Cold War the league renames itself and dwindles" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:04:15",
+      "note": "story opens with the KMT in 1923 and Soviet adviser Borodin rebuilding it"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:26:03",
+      "note": "ABN introduced: founded by Stetsko, Ukrainian nationalist Nazi collaborator"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:30:44",
+      "note": "Ustasha and the Jasenovac camp described at length as ABN background"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:39:40",
+      "note": "ABN-Taiwan ties lead to the 1966 founding meeting in South Korea"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:47:00",
+      "note": "1973 CAL meeting where Brazil and Paraguay agree to share intelligence, a step toward Condor"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:53:26",
+      "note": "structure of Condor: cross-border kidnapping and assassination teams"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:04:12",
+      "note": "Gladio stay-behind networks and the Italian strategy of tension bombings"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:29:49",
+      "note": "Sandoval Alarcon, Guatemalan league chief, death squads and Taiwan's aid during the genocide"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:38:16",
+      "note": "D'Aubuisson trained via the league, founds ARENA and orders Romero killing in El Salvador"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:57:16",
+      "note": "Alvarez Martinez, Battalion 3-16 and the Contra camps in Honduras"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:11:35",
+      "note": "after the Cold War the league renames itself and dwindles"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:48:03",
+      "note": "Ache people raped, tortured and killed by settlers in Paraguay"
+    }
   ],
   "notes": "Mia Wong (credited as Chris in the transcript) hosts and Robert Evans is the guest. Primary theme fascism-far-right since most members were non-German fascists; nazism secondary for the collaborator segment. Setting capped at six; PY, CL, HR, UA, US also get time. Covered end 1990 assumes the WLFD rename year from outside knowledge."
 }

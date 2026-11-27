@@ -1,0 +1,116 @@
+[
+  {
+    "id": "alfredo-stroessner-the-luckiest-dictator",
+    "before": {
+      "warnings": ["child-abuse", "torture", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse", "graphic-violence", "torture"],
+      "mentions": ["child-abuse", "suicide-self-harm"]
+    },
+    "notes": "Old child-abuse warning was mostly the sexual exploitation of girls, now child-sexual-abuse (detailed). Kept child-abuse as a mention only for the child conscription in part 1; reviewer may drop it. No adult sexual-violence candidate survived."
+  },
+  {
+    "id": "inside-fox-news-with-katy-and-cody",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["suicide-self-harm"]
+    }
+  },
+  {
+    "id": "a-complete-history-of-the-illuminati",
+    "before": {
+      "warnings": ["child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Old child-abuse warning was Thornley's attempted molestation of a child, so it becomes child-sexual-abuse. All sexual-violence candidates concern children and were moved there."
+  },
+  {
+    "id": "bobby-fischer-chess-nazi",
+    "before": {
+      "warnings": ["hate-speech", "mass-atrocity"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["mass-atrocity", "hate-speech"],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    }
+  },
+  {
+    "id": "nicolae-ceausescu-the-dracula-of-being-a-dick",
+    "before": {
+      "warnings": ["child-abuse", "child-death", "medical-horror", "animal-cruelty"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "child-death", "medical-horror", "animal-cruelty"],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "Child-abuse and animal-cruelty kept as detailed: orphanage material at part 4 00:27 and 00:40, hunting section part 3 00:38 to 00:44. The son's rape of a classmate was put under child-sexual-abuse since both were minors. Suicide candidates were an accidental crash and an execution, so dropped."
+  },
+  {
+    "id": "andrew-tate-and-the-mythopoetic-men-s-movement",
+    "before": {
+      "warnings": ["sexual-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence"],
+      "mentions": ["suicide-self-harm"]
+    }
+  },
+  {
+    "id": "we-watch-more-of-jordan-peterson-s-new-show",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"]
+    }
+  },
+  {
+    "id": "keep-the-yuletide-gay-saturnalia-the-puritan-war-on-christmas",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["child-abuse", "suicide-self-harm"]
+    }
+  },
+  {
+    "id": "a-tale-of-revenge",
+    "before": {
+      "warnings": ["mass-atrocity", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "mass-atrocity"],
+      "mentions": ["suicide-self-harm"]
+    }
+  },
+  {
+    "id": "napoleon-iii-the-worst-bonaparte",
+    "before": {
+      "warnings": ["mass-atrocity", "suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["mass-atrocity"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Was detailed. Moved to mentions: the suicide attempts recur across parts but each candidate is a short, comic aside. Reviewer may restore detailed if the recurrence counts."
+  }
+]

@@ -60,7 +60,8 @@
     "approximate": false
   },
   "summary": "Paraguayan general Alfredo Stroessner seized power in a 1954 coup and ruled for 35 years through a US-backed police state that tortured dissidents, sheltered Nazi fugitives, handed land to cronies and procured young girls for him.",
-  "content_warnings": ["child-abuse", "torture", "graphic-violence"],
+  "content_warnings": ["child-sexual-abuse", "graphic-violence", "torture"],
+  "content_mentions": ["child-abuse", "suicide-self-harm"],
   "keywords": [
     "Stronato",
     "War of the Triple Alliance",

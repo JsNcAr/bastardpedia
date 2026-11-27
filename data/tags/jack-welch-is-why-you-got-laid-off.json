@@ -41,6 +41,7 @@
   },
   "summary": "American executive Jack Welch ran General Electric from 1981 to 2001, pioneering mass layoffs of profitable plants, stack ranking, offshoring and stock buybacks that enriched shareholders while hollowing out the company and its workforce.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence", "suicide-self-harm"],
   "keywords": [
     "Neutron Jack",
     "stack ranking",
@@ -115,6 +116,18 @@
       "part": 2,
       "at": "01:21:26",
       "note": "GE collapse after his exit, 2008 rescue, Dow removal, feud with Immelt late in life"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:07:10",
+      "note": "Joke about old business books modelled on a historical conqueror who raped and killed"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:33:48",
+      "note": "About two minutes on how layoffs raise suicide risk, estimating suicides tied to Welch's cuts"
     }
   ],
   "notes": "Welch died in 2020, so the lifetime rule sets covered_span to 1935-2020. The opening segment on GE's welfare-capitalism era (1920s-1970s) is background and does not extend covered_span. The 2021 GE breakup and modern stack ranking at Amazon and Microsoft set reaches_present. Death year comes from general knowledge; the transcript only says he died recently."

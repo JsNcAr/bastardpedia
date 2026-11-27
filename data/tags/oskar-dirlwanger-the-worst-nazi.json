@@ -47,13 +47,14 @@
   },
   "summary": "German WWI veteran and convicted child rapist Oskar Dirlewanger led an SS penal unit of poachers and criminals that massacred tens of thousands of civilians in Belarus and Warsaw's Wola district from 1940 to 1944.",
   "content_warnings": [
-    "mass-atrocity",
     "sexual-violence",
-    "graphic-violence",
-    "child-abuse",
+    "child-sexual-abuse",
     "child-death",
-    "torture"
+    "graphic-violence",
+    "torture",
+    "mass-atrocity"
   ],
+  "content_mentions": ["child-abuse", "suicide-self-harm", "animal-cruelty"],
   "keywords": [
     "Wola massacre",
     "Warsaw Uprising",
@@ -140,6 +141,12 @@
       "part": 2,
       "at": "01:12:43",
       "note": "beaten to death in French-run custody by Polish guards, June 1945"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "01:03:46",
+      "note": "Vivid account of nurses gang raped and a woman raped and mutilated in Warsaw"
     }
   ],
   "notes": "Episode title misspells the name; subject uses the standard spelling Oskar Dirlewanger. Transcript garbles the birth date and calls Wurzburg Swabian; lifespan 1895-1945 from known facts. Transcript places the Slovak uprising operation in Hungary; it was in Slovakia, given only a passing mention so SK left out of setting. WWI Eastern Front service is brief and unspecific, so no eastern country added."

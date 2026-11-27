@@ -64,6 +64,7 @@
   },
   "summary": "Russian-born occultist Helena Blavatsky co-founded the Theosophical Society in New York in 1875, staged fake psychic phenomena in the US and India, and wrote root-race and antisemitic doctrines later taken up by Nazi ideologues.",
   "content_warnings": ["hate-speech"],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Isis Unveiled",
     "The Secret Doctrine",
@@ -85,18 +86,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:42:47", "note": "born August 1831 in Yekaterinoslav, in modern Ukraine, then the Russian Empire" },
-    { "facet": "regions", "part": 1, "at": "00:55:21", "note": "childhood trip to the Kalmyk steppe near Astrakhan, first contact with Buddhism" },
-    { "facet": "regions", "part": 2, "at": "00:16:42", "note": "second failed spiritualist society in Cairo with fake seance tricks" },
-    { "facet": "subjects", "part": 2, "at": "00:29:49", "note": "long segment on the Fox sisters and the 1848 start of American spiritualism" },
-    { "facet": "time", "part": 2, "at": "00:24:00", "note": "documented arrival in New York in July 1873 starts her public career" },
-    { "facet": "subjects", "part": 3, "at": "00:41:00", "note": "1875 parlor lecture where Olcott proposes the society that becomes Theosophy" },
-    { "facet": "themes", "part": 3, "at": "00:51:10", "note": "Isis Unveiled (1877) framed as a new religion, compared with Scientology" },
-    { "facet": "regions", "part": 4, "at": "00:01:35", "note": "moves via England to Bombay and builds the society in British India" },
-    { "facet": "themes", "part": 4, "at": "00:09:50", "note": "Coulombs reveal staged letters, shrine and puppet Master; Hodgson report follows" },
-    { "facet": "themes", "part": 4, "at": "00:39:36", "note": "Secret Doctrine root races and extended antisemitic passages read aloud" },
-    { "facet": "themes", "part": 4, "at": "00:47:01", "note": "Thule Society, Rosenberg and other Nazis adopt her Aryan Atlantis myth" },
-    { "facet": "time", "part": 4, "at": "00:56:22", "note": "Akashic records traced to Goop and COVID anti-vaccine circles today" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:42:47",
+      "note": "born August 1831 in Yekaterinoslav, in modern Ukraine, then the Russian Empire"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:55:21",
+      "note": "childhood trip to the Kalmyk steppe near Astrakhan, first contact with Buddhism"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:16:42",
+      "note": "second failed spiritualist society in Cairo with fake seance tricks"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:29:49",
+      "note": "long segment on the Fox sisters and the 1848 start of American spiritualism"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:24:00",
+      "note": "documented arrival in New York in July 1873 starts her public career"
+    },
+    {
+      "facet": "subjects",
+      "part": 3,
+      "at": "00:41:00",
+      "note": "1875 parlor lecture where Olcott proposes the society that becomes Theosophy"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:51:10",
+      "note": "Isis Unveiled (1877) framed as a new religion, compared with Scientology"
+    },
+    {
+      "facet": "regions",
+      "part": 4,
+      "at": "00:01:35",
+      "note": "moves via England to Bombay and builds the society in British India"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:09:50",
+      "note": "Coulombs reveal staged letters, shrine and puppet Master; Hodgson report follows"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:39:36",
+      "note": "Secret Doctrine root races and extended antisemitic passages read aloud"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:47:01",
+      "note": "Thule Society, Rosenberg and other Nazis adopt her Aryan Atlantis myth"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "00:56:22",
+      "note": "Akashic records traced to Goop and COVID anti-vaccine circles today"
+    }
   ],
   "notes": "Part 1 opens with about 40 minutes on Voltaire and Bailly's Hyperborean Atlantis (1700s); treated as intellectual background, so covered_span starts at her 1831 birth. The Nazi legacy (Thule Society 1918, Rosenberg 1930) runs about 8 minutes, under the 5% bar, so covered_span ends at her 1891 death and reaches_present carries the legacy. cults-new-religions is judgement: Theosophy is a new religion, but the host calls it far less toxic than Scientology."
 }

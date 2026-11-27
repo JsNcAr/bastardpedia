@@ -40,6 +40,7 @@
   },
   "summary": "Robert Evans and Sofiya Alexandra begin reading Ben Shapiro's book Porn Generation, which blames social liberalism, feminism and sex education for corrupting American youth, and check its claims against data showing young people have less sex.",
   "content_warnings": [],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "How Social Liberalism Is Corrupting Our Future",
     "I Am Charlotte Simmons",
@@ -61,12 +62,54 @@
     "time": "low"
   },
   "evidence": [
-    { "facet": "format", "part": 1, "at": "00:01:05", "note": "Opens with a Shapiro video clip mocking the Peg the Patriarchy outfit before the reading starts" },
-    { "facet": "time", "part": 1, "at": "00:03:57", "note": "Host first dates the book to 2008, then corrects himself to 2013" },
-    { "facet": "themes", "part": 1, "at": "00:13:19", "note": "Hosts cite studies showing millennials have less casual sex, rebutting the book's panic" },
-    { "facet": "themes", "part": 1, "at": "00:28:33", "note": "Book uses a Tom Wolfe fictional character as a case study of college women" },
-    { "facet": "themes", "part": 1, "at": "00:31:15", "note": "Chapter two on school sex education built around an interviewee named Katie" },
-    { "facet": "format", "part": 1, "at": "00:43:25", "note": "Host previews remaining chapter titles and says the reading will continue" }
+    {
+      "facet": "format",
+      "part": 1,
+      "at": "00:01:05",
+      "note": "Opens with a Shapiro video clip mocking the Peg the Patriarchy outfit before the reading starts"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:03:57",
+      "note": "Host first dates the book to 2008, then corrects himself to 2013"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:13:19",
+      "note": "Hosts cite studies showing millennials have less casual sex, rebutting the book's panic"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:28:33",
+      "note": "Book uses a Tom Wolfe fictional character as a case study of college women"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:31:15",
+      "note": "Chapter two on school sex education built around an interviewee named Katie"
+    },
+    {
+      "facet": "format",
+      "part": 1,
+      "at": "00:43:25",
+      "note": "Host previews remaining chapter titles and says the reading will continue"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:04:30",
+      "note": "Aside about the song in Tommy where an uncle molests the child protagonist"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:43:56",
+      "note": "Book passage on the sexualised marketing of preteen pop stars, flagged as creepy"
+    }
   ],
   "notes": "Hosts date Porn Generation to 2013 (after first saying 2008); it was actually published in 2005. Time follows the transcript as in the sibling story; reviewer may prefer 2005. Covered end 2019 comes from the opening Shapiro pegging clip (about 3 minutes). Studies from 2014-2018 are host rebuttals, not story years. Continued in ben-shapiro-knows-less-about-sex-than-an-amoeba."
 }

@@ -41,12 +41,7 @@
   "roles": ["athlete-sports", "business-executive"],
   "themes": {
     "primary": "sports",
-    "secondary": [
-      "nazism",
-      "racism-white-supremacy",
-      "propaganda-media",
-      "labor-exploitation"
-    ]
+    "secondary": ["nazism", "racism-white-supremacy", "propaganda-media", "labor-exploitation"]
   },
   "regions": {
     "origin": ["US"],
@@ -63,6 +58,7 @@
   },
   "summary": "American Olympic official Avery Brundage, an admirer of Hitler with antisemitic views, toured Nazi Germany and campaigned to defeat the US boycott of the 1936 Berlin Olympics, partly to win a seat on the IOC.",
   "content_warnings": ["hate-speech"],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Berlin Olympics",
     "Olympic boycott",
@@ -149,6 +145,12 @@
       "part": 2,
       "at": "00:55:24",
       "note": "story closes at the August 1936 opening ceremony in Berlin"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:01:33",
+      "note": "Opening banter about recent run of episodes on pedophiles"
     }
   ],
   "notes": "Narrative ends at the 1936 opening ceremony; covered_span runs to 1975 only because of the lifetime rule, as his IOC presidency and death are barely mentioned. Ancient Olympics (about five minutes) treated as background. Transcript gives 1929 for his AOC presidency (usually given as 1928). Hate-speech warning for repeated reading of antisemitic letters by Brundage and Baillet-Latour."

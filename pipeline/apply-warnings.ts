@@ -60,12 +60,16 @@ export function mergeWarnings(
 ): StoryTags {
   const byOrder = (ids: Iterable<string>) =>
     [...new Set(ids)].sort((a, b) => order.indexOf(a) - order.indexOf(b));
-  const warnings = byOrder([
+  const detailed = byOrder([
     ...record.content_warnings.filter((w) => !strict.has(w)),
     ...result.detailed,
   ]);
+  // Past the cap, the last strict warnings move to mentions: hidden by default all the same.
+  const excess = Math.max(0, detailed.length - LIMITS.contentWarnings);
+  const overflow = excess ? detailed.filter((w) => strict.has(w)).slice(-excess) : [];
+  const warnings = detailed.filter((w) => !overflow.includes(w));
   const mentions = byOrder(
-    [...result.mentions, ...keptByRule(record, result, strict)].filter(
+    [...result.mentions, ...keptByRule(record, result, strict), ...overflow].filter(
       (m) => !warnings.includes(m),
     ),
   );

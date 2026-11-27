@@ -65,7 +65,8 @@
     "approximate": false
   },
   "summary": "Georgian Bolshevik Lavrentiy Beria rose through the Caucasus secret police to run Stalin's NKVD, overseeing purges, the Katyn massacre, mass deportations and the Soviet atom bomb, while reportedly abducting and raping women and girls, until his execution in 1953.",
-  "content_warnings": ["mass-atrocity", "sexual-violence", "child-abuse", "torture"],
+  "content_warnings": ["sexual-violence", "child-sexual-abuse", "torture", "mass-atrocity"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Cheka",
     "Great Terror",
@@ -87,17 +88,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:10:37", "note": "Beria born in 1899 in a village in Georgia" },
-    { "facet": "time", "part": 1, "at": "00:45:53", "note": "joins the Baku Cheka in the early 1920s, start of his secret police career" },
-    { "facet": "themes", "part": 1, "at": "00:59:13", "note": "takes teenage Nina, aged 15-16, as his wife; abduction account" },
-    { "facet": "regions", "part": 2, "at": "00:18:03", "note": "1924 Georgian uprising crushed, whole village families killed" },
-    { "facet": "time", "part": 3, "at": "00:04:04", "note": "replaces Yezhov as NKVD head in November 1938" },
-    { "facet": "themes", "part": 3, "at": "00:22:40", "note": "diplomat tortured in Beria's office to force a confession" },
-    { "facet": "themes", "part": 3, "at": "00:26:13", "note": "bodyguards describe picking up young women for Beria to rape" },
-    { "facet": "regions", "part": 3, "at": "00:38:56", "note": "Polish prisoners shot on Beria's orders (Katyn), Poles deported east" },
-    { "facet": "regions", "part": 4, "at": "00:30:29", "note": "Volga Germans deported to Siberia and Kazakhstan in cattle cars" },
-    { "facet": "themes", "part": 4, "at": "00:43:07", "note": "Beria put in charge of the Soviet atom bomb project; Fuchs espionage" },
-    { "facet": "time", "part": 4, "at": "01:18:50", "note": "arrested after Stalin's death, tried and executed December 1953" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:10:37",
+      "note": "Beria born in 1899 in a village in Georgia"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:45:53",
+      "note": "joins the Baku Cheka in the early 1920s, start of his secret police career"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:59:13",
+      "note": "takes teenage Nina, aged 15-16, as his wife; abduction account"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:18:03",
+      "note": "1924 Georgian uprising crushed, whole village families killed"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "00:04:04",
+      "note": "replaces Yezhov as NKVD head in November 1938"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:22:40",
+      "note": "diplomat tortured in Beria's office to force a confession"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:26:13",
+      "note": "bodyguards describe picking up young women for Beria to rape"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:38:56",
+      "note": "Polish prisoners shot on Beria's orders (Katyn), Poles deported east"
+    },
+    {
+      "facet": "regions",
+      "part": 4,
+      "at": "00:30:29",
+      "note": "Volga Germans deported to Siberia and Kazakhstan in cattle cars"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:43:07",
+      "note": "Beria put in charge of the Soviet atom bomb project; Fuchs espionage"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "01:18:50",
+      "note": "arrested after Stalin's death, tried and executed December 1953"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 3,
+      "at": "00:26:13",
+      "note": "Several minutes on Beria's men abducting young women for him to rape"
+    }
   ],
   "notes": "Main span starts at his Cheka career in Baku and Georgia (early 1920s). The hosts say his sex crimes are well attested but come partly from coerced testimony after his fall. Setting omits UA/BY (eastern Poland deportations) and FI (Winter War, brief)."
 }

@@ -52,7 +52,8 @@
     "approximate": false
   },
   "summary": "G. Gordon Liddy, an FBI agent and prosecutor obsessed with Nazi-style willpower, ran Nixon's dirty-tricks unit and the 1972 Watergate break-in, then served prison time and became a far-right talk radio host.",
-  "content_warnings": ["animal-cruelty", "suicide-self-harm"],
+  "content_warnings": ["suicide-self-harm", "animal-cruelty"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "Watergate Hotel",
     "White House Plumbers",
@@ -74,18 +75,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "themes", "part": 1, "at": "00:33:26", "note": "German housekeeper shares Nazi radio broadcasts with young Liddy, seeding his lifelong fascist admiration" },
-    { "facet": "content_warnings", "part": 1, "at": "00:58:24", "note": "detailed account of him roasting and eating a dead rat, later killing a squirrel and chickens" },
-    { "facet": "themes", "part": 3, "at": "00:44:28", "note": "as Dutchess County prosecutor he joins the raid on Timothy Leary's Millbrook mansion" },
-    { "facet": "themes", "part": 3, "at": "00:56:08", "note": "Treasury post: helps organize Operation Intercept against drug smuggling at the Mexican border" },
-    { "facet": "time", "part": 4, "at": "00:22:01", "note": "1971: joins the White House Plumbers after the Pentagon Papers leak, start of main span" },
-    { "facet": "subjects", "part": 4, "at": "01:19:40", "note": "Liddy and Hunt send their team into the DNC offices at the Watergate in 1972" },
-    { "facet": "content_warnings", "part": 4, "at": "01:10:05", "note": "habitually burns his own hand and arm to build pain tolerance" },
-    { "facet": "content_warnings", "part": 5, "at": "00:23:24", "note": "in prison he deliberately starves himself, framed by the host as self-harm" },
-    { "facet": "time", "part": 5, "at": "00:42:58", "note": "released in 1977 after 52 months once Carter commutes his sentence, end of main span" },
-    { "facet": "themes", "part": 6, "at": "00:33:31", "note": "early 1990s launch of his syndicated talk radio show and its inflammatory content" },
-    { "facet": "themes", "part": 6, "at": "00:22:24", "note": "acting roles such as Miami Vice, later a Fear Factor celebrity episode" },
-    { "facet": "time", "part": 6, "at": "01:18:30", "note": "dies in spring 2021 aged 90, end of covered span" }
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:33:26",
+      "note": "German housekeeper shares Nazi radio broadcasts with young Liddy, seeding his lifelong fascist admiration"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:44:28",
+      "note": "as Dutchess County prosecutor he joins the raid on Timothy Leary's Millbrook mansion"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:56:08",
+      "note": "Treasury post: helps organize Operation Intercept against drug smuggling at the Mexican border"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "00:22:01",
+      "note": "1971: joins the White House Plumbers after the Pentagon Papers leak, start of main span"
+    },
+    {
+      "facet": "subjects",
+      "part": 4,
+      "at": "01:19:40",
+      "note": "Liddy and Hunt send their team into the DNC offices at the Watergate in 1972"
+    },
+    {
+      "facet": "time",
+      "part": 5,
+      "at": "00:42:58",
+      "note": "released in 1977 after 52 months once Carter commutes his sentence, end of main span"
+    },
+    {
+      "facet": "themes",
+      "part": 6,
+      "at": "00:33:31",
+      "note": "early 1990s launch of his syndicated talk radio show and its inflammatory content"
+    },
+    {
+      "facet": "themes",
+      "part": 6,
+      "at": "00:22:24",
+      "note": "acting roles such as Miami Vice, later a Fear Factor celebrity episode"
+    },
+    {
+      "facet": "time",
+      "part": 6,
+      "at": "01:18:30",
+      "note": "dies in spring 2021 aged 90, end of covered span"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:58:24",
+      "note": "Detailed reading of young Liddy roasting and eating a rat, then killing a squirrel and a neighbour's chickens"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 4,
+      "at": "01:10:05",
+      "note": "Extended account of Liddy repeatedly burning his own hand and arm to build pain tolerance"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 5,
+      "at": "00:23:24",
+      "note": "In prison he starves himself; host frames it as self-harm and flags eating disorders"
+    }
   ],
   "notes": "Primary theme could arguably be fascism-far-right (title framing); chose electoral-politics because the core is Nixon-campaign dirty tricks and Watergate. Long Waffen SS myth-busting digression in part 3 is commentary, so nazism was left out. Ian Johnson sits in as editor in parts 5-6 and is not listed as a guest. Brief Mexican border segment did not justify MX in setting."
 }

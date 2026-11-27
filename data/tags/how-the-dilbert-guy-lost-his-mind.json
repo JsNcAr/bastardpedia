@@ -45,6 +45,7 @@
   },
   "summary": "Dilbert cartoonist Scott Adams turned a belief in affirmations and his own persuasive powers into online grievance, blaming diversity for his setbacks until racist remarks got his strip dropped in 2023.",
   "content_warnings": ["drug-use"],
+  "content_mentions": ["sexual-violence", "child-abuse", "suicide-self-harm"],
   "keywords": [
     "Win Bigly",
     "God's Debris",
@@ -66,16 +67,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:08:48", "note": "Adams is six in 1963, placing his birth around 1957" },
-    { "facet": "themes", "part": 1, "at": "00:49:19", "note": "start of long segment on his turn to affirmations and New Thought ideas" },
-    { "facet": "themes", "part": 1, "at": "00:55:15", "note": "his later claim that bank diversity policy blocked his promotion" },
-    { "facet": "time", "part": 1, "at": "01:12:22", "note": "Dilbert is syndicated and spreads to 50 then 100 papers by 1990-91" },
-    { "facet": "themes", "part": 2, "at": "00:30:12", "note": "his claims about affirmations working, framed as hacking reality" },
-    { "facet": "themes", "part": 2, "at": "00:54:48", "note": "2008 book blames diversity and Black-led programming for the TV show's cancellation" },
-    { "facet": "themes", "part": 2, "at": "01:24:29", "note": "2011 blog post about women and the sock puppet defence that followed" },
-    { "facet": "roles", "part": 2, "at": "01:28:40", "note": "Trump-era punditry and Win Bigly persuasion claims online" },
-    { "facet": "content_warnings", "part": 2, "at": "01:34:11", "note": "stepson's brain injury, addiction and 2018 fentanyl overdose death" },
-    { "facet": "time", "part": 2, "at": "01:36:26", "note": "2023 racist remarks lead newspapers and syndicate to drop the strip" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:08:48",
+      "note": "Adams is six in 1963, placing his birth around 1957"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:49:19",
+      "note": "start of long segment on his turn to affirmations and New Thought ideas"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:55:15",
+      "note": "his later claim that bank diversity policy blocked his promotion"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:12:22",
+      "note": "Dilbert is syndicated and spreads to 50 then 100 papers by 1990-91"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:30:12",
+      "note": "his claims about affirmations working, framed as hacking reality"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:54:48",
+      "note": "2008 book blames diversity and Black-led programming for the TV show's cancellation"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:24:29",
+      "note": "2011 blog post about women and the sock puppet defence that followed"
+    },
+    {
+      "facet": "roles",
+      "part": 2,
+      "at": "01:28:40",
+      "note": "Trump-era punditry and Win Bigly persuasion claims online"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:36:26",
+      "note": "2023 racist remarks lead newspapers and syndicate to drop the strip"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:03:57",
+      "note": "Contrast with manosphere influence books aimed at sexual assault"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:50:21",
+      "note": "Adams considered suicide while unable to speak for years"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:00:53",
+      "note": "Guest jokes the episode at least has no vivisection of children"
+    }
   ],
   "notes": "Adams was alive when this aired in 2023; lifespan end 2026 reflects his death in January 2026, after release. Covered span runs to the 2023 release. Primary theme is racism since the arc ends in his racist breakdown; self-help and affirmations are the other main thread. Holocaust-numbers questioning and the vaccine claims are short segments and were not tagged."
 }

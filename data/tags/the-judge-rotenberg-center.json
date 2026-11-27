@@ -51,7 +51,8 @@
     "approximate": true
   },
   "summary": "Behaviorist Matthew Israel founded the Behavior Research Institute in 1971, later the Judge Rotenberg Center in Massachusetts, where disabled and autistic students were pinched, restrained and given electric shocks for decades.",
-  "content_warnings": ["child-abuse", "torture", "medical-horror", "suicide-self-harm"],
+  "content_warnings": ["child-abuse", "torture", "suicide-self-harm", "medical-horror"],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "Behavior Research Institute",
     "aversive therapy",
@@ -120,6 +121,30 @@
       "part": 2,
       "at": "00:44:05",
       "note": "FDA ban on shock devices overturned by an appeals court in 2021; school still operating"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:38:15",
+      "note": "Discussion of self-injury in students, used to justify painful aversives"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:12:32",
+      "note": "Research claims that shocks stopped self-harming behaviour"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:19:52",
+      "note": "Founder says he once considered suicide"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:36:12",
+      "note": "A student was enrolled after being raped by another student at his public school"
     }
   ],
   "notes": "Israel's birth year is not given (host says the 1930s), so lifespan start is null and covered_span starts at an estimated 1930. His death status is not addressed; end left null. Massachusetts is the main state, but Rhode Island and California also have real segments. Some victims were adults (e.g. a 25-year-old student), but most were minors."

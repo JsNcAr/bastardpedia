@@ -109,3 +109,37 @@ describe('keptByRule', () => {
     expect(keptByRule(rec, r(['child-sexual-abuse'], ['suicide-self-harm']), strict)).toEqual([]);
   });
 });
+
+describe('warnings cap', () => {
+  it('moves the last strict warnings to mentions past six detailed ones', () => {
+    const big = [
+      'sexual-violence',
+      'child-sexual-abuse',
+      'child-abuse',
+      'graphic-violence',
+      'suicide-self-harm',
+      'torture',
+      'mass-atrocity',
+    ];
+    const out = mergeWarnings(
+      { ...record, content_warnings: ['graphic-violence', 'torture', 'mass-atrocity'] },
+      {
+        story_id: 's',
+        detailed: ['sexual-violence', 'child-sexual-abuse', 'child-abuse', 'suicide-self-harm'],
+        mentions: [],
+        evidence: [],
+      },
+      big,
+      strict,
+    );
+    expect(out.content_warnings).toEqual([
+      'sexual-violence',
+      'child-sexual-abuse',
+      'child-abuse',
+      'graphic-violence',
+      'torture',
+      'mass-atrocity',
+    ]);
+    expect(out.content_mentions).toEqual(['suicide-self-harm']);
+  });
+});

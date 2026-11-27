@@ -50,6 +50,7 @@
   },
   "summary": "Second part of a reading of Ben Shapiro's book Porn Generation, which attacks comprehensive sex education, champions abstinence-only programs and blames liberals and the Clinton-Lewinsky scandal for corrupting American youth, using selective data and possibly invented interviewees.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Generation Sex",
     "comprehensive sex education",
@@ -71,15 +72,72 @@
     "time": "low"
   },
   "evidence": [
-    { "facet": "subjects", "part": 1, "at": "00:00:32", "note": "Host says this continues the reading of Shapiro's Porn Generation, which he dates to 2013" },
-    { "facet": "time", "part": 1, "at": "00:01:02", "note": "Host finds a 2005 Shapiro book titled Generation Sex, likely the same book under another title" },
-    { "facet": "themes", "part": 1, "at": "00:16:46", "note": "Shapiro defends fear-based abstinence teaching; hosts cite evidence it fails" },
-    { "facet": "themes", "part": 1, "at": "00:26:06", "note": "Hosts search for quoted Harvard interviewees and suspect they were made up" },
-    { "facet": "themes", "part": 1, "at": "00:35:00", "note": "Book's account of early sex hygiene campaigns against venereal disease" },
-    { "facet": "subjects", "part": 1, "at": "00:43:54", "note": "Bush-era doubling of federal abstinence-only funding discussed" },
-    { "facet": "themes", "part": 1, "at": "00:46:35", "note": "2010 and 2011 studies contrasted with the book's 2002 Heritage Foundation source" },
-    { "facet": "subjects", "part": 1, "at": "00:49:44", "note": "Chapter blaming the Clinton-Lewinsky scandal for exposing children to oral sex" },
-    { "facet": "format", "part": 1, "at": "00:54:08", "note": "Episode closes by reading the parental abdication section, about 11 percent into the book" }
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:00:32",
+      "note": "Host says this continues the reading of Shapiro's Porn Generation, which he dates to 2013"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:01:02",
+      "note": "Host finds a 2005 Shapiro book titled Generation Sex, likely the same book under another title"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:16:46",
+      "note": "Shapiro defends fear-based abstinence teaching; hosts cite evidence it fails"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:26:06",
+      "note": "Hosts search for quoted Harvard interviewees and suspect they were made up"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:35:00",
+      "note": "Book's account of early sex hygiene campaigns against venereal disease"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:43:54",
+      "note": "Bush-era doubling of federal abstinence-only funding discussed"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:46:35",
+      "note": "2010 and 2011 studies contrasted with the book's 2002 Heritage Foundation source"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:49:44",
+      "note": "Chapter blaming the Clinton-Lewinsky scandal for exposing children to oral sex"
+    },
+    {
+      "facet": "format",
+      "part": 1,
+      "at": "00:54:08",
+      "note": "Episode closes by reading the parental abdication section, about 11 percent into the book"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:04:10",
+      "note": "Hosts mock a blurb that calls media exposure a form of sexual assault on kids"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:50:46",
+      "note": "Host notes the credible sexual assault allegations against Bill Clinton"
+    }
   ],
   "notes": "Hosts date Porn Generation to 2013; it was actually published in 2005 (the 2005 Generation Sex they find is likely an earlier title of the same book). Per the prompt, time follows the transcript (end 2013); reviewer may want 2005. Covered span starts at the 1998 Lewinsky chapter. Studies from 2010-2011 are host rebuttals, not story years. Part one is the separate story ben-shapiro-wrote-a-book-about-sex."
 }

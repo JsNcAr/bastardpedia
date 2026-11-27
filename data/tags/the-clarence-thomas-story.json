@@ -65,7 +65,8 @@
     "approximate": false
   },
   "summary": "Clarence Thomas rose from Jim Crow poverty in Georgia through Reagan-era posts to the US Supreme Court in 1991, despite Anita Hill's sexual harassment testimony, and has used the bench to roll back civil rights.",
-  "content_warnings": ["child-abuse"],
+  "content_warnings": ["sexual-violence", "child-abuse"],
+  "content_mentions": [],
   "keywords": [
     "Pinpoint, Georgia",
     "Savannah",
@@ -146,6 +147,18 @@
       "part": 4,
       "at": "01:03:06",
       "note": "Ginni Thomas's texts to Meadows before January 6, carrying the story to 2022"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 4,
+      "at": "00:26:12",
+      "note": "Reading of Anita Hill's account of his explicit sexual talk at work"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:43:05",
+      "note": "His work narrowing the definition of sexual harassment, discussed at length"
     }
   ],
   "notes": "No role for judges; politician-official is the closest fit for EEOC chair and justice. Primary theme is a judgment call between racism and electoral-politics. Transcript says Myers Anderson grew up in the late 1800s; his commonly cited birth year is 1907. Thurgood Marshall and the apartheid propaganda link (Jay Parker) get shorter segments, kept as keywords."

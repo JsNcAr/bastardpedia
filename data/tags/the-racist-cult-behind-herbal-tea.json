@@ -64,6 +64,7 @@
   },
   "summary": "Adventist-trained Chicago psychiatrist William Sadler promoted eugenics and led the circle behind the racist Urantia Book (1955), which later inspired Mo Siegel to found Celestial Seasonings herbal tea.",
   "content_warnings": ["hate-speech"],
+  "content_mentions": ["child-sexual-abuse", "child-abuse", "suicide-self-harm"],
   "keywords": [
     "Celestial Seasonings",
     "Sleepytime tea",
@@ -132,6 +133,30 @@
       "part": 2,
       "at": "00:47:36",
       "note": "Siegel leaves the company around 2000-2002; later Urantia eugenics panel noted briefly"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:08:21",
+      "note": "Recap of Kellogg's fixation on children's sexuality, with a pedophile comparison"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:09:23",
+      "note": "Brief note that a doctor advocated physically assaulting child sexual abuse victims as treatment"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:55:38",
+      "note": "Quoted claim that mediums cause suicides among women"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:39:26",
+      "note": "Quoted racist text calling immigration policy suicidal for the race"
     }
   ],
   "notes": "Celestial Seasonings kept as a keyword to stay within five subjects; Ellen G. White also gets a real segment. Organized-religion reflects the Seventh-day Adventist schism. Covered span ends at Siegel's 2002 exit; the 2010 Urantia eugenics panel and 2015 Giller article are brief and set reaches_present."

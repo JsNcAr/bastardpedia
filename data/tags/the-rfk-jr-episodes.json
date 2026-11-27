@@ -64,7 +64,8 @@
     "approximate": true
   },
   "summary": "Robert F. Kennedy Jr., raised amid the pressure and tragedies of the Kennedy dynasty, went from heroin addiction and environmental law to leading US anti-vaccine activism, including a campaign tied to Samoa's deadly 2019 measles epidemic.",
-  "content_warnings": ["drug-use", "suicide-self-harm", "sexual-violence", "child-death", "child-abuse"],
+  "content_warnings": ["sexual-violence", "child-death", "suicide-self-harm", "drug-use"],
+  "content_mentions": ["child-sexual-abuse", "child-abuse", "animal-cruelty"],
   "keywords": [
     "Kennedy curse",
     "Camelot",
@@ -86,18 +87,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:09:33", "note": "family history opens with Patrick Kennedy leaving County Wexford for Boston in the late 1840s" },
-    { "facet": "subjects", "part": 1, "at": "00:24:22", "note": "long segment on Joe Kennedy Sr.: banking, Hollywood, shorting the 1929 crash, SEC, ambassadorship" },
-    { "facet": "time", "part": 1, "at": "00:50:18", "note": "RFK Jr. born January 1954; lifetime rule anchors the span" },
-    { "facet": "themes", "part": 2, "at": "00:01:27", "note": "host names the Kennedy dynasty itself as the main bastard of the series" },
-    { "facet": "themes", "part": 2, "at": "00:14:59", "note": "Ethel beats the boys and repeatedly throws them out of the family home after RFK's murder" },
-    { "facet": "regions", "part": 3, "at": "00:06:14", "note": "1974 Apurimac river expedition in southern Peru with Lem Billings" },
-    { "facet": "themes", "part": 3, "at": "00:29:49", "note": "1983 heroin overdose on a plane diverted to Rapid City, arrest and probation" },
-    { "facet": "themes", "part": 3, "at": "00:52:08", "note": "1998-99 harassment and groping of babysitter Eliza Cooney" },
-    { "facet": "themes", "part": 4, "at": "00:02:00", "note": "marriage to Mary Richardson, mutual violence claims, her 2012 suicide" },
-    { "facet": "themes", "part": 4, "at": "00:17:22", "note": "mercury fixation becomes vaccine conspiracy belief via Wakefield and Bigtree" },
-    { "facet": "regions", "part": 4, "at": "00:32:39", "note": "Children's Health Defense campaign in Samoa, MMR pause, 83 measles deaths mostly young children" },
-    { "facet": "time", "part": 4, "at": "00:46:11", "note": "2024 independent presidential run and call with Trump bring the story to release" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:09:33",
+      "note": "family history opens with Patrick Kennedy leaving County Wexford for Boston in the late 1840s"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:24:22",
+      "note": "long segment on Joe Kennedy Sr.: banking, Hollywood, shorting the 1929 crash, SEC, ambassadorship"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:50:18",
+      "note": "RFK Jr. born January 1954; lifetime rule anchors the span"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:01:27",
+      "note": "host names the Kennedy dynasty itself as the main bastard of the series"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:14:59",
+      "note": "Ethel beats the boys and repeatedly throws them out of the family home after RFK's murder"
+    },
+    {
+      "facet": "regions",
+      "part": 3,
+      "at": "00:06:14",
+      "note": "1974 Apurimac river expedition in southern Peru with Lem Billings"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:29:49",
+      "note": "1983 heroin overdose on a plane diverted to Rapid City, arrest and probation"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:52:08",
+      "note": "1998-99 harassment and groping of babysitter Eliza Cooney"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:02:00",
+      "note": "marriage to Mary Richardson, mutual violence claims, her 2012 suicide"
+    },
+    {
+      "facet": "themes",
+      "part": 4,
+      "at": "00:17:22",
+      "note": "mercury fixation becomes vaccine conspiracy belief via Wakefield and Bigtree"
+    },
+    {
+      "facet": "regions",
+      "part": 4,
+      "at": "00:32:39",
+      "note": "Children's Health Defense campaign in Samoa, MMR pause, 83 measles deaths mostly young children"
+    },
+    {
+      "facet": "time",
+      "part": 4,
+      "at": "00:46:11",
+      "note": "2024 independent presidential run and call with Trump bring the story to release"
+    }
   ],
   "notes": "Host frames the Kennedy dynasty as the real bastard, so inequality-class is primary with public-health close behind; the family is a secondary group subject. Covered span starts with Patrick Kennedy's late-1840s emigration (family history about 6% of airtime). Main span starts at birth since childhood fills parts 1-2. Transcript dates his Rolling Stone/Salon vaccine article to 2011; it ran in 2005."
 }

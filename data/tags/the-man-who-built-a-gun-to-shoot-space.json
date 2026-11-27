@@ -57,6 +57,7 @@
   },
   "summary": "Canadian artillery designer Gerald Bull pursued gun-launched satellites, then sold long-range artillery to apartheid South Africa, China and Saddam Hussein's Iraq, with CIA cover, before his 1990 assassination in Brussels.",
   "content_warnings": [],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Project HARP",
     "Big Babylon",
@@ -125,6 +126,12 @@
       "part": 1,
       "at": "01:02:10",
       "note": "shot dead outside his Brussels apartment in March 1990"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:32:45",
+      "note": "Joke calling a nuclear field gun effectively a suicide weapon for its own crew"
     }
   ],
   "notes": "Setting puts the harm places first (South Africa, Iraq), then Canada and the US where most of the career happened. China and Austria get shorter segments and are left as keywords. The Angola war (AO) and Iran (IR) come up only in passing. Saddam Hussein is not listed as a subject because he gets no segment of his own."

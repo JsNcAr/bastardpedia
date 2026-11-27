@@ -47,6 +47,7 @@
   },
   "summary": "Heir to an oil fortune, Stockton Rush founded OceanGate in 2009 and sold seats on Titan, a carbon-fibre submersible built against expert safety warnings, until it imploded on a 2023 dive to the Titanic wreck, killing all five aboard.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence", "suicide-self-harm"],
   "keywords": [
     "Titan submersible",
     "Titanic wreck",
@@ -68,17 +69,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:25:00", "note": "Post-recording insert gives birth as 1962 in San Francisco per obituaries" },
-    { "facet": "time", "part": 1, "at": "01:05:34", "note": "OceanGate founded in 2009; part one ends here" },
-    { "facet": "themes", "part": 1, "at": "00:17:30", "note": "Family wealth from Standard Oil and Indonesian oil, Bohemian Club ties" },
-    { "facet": "themes", "part": 1, "at": "00:52:27", "note": "Titanic wreck discovery and Titanic tourism history as context for his business" },
-    { "facet": "themes", "part": 2, "at": "00:08:10", "note": "Rejects titanium norms for a carbon-fibre pressure hull, dismisses expert warnings" },
-    { "facet": "themes", "part": 2, "at": "00:11:39", "note": "Long comparison to tech-industry disruption culture and tech bros" },
-    { "facet": "themes", "part": 2, "at": "00:27:13", "note": "Marine operations director raises hull and viewport concerns, is fired and sued" },
-    { "facet": "themes", "part": 2, "at": "00:32:39", "note": "Open letter from about forty industry figures warns the craft is unsafe" },
-    { "facet": "themes", "part": 2, "at": "00:45:39", "note": "OceanGate promo video and uncritical press coverage analysed at length" },
-    { "facet": "regions", "part": 1, "at": "00:39:43", "note": "Moves to Seattle area; cold-water diving there leads to submersibles" },
-    { "facet": "regions", "part": 2, "at": "00:33:11", "note": "Support vessel registered in Canada, dives in international waters" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:25:00",
+      "note": "Post-recording insert gives birth as 1962 in San Francisco per obituaries"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "01:05:34",
+      "note": "OceanGate founded in 2009; part one ends here"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:17:30",
+      "note": "Family wealth from Standard Oil and Indonesian oil, Bohemian Club ties"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:52:27",
+      "note": "Titanic wreck discovery and Titanic tourism history as context for his business"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:08:10",
+      "note": "Rejects titanium norms for a carbon-fibre pressure hull, dismisses expert warnings"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:11:39",
+      "note": "Long comparison to tech-industry disruption culture and tech bros"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:27:13",
+      "note": "Marine operations director raises hull and viewport concerns, is fired and sued"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:32:39",
+      "note": "Open letter from about forty industry figures warns the craft is unsafe"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:45:39",
+      "note": "OceanGate promo video and uncritical press coverage analysed at length"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:39:43",
+      "note": "Moves to Seattle area; cold-water diving there leads to submersibles"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:33:11",
+      "note": "Support vessel registered in Canada, dives in international waters"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:59:13",
+      "note": "Figurative use of rape for oil industry exploitation of the planet"
+    }
   ],
   "notes": "Released days after the 2023 implosion but told as a biography, so deep-dive. A segment on slaveholding ancestors Richard Stockton and Benjamin Rush (about 8 min) is family background, kept out of subjects, themes and covered years. The wreck lies in international waters; CA added as the nearest country and registry. OceanGate treated as non-tech, hence business-executive over tech-founder."
 }

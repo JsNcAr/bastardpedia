@@ -46,6 +46,7 @@
   },
   "summary": "In August 1951 hundreds of people in the French town of Pont-Saint-Esprit fell ill and hallucinated after eating bread; officials blamed ergot, while later research alleged a CIA LSD experiment.",
   "content_warnings": ["drug-use"],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Pont-Saint-Esprit",
     "cursed bread",
@@ -126,6 +127,12 @@
       "part": 1,
       "at": "00:50:36",
       "note": "historian Kaplan's objections to the CIA theory, then rebuttals"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:19:26",
+      "note": "Joke calling ducks rapists during a riff about animals"
     }
   ],
   "notes": "It Could Happen Here episode republished in the BtB feed, so format is crossover; Garrison Davis narrates with Robert Evans. The transcript drops the year digits; 1951 is the well-documented date. covered_span ends at the 1975 Rockefeller Commission; the 2008-2009 books by Kaplan and Albarelli are treated as reinterpretation and set reaches_present instead."

@@ -52,6 +52,7 @@
   },
   "summary": "Director John Landis illegally hired two young children for a night helicopter scene on the 1982 Twilight Zone movie; explosions downed the helicopter, killing them and actor Vic Morrow, and Landis was acquitted of manslaughter.",
   "content_warnings": ["child-death", "graphic-violence"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "Twilight Zone accident",
     "Indian Dunes",
@@ -126,6 +127,18 @@
       "part": 2,
       "at": "00:54:47",
       "note": "brief coda on later career, Polanski petition and son Max Landis's abuse allegations"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:54:15",
+      "note": "Landis signed a petition backing Roman Polanski, described as a child molester"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:55:18",
+      "note": "Rape and assault allegations against Landis's son Max noted briefly"
     }
   ],
   "notes": "Landis and the film are co-primary: the title names the film but the story is built around Landis. Considered partial_life (framed on one production) but the story gives a real biography from birth through his later career, so the lifetime rule applies; covered_span runs to release year as he is alive. Exorcist and Birds material is comparison background. George Folsey Jr. left out of subjects for uncertain dates."

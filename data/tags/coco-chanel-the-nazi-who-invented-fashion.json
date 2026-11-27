@@ -66,6 +66,7 @@
   },
   "summary": "French designer Coco Chanel rose from a convent orphanage to reinvent women's fashion and Chanel No. 5, while embracing virulent antisemitism, funding a far-right paper and spying for Nazi Germany during the occupation.",
   "content_warnings": ["hate-speech"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "Chanel No. 5",
     "little black dress",
@@ -88,17 +89,72 @@
   },
   "evidence": [
     { "facet": "time", "part": 1, "at": "00:08:26", "note": "Birth in 1883 in a Saumur poorhouse" },
-    { "facet": "themes", "part": 1, "at": "00:25:38", "note": "Convent education instils antisemitism; her later antisemitic outbursts" },
-    { "facet": "time", "part": 1, "at": "00:40:41", "note": "Capel funds her first business, the hat line, start of main span" },
-    { "facet": "time", "part": 1, "at": "00:57:44", "note": "Legacy segment: disposable fashion and modern garment workers in Bangladesh" },
-    { "facet": "regions", "part": 2, "at": "00:10:01", "note": "Enters British high society via Vera Bate; decade with the Duke of Westminster" },
-    { "facet": "themes", "part": 2, "at": "00:24:10", "note": "She bankrolls Iribe's relaunch of Le Temoin as a nationalist antisemitic paper" },
-    { "facet": "themes", "part": 2, "at": "00:31:26", "note": "1936 Popular Front strike by about 4,000 of her workers and her resistance" },
-    { "facet": "themes", "part": 2, "at": "00:44:34", "note": "Registered as an Abwehr agent; spying trip to Madrid in 1941" },
-    { "facet": "themes", "part": 2, "at": "00:45:35", "note": "Uses Aryanisation laws to try to seize the perfume firm from the Wertheimers" },
-    { "facet": "regions", "part": 2, "at": "00:48:13", "note": "1943 separate-peace scheme with Vera Bate collapses in Madrid" },
-    { "facet": "time", "part": 2, "at": "00:51:18", "note": "Arrest after liberation in 1944, release, exile in Switzerland" },
-    { "facet": "time", "part": 2, "at": "00:55:29", "note": "1954 comeback, death in 1971, 2011 book exposes her Abwehr work" }
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:25:38",
+      "note": "Convent education instils antisemitism; her later antisemitic outbursts"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:40:41",
+      "note": "Capel funds her first business, the hat line, start of main span"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:57:44",
+      "note": "Legacy segment: disposable fashion and modern garment workers in Bangladesh"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:10:01",
+      "note": "Enters British high society via Vera Bate; decade with the Duke of Westminster"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:24:10",
+      "note": "She bankrolls Iribe's relaunch of Le Temoin as a nationalist antisemitic paper"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:31:26",
+      "note": "1936 Popular Front strike by about 4,000 of her workers and her resistance"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:44:34",
+      "note": "Registered as an Abwehr agent; spying trip to Madrid in 1941"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:45:35",
+      "note": "Uses Aryanisation laws to try to seize the perfume firm from the Wertheimers"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:48:13",
+      "note": "1943 separate-peace scheme with Vera Bate collapses in Madrid"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:51:18",
+      "note": "Arrest after liberation in 1944, release, exile in Switzerland"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:55:29",
+      "note": "1954 comeback, death in 1971, 2011 book exposes her Abwehr work"
+    }
   ],
   "notes": "main_span runs from the first boutique (about 1910) to the end of her wartime collaboration in 1945. Switzerland exile and Hollywood stint were brief, so CH and US are left out of the setting. reaches_present rests on the fast-fashion legacy segment and the 2011 revelations with the brand's response."
 }

@@ -53,7 +53,8 @@
     "approximate": false
   },
   "summary": "Neo-Nazi broadcaster Kevin Strom, William Pierce's right hand at the National Alliance's West Virginia compound, coined a quote now misattributed to Voltaire and was later imprisoned in Virginia for possessing child sexual abuse material.",
-  "content_warnings": ["child-abuse"],
+  "content_warnings": ["child-sexual-abuse"],
+  "content_mentions": [],
   "keywords": [
     "American Dissident Voices",
     "fake Voltaire quote",
@@ -75,18 +76,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "format", "part": 1, "at": "00:00:01", "note": "Opens as Molly Conger's Weird Little Guys, a Cool Zone Media show, not a BtB episode" },
-    { "facet": "themes", "part": 1, "at": "00:01:33", "note": "1993 National Alliance radio broadcast is the real source of the quote" },
-    { "facet": "themes", "part": 1, "at": "00:02:04", "note": "Quote spread as a meme by politicians and Elon Musk, 2015-2023" },
-    { "facet": "time", "part": 1, "at": "00:11:00", "note": "Pierce founds National Alliance in 1974 and starts The Turner Diaries in 1975" },
-    { "facet": "themes", "part": 1, "at": "00:15:41", "note": "Life on the compound with first wife: media bans, hidden gun tubes, propaganda mailing" },
-    { "facet": "themes", "part": 1, "at": "00:17:46", "note": "Strom destroys records after the Oklahoma City bombing tied to the Alliance" },
-    { "facet": "themes", "part": 1, "at": "00:20:50", "note": "Strom berates his wife and blocks her depression treatment; custody battle follows" },
-    { "facet": "time", "part": 1, "at": "00:24:31", "note": "2005 failed coup inside National Alliance and founding of National Vanguard splinter" },
-    { "facet": "themes", "part": 1, "at": "00:26:07", "note": "Strom fixates on a nine-year-old classmate of his stepdaughter" },
-    { "facet": "themes", "part": 1, "at": "00:34:27", "note": "FBI memo on Alliance fracturing and JTTF role in the search" },
-    { "facet": "time", "part": 1, "at": "00:42:19", "note": "Guilty plea, release in 2008, return to the Alliance by 2013" },
-    { "facet": "time", "part": 1, "at": "00:45:56", "note": "Off supervision and the sex offender registry as of 2023, still broadcasting" }
+    {
+      "facet": "format",
+      "part": 1,
+      "at": "00:00:01",
+      "note": "Opens as Molly Conger's Weird Little Guys, a Cool Zone Media show, not a BtB episode"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:01:33",
+      "note": "1993 National Alliance radio broadcast is the real source of the quote"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:02:04",
+      "note": "Quote spread as a meme by politicians and Elon Musk, 2015-2023"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:11:00",
+      "note": "Pierce founds National Alliance in 1974 and starts The Turner Diaries in 1975"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:15:41",
+      "note": "Life on the compound with first wife: media bans, hidden gun tubes, propaganda mailing"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:17:46",
+      "note": "Strom destroys records after the Oklahoma City bombing tied to the Alliance"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:20:50",
+      "note": "Strom berates his wife and blocks her depression treatment; custody battle follows"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:24:31",
+      "note": "2005 failed coup inside National Alliance and founding of National Vanguard splinter"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:26:07",
+      "note": "Strom fixates on a nine-year-old classmate of his stepdaughter"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:34:27",
+      "note": "FBI memo on Alliance fracturing and JTTF role in the search"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:42:19",
+      "note": "Guilty plea, release in 2008, return to the Alliance by 2013"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:45:56",
+      "note": "Off supervision and the sex offender registry as of 2023, still broadcasting"
+    }
   ],
   "notes": "Format crossover: a Weird Little Guys episode (Molly Conger) republished in the BtB feed. Roles and time filled anyway since it is a biography. Covered span starts at the 1974 Alliance founding; Strom's early-1970s Birch Society start is about a minute. Virginia and West Virginia both central, so no subdivision. Transcript spells Gliebe as Glebe. Birth year 1956 from general knowledge."
 }

@@ -41,10 +41,7 @@
       }
     }
   ],
-  "roles": [
-    "monarch-royal",
-    "military-officer"
-  ],
+  "roles": ["monarch-royal", "military-officer"],
   "themes": {
     "primary": "folklore-legend",
     "secondary": [
@@ -57,22 +54,10 @@
     ]
   },
   "regions": {
-    "origin": [
-      "RO"
-    ],
-    "setting": [
-      "RO",
-      "TR",
-      "HU",
-      "IE",
-      "GB",
-      "RS"
-    ],
+    "origin": ["RO"],
+    "setting": ["RO", "TR", "HU", "IE", "GB", "RS"],
     "subdivisions": [],
-    "polities": [
-      "ottoman-empire",
-      "holy-roman-empire"
-    ],
+    "polities": ["ottoman-empire", "holy-roman-empire"],
     "scope": "international"
   },
   "time": {
@@ -88,10 +73,8 @@
     "approximate": true
   },
   "summary": "Vlad III, a 15th-century prince of Wallachia (modern Romania) who impaled and massacred tens of thousands, and how Saxon propaganda, vampire folklore and Bram Stoker's novel turned him into Dracula.",
-  "content_warnings": [
-    "graphic-violence",
-    "mass-atrocity"
-  ],
+  "content_warnings": ["graphic-violence", "mass-atrocity"],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "Dracula (novel)",
     "Wallachia",
@@ -104,9 +87,7 @@
     "John Polidori",
     "The Black Vampire"
   ],
-  "guests": [
-    "Jack O'Brien"
-  ],
+  "guests": ["Jack O'Brien"],
   "confidence": {
     "subjects": "high",
     "roles": "medium",
@@ -170,22 +151,22 @@
       "note": "Stoker reads an 1820 history of Wallachia and writes Dracula in the 1890s"
     },
     {
-      "facet": "content_warnings",
-      "part": 1,
-      "at": "00:30:13",
-      "note": "methods and duration of impalement described at length"
-    },
-    {
-      "facet": "content_warnings",
-      "part": 1,
-      "at": "00:45:05",
-      "note": "Easter massacre of boyars and their families recounted"
-    },
-    {
       "facet": "themes",
       "part": 1,
       "at": "01:16:18",
       "note": "rabies, pellagra and later cholera discussed at length as disease roots of vampire belief"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:36:12",
+      "note": "Host notes a historian source was convicted as a pedophile; brief aside"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:30:13",
+      "note": "methods and duration of impalement described at length"
     }
   ],
   "notes": "Primary theme folklore-legend per reviewer: the story is how Vlad became Dracula. Covered span runs to 1897 because the vampire epidemic and Stoker are secondary subjects in the legend's growth. Transcript links the 1832 Sligo cholera to Stoker's childhood, but he was born 1847; it is his mother's account. Kingdom of Hungary has no polity id."

@@ -60,7 +60,8 @@
     "approximate": true
   },
   "summary": "Between 1965 and 1973 Britain carved the Chagos Islands out of colonial Mauritius and, at US request, secretly expelled the islanders, descendants of enslaved people, so the US could build a military base on Diego Garcia.",
-  "content_warnings": ["animal-cruelty", "child-death"],
+  "content_warnings": ["child-death", "animal-cruelty"],
+  "content_mentions": [],
   "keywords": [
     "Diego Garcia",
     "Chagos Islands",
@@ -82,17 +83,78 @@
     "time": "low"
   },
   "evidence": [
-    { "facet": "time", "part": 2, "at": "00:12:37", "note": "US Navy demands in 1965 that the islands be emptied before the base is built" },
-    { "facet": "themes", "part": 2, "at": "00:16:10", "note": "BIOT created and 1965 US-UK deal; slow exile begins by stranding travellers in Mauritius" },
-    { "facet": "themes", "part": 2, "at": "00:18:43", "note": "Foreign Office memos on hiding the islanders' status and denying them citizenship" },
-    { "facet": "themes", "part": 2, "at": "00:21:11", "note": "Islander family descended from people enslaved and brought from Madagascar" },
-    { "facet": "content_warnings", "part": 2, "at": "00:23:58", "note": "Young daughter dies of gangrene after waiting months for a ship; a son dies at eleven" },
-    { "facet": "subjects", "part": 2, "at": "00:38:24", "note": "Long segment on the Navy shelling Culebra, Puerto Rico, and the protests that expelled it" },
-    { "facet": "regions", "part": 2, "at": "00:35:47", "note": "Deportees shipped to the Seychelles and held in a prison on arrival" },
-    { "facet": "content_warnings", "part": 2, "at": "00:51:31", "note": "Islanders' dogs shot, poisoned, then gassed with vehicle exhaust and burned" },
-    { "facet": "time", "part": 2, "at": "00:57:46", "note": "Diego Garcia emptied in 1971, the outer islands by 1973" },
-    { "facet": "themes", "part": 2, "at": "01:03:29", "note": "Base used for the 1973 war, Desert Storm prepositioned ships and alleged torture" },
-    { "facet": "time", "part": 2, "at": "01:05:49", "note": "Court cases: 2000 ruling, 2004 Orders in Council, 2016 ban, talks with Mauritius from 2022" }
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:12:37",
+      "note": "US Navy demands in 1965 that the islands be emptied before the base is built"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:16:10",
+      "note": "BIOT created and 1965 US-UK deal; slow exile begins by stranding travellers in Mauritius"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:18:43",
+      "note": "Foreign Office memos on hiding the islanders' status and denying them citizenship"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:21:11",
+      "note": "Islander family descended from people enslaved and brought from Madagascar"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:38:24",
+      "note": "Long segment on the Navy shelling Culebra, Puerto Rico, and the protests that expelled it"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:35:47",
+      "note": "Deportees shipped to the Seychelles and held in a prison on arrival"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:57:46",
+      "note": "Diego Garcia emptied in 1971, the outer islands by 1973"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "01:03:29",
+      "note": "Base used for the 1973 war, Desert Storm prepositioned ships and alleged torture"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "01:05:49",
+      "note": "Court cases: 2000 ruling, 2004 Orders in Council, 2016 ban, talks with Mauritius from 2022"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:52:02",
+      "note": "Order to kill all the islanders' dogs before the US base opens"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:53:12",
+      "note": "Account of failed shooting, then gassing the dogs in a shed with vehicle exhaust and burning them"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:23:58",
+      "note": "Young daughter dies of gangrene after waiting months for a ship; a son dies at eleven"
+    }
   ],
   "notes": "Part 1 has no transcript; its description says the islands were settled by former slaves, so covered_span starts at the 1783 plantation settlement of Diego Garcia as an estimate (time confidence low). If Part 1 spends little time on that history, the start should move to the 1960s. Mauritius independence (1968) and the Polaris deal were likely in Part 1 but are unverified."
 }

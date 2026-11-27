@@ -52,7 +52,8 @@
     "approximate": false
   },
   "summary": "Nigerian Pentecostal televangelist TB Joshua built a global following in Lagos on staged miracle videos while his church compound hid decades of rape, forced abortions, torture and a deadly 2014 building collapse.",
-  "content_warnings": ["sexual-violence", "torture", "graphic-violence", "medical-horror"],
+  "content_warnings": ["sexual-violence", "graphic-violence", "torture", "medical-horror"],
+  "content_mentions": ["child-sexual-abuse", "child-abuse", "suicide-self-harm"],
   "keywords": [
     "SCOAN",
     "Emmanuel TV",
@@ -74,18 +75,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:06:22", "note": "Birth in 1963 in Ondo State, Nigeria" },
-    { "facet": "time", "part": 1, "at": "00:24:38", "note": "Church founded in 1986 and grows into a mass congregation" },
-    { "facet": "themes", "part": 1, "at": "00:35:15", "note": "Miracle videos made for and shipped to British and South African evangelicals" },
-    { "facet": "themes", "part": 1, "at": "01:01:06", "note": "Followers told to drop HIV drugs and chemotherapy; deaths in London" },
-    { "facet": "regions", "part": 2, "at": "00:06:00", "note": "English disciple from Brighton joins hoping to be cured of being gay" },
-    { "facet": "themes", "part": 2, "at": "00:09:44", "note": "LGBTQ children brought by parents for spiritual conversion" },
-    { "facet": "themes", "part": 2, "at": "00:19:23", "note": "Sexual abuse of female disciples, isolation cells, forced abortions" },
-    { "facet": "themes", "part": 2, "at": "00:23:03", "note": "Namibian victim taken at seventeen and confined for years" },
-    { "facet": "themes", "part": 2, "at": "00:41:58", "note": "Pivot from TV to YouTube and Facebook after 2004 miracle broadcast ban" },
-    { "facet": "regions", "part": 2, "at": "00:45:30", "note": "Fatal stampede over anointing water in Ghana" },
-    { "facet": "regions", "part": 2, "at": "00:47:32", "note": "Anointing water sent to Sierra Leone during the 2014 Ebola outbreak" },
-    { "facet": "time", "part": 2, "at": "00:59:00", "note": "2014 collapse kills at least 116, mostly South African visitors; death in 2021" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:06:22",
+      "note": "Birth in 1963 in Ondo State, Nigeria"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:24:38",
+      "note": "Church founded in 1986 and grows into a mass congregation"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:35:15",
+      "note": "Miracle videos made for and shipped to British and South African evangelicals"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:01:06",
+      "note": "Followers told to drop HIV drugs and chemotherapy; deaths in London"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:06:00",
+      "note": "English disciple from Brighton joins hoping to be cured of being gay"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:09:44",
+      "note": "LGBTQ children brought by parents for spiritual conversion"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:19:23",
+      "note": "Sexual abuse of female disciples, isolation cells, forced abortions"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:23:03",
+      "note": "Namibian victim taken at seventeen and confined for years"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:41:58",
+      "note": "Pivot from TV to YouTube and Facebook after 2004 miracle broadcast ban"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:45:30",
+      "note": "Fatal stampede over anointing water in Ghana"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:47:32",
+      "note": "Anointing water sent to Sierra Leone during the 2014 Ebola outbreak"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:59:00",
+      "note": "2014 collapse kills at least 116, mostly South African visitors; death in 2021"
+    }
   ],
   "notes": "Taxonomy examples list TB Joshua under organized-religion and religious-leader, so organized-religion is primary; the hosts repeatedly call SCOAN a cult, hence cults-new-religions secondary and org_type cult. The January 2024 BBC/openDemocracy exposé and his widow taking over are short codas, so reaches_present is false. Lagos is central (NG-LA)."
 }

@@ -46,6 +46,7 @@
   },
   "summary": "A reading of the Proud Boys' internal manual for running meetings and initiating members, released as evidence in the 2023 seditious conspiracy trial of the US far-right group's leaders over January 6.",
   "content_warnings": ["hate-speech"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse"],
   "keywords": [
     "January 6",
     "seditious conspiracy trial",
@@ -108,6 +109,18 @@
       "part": 1,
       "at": "00:48:55",
       "note": "Aftermath of January 6: members panic over arrests and turn on each other"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:33:34",
+      "note": "Aside on a sexual harassment lawsuit at The Blaze over a fired host"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:22:26",
+      "note": "A Portland Proud Boy arrested as a child molester"
     }
   ],
   "notes": "Manual's author is not named; the Proud Boys organization is treated as its author, so no person primary and roles are empty. Manual date estimated at about 2017 from internal references; covered_span starts at the group's 2016 founding. Guilty verdicts (2023) and the group's ongoing activity set reaches_present. hate-speech warning for extended reading of chauvinist propaganda and a slur lookup."

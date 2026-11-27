@@ -59,6 +59,7 @@
   },
   "summary": "Bavarian schoolteacher Julius Streicher founded the antisemitic newspaper Der Stürmer in Nuremberg in 1923, spreading blood-libel smears and directing harassment of Jews, ruled Franconia as Gauleiter, and was hanged at Nuremberg in 1946.",
   "content_warnings": ["hate-speech"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Nuremberg",
     "Franconia",
@@ -80,15 +81,73 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:06:01", "note": "birth in 1885 in a Bavarian village near Augsburg" },
-    { "facet": "time", "part": 1, "at": "00:36:12", "note": "after WWI joins an antisemitic defence league and turns to far-right politics" },
-    { "facet": "subjects", "part": 1, "at": "00:37:13", "note": "long segment on Theodor Fritsch and his antisemitic handbook" },
-    { "facet": "themes", "part": 1, "at": "01:11:37", "note": "Wotan Lodge, Thule Society and Sebottendorf's occult nationalism" },
-    { "facet": "subjects", "part": 2, "at": "00:16:34", "note": "founding of Der Stürmer in Nuremberg in 1923" },
-    { "facet": "themes", "part": 2, "at": "00:19:24", "note": "ritual-murder smears exploiting a child-disappearance panic" },
-    { "facet": "themes", "part": 2, "at": "00:37:12", "note": "reader letters used to direct harassment and boycotts of Jews" },
-    { "facet": "roles", "part": 2, "at": "00:51:17", "note": "named Gauleiter of Franconia with de facto control of the region" },
-    { "facet": "time", "part": 2, "at": "01:23:37", "note": "hanged at Nuremberg in October 1946" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:06:01",
+      "note": "birth in 1885 in a Bavarian village near Augsburg"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:36:12",
+      "note": "after WWI joins an antisemitic defence league and turns to far-right politics"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:37:13",
+      "note": "long segment on Theodor Fritsch and his antisemitic handbook"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "01:11:37",
+      "note": "Wotan Lodge, Thule Society and Sebottendorf's occult nationalism"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:16:34",
+      "note": "founding of Der Stürmer in Nuremberg in 1923"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:19:24",
+      "note": "ritual-murder smears exploiting a child-disappearance panic"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:37:12",
+      "note": "reader letters used to direct harassment and boycotts of Jews"
+    },
+    {
+      "facet": "roles",
+      "part": 2,
+      "at": "00:51:17",
+      "note": "named Gauleiter of Franconia with de facto control of the region"
+    },
+    { "facet": "time", "part": 2, "at": "01:23:37", "note": "hanged at Nuremberg in October 1946" },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:29:30",
+      "note": "Der Sturmer ran lurid invented sexual assault stories to sell papers and stoke hate"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "01:07:58",
+      "note": "Streicher sexually harassed and sometimes assaulted arrested juvenile delinquents"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "01:06:03",
+      "note": "Streicher tells an associate to kill himself to avoid testifying, and he does"
+    }
   ],
   "notes": "Primary theme propaganda-media (the taxonomy cites Streicher), nazism secondary. Main span starts at his ~1919 turn to antisemitic politics (approximate). WWI service (Romania, France) covered briefly, so only DE in setting; german-empire polity for that service. Tree of Life shooting is a one-line coda, so reaches_present is false."
 }

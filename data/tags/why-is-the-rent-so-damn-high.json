@@ -59,6 +59,7 @@
   },
   "summary": "Two-part look at soaring US rents: Jeffrey Roper's RealPage rent-pricing algorithm, Sam Zell's real estate empire and his debt-fuelled wrecking of the Tribune Company, and Stephen Schwarzman's Blackstone buying up foreclosed homes after 2008.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "RealPage",
     "YieldStar",
@@ -80,17 +81,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "themes", "part": 1, "at": "00:08:24", "note": "critique of the zoning and NIMBY explanation pushed by developers and the press" },
-    { "facet": "subjects", "part": 1, "at": "00:30:19", "note": "Roper introduced as the first bastard; Alaska Airlines revenue manager in the 1980s" },
-    { "facet": "time", "part": 1, "at": "00:34:30", "note": "DOJ action over airline price-fixing software in the 1980s and early 1990s" },
-    { "facet": "time", "part": 1, "at": "00:40:47", "note": "Roper hired by RealPage in 2004 to build the YieldStar pricing system" },
-    { "facet": "themes", "part": 1, "at": "00:52:19", "note": "RealPage buys rival LRO in 2017 despite antitrust review" },
-    { "facet": "time", "part": 2, "at": "00:04:17", "note": "Zell's birth to Polish Jewish refugee parents and Chicago childhood" },
-    { "facet": "subjects", "part": 2, "at": "00:11:34", "note": "Zell takes over the Tribune Company and installs shock-jock management" },
-    { "facet": "time", "part": 2, "at": "00:23:37", "note": "Tribune files for bankruptcy in December 2008 under Zell's leveraged deal" },
-    { "facet": "themes", "part": 2, "at": "00:27:15", "note": "Zell's apartment holdings and spending against rent-control ballot measures" },
-    { "facet": "subjects", "part": 2, "at": "00:40:44", "note": "Schwarzman segment begins: childhood, Lehman Brothers, founding Blackstone" },
-    { "facet": "themes", "part": 2, "at": "00:52:49", "note": "Blackstone buys foreclosed homes from 2011 and becomes a giant corporate landlord" }
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:08:24",
+      "note": "critique of the zoning and NIMBY explanation pushed by developers and the press"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:30:19",
+      "note": "Roper introduced as the first bastard; Alaska Airlines revenue manager in the 1980s"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:34:30",
+      "note": "DOJ action over airline price-fixing software in the 1980s and early 1990s"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:40:47",
+      "note": "Roper hired by RealPage in 2004 to build the YieldStar pricing system"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:52:19",
+      "note": "RealPage buys rival LRO in 2017 despite antitrust review"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:04:17",
+      "note": "Zell's birth to Polish Jewish refugee parents and Chicago childhood"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:11:34",
+      "note": "Zell takes over the Tribune Company and installs shock-jock management"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:23:37",
+      "note": "Tribune files for bankruptcy in December 2008 under Zell's leveraged deal"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:27:15",
+      "note": "Zell's apartment holdings and spending against rent-control ballot measures"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:40:44",
+      "note": "Schwarzman segment begins: childhood, Lehman Brothers, founding Blackstone"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:52:49",
+      "note": "Blackstone buys foreclosed homes from 2011 and becomes a giant corporate landlord"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:15:39",
+      "note": "Comment that a company handbook discouraging complaints signals intent to sexually harass staff"
+    }
   ],
   "notes": "Survey of the 2022 rent surge rather than one biography. Primary subjects are the crisis itself plus Sam Zell, who titles part 2 and gets a full life story; Roper and Schwarzman have long segments but are secondary. Zell died in 2023, after airing. WWII-era rent control history and 1990s-2000s landlord murder cases are treated as illustrative background, not covered years. Covid eviction deaths get a couple of minutes only."
 }

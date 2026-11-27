@@ -34,12 +34,7 @@
   "roles": ["quack-fake-healer", "con-artist", "business-executive"],
   "themes": {
     "primary": "quackery-pseudoscience",
-    "secondary": [
-      "fraud-grift",
-      "labor-exploitation",
-      "corporate-malfeasance",
-      "public-health"
-    ]
+    "secondary": ["fraud-grift", "labor-exploitation", "corporate-malfeasance", "public-health"]
   },
   "regions": {
     "origin": ["US"],
@@ -56,6 +51,12 @@
   },
   "summary": "Harvard dropout and con man William Bailey sold radioactive patent medicines in 1920s America, above all the radium water Radithor, which poisoned users such as industrialist Eben Byers, who died of radiation sickness in 1932.",
   "content_warnings": ["medical-horror"],
+  "content_mentions": [
+    "sexual-violence",
+    "child-sexual-abuse",
+    "suicide-self-harm",
+    "animal-cruelty"
+  ],
   "keywords": [
     "Radithor",
     "Radiendocrinator",
@@ -130,6 +131,24 @@
       "part": 2,
       "at": "01:00:06",
       "note": "Bailey dies of bladder cancer in Massachusetts in 1949"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:53:04",
+      "note": "Joking comparison to a lacrosse player accused of rape"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:55:19",
+      "note": "Host hints Byers's young girlfriends may have been literal girls"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:54:11",
+      "note": "Figurative joke about killing oneself"
     }
   ],
   "notes": "main_span starts at the 1915 fraud conviction because the story frames him as a career con man before radium; 1921 (first radium company) would also be defensible. Radium Girls are a secondary subject with a long Part 2 segment. Brief Russia stint (1914) not counted in setting."

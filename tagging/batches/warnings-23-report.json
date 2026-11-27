@@ -1,0 +1,117 @@
+[
+  {
+    "id": "let-s-talk-about-the-pullman-strike-knob-gobblers",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "ben-shapiro-knows-less-about-sex-than-an-amoeba",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence"]
+    }
+  },
+  {
+    "id": "christmas-non-bastard-the-tupamaros-of-uruguay",
+    "before": {
+      "warnings": ["torture"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["torture"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Only candidate is a passing reference to suicide bombing as something the group did not do; kept as a mention under the when-in-doubt rule."
+  },
+  {
+    "id": "jeff-bezos-and-the-birth-of-amazon",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["suicide-self-harm"]
+    }
+  },
+  {
+    "id": "let-s-talk-about-cryptocurrency",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    }
+  },
+  {
+    "id": "the-not-at-all-sad-history-of-libertarian-sea-nations",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    }
+  },
+  {
+    "id": "the-ballad-of-eel-horse",
+    "before": {
+      "warnings": ["medical-horror", "torture", "sexual-violence", "animal-cruelty"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "torture", "medical-horror", "animal-cruelty"],
+      "mentions": []
+    },
+    "notes": "No animal-cruelty scan hits; kept detailed from transcript: the horse eel practice is the core topic for many minutes."
+  },
+  {
+    "id": "let-s-look-at-the-facebook-papers",
+    "before": {
+      "warnings": ["suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["suicide-self-harm"],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "Child-sexual-abuse mentions are only conspiracy claims (QAnon-style cabals); sexual-violence includes misinformation about rape spread in India."
+  },
+  {
+    "id": "how-the-first-fitness-influencer-doomed-us-all",
+    "before": {
+      "warnings": ["child-death", "child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "child-death"],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "No child-abuse scan hits; detailed kept from transcript. CSA and sexual-violence are only asides."
+  },
+  {
+    "id": "robert-baden-powell-founder-of-the-boy-scouts",
+    "before": {
+      "warnings": ["child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse"],
+      "mentions": ["child-abuse", "suicide-self-harm"]
+    },
+    "notes": "Old child-abuse warning was mostly sexual abuse: now CSA detailed; child-abuse kept as a mention for the binding and restraint of boys."
+  }
+]

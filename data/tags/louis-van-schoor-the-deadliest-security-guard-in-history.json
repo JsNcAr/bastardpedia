@@ -46,7 +46,8 @@
     "approximate": true
   },
   "summary": "Former apartheid police dog handler Louis van Schoor worked as a security guard in East London, South Africa, where he shot over a hundred mostly Black people, killing at least 39, in the late 1980s with police protection.",
-  "content_warnings": ["graphic-violence", "child-death"],
+  "content_warnings": ["child-death", "graphic-violence"],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse", "child-abuse", "animal-cruelty"],
   "keywords": [
     "East London",
     "Falcon Security",
@@ -127,6 +128,18 @@
       "part": 2,
       "at": "00:55:01",
       "note": "dies in July 2024, weeks before release"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:07:02",
+      "note": "Opening news aside about soldiers accused of gang rape and torture of prisoners"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:09:01",
+      "note": "Sarcastic one-line jab at right-wing panic over children being groomed"
     }
   ],
   "notes": "Conviction year (1992) is from general knowledge; the transcript gives the 1991 arrest and about twelve years served. main_span starts at the c.1986 peak of the spree; approximate. Colonial and apartheid history is a long background segment, kept only as a secondary theme and excluded from covered_span. Police-dog maulings and dog necklacing get a few minutes but not enough for animal-cruelty."

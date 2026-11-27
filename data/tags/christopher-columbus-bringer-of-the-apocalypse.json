@@ -36,10 +36,7 @@
       "role": "secondary"
     }
   ],
-  "roles": [
-    "explorer-adventurer",
-    "colonial-administrator"
-  ],
+  "roles": ["explorer-adventurer", "colonial-administrator"],
   "themes": {
     "primary": "colonialism-imperialism",
     "secondary": [
@@ -51,22 +48,10 @@
     ]
   },
   "regions": {
-    "origin": [
-      "IT"
-    ],
-    "setting": [
-      "DO",
-      "HT",
-      "BS",
-      "ES",
-      "PT",
-      "IT"
-    ],
+    "origin": ["IT"],
+    "setting": ["DO", "HT", "BS", "ES", "PT", "IT"],
     "subdivisions": [],
-    "polities": [
-      "spanish-empire",
-      "portuguese-empire"
-    ],
+    "polities": ["spanish-empire", "portuguese-empire"],
     "scope": "international"
   },
   "time": {
@@ -83,12 +68,13 @@
   },
   "summary": "Genoese navigator Christopher Columbus reached the Caribbean for Spain in 1492, then as governor of Hispaniola enslaved and taxed the Taíno to death, driven by a messianic plan to fund the reconquest of Jerusalem.",
   "content_warnings": [
-    "mass-atrocity",
-    "slavery",
-    "suicide-self-harm",
     "sexual-violence",
-    "graphic-violence"
+    "slavery",
+    "graphic-violence",
+    "mass-atrocity",
+    "suicide-self-harm"
   ],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "Hispaniola",
     "La Navidad",
@@ -101,9 +87,7 @@
     "Francisco de Bobadilla",
     "Isabella settlement"
   ],
-  "guests": [
-    "Michael Swaim"
-  ],
+  "guests": ["Michael Swaim"],
   "confidence": {
     "subjects": "medium",
     "roles": "medium",
@@ -112,24 +96,14 @@
     "time": "high"
   },
   "evidence": [
-    {
-      "facet": "time",
-      "part": 1,
-      "at": "00:21:21",
-      "note": "born near Genoa in summer 1451"
-    },
+    { "facet": "time", "part": 1, "at": "00:21:21", "note": "born near Genoa in summer 1451" },
     {
       "facet": "time",
       "part": 3,
       "at": "01:18:11",
       "note": "stripped of viceroyalty and sent to Castile in chains (main_span end)"
     },
-    {
-      "facet": "time",
-      "part": 3,
-      "at": "01:19:15",
-      "note": "dies May 1506"
-    },
+    { "facet": "time", "part": 3, "at": "01:19:15", "note": "dies May 1506" },
     {
       "facet": "time",
       "part": 3,

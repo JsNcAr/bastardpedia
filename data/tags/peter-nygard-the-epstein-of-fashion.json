@@ -51,7 +51,8 @@
     "approximate": false
   },
   "summary": "Finnish-Canadian garment magnate Peter Nygard built a clothing empire on exploited factory labor, then for decades allegedly lured women and girls to his Bahamas compound and abused them until his 2020 arrest.",
-  "content_warnings": ["sexual-violence", "child-abuse"],
+  "content_warnings": ["sexual-violence", "child-sexual-abuse"],
+  "content_mentions": ["animal-cruelty"],
   "keywords": [
     "Nygard International",
     "Lyford Cay",
@@ -126,6 +127,24 @@
       "part": 2,
       "at": "00:50:06",
       "note": "FBI charges, Toronto charges, compound seized; in custody at release"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:40:59",
+      "note": "Long run on decades of harassment, assault and rape allegations from employees"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:50:06",
+      "note": "FBI and Toronto charges for rape, sexual assault and sex trafficking"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:44:23",
+      "note": "Allegations of rape and assault of very young victims across his career"
     }
   ],
   "notes": "Nygard was alive and in custody at release, so covered_span ends at 2022. main_span runs from the 1967 company purchase to the 2020 arrest. Environmental damage from dredging at the compound gets a short segment, too brief for a theme. Secondary theme child-abuse added because several plaintiffs were 14 at the time."

@@ -41,7 +41,13 @@
   "roles": [],
   "themes": {
     "primary": "corporate-malfeasance",
-    "secondary": ["propaganda-media", "public-health", "moral-panics", "drugs", "labor-exploitation"]
+    "secondary": [
+      "propaganda-media",
+      "public-health",
+      "moral-panics",
+      "drugs",
+      "labor-exploitation"
+    ]
   },
   "regions": {
     "origin": ["US"],
@@ -58,6 +64,7 @@
   },
   "summary": "History of the cigarette industry from the 1850s to the 1950s: James Buchanan Duke's machine-made monopoly, mass advertising aimed at children, and the 1950s PR campaign that manufactured doubt about smoking and cancer.",
   "content_warnings": [],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "American Tobacco Company",
     "Bonsack machine",
@@ -79,18 +86,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:05:20", "note": "host opens a prehistory of tobacco (Maya, Columbus, Jamestown) treated as background" },
-    { "facet": "time", "part": 1, "at": "00:26:56", "note": "Crimean War veterans and the first London cigarette factory in 1856 start the story proper" },
-    { "facet": "subjects", "part": 1, "at": "00:32:40", "note": "Duke introduced, born 1856 near Durham, enters cigarettes in the 1880s" },
-    { "facet": "time", "part": 1, "at": "00:37:20", "note": "Bonsack machine deal multiplies output, start of the core story" },
-    { "facet": "themes", "part": 1, "at": "00:45:10", "note": "trading-card inserts lure boys into smoking" },
-    { "facet": "themes", "part": 1, "at": "00:54:20", "note": "monopoly formed, farmers squeezed, unionised hand rollers replaced by machines" },
-    { "facet": "themes", "part": 2, "at": "00:06:19", "note": "anti-smoking crusade aimed at women smokers, morality laws in New York" },
-    { "facet": "subjects", "part": 2, "at": "00:18:25", "note": "R. J. Reynolds biography and the launch of Camel" },
-    { "facet": "themes", "part": 2, "at": "00:38:01", "note": "radio and TV sponsorship, Hit Parade, cartoon ads aimed at kids" },
-    { "facet": "time", "part": 2, "at": "00:49:56", "note": "December 1953 Plaza Hotel meeting where Hill plans the industry response" },
-    { "facet": "themes", "part": 2, "at": "00:55:38", "note": "eugenicist Clarence Cook Little made scientific director of the TIRC" },
-    { "facet": "time", "part": 2, "at": "00:56:42", "note": "TIRC grant budget by 1963 marks the latest period discussed" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:05:20",
+      "note": "host opens a prehistory of tobacco (Maya, Columbus, Jamestown) treated as background"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:26:56",
+      "note": "Crimean War veterans and the first London cigarette factory in 1856 start the story proper"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:32:40",
+      "note": "Duke introduced, born 1856 near Durham, enters cigarettes in the 1880s"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:37:20",
+      "note": "Bonsack machine deal multiplies output, start of the core story"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:45:10",
+      "note": "trading-card inserts lure boys into smoking"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:54:20",
+      "note": "monopoly formed, farmers squeezed, unionised hand rollers replaced by machines"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:06:19",
+      "note": "anti-smoking crusade aimed at women smokers, morality laws in New York"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:18:25",
+      "note": "R. J. Reynolds biography and the launch of Camel"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:38:01",
+      "note": "radio and TV sponsorship, Hit Parade, cartoon ads aimed at kids"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:49:56",
+      "note": "December 1953 Plaza Hotel meeting where Hill plans the industry response"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:55:38",
+      "note": "eugenicist Clarence Cook Little made scientific director of the TIRC"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:56:42",
+      "note": "TIRC grant budget by 1963 marks the latest period discussed"
+    }
   ],
   "notes": "Primary subject is an industry/product with no good kind; used practice-or-pseudoscience. Pre-Columbian and early-modern tobacco history (~12 min, part 1) treated as host background, so covered_span starts 1856 and HT/DO/MX are left out of setting. Later industry cover-ups are deferred to future episodes, so reaches_present is false."
 }

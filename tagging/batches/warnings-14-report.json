@@ -1,0 +1,120 @@
+[
+  {
+    "id": "how-the-winklevoss-twins-lost-a-billion-dollars",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    },
+    "notes": "No scan candidates; crypto-fraud story with nothing suggesting a strict warning."
+  },
+  {
+    "id": "tb-joshua-the-evangelical-pastor-who-built-his-own-hell",
+    "before": {
+      "warnings": ["sexual-violence", "torture", "graphic-violence", "medical-horror"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "graphic-violence", "torture", "medical-horror"],
+      "mentions": ["child-sexual-abuse", "child-abuse", "suicide-self-harm"]
+    },
+    "notes": "child-sexual-abuse rests on one victim being seventeen when taken. Theme child-abuse is tagged but the scan found only a comparison; the beatings of young disciples may deserve a look. Suicide-bomber prophecy at part 2 00:50:47 dropped."
+  },
+  {
+    "id": "robert-e-lee-a-lifetime-of-failure",
+    "before": {
+      "warnings": ["slavery", "torture"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["slavery", "torture"],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm", "animal-cruelty"]
+    },
+    "notes": "Legal 'molestation' in a trust deed (part 1 00:38:22) dropped. Whipping of enslaved people may include children; scan cannot tell, so child-abuse not listed."
+  },
+  {
+    "id": "tech-bros-have-built-a-cult-around-ai",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence"]
+    }
+  },
+  {
+    "id": "the-finders-cia-child-trafficking-cult-or-just-normal-cult",
+    "before": {
+      "warnings": ["child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse", "child-abuse"],
+      "mentions": []
+    },
+    "notes": "All sexual-violence scan hits concern children or the trafficking allegations, so moved to child-sexual-abuse; no adult victims found. The abuse claims are allegations the story debunks, but they are discussed at length, hence detailed."
+  },
+  {
+    "id": "how-orange-county-incubated-american-fascism",
+    "before": {
+      "warnings": ["child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death"],
+      "mentions": ["child-sexual-abuse", "child-abuse"]
+    },
+    "notes": "Letourneau segment runs about two to three minutes without explicit detail; mentions rather than detailed, but a reviewer may prefer detailed. Sexual-violence hits involve a child victim, moved to child-sexual-abuse."
+  },
+  {
+    "id": "christmas-hero-episode-aaron-swartz",
+    "before": {
+      "warnings": ["suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["suicide-self-harm"],
+      "mentions": []
+    }
+  },
+  {
+    "id": "william-bailey-the-gwyneth-paltrow-of-radiation",
+    "before": {
+      "warnings": ["medical-horror"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["medical-horror"],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm", "animal-cruelty"]
+    },
+    "notes": "child-sexual-abuse rests only on an ambiguous host aside about Byers's girlfriends; animal-cruelty is reckless poisoning, not clearly deliberate. Both chosen under the when-in-doubt rule; reviewer may drop either."
+  },
+  {
+    "id": "the-last-sam-bankman-fried-episodes-secretly-about-michael-lewis",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    },
+    "notes": "No scan candidates. The Blind Side section may touch on Michael Oher's childhood hardship, which the scan cannot see."
+  },
+  {
+    "id": "the-holy-rollers-sex-cult",
+    "before": {
+      "warnings": ["sexual-violence", "animal-cruelty", "suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "animal-cruelty"],
+      "mentions": ["child-sexual-abuse", "child-abuse", "suicide-self-harm"]
+    },
+    "notes": "Scan missed most of this; found by reading transcript text. Child-abuse (infant starvation) could be argued as detailed. Suicide-self-harm moved from detailed to mentions: brief closing account."
+  }
+]

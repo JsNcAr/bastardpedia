@@ -66,6 +66,7 @@
   },
   "summary": "British casino owner John Aspinall fleeced postwar aristocrats at illegal chemin de fer games and his Mayfair Clermont Club, ran private zoos where keepers were killed, preached eugenic culling and defended his friend Lord Lucan after the 1974 murder.",
   "content_warnings": ["child-abuse", "graphic-violence"],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "chemin de fer",
     "Betting and Gaming Act 1960",
@@ -87,18 +88,73 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:04:48", "note": "Born in Delhi under the British Raj in June 1926" },
-    { "facet": "regions", "part": 1, "at": "00:09:47", "note": "Early childhood in India with an Indian nanny, Hindi as first language" },
-    { "facet": "themes", "part": 1, "at": "00:15:59", "note": "Long explanation of the public-school prefect and fagging hierarchy" },
-    { "facet": "content_warnings", "part": 1, "at": "00:27:13", "note": "Sexual abuse, beatings and a pupil suicide in boarding schools; survivor account read" },
-    { "facet": "time", "part": 1, "at": "00:56:52", "note": "Chemmy games for heirs with ready cash in the early 1950s start his fortune" },
-    { "facet": "themes", "part": 2, "at": "00:03:25", "note": "Police raid leads to the 1960 gaming law; Clermont opens in Mayfair in 1962" },
-    { "facet": "content_warnings", "part": 2, "at": "00:17:03", "note": "Tiger at Howletts mauls a visiting child's face, described in detail" },
-    { "facet": "themes", "part": 2, "at": "00:31:42", "note": "His calls to cull humanity and praise for selective breeding of humans" },
-    { "facet": "themes", "part": 2, "at": "00:43:55", "note": "Clermont set's far-right views and talk of a British military coup" },
-    { "facet": "themes", "part": 2, "at": "00:49:44", "note": "Lucan kills the nanny and attacks his wife; friends allegedly aided him" },
-    { "facet": "time", "part": 2, "at": "00:57:40", "note": "Keepers killed by tigers and elephants at his zoos from 1980 into the 1990s" },
-    { "facet": "time", "part": 2, "at": "01:00:40", "note": "Dies of cancer in June 2000" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:04:48",
+      "note": "Born in Delhi under the British Raj in June 1926"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:09:47",
+      "note": "Early childhood in India with an Indian nanny, Hindi as first language"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:15:59",
+      "note": "Long explanation of the public-school prefect and fagging hierarchy"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:56:52",
+      "note": "Chemmy games for heirs with ready cash in the early 1950s start his fortune"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:03:25",
+      "note": "Police raid leads to the 1960 gaming law; Clermont opens in Mayfair in 1962"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:31:42",
+      "note": "His calls to cull humanity and praise for selective breeding of humans"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:43:55",
+      "note": "Clermont set's far-right views and talk of a British military coup"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:49:44",
+      "note": "Lucan kills the nanny and attacks his wife; friends allegedly aided him"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:57:40",
+      "note": "Keepers killed by tigers and elephants at his zoos from 1980 into the 1990s"
+    },
+    { "facet": "time", "part": 2, "at": "01:00:40", "note": "Dies of cancer in June 2000" },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:27:13",
+      "note": "Several minutes on the fagging system and physical and mental abuse of boys at British boarding schools"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:28:48",
+      "note": "Brief references to molestation of pupils and to famous Britons abused by teachers as boys"
+    }
   ],
   "notes": "Transcript spells the club Claremont; real name Clermont Club used. Lucan vanished in 1974 and was later declared dead; death year unknown, so lifespan end is null. The William Crockford segment is a short historical parallel, excluded from covered_span. No vocabulary theme for gambling or for animal welfare and dangerous zoos, the story's two main threads."
 }

@@ -62,6 +62,7 @@
   },
   "summary": "An essay on how Silicon Valley AI boosters, from Marc Andreessen's Techno-Optimist Manifesto to the e/acc movement and the 2024 Consumer Electronics Show, treat artificial intelligence with cult-like faith while pushing to take creative work without consent.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence"],
   "keywords": [
     "Consumer Electronics Show",
     "Techno-Optimist Manifesto",
@@ -130,6 +131,12 @@
       "part": 1,
       "at": "00:42:53",
       "note": "AI voice-cloning fraud, including a fake kidnapping call"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:50:31",
+      "note": "Brief comparison to the NXIVM leader, whose group branded members and took part in sex trafficking"
     }
   ],
   "notes": "Format set to current-affairs: an essay adapted from a Rolling Stone article on contemporary AI culture and CES 2024, not a narrative history. No single person anchors it, so the primary subject is the e/acc movement and roles are empty. Covered span starts at Roko's basilisk (2010); the rationalists' early-2000s origins and the late-1990s skeptic movement are mentioned only briefly."

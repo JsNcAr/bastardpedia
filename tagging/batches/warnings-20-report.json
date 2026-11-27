@@ -1,0 +1,132 @@
+[
+  {
+    "id": "christopher-columbus-bringer-of-the-apocalypse",
+    "before": {
+      "warnings": [
+        "mass-atrocity",
+        "slavery",
+        "suicide-self-harm",
+        "sexual-violence",
+        "graphic-violence"
+      ],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [
+        "sexual-violence",
+        "slavery",
+        "graphic-violence",
+        "mass-atrocity",
+        "suicide-self-harm"
+      ],
+      "mentions": ["child-sexual-abuse"]
+    },
+    "notes": "Themes list child-abuse but the scan finds no physical child abuse; the original warnings had none. Suicide kept detailed: the mass-suicide closing runs about three minutes. Possible war dogs or animal harm not surfaced by the scan."
+  },
+  {
+    "id": "helena-blavatsky-the-woman-who-inspired-the-nazis-and-gwyneth-paltrow",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Part 2 00:05:51 has a host anecdote about a camp horse said to be worked to death; not counted as animal cruelty, reviewer may disagree."
+  },
+  {
+    "id": "how-the-roman-republic-became-a-police-state",
+    "before": {
+      "warnings": ["slavery"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["slavery"],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    }
+  },
+  {
+    "id": "the-clarence-thomas-story",
+    "before": {
+      "warnings": ["child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-abuse"],
+      "mentions": []
+    },
+    "notes": "child-abuse kept detailed from the original tag; the scan shows one paragraph, so it may be brief enough to be a mention. Part 4 mentions porn involving animals and rape scenes as described by Hill; not counted as animal cruelty."
+  },
+  {
+    "id": "the-world-anti-communist-league-a-study-in-nazi-death-squads",
+    "before": {
+      "warnings": ["mass-atrocity", "torture", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence", "torture", "mass-atrocity"],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "Torture and death-squad content may include sexual violence the scan words miss; the existing torture warning covers it."
+  },
+  {
+    "id": "the-father-of-gynecology",
+    "before": {
+      "warnings": ["medical-horror", "slavery"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["slavery", "medical-horror"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Repeated genital surgery without consent on enslaved women is tagged medical-horror, not sexual-violence. Sims also experimented on enslaved infants; if covered, child-abuse may apply, but the scan found nothing."
+  },
+  {
+    "id": "the-man-who-ruined-new-york",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "how-the-southern-baptist-convention-was-taken-over-by-republicans-and-child-molesters",
+    "before": {
+      "warnings": ["child-abuse", "sexual-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-sexual-abuse"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Old child-abuse warning was sexual abuse of children, so it becomes child-sexual-abuse; no physical abuse or neglect candidates found."
+  },
+  {
+    "id": "how-to-insert-goat-balls-into-human-balls",
+    "before": {
+      "warnings": ["medical-horror", "animal-cruelty"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["medical-horror", "animal-cruelty"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "animal-cruelty kept detailed from the original tag since goat removal is the episode's subject; scan shows one explicit paragraph."
+  },
+  {
+    "id": "the-nra-and-their-blickies",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "The grooming hit is only the smear, not an actual case; a reviewer may prefer to drop child-sexual-abuse."
+  }
+]

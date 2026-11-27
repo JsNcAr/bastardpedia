@@ -45,6 +45,7 @@
   },
   "summary": "A reading of Dilbert cartoonist Scott Adams's novels God's Debris and The Religion War, in which a self-insert genius ends a Christian-Muslim war by debunking religion, critiqued for shallow philosophy and Islamophobic, anti-Irish stereotypes.",
   "content_warnings": [],
+  "content_mentions": ["suicide-self-harm", "animal-cruelty"],
   "keywords": [
     "Dilbert",
     "the Avatar",
@@ -113,6 +114,24 @@
       "part": 2,
       "at": "00:29:11",
       "note": "Socratic dialogue on God, omniscience and free will picked apart"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:51:24",
+      "note": "Hosts mock the novel's premise that God destroyed himself, with jokes about God and Hitler both dying by suicide"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:27:14",
+      "note": "Reference to suicide bombing in the novel's war"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:08:58",
+      "note": "Brief aside about a zoophile group that sexually abused a horse"
     }
   ],
   "notes": "No theme for atheism or philosophy of religion; organized-religion is the closest fit for books arguing religion away. The Religion War is set in 2007-2040 (fiction); time spans use the books' publication years (God's Debris 2001, The Religion War 2004) from general knowledge, not the transcript. Adams's lifespan end 2026 matches the sibling Win Bigly record. war-war-crimes and terrorism refer to the novel's fictional war."

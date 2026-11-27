@@ -11,7 +11,12 @@
     { "name": "Saturnalia", "kind": "practice-or-pseudoscience", "role": "primary" },
     { "name": "Puritan ban on Christmas", "kind": "event", "role": "primary" },
     { "name": "Yule", "kind": "practice-or-pseudoscience", "role": "secondary" },
-    { "name": "Catholic Church", "kind": "organization", "org_type": "religious-body", "role": "secondary" },
+    {
+      "name": "Catholic Church",
+      "kind": "organization",
+      "org_type": "religious-body",
+      "role": "secondary"
+    },
     { "name": "Wassailing", "kind": "practice-or-pseudoscience", "role": "secondary" }
   ],
   "roles": [],
@@ -40,6 +45,7 @@
   },
   "summary": "A history of midwinter revelry from Roman Saturnalia and Germanic Yule to medieval Christmas, and of the long church effort to suppress it, peaking with the Puritan ban on Christmas in 1640s England and colonial Massachusetts.",
   "content_warnings": [],
+  "content_mentions": ["child-abuse", "suicide-self-harm"],
   "keywords": [
     "Lord of Misrule",
     "Feast of Fools",
@@ -61,18 +67,78 @@
     "time": "low"
   },
   "evidence": [
-    { "facet": "format", "part": 1, "at": "00:00:34", "note": "Margaret Killjoy hosts her own show Cool People Who Did Cool Stuff, re-run in the BtB feed" },
-    { "facet": "time", "part": 1, "at": "00:20:13", "note": "long Saturnalia segment on Roman midwinter festival customs begins" },
-    { "facet": "time", "part": 1, "at": "00:18:07", "note": "fourth-century church fixes Jesus's birth at the winter solstice" },
-    { "facet": "subjects", "part": 1, "at": "00:28:42", "note": "Yule and Germanic pagan midwinter customs segment" },
-    { "facet": "themes", "part": 2, "at": "00:05:53", "note": "church first represses then co-opts revelry; 8th-century bishop complains" },
-    { "facet": "themes", "part": 2, "at": "00:24:18", "note": "centuries of church condemnations of ritual cross-dressing and animal costumes" },
-    { "facet": "themes", "part": 2, "at": "00:16:53", "note": "wassailing framed as the poor demanding food and money from the rich" },
-    { "facet": "time", "part": 2, "at": "00:32:53", "note": "1640s English Civil War era: Puritans make Christmas a culture-war issue" },
-    { "facet": "themes", "part": 2, "at": "00:34:57", "note": "1643 apprentice riots and later riots against the Christmas ban" },
-    { "facet": "themes", "part": 2, "at": "00:36:32", "note": "Canterbury Plum Pudding riots; mob takes the city for a day" },
-    { "facet": "time", "part": 2, "at": "00:38:39", "note": "1659 Massachusetts Bay ban and fine; ban lasts in practice for generations" },
-    { "facet": "regions", "part": 2, "at": "00:40:10", "note": "brief Soviet ban and co-option of Christmas; too short for RU in setting" }
+    {
+      "facet": "format",
+      "part": 1,
+      "at": "00:00:34",
+      "note": "Margaret Killjoy hosts her own show Cool People Who Did Cool Stuff, re-run in the BtB feed"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:20:13",
+      "note": "long Saturnalia segment on Roman midwinter festival customs begins"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:18:07",
+      "note": "fourth-century church fixes Jesus's birth at the winter solstice"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:28:42",
+      "note": "Yule and Germanic pagan midwinter customs segment"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:05:53",
+      "note": "church first represses then co-opts revelry; 8th-century bishop complains"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:24:18",
+      "note": "centuries of church condemnations of ritual cross-dressing and animal costumes"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:16:53",
+      "note": "wassailing framed as the poor demanding food and money from the rich"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:32:53",
+      "note": "1640s English Civil War era: Puritans make Christmas a culture-war issue"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:34:57",
+      "note": "1643 apprentice riots and later riots against the Christmas ban"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:36:32",
+      "note": "Canterbury Plum Pudding riots; mob takes the city for a day"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:38:39",
+      "note": "1659 Massachusetts Bay ban and fine; ban lasts in practice for generations"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:40:10",
+      "note": "brief Soviet ban and co-option of Christmas; too short for RU in setting"
+    }
   ],
   "notes": "Crossover chosen over hero: no hero/cool-people cue in title or description, and the story is a festival history, not one hero. Covered start -217 is my estimate (Saturnalia's Republican-era reform; the episode gives no dates). Main span 336-1660 is a judgment call for the church's long campaign. Modern attacks on Christmas drag shows are a comparison, not counted. No theme for holidays or festivals."
 }

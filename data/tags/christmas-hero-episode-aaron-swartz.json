@@ -53,6 +53,7 @@
   },
   "summary": "Hero episode on American programmer and activist Aaron Swartz, who helped build RSS, Creative Commons and Reddit, fought for open access and against SOPA, and died by suicide in 2013 while facing federal prosecution over JSTOR downloads.",
   "content_warnings": ["suicide-self-harm"],
+  "content_mentions": [],
   "keywords": [
     "RSS",
     "Creative Commons",
@@ -122,17 +123,24 @@
       "at": "00:37:19",
       "note": "Lobbying Congress and founding Demand Progress to defeat SOPA"
     },
-    {
-      "facet": "time",
-      "part": 2,
-      "at": "00:42:55",
-      "note": "Suicide on 11 January 2013"
-    },
+    { "facet": "time", "part": 2, "at": "00:42:55", "note": "Suicide on 11 January 2013" },
     {
       "facet": "time",
       "part": 2,
       "at": "00:44:24",
       "note": "Legacy to 2023: open access policy changes, Sci-Hub, Aaron's Law, MIT report"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:55:11",
+      "note": "Swartz's Reddit post read as a suicide note and the police welfare check that followed"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:42:55",
+      "note": "Account of Swartz's death by hanging in 2013 and the depression behind it"
     }
   ],
   "notes": "No theme fits copyright and open access, or chronic illness and mental health, which are both central; tech-internet is the closest primary. electoral-politics covers the SOPA congressional fight and his political ambitions, a moderate fit. Quinn Norton's birth year is not given, so floruit is used."

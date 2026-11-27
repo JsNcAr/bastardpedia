@@ -57,6 +57,7 @@
   },
   "summary": "Three American broadcasters, Joe Pyne, Wally George and Morton Downey Jr., built confrontational right-wing talk radio and combat TV from the 1940s to the 1980s, trading on outrage, bigotry and staged fights.",
   "content_warnings": ["hate-speech"],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "It's Your Nickel",
     "Hot Seat",
@@ -78,18 +79,73 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:07:57", "note": "Pyne born in Chester, Pennsylvania, December 1924" },
-    { "facet": "time", "part": 1, "at": "00:16:29", "note": "1949 Kenosha: Pyne puts a caller on air, start of call-in radio" },
-    { "facet": "time", "part": 1, "at": "00:56:19", "note": "lung cancer diagnosis and death in 1970" },
-    { "facet": "time", "part": 2, "at": "00:02:08", "note": "Wally George born 1931 in Oakland, California" },
-    { "facet": "time", "part": 2, "at": "00:29:57", "note": "last Metzger interview around 1992, used as main_span end" },
-    { "facet": "time", "part": 2, "at": "00:44:05", "note": "George stops taping new shows, dies of pneumonia in 2003" },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:07:57",
+      "note": "Pyne born in Chester, Pennsylvania, December 1924"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:16:29",
+      "note": "1949 Kenosha: Pyne puts a caller on air, start of call-in radio"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:56:19",
+      "note": "lung cancer diagnosis and death in 1970"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:02:08",
+      "note": "Wally George born 1931 in Oakland, California"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:29:57",
+      "note": "last Metzger interview around 1992, used as main_span end"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:44:05",
+      "note": "George stops taping new shows, dies of pneumonia in 2003"
+    },
     { "facet": "time", "part": 3, "at": "00:02:47", "note": "Downey born 1932 in Los Angeles" },
-    { "facet": "time", "part": 3, "at": "00:48:08", "note": "Downey dies 2001; show cancelled 1989" },
-    { "facet": "regions", "part": 2, "at": "00:30:59", "note": "Hot Seat taped in Orange County; Pyne's peak years also in Los Angeles" },
-    { "facet": "themes", "part": 2, "at": "00:26:43", "note": "segment on George hosting White Aryan Resistance leader Tom Metzger" },
-    { "facet": "themes", "part": 3, "at": "00:37:16", "note": "Downey roundtable airing black-on-white crime talking points" },
-    { "facet": "time", "part": 3, "at": "00:48:42", "note": "column tracing Downey's model to Fox News and modern polarization" }
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "00:48:08",
+      "note": "Downey dies 2001; show cancelled 1989"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:30:59",
+      "note": "Hot Seat taped in Orange County; Pyne's peak years also in Los Angeles"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:26:43",
+      "note": "segment on George hosting White Aryan Resistance leader Tom Metzger"
+    },
+    {
+      "facet": "themes",
+      "part": 3,
+      "at": "00:37:16",
+      "note": "Downey roundtable airing black-on-white crime talking points"
+    },
+    {
+      "facet": "time",
+      "part": 3,
+      "at": "00:48:42",
+      "note": "column tracing Downey's model to Fox News and modern polarization"
+    }
   ],
   "notes": "Three-part series with equal weight on three hosts, so all three are primary even though the title names only Pyne. main_span runs from Pyne's 1949 call-in invention to George's early-1990s peak and decline. US-CA chosen because Pyne's national fame and George's whole career happened there; Downey's TV show taped in Secaucus, NJ. Packet spells it Pine; standard spelling Pyne used."
 }

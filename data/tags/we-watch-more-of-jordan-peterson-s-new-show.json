@@ -52,6 +52,7 @@
   },
   "summary": "A watch-through of the second episode of Jordan Peterson's 2022 Daily Wire series, fact-checking his claims about declining men, women's mate choice, mass shooters and schooling, and recounting how he abandoned his therapy patients as he became famous.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence", "child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "The Daily Wire",
     "Canadaland",
@@ -73,18 +74,78 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "subjects", "part": 1, "at": "00:03:40", "note": "Episode two of season one of the Peterson Daily Wire series introduced as the text being watched" },
-    { "facet": "themes", "part": 1, "at": "00:07:00", "note": "Peterson's claims that men are becoming passive and failing in school, checked against degree data" },
-    { "facet": "subjects", "part": 1, "at": "00:26:33", "note": "Peterson's friend Marian Tupy and his abundance claims get a long segment" },
-    { "facet": "time", "part": 1, "at": "00:29:07", "note": "Tupy's June 2015 National Review piece against the Pope's climate encyclical examined" },
-    { "facet": "themes", "part": 1, "at": "00:30:12", "note": "Host rebuts climate optimism with crop failures and record heat" },
-    { "facet": "themes", "part": 1, "at": "00:42:57", "note": "Media coverage of shootings inflating public fear of crime discussed" },
-    { "facet": "themes", "part": 1, "at": "00:46:02", "note": "Peterson's hypergamy argument about women choosing men by resources" },
-    { "facet": "themes", "part": 2, "at": "00:10:12", "note": "Fatherless mass shooter claim traced to right-wing media and debunked" },
-    { "facet": "themes", "part": 2, "at": "00:17:34", "note": "Canadaland report on Peterson cancelling patients and sharing their information" },
-    { "facet": "time", "part": 2, "at": "00:20:13", "note": "Patient abandonment dated to the 2016 University of Toronto pronoun fight" },
-    { "facet": "themes", "part": 2, "at": "00:24:24", "note": "Prussian schooling claim checked against Japan's 1870s-1890s education reforms" },
-    { "facet": "themes", "part": 2, "at": "00:49:11", "note": "Peterson's framing of MeToo and tamable-beast fantasies critiqued" }
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:03:40",
+      "note": "Episode two of season one of the Peterson Daily Wire series introduced as the text being watched"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:07:00",
+      "note": "Peterson's claims that men are becoming passive and failing in school, checked against degree data"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:26:33",
+      "note": "Peterson's friend Marian Tupy and his abundance claims get a long segment"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:29:07",
+      "note": "Tupy's June 2015 National Review piece against the Pope's climate encyclical examined"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:30:12",
+      "note": "Host rebuts climate optimism with crop failures and record heat"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:42:57",
+      "note": "Media coverage of shootings inflating public fear of crime discussed"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:46:02",
+      "note": "Peterson's hypergamy argument about women choosing men by resources"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:10:12",
+      "note": "Fatherless mass shooter claim traced to right-wing media and debunked"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:17:34",
+      "note": "Canadaland report on Peterson cancelling patients and sharing their information"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:20:13",
+      "note": "Patient abandonment dated to the 2016 University of Toronto pronoun fight"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:24:24",
+      "note": "Prussian schooling claim checked against Japan's 1870s-1890s education reforms"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:49:11",
+      "note": "Peterson's framing of MeToo and tamable-beast fantasies critiqued"
+    }
   ],
   "notes": "Series title ambiguous in transcript: Dragons, Monsters and Men may be the episode or series name. Tupy's birth year not given; floruit 2015 from his article. Covered span starts at Tupy's 2015 article; Japan's Meiji school reforms are a fact-check, not story time. medical-malpractice used for Peterson's patient abandonment as a licensed psychologist; no closer theme. Nine-minute Bosstones digression ignored."
 }

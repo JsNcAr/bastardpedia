@@ -44,7 +44,8 @@
     "approximate": false
   },
   "summary": "Alabama physician J. Marion Sims, called the father of gynecology, developed fistula surgery in the 1840s through repeated experimental operations without anesthesia on enslaved Black women who could not consent.",
-  "content_warnings": ["medical-horror", "slavery"],
+  "content_warnings": ["slavery", "medical-horror"],
+  "content_mentions": ["suicide-self-harm"],
   "keywords": [
     "vesicovaginal fistula",
     "speculum",
@@ -66,17 +67,78 @@
     "time": "high"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:12:55", "note": "Sims born in Lancaster County, South Carolina, in 1813" },
-    { "facet": "themes", "part": 1, "at": "00:33:06", "note": "plantation doctors as part of the slave-breeding economy" },
-    { "facet": "regions", "part": 1, "at": "00:34:41", "note": "Sims builds a small hospital in Montgomery's slave-trading district" },
-    { "facet": "time", "part": 1, "at": "00:48:17", "note": "experiments on enslaved women begin in 1845" },
-    { "facet": "subjects", "part": 1, "at": "00:48:48", "note": "Lucy, Anarcha and Betsy named as the main test subjects" },
-    { "facet": "content_warnings", "part": 2, "at": "00:05:48", "note": "Lucy's hour-long unanesthetized operation described in detail" },
-    { "facet": "themes", "part": 2, "at": "00:32:23", "note": "belief that Black patients feel less pain, and its modern legacy" },
-    { "facet": "time", "part": 2, "at": "00:35:28", "note": "Woman's Hospital patient Mary Smith operated on 30+ times from 1855" },
-    { "facet": "regions", "part": 2, "at": "00:40:54", "note": "Civil War years in Europe, treats French patients and Empress Eugenie" },
-    { "facet": "themes", "part": 2, "at": "00:42:30", "note": "skull-prying operations on enslaved children based on racist theory" },
-    { "facet": "time", "part": 2, "at": "00:43:30", "note": "death in Manhattan in 1883; statue removed in 2018" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:12:55",
+      "note": "Sims born in Lancaster County, South Carolina, in 1813"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:33:06",
+      "note": "plantation doctors as part of the slave-breeding economy"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:34:41",
+      "note": "Sims builds a small hospital in Montgomery's slave-trading district"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:48:17",
+      "note": "experiments on enslaved women begin in 1845"
+    },
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:48:48",
+      "note": "Lucy, Anarcha and Betsy named as the main test subjects"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:32:23",
+      "note": "belief that Black patients feel less pain, and its modern legacy"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:35:28",
+      "note": "Woman's Hospital patient Mary Smith operated on 30+ times from 1855"
+    },
+    {
+      "facet": "regions",
+      "part": 2,
+      "at": "00:40:54",
+      "note": "Civil War years in Europe, treats French patients and Empress Eugenie"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:42:30",
+      "note": "skull-prying operations on enslaved children based on racist theory"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:43:30",
+      "note": "death in Manhattan in 1883; statue removed in 2018"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:54:35",
+      "note": "Quoted passage lists depression and suicide among effects of untreated fistula"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:05:48",
+      "note": "Lucy's hour-long unanesthetized operation described in detail"
+    }
   ],
   "notes": "Opening segment on prehistoric medicine (Venus of Willendorf, Neolithic dentistry) treated as background, not covered span. L. L. Wall's modern defence of Sims is a long thread but counts as reinterpretation, so it sets reaches_present rather than extending the span. science-exploration is a loose fit for the history-of-gynecology framing and speculum invention. FR setting is thin."
 }

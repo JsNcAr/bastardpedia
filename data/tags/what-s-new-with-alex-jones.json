@@ -33,10 +33,7 @@
       }
     }
   ],
-  "roles": [
-    "conspiracy-theorist",
-    "media-personality"
-  ],
+  "roles": ["conspiracy-theorist", "media-personality"],
   "themes": {
     "primary": "conspiracy-theories",
     "secondary": [
@@ -48,12 +45,8 @@
     ]
   },
   "regions": {
-    "origin": [
-      "US"
-    ],
-    "setting": [
-      "US"
-    ],
+    "origin": ["US"],
+    "setting": ["US"],
     "subdivisions": [],
     "polities": [],
     "scope": "national"
@@ -72,6 +65,7 @@
   },
   "summary": "Update on US conspiracy broadcaster Alex Jones: his Infowars coverage of COVID-19, January 6 and Russia's invasion of Ukraine, and the Sandy Hook defamation suits over his promotion of harassment of grieving families, as of 2022.",
   "content_warnings": [],
+  "content_mentions": ["child-sexual-abuse", "suicide-self-harm"],
   "keywords": [
     "Sandy Hook",
     "Knowledge Fight",
@@ -84,10 +78,7 @@
     "Free Speech Systems",
     "Russian invasion of Ukraine"
   ],
-  "guests": [
-    "Dan Friesen",
-    "Jordan Holmes"
-  ],
+  "guests": ["Dan Friesen", "Jordan Holmes"],
   "confidence": {
     "subjects": "high",
     "roles": "high",
@@ -155,6 +146,18 @@
       "part": 1,
       "at": "00:18:55",
       "note": "Jones's race-specific bioweapon clip; later Christchurch shooter sites by Infowars staff (part 2)"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "01:17:38",
+      "note": "Guest notes Scott Ritter's convictions from police stings targeting minors"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 2,
+      "at": "00:33:51",
+      "note": "Child sexual abuse material found among Infowars discovery files, briefly noted"
     }
   ],
   "notes": "Guests named only as Dan and Jordan of Knowledge Fight; surnames from general knowledge. No theme for litigation/defamation. war-war-crimes covers Jones's Ukraine war coverage and Bucha denial (~15 min); setting kept US since his acts happen on his US show. Sandy Hook deaths are background, not described, so no child-death warning. main_span end null: Jones active at release."

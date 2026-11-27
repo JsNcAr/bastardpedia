@@ -40,6 +40,7 @@
   },
   "summary": "Unelected New York parks chief Robert Moses reshaped the city and state from the 1920s to 1962, building car-centred highways and parks that displaced Black neighbourhoods, blocked transit and walled off the poor.",
   "content_warnings": [],
+  "content_mentions": [],
   "keywords": [
     "The Power Broker",
     "Robert Caro",
@@ -61,17 +62,72 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "time", "part": 1, "at": "00:04:50", "note": "born in New Haven, Connecticut, in 1888 to an affluent Jewish family" },
-    { "facet": "themes", "part": 1, "at": "00:13:39", "note": "Yale quota on Jewish students shapes his position on the edge of elite society" },
-    { "facet": "regions", "part": 1, "at": "00:21:31", "note": "extended segment on his Egypt visit and admiration for British colonial rule under Kitchener" },
-    { "facet": "themes", "part": 1, "at": "00:28:52", "note": "first city job in civil service reform against Tammany Hall patronage" },
-    { "facet": "time", "part": 1, "at": "00:33:30", "note": "made head of Long Island and state park bodies in the 1920s, holds them about forty years" },
-    { "facet": "themes", "part": 1, "at": "00:46:51", "note": "low bridges and vetoed rail line keep buses and poor, Black visitors from Jones Beach" },
-    { "facet": "themes", "part": 2, "at": "00:05:14", "note": "Cross Bronx Expressway evicts mostly Black residents of East Tremont" },
-    { "facet": "themes", "part": 2, "at": "00:07:22", "note": "displaced tenants pushed into crowded tenements; housing inequality" },
-    { "facet": "themes", "part": 2, "at": "00:21:30", "note": "playground and park spending in Harlem far below white neighbourhoods" },
-    { "facet": "time", "part": 2, "at": "00:26:09", "note": "stripped of most offices in 1962 when Rockefeller accepts his resignation" },
-    { "facet": "time", "part": 2, "at": "00:29:12", "note": "dies in 1981; subway decay and MTA plans followed up to recent years" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:04:50",
+      "note": "born in New Haven, Connecticut, in 1888 to an affluent Jewish family"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:13:39",
+      "note": "Yale quota on Jewish students shapes his position on the edge of elite society"
+    },
+    {
+      "facet": "regions",
+      "part": 1,
+      "at": "00:21:31",
+      "note": "extended segment on his Egypt visit and admiration for British colonial rule under Kitchener"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:28:52",
+      "note": "first city job in civil service reform against Tammany Hall patronage"
+    },
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:33:30",
+      "note": "made head of Long Island and state park bodies in the 1920s, holds them about forty years"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:46:51",
+      "note": "low bridges and vetoed rail line keep buses and poor, Black visitors from Jones Beach"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:05:14",
+      "note": "Cross Bronx Expressway evicts mostly Black residents of East Tremont"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:07:22",
+      "note": "displaced tenants pushed into crowded tenements; housing inequality"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:21:30",
+      "note": "playground and park spending in Harlem far below white neighbourhoods"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:26:09",
+      "note": "stripped of most offices in 1962 when Rockefeller accepts his resignation"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:29:12",
+      "note": "dies in 1981; subway decay and MTA plans followed up to recent years"
+    }
   ],
   "notes": "No theme for urban planning, infrastructure or public transit, the story's real core; racism-white-supremacy chosen as closest (racist housing and segregation). Main_span start 1924 is from general knowledge (transcript says early 1920s). Later exclusionary-architecture examples (Detroit wall, Hamden fence, Cynthia Wiggins) are comparisons, so they do not extend covered_span."
 }

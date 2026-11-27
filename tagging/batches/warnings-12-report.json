@@ -1,0 +1,132 @@
+[
+  {
+    "id": "louis-van-schoor-the-deadliest-security-guard-in-history",
+    "before": {
+      "warnings": ["graphic-violence", "child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "graphic-violence"],
+      "mentions": ["sexual-violence", "child-sexual-abuse", "child-abuse", "animal-cruelty"]
+    },
+    "notes": "The child-sexual-abuse mention is a one-line sarcastic aside about a moral panic, not an actual case; reviewer may judge it too slight. Part 2 (the daughter's story) had no strict-warning candidates."
+  },
+  {
+    "id": "do-we-really-need-to-talk-about-kevin",
+    "before": {
+      "warnings": ["child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse"],
+      "mentions": []
+    },
+    "notes": "Old child-abuse warning was really sexual abuse, so it becomes child-sexual-abuse. The sexual-coercion candidates concern the child, filed under child-sexual-abuse. Wife's account that he choked her is domestic abuse, not a strict warning."
+  },
+  {
+    "id": "blue-dawn-a-right-wing-fantasy-of-leftist-revolution",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": []
+    }
+  },
+  {
+    "id": "the-rfk-jr-episodes",
+    "before": {
+      "warnings": [
+        "drug-use",
+        "suicide-self-harm",
+        "sexual-violence",
+        "child-death",
+        "child-abuse"
+      ],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-death", "suicide-self-harm", "drug-use"],
+      "mentions": ["child-sexual-abuse", "child-abuse", "animal-cruelty"]
+    },
+    "notes": "child-abuse kept as a mention per the rule; the scan found only the boarding-school aside, and the original tag may have meant Kennedy family upbringing or the babysitter case. Reviewer could check parts 1-2 for harsher parenting material."
+  },
+  {
+    "id": "beau-brummell-the-first-celebrity-and-inventor-of-the-suit-and-tie",
+    "before": {
+      "warnings": ["child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse", "child-abuse"],
+      "mentions": []
+    },
+    "notes": "Old child-abuse covered both; both apply. Part 2 grooming hits are about personal hygiene and were dropped. Sexual-violence candidates all involve minors and are filed under child-sexual-abuse."
+  },
+  {
+    "id": "the-dr-laura-episodes",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": ["sexual-violence", "suicide-self-harm"]
+    },
+    "notes": "The grooming hit (part 2, 00:11:00) is about her affair with a much older mentor when she was an adult, so it was dropped from child-sexual-abuse. He later sold her nude photos without consent (part 2, about 00:08:57). It is not scored on its own, since sexual-violence is already a mention."
+  },
+  {
+    "id": "the-july-4th-terrible-right-wing-novel-spectacular",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "how-avery-brundage-gave-hitler-an-olympics",
+    "before": {
+      "warnings": ["hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["hate-speech"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "The part 2 molest hits mean harassment of Jewish athletes, so dropped from sexual-violence."
+  },
+  {
+    "id": "how-the-british-empire-and-u-s-department-of-defense-murdered-an-island-paradise",
+    "before": {
+      "warnings": ["animal-cruelty", "child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "animal-cruelty"],
+      "mentions": []
+    },
+    "notes": "The scan found no candidates; evidence comes from searching the part 2 transcript for dogs. The existing animal-cruelty warning is confirmed as detailed."
+  },
+  {
+    "id": "thomas-jefferson-king-of-hypocrites",
+    "before": {
+      "warnings": ["slavery", "child-abuse", "sexual-violence", "hate-speech"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [
+        "sexual-violence",
+        "child-sexual-abuse",
+        "child-abuse",
+        "slavery",
+        "hate-speech"
+      ],
+      "mentions": ["animal-cruelty"]
+    },
+    "notes": "Old child-abuse applies both ways: Hemings goes to child-sexual-abuse, and the nailery child labor (part 4, ~00:16 to 00:38, found by transcript search, not the scan) keeps child-abuse as detailed. The animal-cruelty mention is only a figurative comparison."
+  }
+]

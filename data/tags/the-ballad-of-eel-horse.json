@@ -48,7 +48,8 @@
     "approximate": true
   },
   "summary": "Traces the practice of English horse dealers inserting live eels, later ginger, into old horses to pass them off as young, through eel torture in the CIA's Phoenix Program to modern Chinese hospital cases blamed on a folk constipation cure.",
-  "content_warnings": ["medical-horror", "torture", "sexual-violence", "animal-cruelty"],
+  "content_warnings": ["sexual-violence", "torture", "medical-horror", "animal-cruelty"],
+  "content_mentions": [],
   "keywords": [
     "eel horse",
     "figging",
@@ -117,6 +118,30 @@
       "part": 1,
       "at": "00:42:00",
       "note": "colon surgeon doubts the folk remedy exists; host traces it to one article and suspects kink"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:17:51",
+      "note": "Read list of Phoenix Program interrogation tortures including rape and rape with eels"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:19:22",
+      "note": "Hosts dwell on prisoners being raped to death with eels"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:04:14",
+      "note": "Explains dealers forcing live eels into old horses to make them seem lively"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 1,
+      "at": "00:08:22",
+      "note": "Period dictionary and poems describe the eel insertion practice on horses"
     }
   ],
   "notes": "Odd one-off: no theme covers animal cruelty, sexual kink or bizarre medical cases. fraud-grift picked as primary for dealers passing old horses off as young; quackery-pseudoscience covers the folk cure. Phoenix Program is a ~5 minute digression. Feaguing start year is approximate; host also implies 1400s. NZ (2012) and Brazil (2014) cases mentioned briefly, left out of setting."

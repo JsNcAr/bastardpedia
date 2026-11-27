@@ -59,6 +59,7 @@
   },
   "summary": "Corporate raider Frank Lorenzo bought up struggling US airlines from 1972, broke their unions through lockouts, scab labor and a Chapter 11 filing used to void contracts, and helped create today's tiered, cut-rate air travel.",
   "content_warnings": ["suicide-self-harm"],
+  "content_mentions": [],
   "keywords": [
     "Texas Air Corporation",
     "peanut fares",
@@ -81,17 +82,72 @@
   },
   "evidence": [
     { "facet": "time", "part": 1, "at": "00:05:20", "note": "born in New York City in 1940" },
-    { "facet": "time", "part": 1, "at": "00:47:29", "note": "elected president and CEO of Texas International in 1972" },
-    { "facet": "themes", "part": 1, "at": "00:50:28", "note": "1974 ground workers strike at TI; four-month shutdown until the union folds" },
-    { "facet": "themes", "part": 1, "at": "00:20:07", "note": "caught double voting in a rigged Columbia student election" },
-    { "facet": "content_warnings", "part": 2, "at": "00:11:32", "note": "Continental CEO Feldman's suicide after the employee buyout collapses" },
-    { "facet": "themes", "part": 2, "at": "00:33:18", "note": "plan to file Chapter 11 to void union contracts at Continental" },
-    { "facet": "themes", "part": 2, "at": "00:38:39", "note": "1983 strike turns violent: pipe bombs, police leaking striker data" },
-    { "facet": "themes", "part": 2, "at": "00:40:28", "note": "company-loaned stock deal pays him far more than his cut salary" },
-    { "facet": "themes", "part": 2, "at": "00:43:34", "note": "free-flight favours to an Australian governor; bankruptcy judge joins his law firm" },
-    { "facet": "subjects", "part": 2, "at": "00:44:56", "note": "takeover of Eastern and its abusive treatment of unionized staff" },
-    { "facet": "time", "part": 2, "at": "00:47:05", "note": "1989 Eastern machinists strike, sympathy strikes, collapse of his empire" },
-    { "facet": "time", "part": 2, "at": "00:48:05", "note": "forced out of airlines; later bid for a new carrier refused" }
+    {
+      "facet": "time",
+      "part": 1,
+      "at": "00:47:29",
+      "note": "elected president and CEO of Texas International in 1972"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:50:28",
+      "note": "1974 ground workers strike at TI; four-month shutdown until the union folds"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:20:07",
+      "note": "caught double voting in a rigged Columbia student election"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:33:18",
+      "note": "plan to file Chapter 11 to void union contracts at Continental"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:38:39",
+      "note": "1983 strike turns violent: pipe bombs, police leaking striker data"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:40:28",
+      "note": "company-loaned stock deal pays him far more than his cut salary"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:43:34",
+      "note": "free-flight favours to an Australian governor; bankruptcy judge joins his law firm"
+    },
+    {
+      "facet": "subjects",
+      "part": 2,
+      "at": "00:44:56",
+      "note": "takeover of Eastern and its abusive treatment of unionized staff"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:47:05",
+      "note": "1989 Eastern machinists strike, sympathy strikes, collapse of his empire"
+    },
+    {
+      "facet": "time",
+      "part": 2,
+      "at": "00:48:05",
+      "note": "forced out of airlines; later bid for a new carrier refused"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:11:32",
+      "note": "Step-by-step account of an airline executive shooting himself in his office"
+    }
   ],
   "notes": "Lifetime rule gives covered_span 1940-2023 though post-1990 life is a brief coda. reaches_present set from the framing that modern fare tiers and industry consolidation are his legacy; borderline. Feldman birth year not stated, left null. Short Robert Six and Rickenbacker background not counted. No theme for transport or deregulation."
 }

@@ -67,11 +67,12 @@
   "summary": "Vince McMahon took over his father's wrestling promotion and built the WWF into a national empire while overseeing a steroid culture, union-busting, a ring-boy abuse scandal, sexual assault allegations and deadly negligence.",
   "content_warnings": [
     "sexual-violence",
-    "child-abuse",
-    "drug-use",
+    "child-sexual-abuse",
     "graphic-violence",
-    "suicide-self-harm"
+    "suicide-self-harm",
+    "drug-use"
   ],
+  "content_mentions": ["child-abuse"],
   "keywords": [
     "WWF",
     "kayfabe",

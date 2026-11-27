@@ -46,6 +46,7 @@
   },
   "summary": "A watch-through of the first episode of Jordan Peterson's 2022 Daily Wire series, critiquing his advice on what makes a man, his use of dragon and fairy-tale archetypes, and his false claims about agreeableness and epigenetics.",
   "content_warnings": [],
+  "content_mentions": ["child-sexual-abuse"],
   "keywords": [
     "The Daily Wire",
     "What Makes a Man",
@@ -67,16 +68,72 @@
     "time": "medium"
   },
   "evidence": [
-    { "facet": "subjects", "part": 1, "at": "00:03:10", "note": "Series name and Daily Wire streaming home introduced; episode one titled What Makes a Man" },
-    { "facet": "themes", "part": 1, "at": "00:13:17", "note": "Peterson's generic self-improvement advice for young men dissected" },
-    { "facet": "themes", "part": 1, "at": "00:31:01", "note": "Segment on his advice to join and not criticise a church, with the Catholic abuse scandal as rebuttal" },
-    { "facet": "themes", "part": 1, "at": "00:34:09", "note": "Archetypes such as the evil uncle compared to screenwriting shortcuts" },
-    { "facet": "themes", "part": 1, "at": "00:38:52", "note": "Peterson's claim to be a biologist challenged" },
-    { "facet": "themes", "part": 1, "at": "00:42:32", "note": "Agreeableness claim checked against a 2022 meta-analysis and found wrong" },
-    { "facet": "themes", "part": 1, "at": "00:45:38", "note": "His masculinity framed as managing and controlling everyone around you" },
-    { "facet": "themes", "part": 1, "at": "00:56:38", "note": "Sleeping Beauty and sword of truth reading critiqued" },
-    { "facet": "themes", "part": 2, "at": "00:19:32", "note": "Dragons guarding virgins rant and its view of what women want" },
-    { "facet": "themes", "part": 2, "at": "00:32:14", "note": "Misuse of epigenetics as unlocking ancestral abilities, corrected" }
+    {
+      "facet": "subjects",
+      "part": 1,
+      "at": "00:03:10",
+      "note": "Series name and Daily Wire streaming home introduced; episode one titled What Makes a Man"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:13:17",
+      "note": "Peterson's generic self-improvement advice for young men dissected"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:31:01",
+      "note": "Segment on his advice to join and not criticise a church, with the Catholic abuse scandal as rebuttal"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:34:09",
+      "note": "Archetypes such as the evil uncle compared to screenwriting shortcuts"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:38:52",
+      "note": "Peterson's claim to be a biologist challenged"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:42:32",
+      "note": "Agreeableness claim checked against a 2022 meta-analysis and found wrong"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:45:38",
+      "note": "His masculinity framed as managing and controlling everyone around you"
+    },
+    {
+      "facet": "themes",
+      "part": 1,
+      "at": "00:56:38",
+      "note": "Sleeping Beauty and sword of truth reading critiqued"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:19:32",
+      "note": "Dragons guarding virgins rant and its view of what women want"
+    },
+    {
+      "facet": "themes",
+      "part": 2,
+      "at": "00:32:14",
+      "note": "Misuse of epigenetics as unlocking ancestral abilities, corrected"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:37:18",
+      "note": "Passing reference to Catholic Church clergy abusing children and covering it up"
+    }
   ],
   "notes": "Companion to we-watch-more-of-jordan-peterson-s-new-show (episode two); tagged consistently with it. Benzo detox and Bill C-16 are brief asides, so the covered span stays at 2022. quackery-pseudoscience covers his pseudoscientific biology claims (epigenetics, agreeableness) rather than a fake treatment."
 }

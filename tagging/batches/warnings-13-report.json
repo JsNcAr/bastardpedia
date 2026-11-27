@@ -1,0 +1,122 @@
+[
+  {
+    "id": "kent-hovind-fake-dinosaur-scholar-and-accidental-child-killer",
+    "before": {
+      "warnings": ["child-abuse", "child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse", "child-death"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Current child-abuse warning dropped: the sexual abuse content moves to child-sexual-abuse, the only child-abuse hit is a joke about beating at cards, and the drowned boy (negligence, about 00:36) is covered by child-death. Reviewer may want child-abuse kept as mentions for the park's negligence."
+  },
+  {
+    "id": "boston-slide-cop",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Only a figurative use of suicide wording; listed as a mention per the when-in-doubt rule."
+  },
+  {
+    "id": "the-darkest-episode-we-will-ever-do",
+    "before": {
+      "warnings": ["child-abuse", "child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-sexual-abuse", "child-abuse", "child-death"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Part 1 has no transcript and was not scanned; its description says it covers the harm to poor children, so it likely adds more of both. Sexual-violence hits all concern children and were moved to child-sexual-abuse."
+  },
+  {
+    "id": "the-parenting-gurus-of-nazi-germany",
+    "before": {
+      "warnings": ["child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm", "animal-cruelty"]
+    },
+    "notes": "Child-sexual-abuse is jokes only. The 00:52:26 child marriage hit reads as a transcription of a pro-large-family marriage policy and was dropped. Animal-cruelty is a speculative joke."
+  },
+  {
+    "id": "the-bastards-of-forensic-science",
+    "before": {
+      "warnings": ["sexual-violence", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "graphic-violence"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "The Duncan case (part 2, about 00:23 to 00:30) describes an examiner pressing a dental cast into a dead child's body; graphic, but the sexual abuse itself is an allegation, so child-sexual-abuse is a mention. Reviewer may consider child-abuse for that case."
+  },
+  {
+    "id": "beria-stalin-s-pedophile-cop-the-soviet-oppenheimer",
+    "before": {
+      "warnings": ["mass-atrocity", "sexual-violence", "child-abuse", "torture"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "child-sexual-abuse", "torture", "mass-atrocity"],
+      "mentions": ["suicide-self-harm"]
+    },
+    "notes": "Current child-abuse warning dropped: the scan finds no physical or emotional abuse of children; the child content is sexual and moves to child-sexual-abuse. Part 4 pedophilia hits are an unrelated news joke."
+  },
+  {
+    "id": "how-conservatism-won",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": []
+    },
+    "notes": "No candidates for any strict warning, and nothing in the descriptions or current tags suggests one."
+  },
+  {
+    "id": "the-fake-doctors-who-gave-everyone-alzheimer-s",
+    "before": {
+      "warnings": ["suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["suicide-self-harm"],
+      "mentions": []
+    },
+    "notes": "Short but explicit (method stated), so kept as detailed."
+  },
+  {
+    "id": "the-dennis-the-menace-creator-was-a-shockingly-bad-man",
+    "before": {
+      "warnings": ["child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse"],
+      "mentions": []
+    },
+    "notes": "The scan found no candidates, so I checked the part 2 transcript directly: the neglect of Dennis runs from about 00:06 to 00:20, including hiding his mother's death. Timestamps come from the transcript, not the packet."
+  },
+  {
+    "id": "the-terrible-secret-of-steve-jobs",
+    "before": {
+      "warnings": ["suicide-self-harm", "child-abuse"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-abuse", "suicide-self-harm"],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "Child-abuse had no scan hits; I checked parts 2 and 3 directly. Lisa's treatment recurs across part 2 (about 00:41 to 00:58) and part 3 (several stretches), so detailed. Sexual-violence is one context-free line in the intro and is worth a look."
+  }
+]

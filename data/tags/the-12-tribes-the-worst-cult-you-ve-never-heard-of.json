@@ -57,7 +57,8 @@
     "approximate": false
   },
   "summary": "Former carnival worker Eugene Spriggs founded the Twelve Tribes in 1970s Chattanooga, a communal Christian sect that spread across the US and abroad while systematically beating children, preaching racist doctrine and using members as unpaid labor.",
-  "content_warnings": ["child-abuse", "child-death", "hate-speech"],
+  "content_warnings": ["child-sexual-abuse", "child-abuse", "child-death", "hate-speech"],
+  "content_mentions": ["suicide-self-harm", "animal-cruelty"],
   "keywords": [
     "Yellow Deli",
     "Island Pond",
@@ -122,12 +123,6 @@
       "note": "teaching that gay people deserve death; later a boy punished as gay"
     },
     {
-      "facet": "content_warnings",
-      "part": 2,
-      "at": "00:28:16",
-      "note": "infant death in a whooping cough outbreak and a stillbirth after denied care"
-    },
-    {
       "facet": "regions",
       "part": 2,
       "at": "00:47:11",
@@ -139,17 +134,18 @@
       "at": "00:50:16",
       "note": "unpaid member labor in cult construction firms and LLC structure"
     },
-    {
-      "facet": "time",
-      "part": 2,
-      "at": "01:05:12",
-      "note": "Spriggs dies in January 2021"
-    },
+    { "facet": "time", "part": 2, "at": "01:05:12", "note": "Spriggs dies in January 2021" },
     {
       "facet": "time",
       "part": 1,
       "at": "00:03:03",
       "note": "opens on the 2021 Marshall Fire that began on cult property; current status discussed"
+    },
+    {
+      "facet": "content_warnings",
+      "part": 2,
+      "at": "00:41:13",
+      "note": "Long segment on child molestation in the communes and elders covering it up"
     }
   ],
   "notes": "Cult and founder treated as co-primary; lifetime rule sets covered_span 1937-2021. The 2021 Marshall Fire and 2023 investigation frame the opening briefly, so they set reaches_present rather than extending covered_span. France raid is a one-line mention and is left out of setting. Several US states (TN, VT, FL, CO) share the story, so no single subdivision."

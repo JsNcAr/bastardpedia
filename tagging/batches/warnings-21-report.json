@@ -1,0 +1,133 @@
+[
+  {
+    "id": "harlon-carter-the-man-who-militarized-the-cops-and-the-nra",
+    "before": {
+      "warnings": ["graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["graphic-violence"],
+      "mentions": ["sexual-violence"]
+    },
+    "notes": "Both are brief asides; kept as mentions under the when-in-doubt rule."
+  },
+  {
+    "id": "what-s-new-with-alex-jones",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    }
+  },
+  {
+    "id": "ancient-genocide-and-the-war-on-carthage",
+    "before": {
+      "warnings": ["mass-atrocity", "graphic-violence", "slavery"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["slavery", "graphic-violence", "mass-atrocity"],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Sexual-violence candidate is the same groomer passage, moved to child-sexual-abuse. Ancient sackings may include rape the scan's words missed; not seen in candidates."
+  },
+  {
+    "id": "general-butt-naked-and-the-liberian-civil-war",
+    "before": {
+      "warnings": [
+        "graphic-violence",
+        "torture",
+        "mass-atrocity",
+        "child-abuse",
+        "child-death",
+        "sexual-violence"
+      ],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [
+        "sexual-violence",
+        "child-abuse",
+        "child-death",
+        "graphic-violence",
+        "torture",
+        "mass-atrocity"
+      ],
+      "mentions": []
+    },
+    "notes": "child-abuse kept detailed from the original record (child soldiers are central); 00:28:51 comes from the existing themes evidence, not the scan."
+  },
+  {
+    "id": "the-twilight-zone-movie",
+    "before": {
+      "warnings": ["child-death", "graphic-violence"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "graphic-violence"],
+      "mentions": ["sexual-violence", "child-sexual-abuse"]
+    },
+    "notes": "Theme child-abuse covers the illegal hiring and endangerment of two child actors; that may warrant a child-abuse mention (neglect by producers). Scan had no candidates, so not added; reviewer call."
+  },
+  {
+    "id": "a-terrible-story-about-the-internet",
+    "before": {
+      "warnings": ["sexual-violence", "child-abuse", "suicide-self-harm"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["sexual-violence", "suicide-self-harm"],
+      "mentions": ["child-sexual-abuse", "child-abuse"]
+    },
+    "notes": "child-abuse moved from detailed to mentions: only the brief babysitter account found. CSA: the 13-year-old catfisher thread runs about 7 minutes (part 2, 00:06-00:15); could be detailed. Reviewer call."
+  },
+  {
+    "id": "reading-unintended-consequences",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["sexual-violence"]
+    }
+  },
+  {
+    "id": "john-wayne-a-dude-who-sucked",
+    "before": {
+      "warnings": [],
+      "mentions": null
+    },
+    "after": {
+      "warnings": [],
+      "mentions": ["child-sexual-abuse", "suicide-self-harm"]
+    },
+    "notes": "Sexual-violence candidate was about the minor, moved to CSA. Domestic-abuse theme (he punches her repeatedly) is not a strict warning."
+  },
+  {
+    "id": "the-audubon-guy-was-a-monster",
+    "before": {
+      "warnings": ["slavery"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["slavery", "animal-cruelty"],
+      "mentions": []
+    },
+    "notes": "Scan found nothing; found by reading the transcript. Killing is specimen collection, not torture; detailed vs mentioned is a reviewer call."
+  },
+  {
+    "id": "that-time-britain-did-a-genocide-in-ireland",
+    "before": {
+      "warnings": ["mass-atrocity", "child-death"],
+      "mentions": null
+    },
+    "after": {
+      "warnings": ["child-death", "mass-atrocity"],
+      "mentions": ["sexual-violence"]
+    }
+  }
+]

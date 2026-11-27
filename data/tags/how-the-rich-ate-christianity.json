@@ -41,7 +41,12 @@
   "roles": [],
   "themes": {
     "primary": "religious-right-culture-war",
-    "secondary": ["propaganda-media", "organized-religion", "inequality-class", "electoral-politics"]
+    "secondary": [
+      "propaganda-media",
+      "organized-religion",
+      "inequality-class",
+      "electoral-politics"
+    ]
   },
   "regions": {
     "origin": ["US"],
@@ -58,6 +63,7 @@
   },
   "summary": "How American industrialists in the National Association of Manufacturers, led by J. Howard Pew and Jasper Crane, funded preacher James Fifield's Spiritual Mobilization from the 1930s to the 1950s to fuse Christianity with free-market capitalism against the New Deal.",
   "content_warnings": [],
+  "content_mentions": ["sexual-violence", "animal-cruelty"],
   "keywords": [
     "Freedom Under God",
     "Committee to Proclaim Liberty",
@@ -144,6 +150,12 @@
       "part": 2,
       "at": "00:35:39",
       "note": "Legacy traced to Skousen pocket constitutions and the 2016 Malheur occupation"
+    },
+    {
+      "facet": "content_mentions",
+      "part": 1,
+      "at": "00:31:12",
+      "note": "Joking aside about a figure who covered up sexual harassment"
     }
   ],
   "notes": "Primary is the ideology/campaign rather than Fifield, since the story centres on the business-clergy alliance and covers only Fifield's 1935-1957 career, so roles stay empty. The opening on Gilded Age labor and 1890-1930 Christian socialists is treated as background, not covered years. Jasper Crane and Billy Graham left as keywords because of the five-subject cap."
